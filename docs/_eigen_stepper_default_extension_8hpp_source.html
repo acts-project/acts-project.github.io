@@ -193,7 +193,7 @@ $(function(){initNavTree('_eigen_stepper_default_extension_8hpp_source.html','',
 <div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    <span class="keyword">auto</span> p = stepper.absoluteMomentum(state);</div>
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>    <span class="keyword">auto</span> dtds = <a class="code hl_function" href="namespace_acts.html#a370de2c1bb43783346d4a3cbc749dcd3">fastHypot</a>(1, m / p);</div>
 <div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>    state.pars[eFreeTime] += h * dtds;</div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    <span class="keywordflow">if</span> (state.covTransport) {</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    <span class="keywordflow">if</span> (state.cov.has_value()) {</div>
 <div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>      state.derivative(3) = dtds;</div>
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>    }</div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>  }</div>

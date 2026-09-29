@@ -145,9 +145,6 @@ Public Types</h2></td></tr>
 <tr class="memitem:ab52fe6b7180cf06c503bb826905d8f17" id="r_ab52fe6b7180cf06c503bb826905d8f17"><td class="memItemLeft" align="right" valign="top"><a id="ab52fe6b7180cf06c503bb826905d8f17" name="ab52fe6b7180cf06c503bb826905d8f17"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>BoundParameters</b> = <a class="el" href="class_acts_1_1_bound_track_parameters.html">BoundTrackParameters</a></td></tr>
 <tr class="memdesc:ab52fe6b7180cf06c503bb826905d8f17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for bound track parameters. <br /></td></tr>
-<tr class="memitem:af418bc1f2c6a010237eb9f2885535e3c" id="r_af418bc1f2c6a010237eb9f2885535e3c"><td class="memItemLeft" align="right" valign="top"><a id="af418bc1f2c6a010237eb9f2885535e3c" name="af418bc1f2c6a010237eb9f2885535e3c"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>BoundState</b> = std::tuple&lt;<a class="el" href="#ab52fe6b7180cf06c503bb826905d8f17">BoundParameters</a>, <a class="el" href="#abfeeb7e97e877a18eb247217bd2d0caf">Jacobian</a>, double&gt;</td></tr>
-<tr class="memdesc:af418bc1f2c6a010237eb9f2885535e3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for bound state (parameters, jacobian, path length). <br /></td></tr>
 <tr class="memitem:a0621e44f0f27a4e6464a3e378f7f88a4" id="r_a0621e44f0f27a4e6464a3e378f7f88a4"><td class="memItemLeft" align="right" valign="top"><a id="a0621e44f0f27a4e6464a3e378f7f88a4" name="a0621e44f0f27a4e6464a3e378f7f88a4"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>Covariance</b> = <a class="el" href="namespace_acts.html#aec0a40be468eddaf61a46560269bd97e">BoundMatrix</a></td></tr>
 <tr class="memdesc:a0621e44f0f27a4e6464a3e378f7f88a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for covariance matrix. <br /></td></tr>
@@ -163,18 +160,22 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a46bb98d17148584df91f6eb32d92da4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct AtlasStepper with magnetic field provider.  <br /></td></tr>
 <tr class="memitem:a141b82019d154f6f70f09221ba6c7339" id="r_a141b82019d154f6f70f09221ba6c7339"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a141b82019d154f6f70f09221ba6c7339">absoluteMomentum</a> (const <a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:a141b82019d154f6f70f09221ba6c7339"><td class="mdescLeft">&#160;</td><td class="mdescRight">Absolute momentum accessor.  <br /></td></tr>
-<tr class="memitem:af87ac8a05d8ea284db9094cdb5713857" id="r_af87ac8a05d8ea284db9094cdb5713857"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#af418bc1f2c6a010237eb9f2885535e3c">BoundState</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af87ac8a05d8ea284db9094cdb5713857">boundState</a> (<a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, bool transportCov=true, const FreeToBoundCorrection &amp;freeToBoundCorrection=FreeToBoundCorrection(false)) const</td></tr>
-<tr class="memdesc:af87ac8a05d8ea284db9094cdb5713857"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create and return the bound state at the current position.  <br /></td></tr>
+<tr class="memitem:a377cfc4f624c54e7f58fdae06d2180d9" id="r_a377cfc4f624c54e7f58fdae06d2180d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#ab52fe6b7180cf06c503bb826905d8f17">BoundParameters</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a377cfc4f624c54e7f58fdae06d2180d9">boundParameters</a> (const <a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface) const</td></tr>
+<tr class="memdesc:a377cfc4f624c54e7f58fdae06d2180d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the bound parameters at the current position.  <br /></td></tr>
 <tr class="memitem:a517f578beb8a42e6311c4702ffb310ee" id="r_a517f578beb8a42e6311c4702ffb310ee"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a517f578beb8a42e6311c4702ffb310ee">charge</a> (const <a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:a517f578beb8a42e6311c4702ffb310ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Charge access.  <br /></td></tr>
-<tr class="memitem:a38b98271196903e4a25d818482cde2ce" id="r_a38b98271196903e4a25d818482cde2ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#af418bc1f2c6a010237eb9f2885535e3c">BoundState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38b98271196903e4a25d818482cde2ce">curvilinearState</a> (<a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state, bool transportCov=true) const</td></tr>
-<tr class="memdesc:a38b98271196903e4a25d818482cde2ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create and return a curvilinear state at the current position.  <br /></td></tr>
+<tr class="memitem:a5d4ea1de64b590907a5196c23c82ca63" id="r_a5d4ea1de64b590907a5196c23c82ca63"><td class="memItemLeft" align="right" valign="top">const std::optional&lt; <a class="el" href="#a0621e44f0f27a4e6464a3e378f7f88a4">Covariance</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d4ea1de64b590907a5196c23c82ca63">covariance</a> (const <a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
+<tr class="memdesc:a5d4ea1de64b590907a5196c23c82ca63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the covariance at the anchor.  <br /></td></tr>
+<tr class="memitem:a1f930e21f0fed8b06ac53332aed350ea" id="r_a1f930e21f0fed8b06ac53332aed350ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ab52fe6b7180cf06c503bb826905d8f17">BoundParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f930e21f0fed8b06ac53332aed350ea">curvilinearParameters</a> (const <a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
+<tr class="memdesc:a1f930e21f0fed8b06ac53332aed350ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the curvilinear parameters at the current position.  <br /></td></tr>
 <tr class="memitem:aba6f026f3fccc9472e957dad018d72aa" id="r_aba6f026f3fccc9472e957dad018d72aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba6f026f3fccc9472e957dad018d72aa">direction</a> (const <a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:aba6f026f3fccc9472e957dad018d72aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get particle direction from stepper state.  <br /></td></tr>
 <tr class="memitem:aa6d9b1de6416f5fbfbbf1bcc8d4290b6" id="r_aa6d9b1de6416f5fbfbbf1bcc8d4290b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6d9b1de6416f5fbfbbf1bcc8d4290b6">getField</a> (<a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;pos) const</td></tr>
 <tr class="memdesc:aa6d9b1de6416f5fbfbbf1bcc8d4290b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the field for the stepping It checks first if the access is still within the Cell, and updates the cell if necessary, then it takes the field from the cell.  <br /></td></tr>
 <tr class="memitem:a401b7be5e93e875f3c6bcd8a1bd720b4" id="r_a401b7be5e93e875f3c6bcd8a1bd720b4"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a401b7be5e93e875f3c6bcd8a1bd720b4">getStepSize</a> (const <a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state, <a class="el" href="class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5">ConstrainedStep::Type</a> stype) const</td></tr>
 <tr class="memdesc:a401b7be5e93e875f3c6bcd8a1bd720b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the step size.  <br /></td></tr>
+<tr class="memitem:ae9a5c6ec3b0b0f5189a549a809195d5b" id="r_ae9a5c6ec3b0b0f5189a549a809195d5b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9a5c6ec3b0b0f5189a549a809195d5b">hasCovariance</a> (const <a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
+<tr class="memdesc:ae9a5c6ec3b0b0f5189a549a809195d5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the state carries a covariance.  <br /></td></tr>
 <tr class="memitem:aa0c8b6a76f0f18af0bc0da689e9ab1a9" id="r_aa0c8b6a76f0f18af0bc0da689e9ab1a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0c8b6a76f0f18af0bc0da689e9ab1a9">initialize</a> (<a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="#ab52fe6b7180cf06c503bb826905d8f17">BoundParameters</a> &amp;par) const</td></tr>
 <tr class="memdesc:aa0c8b6a76f0f18af0bc0da689e9ab1a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize stepper state from bound track parameters.  <br /></td></tr>
 <tr class="memitem:a8e5b22dc244a6be994a41604f8e81667" id="r_a8e5b22dc244a6be994a41604f8e81667"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e5b22dc244a6be994a41604f8e81667">initialize</a> (<a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="namespace_acts.html#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &amp;boundParams, const std::optional&lt; <a class="el" href="namespace_acts.html#aec0a40be468eddaf61a46560269bd97e">BoundMatrix</a> &gt; &amp;cov, <a class="el" href="class_acts_1_1_particle_hypothesis.html">ParticleHypothesis</a> <a class="el" href="#aa4a92814e4ecb974b156a3ab63af9dfa">particleHypothesis</a>, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface) const</td></tr>
@@ -189,29 +190,37 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ae4eb08c28db5b240e1d5c29547e2ab87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overstep limit.  <br /></td></tr>
 <tr class="memitem:aa4a92814e4ecb974b156a3ab63af9dfa" id="r_aa4a92814e4ecb974b156a3ab63af9dfa"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_particle_hypothesis.html">ParticleHypothesis</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4a92814e4ecb974b156a3ab63af9dfa">particleHypothesis</a> (const <a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:aa4a92814e4ecb974b156a3ab63af9dfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Particle hypothesis.  <br /></td></tr>
+<tr class="memitem:a821d0b05c6c52cf468849cdd3ab38585" id="r_a821d0b05c6c52cf468849cdd3ab38585"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a821d0b05c6c52cf468849cdd3ab38585">pathLength</a> (const <a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
+<tr class="memdesc:a821d0b05c6c52cf468849cdd3ab38585"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the path length.  <br /></td></tr>
 <tr class="memitem:a6af686bb9b04d73a69bbc23ae7173d93" id="r_a6af686bb9b04d73a69bbc23ae7173d93"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6af686bb9b04d73a69bbc23ae7173d93">position</a> (const <a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:a6af686bb9b04d73a69bbc23ae7173d93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get particle position from stepper state.  <br /></td></tr>
 <tr class="memitem:a59acde84d6ca056d319fa0eae0d2de3c" id="r_a59acde84d6ca056d319fa0eae0d2de3c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59acde84d6ca056d319fa0eae0d2de3c">prepareCurvilinearState</a> (<a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
-<tr class="memdesc:a59acde84d6ca056d319fa0eae0d2de3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">If necessary fill additional members needed for curvilinearState.  <br /></td></tr>
+<tr class="memdesc:a59acde84d6ca056d319fa0eae0d2de3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">If necessary fill additional members needed for transportToCurvilinear.  <br /></td></tr>
 <tr class="memitem:ad23f9bbbae7b31bc98776ce07691de5c" id="r_ad23f9bbbae7b31bc98776ce07691de5c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad23f9bbbae7b31bc98776ce07691de5c">qOverP</a> (const <a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:ad23f9bbbae7b31bc98776ce07691de5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get charge over momentum from stepper state.  <br /></td></tr>
 <tr class="memitem:a33d357292ca85d648b04f53016cad0e0" id="r_a33d357292ca85d648b04f53016cad0e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33d357292ca85d648b04f53016cad0e0">releaseStepSize</a> (<a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state, <a class="el" href="class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5">ConstrainedStep::Type</a> stype) const</td></tr>
 <tr class="memdesc:a33d357292ca85d648b04f53016cad0e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release the Step size.  <br /></td></tr>
+<tr class="memitem:a3e5ff4ab816f5d73be5ee34e2de4015b" id="r_a3e5ff4ab816f5d73be5ee34e2de4015b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e5ff4ab816f5d73be5ee34e2de4015b">setCovariance</a> (<a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="#a0621e44f0f27a4e6464a3e378f7f88a4">Covariance</a> &amp;<a class="el" href="#a5d4ea1de64b590907a5196c23c82ca63">covariance</a>) const</td></tr>
+<tr class="memdesc:a3e5ff4ab816f5d73be5ee34e2de4015b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the covariance at the anchor.  <br /></td></tr>
+<tr class="memitem:ada3d02eaa52a420c1cd2a356b9ee3602" id="r_ada3d02eaa52a420c1cd2a356b9ee3602"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_acts_1_1_stepper_statistics.html">StepperStatistics</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada3d02eaa52a420c1cd2a356b9ee3602">statistics</a> (const <a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
+<tr class="memdesc:ada3d02eaa52a420c1cd2a356b9ee3602"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the stepper statistics.  <br /></td></tr>
 <tr class="memitem:a3c050c88cae4bc6c7534ed3309d8ce1a" id="r_a3c050c88cae4bc6c7534ed3309d8ce1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c050c88cae4bc6c7534ed3309d8ce1a">step</a> (<a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state, <a class="el" href="class_acts_1_1_direction.html">Direction</a> propDir, const <a class="el" href="class_acts_1_1_i_volume_material.html">IVolumeMaterial</a> *material) const</td></tr>
 <tr class="memdesc:a3c050c88cae4bc6c7534ed3309d8ce1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform the actual step on the state.  <br /></td></tr>
+<tr class="memitem:a7ac4f7741f7c649485bea815bfc7848e" id="r_a7ac4f7741f7c649485bea815bfc7848e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_constrained_step.html">ConstrainedStep</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ac4f7741f7c649485bea815bfc7848e">stepSize</a> (const <a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
+<tr class="memdesc:a7ac4f7741f7c649485bea815bfc7848e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the step size constraints.  <br /></td></tr>
 <tr class="memitem:a5567385ad6523ef252f2ac222074c280" id="r_a5567385ad6523ef252f2ac222074c280"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5567385ad6523ef252f2ac222074c280">time</a> (const <a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:a5567385ad6523ef252f2ac222074c280"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time access.  <br /></td></tr>
-<tr class="memitem:a1796f6b18fb4d3abb355b5df39d8df90" id="r_a1796f6b18fb4d3abb355b5df39d8df90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1796f6b18fb4d3abb355b5df39d8df90">transportCovarianceToBound</a> (<a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, const FreeToBoundCorrection &amp;=FreeToBoundCorrection(false)) const</td></tr>
-<tr class="memdesc:a1796f6b18fb4d3abb355b5df39d8df90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method for on-demand transport of the covariance to a new curvilinear frame at current position, or direction of the state.  <br /></td></tr>
-<tr class="memitem:a64ac7d24b6ab44a7c960785ad0df45fd" id="r_a64ac7d24b6ab44a7c960785ad0df45fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64ac7d24b6ab44a7c960785ad0df45fd">transportCovarianceToCurvilinear</a> (<a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
-<tr class="memdesc:a64ac7d24b6ab44a7c960785ad0df45fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method for on-demand transport of the covariance to a new curvilinear frame at current position, or direction of the state.  <br /></td></tr>
-<tr class="memitem:a2db1084885c61cabb7a8ae41a5eeb480" id="r_a2db1084885c61cabb7a8ae41a5eeb480"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2db1084885c61cabb7a8ae41a5eeb480">update</a> (<a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="namespace_acts.html#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a> &amp;parameters, const <a class="el" href="namespace_acts.html#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &amp;boundParams, const <a class="el" href="#a0621e44f0f27a4e6464a3e378f7f88a4">Covariance</a> &amp;covariance, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface) const</td></tr>
+<tr class="memitem:a8ed9b837bf17f713fe4bb95de4dd119d" id="r_a8ed9b837bf17f713fe4bb95de4dd119d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#abfeeb7e97e877a18eb247217bd2d0caf">Jacobian</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ed9b837bf17f713fe4bb95de4dd119d">transportToBound</a> (<a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, const FreeToBoundCorrection &amp;=FreeToBoundCorrection(false)) const</td></tr>
+<tr class="memdesc:a8ed9b837bf17f713fe4bb95de4dd119d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transport the covariance to a surface at the current position.  <br /></td></tr>
+<tr class="memitem:a352a04b02eb1a187e5ac9c0e5bbd5be3" id="r_a352a04b02eb1a187e5ac9c0e5bbd5be3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#abfeeb7e97e877a18eb247217bd2d0caf">Jacobian</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a352a04b02eb1a187e5ac9c0e5bbd5be3">transportToCurvilinear</a> (<a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
+<tr class="memdesc:a352a04b02eb1a187e5ac9c0e5bbd5be3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transport the covariance to the curvilinear frame at the current position.  <br /></td></tr>
+<tr class="memitem:a2db1084885c61cabb7a8ae41a5eeb480" id="r_a2db1084885c61cabb7a8ae41a5eeb480"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2db1084885c61cabb7a8ae41a5eeb480">update</a> (<a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="namespace_acts.html#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a> &amp;parameters, const <a class="el" href="namespace_acts.html#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &amp;boundParams, const <a class="el" href="#a0621e44f0f27a4e6464a3e378f7f88a4">Covariance</a> &amp;<a class="el" href="#a5d4ea1de64b590907a5196c23c82ca63">covariance</a>, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface) const</td></tr>
 <tr class="memdesc:a2db1084885c61cabb7a8ae41a5eeb480"><td class="mdescLeft">&#160;</td><td class="mdescRight">The state update method.  <br /></td></tr>
 <tr class="memitem:ae685ac7af45b27799cab2a22fe2cca34" id="r_ae685ac7af45b27799cab2a22fe2cca34"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae685ac7af45b27799cab2a22fe2cca34">update</a> (<a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;uposition, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;udirection, double qop, double <a class="el" href="#a5567385ad6523ef252f2ac222074c280">time</a>) const</td></tr>
 <tr class="memdesc:ae685ac7af45b27799cab2a22fe2cca34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to update momentum, direction and p.  <br /></td></tr>
 <tr class="memitem:a4202d2ac654fa9749f8b71b64dceb0e0" id="r_a4202d2ac654fa9749f8b71b64dceb0e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4202d2ac654fa9749f8b71b64dceb0e0">updateStepSize</a> (<a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="class_acts_1_1_navigation_target.html">NavigationTarget</a> &amp;target, <a class="el" href="class_acts_1_1_direction.html">Direction</a> <a class="el" href="#aba6f026f3fccc9472e957dad018d72aa">direction</a>, <a class="el" href="class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5">ConstrainedStep::Type</a> stype) const</td></tr>
 <tr class="memdesc:a4202d2ac654fa9749f8b71b64dceb0e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update step size.  <br /></td></tr>
-<tr class="memitem:a1f388f63bebb6b3643499b0c6f433b5f" id="r_a1f388f63bebb6b3643499b0c6f433b5f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f388f63bebb6b3643499b0c6f433b5f">updateStepSize</a> (<a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state, double stepSize, <a class="el" href="class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5">ConstrainedStep::Type</a> stype) const</td></tr>
+<tr class="memitem:a1f388f63bebb6b3643499b0c6f433b5f" id="r_a1f388f63bebb6b3643499b0c6f433b5f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f388f63bebb6b3643499b0c6f433b5f">updateStepSize</a> (<a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state, double <a class="el" href="#a7ac4f7741f7c649485bea815bfc7848e">stepSize</a>, <a class="el" href="class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5">ConstrainedStep::Type</a> stype) const</td></tr>
 <tr class="memdesc:a1f388f63bebb6b3643499b0c6f433b5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update step size - explicitly with a double.  <br /></td></tr>
 <tr class="memitem:a70062f5ed54888f7e130f1af0568ee2a" id="r_a70062f5ed54888f7e130f1af0568ee2a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a52191edec34daa17746d1937fb06c1fb">IntersectionStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70062f5ed54888f7e130f1af0568ee2a">updateSurfaceStatus</a> (<a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, std::uint8_t index, <a class="el" href="class_acts_1_1_direction.html">Direction</a> navDir, const <a class="el" href="class_acts_1_1_boundary_tolerance.html">BoundaryTolerance</a> &amp;boundaryTolerance, double surfaceTolerance, <a class="el" href="class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5">ConstrainedStep::Type</a> stype, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">getDummyLogger</a>()) const</td></tr>
 <tr class="memdesc:a70062f5ed54888f7e130f1af0568ee2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update surface status.  <br /></td></tr>
@@ -313,51 +322,35 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="af87ac8a05d8ea284db9094cdb5713857" name="af87ac8a05d8ea284db9094cdb5713857"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af87ac8a05d8ea284db9094cdb5713857">&#9670;&#160;</a></span>boundState()</h2>
+<a id="a377cfc4f624c54e7f58fdae06d2180d9" name="a377cfc4f624c54e7f58fdae06d2180d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a377cfc4f624c54e7f58fdae06d2180d9">&#9670;&#160;</a></span>boundParameters()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#af418bc1f2c6a010237eb9f2885535e3c">BoundState</a> &gt; Acts::AtlasStepper::boundState </td>
+          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#ab52fe6b7180cf06c503bb826905d8f17">BoundParameters</a> &gt; Acts::AtlasStepper::boundParameters </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>surface</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>transportCov</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const FreeToBoundCorrection &amp;</td>          <td class="paramname"><span class="paramname"><em>freeToBoundCorrection</em></span><span class="paramdefsep"> = </span><span class="paramdefval">FreeToBoundCorrection(false)</span>&#160;) const</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>surface</em></span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Create and return the bound state at the current position. </p>
+<p>Get the bound parameters at the current position. </p>
+<p>The parameters carry the covariance at the anchor if the state has one.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">state</td><td>State that will be presented as <code>BoundState</code> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">surface</td><td>The surface to which we bind the state </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">transportCov</td><td>Flag steering covariance transport </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">freeToBoundCorrection</td><td>Correction for non-linearity effect during transform from free to bound</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">state</td><td>The stepping state (thread-local cache) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">surface</td><td>The surface of the parameters </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>A bound state:<ul>
-<li>the parameters at the surface</li>
-<li>the stepwise jacobian towards it</li>
-<li>and the path length (from start - for ordering) </li>
-</ul>
-</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The bound parameters, or a failure if the position cannot be expressed on <code class="param">surface</code> </dd></dl>
 
 </div>
 </div>
@@ -387,39 +380,57 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a38b98271196903e4a25d818482cde2ce" name="a38b98271196903e4a25d818482cde2ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38b98271196903e4a25d818482cde2ce">&#9670;&#160;</a></span>curvilinearState()</h2>
+<a id="a5d4ea1de64b590907a5196c23c82ca63" name="a5d4ea1de64b590907a5196c23c82ca63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d4ea1de64b590907a5196c23c82ca63">&#9670;&#160;</a></span>covariance()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#af418bc1f2c6a010237eb9f2885535e3c">BoundState</a> Acts::AtlasStepper::curvilinearState </td>
+          <td class="memname">const std::optional&lt; <a class="el" href="#a0621e44f0f27a4e6464a3e378f7f88a4">Covariance</a> &gt; &amp; Acts::AtlasStepper::covariance </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>transportCov</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;) const</td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Create and return a curvilinear state at the current position. </p>
+<p>Get the covariance at the anchor. </p>
+<p>The anchor is the frame of the last initialization, transport or update.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">state</td><td>State that will be presented as <code>CurvilinearState</code> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">transportCov</td><td>Flag steering covariance transport</td></tr>
+    <tr><td class="paramname">state</td><td>[in] The stepping state (thread-local cache) </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>A curvilinear state:<ul>
-<li>the curvilinear parameters at given position</li>
-<li>the stepweise jacobian towards it</li>
-<li>and the path length (from start - for ordering) </li>
-</ul>
-</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The covariance at the anchor, or no value if the state does not carry a covariance </dd></dl>
+
+</div>
+</div>
+<a id="a1f930e21f0fed8b06ac53332aed350ea" name="a1f930e21f0fed8b06ac53332aed350ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f930e21f0fed8b06ac53332aed350ea">&#9670;&#160;</a></span>curvilinearParameters()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ab52fe6b7180cf06c503bb826905d8f17">BoundParameters</a> Acts::AtlasStepper::curvilinearParameters </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the curvilinear parameters at the current position. </p>
+<p>The parameters carry the covariance at the anchor if the state has one.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">state</td><td>The stepping state (thread-local cache) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The curvilinear parameters </dd></dl>
 
 </div>
 </div>
@@ -508,6 +519,32 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Current step size for the specified constraint type </dd></dl>
+
+</div>
+</div>
+<a id="ae9a5c6ec3b0b0f5189a549a809195d5b" name="ae9a5c6ec3b0b0f5189a549a809195d5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9a5c6ec3b0b0f5189a549a809195d5b">&#9670;&#160;</a></span>hasCovariance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Acts::AtlasStepper::hasCovariance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check if the state carries a covariance. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">state</td><td>[in] The stepping state (thread-local cache) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the covariance is transported </dd></dl>
 
 </div>
 </div>
@@ -713,6 +750,32 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a821d0b05c6c52cf468849cdd3ab38585" name="a821d0b05c6c52cf468849cdd3ab38585"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a821d0b05c6c52cf468849cdd3ab38585">&#9670;&#160;</a></span>pathLength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Acts::AtlasStepper::pathLength </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the path length. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">state</td><td>[in] The stepping state (thread-local cache) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The path length since the last initialization </dd></dl>
+
+</div>
+</div>
 <a id="a6af686bb9b04d73a69bbc23ae7173d93" name="a6af686bb9b04d73a69bbc23ae7173d93"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6af686bb9b04d73a69bbc23ae7173d93">&#9670;&#160;</a></span>position()</h2>
 
@@ -754,7 +817,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>If necessary fill additional members needed for curvilinearState. </p>
+<p>If necessary fill additional members needed for transportToCurvilinear. </p>
 <p>Compute path length derivatives in case they have not been computed yet, which is the case if no step has been executed yet.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -822,6 +885,69 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a3e5ff4ab816f5d73be5ee34e2de4015b" name="a3e5ff4ab816f5d73be5ee34e2de4015b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e5ff4ab816f5d73be5ee34e2de4015b">&#9670;&#160;</a></span>setCovariance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Acts::AtlasStepper::setCovariance </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a0621e44f0f27a4e6464a3e378f7f88a4">Covariance</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>covariance</em></span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the covariance at the anchor. </p>
+<p>The state must already carry a covariance, because the stepper only transports the Jacobian while it has one.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">state</td><td>The stepping state (thread-local cache) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">covariance</td><td>The new covariance at the anchor </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::logic_error</td><td>if the state does not carry a covariance </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ada3d02eaa52a420c1cd2a356b9ee3602" name="ada3d02eaa52a420c1cd2a356b9ee3602"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada3d02eaa52a420c1cd2a356b9ee3602">&#9670;&#160;</a></span>statistics()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="struct_acts_1_1_stepper_statistics.html">StepperStatistics</a> &amp; Acts::AtlasStepper::statistics </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the stepper statistics. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">state</td><td>[in] The stepping state (thread-local cache) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The statistics since the last initialization </dd></dl>
+
+</div>
+</div>
 <a id="a3c050c88cae4bc6c7534ed3309d8ce1a" name="a3c050c88cae4bc6c7534ed3309d8ce1a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3c050c88cae4bc6c7534ed3309d8ce1a">&#9670;&#160;</a></span>step()</h2>
 
@@ -860,6 +986,32 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a7ac4f7741f7c649485bea815bfc7848e" name="a7ac4f7741f7c649485bea815bfc7848e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ac4f7741f7c649485bea815bfc7848e">&#9670;&#160;</a></span>stepSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_acts_1_1_constrained_step.html">ConstrainedStep</a> &amp; Acts::AtlasStepper::stepSize </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the step size constraints. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">state</td><td>[in] The stepping state (thread-local cache) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The step size constraints </dd></dl>
+
+</div>
+</div>
 <a id="a5567385ad6523ef252f2ac222074c280" name="a5567385ad6523ef252f2ac222074c280"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5567385ad6523ef252f2ac222074c280">&#9670;&#160;</a></span>time()</h2>
 
@@ -886,14 +1038,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a1796f6b18fb4d3abb355b5df39d8df90" name="a1796f6b18fb4d3abb355b5df39d8df90"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1796f6b18fb4d3abb355b5df39d8df90">&#9670;&#160;</a></span>transportCovarianceToBound()</h2>
+<a id="a8ed9b837bf17f713fe4bb95de4dd119d" name="a8ed9b837bf17f713fe4bb95de4dd119d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ed9b837bf17f713fe4bb95de4dd119d">&#9670;&#160;</a></span>transportToBound()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt; Acts::AtlasStepper::transportCovarianceToBound </td>
+          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#abfeeb7e97e877a18eb247217bd2d0caf">Jacobian</a> &gt; Acts::AtlasStepper::transportToBound </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span>, </td>
         </tr>
@@ -910,26 +1062,27 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Method for on-demand transport of the covariance to a new curvilinear frame at current position, or direction of the state. </p>
+<p>Transport the covariance to a surface at the current position. </p>
+<p>This anchors the state on <code class="param">surface</code>. Without a covariance the state does not change. The state must be on <code class="param">surface</code>, and it stays unchanged if it is not.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">state</td><td>State of the stepper </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">surface</td><td>is the surface to which the covariance is forwarded to </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">surface</td><td>The surface to transport the covariance to </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Failure if the parameters cannot be expressed on the surface </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The jacobian from the previous anchor to <code class="param">surface</code>, or a failure if the state is not on <code class="param">surface</code> </dd></dl>
 
 </div>
 </div>
-<a id="a64ac7d24b6ab44a7c960785ad0df45fd" name="a64ac7d24b6ab44a7c960785ad0df45fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a64ac7d24b6ab44a7c960785ad0df45fd">&#9670;&#160;</a></span>transportCovarianceToCurvilinear()</h2>
+<a id="a352a04b02eb1a187e5ac9c0e5bbd5be3" name="a352a04b02eb1a187e5ac9c0e5bbd5be3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a352a04b02eb1a187e5ac9c0e5bbd5be3">&#9670;&#160;</a></span>transportToCurvilinear()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Acts::AtlasStepper::transportCovarianceToCurvilinear </td>
+          <td class="memname"><a class="el" href="#abfeeb7e97e877a18eb247217bd2d0caf">Jacobian</a> Acts::AtlasStepper::transportToCurvilinear </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span></td><td>)</td>
           <td> const</td>
@@ -937,13 +1090,15 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Method for on-demand transport of the covariance to a new curvilinear frame at current position, or direction of the state. </p>
+<p>Transport the covariance to the curvilinear frame at the current position. </p>
+<p>This anchors the state on the curvilinear frame. Without a covariance the state does not change.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">state</td><td>State of the stepper </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The jacobian from the previous anchor to the curvilinear frame </dd></dl>
 
 </div>
 </div>

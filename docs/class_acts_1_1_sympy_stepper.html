@@ -150,9 +150,6 @@ Public Types</h2></td></tr>
 <tr class="memitem:a159502df103dd6ebb0c63d4321960d6a" id="r_a159502df103dd6ebb0c63d4321960d6a"><td class="memItemLeft" align="right" valign="top"><a id="a159502df103dd6ebb0c63d4321960d6a" name="a159502df103dd6ebb0c63d4321960d6a"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>BoundParameters</b> = <a class="el" href="class_acts_1_1_bound_track_parameters.html">BoundTrackParameters</a></td></tr>
 <tr class="memdesc:a159502df103dd6ebb0c63d4321960d6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for bound track parameters. <br /></td></tr>
-<tr class="memitem:ad7265483e3de242202fea6f6e4aa8ad6" id="r_ad7265483e3de242202fea6f6e4aa8ad6"><td class="memItemLeft" align="right" valign="top"><a id="ad7265483e3de242202fea6f6e4aa8ad6" name="ad7265483e3de242202fea6f6e4aa8ad6"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>BoundState</b> = std::tuple&lt;<a class="el" href="#a159502df103dd6ebb0c63d4321960d6a">BoundParameters</a>, <a class="el" href="#a8826040bfa95929033396097ceb33673">Jacobian</a>, double&gt;</td></tr>
-<tr class="memdesc:ad7265483e3de242202fea6f6e4aa8ad6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bound state tuple containing parameters, Jacobian, and path length. <br /></td></tr>
 <tr class="memitem:a345d6791e09cd24d1838489e59792254" id="r_a345d6791e09cd24d1838489e59792254"><td class="memItemLeft" align="right" valign="top"><a id="a345d6791e09cd24d1838489e59792254" name="a345d6791e09cd24d1838489e59792254"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>Covariance</b> = <a class="el" href="namespace_acts.html#aec0a40be468eddaf61a46560269bd97e">BoundMatrix</a></td></tr>
 <tr class="memdesc:a345d6791e09cd24d1838489e59792254"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for covariance matrix. <br /></td></tr>
@@ -168,18 +165,22 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a4e3f712290f4e8c9ceb28141bf01a8b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor requires knowledge of the detector's magnetic field.  <br /></td></tr>
 <tr class="memitem:a362597fa196c57f6f08292cb168f71b2" id="r_a362597fa196c57f6f08292cb168f71b2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a362597fa196c57f6f08292cb168f71b2">absoluteMomentum</a> (const <a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:a362597fa196c57f6f08292cb168f71b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Absolute momentum accessor.  <br /></td></tr>
-<tr class="memitem:a48fe6547d6023ec246f57bf68704aabc" id="r_a48fe6547d6023ec246f57bf68704aabc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#ad7265483e3de242202fea6f6e4aa8ad6">BoundState</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48fe6547d6023ec246f57bf68704aabc">boundState</a> (<a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, bool transportCov=true, const FreeToBoundCorrection &amp;freeToBoundCorrection=FreeToBoundCorrection(false)) const</td></tr>
-<tr class="memdesc:a48fe6547d6023ec246f57bf68704aabc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create and return the bound state at the current position.  <br /></td></tr>
+<tr class="memitem:a5992d8d06aa2e0a514e00b7ef9b736ec" id="r_a5992d8d06aa2e0a514e00b7ef9b736ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#a159502df103dd6ebb0c63d4321960d6a">BoundParameters</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5992d8d06aa2e0a514e00b7ef9b736ec">boundParameters</a> (const <a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface) const</td></tr>
+<tr class="memdesc:a5992d8d06aa2e0a514e00b7ef9b736ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the bound parameters at the current position.  <br /></td></tr>
 <tr class="memitem:ae36bd84dad3d0843c8dfcdf609dc295b" id="r_ae36bd84dad3d0843c8dfcdf609dc295b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae36bd84dad3d0843c8dfcdf609dc295b">charge</a> (const <a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:ae36bd84dad3d0843c8dfcdf609dc295b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Charge access.  <br /></td></tr>
-<tr class="memitem:a4390ba34f60a210b19ebed06e617d71b" id="r_a4390ba34f60a210b19ebed06e617d71b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ad7265483e3de242202fea6f6e4aa8ad6">BoundState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4390ba34f60a210b19ebed06e617d71b">curvilinearState</a> (<a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state, bool transportCov=true) const</td></tr>
-<tr class="memdesc:a4390ba34f60a210b19ebed06e617d71b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create and return a curvilinear state at the current position.  <br /></td></tr>
+<tr class="memitem:a76c86a0d1c57d434246ff3bbe5221252" id="r_a76c86a0d1c57d434246ff3bbe5221252"><td class="memItemLeft" align="right" valign="top">const std::optional&lt; <a class="el" href="#a345d6791e09cd24d1838489e59792254">Covariance</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76c86a0d1c57d434246ff3bbe5221252">covariance</a> (const <a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
+<tr class="memdesc:a76c86a0d1c57d434246ff3bbe5221252"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the covariance at the anchor.  <br /></td></tr>
+<tr class="memitem:a406649786e19909062379a0b7e8a426a" id="r_a406649786e19909062379a0b7e8a426a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a159502df103dd6ebb0c63d4321960d6a">BoundParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a406649786e19909062379a0b7e8a426a">curvilinearParameters</a> (const <a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
+<tr class="memdesc:a406649786e19909062379a0b7e8a426a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the curvilinear parameters at the current position.  <br /></td></tr>
 <tr class="memitem:a281571fe36f8a7120818011e4851a4a7" id="r_a281571fe36f8a7120818011e4851a4a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a281571fe36f8a7120818011e4851a4a7">direction</a> (const <a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:a281571fe36f8a7120818011e4851a4a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Momentum direction accessor.  <br /></td></tr>
 <tr class="memitem:ab11d40a7005aaf542214ac9c7dd25ebb" id="r_ab11d40a7005aaf542214ac9c7dd25ebb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab11d40a7005aaf542214ac9c7dd25ebb">getField</a> (<a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;pos) const</td></tr>
 <tr class="memdesc:ab11d40a7005aaf542214ac9c7dd25ebb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the field for the stepping, it checks first if the access is still within the Cell, and updates the cell if necessary.  <br /></td></tr>
 <tr class="memitem:af676c32b72033dd89f6f7a61b1721ef9" id="r_af676c32b72033dd89f6f7a61b1721ef9"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af676c32b72033dd89f6f7a61b1721ef9">getStepSize</a> (const <a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state, <a class="el" href="class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5">ConstrainedStep::Type</a> stype) const</td></tr>
 <tr class="memdesc:af676c32b72033dd89f6f7a61b1721ef9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the step size.  <br /></td></tr>
+<tr class="memitem:a852b1ea4d646361004d3de323d0133b4" id="r_a852b1ea4d646361004d3de323d0133b4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a852b1ea4d646361004d3de323d0133b4">hasCovariance</a> (const <a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
+<tr class="memdesc:a852b1ea4d646361004d3de323d0133b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the state carries a covariance.  <br /></td></tr>
 <tr class="memitem:a936bba35ede56ed2a8da0f43ed5b57ae" id="r_a936bba35ede56ed2a8da0f43ed5b57ae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a936bba35ede56ed2a8da0f43ed5b57ae">initialize</a> (<a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="#a159502df103dd6ebb0c63d4321960d6a">BoundParameters</a> &amp;par) const</td></tr>
 <tr class="memdesc:a936bba35ede56ed2a8da0f43ed5b57ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the state from bound track parameters.  <br /></td></tr>
 <tr class="memitem:a6f7ff251e1a9dc5e81a1492cff90857c" id="r_a6f7ff251e1a9dc5e81a1492cff90857c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f7ff251e1a9dc5e81a1492cff90857c">initialize</a> (<a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="namespace_acts.html#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &amp;boundParams, const std::optional&lt; <a class="el" href="namespace_acts.html#aec0a40be468eddaf61a46560269bd97e">BoundMatrix</a> &gt; &amp;cov, <a class="el" href="class_acts_1_1_particle_hypothesis.html">ParticleHypothesis</a> <a class="el" href="#a690a1d13e444e4f5905aa398b6c694ac">particleHypothesis</a>, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface) const</td></tr>
@@ -192,29 +193,37 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a73a899e4d932f0e9cf4542c0a2752b25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output the Step Size - single component.  <br /></td></tr>
 <tr class="memitem:a690a1d13e444e4f5905aa398b6c694ac" id="r_a690a1d13e444e4f5905aa398b6c694ac"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_particle_hypothesis.html">ParticleHypothesis</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a690a1d13e444e4f5905aa398b6c694ac">particleHypothesis</a> (const <a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:a690a1d13e444e4f5905aa398b6c694ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Particle hypothesis.  <br /></td></tr>
+<tr class="memitem:a66aa6ba4fe0d466872a07de7a8d75277" id="r_a66aa6ba4fe0d466872a07de7a8d75277"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66aa6ba4fe0d466872a07de7a8d75277">pathLength</a> (const <a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
+<tr class="memdesc:a66aa6ba4fe0d466872a07de7a8d75277"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the path length.  <br /></td></tr>
 <tr class="memitem:a45a0af2672b14a94a005270a71617587" id="r_a45a0af2672b14a94a005270a71617587"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45a0af2672b14a94a005270a71617587">position</a> (const <a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:a45a0af2672b14a94a005270a71617587"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global particle position accessor.  <br /></td></tr>
 <tr class="memitem:a04958978b62e1d55fa741f107e07da2b" id="r_a04958978b62e1d55fa741f107e07da2b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04958978b62e1d55fa741f107e07da2b">prepareCurvilinearState</a> (<a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
-<tr class="memdesc:a04958978b62e1d55fa741f107e07da2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">If necessary fill additional members needed for curvilinearState.  <br /></td></tr>
+<tr class="memdesc:a04958978b62e1d55fa741f107e07da2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">If necessary fill additional members needed for transportToCurvilinear.  <br /></td></tr>
 <tr class="memitem:a959b4675cc979671e91885bdd47f6ee4" id="r_a959b4675cc979671e91885bdd47f6ee4"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a959b4675cc979671e91885bdd47f6ee4">qOverP</a> (const <a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:a959b4675cc979671e91885bdd47f6ee4"><td class="mdescLeft">&#160;</td><td class="mdescRight">QoP direction accessor.  <br /></td></tr>
 <tr class="memitem:acdf9098e27d6607e355149d985242510" id="r_acdf9098e27d6607e355149d985242510"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acdf9098e27d6607e355149d985242510">releaseStepSize</a> (<a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state, <a class="el" href="class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5">ConstrainedStep::Type</a> stype) const</td></tr>
 <tr class="memdesc:acdf9098e27d6607e355149d985242510"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release the Step size.  <br /></td></tr>
+<tr class="memitem:a9d041735c3bb2fc1a6a1038032747372" id="r_a9d041735c3bb2fc1a6a1038032747372"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d041735c3bb2fc1a6a1038032747372">setCovariance</a> (<a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="#a345d6791e09cd24d1838489e59792254">Covariance</a> &amp;<a class="el" href="#a76c86a0d1c57d434246ff3bbe5221252">covariance</a>) const</td></tr>
+<tr class="memdesc:a9d041735c3bb2fc1a6a1038032747372"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the covariance at the anchor.  <br /></td></tr>
+<tr class="memitem:ad83d5ede8cb9348156b8dee7fb0f25a2" id="r_ad83d5ede8cb9348156b8dee7fb0f25a2"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_acts_1_1_stepper_statistics.html">StepperStatistics</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad83d5ede8cb9348156b8dee7fb0f25a2">statistics</a> (const <a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
+<tr class="memdesc:ad83d5ede8cb9348156b8dee7fb0f25a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the stepper statistics.  <br /></td></tr>
 <tr class="memitem:a16c2bd1c1a6e986bbff5996cc1ad2428" id="r_a16c2bd1c1a6e986bbff5996cc1ad2428"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16c2bd1c1a6e986bbff5996cc1ad2428">step</a> (<a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state, <a class="el" href="class_acts_1_1_direction.html">Direction</a> propDir, const <a class="el" href="class_acts_1_1_i_volume_material.html">IVolumeMaterial</a> *material) const</td></tr>
 <tr class="memdesc:a16c2bd1c1a6e986bbff5996cc1ad2428"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a Runge-Kutta track parameter propagation step.  <br /></td></tr>
+<tr class="memitem:a8c66c1a02f6ed8b47ddf1561d150b71d" id="r_a8c66c1a02f6ed8b47ddf1561d150b71d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_constrained_step.html">ConstrainedStep</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c66c1a02f6ed8b47ddf1561d150b71d">stepSize</a> (const <a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
+<tr class="memdesc:a8c66c1a02f6ed8b47ddf1561d150b71d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the step size constraints.  <br /></td></tr>
 <tr class="memitem:aef242d42e4d931ae6a453ca3c64db043" id="r_aef242d42e4d931ae6a453ca3c64db043"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef242d42e4d931ae6a453ca3c64db043">time</a> (const <a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:aef242d42e4d931ae6a453ca3c64db043"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time access.  <br /></td></tr>
-<tr class="memitem:a7d603586d08bd34a31440cd3e51d8865" id="r_a7d603586d08bd34a31440cd3e51d8865"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d603586d08bd34a31440cd3e51d8865">transportCovarianceToBound</a> (<a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, const FreeToBoundCorrection &amp;freeToBoundCorrection=FreeToBoundCorrection(false)) const</td></tr>
-<tr class="memdesc:a7d603586d08bd34a31440cd3e51d8865"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method for on-demand transport of the covariance to a new curvilinear frame at current position, or direction of the state.  <br /></td></tr>
-<tr class="memitem:a3edfc0c1e6e2ebb773ab3648a482f038" id="r_a3edfc0c1e6e2ebb773ab3648a482f038"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3edfc0c1e6e2ebb773ab3648a482f038">transportCovarianceToCurvilinear</a> (<a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
-<tr class="memdesc:a3edfc0c1e6e2ebb773ab3648a482f038"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method for on-demand transport of the covariance to a new curvilinear frame at current position, or direction of the state.  <br /></td></tr>
-<tr class="memitem:a1f8d0729765230f530eccc82d88182ba" id="r_a1f8d0729765230f530eccc82d88182ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f8d0729765230f530eccc82d88182ba">update</a> (<a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="namespace_acts.html#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a> &amp;freeParams, const <a class="el" href="namespace_acts.html#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &amp;boundParams, const <a class="el" href="#a345d6791e09cd24d1838489e59792254">Covariance</a> &amp;covariance, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface) const</td></tr>
+<tr class="memitem:aaf981711b4d659b57be1ceeb1f25c4aa" id="r_aaf981711b4d659b57be1ceeb1f25c4aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#a8826040bfa95929033396097ceb33673">Jacobian</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf981711b4d659b57be1ceeb1f25c4aa">transportToBound</a> (<a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, const FreeToBoundCorrection &amp;freeToBoundCorrection=FreeToBoundCorrection(false)) const</td></tr>
+<tr class="memdesc:aaf981711b4d659b57be1ceeb1f25c4aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transport the covariance to a surface at the current position.  <br /></td></tr>
+<tr class="memitem:a9673e32f273945ff404b5b6085054a2d" id="r_a9673e32f273945ff404b5b6085054a2d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a8826040bfa95929033396097ceb33673">Jacobian</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9673e32f273945ff404b5b6085054a2d">transportToCurvilinear</a> (<a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
+<tr class="memdesc:a9673e32f273945ff404b5b6085054a2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transport the covariance to the curvilinear frame at the current position.  <br /></td></tr>
+<tr class="memitem:a1f8d0729765230f530eccc82d88182ba" id="r_a1f8d0729765230f530eccc82d88182ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f8d0729765230f530eccc82d88182ba">update</a> (<a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="namespace_acts.html#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a> &amp;freeParams, const <a class="el" href="namespace_acts.html#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &amp;boundParams, const <a class="el" href="#a345d6791e09cd24d1838489e59792254">Covariance</a> &amp;<a class="el" href="#a76c86a0d1c57d434246ff3bbe5221252">covariance</a>, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface) const</td></tr>
 <tr class="memdesc:a1f8d0729765230f530eccc82d88182ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to update a stepper state to the some parameters.  <br /></td></tr>
 <tr class="memitem:ab8654c1135c1c325e78114d9b5cce978" id="r_ab8654c1135c1c325e78114d9b5cce978"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8654c1135c1c325e78114d9b5cce978">update</a> (<a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;uposition, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;udirection, double <a class="el" href="#a959b4675cc979671e91885bdd47f6ee4">qOverP</a>, double <a class="el" href="#aef242d42e4d931ae6a453ca3c64db043">time</a>) const</td></tr>
 <tr class="memdesc:ab8654c1135c1c325e78114d9b5cce978"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to update the stepper state.  <br /></td></tr>
 <tr class="memitem:a4b84ee228ded705c7b31fb58bc1e92a7" id="r_a4b84ee228ded705c7b31fb58bc1e92a7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b84ee228ded705c7b31fb58bc1e92a7">updateStepSize</a> (<a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="class_acts_1_1_navigation_target.html">NavigationTarget</a> &amp;target, <a class="el" href="class_acts_1_1_direction.html">Direction</a> <a class="el" href="#a281571fe36f8a7120818011e4851a4a7">direction</a>, <a class="el" href="class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5">ConstrainedStep::Type</a> stype) const</td></tr>
 <tr class="memdesc:a4b84ee228ded705c7b31fb58bc1e92a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update step size.  <br /></td></tr>
-<tr class="memitem:a6955d8085e0736f6cb82e8d9350706bc" id="r_a6955d8085e0736f6cb82e8d9350706bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6955d8085e0736f6cb82e8d9350706bc">updateStepSize</a> (<a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state, double stepSize, <a class="el" href="class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5">ConstrainedStep::Type</a> stype) const</td></tr>
+<tr class="memitem:a6955d8085e0736f6cb82e8d9350706bc" id="r_a6955d8085e0736f6cb82e8d9350706bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6955d8085e0736f6cb82e8d9350706bc">updateStepSize</a> (<a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state, double <a class="el" href="#a8c66c1a02f6ed8b47ddf1561d150b71d">stepSize</a>, <a class="el" href="class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5">ConstrainedStep::Type</a> stype) const</td></tr>
 <tr class="memdesc:a6955d8085e0736f6cb82e8d9350706bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update step size - explicitly with a double.  <br /></td></tr>
 <tr class="memitem:a035d309a555c211cc3a8b4308c1d4f4d" id="r_a035d309a555c211cc3a8b4308c1d4f4d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a52191edec34daa17746d1937fb06c1fb">IntersectionStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a035d309a555c211cc3a8b4308c1d4f4d">updateSurfaceStatus</a> (<a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, std::uint8_t index, <a class="el" href="class_acts_1_1_direction.html">Direction</a> navDir, const <a class="el" href="class_acts_1_1_boundary_tolerance.html">BoundaryTolerance</a> &amp;boundaryTolerance, double surfaceTolerance, <a class="el" href="class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5">ConstrainedStep::Type</a> stype, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">getDummyLogger</a>()) const</td></tr>
 <tr class="memdesc:a035d309a555c211cc3a8b4308c1d4f4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update surface status.  <br /></td></tr>
@@ -321,52 +330,36 @@ std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_magnetic_field_prov
 
 </div>
 </div>
-<a id="a48fe6547d6023ec246f57bf68704aabc" name="a48fe6547d6023ec246f57bf68704aabc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a48fe6547d6023ec246f57bf68704aabc">&#9670;&#160;</a></span>boundState()</h2>
+<a id="a5992d8d06aa2e0a514e00b7ef9b736ec" name="a5992d8d06aa2e0a514e00b7ef9b736ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5992d8d06aa2e0a514e00b7ef9b736ec">&#9670;&#160;</a></span>boundParameters()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#ad7265483e3de242202fea6f6e4aa8ad6">BoundState</a> &gt; Acts::SympyStepper::boundState </td>
+          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#a159502df103dd6ebb0c63d4321960d6a">BoundParameters</a> &gt; Acts::SympyStepper::boundParameters </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>surface</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>transportCov</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const FreeToBoundCorrection &amp;</td>          <td class="paramname"><span class="paramname"><em>freeToBoundCorrection</em></span><span class="paramdefsep"> = </span><span class="paramdefval">FreeToBoundCorrection(false)</span>&#160;) const</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>surface</em></span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Create and return the bound state at the current position. </p>
-<p>This transports (if necessary) the covariance to the surface and creates a bound state. It does not check if the transported state is at the surface, this needs to be guaranteed by the propagator</p>
+<p>Get the bound parameters at the current position. </p>
+<p>The parameters carry the covariance at the anchor if the state has one.</p>
+<dl class="section note"><dt>Note</dt><dd>It does not check if the state is on <code class="param">surface</code> or anchored on it</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">state</td><td>State that will be presented as <code>BoundState</code> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">surface</td><td>The surface to which we bind the state </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">transportCov</td><td>Flag steering covariance transport </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">freeToBoundCorrection</td><td>Correction for non-linearity effect during transform from free to bound</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">state</td><td>The stepping state (thread-local cache) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">surface</td><td>The surface of the parameters </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>A bound state:<ul>
-<li>the parameters at the surface</li>
-<li>the stepwise jacobian towards it (from last bound)</li>
-<li>and the path length (from start - for ordering) </li>
-</ul>
-</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The bound parameters, or a failure if the position cannot be expressed on <code class="param">surface</code> </dd></dl>
 
 </div>
 </div>
@@ -396,40 +389,57 @@ std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_magnetic_field_prov
 
 </div>
 </div>
-<a id="a4390ba34f60a210b19ebed06e617d71b" name="a4390ba34f60a210b19ebed06e617d71b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4390ba34f60a210b19ebed06e617d71b">&#9670;&#160;</a></span>curvilinearState()</h2>
+<a id="a76c86a0d1c57d434246ff3bbe5221252" name="a76c86a0d1c57d434246ff3bbe5221252"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76c86a0d1c57d434246ff3bbe5221252">&#9670;&#160;</a></span>covariance()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#ad7265483e3de242202fea6f6e4aa8ad6">BoundState</a> Acts::SympyStepper::curvilinearState </td>
+          <td class="memname">const std::optional&lt; <a class="el" href="#a345d6791e09cd24d1838489e59792254">Covariance</a> &gt; &amp; Acts::SympyStepper::covariance </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>transportCov</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;) const</td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Create and return a curvilinear state at the current position. </p>
-<p>This transports (if necessary) the covariance to the current position and creates a curvilinear state.</p>
+<p>Get the covariance at the anchor. </p>
+<p>The anchor is the frame of the last initialization, transport or update.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">state</td><td>State that will be presented as <code>CurvilinearState</code> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">transportCov</td><td>Flag steering covariance transport</td></tr>
+    <tr><td class="paramname">state</td><td>[in] The stepping state (thread-local cache) </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>A curvilinear state:<ul>
-<li>the curvilinear parameters at given position</li>
-<li>the stepweise jacobian towards it (from last bound)</li>
-<li>and the path length (from start - for ordering) </li>
-</ul>
-</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The covariance at the anchor, or no value if the state does not carry a covariance </dd></dl>
+
+</div>
+</div>
+<a id="a406649786e19909062379a0b7e8a426a" name="a406649786e19909062379a0b7e8a426a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a406649786e19909062379a0b7e8a426a">&#9670;&#160;</a></span>curvilinearParameters()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a159502df103dd6ebb0c63d4321960d6a">BoundParameters</a> Acts::SympyStepper::curvilinearParameters </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the curvilinear parameters at the current position. </p>
+<p>The parameters carry the covariance at the anchor if the state has one.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">state</td><td>The stepping state (thread-local cache) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The curvilinear parameters </dd></dl>
 
 </div>
 </div>
@@ -518,6 +528,32 @@ std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_magnetic_field_prov
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Step size </dd></dl>
+
+</div>
+</div>
+<a id="a852b1ea4d646361004d3de323d0133b4" name="a852b1ea4d646361004d3de323d0133b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a852b1ea4d646361004d3de323d0133b4">&#9670;&#160;</a></span>hasCovariance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Acts::SympyStepper::hasCovariance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check if the state carries a covariance. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">state</td><td>[in] The stepping state (thread-local cache) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the covariance is transported </dd></dl>
 
 </div>
 </div>
@@ -703,6 +739,32 @@ std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_magnetic_field_prov
 
 </div>
 </div>
+<a id="a66aa6ba4fe0d466872a07de7a8d75277" name="a66aa6ba4fe0d466872a07de7a8d75277"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66aa6ba4fe0d466872a07de7a8d75277">&#9670;&#160;</a></span>pathLength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Acts::SympyStepper::pathLength </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the path length. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">state</td><td>[in] The stepping state (thread-local cache) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The path length since the last initialization </dd></dl>
+
+</div>
+</div>
 <a id="a45a0af2672b14a94a005270a71617587" name="a45a0af2672b14a94a005270a71617587"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a45a0af2672b14a94a005270a71617587">&#9670;&#160;</a></span>position()</h2>
 
@@ -744,11 +806,11 @@ std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_magnetic_field_prov
       </table>
 </div><div class="memdoc">
 
-<p>If necessary fill additional members needed for curvilinearState. </p>
+<p>If necessary fill additional members needed for transportToCurvilinear. </p>
 <p>Compute path length derivatives in case they have not been computed yet, which is the case if no step has been executed yet.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">state</td><td>State of the stepper </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">state</td><td>The state of the stepper </td></tr>
   </table>
   </dd>
 </dl>
@@ -812,6 +874,69 @@ std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_magnetic_field_prov
 
 </div>
 </div>
+<a id="a9d041735c3bb2fc1a6a1038032747372" name="a9d041735c3bb2fc1a6a1038032747372"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d041735c3bb2fc1a6a1038032747372">&#9670;&#160;</a></span>setCovariance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Acts::SympyStepper::setCovariance </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a345d6791e09cd24d1838489e59792254">Covariance</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>covariance</em></span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the covariance at the anchor. </p>
+<p>The state must already carry a covariance, because the stepper only transports the Jacobian while it has one.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">state</td><td>The stepping state (thread-local cache) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">covariance</td><td>The new covariance at the anchor </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::logic_error</td><td>if the state does not carry a covariance </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ad83d5ede8cb9348156b8dee7fb0f25a2" name="ad83d5ede8cb9348156b8dee7fb0f25a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad83d5ede8cb9348156b8dee7fb0f25a2">&#9670;&#160;</a></span>statistics()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="struct_acts_1_1_stepper_statistics.html">StepperStatistics</a> &amp; Acts::SympyStepper::statistics </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the stepper statistics. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">state</td><td>[in] The stepping state (thread-local cache) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The statistics since the last initialization </dd></dl>
+
+</div>
+</div>
 <a id="a16c2bd1c1a6e986bbff5996cc1ad2428" name="a16c2bd1c1a6e986bbff5996cc1ad2428"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a16c2bd1c1a6e986bbff5996cc1ad2428">&#9670;&#160;</a></span>step()</h2>
 
@@ -850,6 +975,32 @@ std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_magnetic_field_prov
 
 </div>
 </div>
+<a id="a8c66c1a02f6ed8b47ddf1561d150b71d" name="a8c66c1a02f6ed8b47ddf1561d150b71d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c66c1a02f6ed8b47ddf1561d150b71d">&#9670;&#160;</a></span>stepSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_acts_1_1_constrained_step.html">ConstrainedStep</a> &amp; Acts::SympyStepper::stepSize </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the step size constraints. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">state</td><td>[in] The stepping state (thread-local cache) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The step size constraints </dd></dl>
+
+</div>
+</div>
 <a id="aef242d42e4d931ae6a453ca3c64db043" name="aef242d42e4d931ae6a453ca3c64db043"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aef242d42e4d931ae6a453ca3c64db043">&#9670;&#160;</a></span>time()</h2>
 
@@ -876,14 +1027,14 @@ std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_magnetic_field_prov
 
 </div>
 </div>
-<a id="a7d603586d08bd34a31440cd3e51d8865" name="a7d603586d08bd34a31440cd3e51d8865"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d603586d08bd34a31440cd3e51d8865">&#9670;&#160;</a></span>transportCovarianceToBound()</h2>
+<a id="aaf981711b4d659b57be1ceeb1f25c4aa" name="aaf981711b4d659b57be1ceeb1f25c4aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf981711b4d659b57be1ceeb1f25c4aa">&#9670;&#160;</a></span>transportToBound()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt; Acts::SympyStepper::transportCovarianceToBound </td>
+          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#a8826040bfa95929033396097ceb33673">Jacobian</a> &gt; Acts::SympyStepper::transportToBound </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span>, </td>
         </tr>
@@ -900,34 +1051,28 @@ std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_magnetic_field_prov
       </table>
 </div><div class="memdoc">
 
-<p>Method for on-demand transport of the covariance to a new curvilinear frame at current position, or direction of the state. </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">surface_t</td><td>the Surface type</td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Transport the covariance to a surface at the current position. </p>
+<p>This anchors the state on <code class="param">surface</code>. Without a covariance the state does not change. The state must be on <code class="param">surface</code>, and it stays unchanged if it is not.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">state</td><td>State of the stepper </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">surface</td><td>is the surface to which the covariance is forwarded to </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">surface</td><td>The surface to transport the covariance to </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">freeToBoundCorrection</td><td>Correction for non-linearity effect during transform from free to bound </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd>no check is done if the position is actually on the surface </dd></dl>
-<dl class="section return"><dt>Returns</dt><dd>Failure if the parameters cannot be expressed on the surface </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The jacobian from the previous anchor to <code class="param">surface</code>, or a failure if the state is not on <code class="param">surface</code> </dd></dl>
 
 </div>
 </div>
-<a id="a3edfc0c1e6e2ebb773ab3648a482f038" name="a3edfc0c1e6e2ebb773ab3648a482f038"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3edfc0c1e6e2ebb773ab3648a482f038">&#9670;&#160;</a></span>transportCovarianceToCurvilinear()</h2>
+<a id="a9673e32f273945ff404b5b6085054a2d" name="a9673e32f273945ff404b5b6085054a2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9673e32f273945ff404b5b6085054a2d">&#9670;&#160;</a></span>transportToCurvilinear()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Acts::SympyStepper::transportCovarianceToCurvilinear </td>
+          <td class="memname"><a class="el" href="#a8826040bfa95929033396097ceb33673">Jacobian</a> Acts::SympyStepper::transportToCurvilinear </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span></td><td>)</td>
           <td> const</td>
@@ -935,13 +1080,15 @@ std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_magnetic_field_prov
       </table>
 </div><div class="memdoc">
 
-<p>Method for on-demand transport of the covariance to a new curvilinear frame at current position, or direction of the state. </p>
+<p>Transport the covariance to the curvilinear frame at the current position. </p>
+<p>This anchors the state on the curvilinear frame. Without a covariance the state does not change.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">state</td><td>State of the stepper </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The jacobian from the previous anchor to the curvilinear frame </dd></dl>
 
 </div>
 </div>
@@ -980,12 +1127,13 @@ std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_magnetic_field_prov
 </div><div class="memdoc">
 
 <p>Method to update a stepper state to the some parameters. </p>
+<p>This anchors the state on <code class="param">surface</code>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">state</td><td>State object that will be updated </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">freeParams</td><td>Free parameters that will be written into <code class="param">state</code> </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">boundParams</td><td>Corresponding bound parameters used to update jacToGlobal in <code class="param">state</code> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">covariance</td><td>The covariance that will be written into <code class="param">state</code> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">covariance</td><td>The covariance that will be written into <code class="param">state</code> if the state carries a covariance </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">surface</td><td>The surface used to update the jacToGlobal </td></tr>
   </table>
   </dd>

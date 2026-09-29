@@ -1062,8 +1062,6 @@ Concepts</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Pointer concept is an extension of the usual std::is_pointer_v type trait to also include the smart pointers like std::shared_ptr&lt;T&gt;, std::unique_ptr&lt;T&gt; The smart pointer is required to have an element_type typedef indicating over which data type the pointer is constructed, the arrow operator. <br /></td></tr>
 <tr class="memitem:StepperConcept" id="r_StepperConcept"><td class="memItemLeft" align="right" valign="top">concept &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="concept_acts_1_1_stepper_concept.html">StepperConcept</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Concept that is satisfied by steppers. <br /></td></tr>
-<tr class="memitem:StepperStateConcept" id="r_StepperStateConcept"><td class="memItemLeft" align="right" valign="top">concept &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="concept_acts_1_1_stepper_state_concept.html">StepperStateConcept</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Concept that is satisfied by stepper states. <br /></td></tr>
 <tr class="memitem:SurfaceConcept" id="r_SurfaceConcept"><td class="memItemLeft" align="right" valign="top">concept &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="concept_acts_1_1_surface_concept.html">SurfaceConcept</a></td></tr>
 <tr class="memitem:SurfaceVisitor" id="r_SurfaceVisitor"><td class="memItemLeft" align="right" valign="top">concept &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="concept_acts_1_1_surface_visitor.html">SurfaceVisitor</a></td></tr>
 <tr class="memitem:TrackContainerBackend" id="r_TrackContainerBackend"><td class="memItemLeft" align="right" valign="top">concept &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="concept_acts_1_1_track_container_backend.html">TrackContainerBackend</a></td></tr>
@@ -3096,7 +3094,7 @@ template&lt;typename extension_t = EigenStepperDefaultExtension, typename reduce
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">    <a class="code hl_class" href="class_acts_1_1_multi_stepper_loop.html">MultiStepperLoop&lt;EigenStepper&lt;extension_t&gt;</a>, reducer_t&gt;</div>
-<div class="ttc" id="aclass_acts_1_1_multi_stepper_loop_html"><div class="ttname"><a href="class_acts_1_1_multi_stepper_loop.html">Acts::MultiStepperLoop</a></div><div class="ttdoc">Stepper based on a single-component stepper, but can handle Multi-Component Tracks (e....</div><div class="ttdef"><b>Definition</b> MultiStepperLoop.hpp:133</div></div>
+<div class="ttc" id="aclass_acts_1_1_multi_stepper_loop_html"><div class="ttname"><a href="class_acts_1_1_multi_stepper_loop.html">Acts::MultiStepperLoop</a></div><div class="ttdoc">Stepper based on a single-component stepper, but can handle Multi-Component Tracks (e....</div><div class="ttdef"><b>Definition</b> MultiStepperLoop.hpp:134</div></div>
 </div><!-- fragment -->
 <p>Stepper based on the EigenStepper, but handles Multi-Component Tracks (e.g., for the GSF). </p>
 <p>Internally, this only manages a vector of EigenStepper::States. This simplifies implementation, but has several drawbacks:</p><ul>

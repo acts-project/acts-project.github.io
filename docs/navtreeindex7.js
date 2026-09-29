@@ -1,5 +1,15 @@
 var NAVTREEINDEX7 =
 {
+"class_acts_1_1_constant_b_field.html#a36fd7a5218c33dcfd4211ec139940652":[5,3,1,0,4],
+"class_acts_1_1_constant_b_field.html#a36fd7a5218c33dcfd4211ec139940652":[5,11,0,0,4],
+"class_acts_1_1_constant_b_field.html#a5758290dbfa849cd7113c0f2174f9d68":[5,3,1,0,1],
+"class_acts_1_1_constant_b_field.html#a5758290dbfa849cd7113c0f2174f9d68":[5,11,0,0,1],
+"class_acts_1_1_constant_b_field.html#a6c40bcfcb654b185349a73af1087a7d9":[5,3,1,0,3],
+"class_acts_1_1_constant_b_field.html#a6c40bcfcb654b185349a73af1087a7d9":[5,11,0,0,3],
+"class_acts_1_1_constant_b_field.html#a7c6604e60da1f350da591fec5aa7d47a":[5,3,1,0,5],
+"class_acts_1_1_constant_b_field.html#a7c6604e60da1f350da591fec5aa7d47a":[5,11,0,0,5],
+"class_acts_1_1_constant_b_field.html#a8a37273f19756bf47cd31e247d9802d6":[5,3,1,0,2],
+"class_acts_1_1_constant_b_field.html#a8a37273f19756bf47cd31e247d9802d6":[5,11,0,0,2],
 "class_acts_1_1_constant_b_field.html#ace9504ef5776a78429928cdfde3f3bff":[5,3,1,0,6],
 "class_acts_1_1_constant_b_field.html#ace9504ef5776a78429928cdfde3f3bff":[5,11,0,0,6],
 "class_acts_1_1_constrained_step.html":[6,0,0,84],
@@ -239,15 +249,5 @@ var NAVTREEINDEX7 =
 "class_acts_1_1_cuboid_volume_builder.html#a833cb4a08481fbbeafe5d69c5b89a3e8":[6,0,0,96,4],
 "class_acts_1_1_cuboid_volume_builder.html#a833cb4a08481fbbeafe5d69c5b89a3e8":[8,0,0,101,4],
 "class_acts_1_1_cuboid_volume_builder.html#a8f87d4ea54ceeda8e96d266cdd75018f":[6,0,0,96,12],
-"class_acts_1_1_cuboid_volume_builder.html#a8f87d4ea54ceeda8e96d266cdd75018f":[8,0,0,101,12],
-"class_acts_1_1_cuboid_volume_builder.html#a914b566aae6a0b7884607c0df91a3689":[6,0,0,96,8],
-"class_acts_1_1_cuboid_volume_builder.html#a914b566aae6a0b7884607c0df91a3689":[8,0,0,101,8],
-"class_acts_1_1_cuboid_volume_builder.html#af0f23e871e4df2dc3e639cbadfb4b19d":[6,0,0,96,6],
-"class_acts_1_1_cuboid_volume_builder.html#af0f23e871e4df2dc3e639cbadfb4b19d":[8,0,0,101,6],
-"class_acts_1_1_cuboid_volume_builder.html#afb822ae7dcc8f15f503a05d237a45cd6":[6,0,0,96,5],
-"class_acts_1_1_cuboid_volume_builder.html#afb822ae7dcc8f15f503a05d237a45cd6":[8,0,0,101,5],
-"class_acts_1_1_cuboid_volume_stack.html":[6,0,0,97],
-"class_acts_1_1_cuboid_volume_stack.html":[8,0,0,102],
-"class_acts_1_1_cuboid_volume_stack.html#a665d6bee8f69a27ca2e2859b9af44009":[6,0,0,97,0],
-"class_acts_1_1_cuboid_volume_stack.html#a665d6bee8f69a27ca2e2859b9af44009":[8,0,0,102,0]
+"class_acts_1_1_cuboid_volume_builder.html#a8f87d4ea54ceeda8e96d266cdd75018f":[8,0,0,101,12]
 };

@@ -143,9 +143,6 @@ Public Types</h2></td></tr>
 <tr class="memitem:a3828228c526ed00877a7c9e22300bddd" id="r_a3828228c526ed00877a7c9e22300bddd"><td class="memItemLeft" align="right" valign="top"><a id="a3828228c526ed00877a7c9e22300bddd" name="a3828228c526ed00877a7c9e22300bddd"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>BoundParameters</b> = <a class="el" href="class_acts_1_1_bound_track_parameters.html">BoundTrackParameters</a></td></tr>
 <tr class="memdesc:a3828228c526ed00877a7c9e22300bddd"><td class="mdescLeft">&#160;</td><td class="mdescRight">The bound parameters type used by this stepper. <br /></td></tr>
-<tr class="memitem:adeea3cee1923a0e494e919d0dff3a2ea" id="r_adeea3cee1923a0e494e919d0dff3a2ea"><td class="memItemLeft" align="right" valign="top"><a id="adeea3cee1923a0e494e919d0dff3a2ea" name="adeea3cee1923a0e494e919d0dff3a2ea"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>BoundState</b> = std::tuple&lt;<a class="el" href="#a3828228c526ed00877a7c9e22300bddd">BoundParameters</a>, <a class="el" href="#a769da128174e0af44916ec0db7720cc4">Jacobian</a>, double&gt;</td></tr>
-<tr class="memdesc:adeea3cee1923a0e494e919d0dff3a2ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of the bound state returned by the <span class="tt">boundState</span> method. <br /></td></tr>
 <tr class="memitem:a1f7460e6a51f6941af80ea9071e47583" id="r_a1f7460e6a51f6941af80ea9071e47583"><td class="memItemLeft" align="right" valign="top"><a id="a1f7460e6a51f6941af80ea9071e47583" name="a1f7460e6a51f6941af80ea9071e47583"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>Covariance</b> = <a class="el" href="namespace_acts.html#aec0a40be468eddaf61a46560269bd97e">BoundMatrix</a></td></tr>
 <tr class="memdesc:a1f7460e6a51f6941af80ea9071e47583"><td class="mdescLeft">&#160;</td><td class="mdescRight">The covariance type for the bound parameters. <br /></td></tr>
@@ -169,21 +166,25 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a316911149725471941eedf9c2477462e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a RiddersStepper with the given stepper implementation.  <br /></td></tr>
 <tr class="memitem:aec23965e3e6a2771b7e0464024181f84" id="r_aec23965e3e6a2771b7e0464024181f84"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec23965e3e6a2771b7e0464024181f84">absoluteMomentum</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:aec23965e3e6a2771b7e0464024181f84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the absolute momentum of the primary stepper state.  <br /></td></tr>
-<tr class="memitem:a6ddca5274255111ad870c6485a99327a" id="r_a6ddca5274255111ad870c6485a99327a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#adeea3cee1923a0e494e919d0dff3a2ea">BoundState</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ddca5274255111ad870c6485a99327a">boundState</a> (<a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, bool transportCovariance=true, const FreeToBoundCorrection &amp;freeToBoundCorrection=FreeToBoundCorrection(false)) const</td></tr>
-<tr class="memdesc:a6ddca5274255111ad870c6485a99327a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the bound state.  <br /></td></tr>
+<tr class="memitem:ae1ae7a9b172a83c0d2d35c261c48d279" id="r_ae1ae7a9b172a83c0d2d35c261c48d279"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#a3828228c526ed00877a7c9e22300bddd">BoundParameters</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1ae7a9b172a83c0d2d35c261c48d279">boundParameters</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface) const</td></tr>
+<tr class="memdesc:ae1ae7a9b172a83c0d2d35c261c48d279"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the bound parameters of the primary stepper state.  <br /></td></tr>
 <tr class="memitem:a1a57e493ba86a2b771a3df3c60c36743" id="r_a1a57e493ba86a2b771a3df3c60c36743"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a57e493ba86a2b771a3df3c60c36743">charge</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:a1a57e493ba86a2b771a3df3c60c36743"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the charge of the primary stepper state.  <br /></td></tr>
-<tr class="memitem:aa71e20ee2c1c652c9e523317bfb18c74" id="r_aa71e20ee2c1c652c9e523317bfb18c74"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#adeea3cee1923a0e494e919d0dff3a2ea">BoundState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa71e20ee2c1c652c9e523317bfb18c74">curvilinearState</a> (<a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;state, bool transportCovariance=true) const</td></tr>
-<tr class="memdesc:aa71e20ee2c1c652c9e523317bfb18c74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the curvilinear state.  <br /></td></tr>
+<tr class="memitem:a0978a459b738a2b585a44198ccf621ec" id="r_a0978a459b738a2b585a44198ccf621ec"><td class="memItemLeft" align="right" valign="top">const std::optional&lt; <a class="el" href="#a1f7460e6a51f6941af80ea9071e47583">Covariance</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0978a459b738a2b585a44198ccf621ec">covariance</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
+<tr class="memdesc:a0978a459b738a2b585a44198ccf621ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the covariance of the last transport.  <br /></td></tr>
+<tr class="memitem:aa91fdfadde8f6258026d106c5fd99a00" id="r_aa91fdfadde8f6258026d106c5fd99a00"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a3828228c526ed00877a7c9e22300bddd">BoundParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa91fdfadde8f6258026d106c5fd99a00">curvilinearParameters</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
+<tr class="memdesc:aa91fdfadde8f6258026d106c5fd99a00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the curvilinear parameters of the primary stepper state.  <br /></td></tr>
 <tr class="memitem:a60bc497081e8145b9ff8a7bbc796c485" id="r_a60bc497081e8145b9ff8a7bbc796c485"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60bc497081e8145b9ff8a7bbc796c485">direction</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:a60bc497081e8145b9ff8a7bbc796c485"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the direction of the primary stepper state.  <br /></td></tr>
 <tr class="memitem:a5297153a7b2ccf11667c0a273fe27940" id="r_a5297153a7b2ccf11667c0a273fe27940"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5297153a7b2ccf11667c0a273fe27940">getField</a> (<a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;<a class="el" href="#ad06dca9e31176ea7056fe9bcd66b1940">position</a>) const</td></tr>
 <tr class="memdesc:a5297153a7b2ccf11667c0a273fe27940"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the magnetic field at the given position for the primary stepper state.  <br /></td></tr>
 <tr class="memitem:af7bead9bdc9dd7ad4b9b56679782c85b" id="r_af7bead9bdc9dd7ad4b9b56679782c85b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7bead9bdc9dd7ad4b9b56679782c85b">getStepSize</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;state, <a class="el" href="class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5">ConstrainedStep::Type</a> stype) const</td></tr>
 <tr class="memdesc:af7bead9bdc9dd7ad4b9b56679782c85b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the step size for the given constrained step type.  <br /></td></tr>
-<tr class="memitem:a9c68c59c1304dfa25587c86f3912071c" id="r_a9c68c59c1304dfa25587c86f3912071c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c68c59c1304dfa25587c86f3912071c">initialize</a> (<a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="#a3828228c526ed00877a7c9e22300bddd">BoundParameters</a> &amp;boundParameters) const</td></tr>
+<tr class="memitem:a919ea7cde3c556e56fee435d2fd23c60" id="r_a919ea7cde3c556e56fee435d2fd23c60"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a919ea7cde3c556e56fee435d2fd23c60">hasCovariance</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
+<tr class="memdesc:a919ea7cde3c556e56fee435d2fd23c60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the state carries a covariance.  <br /></td></tr>
+<tr class="memitem:a9c68c59c1304dfa25587c86f3912071c" id="r_a9c68c59c1304dfa25587c86f3912071c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c68c59c1304dfa25587c86f3912071c">initialize</a> (<a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="#a3828228c526ed00877a7c9e22300bddd">BoundParameters</a> &amp;<a class="el" href="#ae1ae7a9b172a83c0d2d35c261c48d279">boundParameters</a>) const</td></tr>
 <tr class="memdesc:a9c68c59c1304dfa25587c86f3912071c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the state of the RiddersStepper based on the given bound parameters.  <br /></td></tr>
-<tr class="memitem:a8b42eec32e10fe6e10354bf7d3943d7b" id="r_a8b42eec32e10fe6e10354bf7d3943d7b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b42eec32e10fe6e10354bf7d3943d7b">initialize</a> (<a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="namespace_acts.html#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &amp;boundVector, const std::optional&lt; <a class="el" href="namespace_acts.html#aec0a40be468eddaf61a46560269bd97e">BoundMatrix</a> &gt; &amp;covariance, <a class="el" href="class_acts_1_1_particle_hypothesis.html">ParticleHypothesis</a> <a class="el" href="#a5e8e49ee0bee4b9bf2f97b37333ee099">particleHypothesis</a>, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface) const</td></tr>
+<tr class="memitem:a8b42eec32e10fe6e10354bf7d3943d7b" id="r_a8b42eec32e10fe6e10354bf7d3943d7b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b42eec32e10fe6e10354bf7d3943d7b">initialize</a> (<a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="namespace_acts.html#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &amp;boundVector, const std::optional&lt; <a class="el" href="namespace_acts.html#aec0a40be468eddaf61a46560269bd97e">BoundMatrix</a> &gt; &amp;<a class="el" href="#a0978a459b738a2b585a44198ccf621ec">covariance</a>, <a class="el" href="class_acts_1_1_particle_hypothesis.html">ParticleHypothesis</a> <a class="el" href="#a5e8e49ee0bee4b9bf2f97b37333ee099">particleHypothesis</a>, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface) const</td></tr>
 <tr class="memdesc:a8b42eec32e10fe6e10354bf7d3943d7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the state of the RiddersStepper based on the given bound vector and covariance.  <br /></td></tr>
 <tr class="memitem:ab8448eaf8c4999120f489cbdd5071c87" id="r_ab8448eaf8c4999120f489cbdd5071c87"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8448eaf8c4999120f489cbdd5071c87">makeState</a> (const <a class="el" href="#af504b9971a1c0b570c6adf353ab6abf3">Options</a> &amp;options) const</td></tr>
 <tr class="memdesc:ab8448eaf8c4999120f489cbdd5071c87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new state for the RiddersStepper based on the given options.  <br /></td></tr>
@@ -193,6 +194,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a59c10c4356419ead9e9d2923c8186ae0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a string representation of the step size constraints.  <br /></td></tr>
 <tr class="memitem:a5e8e49ee0bee4b9bf2f97b37333ee099" id="r_a5e8e49ee0bee4b9bf2f97b37333ee099"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_particle_hypothesis.html">ParticleHypothesis</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e8e49ee0bee4b9bf2f97b37333ee099">particleHypothesis</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:a5e8e49ee0bee4b9bf2f97b37333ee099"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the particle hypothesis of the primary stepper state.  <br /></td></tr>
+<tr class="memitem:a326586caf4b0c87ac302fef4149b29e4" id="r_a326586caf4b0c87ac302fef4149b29e4"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a326586caf4b0c87ac302fef4149b29e4">pathLength</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
+<tr class="memdesc:a326586caf4b0c87ac302fef4149b29e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the path length.  <br /></td></tr>
 <tr class="memitem:ad06dca9e31176ea7056fe9bcd66b1940" id="r_ad06dca9e31176ea7056fe9bcd66b1940"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad06dca9e31176ea7056fe9bcd66b1940">position</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:ad06dca9e31176ea7056fe9bcd66b1940"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the position of the primary stepper state.  <br /></td></tr>
 <tr class="memitem:a2240e9a8b218cbca0c31442e83e49bf1" id="r_a2240e9a8b218cbca0c31442e83e49bf1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2240e9a8b218cbca0c31442e83e49bf1">prepareCurvilinearState</a> (<a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
@@ -201,21 +204,27 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a6aff931bca1fdb242cf968d0ee3923fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the charge over momentum of the primary stepper state.  <br /></td></tr>
 <tr class="memitem:a6fb3a65e581b61164c20de927462cc4f" id="r_a6fb3a65e581b61164c20de927462cc4f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fb3a65e581b61164c20de927462cc4f">releaseStepSize</a> (<a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;state, <a class="el" href="class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5">ConstrainedStep::Type</a> stype) const</td></tr>
 <tr class="memdesc:a6fb3a65e581b61164c20de927462cc4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release the step size for the given constrained step type.  <br /></td></tr>
+<tr class="memitem:a62f0ecf18d03b4dc01ad303c23735922" id="r_a62f0ecf18d03b4dc01ad303c23735922"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62f0ecf18d03b4dc01ad303c23735922">setCovariance</a> (<a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="#a1f7460e6a51f6941af80ea9071e47583">Covariance</a> &amp;<a class="el" href="#a0978a459b738a2b585a44198ccf621ec">covariance</a>) const</td></tr>
+<tr class="memdesc:a62f0ecf18d03b4dc01ad303c23735922"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the covariance of the last transport.  <br /></td></tr>
+<tr class="memitem:aa7fc3b0905d85b35d524d55b0acae304" id="r_aa7fc3b0905d85b35d524d55b0acae304"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_acts_1_1_stepper_statistics.html">StepperStatistics</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7fc3b0905d85b35d524d55b0acae304">statistics</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
+<tr class="memdesc:aa7fc3b0905d85b35d524d55b0acae304"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the statistics of the primary stepper state.  <br /></td></tr>
 <tr class="memitem:a0ea1f385e115527ce13d2d186d1fc33b" id="r_a0ea1f385e115527ce13d2d186d1fc33b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ea1f385e115527ce13d2d186d1fc33b">step</a> (<a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;state, <a class="el" href="class_acts_1_1_direction.html">Direction</a> propagationDirection, const <a class="el" href="class_acts_1_1_i_volume_material.html">IVolumeMaterial</a> *material) const</td></tr>
 <tr class="memdesc:a0ea1f385e115527ce13d2d186d1fc33b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a step.  <br /></td></tr>
+<tr class="memitem:afacc71d9f7b027455a9be1d4fd6492a8" id="r_afacc71d9f7b027455a9be1d4fd6492a8"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_constrained_step.html">ConstrainedStep</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afacc71d9f7b027455a9be1d4fd6492a8">stepSize</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
+<tr class="memdesc:afacc71d9f7b027455a9be1d4fd6492a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the step size constraints of the primary stepper state.  <br /></td></tr>
 <tr class="memitem:ae43a72e43ff4fe10dc48e4ddcbac4503" id="r_ae43a72e43ff4fe10dc48e4ddcbac4503"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae43a72e43ff4fe10dc48e4ddcbac4503">time</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:ae43a72e43ff4fe10dc48e4ddcbac4503"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the time of the primary stepper state.  <br /></td></tr>
-<tr class="memitem:a1ae6ce1859ed0ca3413ea1d57c9fe138" id="r_a1ae6ce1859ed0ca3413ea1d57c9fe138"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ae6ce1859ed0ca3413ea1d57c9fe138">transportCovarianceToBound</a> (<a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, const FreeToBoundCorrection &amp;freeToBoundCorrection=FreeToBoundCorrection(false)) const</td></tr>
-<tr class="memdesc:a1ae6ce1859ed0ca3413ea1d57c9fe138"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transport the covariance to bound parameters.  <br /></td></tr>
-<tr class="memitem:af2ae36786f2e92d73b941720306099e4" id="r_af2ae36786f2e92d73b941720306099e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2ae36786f2e92d73b941720306099e4">transportCovarianceToCurvilinear</a> (<a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
-<tr class="memdesc:af2ae36786f2e92d73b941720306099e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transport the covariance to curvilinear parameters.  <br /></td></tr>
-<tr class="memitem:aaca9c3f0ca05e86f59761f00d189fa6c" id="r_aaca9c3f0ca05e86f59761f00d189fa6c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaca9c3f0ca05e86f59761f00d189fa6c">update</a> (<a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="namespace_acts.html#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a> &amp;, const <a class="el" href="namespace_acts.html#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &amp;boundParams, const <a class="el" href="namespace_acts.html#aec0a40be468eddaf61a46560269bd97e">BoundMatrix</a> &amp;covariance, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface) const</td></tr>
+<tr class="memitem:a73c33bb0428124a7aae85fc70ae8eb8a" id="r_a73c33bb0428124a7aae85fc70ae8eb8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#a769da128174e0af44916ec0db7720cc4">Jacobian</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73c33bb0428124a7aae85fc70ae8eb8a">transportToBound</a> (<a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, const FreeToBoundCorrection &amp;freeToBoundCorrection=FreeToBoundCorrection(false)) const</td></tr>
+<tr class="memdesc:a73c33bb0428124a7aae85fc70ae8eb8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transport the covariance to a surface.  <br /></td></tr>
+<tr class="memitem:a1a1cfd56d0b041645fb0e4ee30d633a7" id="r_a1a1cfd56d0b041645fb0e4ee30d633a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a769da128174e0af44916ec0db7720cc4">Jacobian</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a1cfd56d0b041645fb0e4ee30d633a7">transportToCurvilinear</a> (<a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
+<tr class="memdesc:a1a1cfd56d0b041645fb0e4ee30d633a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transport the covariance to the curvilinear frame.  <br /></td></tr>
+<tr class="memitem:aaca9c3f0ca05e86f59761f00d189fa6c" id="r_aaca9c3f0ca05e86f59761f00d189fa6c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaca9c3f0ca05e86f59761f00d189fa6c">update</a> (<a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="namespace_acts.html#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a> &amp;, const <a class="el" href="namespace_acts.html#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &amp;boundParams, const <a class="el" href="namespace_acts.html#aec0a40be468eddaf61a46560269bd97e">BoundMatrix</a> &amp;<a class="el" href="#a0978a459b738a2b585a44198ccf621ec">covariance</a>, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface) const</td></tr>
 <tr class="memdesc:aaca9c3f0ca05e86f59761f00d189fa6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the state of the RiddersStepper.  <br /></td></tr>
 <tr class="memitem:ae9d2776aa7cfda25915e8d805b0e8bbc" id="r_ae9d2776aa7cfda25915e8d805b0e8bbc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9d2776aa7cfda25915e8d805b0e8bbc">update</a> (<a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;<a class="el" href="#ad06dca9e31176ea7056fe9bcd66b1940">position</a>, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;<a class="el" href="#a60bc497081e8145b9ff8a7bbc796c485">direction</a>, double <a class="el" href="#a6aff931bca1fdb242cf968d0ee3923fa">qOverP</a>, double <a class="el" href="#ae43a72e43ff4fe10dc48e4ddcbac4503">time</a>) const</td></tr>
 <tr class="memdesc:ae9d2776aa7cfda25915e8d805b0e8bbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the state of the RiddersStepper.  <br /></td></tr>
 <tr class="memitem:a67c8e9867a459a19d5281fbefc1ec080" id="r_a67c8e9867a459a19d5281fbefc1ec080"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67c8e9867a459a19d5281fbefc1ec080">updateStepSize</a> (<a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="class_acts_1_1_navigation_target.html">NavigationTarget</a> &amp;target, <a class="el" href="class_acts_1_1_direction.html">Direction</a> <a class="el" href="#a60bc497081e8145b9ff8a7bbc796c485">direction</a>, <a class="el" href="class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5">ConstrainedStep::Type</a> stype) const</td></tr>
 <tr class="memdesc:a67c8e9867a459a19d5281fbefc1ec080"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the step size based on the given navigation target, direction, and constrained step type.  <br /></td></tr>
-<tr class="memitem:ae50426baf6d341a209bc81f644ecfaea" id="r_ae50426baf6d341a209bc81f644ecfaea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae50426baf6d341a209bc81f644ecfaea">updateStepSize</a> (<a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;state, double stepSize, <a class="el" href="class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5">ConstrainedStep::Type</a> stype) const</td></tr>
+<tr class="memitem:ae50426baf6d341a209bc81f644ecfaea" id="r_ae50426baf6d341a209bc81f644ecfaea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae50426baf6d341a209bc81f644ecfaea">updateStepSize</a> (<a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;state, double <a class="el" href="#afacc71d9f7b027455a9be1d4fd6492a8">stepSize</a>, <a class="el" href="class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5">ConstrainedStep::Type</a> stype) const</td></tr>
 <tr class="memdesc:ae50426baf6d341a209bc81f644ecfaea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the step size based on the given step size and constrained step type.  <br /></td></tr>
 <tr class="memitem:ac85f5aa21abf76336740b24fbb22049e" id="r_ac85f5aa21abf76336740b24fbb22049e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a52191edec34daa17746d1937fb06c1fb">IntersectionStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac85f5aa21abf76336740b24fbb22049e">updateSurfaceStatus</a> (<a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, std::uint8_t index, <a class="el" href="class_acts_1_1_direction.html">Direction</a> navDir, const <a class="el" href="class_acts_1_1_boundary_tolerance.html">BoundaryTolerance</a> &amp;boundaryTolerance, double surfaceTolerance, <a class="el" href="class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5">ConstrainedStep::Type</a> stype, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">getDummyLogger</a>()) const</td></tr>
 <tr class="memdesc:ac85f5aa21abf76336740b24fbb22049e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the surface status of the primary and secondary stepper states based on the given surface and navigation direction.  <br /></td></tr>
@@ -364,8 +373,8 @@ template&lt;Concepts::SingleStepper stepper_impl_t&gt; </div>
 
 </div>
 </div>
-<a id="a6ddca5274255111ad870c6485a99327a" name="a6ddca5274255111ad870c6485a99327a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ddca5274255111ad870c6485a99327a">&#9670;&#160;</a></span>boundState()</h2>
+<a id="ae1ae7a9b172a83c0d2d35c261c48d279" name="ae1ae7a9b172a83c0d2d35c261c48d279"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1ae7a9b172a83c0d2d35c261c48d279">&#9670;&#160;</a></span>boundParameters()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -373,39 +382,28 @@ template&lt;Concepts::SingleStepper stepper_impl_t&gt; </div>
 template&lt;Concepts::SingleStepper stepper_impl_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#adeea3cee1923a0e494e919d0dff3a2ea">BoundState</a> &gt; <a class="el" href="class_acts_1_1_experimental_1_1_ridders_stepper.html">Acts::Experimental::RiddersStepper</a>&lt; stepper_impl_t &gt;::boundState </td>
+          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#a3828228c526ed00877a7c9e22300bddd">BoundParameters</a> &gt; <a class="el" href="class_acts_1_1_experimental_1_1_ridders_stepper.html">Acts::Experimental::RiddersStepper</a>&lt; stepper_impl_t &gt;::boundParameters </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>surface</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>transportCovariance</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const FreeToBoundCorrection &amp;</td>          <td class="paramname"><span class="paramname"><em>freeToBoundCorrection</em></span><span class="paramdefsep"> = </span><span class="paramdefval">FreeToBoundCorrection(false)</span>&#160;) const</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>surface</em></span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Compute the bound state. </p>
+<p>Get the bound parameters of the primary stepper state. </p>
+<p>The parameters carry the covariance of the last transport if the state has a covariance.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">state</td><td>the state of the RiddersStepper </td></tr>
     <tr><td class="paramname">surface</td><td>the surface </td></tr>
-    <tr><td class="paramname">transportCovariance</td><td>flag indicating whether to transport the covariance to the bound parameters </td></tr>
-    <tr><td class="paramname">freeToBoundCorrection</td><td>the correction </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>the bound state </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>the bound parameters </dd></dl>
 
 </div>
 </div>
@@ -437,8 +435,8 @@ template&lt;Concepts::SingleStepper stepper_impl_t&gt; </div>
 
 </div>
 </div>
-<a id="aa71e20ee2c1c652c9e523317bfb18c74" name="aa71e20ee2c1c652c9e523317bfb18c74"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa71e20ee2c1c652c9e523317bfb18c74">&#9670;&#160;</a></span>curvilinearState()</h2>
+<a id="a0978a459b738a2b585a44198ccf621ec" name="a0978a459b738a2b585a44198ccf621ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0978a459b738a2b585a44198ccf621ec">&#9670;&#160;</a></span>covariance()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -446,27 +444,51 @@ template&lt;Concepts::SingleStepper stepper_impl_t&gt; </div>
 template&lt;Concepts::SingleStepper stepper_impl_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#adeea3cee1923a0e494e919d0dff3a2ea">BoundState</a> <a class="el" href="class_acts_1_1_experimental_1_1_ridders_stepper.html">Acts::Experimental::RiddersStepper</a>&lt; stepper_impl_t &gt;::curvilinearState </td>
+          <td class="memname">const std::optional&lt; <a class="el" href="#a1f7460e6a51f6941af80ea9071e47583">Covariance</a> &gt; &amp; <a class="el" href="class_acts_1_1_experimental_1_1_ridders_stepper.html">Acts::Experimental::RiddersStepper</a>&lt; stepper_impl_t &gt;::covariance </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>transportCovariance</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;) const</td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Compute the curvilinear state. </p>
+<p>Get the covariance of the last transport. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">state</td><td>the state of the RiddersStepper </td></tr>
-    <tr><td class="paramname">transportCovariance</td><td>flag indicating whether to transport the covariance to the curvilinear parameters </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>the curvilinear state </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>the covariance, or no value if the state does not carry one </dd></dl>
+
+</div>
+</div>
+<a id="aa91fdfadde8f6258026d106c5fd99a00" name="aa91fdfadde8f6258026d106c5fd99a00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa91fdfadde8f6258026d106c5fd99a00">&#9670;&#160;</a></span>curvilinearParameters()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;Concepts::SingleStepper stepper_impl_t&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a3828228c526ed00877a7c9e22300bddd">BoundParameters</a> <a class="el" href="class_acts_1_1_experimental_1_1_ridders_stepper.html">Acts::Experimental::RiddersStepper</a>&lt; stepper_impl_t &gt;::curvilinearParameters </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the curvilinear parameters of the primary stepper state. </p>
+<p>The parameters carry the covariance of the last transport if the state has a covariance.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">state</td><td>the state of the RiddersStepper </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the curvilinear parameters </dd></dl>
 
 </div>
 </div>
@@ -561,6 +583,34 @@ template&lt;Concepts::SingleStepper stepper_impl_t&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the step size of the primary stepper state for the given constrained step type </dd></dl>
+
+</div>
+</div>
+<a id="a919ea7cde3c556e56fee435d2fd23c60" name="a919ea7cde3c556e56fee435d2fd23c60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a919ea7cde3c556e56fee435d2fd23c60">&#9670;&#160;</a></span>hasCovariance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;Concepts::SingleStepper stepper_impl_t&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_acts_1_1_experimental_1_1_ridders_stepper.html">Acts::Experimental::RiddersStepper</a>&lt; stepper_impl_t &gt;::hasCovariance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check if the state carries a covariance. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">state</td><td>the state of the RiddersStepper </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the covariance is transported </dd></dl>
 
 </div>
 </div>
@@ -758,6 +808,34 @@ template&lt;Concepts::SingleStepper stepper_impl_t&gt; </div>
 
 </div>
 </div>
+<a id="a326586caf4b0c87ac302fef4149b29e4" name="a326586caf4b0c87ac302fef4149b29e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a326586caf4b0c87ac302fef4149b29e4">&#9670;&#160;</a></span>pathLength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;Concepts::SingleStepper stepper_impl_t&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">double <a class="el" href="class_acts_1_1_experimental_1_1_ridders_stepper.html">Acts::Experimental::RiddersStepper</a>&lt; stepper_impl_t &gt;::pathLength </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the path length. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">state</td><td>the state of the RiddersStepper </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the path length since the last initialization </dd></dl>
+
+</div>
+</div>
 <a id="ad06dca9e31176ea7056fe9bcd66b1940" name="ad06dca9e31176ea7056fe9bcd66b1940"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad06dca9e31176ea7056fe9bcd66b1940">&#9670;&#160;</a></span>position()</h2>
 
@@ -874,6 +952,73 @@ template&lt;Concepts::SingleStepper stepper_impl_t&gt; </div>
 
 </div>
 </div>
+<a id="a62f0ecf18d03b4dc01ad303c23735922" name="a62f0ecf18d03b4dc01ad303c23735922"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62f0ecf18d03b4dc01ad303c23735922">&#9670;&#160;</a></span>setCovariance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;Concepts::SingleStepper stepper_impl_t&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_acts_1_1_experimental_1_1_ridders_stepper.html">Acts::Experimental::RiddersStepper</a>&lt; stepper_impl_t &gt;::setCovariance </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a1f7460e6a51f6941af80ea9071e47583">Covariance</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>covariance</em></span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the covariance of the last transport. </p>
+<p>The state must already carry a covariance, because the stepper only transports the Jacobian while it has one.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">state</td><td>the state of the RiddersStepper </td></tr>
+    <tr><td class="paramname">covariance</td><td>the new covariance </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::logic_error</td><td>if the state does not carry a covariance </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aa7fc3b0905d85b35d524d55b0acae304" name="aa7fc3b0905d85b35d524d55b0acae304"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7fc3b0905d85b35d524d55b0acae304">&#9670;&#160;</a></span>statistics()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;Concepts::SingleStepper stepper_impl_t&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="struct_acts_1_1_stepper_statistics.html">StepperStatistics</a> &amp; <a class="el" href="class_acts_1_1_experimental_1_1_ridders_stepper.html">Acts::Experimental::RiddersStepper</a>&lt; stepper_impl_t &gt;::statistics </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the statistics of the primary stepper state. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">state</td><td>the state of the RiddersStepper </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the statistics </dd></dl>
+
+</div>
+</div>
 <a id="a0ea1f385e115527ce13d2d186d1fc33b" name="a0ea1f385e115527ce13d2d186d1fc33b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0ea1f385e115527ce13d2d186d1fc33b">&#9670;&#160;</a></span>step()</h2>
 
@@ -913,6 +1058,34 @@ template&lt;Concepts::SingleStepper stepper_impl_t&gt; </div>
 
 </div>
 </div>
+<a id="afacc71d9f7b027455a9be1d4fd6492a8" name="afacc71d9f7b027455a9be1d4fd6492a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afacc71d9f7b027455a9be1d4fd6492a8">&#9670;&#160;</a></span>stepSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;Concepts::SingleStepper stepper_impl_t&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_acts_1_1_constrained_step.html">ConstrainedStep</a> &amp; <a class="el" href="class_acts_1_1_experimental_1_1_ridders_stepper.html">Acts::Experimental::RiddersStepper</a>&lt; stepper_impl_t &gt;::stepSize </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the step size constraints of the primary stepper state. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">state</td><td>the state of the RiddersStepper </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the step size constraints </dd></dl>
+
+</div>
+</div>
 <a id="ae43a72e43ff4fe10dc48e4ddcbac4503" name="ae43a72e43ff4fe10dc48e4ddcbac4503"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae43a72e43ff4fe10dc48e4ddcbac4503">&#9670;&#160;</a></span>time()</h2>
 
@@ -941,8 +1114,8 @@ template&lt;Concepts::SingleStepper stepper_impl_t&gt; </div>
 
 </div>
 </div>
-<a id="a1ae6ce1859ed0ca3413ea1d57c9fe138" name="a1ae6ce1859ed0ca3413ea1d57c9fe138"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ae6ce1859ed0ca3413ea1d57c9fe138">&#9670;&#160;</a></span>transportCovarianceToBound()</h2>
+<a id="a73c33bb0428124a7aae85fc70ae8eb8a" name="a73c33bb0428124a7aae85fc70ae8eb8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73c33bb0428124a7aae85fc70ae8eb8a">&#9670;&#160;</a></span>transportToBound()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -950,7 +1123,7 @@ template&lt;Concepts::SingleStepper stepper_impl_t&gt; </div>
 template&lt;Concepts::SingleStepper stepper_impl_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt; <a class="el" href="class_acts_1_1_experimental_1_1_ridders_stepper.html">Acts::Experimental::RiddersStepper</a>&lt; stepper_impl_t &gt;::transportCovarianceToBound </td>
+          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#a769da128174e0af44916ec0db7720cc4">Jacobian</a> &gt; <a class="el" href="class_acts_1_1_experimental_1_1_ridders_stepper.html">Acts::Experimental::RiddersStepper</a>&lt; stepper_impl_t &gt;::transportToBound </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span>, </td>
         </tr>
@@ -967,21 +1140,22 @@ template&lt;Concepts::SingleStepper stepper_impl_t&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Transport the covariance to bound parameters. </p>
+<p>Transport the covariance to a surface. </p>
+<p>The jacobian is computed from the differences of the secondary stepper states. Without a covariance the state does not change.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">state</td><td>the state of the RiddersStepper </td></tr>
     <tr><td class="paramname">surface</td><td>the surface </td></tr>
-    <tr><td class="paramname">freeToBoundCorrection</td><td>the correction </td></tr>
+    <tr><td class="paramname">freeToBoundCorrection</td><td>the correction, ignored </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Failure if the parameters cannot be expressed on the surface </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>the jacobian, or a failure if the parameters cannot be expressed on <code class="param">surface</code> </dd></dl>
 
 </div>
 </div>
-<a id="af2ae36786f2e92d73b941720306099e4" name="af2ae36786f2e92d73b941720306099e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2ae36786f2e92d73b941720306099e4">&#9670;&#160;</a></span>transportCovarianceToCurvilinear()</h2>
+<a id="a1a1cfd56d0b041645fb0e4ee30d633a7" name="a1a1cfd56d0b041645fb0e4ee30d633a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a1cfd56d0b041645fb0e4ee30d633a7">&#9670;&#160;</a></span>transportToCurvilinear()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -989,7 +1163,7 @@ template&lt;Concepts::SingleStepper stepper_impl_t&gt; </div>
 template&lt;Concepts::SingleStepper stepper_impl_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="class_acts_1_1_experimental_1_1_ridders_stepper.html">Acts::Experimental::RiddersStepper</a>&lt; stepper_impl_t &gt;::transportCovarianceToCurvilinear </td>
+          <td class="memname"><a class="el" href="#a769da128174e0af44916ec0db7720cc4">Jacobian</a> <a class="el" href="class_acts_1_1_experimental_1_1_ridders_stepper.html">Acts::Experimental::RiddersStepper</a>&lt; stepper_impl_t &gt;::transportToCurvilinear </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span></td><td>)</td>
           <td> const</td>
@@ -997,13 +1171,15 @@ template&lt;Concepts::SingleStepper stepper_impl_t&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Transport the covariance to curvilinear parameters. </p>
+<p>Transport the covariance to the curvilinear frame. </p>
+<p>This steps all stepper states onto the curvilinear surface at the current position. Without a covariance the state does not change.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">state</td><td>the state of the RiddersStepper </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>the jacobian </dd></dl>
 
 </div>
 </div>

@@ -1,5 +1,15 @@
 var NAVTREEINDEX6 =
 {
+"class_acts_1_1_charge_hypothesis.html#aaa8167a605f46dddaf4f75c8b5d930af":[5,6,0,0,2],
+"class_acts_1_1_charge_hypothesis.html#abf895884712676503945dfb604eb3b53":[5,6,0,0,1],
+"class_acts_1_1_cloneable_ptr.html":[6,0,0,72],
+"class_acts_1_1_cloneable_ptr.html":[8,0,0,77],
+"class_acts_1_1_cloneable_ptr.html#a0ccc1037495f2fa173e53ba9179fb317":[6,0,0,72,8],
+"class_acts_1_1_cloneable_ptr.html#a0ccc1037495f2fa173e53ba9179fb317":[8,0,0,77,8],
+"class_acts_1_1_cloneable_ptr.html#a15dd71918678540c1e388c3b12011b8e":[6,0,0,72,7],
+"class_acts_1_1_cloneable_ptr.html#a15dd71918678540c1e388c3b12011b8e":[8,0,0,77,7],
+"class_acts_1_1_cloneable_ptr.html#a2383679e379a3e1b0a412a6749accc0a":[6,0,0,72,16],
+"class_acts_1_1_cloneable_ptr.html#a2383679e379a3e1b0a412a6749accc0a":[8,0,0,77,16],
 "class_acts_1_1_cloneable_ptr.html#a4a20722fa2b4d92f2bff3f246e2d353c":[6,0,0,72,3],
 "class_acts_1_1_cloneable_ptr.html#a4a20722fa2b4d92f2bff3f246e2d353c":[8,0,0,77,3],
 "class_acts_1_1_cloneable_ptr.html#a5794e8af64cbb1ba43de7f3521b162c8":[6,0,0,72,6],
@@ -239,15 +249,5 @@ var NAVTREEINDEX6 =
 "class_acts_1_1_const_vector_track_container.html#af7b3daed94209a0e7e6f995a506b78b8":[6,0,0,87,4],
 "class_acts_1_1_const_vector_track_container.html#af7b3daed94209a0e7e6f995a506b78b8":[8,0,0,92,4],
 "class_acts_1_1_constant_b_field.html":[5,3,1,0],
-"class_acts_1_1_constant_b_field.html":[5,11,0,0],
-"class_acts_1_1_constant_b_field.html#a36fd7a5218c33dcfd4211ec139940652":[5,3,1,0,4],
-"class_acts_1_1_constant_b_field.html#a36fd7a5218c33dcfd4211ec139940652":[5,11,0,0,4],
-"class_acts_1_1_constant_b_field.html#a5758290dbfa849cd7113c0f2174f9d68":[5,3,1,0,1],
-"class_acts_1_1_constant_b_field.html#a5758290dbfa849cd7113c0f2174f9d68":[5,11,0,0,1],
-"class_acts_1_1_constant_b_field.html#a6c40bcfcb654b185349a73af1087a7d9":[5,3,1,0,3],
-"class_acts_1_1_constant_b_field.html#a6c40bcfcb654b185349a73af1087a7d9":[5,11,0,0,3],
-"class_acts_1_1_constant_b_field.html#a7c6604e60da1f350da591fec5aa7d47a":[5,3,1,0,5],
-"class_acts_1_1_constant_b_field.html#a7c6604e60da1f350da591fec5aa7d47a":[5,11,0,0,5],
-"class_acts_1_1_constant_b_field.html#a8a37273f19756bf47cd31e247d9802d6":[5,3,1,0,2],
-"class_acts_1_1_constant_b_field.html#a8a37273f19756bf47cd31e247d9802d6":[5,11,0,0,2]
+"class_acts_1_1_constant_b_field.html":[5,11,0,0]
 };

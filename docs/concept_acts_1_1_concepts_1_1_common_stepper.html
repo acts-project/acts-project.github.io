@@ -137,30 +137,19 @@ $(function(){initNavTree('concept_acts_1_1_concepts_1_1_common_stepper.html','',
 <div class="line">  <span class="keyword">typename</span> Stepper::State;</div>
 <div class="line">  <span class="keyword">typename</span> Stepper::Jacobian;</div>
 <div class="line">  <span class="keyword">typename</span> Stepper::Covariance;</div>
-<div class="line">  <span class="keyword">typename</span> Stepper::BoundState;</div>
 <div class="line"> </div>
 <div class="line">  <span class="keyword">requires</span> <span class="keyword">requires</span>(<span class="keyword">const</span> Stepper&amp; s, State&amp; t) {</div>
-<div class="line">    { s.transportCovarianceToCurvilinear(t) } -&gt; std::same_as&lt;void&gt;;</div>
+<div class="line">    { s.transportToCurvilinear(t) } -&gt; std::same_as&lt;typename Stepper::Jacobian&gt;;</div>
+<div class="line">    { s.prepareCurvilinearState(t) } -&gt; std::same_as&lt;bool&gt;;</div>
 <div class="line"> </div>
-<div class="line">    <span class="keyword">requires</span> <span class="keyword">requires</span>(</div>
-<div class="line">        <span class="keyword">const</span> std::tuple_element_t&lt;0, typename Stepper::BoundState&gt;&amp; par) {</div>
+<div class="line">    <span class="keyword">requires</span> <span class="keyword">requires</span>(<span class="keyword">const</span> <span class="keyword">typename</span> Stepper::BoundParameters&amp; par) {</div>
 <div class="line">      { s.initialize(t, par) } -&gt; std::same_as&lt;void&gt;;</div>
 <div class="line">    };</div>
 <div class="line"> </div>
-<div class="line">    <span class="keyword">requires</span> <span class="keyword">requires</span>(<span class="keyword">const</span> Surface&amp; sf, <span class="keywordtype">bool</span> b,</div>
-<div class="line">                      <span class="keyword">const</span> FreeToBoundCorrection&amp; corr) {</div>
+<div class="line">    <span class="keyword">requires</span> <span class="keyword">requires</span>(<span class="keyword">const</span> Surface&amp; sf, <span class="keyword">const</span> FreeToBoundCorrection&amp; corr) {</div>
 <div class="line">      {</div>
-<div class="line">        s.boundState(t, sf, b, corr)</div>
-<div class="line">      } -&gt; std::same_as&lt;Result&lt;typename Stepper::BoundState&gt;&gt;;</div>
-<div class="line">      {</div>
-<div class="line">        <a class="code hl_variable" href="namespace_acts_1_1_unit_constants.html#af5e223138d35ab82606b8d129728a3a8">s</a>.transportCovarianceToBound(t, sf, corr)</div>
-<div class="line">      } -&gt; std::same_as&lt;Result&lt;void&gt;&gt;;</div>
-<div class="line">    };</div>
-<div class="line"> </div>
-<div class="line">    <span class="keyword">requires</span> <span class="keyword">requires</span>(<span class="keywordtype">bool</span> b) {</div>
-<div class="line">      {</div>
-<div class="line">        <a class="code hl_variable" href="namespace_acts_1_1_unit_constants.html#af5e223138d35ab82606b8d129728a3a8">s</a>.curvilinearState(t, b)</div>
-<div class="line">      } -&gt; std::same_as&lt;typename Stepper::BoundState&gt;;</div>
+<div class="line">        <a class="code hl_variable" href="namespace_acts_1_1_unit_constants.html#af5e223138d35ab82606b8d129728a3a8">s</a>.transportToBound(t, sf, corr)</div>
+<div class="line">      } -&gt; std::same_as&lt;Result&lt;typename Stepper::Jacobian&gt;&gt;;</div>
 <div class="line">    };</div>
 <div class="line"> </div>
 <div class="line">    <span class="keyword">requires</span> <span class="keyword">requires</span>(<span class="keyword">const</span> Surface&amp; sf, std::uint8_t ui, Direction d,</div>
@@ -187,6 +176,18 @@ $(function(){initNavTree('concept_acts_1_1_concepts_1_1_common_stepper.html','',
 <div class="line">    { <a class="code hl_variable" href="namespace_acts_1_1_unit_constants.html#af5e223138d35ab82606b8d129728a3a8">s</a>.charge(t) } -&gt; std::same_as&lt;double&gt;;</div>
 <div class="line">    { <a class="code hl_variable" href="namespace_acts_1_1_unit_constants.html#af5e223138d35ab82606b8d129728a3a8">s</a>.time(t) } -&gt; std::same_as&lt;double&gt;;</div>
 <div class="line">    { <a class="code hl_variable" href="namespace_acts_1_1_unit_constants.html#af5e223138d35ab82606b8d129728a3a8">s</a>.outputStepSize(t) } -&gt; std::same_as&lt;std::string&gt;;</div>
+<div class="line">    { <a class="code hl_variable" href="namespace_acts_1_1_unit_constants.html#af5e223138d35ab82606b8d129728a3a8">s</a>.pathLength(t) } -&gt; std::same_as&lt;double&gt;;</div>
+<div class="line">    { <a class="code hl_variable" href="namespace_acts_1_1_unit_constants.html#af5e223138d35ab82606b8d129728a3a8">s</a>.hasCovariance(t) } -&gt; std::same_as&lt;bool&gt;;</div>
+<div class="line">    { <a class="code hl_variable" href="namespace_acts_1_1_unit_constants.html#af5e223138d35ab82606b8d129728a3a8">s</a>.statistics(t) } -&gt; std::same_as&lt;const StepperStatistics&amp;&gt;;</div>
+<div class="line">    {</div>
+<div class="line">      <a class="code hl_variable" href="namespace_acts_1_1_unit_constants.html#af5e223138d35ab82606b8d129728a3a8">s</a>.curvilinearParameters(t)</div>
+<div class="line">    } -&gt; std::same_as&lt;typename Stepper::BoundParameters&gt;;</div>
+<div class="line"> </div>
+<div class="line">    <span class="keyword">requires</span> <span class="keyword">requires</span>(<span class="keyword">const</span> Surface&amp; sf) {</div>
+<div class="line">      {</div>
+<div class="line">        <a class="code hl_variable" href="namespace_acts_1_1_unit_constants.html#af5e223138d35ab82606b8d129728a3a8">s</a>.boundParameters(t, sf)</div>
+<div class="line">      } -&gt; std::same_as&lt;Result&lt;typename Stepper::BoundParameters&gt;&gt;;</div>
+<div class="line">    };</div>
 <div class="line"> </div>
 <div class="line">    <span class="keyword">requires</span> <span class="keyword">requires</span>(<span class="keyword">const</span> <a class="code hl_enumeration" href="class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5">ConstrainedStep::Type</a> st) {</div>
 <div class="line">      { <a class="code hl_variable" href="namespace_acts_1_1_unit_constants.html#af5e223138d35ab82606b8d129728a3a8">s</a>.getStepSize(t, st) } -&gt; std::same_as&lt;double&gt;;</div>
@@ -194,7 +195,7 @@ $(function(){initNavTree('concept_acts_1_1_concepts_1_1_common_stepper.html','',
 <div class="line">  };</div>
 <div class="line">}</div>
 <div class="ttc" id="aclass_acts_1_1_constrained_step_html_a0eecb2e9c95a2c252b3fea20e69b0ba5"><div class="ttname"><a href="class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5">Acts::ConstrainedStep::Type</a></div><div class="ttdeci">Type</div><div class="ttdoc">the types of constraints from navigator - this would be a navigation step from actor - this would be ...</div><div class="ttdef"><b>Definition</b> ConstrainedStep.hpp:50</div></div>
-<div class="ttc" id="aconcept_acts_1_1_concepts_1_1_common_stepper_html"><div class="ttname"><a href="concept_acts_1_1_concepts_1_1_common_stepper.html">Acts::Concepts::CommonStepper</a></div><div class="ttdoc">Concept that is satisfied by both single- and multi-steppers.</div><div class="ttdef"><b>Definition</b> StepperConcept.hpp:26</div></div>
+<div class="ttc" id="aconcept_acts_1_1_concepts_1_1_common_stepper_html"><div class="ttname"><a href="concept_acts_1_1_concepts_1_1_common_stepper.html">Acts::Concepts::CommonStepper</a></div><div class="ttdoc">Concept that is satisfied by both single- and multi-steppers.</div><div class="ttdef"><b>Definition</b> StepperConcept.hpp:27</div></div>
 <div class="ttc" id="anamespace_acts_1_1_unit_constants_html_af5e223138d35ab82606b8d129728a3a8"><div class="ttname"><a href="namespace_acts_1_1_unit_constants.html#af5e223138d35ab82606b8d129728a3a8">Acts::UnitConstants::s</a></div><div class="ttdeci">constexpr double s</div><div class="ttdef"><b>Definition</b> Units.hpp:120</div></div>
 </div><!-- fragment --><a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Concept that is satisfied by both single- and multi-steppers. </p>

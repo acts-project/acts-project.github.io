@@ -1,5 +1,15 @@
 var NAVTREEINDEX10 =
 {
+"class_acts_1_1_diamond_volume_bounds.html#ab6879d23a483c85f1531366527df49d7":[6,0,0,118,10],
+"class_acts_1_1_diamond_volume_bounds.html#ab6879d23a483c85f1531366527df49d7":[8,0,0,123,10],
+"class_acts_1_1_diamond_volume_bounds.html#abb186767831d535b86bf378ed6fc1fc8":[6,0,0,118,12],
+"class_acts_1_1_diamond_volume_bounds.html#abb186767831d535b86bf378ed6fc1fc8":[8,0,0,123,12],
+"class_acts_1_1_diamond_volume_bounds.html#ac0bc33013cd2fbb83589cbd7f04e630a":[6,0,0,118,3],
+"class_acts_1_1_diamond_volume_bounds.html#ac0bc33013cd2fbb83589cbd7f04e630a":[8,0,0,123,3],
+"class_acts_1_1_diamond_volume_bounds.html#afd87592f0b81c946757cd6f4fea0232c":[6,0,0,118,13],
+"class_acts_1_1_diamond_volume_bounds.html#afd87592f0b81c946757cd6f4fea0232c":[8,0,0,123,13],
+"class_acts_1_1_direct_navigator.html":[6,0,0,121],
+"class_acts_1_1_direct_navigator.html":[8,0,0,126],
 "class_acts_1_1_direct_navigator.html#a25b4d027d6d85dcd6b7797f61e05e7f8":[6,0,0,121,10],
 "class_acts_1_1_direct_navigator.html#a25b4d027d6d85dcd6b7797f61e05e7f8":[8,0,0,126,10],
 "class_acts_1_1_direct_navigator.html#a41d8e7d21a3aa42c97feb5551ca6e67a":[6,0,0,121,7],
@@ -239,15 +249,5 @@ var NAVTREEINDEX10 =
 "class_acts_1_1_disc_trapezoid_bounds.html#af519591ea8d47c1feb0093fa7819e562":[6,0,0,125,17],
 "class_acts_1_1_disc_trapezoid_bounds.html#af519591ea8d47c1feb0093fa7819e562":[8,0,0,130,17],
 "class_acts_1_1_disc_trapezoid_bounds.html#afbef61884e60415b690021da87663366":[6,0,0,125,7],
-"class_acts_1_1_disc_trapezoid_bounds.html#afbef61884e60415b690021da87663366":[8,0,0,130,7],
-"class_acts_1_1_distance_sorter_t.html":[6,0,0,126],
-"class_acts_1_1_distance_sorter_t.html":[8,0,0,131],
-"class_acts_1_1_distance_sorter_t.html#a02f3fd5a77a03077989013de5fe78885":[6,0,0,126,1],
-"class_acts_1_1_distance_sorter_t.html#a02f3fd5a77a03077989013de5fe78885":[8,0,0,131,1],
-"class_acts_1_1_distance_sorter_t.html#a035fff261f1c122ef3596179add6fa01":[6,0,0,126,0],
-"class_acts_1_1_distance_sorter_t.html#a035fff261f1c122ef3596179add6fa01":[8,0,0,131,0],
-"class_acts_1_1_doublet_seed_finder.html":[6,0,0,127],
-"class_acts_1_1_doublet_seed_finder.html":[8,0,0,132],
-"class_acts_1_1_doublet_seed_finder.html#a22fcfde342eed27a5b5b3b1a568c972a":[6,0,0,127,2],
-"class_acts_1_1_doublet_seed_finder.html#a22fcfde342eed27a5b5b3b1a568c972a":[8,0,0,132,2]
+"class_acts_1_1_disc_trapezoid_bounds.html#afbef61884e60415b690021da87663366":[8,0,0,130,7]
 };

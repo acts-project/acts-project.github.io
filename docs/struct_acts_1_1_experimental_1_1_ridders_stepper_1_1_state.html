@@ -133,7 +133,7 @@ $(function(){initNavTree('struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_s
 <div class="dynheader">
 Collaboration diagram for Acts::Experimental::RiddersStepper&lt; stepper_impl_t &gt;::State:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state__coll__graph.svg" width="100%" height="513"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state__coll__graph.svg" width="100%" height="474"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -142,15 +142,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ac212654b0e70a3f101e34aad227c8bd6" id="r_ac212654b0e70a3f101e34aad227c8bd6"><td class="memItemLeft" align="right" valign="top"><a id="ac212654b0e70a3f101e34aad227c8bd6" name="ac212654b0e70a3f101e34aad227c8bd6"></a>
-<a class="el" href="class_acts_1_1_experimental_1_1_ridders_stepper.html#a1f7460e6a51f6941af80ea9071e47583">Covariance</a>&#160;</td><td class="memItemRight" valign="bottom"><b>cov</b> = Covariance::Zero()</td></tr>
-<tr class="memdesc:ac212654b0e70a3f101e34aad227c8bd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">The covariance of the last known bound parameters. <br /></td></tr>
-<tr class="memitem:adda1a05d676a28e6fcc90bb61d50c57b" id="r_adda1a05d676a28e6fcc90bb61d50c57b"><td class="memItemLeft" align="right" valign="top"><a id="adda1a05d676a28e6fcc90bb61d50c57b" name="adda1a05d676a28e6fcc90bb61d50c57b"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>covTransport</b> = false</td></tr>
-<tr class="memdesc:adda1a05d676a28e6fcc90bb61d50c57b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag indicating whether covariance transport is enabled. <br /></td></tr>
-<tr class="memitem:a8afbc28a32d99eeef26697e7571200ec" id="r_a8afbc28a32d99eeef26697e7571200ec"><td class="memItemLeft" align="right" valign="top"><a id="a8afbc28a32d99eeef26697e7571200ec" name="a8afbc28a32d99eeef26697e7571200ec"></a>
-<a class="el" href="class_acts_1_1_experimental_1_1_ridders_stepper.html#a769da128174e0af44916ec0db7720cc4">Jacobian</a>&#160;</td><td class="memItemRight" valign="bottom"><b>jacobian</b> = Jacobian::Identity()</td></tr>
-<tr class="memdesc:a8afbc28a32d99eeef26697e7571200ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Jacobian of the last bound to bound transformation. <br /></td></tr>
+<tr class="memitem:ad698b141a4d2dade36d7e3890b982778" id="r_ad698b141a4d2dade36d7e3890b982778"><td class="memItemLeft" align="right" valign="top"><a id="ad698b141a4d2dade36d7e3890b982778" name="ad698b141a4d2dade36d7e3890b982778"></a>
+std::optional&lt; <a class="el" href="class_acts_1_1_experimental_1_1_ridders_stepper.html#a1f7460e6a51f6941af80ea9071e47583">Covariance</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>cov</b></td></tr>
+<tr class="memdesc:ad698b141a4d2dade36d7e3890b982778"><td class="mdescLeft">&#160;</td><td class="mdescRight">The covariance of the last known bound parameters, set if the covariance is transported. <br /></td></tr>
 <tr class="memitem:ae64c6d00c707891c185b7d72b64c8304" id="r_ae64c6d00c707891c185b7d72b64c8304"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5">ConstrainedStep::Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae64c6d00c707891c185b7d72b64c8304">lastStepConstraintType</a></td></tr>
 <tr class="memdesc:ae64c6d00c707891c185b7d72b64c8304"><td class="mdescLeft">&#160;</td><td class="mdescRight">The last constrained step type.  <br /></td></tr>
 <tr class="memitem:a59c6f8414b0cb5ed5295bbabce5194ba" id="r_a59c6f8414b0cb5ed5295bbabce5194ba"><td class="memItemLeft" align="right" valign="top"><a id="a59c6f8414b0cb5ed5295bbabce5194ba" name="a59c6f8414b0cb5ed5295bbabce5194ba"></a>
@@ -171,9 +165,6 @@ StepperImpl::State&#160;</td><td class="memItemRight" valign="bottom"><b>primary
 <tr class="memitem:a8ef9f929fc3ad65e8dd168dd481b82be" id="r_a8ef9f929fc3ad65e8dd168dd481b82be"><td class="memItemLeft" align="right" valign="top"><a id="a8ef9f929fc3ad65e8dd168dd481b82be" name="a8ef9f929fc3ad65e8dd168dd481b82be"></a>
 std::vector&lt; typename StepperImpl::State &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>secondaryStepperStates</b></td></tr>
 <tr class="memdesc:a8ef9f929fc3ad65e8dd168dd481b82be"><td class="mdescLeft">&#160;</td><td class="mdescRight">The states of the secondary steppers, which perform steps with varied initial conditions to compute the Jacobian columns. <br /></td></tr>
-<tr class="memitem:a245a4875d19391e84c79627862877798" id="r_a245a4875d19391e84c79627862877798"><td class="memItemLeft" align="right" valign="top"><a id="a245a4875d19391e84c79627862877798" name="a245a4875d19391e84c79627862877798"></a>
-<a class="el" href="struct_acts_1_1_stepper_statistics.html">StepperStatistics</a>&#160;</td><td class="memItemRight" valign="bottom"><b>statistics</b></td></tr>
-<tr class="memdesc:a245a4875d19391e84c79627862877798"><td class="mdescLeft">&#160;</td><td class="mdescRight">Statistics for the stepper, such as the number of steps taken and the number of successful steps. <br /></td></tr>
 <tr class="memitem:a3da385b1ad3baeaaa505370c59414596" id="r_a3da385b1ad3baeaaa505370c59414596"><td class="memItemLeft" align="right" valign="top"><a id="a3da385b1ad3baeaaa505370c59414596" name="a3da385b1ad3baeaaa505370c59414596"></a>
 <a class="el" href="namespace_acts_1_1_experimental.html#ae62f43feed40cd3e8caf842c666df0f1">BoundParameterVariation</a>&#160;</td><td class="memItemRight" valign="bottom"><b>variationMap</b></td></tr>
 <tr class="memdesc:a3da385b1ad3baeaaa505370c59414596"><td class="mdescLeft">&#160;</td><td class="mdescRight">The variation map, which contains the indices of the varied parameters and the corresponding deltas applied to them. <br /></td></tr>

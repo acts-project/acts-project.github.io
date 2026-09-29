@@ -556,7 +556,6 @@ var namespace_acts =
     [ "RegularSurfaceConcept", "concept_acts_1_1_regular_surface_concept.html", null ],
     [ "SmartPointerConcept", "concept_acts_1_1_smart_pointer_concept.html", null ],
     [ "StepperConcept", "concept_acts_1_1_stepper_concept.html", null ],
-    [ "StepperStateConcept", "concept_acts_1_1_stepper_state_concept.html", null ],
     [ "SurfaceConcept", "concept_acts_1_1_surface_concept.html", null ],
     [ "SurfaceVisitor", "concept_acts_1_1_surface_visitor.html", null ],
     [ "TrackContainerBackend", "concept_acts_1_1_track_container_backend.html", null ],

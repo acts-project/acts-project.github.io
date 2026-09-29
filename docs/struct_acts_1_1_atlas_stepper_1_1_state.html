@@ -143,15 +143,8 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:affad2a2c763e535b62e1b6d48646990c" id="r_affad2a2c763e535b62e1b6d48646990c"><td class="memItemLeft" align="right" valign="top"><a id="affad2a2c763e535b62e1b6d48646990c" name="affad2a2c763e535b62e1b6d48646990c"></a>
-<a class="el" href="class_acts_1_1_atlas_stepper.html#a0621e44f0f27a4e6464a3e378f7f88a4">Covariance</a>&#160;</td><td class="memItemRight" valign="bottom"><b>cov</b> = Covariance::Zero()</td></tr>
-<tr class="memdesc:affad2a2c763e535b62e1b6d48646990c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Local covariance matrix storage. <br /></td></tr>
-<tr class="memitem:a773e824c6530b9e19ca6e6e6b69c64d9" id="r_a773e824c6530b9e19ca6e6e6b69c64d9"><td class="memItemLeft" align="right" valign="top"><a id="a773e824c6530b9e19ca6e6e6b69c64d9" name="a773e824c6530b9e19ca6e6e6b69c64d9"></a>
-const <a class="el" href="class_acts_1_1_atlas_stepper.html#a0621e44f0f27a4e6464a3e378f7f88a4">Covariance</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>covariance</b> = nullptr</td></tr>
-<tr class="memdesc:a773e824c6530b9e19ca6e6e6b69c64d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to external covariance matrix. <br /></td></tr>
-<tr class="memitem:a7f628863b78ed9e7d7145a03dbf01f57" id="r_a7f628863b78ed9e7d7145a03dbf01f57"><td class="memItemLeft" align="right" valign="top"><a id="a7f628863b78ed9e7d7145a03dbf01f57" name="a7f628863b78ed9e7d7145a03dbf01f57"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>covTransport</b> = false</td></tr>
-<tr class="memdesc:a7f628863b78ed9e7d7145a03dbf01f57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag indicating whether covariance transport is enabled. <br /></td></tr>
+<tr class="memitem:af19085c6e82bbeba215a6157700c3fd9" id="r_af19085c6e82bbeba215a6157700c3fd9"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="class_acts_1_1_atlas_stepper.html#a0621e44f0f27a4e6464a3e378f7f88a4">Covariance</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af19085c6e82bbeba215a6157700c3fd9">cov</a></td></tr>
+<tr class="memdesc:af19085c6e82bbeba215a6157700c3fd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Covariance at the anchor, i.e.  <br /></td></tr>
 <tr class="memitem:a72e4957b51d0e4e653f58e6bb9d016b9" id="r_a72e4957b51d0e4e653f58e6bb9d016b9"><td class="memItemLeft" align="right" valign="top"><a id="a72e4957b51d0e4e653f58e6bb9d016b9" name="a72e4957b51d0e4e653f58e6bb9d016b9"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>debug</b> = false</td></tr>
 <tr class="memdesc:a72e4957b51d0e4e653f58e6bb9d016b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Debug output the string where debug messages are stored (optionally). <br /></td></tr>
@@ -169,9 +162,6 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>debugString</b
 <tr class="memdesc:afb180b5e371b7d3e6a211b58a529a931"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current magnetic field vector. <br /></td></tr>
 <tr class="memitem:a73e59eece5c3944168e5637b443a76e9" id="r_a73e59eece5c3944168e5637b443a76e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_magnetic_field_provider.html#a1f11a18dff2bb4106d1c1f76ff25e1d9">MagneticFieldProvider::Cache</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73e59eece5c3944168e5637b443a76e9">fieldCache</a></td></tr>
 <tr class="memdesc:a73e59eece5c3944168e5637b443a76e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">It caches the current magnetic field cell and stays (and interpolates) within as long as this is valid.  <br /></td></tr>
-<tr class="memitem:aeb96de3a003f281201a3493dcbbdfea5" id="r_aeb96de3a003f281201a3493dcbbdfea5"><td class="memItemLeft" align="right" valign="top"><a id="aeb96de3a003f281201a3493dcbbdfea5" name="aeb96de3a003f281201a3493dcbbdfea5"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>jacobian</b> [eBoundSize *eBoundSize] = {}</td></tr>
-<tr class="memdesc:aeb96de3a003f281201a3493dcbbdfea5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Jacobian matrix storage for parameter derivatives. <br /></td></tr>
 <tr class="memitem:af099b4fb1548b2b7409298685475a5d4" id="r_af099b4fb1548b2b7409298685475a5d4"><td class="memItemLeft" align="right" valign="top"><a id="af099b4fb1548b2b7409298685475a5d4" name="af099b4fb1548b2b7409298685475a5d4"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><b>maxPathLength</b> = 0</td></tr>
 <tr class="memdesc:af099b4fb1548b2b7409298685475a5d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum path length for this propagation. <br /></td></tr>
@@ -187,9 +177,6 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>newfield</b> = true</
 <tr class="memitem:ac91d30f1cdc099ac947f438a9ffa19c2" id="r_ac91d30f1cdc099ac947f438a9ffa19c2"><td class="memItemLeft" align="right" valign="top"><a id="ac91d30f1cdc099ac947f438a9ffa19c2" name="ac91d30f1cdc099ac947f438a9ffa19c2"></a>
 std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>nSteps</b> = 0</td></tr>
 <tr class="memdesc:ac91d30f1cdc099ac947f438a9ffa19c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Total number of performed steps. <br /></td></tr>
-<tr class="memitem:a1d1e32d94fd6a942b65c9c7b56e5e2b2" id="r_a1d1e32d94fd6a942b65c9c7b56e5e2b2"><td class="memItemLeft" align="right" valign="top"><a id="a1d1e32d94fd6a942b65c9c7b56e5e2b2" name="a1d1e32d94fd6a942b65c9c7b56e5e2b2"></a>
-std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>nStepTrials</b> = 0</td></tr>
-<tr class="memdesc:a1d1e32d94fd6a942b65c9c7b56e5e2b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Totoal number of attempted steps. <br /></td></tr>
 <tr class="memitem:af2cc0fc0ca380701fb6dc1be39f69e5c" id="r_af2cc0fc0ca380701fb6dc1be39f69e5c"><td class="memItemLeft" align="right" valign="top"><a id="af2cc0fc0ca380701fb6dc1be39f69e5c" name="af2cc0fc0ca380701fb6dc1be39f69e5c"></a>
 <a class="el" href="struct_acts_1_1_atlas_stepper_1_1_options.html">Options</a>&#160;</td><td class="memItemRight" valign="bottom"><b>options</b></td></tr>
 <tr class="memdesc:af2cc0fc0ca380701fb6dc1be39f69e5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stepper options for this propagation. <br /></td></tr>
@@ -264,6 +251,23 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>useJacobian</b> = fal
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="af19085c6e82bbeba215a6157700c3fd9" name="af19085c6e82bbeba215a6157700c3fd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af19085c6e82bbeba215a6157700c3fd9">&#9670;&#160;</a></span>cov</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt;<a class="el" href="class_acts_1_1_atlas_stepper.html#a0621e44f0f27a4e6464a3e378f7f88a4">Covariance</a>&gt; Acts::AtlasStepper::State::cov</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Covariance at the anchor, i.e. </p>
+<p>the frame of the last initialization, transport or update, set if the covariance is transported </p>
+
+</div>
+</div>
 <a id="a73e59eece5c3944168e5637b443a76e9" name="a73e59eece5c3944168e5637b443a76e9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a73e59eece5c3944168e5637b443a76e9">&#9670;&#160;</a></span>fieldCache</h2>
 

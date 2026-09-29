@@ -153,7 +153,7 @@ $(function(){initNavTree('_standard_aborters_8hpp_source.html','',''); });
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="comment">// Check if the maximum allowed step size has to be updated</span></div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keywordtype">double</span> distance =</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        std::abs(<a class="code hl_variable" href="struct_acts_1_1_path_limit_reached.html#ae530cfb7adcbd4f28be85b2b2db78b96">internalLimit</a>) - std::abs(state.stepping.pathAccumulated);</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        std::abs(<a class="code hl_variable" href="struct_acts_1_1_path_limit_reached.html#ae530cfb7adcbd4f28be85b2b2db78b96">internalLimit</a>) - std::abs(stepper.pathLength(state.stepping));</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keywordtype">double</span> tolerance = state.options.surfaceTolerance;</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keywordtype">bool</span> limitReached = (std::abs(distance) &lt; std::abs(tolerance));</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="keywordflow">if</span> (limitReached) {</div>

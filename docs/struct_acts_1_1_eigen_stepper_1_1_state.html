@@ -143,12 +143,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:aecebb20ea443f591fd9bf17f7bd6e71a" id="r_aecebb20ea443f591fd9bf17f7bd6e71a"><td class="memItemLeft" align="right" valign="top"><a id="aecebb20ea443f591fd9bf17f7bd6e71a" name="aecebb20ea443f591fd9bf17f7bd6e71a"></a>
-<a class="el" href="class_acts_1_1_eigen_stepper.html#aa1993e173ca9d2b7b70471a23326fce3">Covariance</a>&#160;</td><td class="memItemRight" valign="bottom"><b>cov</b> = Covariance::Zero()</td></tr>
-<tr class="memdesc:aecebb20ea443f591fd9bf17f7bd6e71a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Covariance matrix for track parameter uncertainties. <br /></td></tr>
-<tr class="memitem:a490c1bc1a7d74f9ed43190624bd51815" id="r_a490c1bc1a7d74f9ed43190624bd51815"><td class="memItemLeft" align="right" valign="top"><a id="a490c1bc1a7d74f9ed43190624bd51815" name="a490c1bc1a7d74f9ed43190624bd51815"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>covTransport</b> = false</td></tr>
-<tr class="memdesc:a490c1bc1a7d74f9ed43190624bd51815"><td class="mdescLeft">&#160;</td><td class="mdescRight">Covariance matrix (and indicator) associated with the initial error on track parameters. <br /></td></tr>
+<tr class="memitem:a73daf06087737e3f34db771d931b92ac" id="r_a73daf06087737e3f34db771d931b92ac"><td class="memItemLeft" align="right" valign="top"><a id="a73daf06087737e3f34db771d931b92ac" name="a73daf06087737e3f34db771d931b92ac"></a>
+std::optional&lt; <a class="el" href="class_acts_1_1_eigen_stepper.html#aa1993e173ca9d2b7b70471a23326fce3">Covariance</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>cov</b></td></tr>
+<tr class="memdesc:a73daf06087737e3f34db771d931b92ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Covariance matrix for track parameter uncertainties, set if the covariance is transported. <br /></td></tr>
 <tr class="memitem:afedbdf02889bda6f4a7119bf84d8c809" id="r_afedbdf02889bda6f4a7119bf84d8c809"><td class="memItemLeft" align="right" valign="top"><a id="afedbdf02889bda6f4a7119bf84d8c809" name="afedbdf02889bda6f4a7119bf84d8c809"></a>
 <a class="el" href="namespace_acts.html#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a>&#160;</td><td class="memItemRight" valign="bottom"><b>derivative</b> = FreeVector::Zero()</td></tr>
 <tr class="memdesc:afedbdf02889bda6f4a7119bf84d8c809"><td class="mdescLeft">&#160;</td><td class="mdescRight">The propagation derivative. <br /></td></tr>
@@ -157,9 +154,6 @@ extension_t&#160;</td><td class="memItemRight" valign="bottom"><b>extension</b><
 <tr class="memdesc:a6f1ff63feede242680707059a21c916a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Algorithmic extension. <br /></td></tr>
 <tr class="memitem:ab47704c312aaf8e1b4780fa9054c6f59" id="r_ab47704c312aaf8e1b4780fa9054c6f59"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_magnetic_field_provider.html#a1f11a18dff2bb4106d1c1f76ff25e1d9">MagneticFieldProvider::Cache</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab47704c312aaf8e1b4780fa9054c6f59">fieldCache</a></td></tr>
 <tr class="memdesc:ab47704c312aaf8e1b4780fa9054c6f59"><td class="mdescLeft">&#160;</td><td class="mdescRight">This caches the current magnetic field cell and stays (and interpolates) within it as long as this is valid.  <br /></td></tr>
-<tr class="memitem:ac96a0a5d18d9c4faca33a8a92f1f487a" id="r_ac96a0a5d18d9c4faca33a8a92f1f487a"><td class="memItemLeft" align="right" valign="top"><a id="ac96a0a5d18d9c4faca33a8a92f1f487a" name="ac96a0a5d18d9c4faca33a8a92f1f487a"></a>
-<a class="el" href="class_acts_1_1_eigen_stepper.html#ae822928de6a4a328e265630ddf43d161">Jacobian</a>&#160;</td><td class="memItemRight" valign="bottom"><b>jacobian</b> = Jacobian::Identity()</td></tr>
-<tr class="memdesc:ac96a0a5d18d9c4faca33a8a92f1f487a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The full jacobian of the transport entire transport. <br /></td></tr>
 <tr class="memitem:aafe0919185203cc9c14aa8dee5947d08" id="r_aafe0919185203cc9c14aa8dee5947d08"><td class="memItemLeft" align="right" valign="top"><a id="aafe0919185203cc9c14aa8dee5947d08" name="aafe0919185203cc9c14aa8dee5947d08"></a>
 <a class="el" href="namespace_acts.html#aa7db1d65428d10880cd7643f8e6eddb4">BoundToFreeMatrix</a>&#160;</td><td class="memItemRight" valign="bottom"><b>jacToGlobal</b> = BoundToFreeMatrix::Zero()</td></tr>
 <tr class="memdesc:aafe0919185203cc9c14aa8dee5947d08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Jacobian from local to the global frame. <br /></td></tr>
@@ -169,9 +163,6 @@ extension_t&#160;</td><td class="memItemRight" valign="bottom"><b>extension</b><
 <tr class="memitem:a0c56af9899c29e9d1373cb593d4f6111" id="r_a0c56af9899c29e9d1373cb593d4f6111"><td class="memItemLeft" align="right" valign="top"><a id="a0c56af9899c29e9d1373cb593d4f6111" name="a0c56af9899c29e9d1373cb593d4f6111"></a>
 std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>nSteps</b> = 0</td></tr>
 <tr class="memdesc:a0c56af9899c29e9d1373cb593d4f6111"><td class="mdescLeft">&#160;</td><td class="mdescRight">Total number of performed steps. <br /></td></tr>
-<tr class="memitem:ae7ada818b0c4b0a273cc0e6741021ca8" id="r_ae7ada818b0c4b0a273cc0e6741021ca8"><td class="memItemLeft" align="right" valign="top"><a id="ae7ada818b0c4b0a273cc0e6741021ca8" name="ae7ada818b0c4b0a273cc0e6741021ca8"></a>
-std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>nStepTrials</b> = 0</td></tr>
-<tr class="memdesc:ae7ada818b0c4b0a273cc0e6741021ca8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Totoal number of attempted steps. <br /></td></tr>
 <tr class="memitem:a8a1ac475c76daa05791c1fa2b5cb09bd" id="r_a8a1ac475c76daa05791c1fa2b5cb09bd"><td class="memItemLeft" align="right" valign="top"><a id="a8a1ac475c76daa05791c1fa2b5cb09bd" name="a8a1ac475c76daa05791c1fa2b5cb09bd"></a>
 <a class="el" href="struct_acts_1_1_eigen_stepper_1_1_options.html">Options</a>&#160;</td><td class="memItemRight" valign="bottom"><b>options</b></td></tr>
 <tr class="memdesc:a8a1ac475c76daa05791c1fa2b5cb09bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration options for the Eigen stepper. <br /></td></tr>

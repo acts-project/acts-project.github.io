@@ -143,18 +143,12 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a6caac2ad5fd5c4d65fe8d3a7eb00aa78" id="r_a6caac2ad5fd5c4d65fe8d3a7eb00aa78"><td class="memItemLeft" align="right" valign="top"><a id="a6caac2ad5fd5c4d65fe8d3a7eb00aa78" name="a6caac2ad5fd5c4d65fe8d3a7eb00aa78"></a>
-<a class="el" href="class_acts_1_1_straight_line_stepper.html#a1c8fe5bb662fd14e8c10027c10a26202">Covariance</a>&#160;</td><td class="memItemRight" valign="bottom"><b>cov</b> = Covariance::Zero()</td></tr>
-<tr class="memdesc:a6caac2ad5fd5c4d65fe8d3a7eb00aa78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Covariance matrix for track parameter uncertainties. <br /></td></tr>
-<tr class="memitem:a41e14a64f5bd2ed5648dd994e67ad4d5" id="r_a41e14a64f5bd2ed5648dd994e67ad4d5"><td class="memItemLeft" align="right" valign="top"><a id="a41e14a64f5bd2ed5648dd994e67ad4d5" name="a41e14a64f5bd2ed5648dd994e67ad4d5"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>covTransport</b> = false</td></tr>
-<tr class="memdesc:a41e14a64f5bd2ed5648dd994e67ad4d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Boolean to indicate if you need covariance transport. <br /></td></tr>
+<tr class="memitem:adf816302a1f2caef55827b8b4006149a" id="r_adf816302a1f2caef55827b8b4006149a"><td class="memItemLeft" align="right" valign="top"><a id="adf816302a1f2caef55827b8b4006149a" name="adf816302a1f2caef55827b8b4006149a"></a>
+std::optional&lt; <a class="el" href="class_acts_1_1_straight_line_stepper.html#a1c8fe5bb662fd14e8c10027c10a26202">Covariance</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>cov</b></td></tr>
+<tr class="memdesc:adf816302a1f2caef55827b8b4006149a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Covariance matrix for track parameter uncertainties, set if the covariance is transported. <br /></td></tr>
 <tr class="memitem:a7b73a3461319b62b6310ba805bfa9eea" id="r_a7b73a3461319b62b6310ba805bfa9eea"><td class="memItemLeft" align="right" valign="top"><a id="a7b73a3461319b62b6310ba805bfa9eea" name="a7b73a3461319b62b6310ba805bfa9eea"></a>
 <a class="el" href="namespace_acts.html#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a>&#160;</td><td class="memItemRight" valign="bottom"><b>derivative</b> = FreeVector::Zero()</td></tr>
 <tr class="memdesc:a7b73a3461319b62b6310ba805bfa9eea"><td class="mdescLeft">&#160;</td><td class="mdescRight">The propagation derivative. <br /></td></tr>
-<tr class="memitem:a9210bf83689ee4b4ddfcd808650cc148" id="r_a9210bf83689ee4b4ddfcd808650cc148"><td class="memItemLeft" align="right" valign="top"><a id="a9210bf83689ee4b4ddfcd808650cc148" name="a9210bf83689ee4b4ddfcd808650cc148"></a>
-<a class="el" href="class_acts_1_1_straight_line_stepper.html#a90280ce4aad966df2a48f43e22534eae">Jacobian</a>&#160;</td><td class="memItemRight" valign="bottom"><b>jacobian</b> = Jacobian::Identity()</td></tr>
-<tr class="memdesc:a9210bf83689ee4b4ddfcd808650cc148"><td class="mdescLeft">&#160;</td><td class="mdescRight">The full jacobian of the transport entire transport. <br /></td></tr>
 <tr class="memitem:a65b8c2d7aa549a0491f8622917f0335e" id="r_a65b8c2d7aa549a0491f8622917f0335e"><td class="memItemLeft" align="right" valign="top"><a id="a65b8c2d7aa549a0491f8622917f0335e" name="a65b8c2d7aa549a0491f8622917f0335e"></a>
 <a class="el" href="namespace_acts.html#aa7db1d65428d10880cd7643f8e6eddb4">BoundToFreeMatrix</a>&#160;</td><td class="memItemRight" valign="bottom"><b>jacToGlobal</b> = BoundToFreeMatrix::Zero()</td></tr>
 <tr class="memdesc:a65b8c2d7aa549a0491f8622917f0335e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Jacobian from local to the global frame. <br /></td></tr>
@@ -164,9 +158,6 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>covTransport</b> = fa
 <tr class="memitem:a70665f0248b54cf3e47c0fa08f55487e" id="r_a70665f0248b54cf3e47c0fa08f55487e"><td class="memItemLeft" align="right" valign="top"><a id="a70665f0248b54cf3e47c0fa08f55487e" name="a70665f0248b54cf3e47c0fa08f55487e"></a>
 std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>nSteps</b> = 0</td></tr>
 <tr class="memdesc:a70665f0248b54cf3e47c0fa08f55487e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Total number of performed steps. <br /></td></tr>
-<tr class="memitem:a9cacac5ab344106ea15cc0ddee60ce5f" id="r_a9cacac5ab344106ea15cc0ddee60ce5f"><td class="memItemLeft" align="right" valign="top"><a id="a9cacac5ab344106ea15cc0ddee60ce5f" name="a9cacac5ab344106ea15cc0ddee60ce5f"></a>
-std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>nStepTrials</b> = 0</td></tr>
-<tr class="memdesc:a9cacac5ab344106ea15cc0ddee60ce5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Totoal number of attempted steps. <br /></td></tr>
 <tr class="memitem:acb5d9620aa5bb80c0b473c4275df456f" id="r_acb5d9620aa5bb80c0b473c4275df456f"><td class="memItemLeft" align="right" valign="top"><a id="acb5d9620aa5bb80c0b473c4275df456f" name="acb5d9620aa5bb80c0b473c4275df456f"></a>
 <a class="el" href="struct_acts_1_1_straight_line_stepper_1_1_options.html">Options</a>&#160;</td><td class="memItemRight" valign="bottom"><b>options</b></td></tr>
 <tr class="memdesc:acb5d9620aa5bb80c0b473c4275df456f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration options for the stepper. <br /></td></tr>

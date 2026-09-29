@@ -143,12 +143,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a632405a133655ca77ba863972999080f" id="r_a632405a133655ca77ba863972999080f"><td class="memItemLeft" align="right" valign="top"><a id="a632405a133655ca77ba863972999080f" name="a632405a133655ca77ba863972999080f"></a>
-<a class="el" href="class_acts_1_1_sympy_stepper.html#a345d6791e09cd24d1838489e59792254">Covariance</a>&#160;</td><td class="memItemRight" valign="bottom"><b>cov</b> = Covariance::Zero()</td></tr>
-<tr class="memdesc:a632405a133655ca77ba863972999080f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Covariance matrix for error propagation. <br /></td></tr>
-<tr class="memitem:a1d34555b923cd19d53f59a1b15147afa" id="r_a1d34555b923cd19d53f59a1b15147afa"><td class="memItemLeft" align="right" valign="top"><a id="a1d34555b923cd19d53f59a1b15147afa" name="a1d34555b923cd19d53f59a1b15147afa"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>covTransport</b> = false</td></tr>
-<tr class="memdesc:a1d34555b923cd19d53f59a1b15147afa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Covariance matrix (and indicator) associated with the initial error on track parameters. <br /></td></tr>
+<tr class="memitem:aee697172f4a1624125bd36e63284dd9b" id="r_aee697172f4a1624125bd36e63284dd9b"><td class="memItemLeft" align="right" valign="top"><a id="aee697172f4a1624125bd36e63284dd9b" name="aee697172f4a1624125bd36e63284dd9b"></a>
+std::optional&lt; <a class="el" href="class_acts_1_1_sympy_stepper.html#a345d6791e09cd24d1838489e59792254">Covariance</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>cov</b></td></tr>
+<tr class="memdesc:aee697172f4a1624125bd36e63284dd9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Covariance matrix for track parameter uncertainties, set if the covariance is transported. <br /></td></tr>
 <tr class="memitem:a760ef335fef159670851843b341c2b49" id="r_a760ef335fef159670851843b341c2b49"><td class="memItemLeft" align="right" valign="top"><a id="a760ef335fef159670851843b341c2b49" name="a760ef335fef159670851843b341c2b49"></a>
 <a class="el" href="namespace_acts.html#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a>&#160;</td><td class="memItemRight" valign="bottom"><b>derivative</b> = FreeVector::Zero()</td></tr>
 <tr class="memdesc:a760ef335fef159670851843b341c2b49"><td class="mdescLeft">&#160;</td><td class="mdescRight">The propagation derivative. <br /></td></tr>
@@ -158,9 +155,6 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>covTransport</b> = fa
 <tr class="memdesc:a444ef95646ef3151a49a55f823e1784a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Magnetic field at the current position, reused as the next step's first sample.  <br /></td></tr>
 <tr class="memitem:a9ad0d2b2d5918b68db6d67ac73d98c2d" id="r_a9ad0d2b2d5918b68db6d67ac73d98c2d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_magnetic_field_provider.html#a1f11a18dff2bb4106d1c1f76ff25e1d9">MagneticFieldProvider::Cache</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ad0d2b2d5918b68db6d67ac73d98c2d">fieldCache</a></td></tr>
 <tr class="memdesc:a9ad0d2b2d5918b68db6d67ac73d98c2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">This caches the current magnetic field cell and stays (and interpolates) within it as long as this is valid.  <br /></td></tr>
-<tr class="memitem:a994c5c59246ae5e6a4d81dd8bf949ba1" id="r_a994c5c59246ae5e6a4d81dd8bf949ba1"><td class="memItemLeft" align="right" valign="top"><a id="a994c5c59246ae5e6a4d81dd8bf949ba1" name="a994c5c59246ae5e6a4d81dd8bf949ba1"></a>
-<a class="el" href="class_acts_1_1_sympy_stepper.html#a8826040bfa95929033396097ceb33673">Jacobian</a>&#160;</td><td class="memItemRight" valign="bottom"><b>jacobian</b> = Jacobian::Identity()</td></tr>
-<tr class="memdesc:a994c5c59246ae5e6a4d81dd8bf949ba1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The full jacobian of the transport entire transport. <br /></td></tr>
 <tr class="memitem:af7d63fb3780b2eac0a66d724491e43b9" id="r_af7d63fb3780b2eac0a66d724491e43b9"><td class="memItemLeft" align="right" valign="top"><a id="af7d63fb3780b2eac0a66d724491e43b9" name="af7d63fb3780b2eac0a66d724491e43b9"></a>
 <a class="el" href="namespace_acts.html#aa7db1d65428d10880cd7643f8e6eddb4">BoundToFreeMatrix</a>&#160;</td><td class="memItemRight" valign="bottom"><b>jacToGlobal</b> = BoundToFreeMatrix::Zero()</td></tr>
 <tr class="memdesc:af7d63fb3780b2eac0a66d724491e43b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bound-to-free jacobian from the last reference surface, transported along with the track. <br /></td></tr>
@@ -170,9 +164,6 @@ detail::MaterialEffectsAccumulator&#160;</td><td class="memItemRight" valign="bo
 <tr class="memitem:a06debd1cbf96f96e50cf6391e0bb6bb6" id="r_a06debd1cbf96f96e50cf6391e0bb6bb6"><td class="memItemLeft" align="right" valign="top"><a id="a06debd1cbf96f96e50cf6391e0bb6bb6" name="a06debd1cbf96f96e50cf6391e0bb6bb6"></a>
 std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>nSteps</b> = 0</td></tr>
 <tr class="memdesc:a06debd1cbf96f96e50cf6391e0bb6bb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Total number of performed steps. <br /></td></tr>
-<tr class="memitem:a47ab09266cdde27df614f60a533e25c4" id="r_a47ab09266cdde27df614f60a533e25c4"><td class="memItemLeft" align="right" valign="top"><a id="a47ab09266cdde27df614f60a533e25c4" name="a47ab09266cdde27df614f60a533e25c4"></a>
-std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>nStepTrials</b> = 0</td></tr>
-<tr class="memdesc:a47ab09266cdde27df614f60a533e25c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Totoal number of attempted steps. <br /></td></tr>
 <tr class="memitem:a7106268ea0c0de7e92c9cc5365bb0b64" id="r_a7106268ea0c0de7e92c9cc5365bb0b64"><td class="memItemLeft" align="right" valign="top"><a id="a7106268ea0c0de7e92c9cc5365bb0b64" name="a7106268ea0c0de7e92c9cc5365bb0b64"></a>
 <a class="el" href="struct_acts_1_1_sympy_stepper_1_1_options.html">Options</a>&#160;</td><td class="memItemRight" valign="bottom"><b>options</b></td></tr>
 <tr class="memdesc:a7106268ea0c0de7e92c9cc5365bb0b64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration options for the stepper. <br /></td></tr>
