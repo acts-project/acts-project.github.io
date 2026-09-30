@@ -1,0 +1,5 @@
+<map id="Acts::TripletSeedFinder::Config" name="Acts::TripletSeedFinder::Config">
+<area shape="rect" id="Node000001" title="Collection of configuration parameters for the triplet seed finder." alt="" coords="5,5,176,45"/>
+<area shape="rect" id="Node000002" href="$struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html" title="Derived configuration for the triplet seed finder using a magnetic field." alt="" coords="5,93,176,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,59,93,93,88,93,88,59"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="Acts::TrackStateTypeMap&lt; ReadOnly &gt;" name="Acts::TrackStateTypeMap&lt; ReadOnly &gt;">
+<area shape="rect" id="Node000001" title="TrackStateTypeBase mapped to external storage." alt="" coords="109,240,293,280"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_track_state_type_map.html" title=" " alt="" coords="5,351,189,391"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="176,292,118,352,114,349,172,288"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_track_state_type_map.html" title=" " alt="" coords="213,351,397,391"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="231,288,289,349,285,352,227,292"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_track_state_type_base.html" title=" " alt="" coords="81,136,322,191"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,205,204,239,199,239,199,205"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_track_state_type_base.html" title="CRTP base class for TrackStateType and TrackStateTypeMap." alt="" coords="107,5,295,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="204,59,204,136,199,136,199,59"/>
+</map>

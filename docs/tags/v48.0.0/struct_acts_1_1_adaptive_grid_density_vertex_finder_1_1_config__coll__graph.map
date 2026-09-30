@@ -1,0 +1,9 @@
+<map id="Acts::AdaptiveGridDensityVertexFinder::Config" name="Acts::AdaptiveGridDensityVertexFinder::Config">
+<area shape="rect" id="Node000001" title="The Config struct." alt="" coords="844,26,1037,66"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_adaptive_grid_track_density.html" title="Implements a 1D (no time seeding) / 2D (time seeding) grid that is filled with track densities." alt="" coords="435,5,661,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="675,24,844,36,843,42,675,30"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="429,55,667,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="680,71,820,62,843,59,844,65,820,67,681,76"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="5,55,208,95"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="221,73,429,73,429,78,221,78"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Acts::TrivialPortalLink" name="Acts::TrivialPortalLink">
+<area shape="rect" id="Node000001" title="Trivial portal link links to a single target volume on every point on a surface." alt="" coords="5,79,168,104"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_portal_link_base.html" title="PortalLinkBase is the abstract base class for all portal links." alt="" coords="9,5,164,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,44,89,79,84,79,84,44"/>
+</map>

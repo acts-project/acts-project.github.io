@@ -1,0 +1,5 @@
+<map id="Acts::ShiftedCenterReferenceGenerator" name="Acts::ShiftedCenterReferenceGenerator">
+<area shape="rect" id="Node000001" title="A struct to access the shifted center of surface applying a shift on the corresponding coordinate." alt="" coords="5,79,217,119"/>
+<area shape="rect" id="Node000002" href="$struct_acts_1_1_i_reference_generator.html" title="An interface for reference point generators." alt="" coords="15,5,208,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,44,114,79,109,79,109,44"/>
+</map>
