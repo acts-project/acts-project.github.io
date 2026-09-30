@@ -139,8 +139,8 @@ var NAVTREEINDEX =
 "struct_acts_1_1_vertex_fit_candidate.html#ab25b79529359d40372e9f24b6e14775d",
 "struct_acts_fatras_1_1_bound_parameters_smearer.html#a5b0f49991dd80806a1b48c7d45ad2a2d",
 "struct_acts_fatras_1_1_single_particle_simulation.html#a1cfbb9f8dde02827b9c55f0baf643f63",
-"struct_acts_plugins_1_1_geo_model_detector_object_factory_1_1_converted_geo_vol.html#af99888d1d1b1bac5e987618d74549335",
-"struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#aad5017f4e550af46cfc538c2a0de4952"
+"struct_acts_plugins_1_1_geo_model_detector_object_factory_1_1_converted_geo_vol.html#a5b0ea50fb53f0330a42b1184da3bead0",
+"struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#aa8eaaf40b2c763310a16774465d125f1"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

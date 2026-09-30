@@ -8,6 +8,7 @@ var group__detray__plugin =
       [ "Config", "struct_acts_plugins_1_1_detray_geometry_converter_1_1_config.html", [
         [ "convertMaterial", "struct_acts_plugins_1_1_detray_geometry_converter_1_1_config.html#aece7de232b048e9e0145134293677e8f", null ],
         [ "convertSurfaceGrids", "struct_acts_plugins_1_1_detray_geometry_converter_1_1_config.html#a421975324847fa54c6d8cf3beb567967", null ],
+        [ "deduplicateMaterial", "struct_acts_plugins_1_1_detray_geometry_converter_1_1_config.html#ad5f7b0a4dc6903d5535c59444d3487c7", null ],
         [ "payloadConverter", "struct_acts_plugins_1_1_detray_geometry_converter_1_1_config.html#a0596e737f7af62f3cef9e1445122a701", null ]
       ] ],
       [ "DetrayGeometry", "struct_acts_plugins_1_1_detray_geometry_converter_1_1_detray_geometry.html", [

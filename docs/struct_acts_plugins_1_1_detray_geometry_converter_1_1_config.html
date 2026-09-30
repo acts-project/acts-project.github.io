@@ -144,12 +144,31 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>convertMaterial</b> =
 <tr class="memitem:a421975324847fa54c6d8cf3beb567967" id="r_a421975324847fa54c6d8cf3beb567967"><td class="memItemLeft" align="right" valign="top"><a id="a421975324847fa54c6d8cf3beb567967" name="a421975324847fa54c6d8cf3beb567967"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>convertSurfaceGrids</b> = true</td></tr>
 <tr class="memdesc:a421975324847fa54c6d8cf3beb567967"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to convert surface grid information from ACTS to detray. <br /></td></tr>
+<tr class="memitem:ad5f7b0a4dc6903d5535c59444d3487c7" id="r_ad5f7b0a4dc6903d5535c59444d3487c7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5f7b0a4dc6903d5535c59444d3487c7">deduplicateMaterial</a> = true</td></tr>
+<tr class="memdesc:ad5f7b0a4dc6903d5535c59444d3487c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether identical surface material is shared between detray surfaces instead of being copied for every surface.  <br /></td></tr>
 <tr class="memitem:a0596e737f7af62f3cef9e1445122a701" id="r_a0596e737f7af62f3cef9e1445122a701"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="class_acts_plugins_1_1_detray_payload_converter.html">DetrayPayloadConverter</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0596e737f7af62f3cef9e1445122a701">payloadConverter</a></td></tr>
 <tr class="memdesc:a0596e737f7af62f3cef9e1445122a701"><td class="mdescLeft">&#160;</td><td class="mdescRight">The payload converter used to turn the ACTS geometry into detray payloads.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Configuration for the geometry converter. </p>
 </div><a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="ad5f7b0a4dc6903d5535c59444d3487c7" name="ad5f7b0a4dc6903d5535c59444d3487c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5f7b0a4dc6903d5535c59444d3487c7">&#9670;&#160;</a></span>deduplicateMaterial</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ActsPlugins::DetrayGeometryConverter::Config::deduplicateMaterial = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Whether identical surface material is shared between detray surfaces instead of being copied for every surface. </p>
+<p>ACTS portals are split into one detray portal surface per attached volume, which otherwise each get their own copy of the portal material. </p><dl class="section note"><dt>Note</dt><dd>This only affects the built detector, the payloads keep one material entry per surface. </dd></dl>
+
+</div>
+</div>
 <a id="a0596e737f7af62f3cef9e1445122a701" name="a0596e737f7af62f3cef9e1445122a701"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0596e737f7af62f3cef9e1445122a701">&#9670;&#160;</a></span>payloadConverter</h2>
 
