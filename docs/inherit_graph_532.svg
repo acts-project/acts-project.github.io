@@ -11,10 +11,10 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="struct_acts_1_1_types_1_1count.html" target="_top" xlink:title="Count the number of times a type occurs in a type list.">
+<g id="a_Node000000"><a xlink:href="struct_acts_1_1_types_1_1apply.html" target="_top" xlink:title="Apply a typelist to a type function.">
 <polygon fill="white" stroke="#666666" points="104,-30 0,-30 0,0 104,0 104,-30"/>
-<text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Types::count</text>
-<text text-anchor="middle" x="52" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; T, L &gt;</text>
+<text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Types::apply</text>
+<text text-anchor="middle" x="52" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; F, T &gt;</text>
 </a>
 </g>
 </g>

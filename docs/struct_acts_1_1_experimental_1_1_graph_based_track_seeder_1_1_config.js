@@ -41,7 +41,7 @@ var struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config =
     [ "phiWindowNearOffset", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#ac1e43a6d8e39829b3dd72c5e0a1a7460", null ],
     [ "phiWindowNearSlope", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a600cd49f563f2e45c1ba3ba4d918df8c", null ],
     [ "phiWindowSplitDeltaRadius", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#aa02fbefba7113470183e794af54b32c5", null ],
-    [ "tauLookupTable", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a41e133515e864ccd1957e6ed816270a2", null ],
+    [ "tauLookupTable", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#acd40b2abe79fc29ce80973d534c409f8", null ],
     [ "tauLutBinWidth", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a6b12de0af055db7fe006774d90f0e904", null ],
     [ "tauRatioCorr", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#ae1affe4469d4447b1a24fe44d001c92d", null ],
     [ "tauRatioCorrStrip", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a380aab10a082b9dc62c962e7c1b07d6f", null ],

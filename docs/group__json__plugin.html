@@ -202,6 +202,14 @@ Functions</h2></td></tr>
 <tr class="memdesc:gaf82572e503169d94a3cbe03a3a0af6cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decorate JSON with additional information from the decorator (pointer version).  <br /></td></tr>
 <tr class="memitem:gae08b94ce511c98dcc5d34694c2d9cb89" id="r_gae08b94ce511c98dcc5d34694c2d9cb89"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_acts_1_1_surface_json_converter_1_1_config.html">Config</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae08b94ce511c98dcc5d34694c2d9cb89">Acts::SurfaceJsonConverter::Config::defaultConfig</a> ()</td></tr>
 <tr class="memdesc:gae08b94ce511c98dcc5d34694c2d9cb89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default configuration construction.  <br /></td></tr>
+<tr class="memitem:gac9789369931bac6f6a69583d6afaf9b9" id="r_gac9789369931bac6f6a69583d6afaf9b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac9789369931bac6f6a69583d6afaf9b9">Acts::Experimental::from_json</a> (const nlohmann::json &amp;j, <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_config.html">GbtsLayerConfig</a> &amp;layer)</td></tr>
+<tr class="memdesc:gac9789369931bac6f6a69583d6afaf9b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert JSON to GbtsLayerConfig.  <br /></td></tr>
+<tr class="memitem:ga74a55b89c77544d90739bd01cdcafbde" id="r_ga74a55b89c77544d90739bd01cdcafbde"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga74a55b89c77544d90739bd01cdcafbde">Acts::Experimental::from_json</a> (const nlohmann::json &amp;j, <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_connection.html">GbtsLayerConnection</a> &amp;connection)</td></tr>
+<tr class="memdesc:ga74a55b89c77544d90739bd01cdcafbde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert JSON to GbtsLayerConnection.  <br /></td></tr>
+<tr class="memitem:gaba1db56245f1a080e1b4212118eab279" id="r_gaba1db56245f1a080e1b4212118eab279"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaba1db56245f1a080e1b4212118eab279">Acts::Experimental::from_json</a> (const nlohmann::json &amp;j, <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_layer_description.html">GbtsLayerConnectionTool::LayerDescription</a> &amp;layer)</td></tr>
+<tr class="memdesc:gaba1db56245f1a080e1b4212118eab279"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert JSON to GbtsLayerConnectionTool::LayerDescription.  <br /></td></tr>
+<tr class="memitem:gac71d1c560d18d804dcce9b8ec9731013" id="r_gac71d1c560d18d804dcce9b8ec9731013"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac71d1c560d18d804dcce9b8ec9731013">Acts::Experimental::from_json</a> (const nlohmann::json &amp;j, <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_tau_bounds.html">GbtsTauBounds</a> &amp;bounds)</td></tr>
+<tr class="memdesc:gac71d1c560d18d804dcce9b8ec9731013"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert JSON to GbtsTauBounds.  <br /></td></tr>
 <tr class="memitem:ga6aaf7d1fd1b61101aeb7f6e35e642781" id="r_ga6aaf7d1fd1b61101aeb7f6e35e642781"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6aaf7d1fd1b61101aeb7f6e35e642781">Acts::from_json</a> (const nlohmann::json &amp;j, <a class="el" href="class_acts_1_1_binning_data.html">BinningData</a> &amp;bd)</td></tr>
 <tr class="memdesc:ga6aaf7d1fd1b61101aeb7f6e35e642781"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert JSON to BinningData.  <br /></td></tr>
 <tr class="memitem:ga6aa02daa239b9da9ab61a7d5a330bfc1" id="r_ga6aa02daa239b9da9ab61a7d5a330bfc1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6aa02daa239b9da9ab61a7d5a330bfc1">Acts::from_json</a> (const nlohmann::json &amp;j, <a class="el" href="class_acts_1_1_bin_utility.html">BinUtility</a> &amp;bu)</td></tr>
@@ -261,8 +269,24 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga0c4c37f9c2d147c464be0b11b6662e44"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Surface converter from json.  <br /></td></tr>
 <tr class="memitem:ga212ab110f4d06e5738f7e11a23839ef2" id="r_ga212ab110f4d06e5738f7e11a23839ef2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_polynomial_bethe_heitler_approx.html">PolynomialBetheHeitlerApprox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga212ab110f4d06e5738f7e11a23839ef2">Acts::loadBetheHeitlerApproxFromJson</a> (const std::string &amp;filepath, bool clampToRange=false, double noChangeLimit=0.0001, double singleGaussianLimit=0.002)</td></tr>
 <tr class="memdesc:ga212ab110f4d06e5738f7e11a23839ef2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load a Bethe-Heitler approximation from a JSON file.  <br /></td></tr>
+<tr class="memitem:gae9387a5c86dc8999ed90e70c71c8ff13" id="r_gae9387a5c86dc8999ed90e70c71c8ff13"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_connection.html">GbtsLayerConnection</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae9387a5c86dc8999ed90e70c71c8ff13">Acts::Experimental::readGbtsConnections</a> (const std::filesystem::path &amp;path)</td></tr>
+<tr class="memdesc:gae9387a5c86dc8999ed90e70c71c8ff13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the layer connections from a connection table file.  <br /></td></tr>
+<tr class="memitem:gaad786ec6f77019086699d47b3b63911a" id="r_gaad786ec6f77019086699d47b3b63911a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_layer_description.html">GbtsLayerConnectionTool::LayerDescription</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaad786ec6f77019086699d47b3b63911a">Acts::Experimental::readGbtsLayerDescriptions</a> (const std::filesystem::path &amp;path)</td></tr>
+<tr class="memdesc:gaad786ec6f77019086699d47b3b63911a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the layer geometry the layer connection training needs from a layer map file.  <br /></td></tr>
+<tr class="memitem:gaac1e5564b63de93de86b7fc229289453" id="r_gaac1e5564b63de93de86b7fc229289453"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_config.html">GbtsLayerConfig</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaac1e5564b63de93de86b7fc229289453">Acts::Experimental::readGbtsLayers</a> (const std::filesystem::path &amp;path)</td></tr>
+<tr class="memdesc:gaac1e5564b63de93de86b7fc229289453"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the GBTS layers and their surfaces from a layer map file.  <br /></td></tr>
+<tr class="memitem:gaf0bce7944fefa90e13830c26c57706d2" id="r_gaf0bce7944fefa90e13830c26c57706d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts_1_1_experimental.html#af10fe0d352edb71b632868aa9ceb52ba">GbtsTauLookupTable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf0bce7944fefa90e13830c26c57706d2">Acts::Experimental::readGbtsTauLookupTable</a> (const std::filesystem::path &amp;path)</td></tr>
+<tr class="memdesc:gaf0bce7944fefa90e13830c26c57706d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the tau lookup table of the cluster width cuts.  <br /></td></tr>
 <tr class="memitem:gab5b6563910c389e8e62e1f8811467c97" id="r_gab5b6563910c389e8e62e1f8811467c97"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab5b6563910c389e8e62e1f8811467c97">Acts::SurfaceJsonConverter::setConfig</a> (const <a class="el" href="struct_acts_1_1_surface_json_converter_1_1_config.html">Config</a> &amp;cfg)</td></tr>
 <tr class="memdesc:gab5b6563910c389e8e62e1f8811467c97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set externally constructed configuration.  <br /></td></tr>
+<tr class="memitem:ga3bd380c61b416f1b6bfe4ababb478db9" id="r_ga3bd380c61b416f1b6bfe4ababb478db9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3bd380c61b416f1b6bfe4ababb478db9">Acts::Experimental::to_json</a> (nlohmann::json &amp;j, const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_config.html">GbtsLayerConfig</a> &amp;layer)</td></tr>
+<tr class="memdesc:ga3bd380c61b416f1b6bfe4ababb478db9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert GbtsLayerConfig to JSON.  <br /></td></tr>
+<tr class="memitem:ga08cb76cc921e3c4ad57ee5ecd582e2f3" id="r_ga08cb76cc921e3c4ad57ee5ecd582e2f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga08cb76cc921e3c4ad57ee5ecd582e2f3">Acts::Experimental::to_json</a> (nlohmann::json &amp;j, const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_connection.html">GbtsLayerConnection</a> &amp;connection)</td></tr>
+<tr class="memdesc:ga08cb76cc921e3c4ad57ee5ecd582e2f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert GbtsLayerConnection to JSON.  <br /></td></tr>
+<tr class="memitem:ga5a8fa948de660d81cffa668822bdd54d" id="r_ga5a8fa948de660d81cffa668822bdd54d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5a8fa948de660d81cffa668822bdd54d">Acts::Experimental::to_json</a> (nlohmann::json &amp;j, const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_layer_description.html">GbtsLayerConnectionTool::LayerDescription</a> &amp;layer)</td></tr>
+<tr class="memdesc:ga5a8fa948de660d81cffa668822bdd54d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert GbtsLayerConnectionTool::LayerDescription to JSON.  <br /></td></tr>
+<tr class="memitem:gac889dfde5bf70663bd74a26255cfb923" id="r_gac889dfde5bf70663bd74a26255cfb923"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac889dfde5bf70663bd74a26255cfb923">Acts::Experimental::to_json</a> (nlohmann::json &amp;j, const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_tau_bounds.html">GbtsTauBounds</a> &amp;bounds)</td></tr>
+<tr class="memdesc:gac889dfde5bf70663bd74a26255cfb923"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert GbtsTauBounds to JSON.  <br /></td></tr>
 <tr class="memitem:ga21008d4899b84f5e09b90b3414557299" id="r_ga21008d4899b84f5e09b90b3414557299"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga21008d4899b84f5e09b90b3414557299">Acts::to_json</a> (nlohmann::json &amp;j, const <a class="el" href="class_acts_1_1_tracking_volume.html">Acts::TrackingVolume</a> &amp;volume)</td></tr>
 <tr class="memdesc:ga21008d4899b84f5e09b90b3414557299"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert TrackingVolume to JSON.  <br /></td></tr>
 <tr class="memitem:ga0180294a7f0ba9cf68cfe12f157c86e5" id="r_ga0180294a7f0ba9cf68cfe12f157c86e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0180294a7f0ba9cf68cfe12f157c86e5">Acts::to_json</a> (nlohmann::json &amp;j, const <a class="el" href="class_acts_1_1_binning_data.html">BinningData</a> &amp;bd)</td></tr>
@@ -332,6 +356,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga277a256ce56e6426a468cfada6325112"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contextual conversion of a surface.  <br /></td></tr>
 <tr class="memitem:ga0d44dfc16a076ea3977b8d4632e0bd71" id="r_ga0d44dfc16a076ea3977b8d4632e0bd71"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0d44dfc16a076ea3977b8d4632e0bd71">Acts::toJson</a> (nlohmann::json &amp;j, const std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt; &amp;surface, const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx)</td></tr>
 <tr class="memdesc:ga0d44dfc16a076ea3977b8d4632e0bd71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contextual conversion of a surface.  <br /></td></tr>
+<tr class="memitem:ga2116f5067f4a44ff3997e8533e845dd9" id="r_ga2116f5067f4a44ff3997e8533e845dd9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2116f5067f4a44ff3997e8533e845dd9">Acts::Experimental::writeGbtsConnections</a> (const std::filesystem::path &amp;path, const std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_connection.html">GbtsLayerConnection</a> &gt; &amp;connections)</td></tr>
+<tr class="memdesc:ga2116f5067f4a44ff3997e8533e845dd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write layer connections to a connection table file.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -630,8 +656,128 @@ template&lt;class T, class decorator_t&gt; </div>
 
 </div>
 </div>
+<a id="gac9789369931bac6f6a69583d6afaf9b9" name="gac9789369931bac6f6a69583d6afaf9b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac9789369931bac6f6a69583d6afaf9b9">&#9670;&#160;</a></span>from_json() <span class="overload">[1/27]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Acts::Experimental::from_json </td>
+          <td>(</td>
+          <td class="paramtype">const nlohmann::json &amp;</td>          <td class="paramname"><span class="paramname"><em>j</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_config.html">GbtsLayerConfig</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>layer</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert JSON to GbtsLayerConfig. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">j</td><td>Source JSON object </td></tr>
+    <tr><td class="paramname">layer</td><td>Destination GbtsLayerConfig to populate </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga74a55b89c77544d90739bd01cdcafbde" name="ga74a55b89c77544d90739bd01cdcafbde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga74a55b89c77544d90739bd01cdcafbde">&#9670;&#160;</a></span>from_json() <span class="overload">[2/27]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Acts::Experimental::from_json </td>
+          <td>(</td>
+          <td class="paramtype">const nlohmann::json &amp;</td>          <td class="paramname"><span class="paramname"><em>j</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_connection.html">GbtsLayerConnection</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>connection</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert JSON to GbtsLayerConnection. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">j</td><td>Source JSON object </td></tr>
+    <tr><td class="paramname">connection</td><td>Destination GbtsLayerConnection to populate </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaba1db56245f1a080e1b4212118eab279" name="gaba1db56245f1a080e1b4212118eab279"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaba1db56245f1a080e1b4212118eab279">&#9670;&#160;</a></span>from_json() <span class="overload">[3/27]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Acts::Experimental::from_json </td>
+          <td>(</td>
+          <td class="paramtype">const nlohmann::json &amp;</td>          <td class="paramname"><span class="paramname"><em>j</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_layer_description.html">GbtsLayerConnectionTool::LayerDescription</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>layer</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert JSON to GbtsLayerConnectionTool::LayerDescription. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">j</td><td>Source JSON object </td></tr>
+    <tr><td class="paramname">layer</td><td>Destination LayerDescription to populate </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gac71d1c560d18d804dcce9b8ec9731013" name="gac71d1c560d18d804dcce9b8ec9731013"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac71d1c560d18d804dcce9b8ec9731013">&#9670;&#160;</a></span>from_json() <span class="overload">[4/27]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Acts::Experimental::from_json </td>
+          <td>(</td>
+          <td class="paramtype">const nlohmann::json &amp;</td>          <td class="paramname"><span class="paramname"><em>j</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_tau_bounds.html">GbtsTauBounds</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>bounds</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert JSON to GbtsTauBounds. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">j</td><td>Source JSON object </td></tr>
+    <tr><td class="paramname">bounds</td><td>Destination GbtsTauBounds to populate </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="ga6aaf7d1fd1b61101aeb7f6e35e642781" name="ga6aaf7d1fd1b61101aeb7f6e35e642781"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6aaf7d1fd1b61101aeb7f6e35e642781">&#9670;&#160;</a></span>from_json() <span class="overload">[1/23]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6aaf7d1fd1b61101aeb7f6e35e642781">&#9670;&#160;</a></span>from_json() <span class="overload">[5/27]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -661,7 +807,7 @@ template&lt;class T, class decorator_t&gt; </div>
 </div>
 </div>
 <a id="ga6aa02daa239b9da9ab61a7d5a330bfc1" name="ga6aa02daa239b9da9ab61a7d5a330bfc1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6aa02daa239b9da9ab61a7d5a330bfc1">&#9670;&#160;</a></span>from_json() <span class="overload">[2/23]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6aa02daa239b9da9ab61a7d5a330bfc1">&#9670;&#160;</a></span>from_json() <span class="overload">[6/27]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -691,7 +837,7 @@ template&lt;class T, class decorator_t&gt; </div>
 </div>
 </div>
 <a id="gad50fafa93df1591c8654c7d0d3b1cb7e" name="gad50fafa93df1591c8654c7d0d3b1cb7e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad50fafa93df1591c8654c7d0d3b1cb7e">&#9670;&#160;</a></span>from_json() <span class="overload">[3/23]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gad50fafa93df1591c8654c7d0d3b1cb7e">&#9670;&#160;</a></span>from_json() <span class="overload">[7/27]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -721,7 +867,7 @@ template&lt;class T, class decorator_t&gt; </div>
 </div>
 </div>
 <a id="ga7eae7997e8fa26d213da0e8fa7129515" name="ga7eae7997e8fa26d213da0e8fa7129515"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7eae7997e8fa26d213da0e8fa7129515">&#9670;&#160;</a></span>from_json() <span class="overload">[4/23]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7eae7997e8fa26d213da0e8fa7129515">&#9670;&#160;</a></span>from_json() <span class="overload">[8/27]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -751,7 +897,7 @@ template&lt;class T, class decorator_t&gt; </div>
 </div>
 </div>
 <a id="gad49f19edad64ea575a4a25ce77aad2d7" name="gad49f19edad64ea575a4a25ce77aad2d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad49f19edad64ea575a4a25ce77aad2d7">&#9670;&#160;</a></span>from_json() <span class="overload">[5/23]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gad49f19edad64ea575a4a25ce77aad2d7">&#9670;&#160;</a></span>from_json() <span class="overload">[9/27]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -781,7 +927,7 @@ template&lt;class T, class decorator_t&gt; </div>
 </div>
 </div>
 <a id="gaa3ffa5ada56af263eb0e8bbc53fa5459" name="gaa3ffa5ada56af263eb0e8bbc53fa5459"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa3ffa5ada56af263eb0e8bbc53fa5459">&#9670;&#160;</a></span>from_json() <span class="overload">[6/23]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa3ffa5ada56af263eb0e8bbc53fa5459">&#9670;&#160;</a></span>from_json() <span class="overload">[10/27]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -811,7 +957,7 @@ template&lt;class T, class decorator_t&gt; </div>
 </div>
 </div>
 <a id="gac033bb4cfc8036b464bb9f2a3d3b8686" name="gac033bb4cfc8036b464bb9f2a3d3b8686"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac033bb4cfc8036b464bb9f2a3d3b8686">&#9670;&#160;</a></span>from_json() <span class="overload">[7/23]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gac033bb4cfc8036b464bb9f2a3d3b8686">&#9670;&#160;</a></span>from_json() <span class="overload">[11/27]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -841,7 +987,7 @@ template&lt;class T, class decorator_t&gt; </div>
 </div>
 </div>
 <a id="ga3e3b92a25e324876baafc6cab3792335" name="ga3e3b92a25e324876baafc6cab3792335"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3e3b92a25e324876baafc6cab3792335">&#9670;&#160;</a></span>from_json() <span class="overload">[8/23]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3e3b92a25e324876baafc6cab3792335">&#9670;&#160;</a></span>from_json() <span class="overload">[12/27]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -871,7 +1017,7 @@ template&lt;class T, class decorator_t&gt; </div>
 </div>
 </div>
 <a id="ga592058495eb3359d62691f7d2cdd2404" name="ga592058495eb3359d62691f7d2cdd2404"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga592058495eb3359d62691f7d2cdd2404">&#9670;&#160;</a></span>from_json() <span class="overload">[9/23]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga592058495eb3359d62691f7d2cdd2404">&#9670;&#160;</a></span>from_json() <span class="overload">[13/27]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -901,7 +1047,7 @@ template&lt;class T, class decorator_t&gt; </div>
 </div>
 </div>
 <a id="ga03f32df68210c652f7261a9119a4f1b5" name="ga03f32df68210c652f7261a9119a4f1b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga03f32df68210c652f7261a9119a4f1b5">&#9670;&#160;</a></span>from_json() <span class="overload">[10/23]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga03f32df68210c652f7261a9119a4f1b5">&#9670;&#160;</a></span>from_json() <span class="overload">[14/27]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -931,7 +1077,7 @@ template&lt;class T, class decorator_t&gt; </div>
 </div>
 </div>
 <a id="ga9d3e1dd11c85a17a0506f49190900bbf" name="ga9d3e1dd11c85a17a0506f49190900bbf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9d3e1dd11c85a17a0506f49190900bbf">&#9670;&#160;</a></span>from_json() <span class="overload">[11/23]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9d3e1dd11c85a17a0506f49190900bbf">&#9670;&#160;</a></span>from_json() <span class="overload">[15/27]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -961,7 +1107,7 @@ template&lt;class T, class decorator_t&gt; </div>
 </div>
 </div>
 <a id="ga5f0d646d5e653b566152c0a6b86b88b4" name="ga5f0d646d5e653b566152c0a6b86b88b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5f0d646d5e653b566152c0a6b86b88b4">&#9670;&#160;</a></span>from_json() <span class="overload">[12/23]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5f0d646d5e653b566152c0a6b86b88b4">&#9670;&#160;</a></span>from_json() <span class="overload">[16/27]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -991,7 +1137,7 @@ template&lt;class T, class decorator_t&gt; </div>
 </div>
 </div>
 <a id="gab858857ba46f68cedf8b8896e1a73e68" name="gab858857ba46f68cedf8b8896e1a73e68"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab858857ba46f68cedf8b8896e1a73e68">&#9670;&#160;</a></span>from_json() <span class="overload">[13/23]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gab858857ba46f68cedf8b8896e1a73e68">&#9670;&#160;</a></span>from_json() <span class="overload">[17/27]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1021,7 +1167,7 @@ template&lt;class T, class decorator_t&gt; </div>
 </div>
 </div>
 <a id="ga58a6de4073cc0d6ff6bf6e770b2dd639" name="ga58a6de4073cc0d6ff6bf6e770b2dd639"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga58a6de4073cc0d6ff6bf6e770b2dd639">&#9670;&#160;</a></span>from_json() <span class="overload">[14/23]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga58a6de4073cc0d6ff6bf6e770b2dd639">&#9670;&#160;</a></span>from_json() <span class="overload">[18/27]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1051,7 +1197,7 @@ template&lt;class T, class decorator_t&gt; </div>
 </div>
 </div>
 <a id="ga09d44dd7b4152194ab796c6e1e16be97" name="ga09d44dd7b4152194ab796c6e1e16be97"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga09d44dd7b4152194ab796c6e1e16be97">&#9670;&#160;</a></span>from_json() <span class="overload">[15/23]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga09d44dd7b4152194ab796c6e1e16be97">&#9670;&#160;</a></span>from_json() <span class="overload">[19/27]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1081,7 +1227,7 @@ template&lt;class T, class decorator_t&gt; </div>
 </div>
 </div>
 <a id="ga855b9b689178362da5db12c9e081c4b2" name="ga855b9b689178362da5db12c9e081c4b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga855b9b689178362da5db12c9e081c4b2">&#9670;&#160;</a></span>from_json() <span class="overload">[16/23]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga855b9b689178362da5db12c9e081c4b2">&#9670;&#160;</a></span>from_json() <span class="overload">[20/27]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1111,7 +1257,7 @@ template&lt;class T, class decorator_t&gt; </div>
 </div>
 </div>
 <a id="gae0588b72788762e55c7e287167143e2f" name="gae0588b72788762e55c7e287167143e2f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae0588b72788762e55c7e287167143e2f">&#9670;&#160;</a></span>from_json() <span class="overload">[17/23]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gae0588b72788762e55c7e287167143e2f">&#9670;&#160;</a></span>from_json() <span class="overload">[21/27]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1143,7 +1289,7 @@ template&lt;typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb
 </div>
 </div>
 <a id="gacaf98b5c349c59caa5b240a4380d467c" name="gacaf98b5c349c59caa5b240a4380d467c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gacaf98b5c349c59caa5b240a4380d467c">&#9670;&#160;</a></span>from_json() <span class="overload">[18/23]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gacaf98b5c349c59caa5b240a4380d467c">&#9670;&#160;</a></span>from_json() <span class="overload">[22/27]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1173,7 +1319,7 @@ template&lt;typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb
 </div>
 </div>
 <a id="ga5468da799422d3b617d84b3b7731b1cf" name="ga5468da799422d3b617d84b3b7731b1cf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5468da799422d3b617d84b3b7731b1cf">&#9670;&#160;</a></span>from_json() <span class="overload">[19/23]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5468da799422d3b617d84b3b7731b1cf">&#9670;&#160;</a></span>from_json() <span class="overload">[23/27]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1205,7 +1351,7 @@ template&lt;typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb
 </div>
 </div>
 <a id="gac7844f9f2860fbc63cfe807871dd609e" name="gac7844f9f2860fbc63cfe807871dd609e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac7844f9f2860fbc63cfe807871dd609e">&#9670;&#160;</a></span>from_json() <span class="overload">[20/23]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gac7844f9f2860fbc63cfe807871dd609e">&#9670;&#160;</a></span>from_json() <span class="overload">[24/27]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1235,7 +1381,7 @@ template&lt;typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb
 </div>
 </div>
 <a id="ga7666dcd1616997abe73e6144e0856c21" name="ga7666dcd1616997abe73e6144e0856c21"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7666dcd1616997abe73e6144e0856c21">&#9670;&#160;</a></span>from_json() <span class="overload">[21/23]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7666dcd1616997abe73e6144e0856c21">&#9670;&#160;</a></span>from_json() <span class="overload">[25/27]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1265,7 +1411,7 @@ template&lt;typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb
 </div>
 </div>
 <a id="gad22512c60bd55a029744569044bd101d" name="gad22512c60bd55a029744569044bd101d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad22512c60bd55a029744569044bd101d">&#9670;&#160;</a></span>from_json() <span class="overload">[22/23]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gad22512c60bd55a029744569044bd101d">&#9670;&#160;</a></span>from_json() <span class="overload">[26/27]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1295,7 +1441,7 @@ template&lt;typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb
 </div>
 </div>
 <a id="gad4e3a647d9f5607dcff4abf122189cb1" name="gad4e3a647d9f5607dcff4abf122189cb1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad4e3a647d9f5607dcff4abf122189cb1">&#9670;&#160;</a></span>from_json() <span class="overload">[23/23]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gad4e3a647d9f5607dcff4abf122189cb1">&#9670;&#160;</a></span>from_json() <span class="overload">[27/27]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1514,6 +1660,110 @@ template&lt;typename value_t, class decorator_t = void&gt; </div>
 
 </div>
 </div>
+<a id="gae9387a5c86dc8999ed90e70c71c8ff13" name="gae9387a5c86dc8999ed90e70c71c8ff13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae9387a5c86dc8999ed90e70c71c8ff13">&#9670;&#160;</a></span>readGbtsConnections()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_connection.html">GbtsLayerConnection</a> &gt; Acts::Experimental::readGbtsConnections </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read the layer connections from a connection table file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">path</td><td>The file to read, any format the JSON plugin reads </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The connections of the file's <span class="tt">connections</span> entry </dd></dl>
+
+</div>
+</div>
+<a id="gaad786ec6f77019086699d47b3b63911a" name="gaad786ec6f77019086699d47b3b63911a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaad786ec6f77019086699d47b3b63911a">&#9670;&#160;</a></span>readGbtsLayerDescriptions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_layer_description.html">GbtsLayerConnectionTool::LayerDescription</a> &gt; Acts::Experimental::readGbtsLayerDescriptions </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read the layer geometry the layer connection training needs from a layer map file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">path</td><td>The file to read, any format the JSON plugin reads </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The layer descriptions of the file's <span class="tt">layers</span> entry </dd></dl>
+
+</div>
+</div>
+<a id="gaac1e5564b63de93de86b7fc229289453" name="gaac1e5564b63de93de86b7fc229289453"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaac1e5564b63de93de86b7fc229289453">&#9670;&#160;</a></span>readGbtsLayers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_config.html">GbtsLayerConfig</a> &gt; Acts::Experimental::readGbtsLayers </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read the GBTS layers and their surfaces from a layer map file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">path</td><td>The file to read, any format the JSON plugin reads </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The layers of the file's <span class="tt">layers</span> entry </dd></dl>
+
+</div>
+</div>
+<a id="gaf0bce7944fefa90e13830c26c57706d2" name="gaf0bce7944fefa90e13830c26c57706d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf0bce7944fefa90e13830c26c57706d2">&#9670;&#160;</a></span>readGbtsTauLookupTable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_acts_1_1_experimental.html#af10fe0d352edb71b632868aa9ceb52ba">GbtsTauLookupTable</a> Acts::Experimental::readGbtsTauLookupTable </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read the tau lookup table of the cluster width cuts. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">path</td><td>The file to read, any format the JSON plugin reads </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The table of the file's <span class="tt">tauLookupTable</span> entry </dd></dl>
+
+</div>
+</div>
 <a id="gab5b6563910c389e8e62e1f8811467c97" name="gab5b6563910c389e8e62e1f8811467c97"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gab5b6563910c389e8e62e1f8811467c97">&#9670;&#160;</a></span>setConfig()</h2>
 
@@ -1548,8 +1798,128 @@ template&lt;typename value_t, class decorator_t = void&gt; </div>
 
 </div>
 </div>
+<a id="ga3bd380c61b416f1b6bfe4ababb478db9" name="ga3bd380c61b416f1b6bfe4ababb478db9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3bd380c61b416f1b6bfe4ababb478db9">&#9670;&#160;</a></span>to_json() <span class="overload">[1/32]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Acts::Experimental::to_json </td>
+          <td>(</td>
+          <td class="paramtype">nlohmann::json &amp;</td>          <td class="paramname"><span class="paramname"><em>j</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_config.html">GbtsLayerConfig</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>layer</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert GbtsLayerConfig to JSON. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">j</td><td>Destination JSON object </td></tr>
+    <tr><td class="paramname">layer</td><td>Source GbtsLayerConfig to convert </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga08cb76cc921e3c4ad57ee5ecd582e2f3" name="ga08cb76cc921e3c4ad57ee5ecd582e2f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga08cb76cc921e3c4ad57ee5ecd582e2f3">&#9670;&#160;</a></span>to_json() <span class="overload">[2/32]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Acts::Experimental::to_json </td>
+          <td>(</td>
+          <td class="paramtype">nlohmann::json &amp;</td>          <td class="paramname"><span class="paramname"><em>j</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_connection.html">GbtsLayerConnection</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>connection</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert GbtsLayerConnection to JSON. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">j</td><td>Destination JSON object </td></tr>
+    <tr><td class="paramname">connection</td><td>Source GbtsLayerConnection to convert </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga5a8fa948de660d81cffa668822bdd54d" name="ga5a8fa948de660d81cffa668822bdd54d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5a8fa948de660d81cffa668822bdd54d">&#9670;&#160;</a></span>to_json() <span class="overload">[3/32]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Acts::Experimental::to_json </td>
+          <td>(</td>
+          <td class="paramtype">nlohmann::json &amp;</td>          <td class="paramname"><span class="paramname"><em>j</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_layer_description.html">GbtsLayerConnectionTool::LayerDescription</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>layer</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert GbtsLayerConnectionTool::LayerDescription to JSON. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">j</td><td>Destination JSON object </td></tr>
+    <tr><td class="paramname">layer</td><td>Source LayerDescription to convert </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gac889dfde5bf70663bd74a26255cfb923" name="gac889dfde5bf70663bd74a26255cfb923"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac889dfde5bf70663bd74a26255cfb923">&#9670;&#160;</a></span>to_json() <span class="overload">[4/32]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Acts::Experimental::to_json </td>
+          <td>(</td>
+          <td class="paramtype">nlohmann::json &amp;</td>          <td class="paramname"><span class="paramname"><em>j</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_tau_bounds.html">GbtsTauBounds</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>bounds</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert GbtsTauBounds to JSON. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">j</td><td>Destination JSON object </td></tr>
+    <tr><td class="paramname">bounds</td><td>Source GbtsTauBounds to convert </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="ga21008d4899b84f5e09b90b3414557299" name="ga21008d4899b84f5e09b90b3414557299"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga21008d4899b84f5e09b90b3414557299">&#9670;&#160;</a></span>to_json() <span class="overload">[1/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga21008d4899b84f5e09b90b3414557299">&#9670;&#160;</a></span>to_json() <span class="overload">[5/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1579,7 +1949,7 @@ template&lt;typename value_t, class decorator_t = void&gt; </div>
 </div>
 </div>
 <a id="ga0180294a7f0ba9cf68cfe12f157c86e5" name="ga0180294a7f0ba9cf68cfe12f157c86e5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0180294a7f0ba9cf68cfe12f157c86e5">&#9670;&#160;</a></span>to_json() <span class="overload">[2/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0180294a7f0ba9cf68cfe12f157c86e5">&#9670;&#160;</a></span>to_json() <span class="overload">[6/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1609,7 +1979,7 @@ template&lt;typename value_t, class decorator_t = void&gt; </div>
 </div>
 </div>
 <a id="ga59cce586dc4783924d42ab22a11ecce9" name="ga59cce586dc4783924d42ab22a11ecce9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga59cce586dc4783924d42ab22a11ecce9">&#9670;&#160;</a></span>to_json() <span class="overload">[3/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga59cce586dc4783924d42ab22a11ecce9">&#9670;&#160;</a></span>to_json() <span class="overload">[7/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1639,7 +2009,7 @@ template&lt;typename value_t, class decorator_t = void&gt; </div>
 </div>
 </div>
 <a id="ga0ab3d6dbcd4de2e07980751c16819f19" name="ga0ab3d6dbcd4de2e07980751c16819f19"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0ab3d6dbcd4de2e07980751c16819f19">&#9670;&#160;</a></span>to_json() <span class="overload">[4/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0ab3d6dbcd4de2e07980751c16819f19">&#9670;&#160;</a></span>to_json() <span class="overload">[8/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1669,7 +2039,7 @@ template&lt;typename value_t, class decorator_t = void&gt; </div>
 </div>
 </div>
 <a id="gaa43e54634a3a5cb7d7299533f1fe8fb6" name="gaa43e54634a3a5cb7d7299533f1fe8fb6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa43e54634a3a5cb7d7299533f1fe8fb6">&#9670;&#160;</a></span>to_json() <span class="overload">[5/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa43e54634a3a5cb7d7299533f1fe8fb6">&#9670;&#160;</a></span>to_json() <span class="overload">[9/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1699,7 +2069,7 @@ template&lt;typename value_t, class decorator_t = void&gt; </div>
 </div>
 </div>
 <a id="ga26b713fc99a501d9b357b63b96e19dfa" name="ga26b713fc99a501d9b357b63b96e19dfa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga26b713fc99a501d9b357b63b96e19dfa">&#9670;&#160;</a></span>to_json() <span class="overload">[6/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga26b713fc99a501d9b357b63b96e19dfa">&#9670;&#160;</a></span>to_json() <span class="overload">[10/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1729,7 +2099,7 @@ template&lt;typename value_t, class decorator_t = void&gt; </div>
 </div>
 </div>
 <a id="ga9a2eccf35e551d2a8063b8d371021222" name="ga9a2eccf35e551d2a8063b8d371021222"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9a2eccf35e551d2a8063b8d371021222">&#9670;&#160;</a></span>to_json() <span class="overload">[7/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9a2eccf35e551d2a8063b8d371021222">&#9670;&#160;</a></span>to_json() <span class="overload">[11/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1759,7 +2129,7 @@ template&lt;typename value_t, class decorator_t = void&gt; </div>
 </div>
 </div>
 <a id="gac7b956e5011c5bedfeafbd6ac7412899" name="gac7b956e5011c5bedfeafbd6ac7412899"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac7b956e5011c5bedfeafbd6ac7412899">&#9670;&#160;</a></span>to_json() <span class="overload">[8/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gac7b956e5011c5bedfeafbd6ac7412899">&#9670;&#160;</a></span>to_json() <span class="overload">[12/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1789,7 +2159,7 @@ template&lt;typename value_t, class decorator_t = void&gt; </div>
 </div>
 </div>
 <a id="ga8a0f735e5875adc3ba5c0106bccefbae" name="ga8a0f735e5875adc3ba5c0106bccefbae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8a0f735e5875adc3ba5c0106bccefbae">&#9670;&#160;</a></span>to_json() <span class="overload">[9/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8a0f735e5875adc3ba5c0106bccefbae">&#9670;&#160;</a></span>to_json() <span class="overload">[13/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1819,7 +2189,7 @@ template&lt;typename value_t, class decorator_t = void&gt; </div>
 </div>
 </div>
 <a id="ga904e12b5082576d02862b84dee929179" name="ga904e12b5082576d02862b84dee929179"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga904e12b5082576d02862b84dee929179">&#9670;&#160;</a></span>to_json() <span class="overload">[10/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga904e12b5082576d02862b84dee929179">&#9670;&#160;</a></span>to_json() <span class="overload">[14/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1849,7 +2219,7 @@ template&lt;typename value_t, class decorator_t = void&gt; </div>
 </div>
 </div>
 <a id="ga0fab3553d846cec4d455eb7f44ca1d7a" name="ga0fab3553d846cec4d455eb7f44ca1d7a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0fab3553d846cec4d455eb7f44ca1d7a">&#9670;&#160;</a></span>to_json() <span class="overload">[11/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0fab3553d846cec4d455eb7f44ca1d7a">&#9670;&#160;</a></span>to_json() <span class="overload">[15/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1879,7 +2249,7 @@ template&lt;typename value_t, class decorator_t = void&gt; </div>
 </div>
 </div>
 <a id="ga1a3142c2ce27ed106170462aeeafbb53" name="ga1a3142c2ce27ed106170462aeeafbb53"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1a3142c2ce27ed106170462aeeafbb53">&#9670;&#160;</a></span>to_json() <span class="overload">[12/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1a3142c2ce27ed106170462aeeafbb53">&#9670;&#160;</a></span>to_json() <span class="overload">[16/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1909,7 +2279,7 @@ template&lt;typename value_t, class decorator_t = void&gt; </div>
 </div>
 </div>
 <a id="ga98f720573bfa68ab9ec67df6d8db62e6" name="ga98f720573bfa68ab9ec67df6d8db62e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga98f720573bfa68ab9ec67df6d8db62e6">&#9670;&#160;</a></span>to_json() <span class="overload">[13/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga98f720573bfa68ab9ec67df6d8db62e6">&#9670;&#160;</a></span>to_json() <span class="overload">[17/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1939,7 +2309,7 @@ template&lt;typename value_t, class decorator_t = void&gt; </div>
 </div>
 </div>
 <a id="gaabdcd406be71ea46d2f5620973d245a5" name="gaabdcd406be71ea46d2f5620973d245a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaabdcd406be71ea46d2f5620973d245a5">&#9670;&#160;</a></span>to_json() <span class="overload">[14/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaabdcd406be71ea46d2f5620973d245a5">&#9670;&#160;</a></span>to_json() <span class="overload">[18/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1969,7 +2339,7 @@ template&lt;typename value_t, class decorator_t = void&gt; </div>
 </div>
 </div>
 <a id="ga7c4489a82e79d22c8071d3e2caf1ffb5" name="ga7c4489a82e79d22c8071d3e2caf1ffb5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7c4489a82e79d22c8071d3e2caf1ffb5">&#9670;&#160;</a></span>to_json() <span class="overload">[15/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7c4489a82e79d22c8071d3e2caf1ffb5">&#9670;&#160;</a></span>to_json() <span class="overload">[19/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1999,7 +2369,7 @@ template&lt;typename value_t, class decorator_t = void&gt; </div>
 </div>
 </div>
 <a id="gabad51c31738ea580fcb4e9614ddd8cf1" name="gabad51c31738ea580fcb4e9614ddd8cf1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabad51c31738ea580fcb4e9614ddd8cf1">&#9670;&#160;</a></span>to_json() <span class="overload">[16/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gabad51c31738ea580fcb4e9614ddd8cf1">&#9670;&#160;</a></span>to_json() <span class="overload">[20/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2031,7 +2401,7 @@ template&lt;typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb
 </div>
 </div>
 <a id="ga5af5a5026fb849391b1b09925ede21e0" name="ga5af5a5026fb849391b1b09925ede21e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5af5a5026fb849391b1b09925ede21e0">&#9670;&#160;</a></span>to_json() <span class="overload">[17/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5af5a5026fb849391b1b09925ede21e0">&#9670;&#160;</a></span>to_json() <span class="overload">[21/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2061,7 +2431,7 @@ template&lt;typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb
 </div>
 </div>
 <a id="ga647ad5af1e3dffc5af39b6801389b63d" name="ga647ad5af1e3dffc5af39b6801389b63d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga647ad5af1e3dffc5af39b6801389b63d">&#9670;&#160;</a></span>to_json() <span class="overload">[18/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga647ad5af1e3dffc5af39b6801389b63d">&#9670;&#160;</a></span>to_json() <span class="overload">[22/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2091,7 +2461,7 @@ template&lt;typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb
 </div>
 </div>
 <a id="ga240eac27cbc771b52c37d5d81c4f2f0d" name="ga240eac27cbc771b52c37d5d81c4f2f0d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga240eac27cbc771b52c37d5d81c4f2f0d">&#9670;&#160;</a></span>to_json() <span class="overload">[19/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga240eac27cbc771b52c37d5d81c4f2f0d">&#9670;&#160;</a></span>to_json() <span class="overload">[23/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2122,7 +2492,7 @@ template&lt;typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb
 </div>
 </div>
 <a id="ga0b5db5f2bb37675ffd77e0519bb0248c" name="ga0b5db5f2bb37675ffd77e0519bb0248c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0b5db5f2bb37675ffd77e0519bb0248c">&#9670;&#160;</a></span>to_json() <span class="overload">[20/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0b5db5f2bb37675ffd77e0519bb0248c">&#9670;&#160;</a></span>to_json() <span class="overload">[24/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2153,7 +2523,7 @@ template&lt;typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb
 </div>
 </div>
 <a id="ga597f24ebfad3f6ec84f18609ed46d977" name="ga597f24ebfad3f6ec84f18609ed46d977"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga597f24ebfad3f6ec84f18609ed46d977">&#9670;&#160;</a></span>to_json() <span class="overload">[21/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga597f24ebfad3f6ec84f18609ed46d977">&#9670;&#160;</a></span>to_json() <span class="overload">[25/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2183,7 +2553,7 @@ template&lt;typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb
 </div>
 </div>
 <a id="gaddc4fb68110ec50ce4e8077164cdc3fe" name="gaddc4fb68110ec50ce4e8077164cdc3fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaddc4fb68110ec50ce4e8077164cdc3fe">&#9670;&#160;</a></span>to_json() <span class="overload">[22/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaddc4fb68110ec50ce4e8077164cdc3fe">&#9670;&#160;</a></span>to_json() <span class="overload">[26/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2213,7 +2583,7 @@ template&lt;typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb
 </div>
 </div>
 <a id="gacf3669471f11a629a8de8cd7fd8b0579" name="gacf3669471f11a629a8de8cd7fd8b0579"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gacf3669471f11a629a8de8cd7fd8b0579">&#9670;&#160;</a></span>to_json() <span class="overload">[23/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gacf3669471f11a629a8de8cd7fd8b0579">&#9670;&#160;</a></span>to_json() <span class="overload">[27/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2244,7 +2614,7 @@ template&lt;typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb
 </div>
 </div>
 <a id="ga1337ac3c5d40bcc0364404edc0093acc" name="ga1337ac3c5d40bcc0364404edc0093acc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1337ac3c5d40bcc0364404edc0093acc">&#9670;&#160;</a></span>to_json() <span class="overload">[24/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1337ac3c5d40bcc0364404edc0093acc">&#9670;&#160;</a></span>to_json() <span class="overload">[28/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2274,7 +2644,7 @@ template&lt;typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb
 </div>
 </div>
 <a id="ga81a2ea99614b5ebd489ed49d894ff49a" name="ga81a2ea99614b5ebd489ed49d894ff49a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga81a2ea99614b5ebd489ed49d894ff49a">&#9670;&#160;</a></span>to_json() <span class="overload">[25/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga81a2ea99614b5ebd489ed49d894ff49a">&#9670;&#160;</a></span>to_json() <span class="overload">[29/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2304,7 +2674,7 @@ template&lt;typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb
 </div>
 </div>
 <a id="ga138d4ad1af646fcbf71f20a2d9699efa" name="ga138d4ad1af646fcbf71f20a2d9699efa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga138d4ad1af646fcbf71f20a2d9699efa">&#9670;&#160;</a></span>to_json() <span class="overload">[26/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga138d4ad1af646fcbf71f20a2d9699efa">&#9670;&#160;</a></span>to_json() <span class="overload">[30/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2334,7 +2704,7 @@ template&lt;typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb
 </div>
 </div>
 <a id="ga7bd8c6518220699d3b8523a29bbed679" name="ga7bd8c6518220699d3b8523a29bbed679"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7bd8c6518220699d3b8523a29bbed679">&#9670;&#160;</a></span>to_json() <span class="overload">[27/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7bd8c6518220699d3b8523a29bbed679">&#9670;&#160;</a></span>to_json() <span class="overload">[31/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2364,7 +2734,7 @@ template&lt;typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb
 </div>
 </div>
 <a id="ga8883ce55bef32607470a0518e62d4818" name="ga8883ce55bef32607470a0518e62d4818"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8883ce55bef32607470a0518e62d4818">&#9670;&#160;</a></span>to_json() <span class="overload">[28/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8883ce55bef32607470a0518e62d4818">&#9670;&#160;</a></span>to_json() <span class="overload">[32/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2580,6 +2950,36 @@ template&lt;typename value_t, class decorator_t&gt; </div>
     <tr><td class="paramname">j</td><td>the json to be filled </td></tr>
     <tr><td class="paramname">surface</td><td>the surface to be converted </td></tr>
     <tr><td class="paramname">gctx</td><td>the geometry context for this </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga2116f5067f4a44ff3997e8533e845dd9" name="ga2116f5067f4a44ff3997e8533e845dd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2116f5067f4a44ff3997e8533e845dd9">&#9670;&#160;</a></span>writeGbtsConnections()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Acts::Experimental::writeGbtsConnections </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_connection.html">GbtsLayerConnection</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>connections</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Write layer connections to a connection table file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">path</td><td>The file to write, whose extension selects the format </td></tr>
+    <tr><td class="paramname">connections</td><td>The connections to write as the <span class="tt">connections</span> entry </td></tr>
   </table>
   </dd>
 </dl>
