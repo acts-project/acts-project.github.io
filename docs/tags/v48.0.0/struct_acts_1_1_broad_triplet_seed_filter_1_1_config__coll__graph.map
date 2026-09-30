@@ -1,9 +1,0 @@
-<map id="Acts::BroadTripletSeedFilter::Config" name="Acts::BroadTripletSeedFilter::Config">
-<area shape="rect" id="Node000001" title="Structure that holds configuration parameters for the seed filter algorithm." alt="" coords="135,232,336,272"/>
-<area shape="rect" id="Node000002" href="$struct_acts_1_1_seed_confirmation_range_config.html" title="Contains parameters for quality seed confirmation." alt="" coords="5,101,220,141"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,155,107,182,116,207,128,219,144,230,141,234,125,224,112,209,102,183,102,155"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="278,101,441,141"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="357,155,348,183,332,210,316,224,298,234,295,230,313,219,328,206,343,181,352,154"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="281,5,438,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="362,45,362,101,357,101,357,45"/>
-</map>

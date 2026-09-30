@@ -1,9 +1,0 @@
-<map id="ActsPlugins::ConstPodioTrackStateContainer&lt; holder_t &gt;" name="ActsPlugins::ConstPodioTrackStateContainer&lt; holder_t &gt;">
-<area shape="rect" id="Node000001" title="Read&#45;only track state container backend using podio for storage." alt="" coords="727,41,939,81"/>
-<area shape="rect" id="Node000002" href="$class_acts_plugins_1_1_podio_track_state_container_base.html" title="Base class for PODIO track state containers." alt="" coords="452,5,661,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="675,38,727,45,726,50,675,43"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_multi_trajectory.html" title=" " alt="" coords="436,70,677,125"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="691,77,726,72,727,78,691,82"/>
-<area shape="rect" id="Node000004" href="$class_acts_1_1_multi_trajectory.html" title="Store a trajectory of track states with multiple components." alt="" coords="5,77,160,117"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="174,95,436,95,436,100,174,100"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="ActsPlugins::Geant4DetectorElement" name="ActsPlugins::Geant4DetectorElement">
-<area shape="rect" id="Node000001" title="Detector element representative for Geant4 sensitive elements." alt="" coords="5,79,213,119"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_surface_placement_base.html" title="The SurfacePlacementBase is an API proxy to model the dynamic movement of the Acts::Surface represent..." alt="" coords="5,5,213,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,44,112,79,107,79,107,44"/>
-</map>

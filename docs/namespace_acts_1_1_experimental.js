@@ -17,6 +17,7 @@ var namespace_acts_1_1_experimental =
     [ "DeltaBoundParameterVariationGenerator", "struct_acts_1_1_experimental_1_1_delta_bound_parameter_variation_generator.html", "struct_acts_1_1_experimental_1_1_delta_bound_parameter_variation_generator" ],
     [ "Efficiency", "class_acts_1_1_experimental_1_1_efficiency.html", "class_acts_1_1_experimental_1_1_efficiency" ],
     [ "ElementLayerAssembler", "class_acts_1_1_experimental_1_1_element_layer_assembler.html", "class_acts_1_1_experimental_1_1_element_layer_assembler" ],
+    [ "FrustumNavigationPolicy", "class_acts_1_1_experimental_1_1_frustum_navigation_policy.html", "class_acts_1_1_experimental_1_1_frustum_navigation_policy" ],
     [ "GbtsBinGroup", "struct_acts_1_1_experimental_1_1_gbts_bin_group.html", "struct_acts_1_1_experimental_1_1_gbts_bin_group" ],
     [ "GbtsGeometry", "class_acts_1_1_experimental_1_1_gbts_geometry.html", "class_acts_1_1_experimental_1_1_gbts_geometry" ],
     [ "GbtsLayerBinning", "struct_acts_1_1_experimental_1_1_gbts_layer_binning.html", "struct_acts_1_1_experimental_1_1_gbts_layer_binning" ],

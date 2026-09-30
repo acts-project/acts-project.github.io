@@ -1,7 +1,0 @@
-<map id="ActsPlugins::Geant4DetectorSurfaceFactory::Options" name="ActsPlugins::Geant4DetectorSurfaceFactory::Options">
-<area shape="rect" id="Node000001" title="Nested option struct that allows per call changeable configuration." alt="" coords="27,252,235,292"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,121,257,161"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="134,175,134,252,129,252,129,175"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="53,5,210,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="134,45,134,121,129,121,129,45"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="Acts::OuterStripSpacePointCalibrationDetailsDerived" name="Acts::OuterStripSpacePointCalibrationDetailsDerived">
-<area shape="rect" id="Node000001" title="Derived collection of outer strip space point details, used for the calibration." alt="" coords="5,317,201,357"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="24,101,183,127"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,141,106,317,101,317,101,141"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="42,5,165,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="106,45,106,101,101,101,101,45"/>
-</map>
