@@ -1,7 +1,0 @@
-<map id="Acts::DiamondPortalShell" name="Acts::DiamondPortalShell">
-<area shape="rect" id="Node000001" title="Base class for diamond shaped portal shells, e.g single volumes with polygon shape or stacked (multip..." alt="" coords="9,79,196,104"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_single_diamond_portal_shell.html" title="Implementation of a portal shell class for a single convex polygon volume." alt="" coords="5,152,200,192"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="105,118,105,152,100,152,100,118"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_portal_shell_base.html" title="The portal shell of a volume is the set of portals that describes connections &quot;outside&quot; of the volume..." alt="" coords="23,5,183,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,44,105,79,100,79,100,44"/>
-</map>

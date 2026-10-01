@@ -1,7 +1,0 @@
-<map id="Acts::PropagatorState&lt; propagator_options_t, stepper_state_t, navigator_state_t, extension_state_t &gt;" name="Acts::PropagatorState&lt; propagator_options_t, stepper_state_t, navigator_state_t, extension_state_t &gt;">
-<area shape="rect" id="Node000001" title="private Propagator state for navigation and debugging" alt="" coords="235,53,448,123"/>
-<area shape="rect" id="Node000003" href="$struct_acts_1_1_propagator_state.html" title=" " alt="" coords="707,46,911,130"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="462,85,706,85,706,91,462,91"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,68,185,108"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="199,85,234,85,234,91,199,91"/>
-</map>

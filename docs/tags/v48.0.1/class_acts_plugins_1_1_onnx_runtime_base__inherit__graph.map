@@ -1,5 +1,0 @@
-<map id="ActsPlugins::OnnxRuntimeBase" name="ActsPlugins::OnnxRuntimeBase">
-<area shape="rect" id="Node000001" title="General class that sets up the ONNX runtime framework for loading an ML model and using it for infere..." alt="" coords="5,5,232,31"/>
-<area shape="rect" id="Node000002" href="$class_acts_plugins_1_1_m_l_track_classifier.html" title="Specialized class that labels tracks as good/duplicate/fake using a deep neural network." alt="" coords="10,79,227,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,44,121,79,116,79,116,44"/>
-</map>
