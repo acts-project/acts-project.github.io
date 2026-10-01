@@ -144,19 +144,52 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>cut</b> = 0.5</td></
 <tr class="memitem:a35cff93e3b1648b6ae39399e24f0921d" id="r_a35cff93e3b1648b6ae39399e24f0921d"><td class="memItemLeft" align="right" valign="top"><a id="a35cff93e3b1648b6ae39399e24f0921d" name="a35cff93e3b1648b6ae39399e24f0921d"></a>
 <a class="el" href="struct_acts_plugins_1_1_device.html">Device</a>&#160;</td><td class="memItemRight" valign="bottom"><b>device</b> = <a class="el" href="struct_acts_plugins_1_1_device.html#ae38ca3263b27d84b76c3170a93eb9fc0">Device::Cuda</a>()</td></tr>
 <tr class="memdesc:a35cff93e3b1648b6ae39399e24f0921d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Device to allocate the model on. <br /></td></tr>
-<tr class="memitem:a3ae8c8784adb4ea8fed3fc5db370cdde" id="r_a3ae8c8784adb4ea8fed3fc5db370cdde"><td class="memItemLeft" align="right" valign="top"><a id="a3ae8c8784adb4ea8fed3fc5db370cdde" name="a3ae8c8784adb4ea8fed3fc5db370cdde"></a>
-std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>featureScales</b> = {}</td></tr>
-<tr class="memdesc:a3ae8c8784adb4ea8fed3fc5db370cdde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of per-feature scale factors applied to selected features. <br /></td></tr>
+<tr class="memitem:a3ae8c8784adb4ea8fed3fc5db370cdde" id="r_a3ae8c8784adb4ea8fed3fc5db370cdde"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ae8c8784adb4ea8fed3fc5db370cdde">featureScales</a> = {}</td></tr>
+<tr class="memdesc:a3ae8c8784adb4ea8fed3fc5db370cdde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Per-feature scale factors, the i-th one dividing the i-th model input feature (i.e.  <br /></td></tr>
 <tr class="memitem:a5a12504ba474f307aa77f6665cff8490" id="r_a5a12504ba474f307aa77f6665cff8490"><td class="memItemLeft" align="right" valign="top"><a id="a5a12504ba474f307aa77f6665cff8490" name="a5a12504ba474f307aa77f6665cff8490"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>modelPath</b></td></tr>
 <tr class="memdesc:a5a12504ba474f307aa77f6665cff8490"><td class="mdescLeft">&#160;</td><td class="mdescRight">Path to the ONNX model file. <br /></td></tr>
-<tr class="memitem:ad98a7bff52d6ed7d568bbdad25bc1a5c" id="r_ad98a7bff52d6ed7d568bbdad25bc1a5c"><td class="memItemLeft" align="right" valign="top"><a id="ad98a7bff52d6ed7d568bbdad25bc1a5c" name="ad98a7bff52d6ed7d568bbdad25bc1a5c"></a>
-std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>selectedFeatures</b> = {}</td></tr>
-<tr class="memdesc:ad98a7bff52d6ed7d568bbdad25bc1a5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of selected node feature indices to use as input for the model. <br /></td></tr>
+<tr class="memitem:ad98a7bff52d6ed7d568bbdad25bc1a5c" id="r_ad98a7bff52d6ed7d568bbdad25bc1a5c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad98a7bff52d6ed7d568bbdad25bc1a5c">selectedFeatures</a> = {}</td></tr>
+<tr class="memdesc:ad98a7bff52d6ed7d568bbdad25bc1a5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indices of the node features the model is given, in the order the model expects them.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Configuration for OnnxEdgeClassifier. </p>
-</div></div><!-- contents -->
+</div><a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a3ae8c8784adb4ea8fed3fc5db370cdde" name="a3ae8c8784adb4ea8fed3fc5db370cdde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ae8c8784adb4ea8fed3fc5db370cdde">&#9670;&#160;</a></span>featureScales</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;float&gt; ActsPlugins::OnnxEdgeClassifier::Config::featureScales = {}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Per-feature scale factors, the i-th one dividing the i-th model input feature (i.e. </p>
+<p>the i-th entry of selectedFeatures, if given) </p>
+
+</div>
+</div>
+<a id="ad98a7bff52d6ed7d568bbdad25bc1a5c" name="ad98a7bff52d6ed7d568bbdad25bc1a5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad98a7bff52d6ed7d568bbdad25bc1a5c">&#9670;&#160;</a></span>selectedFeatures</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;int&gt; ActsPlugins::OnnxEdgeClassifier::Config::selectedFeatures = {}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Indices of the node features the model is given, in the order the model expects them. </p>
+<p>A feature may be listed more than once. If empty, all node features are passed in their original order. </p>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

@@ -170,6 +170,7 @@ var group__gnn__plugin =
       [ "operator()", "class_acts_plugins_1_1_truth_graph_metrics_hook.html#acc17cc45074e1b6aaed5c06cb7accd5d", null ]
     ] ],
     [ "ActsPlugins::applyEdgeLimit", "group__gnn__plugin.html#gac273131a18e9f7f3e3873054606325b1", null ],
+    [ "ActsPlugins::gatherCols", "group__gnn__plugin.html#gaf3feeefb41476c4811bd902744928587", null ],
     [ "ActsPlugins::mulPerColumn", "group__gnn__plugin.html#gabffd8c32b525e2fa26e5164d205c1550", null ],
     [ "ActsPlugins::operator<<", "group__gnn__plugin.html#ga34c72c5c5e8f59873cdea1777a39f439", null ],
     [ "ActsPlugins::removeUnusedNodes", "group__gnn__plugin.html#gaf5842cdba54d259a8dfdecb8c37a2064", null ],

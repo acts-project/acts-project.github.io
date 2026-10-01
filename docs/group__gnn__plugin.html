@@ -178,6 +178,9 @@ Classes</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:gac273131a18e9f7f3e3873054606325b1" id="r_gac273131a18e9f7f3e3873054606325b1"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; std::int64_t &gt;, std::optional&lt; <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; float &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac273131a18e9f7f3e3873054606325b1">ActsPlugins::applyEdgeLimit</a> (const <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; std::int64_t &gt; &amp;edgeIndex, const std::optional&lt; <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; float &gt; &gt; &amp;edgeFeatures, std::size_t maxEdges, std::optional&lt; cudaStream_t &gt; stream)</td></tr>
 <tr class="memdesc:gac273131a18e9f7f3e3873054606325b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply a limit on the number of edges consistently on edgeIndex and edgeFeatures.  <br /></td></tr>
+<tr class="memitem:gaf3feeefb41476c4811bd902744928587" id="r_gaf3feeefb41476c4811bd902744928587"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="concept_acts_1_1_concepts_1_1arithmetic.html">Acts::Concepts::arithmetic</a> T&gt; </td></tr>
+<tr class="memitem:gaf3feeefb41476c4811bd902744928587 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf3feeefb41476c4811bd902744928587">ActsPlugins::gatherCols</a> (const <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; T &gt; &amp;tensor, const std::vector&lt; std::size_t &gt; &amp;indices, const <a class="el" href="struct_acts_plugins_1_1_execution_context.html">ExecutionContext</a> &amp;execContext)</td></tr>
+<tr class="memdesc:gaf3feeefb41476c4811bd902744928587"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gather columns from a 2D row-major tensor by index.  <br /></td></tr>
 <tr class="memitem:gabffd8c32b525e2fa26e5164d205c1550" id="r_gabffd8c32b525e2fa26e5164d205c1550"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="concept_acts_1_1_concepts_1_1arithmetic.html">Acts::Concepts::arithmetic</a> T&gt; </td></tr>
 <tr class="memitem:gabffd8c32b525e2fa26e5164d205c1550 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabffd8c32b525e2fa26e5164d205c1550">ActsPlugins::mulPerColumn</a> (const <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; T &gt; &amp;src, const std::vector&lt; T &gt; &amp;scales, const <a class="el" href="struct_acts_plugins_1_1_execution_context.html">ExecutionContext</a> &amp;execContext)</td></tr>
 <tr class="memdesc:gabffd8c32b525e2fa26e5164d205c1550"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multiply each column of src with the corresponding scale value dst[r,n] = src[r,n] * scales[n].  <br /></td></tr>
@@ -237,6 +240,51 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Pair of limited edge index tensor and optional limited edge features tensor </dd></dl>
+
+</div>
+</div>
+<a id="gaf3feeefb41476c4811bd902744928587" name="gaf3feeefb41476c4811bd902744928587"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf3feeefb41476c4811bd902744928587">&#9670;&#160;</a></span>gatherCols()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="concept_acts_1_1_concepts_1_1arithmetic.html">Acts::Concepts::arithmetic</a> T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; T &gt; ActsPlugins::gatherCols </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>tensor</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; std::size_t &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>indices</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_acts_plugins_1_1_execution_context.html">ExecutionContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>execContext</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gather columns from a 2D row-major tensor by index. </p>
+<p>dst[r,k] = src[r,indices[k]] Unlike selectCols, the columns are taken in the order they are listed in, and a column listed more than once appears more than once in the result. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tensor</td><td>Source tensor [R, N] in row-major layout </td></tr>
+    <tr><td class="paramname">indices</td><td>Column indices, each smaller than N </td></tr>
+    <tr><td class="paramname">execContext</td><td>Device and stream for output allocation, must be on the device of <code class="param">tensor</code> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>New tensor [R, K] in row-major layout, K = indices.size() </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::invalid_argument</td><td>if an index is out of range or the devices differ </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

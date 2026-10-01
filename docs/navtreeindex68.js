@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"struct_acts_fatras_1_1_segmentizer.html#a6adde1744912b310710f0fbd60cc3780":[6,0,2,33,2],
 "struct_acts_fatras_1_1_segmentizer.html#a6adde1744912b310710f0fbd60cc3780":[8,0,1,34,2],
 "struct_acts_fatras_1_1_segmentizer.html#ac16b531670f11f8e51ae0d12ee608345":[6,0,2,33,3],
 "struct_acts_fatras_1_1_segmentizer.html#ac16b531670f11f8e51ae0d12ee608345":[8,0,1,34,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "struct_acts_plugins_1_1_geant4_physical_volume_converter.html":[5,10,7,4],
 "struct_acts_plugins_1_1_geant4_physical_volume_converter.html#a70216c0f1b077c56586d4111134b4336":[5,10,7,4,1],
 "struct_acts_plugins_1_1_geant4_physical_volume_converter.html#a8fd76a901060cfabb638bdd0d55df423":[5,10,7,4,0],
-"struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_all_selector.html":[8,0,2,3,0],
-"struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_all_selector.html#a8547f7fedd2d8d3f37f1b47a634a42e2":[8,0,2,3,0,0]
+"struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_all_selector.html":[8,0,2,3,0]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"struct_acts_1_1_i_assignment_finder_1_1_volume_assignment.html#afc91f3d2e517bb87784c4d9f8106cadd":[5,3,2,0,5,1,2],
 "struct_acts_1_1_i_navigation_policy_1_1_empty_state.html":[6,0,0,197,0],
 "struct_acts_1_1_i_navigation_policy_1_1_empty_state.html":[8,0,0,202,0],
 "struct_acts_1_1_i_reference_generator.html":[6,0,0,211],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "struct_acts_1_1_layer_creator_1_1_config.html":[8,0,0,256,0],
 "struct_acts_1_1_layer_creator_1_1_config.html#a1ad17744deaec7be4fe2128640ebf730":[6,0,0,251,0,3],
 "struct_acts_1_1_layer_creator_1_1_config.html#a1ad17744deaec7be4fe2128640ebf730":[8,0,0,256,0,3],
-"struct_acts_1_1_layer_creator_1_1_config.html#a92e7d98109ecf10280dc1e0ddbe258e9":[6,0,0,251,0,4],
-"struct_acts_1_1_layer_creator_1_1_config.html#a92e7d98109ecf10280dc1e0ddbe258e9":[8,0,0,256,0,4]
+"struct_acts_1_1_layer_creator_1_1_config.html#a92e7d98109ecf10280dc1e0ddbe258e9":[6,0,0,251,0,4]
 };

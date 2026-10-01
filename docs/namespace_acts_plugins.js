@@ -115,6 +115,7 @@ var namespace_acts_plugins =
     [ "cylinderVolumeHelper_dd4hep", "group__dd4hep__plugin.html#gae2894e2fe6f50d26a5b53721dcbb93c8", null ],
     [ "extractSeries", "group__dd4hep__plugin.html#ga7a21513ede0d0c5eddded3080b845776", null ],
     [ "extractTransform", "group__dd4hep__plugin.html#ga1bed30a08ceff30dcd1c4e306713b9fe", null ],
+    [ "gatherCols", "group__gnn__plugin.html#gaf3feeefb41476c4811bd902744928587", null ],
     [ "geoShapesConverters", "group__geomodel__plugin.html#ga3cd99dccf5181add6a80b7ce15c60bca", null ],
     [ "getAttrValueOr", "group__dd4hep__plugin.html#ga48955c5e01f13d69458605e095d01689", null ],
     [ "getParam", "group__dd4hep__plugin.html#ga67f9b56f4d2999ea6c8577c77eeafe2b", null ],

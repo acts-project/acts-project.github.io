@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"struct_acts_1_1_layer_creator_1_1_config.html#a92e7d98109ecf10280dc1e0ddbe258e9":[8,0,0,256,0,4],
 "struct_acts_1_1_layer_creator_1_1_config.html#ab8112d453b0d9a63172c630984516a39":[6,0,0,251,0,0],
 "struct_acts_1_1_layer_creator_1_1_config.html#ab8112d453b0d9a63172c630984516a39":[8,0,0,256,0,0],
 "struct_acts_1_1_layer_creator_1_1_config.html#ae0f21ce653b8b9521a494c2df807bca7":[6,0,0,251,0,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "struct_acts_1_1_navigation_options.html#a38e8e066531a59277c9dd3e81d0975a0":[6,0,0,291,8],
 "struct_acts_1_1_navigation_options.html#a38e8e066531a59277c9dd3e81d0975a0":[8,0,0,296,8],
 "struct_acts_1_1_navigation_options.html#a4d51d7269042ef7c308a707d760e3303":[6,0,0,291,5],
-"struct_acts_1_1_navigation_options.html#a4d51d7269042ef7c308a707d760e3303":[8,0,0,296,5],
-"struct_acts_1_1_navigation_options.html#a5ed16712b68339f95712bbb9631c7c7d":[6,0,0,291,6]
+"struct_acts_1_1_navigation_options.html#a4d51d7269042ef7c308a707d760e3303":[8,0,0,296,5]
 };
