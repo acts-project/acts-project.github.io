@@ -31,6 +31,7 @@ var group__detray__plugin =
         [ "beampipeVolume", "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#a70906ac1e034fdbdbf105daa346f66d4", null ],
         [ "convertNavigationPolicy", "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#a44ebb5eed7bc8a0e3e99f492231319fe", null ],
         [ "convertSurfaceMaterial", "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#adbfa19d516a1bc916d8169d1726ec89e", null ],
+        [ "portalSegmentTolerance", "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#a1cd3fd98b29a7271dfb0f78eabd3986f", null ],
         [ "sensitiveStrategy", "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#a6366ebf9a368e06a89e88cbe243a6362", null ]
       ] ],
       [ "Payloads", "struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html", [

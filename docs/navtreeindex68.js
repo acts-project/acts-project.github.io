@@ -158,9 +158,10 @@ var NAVTREEINDEX68 =
 "struct_acts_plugins_1_1_detray_geometry_converter_1_1_detray_geometry.html#aafe93d68cc0b2989ae078cffd226969f":[5,10,3,1,1,0],
 "struct_acts_plugins_1_1_detray_geometry_converter_1_1_detray_geometry.html#ad1965de6a0854f6bd9e13714945ff178":[5,10,3,1,1,1],
 "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html":[5,10,3,2,0],
+"struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#a1cd3fd98b29a7271dfb0f78eabd3986f":[5,10,3,2,0,8],
 "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#a44ebb5eed7bc8a0e3e99f492231319fe":[5,10,3,2,0,6],
 "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#a5c282a909f394861043af415a6eff692":[5,10,3,2,0,1],
-"struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#a6366ebf9a368e06a89e88cbe243a6362":[5,10,3,2,0,8],
+"struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#a6366ebf9a368e06a89e88cbe243a6362":[5,10,3,2,0,9],
 "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#a70906ac1e034fdbdbf105daa346f66d4":[5,10,3,2,0,5],
 "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#a7deec81bea4311b997e64f208a04d0a2":[5,10,3,2,0,3],
 "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#abf9dcc84aef1f49626e2c9e64078ac68":[5,10,3,2,0,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "struct_acts_plugins_1_1_geant4_material_converter.html#aa24e85c5071d46b6c5a2f491784e9a0f":[5,10,7,3,0],
 "struct_acts_plugins_1_1_geant4_physical_volume_converter.html":[5,10,7,4],
 "struct_acts_plugins_1_1_geant4_physical_volume_converter.html#a70216c0f1b077c56586d4111134b4336":[5,10,7,4,1],
-"struct_acts_plugins_1_1_geant4_physical_volume_converter.html#a8fd76a901060cfabb638bdd0d55df423":[5,10,7,4,0],
-"struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_all_selector.html":[8,0,2,3,0]
+"struct_acts_plugins_1_1_geant4_physical_volume_converter.html#a8fd76a901060cfabb638bdd0d55df423":[5,10,7,4,0]
 };

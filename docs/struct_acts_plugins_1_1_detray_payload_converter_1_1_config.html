@@ -165,6 +165,8 @@ const <a class="el" href="class_acts_1_1_tracking_volume.html">Acts::TrackingVol
 <tr class="memdesc:a44ebb5eed7bc8a0e3e99f492231319fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type dispatcher for converting navigation policies.  <br /></td></tr>
 <tr class="memitem:adbfa19d516a1bc916d8169d1726ec89e" id="r_adbfa19d516a1bc916d8169d1726ec89e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_type_dispatcher.html">Acts::TypeDispatcher</a>&lt; <a class="el" href="class_acts_1_1_i_surface_material.html">Acts::ISurfaceMaterial</a>, std::optional&lt; <a class="el" href="class_acts_plugins_1_1_detray_payload_converter.html#ade59a6025a491ac191e1cc493bc968f9">DetraySurfaceMaterial</a> &gt;(const <a class="el" href="class_acts_1_1_surface.html">Acts::Surface</a> &amp;surface)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbfa19d516a1bc916d8169d1726ec89e">convertSurfaceMaterial</a></td></tr>
 <tr class="memdesc:adbfa19d516a1bc916d8169d1726ec89e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type dispatcher for converting surface materials.  <br /></td></tr>
+<tr class="memitem:a1cd3fd98b29a7271dfb0f78eabd3986f" id="r_a1cd3fd98b29a7271dfb0f78eabd3986f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1cd3fd98b29a7271dfb0f78eabd3986f">portalSegmentTolerance</a> = 1 * <a class="el" href="namespace_acts_1_1_unit_constants.html#a4c14b1784de166f9efc43c1e16c35478">Acts::UnitConstants::um</a></td></tr>
+<tr class="memdesc:a1cd3fd98b29a7271dfb0f78eabd3986f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Portal masks are clipped to the part of the portal that borders the volume they are placed in.  <br /></td></tr>
 <tr class="memitem:a6366ebf9a368e06a89e88cbe243a6362" id="r_a6366ebf9a368e06a89e88cbe243a6362"><td class="memItemLeft" align="right" valign="top"><a id="a6366ebf9a368e06a89e88cbe243a6362" name="a6366ebf9a368e06a89e88cbe243a6362"></a>
 <a class="el" href="#ad942c0bba09c759a4e3cae2ca56426a1">SensitiveStrategy</a>&#160;</td><td class="memItemRight" valign="bottom"><b>sensitiveStrategy</b> = <a class="el" href="#ad942c0bba09c759a4e3cae2ca56426a1a29ee5d1ebcc033234938a5234f1f2075">SensitiveStrategy::Identifier</a></td></tr>
 <tr class="memdesc:a6366ebf9a368e06a89e88cbe243a6362"><td class="mdescLeft">&#160;</td><td class="mdescRight">Strategy to use for sensitive surface detection. <br /></td></tr>
@@ -306,6 +308,23 @@ const <a class="el" href="class_acts_1_1_tracking_volume.html">Acts::TrackingVol
 <div class="ttc" id="aclass_acts_plugins_1_1_detray_payload_converter_html_ae086fd17a9c63deef99d88928c14f886"><div class="ttname"><a href="class_acts_plugins_1_1_detray_payload_converter.html#ae086fd17a9c63deef99d88928c14f886">ActsPlugins::DetrayPayloadConverter::convertProtoSurfaceMaterialAxisSpec</a></div><div class="ttdeci">static std::optional&lt; DetraySurfaceMaterial &gt; convertProtoSurfaceMaterialAxisSpec(const Acts::ProtoSurfaceMaterialT&lt; Acts::MultiAxisSpec2D &gt; &amp;material, const Acts::Surface &amp;surface)</div><div class="ttdoc">Convert proto surface material with a multi-axis binning spec.</div></div>
 </div><!-- fragment -->
 <p>Type dispatcher for converting surface materials. </p>
+
+</div>
+</div>
+<a id="a1cd3fd98b29a7271dfb0f78eabd3986f" name="a1cd3fd98b29a7271dfb0f78eabd3986f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cd3fd98b29a7271dfb0f78eabd3986f">&#9670;&#160;</a></span>portalSegmentTolerance</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double ActsPlugins::DetrayPayloadConverter::Config::portalSegmentTolerance = 1 * <a class="el" href="namespace_acts_1_1_unit_constants.html#a4c14b1784de166f9efc43c1e16c35478">Acts::UnitConstants::um</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Portal masks are clipped to the part of the portal that borders the volume they are placed in. </p>
+<p>Segments shorter than this along the portal binning direction are considered numerical noise and are absorbed into their neighbour, as are gaps between segments. </p>
 
 </div>
 </div>
