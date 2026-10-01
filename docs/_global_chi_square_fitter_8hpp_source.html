@@ -1136,7 +1136,7 @@ $(function(){initNavTree('_global_chi_square_fitter_8hpp_source.html','',''); })
 <div class="line"><a id="l01283" name="l01283"></a><span class="lineno"> 1283</span>      <span class="comment">// Relax the bounds check, so the navigator targets a measurement</span></div>
 <div class="line"><a id="l01284" name="l01284"></a><span class="lineno"> 1284</span>      <span class="comment">// surface even where the track misses it</span></div>
 <div class="line"><a id="l01285" name="l01285"></a><span class="lineno"> 1285</span>      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; [surface, _] : inputMeasurements) {</div>
-<div class="line"><a id="l01286" name="l01286"></a><span class="lineno"> 1286</span>        propagatorOptions.<a class="code hl_variable" href="struct_acts_1_1_propagator_options.html#ab5d8e300919f72b80bb447c415f523f5">navigation</a>.registerExtendedSurface(*surface);</div>
+<div class="line"><a id="l01286" name="l01286"></a><span class="lineno"> 1286</span>        propagatorOptions.<a class="code hl_variable" href="struct_acts_1_1_propagator_options.html#ab5d8e300919f72b80bb447c415f523f5">navigation</a>.registerMeasurementSurface(*surface);</div>
 <div class="line"><a id="l01287" name="l01287"></a><span class="lineno"> 1287</span>      }</div>
 <div class="line"><a id="l01288" name="l01288"></a><span class="lineno"> 1288</span> </div>
 <div class="line"><a id="l01289" name="l01289"></a><span class="lineno"> 1289</span>      <span class="keyword">auto</span>&amp; gx2fActor = propagatorOptions.<a class="code hl_variable" href="struct_acts_1_1_propagator_options.html#ae204a6ef1b0e1c706ce43094a5712ab2">actorList</a>.template get&lt;GX2FActor&gt;();</div>
@@ -1300,7 +1300,7 @@ $(function(){initNavTree('_global_chi_square_fitter_8hpp_source.html','',''); })
 <div class="line"><a id="l01449" name="l01449"></a><span class="lineno"> 1449</span>      <span class="comment">// Relax the bounds check, so the navigator targets a measurement</span></div>
 <div class="line"><a id="l01450" name="l01450"></a><span class="lineno"> 1450</span>      <span class="comment">// surface even where the track misses it</span></div>
 <div class="line"><a id="l01451" name="l01451"></a><span class="lineno"> 1451</span>      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; [surface, _] : inputMeasurements) {</div>
-<div class="line"><a id="l01452" name="l01452"></a><span class="lineno"> 1452</span>        propagatorOptions.<a class="code hl_variable" href="struct_acts_1_1_propagator_options.html#ab5d8e300919f72b80bb447c415f523f5">navigation</a>.registerExtendedSurface(*surface);</div>
+<div class="line"><a id="l01452" name="l01452"></a><span class="lineno"> 1452</span>        propagatorOptions.<a class="code hl_variable" href="struct_acts_1_1_propagator_options.html#ab5d8e300919f72b80bb447c415f523f5">navigation</a>.registerMeasurementSurface(*surface);</div>
 <div class="line"><a id="l01453" name="l01453"></a><span class="lineno"> 1453</span>      }</div>
 <div class="line"><a id="l01454" name="l01454"></a><span class="lineno"> 1454</span> </div>
 <div class="line"><a id="l01455" name="l01455"></a><span class="lineno"> 1455</span>      <span class="keyword">auto</span>&amp; gx2fActor = propagatorOptions.<a class="code hl_variable" href="struct_acts_1_1_propagator_options.html#ae204a6ef1b0e1c706ce43094a5712ab2">actorList</a>.template get&lt;GX2FActor&gt;();</div>
@@ -1451,7 +1451,7 @@ $(function(){initNavTree('_global_chi_square_fitter_8hpp_source.html','',''); })
 <div class="line"><a id="l01601" name="l01601"></a><span class="lineno"> 1601</span>      <span class="comment">// Relax the bounds check, so the navigator targets a measurement</span></div>
 <div class="line"><a id="l01602" name="l01602"></a><span class="lineno"> 1602</span>      <span class="comment">// surface even where the track misses it</span></div>
 <div class="line"><a id="l01603" name="l01603"></a><span class="lineno"> 1603</span>      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; [surface, _] : inputMeasurements) {</div>
-<div class="line"><a id="l01604" name="l01604"></a><span class="lineno"> 1604</span>        propagatorOptions.<a class="code hl_variable" href="struct_acts_1_1_propagator_options.html#ab5d8e300919f72b80bb447c415f523f5">navigation</a>.registerExtendedSurface(*surface);</div>
+<div class="line"><a id="l01604" name="l01604"></a><span class="lineno"> 1604</span>        propagatorOptions.<a class="code hl_variable" href="struct_acts_1_1_propagator_options.html#ab5d8e300919f72b80bb447c415f523f5">navigation</a>.registerMeasurementSurface(*surface);</div>
 <div class="line"><a id="l01605" name="l01605"></a><span class="lineno"> 1605</span>      }</div>
 <div class="line"><a id="l01606" name="l01606"></a><span class="lineno"> 1606</span> </div>
 <div class="line"><a id="l01607" name="l01607"></a><span class="lineno"> 1607</span>      <span class="keyword">auto</span>&amp; gx2fActor = propagatorOptions.<a class="code hl_variable" href="struct_acts_1_1_propagator_options.html#ae204a6ef1b0e1c706ce43094a5712ab2">actorList</a>.template get&lt;GX2FActor&gt;();</div>
