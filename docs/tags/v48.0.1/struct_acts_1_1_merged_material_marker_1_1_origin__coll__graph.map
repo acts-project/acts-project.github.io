@@ -1,0 +1,5 @@
+<map id="Acts::MergedMaterialMarker::Origin" name="Acts::MergedMaterialMarker::Origin">
+<area shape="rect" id="Node000001" title="Identity of an input whose material was discarded." alt="" coords="5,101,212,141"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_geometry_identifier.html" title="Identifier for geometry nodes within the geometry hierarchy." alt="" coords="18,5,199,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,45,111,101,106,101,106,45"/>
+</map>

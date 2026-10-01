@@ -1,0 +1,5 @@
+<map id="Acts::CartesianSpacePointGrid" name="Acts::CartesianSpacePointGrid">
+<area shape="rect" id="Node000001" title="A cartesian space point grid used for seeding in a cartesian detector geometry." alt="" coords="347,57,565,82"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,299,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="312,67,347,67,347,72,312,72"/>
+</map>

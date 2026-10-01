@@ -1,0 +1,11 @@
+<map id="Acts::VisualizationBuffer" name="Acts::VisualizationBuffer">
+<area shape="rect" id="Node000001" title="This helper produces output for Python visualization." alt="" coords="5,368,187,393"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_i_visualization3_d.html" title="Partially abstract base class which provides an interface to visualization helper classes." alt="" coords="14,293,178,319"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,333,99,368,93,368,93,333"/>
+<area shape="rect" id="Node000003" href="$struct_acts_1_1_color.html" title="Struct describing a color." alt="" coords="50,197,142,223"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="99,237,99,293,93,293,93,237"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="23,101,169,127"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="99,141,99,197,93,197,93,141"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="35,5,157,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="99,45,99,101,93,101,93,45"/>
+</map>

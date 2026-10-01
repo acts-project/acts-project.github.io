@@ -1,0 +1,7 @@
+<map id="Acts::Experimental::CompositeSpacePointLineFitter::FitParameters" name="Acts::Experimental::CompositeSpacePointLineFitter::FitParameters">
+<area shape="rect" id="Node000001" title="Auxiliary object to store the fitted parameters, covariance, the chi2 / nDoF &amp; the number of required..." alt="" coords="5,212,239,267"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="49,101,195,141"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,156,125,212,119,212,119,156"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="61,5,183,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="125,45,125,101,119,101,119,45"/>
+</map>

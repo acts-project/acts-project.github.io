@@ -1,0 +1,18 @@
+<map id="Acts::IMultiAxisXD&lt; _DIM &gt;" name="Acts::IMultiAxisXD&lt; _DIM &gt;">
+<area shape="rect" id="Node000001" title="Common base class for all multi&#45;axes of a fixed, compile&#45;time dimension." alt="" coords="177,78,320,118"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_i_multi_axis_x_d.html" title=" " alt="" coords="493,5,673,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="296,69,343,50,419,32,493,22,493,27,420,38,345,55,298,74"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_i_multi_axis_x_d.html" title=" " alt="" coords="493,59,673,84"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="333,89,493,76,493,81,334,94"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_i_multi_axis_x_d.html" title=" " alt="" coords="493,112,673,137"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="334,114,344,115,420,121,493,123,493,129,420,127,344,121,333,119"/>
+<area shape="rect" id="Node000006" href="$class_acts_1_1_i_multi_axis_x_d.html" title=" " alt="" coords="512,162,655,202"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="290,123,317,138,345,150,387,162,431,170,512,178,511,183,430,175,386,167,343,155,314,143,288,128"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_i_multi_axis.html" title="Common base class for all MultiAxis instances." alt="" coords="5,85,128,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="142,95,177,95,177,101,142,101"/>
+<area shape="rect" id="Node000007" href="$class_acts_1_1_multi_axis.html" title=" " alt="" coords="1032,169,1224,195"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="668,174,697,173,853,170,1008,173,1032,174,1031,179,1008,178,853,175,697,178,669,179"/>
+<area shape="rect" id="Node000008" href="$class_acts_1_1_multi_axis.html" title="Multi&#45;dimensional binning defined by a product of one&#45;dimensional axes." alt="" coords="723,195,903,220"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="669,189,723,195,722,200,669,194"/>
+<area shape="poly" id="edge8_Node000008_Node000007" title=" " alt="" coords="916,201,1008,195,1038,192,1039,197,1008,201,917,207"/>
+</map>

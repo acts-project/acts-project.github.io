@@ -1,0 +1,12 @@
+<map id="Acts::MultiAxis&lt; Axes &gt;" name="Acts::MultiAxis&lt; Axes &gt;">
+<area shape="rect" id="Node000001" title="Multi&#45;dimensional binning defined by a product of one&#45;dimensional axes." alt="" coords="11,280,191,305"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_multi_axis.html" title=" " alt="" coords="5,376,197,401"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="104,319,104,376,99,376,99,319"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_i_multi_axis_x_d.html" title=" " alt="" coords="30,191,173,231"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,244,104,280,99,280,99,244"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_i_multi_axis.html" title="Common base class for all MultiAxis instances." alt="" coords="35,5,157,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="99,45,103,190,98,190,94,45"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_i_multi_axis_x_d.html" title="Common base class for all multi&#45;axes of a fixed, compile&#45;time dimension." alt="" coords="118,80,261,120"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="121,37,169,78,166,82,118,41"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="168,132,119,192,115,189,163,129"/>
+</map>
