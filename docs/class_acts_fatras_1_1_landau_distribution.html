@@ -175,6 +175,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a577f3b947e45be526242983d2f63a241" id="r_a577f3b947e45be526242983d2f63a241"><td class="memItemLeft" align="right" valign="top"><a id="a577f3b947e45be526242983d2f63a241" name="a577f3b947e45be526242983d2f63a241"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>reset</b> ()</td></tr>
 <tr class="memdesc:a577f3b947e45be526242983d2f63a241"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset any possible internal state. Noop, since there is no internal state. <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a3b6b42c5ec475317a25e7faef7d5c11a" id="r_a3b6b42c5ec475317a25e7faef7d5c11a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#a017e49323ab717b167c5bb13a5cfb647">LandauDistribution</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b6b42c5ec475317a25e7faef7d5c11a">fromFwhm</a> (double energyLoss, double energyLossFwhm)</td></tr>
+<tr class="memdesc:a3b6b42c5ec475317a25e7faef7d5c11a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from energy loss and FWHM.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Draw random numbers from a Landau distribution. </p>
@@ -244,6 +249,45 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>reset</b> ()</td></tr
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a3b6b42c5ec475317a25e7faef7d5c11a" name="a3b6b42c5ec475317a25e7faef7d5c11a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b6b42c5ec475317a25e7faef7d5c11a">&#9670;&#160;</a></span>fromFwhm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a017e49323ab717b167c5bb13a5cfb647">LandauDistribution</a> ActsFatras::LandauDistribution::fromFwhm </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>energyLoss</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>energyLossFwhm</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Construct from energy loss and FWHM. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">energyLoss</td><td>the (unscaled) most probable energy loss value </td></tr>
+    <tr><td class="paramname">energyLossFwhm</td><td>the full width at half maximum of the energy loss </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A LandauDistribution configured with the derived location and scale </dd></dl>
+
+</div>
+</div>
 <a id="a354d03a325ef176d94f1942e9885275c" name="a354d03a325ef176d94f1942e9885275c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a354d03a325ef176d94f1942e9885275c">&#9670;&#160;</a></span>max()</h2>
 

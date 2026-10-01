@@ -6,6 +6,7 @@ var class_acts_fatras_1_1_landau_distribution =
     [ "LandauDistribution", "class_acts_fatras_1_1_landau_distribution.html#a1d267938a78a5597a838efb0aa6f8e2c", null ],
     [ "LandauDistribution", "class_acts_fatras_1_1_landau_distribution.html#a1237f71f286c53d97151985ffb13919b", null ],
     [ "LandauDistribution", "class_acts_fatras_1_1_landau_distribution.html#a909ad5d31a8796e86c05b6ee1354e5cd", null ],
+    [ "fromFwhm", "class_acts_fatras_1_1_landau_distribution.html#a3b6b42c5ec475317a25e7faef7d5c11a", null ],
     [ "max", "class_acts_fatras_1_1_landau_distribution.html#a354d03a325ef176d94f1942e9885275c", null ],
     [ "min", "class_acts_fatras_1_1_landau_distribution.html#abbadb97d72f201568dcc6dc5cb067bc9", null ],
     [ "operator()", "class_acts_fatras_1_1_landau_distribution.html#a2d519a2dafc93fd9188a1aa401e095d5", null ],

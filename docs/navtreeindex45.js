@@ -1,5 +1,7 @@
 var NAVTREEINDEX45 =
 {
+"concept_acts_1_1_actor_has_abort.html":[6,0,0,458],
+"concept_acts_1_1_actor_has_abort.html":[7,0,4],
 "concept_acts_1_1_actor_has_abort_with_result.html":[6,0,0,460],
 "concept_acts_1_1_actor_has_abort_with_result.html":[7,0,6],
 "concept_acts_1_1_actor_has_abort_without_result.html":[6,0,0,459],
@@ -247,7 +249,5 @@ var NAVTREEINDEX45 =
 "group__algebra__types.html#gaedd227e590be3a9c43c10d6654022b77":[5,0,7],
 "group__clustering.html":[5,2,0],
 "group__context.html":[5,1],
-"group__covfie__plugin.html":[5,10,1],
-"group__covfie__plugin.html#ga068d6e5620fd6883ba7fec7d192a069d":[5,10,1,4],
-"group__covfie__plugin.html#gaacb71f1b14342e9d934e0e47d9898d4e":[5,10,1,2]
+"group__covfie__plugin.html":[5,10,1]
 };

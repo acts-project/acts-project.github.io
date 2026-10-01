@@ -1,5 +1,7 @@
 var NAVTREEINDEX70 =
 {
+"struct_acts_plugins_1_1_t_geo_parser_1_1_options.html#a21a805bc4f46d451a73a3f713615ceee":[5,10,12,12,0,3],
+"struct_acts_plugins_1_1_t_geo_parser_1_1_options.html#a78952ea1112eee677aaa758d01fa2f88":[5,10,12,12,0,1],
 "struct_acts_plugins_1_1_t_geo_parser_1_1_options.html#ab975169d373864472d13bc6aeae23cbc":[5,10,12,12,0,2],
 "struct_acts_plugins_1_1_t_geo_parser_1_1_selected_node.html":[5,10,12,12,1],
 "struct_acts_plugins_1_1_t_geo_parser_1_1_selected_node.html#a1e7f147bb18bba1d25e0f71e4b0716f0":[5,10,12,12,1,0],
