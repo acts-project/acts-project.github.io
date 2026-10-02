@@ -254,7 +254,6 @@ var hierarchy =
     [ "Acts::Experimental::GbtsLayerConnection", "struct_acts_1_1_experimental_1_1_gbts_layer_connection.html", null ],
     [ "Acts::Experimental::GbtsLayerConnectionTool", "class_acts_1_1_experimental_1_1_gbts_layer_connection_tool.html", null ],
     [ "Acts::Experimental::GbtsLayerConnectionTool::Config", "struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_config.html", null ],
-    [ "Acts::Experimental::GbtsLayerConnectionTool::HitCoordinates", "struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_hit_coordinates.html", null ],
     [ "Acts::Experimental::GbtsLayerConnectionTool::LayerDescription", "struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_layer_description.html", null ],
     [ "Acts::Experimental::GbtsLayerConnectionTool::LayerIdPairHash", "struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_layer_id_pair_hash.html", null ],
     [ "Acts::Experimental::GbtsLayerDescription", "struct_acts_1_1_experimental_1_1_gbts_layer_description.html", null ],

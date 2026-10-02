@@ -11,10 +11,10 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="class_acts_1_1_surface_material_json_converter.html" target="_top" xlink:title="Static class performing the JSON conversion of surface material.">
+<g id="a_Node000000"><a xlink:href="struct_acts_1_1_surface_material_json_converter_1_1_config.html" target="_top" xlink:title="Configuration struct.">
 <polygon fill="white" stroke="#666666" points="141,-30 0,-30 0,0 141,0 141,-30"/>
 <text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::SurfaceMaterialJson</text>
-<text text-anchor="middle" x="70.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Converter</text>
+<text text-anchor="middle" x="70.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Converter::Config</text>
 </a>
 </g>
 </g>

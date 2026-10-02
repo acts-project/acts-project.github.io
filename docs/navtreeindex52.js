@@ -1,8 +1,5 @@
 var NAVTREEINDEX52 =
 {
-"struct_acts_1_1_broad_triplet_seed_filter_1_1_state.html#aa2f1af2cb1cf39aa238b54b4aa104da8":[8,0,0,72,2,1],
-"struct_acts_1_1_broad_triplet_seed_filter_1_1_state.html#aae449d5e09faa2f3689611b12f80f553":[6,0,0,67,2,2],
-"struct_acts_1_1_broad_triplet_seed_filter_1_1_state.html#aae449d5e09faa2f3689611b12f80f553":[8,0,0,72,2,2],
 "struct_acts_1_1_cartesian_space_point_grid_1_1_config.html":[6,0,0,69,0],
 "struct_acts_1_1_cartesian_space_point_grid_1_1_config.html":[8,0,0,74,0],
 "struct_acts_1_1_cartesian_space_point_grid_1_1_config.html#a018801c6d438aaef06269cd417b4bdc4":[6,0,0,69,0,2],
@@ -249,5 +246,8 @@ var NAVTREEINDEX52 =
 "struct_acts_1_1_cylinder_volume_helper_1_1_config.html#ae925b7e2720080b05de7bf8f01d4698e":[8,0,0,114,0,4],
 "struct_acts_1_1_cylindrical_space_point_grid_1_1_config.html":[6,0,0,111,0],
 "struct_acts_1_1_cylindrical_space_point_grid_1_1_config.html":[8,0,0,116,0],
-"struct_acts_1_1_cylindrical_space_point_grid_1_1_config.html#a128b9bab3b1c3d8f9bea422888c11a37":[6,0,0,111,0,7]
+"struct_acts_1_1_cylindrical_space_point_grid_1_1_config.html#a128b9bab3b1c3d8f9bea422888c11a37":[6,0,0,111,0,7],
+"struct_acts_1_1_cylindrical_space_point_grid_1_1_config.html#a128b9bab3b1c3d8f9bea422888c11a37":[8,0,0,116,0,7],
+"struct_acts_1_1_cylindrical_space_point_grid_1_1_config.html#a28a4d954bf4bdaf6d036b5ce471fb828":[6,0,0,111,0,9],
+"struct_acts_1_1_cylindrical_space_point_grid_1_1_config.html#a28a4d954bf4bdaf6d036b5ce471fb828":[8,0,0,116,0,9]
 };

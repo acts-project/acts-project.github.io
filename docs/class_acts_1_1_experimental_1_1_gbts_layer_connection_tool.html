@@ -135,8 +135,6 @@ $(function(){initNavTree('class_acts_1_1_experimental_1_1_gbts_layer_connection_
 Classes</h2></td></tr>
 <tr class="memitem:Config" id="r_Config"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_config.html">Config</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration for the layer connection tool.  <a href="struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_config.html#details">More...</a><br /></td></tr>
-<tr class="memitem:HitCoordinates" id="r_HitCoordinates"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_hit_coordinates.html">HitCoordinates</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Container for track layer hit information.  <a href="struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_hit_coordinates.html#details">More...</a><br /></td></tr>
 <tr class="memitem:LayerDescription" id="r_LayerDescription"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_layer_description.html">LayerDescription</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Struct to hold r and z bounds for a given detector layer.  <a href="struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_layer_description.html#details">More...</a><br /></td></tr>
 <tr class="memitem:LayerIdPairHash" id="r_LayerIdPairHash"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_layer_id_pair_hash.html">LayerIdPairHash</a></td></tr>
@@ -156,8 +154,8 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>LayerIdPairs</b> = s
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a685be0c36117e066970cf2baaff59fc8" id="r_a685be0c36117e066970cf2baaff59fc8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a685be0c36117e066970cf2baaff59fc8">GbtsLayerConnectionTool</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_config.html">Config</a> &amp;config, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &gt; logger=<a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">getDefaultLogger</a>(&quot;GbtsLayerConnectionTool&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Logging::Level::INFO</a>))</td></tr>
-<tr class="memitem:a5792654f01dd20b7f4b7797a200cea01" id="r_a5792654f01dd20b7f4b7797a200cea01"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5792654f01dd20b7f4b7797a200cea01">addTrack</a> (std::span&lt; const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_hit_coordinates.html">HitCoordinates</a> &gt; track)</td></tr>
-<tr class="memdesc:a5792654f01dd20b7f4b7797a200cea01"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts layer hits to layer transitions  <br /></td></tr>
+<tr class="memitem:ad3895b783232202d6534640f3af6e0da" id="r_ad3895b783232202d6534640f3af6e0da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3895b783232202d6534640f3af6e0da">addTrack</a> (std::span&lt; const <a class="el" href="namespace_acts_1_1_experimental.html#a3cf30a79d2cc7b16985ee9e4c7475644">GbtsExperimentLayerId</a> &gt; track)</td></tr>
+<tr class="memdesc:ad3895b783232202d6534640f3af6e0da"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts layer hits to layer transitions  <br /></td></tr>
 <tr class="memitem:a626dda3ed6669ddb2716ac7c2035cd9e" id="r_a626dda3ed6669ddb2716ac7c2035cd9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a2cd2059db6c6e6a0c05cb0d19412f353">GbtsLayerConnectionTool::LayerIdPairs</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a626dda3ed6669ddb2716ac7c2035cd9e">createConnectionTable</a> () const</td></tr>
 <tr class="memdesc:a626dda3ed6669ddb2716ac7c2035cd9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the connection table.  <br /></td></tr>
 </table>
@@ -220,8 +218,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a5792654f01dd20b7f4b7797a200cea01" name="a5792654f01dd20b7f4b7797a200cea01"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5792654f01dd20b7f4b7797a200cea01">&#9670;&#160;</a></span>addTrack()</h2>
+<a id="ad3895b783232202d6534640f3af6e0da" name="ad3895b783232202d6534640f3af6e0da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3895b783232202d6534640f3af6e0da">&#9670;&#160;</a></span>addTrack()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -229,7 +227,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void Acts::Experimental::GbtsLayerConnectionTool::addTrack </td>
           <td>(</td>
-          <td class="paramtype">std::span&lt; const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_hit_coordinates.html">HitCoordinates</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>track</em></span></td><td>)</td>
+          <td class="paramtype">std::span&lt; const <a class="el" href="namespace_acts_1_1_experimental.html#a3cf30a79d2cc7b16985ee9e4c7475644">GbtsExperimentLayerId</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>track</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -238,7 +236,7 @@ Public Member Functions</h2></td></tr>
 <p>converts layer hits to layer transitions </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">track</td><td>the layer hits of a particle </td></tr>
+    <tr><td class="paramname">track</td><td>the GBTS layers of the hits of a particle, in the order it passed them </td></tr>
   </table>
   </dd>
 </dl>

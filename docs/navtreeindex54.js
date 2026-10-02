@@ -1,8 +1,5 @@
 var NAVTREEINDEX54 =
 {
-"struct_acts_1_1_event_data_view3_d.html":[8,0,0,143],
-"struct_acts_1_1_event_data_view3_d.html#a053f5db43151c36d423d2d3bacdb415b":[6,0,0,138,2],
-"struct_acts_1_1_event_data_view3_d.html#a053f5db43151c36d423d2d3bacdb415b":[8,0,0,143,2],
 "struct_acts_1_1_event_data_view3_d.html#a3c35dab409edb04f757d65e8c1201137":[6,0,0,138,7],
 "struct_acts_1_1_event_data_view3_d.html#a3c35dab409edb04f757d65e8c1201137":[8,0,0,143,7],
 "struct_acts_1_1_event_data_view3_d.html#a59030216f354ac1d475e8f459949d004":[6,0,0,138,6],
@@ -249,5 +246,8 @@ var NAVTREEINDEX54 =
 "struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html#a59dd5c2674ee96be2341d4ab6ac04d25":[8,0,0,2,12,1,11],
 "struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html#a5a1c261f5fe563872ea8c6bf8f3e98d8":[6,0,0,1,12,1,4],
 "struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html#a5a1c261f5fe563872ea8c6bf8f3e98d8":[8,0,0,2,12,1,4],
-"struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html#a7f42c7fe4afe603dbf0858732197ad22":[6,0,0,1,12,1,2]
+"struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html#a7f42c7fe4afe603dbf0858732197ad22":[6,0,0,1,12,1,2],
+"struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html#a7f42c7fe4afe603dbf0858732197ad22":[8,0,0,2,12,1,2],
+"struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html#a833d454a534cf15b8b25b5d8a2ccd139":[6,0,0,1,12,1,3],
+"struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html#a833d454a534cf15b8b25b5d8a2ccd139":[8,0,0,2,12,1,3]
 };
