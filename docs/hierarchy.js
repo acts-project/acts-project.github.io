@@ -385,6 +385,9 @@ var hierarchy =
     [ "Acts::GsfOptions&lt; traj_t &gt;", "struct_acts_1_1_gsf_options.html", null ],
     [ "Acts::HelicalTrackLinearizer", "class_acts_1_1_helical_track_linearizer.html", null ],
     [ "Acts::HelicalTrackLinearizer::Config", "struct_acts_1_1_helical_track_linearizer_1_1_config.html", null ],
+    [ "Acts::HelixStepper", "class_acts_1_1_helix_stepper.html", null ],
+    [ "Acts::HelixStepper::Config", "struct_acts_1_1_helix_stepper_1_1_config.html", null ],
+    [ "Acts::HelixStepper::State", "struct_acts_1_1_helix_stepper_1_1_state.html", null ],
     [ "Acts::HoughTransformUtils::HoughAxisRanges", "struct_acts_1_1_hough_transform_utils_1_1_hough_axis_ranges.html", null ],
     [ "Acts::HoughTransformUtils::HoughCell&lt; identifier_t &gt;", "class_acts_1_1_hough_transform_utils_1_1_hough_cell.html", null ],
     [ "Acts::HoughTransformUtils::HoughPlane&lt; identifier_t &gt;", "class_acts_1_1_hough_transform_utils_1_1_hough_plane.html", null ],
@@ -743,6 +746,7 @@ var hierarchy =
     [ "Acts::StepperPlainOptions", "struct_acts_1_1_stepper_plain_options.html", [
       [ "Acts::AtlasStepper::Options", "struct_acts_1_1_atlas_stepper_1_1_options.html", null ],
       [ "Acts::EigenStepper< extension_t >::Options", "struct_acts_1_1_eigen_stepper_1_1_options.html", null ],
+      [ "Acts::HelixStepper::Options", "struct_acts_1_1_helix_stepper_1_1_options.html", null ],
       [ "Acts::StraightLineStepper::Options", "struct_acts_1_1_straight_line_stepper_1_1_options.html", null ],
       [ "Acts::SympyStepper::Options", "struct_acts_1_1_sympy_stepper_1_1_options.html", null ]
     ] ],
@@ -1166,6 +1170,7 @@ var hierarchy =
     ] ],
     [ "std::false_type", null, [
       [ "Acts::SupportsBoundParameters< EigenStepper<> >", "struct_acts_1_1_supports_bound_parameters_3_01_eigen_stepper_3_4_01_4.html", null ],
+      [ "Acts::SupportsBoundParameters< HelixStepper >", "struct_acts_1_1_supports_bound_parameters_3_01_helix_stepper_01_4.html", null ],
       [ "Acts::SupportsBoundParameters< StraightLineStepper >", "struct_acts_1_1_supports_bound_parameters_3_01_straight_line_stepper_01_4.html", null ],
       [ "Acts::SupportsBoundParameters< SympyStepper >", "struct_acts_1_1_supports_bound_parameters_3_01_sympy_stepper_01_4.html", null ],
       [ "Acts::IsReadOnlyMultiTrajectory< ActsPlugins::MutablePodioTrackStateContainer< holder_t > >", "struct_acts_1_1_is_read_only_multi_trajectory_3_01_acts_plugins_1_1_mutable_podio_track_state_container_3_01holder__t_01_4_01_4.html", null ],
@@ -1184,6 +1189,7 @@ var hierarchy =
       [ "Acts::IsReadOnlyTrackContainer< ActsPlugins::ConstPodioTrackContainer< holder_t > >", "struct_acts_1_1_is_read_only_track_container_3_01_acts_plugins_1_1_const_podio_track_container_3_01holder__t_01_4_01_4.html", null ],
       [ "Acts::IsReadOnlyTrackContainer< ConstVectorTrackContainer >", "struct_acts_1_1_is_read_only_track_container_3_01_const_vector_track_container_01_4.html", null ],
       [ "Acts::SupportsBoundParameters< EigenStepper<> >", "struct_acts_1_1_supports_bound_parameters_3_01_eigen_stepper_3_4_01_4.html", null ],
+      [ "Acts::SupportsBoundParameters< HelixStepper >", "struct_acts_1_1_supports_bound_parameters_3_01_helix_stepper_01_4.html", null ],
       [ "Acts::SupportsBoundParameters< StraightLineStepper >", "struct_acts_1_1_supports_bound_parameters_3_01_straight_line_stepper_01_4.html", null ],
       [ "Acts::SupportsBoundParameters< SympyStepper >", "struct_acts_1_1_supports_bound_parameters_3_01_sympy_stepper_01_4.html", null ]
     ] ],

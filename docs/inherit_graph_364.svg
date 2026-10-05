@@ -11,10 +11,10 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="class_acts_1_1_multi_component_bound_track_parameters.html" target="_top" xlink:title="This class is only a light wrapper around a surface and a vector of parameters.">
+<g id="a_Node000000"><a xlink:href="struct_acts_1_1_merged_material_marker_1_1_origin.html" target="_top" xlink:title="Identity of an input whose material was discarded.">
 <polygon fill="white" stroke="#666666" points="155,-30 0,-30 0,0 155,0 155,-30"/>
-<text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::MultiComponentBound</text>
-<text text-anchor="middle" x="77.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">TrackParameters</text>
+<text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::MergedMaterialMarker</text>
+<text text-anchor="middle" x="77.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::Origin</text>
 </a>
 </g>
 </g>
