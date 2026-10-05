@@ -835,6 +835,11 @@ var hierarchy =
     [ "Acts::TrackingGeometryJsonConverter::Options", "struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html", null ],
     [ "Acts::TrackingGeometryJsonConverter::PointerToIdLookup&lt; object_t, kContext &gt;", "struct_acts_1_1_tracking_geometry_json_converter_1_1_pointer_to_id_lookup.html", null ],
     [ "Acts::TrackingGeometryMaterial", "struct_acts_1_1_tracking_geometry_material.html", null ],
+    [ "Acts::TrackingGeometryMaterialJsonConverter", "class_acts_1_1_tracking_geometry_material_json_converter.html", null ],
+    [ "Acts::TrackingGeometryMaterialJsonConverter::Config", "struct_acts_1_1_tracking_geometry_material_json_converter_1_1_config.html", null ],
+    [ "Acts::TrackingGeometryMaterialJsonConverter::DecodeContext", "class_acts_1_1_tracking_geometry_material_json_converter_1_1_decode_context.html", null ],
+    [ "Acts::TrackingGeometryMaterialJsonConverter::EncodeContext", "class_acts_1_1_tracking_geometry_material_json_converter_1_1_encode_context.html", null ],
+    [ "Acts::TrackingGeometryMaterialJsonConverter::Options", "struct_acts_1_1_tracking_geometry_material_json_converter_1_1_options.html", null ],
     [ "Acts::TrackingVolumeArrayCreator::Config", "struct_acts_1_1_tracking_volume_array_creator_1_1_config.html", null ],
     [ "Acts::TrackParamsLookupAccumulator&lt; grid_t &gt;", "class_acts_1_1_track_params_lookup_accumulator.html", null ],
     [ "Acts::TrackProxyCommon&lt; Derived, index_t, read_only &gt;", "class_acts_1_1_track_proxy_common.html", [

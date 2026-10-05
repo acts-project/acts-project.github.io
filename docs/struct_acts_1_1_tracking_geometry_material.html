@@ -138,6 +138,11 @@ Collaboration diagram for Acts::TrackingGeometryMaterial:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a812de9fe858dffe120135bff3335ed47" id="r_a812de9fe858dffe120135bff3335ed47"><td class="memItemLeft" align="right" valign="top"><a id="a812de9fe858dffe120135bff3335ed47" name="a812de9fe858dffe120135bff3335ed47"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>TrackingGeometryMaterial</b> ()=default</td></tr>
+<tr class="memdesc:a812de9fe858dffe120135bff3335ed47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct empty material assignments. <br /></td></tr>
+<tr class="memitem:aeb12f663178bfcfde2d5843c8bcfce41" id="r_aeb12f663178bfcfde2d5843c8bcfce41"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb12f663178bfcfde2d5843c8bcfce41">TrackingGeometryMaterial</a> (<a class="el" href="namespace_acts.html#a0ff605a935815bac9c0a18618e1f4b65">SurfaceMaterialMaps</a> surfaces, <a class="el" href="namespace_acts.html#adab8ee0743a2872f4ca6888b37c65f04">VolumeMaterialMaps</a> volumes, <a class="el" href="namespace_acts.html#aced2304433e8c9b412679158ae856142">KeyedSurfaceMaterialMaps</a> keyed={})</td></tr>
+<tr class="memdesc:aeb12f663178bfcfde2d5843c8bcfce41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from material assignment maps.  <br /></td></tr>
 <tr class="memitem:aeb4d4188f30376dfdf7ca976471ee49a" id="r_aeb4d4188f30376dfdf7ca976471ee49a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb4d4188f30376dfdf7ca976471ee49a">apply</a> (std::span&lt; <a class="el" href="class_acts_1_1_surface.html">Surface</a> *const &gt; surfaces) const</td></tr>
 <tr class="memdesc:aeb4d4188f30376dfdf7ca976471ee49a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply to selected surfaces with the same validation as a complete geometry.  <br /></td></tr>
 <tr class="memitem:a896e3d34684bc7bf4672b308712e842b" id="r_a896e3d34684bc7bf4672b308712e842b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a896e3d34684bc7bf4672b308712e842b">apply</a> (<a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface) const</td></tr>
@@ -146,6 +151,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:acc2ccd1fe7da279ae7d01f64d6e30106"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply material to a completed geometry, checking surface identities and resolving all surface assignments before modifying the geometry.  <br /></td></tr>
 <tr class="memitem:a533912fd1d8d8f15e151b262df7994ad" id="r_a533912fd1d8d8f15e151b262df7994ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a533912fd1d8d8f15e151b262df7994ad">apply</a> (<a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &amp;volume) const</td></tr>
 <tr class="memdesc:a533912fd1d8d8f15e151b262df7994ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply volume material by geometry identifier.  <br /></td></tr>
+<tr class="memitem:a1e1e756632e96bbb0f74bf5ada67076d" id="r_a1e1e756632e96bbb0f74bf5ada67076d"><td class="memItemLeft" align="right" valign="top">const std::optional&lt; std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e1e756632e96bbb0f74bf5ada67076d">description</a> () const</td></tr>
+<tr class="memdesc:a1e1e756632e96bbb0f74bf5ada67076d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the optional document description, ignored when applying material.  <br /></td></tr>
+<tr class="memitem:a4e83f45ed246b8a7e36e6803806b0d7f" id="r_a4e83f45ed246b8a7e36e6803806b0d7f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e83f45ed246b8a7e36e6803806b0d7f">setDescription</a> (std::optional&lt; std::string &gt; <a class="el" href="#a1e1e756632e96bbb0f74bf5ada67076d">description</a>)</td></tr>
+<tr class="memdesc:a4e83f45ed246b8a7e36e6803806b0d7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set or remove the document description.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -162,7 +171,44 @@ Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Surface and volume material assignments. </p>
 <p>Keyed assignments are stored separately and must never be matched by ID. </p>
-</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="aeb12f663178bfcfde2d5843c8bcfce41" name="aeb12f663178bfcfde2d5843c8bcfce41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb12f663178bfcfde2d5843c8bcfce41">&#9670;&#160;</a></span>TrackingGeometryMaterial()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Acts::TrackingGeometryMaterial::TrackingGeometryMaterial </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#a0ff605a935815bac9c0a18618e1f4b65">SurfaceMaterialMaps</a></td>          <td class="paramname"><span class="paramname"><em>surfaces</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#adab8ee0743a2872f4ca6888b37c65f04">VolumeMaterialMaps</a></td>          <td class="paramname"><span class="paramname"><em>volumes</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#aced2304433e8c9b412679158ae856142">KeyedSurfaceMaterialMaps</a></td>          <td class="paramname"><span class="paramname"><em>keyed</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Construct from material assignment maps. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">surfaces</td><td>Unkeyed surface assignments </td></tr>
+    <tr><td class="paramname">volumes</td><td>Volume assignments </td></tr>
+    <tr><td class="paramname">keyed</td><td>Stable-key surface assignments </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="aeb4d4188f30376dfdf7ca976471ee49a" name="aeb4d4188f30376dfdf7ca976471ee49a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aeb4d4188f30376dfdf7ca976471ee49a">&#9670;&#160;</a></span>apply() <span class="overload">[1/4]</span></h2>
 
@@ -263,6 +309,51 @@ Public Attributes</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">volume</td><td>Volume whose material is updated </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a1e1e756632e96bbb0f74bf5ada67076d" name="a1e1e756632e96bbb0f74bf5ada67076d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e1e756632e96bbb0f74bf5ada67076d">&#9670;&#160;</a></span>description()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::optional&lt; std::string &gt; &amp; Acts::TrackingGeometryMaterial::description </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read the optional document description, ignored when applying material. </p>
+<dl class="section return"><dt>Returns</dt><dd>Description, or std::nullopt if absent </dd></dl>
+
+</div>
+</div>
+<a id="a4e83f45ed246b8a7e36e6803806b0d7f" name="a4e83f45ed246b8a7e36e6803806b0d7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e83f45ed246b8a7e36e6803806b0d7f">&#9670;&#160;</a></span>setDescription()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Acts::TrackingGeometryMaterial::setDescription </td>
+          <td>(</td>
+          <td class="paramtype">std::optional&lt; std::string &gt;</td>          <td class="paramname"><span class="paramname"><em>description</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set or remove the document description. </p>
+<p>Empty descriptions are allowed. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">description</td><td>Text, or std::nullopt to remove the description </td></tr>
   </table>
   </dd>
 </dl>

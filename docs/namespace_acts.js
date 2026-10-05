@@ -479,6 +479,7 @@ var namespace_acts =
     [ "TrackingGeometryBuilder", "class_acts_1_1_tracking_geometry_builder.html", "class_acts_1_1_tracking_geometry_builder" ],
     [ "TrackingGeometryJsonConverter", "class_acts_1_1_tracking_geometry_json_converter.html", "class_acts_1_1_tracking_geometry_json_converter" ],
     [ "TrackingGeometryMaterial", "struct_acts_1_1_tracking_geometry_material.html", "struct_acts_1_1_tracking_geometry_material" ],
+    [ "TrackingGeometryMaterialJsonConverter", "class_acts_1_1_tracking_geometry_material_json_converter.html", "class_acts_1_1_tracking_geometry_material_json_converter" ],
     [ "TrackingGeometryMutableVisitor", "class_acts_1_1_tracking_geometry_mutable_visitor.html", "class_acts_1_1_tracking_geometry_mutable_visitor" ],
     [ "TrackingGeometryVisitor", "class_acts_1_1_tracking_geometry_visitor.html", "class_acts_1_1_tracking_geometry_visitor" ],
     [ "TrackingVolume", "class_acts_1_1_tracking_volume.html", "class_acts_1_1_tracking_volume" ],
