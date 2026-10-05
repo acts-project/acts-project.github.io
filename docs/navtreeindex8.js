@@ -1,5 +1,7 @@
 var NAVTREEINDEX8 =
 {
+"class_acts_1_1_cuboid_volume_builder.html#a8f87d4ea54ceeda8e96d266cdd75018f":[6,0,0,96,12],
+"class_acts_1_1_cuboid_volume_builder.html#a8f87d4ea54ceeda8e96d266cdd75018f":[8,0,0,101,12],
 "class_acts_1_1_cuboid_volume_builder.html#a914b566aae6a0b7884607c0df91a3689":[6,0,0,96,8],
 "class_acts_1_1_cuboid_volume_builder.html#a914b566aae6a0b7884607c0df91a3689":[8,0,0,101,8],
 "class_acts_1_1_cuboid_volume_builder.html#af0f23e871e4df2dc3e639cbadfb4b19d":[6,0,0,96,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX8 =
 "class_acts_1_1_cylinder_volume_bounds.html#a40184d2dae59ba9da3e44289c8a3e4a4":[6,0,0,107,5],
 "class_acts_1_1_cylinder_volume_bounds.html#a40184d2dae59ba9da3e44289c8a3e4a4":[8,0,0,112,5],
 "class_acts_1_1_cylinder_volume_bounds.html#a4e48bf043c4bdcdd2fcf754a4bc4b115":[6,0,0,107,8],
-"class_acts_1_1_cylinder_volume_bounds.html#a4e48bf043c4bdcdd2fcf754a4bc4b115":[8,0,0,112,8],
-"class_acts_1_1_cylinder_volume_bounds.html#a51216b38aa994bf843ad58377b046a02":[6,0,0,107,1],
-"class_acts_1_1_cylinder_volume_bounds.html#a51216b38aa994bf843ad58377b046a02":[8,0,0,112,1]
+"class_acts_1_1_cylinder_volume_bounds.html#a4e48bf043c4bdcdd2fcf754a4bc4b115":[8,0,0,112,8]
 };

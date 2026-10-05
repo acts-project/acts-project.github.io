@@ -1,5 +1,7 @@
 var NAVTREEINDEX6 =
 {
+"class_acts_1_1_charge_hypothesis.html#a89df3ec31c01784f4ac56fca25cdb565":[5,6,0,0,4],
+"class_acts_1_1_charge_hypothesis.html#aa7593c2d8f70cf48406ea6d3f272a070":[5,6,0,0,3],
 "class_acts_1_1_charge_hypothesis.html#aaa8167a605f46dddaf4f75c8b5d930af":[5,6,0,0,2],
 "class_acts_1_1_charge_hypothesis.html#abf895884712676503945dfb604eb3b53":[5,6,0,0,1],
 "class_acts_1_1_cloneable_ptr.html":[6,0,0,72],
@@ -247,7 +249,5 @@ var NAVTREEINDEX6 =
 "class_acts_1_1_const_vector_track_container.html#adca0513d4570a981215e125aa4494b6b":[6,0,0,87,6],
 "class_acts_1_1_const_vector_track_container.html#adca0513d4570a981215e125aa4494b6b":[8,0,0,92,6],
 "class_acts_1_1_const_vector_track_container.html#af7b3daed94209a0e7e6f995a506b78b8":[6,0,0,87,4],
-"class_acts_1_1_const_vector_track_container.html#af7b3daed94209a0e7e6f995a506b78b8":[8,0,0,92,4],
-"class_acts_1_1_constant_b_field.html":[5,3,1,0],
-"class_acts_1_1_constant_b_field.html":[5,11,0,0]
+"class_acts_1_1_const_vector_track_container.html#af7b3daed94209a0e7e6f995a506b78b8":[8,0,0,92,4]
 };

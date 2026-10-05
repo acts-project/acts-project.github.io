@@ -1,5 +1,17 @@
 var NAVTREEINDEX64 =
 {
+"struct_acts_1_1_stepper_plain_options.html#a7994a1279ab203b49c6d9ad9a5212345":[8,0,0,384,3],
+"struct_acts_1_1_stepper_plain_options.html#ab575d98e21a8f5fa2a8d8db17cb30ece":[6,0,0,379,9],
+"struct_acts_1_1_stepper_plain_options.html#ab575d98e21a8f5fa2a8d8db17cb30ece":[8,0,0,384,9],
+"struct_acts_1_1_stepper_plain_options.html#aba86da5f93b3d79bf4439e026d08774c":[6,0,0,379,4],
+"struct_acts_1_1_stepper_plain_options.html#aba86da5f93b3d79bf4439e026d08774c":[8,0,0,384,4],
+"struct_acts_1_1_stepper_plain_options.html#ac8b94ad75f6aa8645c9b7c96f0999240":[6,0,0,379,6],
+"struct_acts_1_1_stepper_plain_options.html#ac8b94ad75f6aa8645c9b7c96f0999240":[8,0,0,384,6],
+"struct_acts_1_1_stepper_plain_options_1_1_dense.html":[6,0,0,379,0],
+"struct_acts_1_1_stepper_plain_options_1_1_dense.html":[8,0,0,384,0],
+"struct_acts_1_1_stepper_plain_options_1_1_dense.html#a64c63f1ca58ff8e9e0829078d69334f3":[6,0,0,379,0,2],
+"struct_acts_1_1_stepper_plain_options_1_1_dense.html#a64c63f1ca58ff8e9e0829078d69334f3":[8,0,0,384,0,2],
+"struct_acts_1_1_stepper_plain_options_1_1_dense.html#a66570b91b0dd942335e569ea47da5e1f":[6,0,0,379,0,0],
 "struct_acts_1_1_stepper_plain_options_1_1_dense.html#a66570b91b0dd942335e569ea47da5e1f":[8,0,0,384,0,0],
 "struct_acts_1_1_stepper_plain_options_1_1_dense.html#aaec7b0eceb3c7818fa86db2160e2910c":[6,0,0,379,0,1],
 "struct_acts_1_1_stepper_plain_options_1_1_dense.html#aaec7b0eceb3c7818fa86db2160e2910c":[8,0,0,384,0,1],
@@ -237,17 +249,5 @@ var NAVTREEINDEX64 =
 "struct_acts_1_1_toroid_field_1_1_barrel_config.html#a87a1cd078b874ee4d24e3ebf099376a4":[6,0,0,404,0,2],
 "struct_acts_1_1_toroid_field_1_1_barrel_config.html#a87a1cd078b874ee4d24e3ebf099376a4":[8,0,0,409,0,2],
 "struct_acts_1_1_toroid_field_1_1_barrel_config.html#aa380973187d261ecf780214d794a9770":[6,0,0,404,0,3],
-"struct_acts_1_1_toroid_field_1_1_barrel_config.html#aa380973187d261ecf780214d794a9770":[8,0,0,409,0,3],
-"struct_acts_1_1_toroid_field_1_1_barrel_config.html#ad0eb88e24f19039e58330ba3db1a51c1":[6,0,0,404,0,4],
-"struct_acts_1_1_toroid_field_1_1_barrel_config.html#ad0eb88e24f19039e58330ba3db1a51c1":[8,0,0,409,0,4],
-"struct_acts_1_1_toroid_field_1_1_barrel_config.html#ade2145ec68155ac2f31e34be46617601":[6,0,0,404,0,0],
-"struct_acts_1_1_toroid_field_1_1_barrel_config.html#ade2145ec68155ac2f31e34be46617601":[8,0,0,409,0,0],
-"struct_acts_1_1_toroid_field_1_1_barrel_config.html#af5e0c7a793e971c9fa9582c934da573d":[6,0,0,404,0,1],
-"struct_acts_1_1_toroid_field_1_1_barrel_config.html#af5e0c7a793e971c9fa9582c934da573d":[8,0,0,409,0,1],
-"struct_acts_1_1_toroid_field_1_1_cache.html":[6,0,0,404,1],
-"struct_acts_1_1_toroid_field_1_1_cache.html":[8,0,0,409,1],
-"struct_acts_1_1_toroid_field_1_1_config.html":[6,0,0,404,2],
-"struct_acts_1_1_toroid_field_1_1_config.html":[8,0,0,409,2],
-"struct_acts_1_1_toroid_field_1_1_config.html#a3c667d8ffb972aa0d7a7a306b8622c8b":[6,0,0,404,2,2],
-"struct_acts_1_1_toroid_field_1_1_config.html#a3c667d8ffb972aa0d7a7a306b8622c8b":[8,0,0,409,2,2]
+"struct_acts_1_1_toroid_field_1_1_barrel_config.html#aa380973187d261ecf780214d794a9770":[8,0,0,409,0,3]
 };

@@ -159,17 +159,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:aba3ca63bfa0bd786c0f1494a7090daef" id="r_aba3ca63bfa0bd786c0f1494a7090daef"><td class="memItemLeft" align="right" valign="top"><a id="aba3ca63bfa0bd786c0f1494a7090daef" name="aba3ca63bfa0bd786c0f1494a7090daef"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>farLimit</b> = std::numeric_limits&lt;double&gt;::max()</td></tr>
-<tr class="memdesc:aba3ca63bfa0bd786c0f1494a7090daef"><td class="mdescLeft">&#160;</td><td class="mdescRight">The far limit to resolve surfaces. <br /></td></tr>
-<tr class="memitem:af63fcedc992d41d2720ebf7d54bcdb7b" id="r_af63fcedc992d41d2720ebf7d54bcdb7b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af63fcedc992d41d2720ebf7d54bcdb7b">nearLimit</a> = -100 * <a class="el" href="namespace_acts_1_1_unit_constants.html#a4c14b1784de166f9efc43c1e16c35478">UnitConstants::um</a></td></tr>
-<tr class="memdesc:af63fcedc992d41d2720ebf7d54bcdb7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Distance limit to discard intersections "behind us".  <br /></td></tr>
 <tr class="memitem:aa1a74774e4e7ef2f5573566c340cd8f6" id="r_aa1a74774e4e7ef2f5573566c340cd8f6"><td class="memItemLeft" align="right" valign="top"><a id="aa1a74774e4e7ef2f5573566c340cd8f6" name="aa1a74774e4e7ef2f5573566c340cd8f6"></a>
 std::vector&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>surfaceSequence</b></td></tr>
 <tr class="memdesc:aa1a74774e4e7ef2f5573566c340cd8f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">The ordered sequence of surfaces to walk through. <br /></td></tr>
-<tr class="memitem:a645f6b16694b634fbce375733d228e62" id="r_a645f6b16694b634fbce375733d228e62"><td class="memItemLeft" align="right" valign="top"><a id="a645f6b16694b634fbce375733d228e62" name="a645f6b16694b634fbce375733d228e62"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>surfaceTolerance</b> = <a class="el" href="namespace_acts.html#a062150b6d58b9acb88af2feaf8d3aa2b">s_onSurfaceTolerance</a></td></tr>
-<tr class="memdesc:a645f6b16694b634fbce375733d228e62"><td class="mdescLeft">&#160;</td><td class="mdescRight">The surface tolerance. <br /></td></tr>
 <tr class="inherit_header pub_attribs_struct_acts_1_1_navigator_plain_options"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_attribs_struct_acts_1_1_navigator_plain_options')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Attributes inherited from <a class="el" href="struct_acts_1_1_navigator_plain_options.html">Acts::NavigatorPlainOptions</a></td></tr>
 <tr class="memitem:a2a76d3cee8bbb5c5aeea3ca984448726 inherit pub_attribs_struct_acts_1_1_navigator_plain_options" id="r_a2a76d3cee8bbb5c5aeea3ca984448726"><td class="memItemLeft" align="right" valign="top">
 std::vector&lt; <a class="el" href="struct_acts_1_1_additional_surface.html">AdditionalSurface</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>additionalSurfaces</b></td></tr>
@@ -249,24 +241,6 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>surfaceTolerance</b
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="af63fcedc992d41d2720ebf7d54bcdb7b" name="af63fcedc992d41d2720ebf7d54bcdb7b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af63fcedc992d41d2720ebf7d54bcdb7b">&#9670;&#160;</a></span>nearLimit</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Acts::DirectNavigator::Options::nearLimit = -100 * <a class="el" href="namespace_acts_1_1_unit_constants.html#a4c14b1784de166f9efc43c1e16c35478">UnitConstants::um</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Distance limit to discard intersections "behind us". </p>
-<dl class="section note"><dt>Note</dt><dd>this is only necessary because some surfaces have more than one intersection </dd></dl>
 
 </div>
 </div>

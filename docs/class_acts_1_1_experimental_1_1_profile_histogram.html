@@ -138,6 +138,10 @@ Inheritance diagram for Acts::Experimental::ProfileHistogram&lt; Dim &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a34fbb0fb297beb5d4b073ce65f882457" id="r_a34fbb0fb297beb5d4b073ce65f882457"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34fbb0fb297beb5d4b073ce65f882457">ProfileHistogram</a> (const ProfileHistogram &amp;other)=default</td></tr>
+<tr class="memdesc:a34fbb0fb297beb5d4b073ce65f882457"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <br /></td></tr>
+<tr class="memitem:a54179fad8dbff3f0de81353d7384a757" id="r_a54179fad8dbff3f0de81353d7384a757"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54179fad8dbff3f0de81353d7384a757">ProfileHistogram</a> (ProfileHistogram &amp;&amp;other) noexcept=default</td></tr>
+<tr class="memdesc:a54179fad8dbff3f0de81353d7384a757"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor.  <br /></td></tr>
 <tr class="memitem:aff5701f3ff47a1f2ab6ff2326bc63954" id="r_aff5701f3ff47a1f2ab6ff2326bc63954"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff5701f3ff47a1f2ab6ff2326bc63954">ProfileHistogram</a> (std::string <a class="el" href="#a9b4680a3cf44c92dc5a7e35871d1d7d0">name</a>, std::string <a class="el" href="#a0daad0ac2194d05599554d76fa42310b">title</a>, const std::array&lt; <a class="el" href="namespace_acts_1_1_experimental.html#ad6733036f479c3e732e53c10e3be3a39">AxisVariant</a>, Dim &gt; &amp;axes, std::string <a class="el" href="#a8c5bb821a2b6d44ecb7be6ac85272be7">sampleAxisTitle</a>, <a class="el" href="namespace_acts.html#a81478db625a7b35501d5f651f5d1d4fd">Range1D</a>&lt; double &gt; sampleRange={})</td></tr>
 <tr class="memdesc:aff5701f3ff47a1f2ab6ff2326bc63954"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct multi-dimensional profile histogram from axes.  <br /></td></tr>
 <tr class="memitem:a4ff0d2419c3b74bfb8a8fdfef6e7f0a5" id="r_a4ff0d2419c3b74bfb8a8fdfef6e7f0a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ff0d2419c3b74bfb8a8fdfef6e7f0a5">fill</a> (const std::array&lt; double, Dim &gt; &amp;values, double sample)</td></tr>
@@ -146,6 +150,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a37813fa81821f7e540bcf4e9ee43c3d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Direct access to boost::histogram (for converters and tests).  <br /></td></tr>
 <tr class="memitem:a9b4680a3cf44c92dc5a7e35871d1d7d0" id="r_a9b4680a3cf44c92dc5a7e35871d1d7d0"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b4680a3cf44c92dc5a7e35871d1d7d0">name</a> () const</td></tr>
 <tr class="memdesc:a9b4680a3cf44c92dc5a7e35871d1d7d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get histogram name.  <br /></td></tr>
+<tr class="memitem:a609ac37e247e71626fdb15f2dd92c71b" id="r_a609ac37e247e71626fdb15f2dd92c71b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aff5701f3ff47a1f2ab6ff2326bc63954">ProfileHistogram</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a609ac37e247e71626fdb15f2dd92c71b">operator=</a> (const <a class="el" href="#aff5701f3ff47a1f2ab6ff2326bc63954">ProfileHistogram</a> &amp;other)=default</td></tr>
+<tr class="memdesc:a609ac37e247e71626fdb15f2dd92c71b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator.  <br /></td></tr>
+<tr class="memitem:a05c68e3dd0290dab860fd4999d98ccdc" id="r_a05c68e3dd0290dab860fd4999d98ccdc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aff5701f3ff47a1f2ab6ff2326bc63954">ProfileHistogram</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05c68e3dd0290dab860fd4999d98ccdc">operator=</a> (<a class="el" href="#aff5701f3ff47a1f2ab6ff2326bc63954">ProfileHistogram</a> &amp;&amp;other) noexcept=default</td></tr>
+<tr class="memdesc:a05c68e3dd0290dab860fd4999d98ccdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment operator.  <br /></td></tr>
 <tr class="memitem:a8c5bb821a2b6d44ecb7be6ac85272be7" id="r_a8c5bb821a2b6d44ecb7be6ac85272be7"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c5bb821a2b6d44ecb7be6ac85272be7">sampleAxisTitle</a> () const</td></tr>
 <tr class="memdesc:a8c5bb821a2b6d44ecb7be6ac85272be7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get title of the sample axis.  <br /></td></tr>
 <tr class="memitem:a0daad0ac2194d05599554d76fa42310b" id="r_a0daad0ac2194d05599554d76fa42310b"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0daad0ac2194d05599554d76fa42310b">title</a> () const</td></tr>
@@ -168,7 +176,7 @@ class Acts::Experimental::ProfileHistogram&lt; Dim &gt;</div><p>Multi-dimensiona
 </dl>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aff5701f3ff47a1f2ab6ff2326bc63954" name="aff5701f3ff47a1f2ab6ff2326bc63954"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff5701f3ff47a1f2ab6ff2326bc63954">&#9670;&#160;</a></span>ProfileHistogram()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aff5701f3ff47a1f2ab6ff2326bc63954">&#9670;&#160;</a></span>ProfileHistogram() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -211,6 +219,76 @@ template&lt;std::size_t Dim&gt; </div>
     <tr><td class="paramname">axes</td><td>Array of axes with binning and metadata </td></tr>
     <tr><td class="paramname">sampleAxisTitle</td><td>Title for the sampled axis (profiled quantity) </td></tr>
     <tr><td class="paramname">sampleRange</td><td>Samples are discarded when outside range </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a34fbb0fb297beb5d4b073ce65f882457" name="a34fbb0fb297beb5d4b073ce65f882457"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34fbb0fb297beb5d4b073ce65f882457">&#9670;&#160;</a></span>ProfileHistogram() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;std::size_t Dim&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_acts_1_1_experimental_1_1_profile_histogram.html">Acts::Experimental::ProfileHistogram</a>&lt; Dim &gt;::ProfileHistogram </td>
+          <td>(</td>
+          <td class="paramtype">const ProfileHistogram&lt; Dim &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Copy constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>The other profile histogram to copy from </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a54179fad8dbff3f0de81353d7384a757" name="a54179fad8dbff3f0de81353d7384a757"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54179fad8dbff3f0de81353d7384a757">&#9670;&#160;</a></span>ProfileHistogram() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;std::size_t Dim&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_acts_1_1_experimental_1_1_profile_histogram.html">Acts::Experimental::ProfileHistogram</a>&lt; Dim &gt;::ProfileHistogram </td>
+          <td>(</td>
+          <td class="paramtype">ProfileHistogram&lt; Dim &gt; &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel default">default</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Move constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>The other profile histogram to move from </td></tr>
   </table>
   </dd>
 </dl>
@@ -291,6 +369,78 @@ template&lt;std::size_t Dim&gt; </div>
 
 <p>Get histogram name. </p>
 <dl class="section return"><dt>Returns</dt><dd>The histogram name </dd></dl>
+
+</div>
+</div>
+<a id="a609ac37e247e71626fdb15f2dd92c71b" name="a609ac37e247e71626fdb15f2dd92c71b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a609ac37e247e71626fdb15f2dd92c71b">&#9670;&#160;</a></span>operator=() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;std::size_t Dim&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#aff5701f3ff47a1f2ab6ff2326bc63954">ProfileHistogram</a> &amp; <a class="el" href="class_acts_1_1_experimental_1_1_profile_histogram.html">Acts::Experimental::ProfileHistogram</a>&lt; Dim &gt;::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aff5701f3ff47a1f2ab6ff2326bc63954">ProfileHistogram</a>&lt; Dim &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Copy assignment operator. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>The other profile histogram to copy from </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The copied profile histogram </dd></dl>
+
+</div>
+</div>
+<a id="a05c68e3dd0290dab860fd4999d98ccdc" name="a05c68e3dd0290dab860fd4999d98ccdc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05c68e3dd0290dab860fd4999d98ccdc">&#9670;&#160;</a></span>operator=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;std::size_t Dim&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#aff5701f3ff47a1f2ab6ff2326bc63954">ProfileHistogram</a> &amp; <a class="el" href="class_acts_1_1_experimental_1_1_profile_histogram.html">Acts::Experimental::ProfileHistogram</a>&lt; Dim &gt;::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aff5701f3ff47a1f2ab6ff2326bc63954">ProfileHistogram</a>&lt; Dim &gt; &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel default">default</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Move assignment operator. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>The other profile histogram to move from </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The moved profile histogram </dd></dl>
 
 </div>
 </div>

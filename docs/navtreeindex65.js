@@ -1,5 +1,17 @@
 var NAVTREEINDEX65 =
 {
+"struct_acts_1_1_toroid_field_1_1_barrel_config.html#ad0eb88e24f19039e58330ba3db1a51c1":[6,0,0,404,0,4],
+"struct_acts_1_1_toroid_field_1_1_barrel_config.html#ad0eb88e24f19039e58330ba3db1a51c1":[8,0,0,409,0,4],
+"struct_acts_1_1_toroid_field_1_1_barrel_config.html#ade2145ec68155ac2f31e34be46617601":[6,0,0,404,0,0],
+"struct_acts_1_1_toroid_field_1_1_barrel_config.html#ade2145ec68155ac2f31e34be46617601":[8,0,0,409,0,0],
+"struct_acts_1_1_toroid_field_1_1_barrel_config.html#af5e0c7a793e971c9fa9582c934da573d":[6,0,0,404,0,1],
+"struct_acts_1_1_toroid_field_1_1_barrel_config.html#af5e0c7a793e971c9fa9582c934da573d":[8,0,0,409,0,1],
+"struct_acts_1_1_toroid_field_1_1_cache.html":[6,0,0,404,1],
+"struct_acts_1_1_toroid_field_1_1_cache.html":[8,0,0,409,1],
+"struct_acts_1_1_toroid_field_1_1_config.html":[6,0,0,404,2],
+"struct_acts_1_1_toroid_field_1_1_config.html":[8,0,0,409,2],
+"struct_acts_1_1_toroid_field_1_1_config.html#a3c667d8ffb972aa0d7a7a306b8622c8b":[6,0,0,404,2,2],
+"struct_acts_1_1_toroid_field_1_1_config.html#a3c667d8ffb972aa0d7a7a306b8622c8b":[8,0,0,409,2,2],
 "struct_acts_1_1_toroid_field_1_1_config.html#a445a69e0cc954e65aff0c8452b21ebf9":[6,0,0,404,2,0],
 "struct_acts_1_1_toroid_field_1_1_config.html#a445a69e0cc954e65aff0c8452b21ebf9":[8,0,0,409,2,0],
 "struct_acts_1_1_toroid_field_1_1_config.html#a62449f2ab21c22c6333149a74b63e480":[6,0,0,404,2,1],
@@ -237,17 +249,5 @@ var NAVTREEINDEX65 =
 "struct_acts_1_1_tracking_geometry_json_converter_1_1_config.html#a9dde2c527527b1cee81fe4389a228fcf":[5,10,10,13,0,5],
 "struct_acts_1_1_tracking_geometry_json_converter_1_1_config.html#ab33c98b6639e337c38771cd9a66d2350":[5,10,10,13,0,3],
 "struct_acts_1_1_tracking_geometry_json_converter_1_1_config.html#ac01e7b99e26a0d143d29b9845427a53d":[5,10,10,13,0,6],
-"struct_acts_1_1_tracking_geometry_json_converter_1_1_config.html#acb3fcf85696bdf558d832fc8dc021323":[5,10,10,13,0,4],
-"struct_acts_1_1_tracking_geometry_json_converter_1_1_id_to_pointer_like_lookup.html":[5,10,10,13,1],
-"struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html":[5,10,10,13,2],
-"struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#a16dd03f80e6462e2d5d89b00ed317f1b":[5,10,10,13,2,4],
-"struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#a3764ff34cc3a49f81ed323c6ebe1ebbc":[5,10,10,13,2,2],
-"struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#ab61f52690c0cedd1ba20d8eee2012052":[5,10,10,13,2,3],
-"struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#abb1be2d78a2465ebcc4b85f9391a1e0c":[5,10,10,13,2,0],
-"struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#ad91b4499b5bc1092e6892bbcaefc4ee1":[5,10,10,13,2,1],
-"struct_acts_1_1_tracking_geometry_json_converter_1_1_pointer_to_id_lookup.html":[5,10,10,13,3],
-"struct_acts_1_1_tracking_geometry_material.html":[6,0,0,411],
-"struct_acts_1_1_tracking_geometry_material.html":[8,0,0,416],
-"struct_acts_1_1_tracking_geometry_material.html#a4c2e14fa9c81f78f19cfdf6951bf9778":[6,0,0,411,4],
-"struct_acts_1_1_tracking_geometry_material.html#a4c2e14fa9c81f78f19cfdf6951bf9778":[8,0,0,416,4]
+"struct_acts_1_1_tracking_geometry_json_converter_1_1_config.html#acb3fcf85696bdf558d832fc8dc021323":[5,10,10,13,0,4]
 };
