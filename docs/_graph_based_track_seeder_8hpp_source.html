@@ -301,26 +301,26 @@ $(function(){initNavTree('_graph_based_track_seeder_8hpp_source.html','',''); })
 <div class="line"><a id="l00328" name="l00328"></a><span class="lineno">  328</span>  std::uint32_t runCCA(std::uint32_t nEdges,</div>
 <div class="line"><a id="l00329" name="l00329"></a><span class="lineno">  329</span>                       std::vector&lt;detail::GbtsEdge&gt;&amp; edgeStorage) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00330" name="l00330"></a><span class="lineno">  330</span></div>
-<div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span>  <span class="keywordtype">void</span> extractSeedsFromTheGraph(std::uint32_t maxLevel, std::uint32_t nEdges,</div>
-<div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span>                                <span class="keyword">const</span> GbtsNodeStorage&amp; nodeStorage,</div>
-<div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span>                                std::vector&lt;detail::GbtsEdge&gt;&amp; edgeStorage,</div>
-<div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span>                                std::vector&lt;OutputSeedProperties&gt;&amp; vOutputSeeds,</div>
-<div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span>                                <span class="keyword">const</span> GbtsTrackingFilter&amp; filter) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span></div>
-<div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span>  <span class="keywordtype">bool</span> checkZ0BitMask(std::uint16_t z0BitMask, <span class="keywordtype">float</span> z0,</div>
-<div class="line"><a id="l00351" name="l00351"></a><span class="lineno">  351</span>                      <span class="keywordtype">float</span> z0HistoCoeff) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00352" name="l00352"></a><span class="lineno">  352</span></div>
-<div class="line"><a id="l00357" name="l00357"></a><span class="lineno">  357</span>  <span class="keywordtype">float</span> estimateCurvature(<span class="keyword">const</span> detail::GbtsNodeView&amp; nodeView,</div>
-<div class="line"><a id="l00358" name="l00358"></a><span class="lineno">  358</span>                          <span class="keyword">const</span> std::array&lt;SpacePointIndex, 3&gt;&amp; nodes) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00359" name="l00359"></a><span class="lineno">  359</span></div>
-<div class="line"><a id="l00368" name="l00368"></a><span class="lineno">  368</span>  <span class="keywordtype">bool</span> validateTriplet(<span class="keyword">const</span> detail::GbtsNodeView&amp; nodeView,</div>
-<div class="line"><a id="l00369" name="l00369"></a><span class="lineno">  369</span>                       <span class="keyword">const</span> std::array&lt;SpacePointIndex, 3&gt;&amp; candidateTriplet,</div>
-<div class="line"><a id="l00370" name="l00370"></a><span class="lineno">  370</span>                       <span class="keywordtype">float</span> tripletMinPt, <span class="keywordtype">float</span> tauRatio, <span class="keywordtype">float</span> tauRatioCut,</div>
-<div class="line"><a id="l00371" name="l00371"></a><span class="lineno">  371</span>                       <span class="keyword">const</span> <a class="code hl_struct" href="struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_options.html">Options</a>&amp; options) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00372" name="l00372"></a><span class="lineno">  372</span>};</div>
+<div class="line"><a id="l00337" name="l00337"></a><span class="lineno">  337</span>  <span class="keywordtype">void</span> extractSeedsFromTheGraph(std::uint32_t nEdges,</div>
+<div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span>                                <span class="keyword">const</span> GbtsNodeStorage&amp; nodeStorage,</div>
+<div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span>                                std::vector&lt;detail::GbtsEdge&gt;&amp; edgeStorage,</div>
+<div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span>                                std::vector&lt;OutputSeedProperties&gt;&amp; vOutputSeeds,</div>
+<div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span>                                <span class="keyword">const</span> GbtsTrackingFilter&amp; filter) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span></div>
+<div class="line"><a id="l00349" name="l00349"></a><span class="lineno">  349</span>  <span class="keywordtype">bool</span> checkZ0BitMask(std::uint16_t z0BitMask, <span class="keywordtype">float</span> z0,</div>
+<div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span>                      <span class="keywordtype">float</span> z0HistoCoeff) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00351" name="l00351"></a><span class="lineno">  351</span></div>
+<div class="line"><a id="l00356" name="l00356"></a><span class="lineno">  356</span>  <span class="keywordtype">float</span> estimateCurvature(<span class="keyword">const</span> detail::GbtsNodeView&amp; nodeView,</div>
+<div class="line"><a id="l00357" name="l00357"></a><span class="lineno">  357</span>                          <span class="keyword">const</span> std::array&lt;SpacePointIndex, 3&gt;&amp; nodes) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00358" name="l00358"></a><span class="lineno">  358</span></div>
+<div class="line"><a id="l00367" name="l00367"></a><span class="lineno">  367</span>  <span class="keywordtype">bool</span> validateTriplet(<span class="keyword">const</span> detail::GbtsNodeView&amp; nodeView,</div>
+<div class="line"><a id="l00368" name="l00368"></a><span class="lineno">  368</span>                       <span class="keyword">const</span> std::array&lt;SpacePointIndex, 3&gt;&amp; candidateTriplet,</div>
+<div class="line"><a id="l00369" name="l00369"></a><span class="lineno">  369</span>                       <span class="keywordtype">float</span> tripletMinPt, <span class="keywordtype">float</span> tauRatio, <span class="keywordtype">float</span> tauRatioCut,</div>
+<div class="line"><a id="l00370" name="l00370"></a><span class="lineno">  370</span>                       <span class="keyword">const</span> <a class="code hl_struct" href="struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_options.html">Options</a>&amp; options) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00371" name="l00371"></a><span class="lineno">  371</span>};</div>
 </div>
-<div class="line"><a id="l00373" name="l00373"></a><span class="lineno">  373</span> </div>
-<div class="line"><a id="l00374" name="l00374"></a><span class="lineno">  374</span>}  <span class="comment">// namespace Acts::Experimental</span></div>
+<div class="line"><a id="l00372" name="l00372"></a><span class="lineno">  372</span> </div>
+<div class="line"><a id="l00373" name="l00373"></a><span class="lineno">  373</span>}  <span class="comment">// namespace Acts::Experimental</span></div>
 <div class="ttc" id="aclass_acts_1_1_experimental_1_1_gbts_node_storage_html"><div class="ttname"><a href="class_acts_1_1_experimental_1_1_gbts_node_storage.html">Acts::Experimental::GbtsNodeStorage</a></div><div class="ttdoc">Storage for the GBTS graph nodes.</div><div class="ttdef"><b>Definition</b> GbtsNodeStorage.hpp:37</div></div>
 <div class="ttc" id="aclass_acts_1_1_experimental_1_1_gbts_roi_descriptor_html"><div class="ttname"><a href="class_acts_1_1_experimental_1_1_gbts_roi_descriptor.html">Acts::Experimental::GbtsRoiDescriptor</a></div><div class="ttdoc">GBTS region of interest, as the eta and z bounds the seeder cuts on.</div><div class="ttdef"><b>Definition</b> GbtsRoiDescriptor.hpp:17</div></div>
 <div class="ttc" id="aclass_acts_1_1_experimental_1_1_gbts_tracking_filter_html"><div class="ttname"><a href="class_acts_1_1_experimental_1_1_gbts_tracking_filter.html">Acts::Experimental::GbtsTrackingFilter</a></div><div class="ttdoc">Tracking filter operating on the GBTS edge graph.</div><div class="ttdef"><b>Definition</b> GbtsTrackingFilter.hpp:27</div></div>
