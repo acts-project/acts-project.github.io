@@ -1,5 +1,10 @@
 var NAVTREEINDEX56 =
 {
+"struct_acts_1_1_experimental_1_1_gbts_layer_description.html#ac055d01f011cee9d6067679e1aa9a9f3":[8,0,0,2,24,5],
+"struct_acts_1_1_experimental_1_1_gbts_layer_description.html#ac23731356e92dce07faf735e24e0ff30":[6,0,0,1,24,7],
+"struct_acts_1_1_experimental_1_1_gbts_layer_description.html#ac23731356e92dce07faf735e24e0ff30":[8,0,0,2,24,7],
+"struct_acts_1_1_experimental_1_1_gbts_tau_bounds.html":[6,0,0,1,27],
+"struct_acts_1_1_experimental_1_1_gbts_tau_bounds.html":[8,0,0,2,27],
 "struct_acts_1_1_experimental_1_1_gbts_tau_bounds.html#a247d67503d289dbc1807b579118fde64":[6,0,0,1,27,2],
 "struct_acts_1_1_experimental_1_1_gbts_tau_bounds.html#a247d67503d289dbc1807b579118fde64":[8,0,0,2,27,2],
 "struct_acts_1_1_experimental_1_1_gbts_tau_bounds.html#a72a3d01a6e8fb06350fee06080893110":[6,0,0,1,27,3],
@@ -244,10 +249,5 @@ var NAVTREEINDEX56 =
 "struct_acts_1_1_experimental_1_1_multi_layer_navigation_policy_1_1_config.html#a75b7ea708d3aac053ac0311e3dd51a11":[8,0,0,2,42,0,0],
 "struct_acts_1_1_experimental_1_1_multi_layer_navigation_policy_1_1_config.html#a7e7e2f7df5939c17eb8ddc6808f1a388":[6,0,0,1,42,0,1],
 "struct_acts_1_1_experimental_1_1_multi_layer_navigation_policy_1_1_config.html#a7e7e2f7df5939c17eb8ddc6808f1a388":[8,0,0,2,42,0,1],
-"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html":[6,0,0,1,43,0],
-"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html":[8,0,0,2,43,0],
-"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#a610976e9c450ea9dc8303ddf2833fec8":[6,0,0,1,43,0,1],
-"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#a610976e9c450ea9dc8303ddf2833fec8":[8,0,0,2,43,0,1],
-"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#a78083b2269b601efa549d2b52bc9dc75":[6,0,0,1,43,0,0],
-"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#a78083b2269b601efa549d2b52bc9dc75":[8,0,0,2,43,0,0]
+"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html":[6,0,0,1,43,0]
 };

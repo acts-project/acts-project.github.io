@@ -4,5 +4,6 @@ var searchData=
   ['clustering_1',['Clustering',['../group__clustering.html',1,'']]],
   ['code_20generation_2',['Symbolic code generation',['../group__sympy__codegen.html',1,'']]],
   ['context_3',['Context',['../group__context.html',1,'']]],
-  ['covfie_20plugin_4',['Covfie Plugin',['../group__covfie__plugin.html',1,'']]]
+  ['covfie_20plugin_4',['Covfie Plugin',['../group__covfie__plugin.html',1,'']]],
+  ['custom_20algorithms_5',['Custom Algorithms',['../group__python__custom__algorithms.html',1,'']]]
 ];

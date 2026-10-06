@@ -37,7 +37,8 @@ var menudata={children:[
 {text:"Building ACTS",url:"building_acts.html"},
 {text:"Building with Spack",url:"howto_spack.html"},
 {text:"Physics performance monitoring",url:"physmon.html"},
-{text:"ROOT file hashes",url:"group__python__bindings.html#root_file_hashes"}]},
+{text:"Python-based testing",url:"group__python__testing.html"},
+{text:"ROOT file hashes",url:"group__python__testing.html#root_file_hashes"}]},
 {text:"Versioning and public API",url:"versioning.html"},
 {text:"Topics",url:"topics.html"},
 {text:"Namespaces",url:"namespaces.html",children:[

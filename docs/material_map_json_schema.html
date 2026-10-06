@@ -176,7 +176,7 @@ $(function(){initNavTree('material_map_json_schema.html','',''); });
 <div class="line">        }</div>
 <div class="line">    ]</div>
 <div class="line">}</div>
-</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md130"></a>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md142"></a>
 Document and assignments</h2>
 <p><span class="tt">header</span> contains <span class="tt">format: "acts-material-map"</span>, <span class="tt">version: 1</span>, and an optional human-readable <span class="tt">description</span>. Unknown versions are rejected. Read or change the description through <a class="el" href="struct_acts_1_1_tracking_geometry_material.html#a1e1e756632e96bbb0f74bf5ada67076d">description()</a> and <a class="el" href="struct_acts_1_1_tracking_geometry_material.html#a4e83f45ed246b8a7e36e6803806b0d7f">setDescription()</a>. The optional root <span class="tt">$schema</span> identifies the schema; it is not fetched by the reader.</p>
 <p><span class="tt">surfaces</span> contains material assignments; <span class="tt">slab_stores</span> holds shared grid data. An empty assignment list is valid.</p>
@@ -190,7 +190,7 @@ Document and assignments</h2>
 </table>
 <p>Geometry IDs use integer components <span class="tt">volume</span>, <span class="tt">portal</span>, <span class="tt">layer</span>, <span class="tt">passive</span>, <span class="tt">sensitive</span> and <span class="tt">extra</span>. Omitted components mean <b>zero, never wildcards</b>. <span class="tt">portal</span> names the boundary bit field; <span class="tt">passive</span> names the shared approach/passive bit field. Packed IDs are not supported. Stable keys are nonempty and case-sensitive. Duplicate identities are errors; a proto payload's <span class="tt">material_key</span>, when present on a keyed assignment, must match.</p>
 <p>Absent assignments leave geometry unchanged. Null payloads are allowed only for unkeyed assignments and are a no-op when applied. Vacuum is an explicit material, not an absent assignment. Proto materials describe mapping intent; merged markers record lost material and cannot be applied as physical material.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md131"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md143"></a>
 Values and units</h2>
 <p>The required <span class="tt">header.units</span> declares base units by name. Writers use:</p>
 <div class="fragment"><div class="line">&quot;units&quot;: {&quot;length&quot;: &quot;mm&quot;, &quot;angle&quot;: &quot;rad&quot;, &quot;energy&quot;: &quot;GeV&quot;, &quot;material_amount&quot;: &quot;mol&quot;}</div>
@@ -208,7 +208,7 @@ Values and units</h2>
 </table>
 <p>Readers convert to Acts units and reject unknown or dimensionally wrong names. Both molar densities use <b>material_amount / length³</b>; there is no compound-unit parser. Changing a length unit therefore also requires rescaling density values. Lengths cover slab thickness, material lengths, translations and length-valued axes. <span class="tt">phi</span>/<span class="tt">theta</span> use the angle unit; <span class="tt">eta</span> and normalized deferred edges are dimensionless. Axis ranges without a direction use the length unit; <span class="tt">rphi</span> uses length with azimuth in radians. Relative atomic mass and atomic number are dimensionless. Material fields preserve radiation and interaction lengths, relative atomic mass, atomic number, molar density, molar electron density and mean excitation energy. The last two are stored independently rather than reconstructed from the others.</p>
 <p>Vacuum is <span class="tt">{"kind":"vacuum"}</span>. The string <span class="tt">"infinity"</span> is allowed for radiation and interaction lengths; numeric NaN and infinities are outside the format. Slabs retain thickness, including for vacuum. Surface settings preserve mapping type (<span class="tt">default</span>, <span class="tt">pre</span>, <span class="tt">post</span>, <span class="tt">sensor</span>) and split factor in [0,1]. Proto materials require split factor 1.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md132"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md144"></a>
 Axes and storage</h2>
 <p><a class="el" href="class_acts_1_1_bin_utility.html">BinUtility</a> is being phased out. Its binned/proto and subdivided-axis encodings are retained for compatibility. Prefer <a class="el" href="class_acts_1_1_grid_surface_material.html">Acts::GridSurfaceMaterial</a> and <a class="el" href="group__material.html#gaee4b3702e1722a63aab1022d8709175d">Acts::ProtoGridSurfaceMaterial</a> for new code.</p>
 <p>Arrays are dense, flat and zero-based, with <b>axis 0 varying fastest</b>: <span class="tt">offset = i0 + size0 * i1</span>. This differs from native <a class="el" href="class_acts_1_1_multi_axis.html">MultiAxis</a> storage order; the converter handles the permutation.</p>
@@ -232,7 +232,7 @@ Axes and storage</h2>
 <td class="markdownTableBodyNone"><span class="tt">globally-indexed</span>  </td><td class="markdownTableBodyNone">Cell indices into a named entry in <span class="tt">slab_stores</span>  </td></tr>
 </table>
 <p>Indices must be in range. References to the same store retain shared allocation; separate stores remain separate even if their values are equal.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md133"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md145"></a>
 Validation and compatibility</h2>
 <p>Run <span class="tt">python CI/check_material_schema.py</span> with <span class="tt">jsonschema&gt;=4.18</span> to validate the schema and examples, or use the pre-commit hook. Schema tests run with <span class="tt">python -m pytest CI/check_material_schema.py</span>.</p>
 <p>The schema checks structure and physical-value bounds. The C++ reader checks format/version, sizes, identities and references needed to construct material; it does not perform full schema validation. Geometry application checks matching and resolves deferred axes. Schema validity alone does not guarantee that a map can be applied to a particular geometry.</p>

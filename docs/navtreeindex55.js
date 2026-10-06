@@ -1,5 +1,10 @@
 var NAVTREEINDEX55 =
 {
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html#a91eb37b3bf4ee46e769451165b9f526f":[8,0,0,2,6,2,0],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html#a9e22c69713f59ed04d21503f9c73a123":[6,0,0,1,6,2,1],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html#a9e22c69713f59ed04d21503f9c73a123":[8,0,0,2,6,2,1],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html#ae4b0e30d97a82dcc75e77883fa132643":[6,0,0,1,6,2,7],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html#ae4b0e30d97a82dcc75e77883fa132643":[8,0,0,2,6,2,7],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html":[6,0,0,1,6,3],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html":[8,0,0,2,6,3],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#a0077d5d8995d67f4ff2709914299ebc1":[6,0,0,1,6,3,2],
@@ -244,10 +249,5 @@ var NAVTREEINDEX55 =
 "struct_acts_1_1_experimental_1_1_gbts_layer_description.html#aabc9cd62db7adfb69fbe1036ab834b42":[8,0,0,2,24,0],
 "struct_acts_1_1_experimental_1_1_gbts_layer_description.html#ab52f793e34acc9675912129a311fa9d0":[6,0,0,1,24,6],
 "struct_acts_1_1_experimental_1_1_gbts_layer_description.html#ab52f793e34acc9675912129a311fa9d0":[8,0,0,2,24,6],
-"struct_acts_1_1_experimental_1_1_gbts_layer_description.html#ac055d01f011cee9d6067679e1aa9a9f3":[6,0,0,1,24,5],
-"struct_acts_1_1_experimental_1_1_gbts_layer_description.html#ac055d01f011cee9d6067679e1aa9a9f3":[8,0,0,2,24,5],
-"struct_acts_1_1_experimental_1_1_gbts_layer_description.html#ac23731356e92dce07faf735e24e0ff30":[6,0,0,1,24,7],
-"struct_acts_1_1_experimental_1_1_gbts_layer_description.html#ac23731356e92dce07faf735e24e0ff30":[8,0,0,2,24,7],
-"struct_acts_1_1_experimental_1_1_gbts_tau_bounds.html":[6,0,0,1,27],
-"struct_acts_1_1_experimental_1_1_gbts_tau_bounds.html":[8,0,0,2,27]
+"struct_acts_1_1_experimental_1_1_gbts_layer_description.html#ac055d01f011cee9d6067679e1aa9a9f3":[6,0,0,1,24,5]
 };
