@@ -23,6 +23,8 @@ var class_acts_1_1_track_proxy_common =
     [ "nOutliers", "class_acts_1_1_track_proxy_common.html#ab18e64082d1f160d83f82453a260e7ca", null ],
     [ "nSharedHits", "class_acts_1_1_track_proxy_common.html#a3be445e6938cc65a9a25ef45ab8e67b3", null ],
     [ "nSharedHits", "class_acts_1_1_track_proxy_common.html#a27ab3ddef2b2048a974a2cd99250c968", null ],
+    [ "nSplitHits", "class_acts_1_1_track_proxy_common.html#aa304e59f04878ce744fee7907c675d4d", null ],
+    [ "nSplitHits", "class_acts_1_1_track_proxy_common.html#a471ed39f5e609e969175cd2f4312e18f", null ],
     [ "phi", "class_acts_1_1_track_proxy_common.html#aa72e472f35340570ea069be4d7f275f1", null ],
     [ "qOverP", "class_acts_1_1_track_proxy_common.html#a3f44d73d88af48062a58c626359766b8", null ],
     [ "stemIndex", "class_acts_1_1_track_proxy_common.html#a2100ed9697b25b64b6deda3de131bf89", null ],

@@ -56,6 +56,8 @@ var class_acts_1_1_track_proxy =
     [ "nOutliers", "class_acts_1_1_track_proxy.html#a037e385d7a35428378b2e3da57b04f87", null ],
     [ "nSharedHits", "class_acts_1_1_track_proxy.html#a76c346ab876147152acb490f3fcb9a94", null ],
     [ "nSharedHits", "class_acts_1_1_track_proxy.html#aff78397392945c7411f8ddd607a62ad2", null ],
+    [ "nSplitHits", "class_acts_1_1_track_proxy.html#a3946bd866c99ed2dcc1ddc14bddf3766", null ],
+    [ "nSplitHits", "class_acts_1_1_track_proxy.html#af967fbba5b4d6d3ae8b80d0543a19529", null ],
     [ "nTrackStates", "class_acts_1_1_track_proxy.html#ac5e38c1e9170703d670823d87d106b07", null ],
     [ "operator=", "class_acts_1_1_track_proxy.html#aaafee755fec1e0bf4016d56bab900b06", null ],
     [ "operator=", "class_acts_1_1_track_proxy.html#ac15d5edb3f464ad4faf7a1e4d86f1810", null ],

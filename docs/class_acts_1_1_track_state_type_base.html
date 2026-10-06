@@ -815,6 +815,7 @@ template&lt;typename Derived, bool ReadOnly&gt; </div>
 </div><div class="memdoc">
 
 <p>Sets the track state to be a shared hit. </p>
+<dl class="section note"><dt>Note</dt><dd>A shared hit is not a split hit, so this clears the split flag </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">value</td><td>the value to set </td></tr>
@@ -843,6 +844,7 @@ template&lt;typename Derived, bool ReadOnly&gt; </div>
 </div><div class="memdoc">
 
 <p>Sets the track state to be a split hit. </p>
+<dl class="section note"><dt>Note</dt><dd>A split hit is not a shared hit, so this clears the shared flag </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">value</td><td>the value to set </td></tr>

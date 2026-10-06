@@ -1,5 +1,13 @@
 var NAVTREEINDEX55 =
 {
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html#ae4b0e30d97a82dcc75e77883fa132643":[6,0,0,1,6,2,7],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html#ae4b0e30d97a82dcc75e77883fa132643":[8,0,0,2,6,2,7],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html":[6,0,0,1,6,3],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html":[8,0,0,2,6,3],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#a0077d5d8995d67f4ff2709914299ebc1":[6,0,0,1,6,3,2],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#a0077d5d8995d67f4ff2709914299ebc1":[8,0,0,2,6,3,2],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#a03e94b9d312d89fbbda83eb96ceb0912":[6,0,0,1,6,3,5],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#a03e94b9d312d89fbbda83eb96ceb0912":[8,0,0,2,6,3,5],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#a0829b7ba66ac21f3efd2ac48aa76e8a6":[6,0,0,1,6,3,12],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#a0829b7ba66ac21f3efd2ac48aa76e8a6":[8,0,0,2,6,3,12],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#a12a7c864c10293bd6dc8088033a409f3":[6,0,0,1,6,3,11],
@@ -241,13 +249,5 @@ var NAVTREEINDEX55 =
 "struct_acts_1_1_experimental_1_1_gbts_layer_description.html#ac055d01f011cee9d6067679e1aa9a9f3":[6,0,0,1,24,5],
 "struct_acts_1_1_experimental_1_1_gbts_layer_description.html#ac055d01f011cee9d6067679e1aa9a9f3":[8,0,0,2,24,5],
 "struct_acts_1_1_experimental_1_1_gbts_layer_description.html#ac23731356e92dce07faf735e24e0ff30":[6,0,0,1,24,7],
-"struct_acts_1_1_experimental_1_1_gbts_layer_description.html#ac23731356e92dce07faf735e24e0ff30":[8,0,0,2,24,7],
-"struct_acts_1_1_experimental_1_1_gbts_tau_bounds.html":[6,0,0,1,27],
-"struct_acts_1_1_experimental_1_1_gbts_tau_bounds.html":[8,0,0,2,27],
-"struct_acts_1_1_experimental_1_1_gbts_tau_bounds.html#a247d67503d289dbc1807b579118fde64":[6,0,0,1,27,2],
-"struct_acts_1_1_experimental_1_1_gbts_tau_bounds.html#a247d67503d289dbc1807b579118fde64":[8,0,0,2,27,2],
-"struct_acts_1_1_experimental_1_1_gbts_tau_bounds.html#a72a3d01a6e8fb06350fee06080893110":[6,0,0,1,27,3],
-"struct_acts_1_1_experimental_1_1_gbts_tau_bounds.html#a72a3d01a6e8fb06350fee06080893110":[8,0,0,2,27,3],
-"struct_acts_1_1_experimental_1_1_gbts_tau_bounds.html#a83a4894c7e075d84bd8ee4bf4ba52fe8":[6,0,0,1,27,0],
-"struct_acts_1_1_experimental_1_1_gbts_tau_bounds.html#a83a4894c7e075d84bd8ee4bf4ba52fe8":[8,0,0,2,27,0]
+"struct_acts_1_1_experimental_1_1_gbts_layer_description.html#ac23731356e92dce07faf735e24e0ff30":[8,0,0,2,24,7]
 };

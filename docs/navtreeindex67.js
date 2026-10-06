@@ -1,5 +1,14 @@
 var NAVTREEINDEX67 =
 {
+"struct_acts_1_1_vertex_fit_problem.html#a80fdaa85e2b985642a8e4e3977b20511":[6,0,0,446,6],
+"struct_acts_1_1_vertex_fit_problem.html#a80fdaa85e2b985642a8e4e3977b20511":[8,0,0,451,6],
+"struct_acts_1_1_vertex_fit_problem.html#aaa15a219c95669f056a8c1f0912d7690":[6,0,0,446,3],
+"struct_acts_1_1_vertex_fit_problem.html#aaa15a219c95669f056a8c1f0912d7690":[8,0,0,451,3],
+"struct_acts_1_1_vertex_info.html":[6,0,0,447],
+"struct_acts_1_1_vertex_info.html":[8,0,0,452],
+"struct_acts_1_1_vertex_info.html#a1f473c9d838c216bac3059cb1090f15b":[6,0,0,447,6],
+"struct_acts_1_1_vertex_info.html#a1f473c9d838c216bac3059cb1090f15b":[8,0,0,452,6],
+"struct_acts_1_1_vertex_info.html#a37de788fd7112a8e475747cf96cd816d":[6,0,0,447,7],
 "struct_acts_1_1_vertex_info.html#a37de788fd7112a8e475747cf96cd816d":[8,0,0,452,7],
 "struct_acts_1_1_vertex_info.html#a37fbf4d6a07127813869bef4eddcca10":[6,0,0,447,4],
 "struct_acts_1_1_vertex_info.html#a37fbf4d6a07127813869bef4eddcca10":[8,0,0,452,4],
@@ -240,14 +249,5 @@ var NAVTREEINDEX67 =
 "struct_acts_fatras_1_1_casts_1_1_e.html":[8,0,1,0,2],
 "struct_acts_fatras_1_1_casts_1_1_e.html#aff356fc5432caf08027d8e848141c202":[8,0,1,0,2,0],
 "struct_acts_fatras_1_1_casts_1_1_eta.html":[8,0,1,0,3],
-"struct_acts_fatras_1_1_casts_1_1_eta.html#a17089b8c5f13dd0c701b4d2de6d60e59":[8,0,1,0,3,0],
-"struct_acts_fatras_1_1_casts_1_1_p.html":[8,0,1,0,4],
-"struct_acts_fatras_1_1_casts_1_1_p.html#a9b57edc1c9251c0318faa39c31597e95":[8,0,1,0,4,0],
-"struct_acts_fatras_1_1_casts_1_1_pt.html":[8,0,1,0,5],
-"struct_acts_fatras_1_1_casts_1_1_pt.html#ae99f53b0d13eb6782fbe8ed2870750d1":[8,0,1,0,5,0],
-"struct_acts_fatras_1_1_casts_1_1_vrho.html":[8,0,1,0,6],
-"struct_acts_fatras_1_1_casts_1_1_vrho.html#abcdd815250f6fed7295e9cbca88aeaca":[8,0,1,0,6,0],
-"struct_acts_fatras_1_1_casts_1_1_vz.html":[8,0,1,0,7],
-"struct_acts_fatras_1_1_casts_1_1_vz.html#a50f04fcfc5ac0dd84935540bb28c493d":[8,0,1,0,7,0],
-"struct_acts_fatras_1_1_channel.html":[6,0,2,6]
+"struct_acts_fatras_1_1_casts_1_1_eta.html#a17089b8c5f13dd0c701b4d2de6d60e59":[8,0,1,0,3,0]
 };

@@ -1,5 +1,14 @@
 var NAVTREEINDEX63 =
 {
+"struct_acts_1_1_propagator_options.html#a32cc330e78ae01bf7f6f6907755e271d":[6,0,0,338,0],
+"struct_acts_1_1_propagator_options.html#a32cc330e78ae01bf7f6f6907755e271d":[8,0,0,343,0],
+"struct_acts_1_1_propagator_options.html#a3fa243fe6a92d5de0e8bba183f9be6b4":[6,0,0,338,1],
+"struct_acts_1_1_propagator_options.html#a3fa243fe6a92d5de0e8bba183f9be6b4":[8,0,0,343,1],
+"struct_acts_1_1_propagator_options.html#a5e607fc37b12e52ecb938ee06f2bfe89":[6,0,0,338,10],
+"struct_acts_1_1_propagator_options.html#a5e607fc37b12e52ecb938ee06f2bfe89":[8,0,0,343,10],
+"struct_acts_1_1_propagator_options.html#a6f9715e246cf8b08d96443a5b3242697":[6,0,0,338,12],
+"struct_acts_1_1_propagator_options.html#a6f9715e246cf8b08d96443a5b3242697":[8,0,0,343,12],
+"struct_acts_1_1_propagator_options.html#a7a837419b8bafbcc953c58373e0b3480":[6,0,0,338,5],
 "struct_acts_1_1_propagator_options.html#a7a837419b8bafbcc953c58373e0b3480":[8,0,0,343,5],
 "struct_acts_1_1_propagator_options.html#a949991168fbefbd8d2051f97a53ae1e1":[6,0,0,338,3],
 "struct_acts_1_1_propagator_options.html#a949991168fbefbd8d2051f97a53ae1e1":[8,0,0,343,3],
@@ -240,14 +249,5 @@ var NAVTREEINDEX63 =
 "struct_acts_1_1_shifted_center_reference_generator.html#aa4d47ed15622bfc8cb2016c426fd21d9":[6,0,0,367,4],
 "struct_acts_1_1_shifted_center_reference_generator.html#aa4d47ed15622bfc8cb2016c426fd21d9":[8,0,0,372,4],
 "struct_acts_1_1_shifted_center_reference_generator.html#ab3f0e7adee39a5fded73cad7544db972":[6,0,0,367,3],
-"struct_acts_1_1_shifted_center_reference_generator.html#ab3f0e7adee39a5fded73cad7544db972":[8,0,0,372,3],
-"struct_acts_1_1_shifted_center_reference_generator.html#ad02569b8d0fc340bc1e6265cdf3dddfb":[6,0,0,367,0],
-"struct_acts_1_1_shifted_center_reference_generator.html#ad02569b8d0fc340bc1e6265cdf3dddfb":[8,0,0,372,0],
-"struct_acts_1_1_shifted_center_reference_generator.html#ad7ef0df4d964e8968fec16fc409b844e":[6,0,0,367,5],
-"struct_acts_1_1_shifted_center_reference_generator.html#ad7ef0df4d964e8968fec16fc409b844e":[8,0,0,372,5],
-"struct_acts_1_1_solenoid_b_field_1_1_cache.html":[5,3,1,7,0],
-"struct_acts_1_1_solenoid_b_field_1_1_cache.html":[5,11,0,7,0],
-"struct_acts_1_1_solenoid_b_field_1_1_cache.html#adff3c139c294cf6484931cf2ced3a388":[5,3,1,7,0,0],
-"struct_acts_1_1_solenoid_b_field_1_1_cache.html#adff3c139c294cf6484931cf2ced3a388":[5,11,0,7,0,0],
-"struct_acts_1_1_solenoid_b_field_1_1_config.html":[5,3,1,7,1]
+"struct_acts_1_1_shifted_center_reference_generator.html#ab3f0e7adee39a5fded73cad7544db972":[8,0,0,372,3]
 };

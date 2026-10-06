@@ -1,5 +1,13 @@
 var NAVTREEINDEX57 =
 {
+"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#a78083b2269b601efa549d2b52bc9dc75":[6,0,0,1,43,0,0],
+"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#a78083b2269b601efa549d2b52bc9dc75":[8,0,0,2,43,0,0],
+"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#a8f19af42dd1fccb6d3dc16a1849b237e":[6,0,0,1,43,0,3],
+"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#a8f19af42dd1fccb6d3dc16a1849b237e":[8,0,0,2,43,0,3],
+"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#a9f42cabe52173e43cd50437899c87e40":[6,0,0,1,43,0,8],
+"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#a9f42cabe52173e43cd50437899c87e40":[8,0,0,2,43,0,8],
+"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#aa197f4b79a20af392c16f8d8914c8d2b":[6,0,0,1,43,0,2],
+"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#aa197f4b79a20af392c16f8d8914c8d2b":[8,0,0,2,43,0,2],
 "struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#aa56a0b9f5deac61d0fac02024fc1a98e":[6,0,0,1,43,0,4],
 "struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#aa56a0b9f5deac61d0fac02024fc1a98e":[8,0,0,2,43,0,4],
 "struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#ab2c266bdfd32d6afcf3fdf493cfd0f0d":[6,0,0,1,43,0,6],
@@ -241,13 +249,5 @@ var NAVTREEINDEX57 =
 "struct_acts_1_1_gaussian_grid_track_density_1_1_config.html#ad7402a473fd281ca403f35de65756e73":[6,0,0,154,0,5],
 "struct_acts_1_1_gaussian_grid_track_density_1_1_config.html#ad7402a473fd281ca403f35de65756e73":[8,0,0,159,0,5],
 "struct_acts_1_1_gaussian_grid_track_density_1_1_config.html#ade5166dfb1ea521836b1b27be215a04f":[6,0,0,154,0,4],
-"struct_acts_1_1_gaussian_grid_track_density_1_1_config.html#ade5166dfb1ea521836b1b27be215a04f":[8,0,0,159,0,4],
-"struct_acts_1_1_gaussian_sum_fitter.html":[5,13,13],
-"struct_acts_1_1_gaussian_sum_fitter.html#a24e63a2d63a65587af752fbb208bad53":[5,13,13,2],
-"struct_acts_1_1_gaussian_sum_fitter.html#a3eb80d8a5bba0b463aeff8c4e3bfbcc5":[5,13,13,6],
-"struct_acts_1_1_gaussian_sum_fitter.html#a5b1204746176700df6a14f88110dd05d":[5,13,13,0],
-"struct_acts_1_1_gaussian_sum_fitter.html#a633d70c4d080f44ecf1a7ccd76f8a4d7":[5,13,13,1],
-"struct_acts_1_1_gaussian_sum_fitter.html#a88cceed65068787f99f1b132f2155fee":[5,13,13,9],
-"struct_acts_1_1_gaussian_sum_fitter.html#a8ddf98e5738140c0863c49784e90c87c":[5,13,13,4],
-"struct_acts_1_1_gaussian_sum_fitter.html#ab3ec1e7fae4e37e84d6b15a7561d4946":[5,13,13,7]
+"struct_acts_1_1_gaussian_grid_track_density_1_1_config.html#ade5166dfb1ea521836b1b27be215a04f":[8,0,0,159,0,4]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX51 =
 {
+"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_state.html#a072cd655e8dbee68e72b501a548e0253":[6,0,0,16,1,0],
+"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_state.html#a072cd655e8dbee68e72b501a548e0253":[8,0,0,21,1,0],
+"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_state.html#a12b85117619dea9c10f8000a971f932b":[6,0,0,16,1,3],
+"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_state.html#a12b85117619dea9c10f8000a971f932b":[8,0,0,21,1,3],
+"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_state.html#a2f3622cdee3f348416dfebb4e778e120":[6,0,0,16,1,2],
+"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_state.html#a2f3622cdee3f348416dfebb4e778e120":[8,0,0,21,1,2],
+"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_state.html#a6f6aaec3be2fe16474e4ba0fd9c13ad5":[6,0,0,16,1,1],
+"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_state.html#a6f6aaec3be2fe16474e4ba0fd9c13ad5":[8,0,0,21,1,1],
 "struct_acts_1_1_adaptive_grid_track_density_1_1_config.html":[6,0,0,17,0],
 "struct_acts_1_1_adaptive_grid_track_density_1_1_config.html":[8,0,0,22,0],
 "struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a0277d32f9b1e9cdda28b81bcb9c4a566":[6,0,0,17,0,8],
@@ -241,13 +249,5 @@ var NAVTREEINDEX51 =
 "struct_acts_1_1_atlas_stepper_1_1_state.html#afb180b5e371b7d3e6a211b58a529a931":[8,0,0,40,2,6],
 "struct_acts_1_1_axis_boundary_type_tag.html":[6,0,0,41],
 "struct_acts_1_1_axis_boundary_type_tag.html":[8,0,0,46],
-"struct_acts_1_1_axis_direction_reference_generator.html":[6,0,0,42],
-"struct_acts_1_1_axis_direction_reference_generator.html":[8,0,0,47],
-"struct_acts_1_1_axis_direction_reference_generator.html#aa502062ca9b97047ea8fc1713bb118b0":[6,0,0,42,0],
-"struct_acts_1_1_axis_direction_reference_generator.html#aa502062ca9b97047ea8fc1713bb118b0":[8,0,0,47,0],
-"struct_acts_1_1_axis_spec_1_1_deferred_variable_params.html":[6,0,0,43,0],
-"struct_acts_1_1_axis_spec_1_1_deferred_variable_params.html":[8,0,0,48,0],
-"struct_acts_1_1_axis_spec_1_1_deferred_variable_params.html#a77c75ab2a8ea4aeb9d9515e3244bee08":[6,0,0,43,0,0],
-"struct_acts_1_1_axis_spec_1_1_deferred_variable_params.html#a77c75ab2a8ea4aeb9d9515e3244bee08":[8,0,0,48,0,0],
-"struct_acts_1_1_axis_spec_1_1_deferred_variable_params.html#aae192d5823aa4d9f22f7c99c893af622":[6,0,0,43,0,1]
+"struct_acts_1_1_axis_direction_reference_generator.html":[6,0,0,42]
 };
