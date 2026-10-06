@@ -1,7 +1,5 @@
 var NAVTREEINDEX51 =
 {
-"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_state.html#a072cd655e8dbee68e72b501a548e0253":[6,0,0,16,1,0],
-"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_state.html#a072cd655e8dbee68e72b501a548e0253":[8,0,0,21,1,0],
 "struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_state.html#a12b85117619dea9c10f8000a971f932b":[6,0,0,16,1,3],
 "struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_state.html#a12b85117619dea9c10f8000a971f932b":[8,0,0,21,1,3],
 "struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_state.html#a2f3622cdee3f348416dfebb4e778e120":[6,0,0,16,1,2],
@@ -249,5 +247,7 @@ var NAVTREEINDEX51 =
 "struct_acts_1_1_atlas_stepper_1_1_state.html#afb180b5e371b7d3e6a211b58a529a931":[8,0,0,40,2,6],
 "struct_acts_1_1_axis_boundary_type_tag.html":[6,0,0,41],
 "struct_acts_1_1_axis_boundary_type_tag.html":[8,0,0,46],
-"struct_acts_1_1_axis_direction_reference_generator.html":[6,0,0,42]
+"struct_acts_1_1_axis_direction_reference_generator.html":[6,0,0,42],
+"struct_acts_1_1_axis_direction_reference_generator.html":[8,0,0,47],
+"struct_acts_1_1_axis_direction_reference_generator.html#aa502062ca9b97047ea8fc1713bb118b0":[6,0,0,42,0]
 };

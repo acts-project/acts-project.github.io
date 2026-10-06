@@ -1,7 +1,5 @@
 var NAVTREEINDEX67 =
 {
-"struct_acts_1_1_vertex_fit_problem.html#a80fdaa85e2b985642a8e4e3977b20511":[6,0,0,446,6],
-"struct_acts_1_1_vertex_fit_problem.html#a80fdaa85e2b985642a8e4e3977b20511":[8,0,0,451,6],
 "struct_acts_1_1_vertex_fit_problem.html#aaa15a219c95669f056a8c1f0912d7690":[6,0,0,446,3],
 "struct_acts_1_1_vertex_fit_problem.html#aaa15a219c95669f056a8c1f0912d7690":[8,0,0,451,3],
 "struct_acts_1_1_vertex_info.html":[6,0,0,447],
@@ -249,5 +247,7 @@ var NAVTREEINDEX67 =
 "struct_acts_fatras_1_1_casts_1_1_e.html":[8,0,1,0,2],
 "struct_acts_fatras_1_1_casts_1_1_e.html#aff356fc5432caf08027d8e848141c202":[8,0,1,0,2,0],
 "struct_acts_fatras_1_1_casts_1_1_eta.html":[8,0,1,0,3],
-"struct_acts_fatras_1_1_casts_1_1_eta.html#a17089b8c5f13dd0c701b4d2de6d60e59":[8,0,1,0,3,0]
+"struct_acts_fatras_1_1_casts_1_1_eta.html#a17089b8c5f13dd0c701b4d2de6d60e59":[8,0,1,0,3,0],
+"struct_acts_fatras_1_1_casts_1_1_p.html":[8,0,1,0,4],
+"struct_acts_fatras_1_1_casts_1_1_p.html#a9b57edc1c9251c0318faa39c31597e95":[8,0,1,0,4,0]
 };

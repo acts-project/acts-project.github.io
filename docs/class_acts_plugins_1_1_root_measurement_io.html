@@ -126,7 +126,7 @@ $(function(){initNavTree('class_acts_plugins_1_1_root_measurement_io.html','','c
 </div><!--header-->
 <div class="contents">
 
-<p>Helper class to manage the I/O of measurements and associated clusters to and from ROOT files.  
+<p>Helper class to manage the I/O of measurements to and from ROOT files.  
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_root_measurement_io_8hpp_source.html">ActsPlugins/Root/RootMeasurementIo.hpp</a>&gt;</code></p>
@@ -147,17 +147,13 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr
 <tr class="memdesc:acd9568a1b0854d0e2f0526fc839f9800"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the branch connection for writing to a file  <br /></td></tr>
 <tr class="memitem:ac1035f837f931b5499540c5bdc471ddb" id="r_ac1035f837f931b5499540c5bdc471ddb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1035f837f931b5499540c5bdc471ddb">fillBoundMeasurement</a> (const std::vector&lt; double &gt; &amp;measurement, const std::vector&lt; double &gt; &amp;variances, const std::vector&lt; unsigned int &gt; &amp;subspaceIndex)</td></tr>
 <tr class="memdesc:ac1035f837f931b5499540c5bdc471ddb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience function to fill bound parameters.  <br /></td></tr>
-<tr class="memitem:a3ce0208cee7cbebbb8f13a68108c5684" id="r_a3ce0208cee7cbebbb8f13a68108c5684"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ce0208cee7cbebbb8f13a68108c5684">fillCluster</a> (const std::vector&lt; std::tuple&lt; int, int, float &gt; &gt; &amp;channels)</td></tr>
-<tr class="memdesc:a3ce0208cee7cbebbb8f13a68108c5684"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience function to fill the cluster information.  <br /></td></tr>
-<tr class="memitem:aa642c15289b47282b959a490d69c897b" id="r_aa642c15289b47282b959a490d69c897b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa642c15289b47282b959a490d69c897b">fillGlobalPosition</a> (const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a> &amp;pos)</td></tr>
-<tr class="memdesc:aa642c15289b47282b959a490d69c897b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill global information of the cluster/measurement.  <br /></td></tr>
-<tr class="memitem:aa39d784786d9cb406ff195545d2d9c9e" id="r_aa39d784786d9cb406ff195545d2d9c9e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa39d784786d9cb406ff195545d2d9c9e">fillIdentification</a> (int evnt, const <a class="el" href="class_acts_1_1_geometry_identifier.html">Acts::GeometryIdentifier</a> &amp;geoId)</td></tr>
-<tr class="memdesc:aa39d784786d9cb406ff195545d2d9c9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience function to register identification.  <br /></td></tr>
+<tr class="memitem:a6412fc10b2acc3dfc074e9655f13cef1" id="r_a6412fc10b2acc3dfc074e9655f13cef1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6412fc10b2acc3dfc074e9655f13cef1">fillIdentification</a> (int evnt, std::uint64_t measurementId, const <a class="el" href="class_acts_1_1_geometry_identifier.html">Acts::GeometryIdentifier</a> &amp;geoId)</td></tr>
+<tr class="memdesc:a6412fc10b2acc3dfc074e9655f13cef1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience function to register identification.  <br /></td></tr>
 <tr class="memitem:a4599bfd611ebd0aa79d142bd12eb0d4d" id="r_a4599bfd611ebd0aa79d142bd12eb0d4d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4599bfd611ebd0aa79d142bd12eb0d4d">fillTruthParameters</a> (const <a class="el" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Acts::Vector2</a> &amp;lp, const <a class="el" href="group__algebra__types.html#ga211f2201e5faee8fc4243cb3be9bc97f">Acts::Vector4</a> &amp;xt, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a> &amp;dir, const std::pair&lt; double, double &gt; angles)</td></tr>
 <tr class="memdesc:a4599bfd611ebd0aa79d142bd12eb0d4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience function to register the truth parameters.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Helper class to manage the I/O of measurements and associated clusters to and from ROOT files. </p>
+<div class="textblock"><p>Helper class to manage the I/O of measurements to and from ROOT files. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a6ba6a3cbaaf7930d6616361caec265a8" name="a6ba6a3cbaaf7930d6616361caec265a8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6ba6a3cbaaf7930d6616361caec265a8">&#9670;&#160;</a></span>RootMeasurementIo()</h2>
@@ -257,61 +253,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr
 
 </div>
 </div>
-<a id="a3ce0208cee7cbebbb8f13a68108c5684" name="a3ce0208cee7cbebbb8f13a68108c5684"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ce0208cee7cbebbb8f13a68108c5684">&#9670;&#160;</a></span>fillCluster()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ActsPlugins::RootMeasurementIo::fillCluster </td>
-          <td>(</td>
-          <td class="paramtype">const std::vector&lt; std::tuple&lt; int, int, float &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>channels</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Convenience function to fill the cluster information. </p>
-<ul>
-<li>abstracted to be used in different contexts</li>
-</ul>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">channels</td><td>The channel information </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="aa642c15289b47282b959a490d69c897b" name="aa642c15289b47282b959a490d69c897b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa642c15289b47282b959a490d69c897b">&#9670;&#160;</a></span>fillGlobalPosition()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ActsPlugins::RootMeasurementIo::fillGlobalPosition </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pos</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Fill global information of the cluster/measurement. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">pos</td><td>The global position of the cluster </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="aa39d784786d9cb406ff195545d2d9c9e" name="aa39d784786d9cb406ff195545d2d9c9e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa39d784786d9cb406ff195545d2d9c9e">&#9670;&#160;</a></span>fillIdentification()</h2>
+<a id="a6412fc10b2acc3dfc074e9655f13cef1" name="a6412fc10b2acc3dfc074e9655f13cef1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6412fc10b2acc3dfc074e9655f13cef1">&#9670;&#160;</a></span>fillIdentification()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -320,6 +263,11 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr
           <td class="memname">void ActsPlugins::RootMeasurementIo::fillIdentification </td>
           <td>(</td>
           <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>evnt</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::uint64_t</td>          <td class="paramname"><span class="paramname"><em>measurementId</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -333,6 +281,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">evnt</td><td>The event number </td></tr>
+    <tr><td class="paramname">measurementId</td><td>The index of the measurement within the event </td></tr>
     <tr><td class="paramname">geoId</td><td>The geometry identifier of the measurement </td></tr>
   </table>
   </dd>
