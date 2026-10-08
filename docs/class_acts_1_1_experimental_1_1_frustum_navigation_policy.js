@@ -7,7 +7,7 @@ var class_acts_1_1_experimental_1_1_frustum_navigation_policy =
     [ "FrustumNavigationPolicy", "class_acts_1_1_experimental_1_1_frustum_navigation_policy.html#aadada0b65b77bac4612a5d8e34b9efba", null ],
     [ "connect", "class_acts_1_1_experimental_1_1_frustum_navigation_policy.html#a325dbe70078d3a1bd1b5fae238e59b6b", null ],
     [ "createState", "class_acts_1_1_experimental_1_1_frustum_navigation_policy.html#aef22d7d46f3bea5c2ab25b0b5d16096b", null ],
-    [ "initializeCandidates", "class_acts_1_1_experimental_1_1_frustum_navigation_policy.html#ab8091e67e673cfab4add8a4b54cc6e1b", null ],
+    [ "initializeCandidates", "class_acts_1_1_experimental_1_1_frustum_navigation_policy.html#afbaa7a74b3253355717cf0994844c936", null ],
     [ "isValid", "class_acts_1_1_experimental_1_1_frustum_navigation_policy.html#a21b12071e6fcc704ca113a66b0c85740", null ],
     [ "popState", "class_acts_1_1_experimental_1_1_frustum_navigation_policy.html#a4c2cdb7f13f218684aa1556b08bf923f", null ]
 ];
