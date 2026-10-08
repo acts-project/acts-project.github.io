@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['m_0',['M',['../group__magnetic__field.html#autotoc_md149',1,'|| r | i || z | j || |B(r,z)| || M ||'],['../group__root__plugin.html#autotoc_md155',1,'|| r | i || z | j || |B(r,z)| || M ||'],['../group__magnetic__field.html#autotoc_md150',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||'],['../group__root__plugin.html#autotoc_md156',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||']]],
+  ['m_0',['M',['../group__magnetic__field.html#autotoc_md150',1,'|| r | i || z | j || |B(r,z)| || M ||'],['../group__root__plugin.html#autotoc_md156',1,'|| r | i || z | j || |B(r,z)| || M ||'],['../group__magnetic__field.html#autotoc_md151',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||'],['../group__root__plugin.html#autotoc_md157',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||']]],
   ['machine_1',['On your local machine',['../building_acts.html#autotoc_md81',1,'']]],
   ['machine_20learning_20assisted_20acceptance_2',['Machine-learning assisted acceptance',['../group__gbts.html#gbts-ml',1,'']]],
   ['macros_3',['Using Logging Macros',['../group__logging.html#autotoc_md41',1,'']]],

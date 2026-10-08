@@ -457,7 +457,7 @@ var searchData=
   ['steptolerance_454',['stepTolerance',['../struct_acts_1_1_stepper_plain_options.html#ab575d98e21a8f5fa2a8d8db17cb30ece',1,'Acts::StepperPlainOptions']]],
   ['stereo_455',['stereo',['../class_acts_1_1_disc_trapezoid_bounds.html#a3985558cd6beeb0ef5ad1e89c2e92a77',1,'Acts::DiscTrapezoidBounds']]],
   ['storage_456',['Storage',['../class_acts_1_1_grid_surface_material.html#a0722c40ed4e66b8fd1c708298175558a',1,'Acts::GridSurfaceMaterial']]],
-  ['storage_457',['storage',['../material_map_json_schema.html#autotoc_md144',1,'Axes and storage'],['../class_acts_1_1_grid_surface_material.html#a1a335db7c3ad5047cecc42ef0f740673',1,'Acts::GridSurfaceMaterial::storage()']]],
+  ['storage_457',['storage',['../material_map_json_schema.html#autotoc_md145',1,'Axes and storage'],['../class_acts_1_1_grid_surface_material.html#a1a335db7c3ad5047cecc42ef0f740673',1,'Acts::GridSurfaceMaterial::storage()']]],
   ['store_458',['Store',['../class_acts_plugins_1_1_d_d4hep_detector_element.html#a030cd59bc5a50f3fb6a99505008c4163',1,'ActsPlugins::DD4hepDetectorElement']]],
   ['store_459',['store',['../class_acts_1_1_tracking_geometry_material_json_converter_1_1_decode_context.html#a13861d12d9ee8b33e9cefe9619e43288',1,'Acts::TrackingGeometryMaterialJsonConverter::DecodeContext']]],
   ['stored_5fvalues_5ft_460',['stored_values_t',['../class_acts_1_1_grid_bin_finder.html#a59723c0518ec9251c1fc751105c86647',1,'Acts::GridBinFinder']]],

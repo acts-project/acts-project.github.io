@@ -29,7 +29,7 @@ var searchData=
   ['step_203_3a_20run_20the_20mapping_26',['Step 3: run the mapping',['../material_mapping_howto.html#autotoc_md126',1,'']]],
   ['step_204_3a_20use_20the_20map_27',['Step 4: use the map',['../material_mapping_howto.html#autotoc_md127',1,'']]],
   ['step_205_3a_20validate_28',['Step 5: validate',['../material_mapping_howto.html#autotoc_md128',1,'']]],
-  ['storage_29',['Axes and storage',['../material_map_json_schema.html#autotoc_md144',1,'']]],
+  ['storage_29',['Axes and storage',['../material_map_json_schema.html#autotoc_md145',1,'']]],
   ['streams_30',['Custom Output Streams',['../group__logging.html#autotoc_md47',1,'']]],
   ['summary_31',['Summary',['../group__kf__material__effects.html#kf-material-summary',1,'']]],
   ['support_32',['Support',['../howto_spack.html#autotoc_md109',1,'']]],

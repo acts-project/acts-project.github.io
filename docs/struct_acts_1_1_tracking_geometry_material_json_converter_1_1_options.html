@@ -144,6 +144,8 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>compressionLevel</b> {
 <tr class="memitem:a107bd935879c217b95ff46dfe791da15" id="r_a107bd935879c217b95ff46dfe791da15"><td class="memItemLeft" align="right" valign="top"><a id="a107bd935879c217b95ff46dfe791da15" name="a107bd935879c217b95ff46dfe791da15"></a>
 unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>indentation</b> {4}</td></tr>
 <tr class="memdesc:a107bd935879c217b95ff46dfe791da15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Text indentation. <br /></td></tr>
+<tr class="memitem:ab60cb43817c07ed207c03ca070cdf3ba" id="r_ab60cb43817c07ed207c03ca070cdf3ba"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab60cb43817c07ed207c03ca070cdf3ba">materialFractionBits</a> {23}</td></tr>
+<tr class="memdesc:ab60cb43817c07ed207c03ca070cdf3ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retained float fraction bits for built-in material properties and thickness, from 0 to 23.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Output options. Version is a property of this codec, not an option. </p>
@@ -173,6 +175,24 @@ unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>indentation</
 
 <p>Default options for optional arguments. </p>
 <dl class="section return"><dt>Returns</dt><dd>Default output options </dd></dl>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="ab60cb43817c07ed207c03ca070cdf3ba" name="ab60cb43817c07ed207c03ca070cdf3ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab60cb43817c07ed207c03ca070cdf3ba">&#9670;&#160;</a></span>materialFractionBits</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int Acts::TrackingGeometryMaterialJsonConverter::Options::materialFractionBits {23}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retained float fraction bits for built-in material properties and thickness, from 0 to 23. </p>
+<p>The default preserves full precision; smaller values enable lossy rounding. Geometry coordinates are unaffected. </p>
 
 </div>
 </div>

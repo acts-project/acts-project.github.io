@@ -162,8 +162,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a13c0b21c7f0ceb7acffc116f9ae2991d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decode and validate a complete material document.  <br /></td></tr>
 <tr class="memitem:a5f641e2438cfe4aabb701c2db4762e1b" id="r_a5f641e2438cfe4aabb701c2db4762e1b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f641e2438cfe4aabb701c2db4762e1b">toFile</a> (const <a class="el" href="struct_acts_1_1_tracking_geometry_material.html">TrackingGeometryMaterial</a> &amp;material, const std::filesystem::path &amp;path, const <a class="el" href="struct_acts_1_1_tracking_geometry_material_json_converter_1_1_options.html">Options</a> &amp;options=<a class="el" href="struct_acts_1_1_tracking_geometry_material_json_converter_1_1_options.html#a3b494a3ad31a578fecf9842fc813651d">Options::defaultOptions</a>()) const</td></tr>
 <tr class="memdesc:a5f641e2438cfe4aabb701c2db4762e1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write JSON/CBOR with optional zstd, selected by the filename extension.  <br /></td></tr>
-<tr class="memitem:a1cc215ee8b1e925be69df9d32d4985ff" id="r_a1cc215ee8b1e925be69df9d32d4985ff"><td class="memItemLeft" align="right" valign="top">nlohmann::json&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1cc215ee8b1e925be69df9d32d4985ff">toJson</a> (const <a class="el" href="struct_acts_1_1_tracking_geometry_material.html">TrackingGeometryMaterial</a> &amp;material) const</td></tr>
-<tr class="memdesc:a1cc215ee8b1e925be69df9d32d4985ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encode a complete material document.  <br /></td></tr>
+<tr class="memitem:ab231f6d1c349880dc359888175b03f3b" id="r_ab231f6d1c349880dc359888175b03f3b"><td class="memItemLeft" align="right" valign="top">nlohmann::json&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab231f6d1c349880dc359888175b03f3b">toJson</a> (const <a class="el" href="struct_acts_1_1_tracking_geometry_material.html">TrackingGeometryMaterial</a> &amp;material, const <a class="el" href="struct_acts_1_1_tracking_geometry_material_json_converter_1_1_options.html">Options</a> &amp;options=<a class="el" href="struct_acts_1_1_tracking_geometry_material_json_converter_1_1_options.html#a3b494a3ad31a578fecf9842fc813651d">Options::defaultOptions</a>()) const</td></tr>
+<tr class="memdesc:ab231f6d1c349880dc359888175b03f3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encode a complete material document.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Versioned material-document conversion, independent of the legacy material converters. </p>
@@ -327,15 +327,15 @@ Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">material</td><td>Material container </td></tr>
     <tr><td class="paramname">path</td><td>Output filename </td></tr>
-    <tr><td class="paramname">options</td><td>Output formatting and compression </td></tr>
+    <tr><td class="paramname">options</td><td>Output precision, formatting and compression </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="a1cc215ee8b1e925be69df9d32d4985ff" name="a1cc215ee8b1e925be69df9d32d4985ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1cc215ee8b1e925be69df9d32d4985ff">&#9670;&#160;</a></span>toJson()</h2>
+<a id="ab231f6d1c349880dc359888175b03f3b" name="ab231f6d1c349880dc359888175b03f3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab231f6d1c349880dc359888175b03f3b">&#9670;&#160;</a></span>toJson()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -343,8 +343,12 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">nlohmann::json Acts::TrackingGeometryMaterialJsonConverter::toJson </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_acts_1_1_tracking_geometry_material.html">TrackingGeometryMaterial</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>material</em></span></td><td>)</td>
-          <td> const</td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_tracking_geometry_material.html">TrackingGeometryMaterial</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>material</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_tracking_geometry_material_json_converter_1_1_options.html">Options</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>options</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="struct_acts_1_1_tracking_geometry_material_json_converter_1_1_options.html#a3b494a3ad31a578fecf9842fc813651d">Options::defaultOptions</a>()</span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -353,12 +357,13 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">material</td><td>Container, including an optional description </td></tr>
+    <tr><td class="paramname">options</td><td>Output precision (formatting applies only to files) </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname">std::invalid_argument</td><td>if volume assignments are present </td></tr>
+    <tr><td class="paramname">std::invalid_argument</td><td>if volume assignments are present or the requested precision is outside [0, 23] </td></tr>
   </table>
   </dd>
 </dl>

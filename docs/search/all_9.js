@@ -208,7 +208,7 @@ var searchData=
   ['everyparticle_205',['EveryParticle',['../struct_acts_fatras_1_1_every_particle.html',1,'ActsFatras']]],
   ['everysurface_206',['EverySurface',['../struct_acts_fatras_1_1_every_surface.html',1,'ActsFatras']]],
   ['exact_207',['exact',['../struct_acts_1_1_polyhedron.html#ad7a857d29513c57d89ac840535a85679',1,'Acts::Polyhedron::exact'],['../struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_name_selector.html#a650ab1678d1266f09d021327787d990c',1,'ActsPlugins::Geant4PhysicalVolumeSelectors::NameSelector::exact']]],
-  ['example_208',['Example',['../class_acts_fatras_1_1_barcode.html#autotoc_md153',1,'']]],
+  ['example_208',['Example',['../class_acts_fatras_1_1_barcode.html#autotoc_md154',1,'']]],
   ['example_20and_20the_20tests_20that_20guard_20this_209',['Worked example, and the tests that guard this',['../material_mapping_howto.html#autotoc_md132',1,'']]],
   ['executioncontext_210',['ExecutionContext',['../struct_acts_plugins_1_1_execution_context.html',1,'ActsPlugins']]],
   ['existingvolumeconfig_211',['existingVolumeConfig',['../struct_acts_1_1_wrapping_config.html#a6bc2de035a43bfbd30e45fb2f9342db9',1,'Acts::WrappingConfig']]],

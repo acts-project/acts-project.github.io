@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['r_20i_20z_20j_20b_20r_20z_20m_0',['r i z j B r z M',['../group__magnetic__field.html#autotoc_md149',1,'|| r | i || z | j || |B(r,z)| || M ||'],['../group__root__plugin.html#autotoc_md155',1,'|| r | i || z | j || |B(r,z)| || M ||']]],
-  ['r_20z_20m_1',['r z M',['../group__magnetic__field.html#autotoc_md149',1,'|| r | i || z | j || |B(r,z)| || M ||'],['../group__root__plugin.html#autotoc_md155',1,'|| r | i || z | j || |B(r,z)| || M ||']]],
+  ['r_20i_20z_20j_20b_20r_20z_20m_0',['r i z j B r z M',['../group__magnetic__field.html#autotoc_md150',1,'|| r | i || z | j || |B(r,z)| || M ||'],['../group__root__plugin.html#autotoc_md156',1,'|| r | i || z | j || |B(r,z)| || M ||']]],
+  ['r_20z_20m_1',['r z M',['../group__magnetic__field.html#autotoc_md150',1,'|| r | i || z | j || |B(r,z)| || M ||'],['../group__root__plugin.html#autotoc_md156',1,'|| r | i || z | j || |B(r,z)| || M ||']]],
   ['reader_2',['A custom reader',['../group__python__custom__algorithms.html#autotoc_md55',1,'']]],
   ['reading_20acts_20root_20files_20with_20uproot_3',['Reading ACTS ROOT files with Uproot',['../group__python__data__io.html#autotoc_md60',1,'']]],
   ['reading_20and_20writing_20the_20whiteboard_4',['Reading and writing the whiteboard',['../group__python__custom__algorithms.html#autotoc_md54',1,'']]],

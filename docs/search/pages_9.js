@@ -14,7 +14,7 @@ var searchData=
   ['event_20data_20input_20and_20output_11',['Event data input and output',['../group__python__data__io.html#autotoc_md57',1,'']]],
   ['event_20data_20model_12',['High-level Track Event Data Model',['../group__eventdata__tracks.html#edm_Tracks',1,'']]],
   ['event_20files_13',['HepMC3 event files',['../group__python__data__io.html#autotoc_md59',1,'']]],
-  ['example_14',['Example',['../class_acts_fatras_1_1_barcode.html#autotoc_md153',1,'']]],
+  ['example_14',['Example',['../class_acts_fatras_1_1_barcode.html#autotoc_md154',1,'']]],
   ['example_20and_20the_20tests_20that_20guard_20this_15',['Worked example, and the tests that guard this',['../material_mapping_howto.html#autotoc_md132',1,'']]],
   ['extra_20context_16',['Plain module (no extra context)',['../group__geometry__module__loading.html#autotoc_md5',1,'']]],
   ['extraction_17',['Seed extraction',['../group__gbts.html#gbts-extraction',1,'']]]

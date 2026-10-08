@@ -108,6 +108,8 @@ var NAVTREEINDEX66 =
 "struct_acts_1_1_tracking_geometry_material_json_converter_1_1_options.html#a143340aadd79d15ca4c8607eaf2f8f0a":[8,0,0,417,3,1],
 "struct_acts_1_1_tracking_geometry_material_json_converter_1_1_options.html#a3b494a3ad31a578fecf9842fc813651d":[6,0,0,412,3,0],
 "struct_acts_1_1_tracking_geometry_material_json_converter_1_1_options.html#a3b494a3ad31a578fecf9842fc813651d":[8,0,0,417,3,0],
+"struct_acts_1_1_tracking_geometry_material_json_converter_1_1_options.html#ab60cb43817c07ed207c03ca070cdf3ba":[6,0,0,412,3,3],
+"struct_acts_1_1_tracking_geometry_material_json_converter_1_1_options.html#ab60cb43817c07ed207c03ca070cdf3ba":[8,0,0,417,3,3],
 "struct_acts_1_1_tracking_volume_array_creator_1_1_config.html":[6,0,0,416,0],
 "struct_acts_1_1_tracking_volume_array_creator_1_1_config.html":[8,0,0,421,0],
 "struct_acts_1_1_transform3_json_converter_1_1_options.html":[8,0,0,13,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX66 =
 "struct_acts_1_1_vertex_fit_problem.html#a31a535b0c76d940c535dd798eaa0fb35":[8,0,0,451,0],
 "struct_acts_1_1_vertex_fit_problem.html#a3572260dded0d7d4c6cd4f6a418b57bd":[6,0,0,446,1],
 "struct_acts_1_1_vertex_fit_problem.html#a3572260dded0d7d4c6cd4f6a418b57bd":[8,0,0,451,1],
-"struct_acts_1_1_vertex_fit_problem.html#a44a9b9c90e04a93bc8f685eb834c3d6a":[6,0,0,446,2],
-"struct_acts_1_1_vertex_fit_problem.html#a44a9b9c90e04a93bc8f685eb834c3d6a":[8,0,0,451,2],
-"struct_acts_1_1_vertex_fit_problem.html#a57a6d6e432baa659e6434148df4c98c2":[6,0,0,446,4]
+"struct_acts_1_1_vertex_fit_problem.html#a44a9b9c90e04a93bc8f685eb834c3d6a":[6,0,0,446,2]
 };
