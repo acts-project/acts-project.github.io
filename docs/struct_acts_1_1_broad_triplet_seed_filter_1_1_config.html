@@ -167,9 +167,10 @@ std::shared_ptr&lt; <a class="el" href="class_acts_1_1_i_triplet_seed_cuts.html"
 <tr class="memdesc:a5f847b6a22bab101edf03dfbba18b4ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of "high-quality" seeds for each inner-middle SP-dublet in seed confirmation.  <br /></td></tr>
 <tr class="memitem:a2623c7e6966a9281563f95d9f5928e88" id="r_a2623c7e6966a9281563f95d9f5928e88"><td class="memItemLeft" align="right" valign="top"><a id="a2623c7e6966a9281563f95d9f5928e88" name="a2623c7e6966a9281563f95d9f5928e88"></a>
 std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>maxSeedsPerSpM</b> = 5</td></tr>
-<tr class="memdesc:a2623c7e6966a9281563f95d9f5928e88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number (minus one) of accepted seeds per middle space-point In dense environments many seeds may be found per middle space-point Only seeds with the highest weight will be kept if this limit is reached. <br /></td></tr>
-<tr class="memitem:a6fcb592fd3fa2a7b752606b049b6969a" id="r_a6fcb592fd3fa2a7b752606b049b6969a"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fcb592fd3fa2a7b752606b049b6969a">maxSeedsPerSpMConf</a> = 5</td></tr>
-<tr class="memdesc:a6fcb592fd3fa2a7b752606b049b6969a"><td class="mdescLeft">&#160;</td><td class="mdescRight">If seedConfirmation is true we classify seeds as "high-quality" seeds.  <br /></td></tr>
+<tr class="memdesc:a2623c7e6966a9281563f95d9f5928e88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number (minus one) of seeds kept per middle space-point. <br /></td></tr>
+<tr class="memitem:a6fcb592fd3fa2a7b752606b049b6969a" id="r_a6fcb592fd3fa2a7b752606b049b6969a"><td class="memItemLeft" align="right" valign="top"><a id="a6fcb592fd3fa2a7b752606b049b6969a" name="a6fcb592fd3fa2a7b752606b049b6969a"></a>
+std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>maxSeedsPerSpMConf</b> = 5</td></tr>
+<tr class="memdesc:a6fcb592fd3fa2a7b752606b049b6969a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of normal-quality seeds kept in seed confirmation. <br /></td></tr>
 <tr class="memitem:a02adf6d7dd0afda49534ba900f55dc9a" id="r_a02adf6d7dd0afda49534ba900f55dc9a"><td class="memItemLeft" align="right" valign="top"><a id="a02adf6d7dd0afda49534ba900f55dc9a" name="a02adf6d7dd0afda49534ba900f55dc9a"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>numSeedIncrement</b> = std::numeric_limits&lt;float&gt;::infinity()</td></tr>
 <tr class="memdesc:a02adf6d7dd0afda49534ba900f55dc9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of seeds required before <span class="tt">seedWeightIncrement</span> is applied. <br /></td></tr>
@@ -288,23 +289,6 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>useDeltaRinsteadOfTop
 
 <p>Maximum number of "high-quality" seeds for each inner-middle SP-dublet in seed confirmation. </p>
 <p>If the limit is reached we check if there is a normal quality seed to be replaced </p>
-
-</div>
-</div>
-<a id="a6fcb592fd3fa2a7b752606b049b6969a" name="a6fcb592fd3fa2a7b752606b049b6969a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6fcb592fd3fa2a7b752606b049b6969a">&#9670;&#160;</a></span>maxSeedsPerSpMConf</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::uint32_t Acts::BroadTripletSeedFilter::Config::maxSeedsPerSpMConf = 5</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>If seedConfirmation is true we classify seeds as "high-quality" seeds. </p>
-<p>Seeds that are not confirmed as "high-quality" are only selected if no other "high-quality" seed has been found for that inner-middle doublet Maximum number of normal seeds (not classified as "high-quality" seeds) in seed confirmation </p>
 
 </div>
 </div>
