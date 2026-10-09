@@ -52,13 +52,14 @@ var searchData=
   ['extentenvelope_49',['ExtentEnvelope',['../struct_acts_1_1_extent_envelope.html#a42c20027bced507eb70272f52eb65fba',1,'Acts::ExtentEnvelope::ExtentEnvelope(const Envelope &amp;envelope=zeroEnvelope)'],['../struct_acts_1_1_extent_envelope.html#abfa677b2e2b5bf48d53f45300c6b1200',1,'Acts::ExtentEnvelope::ExtentEnvelope(Arguments &amp;&amp;args)']]],
   ['extra_50',['extra',['../class_acts_1_1_space_point_proxy.html#ab0510683f51058815b9b6cd7930eac4a',1,'Acts::SpacePointProxy::extra(MutableSpacePointColumnProxy&lt; T &gt; &amp;column) const noexcept'],['../class_acts_1_1_space_point_proxy.html#a4cb807bf2e34afb9db5eeeb0052ceb00',1,'Acts::SpacePointProxy::extra(const ConstSpacePointColumnProxy&lt; T &gt; &amp;column) const noexcept'],['../class_acts_1_1_geometry_identifier.html#a6a0fe76edd5bc7b92cdc57216a784323',1,'Acts::GeometryIdentifier::extra()']]],
   ['extractbinedges_51',['extractBinEdges',['../namespace_acts_1_1_experimental.html#a8588a307a3c69b3325b415cd65002297',1,'Acts::Experimental']]],
-  ['extractcharge_52',['extractCharge',['../class_acts_1_1_charge_hypothesis.html#aaa8167a605f46dddaf4f75c8b5d930af',1,'Acts::ChargeHypothesis::extractCharge()'],['../class_acts_1_1_particle_hypothesis.html#a04ce893f5a10e54c066034c7516df3d2',1,'Acts::ParticleHypothesis::extractCharge()']]],
-  ['extractfitablepars_53',['extractFitablePars',['../class_acts_1_1_experimental_1_1_composite_space_point_line_fitter.html#a4ed52ae6b594db79c8fff00fdee7a18c',1,'Acts::Experimental::CompositeSpacePointLineFitter']]],
-  ['extractmomentum_54',['extractMomentum',['../class_acts_1_1_charge_hypothesis.html#aa7593c2d8f70cf48406ea6d3f272a070',1,'Acts::ChargeHypothesis::extractMomentum()'],['../class_acts_1_1_particle_hypothesis.html#a70997b9137372c1b5d6ce319ccf04bca',1,'Acts::ParticleHypothesis::extractMomentum()']]],
-  ['extractnucleuszanda_55',['extractNucleusZandA',['../namespace_acts.html#a850ecde5129afaabb5d4a8e71499f6cc',1,'Acts']]],
-  ['extractparameters_56',['extractParameters',['../struct_acts_1_1_input_track.html#a6f223b11ee345db55961aac4f1d264ee',1,'Acts::InputTrack']]],
-  ['extractseries_57',['extractSeries',['../group__dd4hep__plugin.html#ga7a21513ede0d0c5eddded3080b845776',1,'ActsPlugins']]],
-  ['extracttransform_58',['extractTransform',['../group__dd4hep__plugin.html#ga1bed30a08ceff30dcd1c4e306713b9fe',1,'ActsPlugins']]],
-  ['extrapolatetrackstoreferencesurface_59',['extrapolateTracksToReferenceSurface',['../namespace_acts.html#a853dda101669b4f6ffbe29119b1a9ef6',1,'Acts']]],
-  ['extrapolatetracktoreferencesurface_60',['extrapolateTrackToReferenceSurface',['../namespace_acts.html#a1c35547ca44e69f20691e806cb8483ae',1,'Acts']]]
+  ['extractchainheads_52',['extractChainHeads',['../struct_acts_1_1_experimental_1_1_gbts_graph.html#a7733393c3cff4bdfb9a110308406d36b',1,'Acts::Experimental::GbtsGraph']]],
+  ['extractcharge_53',['extractCharge',['../class_acts_1_1_charge_hypothesis.html#aaa8167a605f46dddaf4f75c8b5d930af',1,'Acts::ChargeHypothesis::extractCharge()'],['../class_acts_1_1_particle_hypothesis.html#a04ce893f5a10e54c066034c7516df3d2',1,'Acts::ParticleHypothesis::extractCharge()']]],
+  ['extractfitablepars_54',['extractFitablePars',['../class_acts_1_1_experimental_1_1_composite_space_point_line_fitter.html#a4ed52ae6b594db79c8fff00fdee7a18c',1,'Acts::Experimental::CompositeSpacePointLineFitter']]],
+  ['extractmomentum_55',['extractMomentum',['../class_acts_1_1_charge_hypothesis.html#aa7593c2d8f70cf48406ea6d3f272a070',1,'Acts::ChargeHypothesis::extractMomentum()'],['../class_acts_1_1_particle_hypothesis.html#a70997b9137372c1b5d6ce319ccf04bca',1,'Acts::ParticleHypothesis::extractMomentum()']]],
+  ['extractnucleuszanda_56',['extractNucleusZandA',['../namespace_acts.html#a850ecde5129afaabb5d4a8e71499f6cc',1,'Acts']]],
+  ['extractparameters_57',['extractParameters',['../struct_acts_1_1_input_track.html#a6f223b11ee345db55961aac4f1d264ee',1,'Acts::InputTrack']]],
+  ['extractseries_58',['extractSeries',['../group__dd4hep__plugin.html#ga7a21513ede0d0c5eddded3080b845776',1,'ActsPlugins']]],
+  ['extracttransform_59',['extractTransform',['../group__dd4hep__plugin.html#ga1bed30a08ceff30dcd1c4e306713b9fe',1,'ActsPlugins']]],
+  ['extrapolatetrackstoreferencesurface_60',['extrapolateTracksToReferenceSurface',['../namespace_acts.html#a853dda101669b4f6ffbe29119b1a9ef6',1,'Acts']]],
+  ['extrapolatetracktoreferencesurface_61',['extrapolateTrackToReferenceSurface',['../namespace_acts.html#a1c35547ca44e69f20691e806cb8483ae',1,'Acts']]]
 ];

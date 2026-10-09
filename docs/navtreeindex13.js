@@ -246,8 +246,8 @@ var NAVTREEINDEX13 =
 "class_acts_1_1_experimental_1_1_gbts_geometry.html#aac0ef4f33f7f976a72ea538484f68076":[8,0,0,2,19,0],
 "class_acts_1_1_experimental_1_1_gbts_geometry.html#ad0909671a6e7261a5c9421ea0e0709ad":[6,0,0,1,19,2],
 "class_acts_1_1_experimental_1_1_gbts_geometry.html#ad0909671a6e7261a5c9421ea0e0709ad":[8,0,0,2,19,2],
-"class_acts_1_1_experimental_1_1_gbts_layer_connection_tool.html":[6,0,0,1,23],
-"class_acts_1_1_experimental_1_1_gbts_layer_connection_tool.html":[8,0,0,2,23],
-"class_acts_1_1_experimental_1_1_gbts_layer_connection_tool.html#a2cd2059db6c6e6a0c05cb0d19412f353":[6,0,0,1,23,5],
-"class_acts_1_1_experimental_1_1_gbts_layer_connection_tool.html#a2cd2059db6c6e6a0c05cb0d19412f353":[8,0,0,2,23,5]
+"class_acts_1_1_experimental_1_1_gbts_graph_builder.html":[6,0,0,1,21],
+"class_acts_1_1_experimental_1_1_gbts_graph_builder.html":[8,0,0,2,21],
+"class_acts_1_1_experimental_1_1_gbts_graph_builder.html#a1717655e5346ab7c84964e94d9f129ce":[6,0,0,1,21,2],
+"class_acts_1_1_experimental_1_1_gbts_graph_builder.html#a1717655e5346ab7c84964e94d9f129ce":[8,0,0,2,21,2]
 };

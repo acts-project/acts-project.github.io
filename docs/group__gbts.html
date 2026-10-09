@@ -271,16 +271,12 @@ Machine-learning assisted acceptance</h2>
 <dl class="section note"><dt>Note</dt><dd>The seeder takes the table itself as <span class="tt">tauLookupTable</span>, not a path to it; <span class="tt">ActsExamples::GraphBasedSeedingAlgorithm</span> reads it from a JSON file. It is only consulted for pixel barrel layers, and the ACTS examples framework does not currently provide cluster widths or local positions, so this path is exercised only by experiment-side integrations that supply them through <span class="tt">insert</span>.</dd></dl>
 <h2 class="doxsection"><a class="anchor" id="gbts-configuration"></a>
 Configuration</h2>
-<p>The main knobs on <a class="el" href="class_acts_1_1_experimental_1_1_graph_based_track_seeder.html">GraphBasedTrackSeeder::Config</a>:</p>
+<p>The cuts that build and link the doublets live on <a class="el" href="class_acts_1_1_experimental_1_1_gbts_graph_builder.html">GbtsGraphBuilder::Config</a>, which <span class="tt">GraphBasedSeedingAlgorithm</span> takes as <span class="tt">graphConfig</span> and exposes to Python as <span class="tt">GbtsGraphBuilderConfig</span>:</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Option  </th><th class="markdownTableHeadNone">Stage  </th><th class="markdownTableHeadNone">Effect  </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><span class="tt">useStripConnections</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-geometry">Geometry and layer connections</a>  </td><td class="markdownTableBodyNone">take the strip layer connections from the connector file instead of the pixel ones  </td></tr>
-<tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><span class="tt">minPt</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-graph">Building the graph</a>  </td><td class="markdownTableBodyNone">drives the curvature and \(\phi\)-window bounds  </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><span class="tt">nMaxPhiSlice</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-graph">Building the graph</a>  </td><td class="markdownTableBodyNone">sets the base \(\phi\) sliding-window width  </td></tr>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><span class="tt">minDeltaRadius</span>, <span class="tt">maxAbsTau</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-graph">Building the graph</a>  </td><td class="markdownTableBodyNone">doublet acceptance  </td></tr>
 <tr class="markdownTableRowOdd">
@@ -297,17 +293,29 @@ Configuration</h2>
 <td class="markdownTableBodyNone"><span class="tt">matchBeforeCreate</span>, <span class="tt">tauRatioPrecut</span>, <span class="tt">matchBeforeCreateMaxBarrelOrder</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-graph">Building the graph</a>  </td><td class="markdownTableBodyNone">require a compatible incoming edge before creating one, down to that depth in the pixel barrel  </td></tr>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><span class="tt">z0HistogramMaxBarrelOrder</span>, <span class="tt">z0Resolution</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-graph">Building the graph</a>  </td><td class="markdownTableBodyNone">\(z_0\) histogram cut, down to that depth in the pixel barrel  </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><span class="tt">hitShareThreshold</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-extraction">Seed extraction</a>  </td><td class="markdownTableBodyNone">fraction of shared hits above which a candidate is a clone  </td></tr>
+</table>
+<p>The rest are on <a class="el" href="class_acts_1_1_experimental_1_1_graph_based_track_seeder.html">GraphBasedTrackSeeder::Config</a>:</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Option  </th><th class="markdownTableHeadNone">Stage  </th><th class="markdownTableHeadNone">Effect  </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><span class="tt">maxSeedSplitEta</span>, <span class="tt">maxInvRadDiff</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-extraction">Seed extraction</a>  </td><td class="markdownTableBodyNone">seed splitting  </td></tr>
+<td class="markdownTableBodyNone"><span class="tt">nMaxPhiSlice</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-nodes">Graph nodes</a>  </td><td class="markdownTableBodyNone">sets the \(\phi\) slice width, and with it the base sliding-window width the graph uses  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">ccaMaxIterations</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-graph">Building the graph</a>  </td><td class="markdownTableBodyNone">cap on the connected component iterations  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">minSeedLevel</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-extraction">Seed extraction</a>  </td><td class="markdownTableBodyNone">chain length a candidate must reach  </td></tr>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><span class="tt">addTriplets</span>, <span class="tt">maxAbsEtaAddTriplets</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-extraction">Seed extraction</a>  </td><td class="markdownTableBodyNone">allow shorter chains within an \(\eta\) range  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">hitShareThreshold</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-extraction">Seed extraction</a>  </td><td class="markdownTableBodyNone">fraction of shared hits above which a candidate is a clone  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">maxSeedSplitEta</span>, <span class="tt">maxInvRadDiff</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-extraction">Seed extraction</a>  </td><td class="markdownTableBodyNone">seed splitting  </td></tr>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><span class="tt">useClusterWidthCuts</span>, <span class="tt">tauLookupTable</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-ml">Machine-learning assisted acceptance</a>  </td><td class="markdownTableBodyNone">cluster-width based \(\tau\) windows  </td></tr>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><span class="tt">maxEndcapClusterWidth</span>, <span class="tt">moduleHalfLengthY</span>, <span class="tt">moduleEdgeTolerance</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-ml">Machine-learning assisted acceptance</a>  </td><td class="markdownTableBodyNone">cluster-width acceptance and module-edge handling  </td></tr>
 </table>
+<p><span class="tt">useStripConnections</span>, which takes the strip layer connections from the connector file instead of the pixel ones, is read where the file is loaded and so sits on <span class="tt">GraphBasedSeedingAlgorithm::Config</span> itself.</p>
 <p><a class="el" href="class_acts_1_1_experimental_1_1_gbts_tracking_filter.html">GbtsTrackingFilter::Config</a> separately controls the chain-following filter of <a class="el" href="#gbts-extraction">seed extraction</a>:</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">

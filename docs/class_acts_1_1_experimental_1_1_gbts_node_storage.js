@@ -1,6 +1,7 @@
 var class_acts_1_1_experimental_1_1_gbts_node_storage =
 [
     [ "GbtsNodeStorage", "class_acts_1_1_experimental_1_1_gbts_node_storage.html#a37bc5dbf6347621ecb6ee0b4ea154621", null ],
+    [ "config", "class_acts_1_1_experimental_1_1_gbts_node_storage.html#a4f48d258ffb80313a5123c4932e07256", null ],
     [ "extend", "class_acts_1_1_experimental_1_1_gbts_node_storage.html#a99f603943b1108fc3e23d56750fbb0f1", null ],
     [ "finalize", "class_acts_1_1_experimental_1_1_gbts_node_storage.html#a5ad9048531dd80d0235ba5ee480b299e", null ],
     [ "hasStrips", "class_acts_1_1_experimental_1_1_gbts_node_storage.html#a5e55b607221077baa8e2d4aec22ccb49", null ],

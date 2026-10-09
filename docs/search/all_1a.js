@@ -6,7 +6,7 @@ var searchData=
   ['vacuum_3',['Vacuum',['../class_acts_1_1_material.html#aa01ba381497dcc08f853dc4a22df651d',1,'Acts::Material::Vacuum()'],['../class_acts_1_1_material_slab.html#a4ce52ad73dcf155893b17c4d2aa095b1',1,'Acts::MaterialSlab::Vacuum()']]],
   ['val_4',['val',['../struct_acts_1_1_value_holder.html#a2cc108ec32e5a30d9fcc37aa7d834e96',1,'Acts::ValueHolder']]],
   ['validate_5',['validate',['../material_mapping_howto.html#autotoc_md128',1,'Step 5: validate'],['../struct_acts_1_1_blueprint_options.html#aa8c6ba50e33d9c6280ab5bc3ca504180',1,'Acts::BlueprintOptions::validate()'],['../struct_acts_1_1_experimental_1_1_blueprint_options.html#aa8c6ba50e33d9c6280ab5bc3ca504180',1,'Acts::Experimental::BlueprintOptions::validate()']]],
-  ['validatetriplets_6',['validateTriplets',['../struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#af035485c49d8acc15723133b1c92f091',1,'Acts::Experimental::GraphBasedTrackSeeder::Config']]],
+  ['validatetriplets_6',['validateTriplets',['../struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a91aa5de89c84dd6f0bee7034d1127208',1,'Acts::Experimental::GbtsGraphBuilder::Config']]],
   ['validation_20and_20compatibility_7',['Validation and compatibility',['../material_map_json_schema.html#autotoc_md146',1,'']]],
   ['validtupleorthorangehl_8',['validTupleOrthoRangeHL',['../class_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree.html#ae95596c35ef586f1bf92f2af356f6304',1,'Acts::Experimental::CylindricalSpacePointKDTree']]],
   ['validtupleorthorangelh_9',['validTupleOrthoRangeLH',['../class_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree.html#a5fa2defddce2584976777fe7296729ab',1,'Acts::Experimental::CylindricalSpacePointKDTree']]],

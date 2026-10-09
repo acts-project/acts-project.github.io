@@ -1,5 +1,15 @@
 var NAVTREEINDEX48 =
 {
+"group__plugins.html":[5,10],
+"group__propagation.html":[5,11],
+"group__python__bindings.html":[5,12],
+"group__python__custom__algorithms.html":[5,12,0],
+"group__python__data__io.html":[5,12,1],
+"group__python__performance__plotting.html":[5,12,2],
+"group__python__testing.html":[3,7],
+"group__python__testing.html":[5,12,3],
+"group__python__testing.html#root_file_hashes":[3,8],
+"group__root__plugin.html":[5,10,12],
 "group__root__plugin.html#ga17ad41fa38da45d72a3b6020632207a2":[5,10,12,22],
 "group__root__plugin.html#ga1d6552cacc19e90697dfbb5617e52cc2":[5,10,12,21],
 "group__root__plugin.html#ga378672f895c4e16375ce7f1217c43427":[5,10,12,20],
@@ -239,15 +249,5 @@ var NAVTREEINDEX48 =
 "namespace_acts.html#a65c77310254a757a6edcb57a670d058c":[6,0,0,904],
 "namespace_acts.html#a67cc3d5d72150ff20e4deb6627519248":[6,0,0,523],
 "namespace_acts.html#a6892e054d938002cb1cc681d19619ad5":[6,0,0,870],
-"namespace_acts.html#a68a45911e56331406f861490dc249b1c":[6,0,0,974],
-"namespace_acts.html#a692f3bf198b75679e1051ae422c41869":[6,0,0,698],
-"namespace_acts.html#a6a5beb945158d8185b7baf48937105ec":[6,0,0,535],
-"namespace_acts.html#a6a670110d0ebb9267ec1256f8bd88b6e":[6,0,0,603],
-"namespace_acts.html#a6a9928559b584e711a83869d56fe1bdb":[6,0,0,843],
-"namespace_acts.html#a6a9fb11be9ef92418a895d177e0d873c":[6,0,0,846],
-"namespace_acts.html#a6bacc83149ffd31c3d1c02297b63a884":[6,0,0,550],
-"namespace_acts.html#a6c086a09086424ffb3ace68710e8e92c":[6,0,0,649],
-"namespace_acts.html#a6c1d412bb8bda7a8080ef4b2c8a7067d":[6,0,0,566],
-"namespace_acts.html#a6d9a9813a6d65f069accff9df4b40051":[6,0,0,901],
-"namespace_acts.html#a6ddbbb068377c483f127deb5760fd10f":[6,0,0,703]
+"namespace_acts.html#a68a45911e56331406f861490dc249b1c":[6,0,0,974]
 };

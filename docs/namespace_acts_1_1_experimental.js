@@ -20,6 +20,8 @@ var namespace_acts_1_1_experimental =
     [ "FrustumNavigationPolicy", "class_acts_1_1_experimental_1_1_frustum_navigation_policy.html", "class_acts_1_1_experimental_1_1_frustum_navigation_policy" ],
     [ "GbtsBinGroup", "struct_acts_1_1_experimental_1_1_gbts_bin_group.html", "struct_acts_1_1_experimental_1_1_gbts_bin_group" ],
     [ "GbtsGeometry", "class_acts_1_1_experimental_1_1_gbts_geometry.html", "class_acts_1_1_experimental_1_1_gbts_geometry" ],
+    [ "GbtsGraph", "struct_acts_1_1_experimental_1_1_gbts_graph.html", "struct_acts_1_1_experimental_1_1_gbts_graph" ],
+    [ "GbtsGraphBuilder", "class_acts_1_1_experimental_1_1_gbts_graph_builder.html", "class_acts_1_1_experimental_1_1_gbts_graph_builder" ],
     [ "GbtsLayerBinning", "struct_acts_1_1_experimental_1_1_gbts_layer_binning.html", "struct_acts_1_1_experimental_1_1_gbts_layer_binning" ],
     [ "GbtsLayerConfig", "struct_acts_1_1_experimental_1_1_gbts_layer_config.html", "struct_acts_1_1_experimental_1_1_gbts_layer_config" ],
     [ "GbtsLayerConnection", "struct_acts_1_1_experimental_1_1_gbts_layer_connection.html", "struct_acts_1_1_experimental_1_1_gbts_layer_connection" ],

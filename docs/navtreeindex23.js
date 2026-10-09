@@ -1,5 +1,15 @@
 var NAVTREEINDEX23 =
 {
+"class_acts_1_1_k_d_tree.html#aa042dbbfdb3f2e6f0dfd93cbe7ee241a":[6,0,0,247,11],
+"class_acts_1_1_k_d_tree.html#aa042dbbfdb3f2e6f0dfd93cbe7ee241a":[8,0,0,252,11],
+"class_acts_1_1_k_d_tree.html#aa0d2ba1d044f9524d349f6aebadff8cc":[6,0,0,247,15],
+"class_acts_1_1_k_d_tree.html#aa0d2ba1d044f9524d349f6aebadff8cc":[8,0,0,252,15],
+"class_acts_1_1_k_d_tree.html#aac3b54fdba4fd6e1664fdb4aa76cc8e2":[6,0,0,247,6],
+"class_acts_1_1_k_d_tree.html#aac3b54fdba4fd6e1664fdb4aa76cc8e2":[8,0,0,252,6],
+"class_acts_1_1_k_d_tree.html#ab8b20b808df88e92149002f87753864a":[6,0,0,247,17],
+"class_acts_1_1_k_d_tree.html#ab8b20b808df88e92149002f87753864a":[8,0,0,252,17],
+"class_acts_1_1_k_d_tree.html#ac2c84406149b63ecac1c106f26d18082":[6,0,0,247,0],
+"class_acts_1_1_k_d_tree.html#ac2c84406149b63ecac1c106f26d18082":[8,0,0,252,0],
 "class_acts_1_1_k_d_tree.html#ae02250e28e6f37fef5c4842cf117cde8":[6,0,0,247,5],
 "class_acts_1_1_k_d_tree.html#ae02250e28e6f37fef5c4842cf117cde8":[8,0,0,252,5],
 "class_acts_1_1_k_d_tree.html#ae1307adc3a8f2a8a2929d0fd77d4961a":[6,0,0,247,1],
@@ -239,15 +249,5 @@ var NAVTREEINDEX23 =
 "class_acts_1_1_logger.html#a0e56e91bfaad6a15f21e9f2982bbedac":[5,8,2,10],
 "class_acts_1_1_logger.html#a218d0b66e58ddb2f422865ba971c5690":[5,8,2,2],
 "class_acts_1_1_logger.html#a2b2a64d28052d018e1dcbca147a51847":[5,8,2,8],
-"class_acts_1_1_logger.html#a3e2af7e2866565f3e29ef39620d5cb36":[5,8,2,9],
-"class_acts_1_1_logger.html#a4538640854dfd465ec8e7b6a3a66a154":[5,8,2,1],
-"class_acts_1_1_logger.html#a5016ce553ebc5711f02cac1b90aae38b":[5,8,2,5],
-"class_acts_1_1_logger.html#aaa8bb038e91f74cd7e8ff185dae705fc":[5,8,2,3],
-"class_acts_1_1_logger.html#aad9511da002cd89fad46b6afda1dab33":[5,8,2,6],
-"class_acts_1_1_logger.html#ac0f3fe17e509bb337530bbdfd19cd57a":[5,8,2,4],
-"class_acts_1_1_logger.html#adc3b1738587319015e5d6a9259cbbd46":[5,8,2,0],
-"class_acts_1_1_logging_1_1_default_filter_policy.html":[5,8,3],
-"class_acts_1_1_logging_1_1_default_filter_policy.html#a514df180464e14c30f3287a63bc546a7":[5,8,3,4],
-"class_acts_1_1_logging_1_1_default_filter_policy.html#a560ba3a1b5153a93ec6270ac5e2d6c8d":[5,8,3,0],
-"class_acts_1_1_logging_1_1_default_filter_policy.html#a92100ec8263503374f5e75b28284e2b4":[5,8,3,1]
+"class_acts_1_1_logger.html#a3e2af7e2866565f3e29ef39620d5cb36":[5,8,2,9]
 };

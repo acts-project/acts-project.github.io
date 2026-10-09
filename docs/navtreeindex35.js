@@ -1,5 +1,15 @@
 var NAVTREEINDEX35 =
 {
+"class_acts_1_1_surface.html#abec410b88b35540550328ddc307284fc":[8,0,0,393,36],
+"class_acts_1_1_surface.html#ac900594dda62ce72431c6db2143b7611":[6,0,0,388,11],
+"class_acts_1_1_surface.html#ac900594dda62ce72431c6db2143b7611":[8,0,0,393,11],
+"class_acts_1_1_surface.html#ac94e8ed380531243a14c6de82bd11f9e":[6,0,0,388,6],
+"class_acts_1_1_surface.html#ac94e8ed380531243a14c6de82bd11f9e":[8,0,0,393,6],
+"class_acts_1_1_surface.html#ae21355c33b72c2686ba2f8f2839e67f5":[6,0,0,388,32],
+"class_acts_1_1_surface.html#ae21355c33b72c2686ba2f8f2839e67f5":[8,0,0,393,32],
+"class_acts_1_1_surface.html#ae229ee9770face305cc38703fa7409ff":[6,0,0,388,13],
+"class_acts_1_1_surface.html#ae229ee9770face305cc38703fa7409ff":[8,0,0,393,13],
+"class_acts_1_1_surface.html#ae297bb58763450ebbdc546aa45a689c7":[6,0,0,388,9],
 "class_acts_1_1_surface.html#ae297bb58763450ebbdc546aa45a689c7":[8,0,0,393,9],
 "class_acts_1_1_surface.html#af2d39a89fb21242671fd1b9872ec1d6f":[6,0,0,388,38],
 "class_acts_1_1_surface.html#af2d39a89fb21242671fd1b9872ec1d6f":[8,0,0,393,38],
@@ -239,15 +249,5 @@ var NAVTREEINDEX35 =
 "class_acts_1_1_table.html#a73ad4900c3e7e36b3573b3625d493659":[6,0,0,403,2],
 "class_acts_1_1_table.html#a73ad4900c3e7e36b3573b3625d493659":[8,0,0,408,2],
 "class_acts_1_1_table.html#a8d77249c287e171a523e7b1be12cedbd":[6,0,0,403,7],
-"class_acts_1_1_table.html#a8d77249c287e171a523e7b1be12cedbd":[8,0,0,408,7],
-"class_acts_1_1_table.html#ad29afb6e5ce2c75a9774d8d145a1193a":[6,0,0,403,5],
-"class_acts_1_1_table.html#ad29afb6e5ce2c75a9774d8d145a1193a":[8,0,0,408,5],
-"class_acts_1_1_toroid_field.html":[6,0,0,404],
-"class_acts_1_1_toroid_field.html":[8,0,0,409],
-"class_acts_1_1_toroid_field.html#a30dddaefb8ed1dfa5af3b904bced39e7":[6,0,0,404,5],
-"class_acts_1_1_toroid_field.html#a30dddaefb8ed1dfa5af3b904bced39e7":[8,0,0,409,5],
-"class_acts_1_1_toroid_field.html#a813312ed56ded37ac8e53bd52ca99b21":[6,0,0,404,7],
-"class_acts_1_1_toroid_field.html#a813312ed56ded37ac8e53bd52ca99b21":[8,0,0,409,7],
-"class_acts_1_1_toroid_field.html#a9371c1672e864ef6d94e196fbb68c017":[6,0,0,404,6],
-"class_acts_1_1_toroid_field.html#a9371c1672e864ef6d94e196fbb68c017":[8,0,0,409,6]
+"class_acts_1_1_table.html#a8d77249c287e171a523e7b1be12cedbd":[8,0,0,408,7]
 };

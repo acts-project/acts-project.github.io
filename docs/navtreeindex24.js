@@ -1,5 +1,15 @@
 var NAVTREEINDEX24 =
 {
+"class_acts_1_1_logger.html#a4538640854dfd465ec8e7b6a3a66a154":[5,8,2,1],
+"class_acts_1_1_logger.html#a5016ce553ebc5711f02cac1b90aae38b":[5,8,2,5],
+"class_acts_1_1_logger.html#aaa8bb038e91f74cd7e8ff185dae705fc":[5,8,2,3],
+"class_acts_1_1_logger.html#aad9511da002cd89fad46b6afda1dab33":[5,8,2,6],
+"class_acts_1_1_logger.html#ac0f3fe17e509bb337530bbdfd19cd57a":[5,8,2,4],
+"class_acts_1_1_logger.html#adc3b1738587319015e5d6a9259cbbd46":[5,8,2,0],
+"class_acts_1_1_logging_1_1_default_filter_policy.html":[5,8,3],
+"class_acts_1_1_logging_1_1_default_filter_policy.html#a514df180464e14c30f3287a63bc546a7":[5,8,3,4],
+"class_acts_1_1_logging_1_1_default_filter_policy.html#a560ba3a1b5153a93ec6270ac5e2d6c8d":[5,8,3,0],
+"class_acts_1_1_logging_1_1_default_filter_policy.html#a92100ec8263503374f5e75b28284e2b4":[5,8,3,1],
 "class_acts_1_1_logging_1_1_default_filter_policy.html#abd465f16aa6af60b66c29c3ccfed7b8b":[5,8,3,3],
 "class_acts_1_1_logging_1_1_default_filter_policy.html#ae818f274f56a8dafd3e94cbf32320b48":[5,8,3,2],
 "class_acts_1_1_logging_1_1_default_print_policy.html":[5,8,4],
@@ -239,15 +249,5 @@ var NAVTREEINDEX24 =
 "class_acts_1_1_multi_axis.html#ac2c4cc4950b45d7be7037a1c0fdcee56":[8,0,0,281,27],
 "class_acts_1_1_multi_axis.html#ac2ec8bc675e667b05dc4081c7757aa8c":[6,0,0,276,13],
 "class_acts_1_1_multi_axis.html#ac2ec8bc675e667b05dc4081c7757aa8c":[8,0,0,281,13],
-"class_acts_1_1_multi_axis.html#acb4f85a09bb1b74aa6573fd8d0a77b3e":[6,0,0,276,21],
-"class_acts_1_1_multi_axis.html#acb4f85a09bb1b74aa6573fd8d0a77b3e":[8,0,0,281,21],
-"class_acts_1_1_multi_axis.html#ad16861438b0209406f3db5dc9abba376":[6,0,0,276,24],
-"class_acts_1_1_multi_axis.html#ad16861438b0209406f3db5dc9abba376":[8,0,0,281,24],
-"class_acts_1_1_multi_axis.html#ad4939da2c5e745f5b3e85ed0b9d8217d":[6,0,0,276,18],
-"class_acts_1_1_multi_axis.html#ad4939da2c5e745f5b3e85ed0b9d8217d":[8,0,0,281,18],
-"class_acts_1_1_multi_axis.html#ad52561ab43cf876b0f3c51f7c8c0bfcc":[6,0,0,276,19],
-"class_acts_1_1_multi_axis.html#ad52561ab43cf876b0f3c51f7c8c0bfcc":[8,0,0,281,19],
-"class_acts_1_1_multi_axis.html#ad7885027c2291f6f843c7cc359fc850c":[6,0,0,276,4],
-"class_acts_1_1_multi_axis.html#ad7885027c2291f6f843c7cc359fc850c":[8,0,0,281,4],
-"class_acts_1_1_multi_axis.html#ada9f7f2c31c082ff7787994fcd3e1bc8":[6,0,0,276,7]
+"class_acts_1_1_multi_axis.html#acb4f85a09bb1b74aa6573fd8d0a77b3e":[6,0,0,276,21]
 };

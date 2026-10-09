@@ -11,9 +11,9 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="class_acts_1_1_full_billoir_vertex_fitter.html" target="_top" xlink:title="Vertex fitter class implementing the Billoir vertex fitter.">
+<g id="a_Node000000"><a xlink:href="class_acts_1_1_free_track_parameters.html" target="_top" xlink:title="Track parameters not bound to a surface for a single track.">
 <polygon fill="white" stroke="#666666" points="146,-19 0,-19 0,0 146,0 146,-19"/>
-<text text-anchor="middle" x="73" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::FullBilloirVertexFitter</text>
+<text text-anchor="middle" x="73" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::FreeTrackParameters</text>
 </a>
 </g>
 </g>

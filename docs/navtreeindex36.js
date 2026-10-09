@@ -1,5 +1,15 @@
 var NAVTREEINDEX36 =
 {
+"class_acts_1_1_table.html#ad29afb6e5ce2c75a9774d8d145a1193a":[6,0,0,403,5],
+"class_acts_1_1_table.html#ad29afb6e5ce2c75a9774d8d145a1193a":[8,0,0,408,5],
+"class_acts_1_1_toroid_field.html":[6,0,0,404],
+"class_acts_1_1_toroid_field.html":[8,0,0,409],
+"class_acts_1_1_toroid_field.html#a30dddaefb8ed1dfa5af3b904bced39e7":[6,0,0,404,5],
+"class_acts_1_1_toroid_field.html#a30dddaefb8ed1dfa5af3b904bced39e7":[8,0,0,409,5],
+"class_acts_1_1_toroid_field.html#a813312ed56ded37ac8e53bd52ca99b21":[6,0,0,404,7],
+"class_acts_1_1_toroid_field.html#a813312ed56ded37ac8e53bd52ca99b21":[8,0,0,409,7],
+"class_acts_1_1_toroid_field.html#a9371c1672e864ef6d94e196fbb68c017":[6,0,0,404,6],
+"class_acts_1_1_toroid_field.html#a9371c1672e864ef6d94e196fbb68c017":[8,0,0,409,6],
 "class_acts_1_1_toroid_field.html#ad3a84674250927a4f280ddfd5d126fb4":[6,0,0,404,9],
 "class_acts_1_1_toroid_field.html#ad3a84674250927a4f280ddfd5d126fb4":[8,0,0,409,9],
 "class_acts_1_1_toroid_field.html#afc330bfe073b601916e867c76f8e288c":[6,0,0,404,8],
@@ -239,15 +249,5 @@ var NAVTREEINDEX36 =
 "class_acts_1_1_track_proxy.html#a832aa66466c58e6a0278576c82ca546e":[6,0,0,418,76],
 "class_acts_1_1_track_proxy.html#a832aa66466c58e6a0278576c82ca546e":[8,0,0,423,76],
 "class_acts_1_1_track_proxy.html#a89e6800cf06b95cdc7e7de2b3abe0bb5":[6,0,0,418,61],
-"class_acts_1_1_track_proxy.html#a89e6800cf06b95cdc7e7de2b3abe0bb5":[8,0,0,423,61],
-"class_acts_1_1_track_proxy.html#a8a4eeeb574a1818266c60c5242858831":[6,0,0,418,46],
-"class_acts_1_1_track_proxy.html#a8a4eeeb574a1818266c60c5242858831":[8,0,0,423,46],
-"class_acts_1_1_track_proxy.html#a8cab0eeb6fedc0e54dce8076ba397cf1":[6,0,0,418,43],
-"class_acts_1_1_track_proxy.html#a8cab0eeb6fedc0e54dce8076ba397cf1":[8,0,0,423,43],
-"class_acts_1_1_track_proxy.html#a8d5163f0a52664a300eb5de163312624":[6,0,0,418,72],
-"class_acts_1_1_track_proxy.html#a8d5163f0a52664a300eb5de163312624":[8,0,0,423,72],
-"class_acts_1_1_track_proxy.html#a916c53ac9bc737112629353b79940283":[6,0,0,418,18],
-"class_acts_1_1_track_proxy.html#a916c53ac9bc737112629353b79940283":[8,0,0,423,18],
-"class_acts_1_1_track_proxy.html#a97f5b7337ef0178129d19e23f467fafc":[6,0,0,418,52],
-"class_acts_1_1_track_proxy.html#a97f5b7337ef0178129d19e23f467fafc":[8,0,0,423,52]
+"class_acts_1_1_track_proxy.html#a89e6800cf06b95cdc7e7de2b3abe0bb5":[8,0,0,423,61]
 };
