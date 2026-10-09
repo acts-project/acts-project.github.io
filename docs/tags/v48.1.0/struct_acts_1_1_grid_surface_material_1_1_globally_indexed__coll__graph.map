@@ -1,0 +1,11 @@
+<map id="Acts::GridSurfaceMaterial::GloballyIndexed" name="Acts::GridSurfaceMaterial::GloballyIndexed">
+<area shape="rect" id="Node000001" title="Per&#45;bin indices into a (possibly shared) globally owned material vector." alt="" coords="122,232,310,272"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,129,192,154"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,162,198,230,194,234,120,166"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="34,5,163,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="101,44,101,129,96,129,96,44"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="216,121,451,161"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="304,173,238,234,235,230,301,169"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="255,5,412,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="336,45,336,121,331,121,331,45"/>
+</map>

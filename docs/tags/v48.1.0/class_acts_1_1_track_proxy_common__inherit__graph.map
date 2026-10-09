@@ -1,0 +1,33 @@
+<map id="Acts::TrackProxyCommon&lt; Derived, index_t, read_only &gt;" name="Acts::TrackProxyCommon&lt; Derived, index_t, read_only &gt;">
+<area shape="rect" id="Node000001" title="Common CRTP implementation shared by the various track proxy front&#45;ends." alt="" coords="5,431,193,485"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_track_proxy.html" title=" " alt="" coords="1180,25,1357,80"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,417,119,367,141,308,172,248,192,221,216,196,269,152,327,116,389,85,454,60,520,40,588,25,726,7,859,3,984,8,1093,19,1180,33,1179,38,1092,25,983,14,859,8,726,13,589,30,522,45,455,65,391,90,330,120,272,157,219,200,197,224,177,251,146,310,124,369,111,418"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_track_proxy.html" title=" " alt="" coords="1180,157,1357,212"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="113,417,130,382,152,343,181,305,216,273,317,209,408,165,494,137,578,121,664,113,758,108,864,102,985,91,1072,79,1110,79,1157,92,1183,104,1207,120,1245,155,1242,159,1204,124,1180,108,1155,97,1109,85,1072,84,986,97,864,108,759,114,665,118,578,126,495,142,410,170,319,213,219,277,185,309,157,346,134,384,118,419"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_track_proxy.html" title=" " alt="" coords="1180,301,1357,356"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="207,449,217,449,689,443,997,435,1104,429,1155,421,1163,415,1167,408,1178,391,1223,354,1227,358,1182,394,1171,411,1166,419,1157,426,1105,434,997,440,689,448,217,454,207,454"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_track_proxy.html" title=" " alt="" coords="1180,405,1357,460"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="207,456,985,458,1071,462,1108,462,1156,458,1179,454,1180,459,1156,463,1108,467,1071,467,985,463,207,461"/>
+<area shape="rect" id="Node000006" href="$class_acts_1_1_track_proxy_common.html" title=" " alt="" coords="773,629,961,698"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="132,494,171,536,219,573,287,608,360,634,435,652,511,664,585,671,655,673,773,670,773,675,655,679,585,676,510,669,434,657,358,639,285,613,216,578,167,540,128,498"/>
+<area shape="rect" id="Node000009" href="$class_acts_1_1_track_proxy_common.html" title=" " alt="" coords="461,744,724,828"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="104,499,110,564,128,643,143,683,163,721,188,755,219,783,246,798,275,810,336,823,400,824,461,818,461,823,400,830,336,828,273,815,243,803,216,787,184,758,158,724,138,685,123,645,105,565,99,499"/>
+<area shape="rect" id="Node000010" href="$class_acts_1_1_track_proxy_common.html" title=" " alt="" coords="495,521,690,576"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="139,493,176,521,218,542,289,559,361,566,432,566,495,561,495,566,432,571,361,571,288,564,216,547,173,525,136,497"/>
+<area shape="rect" id="Node000012" href="$class_acts_1_1_track_proxy_common.html" title=" " alt="" coords="481,291,705,375"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="181,423,217,411,353,376,480,350,481,355,354,381,218,417,182,428"/>
+<area shape="rect" id="Node000007" href="$class_acts_1_1_any_track_proxy.html" title=" " alt="" coords="1191,537,1346,577"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="975,654,1064,640,1155,617,1199,597,1237,574,1240,579,1201,602,1157,622,1065,646,976,659"/>
+<area shape="rect" id="Node000008" href="$class_acts_1_1_any_track_proxy.html" title=" " alt="" coords="1191,634,1346,674"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="975,658,1191,653,1191,658,975,664"/>
+<area shape="rect" id="Node000011" href="$class_acts_1_1_any_track_proxy.html" title="Type&#45;erased track object This class provides a type&#45;erased interface to track proxies without requiri..." alt="" coords="790,529,945,569"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="704,546,790,546,790,551,704,551"/>
+<area shape="poly" id="edge11_Node000011_Node000007" title=" " alt="" coords="959,548,1191,552,1191,558,959,553"/>
+<area shape="poly" id="edge12_Node000011_Node000008" title=" " alt="" coords="948,570,986,581,1192,633,1190,638,985,586,947,575"/>
+<area shape="rect" id="Node000013" href="$class_acts_1_1_track_proxy.html" title="Proxy class representing a single track." alt="" coords="776,277,959,332"/>
+<area shape="poly" id="edge14_Node000012_Node000013" title=" " alt="" coords="718,317,775,311,776,317,719,323"/>
+<area shape="poly" id="edge15_Node000013_Node000002" title=" " alt="" coords="892,264,932,214,956,188,984,165,1020,145,1072,122,1187,78,1189,83,1074,127,1022,149,987,170,960,192,936,217,896,268"/>
+<area shape="poly" id="edge16_Node000013_Node000003" title=" " alt="" coords="926,268,984,242,1032,228,1069,221,1156,207,1179,202,1180,207,1156,213,1070,226,1033,233,986,247,928,273"/>
+<area shape="poly" id="edge17_Node000013_Node000004" title=" " alt="" coords="973,308,1180,321,1180,326,972,314"/>
+<area shape="poly" id="edge18_Node000013_Node000005" title=" " alt="" coords="910,339,946,366,986,388,1035,404,1085,415,1180,428,1180,433,1084,421,1033,409,984,392,943,370,907,343"/>
+</map>

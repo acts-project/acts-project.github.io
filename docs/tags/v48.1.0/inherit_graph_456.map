@@ -1,0 +1,13 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$struct_acts_1_1_stepper_plain_options.html" title="Common options shared by plain steppers." alt="" coords="5,141,196,166"/>
+<area shape="rect" id="Node000001" href="$struct_acts_1_1_atlas_stepper_1_1_options.html" title="Stepper options extending plain stepper settings." alt="" coords="267,5,408,45"/>
+<area shape="poly" id="edge210_Node000000_Node000001" title=" " alt="" coords="127,130,179,93,243,55,270,43,272,48,245,60,182,97,130,135"/>
+<area shape="rect" id="Node000002" href="$struct_acts_1_1_eigen_stepper_1_1_options.html" title="Stepper options including geometry and magnetic field contexts." alt="" coords="244,69,431,109"/>
+<area shape="poly" id="edge211_Node000000_Node000002" title=" " alt="" coords="161,134,262,107,263,112,163,140"/>
+<area shape="rect" id="Node000003" href="$struct_acts_1_1_helix_stepper_1_1_options.html" title="Runtime options for helix propagation." alt="" coords="266,133,409,173"/>
+<area shape="poly" id="edge212_Node000000_Node000003" title=" " alt="" coords="210,151,266,151,266,156,210,156"/>
+<area shape="rect" id="Node000004" href="$struct_acts_1_1_straight_line_stepper_1_1_options.html" title="Configuration options for straight line propagation." alt="" coords="244,197,431,237"/>
+<area shape="poly" id="edge213_Node000000_Node000004" title=" " alt="" coords="163,167,263,195,262,200,161,172"/>
+<area shape="rect" id="Node000005" href="$struct_acts_1_1_sympy_stepper_1_1_options.html" title="Runtime options for sympy propagation." alt="" coords="261,261,414,301"/>
+<area shape="poly" id="edge214_Node000000_Node000005" title=" " alt="" coords="130,172,182,209,245,247,272,259,270,264,243,252,179,214,127,176"/>
+</map>

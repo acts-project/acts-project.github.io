@@ -1,0 +1,20 @@
+<map id="Acts::MultiWireVolumeBuilder::Config" name="Acts::MultiWireVolumeBuilder::Config">
+<area shape="rect" id="Node000001" title="Configuration Struct." alt="" coords="776,117,992,157"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="443,13,530,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="544,27,642,40,698,51,753,67,806,90,852,115,850,120,804,94,751,72,697,57,642,45,543,32"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="15,5,153,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="167,23,443,23,443,28,167,28"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="397,64,576,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="590,91,752,111,778,115,777,120,752,116,589,96"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="19,102,149,127"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="162,106,397,88,397,93,162,111"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="401,129,572,154"/>
+<area shape="poly" id="edge9_Node000009_Node000005" title=" " alt="" coords="141,128,187,137,299,145,401,144,401,149,298,150,186,143,140,134"/>
+<area shape="rect" id="Node000006" href="$class_acts_1_1_volume_placement_base.html" title="Interface class to define the transform cache backend for alignable volumes." alt="" coords="383,178,591,203"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="604,183,752,167,809,155,810,160,752,172,605,188"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="405,228,568,268"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="582,242,665,232,751,211,807,185,854,155,857,160,810,189,753,216,666,237,582,247"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="5,235,163,261"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="176,245,405,245,405,251,176,251"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="586,138,776,136,776,141,586,143"/>
+</map>
