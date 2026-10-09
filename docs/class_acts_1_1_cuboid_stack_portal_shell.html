@@ -227,7 +227,13 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>Face</b> = <a class=
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd>The shells must be ordered in the given direction </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>The shells must be ordered in increasing local stack coordinates along the given direction. The supplied order is preserved. </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">AssertionFailureException</td><td>If the supplied shells are empty or are not ordered along the local stacking axis. </td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">direction</td><td>The stacking direction (along x/y/z axis) in local stack coordinates </td></tr>
