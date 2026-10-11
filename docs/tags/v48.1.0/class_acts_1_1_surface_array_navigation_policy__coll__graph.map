@@ -1,5 +1,0 @@
-<map id="Acts::SurfaceArrayNavigationPolicy" name="Acts::SurfaceArrayNavigationPolicy">
-<area shape="rect" id="Node000001" title="A navigation policy that internally uses the Gen1 SurfaceArray class." alt="" coords="5,79,219,119"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_i_navigation_policy.html" title="Base class for all navigation policies." alt="" coords="26,5,198,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,44,115,79,109,79,109,44"/>
-</map>

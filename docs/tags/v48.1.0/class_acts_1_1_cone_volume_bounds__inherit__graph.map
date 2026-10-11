@@ -1,5 +1,0 @@
-<map id="Acts::ConeVolumeBounds" name="Acts::ConeVolumeBounds">
-<area shape="rect" id="Node000001" title="Volume bound class for describing conical volumes either with cylindrical inlay or outer boundary,..." alt="" coords="5,79,193,104"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_volume_bounds.html" title="Pure Absract Base Class for Volume bounds." alt="" coords="22,5,177,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,44,102,79,97,79,97,44"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="Acts::MultiAxisSpecXD&lt; DIM &gt;" name="Acts::MultiAxisSpecXD&lt; DIM &gt;">
-<area shape="rect" id="Node000001" title="Multi&#45;dimensional binning spec of a compile&#45;time dimension." alt="" coords="139,80,308,120"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_multi_axis_spec_x_d.html" title=" " alt="" coords="5,191,212,216"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="193,131,123,193,120,189,190,127"/>
-<area shape="rect" id="Node000004" href="$class_acts_1_1_multi_axis_spec_x_d.html" title=" " alt="" coords="236,191,443,216"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="257,127,328,189,325,193,254,131"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_multi_axis_spec.html" title="Specification of a multi&#45;dimensional binning that builds the axes of a grid." alt="" coords="148,5,299,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="226,44,226,80,221,80,221,44"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="ActsPlugins::DetrayGeometryConverter::Config" name="ActsPlugins::DetrayGeometryConverter::Config">
-<area shape="rect" id="Node000001" title="Configuration for the geometry converter." alt="" coords="39,232,254,272"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,121,288,161"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,175,149,232,144,232,144,175"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="68,5,225,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="149,45,149,121,144,121,144,45"/>
-</map>
