@@ -131,7 +131,8 @@ Quick start</h1>
 <div class="fragment"><div class="line">git clone https://github.com/acts-project/acts &lt;source&gt;</div>
 <div class="line">cmake -B &lt;build&gt; -S &lt;source&gt;</div>
 <div class="line">cmake --build &lt;build&gt;</div>
-</div><!-- fragment --><p>For a full list of dependencies, including specific versions, see the <a class="el" href="#prerequisites">Prerequisites</a> section below. Build options to activate additional components are described in the <a class="el" href="#build-options">Build options</a> section.</p>
+</div><!-- fragment --><p>The default C++ standard is C++23. To build in the supported C++20 mode, configure with <span class="tt">-DCMAKE_CXX_STANDARD=20</span> and use dependencies built for C++20.</p>
+<p>For a full list of dependencies, including specific versions, see the <a class="el" href="#prerequisites">Prerequisites</a> section below. Build options to activate additional components are described in the <a class="el" href="#build-options">Build options</a> section.</p>
 <h1 class="doxsection"><a class="anchor" id="prerequisites"></a>
 Prerequisites</h1>
 <p>The following dependencies are required to build the ACTS core library:</p>
