@@ -1,5 +1,9 @@
 var NAVTREEINDEX70 =
 {
+"struct_acts_plugins_1_1_geo_model_detector_object_factory_1_1_cache.html":[5,10,8,2,0],
+"struct_acts_plugins_1_1_geo_model_detector_object_factory_1_1_cache.html#a0ff99ef6c3d481d954901ad541a1ba02":[5,10,8,2,0,2],
+"struct_acts_plugins_1_1_geo_model_detector_object_factory_1_1_cache.html#a1ed7120890246fdd36492a911d7432f4":[5,10,8,2,0,3],
+"struct_acts_plugins_1_1_geo_model_detector_object_factory_1_1_cache.html#a6234958c7b7e1e21631f686cda31664a":[5,10,8,2,0,1],
 "struct_acts_plugins_1_1_geo_model_detector_object_factory_1_1_cache.html#a98c6c8fb5a90d813df5ed522f013595f":[5,10,8,2,0,0],
 "struct_acts_plugins_1_1_geo_model_detector_object_factory_1_1_config.html":[5,10,8,2,1],
 "struct_acts_plugins_1_1_geo_model_detector_object_factory_1_1_config.html#a40343b24469cd1e6d1dd790d36c6c13a":[5,10,8,2,1,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX70 =
 "struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html":[5,10,6,17,0],
 "struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html#a061206525fae8530a6f33f6f386814f2":[5,10,6,17,0,1],
 "struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html#a86183f5f6385075ffc9e75273e9ad804":[5,10,6,17,0,3],
-"struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html#aae9b014f8ad181a601abb27151d5c057":[5,10,6,17,0,0],
-"struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html#af6f0a4eab073abfdd57b07c74055ae7b":[5,10,6,17,0,2],
-"struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html":[5,10,6,18,0],
-"struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#a3df0886d247535a7ac9fb14f01861ba9":[5,10,6,18,0,6],
-"struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#a5451dcdde489ab1aa40cf7ec156d02f0":[5,10,6,18,0,1]
+"struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html#aae9b014f8ad181a601abb27151d5c057":[5,10,6,17,0,0]
 };

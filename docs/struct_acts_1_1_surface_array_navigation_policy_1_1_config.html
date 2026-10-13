@@ -146,8 +146,13 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a379dae30440bdbea56773c340dcae579" id="r_a379dae30440bdbea56773c340dcae579"><td class="memItemLeft" align="right" valign="top"><a id="a379dae30440bdbea56773c340dcae579" name="a379dae30440bdbea56773c340dcae579"></a>
 <a class="el" href="class_acts_1_1_surface_array_navigation_policy.html#ab8a1b2c673d4dc434684e4743526ffc9">LayerType</a>&#160;</td><td class="memItemRight" valign="bottom"><b>layerType</b> = LayerType::Cylinder</td></tr>
 <tr class="memdesc:a379dae30440bdbea56773c340dcae579"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of the layer. <br /></td></tr>
+<tr class="memitem:aaf01fbd829ad147fe2d44702fa5412c9" id="r_aaf01fbd829ad147fe2d44702fa5412c9"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="struct_acts_1_1_surface_array_1_1_neighbor_window.html">SurfaceArray::NeighborWindow</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf01fbd829ad147fe2d44702fa5412c9">neighborWindow</a> = std::nullopt</td></tr>
+<tr class="memdesc:aaf01fbd829ad147fe2d44702fa5412c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bounds on the neighbor window of the surface array, in bins along the local axes of the layer type.  <br /></td></tr>
 <tr class="memitem:a2b222e5ca9dbed86807a6ef4ab3ef308" id="r_a2b222e5ca9dbed86807a6ef4ab3ef308"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b222e5ca9dbed86807a6ef4ab3ef308">numberOfBinsFactor</a> = 1.0</td></tr>
 <tr class="memdesc:a2b222e5ca9dbed86807a6ef4ab3ef308"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multiplier applied to auto-determined (0) bin counts.  <br /></td></tr>
+<tr class="memitem:a2eb343bb7f12f2771bef87cc4385fd90" id="r_a2eb343bb7f12f2771bef87cc4385fd90"><td class="memItemLeft" align="right" valign="top"><a id="a2eb343bb7f12f2771bef87cc4385fd90" name="a2eb343bb7f12f2771bef87cc4385fd90"></a>
+std::uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>overfill</b> = 0</td></tr>
+<tr class="memdesc:a2eb343bb7f12f2771bef87cc4385fd90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extra cells per direction and axis that each surface fills around its footprint in the surface array. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Config struct to configure the surface array navigation. </p>
@@ -166,6 +171,23 @@ Public Attributes</h2></td></tr>
 
 <p>The number of bins in the local directions. </p>
 <p>The interpretation depends on the layer type. A value of 0 in either direction requests automatic determination from the module layout (one bin per module), scaled by <code>numberOfBinsFactor</code>. </p>
+
+</div>
+</div>
+<a id="aaf01fbd829ad147fe2d44702fa5412c9" name="aaf01fbd829ad147fe2d44702fa5412c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf01fbd829ad147fe2d44702fa5412c9">&#9670;&#160;</a></span>neighborWindow</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt;<a class="el" href="struct_acts_1_1_surface_array_1_1_neighbor_window.html">SurfaceArray::NeighborWindow</a>&gt; Acts::SurfaceArrayNavigationPolicy::Config::neighborWindow = std::nullopt</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Bounds on the neighbor window of the surface array, in bins along the local axes of the layer type. </p>
+<p>If not set, the surface array creator uses its default for the layer type. </p>
 
 </div>
 </div>

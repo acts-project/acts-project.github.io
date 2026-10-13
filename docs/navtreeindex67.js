@@ -1,5 +1,9 @@
 var NAVTREEINDEX67 =
 {
+"struct_acts_1_1_value_holder.html#ac23e2720a07aa0a7c655316ce7a86fa8":[8,0,0,445,6],
+"struct_acts_1_1_value_holder.html#ace59063cff8d17a1d593a2b106a742ca":[6,0,0,440,5],
+"struct_acts_1_1_value_holder.html#ace59063cff8d17a1d593a2b106a742ca":[8,0,0,445,5],
+"struct_acts_1_1_value_holder.html#ad248ed1c86939ec8946b2ab9414418f3":[6,0,0,440,0],
 "struct_acts_1_1_value_holder.html#ad248ed1c86939ec8946b2ab9414418f3":[8,0,0,445,0],
 "struct_acts_1_1_value_holder.html#aefadac57fcbab7ebe1dfd0079ab2964a":[6,0,0,440,4],
 "struct_acts_1_1_value_holder.html#aefadac57fcbab7ebe1dfd0079ab2964a":[8,0,0,445,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX67 =
 "struct_acts_fatras_1_1_bethe_heitler.html#a4f3b134a71a027330a75094816d7e21b":[8,0,1,5,3],
 "struct_acts_fatras_1_1_bethe_heitler.html#a9d96b6812b9760d0937cd1bb144cf403":[6,0,2,4,2],
 "struct_acts_fatras_1_1_bethe_heitler.html#a9d96b6812b9760d0937cd1bb144cf403":[8,0,1,5,2],
-"struct_acts_fatras_1_1_bethe_heitler.html#abd6286899567d06722ae01f9d0f93a17":[6,0,2,4,0],
-"struct_acts_fatras_1_1_bethe_heitler.html#abd6286899567d06722ae01f9d0f93a17":[8,0,1,5,0],
-"struct_acts_fatras_1_1_bound_parameters_smearer.html":[6,0,2,5],
-"struct_acts_fatras_1_1_bound_parameters_smearer.html":[8,0,1,6],
-"struct_acts_fatras_1_1_bound_parameters_smearer.html#a0afcfa8735408555fadf7ba2621710b9":[6,0,2,5,1]
+"struct_acts_fatras_1_1_bethe_heitler.html#abd6286899567d06722ae01f9d0f93a17":[6,0,2,4,0]
 };
