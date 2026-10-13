@@ -156,6 +156,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4e83f45ed246b8a7e36e6803806b0d7f" id="r_a4e83f45ed246b8a7e36e6803806b0d7f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e83f45ed246b8a7e36e6803806b0d7f">setDescription</a> (std::optional&lt; std::string &gt; <a class="el" href="#a1e1e756632e96bbb0f74bf5ada67076d">description</a>)</td></tr>
 <tr class="memdesc:a4e83f45ed246b8a7e36e6803806b0d7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set or remove the document description.  <br /></td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a318309d3f7c76f49d0f9dd5c06981ee4" id="r_a318309d3f7c76f49d0f9dd5c06981ee4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#a812de9fe858dffe120135bff3335ed47">TrackingGeometryMaterial</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a318309d3f7c76f49d0f9dd5c06981ee4">fromGeometry</a> (const <a class="el" href="class_acts_1_1_tracking_geometry.html">TrackingGeometry</a> &amp;geometry, bool includeNonMaterial=false)</td></tr>
+<tr class="memdesc:a318309d3f7c76f49d0f9dd5c06981ee4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract material assignments without modifying the geometry or resolving deferred binning.  <br /></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a4c2e14fa9c81f78f19cfdf6951bf9778" id="r_a4c2e14fa9c81f78f19cfdf6951bf9778"><td class="memItemLeft" align="right" valign="top"><a id="a4c2e14fa9c81f78f19cfdf6951bf9778" name="a4c2e14fa9c81f78f19cfdf6951bf9778"></a>
@@ -332,6 +337,45 @@ Public Attributes</h2></td></tr>
 
 <p>Read the optional document description, ignored when applying material. </p>
 <dl class="section return"><dt>Returns</dt><dd>Description, or std::nullopt if absent </dd></dl>
+
+</div>
+</div>
+<a id="a318309d3f7c76f49d0f9dd5c06981ee4" name="a318309d3f7c76f49d0f9dd5c06981ee4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a318309d3f7c76f49d0f9dd5c06981ee4">&#9670;&#160;</a></span>fromGeometry()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a812de9fe858dffe120135bff3335ed47">TrackingGeometryMaterial</a> Acts::TrackingGeometryMaterial::fromGeometry </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_tracking_geometry.html">TrackingGeometry</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>geometry</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>includeNonMaterial</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Extract material assignments without modifying the geometry or resolving deferred binning. </p>
+<p>Existing material payloads are shared with the geometry. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">geometry</td><td>Geometry to extract material from </td></tr>
+    <tr><td class="paramname">includeNonMaterial</td><td>Add deferred one-bin proto grids for bare surfaces </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Surface (including stable-key) and volume assignments </dd></dl>
 
 </div>
 </div>

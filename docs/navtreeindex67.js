@@ -1,5 +1,7 @@
 var NAVTREEINDEX67 =
 {
+"struct_acts_1_1_value_holder.html#ad248ed1c86939ec8946b2ab9414418f3":[8,0,0,445,0],
+"struct_acts_1_1_value_holder.html#aefadac57fcbab7ebe1dfd0079ab2964a":[6,0,0,440,4],
 "struct_acts_1_1_value_holder.html#aefadac57fcbab7ebe1dfd0079ab2964a":[8,0,0,445,4],
 "struct_acts_1_1_vertex_fit_candidate.html":[6,0,0,445],
 "struct_acts_1_1_vertex_fit_candidate.html":[8,0,0,450],
@@ -247,7 +249,5 @@ var NAVTREEINDEX67 =
 "struct_acts_fatras_1_1_bethe_heitler.html#abd6286899567d06722ae01f9d0f93a17":[8,0,1,5,0],
 "struct_acts_fatras_1_1_bound_parameters_smearer.html":[6,0,2,5],
 "struct_acts_fatras_1_1_bound_parameters_smearer.html":[8,0,1,6],
-"struct_acts_fatras_1_1_bound_parameters_smearer.html#a0afcfa8735408555fadf7ba2621710b9":[6,0,2,5,1],
-"struct_acts_fatras_1_1_bound_parameters_smearer.html#a0afcfa8735408555fadf7ba2621710b9":[8,0,1,6,1],
-"struct_acts_fatras_1_1_bound_parameters_smearer.html#a3ec5813b278b9184d68ead0524ad4d3f":[6,0,2,5,7]
+"struct_acts_fatras_1_1_bound_parameters_smearer.html#a0afcfa8735408555fadf7ba2621710b9":[6,0,2,5,1]
 };
