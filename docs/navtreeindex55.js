@@ -1,5 +1,9 @@
 var NAVTREEINDEX55 =
 {
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_do_fcounts.html#adbca8abd75f035cb0c981cc6f7e96ad8":[8,0,0,2,6,1,2],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html":[6,0,0,1,6,2],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html":[8,0,0,2,6,2],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html#a00d357b2ed736dd1a26352636a77c99d":[6,0,0,1,6,2,3],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html#a00d357b2ed736dd1a26352636a77c99d":[8,0,0,2,6,2,3],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html#a1c8174dff52f877ec429a2897c24a053":[6,0,0,1,6,2,6],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html#a1c8174dff52f877ec429a2897c24a053":[8,0,0,2,6,2,6],
@@ -245,9 +249,5 @@ var NAVTREEINDEX55 =
 "struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a7f2ac8426738c36c7c8faeeb71e62038":[8,0,0,2,21,0,2],
 "struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a899bbbaf2b159a693fa0007ca217792a":[6,0,0,1,21,0,5],
 "struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a899bbbaf2b159a693fa0007ca217792a":[8,0,0,2,21,0,5],
-"struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a8f69d7f840b6cc27356a3ff64c874462":[6,0,0,1,21,0,15],
-"struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a8f69d7f840b6cc27356a3ff64c874462":[8,0,0,2,21,0,15],
-"struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a91aa5de89c84dd6f0bee7034d1127208":[6,0,0,1,21,0,32],
-"struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a91aa5de89c84dd6f0bee7034d1127208":[8,0,0,2,21,0,32],
-"struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a956f8d03bb94f37bc0eaa96521e3a512":[6,0,0,1,21,0,16]
+"struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a8f69d7f840b6cc27356a3ff64c874462":[6,0,0,1,21,0,15]
 };

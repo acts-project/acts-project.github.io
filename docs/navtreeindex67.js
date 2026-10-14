@@ -1,5 +1,9 @@
 var NAVTREEINDEX67 =
 {
+"struct_acts_1_1_value_holder.html#a0216c3661d818d8a6c28e9557203ac65":[8,0,0,445,2],
+"struct_acts_1_1_value_holder.html#a2cc108ec32e5a30d9fcc37aa7d834e96":[6,0,0,440,7],
+"struct_acts_1_1_value_holder.html#a2cc108ec32e5a30d9fcc37aa7d834e96":[8,0,0,445,7],
+"struct_acts_1_1_value_holder.html#a92123904eb869cbfe42be8815280ecf6":[6,0,0,440,3],
 "struct_acts_1_1_value_holder.html#a92123904eb869cbfe42be8815280ecf6":[8,0,0,445,3],
 "struct_acts_1_1_value_holder.html#a9a06ea43028136e0fe1b7a3896532093":[6,0,0,440,1],
 "struct_acts_1_1_value_holder.html#a9a06ea43028136e0fe1b7a3896532093":[8,0,0,445,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX67 =
 "struct_acts_fatras_1_1_bethe_bloch.html#a96b595a940ab83f747e87e090aacf436":[8,0,1,4,1],
 "struct_acts_fatras_1_1_bethe_bloch.html#aea1be459fcde54d39213820934b0eb5d":[6,0,2,3,2],
 "struct_acts_fatras_1_1_bethe_bloch.html#aea1be459fcde54d39213820934b0eb5d":[8,0,1,4,2],
-"struct_acts_fatras_1_1_bethe_heitler.html":[6,0,2,4],
-"struct_acts_fatras_1_1_bethe_heitler.html":[8,0,1,5],
-"struct_acts_fatras_1_1_bethe_heitler.html#a1cd881d2c29527ea63f10a77edb95413":[6,0,2,4,1],
-"struct_acts_fatras_1_1_bethe_heitler.html#a1cd881d2c29527ea63f10a77edb95413":[8,0,1,5,1],
-"struct_acts_fatras_1_1_bethe_heitler.html#a4f3b134a71a027330a75094816d7e21b":[6,0,2,4,3]
+"struct_acts_fatras_1_1_bethe_heitler.html":[6,0,2,4]
 };

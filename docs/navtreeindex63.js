@@ -1,5 +1,9 @@
 var NAVTREEINDEX63 =
 {
+"struct_acts_1_1_portal_1_1_arguments.html":[8,0,0,334,0],
+"struct_acts_1_1_portal_1_1_arguments.html#aa04b796cf01594bb2c19a525dace5706":[6,0,0,329,0,1],
+"struct_acts_1_1_portal_1_1_arguments.html#aa04b796cf01594bb2c19a525dace5706":[8,0,0,334,0,1],
+"struct_acts_1_1_portal_1_1_arguments.html#aee2980b63577ef90a886ee838ea32189":[6,0,0,329,0,2],
 "struct_acts_1_1_portal_1_1_arguments.html#aee2980b63577ef90a886ee838ea32189":[8,0,0,334,0,2],
 "struct_acts_1_1_portal_1_1_arguments_1_1_link.html":[6,0,0,329,0,0],
 "struct_acts_1_1_portal_1_1_arguments_1_1_link.html":[8,0,0,334,0,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX63 =
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html#adc71d3da98320a71c8b357d1a1f4b32f":[8,0,0,366,3,2],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html#aeb12bdbdb651913506facb108d5205f3":[6,0,0,361,3,3],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html#aeb12bdbdb651913506facb108d5205f3":[8,0,0,366,3,3],
-"struct_acts_1_1_seed_confirmation_range_config.html":[6,0,0,362],
-"struct_acts_1_1_seed_confirmation_range_config.html":[8,0,0,367],
-"struct_acts_1_1_seed_confirmation_range_config.html#a0064124da924fe28661efd634dea7aec":[6,0,0,362,4],
-"struct_acts_1_1_seed_confirmation_range_config.html#a0064124da924fe28661efd634dea7aec":[8,0,0,367,4],
-"struct_acts_1_1_seed_confirmation_range_config.html#a42cd66be84e4a6723d1ba239fadddc7c":[6,0,0,362,5]
+"struct_acts_1_1_seed_confirmation_range_config.html":[6,0,0,362]
 };

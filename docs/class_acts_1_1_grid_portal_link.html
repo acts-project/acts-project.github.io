@@ -191,6 +191,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a3b377acceb94d04c7d43c24ac32c4914" id="r_a3b377acceb94d04c7d43c24ac32c4914"><td class="memTemplParams" colspan="2">template&lt;AxisConcept axis_t&gt; </td></tr>
 <tr class="memitem:a3b377acceb94d04c7d43c24ac32c4914 template"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="class_acts_1_1_grid_portal_link_t.html">GridPortalLinkT</a>&lt; axis_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b377acceb94d04c7d43c24ac32c4914">make</a> (const std::shared_ptr&lt; <a class="el" href="class_acts_1_1_regular_surface.html">RegularSurface</a> &gt; &amp;<a class="el" href="class_acts_1_1_portal_link_base.html#ae706bba39e86a210651c99c1ba52c5c3">surface</a>, <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> <a class="el" href="#a15942315060e068882de821aa94c08f7">direction</a>, axis_t &amp;&amp;axis)</td></tr>
 <tr class="memdesc:a3b377acceb94d04c7d43c24ac32c4914"><td class="mdescLeft">&#160;</td><td class="mdescRight">Factory function for a one-dimensional grid portal link, which allows using template deduction to figure out the right type.  <br /></td></tr>
+<tr class="memitem:abc332576682830da9ca51371aba96cf1" id="r_abc332576682830da9ca51371aba96cf1"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="#a6c7027d6549a2134eac24d699527f822">GridPortalLink</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc332576682830da9ca51371aba96cf1">make</a> (const std::shared_ptr&lt; <a class="el" href="class_acts_1_1_regular_surface.html">RegularSurface</a> &gt; &amp;<a class="el" href="class_acts_1_1_portal_link_base.html#ae706bba39e86a210651c99c1ba52c5c3">surface</a>, <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> <a class="el" href="#a15942315060e068882de821aa94c08f7">direction</a>, const <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> &amp;axis)</td></tr>
+<tr class="memdesc:abc332576682830da9ca51371aba96cf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Factory function for a one-dimensional grid portal link from a type-erased axis.  <br /></td></tr>
+<tr class="memitem:ab2d4abf7c6d8bc102dd117d439311c4a" id="r_ab2d4abf7c6d8bc102dd117d439311c4a"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="#a6c7027d6549a2134eac24d699527f822">GridPortalLink</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2d4abf7c6d8bc102dd117d439311c4a">make</a> (const std::shared_ptr&lt; <a class="el" href="class_acts_1_1_regular_surface.html">RegularSurface</a> &gt; &amp;<a class="el" href="class_acts_1_1_portal_link_base.html#ae706bba39e86a210651c99c1ba52c5c3">surface</a>, const <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> &amp;axis0, const <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> &amp;axis1)</td></tr>
+<tr class="memdesc:ab2d4abf7c6d8bc102dd117d439311c4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Factory function for a two-dimensional grid portal link from type-erased axes, see the one-dimensional overload.  <br /></td></tr>
 <tr class="memitem:a05d15d6f8d767977bd3274b8555bb569" id="r_a05d15d6f8d767977bd3274b8555bb569"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="#a6c7027d6549a2134eac24d699527f822">GridPortalLink</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05d15d6f8d767977bd3274b8555bb569">make</a> (const std::shared_ptr&lt; <a class="el" href="class_acts_1_1_regular_surface.html">RegularSurface</a> &gt; &amp;<a class="el" href="class_acts_1_1_portal_link_base.html#ae706bba39e86a210651c99c1ba52c5c3">surface</a>, <a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &amp;volume, <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> <a class="el" href="#a15942315060e068882de821aa94c08f7">direction</a>)</td></tr>
 <tr class="memdesc:a05d15d6f8d767977bd3274b8555bb569"><td class="mdescLeft">&#160;</td><td class="mdescRight">Factory function for an automatically sized one-dimensional grid.  <br /></td></tr>
 <tr class="memitem:a90e2157bbbe24d21344b6e2284f840ce" id="r_a90e2157bbbe24d21344b6e2284f840ce"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="class_acts_1_1_portal_link_base.html#a30b89ac576f08ec0c64433effb5a7276">PortalLinkBase</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90e2157bbbe24d21344b6e2284f840ce">merge</a> (const <a class="el" href="#a6c7027d6549a2134eac24d699527f822">GridPortalLink</a> &amp;a, const <a class="el" href="#a6c7027d6549a2134eac24d699527f822">GridPortalLink</a> &amp;b, <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> <a class="el" href="#a15942315060e068882de821aa94c08f7">direction</a>, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">getDummyLogger</a>())</td></tr>
@@ -805,7 +809,7 @@ std::shared_ptr&lt; <a class="el" href="class_acts_1_1_regular_surface.html">Reg
 </div>
 </div>
 <a id="ae14cb3d63fb8b59c419820e48afafb3e" name="ae14cb3d63fb8b59c419820e48afafb3e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae14cb3d63fb8b59c419820e48afafb3e">&#9670;&#160;</a></span>make() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae14cb3d63fb8b59c419820e48afafb3e">&#9670;&#160;</a></span>make() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -860,7 +864,7 @@ template&lt;AxisConcept axis_1_t, AxisConcept axis_2_t&gt; </div>
 </div>
 </div>
 <a id="a3b377acceb94d04c7d43c24ac32c4914" name="a3b377acceb94d04c7d43c24ac32c4914"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3b377acceb94d04c7d43c24ac32c4914">&#9670;&#160;</a></span>make() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b377acceb94d04c7d43c24ac32c4914">&#9670;&#160;</a></span>make() <span class="overload">[2/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -913,8 +917,98 @@ template&lt;AxisConcept axis_t&gt; </div>
 
 </div>
 </div>
+<a id="abc332576682830da9ca51371aba96cf1" name="abc332576682830da9ca51371aba96cf1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc332576682830da9ca51371aba96cf1">&#9670;&#160;</a></span>make() <span class="overload">[3/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="#a6c7027d6549a2134eac24d699527f822">GridPortalLink</a> &gt; Acts::GridPortalLink::make </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="class_acts_1_1_regular_surface.html">RegularSurface</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>surface</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a></td>          <td class="paramname"><span class="paramname"><em>direction</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>axis</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Factory function for a one-dimensional grid portal link from a type-erased axis. </p>
+<p>Dispatches to the templated overload inside Core, so callers do not instantiate every axis type themselves. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">surface</td><td>The surface </td></tr>
+    <tr><td class="paramname">direction</td><td>The binning direction </td></tr>
+    <tr><td class="paramname">axis</td><td>The axis to use for the binning </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A unique pointer to the grid portal link </dd></dl>
+
+</div>
+</div>
+<a id="ab2d4abf7c6d8bc102dd117d439311c4a" name="ab2d4abf7c6d8bc102dd117d439311c4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2d4abf7c6d8bc102dd117d439311c4a">&#9670;&#160;</a></span>make() <span class="overload">[4/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="#a6c7027d6549a2134eac24d699527f822">GridPortalLink</a> &gt; Acts::GridPortalLink::make </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="class_acts_1_1_regular_surface.html">RegularSurface</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>surface</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>axis0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>axis1</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Factory function for a two-dimensional grid portal link from type-erased axes, see the one-dimensional overload. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">surface</td><td>The surface </td></tr>
+    <tr><td class="paramname">axis0</td><td>The first axis to use for the binning </td></tr>
+    <tr><td class="paramname">axis1</td><td>The second axis to use for the binning </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A unique pointer to the grid portal link </dd></dl>
+
+</div>
+</div>
 <a id="a05d15d6f8d767977bd3274b8555bb569" name="a05d15d6f8d767977bd3274b8555bb569"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a05d15d6f8d767977bd3274b8555bb569">&#9670;&#160;</a></span>make() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a05d15d6f8d767977bd3274b8555bb569">&#9670;&#160;</a></span>make() <span class="overload">[5/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

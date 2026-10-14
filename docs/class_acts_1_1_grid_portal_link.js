@@ -19,6 +19,8 @@ var class_acts_1_1_grid_portal_link =
     [ "grid", "class_acts_1_1_grid_portal_link.html#a50a6e3a15f45397cc2fc394226f4a88f", null ],
     [ "make", "class_acts_1_1_grid_portal_link.html#ae14cb3d63fb8b59c419820e48afafb3e", null ],
     [ "make", "class_acts_1_1_grid_portal_link.html#a3b377acceb94d04c7d43c24ac32c4914", null ],
+    [ "make", "class_acts_1_1_grid_portal_link.html#abc332576682830da9ca51371aba96cf1", null ],
+    [ "make", "class_acts_1_1_grid_portal_link.html#ab2d4abf7c6d8bc102dd117d439311c4a", null ],
     [ "make", "class_acts_1_1_grid_portal_link.html#a05d15d6f8d767977bd3274b8555bb569", null ],
     [ "merge", "class_acts_1_1_grid_portal_link.html#a90e2157bbbe24d21344b6e2284f840ce", null ],
     [ "printContents", "class_acts_1_1_grid_portal_link.html#afe74340b75e8cf4a0f85b60dcef7807a", null ],

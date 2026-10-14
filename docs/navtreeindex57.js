@@ -1,5 +1,9 @@
 var NAVTREEINDEX57 =
 {
+"struct_acts_1_1_experimental_1_1_gx2f_system.html#af115db6fce3a1fca2db14c230acaa677":[5,13,9,10],
+"struct_acts_1_1_experimental_1_1_hough_exploration_options.html":[6,0,0,1,41],
+"struct_acts_1_1_experimental_1_1_hough_exploration_options.html":[8,0,0,2,41],
+"struct_acts_1_1_experimental_1_1_hough_exploration_options.html#a414828a68358f8d8c31b88ff3e379b2f":[6,0,0,1,41,0],
 "struct_acts_1_1_experimental_1_1_hough_exploration_options.html#a414828a68358f8d8c31b88ff3e379b2f":[8,0,0,2,41,0],
 "struct_acts_1_1_experimental_1_1_hough_exploration_options.html#a4b6154f8af1a242c5b31fa24f655f19d":[6,0,0,1,41,1],
 "struct_acts_1_1_experimental_1_1_hough_exploration_options.html#a4b6154f8af1a242c5b31fa24f655f19d":[8,0,0,2,41,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX57 =
 "struct_acts_1_1_extent_envelope_1_1_arguments.html#af033ed80aa31142a370491e65847fad6":[8,0,0,149,0,0],
 "struct_acts_1_1_extent_envelope_1_1_arguments.html#affa1869cd94c88450e97c88875797e3e":[6,0,0,144,0,2],
 "struct_acts_1_1_extent_envelope_1_1_arguments.html#affa1869cd94c88450e97c88875797e3e":[8,0,0,149,0,2],
-"struct_acts_1_1_finite_state_machine_1_1_terminated.html":[6,0,0,145,0],
-"struct_acts_1_1_finite_state_machine_1_1_terminated.html":[8,0,0,150,0],
-"struct_acts_1_1_finite_state_machine_1_1_terminated.html#a68fa6204d190f3d601c4f373cbecfb16":[6,0,0,145,0,0],
-"struct_acts_1_1_finite_state_machine_1_1_terminated.html#a68fa6204d190f3d601c4f373cbecfb16":[8,0,0,150,0,0],
-"struct_acts_1_1_forced_surface_reached.html":[6,0,0,147]
+"struct_acts_1_1_finite_state_machine_1_1_terminated.html":[6,0,0,145,0]
 };
