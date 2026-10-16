@@ -187,6 +187,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>interactionPointCut</
 <tr class="memitem:affb52c144b89342d640711544807f921" id="r_affb52c144b89342d640711544807f921"><td class="memItemLeft" align="right" valign="top"><a id="affb52c144b89342d640711544807f921" name="affb52c144b89342d640711544807f921"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>spacePointsSortedByRadius</b> = false</td></tr>
 <tr class="memdesc:affb52c144b89342d640711544807f921"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the input space points are sorted by radius. <br /></td></tr>
+<tr class="memitem:a5042ed8d614a36a0657bf70f5d8f965d" id="r_a5042ed8d614a36a0657bf70f5d8f965d"><td class="memItemLeft" align="right" valign="top">std::optional&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5042ed8d614a36a0657bf70f5d8f965d">stripCalibrationTolerance</a></td></tr>
+<tr class="memdesc:a5042ed8d614a36a0657bf70f5d8f965d"><td class="mdescLeft">&#160;</td><td class="mdescRight">If set, calibrate both strip space points against their chord after the z origin cut, with this tolerance in strip half lengths.  <br /></td></tr>
 <tr class="memitem:ae1b7fa39e67cbae3c5b1447176dee1a9" id="r_ae1b7fa39e67cbae3c5b1447176dee1a9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1b7fa39e67cbae3c5b1447176dee1a9">timeCutNSigma</a> = 5</td></tr>
 <tr class="memdesc:ae1b7fa39e67cbae3c5b1447176dee1a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum allowed difference of the times of the two space points, corrected for the time of flight between them, in units of their combined time resolution.  <br /></td></tr>
 <tr class="memitem:a299f92d61db9f553185dcfa312a8b9a9" id="r_a299f92d61db9f553185dcfa312a8b9a9"><td class="memItemLeft" align="right" valign="top"><a id="a299f92d61db9f553185dcfa312a8b9a9" name="a299f92d61db9f553185dcfa312a8b9a9"></a>
@@ -268,6 +270,23 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>useTime</b> = false</
 
 <p>Minimum transverse momentum (pT) used to check the r-z slope compatibility of triplets with maximum multiple scattering effect (produced by the minimum allowed pT particle) + a certain uncertainty term. </p>
 <p>Check the documentation for more information <a href="https://acts.readthedocs.io/en/latest/core/reconstruction/pattern_recognition/seeding.html">https://acts.readthedocs.io/en/latest/core/reconstruction/pattern_recognition/seeding.html</a> </p>
+
+</div>
+</div>
+<a id="a5042ed8d614a36a0657bf70f5d8f965d" name="a5042ed8d614a36a0657bf70f5d8f965d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5042ed8d614a36a0657bf70f5d8f965d">&#9670;&#160;</a></span>stripCalibrationTolerance</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt;float&gt; Acts::DoubletSeedFinder::Config::stripCalibrationTolerance</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>If set, calibrate both strip space points against their chord after the z origin cut, with this tolerance in strip half lengths. </p>
+<p>The following cuts and the doublet use the calibrated positions. Requires <span class="tt">SpacePointColumns::StripCalibrationDetails</span>. </p>
 
 </div>
 </div>

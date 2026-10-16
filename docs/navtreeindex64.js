@@ -1,5 +1,7 @@
 var NAVTREEINDEX64 =
 {
+"struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html#aeb12bdbdb651913506facb108d5205f3":[8,0,0,366,3,3],
+"struct_acts_1_1_seed_confirmation_range_config.html":[6,0,0,362],
 "struct_acts_1_1_seed_confirmation_range_config.html":[8,0,0,367],
 "struct_acts_1_1_seed_confirmation_range_config.html#a0064124da924fe28661efd634dea7aec":[6,0,0,362,4],
 "struct_acts_1_1_seed_confirmation_range_config.html#a0064124da924fe28661efd634dea7aec":[8,0,0,367,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX64 =
 "struct_acts_1_1_surface_json_converter_1_1_config.html":[5,10,10,10],
 "struct_acts_1_1_surface_json_converter_1_1_options.html":[5,10,10,11],
 "struct_acts_1_1_surface_material_json_converter_1_1_config.html":[5,10,10,12,0],
-"struct_acts_1_1_surface_material_json_converter_1_1_config.html#a26aeafcf731abf92f10e984ba444b629":[5,10,10,12,0,1],
-"struct_acts_1_1_surface_material_json_converter_1_1_config.html#a8c9fb18605d559a249262e2f1c8a865e":[5,10,10,12,0,2],
-"struct_acts_1_1_surface_material_json_converter_1_1_config.html#af055796674d6a4c92a9b30defbd48197":[5,10,10,12,0,0]
+"struct_acts_1_1_surface_material_json_converter_1_1_config.html#a26aeafcf731abf92f10e984ba444b629":[5,10,10,12,0,1]
 };

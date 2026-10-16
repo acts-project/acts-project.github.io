@@ -1,5 +1,7 @@
 var NAVTREEINDEX57 =
 {
+"struct_acts_1_1_experimental_1_1_gx2f_system.html#ac3d1cda2222b55cb1da5209d19117e81":[5,13,9,8],
+"struct_acts_1_1_experimental_1_1_gx2f_system.html#acad6abb39dd5abdc6e5efc27b3c43a94":[5,13,9,11],
 "struct_acts_1_1_experimental_1_1_gx2f_system.html#af115db6fce3a1fca2db14c230acaa677":[5,13,9,10],
 "struct_acts_1_1_experimental_1_1_hough_exploration_options.html":[6,0,0,1,41],
 "struct_acts_1_1_experimental_1_1_hough_exploration_options.html":[8,0,0,2,41],
@@ -247,7 +249,5 @@ var NAVTREEINDEX57 =
 "struct_acts_1_1_extent_envelope_1_1_arguments.html#ad5d6603a2cb1c8361258e5408f31cee7":[8,0,0,149,0,8],
 "struct_acts_1_1_extent_envelope_1_1_arguments.html#af033ed80aa31142a370491e65847fad6":[6,0,0,144,0,0],
 "struct_acts_1_1_extent_envelope_1_1_arguments.html#af033ed80aa31142a370491e65847fad6":[8,0,0,149,0,0],
-"struct_acts_1_1_extent_envelope_1_1_arguments.html#affa1869cd94c88450e97c88875797e3e":[6,0,0,144,0,2],
-"struct_acts_1_1_extent_envelope_1_1_arguments.html#affa1869cd94c88450e97c88875797e3e":[8,0,0,149,0,2],
-"struct_acts_1_1_finite_state_machine_1_1_terminated.html":[6,0,0,145,0]
+"struct_acts_1_1_extent_envelope_1_1_arguments.html#affa1869cd94c88450e97c88875797e3e":[6,0,0,144,0,2]
 };

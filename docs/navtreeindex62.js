@@ -1,5 +1,7 @@
 var NAVTREEINDEX62 =
 {
+"struct_acts_1_1_navigator_1_1_state.html#a5f1d725fcb85b9096151e055063834ca":[8,0,0,303,2,33],
+"struct_acts_1_1_navigator_1_1_state.html#a7822de5ed85a8a6d7ad32b420cb9e062":[6,0,0,298,2,34],
 "struct_acts_1_1_navigator_1_1_state.html#a7822de5ed85a8a6d7ad32b420cb9e062":[8,0,0,303,2,34],
 "struct_acts_1_1_navigator_1_1_state.html#a7c71be6d954f886c63cb802c96cb6605":[6,0,0,298,2,5],
 "struct_acts_1_1_navigator_1_1_state.html#a7c71be6d954f886c63cb802c96cb6605":[8,0,0,303,2,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX62 =
 "struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html#aa5f4e93ea74dc849b0d5d5ff7df00e0c":[5,13,21,1,3],
 "struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html#ab25cc52eb3038ffc855403a2a0eebb32":[5,3,2,17,1,2],
 "struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html#ab25cc52eb3038ffc855403a2a0eebb32":[5,13,21,1,2],
-"struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html#ae2ed09a3f6ade9ffadd6a1bb25a41968":[5,3,2,17,1,1],
-"struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html#ae2ed09a3f6ade9ffadd6a1bb25a41968":[5,13,21,1,1],
-"struct_acts_1_1_portal_1_1_arguments.html":[6,0,0,329,0]
+"struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html#ae2ed09a3f6ade9ffadd6a1bb25a41968":[5,3,2,17,1,1]
 };
