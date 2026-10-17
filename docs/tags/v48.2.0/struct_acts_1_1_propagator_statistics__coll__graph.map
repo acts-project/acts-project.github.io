@@ -1,0 +1,7 @@
+<map id="Acts::PropagatorStatistics" name="Acts::PropagatorStatistics">
+<area shape="rect" id="Node000001" title="A struct to hold statistics of the propagator." alt="" coords="95,101,284,127"/>
+<area shape="rect" id="Node000002" href="$struct_acts_1_1_stepper_statistics.html" title="A struct to hold statistics of the stepper." alt="" coords="5,5,173,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,38,179,99,175,103,110,42"/>
+<area shape="rect" id="Node000003" href="$struct_acts_1_1_navigator_statistics.html" title="A struct to hold statistics of the navigator." alt="" coords="198,5,381,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="269,42,204,103,200,99,265,38"/>
+</map>

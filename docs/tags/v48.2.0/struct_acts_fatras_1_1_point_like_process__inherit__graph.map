@@ -1,0 +1,5 @@
+<map id="ActsFatras::PointLikeProcess&lt; physics_t, input_particle_selector_t, output_particle_selector_t, child_particle_selector_t &gt;" name="ActsFatras::PointLikeProcess&lt; physics_t, input_particle_selector_t, output_particle_selector_t, child_particle_selector_t &gt;">
+<area shape="rect" id="Node000001" title="A point like simulation process based on a physics model plus selectors." alt="" coords="5,33,280,103"/>
+<area shape="rect" id="Node000002" href="$struct_acts_fatras_1_1_point_like_process.html" title=" " alt="" coords="544,41,792,95"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="294,65,544,65,544,71,294,71"/>
+</map>

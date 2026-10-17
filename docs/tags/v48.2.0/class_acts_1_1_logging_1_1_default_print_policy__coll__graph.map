@@ -1,0 +1,5 @@
+<map id="Acts::Logging::DefaultPrintPolicy" name="Acts::Logging::DefaultPrintPolicy">
+<area shape="rect" id="Node000001" title="default print policy for debug messages" alt="" coords="5,93,200,133"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_logging_1_1_output_print_policy.html" title="abstract base class for printing debug output" alt="" coords="7,5,198,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,59,105,93,100,93,100,59"/>
+</map>

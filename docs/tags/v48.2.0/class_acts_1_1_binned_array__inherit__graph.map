@@ -1,0 +1,11 @@
+<map id="Acts::BinnedArray&lt; T &gt;" name="Acts::BinnedArray&lt; T &gt;">
+<area shape="rect" id="Node000001" title="Pure virtual base class for Binned Array to avoid map searches." alt="" coords="5,95,181,120"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_binned_array_x_d.html" title="Avoiding a map search, the templated BinnedArray class can help ordereing geometrical objects by prov..." alt="" coords="389,5,584,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="129,86,165,70,205,55,298,35,388,23,389,28,299,40,206,61,167,75,132,91"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_binned_array.html" title=" " alt="" coords="412,55,561,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="195,96,412,79,412,84,195,102"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_binned_array.html" title=" " alt="" coords="405,119,568,159"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="176,120,206,123,309,132,405,135,405,141,309,137,205,129,175,125"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_binned_array.html" title=" " alt="" coords="412,183,561,223"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="127,125,164,146,206,163,259,177,313,187,412,198,412,203,312,193,258,183,204,169,162,151,124,130"/>
+</map>

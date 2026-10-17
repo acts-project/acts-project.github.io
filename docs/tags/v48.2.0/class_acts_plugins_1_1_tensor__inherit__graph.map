@@ -1,0 +1,7 @@
+<map id="ActsPlugins::Tensor&lt; T &gt;" name="ActsPlugins::Tensor&lt; T &gt;">
+<area shape="rect" id="Node000001" title="This is a very small, limited class that models a 2D tensor of arbitrary type." alt="" coords="71,5,257,31"/>
+<area shape="rect" id="Node000002" href="$class_acts_plugins_1_1_tensor.html" title=" " alt="" coords="5,101,152,141"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,43,97,103,93,99,143,40"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="176,101,323,141"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="194,37,210,53,242,100,237,103,206,56,190,41"/>
+</map>

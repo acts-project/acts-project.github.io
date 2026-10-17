@@ -1,0 +1,18 @@
+<map id="Acts::VertexFitProblem" name="Acts::VertexFitProblem">
+<area shape="rect" id="Node000001" title="A multi&#45;vertex fit problem." alt="" coords="792,133,963,158"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="450,11,593,51"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="607,43,686,61,769,87,817,108,856,130,854,135,814,113,767,92,685,66,605,48"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="25,13,154,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="168,24,450,27,450,32,167,29"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="413,80,629,120"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="644,113,792,132,791,137,643,118"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="22,133,157,158"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="170,129,197,125,413,105,413,110,198,131,171,134"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="438,144,605,213"/>
+<area shape="poly" id="edge8_Node000008_Node000005" title=" " alt="" coords="127,162,161,177,198,188,260,196,323,198,438,190,438,195,323,203,259,202,197,193,159,182,124,167"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="443,238,599,293"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="612,242,688,221,767,195,851,156,854,161,769,200,690,226,613,247"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="5,253,173,278"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="187,263,443,263,443,268,187,268"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="619,169,768,156,791,153,792,159,768,161,619,174"/>
+</map>

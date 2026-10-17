@@ -1,0 +1,27 @@
+var class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend =
+[
+    [ "Config", "struct_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend_1_1_config.html", "struct_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend_1_1_config" ],
+    [ "LayerSpec", "struct_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend_1_1_layer_spec.html", "struct_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend_1_1_layer_spec" ],
+    [ "AxisDefinition", "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#ac43b3db86335188c64d90361476285c1", null ],
+    [ "DetectorElement", "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#aaca4eb9fb3d2f0bc488bdcf0a6129496", null ],
+    [ "DetectorElementFactory", "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#a0193301c68b6b1810a7ebdfd44cef8b4", null ],
+    [ "DetectorElementPtr", "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#ae077aaf60e36b9c359c4cfd4ffa5d7dd", null ],
+    [ "Element", "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#a48198782c1acc222c7d0ce8d3be0538d", null ],
+    [ "DD4hepBackend", "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#a08f329e53a7fe1f779b065939e4eb5a6", null ],
+    [ "children", "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#aed650873d1e461dea236174e07f73cd6", null ],
+    [ "constant", "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#a413afca7ccda4868372d42ea279b18f2", null ],
+    [ "createDetectorElement", "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#a6f37dd78b70d2d35281852f9ef3fbdc8", null ],
+    [ "defaultElementFactory", "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#a13c3d05478af0620ef613b2738eb220b", null ],
+    [ "isBarrel", "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#a406b4283c3a5e307b5c669375c84af48", null ],
+    [ "isEndcap", "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#a124362f94a91ead669adecb1f2a65892", null ],
+    [ "isSensitive", "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#a90409d88d70e133b3b31a6e784fe0299", null ],
+    [ "isTracker", "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#ad86c57437ca96631be69eea5a160990f", null ],
+    [ "logger", "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#a9600bf329db67cd5f7f1d0b830fa452d", null ],
+    [ "lookupLayerTransform", "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#ac95000e59ef73cc6bea86fbac598f3c8", null ],
+    [ "makeBeampipe", "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#a56e7a733b6934c09b01a8887afb08f4b", null ],
+    [ "makeSurfaces", "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#ac03f7d4d2f0c505da2cb5ca8ebccf2f8", null ],
+    [ "nameOf", "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#a77f4a591e6fb01de96995ebba95f37b7", null ],
+    [ "parent", "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#ae7b210de8b0be1a123b4eb4b0b45988d", null ],
+    [ "world", "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#a9a65cdaca8e407b1d8c022a90eaea6fe", null ],
+    [ "kIdentifier", "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#a0186e43a8a64fa9f927b168e62c9668b", null ]
+];

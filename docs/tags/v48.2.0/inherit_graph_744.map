@@ -1,0 +1,36 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,600,124,625"/>
+<area shape="rect" id="Node000001" href="$struct_acts_1_1_supports_bound_parameters_3_01_eigen_stepper_3_4_01_4.html" title=" " alt="" coords="210,293,441,333"/>
+<area shape="poly" id="edge306_Node000000_Node000001" title=" " alt="" coords="66,586,74,534,92,468,105,434,123,400,144,369,170,343,189,330,209,321,211,326,191,335,174,347,148,373,127,403,110,436,97,470,79,535,71,587"/>
+<area shape="rect" id="Node000007" href="$struct_acts_1_1_supports_bound_parameters_3_01_helix_stepper_01_4.html" title=" " alt="" coords="210,357,441,397"/>
+<area shape="poly" id="edge307_Node000000_Node000007" title=" " alt="" coords="69,586,81,546,101,497,131,448,149,426,170,406,209,387,211,391,174,411,153,429,135,451,106,499,86,547,74,587"/>
+<area shape="rect" id="Node000008" href="$struct_acts_1_1_supports_bound_parameters_3_01_straight_line_stepper_01_4.html" title=" " alt="" coords="210,421,441,461"/>
+<area shape="poly" id="edge308_Node000000_Node000008" title=" " alt="" coords="76,586,112,527,139,496,171,470,209,453,211,458,173,475,143,500,116,530,80,589"/>
+<area shape="rect" id="Node000009" href="$struct_acts_1_1_supports_bound_parameters_3_01_sympy_stepper_01_4.html" title=" " alt="" coords="210,485,441,525"/>
+<area shape="poly" id="edge309_Node000000_Node000009" title=" " alt="" coords="89,589,126,561,171,536,209,522,211,527,173,540,129,565,92,593"/>
+<area shape="rect" id="Node000010" href="$struct_acts_1_1_is_read_only_multi_trajectory_3_01_acts_plugins_1_1_mutable_podio_track_state_container_3_01holder__t_01_4_01_4.html" title=" " alt="" coords="187,549,464,604"/>
+<area shape="poly" id="edge310_Node000000_Node000010" title=" " alt="" coords="138,600,186,593,187,599,138,605"/>
+<area shape="rect" id="Node000011" href="$struct_acts_1_1_is_read_only_multi_trajectory_3_01_vector_multi_trajectory_01_4.html" title=" " alt="" coords="211,629,440,669"/>
+<area shape="poly" id="edge311_Node000000_Node000011" title=" " alt="" coords="138,620,211,630,210,635,138,625"/>
+<area shape="rect" id="Node000012" href="$struct_acts_1_1_is_read_only_track_container_3_01_acts_plugins_1_1_mutable_podio_track_container_3_01holder__t_01_4_01_4.html" title=" " alt="" coords="172,693,479,748"/>
+<area shape="poly" id="edge312_Node000000_Node000012" title=" " alt="" coords="95,631,131,656,173,678,206,691,204,696,171,683,128,660,92,636"/>
+<area shape="rect" id="Node000013" href="$struct_acts_1_1_is_read_only_track_container_3_01_vector_track_container_01_4.html" title=" " alt="" coords="211,773,440,813"/>
+<area shape="poly" id="edge313_Node000000_Node000013" title=" " alt="" coords="79,636,115,699,142,731,173,758,212,776,210,781,171,763,138,735,111,702,74,639"/>
+<area shape="rect" id="Node000014" href="$struct_acts_1_1_supports_bound_parameters.html" title=" " alt="" coords="210,837,441,877"/>
+<area shape="poly" id="edge314_Node000000_Node000014" title=" " alt="" coords="74,638,86,680,105,730,134,781,152,803,174,822,211,842,209,847,170,827,149,807,130,784,100,732,80,681,69,640"/>
+<area shape="rect" id="Node000015" href="$struct_acts_1_1missing__specialization.html" title=" " alt="" coords="222,901,429,941"/>
+<area shape="poly" id="edge315_Node000000_Node000015" title=" " alt="" coords="71,639,78,692,96,759,109,794,126,828,148,860,174,887,197,901,223,911,221,916,194,906,170,891,144,863,122,831,104,796,91,761,73,693,65,639"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="9,268,121,293"/>
+<area shape="poly" id="edge320_Node000002_Node000001" title=" " alt="" coords="134,286,210,296,210,301,134,292"/>
+<area shape="poly" id="edge321_Node000002_Node000007" title=" " alt="" coords="96,299,132,322,173,342,211,354,209,360,171,347,129,326,93,304"/>
+<area shape="poly" id="edge322_Node000002_Node000008" title=" " alt="" coords="82,304,118,357,144,384,173,406,211,423,209,428,171,411,140,388,114,360,77,307"/>
+<area shape="poly" id="edge323_Node000002_Node000009" title=" " alt="" coords="75,306,88,343,108,388,136,433,174,471,211,490,209,494,170,475,132,436,103,391,83,345,70,307"/>
+<area shape="rect" id="Node000003" href="$struct_acts_1_1_is_read_only_multi_trajectory_3_01_acts_plugins_1_1_const_podio_track_state_container_3_01holder__t_01_4_01_4.html" title=" " alt="" coords="195,149,456,204"/>
+<area shape="poly" id="edge316_Node000002_Node000003" title=" " alt="" coords="93,258,129,235,171,214,205,202,207,207,173,219,132,240,96,263"/>
+<area shape="rect" id="Node000004" href="$struct_acts_1_1_is_read_only_multi_trajectory_3_01_const_vector_multi_trajectory_01_4.html" title=" " alt="" coords="211,229,440,269"/>
+<area shape="poly" id="edge317_Node000002_Node000004" title=" " alt="" coords="134,270,210,260,211,265,134,275"/>
+<area shape="rect" id="Node000005" href="$struct_acts_1_1_is_read_only_track_container_3_01_acts_plugins_1_1_const_podio_track_container_3_01holder__t_01_4_01_4.html" title=" " alt="" coords="180,5,471,60"/>
+<area shape="poly" id="edge318_Node000002_Node000005" title=" " alt="" coords="69,254,82,213,102,164,131,113,149,91,170,71,189,58,192,62,174,75,153,94,135,116,106,166,87,215,75,255"/>
+<area shape="rect" id="Node000006" href="$struct_acts_1_1_is_read_only_track_container_3_01_const_vector_track_container_01_4.html" title=" " alt="" coords="211,85,440,125"/>
+<area shape="poly" id="edge319_Node000002_Node000006" title=" " alt="" coords="75,254,111,193,138,161,171,134,209,116,211,121,173,139,142,165,116,196,80,257"/>
+</map>

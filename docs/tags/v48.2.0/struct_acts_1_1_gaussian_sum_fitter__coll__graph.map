@@ -1,0 +1,11 @@
+<map id="Acts::GaussianSumFitter&lt; propagator_t, traj_t &gt;" name="Acts::GaussianSumFitter&lt; propagator_t, traj_t &gt;">
+<area shape="rect" id="Node000001" title="Gaussian Sum Fitter implementation." alt="" coords="851,65,1032,105"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="392,28,597,68"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="612,55,851,75,850,80,611,60"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,35,163,61"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="177,45,392,45,392,51,177,51"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="410,101,579,141"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="593,126,705,127,766,124,826,117,885,103,887,108,827,123,767,129,705,132,593,131"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,109,163,134"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="177,119,410,119,410,124,177,124"/>
+</map>
