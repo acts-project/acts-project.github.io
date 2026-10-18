@@ -1,5 +1,0 @@
-<map id="Acts::CuboidVolumeBuilder" name="Acts::CuboidVolumeBuilder">
-<area shape="rect" id="Node000001" title="This class builds a box detector with a configurable amount of surfaces in it." alt="" coords="11,79,210,104"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_i_tracking_volume_builder.html" title="Interface class ITrackingVolumeBuilders." alt="" coords="5,5,216,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,44,113,79,108,79,108,44"/>
-</map>

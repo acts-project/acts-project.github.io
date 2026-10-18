@@ -1,7 +1,0 @@
-<map id="Acts::AxisSpec::VariableParams" name="Acts::AxisSpec::VariableParams">
-<area shape="rect" id="Node000001" title="Parameters for a variable axis with absolute bin edges." alt="" coords="5,197,184,237"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="12,101,177,127"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,141,97,197,92,197,92,141"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="30,5,159,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="97,45,97,101,92,101,92,45"/>
-</map>

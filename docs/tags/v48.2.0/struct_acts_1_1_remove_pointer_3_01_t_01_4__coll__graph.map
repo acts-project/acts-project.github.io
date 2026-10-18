@@ -1,5 +1,0 @@
-<map id="Acts::RemovePointer&lt; T &gt;" name="Acts::RemovePointer&lt; T &gt;">
-<area shape="rect" id="Node000001" title="This specialization allows std::remove_pointer to work with types satisfying Acts::SmartPointerConcep..." alt="" coords="5,101,201,127"/>
-<area shape="rect" id="Node000002" href="$struct_acts_1_1_remove_pointer.html" title="Introduce the Acts version of the pointer remove type trait because we want to fetch the underlying t..." alt="" coords="5,5,201,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,45,106,101,101,101,101,45"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="Acts::Experimental::Histogram&lt; Dim &gt;" name="Acts::Experimental::Histogram&lt; Dim &gt;">
-<area shape="rect" id="Node000001" title="Multi&#45;dimensional histogram wrapper using boost::histogram for data collection." alt="" coords="5,69,160,109"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_experimental_1_1_histogram.html" title=" " alt="" coords="255,5,400,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="168,63,183,59,254,41,255,46,185,64,169,68"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_experimental_1_1_histogram.html" title=" " alt="" coords="255,69,400,109"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="174,87,254,87,254,92,174,92"/>
-<area shape="rect" id="Node000004" href="$class_acts_1_1_experimental_1_1_histogram.html" title=" " alt="" coords="255,133,400,173"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="169,111,185,115,255,133,254,138,183,120,168,116"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="Acts::ConvexPolygonBounds&lt; N &gt;" name="Acts::ConvexPolygonBounds&lt; N &gt;">
-<area shape="rect" id="Node000001" title="This is the actual implementation of the bounds." alt="" coords="5,225,252,251"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_convex_polygon_bounds_base.html" title="base class for convex polygon bounds" alt="" coords="9,152,248,177"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,191,131,225,126,225,126,191"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_planar_bounds.html" title="common base class for all bounds that are in a local x/y cartesian frame" alt="" coords="55,79,202,104"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="131,118,131,152,126,152,126,118"/>
-<area shape="rect" id="Node000004" href="$class_acts_1_1_surface_bounds.html" title="Interface for surface bounds." alt="" coords="51,5,206,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="131,44,131,79,126,79,126,44"/>
-</map>

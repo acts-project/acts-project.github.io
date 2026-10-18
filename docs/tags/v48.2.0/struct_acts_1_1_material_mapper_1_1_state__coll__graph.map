@@ -1,7 +1,0 @@
-<map id="Acts::MaterialMapper::State" name="Acts::MaterialMapper::State">
-<area shape="rect" id="Node000001" title="nested state struct" alt="" coords="34,267,195,307"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,121,224,176"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,190,117,266,112,266,112,190"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="36,5,193,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="117,44,117,121,112,121,112,44"/>
-</map>

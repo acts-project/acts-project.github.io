@@ -1,5 +1,0 @@
-<map id="Acts::Experimental::CompositeSpacePointLineFitter::FitResult&lt; Cont_t &gt;" name="Acts::Experimental::CompositeSpacePointLineFitter::FitResult&lt; Cont_t &gt;">
-<area shape="rect" id="Node000001" title="Fit parameters together with the calibrated measurements." alt="" coords="5,108,239,163"/>
-<area shape="rect" id="Node000002" href="$struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html" title="Auxiliary object to store the fitted parameters, covariance, the chi2 / nDoF &amp; the number of required..." alt="" coords="5,5,239,60"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,74,125,108,119,108,119,74"/>
-</map>

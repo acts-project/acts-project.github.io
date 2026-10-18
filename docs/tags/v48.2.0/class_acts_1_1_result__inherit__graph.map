@@ -1,9 +1,0 @@
-<map id="Acts::Result&lt; T, E &gt;" name="Acts::Result&lt; T, E &gt;">
-<area shape="rect" id="Node000001" title="Class which encapsulates either a valid result, or an error." alt="" coords="5,107,159,133"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_result.html" title=" " alt="" coords="417,27,679,67"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,99,148,85,182,73,241,61,302,52,417,44,417,49,302,58,242,66,183,79,150,90,119,104"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="457,93,639,147"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="173,117,457,117,457,123,173,123"/>
-<area shape="rect" id="Node000004" href="$class_acts_1_1_result_3_01void_00_01_e_01_4.html" title="Template specialization for the void case." alt="" coords="461,171,635,197"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="136,134,183,145,330,166,461,177,461,182,329,171,182,151,135,139"/>
-</map>

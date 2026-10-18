@@ -1,5 +1,0 @@
-<map id="Acts::GeometryObject" name="Acts::GeometryObject">
-<area shape="rect" id="Node000001" title="Base class to provide GeometryIdentifier interface:" alt="" coords="13,101,179,127"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_geometry_identifier.html" title="Identifier for geometry nodes within the geometry hierarchy." alt="" coords="5,5,187,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,45,99,101,93,101,93,45"/>
-</map>
