@@ -338,8 +338,8 @@ requires (!<a class="el" href="#a9842c1a3fb418179d94a69c77ac72fda">ReadOnly</a>)
 requires (!<a class="el" href="#a9842c1a3fb418179d94a69c77ac72fda">ReadOnly</a>)</td></tr>
 <tr class="memitem:a0f7131b2aa3036dfab53a5299695dce0 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f7131b2aa3036dfab53a5299695dce0">copyFromShallow</a> (const track_proxy_t &amp;other)</td></tr>
 <tr class="memdesc:a0f7131b2aa3036dfab53a5299695dce0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a shallow copy from another track, sharing the same track states.  <br /></td></tr>
-<tr class="memitem:a513c1a064775db25e7f6bdf8de92eac8" id="r_a513c1a064775db25e7f6bdf8de92eac8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a513c1a064775db25e7f6bdf8de92eac8">reverseTrackStates</a> (bool invertJacobians=false)</td></tr>
-<tr class="memdesc:a513c1a064775db25e7f6bdf8de92eac8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reverse the ordering of track states for this track Afterwards, the previous endpoint of the track state sequence will be the "innermost" track state.  <br /></td></tr>
+<tr class="memitem:ab225c849bd0489220f2d8dbe60d2ef26" id="r_ab225c849bd0489220f2d8dbe60d2ef26"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="namespace_acts.html#aec0a40be468eddaf61a46560269bd97e">BoundMatrix</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab225c849bd0489220f2d8dbe60d2ef26">reverseTrackStates</a> (bool invertJacobians=false)</td></tr>
+<tr class="memdesc:ab225c849bd0489220f2d8dbe60d2ef26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reverse the ordering of track states for this track Afterwards, the previous endpoint of the track state sequence will be the "innermost" track state.  <br /></td></tr>
 <tr id="pub-methods-4" class="groupHeader"><td colspan="2"><div class="groupHeader">TrackProxy generic component access</div></td></tr>
 <tr><td colspan="2" class="ititle"><div class="groupText"><p><a class="anchor" id="track_proxy_generic_component"></a> Methods that give access to generic components of a track represented by <code>TrackProxy</code>.</p>
 <p>Internally, a compile-time hash of the component name is used to identify which component is being requested. Most of the named methods in <a class="el" href="#track_proxy_props">TrackProxy properties</a> use these methods to retrieve the actual data.</p>
@@ -2166,8 +2166,8 @@ template&lt;typename track_container_t, typename trajectory_t, template&lt; type
 
 </div>
 </div>
-<a id="a513c1a064775db25e7f6bdf8de92eac8" name="a513c1a064775db25e7f6bdf8de92eac8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a513c1a064775db25e7f6bdf8de92eac8">&#9670;&#160;</a></span>reverseTrackStates()</h2>
+<a id="ab225c849bd0489220f2d8dbe60d2ef26" name="ab225c849bd0489220f2d8dbe60d2ef26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab225c849bd0489220f2d8dbe60d2ef26">&#9670;&#160;</a></span>reverseTrackStates()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2175,7 +2175,7 @@ template&lt;typename track_container_t, typename trajectory_t, template&lt; type
 template&lt;typename track_container_t, typename trajectory_t, template&lt; typename &gt; class holder_t, bool read_only = true&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="class_acts_1_1_track_proxy.html">Acts::TrackProxy</a>&lt; track_container_t, trajectory_t, holder_t, read_only &gt;::reverseTrackStates </td>
+          <td class="memname">std::optional&lt; <a class="el" href="namespace_acts.html#aec0a40be468eddaf61a46560269bd97e">BoundMatrix</a> &gt; <a class="el" href="class_acts_1_1_track_proxy.html">Acts::TrackProxy</a>&lt; track_container_t, trajectory_t, holder_t, read_only &gt;::reverseTrackStates </td>
           <td>(</td>
           <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>invertJacobians</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span></td><td>)</td>
           <td></td>
@@ -2195,6 +2195,7 @@ This also automatically forward-links the track! </dd></dl>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>With <code class="param">invertJacobians</code>, the inverse of the old first jacobian, which has no slot in the reversed sequence. Empty otherwise, for a track without states, or if that jacobian is zero. </dd></dl>
 
 </div>
 </div>
