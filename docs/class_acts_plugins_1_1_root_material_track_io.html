@@ -152,6 +152,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aab564d887e75a0e4efccb55aa3ee8d7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the material track from the tree.  <br /></td></tr>
 <tr class="memitem:a9c91326a6f55098352f10624359a9b41" id="r_a9c91326a6f55098352f10624359a9b41"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c91326a6f55098352f10624359a9b41">write</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, std::uint32_t eventNum, const <a class="el" href="namespace_acts.html#a7c52cf739300a2e3988b6fbea63e17dd">Acts::RecordedMaterialTrack</a> &amp;materialTrack)</td></tr>
 <tr class="memdesc:a9c91326a6f55098352f10624359a9b41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write the material track to the tree.  <br /></td></tr>
+<tr class="memitem:a1c579da13baacfeccb53f5276ae870ea" id="r_a1c579da13baacfeccb53f5276ae870ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c579da13baacfeccb53f5276ae870ea">write</a> (std::uint32_t eventNum, const <a class="el" href="namespace_acts.html#a7c52cf739300a2e3988b6fbea63e17dd">Acts::RecordedMaterialTrack</a> &amp;materialTrack)</td></tr>
+<tr class="memdesc:a1c579da13baacfeccb53f5276ae870ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write the material track to the tree, without a geometry context.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Simple payload class that can be wrapped for reading and writing. </p>
@@ -280,7 +282,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a9c91326a6f55098352f10624359a9b41" name="a9c91326a6f55098352f10624359a9b41"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c91326a6f55098352f10624359a9b41">&#9670;&#160;</a></span>write()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c91326a6f55098352f10624359a9b41">&#9670;&#160;</a></span>write() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -309,6 +311,44 @@ Public Member Functions</h2></td></tr>
     <tr><td class="paramname">gctx</td><td>the geometry context </td></tr>
     <tr><td class="paramname">eventNum</td><td>the event number to write </td></tr>
     <tr><td class="paramname">materialTrack</td><td>the material track to be written out</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>the caller has to do the TTree::Fill() after this call </dd></dl>
+
+</div>
+</div>
+<a id="a1c579da13baacfeccb53f5276ae870ea" name="a1c579da13baacfeccb53f5276ae870ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c579da13baacfeccb53f5276ae870ea">&#9670;&#160;</a></span>write() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ActsPlugins::RootMaterialTrackIo::write </td>
+          <td>(</td>
+          <td class="paramtype">std::uint32_t</td>          <td class="paramname"><span class="paramname"><em>eventNum</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_acts.html#a7c52cf739300a2e3988b6fbea63e17dd">Acts::RecordedMaterialTrack</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>materialTrack</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Write the material track to the tree, without a geometry context. </p>
+<p>For material tracks that are not associated to a geometry, e.g. straight from a Geant4 material recording. Without a geometry context, no surface information can be computed.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">eventNum</td><td>the event number to write </td></tr>
+    <tr><td class="paramname">materialTrack</td><td>the material track to be written out</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::invalid_argument</td><td>if configured to store surface information</td></tr>
   </table>
   </dd>
 </dl>

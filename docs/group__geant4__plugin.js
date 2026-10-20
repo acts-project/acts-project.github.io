@@ -44,6 +44,16 @@ var group__geant4__plugin =
       [ "material", "struct_acts_plugins_1_1_geant4_material_converter.html#aa24e85c5071d46b6c5a2f491784e9a0f", null ],
       [ "surfaceMaterial", "struct_acts_plugins_1_1_geant4_material_converter.html#a4503d1a5ec2770e611200d5ec425d39d", null ]
     ] ],
+    [ "ActsPlugins::Geant4MaterialStepConverter", "class_acts_plugins_1_1_geant4_material_step_converter.html", [
+      [ "Config", "struct_acts_plugins_1_1_geant4_material_step_converter_1_1_config.html", [
+        [ "excludeMaterials", "struct_acts_plugins_1_1_geant4_material_step_converter_1_1_config.html#a0f608bf8e5cd18d632cf417d08a3ed66", null ],
+        [ "recordElementFractions", "struct_acts_plugins_1_1_geant4_material_step_converter_1_1_config.html#a36638771047c459652532a9a623115cb", null ]
+      ] ],
+      [ "Geant4MaterialStepConverter", "class_acts_plugins_1_1_geant4_material_step_converter.html#ae8873b6dcf7e6076ed55123941ebc0c4", null ],
+      [ "addStep", "class_acts_plugins_1_1_geant4_material_step_converter.html#a5d1ef65c75aada3ed00e7f90b045d1e0", null ],
+      [ "config", "class_acts_plugins_1_1_geant4_material_step_converter.html#afa42bc7202b636fe6cdfa9bdf50cadcb", null ],
+      [ "startTrack", "class_acts_plugins_1_1_geant4_material_step_converter.html#a71662659617a321ddc2ce5c1d9d8add4", null ]
+    ] ],
     [ "ActsPlugins::Geant4PhysicalVolumeConverter", "struct_acts_plugins_1_1_geant4_physical_volume_converter.html", [
       [ "surface", "struct_acts_plugins_1_1_geant4_physical_volume_converter.html#a8fd76a901060cfabb638bdd0d55df423", null ],
       [ "forcedType", "struct_acts_plugins_1_1_geant4_physical_volume_converter.html#a70216c0f1b077c56586d4111134b4336", null ]

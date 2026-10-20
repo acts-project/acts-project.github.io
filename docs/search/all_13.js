@@ -51,7 +51,7 @@ var searchData=
   ['oppositenormal_48',['oppositeNormal',['../struct_acts_1_1_portal_1_1_arguments.html#aee2980b63577ef90a886ee838ea32189',1,'Acts::Portal::Arguments']]],
   ['option_49',['option',['../class_acts_1_1_binning_data.html#ad8e8129f36bfeed6973875d1316dd69e',1,'Acts::BinningData']]],
   ['optional_50',['Install Go pprof (Optional)',['../howto_profiling.html#autotoc_md92',1,'']]],
-  ['optional_20quantization_51',['Optional quantization',['../material_map_json_schema.html#autotoc_md144',1,'']]],
+  ['optional_20quantization_51',['Optional quantization',['../material_map_json_schema.html#autotoc_md145',1,'']]],
   ['optionalbound_52',['optionalBound',['../struct_acts_plugins_1_1_svg_1_1_grid_converter_1_1_options.html#a3f9dbb831a713b84ee7417d376f1d53e',1,'ActsPlugins::Svg::GridConverter::Options']]],
   ['optionalcuts_53',['OptionalCuts',['../struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#aff0a092a21d36d86a9e2ec11def3a5f9',1,'Acts::ScoreBasedAmbiguityResolution::Optionals']]],
   ['optionalhitselection_54',['OptionalHitSelection',['../struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#ac2d0b37a730b684df9772face98d746e',1,'Acts::ScoreBasedAmbiguityResolution::Optionals']]],

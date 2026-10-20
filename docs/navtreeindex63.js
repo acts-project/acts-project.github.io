@@ -1,5 +1,11 @@
 var NAVTREEINDEX63 =
 {
+"struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_poly_data.html#a8b1fa4073d4158945aeae130759d6428":[5,3,2,17,0,0],
+"struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_poly_data.html#a8b1fa4073d4158945aeae130759d6428":[5,13,21,0,0],
+"struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_poly_data.html#a9b7b9f2b418d7d12bdabba3f2dde0367":[5,3,2,17,0,2],
+"struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_poly_data.html#a9b7b9f2b418d7d12bdabba3f2dde0367":[5,13,21,0,2],
+"struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_poly_data.html#ac159d9ab07f57ffa11ff84ce45459a9d":[5,3,2,17,0,1],
+"struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_poly_data.html#ac159d9ab07f57ffa11ff84ce45459a9d":[5,13,21,0,1],
 "struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html":[5,3,2,17,1],
 "struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html":[5,13,21,1],
 "struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html#a2f66985790d2644237855ed234c6f7f3":[5,3,2,17,1,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX63 =
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#ab41d348f831a8e348516de3e6a354a3c":[6,0,0,361,2,4],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#ab41d348f831a8e348516de3e6a354a3c":[8,0,0,366,2,4],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#abbaeb9d714a611f67e9e147dcc14fe8a":[6,0,0,361,2,5],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#abbaeb9d714a611f67e9e147dcc14fe8a":[8,0,0,366,2,5],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#ac2d0b37a730b684df9772face98d746e":[6,0,0,361,2,1],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#ac2d0b37a730b684df9772face98d746e":[8,0,0,366,2,1],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#ad833f6ca372dd94592330cfafb07a61d":[6,0,0,361,2,2],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#ad833f6ca372dd94592330cfafb07a61d":[8,0,0,366,2,2],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#aeebe57c5c03a5abb1e7929909c492fd3":[6,0,0,361,2,3],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#aeebe57c5c03a5abb1e7929909c492fd3":[8,0,0,366,2,3]
+"struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#abbaeb9d714a611f67e9e147dcc14fe8a":[8,0,0,366,2,5]
 };

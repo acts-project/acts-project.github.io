@@ -7,5 +7,6 @@ var class_acts_plugins_1_1_root_material_track_io =
     [ "connectForWrite", "class_acts_plugins_1_1_root_material_track_io.html#acbf071a0e59326daa8991505b46d6c76", null ],
     [ "eventId", "class_acts_plugins_1_1_root_material_track_io.html#a5083916179974d304713b5deee66401e", null ],
     [ "read", "class_acts_plugins_1_1_root_material_track_io.html#aab564d887e75a0e4efccb55aa3ee8d7c", null ],
-    [ "write", "class_acts_plugins_1_1_root_material_track_io.html#a9c91326a6f55098352f10624359a9b41", null ]
+    [ "write", "class_acts_plugins_1_1_root_material_track_io.html#a9c91326a6f55098352f10624359a9b41", null ],
+    [ "write", "class_acts_plugins_1_1_root_material_track_io.html#a1c579da13baacfeccb53f5276ae870ea", null ]
 ];

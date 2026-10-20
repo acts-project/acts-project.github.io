@@ -1044,6 +1044,8 @@ var hierarchy =
     [ "ActsPlugins::Geant4DetectorSurfaceFactory::Config", "struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_config.html", null ],
     [ "ActsPlugins::Geant4DetectorSurfaceFactory::Options", "struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html", null ],
     [ "ActsPlugins::Geant4MaterialConverter", "struct_acts_plugins_1_1_geant4_material_converter.html", null ],
+    [ "ActsPlugins::Geant4MaterialStepConverter", "class_acts_plugins_1_1_geant4_material_step_converter.html", null ],
+    [ "ActsPlugins::Geant4MaterialStepConverter::Config", "struct_acts_plugins_1_1_geant4_material_step_converter_1_1_config.html", null ],
     [ "ActsPlugins::Geant4PhysicalVolumeConverter", "struct_acts_plugins_1_1_geant4_physical_volume_converter.html", null ],
     [ "ActsPlugins::Geant4ShapeConverter", "struct_acts_plugins_1_1_geant4_shape_converter.html", null ],
     [ "ActsPlugins::Geant4VolumeConverter", "struct_acts_plugins_1_1_geant4_volume_converter.html", null ],

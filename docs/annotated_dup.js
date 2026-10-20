@@ -734,6 +734,7 @@ var annotated_dup =
       [ "Geant4DetectorElement", "class_acts_plugins_1_1_geant4_detector_element.html", "class_acts_plugins_1_1_geant4_detector_element" ],
       [ "Geant4DetectorSurfaceFactory", "class_acts_plugins_1_1_geant4_detector_surface_factory.html", "class_acts_plugins_1_1_geant4_detector_surface_factory" ],
       [ "Geant4MaterialConverter", "struct_acts_plugins_1_1_geant4_material_converter.html", "struct_acts_plugins_1_1_geant4_material_converter" ],
+      [ "Geant4MaterialStepConverter", "class_acts_plugins_1_1_geant4_material_step_converter.html", "class_acts_plugins_1_1_geant4_material_step_converter" ],
       [ "Geant4PhysicalVolumeConverter", "struct_acts_plugins_1_1_geant4_physical_volume_converter.html", "struct_acts_plugins_1_1_geant4_physical_volume_converter" ],
       [ "Geant4ShapeConverter", "struct_acts_plugins_1_1_geant4_shape_converter.html", "struct_acts_plugins_1_1_geant4_shape_converter" ],
       [ "Geant4VolumeConverter", "struct_acts_plugins_1_1_geant4_volume_converter.html", "struct_acts_plugins_1_1_geant4_volume_converter" ],

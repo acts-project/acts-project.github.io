@@ -262,7 +262,15 @@ Step 2: record the material with Geant4</h2>
 <div class="fragment"><div class="line">python Examples/Scripts/Python/material_recording.py -n 1000 -t 1000 -o mydet_geant4</div>
 </div><!-- fragment --><p>Shoots geantinos through the <em>detailed</em> geometry and records what they traverse, into <span class="tt">mydet_geant4.root</span>. <span class="tt">-n</span> is events, <span class="tt">-t</span> is tracks per event, so the above is a million tracks; <span class="tt">--eta-range</span> and <span class="tt">--phi-range</span> restrict the solid angle.</p>
 <p>This step is independent of your surface choices — you only need to redo it if the detailed geometry changes, not when you retune binning. It is by far the slowest step, so record generously once and reuse the file.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md126"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md126"></a>
+Recording a DD4hep detector with ddsim</h3>
+<p>For a DD4hep detector, the recording can also run directly in <span class="tt">ddsim</span>, on the same Geant4 geometry DDG4 builds for the full simulation. Two DDG4 actions in the <span class="tt">ActsPluginDD4hepGeant4</span> library do this: the <span class="tt">ActsMaterialRecorder</span> stepping action collects the material tracks, and the <span class="tt">ActsMaterialTrackWriter</span> event action writes them in the same file format as above. The library is built when both the DD4hep and the Geant4 plugins are enabled and DD4hep comes with DDG4. With it on <span class="tt">LD_LIBRARY_PATH</span>, e.g. after sourcing <span class="tt">this_acts.sh</span>:</p>
+<div class="fragment"><div class="line">ddsim --steeringFile Examples/Scripts/Python/material_recording_ddsim.py \</div>
+<div class="line">      --compactFile mydet.xml -N 1000 --outputFile mydet_geant4.root</div>
+</div><!-- fragment --><p>The steering file shoots 1000 geantinos per event, uniform in \(|\eta| &lt; 4\); the gun can be adjusted on the command line, e.g. with <span class="tt">--gun.multiplicity</span>, <span class="tt">--gun.etaMin</span> and <span class="tt">--gun.etaMax</span>. With <span class="tt">--numberOfThreads</span>, which <span class="tt">ddsim</span> offers from DD4hep 1.38, all threads write into the single output file. Every simulated track gets an entry, also if it crosses no recorded material.</p>
+<p>The mapping assigns every recorded step to a surface, so material beyond the outermost material surfaces, e.g. in the calorimeters, ends up on them. To avoid this, limit the recording to a cylinder around the beam axis, e.g. at the calorimeter face, with <span class="tt">--outputConfig.recordingMaxR</span>, <span class="tt">--outputConfig.recordingMinZ</span> and <span class="tt">--outputConfig.recordingMaxZ</span> in mm. The z range does not need to be symmetric, and a bound that is not given does not limit the recording. Tracks are stopped where they leave the cylinder, and the step that crosses its boundary is cut there, which also makes the recording faster.</p>
+<p>To compare two recordings track by track, they need the same geantinos. For example, add a <span class="tt">HepMC3Writer</span> for the generated event to <span class="tt">material_recording.py</span>, and replay the resulting HepMC3 file in <span class="tt">ddsim</span> with <span class="tt">--inputFiles</span> instead of the particle gun, by setting <span class="tt">SIM.enableGun = False</span> in a copy of the steering file.</p>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md127"></a>
 Step 3: run the mapping</h2>
 <div class="fragment"><div class="line">python Examples/Scripts/Python/material_mapping.py \</div>
 <div class="line">    -n 1000000 -i mydet_geant4.root --matconfig geometry-map.json -o mydet_material</div>
@@ -284,7 +292,7 @@ Step 3: run the mapping</h2>
 <td class="markdownTableBodyNone"><span class="tt">mydet_material_unmapped.root</span>  </td><td class="markdownTableBodyNone">recorded interactions that did not  </td></tr>
 </table>
 <p><span class="tt">_unmapped.root</span> is the one to look at when something is wrong. A large unmapped fraction means the material had nowhere to go — see <a class="el" href="#material_mapping_howto_troubleshooting">Troubleshooting</a>.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md127"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md128"></a>
 Step 4: use the map</h2>
 <div class="fragment"><div class="line"><span class="keyword">import</span> acts</div>
 <div class="line"><span class="keyword">from</span> acts.examples.odd <span class="keyword">import</span> getOpenDataDetectorDirectory, getOpenDataDetector</div>
@@ -297,7 +305,7 @@ Step 4: use the map</h2>
 <div class="line">trackingGeometry = detector.trackingGeometry()</div>
 </div><!-- fragment --><p>Substitute your own detector and the map you just produced. This snippet comes from <span class="tt">docs/examples/test_material_map.py</span>, which runs as part of the pytest suite.</p>
 <p><span class="tt">.json</span>, <span class="tt">.cbor</span> and <span class="tt">.root</span> are all accepted. This is exactly how the ODD picks up <span class="tt">data/odd-material-maps.root</span> by default.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md128"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md129"></a>
 Step 5: validate</h2>
 <div class="fragment"><div class="line">python Examples/Scripts/Python/material_validation.py \</div>
 <div class="line">    -n 1000 -t 1000 -m mydet_material_map.root -o mydet_validated -p</div>
@@ -312,7 +320,7 @@ Step 5: validate</h2>
 <img src="overlay_profile_ratio_v_eta_t_X0.png" alt=""/>
 <div class="caption">
 Overlay and ratio for material profiles.</div></div>
-    <h2 class="doxsection"><a class="anchor" id="autotoc_md129"></a>
+    <h2 class="doxsection"><a class="anchor" id="autotoc_md130"></a>
 Tuning</h2>
 <p>Iterating on binning does <b>not</b> require re-recording. Edit <span class="tt">config-map.json</span>, re-run <span class="tt">configureMap.py</span> and step 3 against the same recorded file.</p>
 <p>Rules of thumb:</p>
@@ -322,20 +330,20 @@ Tuning</h2>
 <li>Check <span class="tt">_unmapped.root</span> after every change, not just at the end.</li>
 </ul>
 <p><a class="anchor" id="material_mapping_howto_limits"></a></p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md130"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md131"></a>
 Limitations you should know about</h2>
 <p>These are properties of the current navigation-less mapper, not of your setup.</p>
 <p><b>Volume material is not produced.</b> <a class="el" href="class_acts_1_1_material_mapper.html">Acts::MaterialMapper</a> retrieves volume assignments from the assignment finder and then discards them; only surface material is accumulated, and <span class="tt">finalizeMaps()</span> returns an empty volume map (<span class="tt">Core/src/Material/MaterialMapper.cpp</span>). ACTS currently has no way to map volume material.</p>
 <p><b><span class="tt">mappingType</span> is not honoured.</b> The <span class="tt">"mappingType"</span> key round-trips through the JSON and is stored on the material, but the current assignment does plain nearest-intersection matching — its own comment says <em>"no pre/post matching"</em> (<span class="tt">Core/src/Material/MaterialInteractionAssignment.cpp</span>). <span class="tt">PreMapping</span>, <span class="tt">PostMapping</span> and <span class="tt">Sensor</span> have no effect. To steer assignment, use the <span class="tt">globalVetos</span>, <span class="tt">localVetos</span> and <span class="tt">reAssignments</span> hooks in <a class="el" href="struct_acts_1_1_material_interaction_assignment_1_1_options.html">Acts::MaterialInteractionAssignment::Options</a>.</p>
 <p><a class="anchor" id="material_mapping_howto_troubleshooting"></a></p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md131"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md132"></a>
 Troubleshooting</h2>
 <p><b>Everything lands in <span class="tt">_unmapped.root</span>.</b> Nothing was designated. On Gen1, confirm that <span class="tt">geometry-map.json</span> actually contains <span class="tt">"mapMaterial": true</span> somewhere — if you forgot <span class="tt">processNonMaterial=True</span> in step 1a, or forgot to run <span class="tt">configureMap.py</span> in step 1d, the file will be syntactically fine and semantically empty. On Gen3, check that you are not passing <span class="tt">--matconfig</span> and expecting it to do something: blueprint geometry ignores decorators, so the designation has to be in the blueprint itself.</p>
 <p><b>Gen3 construction throws on a material merge.</b> A designated portal face is being merged during container stacking. Move the designation outward to the enclosing container's face rather than reaching for <span class="tt">keepGoingOnMaterialMergeFailure</span>, which discards the material.</p>
 <p><b>The map is full of empty bins.</b> Too fine a binning for the number of recorded tracks. Coarsen it, or record more.</p>
 <p><b>Material appears on the wrong surface.</b> Expected when candidate surfaces are close together: assignment picks the nearest intersection with no notion of "before" or "after". Use <span class="tt">material_mapping_check.py</span> to see the assignment distances, and the veto/re-assignment hooks to correct specific surfaces.</p>
 <p><b>Validation disagrees with Geant4, but only with <span class="tt">-p</span>.</b> That is navigation, not mapping. The mapped material is fine; the navigator is not finding all of it.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md132"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md133"></a>
 Worked example, and the tests that guard this</h2>
 <p><span class="tt">Python/Examples/tests/test_material_mapping.py</span> runs the whole chain against the ODD and is the most reliable executable reference for it. The ODD itself ships a finished map at <span class="tt">data/odd-material-maps.root</span>.</p>
 <p>The chain is additionally guarded by tests in <span class="tt">Python/Examples/tests</span>:</p>
