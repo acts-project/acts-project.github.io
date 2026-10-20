@@ -150,8 +150,8 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>AveragingScopedTimer</b> (const AveragingScopedTimer &amp;)=delete</td></tr>
 <tr class="memitem:a45d630a6bfc57e5ac4e9b855b350da7f" id="r_a45d630a6bfc57e5ac4e9b855b350da7f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45d630a6bfc57e5ac4e9b855b350da7f">AveragingScopedTimer</a> (const std::string &amp;name, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger, <a class="el" href="group__logging.html#ga9b12dd924a4bd3aed921a33779ece95b">Logging::Level</a> lvl=<a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Logging::Level::INFO</a>)</td></tr>
 <tr class="memdesc:a45d630a6bfc57e5ac4e9b855b350da7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new AveragingScopedTimer.  <br /></td></tr>
-<tr class="memitem:ae97172fd736ca4ed1083f0c7bb1d70d2" id="r_ae97172fd736ca4ed1083f0c7bb1d70d2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae97172fd736ca4ed1083f0c7bb1d70d2">~AveragingScopedTimer</a> ()</td></tr>
-<tr class="memdesc:ae97172fd736ca4ed1083f0c7bb1d70d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy the AveragingScopedTimer and log statistics.  <br /></td></tr>
+<tr class="memitem:adb794f8c3a9f0ef4915292e06ad17b02" id="r_adb794f8c3a9f0ef4915292e06ad17b02"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb794f8c3a9f0ef4915292e06ad17b02">~AveragingScopedTimer</a> () noexcept</td></tr>
+<tr class="memdesc:adb794f8c3a9f0ef4915292e06ad17b02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy the AveragingScopedTimer and log statistics.  <br /></td></tr>
 <tr class="memitem:ab8c4ce7e6865cd53071bab1d15778f14" id="r_ab8c4ce7e6865cd53071bab1d15778f14"><td class="memItemLeft" align="right" valign="top"><a id="ab8c4ce7e6865cd53071bab1d15778f14" name="ab8c4ce7e6865cd53071bab1d15778f14"></a>
 <a class="el" href="#a45d630a6bfc57e5ac4e9b855b350da7f">AveragingScopedTimer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (<a class="el" href="#a45d630a6bfc57e5ac4e9b855b350da7f">AveragingScopedTimer</a> &amp;&amp;)=delete</td></tr>
 <tr class="memitem:aabd768b0ef0bce606bd1c4d6b423547f" id="r_aabd768b0ef0bce606bd1c4d6b423547f"><td class="memItemLeft" align="right" valign="top"><a id="aabd768b0ef0bce606bd1c4d6b423547f" name="aabd768b0ef0bce606bd1c4d6b423547f"></a>
@@ -161,7 +161,8 @@ Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A timer class that measures and averages execution times of multiple samples. </p>
-<p>This class provides functionality to measure execution times of code blocks and calculate statistics (mean, standard deviation) across multiple samples. It uses RAII through the Sample class to automatically record timing information. </p>
+<p>This class provides functionality to measure execution times of code blocks and calculate statistics (mean, standard deviation) across multiple samples. It uses RAII through the Sample class to automatically record timing information.</p>
+<p>All samples must be destroyed before this timer. When recording samples on other threads, synchronize their completion (for example, by joining the threads) before destroying the timer. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a45d630a6bfc57e5ac4e9b855b350da7f" name="a45d630a6bfc57e5ac4e9b855b350da7f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a45d630a6bfc57e5ac4e9b855b350da7f">&#9670;&#160;</a></span>AveragingScopedTimer()</h2>
@@ -207,11 +208,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ae97172fd736ca4ed1083f0c7bb1d70d2" name="ae97172fd736ca4ed1083f0c7bb1d70d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae97172fd736ca4ed1083f0c7bb1d70d2">&#9670;&#160;</a></span>~AveragingScopedTimer()</h2>
+<a id="adb794f8c3a9f0ef4915292e06ad17b02" name="adb794f8c3a9f0ef4915292e06ad17b02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb794f8c3a9f0ef4915292e06ad17b02">&#9670;&#160;</a></span>~AveragingScopedTimer()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">Acts::AveragingScopedTimer::~AveragingScopedTimer </td>
@@ -220,10 +224,15 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Destroy the AveragingScopedTimer and log statistics. </p>
-<p>Outputs total duration and per-sample statistics (mean ± stddev) if logging is enabled at the configured level. </p>
+<p>Outputs total duration and per-sample statistics (mean ± stddev) if logging is enabled at the configured level. Exceptions from formatting or logging terminate the process. </p>
 
 </div>
 </div>

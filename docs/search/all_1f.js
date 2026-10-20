@@ -1,7 +1,7 @@
 var searchData=
 [
   ['_7eaccumulatedsurfacematerial_0',['~AccumulatedSurfaceMaterial',['../class_acts_1_1_accumulated_surface_material.html#a4b4d98366b9052be614ae2895dd4de15',1,'Acts::AccumulatedSurfaceMaterial']]],
-  ['_7eaveragingscopedtimer_1',['~AveragingScopedTimer',['../class_acts_1_1_averaging_scoped_timer.html#ae97172fd736ca4ed1083f0c7bb1d70d2',1,'Acts::AveragingScopedTimer']]],
+  ['_7eaveragingscopedtimer_1',['~AveragingScopedTimer',['../class_acts_1_1_averaging_scoped_timer.html#adb794f8c3a9f0ef4915292e06ad17b02',1,'Acts::AveragingScopedTimer']]],
   ['_7ebinnedarray_2',['~BinnedArray',['../class_acts_1_1_binned_array.html#ab1da20c6fb817597502ec66c8ddbbad5',1,'Acts::BinnedArray']]],
   ['_7ebinnedarrayxd_3',['~BinnedArrayXD',['../class_acts_1_1_binned_array_x_d.html#ac1cf1f5d1cfbd6395172b02fb1e51263',1,'Acts::BinnedArrayXD']]],
   ['_7ebinnedgroup_4',['~BinnedGroup',['../class_acts_1_1_binned_group.html#a18cd35de462c60f07e5b23b044fa58fc',1,'Acts::BinnedGroup']]],
@@ -53,7 +53,7 @@ var searchData=
   ['_7erootmaterialdecorator_50',['~RootMaterialDecorator',['../class_acts_plugins_1_1_root_material_decorator.html#a1ab17ddc98f20aaf79d069f298dd5711',1,'ActsPlugins::RootMaterialDecorator']]],
   ['_7erootmaterialtrackio_51',['~RootMaterialTrackIo',['../class_acts_plugins_1_1_root_material_track_io.html#a58a68ce4ea241349e142ba799a511074',1,'ActsPlugins::RootMaterialTrackIo']]],
   ['_7esample_52',['~Sample',['../class_acts_1_1_averaging_scoped_timer_1_1_sample.html#ab4e4c960cb401870f44e4fe6f1bf6a8d',1,'Acts::AveragingScopedTimer::Sample']]],
-  ['_7escopedtimer_53',['~ScopedTimer',['../class_acts_1_1_scoped_timer.html#a9941d80d8e92323b85965aa1ae270ef7',1,'Acts::ScopedTimer']]],
+  ['_7escopedtimer_53',['~ScopedTimer',['../class_acts_1_1_scoped_timer.html#a10c0241d8ba670269c68cfc72a267f6a',1,'Acts::ScopedTimer']]],
   ['_7eseedcontainer_54',['~SeedContainer',['../class_acts_1_1_seed_container.html#ac494d17f2284c66945f527f6dac83bb6',1,'Acts::SeedContainer']]],
   ['_7espacepointcontainer_55',['~SpacePointContainer',['../class_acts_1_1_space_point_container.html#acb7ab23d764ac4a966c9152f16eece7b',1,'Acts::SpacePointContainer']]],
   ['_7esurfacearraycreator_56',['~SurfaceArrayCreator',['../class_acts_1_1_surface_array_creator.html#a8ef6f30f4fbda3df8c26827296249717',1,'Acts::SurfaceArrayCreator']]],
