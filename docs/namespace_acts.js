@@ -431,6 +431,7 @@ var namespace_acts =
     [ "ScoreBasedAmbiguityResolution", "class_acts_1_1_score_based_ambiguity_resolution.html", "class_acts_1_1_score_based_ambiguity_resolution" ],
     [ "SeedConfirmationRangeConfig", "struct_acts_1_1_seed_confirmation_range_config.html", "struct_acts_1_1_seed_confirmation_range_config" ],
     [ "SeedContainer", "class_acts_1_1_seed_container.html", "class_acts_1_1_seed_container" ],
+    [ "SeedDeduplicator", "class_acts_1_1_seed_deduplicator.html", "class_acts_1_1_seed_deduplicator" ],
     [ "SeedProxy", "class_acts_1_1_seed_proxy.html", "class_acts_1_1_seed_proxy" ],
     [ "SensorLayer", "class_acts_1_1_sensor_layer.html", "class_acts_1_1_sensor_layer" ],
     [ "SensorLayerAssembler", "class_acts_1_1_sensor_layer_assembler.html", "class_acts_1_1_sensor_layer_assembler" ],

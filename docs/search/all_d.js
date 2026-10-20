@@ -205,7 +205,7 @@ var searchData=
   ['isdefault_202',['isDefault',['../class_acts_1_1_navigation_policy_state.html#a2110d09d0a4d9cfd608c91e2d0c08a35',1,'Acts::NavigationPolicyState']]],
   ['isdeferred_203',['isDeferred',['../class_acts_1_1_axis_spec.html#aa8a1a1badea9bbe674d2704f4aa064ee',1,'Acts::AxisSpec::isDeferred()'],['../class_acts_1_1_multi_axis_spec.html#a3771bf4d1f0ec2e58daaee7a4dd74db5',1,'Acts::MultiAxisSpec::isDeferred()']]],
   ['isdeferredvariable_204',['isDeferredVariable',['../class_acts_1_1_axis_spec.html#af5ce49656ca9446e5a148e8fe58030cc',1,'Acts::AxisSpec']]],
-  ['isduplicate_205',['isDuplicate',['../class_acts_plugins_1_1_m_l_track_classifier.html#ac416816495a77062532a2f66a98a2d2f',1,'ActsPlugins::MLTrackClassifier']]],
+  ['isduplicate_205',['isDuplicate',['../class_acts_1_1_seed_deduplicator.html#a2ec9ccef5c477c7f91bf39febe9869e4',1,'Acts::SeedDeduplicator::isDuplicate()'],['../class_acts_plugins_1_1_m_l_track_classifier.html#ac416816495a77062532a2f66a98a2d2f',1,'ActsPlugins::MLTrackClassifier::isDuplicate()']]],
   ['iselectron_206',['isElectron',['../namespace_acts_1_1_particle_id_helper.html#afd04bb1ca849c6e0413ff41db03b2b34',1,'Acts::ParticleIdHelper']]],
   ['isendcap_207',['isEndcap',['../class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#a124362f94a91ead669adecb1f2a65892',1,'ActsPlugins::DD4hep::DD4hepBackend']]],
   ['isensordesign_208',['ISensorDesign',['../class_acts_1_1_i_sensor_design.html',1,'Acts']]],

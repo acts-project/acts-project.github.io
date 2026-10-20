@@ -735,6 +735,8 @@ var hierarchy =
     [ "Acts::ScoreBasedAmbiguityResolution::TrackFeatures", "struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html", null ],
     [ "Acts::SeedConfirmationRangeConfig", "struct_acts_1_1_seed_confirmation_range_config.html", null ],
     [ "Acts::SeedContainer", "class_acts_1_1_seed_container.html", null ],
+    [ "Acts::SeedDeduplicator", "class_acts_1_1_seed_deduplicator.html", null ],
+    [ "Acts::SeedDeduplicator::Config", "struct_acts_1_1_seed_deduplicator_1_1_config.html", null ],
     [ "Acts::SeedProxy&lt; read_only &gt;", "class_acts_1_1_seed_proxy.html", null ],
     [ "Acts::SeedProxy&lt; read_only &gt;::SpacePointIterator", "class_acts_1_1_seed_proxy_1_1_space_point_iterator.html", null ],
     [ "Acts::SeedProxy&lt; read_only &gt;::SpacePointRange", "class_acts_1_1_seed_proxy_1_1_space_point_range.html", null ],
