@@ -195,18 +195,18 @@ requires (isNoFunPtr&lt;Callable&gt;::value)</td></tr>
 requires (isNoFunPtr&lt;Callable&gt;::value)</td></tr>
 <tr class="memitem:a65593d84c1d86361b013e3388a6436ee template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65593d84c1d86361b013e3388a6436ee">connect</a> (Callable &amp;callable)</td></tr>
 <tr class="memdesc:a65593d84c1d86361b013e3388a6436ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator with possibly stateful function object.  <br /></td></tr>
-<tr class="memitem:aa33270dfcd88ee437e4d0508fb685267" id="r_aa33270dfcd88ee437e4d0508fb685267"><td class="memTemplParams" colspan="2">template&lt;auto Callable, typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a>&gt; <br />
-requires (<a class="el" href="#a09d50e431c7fcd0a778c17843b55623d">kOwnership</a> == DelegateType::NonOwning &amp;&amp; Concepts::invocable_and_returns&lt;Callable, <a class="el" href="#a47a06675d6941a9343d043e36574fc17">return_type</a>, <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a>, Args &amp;&amp; ...&gt;)</td></tr>
-<tr class="memitem:aa33270dfcd88ee437e4d0508fb685267 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa33270dfcd88ee437e4d0508fb685267">connect</a> (const <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a> *<a class="el" href="#aab72ca3b3371a9189de178b2205a9daa">instance</a>)</td></tr>
-<tr class="memdesc:aa33270dfcd88ee437e4d0508fb685267"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect a member function to be called on an instance.  <br /></td></tr>
+<tr class="memitem:aa607a6db5daf5795151ca17453f40003" id="r_aa607a6db5daf5795151ca17453f40003"><td class="memTemplParams" colspan="2">template&lt;auto Callable, typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a>&gt; <br />
+requires (<a class="el" href="#a09d50e431c7fcd0a778c17843b55623d">kOwnership</a> == DelegateType::NonOwning &amp;&amp; Concepts::invocable_and_returns&lt;Callable, <a class="el" href="#a47a06675d6941a9343d043e36574fc17">return_type</a>, <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a>, Args &amp;&amp;...&gt;)</td></tr>
+<tr class="memitem:aa607a6db5daf5795151ca17453f40003 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa607a6db5daf5795151ca17453f40003">connect</a> (const <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a> *<a class="el" href="#aab72ca3b3371a9189de178b2205a9daa">instance</a>)</td></tr>
+<tr class="memdesc:aa607a6db5daf5795151ca17453f40003"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect a member function to be called on an instance.  <br /></td></tr>
 <tr class="memitem:a7e130558ad8061ab17d0502ae3a5a941" id="r_a7e130558ad8061ab17d0502ae3a5a941"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a>&gt; <br />
 requires (<a class="el" href="#a09d50e431c7fcd0a778c17843b55623d">kOwnership</a> == DelegateType::NonOwning)</td></tr>
 <tr class="memitem:a7e130558ad8061ab17d0502ae3a5a941 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e130558ad8061ab17d0502ae3a5a941">connect</a> (<a class="el" href="#a62e92d5613263008789f92ec462be9cb">function_type</a> callable, const <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a> *<a class="el" href="#aab72ca3b3371a9189de178b2205a9daa">instance</a>)</td></tr>
 <tr class="memdesc:a7e130558ad8061ab17d0502ae3a5a941"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect a runtime callable with an instance pointer.  <br /></td></tr>
-<tr class="memitem:a7a2eb880ac7ee416659c3cfb138c2e45" id="r_a7a2eb880ac7ee416659c3cfb138c2e45"><td class="memTemplParams" colspan="2">template&lt;auto Callable, typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a>&gt; <br />
-requires (<a class="el" href="#a09d50e431c7fcd0a778c17843b55623d">kOwnership</a> == DelegateType::Owning &amp;&amp; Concepts::invocable_and_returns&lt;Callable, <a class="el" href="#a47a06675d6941a9343d043e36574fc17">return_type</a>, <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a>, Args &amp;&amp; ...&gt;)</td></tr>
-<tr class="memitem:a7a2eb880ac7ee416659c3cfb138c2e45 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a2eb880ac7ee416659c3cfb138c2e45">connect</a> (std::unique_ptr&lt; const <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a> &gt; <a class="el" href="#aab72ca3b3371a9189de178b2205a9daa">instance</a>)</td></tr>
-<tr class="memdesc:a7a2eb880ac7ee416659c3cfb138c2e45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect a member function to be called on an instance.  <br /></td></tr>
+<tr class="memitem:abafe89795d97ae90a9684e31a044c628" id="r_abafe89795d97ae90a9684e31a044c628"><td class="memTemplParams" colspan="2">template&lt;auto Callable, typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a>&gt; <br />
+requires (<a class="el" href="#a09d50e431c7fcd0a778c17843b55623d">kOwnership</a> == DelegateType::Owning &amp;&amp; Concepts::invocable_and_returns&lt;Callable, <a class="el" href="#a47a06675d6941a9343d043e36574fc17">return_type</a>, <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a>, Args &amp;&amp;...&gt;)</td></tr>
+<tr class="memitem:abafe89795d97ae90a9684e31a044c628 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abafe89795d97ae90a9684e31a044c628">connect</a> (std::unique_ptr&lt; const <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a> &gt; <a class="el" href="#aab72ca3b3371a9189de178b2205a9daa">instance</a>)</td></tr>
+<tr class="memdesc:abafe89795d97ae90a9684e31a044c628"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect a member function to be called on an instance.  <br /></td></tr>
 <tr class="memitem:a7015784d56fadd36ccf1c487e2b69891" id="r_a7015784d56fadd36ccf1c487e2b69891"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7015784d56fadd36ccf1c487e2b69891">connected</a> () const</td></tr>
 <tr class="memdesc:a7015784d56fadd36ccf1c487e2b69891"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return whether this delegate is currently connected.  <br /></td></tr>
 <tr class="memitem:a4e87fc7536cd13ad2b6639c44ee5c0a5" id="r_a4e87fc7536cd13ad2b6639c44ee5c0a5"><td class="memItemLeft" align="right" valign="top"><a id="a4e87fc7536cd13ad2b6639c44ee5c0a5" name="a4e87fc7536cd13ad2b6639c44ee5c0a5"></a>
@@ -421,8 +421,8 @@ requires (isNoFunPtr&lt;Callable&gt;::value)</div>
 
 </div>
 </div>
-<a id="aa33270dfcd88ee437e4d0508fb685267" name="aa33270dfcd88ee437e4d0508fb685267"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa33270dfcd88ee437e4d0508fb685267">&#9670;&#160;</a></span>connect() <span class="overload">[2/4]</span></h2>
+<a id="aa607a6db5daf5795151ca17453f40003" name="aa607a6db5daf5795151ca17453f40003"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa607a6db5daf5795151ca17453f40003">&#9670;&#160;</a></span>connect() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -430,7 +430,7 @@ requires (isNoFunPtr&lt;Callable&gt;::value)</div>
 template&lt;typename R, typename H, <a class="el" href="namespace_acts.html#abd2611d6c7dda89bd26dd00c64538490">DelegateType</a> O, typename... Args&gt; </div>
 <div class="memtemplate">
 template&lt;auto Callable, typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a>&gt; <br />
-requires (<a class="el" href="#a09d50e431c7fcd0a778c17843b55623d">kOwnership</a> == DelegateType::NonOwning &amp;&amp; Concepts::invocable_and_returns&lt;Callable, <a class="el" href="#a47a06675d6941a9343d043e36574fc17">return_type</a>, <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a>, Args &amp;&amp; ...&gt;)</div>
+requires (<a class="el" href="#a09d50e431c7fcd0a778c17843b55623d">kOwnership</a> == DelegateType::NonOwning &amp;&amp; Concepts::invocable_and_returns&lt;Callable, <a class="el" href="#a47a06675d6941a9343d043e36574fc17">return_type</a>, <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a>, Args &amp;&amp;...&gt;)</div>
       <table class="memname">
         <tr>
           <td class="memname">void <a class="el" href="class_acts_1_1_delegate.html">Acts::Delegate</a>&lt; R(Args...), H, O &gt;::connect </td>
@@ -500,8 +500,8 @@ requires (<a class="el" href="#a09d50e431c7fcd0a778c17843b55623d">kOwnership</a>
 
 </div>
 </div>
-<a id="a7a2eb880ac7ee416659c3cfb138c2e45" name="a7a2eb880ac7ee416659c3cfb138c2e45"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a2eb880ac7ee416659c3cfb138c2e45">&#9670;&#160;</a></span>connect() <span class="overload">[4/4]</span></h2>
+<a id="abafe89795d97ae90a9684e31a044c628" name="abafe89795d97ae90a9684e31a044c628"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abafe89795d97ae90a9684e31a044c628">&#9670;&#160;</a></span>connect() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -509,7 +509,7 @@ requires (<a class="el" href="#a09d50e431c7fcd0a778c17843b55623d">kOwnership</a>
 template&lt;typename R, typename H, <a class="el" href="namespace_acts.html#abd2611d6c7dda89bd26dd00c64538490">DelegateType</a> O, typename... Args&gt; </div>
 <div class="memtemplate">
 template&lt;auto Callable, typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a>&gt; <br />
-requires (<a class="el" href="#a09d50e431c7fcd0a778c17843b55623d">kOwnership</a> == DelegateType::Owning &amp;&amp; Concepts::invocable_and_returns&lt;Callable, <a class="el" href="#a47a06675d6941a9343d043e36574fc17">return_type</a>, <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a>, Args &amp;&amp; ...&gt;)</div>
+requires (<a class="el" href="#a09d50e431c7fcd0a778c17843b55623d">kOwnership</a> == DelegateType::Owning &amp;&amp; Concepts::invocable_and_returns&lt;Callable, <a class="el" href="#a47a06675d6941a9343d043e36574fc17">return_type</a>, <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a>, Args &amp;&amp;...&gt;)</div>
       <table class="memname">
         <tr>
           <td class="memname">void <a class="el" href="class_acts_1_1_delegate.html">Acts::Delegate</a>&lt; R(Args...), H, O &gt;::connect </td>
