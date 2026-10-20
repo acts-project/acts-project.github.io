@@ -1,5 +1,7 @@
 var NAVTREEINDEX28 =
 {
+"class_acts_1_1_object_sorter_t.html#ad2b20b0d49a8e0e2b908fbb50ebe9048":[8,0,0,311,2],
+"class_acts_1_1_owning_delegate.html":[6,0,0,312],
 "class_acts_1_1_owning_delegate.html":[8,0,0,317],
 "class_acts_1_1_owning_delegate_3_01_r_07_args_8_8_8_08_00_01_h_01_4.html":[6,0,0,313],
 "class_acts_1_1_owning_delegate_3_01_r_07_args_8_8_8_08_00_01_h_01_4.html":[8,0,0,318],
@@ -247,7 +249,5 @@ var NAVTREEINDEX28 =
 "class_acts_1_1_point_bounds.html#ae9b0c0bf500e18a01b00d7e10fa6773f":[8,0,0,329,9],
 "class_acts_1_1_point_surface.html":[6,0,0,325],
 "class_acts_1_1_point_surface.html":[8,0,0,330],
-"class_acts_1_1_point_surface.html#a018f6764329cb330bf2207ea60a1c8e1":[6,0,0,325,5],
-"class_acts_1_1_point_surface.html#a018f6764329cb330bf2207ea60a1c8e1":[8,0,0,330,5],
-"class_acts_1_1_point_surface.html#a0288f7698c703a9be738bf7ff80ad8d5":[6,0,0,325,8]
+"class_acts_1_1_point_surface.html#a018f6764329cb330bf2207ea60a1c8e1":[6,0,0,325,5]
 };

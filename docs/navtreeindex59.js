@@ -1,5 +1,13 @@
 var NAVTREEINDEX59 =
 {
+"struct_acts_1_1_grid_axis_generators_1_1_var.html#ac6ff49556dda8417098cf57c8f56e833":[6,0,0,2,3,3],
+"struct_acts_1_1_grid_axis_generators_1_1_var.html#ac6ff49556dda8417098cf57c8f56e833":[8,0,0,4,3,3],
+"struct_acts_1_1_grid_axis_generators_1_1_var_eq.html":[6,0,0,2,4],
+"struct_acts_1_1_grid_axis_generators_1_1_var_eq.html":[8,0,0,4,4],
+"struct_acts_1_1_grid_axis_generators_1_1_var_eq.html#a0dcdbce1b678b407665faf4efc116373":[6,0,0,2,4,1],
+"struct_acts_1_1_grid_axis_generators_1_1_var_eq.html#a0dcdbce1b678b407665faf4efc116373":[8,0,0,4,4,1],
+"struct_acts_1_1_grid_axis_generators_1_1_var_eq.html#a6e347a1954753bbfe0deb81ff7fd2e54":[6,0,0,2,4,2],
+"struct_acts_1_1_grid_axis_generators_1_1_var_eq.html#a6e347a1954753bbfe0deb81ff7fd2e54":[8,0,0,4,4,2],
 "struct_acts_1_1_grid_axis_generators_1_1_var_eq.html#a7d1d3bc997eb2ea342ffc38103f38ebc":[6,0,0,2,4,4],
 "struct_acts_1_1_grid_axis_generators_1_1_var_eq.html#a7d1d3bc997eb2ea342ffc38103f38ebc":[8,0,0,4,4,4],
 "struct_acts_1_1_grid_axis_generators_1_1_var_eq.html#a8f7186f88499126aee3e354c20671555":[6,0,0,2,4,5],
@@ -241,13 +249,5 @@ var NAVTREEINDEX59 =
 "struct_acts_1_1_i_assignment_finder_1_1_surface_assignment.html#adac5adc852b18bb827e2a8107b215cb1":[5,3,2,0,5,0,1],
 "struct_acts_1_1_i_assignment_finder_1_1_volume_assignment.html":[5,3,2,0,5,1],
 "struct_acts_1_1_i_assignment_finder_1_1_volume_assignment.html#a54473972830119f68b6fd9c8dcd05b9d":[5,3,2,0,5,1,0],
-"struct_acts_1_1_i_assignment_finder_1_1_volume_assignment.html#a71efd5349a6f756c130d48dff74cb944":[5,3,2,0,5,1,1],
-"struct_acts_1_1_i_assignment_finder_1_1_volume_assignment.html#afc91f3d2e517bb87784c4d9f8106cadd":[5,3,2,0,5,1,2],
-"struct_acts_1_1_i_navigation_policy_1_1_empty_state.html":[6,0,0,198,0],
-"struct_acts_1_1_i_navigation_policy_1_1_empty_state.html":[8,0,0,203,0],
-"struct_acts_1_1_i_reference_generator.html":[6,0,0,212],
-"struct_acts_1_1_i_reference_generator.html":[8,0,0,217],
-"struct_acts_1_1_i_reference_generator.html#a47965ad0050064bd8d14baec0176d8de":[6,0,0,212,0],
-"struct_acts_1_1_i_reference_generator.html#a47965ad0050064bd8d14baec0176d8de":[8,0,0,217,0],
-"struct_acts_1_1_impact_parameters_and_sigma.html":[6,0,0,194]
+"struct_acts_1_1_i_assignment_finder_1_1_volume_assignment.html#a71efd5349a6f756c130d48dff74cb944":[5,3,2,0,5,1,1]
 };

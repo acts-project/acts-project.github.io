@@ -1,5 +1,7 @@
 var NAVTREEINDEX52 =
 {
+"struct_acts_1_1_atlas_stepper_1_1_state.html#a29b6ca916d630d39eed6613a4d6d6521":[6,0,0,35,2,15],
+"struct_acts_1_1_atlas_stepper_1_1_state.html#a29b6ca916d630d39eed6613a4d6d6521":[8,0,0,40,2,15],
 "struct_acts_1_1_atlas_stepper_1_1_state.html#a29f02aa619ee96cf7adcead8c972e8f6":[6,0,0,35,2,20],
 "struct_acts_1_1_atlas_stepper_1_1_state.html#a29f02aa619ee96cf7adcead8c972e8f6":[8,0,0,40,2,20],
 "struct_acts_1_1_atlas_stepper_1_1_state.html#a2a0db05b13a724e0097fe7061f97bbe8":[6,0,0,35,2,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX52 =
 "struct_acts_1_1_ccl_1_1_timed_connect.html#a383c7365f42cbde86e5bfb434f240c7d":[8,0,0,1,7,2],
 "struct_acts_1_1_ccl_1_1_timed_connect.html#ab0f5366a199611f0f526855db18b4079":[8,0,0,1,7,1],
 "struct_acts_1_1_ccl_1_1_timed_connect.html#af7563214bededba9c56dc7edf3cebb2a":[8,0,0,1,7,3],
-"struct_acts_1_1_center_reference_generator.html":[6,0,0,70],
-"struct_acts_1_1_center_reference_generator.html":[8,0,0,75],
-"struct_acts_1_1_center_reference_generator.html#a6d472c0eb32115bb12a6fc268f62d45c":[6,0,0,70,0]
+"struct_acts_1_1_center_reference_generator.html":[6,0,0,70]
 };

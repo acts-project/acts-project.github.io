@@ -1,5 +1,13 @@
 var NAVTREEINDEX60 =
 {
+"struct_acts_1_1_i_assignment_finder_1_1_volume_assignment.html#afc91f3d2e517bb87784c4d9f8106cadd":[5,3,2,0,5,1,2],
+"struct_acts_1_1_i_navigation_policy_1_1_empty_state.html":[6,0,0,198,0],
+"struct_acts_1_1_i_navigation_policy_1_1_empty_state.html":[8,0,0,203,0],
+"struct_acts_1_1_i_reference_generator.html":[6,0,0,212],
+"struct_acts_1_1_i_reference_generator.html":[8,0,0,217],
+"struct_acts_1_1_i_reference_generator.html#a47965ad0050064bd8d14baec0176d8de":[6,0,0,212,0],
+"struct_acts_1_1_i_reference_generator.html#a47965ad0050064bd8d14baec0176d8de":[8,0,0,217,0],
+"struct_acts_1_1_impact_parameters_and_sigma.html":[6,0,0,194],
 "struct_acts_1_1_impact_parameters_and_sigma.html":[8,0,0,199],
 "struct_acts_1_1_impact_parameters_and_sigma.html#a0055158a8a13eb2908255f83f2fe9a00":[6,0,0,194,4],
 "struct_acts_1_1_impact_parameters_and_sigma.html#a0055158a8a13eb2908255f83f2fe9a00":[8,0,0,199,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX60 =
 "struct_acts_1_1_layer_creator_1_1_config.html":[8,0,0,257,0],
 "struct_acts_1_1_layer_creator_1_1_config.html#a1ad17744deaec7be4fe2128640ebf730":[6,0,0,252,0,3],
 "struct_acts_1_1_layer_creator_1_1_config.html#a1ad17744deaec7be4fe2128640ebf730":[8,0,0,257,0,3],
-"struct_acts_1_1_layer_creator_1_1_config.html#a92e7d98109ecf10280dc1e0ddbe258e9":[6,0,0,252,0,4],
-"struct_acts_1_1_layer_creator_1_1_config.html#a92e7d98109ecf10280dc1e0ddbe258e9":[8,0,0,257,0,4],
-"struct_acts_1_1_layer_creator_1_1_config.html#ab8112d453b0d9a63172c630984516a39":[6,0,0,252,0,0],
-"struct_acts_1_1_layer_creator_1_1_config.html#ab8112d453b0d9a63172c630984516a39":[8,0,0,257,0,0],
-"struct_acts_1_1_layer_creator_1_1_config.html#ae0f21ce653b8b9521a494c2df807bca7":[6,0,0,252,0,2],
-"struct_acts_1_1_layer_creator_1_1_config.html#ae0f21ce653b8b9521a494c2df807bca7":[8,0,0,257,0,2],
-"struct_acts_1_1_layer_creator_1_1_config.html#ae77e554e06ae8c0b0ef32e9919e839c2":[6,0,0,252,0,1],
-"struct_acts_1_1_layer_creator_1_1_config.html#ae77e554e06ae8c0b0ef32e9919e839c2":[8,0,0,257,0,1],
-"struct_acts_1_1_linearized_track.html":[6,0,0,253]
+"struct_acts_1_1_layer_creator_1_1_config.html#a92e7d98109ecf10280dc1e0ddbe258e9":[6,0,0,252,0,4]
 };

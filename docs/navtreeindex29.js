@@ -1,5 +1,7 @@
 var NAVTREEINDEX29 =
 {
+"class_acts_1_1_point_surface.html#a018f6764329cb330bf2207ea60a1c8e1":[8,0,0,330,5],
+"class_acts_1_1_point_surface.html#a0288f7698c703a9be738bf7ff80ad8d5":[6,0,0,325,8],
 "class_acts_1_1_point_surface.html#a0288f7698c703a9be738bf7ff80ad8d5":[8,0,0,330,8],
 "class_acts_1_1_point_surface.html#a040b382f6cf29d1669264d49d43919bc":[6,0,0,325,13],
 "class_acts_1_1_point_surface.html#a040b382f6cf29d1669264d49d43919bc":[8,0,0,330,13],
@@ -247,7 +249,5 @@ var NAVTREEINDEX29 =
 "class_acts_1_1_proto_layer_helper.html#a88fcad68d02418f731187e999f82e669":[6,0,0,345,2],
 "class_acts_1_1_proto_layer_helper.html#a88fcad68d02418f731187e999f82e669":[8,0,0,350,2],
 "class_acts_1_1_proto_layer_helper.html#ac447a413d951a33adc660ae0ffcbaead":[6,0,0,345,4],
-"class_acts_1_1_proto_layer_helper.html#ac447a413d951a33adc660ae0ffcbaead":[8,0,0,350,4],
-"class_acts_1_1_proto_surface_material_t.html":[5,3,2,18],
-"class_acts_1_1_proto_surface_material_t.html#a0a8095a19e189f1b49eeebafb1bb1d7f":[5,3,2,18,12]
+"class_acts_1_1_proto_layer_helper.html#ac447a413d951a33adc660ae0ffcbaead":[8,0,0,350,4]
 };

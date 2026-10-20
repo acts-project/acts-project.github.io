@@ -4,6 +4,7 @@ var class_acts_1_1_doublets_for_middle_sp =
     [ "Proxy", "class_acts_1_1_doublets_for_middle_sp_1_1_proxy.html", "class_acts_1_1_doublets_for_middle_sp_1_1_proxy" ],
     [ "Proxy2", "class_acts_1_1_doublets_for_middle_sp_1_1_proxy2.html", "class_acts_1_1_doublets_for_middle_sp_1_1_proxy2" ],
     [ "Range", "class_acts_1_1_doublets_for_middle_sp_1_1_range.html", "class_acts_1_1_doublets_for_middle_sp_1_1_range" ],
+    [ "SortStorage", "struct_acts_1_1_doublets_for_middle_sp_1_1_sort_storage.html", "struct_acts_1_1_doublets_for_middle_sp_1_1_sort_storage" ],
     [ "Subset", "class_acts_1_1_doublets_for_middle_sp_1_1_subset.html", "class_acts_1_1_doublets_for_middle_sp_1_1_subset" ],
     [ "Subset2", "class_acts_1_1_doublets_for_middle_sp_1_1_subset2.html", "class_acts_1_1_doublets_for_middle_sp_1_1_subset2" ],
     [ "const_iterator", "class_acts_1_1_doublets_for_middle_sp.html#af51c07e017ae732dc4e047c674f174b1", null ],
@@ -23,6 +24,7 @@ var class_acts_1_1_doublets_for_middle_sp =
     [ "range", "class_acts_1_1_doublets_for_middle_sp.html#a86bc11b89f73f79b843b92b5d9da11da", null ],
     [ "size", "class_acts_1_1_doublets_for_middle_sp.html#a36a1b112ae75d2aead0dc37fccdf8253", null ],
     [ "sortByCotTheta", "class_acts_1_1_doublets_for_middle_sp.html#aaa494ef65d31a686aeb8b9dce2909a5f", null ],
+    [ "sortByCotTheta", "class_acts_1_1_doublets_for_middle_sp.html#a6f95e7f0fea604a93500a76ffa1f295e", null ],
     [ "spacePoints", "class_acts_1_1_doublets_for_middle_sp.html#a1bcd91857db9dbb382bf7655918946ec", null ],
     [ "subset", "class_acts_1_1_doublets_for_middle_sp.html#acf5046a01340f98b8276a6f2a6a23d81", null ],
     [ "subset", "class_acts_1_1_doublets_for_middle_sp.html#a2e80bf7434ac5a4273d37f6d400c843e", null ]

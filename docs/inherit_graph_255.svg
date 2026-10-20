@@ -11,10 +11,10 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="struct_acts_1_1_grid_surface_material_1_1_indexed.html" target="_top" xlink:title="Per&#45;bin indices into a locally owned material vector.">
+<g id="a_Node000000"><a xlink:href="struct_acts_1_1_grid_surface_material_1_1_globally_indexed.html" target="_top" xlink:title="Per&#45;bin indices into a (possibly shared) globally owned material vector.">
 <polygon fill="white" stroke="#666666" points="141,-30 0,-30 0,0 141,0 141,-30"/>
 <text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::GridSurfaceMaterial</text>
-<text text-anchor="middle" x="70.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::Indexed</text>
+<text text-anchor="middle" x="70.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::GloballyIndexed</text>
 </a>
 </g>
 </g>

@@ -141,6 +141,8 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as <span class="tt">Proxy</span> but also contains <span class="tt">cotTheta</span>.  <a href="class_acts_1_1_doublets_for_middle_sp_1_1_proxy2.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Range" id="r_Range"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_doublets_for_middle_sp_1_1_range.html">Range</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Range view over doublets in the container.  <a href="class_acts_1_1_doublets_for_middle_sp_1_1_range.html#details">More...</a><br /></td></tr>
+<tr class="memitem:SortStorage" id="r_SortStorage"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_doublets_for_middle_sp_1_1_sort_storage.html">SortStorage</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Storage for sortByCotTheta, kept by the caller so that sorting does not allocate.  <a href="struct_acts_1_1_doublets_for_middle_sp_1_1_sort_storage.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Subset" id="r_Subset"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_doublets_for_middle_sp_1_1_subset.html">Subset</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subset view of doublets addressed by indices.  <a href="class_acts_1_1_doublets_for_middle_sp_1_1_subset.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Subset2" id="r_Subset2"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_doublets_for_middle_sp_1_1_subset2.html">Subset2</a></td></tr>
@@ -190,6 +192,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr
 <tr class="memdesc:a36a1b112ae75d2aead0dc37fccdf8253"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of doublets in container.  <br /></td></tr>
 <tr class="memitem:aaa494ef65d31a686aeb8b9dce2909a5f" id="r_aaa494ef65d31a686aeb8b9dce2909a5f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa494ef65d31a686aeb8b9dce2909a5f">sortByCotTheta</a> (const <a class="el" href="#a7ad0809dae29ce5d31cbef2f7176f719">IndexRange</a> &amp;<a class="el" href="#a7f8a170b647559b2e8b2c74c0f305ba4">range</a>, std::vector&lt; <a class="el" href="struct_acts_1_1_doublets_for_middle_sp_1_1_index_and_cot_theta.html">IndexAndCotTheta</a> &gt; &amp;indexAndCotTheta) const</td></tr>
 <tr class="memdesc:aaa494ef65d31a686aeb8b9dce2909a5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort doublets by cotTheta within given range.  <br /></td></tr>
+<tr class="memitem:a6f95e7f0fea604a93500a76ffa1f295e" id="r_a6f95e7f0fea604a93500a76ffa1f295e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f95e7f0fea604a93500a76ffa1f295e">sortByCotTheta</a> (const <a class="el" href="#a7ad0809dae29ce5d31cbef2f7176f719">IndexRange</a> &amp;<a class="el" href="#a7f8a170b647559b2e8b2c74c0f305ba4">range</a>, std::vector&lt; <a class="el" href="struct_acts_1_1_doublets_for_middle_sp_1_1_index_and_cot_theta.html">IndexAndCotTheta</a> &gt; &amp;indexAndCotTheta, <a class="el" href="struct_acts_1_1_doublets_for_middle_sp_1_1_sort_storage.html">SortStorage</a> &amp;storage) const</td></tr>
+<tr class="memdesc:a6f95e7f0fea604a93500a76ffa1f295e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort doublets by cotTheta within given range, with storage the caller keeps between calls.  <br /></td></tr>
 <tr class="memitem:a1bcd91857db9dbb382bf7655918946ec" id="r_a1bcd91857db9dbb382bf7655918946ec"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="namespace_acts.html#a22317e6b568d121dd169e79bec0bff8c">SpacePointIndex</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1bcd91857db9dbb382bf7655918946ec">spacePoints</a> () const</td></tr>
 <tr class="memdesc:a1bcd91857db9dbb382bf7655918946ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get reference to space point indices container.  <br /></td></tr>
 <tr class="memitem:acf5046a01340f98b8276a6f2a6a23d81" id="r_acf5046a01340f98b8276a6f2a6a23d81"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_doublets_for_middle_sp_1_1_subset2.html">Subset2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf5046a01340f98b8276a6f2a6a23d81">subset</a> (const <a class="el" href="#a7382122c85e38256a07f91aa049e19e7">IndexAndCotThetaSubset</a> &amp;subset) const noexcept</td></tr>
@@ -517,7 +521,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr
 </div>
 </div>
 <a id="aaa494ef65d31a686aeb8b9dce2909a5f" name="aaa494ef65d31a686aeb8b9dce2909a5f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa494ef65d31a686aeb8b9dce2909a5f">&#9670;&#160;</a></span>sortByCotTheta()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa494ef65d31a686aeb8b9dce2909a5f">&#9670;&#160;</a></span>sortByCotTheta() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -536,10 +540,46 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr
 </div><div class="memdoc">
 
 <p>Sort doublets by cotTheta within given range. </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>Doublets with equal cotTheta keep their index order. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">range</td><td>Index range to sort within </td></tr>
     <tr><td class="paramname">indexAndCotTheta</td><td>Output vector containing sorted index and cotTheta pairs </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a6f95e7f0fea604a93500a76ffa1f295e" name="a6f95e7f0fea604a93500a76ffa1f295e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f95e7f0fea604a93500a76ffa1f295e">&#9670;&#160;</a></span>sortByCotTheta() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Acts::DoubletsForMiddleSp::sortByCotTheta </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7ad0809dae29ce5d31cbef2f7176f719">IndexRange</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>range</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="struct_acts_1_1_doublets_for_middle_sp_1_1_index_and_cot_theta.html">IndexAndCotTheta</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>indexAndCotTheta</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_acts_1_1_doublets_for_middle_sp_1_1_sort_storage.html">SortStorage</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>storage</em></span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sort doublets by cotTheta within given range, with storage the caller keeps between calls. </p>
+<p>Doublets with equal cotTheta keep their index order. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">range</td><td>Index range to sort within </td></tr>
+    <tr><td class="paramname">indexAndCotTheta</td><td>Output vector containing sorted index and cotTheta pairs </td></tr>
+    <tr><td class="paramname">storage</td><td>Storage for the sort, of any content </td></tr>
   </table>
   </dd>
 </dl>
