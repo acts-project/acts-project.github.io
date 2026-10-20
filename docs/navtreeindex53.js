@@ -1,5 +1,6 @@
 var NAVTREEINDEX53 =
 {
+"struct_acts_1_1_color.html#afd06e8ba71bb77e71186f8c8040bb822":[6,0,0,73,0],
 "struct_acts_1_1_color.html#afd06e8ba71bb77e71186f8c8040bb822":[8,0,0,78,0],
 "struct_acts_1_1_combinatorial_kalman_filter_extensions.html":[5,9,1,2],
 "struct_acts_1_1_combinatorial_kalman_filter_extensions.html#a1f5b4a361badcf271beb0bdd2e396daa":[5,9,1,2,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX53 =
 "struct_acts_1_1_directed_proto_axis.html#a43d45ace5adfe5d505713e33a25a353f":[6,0,0,119,0],
 "struct_acts_1_1_directed_proto_axis.html#a43d45ace5adfe5d505713e33a25a353f":[8,0,0,124,0],
 "struct_acts_1_1_directed_proto_axis.html#a5d1af6f03c46fe63a6da8bb8ce328524":[6,0,0,119,2],
-"struct_acts_1_1_directed_proto_axis.html#a5d1af6f03c46fe63a6da8bb8ce328524":[8,0,0,124,2],
-"struct_acts_1_1_directed_proto_axis.html#a5f7d609a43e6abcbf2287ab71b5530c9":[6,0,0,119,3]
+"struct_acts_1_1_directed_proto_axis.html#a5d1af6f03c46fe63a6da8bb8ce328524":[8,0,0,124,2]
 };

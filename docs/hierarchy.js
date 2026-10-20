@@ -262,6 +262,7 @@ var hierarchy =
     [ "Acts::Experimental::GbtsLayerDescription", "struct_acts_1_1_experimental_1_1_gbts_layer_description.html", null ],
     [ "Acts::Experimental::GbtsNodeStorage", "class_acts_1_1_experimental_1_1_gbts_node_storage.html", null ],
     [ "Acts::Experimental::GbtsRoiDescriptor", "class_acts_1_1_experimental_1_1_gbts_roi_descriptor.html", null ],
+    [ "Acts::Experimental::GbtsSeedFit", "struct_acts_1_1_experimental_1_1_gbts_seed_fit.html", null ],
     [ "Acts::Experimental::GbtsTauBounds", "struct_acts_1_1_experimental_1_1_gbts_tau_bounds.html", null ],
     [ "Acts::Experimental::GbtsTrackingFilter", "class_acts_1_1_experimental_1_1_gbts_tracking_filter.html", null ],
     [ "Acts::Experimental::GbtsTrackingFilter::Config", "struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config.html", null ],

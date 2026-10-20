@@ -189,6 +189,8 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Storage for the GBTS graph nodes.  <a href="class_acts_1_1_experimental_1_1_gbts_node_storage.html#details">More...</a><br /></td></tr>
 <tr class="memitem:GbtsRoiDescriptor" id="r_GbtsRoiDescriptor"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_roi_descriptor.html">GbtsRoiDescriptor</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">GBTS region of interest, as the eta and z bounds the seeder cuts on.  <a href="class_acts_1_1_experimental_1_1_gbts_roi_descriptor.html#details">More...</a><br /></td></tr>
+<tr class="memitem:GbtsSeedFit" id="r_GbtsSeedFit"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_seed_fit.html">GbtsSeedFit</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fit of the GBTS tracking filter to a seed, at its innermost space point.  <a href="struct_acts_1_1_experimental_1_1_gbts_seed_fit.html#details">More...</a><br /></td></tr>
 <tr class="memitem:GbtsTauBounds" id="r_GbtsTauBounds"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_tau_bounds.html">GbtsTauBounds</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accepted |cot(theta)| range for one cluster width bin.  <a href="struct_acts_1_1_experimental_1_1_gbts_tau_bounds.html#details">More...</a><br /></td></tr>
 <tr class="memitem:GbtsTrackingFilter" id="r_GbtsTrackingFilter"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_tracking_filter.html">GbtsTrackingFilter</a></td></tr>
@@ -346,6 +348,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ga4429cc1ca8b22cab2de57f9ae250865a" id="r_ga4429cc1ca8b22cab2de57f9ae250865a"><td class="memTemplParams" colspan="2">template&lt;TrackProxyConcept track_proxy_t&gt; </td></tr>
 <tr class="memitem:ga4429cc1ca8b22cab2de57f9ae250865a template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__track__fitting.html#ga4429cc1ca8b22cab2de57f9ae250865a">fillGx2fSystem</a> (const track_proxy_t track, <a class="el" href="struct_acts_1_1_experimental_1_1_gx2f_system.html">Gx2fSystem</a> &amp;extendedSystem, const bool multipleScattering, const std::unordered_map&lt; <a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>, <a class="el" href="struct_acts_1_1_experimental_1_1_scattering_properties.html">ScatteringProperties</a> &gt; &amp;scatteringMap, std::vector&lt; <a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a> &gt; &amp;geoIdVector, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger)</td></tr>
 <tr class="memdesc:ga4429cc1ca8b22cab2de57f9ae250865a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill the GX2F system with data from a track.  <br /></td></tr>
+<tr class="memitem:ae953a441a17ac891611fc4d6598c80a4" id="r_ae953a441a17ac891611fc4d6598c80a4"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="namespace_acts.html#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae953a441a17ac891611fc4d6598c80a4">freeParametersFromGbtsSeedFit</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_seed_fit.html">GbtsSeedFit</a> &amp;fit, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;bField)</td></tr>
+<tr class="memdesc:ae953a441a17ac891611fc4d6598c80a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estimate free track parameters from the fit of the GBTS tracking filter.  <br /></td></tr>
 <tr class="memitem:gac9789369931bac6f6a69583d6afaf9b9" id="r_gac9789369931bac6f6a69583d6afaf9b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__json__plugin.html#gac9789369931bac6f6a69583d6afaf9b9">from_json</a> (const nlohmann::json &amp;j, <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_config.html">GbtsLayerConfig</a> &amp;layer)</td></tr>
 <tr class="memdesc:gac9789369931bac6f6a69583d6afaf9b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert JSON to GbtsLayerConfig.  <br /></td></tr>
 <tr class="memitem:ga74a55b89c77544d90739bd01cdcafbde" id="r_ga74a55b89c77544d90739bd01cdcafbde"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__json__plugin.html#ga74a55b89c77544d90739bd01cdcafbde">from_json</a> (const nlohmann::json &amp;j, <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_connection.html">GbtsLayerConnection</a> &amp;connection)</td></tr>
@@ -591,6 +595,38 @@ template&lt;typename Measurement&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Vector of bin edges (size = nBins + 1) </dd></dl>
+
+</div>
+</div>
+<a id="ae953a441a17ac891611fc4d6598c80a4" name="ae953a441a17ac891611fc4d6598c80a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae953a441a17ac891611fc4d6598c80a4">&#9670;&#160;</a></span>freeParametersFromGbtsSeedFit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; <a class="el" href="namespace_acts.html#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a> &gt; Acts::Experimental::freeParametersFromGbtsSeedFit </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_seed_fit.html">GbtsSeedFit</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>fit</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>bField</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Estimate free track parameters from the fit of the GBTS tracking filter. </p>
+<p>The momentum uses the field bending the seed in the transverse plane, Bz - cot(theta) * Bt, with Bt the transverse field along the seed.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fit</td><td>Fit of the tracking filter </td></tr>
+    <tr><td class="paramname">bField</td><td>Magnetic field at a point along the seed </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Free track parameters, or nothing without a bending field </dd></dl>
 
 </div>
 </div>

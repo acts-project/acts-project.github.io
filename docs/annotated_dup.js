@@ -46,6 +46,7 @@ var annotated_dup =
         [ "GbtsLayerDescription", "struct_acts_1_1_experimental_1_1_gbts_layer_description.html", "struct_acts_1_1_experimental_1_1_gbts_layer_description" ],
         [ "GbtsNodeStorage", "class_acts_1_1_experimental_1_1_gbts_node_storage.html", "class_acts_1_1_experimental_1_1_gbts_node_storage" ],
         [ "GbtsRoiDescriptor", "class_acts_1_1_experimental_1_1_gbts_roi_descriptor.html", "class_acts_1_1_experimental_1_1_gbts_roi_descriptor" ],
+        [ "GbtsSeedFit", "struct_acts_1_1_experimental_1_1_gbts_seed_fit.html", "struct_acts_1_1_experimental_1_1_gbts_seed_fit" ],
         [ "GbtsTauBounds", "struct_acts_1_1_experimental_1_1_gbts_tau_bounds.html", "struct_acts_1_1_experimental_1_1_gbts_tau_bounds" ],
         [ "GbtsTrackingFilter", "class_acts_1_1_experimental_1_1_gbts_tracking_filter.html", "class_acts_1_1_experimental_1_1_gbts_tracking_filter" ],
         [ "GbtsZ0Range", "struct_acts_1_1_experimental_1_1_gbts_z0_range.html", "struct_acts_1_1_experimental_1_1_gbts_z0_range" ],
