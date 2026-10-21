@@ -1,16 +1,19 @@
 <map id="Acts::GreedyAmbiguityResolution::State" name="Acts::GreedyAmbiguityResolution::State">
-<area shape="rect" id="Node000001" title="Mutable state used by the greedy ambiguity resolution." alt="" coords="751,85,992,125"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="335,9,473,34"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="488,22,602,32,727,52,777,66,823,83,821,88,776,71,726,57,601,37,487,27"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="5,95,135,121"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="100,85,127,69,158,56,203,43,249,33,334,23,335,28,250,39,204,48,160,61,130,74,103,90"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="329,61,479,86"/>
-<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="148,97,328,78,329,84,148,103"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="317,112,491,152"/>
-<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="109,124,159,140,199,145,239,147,316,143,316,148,239,152,198,151,158,145,108,129"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="311,179,497,205"/>
-<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="94,129,123,154,160,175,197,186,235,193,310,197,310,202,234,198,195,191,158,180,120,159,91,133"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="493,77,751,94,750,100,493,82"/>
-<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="505,133,612,132,726,127,761,123,762,128,727,132,612,138,505,138"/>
-<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="511,188,616,180,726,161,781,144,829,123,831,128,782,149,727,167,617,185,511,193"/>
+<area shape="rect" id="Node000001" title="Mutable state used by the greedy ambiguity resolution." alt="" coords="807,129,1048,169"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="391,25,529,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="544,35,659,44,722,54,784,69,846,96,898,127,895,131,844,101,782,75,721,59,658,49,543,40"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,146,135,171"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="84,132,114,93,134,74,157,59,216,38,278,27,338,24,391,26,390,32,338,30,279,32,217,43,160,64,137,78,118,97,88,136"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="385,74,535,99"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="102,137,129,123,158,112,216,99,276,90,384,83,385,89,277,95,217,104,159,117,131,128,104,141"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="373,129,547,169"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="148,157,343,155,372,153,373,159,343,160,148,162"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="387,194,533,249"/>
+<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="101,177,129,193,159,205,218,218,278,224,386,225,386,230,277,230,217,223,158,211,126,198,98,182"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="367,273,553,298"/>
+<area shape="poly" id="edge10_Node000007_Node000003" title=" " alt="" coords="88,182,118,220,137,239,160,254,210,273,264,285,317,290,367,291,367,296,317,295,263,290,209,278,157,258,134,243,114,224,84,185"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="549,93,783,121,817,127,816,132,782,127,549,98"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="561,147,806,147,806,152,561,152"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="547,208,782,175,827,167,828,172,783,180,547,214"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="567,276,672,261,728,249,782,232,845,201,898,167,900,172,848,206,784,237,729,254,673,266,567,281"/>
 </map>
