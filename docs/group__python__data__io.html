@@ -126,7 +126,7 @@ $(function(){initNavTree('group__python__data__io.html','',''); });
 </div><!--header-->
 <div class="contents">
 <p>Readers and writers available in the PyPI wheel and optional source builds. </p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md57"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md59"></a>
 Event data input and output</h1>
 <p>Add readers with <span class="tt">s.addReader(...)</span>, converters with <span class="tt">s.addAlgorithm(...)</span>, and writers with <span class="tt">s.addWriter(...)</span>. The available formats depend on the build (see <a class="el" href="group__python__bindings.html">Python Bindings</a>):</p>
 <table class="markdownTable">
@@ -146,7 +146,7 @@ Event data input and output</h1>
 <td class="markdownTableBodyLeft">EDM4hep/podio  </td><td class="markdownTableBodyLeft"><span class="tt">acts.examples.edm4hep</span>  </td><td class="markdownTableBodyCenter">✗  </td><td class="markdownTableBodyLeft"><span class="tt">PodioReader</span> and <span class="tt">PodioWriter</span>.  </td></tr>
 </table>
 <p>✓ is included in the PyPI wheel; ✗ requires a source build with the corresponding component enabled. HepMC3 ROOT-format files also require ROOT support.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md58"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md60"></a>
 Parquet and Arrow tables</h2>
 <p>There is one <span class="tt">ParquetReader</span> for the configured Parquet collections, rather than a separate reader for each ACTS data type. It places one Arrow table per collection on the event whiteboard. Configure a directory and an expected schema for each collection:</p>
 <div class="fragment"><div class="line"><span class="keyword">import</span> acts.arrow  <span class="comment"># module-level table schemas, e.g. acts.arrow.particleSchema()</span></div>
@@ -161,13 +161,13 @@ Parquet and Arrow tables</h2>
 <div class="line">s.addReader(reader)</div>
 </div><!-- fragment --><p>The example makes an Arrow table available as <span class="tt">particles_arrow</span>; it does not create an ACTS <span class="tt">SimParticleContainer</span>. Add an input converter for the dataset's schema when ACTS algorithms need event collections. The current bindings include <span class="tt">ColliderMLRelease1InputConverter</span> for the ColliderML Release 1 particle, hit, and optional track tables; other Parquet schemas need a matching converter.</p>
 <p>For output, <span class="tt">ArrowParticleOutputConverter</span>, <span class="tt">ArrowSimHitOutputConverter</span>, and <span class="tt">ArrowTrackOutputConverter</span> turn ACTS collections into Arrow tables. One <span class="tt">ParquetWriter</span> can then write those tables to separate collection directories. See the <a href="https://github.com/acts-project/acts/blob/main/Python/Examples/tests/test_arrow.py">Parquet round-trip test</a> for a particle example and the <a href="https://github.com/acts-project/acts/blob/main/Examples/Scripts/Python/full_chain_odd.py">full-chain example</a> for particle, hit, and track output.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md59"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md61"></a>
 HepMC3 event files</h2>
 <p><span class="tt">HepMC3Reader</span> reads ASCII <span class="tt">.hepmc</span>/<span class="tt">.hepmc3</span> files into HepMC3 events. Use <span class="tt">HepMC3InputConverter</span> to turn those events into ACTS particles and vertices. In the other direction, <span class="tt">HepMC3OutputConverter</span> creates HepMC3 events for <span class="tt">HepMC3Writer</span>. These ASCII paths work without ROOT. Reading or writing HepMC3 ROOT files requires a ROOT-enabled build with HepMC3 ROOT I/O support.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md60"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md62"></a>
 Reading ACTS ROOT files with Uproot</h2>
 <p><span class="tt">acts.examples.uproot</span> provides <span class="tt">UprootParticleReader</span> and <span class="tt">UprootSimHitReader</span>: pure-Python <span class="tt">IReader</span>s that read the exact file format written by <span class="tt">RootParticleWriter</span>/<span class="tt">RootSimHitWriter</span>, using <a href="https://uproot.readthedocs.io/">uproot</a> without a ROOT-enabled ACTS build. They require <span class="tt">uproot</span> and <span class="tt">numpy</span> to be installed separately. For their <span class="tt">IReader</span> implementation, see <a class="el" href="group__python__custom__algorithms.html">Custom Algorithms</a>.</p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md61"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md63"></a>
 Loading detector geometry from JSON</h1>
 <p>To use a <span class="tt">TrackingGeometry</span> built with detector tooling such as DD4hep or TGeo in a PyPI-only script, export it to JSON in a source build and load the JSON file:</p>
 <div class="fragment"><div class="line"><span class="keyword">import</span> acts.json</div>

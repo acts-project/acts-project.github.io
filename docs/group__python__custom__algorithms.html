@@ -127,7 +127,7 @@ $(function(){initNavTree('group__python__custom__algorithms.html','',''); });
 <div class="contents">
 <p>Writing your own <span class="tt">IAlgorithm</span> or <span class="tt">IReader</span> in Python, and moving data through the whiteboard. </p>
 <p>Most readers, algorithms, and writers that come with ACTS are writtend in C++. However, it is also possible to add Python subclasses of <span class="tt">acts.examples.IAlgorithm</span> and <span class="tt">acts.examples.IReader</span> directly to the <span class="tt">Sequencer</span>. This allows to implement custom functionality without touching C++.</p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md53"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md55"></a>
 A minimal algorithm</h1>
 <div class="fragment"><div class="line"><span class="keyword">import</span> acts</div>
 <div class="line"><span class="keyword">from</span> acts <span class="keyword">import</span> UnitConstants <span class="keyword">as</span> u</div>
@@ -164,14 +164,14 @@ A minimal algorithm</h1>
 <li><span class="tt">execute(self, context)</span> is the only method you must override; it returns an <span class="tt">acts.examples.ProcessCode</span> (<span class="tt">SUCCESS</span>, <span class="tt">SKIP</span>, <span class="tt">ABORT</span>, or <span class="tt">END</span>).</li>
 <li><span class="tt">self.logger</span> is available once the base constructor has run.</li>
 </ul>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md54"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md56"></a>
 Reading and writing the whiteboard</h1>
 <p>Data is passed between steps via an in-memory <span class="tt">WhiteBoard</span>, keyed by string. The example above initializes typed <span class="tt">ReadDataHandle</span> and <span class="tt">WriteDataHandle</span> objects with those keys. Inside <span class="tt">execute</span>, read with <span class="tt">handle(context.eventStore)</span> and write with <span class="tt">handle(context, value)</span>. <span class="tt">context.eventStore</span> also gives you <span class="tt">.exists(key)</span> and <span class="tt">.keys</span> directly, if you need to probe the whiteboard rather than go through a typed handle.</p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md55"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md57"></a>
 A custom reader</h1>
 <p><span class="tt">IReader</span> follows the same pattern, but implements <span class="tt">availableEvents()</span> (returning <span class="tt">(firstEvent, lastEventExclusive)</span>) instead of taking whiteboard input. <span class="tt">acts.examples.uproot</span> ships two ready-to-use examples that read ROOT files without the ROOT plugin — read them for a complete, working <span class="tt">IReader</span> implementation, including buffered reads across events.</p>
 <p>The <a href="https://github.com/acts-project/acts/blob/main/Examples/Scripts/Python/pypi_finding_fitting_demo.py">PyPI finding and fitting demo</a> shows dummy Python track-finding and fitting algorithms in a complete chain.</p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md56"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md58"></a>
 Python algorithms and the GIL</h1>
 <p>Regular CPython uses a Global Interpreter Lock (GIL) that ensures only on thread is executing python code at the same time. <span class="tt">Sequencer.run()</span> releases the GIL while C++ algorithms execute.</p>
 <p>Calls back into Python such as <span class="tt">IAlgorithm.execute</span> acquire it again. This is not a problem usually, but means, that a custom Python algorithm will run single-threaded and can become a bottleneck, regardless of the <span class="tt">numThreads</span> configuration of the <span class="tt">Sequencer</span>.</p>

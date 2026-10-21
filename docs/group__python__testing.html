@@ -127,7 +127,7 @@ $(function(){initNavTree('group__python__testing.html','',''); });
 <div class="contents">
 <p>Running the Python test suite and checking ROOT file hashes. </p>
 <p>Python bindings are exercised through <span class="tt">pytest</span>, in addition to the doc-example snippets used by <a class="el" href="group__python__bindings.html">Python Bindings</a>.</p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md68"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md70"></a>
 Running the tests</h1>
 <p>First configure and build the Python bindings, then load the generated environment as described in <a class="el" href="group__python__bindings.html">Python Bindings</a>. Enable the optional components needed by the tests you want to run.</p>
 <p>A number of unit tests based on the <span class="tt">pytest</span> library are shipped with the repository, under <span class="tt">$REPO_ROOT/Python/Core/tests</span>, <span class="tt">Python/Fatras/tests</span>, and <span class="tt">Python/Examples/tests</span>. They cover the public API of the Python bindings, and a set of tests also execute the standalone example scripts under <span class="tt">Examples/Scripts/Python/</span>.</p>
@@ -137,7 +137,7 @@ Running the tests</h1>
 <dl class="section remark"><dt>Remarks</dt><dd>It is <b>strongly recommended</b> to use a <a href="https://realpython.com/python-virtual-environments-a-primer/">virtual environment</a> for this purpose! For example, run <div class="fragment"><div class="line">python -m venv venv</div>
 <div class="line">source venv/bin/activate</div>
 </div><!-- fragment --> to create a local virtual environment, and then run the <span class="tt">pip</span> command above.</dd></dl>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md69"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md71"></a>
 Markers</h2>
 <p>Tests are grouped by optional dependency using pytest markers: <span class="tt">csv</span>, <span class="tt">obj</span>, <span class="tt">root</span>, <span class="tt">json</span>, <span class="tt">slow</span>, <span class="tt">edm4hep</span>, <span class="tt">odd</span>, <span class="tt">hepmc3</span>, and <span class="tt">pypi</span>. <span class="tt">pypi</span> marks the subset that only exercises what the PyPI wheel actually provides (see <a class="el" href="group__python__bindings.html">Python Bindings</a>) — this is what <span class="tt">cibuildwheel</span> runs as the wheel smoke test. Run one marker's subset with:</p>
 <div class="fragment"><div class="line">pytest -m odd</div>
@@ -160,7 +160,7 @@ ROOT file hash regression checks</h2>
 <ol type="1">
 <li>Detect potential reproducibility issues. Tests that run with multiple threads should produce the same output every run, event ordering aside. If a test workload has a thread-reproducibility issue, the output hash should also change.</li>
 </ol>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md70"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md72"></a>
 Running the hash checks locally and how to update the reference hashes</h3>
 <p>By default, the hash checks are not executed when the <span class="tt">pytest</span> command is run. To enable them, you need to set the environment variable <span class="tt">ROOT_HASH_CHECKS</span> needs to be set to <span class="tt">ON</span>, for example like:</p>
 <div class="fragment"><div class="line">ROOT_HASH_CHECKS=ON pytest</div>

@@ -11,10 +11,10 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="struct_acts_1_1_experimental_1_1_gbts_tau_bounds.html" target="_top" xlink:title="Accepted |cot(theta)| range for one cluster width bin.">
+<g id="a_Node000000"><a xlink:href="struct_acts_1_1_experimental_1_1_gbts_seed_fit.html" target="_top" xlink:title="Fit of the GBTS tracking filter to a seed, at its innermost space point.">
 <polygon fill="white" stroke="#666666" points="109,-30 0,-30 0,0 109,0 109,-30"/>
 <text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Experimental</text>
-<text text-anchor="middle" x="54.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::GbtsTauBounds</text>
+<text text-anchor="middle" x="54.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::GbtsSeedFit</text>
 </a>
 </g>
 </g>

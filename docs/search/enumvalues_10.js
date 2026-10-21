@@ -12,8 +12,9 @@ var searchData=
   ['startparametershavenocovariance_9',['StartParametersHaveNoCovariance',['../group__errors.html#gga83f8b59ffc557631bb7fdd01c18431caacd3ce8112cc132a6786646eff9689454',1,'Acts']]],
   ['stateofmultiplecomponentsrequested_10',['StateOfMultipleComponentsRequested',['../group__errors.html#ggaf2646ee646a0b70b9c7ebe6e7f473629acb4aac268e70e319ab0f9c729892e841',1,'Acts']]],
   ['stepcountlimitreached_11',['StepCountLimitReached',['../group__errors.html#ggae4af8513760690d2518f3e01355beb88a1b43b4fba722947169471747934a6740',1,'Acts']]],
-  ['stepinvalid_12',['StepInvalid',['../group__errors.html#gga21cb0f3d4dc02db3af0291385e70d4e0adec88b388126e180a1d7807815c6c8dd',1,'Acts']]],
-  ['stepsizeadjustmentfailed_13',['StepSizeAdjustmentFailed',['../group__errors.html#gga21cb0f3d4dc02db3af0291385e70d4e0a2c4a5f9ada6b6941b6f25ba17affbab7',1,'Acts']]],
-  ['stepsizestalled_14',['StepSizeStalled',['../group__errors.html#gga21cb0f3d4dc02db3af0291385e70d4e0ac96e8be3a0e8b6f5dd6d219249a81180',1,'Acts']]],
-  ['stripcalibrationdetails_15',['StripCalibrationDetails',['../namespace_acts.html#a7a6813a649567fb613b8214ad5e7399cac6812a1e375ae61912bc88ad6007c00a',1,'Acts']]]
+  ['stepdoubling_12',['StepDoubling',['../class_acts_1_1_generic_runge_kutta_stepper.html#aace8406e45bb1182518bec766dd563baac54e2236678e75a336a6576dca8ba605',1,'Acts::GenericRungeKuttaStepper']]],
+  ['stepinvalid_13',['StepInvalid',['../group__errors.html#gga21cb0f3d4dc02db3af0291385e70d4e0adec88b388126e180a1d7807815c6c8dd',1,'Acts']]],
+  ['stepsizeadjustmentfailed_14',['StepSizeAdjustmentFailed',['../group__errors.html#gga21cb0f3d4dc02db3af0291385e70d4e0a2c4a5f9ada6b6941b6f25ba17affbab7',1,'Acts']]],
+  ['stepsizestalled_15',['StepSizeStalled',['../group__errors.html#gga21cb0f3d4dc02db3af0291385e70d4e0ac96e8be3a0e8b6f5dd6d219249a81180',1,'Acts']]],
+  ['stripcalibrationdetails_16',['StripCalibrationDetails',['../namespace_acts.html#a7a6813a649567fb613b8214ad5e7399cac6812a1e375ae61912bc88ad6007c00a',1,'Acts']]]
 ];

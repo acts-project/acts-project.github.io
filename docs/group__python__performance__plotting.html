@@ -126,7 +126,7 @@ $(function(){initNavTree('group__python__performance__plotting.html','',''); });
 </div><!--header-->
 <div class="contents">
 <p>Extracting efficiency/resolution numbers from a <span class="tt">Sequencer</span> run, and plotting them. </p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md64"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md66"></a>
 Performance writers</h1>
 <p>ACTS has two output options for the same performance evaluation. Each pair uses the same collector and produces the same main histogram families. The Python writer returns histograms through <span class="tt">.histograms()</span> after <span class="tt">s.run()</span>; the ROOT writer saves them in a ROOT file. ROOT output also includes some summary objects and can include matching details.</p>
 <ul>
@@ -153,16 +153,16 @@ Performance writers</h1>
 <div class="line">s.addWriter(perfWriterFinder)</div>
 </div><!-- fragment --><p>The <a href="https://github.com/acts-project/acts/blob/main/Python/Examples/tests/test_examples.py">PyPI demo test</a> executes this example. After <span class="tt">s.run()</span>, retrieve the results with <span class="tt">histograms = perfWriterFinder.histograms()</span>.</p>
 <p>For ROOT output, use <span class="tt">acts.examples.root.RootPatternRecognitionPerformanceWriter</span>, set the same input collection fields on its <span class="tt">Config</span>, and set <span class="tt">filePath</span>. See the <a href="https://github.com/acts-project/acts/blob/main/Examples/Scripts/Python/pypi_finding_fitting_demo.py">PyPI finding and fitting demo</a> for the Python writers and the <a href="https://github.com/acts-project/acts/blob/main/Examples/Scripts/Python/truth_tracking_kalman.py">truth-tracking Kalman example</a> for ROOT output.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md65"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md67"></a>
 Resolution fit backend</h2>
 <p>The track-parameter writers fit residual and pull distributions to extract mean and width profiles. The ROOT writer uses the ROOT fit backend. For the Python writer, set <span class="tt">cfg.fitFunction = acts.examples.scipy.makeScipyHistogramFitFunction()</span> to use SciPy instead; install <span class="tt">scipy</span> and <span class="tt">numpy</span> separately. The ROOT track-parameter writer also supports evaluation at individual track states and against calibrated measurements. The Python writer currently evaluates track reference parameters against truth particles.</p>
 <p><span class="tt">TrackTruthMatcher(doubleMatching=True)</span> is the standard way to produce the <span class="tt">inputTrackParticleMatching</span>/<span class="tt">inputParticleTrackMatching</span> collections these writers need.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md66"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md68"></a>
 Available histograms</h2>
 <p>The writers return efficiency, fake and duplicate track, track-summary, residual, and pull histograms according to their configuration. Names and dimensions can vary. To see the available histograms after <span class="tt">s.run()</span>:</p>
 <div class="fragment"><div class="line"><span class="keywordflow">for</span> name, histogram <span class="keywordflow">in</span> sorted(histograms.items()):</div>
 <div class="line">    print(f<span class="stringliteral">&quot;{name:40} {type(histogram).__name__}&quot;</span>)</div>
-</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md67"></a>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md69"></a>
 Plotting</h2>
 <p>One-dimensional <span class="tt">Histogram1</span>, <span class="tt">ProfileHistogram1</span>, and <span class="tt">Efficiency1</span> objects support <span class="tt">.plot()</span> with matplotlib and mplhep:</p>
 <div class="fragment"><div class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</div>

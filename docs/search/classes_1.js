@@ -42,5 +42,6 @@ var searchData=
   ['bremcombinatorialkalmanfilteroptions_39',['BremCombinatorialKalmanFilterOptions',['../struct_acts_1_1_brem_combinatorial_kalman_filter_options.html',1,'Acts']]],
   ['bremstate_40',['BremState',['../struct_acts_1_1_combinatorial_kalman_filter_1_1_actor_1_1_brem_state.html',1,'Acts::CombinatorialKalmanFilter::Actor']]],
   ['broadtripletseedfilter_41',['BroadTripletSeedFilter',['../class_acts_1_1_broad_triplet_seed_filter.html',1,'Acts']]],
-  ['buffer_42',['Buffer',['../struct_acts_plugins_1_1_fpe_monitor_1_1_buffer.html',1,'ActsPlugins::FpeMonitor']]]
+  ['buffer_42',['Buffer',['../struct_acts_plugins_1_1_fpe_monitor_1_1_buffer.html',1,'ActsPlugins::FpeMonitor']]],
+  ['butchertableau_43',['ButcherTableau',['../class_acts_1_1_butcher_tableau.html',1,'Acts']]]
 ];
