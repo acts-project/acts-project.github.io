@@ -127,6 +127,7 @@ $(function(){initNavTree('group__propagation.html','',''); });
 <div class="contents">
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <p>Particle propagation. </p>
+<p>The transport Jacobian used for covariance transport is not written by hand: it is derived symbolically with sympy and printed as C++ at build time. See <a class="el" href="codegen_sympy_jac.html">Transport Jacobian code generation</a> for the derivation, the sparsity patterns it exploits and the code it produces.</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md53"></a>
 Steppers</h2>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md54"></a>

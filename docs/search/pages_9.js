@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['edit_20the_20config_0',['1c. Edit the config',['../material_mapping_howto.html#autotoc_md123',1,'']]],
-  ['editable_20config_1',['1b. Reduce it to an editable config',['../material_mapping_howto.html#autotoc_md122',1,'']]],
+  ['edit_20the_20config_0',['1c. Edit the config',['../material_mapping_howto.html#autotoc_md135',1,'']]],
+  ['editable_20config_1',['1b. Reduce it to an editable config',['../material_mapping_howto.html#autotoc_md134',1,'']]],
   ['edm_20backends_2',['Track EDM backends',['../group__eventdata__tracks.html#edm_track_backends',1,'']]],
   ['effects_3',['Material effects',['../tracking.html#material-eff',1,'']]],
   ['energy_20loss_4',['Energy loss',['../group__kf__material__effects.html#kf-material-eloss',1,'']]],
@@ -14,8 +14,9 @@ var searchData=
   ['event_20data_20input_20and_20output_11',['Event data input and output',['../group__python__data__io.html#autotoc_md59',1,'']]],
   ['event_20data_20model_12',['High-level Track Event Data Model',['../group__eventdata__tracks.html#edm_Tracks',1,'']]],
   ['event_20files_13',['HepMC3 event files',['../group__python__data__io.html#autotoc_md61',1,'']]],
-  ['example_14',['Example',['../class_acts_fatras_1_1_barcode.html#autotoc_md157',1,'']]],
-  ['example_20and_20the_20tests_20that_20guard_20this_15',['Worked example, and the tests that guard this',['../material_mapping_howto.html#autotoc_md135',1,'']]],
-  ['extra_20context_16',['Plain module (no extra context)',['../group__geometry__module__loading.html#autotoc_md5',1,'']]],
-  ['extraction_17',['Seed extraction',['../group__gbts.html#gbts-extraction',1,'']]]
+  ['example_14',['Example',['../class_acts_fatras_1_1_barcode.html#autotoc_md169',1,'']]],
+  ['example_20and_20the_20tests_20that_20guard_20this_15',['Worked example, and the tests that guard this',['../material_mapping_howto.html#autotoc_md147',1,'']]],
+  ['expressions_20to_20c_16',['From expressions to C++',['../codegen_sympy_jac.html#autotoc_md90',1,'']]],
+  ['extra_20context_17',['Plain module (no extra context)',['../group__geometry__module__loading.html#autotoc_md5',1,'']]],
+  ['extraction_18',['Seed extraction',['../group__gbts.html#gbts-extraction',1,'']]]
 ];
