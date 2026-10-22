@@ -1,5 +1,12 @@
 var NAVTREEINDEX59 =
 {
+"struct_acts_1_1_gaussian_track_density_1_1_state.html#abf158b8317465a81f845749e3cbdcd2a":[6,0,0,157,1,0],
+"struct_acts_1_1_gaussian_track_density_1_1_state.html#abf158b8317465a81f845749e3cbdcd2a":[8,0,0,162,1,0],
+"struct_acts_1_1_gaussian_track_density_1_1_state.html#ad81d8710911ef0d06741e545d32c0792":[6,0,0,157,1,1],
+"struct_acts_1_1_gaussian_track_density_1_1_state.html#ad81d8710911ef0d06741e545d32c0792":[8,0,0,162,1,1],
+"struct_acts_1_1_gaussian_track_density_1_1_track_entry.html":[6,0,0,157,2],
+"struct_acts_1_1_gaussian_track_density_1_1_track_entry.html":[8,0,0,162,2],
+"struct_acts_1_1_gaussian_track_density_1_1_track_entry.html#a0fd7d879270e31d011c0259e299eb0e9":[6,0,0,157,2,4],
 "struct_acts_1_1_gaussian_track_density_1_1_track_entry.html#a0fd7d879270e31d011c0259e299eb0e9":[8,0,0,162,2,4],
 "struct_acts_1_1_gaussian_track_density_1_1_track_entry.html#a18add364115e17f543d4f3db2eaf9d49":[6,0,0,157,2,0],
 "struct_acts_1_1_gaussian_track_density_1_1_track_entry.html#a18add364115e17f543d4f3db2eaf9d49":[8,0,0,162,2,0],
@@ -242,12 +249,5 @@ var NAVTREEINDEX59 =
 "struct_acts_1_1_grid_density_vertex_finder_1_1_state.html":[8,0,0,180,1],
 "struct_acts_1_1_grid_density_vertex_finder_1_1_state.html#a2be88dcf449ddaa654a4040b3bc4d87c":[6,0,0,175,1,2],
 "struct_acts_1_1_grid_density_vertex_finder_1_1_state.html#a2be88dcf449ddaa654a4040b3bc4d87c":[8,0,0,180,1,2],
-"struct_acts_1_1_grid_density_vertex_finder_1_1_state.html#a5687313a61d10918126f793965c0f769":[6,0,0,175,1,4],
-"struct_acts_1_1_grid_density_vertex_finder_1_1_state.html#a5687313a61d10918126f793965c0f769":[8,0,0,180,1,4],
-"struct_acts_1_1_grid_density_vertex_finder_1_1_state.html#a9dc61664de4e51e0f1b9d34c747b10ae":[6,0,0,175,1,5],
-"struct_acts_1_1_grid_density_vertex_finder_1_1_state.html#a9dc61664de4e51e0f1b9d34c747b10ae":[8,0,0,180,1,5],
-"struct_acts_1_1_grid_density_vertex_finder_1_1_state.html#aac7ea846f1342607024b7bb15bf231d0":[6,0,0,175,1,0],
-"struct_acts_1_1_grid_density_vertex_finder_1_1_state.html#aac7ea846f1342607024b7bb15bf231d0":[8,0,0,180,1,0],
-"struct_acts_1_1_grid_density_vertex_finder_1_1_state.html#aacbe27722151cd03bbb9383e1bf1696c":[6,0,0,175,1,1],
-"struct_acts_1_1_grid_density_vertex_finder_1_1_state.html#aacbe27722151cd03bbb9383e1bf1696c":[8,0,0,180,1,1]
+"struct_acts_1_1_grid_density_vertex_finder_1_1_state.html#a5687313a61d10918126f793965c0f769":[6,0,0,175,1,4]
 };

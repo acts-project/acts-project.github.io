@@ -24,5 +24,6 @@ var class_acts_1_1_experimental_1_1_blueprint_builder =
     [ "makeLayer", "class_acts_1_1_experimental_1_1_blueprint_builder.html#ae73b9d3eeba07b429b14e1d16c6229f7", null ],
     [ "makeLayer", "class_acts_1_1_experimental_1_1_blueprint_builder.html#a7fadbb35db0f8867108d81f21d98c593", null ],
     [ "makeLayer", "class_acts_1_1_experimental_1_1_blueprint_builder.html#a46750f374679ba43d5b0e730db88c48a", null ],
+    [ "makePassiveElement", "class_acts_1_1_experimental_1_1_blueprint_builder.html#ac46c9433a039c6f0711e8ad4e3e6eec0", null ],
     [ "resolveSensitives", "class_acts_1_1_experimental_1_1_blueprint_builder.html#aa69b6901c36fca8aac85dbf9c640a19c", null ]
 ];

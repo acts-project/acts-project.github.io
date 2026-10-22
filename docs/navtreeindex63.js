@@ -1,5 +1,12 @@
 var NAVTREEINDEX63 =
 {
+"struct_acts_1_1_navigator_1_1_state.html#a5f1d725fcb85b9096151e055063834ca":[6,0,0,300,2,33],
+"struct_acts_1_1_navigator_1_1_state.html#a5f1d725fcb85b9096151e055063834ca":[8,0,0,305,2,33],
+"struct_acts_1_1_navigator_1_1_state.html#a7822de5ed85a8a6d7ad32b420cb9e062":[6,0,0,300,2,34],
+"struct_acts_1_1_navigator_1_1_state.html#a7822de5ed85a8a6d7ad32b420cb9e062":[8,0,0,305,2,34],
+"struct_acts_1_1_navigator_1_1_state.html#a7c71be6d954f886c63cb802c96cb6605":[6,0,0,300,2,5],
+"struct_acts_1_1_navigator_1_1_state.html#a7c71be6d954f886c63cb802c96cb6605":[8,0,0,305,2,5],
+"struct_acts_1_1_navigator_1_1_state.html#a80020ca927928717d2401262a7a26c46":[6,0,0,300,2,12],
 "struct_acts_1_1_navigator_1_1_state.html#a80020ca927928717d2401262a7a26c46":[8,0,0,305,2,12],
 "struct_acts_1_1_navigator_1_1_state.html#a8333f56ce01a4e1edf9cc58fb677983d":[6,0,0,300,2,10],
 "struct_acts_1_1_navigator_1_1_state.html#a8333f56ce01a4e1edf9cc58fb677983d":[8,0,0,305,2,10],
@@ -242,12 +249,5 @@ var NAVTREEINDEX63 =
 "struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html#aa5f4e93ea74dc849b0d5d5ff7df00e0c":[5,3,2,17,1,3],
 "struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html#aa5f4e93ea74dc849b0d5d5ff7df00e0c":[5,13,21,1,3],
 "struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html#ab25cc52eb3038ffc855403a2a0eebb32":[5,3,2,17,1,2],
-"struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html#ab25cc52eb3038ffc855403a2a0eebb32":[5,13,21,1,2],
-"struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html#ae2ed09a3f6ade9ffadd6a1bb25a41968":[5,3,2,17,1,1],
-"struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html#ae2ed09a3f6ade9ffadd6a1bb25a41968":[5,13,21,1,1],
-"struct_acts_1_1_portal_1_1_arguments.html":[6,0,0,331,0],
-"struct_acts_1_1_portal_1_1_arguments.html":[8,0,0,336,0],
-"struct_acts_1_1_portal_1_1_arguments.html#aa04b796cf01594bb2c19a525dace5706":[6,0,0,331,0,1],
-"struct_acts_1_1_portal_1_1_arguments.html#aa04b796cf01594bb2c19a525dace5706":[8,0,0,336,0,1],
-"struct_acts_1_1_portal_1_1_arguments.html#aee2980b63577ef90a886ee838ea32189":[6,0,0,331,0,2]
+"struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html#ab25cc52eb3038ffc855403a2a0eebb32":[5,13,21,1,2]
 };

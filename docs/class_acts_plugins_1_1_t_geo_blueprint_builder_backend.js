@@ -21,6 +21,7 @@ var class_acts_plugins_1_1_t_geo_blueprint_builder_backend =
     [ "nameOf", "class_acts_plugins_1_1_t_geo_blueprint_builder_backend.html#ad254eb70a65f57152c3c111b3ea97dda", null ],
     [ "nodeOf", "class_acts_plugins_1_1_t_geo_blueprint_builder_backend.html#a64785daf7f1940597ab1156a43b14a98", null ],
     [ "parent", "class_acts_plugins_1_1_t_geo_blueprint_builder_backend.html#a33b54fa423ac9f2ff113c6c6e8af532e", null ],
+    [ "passiveVolume", "class_acts_plugins_1_1_t_geo_blueprint_builder_backend.html#ab23d6aec3b5515791dc788366c7746fe", null ],
     [ "pathOf", "class_acts_plugins_1_1_t_geo_blueprint_builder_backend.html#aa61a46748c27763e9280fd2d06800802", null ],
     [ "transformOf", "class_acts_plugins_1_1_t_geo_blueprint_builder_backend.html#a7b26c064a0dd87ddcd9f6fe46cadda56", null ],
     [ "world", "class_acts_plugins_1_1_t_geo_blueprint_builder_backend.html#ae376ffe87268049764ad02c3660860e7", null ],

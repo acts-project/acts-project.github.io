@@ -1,5 +1,12 @@
 var NAVTREEINDEX53 =
 {
+"struct_acts_1_1_bound_parameter_recorder.html#a8b434b482829f8db407c8027bd90ffea":[8,0,0,69,0],
+"struct_acts_1_1_bound_parameter_recorder.html#a8bc6cef79c876bbc4e85267d90b5cc4a":[6,0,0,64,1],
+"struct_acts_1_1_bound_parameter_recorder.html#a8bc6cef79c876bbc4e85267d90b5cc4a":[8,0,0,69,1],
+"struct_acts_1_1_boundary_tolerance_1_1_absolute_euclidean_params.html":[6,0,0,62,0],
+"struct_acts_1_1_boundary_tolerance_1_1_absolute_euclidean_params.html":[8,0,0,67,0],
+"struct_acts_1_1_boundary_tolerance_1_1_absolute_euclidean_params.html#a435a29549c8c273b4c5f56f09cde3e14":[6,0,0,62,0,0],
+"struct_acts_1_1_boundary_tolerance_1_1_absolute_euclidean_params.html#a435a29549c8c273b4c5f56f09cde3e14":[8,0,0,67,0,0],
 "struct_acts_1_1_boundary_tolerance_1_1_chi2_bound_params.html":[6,0,0,62,1],
 "struct_acts_1_1_boundary_tolerance_1_1_chi2_bound_params.html":[8,0,0,67,1],
 "struct_acts_1_1_boundary_tolerance_1_1_chi2_bound_params.html#a0515fee55f0614bcb2e0098fb44d2dc9":[6,0,0,62,1,2],
@@ -242,12 +249,5 @@ var NAVTREEINDEX53 =
 "struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html#a10bf73e1dc5ac5a2ac49fa7144d30bdf":[6,0,0,97,1,4],
 "struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html#a10bf73e1dc5ac5a2ac49fa7144d30bdf":[8,0,0,102,1,4],
 "struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html#a2da3153b308ae495231fb4783e2d7c4d":[6,0,0,97,1,5],
-"struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html#a2da3153b308ae495231fb4783e2d7c4d":[8,0,0,102,1,5],
-"struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html#a2e9f0a59f5fe5f290057dc4b64f5ad80":[6,0,0,97,1,8],
-"struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html#a2e9f0a59f5fe5f290057dc4b64f5ad80":[8,0,0,102,1,8],
-"struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html#a51440034729341e3d8e59b9bdf7869ae":[6,0,0,97,1,7],
-"struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html#a51440034729341e3d8e59b9bdf7869ae":[8,0,0,102,1,7],
-"struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html#a676dbc66f5100c732c043444efb330c1":[6,0,0,97,1,9],
-"struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html#a676dbc66f5100c732c043444efb330c1":[8,0,0,102,1,9],
-"struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html#a6bb01e0abe77802004d8960680ae4145":[6,0,0,97,1,1]
+"struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html#a2da3153b308ae495231fb4783e2d7c4d":[8,0,0,102,1,5]
 };

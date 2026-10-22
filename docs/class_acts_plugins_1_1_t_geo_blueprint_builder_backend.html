@@ -188,6 +188,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a64785daf7f1940597ab1156a43b14a98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the underlying TGeo node for an element.  <br /></td></tr>
 <tr class="memitem:a33b54fa423ac9f2ff113c6c6e8af532e" id="r_a33b54fa423ac9f2ff113c6c6e8af532e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_element.html">Element</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33b54fa423ac9f2ff113c6c6e8af532e">parent</a> (const <a class="el" href="struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_element.html">Element</a> &amp;element) const</td></tr>
 <tr class="memdesc:a33b54fa423ac9f2ff113c6c6e8af532e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the parent element of an element.  <br /></td></tr>
+<tr class="memitem:ab23d6aec3b5515791dc788366c7746fe" id="r_ab23d6aec3b5515791dc788366c7746fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_volume.html">Acts::Volume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab23d6aec3b5515791dc788366c7746fe">passiveVolume</a> (const <a class="el" href="struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_element.html">Element</a> &amp;element) const</td></tr>
+<tr class="memdesc:ab23d6aec3b5515791dc788366c7746fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Describe a passive element as a cylindrical volume.  <br /></td></tr>
 <tr class="memitem:aa61a46748c27763e9280fd2d06800802" id="r_aa61a46748c27763e9280fd2d06800802"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa61a46748c27763e9280fd2d06800802">pathOf</a> (const <a class="el" href="struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_element.html">Element</a> &amp;element) const</td></tr>
 <tr class="memdesc:aa61a46748c27763e9280fd2d06800802"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the full geometry path of an element.  <br /></td></tr>
 <tr class="memitem:a7b26c064a0dd87ddcd9f6fe46cadda56" id="r_a7b26c064a0dd87ddcd9f6fe46cadda56"><td class="memItemLeft" align="right" valign="top">TGeoHMatrix&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b26c064a0dd87ddcd9f6fe46cadda56">transformOf</a> (const <a class="el" href="struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_element.html">Element</a> &amp;element) const</td></tr>
@@ -224,8 +226,8 @@ static constexpr std::string_view&#160;</td><td class="memItemRight" valign="bot
 <div class="line">      <span class="keyword">const</span> <a class="code hl_typedef" href="class_acts_plugins_1_1_t_geo_detector_element.html#a3efcc3fde6be6c334ac40cd2f481a527">TGeoDetectorElement::Identifier</a>&amp;, <span class="keyword">const</span> TGeoNode&amp;,</div>
 <div class="line">      <span class="keyword">const</span> TGeoMatrix&amp;, <a class="code hl_typedef" href="#ab17dec8d9264cf0cc0cedcb1653d9165">AxisDefinition</a>, <span class="keywordtype">double</span>,</div>
 <div class="line">      std::shared_ptr&lt;const Acts::ISurfaceMaterial&gt;)&gt;</div>
-<div class="ttc" id="aclass_acts_plugins_1_1_t_geo_blueprint_builder_backend_html_a188b25eba9a84593517aa953819c3b65"><div class="ttname"><a href="#a188b25eba9a84593517aa953819c3b65">ActsPlugins::TGeoBlueprintBuilderBackend::DetectorElementPtr</a></div><div class="ttdeci">std::shared_ptr&lt; DetectorElement &gt; DetectorElementPtr</div><div class="ttdoc">Shared pointer to the detector element type.</div><div class="ttdef"><b>Definition</b> BlueprintBuilder.hpp:80</div></div>
-<div class="ttc" id="aclass_acts_plugins_1_1_t_geo_blueprint_builder_backend_html_ab17dec8d9264cf0cc0cedcb1653d9165"><div class="ttname"><a href="#ab17dec8d9264cf0cc0cedcb1653d9165">ActsPlugins::TGeoBlueprintBuilderBackend::AxisDefinition</a></div><div class="ttdeci">TGeoAxes AxisDefinition</div><div class="ttdoc">Axis definitions used for detector element and layer surface creation.</div><div class="ttdef"><b>Definition</b> BlueprintBuilder.hpp:66</div></div>
+<div class="ttc" id="aclass_acts_plugins_1_1_t_geo_blueprint_builder_backend_html_a188b25eba9a84593517aa953819c3b65"><div class="ttname"><a href="#a188b25eba9a84593517aa953819c3b65">ActsPlugins::TGeoBlueprintBuilderBackend::DetectorElementPtr</a></div><div class="ttdeci">std::shared_ptr&lt; DetectorElement &gt; DetectorElementPtr</div><div class="ttdoc">Shared pointer to the detector element type.</div><div class="ttdef"><b>Definition</b> BlueprintBuilder.hpp:81</div></div>
+<div class="ttc" id="aclass_acts_plugins_1_1_t_geo_blueprint_builder_backend_html_ab17dec8d9264cf0cc0cedcb1653d9165"><div class="ttname"><a href="#ab17dec8d9264cf0cc0cedcb1653d9165">ActsPlugins::TGeoBlueprintBuilderBackend::AxisDefinition</a></div><div class="ttdeci">TGeoAxes AxisDefinition</div><div class="ttdoc">Axis definitions used for detector element and layer surface creation.</div><div class="ttdef"><b>Definition</b> BlueprintBuilder.hpp:67</div></div>
 <div class="ttc" id="aclass_acts_plugins_1_1_t_geo_detector_element_html_a3efcc3fde6be6c334ac40cd2f481a527"><div class="ttname"><a href="class_acts_plugins_1_1_t_geo_detector_element.html#a3efcc3fde6be6c334ac40cd2f481a527">ActsPlugins::TGeoDetectorElement::Identifier</a></div><div class="ttdeci">identifier_type Identifier</div><div class="ttdoc">Identifier alias.</div><div class="ttdef"><b>Definition</b> TGeoDetectorElement.hpp:49</div></div>
 </div><!-- fragment -->
 <p>Factory function used to instantiate detector elements. </p>
@@ -245,7 +247,7 @@ static constexpr std::string_view&#160;</td><td class="memItemRight" valign="bot
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">      std::function&lt;<a class="code hl_typedef" href="class_acts_plugins_1_1_t_geo_detector_element.html#a3efcc3fde6be6c334ac40cd2f481a527">TGeoDetectorElement::Identifier</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_element.html">Element</a>&amp;)&gt;</div>
-<div class="ttc" id="astruct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_element_html"><div class="ttname"><a href="struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_element.html">ActsPlugins::TGeoBlueprintBuilderBackend::Element</a></div><div class="ttdoc">Lightweight backend element that points to a node context.</div><div class="ttdef"><b>Definition</b> BlueprintBuilder.hpp:45</div></div>
+<div class="ttc" id="astruct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_element_html"><div class="ttname"><a href="struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_element.html">ActsPlugins::TGeoBlueprintBuilderBackend::Element</a></div><div class="ttdoc">Lightweight backend element that points to a node context.</div><div class="ttdef"><b>Definition</b> BlueprintBuilder.hpp:46</div></div>
 </div><!-- fragment -->
 <p>Provider that maps an element to a detector element identifier. </p>
 
@@ -594,6 +596,38 @@ static constexpr std::string_view&#160;</td><td class="memItemRight" valign="bot
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Parent element. </dd></dl>
+
+</div>
+</div>
+<a id="ab23d6aec3b5515791dc788366c7746fe" name="ab23d6aec3b5515791dc788366c7746fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab23d6aec3b5515791dc788366c7746fe">&#9670;&#160;</a></span>passiveVolume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_acts_1_1_volume.html">Acts::Volume</a> ActsPlugins::TGeoBlueprintBuilderBackend::passiveVolume </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_element.html">Element</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>element</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Describe a passive element as a cylindrical volume. </p>
+<p>Tube-like shapes (z half-length larger than the radial thickness, e.g. a support tube) become a cylinder shell, disc-like shapes (e.g. an endplate) an annular disc. Used by <a class="el" href="class_acts_1_1_blueprint_builder.html#ac46c9433a039c6f0711e8ad4e3e6eec0">Acts::BlueprintBuilder::makePassiveElement</a>. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">element</td><td>Element describing the passive tube or disc. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::runtime_error</td><td>if the shape is neither tube- nor disc-like. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Volume with the element's placement and cylinder volume bounds. </dd></dl>
 
 </div>
 </div>

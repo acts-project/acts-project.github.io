@@ -1,5 +1,12 @@
 var NAVTREEINDEX52 =
 {
+"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a50a5bfdf354c5c896c4592b79bc1f245":[6,0,0,18,0,20],
+"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a50a5bfdf354c5c896c4592b79bc1f245":[8,0,0,23,0,20],
+"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a74b192423379d4023d3824196c42412d":[6,0,0,18,0,11],
+"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a74b192423379d4023d3824196c42412d":[8,0,0,23,0,11],
+"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a75c1a6436a50d9d100aace1e805c65eb":[6,0,0,18,0,14],
+"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a75c1a6436a50d9d100aace1e805c65eb":[8,0,0,23,0,14],
+"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a79ef2ba5f5ab651398a2a30172589e0a":[6,0,0,18,0,1],
 "struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a79ef2ba5f5ab651398a2a30172589e0a":[8,0,0,23,0,1],
 "struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a7abb7fedb3afde8d3284a2aaacc32e97":[6,0,0,18,0,10],
 "struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a7abb7fedb3afde8d3284a2aaacc32e97":[8,0,0,23,0,10],
@@ -242,12 +249,5 @@ var NAVTREEINDEX52 =
 "struct_acts_1_1_bound_parameter_recorder.html":[8,0,0,69],
 "struct_acts_1_1_bound_parameter_recorder.html#a6d1cfc56b37bed0be0f71c43d143da59":[6,0,0,64,2],
 "struct_acts_1_1_bound_parameter_recorder.html#a6d1cfc56b37bed0be0f71c43d143da59":[8,0,0,69,2],
-"struct_acts_1_1_bound_parameter_recorder.html#a8b434b482829f8db407c8027bd90ffea":[6,0,0,64,0],
-"struct_acts_1_1_bound_parameter_recorder.html#a8b434b482829f8db407c8027bd90ffea":[8,0,0,69,0],
-"struct_acts_1_1_bound_parameter_recorder.html#a8bc6cef79c876bbc4e85267d90b5cc4a":[6,0,0,64,1],
-"struct_acts_1_1_bound_parameter_recorder.html#a8bc6cef79c876bbc4e85267d90b5cc4a":[8,0,0,69,1],
-"struct_acts_1_1_boundary_tolerance_1_1_absolute_euclidean_params.html":[6,0,0,62,0],
-"struct_acts_1_1_boundary_tolerance_1_1_absolute_euclidean_params.html":[8,0,0,67,0],
-"struct_acts_1_1_boundary_tolerance_1_1_absolute_euclidean_params.html#a435a29549c8c273b4c5f56f09cde3e14":[6,0,0,62,0,0],
-"struct_acts_1_1_boundary_tolerance_1_1_absolute_euclidean_params.html#a435a29549c8c273b4c5f56f09cde3e14":[8,0,0,67,0,0]
+"struct_acts_1_1_bound_parameter_recorder.html#a8b434b482829f8db407c8027bd90ffea":[6,0,0,64,0]
 };

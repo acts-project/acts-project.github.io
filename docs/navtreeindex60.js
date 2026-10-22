@@ -1,5 +1,12 @@
 var NAVTREEINDEX60 =
 {
+"struct_acts_1_1_grid_density_vertex_finder_1_1_state.html#a5687313a61d10918126f793965c0f769":[8,0,0,180,1,4],
+"struct_acts_1_1_grid_density_vertex_finder_1_1_state.html#a9dc61664de4e51e0f1b9d34c747b10ae":[6,0,0,175,1,5],
+"struct_acts_1_1_grid_density_vertex_finder_1_1_state.html#a9dc61664de4e51e0f1b9d34c747b10ae":[8,0,0,180,1,5],
+"struct_acts_1_1_grid_density_vertex_finder_1_1_state.html#aac7ea846f1342607024b7bb15bf231d0":[6,0,0,175,1,0],
+"struct_acts_1_1_grid_density_vertex_finder_1_1_state.html#aac7ea846f1342607024b7bb15bf231d0":[8,0,0,180,1,0],
+"struct_acts_1_1_grid_density_vertex_finder_1_1_state.html#aacbe27722151cd03bbb9383e1bf1696c":[6,0,0,175,1,1],
+"struct_acts_1_1_grid_density_vertex_finder_1_1_state.html#aacbe27722151cd03bbb9383e1bf1696c":[8,0,0,180,1,1],
 "struct_acts_1_1_grid_density_vertex_finder_1_1_state.html#ab9c7fe5fc6a0e72a9a017ba4f153c6e0":[6,0,0,175,1,3],
 "struct_acts_1_1_grid_density_vertex_finder_1_1_state.html#ab9c7fe5fc6a0e72a9a017ba4f153c6e0":[8,0,0,180,1,3],
 "struct_acts_1_1_grid_surface_material_1_1_globally_indexed.html":[5,3,2,5,0],
@@ -242,12 +249,5 @@ var NAVTREEINDEX60 =
 "struct_acts_1_1_index_grid_filler.html#ae4eda429527bdfbda553a44eb291e779":[6,0,0,202,3],
 "struct_acts_1_1_index_grid_filler.html#ae4eda429527bdfbda553a44eb291e779":[8,0,0,207,3],
 "struct_acts_1_1_index_grid_filler.html#aee9eb3fea1b4bbe602de71f737f7280c":[6,0,0,202,0],
-"struct_acts_1_1_index_grid_filler.html#aee9eb3fea1b4bbe602de71f737f7280c":[8,0,0,207,0],
-"struct_acts_1_1_index_grid_navigation_json_converter_1_1_options.html":[8,0,0,6,0],
-"struct_acts_1_1_index_grid_navigation_json_converter_1_1_options.html#a0336a404b6a9d18ad8cb6fdd6dc88a84":[8,0,0,6,0,0],
-"struct_acts_1_1_index_grid_navigation_json_converter_1_1_options.html#aaa1fa9237d6d00f66101ab7c9f3bc406":[8,0,0,6,0,1],
-"struct_acts_1_1_index_grid_navigation_json_converter_1_1_options.html#ad6ff18680fea02c928c493424f1c2cdd":[8,0,0,6,0,2],
-"struct_acts_1_1_input_track.html":[6,0,0,206],
-"struct_acts_1_1_input_track.html":[8,0,0,211],
-"struct_acts_1_1_input_track.html#a3fc78119cafa4b376747e60b4be0781c":[6,0,0,206,4]
+"struct_acts_1_1_index_grid_filler.html#aee9eb3fea1b4bbe602de71f737f7280c":[8,0,0,207,0]
 };

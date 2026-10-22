@@ -135,6 +135,8 @@ $(function(){initNavTree('struct_acts_plugins_1_1_t_geo_surface_converter.html',
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ad95be189488e23ca005fa853c5052afb" id="r_ad95be189488e23ca005fa853c5052afb"><td class="memItemLeft" align="right" valign="top">static std::tuple&lt; std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_cylinder_bounds.html">Acts::CylinderBounds</a> &gt;, const <a class="el" href="group__algebra__types.html#gab6e508c2d10f1fd653dc4f05c26f9151">Acts::Transform3</a>, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad95be189488e23ca005fa853c5052afb">cylinderComponents</a> (const TGeoShape &amp;tgShape, const Double_t *rotation, const Double_t *translation, <a class="el" href="class_acts_plugins_1_1_t_geo_axes.html">TGeoAxes</a> axes, double scalor=10.) noexcept(false)</td></tr>
 <tr class="memdesc:ad95be189488e23ca005fa853c5052afb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a TGeoShape into cylinder surface components.  <br /></td></tr>
+<tr class="memitem:a11967f3c3d14c8bb05485422cb63d657" id="r_a11967f3c3d14c8bb05485422cb63d657"><td class="memItemLeft" align="right" valign="top">static std::optional&lt; <a class="el" href="class_acts_1_1_volume.html">Acts::Volume</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11967f3c3d14c8bb05485422cb63d657">cylinderVolume</a> (const TGeoShape &amp;tgShape, const TGeoMatrix &amp;tgMatrix, double scalor=10.) noexcept(false)</td></tr>
+<tr class="memdesc:a11967f3c3d14c8bb05485422cb63d657"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a tube- or disc-like TGeoShape into a cylindrical volume.  <br /></td></tr>
 <tr class="memitem:a11681a3b0cefb7867465414a5c7b2a5c" id="r_a11681a3b0cefb7867465414a5c7b2a5c"><td class="memItemLeft" align="right" valign="top">static std::tuple&lt; std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_disc_bounds.html">Acts::DiscBounds</a> &gt;, const <a class="el" href="group__algebra__types.html#gab6e508c2d10f1fd653dc4f05c26f9151">Acts::Transform3</a>, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11681a3b0cefb7867465414a5c7b2a5c">discComponents</a> (const TGeoShape &amp;tgShape, const Double_t *rotation, const Double_t *translation, <a class="el" href="class_acts_plugins_1_1_t_geo_axes.html">TGeoAxes</a> axes, double scalor=10.) noexcept(false)</td></tr>
 <tr class="memdesc:a11681a3b0cefb7867465414a5c7b2a5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a TGeoShape into disk surface components.  <br /></td></tr>
 <tr class="memitem:af5c2f59a16fff718f725dd7af1ecdd8c" id="r_af5c2f59a16fff718f725dd7af1ecdd8c"><td class="memItemLeft" align="right" valign="top">static std::tuple&lt; std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_planar_bounds.html">Acts::PlanarBounds</a> &gt;, const <a class="el" href="group__algebra__types.html#gab6e508c2d10f1fd653dc4f05c26f9151">Acts::Transform3</a>, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5c2f59a16fff718f725dd7af1ecdd8c">planeComponents</a> (const TGeoShape &amp;tgShape, const Double_t *rotation, const Double_t *translation, <a class="el" href="class_acts_plugins_1_1_t_geo_axes.html">TGeoAxes</a> axes, double scalor=10.) noexcept(false)</td></tr>
@@ -203,6 +205,52 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>tuple of DiscBounds, Transform, thickness </dd></dl>
+
+</div>
+</div>
+<a id="a11967f3c3d14c8bb05485422cb63d657" name="a11967f3c3d14c8bb05485422cb63d657"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11967f3c3d14c8bb05485422cb63d657">&#9670;&#160;</a></span>cylinderVolume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; <a class="el" href="class_acts_1_1_volume.html">Acts::Volume</a> &gt; ActsPlugins::TGeoSurfaceConverter::cylinderVolume </td>
+          <td>(</td>
+          <td class="paramtype">const TGeoShape &amp;</td>          <td class="paramname"><span class="paramname"><em>tgShape</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const TGeoMatrix &amp;</td>          <td class="paramname"><span class="paramname"><em>tgMatrix</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>scalor</em></span><span class="paramdefsep"> = </span><span class="paramdefval">10.</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert a tube- or disc-like TGeoShape into a cylindrical volume. </p>
+<p>Tube-like shapes (z half-length larger than the radial thickness, e.g. a support tube) become a cylinder shell, disc-like shapes (e.g. an endplate) an annular disc, both keeping the shape's own inner and outer radius.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tgShape</td><td>The TGeoShape </td></tr>
+    <tr><td class="paramname">tgMatrix</td><td>The matrix representing the global transform </td></tr>
+    <tr><td class="paramname">scalor</td><td>The unit scalor between TGeo and Acts </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The volume, or std::nullopt if the shape is neither tube- nor disc-like </dd></dl>
 
 </div>
 </div>

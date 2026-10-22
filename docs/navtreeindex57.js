@@ -1,5 +1,12 @@
 var NAVTREEINDEX57 =
 {
+"struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_layer_description.html#a1542f7be1fe9016a54ff79990239774e":[6,0,0,1,25,1,3],
+"struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_layer_description.html#a1542f7be1fe9016a54ff79990239774e":[8,0,0,2,25,1,3],
+"struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_layer_description.html#a1ff766b466667f6fadcaa65f2c4c1020":[6,0,0,1,25,1,1],
+"struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_layer_description.html#a1ff766b466667f6fadcaa65f2c4c1020":[8,0,0,2,25,1,1],
+"struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_layer_description.html#a434157f8f95b51c50ff79322a1bdccf9":[6,0,0,1,25,1,2],
+"struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_layer_description.html#a434157f8f95b51c50ff79322a1bdccf9":[8,0,0,2,25,1,2],
+"struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_layer_description.html#a7d09028ec5c3154cd84b7204e4377805":[6,0,0,1,25,1,0],
 "struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_layer_description.html#a7d09028ec5c3154cd84b7204e4377805":[8,0,0,2,25,1,0],
 "struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_layer_id_pair_hash.html":[6,0,0,1,25,2],
 "struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_layer_id_pair_hash.html":[8,0,0,2,25,2],
@@ -242,12 +249,5 @@ var NAVTREEINDEX57 =
 "struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html#a400b0e1e36ed9e99aef0b2471ee40891":[6,0,0,1,51,7],
 "struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html#a400b0e1e36ed9e99aef0b2471ee40891":[8,0,0,2,51,7],
 "struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html#a5cde13c218bfa1ba9b3201b49a393dd8":[6,0,0,1,51,6],
-"struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html#a5cde13c218bfa1ba9b3201b49a393dd8":[8,0,0,2,51,6],
-"struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html#a7c83a27f0c3cb9bf39c6d50d0d273c20":[6,0,0,1,51,2],
-"struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html#a7c83a27f0c3cb9bf39c6d50d0d273c20":[8,0,0,2,51,2],
-"struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html#a9dd252a163869a2456ba913cea2e74a4":[6,0,0,1,51,0],
-"struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html#a9dd252a163869a2456ba913cea2e74a4":[8,0,0,2,51,0],
-"struct_acts_1_1_experimental_1_1_reference_trajectory_builder_result.html":[6,0,0,1,52],
-"struct_acts_1_1_experimental_1_1_reference_trajectory_builder_result.html":[8,0,0,2,52],
-"struct_acts_1_1_experimental_1_1_reference_trajectory_builder_result.html#a35339bda85a2b21cf1f0627fe356c3e6":[6,0,0,1,52,0]
+"struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html#a5cde13c218bfa1ba9b3201b49a393dd8":[8,0,0,2,51,6]
 };

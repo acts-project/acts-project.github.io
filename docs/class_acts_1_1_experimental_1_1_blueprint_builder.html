@@ -196,6 +196,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a7fadbb35db0f8867108d81f21d98c593"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a <a class="el" href="class_acts_1_1_experimental_1_1_layer_blueprint_node.html">LayerBlueprintNode</a> from an explicit list of sensitive elements.  <br /></td></tr>
 <tr class="memitem:a46750f374679ba43d5b0e730db88c48a" id="r_a46750f374679ba43d5b0e730db88c48a"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_layer_blueprint_node.html">LayerBlueprintNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46750f374679ba43d5b0e730db88c48a">makeLayer</a> (std::span&lt; const <a class="el" href="#a49cf1c5e5b8f93dedd630b15e714801d">Element</a> &gt; sensitives, const <a class="el" href="#a44893ff66015df7cdc54763432330a1c">LayerSpec</a> &amp;layerSpec) const</td></tr>
 <tr class="memdesc:a46750f374679ba43d5b0e730db88c48a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a <a class="el" href="class_acts_1_1_experimental_1_1_layer_blueprint_node.html">LayerBlueprintNode</a> from sensitive elements without a parent/context element.  <br /></td></tr>
+<tr class="memitem:ac46c9433a039c6f0711e8ad4e3e6eec0" id="r_ac46c9433a039c6f0711e8ad4e3e6eec0"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_static_blueprint_node.html">StaticBlueprintNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac46c9433a039c6f0711e8ad4e3e6eec0">makePassiveElement</a> (const <a class="el" href="#a49cf1c5e5b8f93dedd630b15e714801d">Element</a> &amp;element, const std::string &amp;volumeName=&quot;&quot;) const</td></tr>
+<tr class="memdesc:ac46c9433a039c6f0711e8ad4e3e6eec0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a <a class="el" href="class_acts_1_1_experimental_1_1_static_blueprint_node.html">StaticBlueprintNode</a> for a passive detector element.  <br /></td></tr>
 <tr class="memitem:aa69b6901c36fca8aac85dbf9c640a19c" id="r_aa69b6901c36fca8aac85dbf9c640a19c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="#a49cf1c5e5b8f93dedd630b15e714801d">Element</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa69b6901c36fca8aac85dbf9c640a19c">resolveSensitives</a> (const <a class="el" href="#a49cf1c5e5b8f93dedd630b15e714801d">Element</a> &amp;detElement) const</td></tr>
 <tr class="memdesc:aa69b6901c36fca8aac85dbf9c640a19c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recursively collect all sensitive descendant elements.  <br /></td></tr>
 </table>
@@ -206,7 +208,8 @@ class Acts::Experimental::BlueprintBuilder&lt; BackendT &gt;</div><p>High-level 
 <li><a class="el" href="class_acts_1_1_blueprint_builder.html#ab4d151885adeb07bc37b5280c89afa20">BlueprintBuilder::layers()</a> returns an <a class="el" href="class_acts_1_1_experimental_1_1_element_layer_assembler.html">ElementLayerAssembler</a> for building a layer stack from layer-representative detector elements,</li>
 <li><a class="el" href="class_acts_1_1_blueprint_builder.html#a5d3576e3745d67a3cf28711b224f8b4d">BlueprintBuilder::layersFromSensors()</a> returns a <a class="el" href="class_acts_1_1_experimental_1_1_sensor_layer_assembler.html">SensorLayerAssembler</a> for building multiple layers directly from sensor elements (<span class="tt">groupBy</span> required),</li>
 <li><a class="el" href="class_acts_1_1_blueprint_builder.html#a00c1700716ce70a5aa004358562a7154">BlueprintBuilder::layerFromSensors()</a> returns a <a class="el" href="class_acts_1_1_experimental_1_1_sensor_layer.html">SensorLayer</a> for building a single layer directly from sensor elements,</li>
-<li><a class="el" href="class_acts_1_1_blueprint_builder.html#adf1ea48553842670f13dbe3f24d1d3d1">BlueprintBuilder::barrelEndcap()</a> returns a <a class="el" href="class_acts_1_1_experimental_1_1_barrel_endcap_assembler.html">BarrelEndcapAssembler</a> for combined barrel+endcap sub-detectors.</li>
+<li><a class="el" href="class_acts_1_1_blueprint_builder.html#adf1ea48553842670f13dbe3f24d1d3d1">BlueprintBuilder::barrelEndcap()</a> returns a <a class="el" href="class_acts_1_1_experimental_1_1_barrel_endcap_assembler.html">BarrelEndcapAssembler</a> for combined barrel+endcap sub-detectors,</li>
+<li><a class="el" href="class_acts_1_1_blueprint_builder.html#ac46c9433a039c6f0711e8ad4e3e6eec0">BlueprintBuilder::makePassiveElement()</a> creates a plain volume for a passive (non-sensitive) element that carries material.</li>
 </ul>
 <p>It also exposes helpers for traversing and querying the detector element hierarchy, which are used internally by the assembler classes.</p>
 <p>The builder is parameterised on a backend type <code class="param">BackendT</code>. The backend must be constructible from its <span class="tt">Config</span> plus an <span class="tt">Acts::Logger</span>, expose <span class="tt">Element</span> and <span class="tt">LayerSpec</span> types, traverse the detector hierarchy via <span class="tt">world()</span> / <span class="tt">children()</span> / <span class="tt">parent()</span> / <span class="tt">nameOf()</span>, classify sensitive elements with <span class="tt">isSensitive()</span>, and build ACTS surfaces from sensitive elements and a layer specification. It encapsulates all geometry-framework-specific knowledge (e.g. DD4hep <span class="tt">DetElement</span> navigation, type-flag interpretation, surface conversion).</p>
@@ -736,6 +739,39 @@ template&lt;detail::BlueprintBackend BackendT&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Shared pointer to the constructed <a class="el" href="class_acts_1_1_experimental_1_1_layer_blueprint_node.html">LayerBlueprintNode</a>. </dd></dl>
+
+</div>
+</div>
+<a id="ac46c9433a039c6f0711e8ad4e3e6eec0" name="ac46c9433a039c6f0711e8ad4e3e6eec0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac46c9433a039c6f0711e8ad4e3e6eec0">&#9670;&#160;</a></span>makePassiveElement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;detail::BlueprintBackend BackendT&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_static_blueprint_node.html">StaticBlueprintNode</a> &gt; <a class="el" href="class_acts_1_1_blueprint_builder.html">Acts::BlueprintBuilder</a>&lt; BackendT &gt;::makePassiveElement </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a49cf1c5e5b8f93dedd630b15e714801d">Element</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>element</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>volumeName</em></span><span class="paramdefsep"> = </span><span class="paramdefval">&quot;&quot;</span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a <a class="el" href="class_acts_1_1_experimental_1_1_static_blueprint_node.html">StaticBlueprintNode</a> for a passive detector element. </p>
+<p>Use for elements that carry material but have no sensitive surfaces of their own (e.g. support tubes or endplates). The backend describes the element as a <a class="el" href="class_acts_1_1_volume.html">Volume</a> via <span class="tt">passiveVolume()</span>; this method turns it into a tracking volume node, which can then be wrapped in <a class="el" href="class_acts_1_1_blueprint_node.html#a391edff813e41afb29fe9e956fe08cf7">BlueprintNode::addMaterial</a> like any other node. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">element</td><td>Passive detector element. </td></tr>
+    <tr><td class="paramname">volumeName</td><td>Name of the created volume. Defaults to the element's own name; pass an explicit, unique name if the element's name is shared by several instances. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Shared pointer to the created <a class="el" href="class_acts_1_1_experimental_1_1_static_blueprint_node.html">StaticBlueprintNode</a>. </dd></dl>
 
 </div>
 </div>

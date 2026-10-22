@@ -22,6 +22,7 @@ var class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend =
     [ "makeSurfaces", "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#ac03f7d4d2f0c505da2cb5ca8ebccf2f8", null ],
     [ "nameOf", "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#a77f4a591e6fb01de96995ebba95f37b7", null ],
     [ "parent", "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#ae7b210de8b0be1a123b4eb4b0b45988d", null ],
+    [ "passiveVolume", "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#a1833302965665fb63bf55dd710425da4", null ],
     [ "world", "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#a9a65cdaca8e407b1d8c022a90eaea6fe", null ],
     [ "kIdentifier", "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#a0186e43a8a64fa9f927b168e62c9668b", null ]
 ];
