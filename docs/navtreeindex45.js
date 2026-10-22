@@ -1,5 +1,17 @@
 var NAVTREEINDEX45 =
 {
+"class_acts_plugins_1_1_geant4_detector_surface_factory.html#a6f6c8d97c015ba3de9ba129a7b3c14ac":[5,10,7,2,6],
+"class_acts_plugins_1_1_geant4_detector_surface_factory.html#a7d20e7b1516a2bdd7bd0eb5db0cc5e9e":[5,10,7,2,4],
+"class_acts_plugins_1_1_geant4_detector_surface_factory.html#ac9216901ab6e59d3d1813480d97452a7":[5,10,7,2,7],
+"class_acts_plugins_1_1_geant4_detector_surface_factory.html#adb50157683caa76982e919c3c52fbc14":[5,10,7,2,5],
+"class_acts_plugins_1_1_geant4_material_step_converter.html":[5,10,7,4],
+"class_acts_plugins_1_1_geant4_material_step_converter.html#a5d1ef65c75aada3ed00e7f90b045d1e0":[5,10,7,4,2],
+"class_acts_plugins_1_1_geant4_material_step_converter.html#a71662659617a321ddc2ce5c1d9d8add4":[5,10,7,4,4],
+"class_acts_plugins_1_1_geant4_material_step_converter.html#ae8873b6dcf7e6076ed55123941ebc0c4":[5,10,7,4,1],
+"class_acts_plugins_1_1_geant4_material_step_converter.html#afa42bc7202b636fe6cdfa9bdf50cadcb":[5,10,7,4,3],
+"class_acts_plugins_1_1_geo_model_detector_element.html":[5,10,8,0],
+"class_acts_plugins_1_1_geo_model_detector_element.html#a0e0571165f189f565434c35009a28167":[5,10,8,0,6],
+"class_acts_plugins_1_1_geo_model_detector_element.html#a33d4c8362869ceccb10d15f73dad26f1":[5,10,8,0,4],
 "class_acts_plugins_1_1_geo_model_detector_element.html#a4193124cdec215fd1c97d1e743fe59de":[5,10,8,0,11],
 "class_acts_plugins_1_1_geo_model_detector_element.html#a5941d439c68354e81b0f8aa2d396b364":[5,10,8,0,10],
 "class_acts_plugins_1_1_geo_model_detector_element.html#a5bab63530432e189c7987277e0f0a45f":[5,10,8,0,0],
@@ -237,17 +249,5 @@ var NAVTREEINDEX45 =
 "class_acts_plugins_1_1_t_geo_blueprint_builder_backend.html":[6,0,3,63],
 "class_acts_plugins_1_1_t_geo_blueprint_builder_backend.html":[8,0,2,68],
 "class_acts_plugins_1_1_t_geo_blueprint_builder_backend.html#a188b25eba9a84593517aa953819c3b65":[6,0,3,63,7],
-"class_acts_plugins_1_1_t_geo_blueprint_builder_backend.html#a188b25eba9a84593517aa953819c3b65":[8,0,2,68,7],
-"class_acts_plugins_1_1_t_geo_blueprint_builder_backend.html#a33b54fa423ac9f2ff113c6c6e8af532e":[6,0,3,63,20],
-"class_acts_plugins_1_1_t_geo_blueprint_builder_backend.html#a33b54fa423ac9f2ff113c6c6e8af532e":[8,0,2,68,20],
-"class_acts_plugins_1_1_t_geo_blueprint_builder_backend.html#a39121a907a57cd4b08daf012fb1d1da5":[6,0,3,63,6],
-"class_acts_plugins_1_1_t_geo_blueprint_builder_backend.html#a39121a907a57cd4b08daf012fb1d1da5":[8,0,2,68,6],
-"class_acts_plugins_1_1_t_geo_blueprint_builder_backend.html#a5f31c0acf8472b9d1aa45f1860de2422":[6,0,3,63,12],
-"class_acts_plugins_1_1_t_geo_blueprint_builder_backend.html#a5f31c0acf8472b9d1aa45f1860de2422":[8,0,2,68,12],
-"class_acts_plugins_1_1_t_geo_blueprint_builder_backend.html#a610f52de4c23d3b7acc4257d3c022e0c":[6,0,3,63,11],
-"class_acts_plugins_1_1_t_geo_blueprint_builder_backend.html#a610f52de4c23d3b7acc4257d3c022e0c":[8,0,2,68,11],
-"class_acts_plugins_1_1_t_geo_blueprint_builder_backend.html#a64785daf7f1940597ab1156a43b14a98":[6,0,3,63,19],
-"class_acts_plugins_1_1_t_geo_blueprint_builder_backend.html#a64785daf7f1940597ab1156a43b14a98":[8,0,2,68,19],
-"class_acts_plugins_1_1_t_geo_blueprint_builder_backend.html#a6cde965870e7625fc51d639c20ccc342":[6,0,3,63,9],
-"class_acts_plugins_1_1_t_geo_blueprint_builder_backend.html#a6cde965870e7625fc51d639c20ccc342":[8,0,2,68,9]
+"class_acts_plugins_1_1_t_geo_blueprint_builder_backend.html#a188b25eba9a84593517aa953819c3b65":[8,0,2,68,7]
 };

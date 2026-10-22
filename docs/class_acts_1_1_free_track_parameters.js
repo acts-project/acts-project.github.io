@@ -19,8 +19,10 @@ var class_acts_1_1_free_track_parameters =
     [ "qOverP", "class_acts_1_1_free_track_parameters.html#ac57884cd839b87aef13c19f36fe56b26", null ],
     [ "reflect", "class_acts_1_1_free_track_parameters.html#a2eee97203fdb051ea6fe4d41a75fecec", null ],
     [ "reflectInPlace", "class_acts_1_1_free_track_parameters.html#acc04aa2c7f9ad87739f35dae27a55afd", null ],
+    [ "setParticleHypothesis", "class_acts_1_1_free_track_parameters.html#ad7140dd7661a9b07484562d8b3656d79", null ],
     [ "theta", "class_acts_1_1_free_track_parameters.html#a138b9cacd2999ed42365d7047f2fd36a", null ],
     [ "time", "class_acts_1_1_free_track_parameters.html#a231d8e9eac64282b79e9ab5626295f8e", null ],
     [ "transverseMomentum", "class_acts_1_1_free_track_parameters.html#a4c68d533fb380a7888da849ce8ad5f79", null ],
+    [ "withParticleHypothesis", "class_acts_1_1_free_track_parameters.html#a7c4b5cbe7184b6432ae45efd95879dea", null ],
     [ "operator<<", "class_acts_1_1_free_track_parameters.html#ac914f576b420df486bf11fc42e313f9c", null ]
 ];

@@ -1,5 +1,9 @@
 var NAVTREEINDEX6 =
 {
+"class_acts_1_1_butcher_tableau.html#aedf3c3085f4f79a792411bb1a1552c1d":[6,0,0,68,3],
+"class_acts_1_1_butcher_tableau.html#aedf3c3085f4f79a792411bb1a1552c1d":[8,0,0,73,3],
+"class_acts_1_1_butcher_tableau.html#af03fdd91219b79a817c8fd9fda75bb79":[6,0,0,68,6],
+"class_acts_1_1_butcher_tableau.html#af03fdd91219b79a817c8fd9fda75bb79":[8,0,0,73,6],
 "class_acts_1_1_calibration_context.html":[5,1,0],
 "class_acts_1_1_cartesian_space_point_grid.html":[6,0,0,70],
 "class_acts_1_1_cartesian_space_point_grid.html":[8,0,0,75],
@@ -245,9 +249,5 @@ var NAVTREEINDEX6 =
 "class_acts_1_1_cone_volume_bounds.html#ac21fc0af1488492682baf47b75ef131a":[8,0,0,88,0],
 "class_acts_1_1_cone_volume_bounds.html#acd3cd67e98f486f43373fcb8fe56d341":[6,0,0,83,5],
 "class_acts_1_1_cone_volume_bounds.html#acd3cd67e98f486f43373fcb8fe56d341":[8,0,0,88,5],
-"class_acts_1_1_cone_volume_bounds.html#ad3c2fa64eca153234253c072c073061b":[6,0,0,83,1],
-"class_acts_1_1_cone_volume_bounds.html#ad3c2fa64eca153234253c072c073061b":[8,0,0,88,1],
-"class_acts_1_1_cone_volume_bounds.html#ad47d03669b8653c45e708a1235cff1c8":[6,0,0,83,10],
-"class_acts_1_1_cone_volume_bounds.html#ad47d03669b8653c45e708a1235cff1c8":[8,0,0,88,10],
-"class_acts_1_1_cone_volume_bounds.html#ad9793c240448ee52e0b3a19cf7ba2593":[6,0,0,83,8]
+"class_acts_1_1_cone_volume_bounds.html#ad3c2fa64eca153234253c072c073061b":[6,0,0,83,1]
 };

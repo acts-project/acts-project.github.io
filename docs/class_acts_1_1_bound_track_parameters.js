@@ -27,11 +27,13 @@ var class_acts_1_1_bound_track_parameters =
     [ "referenceSurface", "class_acts_1_1_bound_track_parameters.html#af72d647a297205b7676fd4249515904b", null ],
     [ "reflect", "class_acts_1_1_bound_track_parameters.html#a365bf1588d6a2a0bbf907197e6b9e6f9", null ],
     [ "reflectInPlace", "class_acts_1_1_bound_track_parameters.html#a1371a0430da5e0c8cbbefcb4ebe6a5c0", null ],
+    [ "setParticleHypothesis", "class_acts_1_1_bound_track_parameters.html#a0412447ffa2a4c941d138b32830e8b63", null ],
     [ "spatialImpactParameterCovariance", "class_acts_1_1_bound_track_parameters.html#a8ddc3512f7f2d4ada532d72b438c16e6", null ],
     [ "spatialImpactParameters", "class_acts_1_1_bound_track_parameters.html#a8c8b9a0b47c0d28a8461ee5a236668a8", null ],
     [ "theta", "class_acts_1_1_bound_track_parameters.html#acecfcb09603cf97847d338fad1901b69", null ],
     [ "time", "class_acts_1_1_bound_track_parameters.html#a844d6d91988d53fbb3d46901ab42780c", null ],
     [ "transverseMomentum", "class_acts_1_1_bound_track_parameters.html#a4906e4a1c17b6533677843bd2d4d22c0", null ],
+    [ "withParticleHypothesis", "class_acts_1_1_bound_track_parameters.html#a5b3b8d490b20e711f235d4e4b970c04a", null ],
     [ "operator<<", "class_acts_1_1_bound_track_parameters.html#a0f935c7f4eaedee32867393f47f70d2f", null ],
     [ "operator==", "class_acts_1_1_bound_track_parameters.html#a39c9d120a24cf2cb898ab1d624e62e6d", null ]
 ];

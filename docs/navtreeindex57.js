@@ -1,5 +1,17 @@
 var NAVTREEINDEX57 =
 {
+"struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_config.html":[6,0,0,1,25,0],
+"struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_config.html":[8,0,0,2,25,0],
+"struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_config.html#a2cb11e0c5d6b6e2fb9562e6e101dbe1d":[6,0,0,1,25,0,2],
+"struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_config.html#a2cb11e0c5d6b6e2fb9562e6e101dbe1d":[8,0,0,2,25,0,2],
+"struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_config.html#a4c6fe6a047bddb5d258f3f782b783b47":[6,0,0,1,25,0,0],
+"struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_config.html#a4c6fe6a047bddb5d258f3f782b783b47":[8,0,0,2,25,0,0],
+"struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_config.html#abb71f20e2cfc0f408ee5c982e10d7be9":[6,0,0,1,25,0,1],
+"struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_config.html#abb71f20e2cfc0f408ee5c982e10d7be9":[8,0,0,2,25,0,1],
+"struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_layer_description.html":[6,0,0,1,25,1],
+"struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_layer_description.html":[8,0,0,2,25,1],
+"struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_layer_description.html#a0a05a23621ecaccb5c4003611cba34fe":[6,0,0,1,25,1,4],
+"struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_layer_description.html#a0a05a23621ecaccb5c4003611cba34fe":[8,0,0,2,25,1,4],
 "struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_layer_description.html#a1542f7be1fe9016a54ff79990239774e":[6,0,0,1,25,1,3],
 "struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_layer_description.html#a1542f7be1fe9016a54ff79990239774e":[8,0,0,2,25,1,3],
 "struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_layer_description.html#a1ff766b466667f6fadcaa65f2c4c1020":[6,0,0,1,25,1,1],
@@ -237,17 +249,5 @@ var NAVTREEINDEX57 =
 "struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#af9b763b7a19dbf771c4dab937fb46d6c":[6,0,0,1,46,0,5],
 "struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#af9b763b7a19dbf771c4dab937fb46d6c":[8,0,0,2,46,0,5],
 "struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html":[6,0,0,1,51],
-"struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html":[8,0,0,2,51],
-"struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html#a15c5d50d6be1ce8783d16490a75221ed":[6,0,0,1,51,4],
-"struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html#a15c5d50d6be1ce8783d16490a75221ed":[8,0,0,2,51,4],
-"struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html#a25846a8b9c79f1a27afd689c29230183":[6,0,0,1,51,1],
-"struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html#a25846a8b9c79f1a27afd689c29230183":[8,0,0,2,51,1],
-"struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html#a2ebaa407dd136b3f57af5b86dd2d24de":[6,0,0,1,51,3],
-"struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html#a2ebaa407dd136b3f57af5b86dd2d24de":[8,0,0,2,51,3],
-"struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html#a3b14e417f8d343e9646e482e37600008":[6,0,0,1,51,5],
-"struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html#a3b14e417f8d343e9646e482e37600008":[8,0,0,2,51,5],
-"struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html#a400b0e1e36ed9e99aef0b2471ee40891":[6,0,0,1,51,7],
-"struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html#a400b0e1e36ed9e99aef0b2471ee40891":[8,0,0,2,51,7],
-"struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html#a5cde13c218bfa1ba9b3201b49a393dd8":[6,0,0,1,51,6],
-"struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html#a5cde13c218bfa1ba9b3201b49a393dd8":[8,0,0,2,51,6]
+"struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html":[8,0,0,2,51]
 };

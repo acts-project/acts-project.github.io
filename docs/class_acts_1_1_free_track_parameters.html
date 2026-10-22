@@ -178,12 +178,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acc04aa2c7f9ad87739f35dae27a55afd" id="r_acc04aa2c7f9ad87739f35dae27a55afd"><td class="memItemLeft" align="right" valign="top"><a id="acc04aa2c7f9ad87739f35dae27a55afd" name="acc04aa2c7f9ad87739f35dae27a55afd"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>reflectInPlace</b> ()</td></tr>
 <tr class="memdesc:acc04aa2c7f9ad87739f35dae27a55afd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reflect the parameters in place. <br /></td></tr>
+<tr class="memitem:ad7140dd7661a9b07484562d8b3656d79" id="r_ad7140dd7661a9b07484562d8b3656d79"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7140dd7661a9b07484562d8b3656d79">setParticleHypothesis</a> (const <a class="el" href="class_acts_1_1_particle_hypothesis.html">ParticleHypothesis</a> &amp;<a class="el" href="#a904c1bf7518dab2a5830e41d960bb328">particleHypothesis</a>)</td></tr>
+<tr class="memdesc:ad7140dd7661a9b07484562d8b3656d79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the particle hypothesis.  <br /></td></tr>
 <tr class="memitem:a138b9cacd2999ed42365d7047f2fd36a" id="r_a138b9cacd2999ed42365d7047f2fd36a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a138b9cacd2999ed42365d7047f2fd36a">theta</a> () const</td></tr>
 <tr class="memdesc:a138b9cacd2999ed42365d7047f2fd36a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Theta direction.  <br /></td></tr>
 <tr class="memitem:a231d8e9eac64282b79e9ab5626295f8e" id="r_a231d8e9eac64282b79e9ab5626295f8e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a231d8e9eac64282b79e9ab5626295f8e">time</a> () const</td></tr>
 <tr class="memdesc:a231d8e9eac64282b79e9ab5626295f8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time coordinate.  <br /></td></tr>
 <tr class="memitem:a4c68d533fb380a7888da849ce8ad5f79" id="r_a4c68d533fb380a7888da849ce8ad5f79"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c68d533fb380a7888da849ce8ad5f79">transverseMomentum</a> () const</td></tr>
 <tr class="memdesc:a4c68d533fb380a7888da849ce8ad5f79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transverse momentum.  <br /></td></tr>
+<tr class="memitem:a7c4b5cbe7184b6432ae45efd95879dea" id="r_a7c4b5cbe7184b6432ae45efd95879dea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a1ad9b8d354163c03612234806e2ffee8">FreeTrackParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c4b5cbe7184b6432ae45efd95879dea">withParticleHypothesis</a> (const <a class="el" href="class_acts_1_1_particle_hypothesis.html">ParticleHypothesis</a> &amp;<a class="el" href="#a904c1bf7518dab2a5830e41d960bb328">particleHypothesis</a>) const</td></tr>
+<tr class="memdesc:a7c4b5cbe7184b6432ae45efd95879dea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy the parameters with a different particle hypothesis.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Track parameters not bound to a surface for a single track. </p>
@@ -597,6 +601,32 @@ template&lt;<a class="el" href="namespace_acts.html#a6c086a09086424ffb3ace68710e
 
 </div>
 </div>
+<a id="ad7140dd7661a9b07484562d8b3656d79" name="ad7140dd7661a9b07484562d8b3656d79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7140dd7661a9b07484562d8b3656d79">&#9670;&#160;</a></span>setParticleHypothesis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Acts::FreeTrackParameters::setParticleHypothesis </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_particle_hypothesis.html">ParticleHypothesis</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>particleHypothesis</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the particle hypothesis. </p>
+<dl class="section note"><dt>Note</dt><dd>The q/p parameter does not change. If the absolute charge changes, the absolute momentum changes too. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">particleHypothesis</td><td>The new particle hypothesis </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a138b9cacd2999ed42365d7047f2fd36a" name="a138b9cacd2999ed42365d7047f2fd36a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a138b9cacd2999ed42365d7047f2fd36a">&#9670;&#160;</a></span>theta()</h2>
 
@@ -654,6 +684,41 @@ template&lt;<a class="el" href="namespace_acts.html#a6c086a09086424ffb3ace68710e
 
 <p>Transverse momentum. </p>
 <dl class="section return"><dt>Returns</dt><dd>The transverse momentum magnitude </dd></dl>
+
+</div>
+</div>
+<a id="a7c4b5cbe7184b6432ae45efd95879dea" name="a7c4b5cbe7184b6432ae45efd95879dea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c4b5cbe7184b6432ae45efd95879dea">&#9670;&#160;</a></span>withParticleHypothesis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a1ad9b8d354163c03612234806e2ffee8">FreeTrackParameters</a> Acts::FreeTrackParameters::withParticleHypothesis </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_particle_hypothesis.html">ParticleHypothesis</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>particleHypothesis</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Copy the parameters with a different particle hypothesis. </p>
+<dl class="section note"><dt>Note</dt><dd>The q/p parameter does not change. See setParticleHypothesis. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">particleHypothesis</td><td>The new particle hypothesis </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Copy of the parameters with the new particle hypothesis </dd></dl>
 
 </div>
 </div>

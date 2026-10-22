@@ -29,7 +29,9 @@ var class_acts_1_1_multi_component_bound_track_parameters =
     [ "pushComponent", "class_acts_1_1_multi_component_bound_track_parameters.html#a733f74625b7adbc4c52208dfa5ffabc9", null ],
     [ "referenceSurface", "class_acts_1_1_multi_component_bound_track_parameters.html#a086711e524430e63c5095709da67fc79", null ],
     [ "reserve", "class_acts_1_1_multi_component_bound_track_parameters.html#aa59e4f54f652f3543c01c67eb30cda3e", null ],
+    [ "setParticleHypothesis", "class_acts_1_1_multi_component_bound_track_parameters.html#a3531af7968cd7e9f67c753c61b4d19c0", null ],
     [ "size", "class_acts_1_1_multi_component_bound_track_parameters.html#a9f670ee08aef4b0ed42a51c0f03b68ec", null ],
     [ "toComponents", "class_acts_1_1_multi_component_bound_track_parameters.html#a4752f07534571c2e506679c85ad45875", null ],
-    [ "weights", "class_acts_1_1_multi_component_bound_track_parameters.html#aa3a4f7278aaed7a2d414b65cf10859aa", null ]
+    [ "weights", "class_acts_1_1_multi_component_bound_track_parameters.html#aa3a4f7278aaed7a2d414b65cf10859aa", null ],
+    [ "withParticleHypothesis", "class_acts_1_1_multi_component_bound_track_parameters.html#aaa20c355ddd413e84dc20c7fac1ac832", null ]
 ];

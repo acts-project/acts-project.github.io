@@ -1,5 +1,17 @@
 var NAVTREEINDEX64 =
 {
+"struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_poly_data.html#ac159d9ab07f57ffa11ff84ce45459a9d":[5,3,2,17,0,1],
+"struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_poly_data.html#ac159d9ab07f57ffa11ff84ce45459a9d":[5,13,21,0,1],
+"struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html":[5,3,2,17,1],
+"struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html":[5,13,21,1],
+"struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html#a2f66985790d2644237855ed234c6f7f3":[5,3,2,17,1,0],
+"struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html#a2f66985790d2644237855ed234c6f7f3":[5,13,21,1,0],
+"struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html#aa1dd9edb9a128709060feb1cad6f3d8b":[5,3,2,17,1,4],
+"struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html#aa1dd9edb9a128709060feb1cad6f3d8b":[5,13,21,1,4],
+"struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html#aa5f4e93ea74dc849b0d5d5ff7df00e0c":[5,3,2,17,1,3],
+"struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html#aa5f4e93ea74dc849b0d5d5ff7df00e0c":[5,13,21,1,3],
+"struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html#ab25cc52eb3038ffc855403a2a0eebb32":[5,3,2,17,1,2],
+"struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html#ab25cc52eb3038ffc855403a2a0eebb32":[5,13,21,1,2],
 "struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html#ae2ed09a3f6ade9ffadd6a1bb25a41968":[5,3,2,17,1,1],
 "struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html#ae2ed09a3f6ade9ffadd6a1bb25a41968":[5,13,21,1,1],
 "struct_acts_1_1_portal_1_1_arguments.html":[6,0,0,331,0],
@@ -237,17 +249,5 @@ var NAVTREEINDEX64 =
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#ac2d0b37a730b684df9772face98d746e":[6,0,0,363,2,1],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#ac2d0b37a730b684df9772face98d746e":[8,0,0,368,2,1],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#ad833f6ca372dd94592330cfafb07a61d":[6,0,0,363,2,2],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#ad833f6ca372dd94592330cfafb07a61d":[8,0,0,368,2,2],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#aeebe57c5c03a5abb1e7929909c492fd3":[6,0,0,363,2,3],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#aeebe57c5c03a5abb1e7929909c492fd3":[8,0,0,368,2,3],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#aff0a092a21d36d86a9e2ec11def3a5f9":[6,0,0,363,2,0],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#aff0a092a21d36d86a9e2ec11def3a5f9":[8,0,0,368,2,0],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html":[6,0,0,363,3],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html":[8,0,0,368,3],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html#a14ac076062253ee6a1a34ee6535b6f58":[6,0,0,363,3,1],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html#a14ac076062253ee6a1a34ee6535b6f58":[8,0,0,368,3,1],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html#a5ac921b1634061348b2f04cb3f23c7b5":[6,0,0,363,3,0],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html#a5ac921b1634061348b2f04cb3f23c7b5":[8,0,0,368,3,0],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html#adc71d3da98320a71c8b357d1a1f4b32f":[6,0,0,363,3,2],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html#adc71d3da98320a71c8b357d1a1f4b32f":[8,0,0,368,3,2]
+"struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#ad833f6ca372dd94592330cfafb07a61d":[8,0,0,368,2,2]
 };

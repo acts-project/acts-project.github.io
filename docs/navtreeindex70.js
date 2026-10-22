@@ -1,5 +1,17 @@
 var NAVTREEINDEX70 =
 {
+"struct_acts_fatras_1_1_range.html#ad53a64f51106ca0e4d769cb60dc8988b":[6,0,2,32,0],
+"struct_acts_fatras_1_1_range.html#ad53a64f51106ca0e4d769cb60dc8988b":[8,0,1,33,0],
+"struct_acts_fatras_1_1_range.html#ae1eed7482159e24acaaeb45a564dab26":[6,0,2,32,2],
+"struct_acts_fatras_1_1_range.html#ae1eed7482159e24acaaeb45a564dab26":[8,0,1,33,2],
+"struct_acts_fatras_1_1_range.html#afafba81b5ad1f3c06c3b30e8e1d16a0f":[6,0,2,32,1],
+"struct_acts_fatras_1_1_range.html#afafba81b5ad1f3c06c3b30e8e1d16a0f":[8,0,1,33,1],
+"struct_acts_fatras_1_1_segmentizer.html":[6,0,2,33],
+"struct_acts_fatras_1_1_segmentizer.html":[8,0,1,34],
+"struct_acts_fatras_1_1_segmentizer.html#a654bb2defd59b2a29dbf273cf6c54062":[6,0,2,33,5],
+"struct_acts_fatras_1_1_segmentizer.html#a654bb2defd59b2a29dbf273cf6c54062":[8,0,1,34,5],
+"struct_acts_fatras_1_1_segmentizer.html#a6adde1744912b310710f0fbd60cc3780":[6,0,2,33,2],
+"struct_acts_fatras_1_1_segmentizer.html#a6adde1744912b310710f0fbd60cc3780":[8,0,1,34,2],
 "struct_acts_fatras_1_1_segmentizer.html#ac16b531670f11f8e51ae0d12ee608345":[6,0,2,33,3],
 "struct_acts_fatras_1_1_segmentizer.html#ac16b531670f11f8e51ae0d12ee608345":[8,0,1,34,3],
 "struct_acts_fatras_1_1_segmentizer.html#ad22aedcd22ec1e19d444528b9253753a":[6,0,2,33,4],
@@ -237,17 +249,5 @@ var NAVTREEINDEX70 =
 "struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_cache.html#ab1d74e293db1476cf2075590f81bb257":[5,10,7,2,0,1],
 "struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_config.html":[5,10,7,2,1],
 "struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html":[5,10,7,2,2],
-"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html#a2786b92799a43ef1c1b1fbc1c815959d":[5,10,7,2,2,1],
-"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html#a402db01c9178bde3bf2ba39e18014e59":[5,10,7,2,2,3],
-"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html#a49b6e3d970d6561eb8ab379252b3b754":[5,10,7,2,2,2],
-"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html#a4d7ae6c105360582b40e32c7925f95e8":[5,10,7,2,2,4],
-"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html#a92ff66aaa89ee71deee702d7160c3d65":[5,10,7,2,2,0],
-"struct_acts_plugins_1_1_geant4_material_converter.html":[5,10,7,3],
-"struct_acts_plugins_1_1_geant4_material_converter.html#a4503d1a5ec2770e611200d5ec425d39d":[5,10,7,3,1],
-"struct_acts_plugins_1_1_geant4_material_converter.html#aa24e85c5071d46b6c5a2f491784e9a0f":[5,10,7,3,0],
-"struct_acts_plugins_1_1_geant4_material_step_converter_1_1_config.html":[5,10,7,4,0],
-"struct_acts_plugins_1_1_geant4_material_step_converter_1_1_config.html#a0f608bf8e5cd18d632cf417d08a3ed66":[5,10,7,4,0,0],
-"struct_acts_plugins_1_1_geant4_material_step_converter_1_1_config.html#a36638771047c459652532a9a623115cb":[5,10,7,4,0,1],
-"struct_acts_plugins_1_1_geant4_physical_volume_converter.html":[5,10,7,5],
-"struct_acts_plugins_1_1_geant4_physical_volume_converter.html#a70216c0f1b077c56586d4111134b4336":[5,10,7,5,1]
+"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html#a2786b92799a43ef1c1b1fbc1c815959d":[5,10,7,2,2,1]
 };

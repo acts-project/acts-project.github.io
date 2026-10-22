@@ -188,6 +188,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1371a0430da5e0c8cbbefcb4ebe6a5c0" id="r_a1371a0430da5e0c8cbbefcb4ebe6a5c0"><td class="memItemLeft" align="right" valign="top"><a id="a1371a0430da5e0c8cbbefcb4ebe6a5c0" name="a1371a0430da5e0c8cbbefcb4ebe6a5c0"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>reflectInPlace</b> ()</td></tr>
 <tr class="memdesc:a1371a0430da5e0c8cbbefcb4ebe6a5c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reflect the parameters in place. <br /></td></tr>
+<tr class="memitem:a0412447ffa2a4c941d138b32830e8b63" id="r_a0412447ffa2a4c941d138b32830e8b63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0412447ffa2a4c941d138b32830e8b63">setParticleHypothesis</a> (const <a class="el" href="class_acts_1_1_particle_hypothesis.html">ParticleHypothesis</a> &amp;<a class="el" href="#abc2e2774803520f89bea1dbc9237d2b2">particleHypothesis</a>)</td></tr>
+<tr class="memdesc:a0412447ffa2a4c941d138b32830e8b63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the particle hypothesis.  <br /></td></tr>
 <tr class="memitem:a8ddc3512f7f2d4ada532d72b438c16e6" id="r_a8ddc3512f7f2d4ada532d72b438c16e6"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="group__algebra__types.html#gaedd227e590be3a9c43c10d6654022b77">SquareMatrix</a>&lt; 2 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ddc3512f7f2d4ada532d72b438c16e6">spatialImpactParameterCovariance</a> () const</td></tr>
 <tr class="memdesc:a8ddc3512f7f2d4ada532d72b438c16e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Covariance matrix of the spatial impact parameters (i.e., of d0 and z0).  <br /></td></tr>
 <tr class="memitem:a8c8b9a0b47c0d28a8461ee5a236668a8" id="r_a8c8b9a0b47c0d28a8461ee5a236668a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Vector2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c8b9a0b47c0d28a8461ee5a236668a8">spatialImpactParameters</a> () const</td></tr>
@@ -198,6 +200,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>reflectInPlace</b> ()
 <tr class="memdesc:a844d6d91988d53fbb3d46901ab42780c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time coordinate.  <br /></td></tr>
 <tr class="memitem:a4906e4a1c17b6533677843bd2d4d22c0" id="r_a4906e4a1c17b6533677843bd2d4d22c0"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4906e4a1c17b6533677843bd2d4d22c0">transverseMomentum</a> () const</td></tr>
 <tr class="memdesc:a4906e4a1c17b6533677843bd2d4d22c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transverse momentum.  <br /></td></tr>
+<tr class="memitem:a5b3b8d490b20e711f235d4e4b970c04a" id="r_a5b3b8d490b20e711f235d4e4b970c04a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a49fb3b3673149bffe54e99b8d9502711">BoundTrackParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b3b8d490b20e711f235d4e4b970c04a">withParticleHypothesis</a> (const <a class="el" href="class_acts_1_1_particle_hypothesis.html">ParticleHypothesis</a> &amp;<a class="el" href="#abc2e2774803520f89bea1dbc9237d2b2">particleHypothesis</a>) const</td></tr>
+<tr class="memdesc:a5b3b8d490b20e711f235d4e4b970c04a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy the parameters with a different particle hypothesis.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -882,6 +886,32 @@ template&lt;<a class="el" href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8c
 
 </div>
 </div>
+<a id="a0412447ffa2a4c941d138b32830e8b63" name="a0412447ffa2a4c941d138b32830e8b63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0412447ffa2a4c941d138b32830e8b63">&#9670;&#160;</a></span>setParticleHypothesis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Acts::BoundTrackParameters::setParticleHypothesis </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_particle_hypothesis.html">ParticleHypothesis</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>particleHypothesis</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the particle hypothesis. </p>
+<dl class="section note"><dt>Note</dt><dd>The q/p parameter does not change. If the absolute charge changes, the absolute momentum changes too. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">particleHypothesis</td><td>The new particle hypothesis </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a8ddc3512f7f2d4ada532d72b438c16e6" name="a8ddc3512f7f2d4ada532d72b438c16e6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8ddc3512f7f2d4ada532d72b438c16e6">&#9670;&#160;</a></span>spatialImpactParameterCovariance()</h2>
 
@@ -979,6 +1009,41 @@ template&lt;<a class="el" href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8c
 
 <p>Transverse momentum. </p>
 <dl class="section return"><dt>Returns</dt><dd>The transverse momentum magnitude </dd></dl>
+
+</div>
+</div>
+<a id="a5b3b8d490b20e711f235d4e4b970c04a" name="a5b3b8d490b20e711f235d4e4b970c04a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b3b8d490b20e711f235d4e4b970c04a">&#9670;&#160;</a></span>withParticleHypothesis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a49fb3b3673149bffe54e99b8d9502711">BoundTrackParameters</a> Acts::BoundTrackParameters::withParticleHypothesis </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_particle_hypothesis.html">ParticleHypothesis</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>particleHypothesis</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Copy the parameters with a different particle hypothesis. </p>
+<dl class="section note"><dt>Note</dt><dd>The q/p parameter does not change. See setParticleHypothesis. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">particleHypothesis</td><td>The new particle hypothesis </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Copy of the parameters with the new particle hypothesis </dd></dl>
 
 </div>
 </div>

@@ -204,12 +204,16 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>normalizeWeights</b> 
 <tr class="memdesc:a086711e524430e63c5095709da67fc79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference surface onto which the parameters are bound.  <br /></td></tr>
 <tr class="memitem:aa59e4f54f652f3543c01c67eb30cda3e" id="r_aa59e4f54f652f3543c01c67eb30cda3e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa59e4f54f652f3543c01c67eb30cda3e">reserve</a> (std::size_t n)</td></tr>
 <tr class="memdesc:aa59e4f54f652f3543c01c67eb30cda3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reserve space for a number of components in the multi-component parameters.  <br /></td></tr>
+<tr class="memitem:a3531af7968cd7e9f67c753c61b4d19c0" id="r_a3531af7968cd7e9f67c753c61b4d19c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3531af7968cd7e9f67c753c61b4d19c0">setParticleHypothesis</a> (const <a class="el" href="class_acts_1_1_particle_hypothesis.html">ParticleHypothesis</a> &amp;<a class="el" href="#a47a5d8b9663045921c9990caba6d216d">particleHypothesis</a>)</td></tr>
+<tr class="memdesc:a3531af7968cd7e9f67c753c61b4d19c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the particle hypothesis.  <br /></td></tr>
 <tr class="memitem:a9f670ee08aef4b0ed42a51c0f03b68ec" id="r_a9f670ee08aef4b0ed42a51c0f03b68ec"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f670ee08aef4b0ed42a51c0f03b68ec">size</a> () const</td></tr>
 <tr class="memdesc:a9f670ee08aef4b0ed42a51c0f03b68ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of the multi-component parameters.  <br /></td></tr>
 <tr class="memitem:a4752f07534571c2e506679c85ad45875" id="r_a4752f07534571c2e506679c85ad45875"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="#a6788a8e036db854db9595c20cd03fc0b">Component</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4752f07534571c2e506679c85ad45875">toComponents</a> () const</td></tr>
 <tr class="memdesc:a4752f07534571c2e506679c85ad45875"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the multi-component parameters to a vector of components.  <br /></td></tr>
 <tr class="memitem:aa3a4f7278aaed7a2d414b65cf10859aa" id="r_aa3a4f7278aaed7a2d414b65cf10859aa"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3a4f7278aaed7a2d414b65cf10859aa">weights</a> () const</td></tr>
 <tr class="memdesc:aa3a4f7278aaed7a2d414b65cf10859aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access to the weights of the components.  <br /></td></tr>
+<tr class="memitem:aaa20c355ddd413e84dc20c7fac1ac832" id="r_aaa20c355ddd413e84dc20c7fac1ac832"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a13c5dc6d828b1f7e1fe16aacfdfda26d">MultiComponentBoundTrackParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa20c355ddd413e84dc20c7fac1ac832">withParticleHypothesis</a> (const <a class="el" href="class_acts_1_1_particle_hypothesis.html">ParticleHypothesis</a> &amp;<a class="el" href="#a47a5d8b9663045921c9990caba6d216d">particleHypothesis</a>) const</td></tr>
+<tr class="memdesc:aaa20c355ddd413e84dc20c7fac1ac832"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy the parameters with a different particle hypothesis.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -836,6 +840,32 @@ requires detail::ComponentRangeAndProjectorWithCovarianceConcept&lt; component_r
 
 </div>
 </div>
+<a id="a3531af7968cd7e9f67c753c61b4d19c0" name="a3531af7968cd7e9f67c753c61b4d19c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3531af7968cd7e9f67c753c61b4d19c0">&#9670;&#160;</a></span>setParticleHypothesis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Acts::MultiComponentBoundTrackParameters::setParticleHypothesis </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_particle_hypothesis.html">ParticleHypothesis</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>particleHypothesis</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the particle hypothesis. </p>
+<dl class="section note"><dt>Note</dt><dd>The q/p parameter does not change. If the absolute charge changes, the absolute momentum changes too. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">particleHypothesis</td><td>The new particle hypothesis </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a9f670ee08aef4b0ed42a51c0f03b68ec" name="a9f670ee08aef4b0ed42a51c0f03b68ec"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9f670ee08aef4b0ed42a51c0f03b68ec">&#9670;&#160;</a></span>size()</h2>
 
@@ -893,6 +923,41 @@ requires detail::ComponentRangeAndProjectorWithCovarianceConcept&lt; component_r
 
 <p>Access to the weights of the components. </p>
 <dl class="section return"><dt>Returns</dt><dd>The weights for all components </dd></dl>
+
+</div>
+</div>
+<a id="aaa20c355ddd413e84dc20c7fac1ac832" name="aaa20c355ddd413e84dc20c7fac1ac832"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa20c355ddd413e84dc20c7fac1ac832">&#9670;&#160;</a></span>withParticleHypothesis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a13c5dc6d828b1f7e1fe16aacfdfda26d">MultiComponentBoundTrackParameters</a> Acts::MultiComponentBoundTrackParameters::withParticleHypothesis </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_particle_hypothesis.html">ParticleHypothesis</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>particleHypothesis</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Copy the parameters with a different particle hypothesis. </p>
+<dl class="section note"><dt>Note</dt><dd>The q/p parameter does not change. See setParticleHypothesis. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">particleHypothesis</td><td>The new particle hypothesis </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Copy of the parameters with the new particle hypothesis </dd></dl>
 
 </div>
 </div>

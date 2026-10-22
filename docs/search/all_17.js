@@ -199,7 +199,7 @@ var searchData=
   ['setoutcome_196',['setOutcome',['../class_acts_fatras_1_1_particle.html#acebde053607b0607d64876fc19a693c4',1,'ActsFatras::Particle']]],
   ['setparentparticleid_197',['setParentParticleId',['../class_acts_fatras_1_1_particle.html#aa577a941c8ace9985c2f9c5a3f942641',1,'ActsFatras::Particle']]],
   ['setparticle_198',['setParticle',['../group__edm4hep__plugin.html#gad2217a1e566c6c6e331e614f87ffa7b9',1,'ActsPlugins::EDM4hepUtil']]],
-  ['setparticlehypothesis_199',['setParticleHypothesis',['../class_acts_1_1_track_proxy.html#a79732fb3f908c9a130a45b1f5bd601c2',1,'Acts::TrackProxy']]],
+  ['setparticlehypothesis_199',['setParticleHypothesis',['../class_acts_1_1_bound_track_parameters.html#a0412447ffa2a4c941d138b32830e8b63',1,'Acts::BoundTrackParameters::setParticleHypothesis()'],['../class_acts_1_1_free_track_parameters.html#ad7140dd7661a9b07484562d8b3656d79',1,'Acts::FreeTrackParameters::setParticleHypothesis()'],['../class_acts_1_1_multi_component_bound_track_parameters.html#a3531af7968cd7e9f67c753c61b4d19c0',1,'Acts::MultiComponentBoundTrackParameters::setParticleHypothesis()'],['../class_acts_1_1_track_proxy.html#a79732fb3f908c9a130a45b1f5bd601c2',1,'Acts::TrackProxy::setParticleHypothesis()']]],
   ['setparticlehypothesis_5fimpl_200',['setParticleHypothesis_impl',['../class_acts_plugins_1_1_mutable_podio_track_container.html#aff291e007dc19282b720cc76cbea091f',1,'ActsPlugins::MutablePodioTrackContainer']]],
   ['setparticleid_201',['setParticleId',['../class_acts_fatras_1_1_particle.html#a5c8157ab53b04c785fc2d9f8f7cca8ca',1,'ActsFatras::Particle']]],
   ['setpdg_202',['setPdg',['../class_acts_fatras_1_1_particle.html#a66ebc074638db2d64a2bd14278b27c12',1,'ActsFatras::Particle']]],
