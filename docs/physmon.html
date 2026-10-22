@@ -130,6 +130,11 @@ $(function(){initNavTree('physmon.html','',''); });
 <p>The associated job will run a number of workflow combinations. Currently, this includes the truth tracking and OpenDataDetector <em>full chain</em> workflows. The latter is further split into configurations with full seeding, truth smeared or truth estimated seeds. These jobs produce performance output files.</p>
 <p>These performance output files are then evaluated using the programs dubbed [](analysis_apps). After this step, the job will then run comparisons of the diagnostics histograms created by these programs. If the comparisons indicate that the histogram contents changed meaningfully, the job will fail and report this on a pull request.</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md99"></a>
+Histogram comparison configuration</h2>
+<p>Histcmp uses the TOML files in <span class="tt">CI/physmon/config</span>. <span class="tt">standard.toml</span> preserves histcmp's default checks for comparisons without a workflow-specific config; <span class="tt">default.toml</span> and the track-fitting configs specify the existing physmon thresholds and exceptions. Use <span class="tt">disabled = true</span> to disable an inherited check. <span class="tt">info_only.toml</span> defines no checks for the visual GX2F/KF comparison.</p>
+<p>The <span class="tt">[report.tags]</span> tables group histograms in the HTML reports by physics quantity or diagnostic, such as efficiency, fakes, residuals, pulls, resolution, and bias. Patterns are case-sensitive shell globs matched against the full histogram key, and a histogram can have multiple tags. For example, <span class="tt">pullwidth_d0_vs_eta</span> belongs to Pulls, Resolution, and Kinematics. Update the relevant tag tables when adding new histogram families.</p>
+<p>The YAML files in the same directory configure <span class="tt">generic_plotter.py</span> binning and derived histograms; they are separate from the histcmp configuration.</p>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md100"></a>
 How do I investigate a physmon failure?</h2>
 <p>The physmon CI job attaches its results as an artifact to the CI run (also for successful runs) From your pull request, you need to click on the <em>Checks</em> tab at the top:</p>
 <div class="image">
@@ -180,7 +185,7 @@ physmon artifact</div></div>
 <div class="caption">
 Physmon report</div></div>
     <p>If you get a physmon job failure on your pull request, please investigate the failing report(s), and try to understand if the change causing the discrepancies is expected.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md100"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md101"></a>
 Where the reference files live</h2>
 <p>The reference histograms are <b>not</b> committed to the repository. They are stored as content-addressed blobs in an OCI registry, and the repository records only their hashes in <span class="tt">CI/physmon/reference.sha256</span>:</p>
 <div class="fragment"><div class="line">acf50e815ae89cb3053ffc04c6099ac877b78c7fe32cfd5ee8ae890abe56e28b  simulation/particles_fatras_hist.root</div>
@@ -192,7 +197,7 @@ Where the reference files live</h2>
 <div class="fragment"><div class="line">$ uv run --no-project CI/physmon/reference.py pull     # populate CI/physmon/reference/</div>
 <div class="line">$ uv run --no-project CI/physmon/reference.py verify   # check it against the manifest</div>
 </div><!-- fragment --><p>Set <span class="tt">ACTS_PHYSMON_NO_FETCH=1</span> to stop <span class="tt">phys_perf_mon.sh</span> from touching the reference directory, if you want to point it at files of your own. The manifest is in <span class="tt">sha256sum</span> format, so <span class="tt">sha256sum -c ../reference.sha256</span> works from inside the reference directory too.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md101"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md102"></a>
 How do I update the reference files?</h2>
 <p>Reference updates are published by a maintainer; you do not need registry credentials to propose one.</p>
 <ol type="1">
