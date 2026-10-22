@@ -180,6 +180,8 @@ const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *&#160;</td><
 <tr class="memitem:aa664552fae00e3d87df1121c1e7b3edf" id="r_aa664552fae00e3d87df1121c1e7b3edf"><td class="memItemLeft" align="right" valign="top"><a id="aa664552fae00e3d87df1121c1e7b3edf" name="aa664552fae00e3d87df1121c1e7b3edf"></a>
 const <a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>currentVolume</b> = nullptr</td></tr>
 <tr class="memdesc:aa664552fae00e3d87df1121c1e7b3edf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current volume during navigation. <br /></td></tr>
+<tr class="memitem:a3f93ba5bd09a30987d7ef17f69cdf351" id="r_a3f93ba5bd09a30987d7ef17f69cdf351"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f93ba5bd09a30987d7ef17f69cdf351">curvature</a> = Vector3::Zero()</td></tr>
+<tr class="memdesc:a3f93ba5bd09a30987d7ef17f69cdf351"><td class="mdescLeft">&#160;</td><td class="mdescRight">Latest global geometric curvature supplied at a public navigation entry point.  <br /></td></tr>
 <tr class="memitem:abd595b78d239389160bd2d02082ee015" id="r_abd595b78d239389160bd2d02082ee015"><td class="memItemLeft" align="right" valign="top"><a id="abd595b78d239389160bd2d02082ee015" name="abd595b78d239389160bd2d02082ee015"></a>
 std::vector&lt; <a class="el" href="struct_acts_1_1_navigator_1_1_state_1_1_resolved_extended_surface.html">ResolvedExtendedSurface</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>extendedSurfaces</b> {}</td></tr>
 <tr class="memdesc:abd595b78d239389160bd2d02082ee015"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extended surfaces resolved once at initialization. <br /></td></tr>
@@ -398,6 +400,23 @@ const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *&#160;</td><
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a3f93ba5bd09a30987d7ef17f69cdf351" name="a3f93ba5bd09a30987d7ef17f69cdf351"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f93ba5bd09a30987d7ef17f69cdf351">&#9670;&#160;</a></span>curvature</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> Acts::Navigator::State::curvature = Vector3::Zero()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Latest global geometric curvature supplied at a public navigation entry point. </p>
+<p>Forwarded to policy creation, validity, and candidate queries. </p>
+
+</div>
+</div>
 <a id="a96b4135514459f28cbe9013bbe51e2fc" name="a96b4135514459f28cbe9013bbe51e2fc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a96b4135514459f28cbe9013bbe51e2fc">&#9670;&#160;</a></span>pendingTarget</h2>
 

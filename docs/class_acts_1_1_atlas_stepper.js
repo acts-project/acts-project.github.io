@@ -12,6 +12,7 @@ var class_acts_1_1_atlas_stepper =
     [ "boundParameters", "class_acts_1_1_atlas_stepper.html#a377cfc4f624c54e7f58fdae06d2180d9", null ],
     [ "charge", "class_acts_1_1_atlas_stepper.html#a517f578beb8a42e6311c4702ffb310ee", null ],
     [ "covariance", "class_acts_1_1_atlas_stepper.html#a5d4ea1de64b590907a5196c23c82ca63", null ],
+    [ "curvature", "class_acts_1_1_atlas_stepper.html#a6004ed6a3f7c94daba23abc3e28ffd5e", null ],
     [ "curvilinearParameters", "class_acts_1_1_atlas_stepper.html#a1f930e21f0fed8b06ac53332aed350ea", null ],
     [ "direction", "class_acts_1_1_atlas_stepper.html#aba6f026f3fccc9472e957dad018d72aa", null ],
     [ "getField", "class_acts_1_1_atlas_stepper.html#aa6d9b1de6416f5fbfbbf1bcc8d4290b6", null ],

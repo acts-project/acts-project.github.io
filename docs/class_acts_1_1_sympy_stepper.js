@@ -12,6 +12,7 @@ var class_acts_1_1_sympy_stepper =
     [ "boundParameters", "class_acts_1_1_sympy_stepper.html#a5992d8d06aa2e0a514e00b7ef9b736ec", null ],
     [ "charge", "class_acts_1_1_sympy_stepper.html#ae36bd84dad3d0843c8dfcdf609dc295b", null ],
     [ "covariance", "class_acts_1_1_sympy_stepper.html#a76c86a0d1c57d434246ff3bbe5221252", null ],
+    [ "curvature", "class_acts_1_1_sympy_stepper.html#a187d1bb1d31f190b98d3ea87e6585f97", null ],
     [ "curvilinearParameters", "class_acts_1_1_sympy_stepper.html#a406649786e19909062379a0b7e8a426a", null ],
     [ "direction", "class_acts_1_1_sympy_stepper.html#a281571fe36f8a7120818011e4851a4a7", null ],
     [ "getField", "class_acts_1_1_sympy_stepper.html#ab11d40a7005aaf542214ac9c7dd25ebb", null ],

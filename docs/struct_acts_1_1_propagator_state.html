@@ -160,6 +160,8 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:a915284aac1586a21c4765cfba6c0dbbd" id="r_a915284aac1586a21c4765cfba6c0dbbd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a915284aac1586a21c4765cfba6c0dbbd">curvature</a> = Vector3::Zero()</td></tr>
+<tr class="memdesc:a915284aac1586a21c4765cfba6c0dbbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global geometric curvature last prepared for navigation, in inverse length units.  <br /></td></tr>
 <tr class="memitem:a1e592dab635243ffabf373b7a16bd910" id="r_a1e592dab635243ffabf373b7a16bd910"><td class="memItemLeft" align="right" valign="top"><a id="a1e592dab635243ffabf373b7a16bd910" name="a1e592dab635243ffabf373b7a16bd910"></a>
 <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>direction</b> = Vector3::Zero()</td></tr>
 <tr class="memdesc:a1e592dab635243ffabf373b7a16bd910"><td class="mdescLeft">&#160;</td><td class="mdescRight">The direction of the propagation. <br /></td></tr>
@@ -243,6 +245,26 @@ template&lt;typename propagator_options_t, typename stepper_state_t, typename na
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a915284aac1586a21c4765cfba6c0dbbd" name="a915284aac1586a21c4765cfba6c0dbbd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a915284aac1586a21c4765cfba6c0dbbd">&#9670;&#160;</a></span>curvature</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename propagator_options_t, typename stepper_state_t, typename navigator_state_t, typename... extension_state_t&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> <a class="el" href="struct_acts_1_1_propagator_state.html">Acts::PropagatorState</a>&lt; propagator_options_t, stepper_state_t, navigator_state_t, extension_state_t &gt;::curvature = Vector3::Zero()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Global geometric curvature last prepared for navigation, in inverse length units. </p>
+<p>Refreshed before navigation calls, including after actor updates. Unchanged by reversing the propagation direction. </p>
 
 </div>
 </div>

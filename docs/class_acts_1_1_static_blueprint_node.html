@@ -157,6 +157,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aa1c1943bb287ace3bd7c7011f42deec2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the navigation policy factory for this node.  <br /></td></tr>
 <tr class="memitem:ae5c9abb970677e97e7de737b14654c5f" id="r_ae5c9abb970677e97e7de737b14654c5f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="#ac53267b95a2867decf188290b07015b3">StaticBlueprintNode</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5c9abb970677e97e7de737b14654c5f">setNavigationPolicyFactory</a> (std::shared_ptr&lt; <a class="el" href="class_acts_1_1_navigation_policy_factory.html">NavigationPolicyFactory</a> &gt; <a class="el" href="#aa1c1943bb287ace3bd7c7011f42deec2">navigationPolicyFactory</a>)</td></tr>
 <tr class="memdesc:ae5c9abb970677e97e7de737b14654c5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the navigation policy factory for this node.  <br /></td></tr>
+<tr class="memitem:a9e2659d11090cc3fc31f14fcbc66e99e" id="r_a9e2659d11090cc3fc31f14fcbc66e99e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ac53267b95a2867decf188290b07015b3">StaticBlueprintNode</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e2659d11090cc3fc31f14fcbc66e99e">setVolumeLookupFactory</a> (<a class="el" href="namespace_acts.html#a2d9cf087564aba0c02ebf091f78f9308">VolumeLookupFactory</a> factory)</td></tr>
+<tr class="memdesc:a9e2659d11090cc3fc31f14fcbc66e99e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the lookup factory for the wrapped volume only.  <br /></td></tr>
+<tr class="memitem:ad6cabd21b49467ab658944e1724f70d3" id="r_ad6cabd21b49467ab658944e1724f70d3"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_acts.html#a2d9cf087564aba0c02ebf091f78f9308">VolumeLookupFactory</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6cabd21b49467ab658944e1724f70d3">volumeLookupFactory</a> () const</td></tr>
+<tr class="memdesc:ad6cabd21b49467ab658944e1724f70d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the optional lookup factory.  <br /></td></tr>
 <tr class="inherit_header pub_methods_class_acts_1_1_blueprint_node"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_acts_1_1_blueprint_node')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="class_acts_1_1_blueprint_node.html">Acts::BlueprintNode</a></td></tr>
 <tr class="memitem:aab07d2cbd43328826f746fc1c6cc3c72 inherit pub_methods_class_acts_1_1_blueprint_node" id="r_aab07d2cbd43328826f746fc1c6cc3c72"><td class="memItemLeft" align="right" valign="top">
 virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~BlueprintNode</b> ()=default</td></tr>
@@ -220,6 +224,9 @@ std::unique_ptr&lt; <a class="el" href="class_acts_1_1_portal_shell_base.html">P
 <tr class="memitem:a354164d5441858120f73762c9b5046a3" id="r_a354164d5441858120f73762c9b5046a3"><td class="memItemLeft" align="right" valign="top"><a id="a354164d5441858120f73762c9b5046a3" name="a354164d5441858120f73762c9b5046a3"></a>
 std::unique_ptr&lt; <a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_volume</b></td></tr>
 <tr class="memdesc:a354164d5441858120f73762c9b5046a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The wrapped tracking volume managed by this blueprint node. <br /></td></tr>
+<tr class="memitem:a0cb6afaffcec5db1db4e72ac18075fcb" id="r_a0cb6afaffcec5db1db4e72ac18075fcb"><td class="memItemLeft" align="right" valign="top"><a id="a0cb6afaffcec5db1db4e72ac18075fcb" name="a0cb6afaffcec5db1db4e72ac18075fcb"></a>
+<a class="el" href="namespace_acts.html#a2d9cf087564aba0c02ebf091f78f9308">VolumeLookupFactory</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_volumeLookupFactory</b></td></tr>
+<tr class="memdesc:a0cb6afaffcec5db1db4e72ac18075fcb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional factory for the lookup installed after descendant finalization. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -546,6 +553,52 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Reference to this node for chaining </dd></dl>
+
+</div>
+</div>
+<a id="a9e2659d11090cc3fc31f14fcbc66e99e" name="a9e2659d11090cc3fc31f14fcbc66e99e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e2659d11090cc3fc31f14fcbc66e99e">&#9670;&#160;</a></span>setVolumeLookupFactory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ac53267b95a2867decf188290b07015b3">StaticBlueprintNode</a> &amp; <a class="el" href="class_acts_1_1_experimental_1_1_static_blueprint_node.html#a9e2659d11090cc3fc31f14fcbc66e99e">Acts::StaticBlueprintNode::setVolumeLookupFactory</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#a2d9cf087564aba0c02ebf091f78f9308">VolumeLookupFactory</a></td>          <td class="paramname"><span class="paramname"><em>factory</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the lookup factory for the wrapped volume only. </p>
+<p>An empty factory leaves the volume's lookup unchanged. Descendant policies are installed first, so subtree indices can stop at explicit overrides. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">factory</td><td>Factory returning a non-null lookup </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>This node for chaining </dd></dl>
+
+</div>
+</div>
+<a id="ad6cabd21b49467ab658944e1724f70d3" name="ad6cabd21b49467ab658944e1724f70d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6cabd21b49467ab658944e1724f70d3">&#9670;&#160;</a></span>volumeLookupFactory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="namespace_acts.html#a2d9cf087564aba0c02ebf091f78f9308">VolumeLookupFactory</a> &amp; <a class="el" href="class_acts_1_1_experimental_1_1_static_blueprint_node.html#ad6cabd21b49467ab658944e1724f70d3">Acts::StaticBlueprintNode::volumeLookupFactory</a> </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the optional lookup factory. </p>
+<dl class="section return"><dt>Returns</dt><dd>Configured factory, which may be empty </dd></dl>
 
 </div>
 </div>

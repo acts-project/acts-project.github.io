@@ -138,6 +138,8 @@ Collaboration diagram for Acts::NavigationArguments:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:afb84bcc65b9855e628ac20079d9f8b39" id="r_afb84bcc65b9855e628ac20079d9f8b39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb84bcc65b9855e628ac20079d9f8b39">curvature</a> = Vector3::Zero()</td></tr>
+<tr class="memdesc:afb84bcc65b9855e628ac20079d9f8b39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Local geometric curvature d(direction)/ds in global coordinates, in inverse length units.  <br /></td></tr>
 <tr class="memitem:a6dcdbe3e378b41c3f78c73982e62f577" id="r_a6dcdbe3e378b41c3f78c73982e62f577"><td class="memItemLeft" align="right" valign="top"><a id="a6dcdbe3e378b41c3f78c73982e62f577" name="a6dcdbe3e378b41c3f78c73982e62f577"></a>
 <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>direction</b> {}</td></tr>
 <tr class="memdesc:a6dcdbe3e378b41c3f78c73982e62f577"><td class="mdescLeft">&#160;</td><td class="mdescRight">Direction vector for navigation propagation. <br /></td></tr>
@@ -151,7 +153,25 @@ Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Struct that serves as the argument to the navigation delegate. </p>
 <p>It is not supposed to be used as an lvalue. </p>
-</div></div><!-- contents -->
+</div><a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="afb84bcc65b9855e628ac20079d9f8b39" name="afb84bcc65b9855e628ac20079d9f8b39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb84bcc65b9855e628ac20079d9f8b39">&#9670;&#160;</a></span>curvature</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> Acts::NavigationArguments::curvature = Vector3::Zero()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Local geometric curvature d(direction)/ds in global coordinates, in inverse length units. </p>
+<p>Perpendicular to the unit tangent, with magnitude 1/R for the local curvature radius. Unchanged by reversing propagation direction. Zero denotes straight motion. </p>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

@@ -4,6 +4,7 @@ var struct_acts_1_1_propagator_state =
     [ "options_type", "struct_acts_1_1_propagator_state.html#a660444f85477d4770cf4a7d72b59afcc", null ],
     [ "stepper_state_type", "struct_acts_1_1_propagator_state.html#ad3bee839e7289f5b43a310121889f181", null ],
     [ "PropagatorState", "struct_acts_1_1_propagator_state.html#a7f1b82f8c27041224835cfb7adf3375b", null ],
+    [ "curvature", "struct_acts_1_1_propagator_state.html#a915284aac1586a21c4765cfba6c0dbbd", null ],
     [ "direction", "struct_acts_1_1_propagator_state.html#a1e592dab635243ffabf373b7a16bd910", null ],
     [ "geoContext", "struct_acts_1_1_propagator_state.html#a431629e05c4059186e093b7b0988fa1b", null ],
     [ "navigation", "struct_acts_1_1_propagator_state.html#a57ca531c28397627b93f38a5a4ba685d", null ],

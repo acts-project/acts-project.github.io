@@ -142,8 +142,16 @@ $(function(){initNavTree('concept_acts_1_1_concepts_1_1_common_stepper.html','',
 <div class="line">    { s.transportToCurvilinear(t) } -&gt; std::same_as&lt;typename Stepper::Jacobian&gt;;</div>
 <div class="line">    { s.prepareCurvilinearState(t) } -&gt; std::same_as&lt;bool&gt;;</div>
 <div class="line"> </div>
+<div class="line">    </div>
+<div class="line">    </div>
+<div class="line">    <span class="keyword">requires</span> <span class="keyword">requires</span> {</div>
+<div class="line">      { s.curvature(t) } -&gt; std::same_as&lt;Result&lt;Vector3&gt;&gt;;</div>
+<div class="line">    } || <span class="keyword">requires</span>(<span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&amp; position) {</div>
+<div class="line">      { <a class="code hl_variable" href="namespace_acts_1_1_unit_constants.html#af5e223138d35ab82606b8d129728a3a8">s</a>.getField(t, position) } -&gt; std::same_as&lt;Result&lt;Vector3&gt;&gt;;</div>
+<div class="line">    };</div>
+<div class="line"> </div>
 <div class="line">    <span class="keyword">requires</span> <span class="keyword">requires</span>(<span class="keyword">const</span> <span class="keyword">typename</span> Stepper::BoundParameters&amp; par) {</div>
-<div class="line">      { s.initialize(t, par) } -&gt; std::same_as&lt;void&gt;;</div>
+<div class="line">      { <a class="code hl_variable" href="namespace_acts_1_1_unit_constants.html#af5e223138d35ab82606b8d129728a3a8">s</a>.initialize(t, par) } -&gt; std::same_as&lt;void&gt;;</div>
 <div class="line">    };</div>
 <div class="line"> </div>
 <div class="line">    <span class="keyword">requires</span> <span class="keyword">requires</span>(<span class="keyword">const</span> Surface&amp; sf, <span class="keyword">const</span> FreeToBoundCorrection&amp; corr) {</div>
@@ -196,6 +204,7 @@ $(function(){initNavTree('concept_acts_1_1_concepts_1_1_common_stepper.html','',
 <div class="line">}</div>
 <div class="ttc" id="aclass_acts_1_1_constrained_step_html_a0eecb2e9c95a2c252b3fea20e69b0ba5"><div class="ttname"><a href="class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5">Acts::ConstrainedStep::Type</a></div><div class="ttdeci">Type</div><div class="ttdoc">the types of constraints from navigator - this would be a navigation step from actor - this would be ...</div><div class="ttdef"><b>Definition</b> ConstrainedStep.hpp:50</div></div>
 <div class="ttc" id="aconcept_acts_1_1_concepts_1_1_common_stepper_html"><div class="ttname"><a href="concept_acts_1_1_concepts_1_1_common_stepper.html">Acts::Concepts::CommonStepper</a></div><div class="ttdoc">Concept that is satisfied by both single- and multi-steppers.</div><div class="ttdef"><b>Definition</b> StepperConcept.hpp:27</div></div>
+<div class="ttc" id="agroup__algebra__types_html_ga49fabee4702da952f70b234a021e39c5"><div class="ttname"><a href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a></div><div class="ttdeci">Vector&lt; 3 &gt; Vector3</div><div class="ttdoc">3-dimensional vector type for e.g. spatial coordinates and momenta</div><div class="ttdef"><b>Definition</b> Algebra.hpp:72</div></div>
 <div class="ttc" id="anamespace_acts_1_1_unit_constants_html_af5e223138d35ab82606b8d129728a3a8"><div class="ttname"><a href="namespace_acts_1_1_unit_constants.html#af5e223138d35ab82606b8d129728a3a8">Acts::UnitConstants::s</a></div><div class="ttdeci">constexpr double s</div><div class="ttdef"><b>Definition</b> Units.hpp:120</div></div>
 </div><!-- fragment --><a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Concept that is satisfied by both single- and multi-steppers. </p>

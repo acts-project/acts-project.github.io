@@ -14,8 +14,9 @@ var searchData=
   ['layoutconfig_11',['LayoutConfig',['../struct_acts_1_1_toroid_field_1_1_layout_config.html',1,'Acts::ToroidField']]],
   ['leveloutputdecorator_12',['LevelOutputDecorator',['../class_acts_1_1_logging_1_1_level_output_decorator.html',1,'Acts::Logging']]],
   ['linearizedtrack_13',['LinearizedTrack',['../struct_acts_1_1_linearized_track.html',1,'Acts']]],
-  ['linebounds_14',['LineBounds',['../class_acts_1_1_line_bounds.html',1,'Acts']]],
-  ['linesurface_15',['LineSurface',['../class_acts_1_1_line_surface.html',1,'Acts']]],
-  ['link_16',['Link',['../struct_acts_1_1_portal_1_1_arguments_1_1_link.html',1,'Acts::Portal::Arguments']]],
-  ['logger_17',['Logger',['../class_acts_1_1_logger.html',1,'Acts']]]
+  ['linearvolumelookup_14',['LinearVolumeLookup',['../class_acts_1_1_linear_volume_lookup.html',1,'Acts']]],
+  ['linebounds_15',['LineBounds',['../class_acts_1_1_line_bounds.html',1,'Acts']]],
+  ['linesurface_16',['LineSurface',['../class_acts_1_1_line_surface.html',1,'Acts']]],
+  ['link_17',['Link',['../struct_acts_1_1_portal_1_1_arguments_1_1_link.html',1,'Acts::Portal::Arguments']]],
+  ['logger_18',['Logger',['../class_acts_1_1_logger.html',1,'Acts']]]
 ];

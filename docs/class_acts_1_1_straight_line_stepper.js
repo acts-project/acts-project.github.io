@@ -11,6 +11,7 @@ var class_acts_1_1_straight_line_stepper =
     [ "boundParameters", "class_acts_1_1_straight_line_stepper.html#a5b86155dd0a73b1ff58472398eeaaafa", null ],
     [ "charge", "class_acts_1_1_straight_line_stepper.html#ad108f3989ac28f3ab4ba7a8d15409106", null ],
     [ "covariance", "class_acts_1_1_straight_line_stepper.html#ac3edc18b99d4dc0cbca1a47c8590af6c", null ],
+    [ "curvature", "class_acts_1_1_straight_line_stepper.html#a97a7d75f95b394a840ab66ecd3f825b4", null ],
     [ "curvilinearParameters", "class_acts_1_1_straight_line_stepper.html#abf8d910355198efbda8275b06b2f66c8", null ],
     [ "direction", "class_acts_1_1_straight_line_stepper.html#a25ec95abe46a48cf6f2d88a3ff7390e4", null ],
     [ "getField", "class_acts_1_1_straight_line_stepper.html#a3f0384e650a1523f9e050b6f25a89e65", null ],

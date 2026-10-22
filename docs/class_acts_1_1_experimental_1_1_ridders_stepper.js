@@ -14,6 +14,7 @@ var class_acts_1_1_experimental_1_1_ridders_stepper =
     [ "boundParameters", "class_acts_1_1_experimental_1_1_ridders_stepper.html#ae1ae7a9b172a83c0d2d35c261c48d279", null ],
     [ "charge", "class_acts_1_1_experimental_1_1_ridders_stepper.html#a1a57e493ba86a2b771a3df3c60c36743", null ],
     [ "covariance", "class_acts_1_1_experimental_1_1_ridders_stepper.html#a0978a459b738a2b585a44198ccf621ec", null ],
+    [ "curvature", "class_acts_1_1_experimental_1_1_ridders_stepper.html#ad27fdb4c1139051c9d73ebba2d68882a", null ],
     [ "curvilinearParameters", "class_acts_1_1_experimental_1_1_ridders_stepper.html#aa91fdfadde8f6258026d106c5fd99a00", null ],
     [ "direction", "class_acts_1_1_experimental_1_1_ridders_stepper.html#a60bc497081e8145b9ff8a7bbc796c485", null ],
     [ "getField", "class_acts_1_1_experimental_1_1_ridders_stepper.html#a5297153a7b2ccf11667c0a273fe27940", null ],

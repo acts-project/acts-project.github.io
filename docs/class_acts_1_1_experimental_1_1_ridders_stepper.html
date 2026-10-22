@@ -172,6 +172,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a1a57e493ba86a2b771a3df3c60c36743"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the charge of the primary stepper state.  <br /></td></tr>
 <tr class="memitem:a0978a459b738a2b585a44198ccf621ec" id="r_a0978a459b738a2b585a44198ccf621ec"><td class="memItemLeft" align="right" valign="top">const std::optional&lt; <a class="el" href="#a1f7460e6a51f6941af80ea9071e47583">Covariance</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0978a459b738a2b585a44198ccf621ec">covariance</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:a0978a459b738a2b585a44198ccf621ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the covariance of the last transport.  <br /></td></tr>
+<tr class="memitem:ad27fdb4c1139051c9d73ebba2d68882a" id="r_ad27fdb4c1139051c9d73ebba2d68882a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad27fdb4c1139051c9d73ebba2d68882a">curvature</a> (<a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
+<tr class="memdesc:ad27fdb4c1139051c9d73ebba2d68882a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current global geometric curvature d(direction)/ds in inverse length.  <br /></td></tr>
 <tr class="memitem:aa91fdfadde8f6258026d106c5fd99a00" id="r_aa91fdfadde8f6258026d106c5fd99a00"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a3828228c526ed00877a7c9e22300bddd">BoundParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa91fdfadde8f6258026d106c5fd99a00">curvilinearParameters</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:aa91fdfadde8f6258026d106c5fd99a00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the curvilinear parameters of the primary stepper state.  <br /></td></tr>
 <tr class="memitem:a60bc497081e8145b9ff8a7bbc796c485" id="r_a60bc497081e8145b9ff8a7bbc796c485"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60bc497081e8145b9ff8a7bbc796c485">direction</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
@@ -460,6 +462,34 @@ template&lt;Concepts::SingleStepper stepper_impl_t&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the covariance, or no value if the state does not carry one </dd></dl>
+
+</div>
+</div>
+<a id="ad27fdb4c1139051c9d73ebba2d68882a" name="ad27fdb4c1139051c9d73ebba2d68882a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad27fdb4c1139051c9d73ebba2d68882a">&#9670;&#160;</a></span>curvature()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;Concepts::SingleStepper stepper_impl_t&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &gt; <a class="el" href="class_acts_1_1_experimental_1_1_ridders_stepper.html">Acts::Experimental::RiddersStepper</a>&lt; stepper_impl_t &gt;::curvature </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Current global geometric curvature d(direction)/ds in inverse length. </p>
+<p>Unchanged under propagation reversal; reflects current momentum and field. Uses the primary stepping state. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">state</td><td>Stepping state; the field cache may be updated </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Curvature vector, or a field lookup error </dd></dl>
 
 </div>
 </div>

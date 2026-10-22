@@ -12,6 +12,7 @@ var class_acts_1_1_eigen_stepper =
     [ "boundParameters", "class_acts_1_1_eigen_stepper.html#a16a593aedc7a7a54b1329f8e91e3301d", null ],
     [ "charge", "class_acts_1_1_eigen_stepper.html#a7882b047d84a79d0e729ba915f521776", null ],
     [ "covariance", "class_acts_1_1_eigen_stepper.html#a3b982b2d2773a1c160a051160a2e2eb1", null ],
+    [ "curvature", "class_acts_1_1_eigen_stepper.html#ab9473599c71549546f8249f231af8a76", null ],
     [ "curvilinearParameters", "class_acts_1_1_eigen_stepper.html#ad1e9a1676662eb4ae095af7e24e3c43b", null ],
     [ "direction", "class_acts_1_1_eigen_stepper.html#a31240768377cb915c2766df49ac94fb0", null ],
     [ "getField", "class_acts_1_1_eigen_stepper.html#a11ba12a1f6795e0169ddc0d07d075760", null ],

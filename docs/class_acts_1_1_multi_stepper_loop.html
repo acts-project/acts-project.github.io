@@ -195,6 +195,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ae7493f780932d2a91057e1cde8b57d41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an iterable which can be plugged into a range-based for-loop to iterate over components.  <br /></td></tr>
 <tr class="memitem:a8e36c69a3252b98c7e3a207dc2dc3360" id="r_a8e36c69a3252b98c7e3a207dc2dc3360"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e36c69a3252b98c7e3a207dc2dc3360">constComponentIterable</a> (const <a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:a8e36c69a3252b98c7e3a207dc2dc3360"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an constant iterable which can be plugged into a range-based for-loop to iterate over components.  <br /></td></tr>
+<tr class="memitem:aa0a16a1eef361e52723a4d60d04ee6c7" id="r_aa0a16a1eef361e52723a4d60d04ee6c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0a16a1eef361e52723a4d60d04ee6c7">curvature</a> (<a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;state) const</td></tr>
+<tr class="memdesc:aa0a16a1eef361e52723a4d60d04ee6c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current global geometric curvature d(direction)/ds in inverse length.  <br /></td></tr>
 <tr class="memitem:a8b503cb567965fb3b878362aba87011c" id="r_a8b503cb567965fb3b878362aba87011c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ad347fe360389c8a6f5776ea7e5200b02">BoundParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b503cb567965fb3b878362aba87011c">curvilinearParameters</a> (const <a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:a8b503cb567965fb3b878362aba87011c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the curvilinear parameters at the current position.  <br /></td></tr>
 <tr class="memitem:adfbd62497eb2d734077831f052b39917" id="r_adfbd62497eb2d734077831f052b39917"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfbd62497eb2d734077831f052b39917">direction</a> (const <a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;state) const</td></tr>
@@ -616,6 +618,34 @@ template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer
 </dl>
 <dl class="section note"><dt>Note</dt><dd>Use a for-loop with by-value semantics, since the Iterable returns a proxy internally holding a reference </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>Const iterable range object for read-only iteration over components </dd></dl>
+
+</div>
+</div>
+<a id="aa0a16a1eef361e52723a4d60d04ee6c7" name="aa0a16a1eef361e52723a4d60d04ee6c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0a16a1eef361e52723a4d60d04ee6c7">&#9670;&#160;</a></span>curvature()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer_t = MaxWeightReducerLoop&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &gt; <a class="el" href="class_acts_1_1_multi_stepper_loop.html">Acts::MultiStepperLoop</a>&lt; single_stepper_t, component_reducer_t &gt;::curvature </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Current global geometric curvature d(direction)/ds in inverse length. </p>
+<p>Unchanged under propagation reversal; reflects current momentum and field. Uses the reduced position, direction and q/p, matching the other accessors. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">state</td><td>Stepping state; the field cache may be updated </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Curvature vector, or a field lookup error </dd></dl>
 
 </div>
 </div>

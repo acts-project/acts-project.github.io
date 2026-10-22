@@ -164,6 +164,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ad108f3989ac28f3ab4ba7a8d15409106"><td class="mdescLeft">&#160;</td><td class="mdescRight">Charge access.  <br /></td></tr>
 <tr class="memitem:ac3edc18b99d4dc0cbca1a47c8590af6c" id="r_ac3edc18b99d4dc0cbca1a47c8590af6c"><td class="memItemLeft" align="right" valign="top">const std::optional&lt; <a class="el" href="#a1c8fe5bb662fd14e8c10027c10a26202">Covariance</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3edc18b99d4dc0cbca1a47c8590af6c">covariance</a> (const <a class="el" href="struct_acts_1_1_straight_line_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:ac3edc18b99d4dc0cbca1a47c8590af6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the covariance at the anchor.  <br /></td></tr>
+<tr class="memitem:a97a7d75f95b394a840ab66ecd3f825b4" id="r_a97a7d75f95b394a840ab66ecd3f825b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97a7d75f95b394a840ab66ecd3f825b4">curvature</a> (<a class="el" href="struct_acts_1_1_straight_line_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
+<tr class="memdesc:a97a7d75f95b394a840ab66ecd3f825b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current global geometric curvature d(direction)/ds in inverse length.  <br /></td></tr>
 <tr class="memitem:abf8d910355198efbda8275b06b2f66c8" id="r_abf8d910355198efbda8275b06b2f66c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a7ebcf2a6a83e0276d20a4599ddb1c4a7">BoundParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf8d910355198efbda8275b06b2f66c8">curvilinearParameters</a> (const <a class="el" href="struct_acts_1_1_straight_line_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:abf8d910355198efbda8275b06b2f66c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the curvilinear parameters at the current position.  <br /></td></tr>
 <tr class="memitem:a25ec95abe46a48cf6f2d88a3ff7390e4" id="r_a25ec95abe46a48cf6f2d88a3ff7390e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25ec95abe46a48cf6f2d88a3ff7390e4">direction</a> (const <a class="el" href="struct_acts_1_1_straight_line_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
@@ -334,6 +336,32 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The covariance at the anchor, or no value if the state does not carry a covariance </dd></dl>
+
+</div>
+</div>
+<a id="a97a7d75f95b394a840ab66ecd3f825b4" name="a97a7d75f95b394a840ab66ecd3f825b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97a7d75f95b394a840ab66ecd3f825b4">&#9670;&#160;</a></span>curvature()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &gt; Acts::StraightLineStepper::curvature </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_acts_1_1_straight_line_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Current global geometric curvature d(direction)/ds in inverse length. </p>
+<p>Unchanged under propagation reversal; reflects current momentum and field. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">state</td><td>Stepping state; the field cache may be updated </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Curvature vector, or a field lookup error </dd></dl>
 
 </div>
 </div>

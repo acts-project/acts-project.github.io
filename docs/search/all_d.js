@@ -302,6 +302,7 @@ var searchData=
   ['itripletseedfilter_299',['ITripletSeedFilter',['../class_acts_1_1_i_triplet_seed_filter.html',1,'Acts']]],
   ['ivertexfinder_300',['IVertexFinder',['../class_acts_1_1_i_vertex_finder.html',1,'Acts']]],
   ['ivisualization3d_301',['IVisualization3D',['../class_acts_1_1_i_visualization3_d.html',1,'Acts']]],
-  ['ivolumematerial_302',['IVolumeMaterial',['../class_acts_1_1_i_volume_material.html',1,'Acts']]],
-  ['ivolumematerialjsondecorator_303',['IVolumeMaterialJsonDecorator',['../class_acts_1_1_i_volume_material_json_decorator.html',1,'Acts']]]
+  ['ivolumelookup_302',['IVolumeLookup',['../class_acts_1_1_i_volume_lookup.html',1,'Acts']]],
+  ['ivolumematerial_303',['IVolumeMaterial',['../class_acts_1_1_i_volume_material.html',1,'Acts']]],
+  ['ivolumematerialjsondecorator_304',['IVolumeMaterialJsonDecorator',['../class_acts_1_1_i_volume_material_json_decorator.html',1,'Acts']]]
 ];

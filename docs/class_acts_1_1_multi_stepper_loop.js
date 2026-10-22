@@ -22,6 +22,7 @@ var class_acts_1_1_multi_stepper_loop =
     [ "clearComponents", "class_acts_1_1_multi_stepper_loop.html#aad4ed104697bb10e91de477d0099958e", null ],
     [ "componentIterable", "class_acts_1_1_multi_stepper_loop.html#ae7493f780932d2a91057e1cde8b57d41", null ],
     [ "constComponentIterable", "class_acts_1_1_multi_stepper_loop.html#a8e36c69a3252b98c7e3a207dc2dc3360", null ],
+    [ "curvature", "class_acts_1_1_multi_stepper_loop.html#aa0a16a1eef361e52723a4d60d04ee6c7", null ],
     [ "curvilinearParameters", "class_acts_1_1_multi_stepper_loop.html#a8b503cb567965fb3b878362aba87011c", null ],
     [ "direction", "class_acts_1_1_multi_stepper_loop.html#adfbd62497eb2d734077831f052b39917", null ],
     [ "getField", "class_acts_1_1_multi_stepper_loop.html#ad02581b5a3f99db0fd84cb274e15272f", null ],

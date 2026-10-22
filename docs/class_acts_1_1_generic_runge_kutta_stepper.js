@@ -18,6 +18,7 @@ var class_acts_1_1_generic_runge_kutta_stepper =
     [ "boundParameters", "class_acts_1_1_generic_runge_kutta_stepper.html#ad71af61b6aaabe5fe6db92d88c3e88d3", null ],
     [ "charge", "class_acts_1_1_generic_runge_kutta_stepper.html#a58235164744d9d1fb2791c97be7326ac", null ],
     [ "covariance", "class_acts_1_1_generic_runge_kutta_stepper.html#af8b39642e20af28de5930ef1a698653f", null ],
+    [ "curvature", "class_acts_1_1_generic_runge_kutta_stepper.html#a4665d95ea705e722ef9983f16aba2489", null ],
     [ "curvilinearParameters", "class_acts_1_1_generic_runge_kutta_stepper.html#a38aaef5c6e4b4a1d38c78d1bdba8a3d8", null ],
     [ "direction", "class_acts_1_1_generic_runge_kutta_stepper.html#a11595c33ac6a5969dfa83a2d4b3887a5", null ],
     [ "getField", "class_acts_1_1_generic_runge_kutta_stepper.html#a23091b24378856e0098e8b2b2f63e9fc", null ],

@@ -12,6 +12,7 @@ var class_acts_1_1_helix_stepper =
     [ "boundParameters", "class_acts_1_1_helix_stepper.html#a2e81a01f3f338a82b6a7244b52cf4206", null ],
     [ "charge", "class_acts_1_1_helix_stepper.html#a64fce899595d5fc41335b67fb8f9afbc", null ],
     [ "covariance", "class_acts_1_1_helix_stepper.html#a92f9413335ab46ac6bf89123ce53e13d", null ],
+    [ "curvature", "class_acts_1_1_helix_stepper.html#aa1375501de11d6cba724e5762cd5a6ba", null ],
     [ "curvilinearParameters", "class_acts_1_1_helix_stepper.html#a0f660d0c814bdd475e2f0e38b0c767c2", null ],
     [ "direction", "class_acts_1_1_helix_stepper.html#a1ca837f450c90459ff2b86fda286d341", null ],
     [ "getField", "class_acts_1_1_helix_stepper.html#a38c3fe896d7ec640f233d9a2c2cdca92", null ],

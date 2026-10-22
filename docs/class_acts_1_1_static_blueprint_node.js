@@ -8,7 +8,10 @@ var class_acts_1_1_static_blueprint_node =
     [ "name", "class_acts_1_1_static_blueprint_node.html#aff3860902be8a8b7f17ff4175eef5e3b", null ],
     [ "navigationPolicyFactory", "class_acts_1_1_static_blueprint_node.html#aa1c1943bb287ace3bd7c7011f42deec2", null ],
     [ "setNavigationPolicyFactory", "class_acts_1_1_static_blueprint_node.html#ae5c9abb970677e97e7de737b14654c5f", null ],
+    [ "setVolumeLookupFactory", "class_acts_1_1_static_blueprint_node.html#a9e2659d11090cc3fc31f14fcbc66e99e", null ],
+    [ "volumeLookupFactory", "class_acts_1_1_static_blueprint_node.html#ad6cabd21b49467ab658944e1724f70d3", null ],
     [ "m_navigationPolicyFactory", "class_acts_1_1_static_blueprint_node.html#abe9365210fbea22195c17f53eef7f061", null ],
     [ "m_shell", "class_acts_1_1_static_blueprint_node.html#a067f91918802917bb907c64aec46691e", null ],
-    [ "m_volume", "class_acts_1_1_static_blueprint_node.html#a354164d5441858120f73762c9b5046a3", null ]
+    [ "m_volume", "class_acts_1_1_static_blueprint_node.html#a354164d5441858120f73762c9b5046a3", null ],
+    [ "m_volumeLookupFactory", "class_acts_1_1_static_blueprint_node.html#a0cb6afaffcec5db1db4e72ac18075fcb", null ]
 ];

@@ -45,9 +45,10 @@ var searchData=
   ['volumeboundsdecoder_42',['VolumeBoundsDecoder',['../class_acts_1_1_tracking_geometry_json_converter.html#ae5c95c497eb6c5b05569a03e1f64d66a',1,'Acts::TrackingGeometryJsonConverter']]],
   ['volumeboundsencoder_43',['VolumeBoundsEncoder',['../class_acts_1_1_tracking_geometry_json_converter.html#a82949918f4d0b432cb7cbbd995805f6f',1,'Acts::TrackingGeometryJsonConverter']]],
   ['volumeidlookup_44',['VolumeIdLookup',['../class_acts_1_1_tracking_geometry_json_converter.html#afc3d736455f27df9c89c0bcd88c7e95f',1,'Acts::TrackingGeometryJsonConverter']]],
-  ['volumemap_5ft_45',['VolumeMap_t',['../struct_acts_plugins_1_1_geo_model_tree_1_1_volume_publisher.html#aa1e96c8a02fd5336af4c5e25f8a7b553',1,'ActsPlugins::GeoModelTree::VolumePublisher']]],
-  ['volumematerialmaps_46',['VolumeMaterialMaps',['../namespace_acts.html#adab8ee0743a2872f4ca6888b37c65f04',1,'Acts']]],
-  ['volumematerialpointer_47',['volumeMaterialPointer',['../group__json__plugin.html#ga06973c0a57ed2cedc63a4e66a33eb4ae',1,'Acts']]],
-  ['volumepointerlookup_48',['VolumePointerLookup',['../class_acts_1_1_tracking_geometry_json_converter.html#ad1e99dbd289f83a57554bf9e95332049',1,'Acts::TrackingGeometryJsonConverter']]],
-  ['volumerange_49',['VolumeRange',['../class_acts_1_1_tracking_volume.html#ac7d69784e7669d15b018f62718af712b',1,'Acts::TrackingVolume']]]
+  ['volumelookupfactory_45',['VolumeLookupFactory',['../namespace_acts.html#a2d9cf087564aba0c02ebf091f78f9308',1,'Acts']]],
+  ['volumemap_5ft_46',['VolumeMap_t',['../struct_acts_plugins_1_1_geo_model_tree_1_1_volume_publisher.html#aa1e96c8a02fd5336af4c5e25f8a7b553',1,'ActsPlugins::GeoModelTree::VolumePublisher']]],
+  ['volumematerialmaps_47',['VolumeMaterialMaps',['../namespace_acts.html#adab8ee0743a2872f4ca6888b37c65f04',1,'Acts']]],
+  ['volumematerialpointer_48',['volumeMaterialPointer',['../group__json__plugin.html#ga06973c0a57ed2cedc63a4e66a33eb4ae',1,'Acts']]],
+  ['volumepointerlookup_49',['VolumePointerLookup',['../class_acts_1_1_tracking_geometry_json_converter.html#ad1e99dbd289f83a57554bf9e95332049',1,'Acts::TrackingGeometryJsonConverter']]],
+  ['volumerange_50',['VolumeRange',['../class_acts_1_1_tracking_volume.html#ac7d69784e7669d15b018f62718af712b',1,'Acts::TrackingVolume']]]
 ];

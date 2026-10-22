@@ -255,7 +255,7 @@ static constexpr char&#160;</td><td class="memItemRight" valign="bottom"><b>kVol
 <div class="ttc" id="aclass_acts_1_1_json_kind_dispatcher_html"><div class="ttname"><a href="class_acts_1_1_json_kind_dispatcher.html">Acts::JsonKindDispatcher</a></div><div class="ttdoc">JSON-specific dispatcher that routes decoder functions based on a string kind tag found in the encode...</div><div class="ttdef"><b>Definition</b> JsonKindDispatcher.hpp:27</div></div>
 <div class="ttc" id="aclass_acts_1_1_logger_html"><div class="ttname"><a href="class_acts_1_1_logger.html">Acts::Logger</a></div><div class="ttdoc">class for printing debug output</div><div class="ttdef"><b>Definition</b> Logger.hpp:679</div></div>
 <div class="ttc" id="aclass_acts_1_1_tracking_geometry_json_converter_html_a50237df4af3a6595fc3db1b0252028f8"><div class="ttname"><a href="#a50237df4af3a6595fc3db1b0252028f8">Acts::TrackingGeometryJsonConverter::TrackingGeometryJsonConverter</a></div><div class="ttdeci">TrackingGeometryJsonConverter(Config config=Config::defaultConfig(), std::unique_ptr&lt; const Acts::Logger &gt; logger=Acts::getDefaultLogger(&quot;TrackingGeometryJsonConverter&quot;, Acts::Logging::INFO))</div><div class="ttdoc">Construct converter with custom or default dispatch configuration.</div></div>
-<div class="ttc" id="aclass_acts_1_1_tracking_volume_html"><div class="ttname"><a href="class_acts_1_1_tracking_volume.html">Acts::TrackingVolume</a></div><div class="ttdoc">Full Volume description used in Tracking, it inherits from Volume to get the geometrical structure.</div><div class="ttdef"><b>Definition</b> TrackingVolume.hpp:104</div></div>
+<div class="ttc" id="aclass_acts_1_1_tracking_volume_html"><div class="ttname"><a href="class_acts_1_1_tracking_volume.html">Acts::TrackingVolume</a></div><div class="ttdoc">Full Volume description used in Tracking, it inherits from Volume to get the geometrical structure.</div><div class="ttdef"><b>Definition</b> TrackingVolume.hpp:105</div></div>
 </div><!-- fragment -->
 <p>Navigation policy decoder. </p>
 
@@ -513,6 +513,7 @@ static constexpr char&#160;</td><td class="memItemRight" valign="bottom"><b>kVol
 </div><div class="memdoc">
 
 <p>Reconstruct a tracking geometry from an in-memory JSON payload. </p>
+<p>A <span class="tt">volume_lookup</span> recipe is rebuilt after loading the volume hierarchy, with descendant policies installed before enclosing indices. Payloads without this field retain the default linear lookup.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">gctx</td><td>geometry context </td></tr>
@@ -824,6 +825,7 @@ static constexpr char&#160;</td><td class="memItemRight" valign="bottom"><b>kVol
 </div><div class="memdoc">
 
 <p>Convert a tracking geometry to JSON. </p>
+<p>Built-in volume lookup policies are stored as an optional <span class="tt">volume_lookup</span> construction recipe on each volume record (kind and settings), not as bin/node assignments. Explicit linear policies are recorded even with default settings, since they form subtree delegation boundaries. Unsupported custom lookup policies cause an exception.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">gctx</td><td>geometry context </td></tr>

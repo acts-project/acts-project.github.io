@@ -555,6 +555,10 @@ var hierarchy =
       [ "Acts::PlyVisualization3D< T >", "class_acts_1_1_ply_visualization3_d.html", null ],
       [ "Acts::VisualizationBuffer", "class_acts_1_1_visualization_buffer.html", null ]
     ] ],
+    [ "Acts::IVolumeLookup", "class_acts_1_1_i_volume_lookup.html", [
+      [ "Acts::LinearVolumeLookup", "class_acts_1_1_linear_volume_lookup.html", null ],
+      [ "Acts::RzGridVolumeLookup", "class_acts_1_1_rz_grid_volume_lookup.html", null ]
+    ] ],
     [ "Acts::IVolumeMaterial", "class_acts_1_1_i_volume_material.html", [
       [ "Acts::HomogeneousVolumeMaterial", "class_acts_1_1_homogeneous_volume_material.html", null ],
       [ "Acts::InterpolatedMaterialMap< Mapper_t >", "class_acts_1_1_interpolated_material_map.html", null ],
@@ -574,6 +578,7 @@ var hierarchy =
     [ "Acts::LayerCreator", "class_acts_1_1_layer_creator.html", null ],
     [ "Acts::LayerCreator::Config", "struct_acts_1_1_layer_creator_1_1_config.html", null ],
     [ "Acts::LinearizedTrack", "struct_acts_1_1_linearized_track.html", null ],
+    [ "Acts::LinearVolumeLookup::Config", "struct_acts_1_1_linear_volume_lookup_1_1_config.html", null ],
     [ "Acts::Logger", "class_acts_1_1_logger.html", null ],
     [ "Acts::Logging::OutputFilterPolicy", "class_acts_1_1_logging_1_1_output_filter_policy.html", [
       [ "Acts::Logging::DefaultFilterPolicy", "class_acts_1_1_logging_1_1_default_filter_policy.html", null ]
@@ -733,6 +738,7 @@ var hierarchy =
     [ "Acts::RemovePointer&lt; T &gt;", "struct_acts_1_1_remove_pointer_3_01_t_01_4.html", null ],
     [ "Acts::Result&lt; T, E &gt;", "class_acts_1_1_result.html", null ],
     [ "Acts::Result&lt; void, E &gt;", "class_acts_1_1_result_3_01void_00_01_e_01_4.html", null ],
+    [ "Acts::RzGridVolumeLookup::Config", "struct_acts_1_1_rz_grid_volume_lookup_1_1_config.html", null ],
     [ "Acts::ScopedTimer", "class_acts_1_1_scoped_timer.html", null ],
     [ "Acts::ScoreBasedAmbiguityResolution", "class_acts_1_1_score_based_ambiguity_resolution.html", null ],
     [ "Acts::ScoreBasedAmbiguityResolution::Config", "struct_acts_1_1_score_based_ambiguity_resolution_1_1_config.html", null ],

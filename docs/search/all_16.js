@@ -245,5 +245,6 @@ var searchData=
   ['runtime_20geometry_20module_20loading_242',['Runtime geometry module loading',['../group__geometry__module__loading.html',1,'']]],
   ['rval_243',['rVal',['../struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#a784c0c55a0a9f407c565e72b09297998',1,'ActsPlugins::TorchMetricLearning::Config']]],
   ['rzaxes_244',['rzAxes',['../struct_acts_plugins_1_1_svg_1_1_tracking_geometry_projections_1_1_options.html#a2f1ed3fc5e73508c1a6d976dee7e5c0f',1,'ActsPlugins::Svg::TrackingGeometryProjections::Options']]],
-  ['rzetalines_245',['rzEtaLines',['../struct_acts_plugins_1_1_svg_1_1_tracking_geometry_projections_1_1_options.html#a2222a15a827a105266536efd3b8e8318',1,'ActsPlugins::Svg::TrackingGeometryProjections::Options']]]
+  ['rzetalines_245',['rzEtaLines',['../struct_acts_plugins_1_1_svg_1_1_tracking_geometry_projections_1_1_options.html#a2222a15a827a105266536efd3b8e8318',1,'ActsPlugins::Svg::TrackingGeometryProjections::Options']]],
+  ['rzgridvolumelookup_246',['RzGridVolumeLookup',['../class_acts_1_1_rz_grid_volume_lookup.html',1,'Acts::RzGridVolumeLookup'],['../class_acts_1_1_rz_grid_volume_lookup.html#a564f878707b26c4a61ba18fcac4fa942',1,'Acts::RzGridVolumeLookup::RzGridVolumeLookup()']]]
 ];
