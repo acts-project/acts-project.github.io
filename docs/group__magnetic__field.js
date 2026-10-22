@@ -7,8 +7,10 @@ var group__magnetic__field =
       [ "ConstantBField", "class_acts_1_1_constant_b_field.html#a5758290dbfa849cd7113c0f2174f9d68", null ],
       [ "getField", "class_acts_1_1_constant_b_field.html#a8a37273f19756bf47cd31e247d9802d6", null ],
       [ "getField", "class_acts_1_1_constant_b_field.html#a6c40bcfcb654b185349a73af1087a7d9", null ],
+      [ "getFieldAndGradient", "class_acts_1_1_constant_b_field.html#af22f1e59c490835f784ba92f868477f4", null ],
       [ "isInside", "class_acts_1_1_constant_b_field.html#a36fd7a5218c33dcfd4211ec139940652", null ],
       [ "makeCache", "class_acts_1_1_constant_b_field.html#a7c6604e60da1f350da591fec5aa7d47a", null ],
+      [ "providesFieldGradient", "class_acts_1_1_constant_b_field.html#a09a3c2b9be36f63ce96a8b68ded7bee3", null ],
       [ "setField", "class_acts_1_1_constant_b_field.html#ace9504ef5776a78429928cdfde3f3bff", null ]
     ] ],
     [ "Acts::InterpolatedBFieldMap&lt; grid_t &gt;", "class_acts_1_1_interpolated_b_field_map.html", [
@@ -54,15 +56,23 @@ var group__magnetic__field =
     ] ],
     [ "Acts::MagneticFieldContext", "class_acts_1_1_magnetic_field_context.html", null ],
     [ "Acts::MagneticFieldProvider", "class_acts_1_1_magnetic_field_provider.html", [
+      [ "FieldAndGradient", "struct_acts_1_1_magnetic_field_provider_1_1_field_and_gradient.html", [
+        [ "field", "struct_acts_1_1_magnetic_field_provider_1_1_field_and_gradient.html#a19c0ee292f73514e5a7324c4a26980a1", null ],
+        [ "gradient", "struct_acts_1_1_magnetic_field_provider_1_1_field_and_gradient.html#a88c605f6946091b882cc77c0f9aee954", null ]
+      ] ],
       [ "Cache", "class_acts_1_1_magnetic_field_provider.html#a1f11a18dff2bb4106d1c1f76ff25e1d9", null ],
       [ "getField", "class_acts_1_1_magnetic_field_provider.html#a2273dd0876de816392e4502fd603c326", null ],
-      [ "makeCache", "class_acts_1_1_magnetic_field_provider.html#abb7f95f21fb87e6cb2cbe723d98711b6", null ]
+      [ "getFieldAndGradient", "class_acts_1_1_magnetic_field_provider.html#a473334bdce90e0babf3e8580350ab38d", null ],
+      [ "makeCache", "class_acts_1_1_magnetic_field_provider.html#abb7f95f21fb87e6cb2cbe723d98711b6", null ],
+      [ "providesFieldGradient", "class_acts_1_1_magnetic_field_provider.html#af82788015e1c741b7afbf507a4713aab", null ]
     ] ],
     [ "Acts::MultiRangeBField", "class_acts_1_1_multi_range_b_field.html", [
       [ "MultiRangeBField", "class_acts_1_1_multi_range_b_field.html#ab6f63464b75016f490cffd2a7f20ce25", null ],
       [ "MultiRangeBField", "class_acts_1_1_multi_range_b_field.html#a9816cbd60b33924f27e75483ad8742a1", null ],
       [ "getField", "class_acts_1_1_multi_range_b_field.html#a91f6f331155d52af34cc8fff38941056", null ],
-      [ "makeCache", "class_acts_1_1_multi_range_b_field.html#a60876cc60ed6ac619edc5ccde2646dd1", null ]
+      [ "getFieldAndGradient", "class_acts_1_1_multi_range_b_field.html#ad7ddf9eacb09959178987da382daa1ef", null ],
+      [ "makeCache", "class_acts_1_1_multi_range_b_field.html#a60876cc60ed6ac619edc5ccde2646dd1", null ],
+      [ "providesFieldGradient", "class_acts_1_1_multi_range_b_field.html#a4f42eddb2ba688d5553438213f249325", null ]
     ] ],
     [ "Acts::NullBField", "class_acts_1_1_null_b_field.html", [
       [ "Cache", "struct_acts_1_1_null_b_field_1_1_cache.html", [
@@ -70,8 +80,10 @@ var group__magnetic__field =
       ] ],
       [ "NullBField", "class_acts_1_1_null_b_field.html#aea129d00fb2016ffadf1618fe3dc663c", null ],
       [ "getField", "class_acts_1_1_null_b_field.html#a8075b7c3a21351d898e783e9aa3cdf23", null ],
+      [ "getFieldAndGradient", "class_acts_1_1_null_b_field.html#a2d3b31dbb033eb86c00e86b9d6b5046d", null ],
       [ "isInside", "class_acts_1_1_null_b_field.html#abbea987771cf0accd5265323bfadb89d", null ],
-      [ "makeCache", "class_acts_1_1_null_b_field.html#aab76e073b532066440eedf0cf2e33449", null ]
+      [ "makeCache", "class_acts_1_1_null_b_field.html#aab76e073b532066440eedf0cf2e33449", null ],
+      [ "providesFieldGradient", "class_acts_1_1_null_b_field.html#aa2214f320a17cf78b370622cf8f94f85", null ]
     ] ],
     [ "Acts::SolenoidBField", "class_acts_1_1_solenoid_b_field.html", [
       [ "Cache", "struct_acts_1_1_solenoid_b_field_1_1_cache.html", [

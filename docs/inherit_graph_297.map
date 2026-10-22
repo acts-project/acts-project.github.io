@@ -1,3 +1,25 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$class_acts_1_1_i_multi_axis_1_1iterator.html" title="Random&#45;access iterator over the contained axes." alt="" coords="5,5,184,31"/>
+<area shape="rect" id="Node000000" href="$class_acts_1_1_i_navigation_policy.html" title="Base class for all navigation policies." alt="" coords="5,333,177,358"/>
+<area shape="rect" id="Node000001" href="$class_acts_1_1_index_grid_navigation_policy.html" title=" " alt="" coords="225,5,484,45"/>
+<area shape="poly" id="edge124_Node000000_Node000001" title=" " alt="" coords="94,319,107,264,131,192,148,155,169,118,194,85,224,55,242,43,245,48,227,59,198,88,173,121,153,157,136,194,112,265,99,320"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_index_grid_navigation_policy.html" title=" " alt="" coords="238,69,471,109"/>
+<area shape="poly" id="edge125_Node000000_Node000002" title=" " alt="" coords="98,319,114,275,141,221,177,166,199,141,224,119,244,107,246,112,227,123,203,145,181,169,145,223,119,277,103,320"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_index_grid_navigation_policy.html" title=" " alt="" coords="239,133,471,173"/>
+<area shape="poly" id="edge126_Node000000_Node000003" title=" " alt="" coords="104,320,151,251,184,214,224,183,248,171,250,176,227,188,188,218,155,255,108,323"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_index_grid_navigation_policy.html" title=" " alt="" coords="235,197,475,237"/>
+<area shape="poly" id="edge127_Node000000_Node000004" title=" " alt="" coords="115,321,163,283,224,247,255,235,257,240,227,252,166,288,118,326"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_cylinder_navigation_policy.html" title="Optimized navigation policy for cylindrical volumes that intelligently selects which portals to add a..." alt="" coords="263,261,446,301"/>
+<area shape="poly" id="edge128_Node000000_Node000005" title=" " alt="" coords="157,327,271,299,272,304,159,332"/>
+<area shape="rect" id="Node000006" href="$class_acts_1_1_experimental_1_1_frustum_navigation_policy.html" title="A navigation policy that uses frustum&#45;octree intersections to find portals." alt="" coords="258,325,451,365"/>
+<area shape="poly" id="edge129_Node000000_Node000006" title=" " alt="" coords="191,343,258,343,258,348,191,348"/>
+<area shape="rect" id="Node000007" href="$class_acts_1_1_index_grid_navigation_policy.html" title="A navigation policy that uses grid based navigation for indexed surfaces Navigate through a multilaye..." alt="" coords="259,389,451,429"/>
+<area shape="poly" id="edge130_Node000000_Node000007" title=" " alt="" coords="159,359,272,387,271,392,157,364"/>
+<area shape="rect" id="Node000008" href="$class_acts_1_1_multi_layer_navigation_policy.html" title="A navigation policy that uses grid based navigation for indexed surfaces Navigate through a multilaye..." alt="" coords="255,453,454,493"/>
+<area shape="poly" id="edge131_Node000000_Node000008" title=" " alt="" coords="118,365,166,403,227,439,257,451,255,456,224,444,163,407,115,369"/>
+<area shape="rect" id="Node000009" href="$class_acts_1_1_multi_navigation_policy.html" title="Combined navigation policy that calls all contained other navigation policies." alt="" coords="254,518,455,543"/>
+<area shape="poly" id="edge132_Node000000_Node000009" title=" " alt="" coords="108,369,127,400,154,437,188,473,227,503,255,516,253,520,224,508,184,477,150,440,123,403,104,371"/>
+<area shape="rect" id="Node000010" href="$class_acts_1_1_surface_array_navigation_policy.html" title="A navigation policy that internally uses the Gen1 SurfaceArray class." alt="" coords="248,568,461,608"/>
+<area shape="poly" id="edge133_Node000000_Node000010" title=" " alt="" coords="104,370,121,410,147,460,183,510,204,533,227,552,250,566,247,570,224,557,200,537,179,514,143,463,116,412,99,372"/>
+<area shape="rect" id="Node000011" href="$class_acts_1_1_try_all_navigation_policy.html" title="Policy which adds all candidates of the configured type to the stream." alt="" coords="253,633,457,658"/>
+<area shape="poly" id="edge134_Node000000_Node000011" title=" " alt="" coords="100,371,113,424,137,491,154,527,174,560,198,591,227,618,254,632,251,637,224,622,195,595,170,563,149,529,132,493,108,425,95,372"/>
 </map>

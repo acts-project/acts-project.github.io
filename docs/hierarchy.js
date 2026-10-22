@@ -325,7 +325,6 @@ var hierarchy =
     [ "Acts::GenericCuboidVolumeBounds::BoundValues", "struct_acts_1_1_generic_cuboid_volume_bounds_1_1_bound_values.html", null ],
     [ "Acts::GenericRungeKuttaStepper", "class_acts_1_1_generic_runge_kutta_stepper.html", null ],
     [ "Acts::GenericRungeKuttaStepper::Config", "struct_acts_1_1_generic_runge_kutta_stepper_1_1_config.html", null ],
-    [ "Acts::GenericRungeKuttaStepper::FieldAndGradient", "struct_acts_1_1_generic_runge_kutta_stepper_1_1_field_and_gradient.html", null ],
     [ "Acts::GenericRungeKuttaStepper::State", "struct_acts_1_1_generic_runge_kutta_stepper_1_1_state.html", null ],
     [ "Acts::GeometryContextOstreamWrapper&lt; T &gt;", "struct_acts_1_1_geometry_context_ostream_wrapper.html", null ],
     [ "Acts::GeometryHierarchyMap&lt; value_t &gt;", "class_acts_1_1_geometry_hierarchy_map.html", null ],
@@ -600,6 +599,7 @@ var hierarchy =
       [ "Acts::ToroidField", "class_acts_1_1_toroid_field.html", null ],
       [ "ActsPlugins::DD4hepFieldAdapter", "class_acts_plugins_1_1_d_d4hep_field_adapter.html", null ]
     ] ],
+    [ "Acts::MagneticFieldProvider::FieldAndGradient", "struct_acts_1_1_magnetic_field_provider_1_1_field_and_gradient.html", null ],
     [ "Acts::Material", "class_acts_1_1_material.html", null ],
     [ "Acts::MaterialComposition", "class_acts_1_1_material_composition.html", null ],
     [ "Acts::MaterialInteraction", "struct_acts_1_1_material_interaction.html", null ],

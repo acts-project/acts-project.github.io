@@ -154,10 +154,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a8a37273f19756bf47cd31e247d9802d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the B field at a position.  <br /></td></tr>
 <tr class="memitem:a6c40bcfcb654b185349a73af1087a7d9" id="r_a6c40bcfcb654b185349a73af1087a7d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c40bcfcb654b185349a73af1087a7d9">getField</a> (const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, <a class="el" href="class_acts_1_1_magnetic_field_provider.html#a1f11a18dff2bb4106d1c1f76ff25e1d9">MagneticFieldProvider::Cache</a> &amp;cache) const override</td></tr>
 <tr class="memdesc:a6c40bcfcb654b185349a73af1087a7d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve magnetic field value at a given location.     <br /></td></tr>
+<tr class="memitem:af22f1e59c490835f784ba92f868477f4" id="r_af22f1e59c490835f784ba92f868477f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="struct_acts_1_1_magnetic_field_provider_1_1_field_and_gradient.html">FieldAndGradient</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af22f1e59c490835f784ba92f868477f4">getFieldAndGradient</a> (const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, <a class="el" href="class_acts_1_1_magnetic_field_provider.html#a1f11a18dff2bb4106d1c1f76ff25e1d9">MagneticFieldProvider::Cache</a> &amp;cache) const override</td></tr>
+<tr class="memdesc:af22f1e59c490835f784ba92f868477f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the magnetic field and its spatial gradient at a given location.     <br /></td></tr>
 <tr class="memitem:a36fd7a5218c33dcfd4211ec139940652" id="r_a36fd7a5218c33dcfd4211ec139940652"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36fd7a5218c33dcfd4211ec139940652">isInside</a> (const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;) const</td></tr>
 <tr class="memdesc:a36fd7a5218c33dcfd4211ec139940652"><td class="mdescLeft">&#160;</td><td class="mdescRight">check whether given 3D position is inside look-up domain  <br /></td></tr>
 <tr class="memitem:a7c6604e60da1f350da591fec5aa7d47a" id="r_a7c6604e60da1f350da591fec5aa7d47a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_magnetic_field_provider.html#a1f11a18dff2bb4106d1c1f76ff25e1d9">Acts::MagneticFieldProvider::Cache</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c6604e60da1f350da591fec5aa7d47a">makeCache</a> (const <a class="el" href="class_acts_1_1_magnetic_field_context.html">Acts::MagneticFieldContext</a> &amp;mctx) const override</td></tr>
 <tr class="memdesc:a7c6604e60da1f350da591fec5aa7d47a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make an opaque cache for the magnetic field.     <br /></td></tr>
+<tr class="memitem:a09a3c2b9be36f63ce96a8b68ded7bee3" id="r_a09a3c2b9be36f63ce96a8b68ded7bee3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09a3c2b9be36f63ce96a8b68ded7bee3">providesFieldGradient</a> () const override</td></tr>
+<tr class="memdesc:a09a3c2b9be36f63ce96a8b68ded7bee3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if <a class="el" href="#af22f1e59c490835f784ba92f868477f4">getFieldAndGradient</a> is implemented by this provider.     <br /></td></tr>
 <tr class="memitem:ace9504ef5776a78429928cdfde3f3bff" id="r_ace9504ef5776a78429928cdfde3f3bff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace9504ef5776a78429928cdfde3f3bff">setField</a> (const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;B)</td></tr>
 <tr class="memdesc:ace9504ef5776a78429928cdfde3f3bff"><td class="mdescLeft">&#160;</td><td class="mdescRight">update magnetic field vector  <br /></td></tr>
 </table><table class="memberdecls">
@@ -267,6 +271,48 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="af22f1e59c490835f784ba92f868477f4" name="af22f1e59c490835f784ba92f868477f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af22f1e59c490835f784ba92f868477f4">&#9670;&#160;</a></span>getFieldAndGradient()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="struct_acts_1_1_magnetic_field_provider_1_1_field_and_gradient.html">FieldAndGradient</a> &gt; Acts::ConstantBField::getFieldAndGradient </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_acts_1_1_magnetic_field_provider.html#a1f11a18dff2bb4106d1c1f76ff25e1d9">MagneticFieldProvider::Cache</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cache</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieve the magnetic field and its spatial gradient at a given location.    </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">position</td><td>global 3D position for the lookup </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">cache</td><td>Field provider specific cache object</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>field and gradient at the given position, or <a class="el" href="group__errors.html#gga62dad9323721a81699d3f7fdca7a9f91a997ca4ce119685f40f03a9a8a6c5346e">MagneticFieldError::NotImplemented</a> if <a class="el" href="#a09a3c2b9be36f63ce96a8b68ded7bee3">providesFieldGradient</a> is false   </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>The gradient of a constant field is zero. </dd></dl>
+
+<p>Reimplemented from <a class="el" href="class_acts_1_1_magnetic_field_provider.html#a473334bdce90e0babf3e8580350ab38d">Acts::MagneticFieldProvider</a>.</p>
+
+</div>
+</div>
 <a id="a36fd7a5218c33dcfd4211ec139940652" name="a36fd7a5218c33dcfd4211ec139940652"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a36fd7a5218c33dcfd4211ec139940652">&#9670;&#160;</a></span>isInside()</h2>
 
@@ -321,6 +367,37 @@ Additional Inherited Members</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>Cache The opaque cache object    </dd></dl>
 
 <p>Implements <a class="el" href="class_acts_1_1_magnetic_field_provider.html#abb7f95f21fb87e6cb2cbe723d98711b6">Acts::MagneticFieldProvider</a>.</p>
+
+</div>
+</div>
+<a id="a09a3c2b9be36f63ce96a8b68ded7bee3" name="a09a3c2b9be36f63ce96a8b68ded7bee3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09a3c2b9be36f63ce96a8b68ded7bee3">&#9670;&#160;</a></span>providesFieldGradient()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Acts::ConstantBField::providesFieldGradient </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if <a class="el" href="#af22f1e59c490835f784ba92f868477f4">getFieldAndGradient</a> is implemented by this provider.    </p>
+<p>If it is false, the caller has to compute the gradient in a different way, for example with finite differences of <a class="el" href="#a8a37273f19756bf47cd31e247d9802d6">getField</a>.</p>
+<dl class="section return"><dt>Returns</dt><dd>true if the provider implements the field gradient    </dd></dl>
+
+<p>Reimplemented from <a class="el" href="class_acts_1_1_magnetic_field_provider.html#af82788015e1c741b7afbf507a4713aab">Acts::MagneticFieldProvider</a>.</p>
 
 </div>
 </div>

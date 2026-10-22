@@ -14,7 +14,7 @@ var searchData=
   ['globalvetos_11',['globalVetos',['../struct_acts_1_1_material_interaction_assignment_1_1_options.html#ae4b5573a2762357f7dfc12e2a1d061a8',1,'Acts::MaterialInteractionAssignment::Options']]],
   ['gpublocks_12',['gpuBlocks',['../struct_acts_plugins_1_1_module_map_cuda_1_1_config.html#adaed7137aae438d4a741c09546daf24f',1,'ActsPlugins::ModuleMapCuda::Config']]],
   ['gpudevice_13',['gpuDevice',['../struct_acts_plugins_1_1_module_map_cuda_1_1_config.html#ae104a63b0b7b0bdba872050acb286bcb',1,'ActsPlugins::ModuleMapCuda::Config']]],
-  ['gradient_14',['gradient',['../struct_acts_1_1_generic_runge_kutta_stepper_1_1_field_and_gradient.html#a12b165b0e12060cb70d7c98eca08e472',1,'Acts::GenericRungeKuttaStepper::FieldAndGradient']]],
+  ['gradient_14',['gradient',['../struct_acts_1_1_magnetic_field_provider_1_1_field_and_gradient.html#a88c605f6946091b882cc77c0f9aee954',1,'Acts::MagneticFieldProvider::FieldAndGradient']]],
   ['gradientstep_15',['gradientStep',['../struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#acec2b31e3d3b02eed662de924875720b',1,'Acts::Experimental::CompositeSpacePointLineFitter::Config']]],
   ['graphbuildingtime_16',['graphBuildingTime',['../struct_acts_plugins_1_1_gnn_timing.html#a21d7f699b42493f04aadb08f02af17a2',1,'ActsPlugins::GnnTiming']]],
   ['grid_17',['grid',['../class_acts_1_1_index_grid.html#ac133f4132a37b296b4dd306b8de731e3',1,'Acts::IndexGrid::grid'],['../struct_acts_1_1_interpolated_b_field_map_1_1_config.html#ad8d51e0f43b664bd4c959ecac45b7841',1,'Acts::InterpolatedBFieldMap::Config::grid']]],

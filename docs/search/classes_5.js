@@ -1,7 +1,7 @@
 var searchData=
 [
   ['failedparticle_0',['FailedParticle',['../struct_acts_fatras_1_1_failed_particle.html',1,'ActsFatras']]],
-  ['fieldandgradient_1',['FieldAndGradient',['../struct_acts_1_1_generic_runge_kutta_stepper_1_1_field_and_gradient.html',1,'Acts::GenericRungeKuttaStepper']]],
+  ['fieldandgradient_1',['FieldAndGradient',['../struct_acts_1_1_magnetic_field_provider_1_1_field_and_gradient.html',1,'Acts::MagneticFieldProvider']]],
   ['fieldcell_2',['FieldCell',['../struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html',1,'Acts::InterpolatedBFieldMap']]],
   ['filter_3',['filter',['../struct_acts_1_1_types_1_1filter.html',1,'Acts::Types']]],
   ['filter_3c_20pred_20_3e_4',['filter&lt; Pred &gt;',['../struct_acts_1_1_types_1_1filter_3_01_pred_01_4.html',1,'Acts::Types']]],

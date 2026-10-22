@@ -157,7 +157,7 @@ Public Attributes</h2></td></tr>
 <a class="el" href="class_acts_1_1_generic_runge_kutta_stepper.html#aace8406e45bb1182518bec766dd563ba">ErrorEstimation</a>&#160;</td><td class="memItemRight" valign="bottom"><b>errorEstimation</b> = <a class="el" href="class_acts_1_1_generic_runge_kutta_stepper.html#aace8406e45bb1182518bec766dd563baa069e7821d3b4c0bbf437147263eb4d0e">ErrorEstimation::Embedded</a></td></tr>
 <tr class="memdesc:a952555b504ff7742607b8ae4a0eaa29e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error estimate for the adaptive step size. <br /></td></tr>
 <tr class="memitem:a6c9394f67e911a7a9c2bb42b60c310c6" id="r_a6c9394f67e911a7a9c2bb42b60c310c6"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c9394f67e911a7a9c2bb42b60c310c6">fieldGradientEpsilon</a> = 10 * <a class="el" href="namespace_acts_1_1_unit_constants.html#a4c14b1784de166f9efc43c1e16c35478">UnitConstants::um</a></td></tr>
-<tr class="memdesc:a6c9394f67e911a7a9c2bb42b60c310c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Distance of the field lookups for the finite-difference gradient.  <br /></td></tr>
+<tr class="memdesc:a6c9394f67e911a7a9c2bb42b60c310c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Distance of the field lookups for the finite-difference gradient, if the field provider does not implement the gradient.  <br /></td></tr>
 <tr class="memitem:aacfa3df1f06431f6193223b1b2be3d79" id="r_aacfa3df1f06431f6193223b1b2be3d79"><td class="memItemLeft" align="right" valign="top"><a id="aacfa3df1f06431f6193223b1b2be3d79" name="aacfa3df1f06431f6193223b1b2be3d79"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>includeFieldGradient</b> = true</td></tr>
 <tr class="memdesc:aacfa3df1f06431f6193223b1b2be3d79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Include the field gradient in the transport jacobian. <br /></td></tr>
@@ -261,7 +261,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>stepTolerance</b> =
       </table>
 </div><div class="memdoc">
 
-<p>Distance of the field lookups for the finite-difference gradient. </p>
+<p>Distance of the field lookups for the finite-difference gradient, if the field provider does not implement the gradient. </p>
 <p>The truncation error of the central difference is of order epsilon^2. The round-off error is of order eps_machine |B| / epsilon, which is about 1e-14 |B| per mm for 10 um. This is far below the gradient of a real field. 10 um is also small compared with a field-map cell, so the lookups usually stay in one cell. </p>
 
 </div>

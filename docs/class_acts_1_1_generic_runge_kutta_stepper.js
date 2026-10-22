@@ -1,11 +1,11 @@
 var class_acts_1_1_generic_runge_kutta_stepper =
 [
     [ "Config", "struct_acts_1_1_generic_runge_kutta_stepper_1_1_config.html", "struct_acts_1_1_generic_runge_kutta_stepper_1_1_config" ],
-    [ "FieldAndGradient", "struct_acts_1_1_generic_runge_kutta_stepper_1_1_field_and_gradient.html", "struct_acts_1_1_generic_runge_kutta_stepper_1_1_field_and_gradient" ],
     [ "Options", "struct_acts_1_1_generic_runge_kutta_stepper_1_1_options.html", "struct_acts_1_1_generic_runge_kutta_stepper_1_1_options" ],
     [ "State", "struct_acts_1_1_generic_runge_kutta_stepper_1_1_state.html", "struct_acts_1_1_generic_runge_kutta_stepper_1_1_state" ],
     [ "BoundParameters", "class_acts_1_1_generic_runge_kutta_stepper.html#a6a9f81e6dcdb60fad394a7ad92dde27e", null ],
     [ "Covariance", "class_acts_1_1_generic_runge_kutta_stepper.html#a18b0d1145605b0d015e74d71f195c3c7", null ],
+    [ "FieldAndGradient", "class_acts_1_1_generic_runge_kutta_stepper.html#a293274ea06ada6cfa4653e11cf9f8836", null ],
     [ "Jacobian", "class_acts_1_1_generic_runge_kutta_stepper.html#a4f47be76d7b96048b91ef281ac608515", null ],
     [ "ErrorEstimation", "class_acts_1_1_generic_runge_kutta_stepper.html#aace8406e45bb1182518bec766dd563ba", [
       [ "None", "class_acts_1_1_generic_runge_kutta_stepper.html#aace8406e45bb1182518bec766dd563baa6adf97f83acf6453d4a6a4b1070f3754", null ],
