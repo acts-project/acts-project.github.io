@@ -1,0 +1,5 @@
+<map id="Acts::Delegate&lt; R(Args...), H, O &gt;" name="Acts::Delegate&lt; R(Args...), H, O &gt;">
+<area shape="rect" id="Node000001" title="Delegate type that allows type erasure of a callable without allocation and with a single level of in..." alt="" coords="11,116,203,156"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="5,5,208,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,59,109,116,104,116,104,59"/>
+</map>

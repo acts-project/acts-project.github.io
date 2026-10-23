@@ -1,0 +1,7 @@
+<map id="Acts::HoughTransformUtils::PeakFinders::IslandsAroundMax&lt; identifier_t &gt;::Maximum" name="Acts::HoughTransformUtils::PeakFinders::IslandsAroundMax&lt; identifier_t &gt;::Maximum">
+<area shape="rect" id="Node000001" title="data struct representing a local maximum." alt="" coords="5,212,243,267"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="53,101,195,141"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,156,127,212,121,212,121,156"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="33,5,215,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="127,45,127,101,121,101,121,45"/>
+</map>

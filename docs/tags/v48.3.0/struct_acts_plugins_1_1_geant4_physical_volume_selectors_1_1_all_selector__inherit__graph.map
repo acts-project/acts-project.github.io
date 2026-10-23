@@ -1,0 +1,5 @@
+<map id="ActsPlugins::Geant4PhysicalVolumeSelectors::AllSelector" name="ActsPlugins::Geant4PhysicalVolumeSelectors::AllSelector">
+<area shape="rect" id="Node000001" title="Struct that selects all G4VPhysicalVolume objects." alt="" coords="6,93,215,133"/>
+<area shape="rect" id="Node000002" href="$class_acts_plugins_1_1_i_geant4_physical_volume_selector.html" title="Interface class for selectors from physical volumes." alt="" coords="5,5,216,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,59,113,93,108,93,108,59"/>
+</map>

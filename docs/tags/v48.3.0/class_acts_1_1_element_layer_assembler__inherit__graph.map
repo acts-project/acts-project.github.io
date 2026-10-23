@@ -1,0 +1,9 @@
+<map id="Acts::ElementLayerAssembler&lt; BackendT &gt;" name="Acts::ElementLayerAssembler&lt; BackendT &gt;">
+<area shape="rect" id="Node000001" title="Fluent builder that assembles a flat collection of cylindrical or disc&#45;like detector layers from laye..." alt="" coords="5,69,223,109"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_element_layer_assembler.html" title=" " alt="" coords="519,5,736,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="215,64,246,59,388,41,518,30,519,35,389,46,247,64,216,69"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_element_layer_assembler.html" title=" " alt="" coords="519,69,736,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="237,87,518,87,518,92,237,92"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_element_layer_assembler.html" title=" " alt="" coords="504,133,751,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="216,109,247,115,380,131,504,143,504,148,379,137,246,120,215,115"/>
+</map>

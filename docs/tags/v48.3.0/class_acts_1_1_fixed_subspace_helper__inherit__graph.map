@@ -1,0 +1,9 @@
+<map id="Acts::FixedSubspaceHelper&lt; FullSize, SubspaceSize, index_t &gt;" name="Acts::FixedSubspaceHelper&lt; FullSize, SubspaceSize, index_t &gt;">
+<area shape="rect" id="Node000001" title="Helper class for fixed subspace operations." alt="" coords="701,41,899,95"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="1092,41,1343,95"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="913,65,1092,65,1092,71,913,71"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="444,33,652,103"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="666,65,701,65,701,71,666,71"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,48,213,88"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="227,65,444,65,444,71,227,71"/>
+</map>

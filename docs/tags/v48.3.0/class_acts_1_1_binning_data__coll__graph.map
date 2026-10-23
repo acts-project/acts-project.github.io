@@ -1,0 +1,7 @@
+<map id="Acts::BinningData" name="Acts::BinningData">
+<area shape="rect" id="Node000001" title="This class holds all the data necessary for the bin calculation." alt="" coords="21,212,159,237"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,101,175,141"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,155,93,212,87,212,87,155"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="11,5,169,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="93,45,93,101,87,101,87,45"/>
+</map>

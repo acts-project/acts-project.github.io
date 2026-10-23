@@ -1,0 +1,9 @@
+<map id="Acts::OwningDelegate&lt; R(Args...), H &gt;" name="Acts::OwningDelegate&lt; R(Args...), H &gt;">
+<area shape="rect" id="Node000001" title="Alias for an owning delegate." alt="" coords="800,71,967,111"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="425,28,635,68"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="649,59,776,75,800,78,800,83,776,80,648,65"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="5,28,208,68"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="222,45,425,45,425,51,222,51"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_owning_delegate.html" title=" " alt="" coords="447,92,613,132"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="627,105,776,97,800,96,800,101,776,103,627,111"/>
+</map>
