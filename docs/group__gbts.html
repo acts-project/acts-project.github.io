@@ -135,8 +135,8 @@ Why a graph?</h2>
 <ol type="1">
 <li><a class="el" href="#gbts-nodes">Graph nodes</a> — sort the space points into eta/phi-ordered graph nodes.</li>
 <li><a class="el" href="#gbts-graph">Building the graph</a> — create edges between compatible node pairs and link compatible edges to each other.</li>
-<li><a class="el" href="#gbts-cca">Connected component analysis</a> — propagate a "level" through the edge graph to find the longest chains.</li>
-<li><a class="el" href="#gbts-extraction">Seed extraction</a> — follow the best chains through a Kalman-like filter and emit seeds.</li>
+<li><a class="el" href="#gbts-levels">Chain levels</a> — give every edge a "level", the length of the longest chain of linked edges going outwards from it.</li>
+<li><a class="el" href="#gbts-extraction">Seed extraction</a> — follow the best fitted path from every edge through a Kalman-like filter and emit seeds.</li>
 </ol>
 <h2 class="doxsection"><a class="anchor" id="gbts-geometry"></a>
 Geometry and layer connections</h2>
@@ -221,18 +221,10 @@ Building the graph</h2>
 <div class="line"></div>
 <div class="line">  GbtsEdge(SpacePointIndex n1_, SpacePointIndex n2_,</div>
 <div class="line">           std::int32_t n2BarrelOrder_, <span class="keywordtype">float</span> p1_, <span class="keywordtype">float</span> p2_, <span class="keywordtype">float</span> p3_)</div>
-<div class="line">      : n1{n1_},</div>
-<div class="line">        n2{n2_},</div>
-<div class="line">        level{1},</div>
-<div class="line">        next{1},</div>
-<div class="line">        p{p1_, p2_, p3_},</div>
-<div class="line">        n2BarrelOrder{n2BarrelOrder_} {}</div>
+<div class="line">      : n1{n1_}, n2{n2_}, p{p1_, p2_, p3_}, n2BarrelOrder{n2BarrelOrder_} {}</div>
 <div class="line"></div>
 <div class="line">  <a class="code hl_typedef" href="namespace_acts.html#a22317e6b568d121dd169e79bec0bff8c">SpacePointIndex</a> n1{kSpacePointIndexInvalid};</div>
 <div class="line">  <a class="code hl_typedef" href="namespace_acts.html#a22317e6b568d121dd169e79bec0bff8c">SpacePointIndex</a> n2{kSpacePointIndexInvalid};</div>
-<div class="line"> </div>
-<div class="line">  std::int8_t level{-1};</div>
-<div class="line">  std::int8_t next{-1};</div>
 <div class="line"> </div>
 <div class="line">  std::uint8_t nNei{0};</div>
 <div class="line"> </div>
@@ -250,15 +242,15 @@ r_1\}\).</p>
 <li><span class="tt">matchBeforeCreate</span> (off by default, limited by <span class="tt">matchBeforeCreateMaxBarrelOrder</span>) demands the \(\tau\) half of the triplet test <em>before</em> the edge exists: \(n_2\) must already carry an incoming edge whose \(\tau\) agrees with the candidate's within <span class="tt">tauRatioPrecut</span>. A node with two or fewer incoming edges passes unconditionally, there being too little evidence to reject it.</li>
 <li>Every inner node accumulates a 16-bit \(z_0\) <b>histogram bitmask</b> of its confirmed edges. On the layers down to <span class="tt">z0HistogramMaxBarrelOrder</span> that mask rejects candidates whose \(z_0\) falls in an empty bin, and nodes with no connections at all are skipped outright.</li>
 </ul>
-<h2 class="doxsection"><a class="anchor" id="gbts-cca"></a>
-Connected component analysis</h2>
-<p>With the edge graph built, a cellular automaton assigns each edge a <b>level</b>: the length of the longest chain of linked edges ending at it. All edges start at level 1; in each iteration an edge whose level equals that of one of its neighbours proposes an increment, and the proposals are committed at the end of the iteration. The sweep repeats until nothing changes, or for at most 15 iterations.</p>
-<p>The level is the chain-length signal that drives extraction: an edge at level \(L\) is the head of a chain spanning \(L+1\) space points.</p>
+<h2 class="doxsection"><a class="anchor" id="gbts-levels"></a>
+Chain levels</h2>
+<p>With the edge graph built, every edge gets a <b>level</b>: the length of the longest chain of linked edges going outwards from it, so an edge that nothing further out links to is at level 1. An edge only links to edges further in, which are always created after it, so a single pass over the edges in creation order settles every level. Chains longer than <span class="tt">maxChainLength</span> edges are left unsettled and take no part in the extraction.</p>
+<p>An edge with no settled edge further in exactly one level up is a <b>root</b>, the innermost edge of a chain. An edge further in that is more than one level up belongs to a longer chain outwards elsewhere and does not continue the chain.</p>
 <h2 class="doxsection"><a class="anchor" id="gbts-extraction"></a>
 Seed extraction</h2>
-<p>Edges whose level clears the minimum chain length become <b>chain heads</b>, sorted by level so the longest chains are collected first. Each head is then followed back through the graph by <a class="el" href="class_acts_1_1_experimental_1_1_gbts_tracking_filter.html">Acts::Experimental::GbtsTrackingFilter</a>.</p>
+<p>Every edge yields at most one seed candidate: the best fitted path from it inwards to a root, each step going to an edge one level up, i.e. along the longest chain outwards of that root. The paths are found by a depth first search from every edge, fitted on the way by <a class="el" href="class_acts_1_1_experimental_1_1_gbts_tracking_filter.html">Acts::Experimental::GbtsTrackingFilter</a>, and edges and branches that cannot reach a root far enough in are skipped. Nothing depends on the order the edges are visited in. This is the seed extraction of the traccc GPU GBTS.</p>
 <p>The filter is a small Kalman filter over the chain. It carries a state of two independent parts — a quadratic in the bending plane and a linear \(z\) versus \(r\) model — and at each step extrapolates to the next node, forms a \(\chi^2\) residual for each part and rejects the branch if either exceeds its threshold (<span class="tt">maxDChi2X</span>, <span class="tt">maxDChi2Y</span>).</p>
-<p>Every accepted hit adds a fixed reward <span class="tt">addHit</span> to the branch score, minus its two \(\chi^2\) increments weighted by <span class="tt">weightX</span> and <span class="tt">weightY</span>. The score therefore counts the hits on the chain, discounted by how badly they fit the circle and the \(z\) versus \(r\) line. Where an edge has several neighbours the filter <em>branches</em>, recursing into each; the branch with the best accumulated score wins.</p>
+<p>Every accepted hit adds a fixed reward <span class="tt">addHit</span> to the branch score, minus its two \(\chi^2\) increments weighted by <span class="tt">weightX</span> and <span class="tt">weightY</span>. The score therefore counts the hits on the chain, discounted by how badly they fit the circle and the \(z\) versus \(r\) line. Of the complete paths from an edge, the one with the best score per space point wins, and a path that fails the filter is dropped.</p>
 <p>The result is a set of seed candidates. These are reduced in two passes:</p>
 <ul>
 <li><b>Clone removal.</b> Candidates are ranked by quality, and each space point is assigned to the best candidate claiming it. A candidate that has lost more than <span class="tt">hitShareThreshold</span> of its hits to better candidates is dropped.</li>
@@ -302,7 +294,7 @@ Configuration</h2>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><span class="tt">nMaxPhiSlice</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-nodes">Graph nodes</a>  </td><td class="markdownTableBodyNone">sets the \(\phi\) slice width, and with it the base sliding-window width the graph uses  </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><span class="tt">ccaMaxIterations</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-graph">Building the graph</a>  </td><td class="markdownTableBodyNone">cap on the connected component iterations  </td></tr>
+<td class="markdownTableBodyNone"><span class="tt">maxChainLength</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-levels">Chain levels</a>  </td><td class="markdownTableBodyNone">longest chain of edges taken into account  </td></tr>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><span class="tt">minSeedLevel</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-extraction">Seed extraction</a>  </td><td class="markdownTableBodyNone">chain length a candidate must reach  </td></tr>
 <tr class="markdownTableRowEven">

@@ -145,18 +145,14 @@ Collaboration diagram for Acts::Experimental::GraphBasedTrackSeeder::Config:</di
 Public Attributes</h2></td></tr>
 <tr class="memitem:a0d6e4c5a2cf343f7f59c8425bd6c66ea" id="r_a0d6e4c5a2cf343f7f59c8425bd6c66ea"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d6e4c5a2cf343f7f59c8425bd6c66ea">addTriplets</a> = false</td></tr>
 <tr class="memdesc:a0d6e4c5a2cf343f7f59c8425bd6c66ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">optionally add 3 sp seeds within a certain eta range  <br /></td></tr>
-<tr class="memitem:a7220281ab16eded1b603a3cba47a30cc" id="r_a7220281ab16eded1b603a3cba47a30cc"><td class="memItemLeft" align="right" valign="top"><a id="a7220281ab16eded1b603a3cba47a30cc" name="a7220281ab16eded1b603a3cba47a30cc"></a>
-std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>ccaMaxIterations</b> = 15</td></tr>
-<tr class="memdesc:a7220281ab16eded1b603a3cba47a30cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of connected-component iterations. <br /></td></tr>
-<tr class="memitem:a60fa0cf3c1557f05c58b484649db8b1b" id="r_a60fa0cf3c1557f05c58b484649db8b1b"><td class="memItemLeft" align="right" valign="top"><a id="a60fa0cf3c1557f05c58b484649db8b1b" name="a60fa0cf3c1557f05c58b484649db8b1b"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>edgeMaskMinEta</b> = 1.5</td></tr>
-<tr class="memdesc:a60fa0cf3c1557f05c58b484649db8b1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum eta for edge masking. <br /></td></tr>
 <tr class="memitem:a3652caf4ad71c3e9453573f527cdad8a" id="r_a3652caf4ad71c3e9453573f527cdad8a"><td class="memItemLeft" align="right" valign="top"><a id="a3652caf4ad71c3e9453573f527cdad8a" name="a3652caf4ad71c3e9453573f527cdad8a"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>hitShareThreshold</b> = 0.49</td></tr>
 <tr class="memdesc:a3652caf4ad71c3e9453573f527cdad8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Threshold for hit sharing between seeds. <br /></td></tr>
 <tr class="memitem:aeeefc7a8a677adeab86833c23fe8c08a" id="r_aeeefc7a8a677adeab86833c23fe8c08a"><td class="memItemLeft" align="right" valign="top"><a id="aeeefc7a8a677adeab86833c23fe8c08a" name="aeeefc7a8a677adeab86833c23fe8c08a"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>maxAbsEtaAddTriplets</b> = 1.5</td></tr>
 <tr class="memdesc:aeeefc7a8a677adeab86833c23fe8c08a"><td class="mdescLeft">&#160;</td><td class="mdescRight">the maximum allowed eta value in which three spacepoint seeds are passed through <br /></td></tr>
+<tr class="memitem:a37d5646dcf1d408f1093a966685752ac" id="r_a37d5646dcf1d408f1093a966685752ac"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37d5646dcf1d408f1093a966685752ac">maxChainLength</a> = 15</td></tr>
+<tr class="memdesc:a37d5646dcf1d408f1093a966685752ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Longest chain of edges taken into account.  <br /></td></tr>
 <tr class="memitem:a0395f4366d9e1ff096b14a04e0d6a61c" id="r_a0395f4366d9e1ff096b14a04e0d6a61c"><td class="memItemLeft" align="right" valign="top"><a id="a0395f4366d9e1ff096b14a04e0d6a61c" name="a0395f4366d9e1ff096b14a04e0d6a61c"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>maxEndcapClusterWidth</b> = 0.35f * <a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">Acts::UnitConstants::mm</a></td></tr>
 <tr class="memdesc:a0395f4366d9e1ff096b14a04e0d6a61c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum endcap cluster width. <br /></td></tr>
@@ -216,7 +212,24 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>useClusterWidthCuts</
 </div><div class="memdoc">
 
 <p>optionally add 3 sp seeds within a certain eta range </p>
-<dl class="section note"><dt>Note</dt><dd>Worth little until <span class="tt">maxAbsEtaAddTriplets</span> is opened past <span class="tt">edgeMaskMinEta</span>; matters most where there are few layers. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Matters most where there are few layers. </dd></dl>
+
+</div>
+</div>
+<a id="a37d5646dcf1d408f1093a966685752ac" name="a37d5646dcf1d408f1093a966685752ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37d5646dcf1d408f1093a966685752ac">&#9670;&#160;</a></span>maxChainLength</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::uint32_t Acts::Experimental::GraphBasedTrackSeeder::Config::maxChainLength = 15</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Longest chain of edges taken into account. </p>
+<p>Edges in longer chains take no part in the seed extraction. </p>
 
 </div>
 </div>

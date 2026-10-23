@@ -1,11 +1,5 @@
 var NAVTREEINDEX67 =
 {
-"struct_acts_1_1_toroid_field_1_1_layout_config.html#a7e0b3219ddd8aefbc83f39da12011b30":[8,0,0,416,4,0],
-"struct_acts_1_1_toroid_field_1_1_layout_config.html#a8f14327edf12ffa8861339c7479cae41":[6,0,0,411,4,6],
-"struct_acts_1_1_toroid_field_1_1_layout_config.html#a8f14327edf12ffa8861339c7479cae41":[8,0,0,416,4,6],
-"struct_acts_1_1_toroid_field_1_1_layout_config.html#adf1c020bbfba479ca2085cae58ccfa6a":[6,0,0,411,4,3],
-"struct_acts_1_1_toroid_field_1_1_layout_config.html#adf1c020bbfba479ca2085cae58ccfa6a":[8,0,0,416,4,3],
-"struct_acts_1_1_toroid_field_1_1_layout_config.html#af57be56eff650e4f6521dcdcb7cc30ca":[6,0,0,411,4,4],
 "struct_acts_1_1_toroid_field_1_1_layout_config.html#af57be56eff650e4f6521dcdcb7cc30ca":[8,0,0,416,4,4],
 "struct_acts_1_1_toroid_field_1_1_layout_config.html#affe38871a1c221a7392a6ca3754bd689":[6,0,0,411,4,5],
 "struct_acts_1_1_toroid_field_1_1_layout_config.html#affe38871a1c221a7392a6ca3754bd689":[8,0,0,416,4,5],
@@ -249,5 +243,11 @@ var NAVTREEINDEX67 =
 "struct_acts_1_1_tracking_geometry_material_json_converter_1_1_config.html#a276c23b935e29395c5114fe2caf4a7a7":[8,0,0,424,0,1],
 "struct_acts_1_1_tracking_geometry_material_json_converter_1_1_config.html#a987c9b6370fed4c277521752b5ce1675":[6,0,0,419,0,2],
 "struct_acts_1_1_tracking_geometry_material_json_converter_1_1_config.html#a987c9b6370fed4c277521752b5ce1675":[8,0,0,424,0,2],
-"struct_acts_1_1_tracking_geometry_material_json_converter_1_1_options.html":[6,0,0,419,3]
+"struct_acts_1_1_tracking_geometry_material_json_converter_1_1_options.html":[6,0,0,419,3],
+"struct_acts_1_1_tracking_geometry_material_json_converter_1_1_options.html":[8,0,0,424,3],
+"struct_acts_1_1_tracking_geometry_material_json_converter_1_1_options.html#a107bd935879c217b95ff46dfe791da15":[6,0,0,419,3,2],
+"struct_acts_1_1_tracking_geometry_material_json_converter_1_1_options.html#a107bd935879c217b95ff46dfe791da15":[8,0,0,424,3,2],
+"struct_acts_1_1_tracking_geometry_material_json_converter_1_1_options.html#a143340aadd79d15ca4c8607eaf2f8f0a":[6,0,0,419,3,1],
+"struct_acts_1_1_tracking_geometry_material_json_converter_1_1_options.html#a143340aadd79d15ca4c8607eaf2f8f0a":[8,0,0,424,3,1],
+"struct_acts_1_1_tracking_geometry_material_json_converter_1_1_options.html#a3b494a3ad31a578fecf9842fc813651d":[6,0,0,419,3,0]
 };

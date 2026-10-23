@@ -146,7 +146,7 @@ Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Builds the doublet graph of the GBTS workflow. </p>
-<p>Turns a finalized <span class="tt">GbtsNodeStorage</span> into a graph whose edges are doublets and whose links are the doublet pairs that a triplet cut accepted. <span class="tt">GraphBasedTrackSeeder</span> grows chain levels over those links with <span class="tt">GbtsGraph::runCCA</span> and walks the result to produce seeds.</p>
+<p>Turns a finalized <span class="tt">GbtsNodeStorage</span> into a graph whose edges are doublets and whose links are the doublet pairs that a triplet cut accepted. <span class="tt">GraphBasedTrackSeeder</span> follows the best fitted path along those links from every edge to produce seeds.</p>
 <p>The phi binning is the node storage's, so the sliding windows and the indexing they slide over cannot disagree. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a92d51ea74ee97150df513343b17921dd" name="a92d51ea74ee97150df513343b17921dd"></a>

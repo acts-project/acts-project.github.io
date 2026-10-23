@@ -1,16 +1,11 @@
 var searchData=
 [
-  ['of_20gaussians_0',['Why a mixture of Gaussians?',['../group__gsf.html#autotoc_md38',1,'']]],
-  ['of_20motion_1',['The equations of motion',['../group__sympy__codegen.html#autotoc_md75',1,'']]],
-  ['on_20a_20surface_2',['The algorithm on a surface',['../group__gsf.html#gsf-algorithm',1,'']]],
-  ['on_20cvmfs_3',['With a LCG release on CVMFS',['../building_acts.html#autotoc_md93',1,'']]],
-  ['on_20your_20local_20machine_4',['On your local machine',['../building_acts.html#autotoc_md95',1,'']]],
-  ['opendatadetector_5',['The OpenDataDetector',['../building_acts.html#autotoc_md97',1,'']]],
-  ['optional_6',['Install Go pprof (Optional)',['../howto_profiling.html#autotoc_md107',1,'']]],
-  ['optional_20quantization_7',['Optional quantization',['../material_map_json_schema.html#autotoc_md160',1,'']]],
-  ['options_8',['Build options',['../building_acts.html#build-options',1,'']]],
-  ['other_20systems_9',['Other Systems',['../howto_profiling.html#autotoc_md105',1,'']]],
-  ['output_10',['output',['../group__python__data__io.html#autotoc_md59',1,'Event data input and output'],['../group__gsf.html#gsf-passes',1,'Forward/backward passes and output']]],
-  ['output_20streams_11',['Custom Output Streams',['../group__logging.html#autotoc_md47',1,'']]],
-  ['overview_12',['Overview',['../group__geometry__module__loading.html#autotoc_md1',1,'Overview'],['../group__surface__array.html#autotoc_md12',1,'Overview'],['../group__errors.html#autotoc_md21',1,'std::error_code Overview']]]
+  ['naming_0',['Naming',['../group__sympy__codegen.html#sympy_codegen_naming',1,'']]],
+  ['neighbor_20cache_1',['The neighbor cache',['../group__surface__array.html#autotoc_md19',1,'']]],
+  ['neighbor_20window_2',['The neighbor window',['../group__surface__array.html#autotoc_md18',1,'']]],
+  ['no_20extra_20context_3',['Plain module (no extra context)',['../group__geometry__module__loading.html#autotoc_md5',1,'']]],
+  ['nodes_4',['Graph nodes',['../group__gbts.html#gbts-nodes',1,'']]],
+  ['not_20finding_20factories_5',['DD4hep not finding factories',['../howto_spack.html#autotoc_md126',1,'']]],
+  ['numerical_20integration_6',['Numerical integration',['../tracking.html#numerical-integration',1,'']]],
+  ['nutshell_7',['Tracking in a nutshell',['../tracking.html',1,'']]]
 ];

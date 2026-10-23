@@ -1,10 +1,9 @@
 var struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config =
 [
     [ "addTriplets", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a0d6e4c5a2cf343f7f59c8425bd6c66ea", null ],
-    [ "ccaMaxIterations", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a7220281ab16eded1b603a3cba47a30cc", null ],
-    [ "edgeMaskMinEta", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a60fa0cf3c1557f05c58b484649db8b1b", null ],
     [ "hitShareThreshold", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a3652caf4ad71c3e9453573f527cdad8a", null ],
     [ "maxAbsEtaAddTriplets", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#aeeefc7a8a677adeab86833c23fe8c08a", null ],
+    [ "maxChainLength", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a37d5646dcf1d408f1093a966685752ac", null ],
     [ "maxEndcapClusterWidth", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a0395f4366d9e1ff096b14a04e0d6a61c", null ],
     [ "maxInvRadDiff", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a7bf238a29bc8d60e5a944b4df139d192", null ],
     [ "maxSeedSplitEta", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a3fdfc3893cea464d5d0a1c286975312d", null ],

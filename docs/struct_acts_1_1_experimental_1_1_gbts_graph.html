@@ -136,13 +136,6 @@ Collaboration diagram for Acts::Experimental::GbtsGraph:</div>
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="struct_acts_1_1_experimental_1_1_gbts_graph__coll__graph.svg" width="230" height="258"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a7733393c3cff4bdfb9a110308406d36b" id="r_a7733393c3cff4bdfb9a110308406d36b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; detail::GbtsEdge * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7733393c3cff4bdfb9a110308406d36b">extractChainHeads</a> (std::uint8_t minSeedLevel, bool addTriplets, float maxAbsEtaAddTriplets)</td></tr>
-<tr class="memdesc:a7733393c3cff4bdfb9a110308406d36b"><td class="mdescLeft">&#160;</td><td class="mdescRight">extract edges that start a chain  <br /></td></tr>
-<tr class="memitem:a61369ac6443265b9a0604049bf898c70" id="r_a61369ac6443265b9a0604049bf898c70"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61369ac6443265b9a0604049bf898c70">runCCA</a> (std::uint32_t maxIterations)</td></tr>
-<tr class="memdesc:a61369ac6443265b9a0604049bf898c70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run connected component analysis on the graph, updating the edge levels.  <br /></td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a24295c8d140de911f2db7c4acb4f2143" id="r_a24295c8d140de911f2db7c4acb4f2143"><td class="memItemLeft" align="right" valign="top"><a id="a24295c8d140de911f2db7c4acb4f2143" name="a24295c8d140de911f2db7c4acb4f2143"></a>
@@ -154,71 +147,7 @@ std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>nConnections
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The doublet graph of the GBTS workflow, as built by <span class="tt">GbtsGraphBuilder</span>. </p>
-</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a7733393c3cff4bdfb9a110308406d36b" name="a7733393c3cff4bdfb9a110308406d36b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7733393c3cff4bdfb9a110308406d36b">&#9670;&#160;</a></span>extractChainHeads()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt; detail::GbtsEdge * &gt; Acts::Experimental::GbtsGraph::extractChainHeads </td>
-          <td>(</td>
-          <td class="paramtype">std::uint8_t</td>          <td class="paramname"><span class="paramname"><em>minSeedLevel</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>addTriplets</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>maxAbsEtaAddTriplets</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>extract edges that start a chain </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">minSeedLevel</td><td>Chain length a seed candidate must reach </td></tr>
-    <tr><td class="paramname">addTriplets</td><td>Accept chains one level short within <span class="tt">maxAbsEtaAddTriplets</span> </td></tr>
-    <tr><td class="paramname">maxAbsEtaAddTriplets</td><td>The maximum |eta| at which <span class="tt">addTriplets</span> applies </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The edges that start chains, ordered by length of chain, empty if no chain reached the required level </dd></dl>
-
-</div>
-</div>
-<a id="a61369ac6443265b9a0604049bf898c70" name="a61369ac6443265b9a0604049bf898c70"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a61369ac6443265b9a0604049bf898c70">&#9670;&#160;</a></span>runCCA()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::uint32_t Acts::Experimental::GbtsGraph::runCCA </td>
-          <td>(</td>
-          <td class="paramtype">std::uint32_t</td>          <td class="paramname"><span class="paramname"><em>maxIterations</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Run connected component analysis on the graph, updating the edge levels. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">maxIterations</td><td>Maximum number of connected-component iterations </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The highest chain level any edge reached </dd></dl>
-
-</div>
-</div>
-</div><!-- contents -->
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>
