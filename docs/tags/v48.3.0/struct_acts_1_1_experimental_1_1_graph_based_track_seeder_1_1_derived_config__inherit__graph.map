@@ -1,5 +1,0 @@
-<map id="Acts::Experimental::GraphBasedTrackSeeder::DerivedConfig" name="Acts::Experimental::GraphBasedTrackSeeder::DerivedConfig">
-<area shape="rect" id="Node000001" title="Derived configuration struct that contains calculated parameters based on the configuration." alt="" coords="5,108,193,163"/>
-<area shape="rect" id="Node000002" href="$struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html" title="Configuration struct for the GBTS seeding algorithm." alt="" coords="5,5,193,60"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,74,102,108,97,108,97,74"/>
-</map>

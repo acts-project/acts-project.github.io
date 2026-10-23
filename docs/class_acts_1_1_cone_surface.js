@@ -9,6 +9,8 @@ var class_acts_1_1_cone_surface =
     [ "assignSurfaceBounds", "class_acts_1_1_cone_surface.html#a6df149d0dec4ea2729f084d0a2cea34d", null ],
     [ "bounds", "class_acts_1_1_cone_surface.html#a645746a72efcc9ff57494c6d113df9f2", null ],
     [ "boundsPtr", "class_acts_1_1_cone_surface.html#a20ea8afb71b269eb2f425439b5a23192", null ],
+    [ "boundToFreeJacobian", "class_acts_1_1_cone_surface.html#ab3e4f1c56f43064f274d42b24662361b", null ],
+    [ "freeToBoundJacobian", "class_acts_1_1_cone_surface.html#a33958b79cff34f6980542ce0986242aa", null ],
     [ "globalToLocal", "class_acts_1_1_cone_surface.html#a3082370f6db11d7bedddbb5fb642792b", null ],
     [ "globalToLocal", "class_acts_1_1_cone_surface.html#a7533c07fc1f5fc471a46d2cc57a3c844", null ],
     [ "intersect", "class_acts_1_1_cone_surface.html#ac63273b38cda1b798eb420c2e24a11b2", null ],

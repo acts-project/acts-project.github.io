@@ -1,5 +1,11 @@
 var NAVTREEINDEX57 =
 {
+"struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a40a9e4d13bbcf774526b72ec057697b3":[6,0,0,1,21,0,24],
+"struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a40a9e4d13bbcf774526b72ec057697b3":[8,0,0,2,21,0,24],
+"struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a5eb7d6c7cbbeff0313f3aeabf65dc8db":[6,0,0,1,21,0,7],
+"struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a5eb7d6c7cbbeff0313f3aeabf65dc8db":[8,0,0,2,21,0,7],
+"struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a6b9c61b496beae940a18191c4186cb4e":[6,0,0,1,21,0,14],
+"struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a6b9c61b496beae940a18191c4186cb4e":[8,0,0,2,21,0,14],
 "struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a6fa2fcf6b5eedf739cf99f29b2cfabf7":[6,0,0,1,21,0,19],
 "struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a6fa2fcf6b5eedf739cf99f29b2cfabf7":[8,0,0,2,21,0,19],
 "struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a75a8ffc9f77a794cdc04497e2c800d5e":[6,0,0,1,21,0,6],
@@ -243,11 +249,5 @@ var NAVTREEINDEX57 =
 "struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#ab3653855ae2bccf1fd2056150c4d9374":[5,13,7,11],
 "struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#ab5c32fd4ffe17ed4755ad61c0c1d901e":[5,13,7,2],
 "struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#acd7a4cac5bf6ecde98970083fadb866b":[5,13,7,9],
-"struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#adb427a70473cf26177afa82f8efcb6e5":[5,13,7,3],
-"struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#ade0f48477b16ff9f79508f2490452666":[5,13,7,10],
-"struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#af1b1ef08aa96df34716efc196a81c914":[5,13,7,4],
-"struct_acts_1_1_experimental_1_1_gx2_fitter_result.html":[5,13,8],
-"struct_acts_1_1_experimental_1_1_gx2_fitter_result.html#a00cb901e2b01497ce0bd3fba9c524eca":[5,13,8,7],
-"struct_acts_1_1_experimental_1_1_gx2_fitter_result.html#a0f097b1b184732f3eb79b706fd285aed":[5,13,8,6],
-"struct_acts_1_1_experimental_1_1_gx2_fitter_result.html#a13bbf1ef93783a60de491d2e9a5227c7":[5,13,8,11]
+"struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#adb427a70473cf26177afa82f8efcb6e5":[5,13,7,3]
 };

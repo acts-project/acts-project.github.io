@@ -158,6 +158,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a2d0ff13541377ebe0a1aab1391f2da48"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method returns the shared_ptr to the PointBounds.  <br /></td></tr>
 <tr class="memitem:ab4b0747b7247b9399fa75aff08d716c8" id="r_ab4b0747b7247b9399fa75aff08d716c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#aa7db1d65428d10880cd7643f8e6eddb4">BoundToFreeMatrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4b0747b7247b9399fa75aff08d716c8">boundToFreeJacobian</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction) const final</td></tr>
 <tr class="memdesc:ab4b0747b7247b9399fa75aff08d716c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the jacobian from local to global.  <br /></td></tr>
+<tr class="memitem:a0bd843953e14ae6a561642f9e84d13ad" id="r_a0bd843953e14ae6a561642f9e84d13ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#ae99f85f3ec433523b8064f5f2daa38b7">FreeToBoundMatrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bd843953e14ae6a561642f9e84d13ad">freeToBoundJacobian</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction) const final</td></tr>
+<tr class="memdesc:a0bd843953e14ae6a561642f9e84d13ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Jacobian from free to bound parameters.  <br /></td></tr>
 <tr class="memitem:aca886402c46528bd933c9638918a8505" id="r_aca886402c46528bd933c9638918a8505"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a6a5beb945158d8185b7baf48937105ec">FreeToPathMatrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca886402c46528bd933c9638918a8505">freeToPathDerivative</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction) const final</td></tr>
 <tr class="memdesc:aca886402c46528bd933c9638918a8505"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the derivative of path length at the point-of-closest-approach w.r.t.  <br /></td></tr>
 <tr class="memitem:a575602d0d3bc42be275faf1f833654e9" id="r_a575602d0d3bc42be275faf1f833654e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Vector2</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a575602d0d3bc42be275faf1f833654e9">globalToLocal</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction, double tolerance=<a class="el" href="namespace_acts.html#a062150b6d58b9acb88af2feaf8d3aa2b">s_onSurfaceTolerance</a>) const final</td></tr>
@@ -205,8 +207,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a5a93dec09919e2cb30e4234da0fd0663 inherit pub_methods_class_acts_1_1_surface"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the closest point on the boundary of the surface to a given point in local coordinates.  <br /></td></tr>
 <tr class="memitem:a602e26828afb4e564c2ff06b6f068f73 inherit pub_methods_class_acts_1_1_surface" id="r_a602e26828afb4e564c2ff06b6f068f73"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_surface.html#a602e26828afb4e564c2ff06b6f068f73">distanceToBoundary</a> (const <a class="el" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Vector2</a> &amp;lposition) const</td></tr>
 <tr class="memdesc:a602e26828afb4e564c2ff06b6f068f73 inherit pub_methods_class_acts_1_1_surface"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the distance to the boundary of the surface from a given point in local coordinates.  <br /></td></tr>
-<tr class="memitem:a6ce9ed485ef7f19c8c99d28af4d05f13 inherit pub_methods_class_acts_1_1_surface" id="r_a6ce9ed485ef7f19c8c99d28af4d05f13"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_acts.html#ae99f85f3ec433523b8064f5f2daa38b7">FreeToBoundMatrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_surface.html#a6ce9ed485ef7f19c8c99d28af4d05f13">freeToBoundJacobian</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction) const</td></tr>
-<tr class="memdesc:a6ce9ed485ef7f19c8c99d28af4d05f13 inherit pub_methods_class_acts_1_1_surface"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the jacobian from global to local which the surface knows best, hence the calculation is done here.  <br /></td></tr>
 <tr class="memitem:a5a9660305f3ad5c2e6731942206571a8 inherit pub_methods_class_acts_1_1_surface" id="r_a5a9660305f3ad5c2e6731942206571a8"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_surface.html#a2ae67591c6ce6b42568881be16f29ddc">Surface</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_surface.html#a5a9660305f3ad5c2e6731942206571a8">getSharedPtr</a> ()</td></tr>
 <tr class="memdesc:a5a9660305f3ad5c2e6731942206571a8 inherit pub_methods_class_acts_1_1_surface"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve a <code>std::shared_ptr</code> for this surface (non-const version).  <br /></td></tr>
 <tr class="memitem:a9785fd041382473c9516be99a18535c6 inherit pub_methods_class_acts_1_1_surface" id="r_a9785fd041382473c9516be99a18535c6"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_surface.html#a2ae67591c6ce6b42568881be16f29ddc">Surface</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_surface.html#a9785fd041382473c9516be99a18535c6">getSharedPtr</a> () const</td></tr>
@@ -694,6 +694,54 @@ Additional Inherited Members</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>Jacobian from local to global </dd></dl>
 
 <p>Reimplemented from <a class="el" href="class_acts_1_1_surface.html#aa86e26e4537287cce40df221284ff77a">Acts::Surface</a>.</p>
+
+</div>
+</div>
+<a id="a0bd843953e14ae6a561642f9e84d13ad" name="a0bd843953e14ae6a561642f9e84d13ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bd843953e14ae6a561642f9e84d13ad">&#9670;&#160;</a></span>freeToBoundJacobian()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_acts.html#ae99f85f3ec433523b8064f5f2daa38b7">FreeToBoundMatrix</a> Acts::PointSurface::freeToBoundJacobian </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>direction</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel final">final</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Jacobian from free to bound parameters. </p>
+<p>The measurement frame rotates with the track direction, so the loc rows have a direction block as well as the position block.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gctx</td><td>The current geometry context object, e.g. alignment </td></tr>
+    <tr><td class="paramname">position</td><td>global 3D position </td></tr>
+    <tr><td class="paramname">direction</td><td>global 3D momentum direction </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Jacobian from global to local </dd></dl>
+
+<p>Reimplemented from <a class="el" href="class_acts_1_1_surface.html#a6ce9ed485ef7f19c8c99d28af4d05f13">Acts::Surface</a>.</p>
 
 </div>
 </div>

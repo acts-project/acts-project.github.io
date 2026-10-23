@@ -676,21 +676,22 @@ $(function(){initNavTree('_reference_trajectory_builder_8hpp_source.html','','')
 <div class="line"><a id="l00637" name="l00637"></a><span class="lineno">  637</span> </div>
 <div class="line"><a id="l00638" name="l00638"></a><span class="lineno">  638</span>    <span class="keyword">auto</span> track = trackContainer.makeTrack();</div>
 <div class="line"><a id="l00639" name="l00639"></a><span class="lineno">  639</span>    track.tipIndex() = actorResult.lastTrackStateIndex;</div>
-<div class="line"><a id="l00640" name="l00640"></a><span class="lineno">  640</span>    <span class="keywordflow">if</span> (actorResult.referenceParameters.has_value()) {</div>
-<div class="line"><a id="l00641" name="l00641"></a><span class="lineno">  641</span>      <span class="keyword">const</span> <span class="keyword">auto</span>&amp; params = *actorResult.referenceParameters;</div>
-<div class="line"><a id="l00642" name="l00642"></a><span class="lineno">  642</span>      track.parameters() = params.parameters();</div>
-<div class="line"><a id="l00643" name="l00643"></a><span class="lineno">  643</span>      track.covariance() = params.covariance().value();</div>
-<div class="line"><a id="l00644" name="l00644"></a><span class="lineno">  644</span>      track.setReferenceSurface(params.referenceSurface().getSharedPtr());</div>
-<div class="line"><a id="l00645" name="l00645"></a><span class="lineno">  645</span>    }</div>
-<div class="line"><a id="l00646" name="l00646"></a><span class="lineno">  646</span> </div>
-<div class="line"><a id="l00647" name="l00647"></a><span class="lineno">  647</span>    track.linkForward();</div>
-<div class="line"><a id="l00648" name="l00648"></a><span class="lineno">  648</span> </div>
-<div class="line"><a id="l00649" name="l00649"></a><span class="lineno">  649</span>    <span class="keywordflow">return</span> track;</div>
-<div class="line"><a id="l00650" name="l00650"></a><span class="lineno">  650</span>  }</div>
-<div class="line"><a id="l00651" name="l00651"></a><span class="lineno">  651</span>};</div>
+<div class="line"><a id="l00640" name="l00640"></a><span class="lineno">  640</span>    track.setParticleHypothesis(sParameters.particleHypothesis());</div>
+<div class="line"><a id="l00641" name="l00641"></a><span class="lineno">  641</span>    <span class="keywordflow">if</span> (actorResult.referenceParameters.has_value()) {</div>
+<div class="line"><a id="l00642" name="l00642"></a><span class="lineno">  642</span>      <span class="keyword">const</span> <span class="keyword">auto</span>&amp; params = *actorResult.referenceParameters;</div>
+<div class="line"><a id="l00643" name="l00643"></a><span class="lineno">  643</span>      track.parameters() = params.parameters();</div>
+<div class="line"><a id="l00644" name="l00644"></a><span class="lineno">  644</span>      track.covariance() = params.covariance().value();</div>
+<div class="line"><a id="l00645" name="l00645"></a><span class="lineno">  645</span>      track.setReferenceSurface(params.referenceSurface().getSharedPtr());</div>
+<div class="line"><a id="l00646" name="l00646"></a><span class="lineno">  646</span>    }</div>
+<div class="line"><a id="l00647" name="l00647"></a><span class="lineno">  647</span> </div>
+<div class="line"><a id="l00648" name="l00648"></a><span class="lineno">  648</span>    track.linkForward();</div>
+<div class="line"><a id="l00649" name="l00649"></a><span class="lineno">  649</span> </div>
+<div class="line"><a id="l00650" name="l00650"></a><span class="lineno">  650</span>    <span class="keywordflow">return</span> track;</div>
+<div class="line"><a id="l00651" name="l00651"></a><span class="lineno">  651</span>  }</div>
+<div class="line"><a id="l00652" name="l00652"></a><span class="lineno">  652</span>};</div>
 </div>
-<div class="line"><a id="l00652" name="l00652"></a><span class="lineno">  652</span> </div>
-<div class="line"><a id="l00653" name="l00653"></a><span class="lineno">  653</span>}  <span class="comment">// namespace Acts::Experimental</span></div>
+<div class="line"><a id="l00653" name="l00653"></a><span class="lineno">  653</span> </div>
+<div class="line"><a id="l00654" name="l00654"></a><span class="lineno">  654</span>}  <span class="comment">// namespace Acts::Experimental</span></div>
 <div class="ttc" id="aclass_acts_1_1_bound_track_parameters_html"><div class="ttname"><a href="class_acts_1_1_bound_track_parameters.html">Acts::BoundTrackParameters</a></div><div class="ttdoc">Track parameters bound to a reference surface for a single track.</div><div class="ttdef"><b>Definition</b> BoundTrackParameters.hpp:36</div></div>
 <div class="ttc" id="aclass_acts_1_1_calibration_context_html"><div class="ttname"><a href="class_acts_1_1_calibration_context.html">Acts::CalibrationContext</a></div><div class="ttdoc">This is the central definition of the Acts payload object regarding detector calibration.</div><div class="ttdef"><b>Definition</b> CalibrationContext.hpp:27</div></div>
 <div class="ttc" id="aclass_acts_1_1_delegate_html"><div class="ttname"><a href="class_acts_1_1_delegate.html">Acts::Delegate</a></div><div class="ttdef"><b>Definition</b> Delegate.hpp:31</div></div>

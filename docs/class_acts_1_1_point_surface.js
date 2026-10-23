@@ -11,6 +11,7 @@ var class_acts_1_1_point_surface =
     [ "bounds", "class_acts_1_1_point_surface.html#a0288f7698c703a9be738bf7ff80ad8d5", null ],
     [ "boundsPtr", "class_acts_1_1_point_surface.html#a2d0ff13541377ebe0a1aab1391f2da48", null ],
     [ "boundToFreeJacobian", "class_acts_1_1_point_surface.html#ab4b0747b7247b9399fa75aff08d716c8", null ],
+    [ "freeToBoundJacobian", "class_acts_1_1_point_surface.html#a0bd843953e14ae6a561642f9e84d13ad", null ],
     [ "freeToPathDerivative", "class_acts_1_1_point_surface.html#aca886402c46528bd933c9638918a8505", null ],
     [ "globalToLocal", "class_acts_1_1_point_surface.html#a575602d0d3bc42be275faf1f833654e9", null ],
     [ "intersect", "class_acts_1_1_point_surface.html#a040b382f6cf29d1669264d49d43919bc", null ],

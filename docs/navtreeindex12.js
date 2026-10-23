@@ -1,5 +1,9 @@
 var NAVTREEINDEX12 =
 {
+"class_acts_1_1_element_fraction.html#a71c09ca03ddbc479a06e64a1e57192ab":[5,3,2,4,10],
+"class_acts_1_1_element_fraction.html#a76eb23a56aa22fa9d4a450f622845928":[5,3,2,4,8],
+"class_acts_1_1_element_fraction.html#a87093104d5c705d6e4520e96bf9e9b8d":[5,3,2,4,9],
+"class_acts_1_1_element_fraction.html#a9557d6682a9178b59eb0bceaf4584bb3":[5,3,2,4,3],
 "class_acts_1_1_element_fraction.html#ac0a3f0fffec847996f363d246c9cca5d":[5,3,2,4,0],
 "class_acts_1_1_element_fraction.html#ac1f6498b2a4c74c9e751818de3c6c993":[5,3,2,4,6],
 "class_acts_1_1_element_layer_assembler.html":[6,0,0,135],
@@ -245,9 +249,5 @@ var NAVTREEINDEX12 =
 "class_acts_1_1_experimental_1_1_blueprint_node.html#aed8328ec93513ad7d2e3fa848e486de0":[6,0,0,1,3,24],
 "class_acts_1_1_experimental_1_1_blueprint_node.html#aed8328ec93513ad7d2e3fa848e486de0":[8,0,0,2,3,24],
 "class_acts_1_1_experimental_1_1_blueprint_node.html#afa3222bf626ec20d3a9851cf7120ea77":[6,0,0,1,3,10],
-"class_acts_1_1_experimental_1_1_blueprint_node.html#afa3222bf626ec20d3a9851cf7120ea77":[8,0,0,2,3,10],
-"class_acts_1_1_experimental_1_1_composite_space_point_line_fitter.html":[6,0,0,1,6],
-"class_acts_1_1_experimental_1_1_composite_space_point_line_fitter.html":[8,0,0,2,6],
-"class_acts_1_1_experimental_1_1_composite_space_point_line_fitter.html#a269b566b6d98feae3fc4459bb6183075":[6,0,0,1,6,11],
-"class_acts_1_1_experimental_1_1_composite_space_point_line_fitter.html#a269b566b6d98feae3fc4459bb6183075":[8,0,0,2,6,11]
+"class_acts_1_1_experimental_1_1_blueprint_node.html#afa3222bf626ec20d3a9851cf7120ea77":[8,0,0,2,3,10]
 };

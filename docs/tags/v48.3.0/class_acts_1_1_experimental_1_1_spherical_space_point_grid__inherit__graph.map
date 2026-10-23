@@ -1,5 +1,0 @@
-<map id="Acts::Experimental::SphericalSpacePointGrid" name="Acts::Experimental::SphericalSpacePointGrid">
-<area shape="rect" id="Node000001" title="A spherical space point grid for seeding, binned in (phi, eta, r)." alt="" coords="365,49,555,89"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,317,133"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="331,67,365,67,365,72,331,72"/>
-</map>

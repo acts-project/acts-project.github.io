@@ -1393,32 +1393,33 @@ $(function(){initNavTree('_global_chi_square_fitter_8hpp_source.html','',''); })
 <div class="line"><a id="l01446" name="l01446"></a><span class="lineno"> 1446</span>    track.parameters() = params.<a class="code hl_function" href="class_acts_1_1_bound_track_parameters.html#a667b6838f416cdea393a5d390d2dba63">parameters</a>();</div>
 <div class="line"><a id="l01447" name="l01447"></a><span class="lineno"> 1447</span>    track.covariance() = fullCovariancePredicted;</div>
 <div class="line"><a id="l01448" name="l01448"></a><span class="lineno"> 1448</span>    track.setReferenceSurface(params.<a class="code hl_function" href="class_acts_1_1_bound_track_parameters.html#af72d647a297205b7676fd4249515904b">referenceSurface</a>().<a class="code hl_function" href="class_acts_1_1_surface.html#a5a9660305f3ad5c2e6731942206571a8">getSharedPtr</a>());</div>
-<div class="line"><a id="l01449" name="l01449"></a><span class="lineno"> 1449</span> </div>
-<div class="line"><a id="l01450" name="l01450"></a><span class="lineno"> 1450</span>    <span class="keywordflow">if</span> (trackContainer.hasColumn(</div>
-<div class="line"><a id="l01451" name="l01451"></a><span class="lineno"> 1451</span>            <a class="code hl_function" href="namespace_acts.html#a312705c7759168e892ece2b486788dcc">Acts::hashString</a>(Gx2fConstants::gx2fnUpdateColumn))) {</div>
-<div class="line"><a id="l01452" name="l01452"></a><span class="lineno"> 1452</span>      <a class="code hl_define" href="group__logging__macros.html#gaef98eb4223fd95f499d7d18626ae3b09">ACTS_DEBUG</a>(<span class="stringliteral">&quot;Add nUpdate to track&quot;</span>);</div>
-<div class="line"><a id="l01453" name="l01453"></a><span class="lineno"> 1453</span>      track.template component&lt;std::uint32_t&gt;(<span class="stringliteral">&quot;Gx2fnUpdateColumn&quot;</span>) =</div>
-<div class="line"><a id="l01454" name="l01454"></a><span class="lineno"> 1454</span>          <span class="keyword">static_cast&lt;</span>std::uint32_t<span class="keyword">&gt;</span>(nUpdate);</div>
-<div class="line"><a id="l01455" name="l01455"></a><span class="lineno"> 1455</span>    }</div>
-<div class="line"><a id="l01456" name="l01456"></a><span class="lineno"> 1456</span> </div>
-<div class="line"><a id="l01457" name="l01457"></a><span class="lineno"> 1457</span>    <span class="comment">// TODO write test for calculateTrackQuantities</span></div>
-<div class="line"><a id="l01458" name="l01458"></a><span class="lineno"> 1458</span>    <a class="code hl_function" href="namespace_acts.html#ad777051d7e6ab464315ae169472719fe">calculateTrackQuantities</a>(track);</div>
-<div class="line"><a id="l01459" name="l01459"></a><span class="lineno"> 1459</span> </div>
-<div class="line"><a id="l01460" name="l01460"></a><span class="lineno"> 1460</span>    <span class="comment">// Set the chi2sum for the track summary manually, since we don&#39;t calculate</span></div>
-<div class="line"><a id="l01461" name="l01461"></a><span class="lineno"> 1461</span>    <span class="comment">// it for each state</span></div>
-<div class="line"><a id="l01462" name="l01462"></a><span class="lineno"> 1462</span>    track.chi2() = chi2sum;</div>
-<div class="line"><a id="l01463" name="l01463"></a><span class="lineno"> 1463</span> </div>
-<div class="line"><a id="l01464" name="l01464"></a><span class="lineno"> 1464</span>    track.linkForward();</div>
-<div class="line"><a id="l01465" name="l01465"></a><span class="lineno"> 1465</span> </div>
-<div class="line"><a id="l01466" name="l01466"></a><span class="lineno"> 1466</span>    <span class="comment">// Return the converted Track</span></div>
-<div class="line"><a id="l01467" name="l01467"></a><span class="lineno"> 1467</span>    <span class="keywordflow">return</span> track;</div>
-<div class="line"><a id="l01468" name="l01468"></a><span class="lineno"> 1468</span>  }</div>
+<div class="line"><a id="l01449" name="l01449"></a><span class="lineno"> 1449</span>    track.setParticleHypothesis(sParameters.particleHypothesis());</div>
+<div class="line"><a id="l01450" name="l01450"></a><span class="lineno"> 1450</span> </div>
+<div class="line"><a id="l01451" name="l01451"></a><span class="lineno"> 1451</span>    <span class="keywordflow">if</span> (trackContainer.hasColumn(</div>
+<div class="line"><a id="l01452" name="l01452"></a><span class="lineno"> 1452</span>            <a class="code hl_function" href="namespace_acts.html#a312705c7759168e892ece2b486788dcc">Acts::hashString</a>(Gx2fConstants::gx2fnUpdateColumn))) {</div>
+<div class="line"><a id="l01453" name="l01453"></a><span class="lineno"> 1453</span>      <a class="code hl_define" href="group__logging__macros.html#gaef98eb4223fd95f499d7d18626ae3b09">ACTS_DEBUG</a>(<span class="stringliteral">&quot;Add nUpdate to track&quot;</span>);</div>
+<div class="line"><a id="l01454" name="l01454"></a><span class="lineno"> 1454</span>      track.template component&lt;std::uint32_t&gt;(<span class="stringliteral">&quot;Gx2fnUpdateColumn&quot;</span>) =</div>
+<div class="line"><a id="l01455" name="l01455"></a><span class="lineno"> 1455</span>          <span class="keyword">static_cast&lt;</span>std::uint32_t<span class="keyword">&gt;</span>(nUpdate);</div>
+<div class="line"><a id="l01456" name="l01456"></a><span class="lineno"> 1456</span>    }</div>
+<div class="line"><a id="l01457" name="l01457"></a><span class="lineno"> 1457</span> </div>
+<div class="line"><a id="l01458" name="l01458"></a><span class="lineno"> 1458</span>    <span class="comment">// TODO write test for calculateTrackQuantities</span></div>
+<div class="line"><a id="l01459" name="l01459"></a><span class="lineno"> 1459</span>    <a class="code hl_function" href="namespace_acts.html#ad777051d7e6ab464315ae169472719fe">calculateTrackQuantities</a>(track);</div>
+<div class="line"><a id="l01460" name="l01460"></a><span class="lineno"> 1460</span> </div>
+<div class="line"><a id="l01461" name="l01461"></a><span class="lineno"> 1461</span>    <span class="comment">// Set the chi2sum for the track summary manually, since we don&#39;t calculate</span></div>
+<div class="line"><a id="l01462" name="l01462"></a><span class="lineno"> 1462</span>    <span class="comment">// it for each state</span></div>
+<div class="line"><a id="l01463" name="l01463"></a><span class="lineno"> 1463</span>    track.chi2() = chi2sum;</div>
+<div class="line"><a id="l01464" name="l01464"></a><span class="lineno"> 1464</span> </div>
+<div class="line"><a id="l01465" name="l01465"></a><span class="lineno"> 1465</span>    track.linkForward();</div>
+<div class="line"><a id="l01466" name="l01466"></a><span class="lineno"> 1466</span> </div>
+<div class="line"><a id="l01467" name="l01467"></a><span class="lineno"> 1467</span>    <span class="comment">// Return the converted Track</span></div>
+<div class="line"><a id="l01468" name="l01468"></a><span class="lineno"> 1468</span>    <span class="keywordflow">return</span> track;</div>
+<div class="line"><a id="l01469" name="l01469"></a><span class="lineno"> 1469</span>  }</div>
 </div>
-<div class="line"><a id="l01469" name="l01469"></a><span class="lineno"> 1469</span>};</div>
+<div class="line"><a id="l01470" name="l01470"></a><span class="lineno"> 1470</span>};</div>
 </div>
-<div class="line"><a id="l01470" name="l01470"></a><span class="lineno"> 1470</span></div>
-<div class="line"><a id="l01472" name="l01472"></a><span class="lineno"> 1472</span> </div>
-<div class="line"><a id="l01473" name="l01473"></a><span class="lineno"> 1473</span>}  <span class="comment">// namespace Acts::Experimental</span></div>
+<div class="line"><a id="l01471" name="l01471"></a><span class="lineno"> 1471</span></div>
+<div class="line"><a id="l01473" name="l01473"></a><span class="lineno"> 1473</span> </div>
+<div class="line"><a id="l01474" name="l01474"></a><span class="lineno"> 1474</span>}  <span class="comment">// namespace Acts::Experimental</span></div>
 <div class="ttc" id="aclass_acts_1_1_bound_track_parameters_html"><div class="ttname"><a href="class_acts_1_1_bound_track_parameters.html">Acts::BoundTrackParameters</a></div><div class="ttdoc">Track parameters bound to a reference surface for a single track.</div><div class="ttdef"><b>Definition</b> BoundTrackParameters.hpp:36</div></div>
 <div class="ttc" id="aclass_acts_1_1_bound_track_parameters_html_a667b6838f416cdea393a5d390d2dba63"><div class="ttname"><a href="class_acts_1_1_bound_track_parameters.html#a667b6838f416cdea393a5d390d2dba63">Acts::BoundTrackParameters::parameters</a></div><div class="ttdeci">BoundVector &amp; parameters()</div><div class="ttdoc">Parameters vector.</div><div class="ttdef"><b>Definition</b> BoundTrackParameters.hpp:141</div></div>
 <div class="ttc" id="aclass_acts_1_1_bound_track_parameters_html_ab2f42712f6ebdc4ea185651b48ab6c99"><div class="ttname"><a href="class_acts_1_1_bound_track_parameters.html#ab2f42712f6ebdc4ea185651b48ab6c99">Acts::BoundTrackParameters::covariance</a></div><div class="ttdeci">std::optional&lt; BoundMatrix &gt; &amp; covariance()</div><div class="ttdoc">Optional covariance matrix.</div><div class="ttdef"><b>Definition</b> BoundTrackParameters.hpp:159</div></div>

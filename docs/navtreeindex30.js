@@ -1,5 +1,11 @@
 var NAVTREEINDEX30 =
 {
+"class_acts_1_1_polynomial_bethe_heitler_approx.html#a107288fd979fa11027d9a14b1b5740bb":[5,13,21,4],
+"class_acts_1_1_polynomial_bethe_heitler_approx.html#a4b99b4b44ba64bc87944dd99fcababf1":[5,3,2,17,2],
+"class_acts_1_1_polynomial_bethe_heitler_approx.html#a4b99b4b44ba64bc87944dd99fcababf1":[5,13,21,2],
+"class_acts_1_1_polynomial_bethe_heitler_approx.html#a61c93b2170db88791a898a58992db14e":[5,3,2,17,3],
+"class_acts_1_1_polynomial_bethe_heitler_approx.html#a61c93b2170db88791a898a58992db14e":[5,13,21,3],
+"class_acts_1_1_polynomial_bethe_heitler_approx.html#a7cff45c465b632a6eed98b234bdb7d60":[5,3,2,17,5],
 "class_acts_1_1_polynomial_bethe_heitler_approx.html#a7cff45c465b632a6eed98b234bdb7d60":[5,13,21,5],
 "class_acts_1_1_polynomial_bethe_heitler_approx.html#ae267dff7881455ebe2f589601e942a85":[5,3,2,17,6],
 "class_acts_1_1_polynomial_bethe_heitler_approx.html#ae267dff7881455ebe2f589601e942a85":[5,13,21,6],
@@ -243,11 +249,5 @@ var NAVTREEINDEX30 =
 "class_acts_1_1_radial_bounds.html#a8f4e308bedc2ab3f512ff249e04d16c2":[8,0,0,358,9],
 "class_acts_1_1_radial_bounds.html#a9ac1251a8d52bcdff85d5dd2e128f429":[6,0,0,353,13],
 "class_acts_1_1_radial_bounds.html#a9ac1251a8d52bcdff85d5dd2e128f429":[8,0,0,358,13],
-"class_acts_1_1_radial_bounds.html#ac1fc2dd29d1acd6807ceefb20f3c4b19":[6,0,0,353,16],
-"class_acts_1_1_radial_bounds.html#ac1fc2dd29d1acd6807ceefb20f3c4b19":[8,0,0,358,16],
-"class_acts_1_1_radial_bounds.html#ac4bd51bec3c63f0ac9a16296ca46ed80":[6,0,0,353,18],
-"class_acts_1_1_radial_bounds.html#ac4bd51bec3c63f0ac9a16296ca46ed80":[8,0,0,358,18],
-"class_acts_1_1_radial_bounds.html#ad89891c0f8703660f4814687d49c7e10":[6,0,0,353,17],
-"class_acts_1_1_radial_bounds.html#ad89891c0f8703660f4814687d49c7e10":[8,0,0,358,17],
-"class_acts_1_1_radial_bounds.html#ada43d43c4c93c77c92e956b62cf57a5b":[6,0,0,353,5]
+"class_acts_1_1_radial_bounds.html#ac1fc2dd29d1acd6807ceefb20f3c4b19":[6,0,0,353,16]
 };

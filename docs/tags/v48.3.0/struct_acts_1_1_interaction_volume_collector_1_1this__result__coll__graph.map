@@ -1,7 +1,0 @@
-<map id="Acts::InteractionVolumeCollector::this_result" name="Acts::InteractionVolumeCollector::this_result">
-<area shape="rect" id="Node000001" title="Simple result struct that holds the collected volumes." alt="" coords="5,267,240,307"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="17,141,228,196"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,210,125,266,120,266,120,210"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="55,5,190,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="125,44,125,141,120,141,120,44"/>
-</map>

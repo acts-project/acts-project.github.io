@@ -1,7 +1,0 @@
-<map id="ActsFatras::FailedParticle" name="ActsFatras::FailedParticle">
-<area shape="rect" id="Node000001" title="A particle that failed to simulate." alt="" coords="64,101,247,127"/>
-<area shape="rect" id="Node000002" href="$class_acts_fatras_1_1_particle.html" title="Particle identity information and kinematic state." alt="" coords="5,5,151,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,40,148,99,144,103,94,43"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="175,5,293,31"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="220,43,191,79,169,103,165,99,187,76,215,40"/>
-</map>

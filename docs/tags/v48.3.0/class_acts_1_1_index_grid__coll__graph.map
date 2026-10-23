@@ -1,7 +1,0 @@
-<map id="Acts::IndexGrid&lt; grid_t &gt;" name="Acts::IndexGrid&lt; grid_t &gt;">
-<area shape="rect" id="Node000001" title="This is an index grid based navigation state updator, it uses an extractor type and a filler type to ..." alt="" coords="7,232,195,257"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,121,196,161"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,175,103,232,98,232,98,175"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="39,5,162,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="103,45,103,121,98,121,98,45"/>
-</map>
