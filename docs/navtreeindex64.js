@@ -1,5 +1,7 @@
 var NAVTREEINDEX64 =
 {
+"struct_acts_1_1_outer_strip_space_point_calibration_details_derived.html#ad0351df2835f7ae791b3f82746faef67":[6,0,0,314,3],
+"struct_acts_1_1_outer_strip_space_point_calibration_details_derived.html#ad0351df2835f7ae791b3f82746faef67":[8,0,0,319,3],
 "struct_acts_1_1_outer_strip_space_point_calibration_details_derived.html#ae12bcb2f5966295669734baefe29dab1":[6,0,0,314,1],
 "struct_acts_1_1_outer_strip_space_point_calibration_details_derived.html#ae12bcb2f5966295669734baefe29dab1":[8,0,0,319,1],
 "struct_acts_1_1_particle_data.html":[6,0,0,319],
@@ -247,7 +249,5 @@ var NAVTREEINDEX64 =
 "struct_acts_1_1_ref_holder.html#a62471cd58b297ee0f3f17dd8813520a5":[6,0,0,358,7],
 "struct_acts_1_1_ref_holder.html#a62471cd58b297ee0f3f17dd8813520a5":[8,0,0,363,7],
 "struct_acts_1_1_ref_holder.html#a833a985700e11888de2071f1245dd23d":[6,0,0,358,2],
-"struct_acts_1_1_ref_holder.html#a833a985700e11888de2071f1245dd23d":[8,0,0,363,2],
-"struct_acts_1_1_ref_holder.html#a8d584edada61a9f24adb68da5e891e3f":[6,0,0,358,6],
-"struct_acts_1_1_ref_holder.html#a8d584edada61a9f24adb68da5e891e3f":[8,0,0,363,6]
+"struct_acts_1_1_ref_holder.html#a833a985700e11888de2071f1245dd23d":[8,0,0,363,2]
 };

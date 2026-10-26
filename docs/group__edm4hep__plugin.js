@@ -158,6 +158,8 @@ var group__edm4hep__plugin =
     [ "ActsPlugins::MutablePodioTrackStateContainer", "group__edm4hep__plugin.html#gaabac31d15341c5a6f7550c8954ddfd0d", null ],
     [ "ActsPlugins::EDM4hepUtil::readTrack", "group__edm4hep__plugin.html#ga17be63d58e6871eb2728756ec3799de8", null ],
     [ "ActsPlugins::EDM4hepUtil::readTrack", "group__edm4hep__plugin.html#gafd933cfa2a2f01a1747f04bfca3005e7", null ],
+    [ "ActsPlugins::EDM4hepUtil::readTrackState", "group__edm4hep__plugin.html#gad3ac9d18445b4bd40f9438ffea57bb6c", null ],
+    [ "ActsPlugins::EDM4hepUtil::readTrackState", "group__edm4hep__plugin.html#gab8dab5aaeeb93375225dff32106f132b", null ],
     [ "ActsPlugins::EDM4hepUtil::setParticle", "group__edm4hep__plugin.html#gad2217a1e566c6c6e331e614f87ffa7b9", null ],
     [ "ActsPlugins::EDM4hepUtil::writeTrack", "group__edm4hep__plugin.html#gab180932c853e448ff6b13ae0d4a8bc93", null ],
     [ "ActsPlugins::EDM4hepUtil::writeTrack", "group__edm4hep__plugin.html#ga20ef2aa8c6f4f2b87a10d9f86b95bf9f", null ],
