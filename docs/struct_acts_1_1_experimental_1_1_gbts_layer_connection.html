@@ -139,10 +139,17 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a4ae667a946a92428286d3435f79609c4" id="r_a4ae667a946a92428286d3435f79609c4"><td class="memItemLeft" align="right" valign="top"><a id="a4ae667a946a92428286d3435f79609c4" name="a4ae667a946a92428286d3435f79609c4"></a>
 <a class="el" href="namespace_acts_1_1_experimental.html#a3cf30a79d2cc7b16985ee9e4c7475644">GbtsExperimentLayerId</a>&#160;</td><td class="memItemRight" valign="bottom"><b>src</b> {}</td></tr>
 <tr class="memdesc:a4ae667a946a92428286d3435f79609c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Outer layer id. <br /></td></tr>
+<tr class="memitem:aba9b78d7373737b226b0e26f29cdd8a4" id="r_aba9b78d7373737b226b0e26f29cdd8a4"><td class="memItemLeft" align="right" valign="top"><a id="aba9b78d7373737b226b0e26f29cdd8a4" name="aba9b78d7373737b226b0e26f29cdd8a4"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>tauRatioCutInner</b> = 0.007f</td></tr>
+<tr class="memdesc:aba9b78d7373737b226b0e26f29cdd8a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Largest |tau ratio| if this is the inner pair of a triplet. <br /></td></tr>
+<tr class="memitem:af627c4b5e224b94367b9e2fd3f74422a" id="r_af627c4b5e224b94367b9e2fd3f74422a"><td class="memItemLeft" align="right" valign="top"><a id="af627c4b5e224b94367b9e2fd3f74422a" name="af627c4b5e224b94367b9e2fd3f74422a"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>tauRatioCutOuter</b> = 0.007f</td></tr>
+<tr class="memdesc:af627c4b5e224b94367b9e2fd3f74422a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Largest |tau ratio| if this is the outer pair of a triplet. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A pair of layers the seeder may build a graph edge between. </p>
-<p>Edges are made outside-in, so a hit on <code>src</code> is the outer end of the doublet and a hit on <code>dst</code> the inner one. </p>
+<p>Edges are made outside-in, so a hit on <code>src</code> is the outer end of the doublet and a hit on <code>dst</code> the inner one.</p>
+<p>A triplet is cut at the larger of the tolerances its inner and outer pair carry for that role. </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">

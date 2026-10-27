@@ -199,14 +199,8 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>phiWindowNearOffset<
 <tr class="memitem:af7f8a53c2cb7c92a3a806b970a883bef" id="r_af7f8a53c2cb7c92a3a806b970a883bef"><td class="memItemLeft" align="right" valign="top"><a id="af7f8a53c2cb7c92a3a806b970a883bef" name="af7f8a53c2cb7c92a3a806b970a883bef"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>phiWindowSplitDeltaRadius</b> = 60.0f * <a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">Acts::UnitConstants::mm</a></td></tr>
 <tr class="memdesc:af7f8a53c2cb7c92a3a806b970a883bef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Radial separation splitting the two phi-window slopes below. <br /></td></tr>
-<tr class="memitem:a40a9e4d13bbcf774526b72ec057697b3" id="r_a40a9e4d13bbcf774526b72ec057697b3"><td class="memItemLeft" align="right" valign="top"><a id="a40a9e4d13bbcf774526b72ec057697b3" name="a40a9e4d13bbcf774526b72ec057697b3"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>tauRatioCorr</b> = 0.006f</td></tr>
-<tr class="memdesc:a40a9e4d13bbcf774526b72ec057697b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Correction applied to tau acceptance if a layer is missed during edge connecting. <br /></td></tr>
-<tr class="memitem:aa7d6cb1a335b5c3cf06f84cd154bfa1e" id="r_aa7d6cb1a335b5c3cf06f84cd154bfa1e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7d6cb1a335b5c3cf06f84cd154bfa1e">tauRatioCorrStrip</a> = 0.03f</td></tr>
-<tr class="memdesc:aa7d6cb1a335b5c3cf06f84cd154bfa1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The same for a triplet any of whose three nodes a strip module made, whose two doublets resolved the shared node's along-strip coordinate separately.  <br /></td></tr>
-<tr class="memitem:a2de0c4245c6a017345336ed9a4f0e896" id="r_a2de0c4245c6a017345336ed9a4f0e896"><td class="memItemLeft" align="right" valign="top"><a id="a2de0c4245c6a017345336ed9a4f0e896" name="a2de0c4245c6a017345336ed9a4f0e896"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>tauRatioCut</b> = 0.007f</td></tr>
-<tr class="memdesc:a2de0c4245c6a017345336ed9a4f0e896"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tau ratio cut threshold. <br /></td></tr>
+<tr class="memitem:a2de0c4245c6a017345336ed9a4f0e896" id="r_a2de0c4245c6a017345336ed9a4f0e896"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2de0c4245c6a017345336ed9a4f0e896">tauRatioCut</a> = 0.007f</td></tr>
+<tr class="memdesc:a2de0c4245c6a017345336ed9a4f0e896"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tau ratio scale of the <span class="tt">validateTriplets</span> high-pT check.  <br /></td></tr>
 <tr class="memitem:a78da6b28740994f8aa8e66c1df413d20" id="r_a78da6b28740994f8aa8e66c1df413d20"><td class="memItemLeft" align="right" valign="top"><a id="a78da6b28740994f8aa8e66c1df413d20" name="a78da6b28740994f8aa8e66c1df413d20"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>tauRatioPrecut</b> = 0.009f</td></tr>
 <tr class="memdesc:a78da6b28740994f8aa8e66c1df413d20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tau ratio precut threshold. <br /></td></tr>
@@ -216,9 +210,6 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>tripletPtFraction</b
 <tr class="memitem:a1f97110c719edf432a5088f2cb8170f0" id="r_a1f97110c719edf432a5088f2cb8170f0"><td class="memItemLeft" align="right" valign="top"><a id="a1f97110c719edf432a5088f2cb8170f0" name="a1f97110c719edf432a5088f2cb8170f0"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>tuningPt</b> = 0.9f * <a class="el" href="namespace_acts_1_1_unit_constants.html#ac72f496e47d9f3eb447b8348962e49b5">Acts::UnitConstants::GeV</a></td></tr>
 <tr class="memdesc:a1f97110c719edf432a5088f2cb8170f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">pT at which the default cut coefficients were tuned; they scale by <span class="tt">tuningPt / minPt</span>. <br /></td></tr>
-<tr class="memitem:af09c007d8c81ded00168dec6043ef59b" id="r_af09c007d8c81ded00168dec6043ef59b"><td class="memItemLeft" align="right" valign="top"><a id="af09c007d8c81ded00168dec6043ef59b" name="af09c007d8c81ded00168dec6043ef59b"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>useAdaptiveCuts</b> = true</td></tr>
-<tr class="memdesc:af09c007d8c81ded00168dec6043ef59b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Widens allowed variation in tau ratio if a layer is missed in edge connecting. <br /></td></tr>
 <tr class="memitem:aa6ea001a7a063be0d46e9cdc0a7c1022" id="r_aa6ea001a7a063be0d46e9cdc0a7c1022"><td class="memItemLeft" align="right" valign="top"><a id="aa6ea001a7a063be0d46e9cdc0a7c1022" name="aa6ea001a7a063be0d46e9cdc0a7c1022"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>useEtaBinning</b> = true</td></tr>
 <tr class="memdesc:aa6ea001a7a063be0d46e9cdc0a7c1022"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use eta binning from geometry structure. <br /></td></tr>
@@ -336,20 +327,20 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>z0Resolution</b> = 2
 
 </div>
 </div>
-<a id="aa7d6cb1a335b5c3cf06f84cd154bfa1e" name="aa7d6cb1a335b5c3cf06f84cd154bfa1e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7d6cb1a335b5c3cf06f84cd154bfa1e">&#9670;&#160;</a></span>tauRatioCorrStrip</h2>
+<a id="a2de0c4245c6a017345336ed9a4f0e896" name="a2de0c4245c6a017345336ed9a4f0e896"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2de0c4245c6a017345336ed9a4f0e896">&#9670;&#160;</a></span>tauRatioCut</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float Acts::Experimental::GbtsGraphBuilder::Config::tauRatioCorrStrip = 0.03f</td>
+          <td class="memname">float Acts::Experimental::GbtsGraphBuilder::Config::tauRatioCut = 0.007f</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>The same for a triplet any of whose three nodes a strip module made, whose two doublets resolved the shared node's along-strip coordinate separately. </p>
-<p>Reaches nothing without a strip in the triplet. </p>
+<p>Tau ratio scale of the <span class="tt">validateTriplets</span> high-pT check. </p>
+<p>The linking cut comes from the layer pairs, see <span class="tt">GbtsLayerConnection</span>. </p>
 
 </div>
 </div>

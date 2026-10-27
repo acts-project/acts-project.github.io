@@ -167,8 +167,12 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fluent builder that assembles a flat collection of cylindrical or disc-like detector layers from layer-representative detector elements into a <a class="el" href="class_acts_1_1_experimental_1_1_cylinder_container_blueprint_node.html">CylinderContainerBlueprintNode</a>.  <a href="class_acts_1_1_experimental_1_1_element_layer_assembler.html#details">More...</a><br /></td></tr>
 <tr class="memitem:FrustumNavigationPolicy" id="r_FrustumNavigationPolicy"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_experimental_1_1_frustum_navigation_policy.html">FrustumNavigationPolicy</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A navigation policy that uses frustum-octree intersections to find portals.  <a href="class_acts_1_1_experimental_1_1_frustum_navigation_policy.html#details">More...</a><br /></td></tr>
+<tr class="memitem:GbtsAdaptiveTauRatioCuts" id="r_GbtsAdaptiveTauRatioCuts"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_adaptive_tau_ratio_cuts.html">GbtsAdaptiveTauRatioCuts</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tau ratio tolerances for <span class="tt">assignAdaptiveTauRatioCuts</span>.  <a href="struct_acts_1_1_experimental_1_1_gbts_adaptive_tau_ratio_cuts.html#details">More...</a><br /></td></tr>
 <tr class="memitem:GbtsBinGroup" id="r_GbtsBinGroup"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_bin_group.html">GbtsBinGroup</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The outer eta bins reachable from one inner eta bin.  <a href="struct_acts_1_1_experimental_1_1_gbts_bin_group.html#details">More...</a><br /></td></tr>
+<tr class="memitem:GbtsBinLink" id="r_GbtsBinLink"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_bin_link.html">GbtsBinLink</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">One outer eta bin reachable from an inner one, with the cuts the layer pair they belong to carries.  <a href="struct_acts_1_1_experimental_1_1_gbts_bin_link.html#details">More...</a><br /></td></tr>
 <tr class="memitem:GbtsGeometry" id="r_GbtsGeometry"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_geometry.html">GbtsGeometry</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Geometry helper built from layers and connectors.  <a href="class_acts_1_1_experimental_1_1_gbts_geometry.html#details">More...</a><br /></td></tr>
 <tr class="memitem:GbtsGraph" id="r_GbtsGraph"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_graph.html">GbtsGraph</a></td></tr>
@@ -335,6 +339,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga6b4ab37353c322c5e6a328b74148bf8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Process measurements and fill the aMatrix and bVector.  <br /></td></tr>
 <tr class="memitem:ga5dc7667fa9886694323a291f67ebd831" id="r_ga5dc7667fa9886694323a291f67ebd831"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__track__fitting.html#ga5dc7667fa9886694323a291f67ebd831">addMeasurementToGx2fSumsBackend</a> (<a class="el" href="struct_acts_1_1_experimental_1_1_gx2f_system.html">Gx2fSystem</a> &amp;extendedSystem, const std::vector&lt; <a class="el" href="namespace_acts.html#aec0a40be468eddaf61a46560269bd97e">BoundMatrix</a> &gt; &amp;jacobianFromStart, const Eigen::MatrixXd &amp;covarianceMeasurement, const <a class="el" href="namespace_acts.html#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &amp;predicted, const Eigen::VectorXd &amp;measurement, const Eigen::MatrixXd &amp;projector, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger)</td></tr>
 <tr class="memdesc:ga5dc7667fa9886694323a291f67ebd831"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a measurement to the GX2F equation system in a modular backend function.  <br /></td></tr>
+<tr class="memitem:a7026fc0a6f90c2e3ba442f7b7b2356d0" id="r_a7026fc0a6f90c2e3ba442f7b7b2356d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7026fc0a6f90c2e3ba442f7b7b2356d0">assignAdaptiveTauRatioCuts</a> (std::span&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_connection.html">GbtsLayerConnection</a> &gt; connections, std::span&lt; const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_description.html">GbtsLayerDescription</a> &gt; layers, const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_adaptive_tau_ratio_cuts.html">GbtsAdaptiveTauRatioCuts</a> &amp;cuts={})</td></tr>
+<tr class="memdesc:a7026fc0a6f90c2e3ba442f7b7b2356d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill the tau ratio tolerances of the layer pairs.  <br /></td></tr>
 <tr class="memitem:ga68584ae82d2275abd9b0af855d4048c5" id="r_ga68584ae82d2275abd9b0af855d4048c5"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__track__fitting.html#ga68584ae82d2275abd9b0af855d4048c5">computeGx2fDeltaParams</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_gx2f_system.html">Gx2fSystem</a> &amp;extendedSystem)</td></tr>
 <tr class="memdesc:ga68584ae82d2275abd9b0af855d4048c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve the gx2f system to get the delta parameters for the update.  <br /></td></tr>
 <tr class="memitem:ga2a01eb359a5aea7c6497367694fefa21" id="r_ga2a01eb359a5aea7c6497367694fefa21"><td class="memTemplParams" colspan="2">template&lt;TrackProxyConcept track_proxy_t&gt; </td></tr>
@@ -520,6 +526,43 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="a7026fc0a6f90c2e3ba442f7b7b2356d0" name="a7026fc0a6f90c2e3ba442f7b7b2356d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7026fc0a6f90c2e3ba442f7b7b2356d0">&#9670;&#160;</a></span>assignAdaptiveTauRatioCuts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Acts::Experimental::assignAdaptiveTauRatioCuts </td>
+          <td>(</td>
+          <td class="paramtype">std::span&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_connection.html">GbtsLayerConnection</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>connections</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::span&lt; const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_description.html">GbtsLayerDescription</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>layers</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_adaptive_tau_ratio_cuts.html">GbtsAdaptiveTauRatioCuts</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cuts</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fill the tau ratio tolerances of the layer pairs. </p>
+<p>A pair is widened by <span class="tt">tauRatioCorr</span> if it skips a pixel barrel layer, or, as an outer pair, if it leaves the pixel barrel. A pair with a strip layer is widened by <span class="tt">tauRatioCorrStrip</span> on top.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">connections</td><td>The layer pairs, whose tolerances are overwritten </td></tr>
+    <tr><td class="paramname">layers</td><td>The layers the geometry is built from </td></tr>
+    <tr><td class="paramname">cuts</td><td>The tolerances to assign </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a1c5b0e1f38551d875b1a785d363f332b" name="a1c5b0e1f38551d875b1a785d363f332b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1c5b0e1f38551d875b1a785d363f332b">&#9670;&#160;</a></span>exploreHoughParametersSpace()</h2>
 
