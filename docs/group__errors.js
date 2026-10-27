@@ -64,7 +64,8 @@ var group__errors =
       [ "Acts::NavigatorError::NoStartVolume", "group__errors.html#gga2cc876d4889b5c6656ed7d5e0c1fca19aeae409a43853a45ed4b8c5b4930836a2", null ]
     ] ],
     [ "Acts::PortalError", "group__errors.html#gad9ea430c0897aa29fcaccb4fa68aa459", [
-      [ "Acts::PortalError::PositionNotOnAnyChildPortalLink", "group__errors.html#ggad9ea430c0897aa29fcaccb4fa68aa459a2fb2d2aa3fefe80d75ca568b29f43bb1", null ]
+      [ "Acts::PortalError::PositionNotOnAnyChildPortalLink", "group__errors.html#ggad9ea430c0897aa29fcaccb4fa68aa459a2fb2d2aa3fefe80d75ca568b29f43bb1", null ],
+      [ "Acts::PortalError::PositionOutsideLinkBounds", "group__errors.html#ggad9ea430c0897aa29fcaccb4fa68aa459ada906a61c2049c73778f3dafa1fe685c", null ]
     ] ],
     [ "Acts::PropagatorError", "group__errors.html#gae4af8513760690d2518f3e01355beb88", [
       [ "Acts::PropagatorError::Failure", "group__errors.html#ggae4af8513760690d2518f3e01355beb88ae139a585510a502bbf1841cf589f5086", null ],

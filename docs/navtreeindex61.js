@@ -1,5 +1,6 @@
 var NAVTREEINDEX61 =
 {
+"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_sliding_window_config.html#a832ea61cb25ae99bfac9b99879eda0cb":[6,0,0,4,0,4,1],
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_sliding_window_config.html#a832ea61cb25ae99bfac9b99879eda0cb":[8,0,0,5,0,4,1],
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_sliding_window_config.html#a8553e599300f602bca3638ee3f78141c":[6,0,0,4,0,4,3],
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_sliding_window_config.html#a8553e599300f602bca3638ee3f78141c":[8,0,0,5,0,4,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX61 =
 "struct_acts_1_1_kalman_fitter_extensions.html#a571eb447fa0f25fb0d84debc6c37aeeb":[5,13,17,3],
 "struct_acts_1_1_kalman_fitter_extensions.html#a6c64d8300106e132dec02cacd7fe2e1e":[5,13,17,4],
 "struct_acts_1_1_kalman_fitter_extensions.html#a6ecda841a98932215821ef48a18cc9b9":[5,13,17,12],
-"struct_acts_1_1_kalman_fitter_extensions.html#a8788c906cbff781fa9a98f66c14e436e":[5,13,17,6],
-"struct_acts_1_1_kalman_fitter_extensions.html#a8df82e2e091f44d2f14f9ee7ea5c6b31":[5,13,17,2]
+"struct_acts_1_1_kalman_fitter_extensions.html#a8788c906cbff781fa9a98f66c14e436e":[5,13,17,6]
 };

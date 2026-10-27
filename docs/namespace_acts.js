@@ -790,7 +790,8 @@ var namespace_acts =
     [ "NoiseUpdateMode", "namespace_acts.html#ae866cb8853468d56eec07abde7529017", null ],
     [ "PdgParticle", "namespace_acts.html#a9be1c6a7aba3d2c58133f9f2f10db45a", null ],
     [ "PortalError", "group__errors.html#gad9ea430c0897aa29fcaccb4fa68aa459", [
-      [ "PositionNotOnAnyChildPortalLink", "group__errors.html#ggad9ea430c0897aa29fcaccb4fa68aa459a2fb2d2aa3fefe80d75ca568b29f43bb1", null ]
+      [ "PositionNotOnAnyChildPortalLink", "group__errors.html#ggad9ea430c0897aa29fcaccb4fa68aa459a2fb2d2aa3fefe80d75ca568b29f43bb1", null ],
+      [ "PositionOutsideLinkBounds", "group__errors.html#ggad9ea430c0897aa29fcaccb4fa68aa459ada906a61c2049c73778f3dafa1fe685c", null ]
     ] ],
     [ "PortalMaterialMergePolicy", "namespace_acts.html#a73319f7de9c3e7bcd4ad6b3c22630d77", [
       [ "eThrow", "namespace_acts.html#a73319f7de9c3e7bcd4ad6b3c22630d77aa4b43a3097aea702fed27d5e451634ae", null ],

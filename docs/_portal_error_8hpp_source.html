@@ -137,20 +137,22 @@ $(function(){initNavTree('_portal_error_8hpp_source.html','',''); });
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="group__errors.html#gad9ea430c0897aa29fcaccb4fa68aa459">   18</a></span><span class="keyword">enum class</span> <a class="code hl_enumeration" href="group__errors.html#gad9ea430c0897aa29fcaccb4fa68aa459">PortalError</a> {</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>  <span class="comment">// ensure all values are non-zero</span></div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="group__errors.html#ggad9ea430c0897aa29fcaccb4fa68aa459a2fb2d2aa3fefe80d75ca568b29f43bb1">   21</a></span>  <a class="code hl_enumvalue" href="group__errors.html#ggad9ea430c0897aa29fcaccb4fa68aa459a2fb2d2aa3fefe80d75ca568b29f43bb1">PositionNotOnAnyChildPortalLink</a> = 1,</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>};</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="group__errors.html#ggad9ea430c0897aa29fcaccb4fa68aa459ada906a61c2049c73778f3dafa1fe685c">   24</a></span>  <a class="code hl_enumvalue" href="group__errors.html#ggad9ea430c0897aa29fcaccb4fa68aa459ada906a61c2049c73778f3dafa1fe685c">PositionOutsideLinkBounds</a> = 2,</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>};</div>
 </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="namespace_acts.html#a3326d9e357aef12edb2f49a4ea8bae95">   27</a></span>std::error_code <a class="code hl_function" href="namespace_acts.html#a3326d9e357aef12edb2f49a4ea8bae95">make_error_code</a>(<a class="code hl_enumeration" href="group__errors.html#gad9ea430c0897aa29fcaccb4fa68aa459">Acts::PortalError</a> e);</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>}  <span class="comment">// namespace Acts</span></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keyword">namespace </span>std {</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="comment">// register with STL</span></div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="keyword">template</span> &lt;&gt;</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="keyword">struct </span>is_error_code_enum&lt;<a class="code hl_namespace" href="namespace_acts.html">Acts</a>::PortalError&gt; : std::true_type {};</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>}  <span class="comment">// namespace std</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="namespace_acts.html#a3326d9e357aef12edb2f49a4ea8bae95">   30</a></span>std::error_code <a class="code hl_function" href="namespace_acts.html#a3326d9e357aef12edb2f49a4ea8bae95">make_error_code</a>(<a class="code hl_enumeration" href="group__errors.html#gad9ea430c0897aa29fcaccb4fa68aa459">Acts::PortalError</a> e);</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>}  <span class="comment">// namespace Acts</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="keyword">namespace </span>std {</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="comment">// register with STL</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="keyword">template</span> &lt;&gt;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="keyword">struct </span>is_error_code_enum&lt;<a class="code hl_namespace" href="namespace_acts.html">Acts</a>::PortalError&gt; : std::true_type {};</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>}  <span class="comment">// namespace std</span></div>
 <div class="ttc" id="agroup__errors_html_gad9ea430c0897aa29fcaccb4fa68aa459"><div class="ttname"><a href="group__errors.html#gad9ea430c0897aa29fcaccb4fa68aa459">Acts::PortalError</a></div><div class="ttdeci">PortalError</div><div class="ttdoc">Error codes for portal operations.</div><div class="ttdef"><b>Definition</b> PortalError.hpp:18</div></div>
 <div class="ttc" id="agroup__errors_html_ggad9ea430c0897aa29fcaccb4fa68aa459a2fb2d2aa3fefe80d75ca568b29f43bb1"><div class="ttname"><a href="group__errors.html#ggad9ea430c0897aa29fcaccb4fa68aa459a2fb2d2aa3fefe80d75ca568b29f43bb1">Acts::PortalError::PositionNotOnAnyChildPortalLink</a></div><div class="ttdeci">@ PositionNotOnAnyChildPortalLink</div><div class="ttdoc">Position not on any of the composite child portal links.</div><div class="ttdef"><b>Definition</b> PortalError.hpp:21</div></div>
+<div class="ttc" id="agroup__errors_html_ggad9ea430c0897aa29fcaccb4fa68aa459ada906a61c2049c73778f3dafa1fe685c"><div class="ttname"><a href="group__errors.html#ggad9ea430c0897aa29fcaccb4fa68aa459ada906a61c2049c73778f3dafa1fe685c">Acts::PortalError::PositionOutsideLinkBounds</a></div><div class="ttdeci">@ PositionOutsideLinkBounds</div><div class="ttdoc">Position outside the bounds of a grid portal link by more than the tolerance.</div><div class="ttdef"><b>Definition</b> PortalError.hpp:24</div></div>
 <div class="ttc" id="anamespace_acts_html"><div class="ttname"><a href="namespace_acts.html">Acts</a></div><div class="ttdoc">The main namespace encompassing all ACTS code.</div></div>
 <div class="ttc" id="anamespace_acts_html_a3326d9e357aef12edb2f49a4ea8bae95"><div class="ttname"><a href="namespace_acts.html#a3326d9e357aef12edb2f49a4ea8bae95">Acts::make_error_code</a></div><div class="ttdeci">std::error_code make_error_code(Acts::PortalError e)</div><div class="ttdoc">Create error code from PortalError.</div></div>
 </div><!-- fragment --></div><!-- contents -->

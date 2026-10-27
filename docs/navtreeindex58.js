@@ -1,5 +1,6 @@
 var NAVTREEINDEX58 =
 {
+"struct_acts_1_1_experimental_1_1_gx2_fitter_options.html":[5,13,7],
 "struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#a180f116b8e73a095085b0e9747804763":[5,13,7,6],
 "struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#a1d27e8d322f9d5ee1e32fe14336a2377":[5,13,7,8],
 "struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#a2fb106e351092e2350beee5fc0d172bf":[5,13,7,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX58 =
 "struct_acts_1_1_extended_surface.html":[6,0,0,143],
 "struct_acts_1_1_extended_surface.html":[8,0,0,148],
 "struct_acts_1_1_extended_surface.html#a0236e390fbe3f783c9bd77ef9ebfc6b2":[6,0,0,143,0],
-"struct_acts_1_1_extended_surface.html#a0236e390fbe3f783c9bd77ef9ebfc6b2":[8,0,0,148,0],
-"struct_acts_1_1_extended_surface.html#affe110213080b32b047027c2719c437b":[6,0,0,143,1]
+"struct_acts_1_1_extended_surface.html#a0236e390fbe3f783c9bd77ef9ebfc6b2":[8,0,0,148,0]
 };

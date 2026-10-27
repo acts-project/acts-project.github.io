@@ -1,5 +1,6 @@
 var NAVTREEINDEX57 =
 {
+"struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a1629a9cbe538a715b312842aa112c1fa":[6,0,0,1,23,0,31],
 "struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a1629a9cbe538a715b312842aa112c1fa":[8,0,0,2,23,0,31],
 "struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a1d45d55cf63a80ef351e4863f75b1e26":[6,0,0,1,23,0,12],
 "struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a1d45d55cf63a80ef351e4863f75b1e26":[8,0,0,2,23,0,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX57 =
 "struct_acts_1_1_experimental_1_1_gx2_fitter_extensions.html#acfffc4044d5aa391e7da659ab5b8d8f1":[5,13,6,0],
 "struct_acts_1_1_experimental_1_1_gx2_fitter_extensions.html#ad57ca0a72ed7e987aef26bc2f73bfaca":[5,13,6,4],
 "struct_acts_1_1_experimental_1_1_gx2_fitter_extensions.html#ad9d882f2ac3bf3143eeb84fa1dbd84fb":[5,13,6,1],
-"struct_acts_1_1_experimental_1_1_gx2_fitter_extensions.html#af7398d5398563450d5541ee7caa8867d":[5,13,6,3],
-"struct_acts_1_1_experimental_1_1_gx2_fitter_options.html":[5,13,7]
+"struct_acts_1_1_experimental_1_1_gx2_fitter_extensions.html#af7398d5398563450d5541ee7caa8867d":[5,13,6,3]
 };
