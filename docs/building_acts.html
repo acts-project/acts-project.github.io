@@ -515,6 +515,11 @@ level above certain threshold<br  />
 <ul>
 <li><span class="tt">dev</span> as a base for developer configurations. This enables everything necessary for running the ODD full chain examples with Fatras. It sets the cpp standard to 20, the generator to ninja and enables ccache.</li>
 <li><span class="tt">perf</span> is similar to <span class="tt">dev</span> but tweaked for performance measurements.</li>
+<li><span class="tt">github-ci</span> reproduces the GitHub CI configuration and enables ccache.</li>
+<li><p class="startli"><span class="tt">github-ci-no-ccache</span> inherits the same configuration but clears the C++ compiler launcher, so it can be used locally without installing ccache:</p>
+<div class="fragment"><div class="line">cmake --preset github-ci-no-ccache -B build</div>
+</div><!-- fragment --><p class="startli">All other CI dependencies are still required. The <span class="tt">dev</span>, <span class="tt">perf</span>, <span class="tt">devcontainer</span>, and <span class="tt">github-ci</span> presets continue to enable ccache by default.</p>
+</li>
 </ul>
 <p>In addition to the ACTS-specific options, many generic options are available that modify various aspects of the build. The following options are some of the most common ones. For more details, have a look at the annotated list of <a href="https://gitlab.kitware.com/cmake/community/-/wikis/doc/cmake/Useful-Variables">useful CMake variables</a> or at the <a href="https://cmake.org/documentation/">CMake documentation</a>.</p>
 <table class="markdownTable">
