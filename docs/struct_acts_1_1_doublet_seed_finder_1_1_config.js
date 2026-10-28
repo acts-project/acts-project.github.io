@@ -1,6 +1,7 @@
 var struct_acts_1_1_doublet_seed_finder_1_1_config =
 [
     [ "ExperimentCuts", "struct_acts_1_1_doublet_seed_finder_1_1_config.html#a48c63c4965469737f8079ae954973e31", null ],
+    [ "absDeltaZMax", "struct_acts_1_1_doublet_seed_finder_1_1_config.html#a87f0d0d9f9366ab420ff3a457aa8bb03", null ],
     [ "candidateDirection", "struct_acts_1_1_doublet_seed_finder_1_1_config.html#a982c16eae24d48046e7bbd5c6103c3b1", null ],
     [ "collisionRegionMax", "struct_acts_1_1_doublet_seed_finder_1_1_config.html#a6d4eb9462a764393ed21d3866748f112", null ],
     [ "collisionRegionMin", "struct_acts_1_1_doublet_seed_finder_1_1_config.html#ae3031ae1c7d2be8cdc4f37f7610e9ef4", null ],

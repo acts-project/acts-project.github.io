@@ -1,5 +1,7 @@
 var NAVTREEINDEX71 =
 {
+"struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#ab4841249faa891db39e229526126b9a5":[5,10,2,4,0,1],
+"struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#ac4b93c13488edaf078946e67b569ae97":[5,10,2,4,0,8],
 "struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#ad90d3f801f2e2f0579eed0e6802ace2d":[5,10,2,4,0,0],
 "struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#ae407fba068d235278a6a87f64418d820":[5,10,2,4,0,5],
 "struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#afac3b7f29c40e1518e2f645ceba0a328":[5,10,2,4,0,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX71 =
 "struct_acts_plugins_1_1_root_measurement_io_1_1_config.html":[5,10,12,5,0],
 "struct_acts_plugins_1_1_root_measurement_io_1_1_config.html#ad54234ccae6a0f195c01e7059479fbe5":[5,10,12,5,0,0],
 "struct_acts_plugins_1_1_svg_1_1_grid_converter_1_1_options.html":[5,10,0,2],
-"struct_acts_plugins_1_1_svg_1_1_grid_converter_1_1_options.html#a3f9dbb831a713b84ee7417d376f1d53e":[5,10,0,2,0],
-"struct_acts_plugins_1_1_svg_1_1_grid_converter_1_1_options.html#ac477033394f51210e086881ae91f136c":[5,10,0,2,1],
-"struct_acts_plugins_1_1_svg_1_1_indexed_surfaces_converter_1_1_options.html":[5,10,0,3]
+"struct_acts_plugins_1_1_svg_1_1_grid_converter_1_1_options.html#a3f9dbb831a713b84ee7417d376f1d53e":[5,10,0,2,0]
 };

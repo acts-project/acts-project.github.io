@@ -1,5 +1,7 @@
 var NAVTREEINDEX70 =
 {
+"struct_acts_fatras_1_1_generic_scattering.html":[6,0,2,15],
+"struct_acts_fatras_1_1_generic_scattering.html":[8,0,1,16],
 "struct_acts_fatras_1_1_generic_scattering.html#a8c8ca0f50c8b48e3bb609435bebd6bb4":[6,0,2,15,1],
 "struct_acts_fatras_1_1_generic_scattering.html#a8c8ca0f50c8b48e3bb609435bebd6bb4":[8,0,1,16,1],
 "struct_acts_fatras_1_1_generic_scattering.html#acbf88e3ce268e5cb0a4e450969285d06":[6,0,2,15,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX70 =
 "struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#a39382c3602ab7220160b93c2d9f20d0d":[5,10,2,4,0,9],
 "struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#a42614b6f83572179ab729f1397edc79f":[5,10,2,4,0,3],
 "struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#a6b994c0a72ff176b5c7f7bf584e899f1":[5,10,2,4,0,2],
-"struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#a9e07727e9fdebb3422d66d64d554d5c6":[5,10,2,4,0,7],
-"struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#ab4841249faa891db39e229526126b9a5":[5,10,2,4,0,1],
-"struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#ac4b93c13488edaf078946e67b569ae97":[5,10,2,4,0,8]
+"struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#a9e07727e9fdebb3422d66d64d554d5c6":[5,10,2,4,0,7]
 };

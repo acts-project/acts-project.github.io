@@ -1,5 +1,7 @@
 var NAVTREEINDEX60 =
 {
+"struct_acts_1_1_grid_axis_generators_1_1_eq.html#a1d1600b8cf9d1dc38118e9eba1ad95fc":[8,0,0,4,0,2],
+"struct_acts_1_1_grid_axis_generators_1_1_eq.html#a5522b2c551f0efb95d8d01aaa961f1ad":[6,0,0,2,0,3],
 "struct_acts_1_1_grid_axis_generators_1_1_eq.html#a5522b2c551f0efb95d8d01aaa961f1ad":[8,0,0,4,0,3],
 "struct_acts_1_1_grid_axis_generators_1_1_eq.html#a575e52bc6e3c9537fd0895ce5dc385e7":[6,0,0,2,0,4],
 "struct_acts_1_1_grid_axis_generators_1_1_eq.html#a575e52bc6e3c9537fd0895ce5dc385e7":[8,0,0,4,0,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX60 =
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_config.html#afcbd533e4dbda82ae2840af4cf8af76a":[6,0,0,4,0,3,1],
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_config.html#afcbd533e4dbda82ae2840af4cf8af76a":[8,0,0,5,0,3,1],
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_sliding_window_config.html":[6,0,0,4,0,4],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_sliding_window_config.html":[8,0,0,5,0,4],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_sliding_window_config.html#a253244c57511acc720daa252ceac69e4":[6,0,0,4,0,4,2],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_sliding_window_config.html#a253244c57511acc720daa252ceac69e4":[8,0,0,5,0,4,2]
+"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_sliding_window_config.html":[8,0,0,5,0,4]
 };
