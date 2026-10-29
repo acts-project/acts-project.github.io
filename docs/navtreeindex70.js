@@ -1,5 +1,11 @@
 var NAVTREEINDEX70 =
 {
+"struct_acts_fatras_1_1_free_parameters_smearer.html#aea744b622f3e8b5a63ac4443b8a5204a":[6,0,2,14,4],
+"struct_acts_fatras_1_1_free_parameters_smearer.html#aea744b622f3e8b5a63ac4443b8a5204a":[8,0,1,15,4],
+"struct_acts_fatras_1_1_free_parameters_smearer.html#af0bb8a30c2c479d324e87a2a53561d6a":[6,0,2,14,5],
+"struct_acts_fatras_1_1_free_parameters_smearer.html#af0bb8a30c2c479d324e87a2a53561d6a":[8,0,1,15,5],
+"struct_acts_fatras_1_1_free_parameters_smearer.html#afc6c8a49cf95a26569c04c9efc6e9304":[6,0,2,14,2],
+"struct_acts_fatras_1_1_free_parameters_smearer.html#afc6c8a49cf95a26569c04c9efc6e9304":[8,0,1,15,2],
 "struct_acts_fatras_1_1_generic_scattering.html":[6,0,2,15],
 "struct_acts_fatras_1_1_generic_scattering.html":[8,0,1,16],
 "struct_acts_fatras_1_1_generic_scattering.html#a8c8ca0f50c8b48e3bb609435bebd6bb4":[6,0,2,15,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX70 =
 "struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_options.html#a573ce1e7205ac96f57a26efb476fdf9c":[5,10,2,2,2,1],
 "struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_options.html#a63aac6057bcb106cf3cbce966134fc5b":[5,10,2,2,2,2],
 "struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_options.html#a9c093f6b2fa77b483108af0d7cc7a118":[5,10,2,2,2,3],
-"struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_options.html#ad9cfd01dfa805920050ebfc701eead27":[5,10,2,2,2,0],
-"struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html":[5,10,2,4,0],
-"struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#a1efc2c517cb942f7de0bf28468f29249":[5,10,2,4,0,6],
-"struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#a39382c3602ab7220160b93c2d9f20d0d":[5,10,2,4,0,9],
-"struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#a42614b6f83572179ab729f1397edc79f":[5,10,2,4,0,3],
-"struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#a6b994c0a72ff176b5c7f7bf584e899f1":[5,10,2,4,0,2],
-"struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#a9e07727e9fdebb3422d66d64d554d5c6":[5,10,2,4,0,7]
+"struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_options.html#ad9cfd01dfa805920050ebfc701eead27":[5,10,2,2,2,0]
 };

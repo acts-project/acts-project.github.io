@@ -1,5 +1,11 @@
 var NAVTREEINDEX67 =
 {
+"struct_acts_1_1_toroid_field_1_1_ect_config.html#a5b4f7d8bb4f9138a3b740f82b271e752":[8,0,0,416,3,6],
+"struct_acts_1_1_toroid_field_1_1_ect_config.html#a6b66b3bccc67295715e58a49591edb48":[6,0,0,411,3,4],
+"struct_acts_1_1_toroid_field_1_1_ect_config.html#a6b66b3bccc67295715e58a49591edb48":[8,0,0,416,3,4],
+"struct_acts_1_1_toroid_field_1_1_ect_config.html#aa5cd9cd3d2ebdb4be7cd0d5c8ba7744d":[6,0,0,411,3,5],
+"struct_acts_1_1_toroid_field_1_1_ect_config.html#aa5cd9cd3d2ebdb4be7cd0d5c8ba7744d":[8,0,0,416,3,5],
+"struct_acts_1_1_toroid_field_1_1_ect_config.html#ab7efa4dd0f909d2212a84999f40dd3e9":[6,0,0,411,3,3],
 "struct_acts_1_1_toroid_field_1_1_ect_config.html#ab7efa4dd0f909d2212a84999f40dd3e9":[8,0,0,416,3,3],
 "struct_acts_1_1_toroid_field_1_1_ect_config.html#abc66cb89acd022170db77d1592f3d1e3":[6,0,0,411,3,2],
 "struct_acts_1_1_toroid_field_1_1_ect_config.html#abc66cb89acd022170db77d1592f3d1e3":[8,0,0,416,3,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX67 =
 "struct_acts_1_1_tracking_geometry_material.html#a52086c01dc01180fc2bb5e7f79601544":[8,0,0,423,10],
 "struct_acts_1_1_tracking_geometry_material.html#a533912fd1d8d8f15e151b262df7994ad":[6,0,0,418,5],
 "struct_acts_1_1_tracking_geometry_material.html#a533912fd1d8d8f15e151b262df7994ad":[8,0,0,423,5],
-"struct_acts_1_1_tracking_geometry_material.html#a748f830b943799d955c4d2f01bc32185":[6,0,0,418,11],
-"struct_acts_1_1_tracking_geometry_material.html#a748f830b943799d955c4d2f01bc32185":[8,0,0,423,11],
-"struct_acts_1_1_tracking_geometry_material.html#a812de9fe858dffe120135bff3335ed47":[6,0,0,418,0],
-"struct_acts_1_1_tracking_geometry_material.html#a812de9fe858dffe120135bff3335ed47":[8,0,0,423,0],
-"struct_acts_1_1_tracking_geometry_material.html#a896e3d34684bc7bf4672b308712e842b":[6,0,0,418,3],
-"struct_acts_1_1_tracking_geometry_material.html#a896e3d34684bc7bf4672b308712e842b":[8,0,0,423,3],
-"struct_acts_1_1_tracking_geometry_material.html#acc2ccd1fe7da279ae7d01f64d6e30106":[6,0,0,418,4]
+"struct_acts_1_1_tracking_geometry_material.html#a748f830b943799d955c4d2f01bc32185":[6,0,0,418,11]
 };

@@ -1,5 +1,11 @@
 var NAVTREEINDEX60 =
 {
+"struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#ad13627e4e2fb866fc3f547929ce57122":[8,0,0,177,1,0],
+"struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#aff82b43b9e5efed0689fc66f7833aa03":[6,0,0,172,1,7],
+"struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#aff82b43b9e5efed0689fc66f7833aa03":[8,0,0,177,1,7],
+"struct_acts_1_1_grid_axis_generators_1_1_eq.html":[6,0,0,2,0],
+"struct_acts_1_1_grid_axis_generators_1_1_eq.html":[8,0,0,4,0],
+"struct_acts_1_1_grid_axis_generators_1_1_eq.html#a1d1600b8cf9d1dc38118e9eba1ad95fc":[6,0,0,2,0,2],
 "struct_acts_1_1_grid_axis_generators_1_1_eq.html#a1d1600b8cf9d1dc38118e9eba1ad95fc":[8,0,0,4,0,2],
 "struct_acts_1_1_grid_axis_generators_1_1_eq.html#a5522b2c551f0efb95d8d01aaa961f1ad":[6,0,0,2,0,3],
 "struct_acts_1_1_grid_axis_generators_1_1_eq.html#a5522b2c551f0efb95d8d01aaa961f1ad":[8,0,0,4,0,3],
@@ -243,11 +249,5 @@ var NAVTREEINDEX60 =
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_1_1_maximum.html#af74ac7e2ae6c39eb650bc7fc5c2e3378":[6,0,0,4,0,2,0,0],
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_1_1_maximum.html#af74ac7e2ae6c39eb650bc7fc5c2e3378":[8,0,0,5,0,2,0,0],
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_config.html":[6,0,0,4,0,3],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_config.html":[8,0,0,5,0,3],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_config.html#a0bb0a43a8213494fd646cafe5e6107a1":[6,0,0,4,0,3,0],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_config.html#a0bb0a43a8213494fd646cafe5e6107a1":[8,0,0,5,0,3,0],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_config.html#afcbd533e4dbda82ae2840af4cf8af76a":[6,0,0,4,0,3,1],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_config.html#afcbd533e4dbda82ae2840af4cf8af76a":[8,0,0,5,0,3,1],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_sliding_window_config.html":[6,0,0,4,0,4],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_sliding_window_config.html":[8,0,0,5,0,4]
+"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_config.html":[8,0,0,5,0,3]
 };
