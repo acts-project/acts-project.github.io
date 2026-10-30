@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['layer_20combinatorics_20functions_0',['layer combinatorics functions',['../_combinatorial_seed_solver_8hpp.html#autotoc_md169',1,'The 3-layer combinatorics functions'],['../_combinatorial_seed_solver_8hpp.html#autotoc_md168',1,'The 4-layer combinatorics functions']]],
+  ['layer_20combinatorics_20functions_0',['layer combinatorics functions',['../_combinatorial_seed_solver_8hpp.html#autotoc_md170',1,'The 3-layer combinatorics functions'],['../_combinatorial_seed_solver_8hpp.html#autotoc_md169',1,'The 4-layer combinatorics functions']]],
   ['layer_20connections_1',['Geometry and layer connections',['../group__gbts.html#gbts-geometry',1,'']]],
-  ['layout_2',['Document layout',['../material_map_json_format.html#autotoc_md149',1,'']]],
+  ['layout_2',['Document layout',['../material_map_json_format.html#autotoc_md150',1,'']]],
   ['lcg_20release_20on_20cvmfs_3',['With a LCG release on CVMFS',['../building_acts.html#autotoc_md93',1,'']]],
   ['learning_20assisted_20acceptance_4',['Machine-learning assisted acceptance',['../group__gbts.html#gbts-ml',1,'']]],
   ['length_20correction_5',['The path-length correction',['../codegen_sympy_jac.html#autotoc_md86',1,'']]],
@@ -11,7 +11,7 @@ var searchData=
   ['levels_8',['Chain levels',['../group__gbts.html#gbts-levels',1,'']]],
   ['libraries_20when_20compiling_9',['Link gperftools Libraries When Compiling',['../howto_profiling.html#autotoc_md108',1,'']]],
   ['lifetime_20management_10',['Lifetime management',['../group__geometry__module__loading.html#autotoc_md10',1,'']]],
-  ['limitations_20you_20should_20know_20about_11',['Limitations you should know about',['../material_mapping_howto.html#autotoc_md146',1,'']]],
+  ['limitations_20you_20should_20know_20about_11',['Limitations you should know about',['../material_mapping_howto.html#autotoc_md147',1,'']]],
   ['link_20gperftools_20libraries_20when_20compiling_12',['Link gperftools Libraries When Compiling',['../howto_profiling.html#autotoc_md108',1,'']]],
   ['linking_13',['Track state iteration and forward linking',['../group__eventdata__tracks.html#edm_track_iteration',1,'']]],
   ['live_14',['Where the reference files live',['../physmon.html#autotoc_md101',1,'']]],

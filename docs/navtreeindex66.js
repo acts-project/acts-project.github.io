@@ -1,5 +1,6 @@
 var NAVTREEINDEX66 =
 {
+"struct_acts_1_1_stepper_statistics.html#ae685aed4d2954415fe5803111dba5528":[8,0,0,391,4],
 "struct_acts_1_1_straight_line_stepper_1_1_config.html":[6,0,0,387,0],
 "struct_acts_1_1_straight_line_stepper_1_1_config.html":[8,0,0,392,0],
 "struct_acts_1_1_straight_line_stepper_1_1_options.html":[6,0,0,387,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX66 =
 "struct_acts_1_1_toroid_field_1_1_config.html#ab317a29fee1668b917ac5676dd200e27":[6,0,0,411,2,4],
 "struct_acts_1_1_toroid_field_1_1_config.html#ab317a29fee1668b917ac5676dd200e27":[8,0,0,416,2,4],
 "struct_acts_1_1_toroid_field_1_1_ect_config.html":[6,0,0,411,3],
-"struct_acts_1_1_toroid_field_1_1_ect_config.html":[8,0,0,416,3],
-"struct_acts_1_1_toroid_field_1_1_ect_config.html#a5b4f7d8bb4f9138a3b740f82b271e752":[6,0,0,411,3,6]
+"struct_acts_1_1_toroid_field_1_1_ect_config.html":[8,0,0,416,3]
 };

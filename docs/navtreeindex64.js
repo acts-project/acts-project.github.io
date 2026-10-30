@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"struct_acts_1_1_numerical_track_linearizer_1_1_config.html#ada68a716e489836e3c0d8315a197ca37":[8,0,0,314,0,5],
 "struct_acts_1_1_oriented_surface.html":[6,0,0,312],
 "struct_acts_1_1_oriented_surface.html":[8,0,0,317],
 "struct_acts_1_1_oriented_surface.html#a6d9374c0824ec023104f5546ac47c2ee":[6,0,0,312,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "struct_acts_1_1_proxy_accessor_base.html#a7b57e9b8e173463c16742be7c855e262":[8,0,0,357,1],
 "struct_acts_1_1_proxy_accessor_base.html#a7dad69272a723347e8682fdbf01ee4bb":[6,0,0,352,4],
 "struct_acts_1_1_proxy_accessor_base.html#a7dad69272a723347e8682fdbf01ee4bb":[8,0,0,357,4],
-"struct_acts_1_1_proxy_accessor_base.html#ac52f180a72d793b4be9dac13f39f7b52":[6,0,0,352,3],
-"struct_acts_1_1_proxy_accessor_base.html#ac52f180a72d793b4be9dac13f39f7b52":[8,0,0,357,3]
+"struct_acts_1_1_proxy_accessor_base.html#ac52f180a72d793b4be9dac13f39f7b52":[6,0,0,352,3]
 };

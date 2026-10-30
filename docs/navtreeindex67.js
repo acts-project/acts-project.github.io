@@ -1,5 +1,6 @@
 var NAVTREEINDEX67 =
 {
+"struct_acts_1_1_toroid_field_1_1_ect_config.html#a5b4f7d8bb4f9138a3b740f82b271e752":[6,0,0,411,3,6],
 "struct_acts_1_1_toroid_field_1_1_ect_config.html#a5b4f7d8bb4f9138a3b740f82b271e752":[8,0,0,416,3,6],
 "struct_acts_1_1_toroid_field_1_1_ect_config.html#a6b66b3bccc67295715e58a49591edb48":[6,0,0,411,3,4],
 "struct_acts_1_1_toroid_field_1_1_ect_config.html#a6b66b3bccc67295715e58a49591edb48":[8,0,0,416,3,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX67 =
 "struct_acts_1_1_tracking_geometry_material.html#a52086c01dc01180fc2bb5e7f79601544":[6,0,0,418,10],
 "struct_acts_1_1_tracking_geometry_material.html#a52086c01dc01180fc2bb5e7f79601544":[8,0,0,423,10],
 "struct_acts_1_1_tracking_geometry_material.html#a533912fd1d8d8f15e151b262df7994ad":[6,0,0,418,5],
-"struct_acts_1_1_tracking_geometry_material.html#a533912fd1d8d8f15e151b262df7994ad":[8,0,0,423,5],
-"struct_acts_1_1_tracking_geometry_material.html#a748f830b943799d955c4d2f01bc32185":[6,0,0,418,11]
+"struct_acts_1_1_tracking_geometry_material.html#a533912fd1d8d8f15e151b262df7994ad":[8,0,0,423,5]
 };

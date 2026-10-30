@@ -7,7 +7,7 @@ var searchData=
   ['on_20your_20local_20machine_4',['On your local machine',['../building_acts.html#autotoc_md95',1,'']]],
   ['opendatadetector_5',['The OpenDataDetector',['../building_acts.html#autotoc_md97',1,'']]],
   ['optional_6',['Install Go pprof (Optional)',['../howto_profiling.html#autotoc_md107',1,'']]],
-  ['optional_20quantization_7',['Optional quantization',['../material_map_json_schema.html#autotoc_md160',1,'']]],
+  ['optional_20quantization_7',['Optional quantization',['../material_map_json_schema.html#autotoc_md161',1,'']]],
   ['options_8',['Build options',['../building_acts.html#build-options',1,'']]],
   ['other_20systems_9',['Other Systems',['../howto_profiling.html#autotoc_md105',1,'']]],
   ['output_10',['output',['../group__python__data__io.html#autotoc_md59',1,'Event data input and output'],['../group__gsf.html#gsf-passes',1,'Forward/backward passes and output']]],

@@ -185,6 +185,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ac95000e59ef73cc6bea86fbac598f3c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derive the layer transform from a DD4hep detector element when possible.  <br /></td></tr>
 <tr class="memitem:a56e7a733b6934c09b01a8887afb08f4b" id="r_a56e7a733b6934c09b01a8887afb08f4b"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_static_blueprint_node.html">Acts::StaticBlueprintNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56e7a733b6934c09b01a8887afb08f4b">makeBeampipe</a> () const</td></tr>
 <tr class="memdesc:a56e7a733b6934c09b01a8887afb08f4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a static beampipe blueprint node from the DD4hep world geometry.  <br /></td></tr>
+<tr class="memitem:a7c55ac8e4e0ab2cfad5ad4fb2875dad0" id="r_a7c55ac8e4e0ab2cfad5ad4fb2875dad0"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_static_blueprint_node.html">Acts::StaticBlueprintNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c55ac8e4e0ab2cfad5ad4fb2875dad0">makeMaterialCollector</a> (double rMin, double rMax, double halfLengthZ, double zCenter, const std::string &amp;name) const</td></tr>
+<tr class="memdesc:a7c55ac8e4e0ab2cfad5ad4fb2875dad0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a static blueprint node for a synthetic material-collector volume: a plain tube or annular disc with explicit bounds and no corresponding DD4hep element.  <br /></td></tr>
 <tr class="memitem:ac03f7d4d2f0c505da2cb5ca8ebccf2f8" id="r_ac03f7d4d2f0c505da2cb5ca8ebccf2f8"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::shared_ptr&lt; <a class="el" href="class_acts_1_1_surface.html">Acts::Surface</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac03f7d4d2f0c505da2cb5ca8ebccf2f8">makeSurfaces</a> (std::span&lt; const <a class="el" href="#a48198782c1acc222c7d0ce8d3be0538d">Element</a> &gt; sensitives, const <a class="el" href="struct_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend_1_1_layer_spec.html">LayerSpec</a> &amp;layerSpec) const</td></tr>
 <tr class="memdesc:ac03f7d4d2f0c505da2cb5ca8ebccf2f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a set of DD4hep sensitive elements into ACTS surfaces.  <br /></td></tr>
 <tr class="memitem:a77f4a591e6fb01de96995ebba95f37b7" id="r_a77f4a591e6fb01de96995ebba95f37b7"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77f4a591e6fb01de96995ebba95f37b7">nameOf</a> (const <a class="el" href="#a48198782c1acc222c7d0ce8d3be0538d">Element</a> &amp;element) const</td></tr>
@@ -585,6 +587,55 @@ template&lt;typename... Args&gt; </div>
 
 <p>Create a static beampipe blueprint node from the DD4hep world geometry. </p>
 <dl class="section return"><dt>Returns</dt><dd>Shared pointer to the generated beampipe node. </dd></dl>
+
+</div>
+</div>
+<a id="a7c55ac8e4e0ab2cfad5ad4fb2875dad0" name="a7c55ac8e4e0ab2cfad5ad4fb2875dad0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c55ac8e4e0ab2cfad5ad4fb2875dad0">&#9670;&#160;</a></span>makeMaterialCollector()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_static_blueprint_node.html">Acts::StaticBlueprintNode</a> &gt; ActsPlugins::DD4hep::DD4hepBackend::makeMaterialCollector </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>rMin</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>rMax</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>halfLengthZ</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>zCenter</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>name</em></span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a static blueprint node for a synthetic material-collector volume: a plain tube or annular disc with explicit bounds and no corresponding DD4hep element. </p>
+<p>Used to place bookkeeping surfaces just outside the tracker's own envelope so that, during material mapping, interactions originating in nearby non-tracker material (e.g. in the gap before the calorimeter) are attributed to these surfaces instead of being misattributed to the nearest real tracker surface. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rMin</td><td>Inner radius of the collector volume. </td></tr>
+    <tr><td class="paramname">rMax</td><td>Outer radius of the collector volume. </td></tr>
+    <tr><td class="paramname">halfLengthZ</td><td>Half-length along z of the collector volume. </td></tr>
+    <tr><td class="paramname">zCenter</td><td>Position of the volume's center along z. </td></tr>
+    <tr><td class="paramname">name</td><td>Name for the created volume. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Shared pointer to the generated blueprint node. </dd></dl>
 
 </div>
 </div>

@@ -141,8 +141,10 @@ Material mapping</h1>
 <p>End to end for the Open Data Detector, which already has its surfaces designated and so skips step 1:</p>
 <div class="fragment"><div class="line">python material_recording.py -n 1000 -t 1000 -o odd_material_geant4</div>
 <div class="line">python material_mapping.py -n 1000000 -i odd_material_geant4.root -o odd_material</div>
-<div class="line">python material_validation.py -n 1000 -t 1000 -m odd_material_map.root -o odd_material_validated -p</div>
-</div><!-- fragment --><dl class="section remark"><dt>Remarks</dt><dd>Run these from <span class="tt">Examples/Scripts/Python</span>, or prefix each with <span class="tt">python Examples/Scripts/Python/&lt;script&gt;.py ...</span> from the repository root.</dd></dl>
+<div class="line">python material_validation.py -n 1000 -t 1000 -m odd_material_map.json.zst -o odd_material_validated -p</div>
+</div><!-- fragment --><dl class="section remark"><dt>Remarks</dt><dd>Run these from <span class="tt">Examples/Scripts/Python</span>, or prefix each with <span class="tt">python Examples/Scripts/Python/&lt;script&gt;.py ...</span> from the repository root.</dd>
+<dd>
+All three scripts default to the Gen3 (blueprint) geometry; pass <span class="tt">--gen1</span> to any of them to run against the Gen1 (Layer-based) geometry instead. Recording is independent of the generation (the detailed Geant4 geometry does not change), but mapping and validation build a Gen1 or Gen3 <a class="el" href="class_acts_1_1_tracking_geometry.html">Acts::TrackingGeometry</a> accordingly.</dd></dl>
 <p>The rest of this page walks through the same chain for a detector that does not have a map yet.</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md133"></a>
 Step 1: designate which surfaces carry material</h2>
@@ -224,6 +226,7 @@ Designating material in Gen3</h3>
 <div class="line">});</div>
 </div><!-- fragment --><p>That assigns real material immediately, so there is nothing to map — useful for a beam pipe or a support tube whose material you already know. <span class="tt">GenericDetector</span> uses this throughout (<span class="tt">Examples/Detectors/GenericDetector/src/GenericDetector.cpp</span>).</p>
 <p>These snippets are taken from <span class="tt">docs/examples/material_designation.cpp</span>, which is compiled as part of the <span class="tt">docs-examples</span> target, so they cannot drift from the API.</p>
+<p>For a complete, real detector exercising this end to end — beampipe, passive support structures, barrel/endcap sensitive layers and calorimeter material collectors all designated during construction — see <span class="tt">Plugins/DD4hep/src/OpenDataDetectorBuilder.cpp</span>. It is the Gen3 ODD's blueprint construction and the most complete worked example in the codebase.</p>
 <p>Faces are named per volume-bounds type: <a class="el" href="class_acts_1_1_cylinder_volume_bounds.html#a51216b38aa994bf843ad58377b046a02">Acts::CylinderVolumeBounds::Face</a> (<span class="tt">OuterCylinder</span>, <span class="tt">InnerCylinder</span>, <span class="tt">PositiveDisc</span>, <span class="tt">NegativeDisc</span>), <a class="el" href="class_acts_1_1_cuboid_volume_bounds.html#acbc4cbe27928efcbf0da00457ad799ac">Acts::CuboidVolumeBounds::Face</a> (<span class="tt">NegativeXFace</span>, <span class="tt">PositiveXFace</span>, …) and likewise for trapezoid and diamond bounds.</p>
 <p>Things to know before you use it:</p>
 <ul>
@@ -232,10 +235,18 @@ Designating material in Gen3</h3>
 <li><b>Python only exposes the mapping form.</b> The bindings in <span class="tt">Python/Core/src/GeometryGen3.cpp</span> bind the two-axis <span class="tt">configureFace</span> overloads for cylinder and cuboid faces. The direct-<span class="tt">ISurfaceMaterial</span> overloads are C++ only.</li>
 <li><b>Do not designate a face that gets merged.</b> If a designated portal face has to be merged during container stacking, construction aborts: the material cannot be carried onto the larger merged surface. Move the designation to a face that is not merged, typically the enclosing container's face. Setting <a class="el" href="struct_acts_1_1_blueprint_options.html#a5d800ff7d1c38110ad91682574f6912d">Acts::BlueprintOptions::keepGoingOnMaterialMergeFailure</a> downgrades this to a warning, but it is lossy — the material is discarded and the surface is tagged with a <a class="el" href="class_acts_1_1_merged_material_marker.html">Acts::MergedMaterialMarker</a>. Treat it as a debugging aid, not a fix.</li>
 </ul>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md139"></a>
+Passive volumes and material collectors</h3>
+<p><a class="el" href="class_acts_1_1_material_designator_blueprint_node.html#af9eeefbca8d105db39d5e32dfe42f4bf">configureFace</a> marks up faces of a blueprint node that already exists. Two helpers create such nodes in the first place, for volumes that carry material but have no sensitive detector elements of their own:</p>
+<ul>
+<li><a class="el" href="class_acts_1_1_blueprint_builder.html#ac46c9433a039c6f0711e8ad4e3e6eec0">BlueprintBuilder::makePassiveElement</a> converts a passive detector element (e.g. the ODD's support tube, or its pixel endplates) into a plain tube- or disc-shaped <a class="el" href="class_acts_1_1_static_blueprint_node.html">Acts::StaticBlueprintNode</a>, as opposed to a node assembled from sensitive surfaces. The resulting node can then be wrapped in <a class="el" href="class_acts_1_1_blueprint_node.html#a391edff813e41afb29fe9e956fe08cf7">addMaterial</a> like any other. It is available for every blueprint backend that can describe a passive element as a volume (<span class="tt">passiveVolume()</span>); currently that is <a class="el" href="class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html">DD4hepBackend</a> and <a class="el" href="class_acts_plugins_1_1_t_geo_blueprint_builder_backend.html">TGeoBlueprintBuilderBackend</a>, which share the shape conversion in <a class="el" href="struct_acts_plugins_1_1_t_geo_surface_converter.html#a11967f3c3d14c8bb05485422cb63d657">TGeoSurfaceConverter::cylinderVolume</a>.</li>
+<li><a class="el" href="class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#a7c55ac8e4e0ab2cfad5ad4fb2875dad0">DD4hepBackend::makeMaterialCollector</a> creates a synthetic volume with no corresponding DD4hep element at all: a catch-all surface placed just outside the tracker envelope, so that material mapping attributes interactions in nearby non-tracker material (e.g. the gap before the calorimeter) to a dedicated surface instead of misattributing them to the nearest real tracker surface. See <span class="tt">addCaloMaterialCollector</span>/<span class="tt">addCaloMaterialCollectorDisc</span> in <span class="tt">OpenDataDetectorBuilder.cpp</span> for how the ODD uses this for its calorimeter.</li>
+</ul>
+<p>The material collector is currently DD4hep-only: the TGeo blueprint backend (<a class="el" href="class_acts_plugins_1_1_t_geo_blueprint_builder_backend.html">ActsPlugins::TGeoBlueprintBuilderBackend</a>) has no material-collector helper yet.</p>
 <dl class="section warning"><dt>Warning</dt><dd>Blueprint-built geometry ignores material decorators. <a class="el" href="class_acts_1_1_blueprint.html#abdc9304ec9db7cb127e7e0a044690507">Acts::Blueprint::construct</a> passes a null decorator to the <a class="el" href="class_acts_1_1_tracking_geometry.html">Acts::TrackingGeometry</a> constructor, so the <span class="tt">--matconfig</span> / <a class="el" href="class_acts_1_1_i_material_decorator.html">Acts::IMaterialDecorator</a> route in steps 1 and 3 has no effect on a Gen3 geometry. Concretely, <span class="tt">getOpenDataDetector(gen3=True)</span> builds its decorator and then drops it (<span class="tt">Python/Examples/python/odd.py</span>), and the Gen3 <span class="tt">OpenDataDetector</span> config has no <span class="tt">materialDecorator</span> field at all. Designating in the blueprint is currently the only route.</dd></dl>
 <p>Once construction is done the two generations converge completely. The designated material sits on ordinary surfaces, so <span class="tt">hasMaterial()</span> is true, <span class="tt">trackingGeometry.extractMaterialSurfaces()</span> collects them, and <a class="el" href="class_acts_1_1_binned_surface_material_accumulator.html">Acts::BinnedSurfaceMaterialAccumulator</a> consumes <a class="el" href="group__material.html#gaee4b3702e1722a63aab1022d8709175d">Acts::ProtoGridSurfaceMaterial</a> alongside <a class="el" href="group__material.html#gabad517c3d330be68557175bbe3e71402">Acts::ProtoSurfaceMaterial</a>. Steps 2 to 5 below are unchanged — just omit <span class="tt">--matconfig</span> in step 3, since the geometry already carries the designation.</p>
 <p><a class="anchor" id="material_mapping_stable_keys"></a></p>
-<h4 class="doxsection"><a class="anchor" id="autotoc_md139"></a>
+<h4 class="doxsection"><a class="anchor" id="autotoc_md140"></a>
 Stable surface assignment keys</h4>
 <p>The <a class="el" href="class_acts_1_1_axis_spec.html">Acts::AxisSpec</a> overloads of <a class="el" href="class_acts_1_1_material_designator_blueprint_node.html#af9eeefbca8d105db39d5e32dfe42f4bf">Acts::MaterialDesignatorBlueprintNode::configureFace</a> accept an optional trailing key for proto materials. Existing calls without a key continue to use geometry identifiers:</p>
 <div class="fragment"><div class="line"><span class="keyword">using </span><a class="code hl_class" href="class_acts_1_1_axis_spec.html">Acts::AxisSpec</a>;</div>
@@ -257,12 +268,12 @@ Stable surface assignment keys</h4>
 <li>An explicit vacuum payload is a valid assignment; an absent payload is not.</li>
 </ul>
 <p>For the serialized representation, see <a class="el" href="material_map_json_format.html">Material map JSON format</a>.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md140"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md141"></a>
 Step 2: record the material with Geant4</h2>
 <div class="fragment"><div class="line">python Examples/Scripts/Python/material_recording.py -n 1000 -t 1000 -o mydet_geant4</div>
 </div><!-- fragment --><p>Shoots geantinos through the <em>detailed</em> geometry and records what they traverse, into <span class="tt">mydet_geant4.root</span>. <span class="tt">-n</span> is events, <span class="tt">-t</span> is tracks per event, so the above is a million tracks; <span class="tt">--eta-range</span> and <span class="tt">--phi-range</span> restrict the solid angle.</p>
 <p>This step is independent of your surface choices — you only need to redo it if the detailed geometry changes, not when you retune binning. It is by far the slowest step, so record generously once and reuse the file.</p>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md141"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md142"></a>
 Recording a DD4hep detector with ddsim</h3>
 <p>For a DD4hep detector, the recording can also run directly in <span class="tt">ddsim</span>, on the same Geant4 geometry DDG4 builds for the full simulation. Two DDG4 actions in the <span class="tt">ActsPluginDD4hepGeant4</span> library do this: the <span class="tt">ActsMaterialRecorder</span> stepping action collects the material tracks, and the <span class="tt">ActsMaterialTrackWriter</span> event action writes them in the same file format as above. The library is built when both the DD4hep and the Geant4 plugins are enabled and DD4hep comes with DDG4. With it on <span class="tt">LD_LIBRARY_PATH</span>, e.g. after sourcing <span class="tt">this_acts.sh</span>:</p>
 <div class="fragment"><div class="line">ddsim --steeringFile Examples/Scripts/Python/material_recording_ddsim.py \</div>
@@ -270,7 +281,7 @@ Recording a DD4hep detector with ddsim</h3>
 </div><!-- fragment --><p>The steering file shoots 1000 geantinos per event, uniform in \(|\eta| &lt; 4\); the gun can be adjusted on the command line, e.g. with <span class="tt">--gun.multiplicity</span>, <span class="tt">--gun.etaMin</span> and <span class="tt">--gun.etaMax</span>. With <span class="tt">--numberOfThreads</span>, which <span class="tt">ddsim</span> offers from DD4hep 1.38, all threads write into the single output file. Every simulated track gets an entry, also if it crosses no recorded material.</p>
 <p>The mapping assigns every recorded step to a surface, so material beyond the outermost material surfaces, e.g. in the calorimeters, ends up on them. To avoid this, limit the recording to a cylinder around the beam axis, e.g. at the calorimeter face, with <span class="tt">--outputConfig.recordingMaxR</span>, <span class="tt">--outputConfig.recordingMinZ</span> and <span class="tt">--outputConfig.recordingMaxZ</span> in mm. The z range does not need to be symmetric, and a bound that is not given does not limit the recording. Tracks are stopped where they leave the cylinder, and the step that crosses its boundary is cut there, which also makes the recording faster.</p>
 <p>To compare two recordings track by track, they need the same geantinos. For example, add a <span class="tt">HepMC3Writer</span> for the generated event to <span class="tt">material_recording.py</span>, and replay the resulting HepMC3 file in <span class="tt">ddsim</span> with <span class="tt">--inputFiles</span> instead of the particle gun, by setting <span class="tt">SIM.enableGun = False</span> in a copy of the steering file.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md142"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md143"></a>
 Step 3: run the mapping</h2>
 <div class="fragment"><div class="line">python Examples/Scripts/Python/material_mapping.py \</div>
 <div class="line">    -n 1000000 -i mydet_geant4.root --matconfig geometry-map.json -o mydet_material</div>
@@ -285,14 +296,18 @@ Step 3: run the mapping</h2>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><span class="tt">mydet_material_map.json</span>  </td><td class="markdownTableBodyNone">the material map, human-readable  </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><span class="tt">mydet_material_map.root</span>  </td><td class="markdownTableBodyNone">the same map, for production use  </td></tr>
+<td class="markdownTableBodyNone"><span class="tt">mydet_material_map.root</span>  </td><td class="markdownTableBodyNone">the same map, for production use — <b>Gen1 only, see below</b>  </td></tr>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><span class="tt">mydet_material_mapped.root</span>  </td><td class="markdownTableBodyNone">recorded interactions that found a surface  </td></tr>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><span class="tt">mydet_material_unmapped.root</span>  </td><td class="markdownTableBodyNone">recorded interactions that did not  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">mydet_material_eta_distance.svg</span>  </td><td class="markdownTableBodyNone">diagnostic plot: mapping distance vs. η  </td></tr>
 </table>
+<dl class="section important"><dt>Important</dt><dd><b>On Gen3, <span class="tt">_map.root</span> is not written at all.</b> Gen3 faces carry stable material keys (see <a class="el" href="#material_mapping_stable_keys">above</a>), and the ROOT material-map writer rejects any map containing keyed surfaces (<span class="tt">Plugins/Root/src/RootMaterialMapIo.cpp</span>) — Gen3 maps are JSON-only. <span class="tt">material_mapping.py</span> sets this automatically (it only calls <span class="tt">RootMaterialWriter</span> when running with <span class="tt">--gen1</span>), so if you omit <span class="tt">--gen1</span>, pass the resulting <span class="tt">_map.json</span> to <span class="tt">--matconfig</span>/your own decorator, not <span class="tt">_map.root</span>. Gen1 never sets keys, so <span class="tt">.root</span> stays available there.</dd></dl>
 <p><span class="tt">_unmapped.root</span> is the one to look at when something is wrong. A large unmapped fraction means the material had nowhere to go — see <a class="el" href="#material_mapping_howto_troubleshooting">Troubleshooting</a>.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md143"></a>
+<dl class="section note"><dt>Note</dt><dd>The <span class="tt">eta_distance.svg</span> plot is only produced when running <span class="tt">material_mapping.py</span> as a script — it comes from <span class="tt">plotEtaSurfaceDistance()</span>, called in its <span class="tt">__main__</span> block after the mapping sequencer has run and the map has been written. If you call <span class="tt">runMaterialMapping()</span> yourself as a library function, you do not get it for free. On Gen3, the plot excludes the ODD's calorimeter collector surfaces (see <a class="el" href="#material_mapping_howto_gen3">above</a>), since they are catch-alls rather than real mapping locations and would otherwise skew the distance distribution.</dd></dl>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md144"></a>
 Step 4: use the map</h2>
 <div class="fragment"><div class="line"><span class="keyword">import</span> acts</div>
 <div class="line"><span class="keyword">from</span> acts.examples.odd <span class="keyword">import</span> getOpenDataDetectorDirectory, getOpenDataDetector</div>
@@ -304,11 +319,12 @@ Step 4: use the map</h2>
 <div class="line">detector = getOpenDataDetector(materialDecorator=decorator)</div>
 <div class="line">trackingGeometry = detector.trackingGeometry()</div>
 </div><!-- fragment --><p>Substitute your own detector and the map you just produced. This snippet comes from <span class="tt">docs/examples/test_material_map.py</span>, which runs as part of the pytest suite.</p>
-<p><span class="tt">.json</span>, <span class="tt">.cbor</span> and <span class="tt">.root</span> are all accepted. This is exactly how the ODD picks up <span class="tt">data/odd-material-maps.root</span> by default.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md144"></a>
+<p><span class="tt">.json</span>, <span class="tt">.cbor</span> and <span class="tt">.root</span> are all accepted. This is exactly how the Gen1 ODD picks up <span class="tt">data/odd-material-maps.root</span> by default.</p>
+<p>For the Gen3 ODD, loading works slightly differently from the generic snippet above. <span class="tt">getOpenDataDetector(gen3=True, materialDecorator=...)</span> (<span class="tt">Python/Examples/python/odd.py</span>) first builds the detector without material, then pulls <span class="tt">materialDecorator.materialMaps</span> out of the given decorator and applies it to the constructed geometry with <a class="el" href="struct_acts_1_1_tracking_geometry_material.html#acc2ccd1fe7da279ae7d01f64d6e30106">TrackingGeometryMaterial::apply()</a>, now that geometry identifiers are assigned. This replaces the designated proto material in place. Unlike Gen1, there is no default material map for the Gen3 ODD — it is only applied when a decorator is explicitly passed in. The shipped <span class="tt">data/odd-material-maps.root</span> cannot be used for this: it is an <em>unkeyed</em> map, indexed by the Gen1 geometry's own identifiers, while Gen3 requires a matching keyed entry for every designated face and has no ID fallback (see <a class="el" href="#material_mapping_stable_keys">above</a>) — applying it raises <span class="tt">Missing material for key '...'</span>. To get a map that actually works for Gen3, run <a class="el" href="material_mapping_howto.html">steps 2-3</a> above (<span class="tt">material_recording.py</span> + <span class="tt">material_mapping.py</span>, both default to Gen3) to produce a fresh <span class="tt">_map.json</span>, and pass that.</p>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md145"></a>
 Step 5: validate</h2>
 <div class="fragment"><div class="line">python Examples/Scripts/Python/material_validation.py \</div>
-<div class="line">    -n 1000 -t 1000 -m mydet_material_map.root -o mydet_validated -p</div>
+<div class="line">    -n 1000 -t 1000 -m mydet_material_map.json -o mydet_validated -p</div>
 </div><!-- fragment --><p>This re-records material, now from your mapped map instead of from Geant4, so you can compare the two. <span class="tt">-p</span> additionally runs a real propagator with a navigator and writes <span class="tt">mydet_validated_propagated.root</span>.</p>
 <p>Comparing the default and <span class="tt">-p</span> outputs is worth doing: the default collection is navigation-independent, so a difference between them is a <em>navigation</em> problem (material the navigator does not reach), not a mapping problem.</p>
 <p>To compare against the Geant4 input:</p>
@@ -320,7 +336,7 @@ Step 5: validate</h2>
 <img src="overlay_profile_ratio_v_eta_t_X0.png" alt=""/>
 <div class="caption">
 Overlay and ratio for material profiles.</div></div>
-    <h2 class="doxsection"><a class="anchor" id="autotoc_md145"></a>
+    <h2 class="doxsection"><a class="anchor" id="autotoc_md146"></a>
 Tuning</h2>
 <p>Iterating on binning does <b>not</b> require re-recording. Edit <span class="tt">config-map.json</span>, re-run <span class="tt">configureMap.py</span> and step 3 against the same recorded file.</p>
 <p>Rules of thumb:</p>
@@ -330,20 +346,21 @@ Tuning</h2>
 <li>Check <span class="tt">_unmapped.root</span> after every change, not just at the end.</li>
 </ul>
 <p><a class="anchor" id="material_mapping_howto_limits"></a></p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md146"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md147"></a>
 Limitations you should know about</h2>
 <p>These are properties of the current navigation-less mapper, not of your setup.</p>
 <p><b>Volume material is not produced.</b> <a class="el" href="class_acts_1_1_material_mapper.html">Acts::MaterialMapper</a> retrieves volume assignments from the assignment finder and then discards them; only surface material is accumulated, and <span class="tt">finalizeMaps()</span> returns an empty volume map (<span class="tt">Core/src/Material/MaterialMapper.cpp</span>). ACTS currently has no way to map volume material.</p>
 <p><b><span class="tt">mappingType</span> is not honoured.</b> The <span class="tt">"mappingType"</span> key round-trips through the JSON and is stored on the material, but the current assignment does plain nearest-intersection matching — its own comment says <em>"no pre/post matching"</em> (<span class="tt">Core/src/Material/MaterialInteractionAssignment.cpp</span>). <span class="tt">PreMapping</span>, <span class="tt">PostMapping</span> and <span class="tt">Sensor</span> have no effect. To steer assignment, use the <span class="tt">globalVetos</span>, <span class="tt">localVetos</span> and <span class="tt">reAssignments</span> hooks in <a class="el" href="struct_acts_1_1_material_interaction_assignment_1_1_options.html">Acts::MaterialInteractionAssignment::Options</a>.</p>
 <p><a class="anchor" id="material_mapping_howto_troubleshooting"></a></p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md147"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md148"></a>
 Troubleshooting</h2>
 <p><b>Everything lands in <span class="tt">_unmapped.root</span>.</b> Nothing was designated. On Gen1, confirm that <span class="tt">geometry-map.json</span> actually contains <span class="tt">"mapMaterial": true</span> somewhere — if you forgot <span class="tt">processNonMaterial=True</span> in step 1a, or forgot to run <span class="tt">configureMap.py</span> in step 1d, the file will be syntactically fine and semantically empty. On Gen3, check that you are not passing <span class="tt">--matconfig</span> and expecting it to do something: blueprint geometry ignores decorators, so the designation has to be in the blueprint itself.</p>
 <p><b>Gen3 construction throws on a material merge.</b> A designated portal face is being merged during container stacking. Move the designation outward to the enclosing container's face rather than reaching for <span class="tt">keepGoingOnMaterialMergeFailure</span>, which discards the material.</p>
 <p><b>The map is full of empty bins.</b> Too fine a binning for the number of recorded tracks. Coarsen it, or record more.</p>
 <p><b>Material appears on the wrong surface.</b> Expected when candidate surfaces are close together: assignment picks the nearest intersection with no notion of "before" or "after". Use <span class="tt">material_mapping_check.py</span> to see the assignment distances, and the veto/re-assignment hooks to correct specific surfaces.</p>
 <p><b>Validation disagrees with Geant4, but only with <span class="tt">-p</span>.</b> That is navigation, not mapping. The mapped material is fine; the navigator is not finding all of it.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md148"></a>
+<p><b>Running <span class="tt">--gen1</span> against a detector with a calorimeter.</b> Gen1 geometry has no calorimeter catch-all collector surface — that is a Gen3-only addition, see <a class="el" href="#material_mapping_howto_gen3">Designating material in Gen3</a> — so calorimeter material has nowhere correct to go and gets misattributed to the nearest tracker surface instead. The ODD scripts handle this automatically (<span class="tt">buildCalorimeter=gen3</span> in <span class="tt">getOpenDataDetector</span>, <span class="tt">Python/Examples/python/odd.py</span>); if you adapt them for your own Gen1 script, either disable the calorimeter or add an equivalent collector.</p>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md149"></a>
 Worked example, and the tests that guard this</h2>
 <p><span class="tt">Python/Examples/tests/test_material_mapping.py</span> runs the whole chain against the ODD and is the most reliable executable reference for it. The ODD itself ships a finished map at <span class="tt">data/odd-material-maps.root</span>.</p>
 <p>The chain is additionally guarded by tests in <span class="tt">Python/Examples/tests</span>:</p>

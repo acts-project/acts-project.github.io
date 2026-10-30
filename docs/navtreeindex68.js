@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"struct_acts_1_1_tracking_geometry_material.html#a748f830b943799d955c4d2f01bc32185":[6,0,0,418,11],
 "struct_acts_1_1_tracking_geometry_material.html#a748f830b943799d955c4d2f01bc32185":[8,0,0,423,11],
 "struct_acts_1_1_tracking_geometry_material.html#a812de9fe858dffe120135bff3335ed47":[6,0,0,418,0],
 "struct_acts_1_1_tracking_geometry_material.html#a812de9fe858dffe120135bff3335ed47":[8,0,0,423,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "struct_acts_1_1_void_navigator_1_1_state.html#a9a19a207e2663bcbd379b7affade4f2d":[8,0,0,463,2,0],
 "struct_acts_1_1_void_navigator_1_1_state.html#aa0faba3b001f5800dd702fdc7beeffbe":[6,0,0,458,2,1],
 "struct_acts_1_1_void_navigator_1_1_state.html#aa0faba3b001f5800dd702fdc7beeffbe":[8,0,0,463,2,1],
-"struct_acts_1_1_volume_config.html":[6,0,0,461],
-"struct_acts_1_1_volume_config.html":[8,0,0,466]
+"struct_acts_1_1_volume_config.html":[6,0,0,461]
 };

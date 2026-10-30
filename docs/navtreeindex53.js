@@ -1,5 +1,6 @@
 var NAVTREEINDEX53 =
 {
+"struct_acts_1_1_atlas_stepper_1_1_state.html#a73e59eece5c3944168e5637b443a76e9":[6,0,0,35,2,7],
 "struct_acts_1_1_atlas_stepper_1_1_state.html#a73e59eece5c3944168e5637b443a76e9":[8,0,0,40,2,7],
 "struct_acts_1_1_atlas_stepper_1_1_state.html#a88f86859df43234ea5f10b5fd33511c6":[6,0,0,35,2,19],
 "struct_acts_1_1_atlas_stepper_1_1_state.html#a88f86859df43234ea5f10b5fd33511c6":[8,0,0,40,2,19],
@@ -248,6 +249,5 @@ var NAVTREEINDEX53 =
 "struct_acts_1_1_color.html#a211c5c51d93f38676c26f6a649785b11":[8,0,0,79,9],
 "struct_acts_1_1_color.html#a2635bf065433542f59c8b7ff802aa634":[6,0,0,74,8],
 "struct_acts_1_1_color.html#a2635bf065433542f59c8b7ff802aa634":[8,0,0,79,8],
-"struct_acts_1_1_color.html#a42594d9bc1adb9b3aad1747b80e39d32":[6,0,0,74,3],
-"struct_acts_1_1_color.html#a42594d9bc1adb9b3aad1747b80e39d32":[8,0,0,79,3]
+"struct_acts_1_1_color.html#a42594d9bc1adb9b3aad1747b80e39d32":[6,0,0,74,3]
 };

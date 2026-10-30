@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['b_20r_20z_20m_0',['B r z M',['../group__magnetic__field.html#autotoc_md166',1,'|| r | i || z | j || |B(r,z)| || M ||'],['../group__root__plugin.html#autotoc_md172',1,'|| r | i || z | j || |B(r,z)| || M ||']]],
-  ['b_20x_20y_20z_20m_1',['B x y z M',['../group__magnetic__field.html#autotoc_md167',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||'],['../group__root__plugin.html#autotoc_md173',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||']]],
+  ['b_20r_20z_20m_0',['B r z M',['../group__magnetic__field.html#autotoc_md167',1,'|| r | i || z | j || |B(r,z)| || M ||'],['../group__root__plugin.html#autotoc_md173',1,'|| r | i || z | j || |B(r,z)| || M ||']]],
+  ['b_20x_20y_20z_20m_1',['B x y z M',['../group__magnetic__field.html#autotoc_md168',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||'],['../group__root__plugin.html#autotoc_md174',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||']]],
   ['back_2',['1d. Write the choices back',['../material_mapping_howto.html#autotoc_md137',1,'']]],
   ['backend_3',['backend',['../group__eventdata__tracks.html#autotoc_md33',1,'How to build a backend'],['../group__eventdata__tracks.html#autotoc_md35',1,'MultiTrajectory (track state) backend'],['../group__eventdata__tracks.html#autotoc_md32',1,'PODIO backend'],['../group__python__performance__plotting.html#autotoc_md67',1,'Resolution fit backend'],['../group__eventdata__tracks.html#autotoc_md34',1,'TrackContainer backend'],['../group__eventdata__tracks.html#autotoc_md31',1,'Transient vector backend']]],
   ['backends_4',['Track EDM backends',['../group__eventdata__tracks.html#edm_track_backends',1,'']]],
@@ -12,7 +12,7 @@ var searchData=
   ['benefits_9',['Benefits',['../group__errors.html#autotoc_md24',1,'']]],
   ['bethe–heitler_20energy_20loss_20as_20a_20mixture_10',['Bethe–Heitler energy loss as a mixture',['../group__gsf.html#gsf-bethe-heitler',1,'']]],
   ['bibliography_11',['Bibliography',['../citelist.html',1,'']]],
-  ['binned_12',['&lt;span class=&quot;tt&quot;&gt;homogeneous&lt;/span&gt; and &lt;span class=&quot;tt&quot;&gt;binned&lt;/span&gt;',['../material_map_json_format.html#autotoc_md152',1,'']]],
+  ['binned_12',['&lt;span class=&quot;tt&quot;&gt;homogeneous&lt;/span&gt; and &lt;span class=&quot;tt&quot;&gt;binned&lt;/span&gt;',['../material_map_json_format.html#autotoc_md153',1,'']]],
   ['bound_20at_20the_20target_20surface_13',['\\(J_{fb}\\) — free to bound at the target surface',['../codegen_sympy_jac.html#autotoc_md85',1,'']]],
   ['bound_20to_20free_20jacobian_14',['\\(M\\) — the transported bound-to-free Jacobian',['../codegen_sympy_jac.html#autotoc_md84',1,'']]],
   ['branch_15',['Step 1: Update the release branch',['../howto_release.html#autotoc_md116',1,'']]],

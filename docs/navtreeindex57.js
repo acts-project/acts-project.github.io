@@ -1,5 +1,6 @@
 var NAVTREEINDEX57 =
 {
+"struct_acts_1_1_experimental_1_1_gbts_graph.html#a409c46b9a77ba71941e240e3b991682c":[8,0,0,2,22,1],
 "struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html":[6,0,0,1,23,0],
 "struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html":[8,0,0,2,23,0],
 "struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a043ad3c8b3a69a1b9ec9a198bf7e4ad5":[6,0,0,1,23,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX57 =
 "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_options.html#abdfff1f6ff1cb212b21ff87a89422b70":[8,0,0,2,36,2,0],
 "struct_acts_1_1_experimental_1_1_gx2_fitter_extensions.html":[5,13,6],
 "struct_acts_1_1_experimental_1_1_gx2_fitter_extensions.html#a0478f79f75de203b2879708b2c32936e":[5,13,6,8],
-"struct_acts_1_1_experimental_1_1_gx2_fitter_extensions.html#a26648638d331daa29debaaed1a716750":[5,13,6,2],
-"struct_acts_1_1_experimental_1_1_gx2_fitter_extensions.html#a5fe189ea410d2b8ad9bb18cfb348ed8f":[5,13,6,10]
+"struct_acts_1_1_experimental_1_1_gx2_fitter_extensions.html#a26648638d331daa29debaaed1a716750":[5,13,6,2]
 };

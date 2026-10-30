@@ -1,5 +1,6 @@
 var NAVTREEINDEX49 =
 {
+"group__magnetic__field.html#ga3baad317424227151687cad974537339":[5,3,1,12],
 "group__magnetic__field.html#ga3baad317424227151687cad974537339":[5,11,0,12],
 "group__magnetic__field.html#ga5036eb1d51177fbb2503f1dc623d197b":[5,3,1,13],
 "group__magnetic__field.html#ga5036eb1d51177fbb2503f1dc623d197b":[5,11,0,13],
@@ -248,6 +249,5 @@ var NAVTREEINDEX49 =
 "namespace_acts.html#a578206dbf1d765d06d19c1ec233a4159":[6,0,0,643],
 "namespace_acts.html#a578b23613377e931e706252251c5f9ad":[6,0,0,922],
 "namespace_acts.html#a589e3f01b082df3de46c2a6f5e6ce749":[6,0,0,1005],
-"namespace_acts.html#a58d7c5f9e29f5f51ece398952f4a2a6a":[6,0,0,516],
-"namespace_acts.html#a5974b936590507935ff7efd61732481d":[6,0,0,758]
+"namespace_acts.html#a58d7c5f9e29f5f51ece398952f4a2a6a":[6,0,0,516]
 };

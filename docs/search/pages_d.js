@@ -13,7 +13,7 @@ var searchData=
   ['histogram_20comparison_20configuration_10',['Histogram comparison configuration',['../physmon.html#autotoc_md99',1,'']]],
   ['histograms_11',['Available histograms',['../group__python__performance__plotting.html#autotoc_md68',1,'']]],
   ['holders_12',['Holders',['../group__eventdata__tracks.html#autotoc_md28',1,'']]],
-  ['homogeneous_20and_20binned_13',['&lt;span class=&quot;tt&quot;&gt;homogeneous&lt;/span&gt; and &lt;span class=&quot;tt&quot;&gt;binned&lt;/span&gt;',['../material_map_json_format.html#autotoc_md152',1,'']]],
+  ['homogeneous_20and_20binned_13',['&lt;span class=&quot;tt&quot;&gt;homogeneous&lt;/span&gt; and &lt;span class=&quot;tt&quot;&gt;binned&lt;/span&gt;',['../material_map_json_format.html#autotoc_md153',1,'']]],
   ['how_20do_20i_20investigate_20a_20physmon_20failure_14',['How do I investigate a physmon failure?',['../physmon.html#autotoc_md100',1,'']]],
   ['how_20do_20i_20update_20the_20reference_20files_15',['How do I update the reference files?',['../physmon.html#autotoc_md102',1,'']]],
   ['how_20the_20build_20invokes_20this_16',['How the build invokes this',['../codegen_sympy_jac.html#autotoc_md80',1,'']]],
