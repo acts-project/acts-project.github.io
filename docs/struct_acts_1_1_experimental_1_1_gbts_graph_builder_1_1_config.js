@@ -24,11 +24,13 @@ var struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config =
     [ "phiWindowNearOffset", "struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#add0f8ea76ea7b9fa65d4ba33f92acffa", null ],
     [ "phiWindowNearSlope", "struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a372a5a08ce6799ebe89c8ae177fd0a7b", null ],
     [ "phiWindowSplitDeltaRadius", "struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#af7f8a53c2cb7c92a3a806b970a883bef", null ],
+    [ "sumRatioCutMax", "struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a6772cc332ba07598272d46e062b1b2ca", null ],
     [ "tauRatioCut", "struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a2de0c4245c6a017345336ed9a4f0e896", null ],
     [ "tauRatioPrecut", "struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a78da6b28740994f8aa8e66c1df413d20", null ],
     [ "tripletPtFraction", "struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#aaa6f6ff83d8e94d19a2b4ff202e976de", null ],
     [ "tuningPt", "struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a1f97110c719edf432a5088f2cb8170f0", null ],
     [ "useEtaBinning", "struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#aa6ea001a7a063be0d46e9cdc0a7c1022", null ],
+    [ "useSumRatioCut", "struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a6071df210cdfa3924845f014a0768d3e", null ],
     [ "validateTriplets", "struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a91aa5de89c84dd6f0bee7034d1127208", null ],
     [ "z0HistogramMaxBarrelOrder", "struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#aa5d832f8dcd0af1b1dd06a9455caf5f6", null ],
     [ "z0Resolution", "struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a1629a9cbe538a715b312842aa112c1fa", null ]

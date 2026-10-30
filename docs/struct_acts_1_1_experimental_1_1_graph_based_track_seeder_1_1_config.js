@@ -15,6 +15,7 @@ var struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config =
     [ "nMaxPhiSlice", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a79c862ffa025d4329f07e89252eab8f6", null ],
     [ "phiIndexMargin", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a8c02fa2d7f2fd0bc4aa0aa9da62cddb3", null ],
     [ "phiSortBuckets", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a22af7f58e4eefe60913f0a219674c9c3", null ],
+    [ "postFitCurvatureFactor", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a7c8b974857ffbc608dfe3f4652287ee2", null ],
     [ "tauLookupTable", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#acd40b2abe79fc29ce80973d534c409f8", null ],
     [ "tauLutBinWidth", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a6b12de0af055db7fe006774d90f0e904", null ],
     [ "useClusterWidthCuts", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a340a8d8eba4a8af5590d17a52d188f95", null ]

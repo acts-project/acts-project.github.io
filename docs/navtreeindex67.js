@@ -1,5 +1,11 @@
 var NAVTREEINDEX67 =
 {
+"struct_acts_1_1_toroid_field_1_1_barrel_config.html#af5e0c7a793e971c9fa9582c934da573d":[6,0,0,411,0,1],
+"struct_acts_1_1_toroid_field_1_1_barrel_config.html#af5e0c7a793e971c9fa9582c934da573d":[8,0,0,416,0,1],
+"struct_acts_1_1_toroid_field_1_1_cache.html":[6,0,0,411,1],
+"struct_acts_1_1_toroid_field_1_1_cache.html":[8,0,0,416,1],
+"struct_acts_1_1_toroid_field_1_1_config.html":[6,0,0,411,2],
+"struct_acts_1_1_toroid_field_1_1_config.html":[8,0,0,416,2],
 "struct_acts_1_1_toroid_field_1_1_config.html#a3c667d8ffb972aa0d7a7a306b8622c8b":[6,0,0,411,2,2],
 "struct_acts_1_1_toroid_field_1_1_config.html#a3c667d8ffb972aa0d7a7a306b8622c8b":[8,0,0,416,2,2],
 "struct_acts_1_1_toroid_field_1_1_config.html#a445a69e0cc954e65aff0c8452b21ebf9":[6,0,0,411,2,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX67 =
 "struct_acts_1_1_tracking_geometry_json_converter_1_1_id_to_pointer_like_lookup.html":[5,10,10,13,1],
 "struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html":[5,10,10,13,2],
 "struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#a16dd03f80e6462e2d5d89b00ed317f1b":[5,10,10,13,2,4],
-"struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#a3764ff34cc3a49f81ed323c6ebe1ebbc":[5,10,10,13,2,2],
-"struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#ab61f52690c0cedd1ba20d8eee2012052":[5,10,10,13,2,3],
-"struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#abb1be2d78a2465ebcc4b85f9391a1e0c":[5,10,10,13,2,0],
-"struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#ad91b4499b5bc1092e6892bbcaefc4ee1":[5,10,10,13,2,1],
-"struct_acts_1_1_tracking_geometry_json_converter_1_1_pointer_to_id_lookup.html":[5,10,10,13,3],
-"struct_acts_1_1_tracking_geometry_material.html":[6,0,0,418],
-"struct_acts_1_1_tracking_geometry_material.html":[8,0,0,423]
+"struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#a3764ff34cc3a49f81ed323c6ebe1ebbc":[5,10,10,13,2,2]
 };

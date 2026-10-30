@@ -199,6 +199,9 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>phiWindowNearOffset<
 <tr class="memitem:af7f8a53c2cb7c92a3a806b970a883bef" id="r_af7f8a53c2cb7c92a3a806b970a883bef"><td class="memItemLeft" align="right" valign="top"><a id="af7f8a53c2cb7c92a3a806b970a883bef" name="af7f8a53c2cb7c92a3a806b970a883bef"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>phiWindowSplitDeltaRadius</b> = 60.0f * <a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">Acts::UnitConstants::mm</a></td></tr>
 <tr class="memdesc:af7f8a53c2cb7c92a3a806b970a883bef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Radial separation splitting the two phi-window slopes below. <br /></td></tr>
+<tr class="memitem:a6772cc332ba07598272d46e062b1b2ca" id="r_a6772cc332ba07598272d46e062b1b2ca"><td class="memItemLeft" align="right" valign="top"><a id="a6772cc332ba07598272d46e062b1b2ca" name="a6772cc332ba07598272d46e062b1b2ca"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>sumRatioCutMax</b> = 1.3f</td></tr>
+<tr class="memdesc:a6772cc332ba07598272d46e062b1b2ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Threshold of the summed ratios, between 1 (only one difference can use its full cut) and 3 (no effect beyond the individual cuts). <br /></td></tr>
 <tr class="memitem:a2de0c4245c6a017345336ed9a4f0e896" id="r_a2de0c4245c6a017345336ed9a4f0e896"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2de0c4245c6a017345336ed9a4f0e896">tauRatioCut</a> = 0.007f</td></tr>
 <tr class="memdesc:a2de0c4245c6a017345336ed9a4f0e896"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tau ratio scale of the <span class="tt">validateTriplets</span> high-pT check.  <br /></td></tr>
 <tr class="memitem:a78da6b28740994f8aa8e66c1df413d20" id="r_a78da6b28740994f8aa8e66c1df413d20"><td class="memItemLeft" align="right" valign="top"><a id="a78da6b28740994f8aa8e66c1df413d20" name="a78da6b28740994f8aa8e66c1df413d20"></a>
@@ -213,6 +216,9 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>tuningPt</b> = 0.9f 
 <tr class="memitem:aa6ea001a7a063be0d46e9cdc0a7c1022" id="r_aa6ea001a7a063be0d46e9cdc0a7c1022"><td class="memItemLeft" align="right" valign="top"><a id="aa6ea001a7a063be0d46e9cdc0a7c1022" name="aa6ea001a7a063be0d46e9cdc0a7c1022"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>useEtaBinning</b> = true</td></tr>
 <tr class="memdesc:aa6ea001a7a063be0d46e9cdc0a7c1022"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use eta binning from geometry structure. <br /></td></tr>
+<tr class="memitem:a6071df210cdfa3924845f014a0768d3e" id="r_a6071df210cdfa3924845f014a0768d3e"><td class="memItemLeft" align="right" valign="top"><a id="a6071df210cdfa3924845f014a0768d3e" name="a6071df210cdfa3924845f014a0768d3e"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>useSumRatioCut</b> = false</td></tr>
+<tr class="memdesc:a6071df210cdfa3924845f014a0768d3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reject a candidate edge connection whose tau ratio, phi and curvature differences, each divided by its own cut, add up to more than <span class="tt">sumRatioCutMax</span>: a pair that is marginal in all three at once. <br /></td></tr>
 <tr class="memitem:a91aa5de89c84dd6f0bee7034d1127208" id="r_a91aa5de89c84dd6f0bee7034d1127208"><td class="memItemLeft" align="right" valign="top"><a id="a91aa5de89c84dd6f0bee7034d1127208" name="a91aa5de89c84dd6f0bee7034d1127208"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>validateTriplets</b> = true</td></tr>
 <tr class="memdesc:a91aa5de89c84dd6f0bee7034d1127208"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional validation for barrel triplets. <br /></td></tr>

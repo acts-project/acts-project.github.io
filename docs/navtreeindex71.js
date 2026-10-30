@@ -1,5 +1,11 @@
 var NAVTREEINDEX71 =
 {
+"struct_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend_1_1_layer_spec.html#a387f909abd03221746bffabeedee3819":[8,0,2,0,0,1,0],
+"struct_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend_1_1_layer_spec.html#a3f0b4de46ed407fd425b211b750de987":[8,0,2,0,0,1,2],
+"struct_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend_1_1_layer_spec.html#ae573fd68f8fbc1bcc534829b5560089c":[8,0,2,0,0,1,1],
+"struct_acts_plugins_1_1_d_d4hep_detector_element_extension.html":[5,10,2,1],
+"struct_acts_plugins_1_1_d_d4hep_detector_element_extension.html#a89995b4b58cdf8a5f9deafdeee523c6f":[5,10,2,1,1],
+"struct_acts_plugins_1_1_d_d4hep_detector_element_extension.html#aaa30f6e6795690f5a7956ef84b1a95d9":[5,10,2,1,0],
 "struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_cache.html":[5,10,2,2,0],
 "struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_cache.html#a1878d83b00952ad0b419f50bacf2100d":[5,10,2,2,0,8],
 "struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_cache.html#a406970cabee71bf7f557dd30965e461a":[5,10,2,2,0,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX71 =
 "struct_acts_plugins_1_1_root_material_map_io_1_1_config.html#a694cdff11626db9c2a3dfe7f21a3261b":[5,10,12,3,0,10],
 "struct_acts_plugins_1_1_root_material_map_io_1_1_config.html#a6d92872a184c4a5a51ca9f608b246aff":[5,10,12,3,0,0],
 "struct_acts_plugins_1_1_root_material_map_io_1_1_config.html#a7addb66410ac86537b0cefc01a02ce75":[5,10,12,3,0,8],
-"struct_acts_plugins_1_1_root_material_map_io_1_1_config.html#a8322fcb9953ee228531a6e5cf252a96b":[5,10,12,3,0,7],
-"struct_acts_plugins_1_1_root_material_map_io_1_1_config.html#abaa03d2ca5e2e53736383d62f00f1d34":[5,10,12,3,0,15],
-"struct_acts_plugins_1_1_root_material_map_io_1_1_config.html#ac63a78a9b0b69bf6fec364591a680f23":[5,10,12,3,0,4],
-"struct_acts_plugins_1_1_root_material_map_io_1_1_config.html#ac64d4beae931c675a13217a3d5f0c11e":[5,10,12,3,0,6],
-"struct_acts_plugins_1_1_root_material_map_io_1_1_config.html#ad4c60d174facd68461a8ec73e7374332":[5,10,12,3,0,5],
-"struct_acts_plugins_1_1_root_material_map_io_1_1_config.html#aeb6869ec420457b4a1e749c66a5bbf5d":[5,10,12,3,0,16],
-"struct_acts_plugins_1_1_root_material_map_io_1_1_config.html#af3c67e9f947b033f893da059902e80aa":[5,10,12,3,0,14]
+"struct_acts_plugins_1_1_root_material_map_io_1_1_config.html#a8322fcb9953ee228531a6e5cf252a96b":[5,10,12,3,0,7]
 };
