@@ -1,5 +1,11 @@
 var NAVTREEINDEX61 =
 {
+"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_config.html#a2d47808a9f177755b35633aa2c69ab78":[8,0,0,5,0,1,2],
+"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_config.html#a9eb54f4497d0a87921f0d5bf9041dfd6":[6,0,0,4,0,1,1],
+"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_config.html#a9eb54f4497d0a87921f0d5bf9041dfd6":[8,0,0,5,0,1,1],
+"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_config.html#aa8a8145a0b6254db642c3a8fe85d0f8e":[6,0,0,4,0,1,0],
+"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_config.html#aa8a8145a0b6254db642c3a8fe85d0f8e":[8,0,0,5,0,1,0],
+"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_1_1_maximum.html":[6,0,0,4,0,2,0],
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_1_1_maximum.html":[8,0,0,5,0,2,0],
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_1_1_maximum.html#af74ac7e2ae6c39eb650bc7fc5c2e3378":[6,0,0,4,0,2,0,0],
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_1_1_maximum.html#af74ac7e2ae6c39eb650bc7fc5c2e3378":[8,0,0,5,0,2,0,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX61 =
 "struct_acts_1_1_iterative_vertex_finder_1_1_config.html#af806c12e1816b9853adf820518781230":[8,0,0,233,0,0],
 "struct_acts_1_1_iterative_vertex_finder_1_1_state.html":[6,0,0,228,1],
 "struct_acts_1_1_iterative_vertex_finder_1_1_state.html":[8,0,0,233,1],
-"struct_acts_1_1_iterative_vertex_finder_1_1_state.html#a4885e72d658b4819a04370b511e04aa5":[6,0,0,228,1,1],
-"struct_acts_1_1_iterative_vertex_finder_1_1_state.html#a4885e72d658b4819a04370b511e04aa5":[8,0,0,233,1,1],
-"struct_acts_1_1_iterative_vertex_finder_1_1_state.html#a71b2f66758db53cc07c1e8ee447cd0f4":[6,0,0,228,1,0],
-"struct_acts_1_1_iterative_vertex_finder_1_1_state.html#a71b2f66758db53cc07c1e8ee447cd0f4":[8,0,0,233,1,0],
-"struct_acts_1_1_iterative_vertex_finder_1_1_state.html#abe4dcb8991eae56af183590cb1834c89":[6,0,0,228,1,2],
-"struct_acts_1_1_iterative_vertex_finder_1_1_state.html#abe4dcb8991eae56af183590cb1834c89":[8,0,0,233,1,2],
-"struct_acts_1_1_iterative_vertex_finder_1_1_state.html#accc21202a4ef0bc65bad1c4ff58b7385":[6,0,0,228,1,3]
+"struct_acts_1_1_iterative_vertex_finder_1_1_state.html#a4885e72d658b4819a04370b511e04aa5":[6,0,0,228,1,1]
 };

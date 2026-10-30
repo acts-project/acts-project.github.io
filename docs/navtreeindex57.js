@@ -1,5 +1,11 @@
 var NAVTREEINDEX57 =
 {
+"struct_acts_1_1_experimental_1_1_gbts_bin_link.html#a96e30cbb528382911dbd5049651a3f12":[8,0,0,2,20,1],
+"struct_acts_1_1_experimental_1_1_gbts_bin_link.html#abc2ab2ac88f80f003e57886fb1f19e37":[6,0,0,1,20,0],
+"struct_acts_1_1_experimental_1_1_gbts_bin_link.html#abc2ab2ac88f80f003e57886fb1f19e37":[8,0,0,2,20,0],
+"struct_acts_1_1_experimental_1_1_gbts_bin_link.html#abe74b7413267afa0af8a722d17679f80":[6,0,0,1,20,2],
+"struct_acts_1_1_experimental_1_1_gbts_bin_link.html#abe74b7413267afa0af8a722d17679f80":[8,0,0,2,20,2],
+"struct_acts_1_1_experimental_1_1_gbts_graph.html":[6,0,0,1,22],
 "struct_acts_1_1_experimental_1_1_gbts_graph.html":[8,0,0,2,22],
 "struct_acts_1_1_experimental_1_1_gbts_graph.html#a24295c8d140de911f2db7c4acb4f2143":[6,0,0,1,22,0],
 "struct_acts_1_1_experimental_1_1_gbts_graph.html#a24295c8d140de911f2db7c4acb4f2143":[8,0,0,2,22,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX57 =
 "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#aef6f7d18959558482ba4fdb8a911d048":[8,0,0,2,36,0,8],
 "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_derived_config.html":[6,0,0,1,36,1],
 "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_derived_config.html":[8,0,0,2,36,1],
-"struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_derived_config.html#a92bcb3da79be9ca8173f3d0016b0b8d8":[6,0,0,1,36,1,0],
-"struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_derived_config.html#a92bcb3da79be9ca8173f3d0016b0b8d8":[8,0,0,2,36,1,0],
-"struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_derived_config.html#ad217ab8559d02260a71fde067999ab79":[6,0,0,1,36,1,1],
-"struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_derived_config.html#ad217ab8559d02260a71fde067999ab79":[8,0,0,2,36,1,1],
-"struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_options.html":[6,0,0,1,36,2],
-"struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_options.html":[8,0,0,2,36,2],
-"struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_options.html#abdfff1f6ff1cb212b21ff87a89422b70":[6,0,0,1,36,2,0]
+"struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_derived_config.html#a92bcb3da79be9ca8173f3d0016b0b8d8":[6,0,0,1,36,1,0]
 };

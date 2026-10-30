@@ -491,6 +491,7 @@ var namespace_acts =
     [ "TrackingGeometryVisitor", "class_acts_1_1_tracking_geometry_visitor.html", "class_acts_1_1_tracking_geometry_visitor" ],
     [ "TrackingVolume", "class_acts_1_1_tracking_volume.html", "class_acts_1_1_tracking_volume" ],
     [ "TrackingVolumeArrayCreator", "class_acts_1_1_tracking_volume_array_creator.html", "class_acts_1_1_tracking_volume_array_creator" ],
+    [ "TrackletJoiner", "class_acts_1_1_tracklet_joiner.html", "class_acts_1_1_tracklet_joiner" ],
     [ "TrackParamsLookupAccumulator", "class_acts_1_1_track_params_lookup_accumulator.html", "class_acts_1_1_track_params_lookup_accumulator" ],
     [ "TrackProxy", "class_acts_1_1_track_proxy.html", "class_acts_1_1_track_proxy" ],
     [ "TrackProxyCommon", "class_acts_1_1_track_proxy_common.html", "class_acts_1_1_track_proxy_common" ],

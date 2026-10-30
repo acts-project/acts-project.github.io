@@ -1,5 +1,11 @@
 var NAVTREEINDEX60 =
 {
+"struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#a551ee100d1f737b3fb74118eff70b88f":[6,0,0,172,1,2],
+"struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#a551ee100d1f737b3fb74118eff70b88f":[8,0,0,177,1,2],
+"struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#a5c8e6b1bb5ec5d44db3c806399b2d574":[6,0,0,172,1,6],
+"struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#a5c8e6b1bb5ec5d44db3c806399b2d574":[8,0,0,177,1,6],
+"struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#a5db7def77faaa253c4139ab6a7beac9d":[6,0,0,172,1,3],
+"struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#a5db7def77faaa253c4139ab6a7beac9d":[8,0,0,177,1,3],
 "struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#aa0e6002ab2bbeabba55077ab3fe18ca8":[6,0,0,172,1,4],
 "struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#aa0e6002ab2bbeabba55077ab3fe18ca8":[8,0,0,177,1,4],
 "struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#aa8d186290cfb450f3c32e7f597816735":[6,0,0,172,1,5],
@@ -243,11 +249,5 @@ var NAVTREEINDEX60 =
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html#ac78e4c7a893aa7bbaae4af65d4a09403":[8,0,0,5,0,0,0,0],
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_config.html":[6,0,0,4,0,1],
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_config.html":[8,0,0,5,0,1],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_config.html#a2d47808a9f177755b35633aa2c69ab78":[6,0,0,4,0,1,2],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_config.html#a2d47808a9f177755b35633aa2c69ab78":[8,0,0,5,0,1,2],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_config.html#a9eb54f4497d0a87921f0d5bf9041dfd6":[6,0,0,4,0,1,1],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_config.html#a9eb54f4497d0a87921f0d5bf9041dfd6":[8,0,0,5,0,1,1],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_config.html#aa8a8145a0b6254db642c3a8fe85d0f8e":[6,0,0,4,0,1,0],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_config.html#aa8a8145a0b6254db642c3a8fe85d0f8e":[8,0,0,5,0,1,0],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_1_1_maximum.html":[6,0,0,4,0,2,0]
+"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_config.html#a2d47808a9f177755b35633aa2c69ab78":[6,0,0,4,0,1,2]
 };

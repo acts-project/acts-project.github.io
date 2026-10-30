@@ -1,5 +1,11 @@
 var NAVTREEINDEX48 =
 {
+"group__errors.html#ga1ce88ea0e4490538ca747b2877e17317":[5,4,3],
+"group__errors.html#ga1f61f3856fa7ffded6d06723801cf8e6":[5,4,16],
+"group__errors.html#ga21cb0f3d4dc02db3af0291385e70d4e0":[5,4,2],
+"group__errors.html#ga2cc876d4889b5c6656ed7d5e0c1fca19":[5,4,9],
+"group__errors.html#ga52148d84844c7850d7239a8e76d18514":[5,4,15],
+"group__errors.html#ga5708898bc604b9dfedc12319218b8c1b":[5,4,0],
 "group__errors.html#ga62dad9323721a81699d3f7fdca7a9f91":[5,4,7],
 "group__errors.html#ga6a0e61fbedc5e6713e2830a03af01032":[5,4,14],
 "group__errors.html#ga743e4af777584b0f5274baa245f128d2":[5,4,4],
@@ -243,11 +249,5 @@ var NAVTREEINDEX48 =
 "group__logging__macros.html#ga944f2c94c1119d970bb30776295c641c":[5,8,0,5],
 "group__logging__macros.html#gab27ebe92940249d57c2646de46f1e821":[5,8,0,3],
 "group__logging__macros.html#gab84c66c9feb039ea7c426ee718072e44":[5,8,0,6],
-"group__logging__macros.html#gad5196e525ccf0b3ff5a6e011dc38b385":[5,8,0,7],
-"group__logging__macros.html#gaef98eb4223fd95f499d7d18626ae3b09":[5,8,0,0],
-"group__logging__thresholds.html":[5,8,1],
-"group__logging__thresholds.html#ga0a0dd0cd0ea7f3498fc0cd1229f5015a":[5,8,1,3],
-"group__logging__thresholds.html#ga9dba39c9c5ccaafe81f27f56937d7f3a":[5,8,1,2],
-"group__magnetic__field.html":[5,3,1],
-"group__magnetic__field.html":[5,11,0]
+"group__logging__macros.html#gad5196e525ccf0b3ff5a6e011dc38b385":[5,8,0,7]
 };

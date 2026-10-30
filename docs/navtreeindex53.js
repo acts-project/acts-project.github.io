@@ -1,5 +1,11 @@
 var NAVTREEINDEX53 =
 {
+"struct_acts_1_1_atlas_stepper_1_1_state.html#a29f02aa619ee96cf7adcead8c972e8f6":[6,0,0,35,2,20],
+"struct_acts_1_1_atlas_stepper_1_1_state.html#a29f02aa619ee96cf7adcead8c972e8f6":[8,0,0,40,2,20],
+"struct_acts_1_1_atlas_stepper_1_1_state.html#a2a0db05b13a724e0097fe7061f97bbe8":[6,0,0,35,2,10],
+"struct_acts_1_1_atlas_stepper_1_1_state.html#a2a0db05b13a724e0097fe7061f97bbe8":[8,0,0,40,2,10],
+"struct_acts_1_1_atlas_stepper_1_1_state.html#a4476c8f45b05552f02cca8a5085eb688":[6,0,0,35,2,5],
+"struct_acts_1_1_atlas_stepper_1_1_state.html#a4476c8f45b05552f02cca8a5085eb688":[8,0,0,40,2,5],
 "struct_acts_1_1_atlas_stepper_1_1_state.html#a4a8b2e887bfd2d18796a76eeed707245":[6,0,0,35,2,9],
 "struct_acts_1_1_atlas_stepper_1_1_state.html#a4a8b2e887bfd2d18796a76eeed707245":[8,0,0,40,2,9],
 "struct_acts_1_1_atlas_stepper_1_1_state.html#a72e4957b51d0e4e653f58e6bb9d016b9":[6,0,0,35,2,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX53 =
 "struct_acts_1_1_ccl_1_1_timed_connect.html#af7563214bededba9c56dc7edf3cebb2a":[8,0,0,1,7,3],
 "struct_acts_1_1_center_reference_generator.html":[6,0,0,71],
 "struct_acts_1_1_center_reference_generator.html":[8,0,0,76],
-"struct_acts_1_1_center_reference_generator.html#a6d472c0eb32115bb12a6fc268f62d45c":[6,0,0,71,0],
-"struct_acts_1_1_center_reference_generator.html#a6d472c0eb32115bb12a6fc268f62d45c":[8,0,0,76,0],
-"struct_acts_1_1_color.html":[6,0,0,74],
-"struct_acts_1_1_color.html":[8,0,0,79],
-"struct_acts_1_1_color.html#a1adb05eb916045365335b694ffeb88b3":[6,0,0,74,7],
-"struct_acts_1_1_color.html#a1adb05eb916045365335b694ffeb88b3":[8,0,0,79,7],
-"struct_acts_1_1_color.html#a211c5c51d93f38676c26f6a649785b11":[6,0,0,74,9]
+"struct_acts_1_1_center_reference_generator.html#a6d472c0eb32115bb12a6fc268f62d45c":[6,0,0,71,0]
 };

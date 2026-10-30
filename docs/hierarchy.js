@@ -862,6 +862,8 @@ var hierarchy =
     [ "Acts::TrackingGeometryMaterialJsonConverter::EncodeContext", "class_acts_1_1_tracking_geometry_material_json_converter_1_1_encode_context.html", null ],
     [ "Acts::TrackingGeometryMaterialJsonConverter::Options", "struct_acts_1_1_tracking_geometry_material_json_converter_1_1_options.html", null ],
     [ "Acts::TrackingVolumeArrayCreator::Config", "struct_acts_1_1_tracking_volume_array_creator_1_1_config.html", null ],
+    [ "Acts::TrackletJoiner", "class_acts_1_1_tracklet_joiner.html", null ],
+    [ "Acts::TrackletJoiner::Config", "struct_acts_1_1_tracklet_joiner_1_1_config.html", null ],
     [ "Acts::TrackParamsLookupAccumulator&lt; grid_t &gt;", "class_acts_1_1_track_params_lookup_accumulator.html", null ],
     [ "Acts::TrackProxyCommon&lt; Derived, index_t, read_only &gt;", "class_acts_1_1_track_proxy_common.html", [
       [ "Acts::TrackProxy< track_container_t, traj_t, holder_t, false >", "class_acts_1_1_track_proxy.html", null ],

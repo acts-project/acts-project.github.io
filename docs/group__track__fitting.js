@@ -207,6 +207,18 @@ var group__track__fitting =
       [ "mixture", "class_acts_1_1_polynomial_bethe_heitler_approx.html#a7cff45c465b632a6eed98b234bdb7d60", null ],
       [ "validXOverX0", "class_acts_1_1_polynomial_bethe_heitler_approx.html#ae267dff7881455ebe2f589601e942a85", null ]
     ] ],
+    [ "Acts::TrackletJoiner", "class_acts_1_1_tracklet_joiner.html", [
+      [ "Config", "struct_acts_1_1_tracklet_joiner_1_1_config.html", [
+        [ "conditionFirst", "struct_acts_1_1_tracklet_joiner_1_1_config.html#ad525a6e9cb7d815fba2e6d3056b179f2", null ],
+        [ "invertJacobians", "struct_acts_1_1_tracklet_joiner_1_1_config.html#ab3c1957ea1f9640b18d902c52627684c", null ],
+        [ "smoothSecond", "struct_acts_1_1_tracklet_joiner_1_1_config.html#ac76cb18749d2af886b4ad6658029c453", null ]
+      ] ],
+      [ "TrackletJoiner", "class_acts_1_1_tracklet_joiner.html#aa4fdfca906dec1098bb904ed297859af", null ],
+      [ "TrackletJoiner", "class_acts_1_1_tracklet_joiner.html#a9d964248bd03e1d391e6e50752278c6e", null ],
+      [ "config", "class_acts_1_1_tracklet_joiner.html#a0cfe50040edbe3fa078d3fc5d62a7363", null ],
+      [ "joinCopy", "class_acts_1_1_tracklet_joiner.html#a5159669f4f914d9b39692ebabd72728b", null ],
+      [ "joinInPlace", "class_acts_1_1_tracklet_joiner.html#ad75705a379f4662bc5a28b328f6529bb", null ]
+    ] ],
     [ "Acts::ComponentMergeMethod", "group__track__fitting.html#ga920082397516a41a551b2a9883131d66", null ],
     [ "Acts::Experimental::addMaterialToGx2fSums", "group__track__fitting.html#ga2e4730c98bab4db36b6caaba7a1b606b", null ],
     [ "Acts::Experimental::addMeasurementToGx2fSums", "group__track__fitting.html#ga6b4ab37353c322c5e6a328b74148bf8a", null ],

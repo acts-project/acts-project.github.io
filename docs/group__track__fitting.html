@@ -128,7 +128,8 @@ $(function(){initNavTree('group__track__fitting.html','',''); });
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <p>Algorithms and data structures for track fitting. </p>
 <p>The track fitters estimate the track parameters from a fixed set of measurements. Material effects (multiple scattering and energy loss) are applied on each surface using a shared pointwise formalism; see <a class="el" href="group__kf__material__effects.html">Material effects in the Kalman filters</a> for the details of that formalism and its implementation.</p>
-<p>For electrons, whose Bremsstrahlung energy loss is strongly non-Gaussian, the <a class="el" href="struct_acts_1_1_gaussian_sum_fitter.html">Gaussian Sum Filter</a> models the track state as a mixture of Gaussians instead; see <a class="el" href="group__gsf.html">The Gaussian Sum Filter</a>. </p>
+<p>For electrons, whose Bremsstrahlung energy loss is strongly non-Gaussian, the <a class="el" href="struct_acts_1_1_gaussian_sum_fitter.html">Gaussian Sum Filter</a> models the track state as a mixture of Gaussians instead; see <a class="el" href="group__gsf.html">The Gaussian Sum Filter</a>.</p>
+<p>The <a class="el" href="class_acts_1_1_tracklet_joiner.html">Acts::TrackletJoiner</a> joins a second tracklet, filtered from a state of a first one, and combines their smoothed estimates without a new propagation; this is the two-way track finding. </p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-groups" class="groupheader"><a id="groups" name="groups"></a>
 Topics</h2></td></tr>
@@ -182,6 +183,8 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Kalman trajectory smoother based on the Modified Bryson–Frazier (mBF) smoother.  <a href="class_acts_1_1_mbf_smoother.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Acts_3A_3APolynomialBetheHeitlerApprox" id="r_Acts_3A_3APolynomialBetheHeitlerApprox"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_polynomial_bethe_heitler_approx.html">Acts::PolynomialBetheHeitlerApprox</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class approximates the Bethe-Heitler distribution as a gaussian mixture.  <a href="class_acts_1_1_polynomial_bethe_heitler_approx.html#details">More...</a><br /></td></tr>
+<tr class="memitem:Acts_3A_3ATrackletJoiner" id="r_Acts_3A_3ATrackletJoiner"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_tracklet_joiner.html">Acts::TrackletJoiner</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Join a second tracklet, filtered from a state of a smoothed first tracklet as prior, behind that shared state, and combine their smoothed estimates without a new propagation.  <a href="class_acts_1_1_tracklet_joiner.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>

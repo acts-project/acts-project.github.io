@@ -1,5 +1,11 @@
 var NAVTREEINDEX55 =
 {
+"struct_acts_1_1_direct_navigator_1_1_state.html#a1f91dca729053bca91363891b03b3bef":[8,0,0,127,2,9],
+"struct_acts_1_1_direct_navigator_1_1_state.html#a42079388f1978c38fcf99ace31050ef4":[6,0,0,122,2,8],
+"struct_acts_1_1_direct_navigator_1_1_state.html#a42079388f1978c38fcf99ace31050ef4":[8,0,0,127,2,8],
+"struct_acts_1_1_direct_navigator_1_1_state.html#a4264eef7e2e3d6eb7c27404a07aeed55":[6,0,0,122,2,0],
+"struct_acts_1_1_direct_navigator_1_1_state.html#a4264eef7e2e3d6eb7c27404a07aeed55":[8,0,0,127,2,0],
+"struct_acts_1_1_direct_navigator_1_1_state.html#a49101ea64a1b9ab19b18c3001960c5d0":[6,0,0,122,2,1],
 "struct_acts_1_1_direct_navigator_1_1_state.html#a49101ea64a1b9ab19b18c3001960c5d0":[8,0,0,127,2,1],
 "struct_acts_1_1_direct_navigator_1_1_state.html#a4b1eb10c6fe1e86e409b6b4c080955e5":[6,0,0,122,2,13],
 "struct_acts_1_1_direct_navigator_1_1_state.html#a4b1eb10c6fe1e86e409b6b4c080955e5":[8,0,0,127,2,13],
@@ -243,11 +249,5 @@ var NAVTREEINDEX55 =
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#a10b4cdbe7619c009385b40a08bcff09c":[8,0,0,2,6,0,8],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#a27cd2c5dc3bfd2c12051cf544b3f9ebb":[6,0,0,1,6,0,7],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#a27cd2c5dc3bfd2c12051cf544b3f9ebb":[8,0,0,2,6,0,7],
-"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#a3f79cfe95d24c91b147b050bed3fc0d2":[6,0,0,1,6,0,4],
-"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#a3f79cfe95d24c91b147b050bed3fc0d2":[8,0,0,2,6,0,4],
-"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#a69f32b6ca89b033859f337adc1fb7635":[6,0,0,1,6,0,2],
-"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#a69f32b6ca89b033859f337adc1fb7635":[8,0,0,2,6,0,2],
-"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#a75dab148a95b3a3b40321b0d28950176":[6,0,0,1,6,0,10],
-"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#a75dab148a95b3a3b40321b0d28950176":[8,0,0,2,6,0,10],
-"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#a805c6323ee55c50aa447692f16bfc645":[6,0,0,1,6,0,11]
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#a3f79cfe95d24c91b147b050bed3fc0d2":[6,0,0,1,6,0,4]
 };
