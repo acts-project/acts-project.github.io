@@ -42,5 +42,6 @@ var class_acts_1_1_experimental_1_1_ridders_stepper =
     [ "update", "class_acts_1_1_experimental_1_1_ridders_stepper.html#ae9d2776aa7cfda25915e8d805b0e8bbc", null ],
     [ "updateStepSize", "class_acts_1_1_experimental_1_1_ridders_stepper.html#a67c8e9867a459a19d5281fbefc1ec080", null ],
     [ "updateStepSize", "class_acts_1_1_experimental_1_1_ridders_stepper.html#ae50426baf6d341a209bc81f644ecfaea", null ],
-    [ "updateSurfaceStatus", "class_acts_1_1_experimental_1_1_ridders_stepper.html#ac85f5aa21abf76336740b24fbb22049e", null ]
+    [ "updateSurfaceStatus", "class_acts_1_1_experimental_1_1_ridders_stepper.html#ac85f5aa21abf76336740b24fbb22049e", null ],
+    [ "updateSurfaceStatusWithCurvature", "class_acts_1_1_experimental_1_1_ridders_stepper.html#aa9f52915e9d6381ab032fa2a954ec1eb", null ]
 ];

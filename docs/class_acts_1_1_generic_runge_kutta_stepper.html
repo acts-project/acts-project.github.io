@@ -232,8 +232,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a6ca1c23fea5eb0bc6ad616eafcefd7de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update step size.  <br /></td></tr>
 <tr class="memitem:a9cd7a5e11846b97065927aae01d186f2" id="r_a9cd7a5e11846b97065927aae01d186f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9cd7a5e11846b97065927aae01d186f2">updateStepSize</a> (<a class="el" href="struct_acts_1_1_generic_runge_kutta_stepper_1_1_state.html">State</a> &amp;state, double <a class="el" href="#a4ef1753e173e1f95aece2d7d224618ae">stepSize</a>, <a class="el" href="class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5">ConstrainedStep::Type</a> stype) const</td></tr>
 <tr class="memdesc:a9cd7a5e11846b97065927aae01d186f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update step size - explicitly with a double.  <br /></td></tr>
-<tr class="memitem:a1c422a18fc47f13e2d648d932ae91ed5" id="r_a1c422a18fc47f13e2d648d932ae91ed5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a52191edec34daa17746d1937fb06c1fb">IntersectionStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c422a18fc47f13e2d648d932ae91ed5">updateSurfaceStatus</a> (<a class="el" href="struct_acts_1_1_generic_runge_kutta_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, std::uint8_t index, <a class="el" href="class_acts_1_1_direction.html">Direction</a> navDir, const <a class="el" href="class_acts_1_1_boundary_tolerance.html">BoundaryTolerance</a> &amp;boundaryTolerance, double surfaceTolerance, <a class="el" href="class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5">ConstrainedStep::Type</a> stype, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">getDummyLogger</a>()) const</td></tr>
-<tr class="memdesc:a1c422a18fc47f13e2d648d932ae91ed5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update surface status.  <br /></td></tr>
+<tr class="memitem:ae6a9227ad2032bd6e941b0b6238e38e9" id="r_ae6a9227ad2032bd6e941b0b6238e38e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a52191edec34daa17746d1937fb06c1fb">IntersectionStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6a9227ad2032bd6e941b0b6238e38e9">updateSurfaceStatus</a> (<a class="el" href="struct_acts_1_1_generic_runge_kutta_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, std::uint8_t index, <a class="el" href="class_acts_1_1_direction.html">Direction</a> navDir, const <a class="el" href="class_acts_1_1_boundary_tolerance.html">BoundaryTolerance</a> &amp;boundaryTolerance, double surfaceTolerance, <a class="el" href="class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5">ConstrainedStep::Type</a> stype, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">getDummyLogger</a>(), const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;<a class="el" href="#a4665d95ea705e722ef9983f16aba2489">curvature</a>=Vector3::Zero()) const</td></tr>
+<tr class="memdesc:ae6a9227ad2032bd6e941b0b6238e38e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update surface status.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Reference stepper with a configurable Runge-Kutta tableau. </p>
@@ -1393,8 +1393,8 @@ The stepper propagates in vacuum only. It ignores volume material. </dd></dl>
 
 </div>
 </div>
-<a id="a1c422a18fc47f13e2d648d932ae91ed5" name="a1c422a18fc47f13e2d648d932ae91ed5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c422a18fc47f13e2d648d932ae91ed5">&#9670;&#160;</a></span>updateSurfaceStatus()</h2>
+<a id="ae6a9227ad2032bd6e941b0b6238e38e9" name="ae6a9227ad2032bd6e941b0b6238e38e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6a9227ad2032bd6e941b0b6238e38e9">&#9670;&#160;</a></span>updateSurfaceStatus()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1437,7 +1437,12 @@ The stepper propagates in vacuum only. It ignores volume material. </dd></dl>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>logger</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">getDummyLogger</a>()</span>&#160;) const</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>logger</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">getDummyLogger</a>()</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>curvature</em></span><span class="paramdefsep"> = </span><span class="paramdefval">Vector3::Zero()</span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1454,6 +1459,7 @@ The stepper propagates in vacuum only. It ignores volume material. </dd></dl>
     <tr><td class="paramdir">[in]</td><td class="paramname">surfaceTolerance</td><td>Surface tolerance used for intersection </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">stype</td><td>The step size type to be set </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">logger</td><td>A <code>Logger</code> instance </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">curvature</td><td>Global geometric curvature for the crossing estimate </td></tr>
   </table>
   </dd>
 </dl>

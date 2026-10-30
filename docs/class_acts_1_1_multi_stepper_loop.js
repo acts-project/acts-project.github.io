@@ -50,5 +50,6 @@ var class_acts_1_1_multi_stepper_loop =
     [ "updateStepSize", "class_acts_1_1_multi_stepper_loop.html#adb7a1bdff195f1bc9ed9f2d2bc88e0e2", null ],
     [ "updateStepSize", "class_acts_1_1_multi_stepper_loop.html#a8d8165ca37acd22cd0e423c7a8cd1625", null ],
     [ "updateSurfaceStatus", "class_acts_1_1_multi_stepper_loop.html#a0dc60c5117467bf4f3aed5c0dc7dfdf3", null ],
+    [ "updateSurfaceStatusWithCurvature", "class_acts_1_1_multi_stepper_loop.html#a2db658c250a3f32dfa58c0884a2dcfdb", null ],
     [ "maxComponents", "class_acts_1_1_multi_stepper_loop.html#af87a75205a8a0417f5072228a67143ca", null ]
 ];

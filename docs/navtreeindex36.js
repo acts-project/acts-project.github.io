@@ -1,5 +1,9 @@
 var NAVTREEINDEX36 =
 {
+"class_acts_1_1_surface.html#ae229ee9770face305cc38703fa7409ff":[8,0,0,400,13],
+"class_acts_1_1_surface.html#ae297bb58763450ebbdc546aa45a689c7":[6,0,0,395,9],
+"class_acts_1_1_surface.html#ae297bb58763450ebbdc546aa45a689c7":[8,0,0,400,9],
+"class_acts_1_1_surface.html#af2d39a89fb21242671fd1b9872ec1d6f":[6,0,0,395,38],
 "class_acts_1_1_surface.html#af2d39a89fb21242671fd1b9872ec1d6f":[8,0,0,400,38],
 "class_acts_1_1_surface.html#af56ea9a976f4172841579c43a6d8f2ce":[6,0,0,395,44],
 "class_acts_1_1_surface.html#af56ea9a976f4172841579c43a6d8f2ce":[8,0,0,400,44],
@@ -11,8 +15,6 @@ var NAVTREEINDEX36 =
 "class_acts_1_1_surface_array.html#a0989ba36ee311d3928343c1a9b140f2a":[8,0,0,401,6],
 "class_acts_1_1_surface_array.html#a0d5b2cb1f84c25701fc85947e3d3cb98":[6,0,0,396,13],
 "class_acts_1_1_surface_array.html#a0d5b2cb1f84c25701fc85947e3d3cb98":[8,0,0,401,13],
-"class_acts_1_1_surface_array.html#a10ab400a529beba98a1e2a3649df76c7":[6,0,0,396,12],
-"class_acts_1_1_surface_array.html#a10ab400a529beba98a1e2a3649df76c7":[8,0,0,401,12],
 "class_acts_1_1_surface_array.html#a13c027205cb5f2390beb094fda36b9de":[6,0,0,396,5],
 "class_acts_1_1_surface_array.html#a13c027205cb5f2390beb094fda36b9de":[8,0,0,401,5],
 "class_acts_1_1_surface_array.html#a14bbc0bee0718ccc3216e762e23db29c":[6,0,0,396,9],
@@ -41,6 +43,8 @@ var NAVTREEINDEX36 =
 "class_acts_1_1_surface_array.html#a8fd04eef86d7a240557b79cb45c9afee":[8,0,0,401,8],
 "class_acts_1_1_surface_array.html#aa37d9e65ef078b639e52aa15f2367243":[6,0,0,396,11],
 "class_acts_1_1_surface_array.html#aa37d9e65ef078b639e52aa15f2367243":[8,0,0,401,11],
+"class_acts_1_1_surface_array.html#abbec0b0f3ba8cd58ab7dd0190281982e":[6,0,0,396,12],
+"class_acts_1_1_surface_array.html#abbec0b0f3ba8cd58ab7dd0190281982e":[8,0,0,401,12],
 "class_acts_1_1_surface_array.html#abf0396a5c10921098ca875214b554526":[6,0,0,396,4],
 "class_acts_1_1_surface_array.html#abf0396a5c10921098ca875214b554526":[8,0,0,401,4],
 "class_acts_1_1_surface_array.html#ac9c0f543e3692fc23df5917db434e141":[6,0,0,396,22],
@@ -148,8 +152,6 @@ var NAVTREEINDEX36 =
 "class_acts_1_1_surface_placement_base.html#ac360078545efe0e1cbb2a7d83d42e96d":[8,0,0,411,2],
 "class_acts_1_1_sympy_stepper.html":[6,0,0,409],
 "class_acts_1_1_sympy_stepper.html":[8,0,0,414],
-"class_acts_1_1_sympy_stepper.html#a035d309a555c211cc3a8b4308c1d4f4d":[6,0,0,409,40],
-"class_acts_1_1_sympy_stepper.html#a035d309a555c211cc3a8b4308c1d4f4d":[8,0,0,414,40],
 "class_acts_1_1_sympy_stepper.html#a04958978b62e1d55fa741f107e07da2b":[6,0,0,409,26],
 "class_acts_1_1_sympy_stepper.html#a04958978b62e1d55fa741f107e07da2b":[8,0,0,414,26],
 "class_acts_1_1_sympy_stepper.html#a159502df103dd6ebb0c63d4321960d6a":[6,0,0,409,3],
@@ -168,6 +170,8 @@ var NAVTREEINDEX36 =
 "class_acts_1_1_sympy_stepper.html#a345d6791e09cd24d1838489e59792254":[8,0,0,414,4],
 "class_acts_1_1_sympy_stepper.html#a362597fa196c57f6f08292cb168f71b2":[6,0,0,409,8],
 "class_acts_1_1_sympy_stepper.html#a362597fa196c57f6f08292cb168f71b2":[8,0,0,414,8],
+"class_acts_1_1_sympy_stepper.html#a3d9d797dea8ce1df8074cb829b49c30e":[6,0,0,409,40],
+"class_acts_1_1_sympy_stepper.html#a3d9d797dea8ce1df8074cb829b49c30e":[8,0,0,414,40],
 "class_acts_1_1_sympy_stepper.html#a406649786e19909062379a0b7e8a426a":[6,0,0,409,13],
 "class_acts_1_1_sympy_stepper.html#a406649786e19909062379a0b7e8a426a":[8,0,0,414,13],
 "class_acts_1_1_sympy_stepper.html#a45a0af2672b14a94a005270a71617587":[6,0,0,409,25],
@@ -245,9 +249,5 @@ var NAVTREEINDEX36 =
 "class_acts_1_1_toroid_field.html":[6,0,0,411],
 "class_acts_1_1_toroid_field.html":[8,0,0,416],
 "class_acts_1_1_toroid_field.html#a30dddaefb8ed1dfa5af3b904bced39e7":[6,0,0,411,5],
-"class_acts_1_1_toroid_field.html#a30dddaefb8ed1dfa5af3b904bced39e7":[8,0,0,416,5],
-"class_acts_1_1_toroid_field.html#a813312ed56ded37ac8e53bd52ca99b21":[6,0,0,411,7],
-"class_acts_1_1_toroid_field.html#a813312ed56ded37ac8e53bd52ca99b21":[8,0,0,416,7],
-"class_acts_1_1_toroid_field.html#a9371c1672e864ef6d94e196fbb68c017":[6,0,0,411,6],
-"class_acts_1_1_toroid_field.html#a9371c1672e864ef6d94e196fbb68c017":[8,0,0,416,6]
+"class_acts_1_1_toroid_field.html#a30dddaefb8ed1dfa5af3b904bced39e7":[8,0,0,416,5]
 };

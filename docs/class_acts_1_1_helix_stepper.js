@@ -40,5 +40,5 @@ var class_acts_1_1_helix_stepper =
     [ "update", "class_acts_1_1_helix_stepper.html#a7ea2be389d8c76b05272e44a02c71777", null ],
     [ "updateStepSize", "class_acts_1_1_helix_stepper.html#ae511392f04c483d581915b3f4d1e4a45", null ],
     [ "updateStepSize", "class_acts_1_1_helix_stepper.html#afa5ca0f410c76e005ca8ab071ad50abb", null ],
-    [ "updateSurfaceStatus", "class_acts_1_1_helix_stepper.html#a333a8d29803df38d0cd3b142cff94232", null ]
+    [ "updateSurfaceStatus", "class_acts_1_1_helix_stepper.html#ae31571448367c810686db7182b54875b", null ]
 ];

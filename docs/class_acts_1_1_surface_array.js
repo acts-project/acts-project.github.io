@@ -12,7 +12,7 @@ var class_acts_1_1_surface_array =
     [ "getBinCenter", "class_acts_1_1_surface_array.html#a14bbc0bee0718ccc3216e762e23db29c", null ],
     [ "isValidBin", "class_acts_1_1_surface_array.html#a18e0d4c969689f57afb1261cfa010f16", null ],
     [ "maxNeighborDistance", "class_acts_1_1_surface_array.html#aa37d9e65ef078b639e52aa15f2367243", null ],
-    [ "neighbors", "class_acts_1_1_surface_array.html#a10ab400a529beba98a1e2a3649df76c7", null ],
+    [ "neighbors", "class_acts_1_1_surface_array.html#abbec0b0f3ba8cd58ab7dd0190281982e", null ],
     [ "neighbors", "class_acts_1_1_surface_array.html#a0d5b2cb1f84c25701fc85947e3d3cb98", null ],
     [ "neighbors", "class_acts_1_1_surface_array.html#a70145ac264f1cebc5fd441073b6ce8da", null ],
     [ "neighborWindow", "class_acts_1_1_surface_array.html#a5df019287939eed716ff6bc9133701d8", null ],

@@ -1,5 +1,9 @@
 var NAVTREEINDEX29 =
 {
+"class_acts_1_1_particle_hypothesis.html#a6e8a0cf3ac8ea3158c0e4172b3a2d08f":[5,6,2,0,0],
+"class_acts_1_1_particle_hypothesis.html#a70997b9137372c1b5d6ce319ccf04bca":[5,6,2,0,10],
+"class_acts_1_1_particle_hypothesis.html#a7c4832e6c7773398326400283dd52181":[5,6,2,0,12],
+"class_acts_1_1_particle_hypothesis.html#a89856ba69cb0d5ff2ef2d42cd6c7262e":[5,6,2,0,8],
 "class_acts_1_1_particle_hypothesis.html#a954e9ecd782171e05be7aec704338f19":[5,6,2,0,25],
 "class_acts_1_1_particle_hypothesis.html#a963c15014185a0480f89ce287524fc2a":[5,6,2,0,18],
 "class_acts_1_1_particle_hypothesis.html#aac7b6ca8a004ff86e8f206d90ff7c299":[5,6,2,0,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX29 =
 "class_acts_1_1_point_surface.html#ad3ae812b12a1cc98a8b2a1d83a7098b1":[8,0,0,334,20],
 "class_acts_1_1_point_surface.html#ada2db6803d4a9e48f104756179028114":[6,0,0,329,1],
 "class_acts_1_1_point_surface.html#ada2db6803d4a9e48f104756179028114":[8,0,0,334,1],
-"class_acts_1_1_point_surface.html#ae5e3d3d5ed3f958b61d997b89c9196ce":[6,0,0,329,3],
-"class_acts_1_1_point_surface.html#ae5e3d3d5ed3f958b61d997b89c9196ce":[8,0,0,334,3],
-"class_acts_1_1_polynomial_bethe_heitler_approx.html":[5,3,2,17],
-"class_acts_1_1_polynomial_bethe_heitler_approx.html":[5,13,21],
-"class_acts_1_1_polynomial_bethe_heitler_approx.html#a107288fd979fa11027d9a14b1b5740bb":[5,3,2,17,4]
+"class_acts_1_1_point_surface.html#ae5e3d3d5ed3f958b61d997b89c9196ce":[6,0,0,329,3]
 };

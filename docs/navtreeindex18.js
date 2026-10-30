@@ -64,6 +64,8 @@ var NAVTREEINDEX18 =
 "class_acts_1_1_generic_runge_kutta_stepper.html#ad71af61b6aaabe5fe6db92d88c3e88d3":[8,0,0,165,11],
 "class_acts_1_1_generic_runge_kutta_stepper.html#ad764088675c4a3f866c1f0a7288ae75e":[6,0,0,160,22],
 "class_acts_1_1_generic_runge_kutta_stepper.html#ad764088675c4a3f866c1f0a7288ae75e":[8,0,0,165,22],
+"class_acts_1_1_generic_runge_kutta_stepper.html#ae6a9227ad2032bd6e941b0b6238e38e9":[6,0,0,160,43],
+"class_acts_1_1_generic_runge_kutta_stepper.html#ae6a9227ad2032bd6e941b0b6238e38e9":[8,0,0,165,43],
 "class_acts_1_1_generic_runge_kutta_stepper.html#aebeaae9923e5a5cd5812ebbdc4c56593":[6,0,0,160,39],
 "class_acts_1_1_generic_runge_kutta_stepper.html#aebeaae9923e5a5cd5812ebbdc4c56593":[8,0,0,165,39],
 "class_acts_1_1_generic_runge_kutta_stepper.html#af4701f077686cba501d83885adb1a72a":[6,0,0,160,20],
@@ -247,7 +249,5 @@ var NAVTREEINDEX18 =
 "class_acts_1_1_glue_volumes_descriptor.html#ad66965c9b54ca54eee01047e1eb76bbf":[6,0,0,171,6],
 "class_acts_1_1_glue_volumes_descriptor.html#ad66965c9b54ca54eee01047e1eb76bbf":[8,0,0,176,6],
 "class_acts_1_1_greedy_ambiguity_resolution.html":[6,0,0,172],
-"class_acts_1_1_greedy_ambiguity_resolution.html":[8,0,0,177],
-"class_acts_1_1_greedy_ambiguity_resolution.html#a7d28008e837ec787a950111e0fc1bd12":[6,0,0,172,2],
-"class_acts_1_1_greedy_ambiguity_resolution.html#a7d28008e837ec787a950111e0fc1bd12":[8,0,0,177,2]
+"class_acts_1_1_greedy_ambiguity_resolution.html":[8,0,0,177]
 };

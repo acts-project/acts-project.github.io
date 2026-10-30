@@ -39,5 +39,5 @@ var class_acts_1_1_straight_line_stepper =
     [ "update", "class_acts_1_1_straight_line_stepper.html#a4aecc90b25c1deadc77ea24f5ccf4d02", null ],
     [ "updateStepSize", "class_acts_1_1_straight_line_stepper.html#a8709889f25605c1641be69409d91f06a", null ],
     [ "updateStepSize", "class_acts_1_1_straight_line_stepper.html#a72f39f633806569b1a2c8f39528cf032", null ],
-    [ "updateSurfaceStatus", "class_acts_1_1_straight_line_stepper.html#a98d210796ac61957ce78f908e65420d6", null ]
+    [ "updateSurfaceStatus", "class_acts_1_1_straight_line_stepper.html#a441c0626472c049b399f497b2653968d", null ]
 ];

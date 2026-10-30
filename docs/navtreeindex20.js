@@ -1,5 +1,7 @@
 var NAVTREEINDEX20 =
 {
+"class_acts_1_1_grid_local_iterator.html#af94383a0c28950200022e317d9f52502":[6,0,0,177,17],
+"class_acts_1_1_grid_local_iterator.html#af94383a0c28950200022e317d9f52502":[8,0,0,182,17],
 "class_acts_1_1_grid_local_iterator.html#afb4671c50f7d582de7b33af6176b9330":[6,0,0,177,15],
 "class_acts_1_1_grid_local_iterator.html#afb4671c50f7d582de7b33af6176b9330":[8,0,0,182,15],
 "class_acts_1_1_grid_portal_link.html":[6,0,0,178],
@@ -122,8 +124,6 @@ var NAVTREEINDEX20 =
 "class_acts_1_1_helix_stepper.html#a288a1366cc5969a42a650c0ed3268110":[8,0,0,190,5],
 "class_acts_1_1_helix_stepper.html#a2e81a01f3f338a82b6a7244b52cf4206":[6,0,0,185,9],
 "class_acts_1_1_helix_stepper.html#a2e81a01f3f338a82b6a7244b52cf4206":[8,0,0,190,9],
-"class_acts_1_1_helix_stepper.html#a333a8d29803df38d0cd3b142cff94232":[6,0,0,185,40],
-"class_acts_1_1_helix_stepper.html#a333a8d29803df38d0cd3b142cff94232":[8,0,0,190,40],
 "class_acts_1_1_helix_stepper.html#a38c3fe896d7ec640f233d9a2c2cdca92":[6,0,0,185,15],
 "class_acts_1_1_helix_stepper.html#a38c3fe896d7ec640f233d9a2c2cdca92":[8,0,0,190,15],
 "class_acts_1_1_helix_stepper.html#a41020cce183a3f3c2b05697c0eadfa93":[6,0,0,185,21],
@@ -172,6 +172,8 @@ var NAVTREEINDEX20 =
 "class_acts_1_1_helix_stepper.html#acab92da52ee70182e58d9f34b99066ff":[8,0,0,190,17],
 "class_acts_1_1_helix_stepper.html#acda286ba8341de5f8c5921f3d386f2c6":[6,0,0,185,27],
 "class_acts_1_1_helix_stepper.html#acda286ba8341de5f8c5921f3d386f2c6":[8,0,0,190,27],
+"class_acts_1_1_helix_stepper.html#ae31571448367c810686db7182b54875b":[6,0,0,185,40],
+"class_acts_1_1_helix_stepper.html#ae31571448367c810686db7182b54875b":[8,0,0,190,40],
 "class_acts_1_1_helix_stepper.html#ae511392f04c483d581915b3f4d1e4a45":[6,0,0,185,38],
 "class_acts_1_1_helix_stepper.html#ae511392f04c483d581915b3f4d1e4a45":[8,0,0,190,38],
 "class_acts_1_1_helix_stepper.html#aeb45b343fb1aab86517b574f4ce56828":[6,0,0,185,35],
@@ -247,7 +249,5 @@ var NAVTREEINDEX20 =
 "class_acts_1_1_hough_transform_utils_1_1_hough_plane.html#aa04bb959a9d1b7d22b79d671a12a52f6":[6,0,0,4,3,0],
 "class_acts_1_1_hough_transform_utils_1_1_hough_plane.html#aa04bb959a9d1b7d22b79d671a12a52f6":[8,0,0,5,3,0],
 "class_acts_1_1_hough_transform_utils_1_1_hough_plane.html#aa11a43e930d4716c639c29026df4ccd5":[6,0,0,4,3,8],
-"class_acts_1_1_hough_transform_utils_1_1_hough_plane.html#aa11a43e930d4716c639c29026df4ccd5":[8,0,0,5,3,8],
-"class_acts_1_1_hough_transform_utils_1_1_hough_plane.html#aa307108cd88fa1980449b49440b3583f":[6,0,0,4,3,17],
-"class_acts_1_1_hough_transform_utils_1_1_hough_plane.html#aa307108cd88fa1980449b49440b3583f":[8,0,0,5,3,17]
+"class_acts_1_1_hough_transform_utils_1_1_hough_plane.html#aa11a43e930d4716c639c29026df4ccd5":[8,0,0,5,3,8]
 };

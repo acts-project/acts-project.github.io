@@ -1,5 +1,9 @@
 var NAVTREEINDEX60 =
 {
+"struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#aa0e6002ab2bbeabba55077ab3fe18ca8":[6,0,0,172,1,4],
+"struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#aa0e6002ab2bbeabba55077ab3fe18ca8":[8,0,0,177,1,4],
+"struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#aa8d186290cfb450f3c32e7f597816735":[6,0,0,172,1,5],
+"struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#aa8d186290cfb450f3c32e7f597816735":[8,0,0,177,1,5],
 "struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#ad13627e4e2fb866fc3f547929ce57122":[6,0,0,172,1,0],
 "struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#ad13627e4e2fb866fc3f547929ce57122":[8,0,0,177,1,0],
 "struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#aff82b43b9e5efed0689fc66f7833aa03":[6,0,0,172,1,7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX60 =
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_config.html#a9eb54f4497d0a87921f0d5bf9041dfd6":[8,0,0,5,0,1,1],
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_config.html#aa8a8145a0b6254db642c3a8fe85d0f8e":[6,0,0,4,0,1,0],
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_config.html#aa8a8145a0b6254db642c3a8fe85d0f8e":[8,0,0,5,0,1,0],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_1_1_maximum.html":[6,0,0,4,0,2,0],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_1_1_maximum.html":[8,0,0,5,0,2,0],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_1_1_maximum.html#af74ac7e2ae6c39eb650bc7fc5c2e3378":[6,0,0,4,0,2,0,0],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_1_1_maximum.html#af74ac7e2ae6c39eb650bc7fc5c2e3378":[8,0,0,5,0,2,0,0],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_config.html":[6,0,0,4,0,3]
+"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_1_1_maximum.html":[6,0,0,4,0,2,0]
 };

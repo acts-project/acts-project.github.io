@@ -40,6 +40,6 @@ var class_acts_1_1_eigen_stepper =
     [ "update", "class_acts_1_1_eigen_stepper.html#a6448aea9acc91b98ffb1040971f7e6f9", null ],
     [ "updateStepSize", "class_acts_1_1_eigen_stepper.html#aac45edcfd9dca8d2dc3430dbb055708d", null ],
     [ "updateStepSize", "class_acts_1_1_eigen_stepper.html#ade431d0fb45da51476771ccf991cddb9", null ],
-    [ "updateSurfaceStatus", "class_acts_1_1_eigen_stepper.html#a5f22d43ee68d0d3fb7f2a85fc4d3803d", null ],
+    [ "updateSurfaceStatus", "class_acts_1_1_eigen_stepper.html#ab01a668f31ff0c36d3f7dac98ac6beb2", null ],
     [ "m_bField", "class_acts_1_1_eigen_stepper.html#a05602c635fad5a79f02dfa4f5d8debbd", null ]
 ];

@@ -224,8 +224,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a4202d2ac654fa9749f8b71b64dceb0e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update step size.  <br /></td></tr>
 <tr class="memitem:a1f388f63bebb6b3643499b0c6f433b5f" id="r_a1f388f63bebb6b3643499b0c6f433b5f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f388f63bebb6b3643499b0c6f433b5f">updateStepSize</a> (<a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state, double <a class="el" href="#a7ac4f7741f7c649485bea815bfc7848e">stepSize</a>, <a class="el" href="class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5">ConstrainedStep::Type</a> stype) const</td></tr>
 <tr class="memdesc:a1f388f63bebb6b3643499b0c6f433b5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update step size - explicitly with a double.  <br /></td></tr>
-<tr class="memitem:a70062f5ed54888f7e130f1af0568ee2a" id="r_a70062f5ed54888f7e130f1af0568ee2a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a52191edec34daa17746d1937fb06c1fb">IntersectionStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70062f5ed54888f7e130f1af0568ee2a">updateSurfaceStatus</a> (<a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, std::uint8_t index, <a class="el" href="class_acts_1_1_direction.html">Direction</a> navDir, const <a class="el" href="class_acts_1_1_boundary_tolerance.html">BoundaryTolerance</a> &amp;boundaryTolerance, double surfaceTolerance, <a class="el" href="class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5">ConstrainedStep::Type</a> stype, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">getDummyLogger</a>()) const</td></tr>
-<tr class="memdesc:a70062f5ed54888f7e130f1af0568ee2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update surface status.  <br /></td></tr>
+<tr class="memitem:a262cb0491260b7a4e355320b9fbe7062" id="r_a262cb0491260b7a4e355320b9fbe7062"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a52191edec34daa17746d1937fb06c1fb">IntersectionStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a262cb0491260b7a4e355320b9fbe7062">updateSurfaceStatus</a> (<a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, std::uint8_t index, <a class="el" href="class_acts_1_1_direction.html">Direction</a> navDir, const <a class="el" href="class_acts_1_1_boundary_tolerance.html">BoundaryTolerance</a> &amp;boundaryTolerance, double surfaceTolerance, <a class="el" href="class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5">ConstrainedStep::Type</a> stype, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">getDummyLogger</a>(), const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;<a class="el" href="#a6004ed6a3f7c94daba23abc3e28ffd5e">curvature</a>=Vector3::Zero()) const</td></tr>
+<tr class="memdesc:a262cb0491260b7a4e355320b9fbe7062"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update surface status.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>the AtlasStepper implementation for the </p>
@@ -1305,8 +1305,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a70062f5ed54888f7e130f1af0568ee2a" name="a70062f5ed54888f7e130f1af0568ee2a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a70062f5ed54888f7e130f1af0568ee2a">&#9670;&#160;</a></span>updateSurfaceStatus()</h2>
+<a id="a262cb0491260b7a4e355320b9fbe7062" name="a262cb0491260b7a4e355320b9fbe7062"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a262cb0491260b7a4e355320b9fbe7062">&#9670;&#160;</a></span>updateSurfaceStatus()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1349,7 +1349,12 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>logger</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">getDummyLogger</a>()</span>&#160;) const</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>logger</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">getDummyLogger</a>()</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>curvature</em></span><span class="paramdefsep"> = </span><span class="paramdefval">Vector3::Zero()</span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1366,6 +1371,7 @@ Public Member Functions</h2></td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">surfaceTolerance</td><td>Surface tolerance used for intersection </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">stype</td><td>The step size type to be set </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">logger</td><td>Logger instance to use </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">curvature</td><td>Global geometric curvature for the crossing estimate </td></tr>
   </table>
   </dd>
 </dl>

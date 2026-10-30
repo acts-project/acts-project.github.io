@@ -158,8 +158,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a18e0d4c969689f57afb1261cfa010f16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if global bin is valid.  <br /></td></tr>
 <tr class="memitem:aa37d9e65ef078b639e52aa15f2367243" id="r_aa37d9e65ef078b639e52aa15f2367243"><td class="memItemLeft" align="right" valign="top">std::uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa37d9e65ef078b639e52aa15f2367243">maxNeighborDistance</a> () const</td></tr>
 <tr class="memdesc:aa37d9e65ef078b639e52aa15f2367243"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the maximum neighbor distance that is supported by this lookup.  <br /></td></tr>
-<tr class="memitem:a10ab400a529beba98a1e2a3649df76c7" id="r_a10ab400a529beba98a1e2a3649df76c7"><td class="memItemLeft" align="right" valign="top">std::span&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *const &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10ab400a529beba98a1e2a3649df76c7">neighbors</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction) const</td></tr>
-<tr class="memdesc:a10ab400a529beba98a1e2a3649df76c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all surfaces in bin at <code class="param">pos</code> and its neighbors.  <br /></td></tr>
+<tr class="memitem:abbec0b0f3ba8cd58ab7dd0190281982e" id="r_abbec0b0f3ba8cd58ab7dd0190281982e"><td class="memItemLeft" align="right" valign="top">std::span&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *const &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbec0b0f3ba8cd58ab7dd0190281982e">neighbors</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;curvature=Vector3::Zero()) const</td></tr>
+<tr class="memdesc:abbec0b0f3ba8cd58ab7dd0190281982e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all surfaces in bin at <code class="param">pos</code> and its neighbors.  <br /></td></tr>
 <tr class="memitem:a0d5b2cb1f84c25701fc85947e3d3cb98" id="r_a0d5b2cb1f84c25701fc85947e3d3cb98"><td class="memItemLeft" align="right" valign="top">std::span&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *const &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d5b2cb1f84c25701fc85947e3d3cb98">neighbors</a> (std::array&lt; std::size_t, 2 &gt; gridIndices, std::array&lt; std::uint8_t, 2 &gt; neighborDistance) const</td></tr>
 <tr class="memdesc:a0d5b2cb1f84c25701fc85947e3d3cb98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all surfaces in bin given by local grid indices and a neighbor distance per axis.  <br /></td></tr>
 <tr class="memitem:a70145ac264f1cebc5fd441073b6ce8da" id="r_a70145ac264f1cebc5fd441073b6ce8da"><td class="memItemLeft" align="right" valign="top">std::span&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *const &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70145ac264f1cebc5fd441073b6ce8da">neighbors</a> (std::array&lt; std::size_t, 2 &gt; gridIndices, std::uint8_t neighborDistance) const</td></tr>
@@ -517,8 +517,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a10ab400a529beba98a1e2a3649df76c7" name="a10ab400a529beba98a1e2a3649df76c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10ab400a529beba98a1e2a3649df76c7">&#9670;&#160;</a></span>neighbors() <span class="overload">[1/3]</span></h2>
+<a id="abbec0b0f3ba8cd58ab7dd0190281982e" name="abbec0b0f3ba8cd58ab7dd0190281982e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbec0b0f3ba8cd58ab7dd0190281982e">&#9670;&#160;</a></span>neighbors() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -536,7 +536,12 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>direction</em></span>&#160;) const</td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>direction</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>curvature</em></span><span class="paramdefsep"> = </span><span class="paramdefval">Vector3::Zero()</span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -547,6 +552,13 @@ Public Member Functions</h2></td></tr>
     <tr><td class="paramname">gctx</td><td>The current geometry context object, e.g. alignment </td></tr>
     <tr><td class="paramname">position</td><td>The position to lookup </td></tr>
     <tr><td class="paramname">direction</td><td>The direction to lookup </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>Curvature is reserved for a follow-up crossing correction; the lookup currently uses a ray. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">curvature</td><td>Global geometric curvature for the lookup crossing </td></tr>
   </table>
   </dd>
 </dl>

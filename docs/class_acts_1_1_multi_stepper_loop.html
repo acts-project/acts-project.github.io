@@ -252,6 +252,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a8d8165ca37acd22cd0e423c7a8cd1625"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update step size - explicitly with a double.  <br /></td></tr>
 <tr class="memitem:a0dc60c5117467bf4f3aed5c0dc7dfdf3" id="r_a0dc60c5117467bf4f3aed5c0dc7dfdf3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a52191edec34daa17746d1937fb06c1fb">IntersectionStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0dc60c5117467bf4f3aed5c0dc7dfdf3">updateSurfaceStatus</a> (<a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;state, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, std::uint8_t index, <a class="el" href="class_acts_1_1_direction.html">Direction</a> navDir, const <a class="el" href="class_acts_1_1_boundary_tolerance.html">BoundaryTolerance</a> &amp;boundaryTolerance, double surfaceTolerance, <a class="el" href="class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5">ConstrainedStep::Type</a> stype, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">getDummyLogger</a>()) const</td></tr>
 <tr class="memdesc:a0dc60c5117467bf4f3aed5c0dc7dfdf3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update surface status.  <br /></td></tr>
+<tr class="memitem:a2db658c250a3f32dfa58c0884a2dcfdb" id="r_a2db658c250a3f32dfa58c0884a2dcfdb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="namespace_acts.html#a52191edec34daa17746d1937fb06c1fb">IntersectionStatus</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2db658c250a3f32dfa58c0884a2dcfdb">updateSurfaceStatusWithCurvature</a> (<a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;state, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, std::uint8_t index, <a class="el" href="class_acts_1_1_direction.html">Direction</a> navDir, const <a class="el" href="class_acts_1_1_boundary_tolerance.html">BoundaryTolerance</a> &amp;boundaryTolerance, double surfaceTolerance, <a class="el" href="class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5">ConstrainedStep::Type</a> stype, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">getDummyLogger</a>()) const</td></tr>
+<tr class="memdesc:a2db658c250a3f32dfa58c0884a2dcfdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update surface status.     <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -1510,6 +1512,76 @@ template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>IntersectionStatus indicating the overall status of all components relative to the surface </dd></dl>
+
+</div>
+</div>
+<a id="a2db658c250a3f32dfa58c0884a2dcfdb" name="a2db658c250a3f32dfa58c0884a2dcfdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2db658c250a3f32dfa58c0884a2dcfdb">&#9670;&#160;</a></span>updateSurfaceStatusWithCurvature()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer_t = MaxWeightReducerLoop&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="namespace_acts.html#a52191edec34daa17746d1937fb06c1fb">IntersectionStatus</a> &gt; <a class="el" href="class_acts_1_1_multi_stepper_loop.html">Acts::MultiStepperLoop</a>&lt; single_stepper_t, component_reducer_t &gt;::updateSurfaceStatusWithCurvature </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>surface</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::uint8_t</td>          <td class="paramname"><span class="paramname"><em>index</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_acts_1_1_direction.html">Direction</a></td>          <td class="paramname"><span class="paramname"><em>navDir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_boundary_tolerance.html">BoundaryTolerance</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>boundaryTolerance</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>surfaceTolerance</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5">ConstrainedStep::Type</a></td>          <td class="paramname"><span class="paramname"><em>stype</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>logger</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">getDummyLogger</a>()</span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Update surface status.    </p>
+<p>It checks the status to the reference surface &amp; updates the step size accordingly</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">state</td><td>The stepping state (thread-local cache) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">surface</td><td>The surface provided </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>The surface intersection index </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">navDir</td><td>The navigation direction </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">boundaryTolerance</td><td>The boundary check for this status update </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">surfaceTolerance</td><td>Surface tolerance used for intersection </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stype</td><td>The step size type to be set </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">logger</td><td>A <code>Logger</code> instance </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>IntersectionStatus indicating the overall status of all components relative to the surface    Query each component's curvature for the surface-status update. </dd></dl>
 
 </div>
 </div>

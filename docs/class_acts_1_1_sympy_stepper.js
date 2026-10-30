@@ -40,6 +40,6 @@ var class_acts_1_1_sympy_stepper =
     [ "update", "class_acts_1_1_sympy_stepper.html#ab8654c1135c1c325e78114d9b5cce978", null ],
     [ "updateStepSize", "class_acts_1_1_sympy_stepper.html#a4b84ee228ded705c7b31fb58bc1e92a7", null ],
     [ "updateStepSize", "class_acts_1_1_sympy_stepper.html#a6955d8085e0736f6cb82e8d9350706bc", null ],
-    [ "updateSurfaceStatus", "class_acts_1_1_sympy_stepper.html#a035d309a555c211cc3a8b4308c1d4f4d", null ],
+    [ "updateSurfaceStatus", "class_acts_1_1_sympy_stepper.html#a3d9d797dea8ce1df8074cb829b49c30e", null ],
     [ "m_bField", "class_acts_1_1_sympy_stepper.html#ab4d678f2a095ffea496d4673861ec556", null ]
 ];

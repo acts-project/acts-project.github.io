@@ -1,5 +1,11 @@
 var NAVTREEINDEX70 =
 {
+"struct_acts_fatras_1_1_free_parameters_smearer.html#a89db55ff17a125b35558c4ecd51efe74":[8,0,1,15,3],
+"struct_acts_fatras_1_1_free_parameters_smearer.html#aa2776789f4a431d8fe4ee89c6e941e19":[6,0,2,14,1],
+"struct_acts_fatras_1_1_free_parameters_smearer.html#aa2776789f4a431d8fe4ee89c6e941e19":[8,0,1,15,1],
+"struct_acts_fatras_1_1_free_parameters_smearer.html#abc75131f7ae04217d49bfb64fd826b8f":[6,0,2,14,6],
+"struct_acts_fatras_1_1_free_parameters_smearer.html#abc75131f7ae04217d49bfb64fd826b8f":[8,0,1,15,6],
+"struct_acts_fatras_1_1_free_parameters_smearer.html#adb067865194cc375d87ff74bd80a74d9":[6,0,2,14,0],
 "struct_acts_fatras_1_1_free_parameters_smearer.html#adb067865194cc375d87ff74bd80a74d9":[8,0,1,15,0],
 "struct_acts_fatras_1_1_free_parameters_smearer.html#aea744b622f3e8b5a63ac4443b8a5204a":[6,0,2,14,4],
 "struct_acts_fatras_1_1_free_parameters_smearer.html#aea744b622f3e8b5a63ac4443b8a5204a":[8,0,1,15,4],
@@ -243,11 +249,5 @@ var NAVTREEINDEX70 =
 "struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_cache.html#aaebb5894bf3e09d5964faa8a7dee393e":[5,10,2,2,0,7],
 "struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_cache.html#ab600d76653d0b5a7c7eb3c98e98929dd":[5,10,2,2,0,4],
 "struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_cache.html#adb453a31d9eeed9bf3ad1aea11e81062":[5,10,2,2,0,5],
-"struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_cache.html#ae862f8da107c5542ddcd232c62bd62e6":[5,10,2,2,0,0],
-"struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_config.html":[5,10,2,2,1],
-"struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_config.html#a6b9231525951fb3b42c5cd16aa77c4b1":[5,10,2,2,1,0],
-"struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_options.html":[5,10,2,2,2],
-"struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_options.html#a573ce1e7205ac96f57a26efb476fdf9c":[5,10,2,2,2,1],
-"struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_options.html#a63aac6057bcb106cf3cbce966134fc5b":[5,10,2,2,2,2],
-"struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_options.html#a9c093f6b2fa77b483108af0d7cc7a118":[5,10,2,2,2,3]
+"struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_cache.html#ae862f8da107c5542ddcd232c62bd62e6":[5,10,2,2,0,0]
 };

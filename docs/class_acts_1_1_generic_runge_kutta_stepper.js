@@ -47,5 +47,5 @@ var class_acts_1_1_generic_runge_kutta_stepper =
     [ "update", "class_acts_1_1_generic_runge_kutta_stepper.html#a2192f78b28f885821292867e9c28023b", null ],
     [ "updateStepSize", "class_acts_1_1_generic_runge_kutta_stepper.html#a6ca1c23fea5eb0bc6ad616eafcefd7de", null ],
     [ "updateStepSize", "class_acts_1_1_generic_runge_kutta_stepper.html#a9cd7a5e11846b97065927aae01d186f2", null ],
-    [ "updateSurfaceStatus", "class_acts_1_1_generic_runge_kutta_stepper.html#a1c422a18fc47f13e2d648d932ae91ed5", null ]
+    [ "updateSurfaceStatus", "class_acts_1_1_generic_runge_kutta_stepper.html#ae6a9227ad2032bd6e941b0b6238e38e9", null ]
 ];
