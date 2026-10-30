@@ -143,7 +143,7 @@ var NAVTREEINDEX =
 "struct_acts_1_1_void_navigator_1_1_config.html",
 "struct_acts_fatras_1_1_every_surface.html#ac5cf0ffb0ebc9d61f805b974588a2f57",
 "struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_cache.html",
-"struct_acts_plugins_1_1_root_material_map_io_1_1_material_tree_payload.html#a0dd05b5d1d9b9b914f7ab4073c98c555"
+"struct_acts_plugins_1_1_root_material_map_io_1_1_config.html#af56968784b90ad02e1d0879a41e153e2"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

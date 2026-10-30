@@ -126,6 +126,10 @@ $(function(){initNavTree('group__detray__plugin.html','',''); });
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<p>To convert an enclosed part of a tracking geometry, set <a class="el" href="struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#adabd4c6ae5a37289210b34f7dc536465">ActsPlugins::DetrayPayloadConverter::Config::replacementWorld</a> to a volume in that geometry. The converter includes that volume and all its descendants, including gap volumes. Outgoing portal segments from the replacement world to excluded volumes become end-of-world segments in the payload; internal links are preserved. A descendant linking outside the selected subtree is an error. The original tracking geometry is not modified.</p>
+<p>The configured <span class="tt">beampipeVolume</span> must belong to the selected subtree and is still placed at detray index zero. Leave <span class="tt">replacementWorld</span> null to convert the full geometry. Both pointers are non-owning and must remain valid during conversion.</p>
+<p>Set <a class="el" href="struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#adc36fa68f369600e63e1fbd46e9cce7c">ActsPlugins::DetrayPayloadConverter::Config::includeWorld</a> to <span class="tt">false</span> to omit the selected world itself and convert only its descendants. This also works with the input world when <span class="tt">replacementWorld</span> is null. Portal segments targeting the omitted world become end-of-world segments; other links to excluded volumes remain errors. The default is <span class="tt">true</span>.</p>
+<p>Omitting the world removes its padding, surfaces and material: tracks terminate at its children's shell rather than crossing the world's space. The selected world must have descendants and cannot itself be the configured beampipe. </p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
