@@ -1,0 +1,9 @@
+<map id="Acts::Experimental::SensorLayer&lt; BackendT &gt;" name="Acts::Experimental::SensorLayer&lt; BackendT &gt;">
+<area shape="rect" id="Node000001" title="Fluent builder that assembles a single cylindrical or disc&#45;like detector layer directly from sensor e..." alt="" coords="5,69,208,109"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_sensor_layer.html" title=" " alt="" coords="532,5,681,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="203,64,232,59,392,39,531,27,532,32,393,44,232,64,204,69"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_sensor_layer.html" title=" " alt="" coords="532,69,681,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="222,87,532,87,532,92,222,92"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_sensor_layer.html" title=" " alt="" coords="489,133,724,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="204,109,232,115,365,132,489,143,489,149,365,137,232,120,203,115"/>
+</map>

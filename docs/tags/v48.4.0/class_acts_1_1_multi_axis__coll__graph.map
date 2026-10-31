@@ -1,0 +1,10 @@
+<map id="Acts::MultiAxis&lt; Axes &gt;" name="Acts::MultiAxis&lt; Axes &gt;">
+<area shape="rect" id="Node000001" title="Multi&#45;dimensional binning defined by a product of one&#45;dimensional axes." alt="" coords="5,280,185,305"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_i_multi_axis_x_d.html" title=" " alt="" coords="24,191,167,231"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,244,98,280,93,280,93,244"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_i_multi_axis.html" title="Common base class for all MultiAxis instances." alt="" coords="29,5,151,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="93,45,97,190,92,190,88,45"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_i_multi_axis_x_d.html" title="Common base class for all multi&#45;axes of a fixed, compile&#45;time dimension." alt="" coords="112,80,255,120"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="115,37,163,78,160,82,112,41"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="162,132,113,192,109,189,157,129"/>
+</map>

@@ -1,0 +1,30 @@
+<map id="Acts::AdaptiveMultiVertexFitter::State" name="Acts::AdaptiveMultiVertexFitter::State">
+<area shape="rect" id="Node000001" title="The fitter state." alt="" coords="1388,207,1579,247"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="1000,8,1143,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1157,22,1206,25,1260,33,1315,48,1365,71,1403,101,1435,138,1459,174,1475,205,1470,207,1454,177,1430,141,1400,105,1363,76,1313,53,1259,38,1206,30,1156,28"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="583,15,712,41"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="726,25,1000,25,1000,31,726,31"/>
+<area shape="rect" id="Node000004" href="$struct_acts_1_1_annealing_utility_1_1_state.html" title="The annealing state Resetting the state is done by just creating a new instance." alt="" coords="990,72,1153,112"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="1166,94,1264,108,1316,120,1365,138,1420,170,1463,205,1460,209,1417,174,1363,142,1314,125,1263,113,1166,99"/>
+<area shape="rect" id="Node000005" href="$struct_acts_1_1_impact_point_estimator_1_1_state.html" title="State struct." alt="" coords="972,207,1171,247"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="1184,224,1388,224,1388,229,1184,229"/>
+<area shape="rect" id="Node000006" href="$class_acts_1_1_any_base.html" title=" " alt="" coords="563,163,732,203"/>
+<area shape="poly" id="edge9_Node000001_Node000006" title=" " alt="" coords="746,175,870,171,1024,172,1195,179,1364,196,1407,204,1406,209,1364,201,1194,184,1024,177,870,177,746,180"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="746,196,756,197,972,218,972,223,756,203,745,201"/>
+<area shape="rect" id="Node000007" href="$class_acts_1_1_any_base_all.html" title="Base class for all instances of AnyBase regarfless of SBO size." alt="" coords="5,175,137,201"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="151,180,161,180,350,173,539,175,562,175,562,181,539,180,350,178,161,185,151,186"/>
+<area shape="rect" id="Node000008" href="$class_acts_1_1_any_base.html" title="Small opaque type&#45;erased type with configurable small buffer optimization." alt="" coords="187,196,364,236"/>
+<area shape="poly" id="edge8_Node000008_Node000007" title=" " alt="" coords="151,196,187,201,186,206,151,202"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="377,210,538,197,562,194,563,200,539,203,378,215"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="985,271,1157,311"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="1171,279,1264,267,1364,252,1402,244,1403,249,1364,257,1265,273,1171,284"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="580,317,715,342"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="728,313,756,309,876,298,985,292,985,297,876,304,756,315,729,318"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="988,335,1155,404"/>
+<area shape="poly" id="edge15_Node000013_Node000010" title=" " alt="" coords="682,347,717,364,757,377,816,386,877,389,987,381,988,386,877,394,816,392,755,383,715,369,679,351"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="993,429,1149,483"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="1162,446,1211,437,1263,424,1315,405,1362,379,1399,348,1429,312,1470,245,1475,248,1434,315,1403,352,1366,384,1317,410,1265,429,1212,442,1163,451"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="563,443,731,469"/>
+<area shape="poly" id="edge13_Node000011_Node000012" title=" " alt="" coords="745,453,993,453,993,459,745,459"/>
+<area shape="poly" id="edge14_Node000001_Node000013" title=" " alt="" coords="1168,356,1264,336,1314,322,1363,304,1414,276,1457,245,1460,249,1417,280,1365,309,1316,327,1265,342,1169,361"/>
+</map>

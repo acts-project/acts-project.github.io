@@ -1,0 +1,5 @@
+<map id="Acts::MergedMaterialMarker" name="Acts::MergedMaterialMarker">
+<area shape="rect" id="Node000001" title="Sentinel surface material used by Portal::merge in its &quot;keep going&quot; mode." alt="" coords="5,79,212,104"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_i_surface_material.html" title="Base class of all surface&#45;based material description." alt="" coords="26,5,191,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,44,111,79,106,79,106,44"/>
+</map>

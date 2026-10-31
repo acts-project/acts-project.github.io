@@ -1,0 +1,18 @@
+<map id="Acts::PropagatorPlainOptions" name="Acts::PropagatorPlainOptions">
+<area shape="rect" id="Node000001" title="Holds the generic propagator options." alt="" coords="1069,70,1280,95"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="741,5,943,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="958,38,1046,52,1120,67,1119,73,1045,57,957,43"/>
+<area shape="rect" id="Node000003" href="$struct_acts_1_1_stepper_plain_options.html" title="Common options shared by plain steppers." alt="" coords="747,70,937,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="951,80,1069,80,1069,85,951,85"/>
+<area shape="rect" id="Node000004" href="$struct_acts_1_1_stepper_plain_options_1_1_dense.html" title="Options for dense material effects." alt="" coords="372,60,563,100"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="576,78,746,79,746,85,576,83"/>
+<area shape="rect" id="Node000005" href="$struct_acts_1_1_navigator_plain_options.html" title="Plain navigator options carrying geometry context and navigation settings." alt="" coords="740,131,944,157"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="940,126,1045,108,1117,93,1119,98,1046,113,941,132"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="394,124,541,164"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="555,141,740,141,740,147,555,147"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="5,163,135,189"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="148,167,393,147,394,153,148,172"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="391,188,543,228"/>
+<area shape="poly" id="edge8_Node000008_Node000007" title=" " alt="" coords="133,189,159,193,281,204,391,206,391,212,281,209,158,199,132,194"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="557,194,716,169,788,154,789,159,716,175,558,199"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="ActsPlugins::Svg::SurfaceConverter::Options" name="ActsPlugins::Svg::SurfaceConverter::Options">
+<area shape="rect" id="Node000001" title="Nested Options struct." alt="" coords="176,373,363,413"/>
+<area shape="rect" id="Node000002" href="$struct_acts_plugins_1_1_svg_1_1_style.html" title="Style struct." alt="" coords="184,277,355,303"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="272,317,272,373,267,373,267,317"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,101,152,127"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="82,140,93,197,105,226,124,251,152,270,185,281,183,286,150,274,121,255,101,229,88,198,77,141"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="17,5,140,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="81,45,81,101,76,101,76,45"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="176,101,363,127"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="272,140,272,277,267,277,267,140"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="285,5,414,31"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="326,42,311,56,278,102,274,99,307,53,322,38"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="387,101,525,127"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="389,35,415,53,437,77,452,100,447,103,432,80,412,57,386,39"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="445,140,406,197,380,228,350,255,328,269,305,280,303,275,325,265,346,251,376,224,402,193,441,137"/>
+</map>

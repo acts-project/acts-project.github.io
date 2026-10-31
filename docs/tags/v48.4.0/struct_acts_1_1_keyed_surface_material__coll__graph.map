@@ -1,0 +1,9 @@
+<map id="Acts::KeyedSurfaceMaterial" name="Acts::KeyedSurfaceMaterial">
+<area shape="rect" id="Node000001" title="A keyed assignment." alt="" coords="75,212,277,237"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_geometry_identifier.html" title="Identifier for geometry nodes within the geometry hierarchy." alt="" coords="5,109,187,134"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,144,145,186,166,210,163,214,141,190,109,147"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="211,101,395,141"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="273,153,228,190,195,214,192,210,225,186,270,149"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="224,5,381,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="305,45,305,101,300,101,300,45"/>
+</map>
