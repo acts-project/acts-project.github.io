@@ -7,6 +7,7 @@ var class_acts_plugins_1_1_t_geo_detector_element =
     [ "TGeoDetectorElement", "class_acts_plugins_1_1_t_geo_detector_element.html#a7a39ac7f06928372bc81a8890113f36d", null ],
     [ "TGeoDetectorElement", "class_acts_plugins_1_1_t_geo_detector_element.html#a9e21aae70818581af4f5b17254ac9b70", null ],
     [ "TGeoDetectorElement", "class_acts_plugins_1_1_t_geo_detector_element.html#a791f2bac7bdec07402b2659e6e8b138a", null ],
+    [ "TGeoDetectorElement", "class_acts_plugins_1_1_t_geo_detector_element.html#a30d0871a17d769dba61d84948c4be35a", null ],
     [ "identifier", "group__root__plugin.html#ga39ae58cede7230ec843b6ff7c2f8fc06", null ],
     [ "isSensitive", "class_acts_plugins_1_1_t_geo_detector_element.html#a8132f27f988897a784a20db25247ed11", null ],
     [ "localToGlobalTransform", "group__root__plugin.html#gaa1f017f131f32f960d35924a66984c9a", null ],

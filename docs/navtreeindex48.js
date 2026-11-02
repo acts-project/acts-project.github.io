@@ -1,5 +1,6 @@
 var NAVTREEINDEX48 =
 {
+"group__errors.html#ga15d42dcaa6c43d68f6d711f04f9594bd":[5,4,12],
 "group__errors.html#ga1ce88ea0e4490538ca747b2877e17317":[5,4,3],
 "group__errors.html#ga1f61f3856fa7ffded6d06723801cf8e6":[5,4,16],
 "group__errors.html#ga21cb0f3d4dc02db3af0291385e70d4e0":[5,4,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX48 =
 "group__logging__macros.html#ga6ae3a5bd5ae00bdd04ae4eac65ba3df2":[5,8,0,2],
 "group__logging__macros.html#ga944f2c94c1119d970bb30776295c641c":[5,8,0,5],
 "group__logging__macros.html#gab27ebe92940249d57c2646de46f1e821":[5,8,0,3],
-"group__logging__macros.html#gab84c66c9feb039ea7c426ee718072e44":[5,8,0,6],
-"group__logging__macros.html#gad5196e525ccf0b3ff5a6e011dc38b385":[5,8,0,7]
+"group__logging__macros.html#gab84c66c9feb039ea7c426ee718072e44":[5,8,0,6]
 };

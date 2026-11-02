@@ -1,5 +1,6 @@
 var NAVTREEINDEX47 =
 {
+"concept_acts_1_1_free_track_parameters_concept.html":[7,0,20],
 "concept_acts_1_1_holder_for.html":[6,0,0,487],
 "concept_acts_1_1_holder_for.html":[7,0,22],
 "concept_acts_1_1_mutable_multi_trajectory_backend.html":[6,0,0,489],
@@ -248,6 +249,5 @@ var NAVTREEINDEX47 =
 "group__edm4hep__plugin.html#gae9438ea2e8430b90f5ce180c35160ef4":[5,10,4,14],
 "group__edm4hep__plugin.html#gaec2431e6bd278ab0b589b49045b19b58":[5,10,4,15],
 "group__edm4hep__plugin.html#gafd933cfa2a2f01a1747f04bfca3005e7":[5,10,4,19],
-"group__errors.html":[5,4],
-"group__errors.html#ga15d42dcaa6c43d68f6d711f04f9594bd":[5,4,12]
+"group__errors.html":[5,4]
 };

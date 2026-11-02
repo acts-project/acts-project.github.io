@@ -1,5 +1,6 @@
 var NAVTREEINDEX70 =
 {
+"struct_acts_fatras_1_1_every_particle.html":[6,0,2,11],
 "struct_acts_fatras_1_1_every_particle.html":[8,0,1,12],
 "struct_acts_fatras_1_1_every_particle.html#a4f0f4fddc387e7f0043bc3beca78ef70":[6,0,2,11,0],
 "struct_acts_fatras_1_1_every_particle.html#a4f0f4fddc387e7f0043bc3beca78ef70":[8,0,1,12,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX70 =
 "struct_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend_1_1_config.html#a1ebbecc3acbc1ba0f92dd2e546c23a6a":[8,0,2,0,0,0,3],
 "struct_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend_1_1_config.html#a519c0cac35939f9424dd1716019ba670":[8,0,2,0,0,0,1],
 "struct_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend_1_1_config.html#a56e92b23e4971f5519d13aceb009458a":[8,0,2,0,0,0,2],
-"struct_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend_1_1_config.html#a6dcdb7ede2147b7b4016fdf51ccab57a":[8,0,2,0,0,0,0],
-"struct_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend_1_1_layer_spec.html":[8,0,2,0,0,1]
+"struct_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend_1_1_config.html#a6dcdb7ede2147b7b4016fdf51ccab57a":[8,0,2,0,0,0,0]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX67 =
 {
+"struct_acts_1_1_toroid_field_1_1_barrel_config.html#ade2145ec68155ac2f31e34be46617601":[8,0,0,416,0,0],
 "struct_acts_1_1_toroid_field_1_1_barrel_config.html#af5e0c7a793e971c9fa9582c934da573d":[6,0,0,411,0,1],
 "struct_acts_1_1_toroid_field_1_1_barrel_config.html#af5e0c7a793e971c9fa9582c934da573d":[8,0,0,416,0,1],
 "struct_acts_1_1_toroid_field_1_1_cache.html":[6,0,0,411,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX67 =
 "struct_acts_1_1_tracking_geometry_json_converter_1_1_config.html#acb3fcf85696bdf558d832fc8dc021323":[5,10,10,13,0,4],
 "struct_acts_1_1_tracking_geometry_json_converter_1_1_id_to_pointer_like_lookup.html":[5,10,10,13,1],
 "struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html":[5,10,10,13,2],
-"struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#a16dd03f80e6462e2d5d89b00ed317f1b":[5,10,10,13,2,4],
-"struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#a3764ff34cc3a49f81ed323c6ebe1ebbc":[5,10,10,13,2,2]
+"struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#a16dd03f80e6462e2d5d89b00ed317f1b":[5,10,10,13,2,4]
 };
