@@ -1,7 +1,0 @@
-<map id="Acts::DiamondBounds" name="Acts::DiamondBounds">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,152,171,177"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_planar_bounds.html" title="common base class for all bounds that are in a local x/y cartesian frame" alt="" coords="15,79,161,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,118,91,152,85,152,85,118"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_surface_bounds.html" title="Interface for surface bounds." alt="" coords="11,5,165,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="91,44,91,79,85,79,85,44"/>
-</map>

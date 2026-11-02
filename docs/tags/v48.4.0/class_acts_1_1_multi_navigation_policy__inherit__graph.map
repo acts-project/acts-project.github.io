@@ -1,5 +1,0 @@
-<map id="Acts::MultiNavigationPolicy" name="Acts::MultiNavigationPolicy">
-<area shape="rect" id="Node000001" title="Combined navigation policy that calls all contained other navigation policies." alt="" coords="5,79,207,104"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_i_navigation_policy.html" title="Base class for all navigation policies." alt="" coords="20,5,192,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,44,109,79,103,79,103,44"/>
-</map>

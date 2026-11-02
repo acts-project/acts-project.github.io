@@ -1,5 +1,0 @@
-<map id="Acts::CloneablePtr&lt; T &gt;" name="Acts::CloneablePtr&lt; T &gt;">
-<area shape="rect" id="Node000001" title="A copyable smart pointer that uses a cloner function to copy the managed object." alt="" coords="5,5,184,31"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_cloneable_ptr.html" title=" " alt="" coords="13,101,177,141"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,45,97,101,92,101,92,45"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="ActsPlugins::Geant4PhysicalVolumeSelectors::PositionSelector" name="ActsPlugins::Geant4PhysicalVolumeSelectors::PositionSelector">
-<area shape="rect" id="Node000001" title="Struct that selects G4VPhysicalVolume objects based on the allowed range of their position." alt="" coords="5,93,249,133"/>
-<area shape="rect" id="Node000002" href="$class_acts_plugins_1_1_i_geant4_physical_volume_selector.html" title="Interface class for selectors from physical volumes." alt="" coords="22,5,233,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="130,59,130,93,125,93,125,59"/>
-</map>

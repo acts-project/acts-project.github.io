@@ -1,5 +1,0 @@
-<map id="Acts::ISurfaceMaterialAccumulator" name="Acts::ISurfaceMaterialAccumulator">
-<area shape="rect" id="Node000001" title="Interface for the material mapping, this is the accumulation step." alt="" coords="5,5,252,31"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_binned_surface_material_accumulator.html" title="The binned surface material accumulator." alt="" coords="25,79,232,119"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,44,131,79,126,79,126,44"/>
-</map>

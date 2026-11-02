@@ -1,7 +1,0 @@
-<map id="ActsFatras::InteractionList&lt; processes_t &gt;" name="ActsFatras::InteractionList&lt; processes_t &gt;">
-<area shape="rect" id="Node000001" title="Compile&#45;time set of interaction processes for the simulation." alt="" coords="5,75,196,115"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="489,20,715,89"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="209,82,220,81,488,60,489,66,220,87,210,88"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="465,113,739,153"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="178,116,220,124,346,135,465,136,465,142,345,140,220,129,177,121"/>
-</map>

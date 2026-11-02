@@ -1,5 +1,0 @@
-var class_acts_plugins_1_1_gnn_pipeline =
-[
-    [ "GnnPipeline", "class_acts_plugins_1_1_gnn_pipeline.html#a418b40b03a0fc7697dd2a8f580b19b89", null ],
-    [ "run", "class_acts_plugins_1_1_gnn_pipeline.html#a3a2531b48802645e589e3b3e6bb3d042", null ]
-];

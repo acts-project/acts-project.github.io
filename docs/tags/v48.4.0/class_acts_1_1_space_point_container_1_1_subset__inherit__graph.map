@@ -1,9 +1,0 @@
-<map id="Acts::SpacePointContainer::Subset&lt; read_only &gt;" name="Acts::SpacePointContainer::Subset&lt; read_only &gt;">
-<area shape="rect" id="Node000001" title="Subset facade over arbitrary index sets." alt="" coords="308,37,501,77"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_space_point_container_1_1_subset.html" title=" " alt="" coords="620,5,813,45"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="515,43,620,33,620,38,515,49"/>
-<area shape="rect" id="Node000004" href="$class_acts_1_1_space_point_container_1_1_subset.html" title=" " alt="" coords="620,69,813,109"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="515,70,526,71,620,80,619,85,525,76,515,75"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,8,259,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="272,55,308,55,308,60,272,60"/>
-</map>

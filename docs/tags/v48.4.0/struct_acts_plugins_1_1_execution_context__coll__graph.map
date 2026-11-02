@@ -1,5 +1,0 @@
-<map id="ActsPlugins::ExecutionContext" name="ActsPlugins::ExecutionContext">
-<area shape="rect" id="Node000001" title="Capture the context of the execution." alt="" coords="5,101,224,127"/>
-<area shape="rect" id="Node000002" href="$struct_acts_plugins_1_1_device.html" title="A simple device description struct." alt="" coords="39,5,190,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,45,117,101,112,101,112,45"/>
-</map>

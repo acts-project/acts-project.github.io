@@ -1,9 +1,0 @@
-<map id="Acts::ContainerBlueprintNode" name="Acts::ContainerBlueprintNode">
-<area shape="rect" id="Node000001" title="A blueprint node that can contain multiple child volumes." alt="" coords="171,79,386,104"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_cuboid_container_blueprint_node.html" title="Container blueprint node stacking cuboid volumes." alt="" coords="5,152,264,177"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="245,112,159,154,157,149,242,108"/>
-<area shape="rect" id="Node000004" href="$class_acts_1_1_cylinder_container_blueprint_node.html" title="Container blueprint node stacking cylindrical volumes." alt="" coords="289,152,557,177"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="315,108,400,149,398,154,313,112"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_blueprint_node.html" title="Base class for all nodes in the blueprint tree." alt="" coords="203,5,354,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="281,44,281,79,276,79,276,44"/>
-</map>
