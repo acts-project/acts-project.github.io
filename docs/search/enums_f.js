@@ -1,13 +1,14 @@
 var searchData=
 [
-  ['tangentambi_0',['TangentAmbi',['../class_acts_1_1_experimental_1_1_composite_space_point_line_seeder.html#a8c6d44a4e6eb0c0759db6ddb456fb6ce',1,'Acts::Experimental::CompositeSpacePointLineSeeder']]],
-  ['tolerancemode_1',['ToleranceMode',['../class_acts_1_1_boundary_tolerance.html#a388a012afa5f9d77996d4b797d741231',1,'Acts::BoundaryTolerance']]],
-  ['trackextrapolationerror_2',['TrackExtrapolationError',['../group__errors.html#ga6a0e61fbedc5e6713e2830a03af01032',1,'Acts']]],
-  ['trackextrapolationstrategy_3',['TrackExtrapolationStrategy',['../namespace_acts.html#a086febf882ea487434374ef548a90661',1,'Acts']]],
-  ['tracklabels_4',['TrackLabels',['../class_acts_plugins_1_1_m_l_track_classifier.html#ad75312e7953fba58f8329a437bd8d614',1,'ActsPlugins::MLTrackClassifier']]],
-  ['trackparamsestimationerror_5',['TrackParamsEstimationError',['../group__errors.html#ga52148d84844c7850d7239a8e76d18514',1,'Acts']]],
-  ['trackstateflag_6',['TrackStateFlag',['../namespace_acts.html#a4cc469694ff29fb3f7c7128ad09264a4',1,'Acts']]],
-  ['trackstatepropmask_7',['TrackStatePropMask',['../namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2',1,'Acts']]],
-  ['trackstatetypes_8',['TrackStateTypes',['../class_acts_1_1_score_based_ambiguity_resolution.html#ab87f7b237f0c70ac5c944880b0ab8a7f',1,'Acts::ScoreBasedAmbiguityResolution']]],
-  ['type_9',['Type',['../class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5',1,'Acts::ConstrainedStep::Type'],['../struct_acts_plugins_1_1_device.html#a8d6402367687af920630e52d91c4c366',1,'ActsPlugins::Device::Type']]]
+  ['seedcolumns_0',['SeedColumns',['../namespace_acts.html#a1f6eba2b6bc61b840fff13f9b3343edf',1,'Acts']]],
+  ['sensitivestrategy_1',['SensitiveStrategy',['../struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#ad942c0bba09c759a4e3cae2ca56426a1',1,'ActsPlugins::DetrayPayloadConverter::Config']]],
+  ['shape_5fid_2',['shape_id',['../namespacedetray_1_1io.html#a29c3aa2f4d70436beb633e8e2a84611d',1,'detray::io']]],
+  ['sheets_3',['Sheets',['../group__actsvg__plugin.html#ga7e3877c269fbcd066540e55056ee866a',1,'ActsPlugins::Svg::LayerConverter']]],
+  ['simulationoutcome_4',['SimulationOutcome',['../namespace_acts_fatras.html#ab7375a70d516f1fdd121aeb857784d8b',1,'ActsFatras']]],
+  ['spacepointcolumns_5',['SpacePointColumns',['../namespace_acts.html#a7a6813a649567fb613b8214ad5e7399c',1,'Acts']]],
+  ['spacepointformationerror_6',['SpacePointFormationError',['../group__errors.html#ga15d42dcaa6c43d68f6d711f04f9594bd',1,'Acts']]],
+  ['stage_7',['Stage',['../class_acts_1_1_navigator.html#a8a106d56dde081234cafe55bb2fb9082',1,'Acts::Navigator']]],
+  ['surface_5fid_8',['surface_id',['../namespacedetray.html#a62c1381bb4432dc1f8b62230854a7e06',1,'detray']]],
+  ['surfaceerror_9',['SurfaceError',['../group__errors.html#gac32894235c42ab9d5e6bf5c5cd1f6f3d',1,'Acts']]],
+  ['surfacetype_10',['SurfaceType',['../class_acts_1_1_surface.html#a34fd1452f7603ef1f072d3c3233f9ba0',1,'Acts::Surface']]]
 ];

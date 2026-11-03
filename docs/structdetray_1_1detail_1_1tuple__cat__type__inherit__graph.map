@@ -1,0 +1,11 @@
+<map id="detray::detail::tuple_cat_type&lt; tuple_ts &gt;" name="detray::detail::tuple_cat_type&lt; tuple_ts &gt;">
+<area shape="rect" id="Node000001" title="Concatenate tuple types." alt="" coords="5,149,172,189"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1detail_1_1tuple__cat__type_3_01detray_1_1dtuple_3_01_args_8_8_8_01_4_01_4.html" title="Preserve a detray tuple type as the concatenation result." alt="" coords="424,5,615,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,136,147,98,170,79,195,65,252,44,311,32,370,26,424,24,424,30,370,31,312,37,253,50,197,70,173,84,151,102,115,140"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1detail_1_1tuple__cat__type_3_01detray_1_1dtuple_3_01_args1_8_8_8_01_4_00_01detrac524e7a5d90224302591146964a59080.html" title="Concatenate two or more detray tuple type lists recursively." alt="" coords="420,87,619,157"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="185,154,196,153,419,129,420,134,196,158,186,159"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="439,181,600,236"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="186,175,439,199,438,204,185,180"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="425,263,613,333"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="116,197,152,234,173,250,197,264,254,283,313,295,372,300,425,301,425,307,371,306,312,300,252,288,195,268,170,255,148,238,112,201"/>
+</map>

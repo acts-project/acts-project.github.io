@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['xaxistype_0',['XAxisType',['../class_acts_1_1_cartesian_space_point_grid.html#a46f1446a725629823fabaa66d0d0c83b',1,'Acts::CartesianSpacePointGrid']]]
+  ['weight_0',['Weight',['../class_acts_1_1_seed_deduplicator.html#a6e0b29701bcc91f8ebcfb8fa74b273bc',1,'Acts::SeedDeduplicator']]]
 ];

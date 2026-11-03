@@ -1,0 +1,7 @@
+<map id="detray::io::detector_grids_payload&lt; bin_content_t, grid_id_t &gt;" name="detray::io::detector_grids_payload&lt; bin_content_t, grid_id_t &gt;">
+<area shape="rect" id="Node000001" title="A payload for the grid collections of a detector." alt="" coords="5,57,216,111"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1io_1_1detector__grids__payload.html" title=" " alt="" coords="457,5,640,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="229,68,240,67,457,45,457,51,240,72,230,73"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="467,99,630,154"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="230,108,240,109,359,120,467,124,467,129,359,125,240,115,229,113"/>
+</map>

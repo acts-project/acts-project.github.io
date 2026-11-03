@@ -1,0 +1,5 @@
+<map id="detray::ray_intersector_impl&lt; cylindrical2D&lt; algebra_t &gt;, algebra_t, resolve_pos &gt;" name="detray::ray_intersector_impl&lt; cylindrical2D&lt; algebra_t &gt;, algebra_t, resolve_pos &gt;">
+<area shape="rect" id="Node000001" title="A functor to find intersections between a ray and a 2D cylinder mask." alt="" coords="9,151,183,220"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1ray__intersector__impl.html" title="Intersection implementation for detector surfaces using a ray trajectory." alt="" coords="5,5,187,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,74,99,150,93,150,93,74"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="detray::external_surface&lt; algebra_t, shape_t, material_t, nav_link_t &gt;" name="detray::external_surface&lt; algebra_t, shape_t, material_t, nav_link_t &gt;">
+<area shape="rect" id="Node000001" title="Surface descriptor used for geometry supplied outside the detector store." alt="" coords="5,41,225,95"/>
+<area shape="rect" id="Node000002" href="$classdetray_1_1external__surface.html" title=" " alt="" coords="485,33,699,103"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="239,65,485,65,485,71,239,71"/>
+</map>

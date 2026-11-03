@@ -1,0 +1,11 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,113,168,138"/>
+<area shape="rect" id="Node000001" href="$struct_acts_1_1_types_1_1get_size_3_01_type_list_3_01_ts_8_8_8_01_4_01_4.html" title=" " alt="" coords="226,5,386,45"/>
+<area shape="poly" id="edge523_Node000000_Node000001" title=" " alt="" coords="120,103,215,55,245,43,247,48,217,60,123,108"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1types_1_1get__size_3_01list_3_01_ts_8_8_8_01_4_01_4.html" title=" " alt="" coords="226,69,386,109"/>
+<area shape="poly" id="edge524_Node000000_Node000002" title=" " alt="" coords="177,108,225,100,226,105,178,113"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1types_1_1get__size_3_01mapped__registry_3_01_r_00_01_s_01_4_01_4.html" title=" " alt="" coords="216,134,396,189"/>
+<area shape="poly" id="edge525_Node000000_Node000003" title=" " alt="" coords="178,138,216,144,215,149,177,143"/>
+<area shape="rect" id="Node000004" href="$structdetray_1_1types_1_1get__size_3_01registry_3_01_i_d_00_01_ts_8_8_8_01_4_01_4.html" title="Specialization of the type list size traits." alt="" coords="229,213,383,267"/>
+<area shape="poly" id="edge526_Node000000_Node000004" title=" " alt="" coords="121,143,217,198,243,210,241,215,215,202,119,148"/>
+</map>

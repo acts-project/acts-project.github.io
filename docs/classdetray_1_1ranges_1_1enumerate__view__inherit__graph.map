@@ -1,0 +1,14 @@
+<map id="detray::ranges::enumerate_view&lt; range_itr_t, incr_t &gt;" name="detray::ranges::enumerate_view&lt; range_itr_t, incr_t &gt;">
+<area shape="rect" id="Node000001" title="Enumerates the elements of a range on the fly." alt="" coords="13,315,217,355"/>
+<area shape="rect" id="Node000005" href="$classdetray_1_1ranges_1_1enumerate__view.html" title=" " alt="" coords="9,425,221,465"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="117,369,117,425,112,425,112,369"/>
+<area shape="rect" id="Node000002" href="$classdetray_1_1ranges_1_1view__interface.html" title=" " alt="" coords="5,211,224,265"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,279,117,314,112,314,112,279"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1ranges_1_1base__view.html" title="Definition of &#39;view&#39;." alt="" coords="13,5,205,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="113,45,117,210,111,211,107,45"/>
+<area shape="rect" id="Node000004" href="$classdetray_1_1ranges_1_1view__interface.html" title="Defines a detray &#39;view&#39;." alt="" coords="131,80,327,120"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="140,36,203,78,200,82,137,41"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="207,132,139,212,135,209,203,129"/>
+<area shape="rect" id="Node000006" href="$structdetray_1_1ranges_1_1views_1_1enumerate.html" title="Range adaptor that creates an enumerate view, optionally starting at a selected index." alt="" coords="27,515,202,569"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="117,479,117,515,112,515,112,479"/>
+</map>

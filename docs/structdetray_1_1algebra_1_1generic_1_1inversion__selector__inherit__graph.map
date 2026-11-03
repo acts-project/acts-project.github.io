@@ -1,0 +1,9 @@
+<map id="detray::algebra::generic::inversion_selector&lt; N, Args &gt;" name="detray::algebra::generic::inversion_selector&lt; N, Args &gt;">
+<area shape="rect" id="Node000001" title="Get the type of inversion algorithm according to matrix dimension." alt="" coords="5,99,184,153"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1algebra_1_1generic_1_1inversion__selector_3_012_00_01_args_8_8_8_01_4.html" title="Always use hard coded implementation for very small matrices." alt="" coords="471,5,647,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="145,89,175,72,207,59,275,43,345,33,471,27,471,32,345,38,276,48,209,65,177,77,147,93"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1algebra_1_1generic_1_1inversion__selector_3_014_00_01array_1_1matrix__type_3_01_0af03e1d48761cf356db95b4ce75aa65.html" title="Choose the backend&#45;specific inverse implementation for 4x4 matrices." alt="" coords="446,84,673,168"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="198,123,446,123,446,129,198,129"/>
+<area shape="rect" id="Node000004" href="$structdetray_1_1algebra_1_1generic_1_1inversion__selector_3_014_00_01vc__aos_1_1matrix__type_3_07ee27b563771cc335940eb0c137ae48b.html" title="Choose the backend&#45;specific inverse implementation for 4x4 matrices." alt="" coords="440,192,679,276"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="145,159,176,177,209,191,267,208,326,219,440,230,439,236,325,224,265,213,207,197,173,182,142,164"/>
+</map>

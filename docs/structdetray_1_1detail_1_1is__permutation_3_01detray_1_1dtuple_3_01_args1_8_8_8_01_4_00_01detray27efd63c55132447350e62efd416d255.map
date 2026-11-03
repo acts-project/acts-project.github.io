@@ -1,0 +1,8 @@
+<map id="detray::detail::is_permutation&lt; detray::dtuple&lt; Args1... &gt;, detray::dtuple&lt; Args2... &gt; &gt;" name="detray::detail::is_permutation&lt; detray::dtuple&lt; Args1... &gt;, detray::dtuple&lt; Args2... &gt; &gt;">
+<area shape="rect" id="Node000001" title="Compare the two detray tuple type lists as unordered sets of types." alt="" coords="5,211,216,280"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="46,5,165,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,44,113,210,107,210,103,44"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1detail_1_1is__permutation.html" title="Check for equality of tuple types modulo permutation." alt="" coords="127,80,305,120"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="134,37,191,78,188,82,131,41"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="196,133,138,212,133,209,191,130"/>
+</map>

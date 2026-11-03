@@ -1,0 +1,16 @@
+<map id="detray::io::grid_payload&lt; bin_content_t, grid_id_t &gt;" name="detray::io::grid_payload&lt; bin_content_t, grid_id_t &gt;">
+<area shape="rect" id="Node000001" title="A payload for a grid definition." alt="" coords="749,101,953,141"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1io_1_1single__link__payload.html" title="A payload for a single object link (volume local)." alt="" coords="464,5,595,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="609,40,726,72,801,99,799,104,725,77,607,45"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1io_1_1typed__link__payload.html" title=" " alt="" coords="437,69,621,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="635,97,750,109,749,114,635,102"/>
+<area shape="rect" id="Node000004" href="$structdetray_1_1io_1_1typed__link__payload.html" title="A payload for a typed object link (dtyped_index)." alt="" coords="5,60,176,100"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="190,79,437,85,437,90,190,85"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="454,133,605,173"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="618,144,725,135,749,132,749,137,726,140,618,150"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="26,177,155,202"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="169,180,454,157,454,162,169,186"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="449,198,610,253"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="134,205,166,216,200,224,265,232,331,234,448,230,449,236,331,240,265,237,200,229,165,221,133,210"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="623,200,724,169,803,139,805,144,726,175,624,205"/>
+</map>

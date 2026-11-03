@@ -1,0 +1,4 @@
+var structdetray_1_1detail_1_1tuple__element_3_01_n_00_01detray_1_1dtuple_3_01value__types_8_8_8_01_4_01_4 =
+[
+    [ "type", "structdetray_1_1detail_1_1tuple__element_3_01_n_00_01detray_1_1dtuple_3_01value__types_8_8_8_01_4_01_4.html#ac47e44f62f67e9bf33ec13c2ec77c790", null ]
+];

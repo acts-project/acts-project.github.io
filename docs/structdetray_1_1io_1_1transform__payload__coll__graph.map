@@ -1,0 +1,10 @@
+<map id="detray::io::transform_payload" name="detray::io::transform_payload">
+<area shape="rect" id="Node000001" title="A payload for an affine transformation in homogeneous coordinates." alt="" coords="101,212,256,252"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,101,168,141"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,150,165,210,160,213,110,154"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="119,5,241,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="138,39,115,56,101,79,93,102,88,100,97,76,111,53,134,35"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="192,101,355,141"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="216,36,237,53,255,76,267,100,263,103,250,79,233,57,212,40"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="250,154,197,213,193,210,246,150"/>
+</map>

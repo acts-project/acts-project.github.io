@@ -1,0 +1,7 @@
+<map id="detray::intersection_point_err&lt; algebra_t &gt;" name="detray::intersection_point_err&lt; algebra_t &gt;">
+<area shape="rect" id="Node000001" title="Result of intersector: Distance, intersection point (2D or 3D, local/global) and error estimate on di..." alt="" coords="680,48,859,88"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1intersection__point.html" title=" " alt="" coords="425,33,631,103"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="644,65,680,65,680,71,644,71"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1intersection__point.html" title="Result of intersector: Point of intersection on a surface." alt="" coords="5,41,184,95"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="198,65,425,65,425,71,198,71"/>
+</map>

@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['hasprintoperator_0',['hasPrintOperator',['../concept_acts_1_1has_print_operator.html',1,'Acts']]],
-  ['hasretrievablecolumninfo_1',['HasRetrievableColumnInfo',['../concept_acts_1_1_ccl_1_1_has_retrievable_column_info.html',1,'Acts::Ccl']]],
-  ['hasretrievablerowinfo_2',['HasRetrievableRowInfo',['../concept_acts_1_1_ccl_1_1_has_retrievable_row_info.html',1,'Acts::Ccl']]],
-  ['hasretrievabletimeinfo_3',['HasRetrievableTimeInfo',['../concept_acts_1_1_ccl_1_1_has_retrievable_time_info.html',1,'Acts::Ccl']]],
-  ['holderfor_4',['HolderFor',['../concept_acts_1_1_holder_for.html',1,'Acts']]]
+  ['geometric_5fobject_0',['geometric_object',['../conceptdetray_1_1concepts_1_1geometric__object.html',1,'detray::concepts']]],
+  ['grid_1',['grid',['../conceptdetray_1_1concepts_1_1grid.html',1,'detray::concepts']]]
 ];

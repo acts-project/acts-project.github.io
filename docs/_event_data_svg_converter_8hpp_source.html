@@ -150,7 +150,7 @@ $(function(){initNavTree('_event_data_svg_converter_8hpp_source.html','',''); })
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>  view_type view;</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>  std::vector&lt;Acts::Vector3&gt; ps = {pos};</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>  <span class="keyword">auto</span> ppos = view(ps)[0];</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>  <span class="keyword">auto</span> [fill, stroke] = style.<a class="code hl_function" href="struct_acts_plugins_1_1_svg_1_1_style.html#a00fd1daf7c614ae7221072c3068c3481">fillAndStroke</a>();</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>  <span class="keyword">auto</span> [fill, stroke] = style.fillAndStroke();</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>  <span class="keyword">auto</span> circle =</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>      actsvg::draw::circle(<span class="stringliteral">&quot;p_&quot;</span> + std::to_string(idx), ppos,</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>                           <span class="keyword">static_cast&lt;</span>actsvg::scalar<span class="keyword">&gt;</span>(size), fill, stroke);</div>
@@ -166,7 +166,6 @@ $(function(){initNavTree('_event_data_svg_converter_8hpp_source.html','',''); })
 <div class="ttc" id="agroup__algebra__types_html_ga49fabee4702da952f70b234a021e39c5"><div class="ttname"><a href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a></div><div class="ttdeci">Vector&lt; 3 &gt; Vector3</div><div class="ttdoc">3-dimensional vector type for e.g. spatial coordinates and momenta</div><div class="ttdef"><b>Definition</b> Algebra.hpp:72</div></div>
 <div class="ttc" id="anamespace_acts_plugins_1_1_svg_1_1_event_data_converter_html"><div class="ttname"><a href="namespace_acts_plugins_1_1_svg_1_1_event_data_converter.html">ActsPlugins::Svg::EventDataConverter</a></div><div class="ttdoc">Utilities to convert event data to SVG objects.</div></div>
 <div class="ttc" id="astruct_acts_plugins_1_1_svg_1_1_style_html"><div class="ttname"><a href="struct_acts_plugins_1_1_svg_1_1_style.html">ActsPlugins::Svg::Style</a></div><div class="ttdoc">Style struct.</div><div class="ttdef"><b>Definition</b> SvgUtils.hpp:24</div></div>
-<div class="ttc" id="astruct_acts_plugins_1_1_svg_1_1_style_html_a00fd1daf7c614ae7221072c3068c3481"><div class="ttname"><a href="struct_acts_plugins_1_1_svg_1_1_style.html#a00fd1daf7c614ae7221072c3068c3481">ActsPlugins::Svg::Style::fillAndStroke</a></div><div class="ttdeci">std::tuple&lt; actsvg::style::fill, actsvg::style::stroke &gt; fillAndStroke() const</div><div class="ttdoc">Conversion to fill and stroke object from the base library.</div><div class="ttdef"><b>Definition</b> SvgUtils.hpp:60</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

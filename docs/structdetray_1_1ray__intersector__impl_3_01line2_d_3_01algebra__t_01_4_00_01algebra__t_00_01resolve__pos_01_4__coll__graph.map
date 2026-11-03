@@ -1,0 +1,5 @@
+<map id="detray::ray_intersector_impl&lt; line2D&lt; algebra_t &gt;, algebra_t, resolve_pos &gt;" name="detray::ray_intersector_impl&lt; line2D&lt; algebra_t &gt;, algebra_t, resolve_pos &gt;">
+<area shape="rect" id="Node000001" title="A functor to find intersections between trajectory and line mask." alt="" coords="5,151,224,205"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1ray__intersector__impl.html" title="Intersection implementation for detector surfaces using a ray trajectory." alt="" coords="24,5,205,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,74,117,151,112,151,112,74"/>
+</map>

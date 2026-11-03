@@ -1,0 +1,11 @@
+<map id="detray::types::registry&lt; ID, registered_types &gt;" name="detray::types::registry&lt; ID, registered_types &gt;">
+<area shape="rect" id="Node000001" title="match types with indices/identifiers and vice versa." alt="" coords="5,359,188,399"/>
+<area shape="rect" id="Node000002" href="$classdetray_1_1types_1_1registry.html" title=" " alt="" coords="670,68,855,108"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,345,109,292,129,229,143,197,162,167,184,139,210,116,266,85,327,64,390,51,454,46,517,46,577,50,679,65,678,71,577,55,517,51,455,51,391,57,328,69,269,90,214,121,188,143,166,170,148,200,134,231,114,294,104,346"/>
+<area shape="rect" id="Node000003" href="$classdetray_1_1types_1_1registry.html" title=" " alt="" coords="622,197,903,325"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="124,347,163,315,211,288,270,279,375,271,622,262,622,267,375,277,271,284,213,293,166,319,128,351"/>
+<area shape="rect" id="Node000004" href="$classdetray_1_1types_1_1registry.html" title=" " alt="" coords="605,416,920,573"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="120,408,159,454,185,475,213,491,243,500,283,506,383,512,495,510,605,505,605,510,495,516,383,517,283,511,242,505,211,496,182,479,156,458,116,412"/>
+<area shape="rect" id="Node000005" href="$classdetray_1_1types_1_1registry.html" title=" " alt="" coords="659,617,866,759"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="102,412,108,473,126,547,140,586,159,622,184,654,214,680,265,709,321,729,380,740,440,744,500,742,557,736,658,716,659,721,558,741,500,747,440,749,380,745,320,734,263,714,210,685,180,657,155,624,135,588,121,549,103,474,96,412"/>
+</map>

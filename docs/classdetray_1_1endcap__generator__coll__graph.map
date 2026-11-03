@@ -1,0 +1,5 @@
+<map id="detray::endcap_generator&lt; detector_t, mask_shape_t &gt;" name="detray::endcap_generator&lt; detector_t, mask_shape_t &gt;">
+<area shape="rect" id="Node000001" title="Generates surfaces for an endcap layer consisting of two rings." alt="" coords="5,93,225,133"/>
+<area shape="rect" id="Node000002" href="$classdetray_1_1surface__factory__interface.html" title="How to generate surfaces with their corresponding masks and transforms." alt="" coords="24,5,207,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,59,118,93,113,93,113,59"/>
+</map>

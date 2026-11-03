@@ -1,7 +1,20 @@
 var searchData=
 [
-  ['interpolatable_0',['Interpolatable',['../concept_acts_1_1_concepts_1_1_interpolatable.html',1,'Acts::Concepts']]],
-  ['invocable_5fand_5freturns_1',['invocable_and_returns',['../concept_acts_1_1_concepts_1_1invocable__and__returns.html',1,'Acts::Concepts']]],
-  ['is_5feigen_5fbase_2',['is_eigen_base',['../concept_acts_1_1_concepts_1_1is__eigen__base.html',1,'Acts::Concepts']]],
-  ['isvalidconvexpolygonsize_3',['isValidConvexPolygonSize',['../concept_acts_1_1is_valid_convex_polygon_size.html',1,'Acts']]]
+  ['has_5fcompile_5ftime_5f1d_5faccess_0',['has_compile_time_1d_access',['../conceptdetray_1_1concepts_1_1has__compile__time__1d__access.html',1,'detray::concepts']]],
+  ['has_5fcompile_5ftime_5f2d_5faccess_1',['has_compile_time_2d_access',['../conceptdetray_1_1concepts_1_1has__compile__time__2d__access.html',1,'detray::concepts']]],
+  ['has_5fgrids_2',['has_grids',['../conceptdetray_1_1concepts_1_1has__grids.html',1,'detray::concepts']]],
+  ['has_5fhomogeneous_5fmaterial_3',['has_homogeneous_material',['../conceptdetray_1_1concepts_1_1has__homogeneous__material.html',1,'detray::concepts']]],
+  ['has_5flocal_5fframe_4',['has_local_frame',['../conceptdetray_1_1concepts_1_1has__local__frame.html',1,'detray::concepts']]],
+  ['has_5fmaterial_5fmaps_5',['has_material_maps',['../conceptdetray_1_1concepts_1_1has__material__maps.html',1,'detray::concepts']]],
+  ['has_5fmaterial_5frods_6',['has_material_rods',['../conceptdetray_1_1concepts_1_1has__material__rods.html',1,'detray::concepts']]],
+  ['has_5fmaterial_5fslabs_7',['has_material_slabs',['../conceptdetray_1_1concepts_1_1has__material__slabs.html',1,'detray::concepts']]],
+  ['has_5fshape_8',['has_shape',['../conceptdetray_1_1concepts_1_1has__shape.html',1,'detray::concepts']]],
+  ['has_5fsurface_5fgrids_9',['has_surface_grids',['../conceptdetray_1_1concepts_1_1has__surface__grids.html',1,'detray::concepts']]],
+  ['hasprintoperator_10',['hasPrintOperator',['../concept_acts_1_1has_print_operator.html',1,'Acts']]],
+  ['hasretrievablecolumninfo_11',['HasRetrievableColumnInfo',['../concept_acts_1_1_ccl_1_1_has_retrievable_column_info.html',1,'Acts::Ccl']]],
+  ['hasretrievablerowinfo_12',['HasRetrievableRowInfo',['../concept_acts_1_1_ccl_1_1_has_retrievable_row_info.html',1,'Acts::Ccl']]],
+  ['hasretrievabletimeinfo_13',['HasRetrievableTimeInfo',['../concept_acts_1_1_ccl_1_1_has_retrievable_time_info.html',1,'Acts::Ccl']]],
+  ['holderfor_14',['HolderFor',['../concept_acts_1_1_holder_for.html',1,'Acts']]],
+  ['homogeneous_5fmaterial_15',['homogeneous_material',['../conceptdetray_1_1concepts_1_1homogeneous__material.html',1,'detray::concepts']]],
+  ['host_5fdetector_16',['host_detector',['../conceptdetray_1_1concepts_1_1host__detector.html',1,'detray::concepts']]]
 ];

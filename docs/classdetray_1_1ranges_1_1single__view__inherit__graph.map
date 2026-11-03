@@ -1,0 +1,16 @@
+<map id="detray::ranges::single_view&lt; value_t &gt;" name="detray::ranges::single_view&lt; value_t &gt;">
+<area shape="rect" id="Node000001" title="Struct that implements a view on a single element." alt="" coords="26,315,189,355"/>
+<area shape="rect" id="Node000005" href="$structdetray_1_1ranges_1_1views_1_1single.html" title="interface type to construct a single_view with CTAD" alt="" coords="5,425,167,465"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="104,369,92,426,87,425,98,367"/>
+<area shape="rect" id="Node000006" href="$classdetray_1_1ranges_1_1single__view.html" title=" " alt="" coords="191,425,354,465"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="149,360,245,423,242,427,146,364"/>
+<area shape="rect" id="Node000002" href="$classdetray_1_1ranges_1_1view__interface.html" title=" " alt="" coords="18,211,197,265"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,279,110,314,105,314,105,279"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1ranges_1_1base__view.html" title="Definition of &#39;view&#39;." alt="" coords="6,5,198,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="105,45,109,210,104,211,100,45"/>
+<area shape="rect" id="Node000004" href="$classdetray_1_1ranges_1_1view__interface.html" title="Defines a detray &#39;view&#39;." alt="" coords="124,80,320,120"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="132,36,195,78,192,82,129,41"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="199,132,131,212,127,209,195,129"/>
+<area shape="rect" id="Node000007" href="$classdetray_1_1bins_1_1single.html" title="Bin with a single entry." alt="" coords="200,515,345,555"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="275,479,275,515,270,515,270,479"/>
+</map>

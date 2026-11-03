@@ -1,0 +1,4 @@
+var structdetray_1_1algebra_1_1generic_1_1determinant__selector_3_014_00_01array_1_1matrix__type_3_0076493f3bea6c7faaf51985f4a3cc500 =
+[
+    [ "type", "structdetray_1_1algebra_1_1generic_1_1determinant__selector_3_014_00_01array_1_1matrix__type_3_0076493f3bea6c7faaf51985f4a3cc500.html#abd8a559b3e210e210fc4cc5917a06871", null ]
+];

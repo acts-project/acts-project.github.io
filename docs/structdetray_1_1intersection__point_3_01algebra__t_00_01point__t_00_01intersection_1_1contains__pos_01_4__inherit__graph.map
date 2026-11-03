@@ -1,0 +1,8 @@
+<map id="detray::intersection_point&lt; algebra_t, point_t, intersection::contains_pos &gt;" name="detray::intersection_point&lt; algebra_t, point_t, intersection::contains_pos &gt;">
+<area shape="rect" id="Node000001" title="Result of intersector: Distance and intersection point (debug)." alt="" coords="740,49,967,103"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1intersection__point_3_01algebra__t_00_01point__t_00_01_9intersection_1_1contains__pos_01_4.html" title="Result of intersector: Only contains the distance (production)." alt="" coords="459,86,691,141"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="704,93,739,89,740,94,705,99"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1intersection__point.html" title="Result of intersector: Point of intersection on a surface." alt="" coords="5,49,184,103"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="198,54,208,53,351,46,495,47,628,53,740,62,739,67,628,59,495,52,351,51,208,59,198,60"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="198,95,208,96,338,107,459,111,459,116,337,112,208,101,197,100"/>
+</map>

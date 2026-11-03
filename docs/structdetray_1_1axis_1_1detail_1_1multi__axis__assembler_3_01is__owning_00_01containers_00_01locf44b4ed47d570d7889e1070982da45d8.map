@@ -1,0 +1,5 @@
+<map id="detray::axis::detail::multi_axis_assembler&lt; is_owning, containers, local_frame, types::list&lt; axis_bounds... &gt;, types::list&lt; binning_ts... &gt; &gt;" name="detray::axis::detail::multi_axis_assembler&lt; is_owning, containers, local_frame, types::list&lt; axis_bounds... &gt;, types::list&lt; binning_ts... &gt; &gt;">
+<area shape="rect" id="Node000001" title="Specialized struct to extract axis bounds and binnings from a tuple." alt="" coords="420,39,609,137"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1axis_1_1detail_1_1multi__axis__assembler.html" title="Helper type to assemble a multi&#45;axis from bounds and binnings." alt="" coords="5,46,188,130"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,85,420,85,420,91,202,91"/>
+</map>

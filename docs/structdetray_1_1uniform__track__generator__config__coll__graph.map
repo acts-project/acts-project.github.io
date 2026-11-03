@@ -1,0 +1,14 @@
+<map id="detray::uniform_track_generator_config&lt; scalar_t &gt;" name="detray::uniform_track_generator_config&lt; scalar_t &gt;">
+<area shape="rect" id="Node000001" title="Configuration for the uniform track generator." alt="" coords="936,152,1155,192"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="659,66,732,91"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="746,78,825,87,913,105,965,126,1011,149,1009,154,963,131,911,111,824,92,745,84"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="609,149,781,189"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="795,168,805,168,936,169,936,174,805,173,795,173"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="305,181,456,221"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="470,190,609,175,609,181,470,195"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="609,213,781,253"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="470,215,480,216,609,227,609,232,480,221,469,220"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,189,128,214"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="142,199,305,199,305,204,142,204"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="795,216,912,196,947,189,948,195,912,201,795,221"/>
+</map>

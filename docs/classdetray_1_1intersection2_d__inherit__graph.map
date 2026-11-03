@@ -1,0 +1,11 @@
+<map id="detray::intersection2D&lt; surface_t, algebra_t, has_pos &gt;" name="detray::intersection2D&lt; surface_t, algebra_t, has_pos &gt;">
+<area shape="rect" id="Node000001" title="This class holds the intersection information." alt="" coords="5,159,176,214"/>
+<area shape="rect" id="Node000002" href="$classdetray_1_1intersection2_d.html" title=" " alt="" coords="451,26,683,81"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,147,156,114,199,87,261,65,326,52,391,46,450,44,450,49,391,51,327,58,263,71,201,92,159,118,124,151"/>
+<area shape="rect" id="Node000003" href="$classdetray_1_1intersection2_d.html" title=" " alt="" coords="453,118,680,173"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="190,174,200,173,453,152,453,157,200,179,190,180"/>
+<area shape="rect" id="Node000004" href="$classdetray_1_1intersection2_d.html" title=" " alt="" coords="469,197,665,251"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="190,214,200,216,270,224,340,228,469,227,469,232,340,233,269,229,200,221,189,220"/>
+<area shape="rect" id="Node000005" href="$classdetray_1_1intersection2_d.html" title=" " alt="" coords="461,294,672,378"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="114,225,150,276,174,299,201,318,265,341,333,352,400,354,461,351,461,356,400,360,332,357,263,346,199,322,170,303,146,279,110,228"/>
+</map>

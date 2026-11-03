@@ -1,0 +1,13 @@
+<map id="detray::algebra::storage::matrix&lt; array_t, scalar_t, ROW, COL &gt;" name="detray::algebra::storage::matrix&lt; array_t, scalar_t, ROW, COL &gt;">
+<area shape="rect" id="Node000001" title="Generic matrix type that can take vectors as columns." alt="" coords="5,93,187,147"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1algebra_1_1storage_1_1matrix.html" title=" " alt="" coords="419,14,600,69"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="165,85,210,69,317,50,418,41,419,46,318,55,211,75,167,90"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1algebra_1_1storage_1_1matrix.html" title=" " alt="" coords="421,93,598,147"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="201,117,420,117,420,123,201,123"/>
+<area shape="rect" id="Node000005" href="$structdetray_1_1algebra_1_1storage_1_1matrix.html" title=" " alt="" coords="392,191,627,246"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="146,153,178,171,212,185,256,198,302,207,392,216,392,221,302,212,255,203,210,191,175,176,144,157"/>
+<area shape="rect" id="Node000004" href="$structdetray_1_1algebra_1_1storage_1_1matrix.html" title=" " alt="" coords="835,84,1025,153"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="612,117,835,116,835,122,612,122"/>
+<area shape="rect" id="Node000006" href="$structdetray_1_1algebra_1_1storage_1_1matrix.html" title=" " alt="" coords="823,178,1037,262"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="641,216,823,217,822,222,641,222"/>
+</map>

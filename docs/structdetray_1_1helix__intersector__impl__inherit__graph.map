@@ -1,0 +1,19 @@
+<map id="detray::helix_intersector_impl&lt; frame_t, algebra_t &gt;" name="detray::helix_intersector_impl&lt; frame_t, algebra_t &gt;">
+<area shape="rect" id="Node000001" title="Intersection implementation for detector surfaces using a helix trajectory." alt="" coords="5,268,213,308"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1intersector__base.html" title=" " alt="" coords="440,13,652,97"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,254,169,188,200,153,236,124,285,99,337,80,390,67,439,59,440,64,391,73,338,85,287,104,239,129,204,157,173,191,130,257"/>
+<area shape="rect" id="Node000004" href="$structdetray_1_1helix__intersector__impl_3_01cartesian2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html" title="Intersection implementation for helical trajectories with planar surfaces." alt="" coords="439,121,653,175"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="156,259,236,222,339,189,438,166,439,171,340,194,238,226,158,264"/>
+<area shape="rect" id="Node000005" href="$structdetray_1_1helix__intersector__impl_3_01polar2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html" title=" " alt="" coords="881,183,1069,238"/>
+<area shape="poly" id="edge9_Node000001_Node000005" title=" " alt="" coords="227,275,881,216,881,222,228,280"/>
+<area shape="rect" id="Node000006" href="$structdetray_1_1helix__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html" title="Helix intersector for a concentric cylindrical coordinate frame." alt="" coords="864,322,1087,377"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="227,295,435,312,864,340,864,346,434,317,227,301"/>
+<area shape="rect" id="Node000007" href="$structdetray_1_1helix__intersector__impl_3_01cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html" title="Intersection implementation for cylinder surfaces using helical trajectories." alt="" coords="435,382,657,437"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="138,317,182,358,209,377,238,392,286,407,337,415,387,418,434,418,434,424,387,424,336,420,285,412,236,397,206,382,179,362,134,320"/>
+<area shape="rect" id="Node000008" href="$structdetray_1_1helix__intersector__impl_3_01line2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html" title="Intersection implementation for helical trajectories with line surfaces." alt="" coords="456,461,636,515"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="125,320,143,356,167,397,199,436,239,467,291,488,348,499,404,502,456,500,456,505,404,507,347,505,290,494,236,472,195,440,163,400,138,359,121,322"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1intersector__base.html" title=" " alt="" coords="872,5,1079,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="666,52,872,52,872,57,666,57"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="667,163,882,194,881,200,666,168"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="671,389,863,362,864,367,672,395"/>
+</map>

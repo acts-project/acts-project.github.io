@@ -145,7 +145,7 @@ $(function(){initNavTree('todo.html','',''); });
 <dt>Member <a class="el" href="class_acts_1_1_cylinder_layer.html#aef6832daaf7b9a020a2ee0f3728aa856">Acts::CylinderLayer::CylinderLayer</a>  (const Transform3 &amp;transform, const std::shared_ptr&lt; const CylinderBounds &gt; &amp;cBounds, std::unique_ptr&lt; SurfaceArray &gt; surfaceArray, double thickness=0., std::unique_ptr&lt; ApproachDescriptor &gt; ades=nullptr, LayerType laytyp=passive)</dt>
 <dd><a class="anchor" id="_todo000006"></a>change ApproachDescriptor to unique_ptr  </dd>
 <dt>Namespace <a class="el" href="namespace_acts_1_1_detray_json_helper.html">Acts::DetrayJsonHelper</a>  </dt>
-<dd><a class="anchor" id="_todo000034"></a>Move this to the <a class="el" href="namespace_acts_plugins.html">ActsPlugins</a> namespace  </dd>
+<dd><a class="anchor" id="_todo000042"></a>Move this to the <a class="el" href="namespace_acts_plugins.html">ActsPlugins</a> namespace  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_disc_layer.html#a712c02e4d84cfd90073d313a971018bd">Acts::DiscLayer::create</a>  (const Transform3 &amp;transform, const std::shared_ptr&lt; const DiscBounds &gt; &amp;dbounds, std::unique_ptr&lt; SurfaceArray &gt; surfaceArray, double thickness=0., std::unique_ptr&lt; ApproachDescriptor &gt; ad=nullptr, LayerType laytyp=passive)</dt>
 <dd><a class="anchor" id="_todo000011"></a>move ApproachDescriptor to unqique_ptr </dd>
 <dt>Member <a class="el" href="class_acts_1_1_disc_surface.html#ac29684c0f620fbd68b3dd81242bbb40d">Acts::DiscSurface::localPolarToCartesian</a>  (const Vector2 &amp;lpolar) const</dt>
@@ -182,9 +182,17 @@ $(function(){initNavTree('todo.html','',''); });
 <p class="enddd">Bethe-Heitler is applied after energy loss and thus sees the wrong input energy.  </p>
 </dd>
 <dt>Member <a class="el" href="class_acts_plugins_1_1_geo_model_detector_element_i_tk.html#aa9fdc60f55bf04875444aa44024c3590">ActsPlugins::GeoModelDetectorElementITk::convertFromGeomodel</a>  (std::shared_ptr&lt; GeoModelDetectorElement &gt; detEl, std::shared_ptr&lt; Acts::Surface &gt; srf, const Acts::GeometryContext &amp;gctx, int hardware, int barrelEndcap, int layerWheel, int etaModule, int phiModule, int side)</dt>
-<dd><a class="anchor" id="_todo000033"></a>Remove redundancy in signature once plugin is refactored  </dd>
+<dd><a class="anchor" id="_todo000041"></a>Remove redundancy in signature once plugin is refactored  </dd>
 <dt>Class <a class="el" href="class_acts_plugins_1_1_t_geo_detector_element.html">ActsPlugins::TGeoDetectorElement</a>  </dt>
-<dd><a class="anchor" id="_todo000035"></a>what if shape conversion fails? add implementation of more than one surface per module, implementing also for other shapes-&gt;Cone,ConeSeg,Tube? what if not used with DD4hep? </dd>
+<dd><a class="anchor" id="_todo000043"></a>what if shape conversion fails? add implementation of more than one surface per module, implementing also for other shapes-&gt;Cone,ConeSeg,Tube? what if not used with DD4hep?  </dd>
+<dt>Member <a class="el" href="classdetray_1_1detail_1_1detector.html#a8d21f756a02f40dd19fa8f8bafbd430b">detray::detail::detector&lt; metadata_t, container_t &gt;::portals</a>  () const</dt>
+<dd><a class="anchor" id="_todo000035"></a>add range filter to skip non-portal surfaces  </dd>
+<dt>Member <a class="el" href="classdetray_1_1detail_1_1detector.html#a087956cd35f96182c34aed716f802007">detray::detail::detector&lt; metadata_t, container_t &gt;::set_transform</a>  (detector&lt; metadata_t, container_t &gt; &amp;, const dtransform3D&lt; typename metadata_t::algebra_type &gt; &amp;, unsigned int)</dt>
+<dd><a class="anchor" id="_todo000034"></a>Remove  </dd>
+<dt>Struct <a class="el" href="structdetray_1_1io_1_1csv_1_1bound__track__parameters.html">detray::io::csv::bound_track_parameters</a>  </dt>
+<dd><a class="anchor" id="_todo000040"></a>Implement readers and writers  </dd>
+<dt>Struct <a class="el" href="structdetray_1_1ranges_1_1static__join__view.html">detray::ranges::static_join_view&lt; I, range_itr_t &gt;</a>  </dt>
+<dd><a class="anchor" id="_todo000039"></a>improve performance of e.g. <code>operator+</code> and <code>operator+=</code> </dd>
 </dl>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->

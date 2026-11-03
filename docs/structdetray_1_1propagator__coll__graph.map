@@ -1,0 +1,19 @@
+<map id="detray::propagator&lt; stepper_t, navigator_t, actor_chain_t &gt;" name="detray::propagator&lt; stepper_t, navigator_t, actor_chain_t &gt;">
+<area shape="rect" id="Node000001" title="Templated propagator class, using a stepper and a navigator object in succession." alt="" coords="214,544,382,599"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1propagation_1_1config.html" title="Configuration of the propagation." alt="" coords="153,433,302,473"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="248,484,284,542,280,545,244,487"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1navigation_1_1config.html" title="Navigation configuration." alt="" coords="67,323,207,363"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="163,372,213,431,209,435,159,375"/>
+<area shape="rect" id="Node000004" href="$structdetray_1_1intersection_1_1config.html" title="Intersector configuration." alt="" coords="5,212,153,252"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="97,263,115,297,128,321,123,324,110,300,92,266"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="178,212,343,252"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="237,264,200,301,168,325,165,320,196,297,234,260"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="185,101,336,141"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="263,155,263,212,258,212,258,155"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="199,5,322,31"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="263,45,263,101,258,101,258,45"/>
+<area shape="rect" id="Node000008" href="$structdetray_1_1stepping_1_1config.html" title="Configuration flags and limits consumed by a stepper." alt="" coords="231,330,405,355"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="306,369,276,411,252,435,248,431,272,408,302,366"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="326,441,409,466"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="356,479,316,545,311,543,351,477"/>
+</map>

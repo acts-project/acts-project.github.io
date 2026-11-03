@@ -1,0 +1,22 @@
+<map id="detray::io::volume_payload" name="detray::io::volume_payload">
+<area shape="rect" id="Node000001" title="A payload for volumes." alt="" coords="943,131,1083,171"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="692,15,779,41"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="785,43,920,100,975,128,973,133,918,105,782,48"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="309,5,448,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="462,23,692,25,691,30,462,29"/>
+<area shape="rect" id="Node000004" href="$structdetray_1_1io_1_1transform__payload.html" title="A payload for an affine transformation in homogeneous coordinates." alt="" coords="658,96,813,136"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="827,125,943,139,942,145,826,130"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="297,69,460,109"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="474,94,658,108,657,113,474,99"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="5,109,128,134"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="141,111,297,95,297,100,142,116"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="297,133,460,173"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="133,134,152,137,227,145,297,149,297,154,226,150,152,143,132,139"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="474,146,625,133,657,129,658,134,626,139,474,152"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="649,160,821,200"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="835,175,918,168,942,164,943,169,919,173,835,181"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="314,203,443,229"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="457,219,539,219,625,212,682,197,683,203,626,217,539,225,457,224"/>
+<area shape="rect" id="Node000010" href="$structdetray_1_1io_1_1single__link__payload.html" title="A payload for a single object link (volume local)." alt="" coords="670,224,801,264"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="814,231,866,219,918,203,951,187,982,168,984,173,954,191,920,208,867,224,815,236"/>
+</map>

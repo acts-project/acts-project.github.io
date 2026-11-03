@@ -1,0 +1,15 @@
+<map id="detray::ranges::views::cartesian_product&lt; range_ts &gt;" name="detray::ranges::views::cartesian_product&lt; range_ts &gt;">
+<area shape="rect" id="Node000001" title="interface type to construct a cartesian_product_view with CTAD" alt="" coords="1559,5,1720,60"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1ranges_1_1cartesian__product__view.html" title=" " alt="" coords="1295,13,1509,53"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1523,30,1558,30,1558,35,1523,35"/>
+<area shape="rect" id="Node000003" href="$classdetray_1_1ranges_1_1view__interface.html" title=" " alt="" coords="659,7,888,61"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="902,25,1077,19,1271,21,1295,22,1295,27,1271,26,1077,25,902,30"/>
+<area shape="rect" id="Node000006" href="$structdetray_1_1ranges_1_1cartesian__product__view.html" title="Range adaptor that generates a cartesian product from the given input ranges." alt="" coords="937,42,1140,82"/>
+<area shape="poly" id="edge7_Node000006_Node000003" title=" " alt="" coords="902,45,937,49,937,54,901,50"/>
+<area shape="rect" id="Node000004" href="$structdetray_1_1ranges_1_1base__view.html" title="Definition of &#39;view&#39;." alt="" coords="5,19,197,44"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="211,22,408,15,522,15,635,18,659,19,658,25,635,23,522,20,408,21,211,27"/>
+<area shape="rect" id="Node000005" href="$classdetray_1_1ranges_1_1view__interface.html" title="Defines a detray &#39;view&#39;." alt="" coords="247,42,443,82"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="211,42,247,47,246,52,210,48"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="456,61,467,61,551,64,634,61,658,58,659,63,635,66,551,69,467,66,456,66"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="1154,52,1270,43,1294,41,1295,46,1271,49,1154,57"/>
+</map>

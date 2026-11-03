@@ -1161,6 +1161,16 @@ var hierarchy =
       [ "ActsPlugins::DWalkTrackBuilding", "class_acts_plugins_1_1_d_walk_track_building.html", null ],
       [ "ActsPlugins::EdgeLayerConnector", "class_acts_plugins_1_1_edge_layer_connector.html", null ]
     ] ],
+    [ "base_stepper&lt; algebra_t, unconstrained_step&lt; dscalar&lt; algebra_t &gt; &gt;, stepper_default_policy&lt; dscalar&lt; algebra_t &gt; &gt;, stepping::void_inspector &gt;", null, [
+      [ "detray::line_stepper< algebra_t, constraint_t, policy_t, inspector_t >", "classdetray_1_1line__stepper.html", null ]
+    ] ],
+    [ "base_stepper&lt; algebra_t, unconstrained_step&lt; dscalar&lt; algebra_t &gt; &gt;, stepper_rk_policy&lt; dscalar&lt; algebra_t &gt; &gt;, stepping::void_inspector &gt;", null, [
+      [ "detray::rk_stepper< magnetic_field_t, algebra_t, constraint_t, policy_t, inspector_t, flags_v >", "classdetray_1_1rk__stepper.html", null ]
+    ] ],
+    [ "base_type::template state", null, [
+      [ "detray::line_stepper< algebra_t, constraint_t, policy_t, inspector_t >::state", "structdetray_1_1line__stepper_1_1state.html", null ],
+      [ "detray::rk_stepper< magnetic_field_t, algebra_t, constraint_t, policy_t, inspector_t, flags_v >::state", "structdetray_1_1rk__stepper_1_1state.html", null ]
+    ] ],
     [ "ContextType", null, [
       [ "Acts::CalibrationContext", "class_acts_1_1_calibration_context.html", null ],
       [ "Acts::GeometryContext", "class_acts_1_1_geometry_context.html", null ],
@@ -1172,9 +1182,652 @@ var hierarchy =
       [ "Acts::PropagatorResult< parameters_t, result_list >", "struct_acts_1_1_propagator_result.html", null ],
       [ "Acts::PropagatorState< propagator_options_t, stepper_state_t, navigator_state_t, extension_state_t >", "struct_acts_1_1_propagator_state.html", null ]
     ] ],
+    [ "detail::grid_reader", null, [
+      [ "detray::io::surface_grid_reader< surface_descriptor_t, CAP, DIM >", "classdetray_1_1io_1_1surface__grid__reader.html", null ]
+    ] ],
+    [ "detail::grid_writer", null, [
+      [ "detray::io::material_map_writer", "classdetray_1_1io_1_1material__map__writer.html", null ],
+      [ "detray::io::surface_grid_writer", "classdetray_1_1io_1_1surface__grid__writer.html", null ]
+    ] ],
     [ "detail::SpacePointGridBase", null, [
       [ "Acts::CartesianSpacePointGrid", "class_acts_1_1_cartesian_space_point_grid.html", null ],
       [ "Acts::CylindricalSpacePointGrid", "class_acts_1_1_cylindrical_space_point_grid.html", null ]
+    ] ],
+    [ "detray::actor::empty_result", "structdetray_1_1actor_1_1empty__result.html", null ],
+    [ "detray::actor::momentum_aborter&lt; scalar_t &gt;::state", "structdetray_1_1actor_1_1momentum__aborter_1_1state.html", null ],
+    [ "detray::actor::noise_cfg", "structdetray_1_1actor_1_1noise__cfg.html", null ],
+    [ "detray::actor::parameter_transporter&lt; algebra_t &gt;::get_bound_to_free_dpos_dangle_visitor", "structdetray_1_1actor_1_1parameter__transporter_1_1get__bound__to__free__dpos__dangle__visitor.html", null ],
+    [ "detray::actor::parameter_transporter&lt; algebra_t &gt;::get_bound_to_free_dpos_dloc_visitor", "structdetray_1_1actor_1_1parameter__transporter_1_1get__bound__to__free__dpos__dloc__visitor.html", null ],
+    [ "detray::actor::parameter_transporter&lt; algebra_t &gt;::get_free_to_bound_dloc_dpos_visitor", "structdetray_1_1actor_1_1parameter__transporter_1_1get__free__to__bound__dloc__dpos__visitor.html", null ],
+    [ "detray::actor::parameter_transporter&lt; algebra_t &gt;::select_frame", "structdetray_1_1actor_1_1parameter__transporter_1_1select__frame.html", null ],
+    [ "detray::actor::parameter_updater_state&lt; algebra_t &gt;", "structdetray_1_1actor_1_1parameter__updater__state.html", null ],
+    [ "detray::actor::pathlimit_aborter&lt; scalar_t &gt;::state", "structdetray_1_1actor_1_1pathlimit__aborter_1_1state.html", null ],
+    [ "detray::actor::pointwise_material_interactor&lt; algebra_t &gt;::kernel", "structdetray_1_1actor_1_1pointwise__material__interactor_1_1kernel.html", null ],
+    [ "detray::actor::pointwise_material_interactor&lt; algebra_t &gt;::state", "structdetray_1_1actor_1_1pointwise__material__interactor_1_1state.html", null ],
+    [ "detray::actor::random_scatterer&lt; algebra_t &gt;::kernel", "structdetray_1_1actor_1_1random__scatterer_1_1kernel.html", null ],
+    [ "detray::actor::random_scatterer&lt; algebra_t &gt;::state", "structdetray_1_1actor_1_1random__scatterer_1_1state.html", null ],
+    [ "detray::actor::result", "structdetray_1_1actor_1_1result.html", [
+      [ "detray::actor::parameter_transporter_result< algebra_t >", "structdetray_1_1actor_1_1parameter__transporter__result.html", null ]
+    ] ],
+    [ "detray::actor::step_tracer&lt; algebra_t, vector_t &gt;::state", "structdetray_1_1actor_1_1step__tracer_1_1state.html", null ],
+    [ "detray::actor::surface_sequencer&lt; sf_descriptor_t &gt;::state", "structdetray_1_1actor_1_1surface__sequencer_1_1state.html", null ],
+    [ "detray::actor::target_aborter::state", "structdetray_1_1actor_1_1target__aborter_1_1state.html", null ],
+    [ "detray::actor_chain&lt; actors_t &gt;", "classdetray_1_1actor__chain.html", null ],
+    [ "detray::actor_chain&lt;&gt;", "classdetray_1_1actor__chain_3_4.html", null ],
+    [ "detray::aggregate_inspector&lt; Inspectors &gt;", "structdetray_1_1aggregate__inspector.html", null ],
+    [ "detray::algebra::array::storage::block_getter", "structdetray_1_1algebra_1_1array_1_1storage_1_1block__getter.html", null ],
+    [ "detray::algebra::array::storage::element_getter", "structdetray_1_1algebra_1_1array_1_1storage_1_1element__getter.html", null ],
+    [ "detray::algebra::eigen::math::transform3&lt; scalar_t &gt;", "structdetray_1_1algebra_1_1eigen_1_1math_1_1transform3.html", null ],
+    [ "detray::algebra::eigen::storage::block_getter", "structdetray_1_1algebra_1_1eigen_1_1storage_1_1block__getter.html", null ],
+    [ "detray::algebra::eigen::storage::element_getter", "structdetray_1_1algebra_1_1eigen_1_1storage_1_1element__getter.html", null ],
+    [ "detray::algebra::fastor::math::transform3&lt; scalar_t &gt;", "structdetray_1_1algebra_1_1fastor_1_1math_1_1transform3.html", null ],
+    [ "detray::algebra::fastor::storage::block_getter", "structdetray_1_1algebra_1_1fastor_1_1storage_1_1block__getter.html", null ],
+    [ "detray::algebra::fastor::storage::element_getter", "structdetray_1_1algebra_1_1fastor_1_1storage_1_1element__getter.html", null ],
+    [ "detray::algebra::generic::determinant_selector&lt; N, Args &gt;", "structdetray_1_1algebra_1_1generic_1_1determinant__selector.html", null ],
+    [ "detray::algebra::generic::determinant_selector&lt; 2, Args... &gt;", "structdetray_1_1algebra_1_1generic_1_1determinant__selector_3_012_00_01_args_8_8_8_01_4.html", null ],
+    [ "detray::algebra::generic::determinant_selector&lt; 4, array::matrix_type&lt; T, ROWS, COLS &gt;, array::element_getter &gt;", "structdetray_1_1algebra_1_1generic_1_1determinant__selector_3_014_00_01array_1_1matrix__type_3_0076493f3bea6c7faaf51985f4a3cc500.html", null ],
+    [ "detray::algebra::generic::determinant_selector&lt; 4, vc_aos::matrix_type&lt; T, ROWS, COLS &gt;, vc_aos::element_getter &gt;", "structdetray_1_1algebra_1_1generic_1_1determinant__selector_3_014_00_01vc__aos_1_1matrix__type_3975239fab6881c19129e45f9b00f9779.html", null ],
+    [ "detray::algebra::generic::inversion_selector&lt; N, Args &gt;", "structdetray_1_1algebra_1_1generic_1_1inversion__selector.html", null ],
+    [ "detray::algebra::generic::inversion_selector&lt; 2, Args... &gt;", "structdetray_1_1algebra_1_1generic_1_1inversion__selector_3_012_00_01_args_8_8_8_01_4.html", null ],
+    [ "detray::algebra::generic::inversion_selector&lt; 4, array::matrix_type&lt; T, ROWS, COLS &gt;, array::element_getter &gt;", "structdetray_1_1algebra_1_1generic_1_1inversion__selector_3_014_00_01array_1_1matrix__type_3_01_0af03e1d48761cf356db95b4ce75aa65.html", null ],
+    [ "detray::algebra::generic::inversion_selector&lt; 4, vc_aos::matrix_type&lt; T, ROWS, COLS &gt;, vc_aos::element_getter &gt;", "structdetray_1_1algebra_1_1generic_1_1inversion__selector_3_014_00_01vc__aos_1_1matrix__type_3_07ee27b563771cc335940eb0c137ae48b.html", null ],
+    [ "detray::algebra::generic::math::transform3&lt; index_t, scalar_t, matrix_t, array_t &gt;", "structdetray_1_1algebra_1_1generic_1_1math_1_1transform3.html", null ],
+    [ "detray::algebra::generic::matrix::adjoint::cofactor&lt; matrix_t &gt;", "structdetray_1_1algebra_1_1generic_1_1matrix_1_1adjoint_1_1cofactor.html", null ],
+    [ "detray::algebra::generic::matrix::adjoint::cofactor&lt; matrix_t &gt;::adjoint_getter_helper&lt; N &gt;", "structdetray_1_1algebra_1_1generic_1_1matrix_1_1adjoint_1_1cofactor_1_1adjoint__getter__helper.html", null ],
+    [ "detray::algebra::generic::matrix::adjoint::cofactor&lt; matrix_t &gt;::adjoint_getter_helper&lt; N &gt;", "structdetray_1_1algebra_1_1generic_1_1matrix_1_1adjoint_1_1cofactor_1_1adjoint__getter__helper_3_01_n_01_4.html", null ],
+    [ "detray::algebra::generic::matrix::decomposition::partial_pivot_lud&lt; matrix_t &gt;", "structdetray_1_1algebra_1_1generic_1_1matrix_1_1decomposition_1_1partial__pivot__lud.html", null ],
+    [ "detray::algebra::generic::matrix::decomposition::partial_pivot_lud&lt; matrix_t &gt;::lud&lt; N &gt;", "structdetray_1_1algebra_1_1generic_1_1matrix_1_1decomposition_1_1partial__pivot__lud_1_1lud.html", null ],
+    [ "detray::algebra::generic::matrix::determinant::cofactor&lt; matrix_t &gt;", "structdetray_1_1algebra_1_1generic_1_1matrix_1_1determinant_1_1cofactor.html", null ],
+    [ "detray::algebra::generic::matrix::determinant::cofactor&lt; matrix_t &gt;::determinant_getter_helper&lt; N &gt;", "structdetray_1_1algebra_1_1generic_1_1matrix_1_1determinant_1_1cofactor_1_1determinant__getter__helper.html", null ],
+    [ "detray::algebra::generic::matrix::determinant::cofactor&lt; matrix_t &gt;::determinant_getter_helper&lt; N &gt;", "structdetray_1_1algebra_1_1generic_1_1matrix_1_1determinant_1_1cofactor_1_1determinant__getter__helper_3_01_n_01_4.html", null ],
+    [ "detray::algebra::generic::matrix::determinant::hard_coded&lt; matrix_t &gt;", "structdetray_1_1algebra_1_1generic_1_1matrix_1_1determinant_1_1hard__coded.html", null ],
+    [ "detray::algebra::generic::matrix::determinant::partial_pivot_lud&lt; matrix_t &gt;", "structdetray_1_1algebra_1_1generic_1_1matrix_1_1determinant_1_1partial__pivot__lud.html", null ],
+    [ "detray::algebra::generic::matrix::inverse::cofactor&lt; matrix_t &gt;", "structdetray_1_1algebra_1_1generic_1_1matrix_1_1inverse_1_1cofactor.html", null ],
+    [ "detray::algebra::generic::matrix::inverse::hard_coded&lt; matrix_t &gt;", "structdetray_1_1algebra_1_1generic_1_1matrix_1_1inverse_1_1hard__coded.html", null ],
+    [ "detray::algebra::generic::matrix::inverse::partial_pivot_lud&lt; matrix_t &gt;", "structdetray_1_1algebra_1_1generic_1_1matrix_1_1inverse_1_1partial__pivot__lud.html", null ],
+    [ "detray::algebra::smatrix::math::transform3&lt; scalar_t &gt;", "structdetray_1_1algebra_1_1smatrix_1_1math_1_1transform3.html", null ],
+    [ "detray::algebra::smatrix::storage::block_getter", "structdetray_1_1algebra_1_1smatrix_1_1storage_1_1block__getter.html", null ],
+    [ "detray::algebra::smatrix::storage::element_getter", "structdetray_1_1algebra_1_1smatrix_1_1storage_1_1element__getter.html", null ],
+    [ "detray::algebra::storage::block_getter", "structdetray_1_1algebra_1_1storage_1_1block__getter.html", null ],
+    [ "detray::algebra::storage::element_getter", "structdetray_1_1algebra_1_1storage_1_1element__getter.html", null ],
+    [ "detray::algebra::storage::matrix&lt; array_t, scalar_t, ROW, COL &gt;", "structdetray_1_1algebra_1_1storage_1_1matrix.html", null ],
+    [ "detray::algebra::storage::vector&lt; N, scalar_t, array_t &gt;", "classdetray_1_1algebra_1_1storage_1_1vector.html", null ],
+    [ "detray::algebra::vc_aos::math::transform3&lt; array_t, scalar_t &gt;", "structdetray_1_1algebra_1_1vc__aos_1_1math_1_1transform3.html", null ],
+    [ "detray::always_init::state", "structdetray_1_1always__init_1_1state.html", null ],
+    [ "detray::annulus2D", "classdetray_1_1annulus2_d.html", null ],
+    [ "detray::array&lt; V &gt;", "structdetray_1_1array.html", null ],
+    [ "detray::attach&lt; kSORT &gt;", "structdetray_1_1attach.html", null ],
+    [ "detray::axis::detail::multi_axis_assembler&lt; is_owning, containers, local_frame, typename, typename &gt;", "structdetray_1_1axis_1_1detail_1_1multi__axis__assembler.html", null ],
+    [ "detray::axis::detail::multi_axis_assembler&lt; is_owning, containers, local_frame, types::list&lt; axis_bounds... &gt;, types::list&lt; binning_ts... &gt; &gt;", "structdetray_1_1axis_1_1detail_1_1multi__axis__assembler_3_01is__owning_00_01containers_00_01loc52a4f96b81461d24643e211f69a32574.html", null ],
+    [ "detray::axis::multi_axis&lt; ownership, local_frame_t, axis_ts &gt;", "classdetray_1_1axis_1_1multi__axis.html", null ],
+    [ "detray::axis::single_axis&lt; bounds_t, binning_t &gt;", "structdetray_1_1axis_1_1single__axis.html", null ],
+    [ "detray::axis_aligned_bounding_volume&lt; shape_t, algebra_t &gt;", "classdetray_1_1axis__aligned__bounding__volume.html", null ],
+    [ "detray::axis_rotation&lt; algebra_t &gt;", "structdetray_1_1axis__rotation.html", null ],
+    [ "detray::barrel_generator_config&lt; scalar_t &gt;", "structdetray_1_1barrel__generator__config.html", null ],
+    [ "detray::base_actor", "structdetray_1_1base__actor.html", [
+      [ "detray::actor::momentum_aborter< scalar_t >", "structdetray_1_1actor_1_1momentum__aborter.html", null ],
+      [ "detray::actor::parameter_setter< algebra_t >", "structdetray_1_1actor_1_1parameter__setter.html", null ],
+      [ "detray::actor::parameter_transporter< algebra_t >", "structdetray_1_1actor_1_1parameter__transporter.html", null ],
+      [ "detray::actor::pathlimit_aborter< scalar_t >", "structdetray_1_1actor_1_1pathlimit__aborter.html", null ],
+      [ "detray::actor::pointwise_material_interactor< algebra_t >", "structdetray_1_1actor_1_1pointwise__material__interactor.html", null ],
+      [ "detray::actor::random_scatterer< algebra_t >", "structdetray_1_1actor_1_1random__scatterer.html", null ],
+      [ "detray::actor::step_tracer< algebra_t, vector_t >", "structdetray_1_1actor_1_1step__tracer.html", null ],
+      [ "detray::actor::surface_sequencer< sf_descriptor_t >", "structdetray_1_1actor_1_1surface__sequencer.html", null ],
+      [ "detray::actor::target_aborter", "structdetray_1_1actor_1_1target__aborter.html", null ],
+      [ "detray::always_init", "structdetray_1_1always__init.html", null ],
+      [ "detray::composite_actor< principal_actor_t, observers >", "classdetray_1_1composite__actor.html", null ],
+      [ "detray::guided_navigation", "structdetray_1_1guided__navigation.html", null ],
+      [ "detray::material_validator::material_tracer< vector_t >", "structdetray_1_1material__validator_1_1material__tracer.html", null ],
+      [ "detray::perigee_stopper< algebra_t >", "structdetray_1_1perigee__stopper.html", null ],
+      [ "detray::stepper_default_policy< scalar_t >", "structdetray_1_1stepper__default__policy.html", null ],
+      [ "detray::stepper_rk_policy< scalar_t >", "structdetray_1_1stepper__rk__policy.html", null ]
+    ] ],
+    [ "detray::base_actor::state", "structdetray_1_1base__actor_1_1state.html", null ],
+    [ "detray::base_stepper&lt; algebra_t, constraint_t, policy_t, inspector_t &gt;", "classdetray_1_1base__stepper.html", null ],
+    [ "detray::base_stepper&lt; algebra_t, constraint_t, policy_t, inspector_t &gt;::state&lt; internal_jacobian_t &gt;", "structdetray_1_1base__stepper_1_1state.html", null ],
+    [ "detray::bin_associator", "structdetray_1_1bin__associator.html", null ],
+    [ "detray::bins::dynamic_array&lt; entry_t &gt;::data", "structdetray_1_1bins_1_1dynamic__array_1_1data.html", null ],
+    [ "detray::bound_parameters_vector&lt; algebra_t &gt;", "structdetray_1_1bound__parameters__vector.html", [
+      [ "detray::bound_track_parameters< algebra_t >", "structdetray_1_1bound__track__parameters.html", null ]
+    ] ],
+    [ "detray::brute_force_collection&lt; value_t, container_t &gt;", "classdetray_1_1brute__force__collection.html", null ],
+    [ "detray::brute_force_scan&lt; trajectory_t &gt;", "structdetray_1_1brute__force__scan.html", null ],
+    [ "detray::cartesian2D&lt; algebra_t &gt;", "structdetray_1_1cartesian2_d.html", null ],
+    [ "detray::cartesian3D&lt; algebra_t &gt;", "structdetray_1_1cartesian3_d.html", null ],
+    [ "detray::complete&lt; kSORT &gt;", "structdetray_1_1complete.html", null ],
+    [ "detray::concentric_cylinder2D", "classdetray_1_1concentric__cylinder2_d.html", null ],
+    [ "detray::concentric_cylindrical2D&lt; algebra_t &gt;", "structdetray_1_1concentric__cylindrical2_d.html", null ],
+    [ "detray::const_container_types&lt; vector_t &gt;", "structdetray_1_1const__container__types.html", null ],
+    [ "detray::constant&lt; scalar_t &gt;", "structdetray_1_1constant.html", null ],
+    [ "detray::constrained_step&lt; scalar_t &gt;", "structdetray_1_1constrained__step.html", null ],
+    [ "detray::container_types&lt; vector_t &gt;", "structdetray_1_1container__types.html", null ],
+    [ "detray::cuboid3D", "classdetray_1_1cuboid3_d.html", null ],
+    [ "detray::cuboid_intersector", "structdetray_1_1cuboid__intersector.html", null ],
+    [ "detray::curvilinear_frame&lt; algebra_t &gt;", "structdetray_1_1curvilinear__frame.html", null ],
+    [ "detray::cylinder2D", "classdetray_1_1cylinder2_d.html", null ],
+    [ "detray::cylinder3D", "classdetray_1_1cylinder3_d.html", null ],
+    [ "detray::cylinder_portal_config&lt; scalar_t &gt;", "structdetray_1_1cylinder__portal__config.html", null ],
+    [ "detray::cylinder_portal_generator&lt; detector_t &gt;::boundaries", "structdetray_1_1cylinder__portal__generator_1_1boundaries.html", null ],
+    [ "detray::cylindrical2D&lt; algebra_t &gt;", "structdetray_1_1cylindrical2_d.html", null ],
+    [ "detray::cylindrical3D&lt; algebra_t &gt;", "structdetray_1_1cylindrical3_d.html", null ],
+    [ "detray::default_hash&lt; value_t &gt;", "structdetray_1_1default__hash.html", null ],
+    [ "detray::default_metadata&lt; algebra_t &gt;", "structdetray_1_1default__metadata.html", null ],
+    [ "detray::detail::add_sf_material_map&lt; material_t &gt;", "structdetray_1_1detail_1_1add__sf__material__map.html", null ],
+    [ "detray::detail::bit_encoder&lt; value_t &gt;", "classdetray_1_1detail_1_1bit__encoder.html", null ],
+    [ "detray::detail::dbase_view", null, [
+      [ "detray::navigation::void_inspector::void_view", "structdetray_1_1navigation_1_1void__inspector_1_1void__view.html", null ]
+    ] ],
+    [ "detray::detail::detector&lt; metadata_t, container_t &gt;", "classdetray_1_1detail_1_1detector.html", null ],
+    [ "detray::detail::extent2D&lt; scalar_t &gt;", "structdetray_1_1detail_1_1extent2_d.html", null ],
+    [ "detray::detail::first_idx&lt; first_t, other_t &gt;", "structdetray_1_1detail_1_1first__idx.html", null ],
+    [ "detray::detail::first_type&lt; first_t, other_t &gt;", "structdetray_1_1detail_1_1first__type.html", null ],
+    [ "detray::detail::get_type_pos&lt; T, Ts &gt;", "structdetray_1_1detail_1_1get__type__pos.html", null ],
+    [ "detray::detail::get_value_type&lt; T &gt;", "structdetray_1_1detail_1_1get__value__type.html", null ],
+    [ "detray::detail::get_value_type&lt; container_t &gt;", "structdetray_1_1detail_1_1get__value__type_3_01container__t_01_4.html", null ],
+    [ "detray::detail::get_value_type&lt; T * &gt;", "structdetray_1_1detail_1_1get__value__type_3_01_t_01_5_01_4.html", null ],
+    [ "detray::detail::has_reserve&lt; T &gt;", "structdetray_1_1detail_1_1has__reserve.html", null ],
+    [ "detray::detail::has_type&lt; T, tuple_t &gt;", "structdetray_1_1detail_1_1has__type.html", null ],
+    [ "detray::detail::has_type&lt; T, detray::dtuple&lt; Ts... &gt; &gt;", "structdetray_1_1detail_1_1has__type.html", [
+      [ "detray::detail::has_type< T, detray::dtuple< U, Ts... > >", "structdetray_1_1detail_1_1has__type_3_01_t_00_01detray_1_1dtuple_3_01_u_00_01_ts_8_8_8_01_4_01_4.html", null ]
+    ] ],
+    [ "detray::detail::helix&lt; algebra_t &gt;", "classdetray_1_1detail_1_1helix.html", null ],
+    [ "detray::detail::mask_index_update", "structdetray_1_1detail_1_1mask__index__update.html", null ],
+    [ "detray::detail::material_checker", "structdetray_1_1detail_1_1material__checker.html", null ],
+    [ "detray::detail::quadratic_equation&lt; scalar_t, typename &gt;", "classdetray_1_1detail_1_1quadratic__equation.html", null ],
+    [ "detray::detail::quadratic_equation&lt; scalar_t &gt;", "classdetray_1_1detail_1_1quadratic__equation_3_01scalar__t_01_4.html", null ],
+    [ "detray::detail::random_numbers&lt; scalar_t, distribution_t, engine_t &gt;", "structdetray_1_1detail_1_1random__numbers.html", null ],
+    [ "detray::detail::ray&lt; algebra_t &gt;", "classdetray_1_1detail_1_1ray.html", null ],
+    [ "detray::detail::surface_checker", "structdetray_1_1detail_1_1surface__checker.html", null ],
+    [ "detray::detail::tuple_all&lt; trait, tuple_t &gt;", "structdetray_1_1detail_1_1tuple__all.html", null ],
+    [ "detray::detail::tuple_all&lt; trait, detray::dtuple&lt; Args... &gt; &gt;", "structdetray_1_1detail_1_1tuple__all_3_01trait_00_01detray_1_1dtuple_3_01_args_8_8_8_01_4_01_4.html", null ],
+    [ "detray::detail::tuple_any&lt; trait, tuple_t &gt;", "structdetray_1_1detail_1_1tuple__any.html", null ],
+    [ "detray::detail::tuple_any&lt; trait, detray::dtuple&lt; Args... &gt; &gt;", "structdetray_1_1detail_1_1tuple__any_3_01trait_00_01detray_1_1dtuple_3_01_args_8_8_8_01_4_01_4.html", null ],
+    [ "detray::detail::tuple_cat_type&lt; tuple_ts &gt;", "structdetray_1_1detail_1_1tuple__cat__type.html", null ],
+    [ "detray::detail::tuple_cat_type&lt; detray::dtuple&lt; Args... &gt; &gt;", "structdetray_1_1detail_1_1tuple__cat__type_3_01detray_1_1dtuple_3_01_args_8_8_8_01_4_01_4.html", null ],
+    [ "detray::detail::tuple_cat_type&lt; detray::dtuple&lt; Args1... &gt;, detray::dtuple&lt; Args2... &gt;, tuple_ts... &gt;", "structdetray_1_1detail_1_1tuple__cat__type_3_01detray_1_1dtuple_3_01_args1_8_8_8_01_4_00_01detrac524e7a5d90224302591146964a59080.html", null ],
+    [ "detray::detail::tuple_element&lt; N, T &gt;", "structdetray_1_1detail_1_1tuple__element.html", null ],
+    [ "detray::detail::tuple_element&lt; N, detray::dtuple&lt; value_types... &gt; &gt;", "structdetray_1_1detail_1_1tuple__element_3_01_n_00_01detray_1_1dtuple_3_01value__types_8_8_8_01_4_01_4.html", null ],
+    [ "detray::detail::tuple_size&lt; T &gt;", "structdetray_1_1detail_1_1tuple__size.html", null ],
+    [ "detray::detail::tuple_size&lt;::detray::dtuple&lt; value_types... &gt; &gt;", "structdetray_1_1detail_1_1tuple__size_3_1_1detray_1_1dtuple_3_01value__types_8_8_8_01_4_01_4.html", null ],
+    [ "detray::detail::unique_types&lt; I, tuple_ts &gt;", "structdetray_1_1detail_1_1unique__types.html", null ],
+    [ "detray::detail::unique_types&lt; 0u, detray::dtuple&lt; Arg1, Args... &gt; &gt;", "structdetray_1_1detail_1_1unique__types_3_010u_00_01detray_1_1dtuple_3_01_arg1_00_01_args_8_8_8_01_4_01_4.html", null ],
+    [ "detray::detail::unique_types&lt; I, detray::dtuple&lt; Arg1, Args... &gt; &gt;", "structdetray_1_1detail_1_1unique__types_3_01_i_00_01detray_1_1dtuple_3_01_arg1_00_01_args_8_8_8_01_4_01_4.html", null ],
+    [ "detray::detail::unique_types&lt; I, detray::dtuple&lt;&gt; &gt;", "structdetray_1_1detail_1_1unique__types_3_01_i_00_01detray_1_1dtuple_3_4_01_4.html", null ],
+    [ "detray::detail::unwrap_refwrapper&lt; T &gt;", "structdetray_1_1detail_1_1unwrap__refwrapper.html", null ],
+    [ "detray::detector_builder&lt; metadata_t, volume_builder_t, volume_data_t &gt;", "classdetray_1_1detector__builder.html", null ],
+    [ "detray::detector_traits&lt; T &gt;", "structdetray_1_1detector__traits.html", null ],
+    [ "detray::detector_traits&lt; detail::detector&lt; metadata_t, container_t &gt; &gt;", "structdetray_1_1detector__traits_3_01detail_1_1detector_3_01metadata__t_00_01container__t_01_4_01_4.html", null ],
+    [ "detray::detector_traits&lt; metadata_t &gt;", "structdetray_1_1detector__traits_3_01metadata__t_01_4.html", null ],
+    [ "detray::direct_navigator&lt; detector_t, surface_sequence_t &gt;", "classdetray_1_1direct__navigator.html", null ],
+    [ "detray::eigen&lt; V &gt;", "structdetray_1_1eigen.html", null ],
+    [ "detray::endcap_generator_config&lt; scalar_t &gt;", "structdetray_1_1endcap__generator__config.html", null ],
+    [ "detray::euler_rotation&lt; algebra_t &gt;", "structdetray_1_1euler__rotation.html", null ],
+    [ "detray::external_surface&lt; algebra_t, shape_t, material_t, nav_link_t &gt;", "classdetray_1_1external__surface.html", null ],
+    [ "detray::fastor&lt; V &gt;", "structdetray_1_1fastor.html", null ],
+    [ "detray::fill_by_bin", "structdetray_1_1fill__by__bin.html", null ],
+    [ "detray::fill_by_bin::bin_data&lt; DIM, value_t &gt;", "structdetray_1_1fill__by__bin_1_1bin__data.html", null ],
+    [ "detray::fill_by_pos", "structdetray_1_1fill__by__pos.html", null ],
+    [ "detray::free_parameters_vector&lt; algebra_t &gt;", "structdetray_1_1free__parameters__vector.html", null ],
+    [ "detray::geometry::identifier", "classdetray_1_1geometry_1_1identifier.html", null ],
+    [ "detray::geometry::surface&lt; det_t &gt;", "classdetray_1_1geometry_1_1surface.html", null ],
+    [ "detray::geometry::surface&lt; const det_t &gt;", "classdetray_1_1geometry_1_1surface.html", [
+      [ "detray::tracking_surface< det_t >", "classdetray_1_1tracking__surface.html", null ]
+    ] ],
+    [ "detray::grid_collection&lt; grid_t, typename &gt;", "classdetray_1_1grid__collection.html", [
+      [ "detray::grid_collection< spatial_grid_impl< grid_t > >", "classdetray_1_1grid__collection_3_01spatial__grid__impl_3_01grid__t_01_4_01_4.html", null ]
+    ] ],
+    [ "detray::grid_collection&lt; detray::grid_impl&lt; axes_t, bin_t, serializer_t &gt; &gt;", "classdetray_1_1grid__collection_3_01detray_1_1grid__impl_3_01axes__t_00_01bin__t_00_01serializer__t_01_4_01_4.html", null ],
+    [ "detray::grid_factory&lt; bin_t, serializer_t, algebra_t &gt;", "classdetray_1_1grid__factory.html", null ],
+    [ "detray::grid_impl&lt; axes_t, bin_t, serializer_t &gt;", "classdetray_1_1grid__impl.html", null ],
+    [ "detray::guided_navigation::state", "structdetray_1_1guided__navigation_1_1state.html", null ],
+    [ "detray::hash_tree&lt; input_collection_t, data_t, hash_function_t, hash_t, vector_t &gt;", "classdetray_1_1hash__tree.html", null ],
+    [ "detray::hash_tree&lt; input_collection_t, data_t, hash_function_t, hash_t, vector_t &gt;::hashed_node", "structdetray_1_1hash__tree_1_1hashed__node.html", null ],
+    [ "detray::helix_intersector_impl&lt; frame_t, algebra_t &gt;", "structdetray_1_1helix__intersector__impl.html", [
+      [ "detray::intersector_base< helix_intersector_impl< typename shape_t::template local_frame_type< algebra_t >, algebra_t > >", "structdetray_1_1intersector__base.html", null ]
+    ] ],
+    [ "detray::helix_intersector_impl&lt; cartesian2D&lt; algebra_t &gt;, algebra_t &gt;", "structdetray_1_1helix__intersector__impl_3_01cartesian2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html", [
+      [ "detray::helix_intersector_impl< polar2D< algebra_t >, algebra_t >", "structdetray_1_1helix__intersector__impl_3_01polar2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html", null ]
+    ] ],
+    [ "detray::helix_intersector_impl&lt; line2D&lt; algebra_t &gt;, algebra_t &gt;", "structdetray_1_1helix__intersector__impl_3_01line2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html", null ],
+    [ "detray::hom_material_config&lt; scalar_t &gt;", "structdetray_1_1hom__material__config.html", null ],
+    [ "detray::interaction&lt; scalar_t &gt;", "structdetray_1_1interaction.html", null ],
+    [ "detray::intersection2D&lt; surface_t, algebra_t, has_pos &gt;", "classdetray_1_1intersection2_d.html", null ],
+    [ "detray::intersection::config", "structdetray_1_1intersection_1_1config.html", null ],
+    [ "detray::intersection_point&lt; algebra_t, point_t, has_pos &gt;", "structdetray_1_1intersection__point.html", null ],
+    [ "detray::intersection_point&lt; algebra_t, dpoint3D&lt; algebra_t &gt;, intersection::contains_pos &gt;", "structdetray_1_1intersection__point.html", [
+      [ "detray::intersection_point_err< algebra_t >", "structdetray_1_1intersection__point__err.html", null ]
+    ] ],
+    [ "detray::intersection_point&lt; algebra_t, point_t, !intersection::contains_pos &gt;", "structdetray_1_1intersection__point_3_01algebra__t_00_01point__t_00_01_9intersection_1_1contains__pos_01_4.html", [
+      [ "detray::intersection_point< algebra_t, point_t, intersection::contains_pos >", "structdetray_1_1intersection__point_3_01algebra__t_00_01point__t_00_01intersection_1_1contains__pos_01_4.html", null ]
+    ] ],
+    [ "detray::intersection_record&lt; detector_t &gt;", "structdetray_1_1intersection__record.html", null ],
+    [ "detray::intersector&lt; shape_t, algebra_t, resolve_pos &gt;", "structdetray_1_1intersector.html", null ],
+    [ "detray::io::axis_payload", "structdetray_1_1io_1_1axis__payload.html", null ],
+    [ "detray::io::common_header_payload", "structdetray_1_1io_1_1common__header__payload.html", null ],
+    [ "detray::io::csv::bound_track_parameters", "structdetray_1_1io_1_1csv_1_1bound__track__parameters.html", null ],
+    [ "detray::io::csv::free_track_parameters", "structdetray_1_1io_1_1csv_1_1free__track__parameters.html", null ],
+    [ "detray::io::csv::intersection2D", "structdetray_1_1io_1_1csv_1_1intersection2_d.html", null ],
+    [ "detray::io::detector_grids_payload&lt; bin_content_t, grid_id_t &gt;", "structdetray_1_1io_1_1detector__grids__payload.html", null ],
+    [ "detray::io::detector_homogeneous_material_payload", "structdetray_1_1io_1_1detector__homogeneous__material__payload.html", null ],
+    [ "detray::io::detector_payload", "structdetray_1_1io_1_1detector__payload.html", null ],
+    [ "detray::io::detector_reader_config", "structdetray_1_1io_1_1detector__reader__config.html", null ],
+    [ "detray::io::detector_writer_config", "structdetray_1_1io_1_1detector__writer__config.html", null ],
+    [ "detray::io::file_handle", "classdetray_1_1io_1_1file__handle.html", null ],
+    [ "detray::io::geo_sub_header_payload", "structdetray_1_1io_1_1geo__sub__header__payload.html", null ],
+    [ "detray::io::geometry_reader", "classdetray_1_1io_1_1geometry__reader.html", null ],
+    [ "detray::io::geometry_writer", "classdetray_1_1io_1_1geometry__writer.html", null ],
+    [ "detray::io::grid_bin_payload&lt; content_t &gt;", "structdetray_1_1io_1_1grid__bin__payload.html", null ],
+    [ "detray::io::grid_payload&lt; bin_content_t, grid_id_t &gt;", "structdetray_1_1io_1_1grid__payload.html", null ],
+    [ "detray::io::grid_sub_header_payload", "structdetray_1_1io_1_1grid__sub__header__payload.html", null ],
+    [ "detray::io::header_payload&lt; sub_header_payload_t &gt;", "structdetray_1_1io_1_1header__payload.html", null ],
+    [ "detray::io::homogeneous_material_reader", "classdetray_1_1io_1_1homogeneous__material__reader.html", null ],
+    [ "detray::io::homogeneous_material_sub_header_payload", "structdetray_1_1io_1_1homogeneous__material__sub__header__payload.html", null ],
+    [ "detray::io::homogeneous_material_writer", "classdetray_1_1io_1_1homogeneous__material__writer.html", null ],
+    [ "detray::io::json_converter&lt; detector_t, backend_t &gt;", "classdetray_1_1io_1_1json__converter.html", null ],
+    [ "detray::io::mask_payload", "structdetray_1_1io_1_1mask__payload.html", null ],
+    [ "detray::io::material_map_reader&lt; DIM &gt;", "classdetray_1_1io_1_1material__map__reader.html", null ],
+    [ "detray::io::material_param_payload", "structdetray_1_1io_1_1material__param__payload.html", null ],
+    [ "detray::io::material_volume_payload", "structdetray_1_1io_1_1material__volume__payload.html", null ],
+    [ "detray::io::reader_interface&lt; detector_t &gt;", "classdetray_1_1io_1_1reader__interface.html", [
+      [ "detray::io::json_converter< detector_t, backend_t >", "classdetray_1_1io_1_1json__converter_3_01detector__t_00_01backend__t_01_4.html", null ]
+    ] ],
+    [ "detray::io::single_link_payload", "structdetray_1_1io_1_1single__link__payload.html", null ],
+    [ "detray::io::surface_material_payload", "structdetray_1_1io_1_1surface__material__payload.html", null ],
+    [ "detray::io::surface_payload", "structdetray_1_1io_1_1surface__payload.html", null ],
+    [ "detray::io::transform_payload", "structdetray_1_1io_1_1transform__payload.html", null ],
+    [ "detray::io::typed_link_payload&lt; type_id_t &gt;", "structdetray_1_1io_1_1typed__link__payload.html", null ],
+    [ "detray::io::volume_material_payload", "structdetray_1_1io_1_1volume__material__payload.html", null ],
+    [ "detray::io::volume_payload", "structdetray_1_1io_1_1volume__payload.html", null ],
+    [ "detray::io::writer_interface&lt; detector_t &gt;", "classdetray_1_1io_1_1writer__interface.html", [
+      [ "detray::io::json_converter< detector_t, backend_t >", "classdetray_1_1io_1_1json__converter_3_01detector__t_00_01backend__t_01_4.html", null ]
+    ] ],
+    [ "detray::is_ratio_one&lt; R &gt;", "structdetray_1_1is__ratio__one.html", null ],
+    [ "detray::landau_distribution&lt; scalar_t &gt;", "classdetray_1_1landau__distribution.html", null ],
+    [ "detray::line&lt; kSquareCrossSect &gt;", "classdetray_1_1line.html", null ],
+    [ "detray::line2D&lt; algebra_t &gt;", "structdetray_1_1line2_d.html", null ],
+    [ "detray::mask&lt; shape_t, algebra_t, links_t &gt;", "classdetray_1_1mask.html", null ],
+    [ "detray::material&lt; scalar_t, R &gt;", "structdetray_1_1material.html", [
+      [ "detray::air< scalar_t, R >", "structdetray_1_1air.html", null ],
+      [ "detray::aluminium< scalar_t, R >", "structdetray_1_1aluminium.html", null ],
+      [ "detray::argon_gas< scalar_t, R >", "structdetray_1_1argon__gas.html", null ],
+      [ "detray::argon_liquid< scalar_t, R >", "structdetray_1_1argon__liquid.html", null ],
+      [ "detray::beryllium< scalar_t, R >", "structdetray_1_1beryllium.html", null ],
+      [ "detray::beryllium_tml< scalar_t, R >", "structdetray_1_1beryllium__tml.html", null ],
+      [ "detray::carbon_gas< scalar_t, R >", "structdetray_1_1carbon__gas.html", null ],
+      [ "detray::cesium_iodide< scalar_t, R >", "structdetray_1_1cesium__iodide.html", null ],
+      [ "detray::cesium_iodide_with_ded< scalar_t, R >", "structdetray_1_1cesium__iodide__with__ded.html", null ],
+      [ "detray::copper< scalar_t, R >", "structdetray_1_1copper.html", null ],
+      [ "detray::copper_with_ded< scalar_t, R >", "structdetray_1_1copper__with__ded.html", null ],
+      [ "detray::gold< scalar_t, R >", "structdetray_1_1gold.html", null ],
+      [ "detray::helium_gas< scalar_t, R >", "structdetray_1_1helium__gas.html", null ],
+      [ "detray::hydrogen_gas< scalar_t, R >", "structdetray_1_1hydrogen__gas.html", null ],
+      [ "detray::hydrogen_liquid< scalar_t, R >", "structdetray_1_1hydrogen__liquid.html", null ],
+      [ "detray::iron< scalar_t, R >", "structdetray_1_1iron.html", null ],
+      [ "detray::iron_with_ded< scalar_t, R >", "structdetray_1_1iron__with__ded.html", null ],
+      [ "detray::isobutane< scalar_t, R >", "structdetray_1_1isobutane.html", null ],
+      [ "detray::nitrogen_gas< scalar_t, R >", "structdetray_1_1nitrogen__gas.html", null ],
+      [ "detray::oxygen_gas< scalar_t, R >", "structdetray_1_1oxygen__gas.html", null ],
+      [ "detray::oxygen_liquid< scalar_t, R >", "structdetray_1_1oxygen__liquid.html", null ],
+      [ "detray::propane< scalar_t, R >", "structdetray_1_1propane.html", null ],
+      [ "detray::silicon< scalar_t, R >", "structdetray_1_1silicon.html", null ],
+      [ "detray::silicon_tml< scalar_t, R >", "structdetray_1_1silicon__tml.html", null ],
+      [ "detray::silicon_with_ded< scalar_t, R >", "structdetray_1_1silicon__with__ded.html", null ],
+      [ "detray::tungsten< scalar_t, R >", "structdetray_1_1tungsten.html", null ],
+      [ "detray::vacuum< scalar_t, R >", "structdetray_1_1vacuum.html", null ]
+    ] ],
+    [ "detray::material&lt; scalar_t, ratio_sum&lt; material_types::ratio... &gt;::ratio &gt;", "structdetray_1_1material.html", [
+      [ "detray::mixture< scalar_t, material_types >", "structdetray_1_1mixture.html", null ]
+    ] ],
+    [ "detray::material_data&lt; scalar_t &gt;", "classdetray_1_1material__data.html", null ],
+    [ "detray::material_map_config&lt; scalar_t &gt;", "structdetray_1_1material__map__config.html", null ],
+    [ "detray::material_map_config&lt; scalar_t &gt;::map_config", "structdetray_1_1material__map__config_1_1map__config.html", null ],
+    [ "detray::material_record", "structdetray_1_1material__record.html", null ],
+    [ "detray::material_rod&lt; scalar_t &gt;", "structdetray_1_1material__rod.html", null ],
+    [ "detray::material_slab&lt; scalar_t &gt;", "structdetray_1_1material__slab.html", null ],
+    [ "detray::material_validator::get_material_record", "structdetray_1_1material__validator_1_1get__material__record.html", null ],
+    [ "detray::material_validator::material_tracer&lt; vector_t &gt;::state", "structdetray_1_1material__validator_1_1material__tracer_1_1state.html", null ],
+    [ "detray::material_validator::track_material", "structdetray_1_1material__validator_1_1track__material.html", null ],
+    [ "detray::name_map", "structdetray_1_1name__map.html", null ],
+    [ "detray::navigation::config", "structdetray_1_1navigation_1_1config.html", null ],
+    [ "detray::navigation::object_tracer&lt; detector_t, vector_t, navigation_status &gt;", "structdetray_1_1navigation_1_1object__tracer.html", null ],
+    [ "detray::navigation::print_inspector", "structdetray_1_1navigation_1_1print__inspector.html", null ],
+    [ "detray::navigation::print_inspector::void_generator", "structdetray_1_1navigation_1_1print__inspector_1_1void__generator.html", null ],
+    [ "detray::navigation::void_inspector", "structdetray_1_1navigation_1_1void__inspector.html", null ],
+    [ "detray::navigation_validator::empty_bfield", "structdetray_1_1navigation__validator_1_1empty__bfield.html", null ],
+    [ "detray::navigation_validator::min_dist_to_boundary", "structdetray_1_1navigation__validator_1_1min__dist__to__boundary.html", null ],
+    [ "detray::navigation_validator::surface_stats", "structdetray_1_1navigation__validator_1_1surface__stats.html", null ],
+    [ "detray::navigation_validator::track_statistics", "structdetray_1_1navigation__validator_1_1track__statistics.html", null ],
+    [ "detray::navigator_base&lt; navigator_impl_t &gt;", "classdetray_1_1navigator__base.html", [
+      [ "detray::caching_navigator< detector_t, k_cache_capacity, inspector_t, intersection_t >", "classdetray_1_1caching__navigator.html", null ],
+      [ "detray::navigator< detector_t, inspector_t, intersection_t >", "classdetray_1_1navigator.html", null ]
+    ] ],
+    [ "detray::odd_metadata&lt; algebra_t &gt;", "structdetray_1_1odd__metadata.html", null ],
+    [ "detray::pdg_particle&lt; scalar_t &gt;", "structdetray_1_1pdg__particle.html", [
+      [ "detray::antimuon< scalar_t >", "structdetray_1_1antimuon.html", null ],
+      [ "detray::electron< scalar_t >", "structdetray_1_1electron.html", null ],
+      [ "detray::invalid< scalar_t >", "structdetray_1_1invalid.html", null ],
+      [ "detray::muon< scalar_t >", "structdetray_1_1muon.html", null ],
+      [ "detray::photon< scalar_t >", "structdetray_1_1photon.html", null ],
+      [ "detray::pion_minus< scalar_t >", "structdetray_1_1pion__minus.html", null ],
+      [ "detray::pion_plus< scalar_t >", "structdetray_1_1pion__plus.html", null ],
+      [ "detray::pion_zero< scalar_t >", "structdetray_1_1pion__zero.html", null ],
+      [ "detray::positron< scalar_t >", "structdetray_1_1positron.html", null ]
+    ] ],
+    [ "detray::perigee_extrapolator&lt; detector_t, stepper_t, actor_chain_t &gt;", "classdetray_1_1perigee__extrapolator.html", null ],
+    [ "detray::perigee_stopper&lt; algebra_t &gt;::state", "structdetray_1_1perigee__stopper_1_1state.html", null ],
+    [ "detray::polar2D&lt; algebra_t &gt;", "structdetray_1_1polar2_d.html", null ],
+    [ "detray::propagation::config", "structdetray_1_1propagation_1_1config.html", null ],
+    [ "detray::propagation_record&lt; detector_t &gt;", "structdetray_1_1propagation__record.html", null ],
+    [ "detray::propagation_validation_config&lt; scalar_t &gt;", "structdetray_1_1propagation__validation__config.html", null ],
+    [ "detray::propagator&lt; stepper_t, navigator_t, actor_chain_t &gt;", "structdetray_1_1propagator.html", null ],
+    [ "detray::propagator&lt; stepper_t, navigator_t, actor_chain_t &gt;::state_base&lt; states_as_reference &gt;", "structdetray_1_1propagator_1_1state__base.html", null ],
+    [ "detray::random_track_generator_config&lt; scalar_t &gt;", "structdetray_1_1random__track__generator__config.html", null ],
+    [ "detray::ranges::base_view", "structdetray_1_1ranges_1_1base__view.html", [
+      [ "detray::ranges::view_interface< dynamic_array< entry_t > >", "classdetray_1_1ranges_1_1view__interface.html", [
+        [ "detray::bins::dynamic_array< entry_t >", "classdetray_1_1bins_1_1dynamic__array.html", null ]
+      ] ],
+      [ "detray::ranges::view_interface< static_array< entry_t, N > >", "classdetray_1_1ranges_1_1view__interface.html", [
+        [ "detray::bins::static_array< entry_t, N >", "classdetray_1_1bins_1_1static__array.html", null ]
+      ] ],
+      [ "detray::ranges::view_interface< base_state< derived_t, detector_t, k_cache_capacity, inspector_t, intersection_t > >", "classdetray_1_1ranges_1_1view__interface.html", [
+        [ "detray::navigation::base_state< derived_t, detector_t, k_cache_capacity, inspector_t, intersection_t >", "classdetray_1_1navigation_1_1base__state.html", null ]
+      ] ],
+      [ "detray::ranges::view_interface< cartesian_product_view< range_ts... > >", "classdetray_1_1ranges_1_1view__interface.html", [
+        [ "detray::ranges::cartesian_product_view< range_ts... >", "structdetray_1_1ranges_1_1cartesian__product__view.html", [
+          [ "detray::ranges::views::cartesian_product< range_ts >", "structdetray_1_1ranges_1_1views_1_1cartesian__product.html", null ]
+        ] ],
+        [ "detray::ranges::cartesian_product_view< range_ts >", "structdetray_1_1ranges_1_1cartesian__product__view.html", null ]
+      ] ],
+      [ "detray::ranges::view_interface< subrange_view< range_t > >", "classdetray_1_1ranges_1_1view__interface.html", [
+        [ "detray::ranges::detail::subrange_view< range_t >", "classdetray_1_1ranges_1_1detail_1_1subrange__view.html", [
+          [ "detray::ranges::subrange< const vector_type< value_t > >", "structdetray_1_1ranges_1_1subrange.html", [
+            [ "detray::brute_force_collection< value_t, container_t >::brute_forcer", "structdetray_1_1brute__force__collection_1_1brute__forcer.html", null ]
+          ] ],
+          [ "detray::ranges::subrange< darray< entry_t, N > >", "structdetray_1_1ranges_1_1subrange.html", null ],
+          [ "detray::ranges::subrange< const darray< entry_t, N > >", "structdetray_1_1ranges_1_1subrange.html", null ],
+          [ "detray::ranges::subrange< range_t, index_range_t >", "structdetray_1_1ranges_1_1subrange.html", null ]
+        ] ]
+      ] ],
+      [ "detray::ranges::view_interface< empty_view< value_t > >", "classdetray_1_1ranges_1_1view__interface.html", [
+        [ "detray::ranges::empty_view< value_t >", "classdetray_1_1ranges_1_1empty__view.html", null ]
+      ] ],
+      [ "detray::ranges::view_interface< enumerate_view< range_itr_t, incr_t > >", "classdetray_1_1ranges_1_1view__interface.html", [
+        [ "detray::ranges::enumerate_view< range_itr_t, dindex >", "classdetray_1_1ranges_1_1enumerate__view.html", [
+          [ "detray::ranges::views::enumerate< range_itr_t, incr_t >", "structdetray_1_1ranges_1_1views_1_1enumerate.html", null ]
+        ] ],
+        [ "detray::ranges::enumerate_view< range_itr_t, incr_t >", "classdetray_1_1ranges_1_1enumerate__view.html", null ]
+      ] ],
+      [ "detray::ranges::view_interface< iota_view< incr_t > >", "classdetray_1_1ranges_1_1view__interface.html", [
+        [ "detray::ranges::iota_view< incr_t >", "classdetray_1_1ranges_1_1iota__view.html", [
+          [ "detray::ranges::views::iota< incr_t >", "structdetray_1_1ranges_1_1views_1_1iota.html", null ]
+        ] ]
+      ] ],
+      [ "detray::ranges::view_interface< join_view< range_t > >", "classdetray_1_1ranges_1_1view__interface.html", [
+        [ "detray::ranges::join_view< range_t >", "structdetray_1_1ranges_1_1join__view.html", [
+          [ "detray::ranges::views::join< range_t >", "structdetray_1_1ranges_1_1views_1_1join.html", null ]
+        ] ]
+      ] ],
+      [ "detray::ranges::view_interface< pick_view< range_itr_t, sequence_itr_t > >", "classdetray_1_1ranges_1_1view__interface.html", [
+        [ "detray::ranges::pick_view< range_itr_t, detray::ranges::const_iterator_t< std::decay_t< sequence_t > > >", "classdetray_1_1ranges_1_1pick__view.html", [
+          [ "detray::ranges::views::pick< range_itr_t, sequence_t >", "structdetray_1_1ranges_1_1views_1_1pick.html", null ]
+        ] ],
+        [ "detray::ranges::pick_view< range_itr_t, sequence_itr_t >", "classdetray_1_1ranges_1_1pick__view.html", null ]
+      ] ],
+      [ "detray::ranges::view_interface< pointer_view< value_t > >", "classdetray_1_1ranges_1_1view__interface.html", [
+        [ "detray::ranges::pointer_view< const value_t >", "classdetray_1_1ranges_1_1pointer__view.html", [
+          [ "detray::ranges::views::pointer< value_t >", "structdetray_1_1ranges_1_1views_1_1pointer.html", null ]
+        ] ],
+        [ "detray::ranges::pointer_view< value_t >", "classdetray_1_1ranges_1_1pointer__view.html", null ]
+      ] ],
+      [ "detray::ranges::view_interface< single_view< value_t > >", "classdetray_1_1ranges_1_1view__interface.html", [
+        [ "detray::ranges::single_view< value_t >", "classdetray_1_1ranges_1_1single__view.html", [
+          [ "detray::ranges::views::single< value_t >", "structdetray_1_1ranges_1_1views_1_1single.html", null ]
+        ] ]
+      ] ],
+      [ "detray::ranges::view_interface< static_join_view< I, range_itr_t > >", "classdetray_1_1ranges_1_1view__interface.html", [
+        [ "detray::ranges::static_join_view< I, range_itr_t >", "structdetray_1_1ranges_1_1static__join__view.html", [
+          [ "detray::ranges::views::static_join< I, range_itr_t >", "structdetray_1_1ranges_1_1views_1_1static__join.html", null ]
+        ] ]
+      ] ],
+      [ "detray::ranges::view_interface< edge_generator >", "classdetray_1_1ranges_1_1view__interface.html", [
+        [ "detray::volume_graph< detector_t, node_inspector, vector_t >::edge_generator", "structdetray_1_1volume__graph_1_1edge__generator.html", null ]
+      ] ],
+      [ "detray::ranges::view_interface< node_generator >", "classdetray_1_1ranges_1_1view__interface.html", [
+        [ "detray::volume_graph< detector_t, node_inspector, vector_t >::node_generator", "structdetray_1_1volume__graph_1_1node__generator.html", null ]
+      ] ],
+      [ "detray::ranges::view_interface< view_impl_t >", "classdetray_1_1ranges_1_1view__interface.html", [
+        [ "detray::navigation::base_state< state, detector_type, k_cache_capacity, inspector_type, intersection_type >", "classdetray_1_1navigation_1_1base__state.html", [
+          [ "detray::caching_navigator< detector_t, k_cache_capacity, inspector_t, intersection_t >::state", "classdetray_1_1caching__navigator_1_1state.html", null ]
+        ] ],
+        [ "detray::navigation::base_state< state, detector_type, 2u, inspector_type, intersection_type >", "classdetray_1_1navigation_1_1base__state.html", [
+          [ "detray::direct_navigator< detector_t, surface_sequence_t >::state", "classdetray_1_1direct__navigator_1_1state.html", null ],
+          [ "detray::navigator< detector_t, inspector_t, intersection_t >::state", "classdetray_1_1navigator_1_1state.html", null ]
+        ] ],
+        [ "detray::ranges::single_view< entry_t >", "classdetray_1_1ranges_1_1single__view.html", [
+          [ "detray::bins::single< entry_t >", "classdetray_1_1bins_1_1single.html", null ]
+        ] ]
+      ] ]
+    ] ],
+    [ "detray::ranges::dangling", "structdetray_1_1ranges_1_1dangling.html", null ],
+    [ "detray::ranges::detail::cartesian_product_iterator&lt; iterator_ts &gt;", "structdetray_1_1ranges_1_1detail_1_1cartesian__product__iterator.html", null ],
+    [ "detray::ranges::detail::join_iterator&lt; range_t &gt;", "structdetray_1_1ranges_1_1detail_1_1join__iterator.html", null ],
+    [ "detray::ranges::detail::static_join_iterator&lt; iterator_coll_t &gt;", "structdetray_1_1ranges_1_1detail_1_1static__join__iterator.html", null ],
+    [ "detray::ranges::view_interface&lt; random_track_generator&lt; track_t, detail::random_numbers&lt; dscalar&lt; typename track_t::algebra_type &gt; &gt; &gt; &gt;", null, [
+      [ "detray::random_track_generator< track_t, generator_t >", "classdetray_1_1random__track__generator.html", null ]
+    ] ],
+    [ "detray::ranges::view_interface&lt; uniform_track_generator&lt; track_t, detail::random_numbers&lt; dscalar&lt; typename track_t::algebra_type &gt; &gt; &gt; &gt;", null, [
+      [ "detray::uniform_track_generator< track_t, generator_t >", "classdetray_1_1uniform__track__generator.html", null ]
+    ] ],
+    [ "detray::ratio_sum&lt; ratios &gt;", "structdetray_1_1ratio__sum.html", null ],
+    [ "detray::ratio_sum_helper&lt; ratios &gt;", "structdetray_1_1ratio__sum__helper.html", null ],
+    [ "detray::ratio_sum_helper&lt; R &gt;", "structdetray_1_1ratio__sum__helper_3_01_r_01_4.html", null ],
+    [ "detray::ratio_sum_helper&lt; ratio1, ratio2, ratios... &gt;", "structdetray_1_1ratio__sum__helper_3_01ratio1_00_01ratio2_00_01ratios_8_8_8_01_4.html", null ],
+    [ "detray::ray_intersector_impl&lt; frame_t, algebra_t, resolve_pos &gt;", "structdetray_1_1ray__intersector__impl.html", [
+      [ "detray::intersector_base< ray_intersector_impl< typename shape_t::template local_frame_type< algebra_t >, algebra_t, resolve_pos > >", "structdetray_1_1intersector__base.html", null ]
+    ] ],
+    [ "detray::ray_intersector_impl&lt; cartesian2D&lt; algebra_t &gt;, algebra_t, resolve_pos &gt;", "structdetray_1_1ray__intersector__impl_3_01cartesian2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html", [
+      [ "detray::ray_intersector_impl< polar2D< algebra_t >, algebra_t, resolve_pos >", "structdetray_1_1ray__intersector__impl_3_01polar2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html", null ],
+      [ "detray::ray_intersector_impl< polar2D< algebra_t >, algebra_t, resolve_pos >", "structdetray_1_1ray__intersector__impl_3_01polar2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html", null ]
+    ] ],
+    [ "detray::ray_intersector_impl&lt; concentric_cylindrical2D&lt; algebra_t &gt;, algebra_t, resolve_pos &gt;", "structdetray_1_1ray__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01a3ac95ffd4d9d627a47290193328a8b11.html", null ],
+    [ "detray::ray_intersector_impl&lt; cylindrical2D&lt; algebra_t &gt;, algebra_t, intersection::contains_pos &gt;", "structdetray_1_1ray__intersector__impl.html", [
+      [ "detray::helix_intersector_impl< cylindrical2D< algebra_t >, algebra_t >", "structdetray_1_1helix__intersector__impl_3_01cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html", [
+        [ "detray::helix_intersector_impl< concentric_cylindrical2D< algebra_t >, algebra_t >", "structdetray_1_1helix__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html", null ]
+      ] ]
+    ] ],
+    [ "detray::ray_intersector_impl&lt; cylindrical2D&lt; algebra_t &gt;, algebra_t, resolve_pos &gt;", "structdetray_1_1ray__intersector__impl_3_01cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html", null ],
+    [ "detray::ray_intersector_impl&lt; line2D&lt; algebra_t &gt;, algebra_t, resolve_pos &gt;", "structdetray_1_1ray__intersector__impl_3_01line2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html", null ],
+    [ "detray::rectangle2D", "classdetray_1_1rectangle2_d.html", null ],
+    [ "detray::replace&lt; kSORT &gt;", "structdetray_1_1replace.html", null ],
+    [ "detray::ring2D", "classdetray_1_1ring2_d.html", null ],
+    [ "detray::rk_stepper&lt; magnetic_field_t, algebra_t, constraint_t, policy_t, inspector_t, flags_v &gt;::intermediate_state", "structdetray_1_1rk__stepper_1_1intermediate__state.html", null ],
+    [ "detray::scattering_helper&lt; algebra_t &gt;", "structdetray_1_1scattering__helper.html", null ],
+    [ "detray::single3D&lt; kCheckIndex &gt;", "classdetray_1_1single3_d.html", null ],
+    [ "detray::smatrix&lt; V &gt;", "structdetray_1_1smatrix.html", null ],
+    [ "detray::step_record&lt; algebra_t &gt;", "structdetray_1_1step__record.html", null ],
+    [ "detray::stepper_default_policy&lt; scalar_t &gt;::state", "structdetray_1_1stepper__default__policy_1_1state.html", null ],
+    [ "detray::stepper_rk_policy&lt; scalar_t &gt;::state", "structdetray_1_1stepper__rk__policy_1_1state.html", null ],
+    [ "detray::stepping::config", "structdetray_1_1stepping_1_1config.html", null ],
+    [ "detray::stepping::print_inspector", "structdetray_1_1stepping_1_1print__inspector.html", null ],
+    [ "detray::stepping::void_inspector", "structdetray_1_1stepping_1_1void__inspector.html", null ],
+    [ "detray::surface_data&lt; detector_t &gt;", "classdetray_1_1surface__data.html", null ],
+    [ "detray::surface_descriptor&lt; mask_link_t, material_link_t, transform_link_t, navigation_link_t &gt;", "classdetray_1_1surface__descriptor.html", null ],
+    [ "detray::surface_factory_interface&lt; detector_t &gt;", "classdetray_1_1surface__factory__interface.html", [
+      [ "detray::surface_factory< detector_t, unmasked<> >", "classdetray_1_1surface__factory.html", null ],
+      [ "detray::barrel_generator< detector_t, mask_shape_t >", "classdetray_1_1barrel__generator.html", null ],
+      [ "detray::cuboid_portal_generator< detector_t >", "classdetray_1_1cuboid__portal__generator.html", null ],
+      [ "detray::cylinder_portal_generator< detector_t >", "classdetray_1_1cylinder__portal__generator.html", null ],
+      [ "detray::endcap_generator< detector_t, mask_shape_t >", "classdetray_1_1endcap__generator.html", null ],
+      [ "detray::factory_decorator< detector_t >", "classdetray_1_1factory__decorator.html", [
+        [ "detray::homogeneous_material_factory< detector_t >", "classdetray_1_1homogeneous__material__factory.html", null ],
+        [ "detray::homogeneous_material_generator< detector_t >", "classdetray_1_1homogeneous__material__generator.html", null ],
+        [ "detray::material_map_factory< detector_t, index_t >", "classdetray_1_1material__map__factory.html", null ],
+        [ "detray::material_map_generator< detector_t >", "classdetray_1_1material__map__generator.html", null ]
+      ] ],
+      [ "detray::surface_factory< detector_t, mask_shape_t >", "classdetray_1_1surface__factory.html", null ],
+      [ "detray::telescope_generator< detector_t, mask_shape_t, trajectory_t >", "classdetray_1_1telescope__generator.html", null ],
+      [ "detray::wire_layer_generator< detector_t, mask_shape_t >", "classdetray_1_1wire__layer__generator.html", null ]
+    ] ],
+    [ "detray::svgtools::conversion::detail::bin_association_getter", "structdetray_1_1svgtools_1_1conversion_1_1detail_1_1bin__association__getter.html", null ],
+    [ "detray::svgtools::conversion::detail::type_and_edge_getter&lt; scalar_t &gt;", "structdetray_1_1svgtools_1_1conversion_1_1detail_1_1type__and__edge__getter.html", null ],
+    [ "detray::svgtools::conversion::material_converter", "structdetray_1_1svgtools_1_1conversion_1_1material__converter.html", null ],
+    [ "detray::svgtools::conversion::surface_converter", "structdetray_1_1svgtools_1_1conversion_1_1surface__converter.html", null ],
+    [ "detray::svgtools::illustrator&lt; detector_t &gt;", "classdetray_1_1svgtools_1_1illustrator.html", null ],
+    [ "detray::svgtools::meta::proto::eta_lines", "structdetray_1_1svgtools_1_1meta_1_1proto_1_1eta__lines.html", null ],
+    [ "detray::svgtools::meta::proto::information_section&lt; point3_t &gt;", "structdetray_1_1svgtools_1_1meta_1_1proto_1_1information__section.html", null ],
+    [ "detray::svgtools::meta::proto::intersection&lt; point3_t &gt;", "structdetray_1_1svgtools_1_1meta_1_1proto_1_1intersection.html", null ],
+    [ "detray::svgtools::meta::proto::landmark&lt; point3_t &gt;", "structdetray_1_1svgtools_1_1meta_1_1proto_1_1landmark.html", null ],
+    [ "detray::svgtools::meta::proto::trajectory&lt; point3_t &gt;", "structdetray_1_1svgtools_1_1meta_1_1proto_1_1trajectory.html", null ],
+    [ "detray::svgtools::styling::colors::tableau_colorblind10", "structdetray_1_1svgtools_1_1styling_1_1colors_1_1tableau__colorblind10.html", null ],
+    [ "detray::svgtools::styling::detector_style", "structdetray_1_1svgtools_1_1styling_1_1detector__style.html", null ],
+    [ "detray::svgtools::styling::eta_lines_style", "structdetray_1_1svgtools_1_1styling_1_1eta__lines__style.html", null ],
+    [ "detray::svgtools::styling::grid_style", "structdetray_1_1svgtools_1_1styling_1_1grid__style.html", null ],
+    [ "detray::svgtools::styling::landmark_style", "structdetray_1_1svgtools_1_1styling_1_1landmark__style.html", null ],
+    [ "detray::svgtools::styling::link_style", "structdetray_1_1svgtools_1_1styling_1_1link__style.html", null ],
+    [ "detray::svgtools::styling::portal_style", "structdetray_1_1svgtools_1_1styling_1_1portal__style.html", null ],
+    [ "detray::svgtools::styling::style", "structdetray_1_1svgtools_1_1styling_1_1style.html", null ],
+    [ "detray::svgtools::styling::surface_material_style", "structdetray_1_1svgtools_1_1styling_1_1surface__material__style.html", null ],
+    [ "detray::svgtools::styling::surface_style", "structdetray_1_1svgtools_1_1styling_1_1surface__style.html", null ],
+    [ "detray::svgtools::styling::trajectory_style", "structdetray_1_1svgtools_1_1styling_1_1trajectory__style.html", null ],
+    [ "detray::svgtools::styling::volume_style", "structdetray_1_1svgtools_1_1styling_1_1volume__style.html", null ],
+    [ "detray::svgtools::utils::link_end_getter", "structdetray_1_1svgtools_1_1utils_1_1link__end__getter.html", null ],
+    [ "detray::svgtools::utils::link_start_getter", "structdetray_1_1svgtools_1_1utils_1_1link__start__getter.html", null ],
+    [ "detray::tel_det_config&lt; algebra_t, mask_shape_t, trajectory_t &gt;", "structdetray_1_1tel__det__config.html", null ],
+    [ "detray::telescope_metadata&lt; algebra_t, mask_shape_t &gt;", "structdetray_1_1telescope__metadata.html", null ],
+    [ "detray::test::configuration&lt; scalar_t &gt;", "structdetray_1_1test_1_1configuration.html", null ],
+    [ "detray::test::configuration&lt; dscalar&lt; algebra_t &gt; &gt;", "structdetray_1_1test_1_1configuration.html", [
+      [ "detray::test::detector_scan_config< track_generator_t, algebra_t >", "structdetray_1_1test_1_1detector__scan__config.html", null ],
+      [ "detray::test::material_validation_config< algebra_t >", "structdetray_1_1test_1_1material__validation__config.html", null ],
+      [ "detray::test::navigation_validation_config< algebra_t >", "structdetray_1_1test_1_1navigation__validation__config.html", null ]
+    ] ],
+    [ "detray::toy_det_config&lt; scalar_t &gt;", "structdetray_1_1toy__det__config.html", null ],
+    [ "detray::toy_metadata&lt; algebra_t &gt;", "structdetray_1_1toy__metadata.html", null ],
+    [ "detray::tracking_volume&lt; detector_t &gt;", "classdetray_1_1tracking__volume.html", null ],
+    [ "detray::traits::block_getter&lt; M &gt;", "structdetray_1_1traits_1_1block__getter.html", null ],
+    [ "detray::traits::block_getter&lt; Eigen::MatrixBase&lt; derived_t &gt; &gt;", "structdetray_1_1traits_1_1block__getter_3_01_eigen_1_1_matrix_base_3_01derived__t_01_4_01_4.html", null ],
+    [ "detray::traits::dimensions&lt; M &gt;", "structdetray_1_1traits_1_1dimensions.html", null ],
+    [ "detray::traits::dimensions&lt; ::detray::detail::transport_jacobian_matrix_with_gradient&lt; algebra_t &gt; &gt;", "structdetray_1_1traits_1_1dimensions_3_01_1_1detray_1_1detail_1_1transport__jacobian__matrix__wi8654d0679de679bd6fe00100dfb629d0.html", null ],
+    [ "detray::traits::dimensions&lt; ::detray::detail::transport_jacobian_matrix_without_gradient&lt; algebra_t &gt; &gt;", "structdetray_1_1traits_1_1dimensions_3_01_1_1detray_1_1detail_1_1transport__jacobian__matrix__wia041cfc26452957c631af3fe24724a97.html", null ],
+    [ "detray::traits::dimensions&lt; algebra::vc_aos::storage_type&lt; T, N &gt; &gt;", "structdetray_1_1traits_1_1dimensions_3_01algebra_1_1vc__aos_1_1storage__type_3_01_t_00_01_n_01_4_01_4.html", null ],
+    [ "detray::traits::dimensions&lt; algebra::vc_soa::storage_type&lt; T, N &gt; &gt;", "structdetray_1_1traits_1_1dimensions_3_01algebra_1_1vc__soa_1_1storage__type_3_01_t_00_01_n_01_4_01_4.html", null ],
+    [ "detray::traits::dimensions&lt; Eigen::Block&lt; Eigen::Matrix&lt; T, ROWS, COLS, OPT, ROWS, COLS &gt;, bROWS, bCOLS, false &gt; &gt;", "structdetray_1_1traits_1_1dimensions_3_01_eigen_1_1_block_3_01_eigen_1_1_matrix_3_01_t_00_01_r_o1a600e9cfba2a6f029e4058f02cee5d9.html", null ],
+    [ "detray::traits::dimensions&lt; Eigen::MatrixBase&lt; derived_t &gt; &gt;", "structdetray_1_1traits_1_1dimensions_3_01_eigen_1_1_matrix_base_3_01derived__t_01_4_01_4.html", null ],
+    [ "detray::traits::dimensions&lt; M &gt;", "structdetray_1_1traits_1_1dimensions_3_01_m_01_4.html", null ],
+    [ "detray::traits::dimensions&lt; Vc_1::Vector&lt; T, Vc_1::simd_abi::fixed_size&lt; N &gt; &gt; &gt;", "structdetray_1_1traits_1_1dimensions_3_01_vc__1_1_1_vector_3_01_t_00_01_vc__1_1_1simd__abi_1_1fixed__size_3_01_n_01_4_01_4_01_4.html", null ],
+    [ "detray::traits::element_getter&lt; M &gt;", "structdetray_1_1traits_1_1element__getter.html", null ],
+    [ "detray::traits::element_getter&lt; Eigen::Block&lt; Eigen::Matrix&lt; T, ROWS, COLS, OPT, ROWS, COLS &gt;, bROWS, bCOLS, false &gt; &gt;", "structdetray_1_1traits_1_1element__getter_3_01_eigen_1_1_block_3_01_eigen_1_1_matrix_3_01_t_00_0c33106782c79fcf5e2ecc0dcc0f2fc76.html", null ],
+    [ "detray::traits::element_getter&lt; Eigen::MatrixBase&lt; derived_t &gt; &gt;", "structdetray_1_1traits_1_1element__getter_3_01_eigen_1_1_matrix_base_3_01derived__t_01_4_01_4.html", null ],
+    [ "detray::traits::get_algebra&lt; A, typename &gt;", "structdetray_1_1traits_1_1get__algebra.html", null ],
+    [ "detray::traits::get_algebra&lt; A &gt;", "structdetray_1_1traits_1_1get__algebra_3_01_a_01_4.html", null ],
+    [ "detray::traits::get_algebra&lt; A&lt; V &gt;, W &gt;", "structdetray_1_1traits_1_1get__algebra_3_01_a_3_01_v_01_4_00_01_w_01_4.html", null ],
+    [ "detray::traits::index&lt; M &gt;", "structdetray_1_1traits_1_1index.html", null ],
+    [ "detray::traits::index&lt; ::detray::detail::transport_jacobian_matrix_with_gradient&lt; algebra_t &gt; &gt;", "structdetray_1_1traits_1_1index_3_01_1_1detray_1_1detail_1_1transport__jacobian__matrix__with__g393d212020fa38440c616b1533f4a9df.html", null ],
+    [ "detray::traits::index&lt; ::detray::detail::transport_jacobian_matrix_without_gradient&lt; algebra_t &gt; &gt;", "structdetray_1_1traits_1_1index_3_01_1_1detray_1_1detail_1_1transport__jacobian__matrix__without5776e3e0873b6c86f8172cdac75b9c35.html", null ],
+    [ "detray::traits::index&lt; algebra::vc_aos::storage_type&lt; T, N &gt; &gt;", "structdetray_1_1traits_1_1index_3_01algebra_1_1vc__aos_1_1storage__type_3_01_t_00_01_n_01_4_01_4.html", null ],
+    [ "detray::traits::index&lt; Eigen::Block&lt; Eigen::Matrix&lt; T, ROWS, COLS, OPT, ROWS, COLS &gt;, bROWS, bCOLS, false &gt; &gt;", "structdetray_1_1traits_1_1index_3_01_eigen_1_1_block_3_01_eigen_1_1_matrix_3_01_t_00_01_r_o_w_s_510373b27aa54ba888a8db335b026fd1.html", null ],
+    [ "detray::traits::index&lt; Eigen::MatrixBase&lt; derived_t &gt; &gt;", "structdetray_1_1traits_1_1index_3_01_eigen_1_1_matrix_base_3_01derived__t_01_4_01_4.html", null ],
+    [ "detray::traits::index&lt; Vc_1::Vector&lt; T, Vc_1::simd_abi::fixed_size&lt; N &gt; &gt; &gt;", "structdetray_1_1traits_1_1index_3_01_vc__1_1_1_vector_3_01_t_00_01_vc__1_1_1simd__abi_1_1fixed__size_3_01_n_01_4_01_4_01_4.html", null ],
+    [ "detray::traits::matrix&lt; M &gt;", "structdetray_1_1traits_1_1matrix.html", null ],
+    [ "detray::traits::matrix&lt; Eigen::Block&lt; Eigen::Matrix&lt; T, ROWS, COLS, OPT, ROWS, COLS &gt;, bROWS, bCOLS, false &gt; &gt;", "structdetray_1_1traits_1_1matrix_3_01_eigen_1_1_block_3_01_eigen_1_1_matrix_3_01_t_00_01_r_o_w_s77ced41dfecd0a6d8f21b9e509d010e8.html", null ],
+    [ "detray::traits::matrix&lt; Eigen::MatrixBase&lt; derived_t &gt; &gt;", "structdetray_1_1traits_1_1matrix_3_01_eigen_1_1_matrix_base_3_01derived__t_01_4_01_4.html", null ],
+    [ "detray::traits::scalar&lt; M &gt;", "structdetray_1_1traits_1_1scalar.html", null ],
+    [ "detray::traits::scalar&lt; algebra::storage::matrix&lt; algebra::vc_soa::storage_type, Vc::Vector&lt; T &gt;, ROWS, COLS &gt; &gt;", "structdetray_1_1traits_1_1scalar_3_01algebra_1_1storage_1_1matrix_3_01algebra_1_1vc__soa_1_1stor75facf90d3b97d1c7a4ed0aa38a96421.html", null ],
+    [ "detray::traits::scalar&lt; algebra::storage::vector&lt; N, Vc::Vector&lt; T &gt;, algebra::vc_soa::storage_type &gt; &gt;", "structdetray_1_1traits_1_1scalar_3_01algebra_1_1storage_1_1vector_3_01_n_00_01_vc_1_1_vector_3_00ea4dc574dca37d599bffa9f07a93fc0.html", null ],
+    [ "detray::traits::value&lt; M &gt;", "structdetray_1_1traits_1_1value.html", null ],
+    [ "detray::traits::value&lt; algebra::vc_aos::storage_type&lt; T, N &gt; &gt;", "structdetray_1_1traits_1_1value_3_01algebra_1_1vc__aos_1_1storage__type_3_01_t_00_01_n_01_4_01_4.html", null ],
+    [ "detray::traits::value&lt; Eigen::Block&lt; Eigen::Matrix&lt; T, ROWS, COLS, OPT, ROWS, COLS &gt;, bROWS, bCOLS, false &gt; &gt;", "structdetray_1_1traits_1_1value_3_01_eigen_1_1_block_3_01_eigen_1_1_matrix_3_01_t_00_01_r_o_w_s_01801a5178825d878d2d71d2ce99d187.html", null ],
+    [ "detray::traits::value&lt; Eigen::MatrixBase&lt; derived_t &gt; &gt;", "structdetray_1_1traits_1_1value_3_01_eigen_1_1_matrix_base_3_01derived__t_01_4_01_4.html", null ],
+    [ "detray::traits::value&lt; T &gt;", "structdetray_1_1traits_1_1value_3_01_t_01_4.html", null ],
+    [ "detray::traits::value&lt; Vc::Vector&lt; T &gt; &gt;", "structdetray_1_1traits_1_1value_3_01_vc_1_1_vector_3_01_t_01_4_01_4.html", null ],
+    [ "detray::traits::value&lt; Vc_1::Vector&lt; T, Vc_1::simd_abi::fixed_size&lt; N &gt; &gt; &gt;", "structdetray_1_1traits_1_1value_3_01_vc__1_1_1_vector_3_01_t_00_01_vc__1_1_1simd__abi_1_1fixed__size_3_01_n_01_4_01_4_01_4.html", null ],
+    [ "detray::traits::vector&lt; M &gt;", "structdetray_1_1traits_1_1vector.html", null ],
+    [ "detray::traits::vector&lt; Eigen::MatrixBase&lt; derived_t &gt; &gt;", "structdetray_1_1traits_1_1vector_3_01_eigen_1_1_matrix_base_3_01derived__t_01_4_01_4.html", null ],
+    [ "detray::trapezoid2D", "classdetray_1_1trapezoid2_d.html", null ],
+    [ "detray::tuple&lt; Ts &gt;", "structdetray_1_1tuple.html", null ],
+    [ "detray::tuple&lt; T, Ts... &gt;", "structdetray_1_1tuple_3_01_t_00_01_ts_8_8_8_01_4.html", null ],
+    [ "detray::types::cast_impl_id&lt; I, typename &gt;", "structdetray_1_1types_1_1cast__impl__id.html", null ],
+    [ "detray::types::cast_impl_id&lt; I, mapped_registry&lt; R, S &gt; &gt;", "structdetray_1_1types_1_1cast__impl__id_3_01_i_00_01mapped__registry_3_01_r_00_01_s_01_4_01_4.html", null ],
+    [ "detray::types::cast_impl_id&lt; I, registry&lt; ID, Ts... &gt; &gt;", "structdetray_1_1types_1_1cast__impl__id_3_01_i_00_01registry_3_01_i_d_00_01_ts_8_8_8_01_4_01_4.html", null ],
+    [ "detray::types::cast_impl_idx&lt; I, typename &gt;", "structdetray_1_1types_1_1cast__impl__idx.html", null ],
+    [ "detray::types::cast_impl_idx&lt; I, mapped_registry&lt; R, S &gt; &gt;", "structdetray_1_1types_1_1cast__impl__idx_3_01_i_00_01mapped__registry_3_01_r_00_01_s_01_4_01_4.html", null ],
+    [ "detray::types::cast_impl_idx&lt; I, registry&lt; ID, Ts... &gt; &gt;", "structdetray_1_1types_1_1cast__impl__idx_3_01_i_00_01registry_3_01_i_d_00_01_ts_8_8_8_01_4_01_4.html", null ],
+    [ "detray::types::do_push_back&lt; N, typename &gt;", "structdetray_1_1types_1_1do__push__back.html", null ],
+    [ "detray::types::do_push_back&lt; N, list&lt; Ts... &gt; &gt;", "structdetray_1_1types_1_1do__push__back_3_01_n_00_01list_3_01_ts_8_8_8_01_4_01_4.html", null ],
+    [ "detray::types::do_push_front&lt; N, typename &gt;", "structdetray_1_1types_1_1do__push__front.html", null ],
+    [ "detray::types::do_push_front&lt; N, list&lt; Ts... &gt; &gt;", "structdetray_1_1types_1_1do__push__front_3_01_n_00_01list_3_01_ts_8_8_8_01_4_01_4.html", null ],
+    [ "detray::types::get_at&lt; N, typename &gt;", "structdetray_1_1types_1_1get__at.html", null ],
+    [ "detray::types::get_at&lt; N, list&lt; T, Ts... &gt; &gt;", "structdetray_1_1types_1_1get__at_3_01_n_00_01list_3_01_t_00_01_ts_8_8_8_01_4_01_4.html", null ],
+    [ "detray::types::get_at&lt; N, mapped_registry&lt; R, S &gt; &gt;", "structdetray_1_1types_1_1get__at_3_01_n_00_01mapped__registry_3_01_r_00_01_s_01_4_01_4.html", null ],
+    [ "detray::types::get_at&lt; N, registry&lt; ID, Ts... &gt; &gt;", "structdetray_1_1types_1_1get__at_3_01_n_00_01registry_3_01_i_d_00_01_ts_8_8_8_01_4_01_4.html", null ],
+    [ "detray::types::get_back&lt; typename &gt;", "structdetray_1_1types_1_1get__back.html", null ],
+    [ "detray::types::get_back&lt; list&lt; T, Ts... &gt; &gt;", "structdetray_1_1types_1_1get__back_3_01list_3_01_t_00_01_ts_8_8_8_01_4_01_4.html", null ],
+    [ "detray::types::get_back&lt; list&lt;&gt; &gt;", "structdetray_1_1types_1_1get__back_3_01list_3_4_01_4.html", null ],
+    [ "detray::types::get_front&lt; typename &gt;", "structdetray_1_1types_1_1get__front.html", null ],
+    [ "detray::types::get_front&lt; list&lt; T, Ts... &gt; &gt;", "structdetray_1_1types_1_1get__front_3_01list_3_01_t_00_01_ts_8_8_8_01_4_01_4.html", null ],
+    [ "detray::types::get_id&lt; typename, typename &gt;", "structdetray_1_1types_1_1get__id.html", null ],
+    [ "detray::types::get_id&lt; T, mapped_registry&lt; R, S &gt; &gt;", "structdetray_1_1types_1_1get__id_3_01_t_00_01mapped__registry_3_01_r_00_01_s_01_4_01_4.html", null ],
+    [ "detray::types::get_id&lt; T, registry&lt; ID, Ts... &gt; &gt;", "structdetray_1_1types_1_1get__id_3_01_t_00_01registry_3_01_i_d_00_01_ts_8_8_8_01_4_01_4.html", null ],
+    [ "detray::types::get_size&lt; typename &gt;", "structdetray_1_1types_1_1get__size.html", null ],
+    [ "detray::types::get_type&lt; I, typename &gt;", "structdetray_1_1types_1_1get__type.html", null ],
+    [ "detray::types::get_type&lt; I, mapped_registry&lt; R, S &gt; &gt;", "structdetray_1_1types_1_1get__type_3_01_i_00_01mapped__registry_3_01_r_00_01_s_01_4_01_4.html", null ],
+    [ "detray::types::get_type&lt; I, registry&lt; ID, Ts... &gt; &gt;", "structdetray_1_1types_1_1get__type_3_01_i_00_01registry_3_01_i_d_00_01_ts_8_8_8_01_4_01_4.html", null ],
+    [ "detray::types::list&lt; Ts &gt;", "structdetray_1_1types_1_1list.html", null ],
+    [ "detray::types::print&lt; typename &gt;", "structdetray_1_1types_1_1print.html", null ],
+    [ "detray::types::print&lt; list&lt; Ts... &gt; &gt;", "structdetray_1_1types_1_1print_3_01list_3_01_ts_8_8_8_01_4_01_4.html", null ],
+    [ "detray::types::registry&lt; ID, registered_types &gt;", "classdetray_1_1types_1_1registry.html", null ],
+    [ "detray::unbounded&lt; shape_t &gt;", "classdetray_1_1unbounded.html", null ],
+    [ "detray::unconstrained_step&lt; scalar_t &gt;", "structdetray_1_1unconstrained__step.html", null ],
+    [ "detray::uniform_track_generator_config&lt; scalar_t &gt;", "structdetray_1_1uniform__track__generator__config.html", null ],
+    [ "detray::unit&lt; scalar_t &gt;", "structdetray_1_1unit.html", null ],
+    [ "detray::unit_vectors&lt; vector3_t &gt;", "structdetray_1_1unit__vectors.html", null ],
+    [ "detray::unmasked&lt; DIM &gt;", "classdetray_1_1unmasked.html", null ],
+    [ "detray::utils::detail::accelerator_printer", "structdetray_1_1utils_1_1detail_1_1accelerator__printer.html", null ],
+    [ "detray::utils::detail::material_printer", "structdetray_1_1utils_1_1detail_1_1material__printer.html", null ],
+    [ "detray::utils::string_view_concat2", "structdetray_1_1utils_1_1string__view__concat2.html", null ],
+    [ "detray::vc_aos&lt; V &gt;", "structdetray_1_1vc__aos.html", null ],
+    [ "detray::vc_soa&lt; V &gt;", "structdetray_1_1vc__soa.html", null ],
+    [ "detray::void_actor&lt; node_t &gt;", "structdetray_1_1void__actor.html", null ],
+    [ "detray::void_node_inspector&lt; node_t &gt;", "structdetray_1_1void__node__inspector.html", null ],
+    [ "detray::volume_builder_interface&lt; detector_t &gt;", "classdetray_1_1volume__builder__interface.html", [
+      [ "detray::volume_builder< detector_t >", "classdetray_1_1volume__builder.html", null ],
+      [ "detray::volume_decorator< detector_t >", "classdetray_1_1volume__decorator.html", [
+        [ "detray::grid_builder< detector_t, typename grid_factory_t< bin_t, serializer_t, typename detector_t::algebra_type >::template grid_type< axes< grid_shape_t, e_bounds, binning_ts... > >, grid_factory_t< bin_t, serializer_t, typename detector_t::algebra_type > >", "classdetray_1_1grid__builder.html", null ],
+        [ "detray::grid_builder< detector_t, grid_t, bin_filler_t, grid_factory_t >", "classdetray_1_1grid__builder.html", null ],
+        [ "detray::homogeneous_material_builder< detector_t >", "classdetray_1_1homogeneous__material__builder.html", null ],
+        [ "detray::homogeneous_volume_material_builder< detector_t >", "classdetray_1_1homogeneous__volume__material__builder.html", null ],
+        [ "detray::material_map_builder< detector_t, DIM, mat_map_factory_t >", "classdetray_1_1material__map__builder.html", null ]
+      ] ]
+    ] ],
+    [ "detray::volume_builder_options", "structdetray_1_1volume__builder__options.html", null ],
+    [ "detray::volume_descriptor&lt; ID, acc_link_t, mat_link_t &gt;", "classdetray_1_1volume__descriptor.html", null ],
+    [ "detray::volume_graph&lt; detector_t, node_inspector, vector_t &gt;", "classdetray_1_1volume__graph.html", null ],
+    [ "detray::volume_graph&lt; detector_t, node_inspector, vector_t &gt;::edge_generator::edge", "structdetray_1_1volume__graph_1_1edge__generator_1_1edge.html", null ],
+    [ "detray::volume_graph&lt; detector_t, node_inspector, vector_t &gt;::edge_generator::edges_builder", "structdetray_1_1volume__graph_1_1edge__generator_1_1edges__builder.html", null ],
+    [ "detray::volume_graph&lt; detector_t, node_inspector, vector_t &gt;::node_generator::iterator", "structdetray_1_1volume__graph_1_1node__generator_1_1iterator.html", null ],
+    [ "detray::volume_graph&lt; detector_t, node_inspector, vector_t &gt;::node_generator::node", "structdetray_1_1volume__graph_1_1node__generator_1_1node.html", null ],
+    [ "detray::volume_graph&lt; detector_t, node_inspector, vector_t &gt;::node_generator::node_builder", "structdetray_1_1volume__graph_1_1node__generator_1_1node__builder.html", null ],
+    [ "detray::wire_chamber_config&lt; scalar_t, wire_shape_t &gt;", "structdetray_1_1wire__chamber__config.html", null ],
+    [ "detray::wire_chamber_metadata&lt; algebra_t &gt;", "structdetray_1_1wire__chamber__metadata.html", null ],
+    [ "detray::wire_layer_generator_config&lt; scalar_t &gt;", "structdetray_1_1wire__layer__generator__config.html", null ],
+    [ "dmulti_index", null, [
+      [ "detray::axis::multi_bin< dim >", "structdetray_1_1axis_1_1multi__bin.html", null ],
+      [ "detray::axis::multi_bin< DIM, index_t >", "structdetray_1_1axis_1_1multi__bin.html", null ],
+      [ "detray::axis::multi_bin_range< DIM >", "structdetray_1_1axis_1_1multi__bin__range.html", null ]
+    ] ],
+    [ "grid_t", null, [
+      [ "detray::spatial_grid_impl< typename grid_t::template type< is_owning > >", "classdetray_1_1spatial__grid__impl.html", null ],
+      [ "detray::spatial_grid_impl< grid_impl< coordinate_axes< axes_t, algebra_t, ownership, containers >, bin_t, simple_serializer > >", "classdetray_1_1spatial__grid__impl.html", null ],
+      [ "detray::spatial_grid_impl< grid_t >", "classdetray_1_1spatial__grid__impl.html", null ]
+    ] ],
+    [ "intersector_t", null, [
+      [ "detray::intersector_base< intersector_t >", "structdetray_1_1intersector__base.html", null ]
+    ] ],
+    [ "principal_actor_t", null, [
+      [ "detray::composite_actor< parameter_transporter< algebra_t >, transporter_observers..., parameter_setter< algebra_t > >", "classdetray_1_1composite__actor.html", null ]
+    ] ],
+    [ "registry_t", null, [
+      [ "detray::types::mapped_registry< R, S >", "classdetray_1_1types_1_1mapped__registry.html", null ],
+      [ "detray::types::mapped_registry< registry_t, type_selector_t >", "classdetray_1_1types_1_1mapped__registry.html", null ]
     ] ],
     [ "SingleOptions", null, [
       [ "Acts::MultiStepperLoop< single_stepper_t, component_reducer_t >::Options", "struct_acts_1_1_multi_stepper_loop_1_1_options.html", null ]
@@ -1205,15 +1858,41 @@ var hierarchy =
       [ "Acts::SupportsBoundParameters< HelixStepper >", "struct_acts_1_1_supports_bound_parameters_3_01_helix_stepper_01_4.html", null ],
       [ "Acts::SupportsBoundParameters< StraightLineStepper >", "struct_acts_1_1_supports_bound_parameters_3_01_straight_line_stepper_01_4.html", null ],
       [ "Acts::SupportsBoundParameters< SympyStepper >", "struct_acts_1_1_supports_bound_parameters_3_01_sympy_stepper_01_4.html", null ],
+      [ "detray::algebra::detail::is_storage_vector< algebra::storage::vector< N, scalar_t, array_t > >", "structdetray_1_1algebra_1_1detail_1_1is__storage__vector_3_01algebra_1_1storage_1_1vector_3_01_n027cad9010c0ab5572d1cf93e6954355.html", null ],
+      [ "detray::detail::is_permutation< detray::dtuple< Args1... >, detray::dtuple< Args2... > >", "structdetray_1_1detail_1_1is__permutation_3_01detray_1_1dtuple_3_01_args1_8_8_8_01_4_00_01detray38333a8cbf7bb66120bf99d406e36e64.html", null ],
+      [ "detray::detail::is_permutation< detray::dtuple<>, detray::dtuple<> >", "structdetray_1_1detail_1_1is__permutation_3_01detray_1_1dtuple_3_4_00_01detray_1_1dtuple_3_4_01_4.html", null ],
+      [ "detray::types::contains_impl< T, I, type_list_t >", "structdetray_1_1types_1_1contains__impl.html", null ],
+      [ "detray::types::contains_impl< T, I, registry< ID, Ts... >::type_list >", "structdetray_1_1types_1_1contains__impl.html", [
+        [ "detray::types::contains_impl< T, I, registry< ID, Ts... > >", "structdetray_1_1types_1_1contains__impl_3_01_t_00_01_i_00_01registry_3_01_i_d_00_01_ts_8_8_8_01_4_01_4.html", null ]
+      ] ],
+      [ "detray::types::contains_impl< U, I+1u, list< Ts... > >", "structdetray_1_1types_1_1contains__impl.html", [
+        [ "detray::types::contains_impl< U, I, list< T, Ts... > >", "structdetray_1_1types_1_1contains__impl_3_01_u_00_01_i_00_01list_3_01_t_00_01_ts_8_8_8_01_4_01_4.html", null ]
+      ] ],
+      [ "detray::types::contains_impl< T, I, list< T, Ts... > >", "structdetray_1_1types_1_1contains__impl_3_01_t_00_01_i_00_01list_3_01_t_00_01_ts_8_8_8_01_4_01_4.html", null ],
+      [ "detray::types::contains_impl< T, I, list<> >", "structdetray_1_1types_1_1contains__impl_3_01_t_00_01_i_00_01list_3_4_01_4.html", null ],
+      [ "detray::types::contains_impl< T, I, mapped_registry< R, S > >", "structdetray_1_1types_1_1contains__impl_3_01_t_00_01_i_00_01mapped__registry_3_01_r_00_01_s_01_4_01_4.html", null ],
+      [ "detray::types::contains_impl< T, I, registry< ID, Ts... > >", "structdetray_1_1types_1_1contains__impl_3_01_t_00_01_i_00_01registry_3_01_i_d_00_01_ts_8_8_8_01_4_01_4.html", null ],
+      [ "detray::types::contains_impl< U, I, list< T, Ts... > >", "structdetray_1_1types_1_1contains__impl_3_01_u_00_01_i_00_01list_3_01_t_00_01_ts_8_8_8_01_4_01_4.html", null ],
+      [ "detray::types::detail::is_type_list< types::list< Ts... > >", "structdetray_1_1types_1_1detail_1_1is__type__list_3_01types_1_1list_3_01_ts_8_8_8_01_4_01_4.html", null ],
       [ "Acts::IsReadOnlyMultiTrajectory< ActsPlugins::MutablePodioTrackStateContainer< holder_t > >", "struct_acts_1_1_is_read_only_multi_trajectory_3_01_acts_plugins_1_1_mutable_podio_track_state_container_3_01holder__t_01_4_01_4.html", null ],
       [ "Acts::IsReadOnlyMultiTrajectory< VectorMultiTrajectory >", "struct_acts_1_1_is_read_only_multi_trajectory_3_01_vector_multi_trajectory_01_4.html", null ],
       [ "Acts::IsReadOnlyTrackContainer< ActsPlugins::MutablePodioTrackContainer< holder_t > >", "struct_acts_1_1_is_read_only_track_container_3_01_acts_plugins_1_1_mutable_podio_track_container_3_01holder__t_01_4_01_4.html", null ],
       [ "Acts::IsReadOnlyTrackContainer< VectorTrackContainer >", "struct_acts_1_1_is_read_only_track_container_3_01_vector_track_container_01_4.html", null ],
       [ "Acts::SupportsBoundParameters< stepper_t >", "struct_acts_1_1_supports_bound_parameters.html", null ],
-      [ "Acts::missing_specialization< T, decorator_t >", "struct_acts_1_1missing__specialization.html", null ]
+      [ "Acts::missing_specialization< T, decorator_t >", "struct_acts_1_1missing__specialization.html", null ],
+      [ "detray::algebra::detail::is_storage_vector< T >", "structdetray_1_1algebra_1_1detail_1_1is__storage__vector.html", null ],
+      [ "detray::base_actor::is_comp_actor", "structdetray_1_1base__actor_1_1is__comp__actor.html", null ],
+      [ "detray::detail::has_type< T, detray::dtuple<> >", "structdetray_1_1detail_1_1has__type_3_01_t_00_01detray_1_1dtuple_3_4_01_4.html", null ],
+      [ "detray::detail::is_permutation< T1, T2 >", "structdetray_1_1detail_1_1is__permutation.html", null ],
+      [ "detray::types::contains_impl< T, size_t, typename >", "structdetray_1_1types_1_1contains__impl.html", null ],
+      [ "detray::types::contains_impl< T, I, list<> >", "structdetray_1_1types_1_1contains__impl_3_01_t_00_01_i_00_01list_3_4_01_4.html", null ],
+      [ "detray::types::detail::is_type_list< typename >", "structdetray_1_1types_1_1detail_1_1is__type__list.html", null ]
     ] ],
     [ "std::integral_constant", null, [
-      [ "Acts::Types::getSize< TypeList< Ts... > >", "struct_acts_1_1_types_1_1get_size_3_01_type_list_3_01_ts_8_8_8_01_4_01_4.html", null ]
+      [ "Acts::Types::getSize< TypeList< Ts... > >", "struct_acts_1_1_types_1_1get_size_3_01_type_list_3_01_ts_8_8_8_01_4_01_4.html", null ],
+      [ "detray::types::get_size< list< Ts... > >", "structdetray_1_1types_1_1get__size_3_01list_3_01_ts_8_8_8_01_4_01_4.html", null ],
+      [ "detray::types::get_size< mapped_registry< R, S > >", "structdetray_1_1types_1_1get__size_3_01mapped__registry_3_01_r_00_01_s_01_4_01_4.html", null ],
+      [ "detray::types::get_size< registry< ID, Ts... > >", "structdetray_1_1types_1_1get__size_3_01registry_3_01_i_d_00_01_ts_8_8_8_01_4_01_4.html", null ]
     ] ],
     [ "std::true_type", null, [
       [ "Acts::IsReadOnlyMultiTrajectory< ActsPlugins::ConstPodioTrackStateContainer< holder_t > >", "struct_acts_1_1_is_read_only_multi_trajectory_3_01_acts_plugins_1_1_const_podio_track_state_container_3_01holder__t_01_4_01_4.html", null ],
@@ -1224,7 +1903,13 @@ var hierarchy =
       [ "Acts::SupportsBoundParameters< GenericRungeKuttaStepper >", "struct_acts_1_1_supports_bound_parameters_3_01_generic_runge_kutta_stepper_01_4.html", null ],
       [ "Acts::SupportsBoundParameters< HelixStepper >", "struct_acts_1_1_supports_bound_parameters_3_01_helix_stepper_01_4.html", null ],
       [ "Acts::SupportsBoundParameters< StraightLineStepper >", "struct_acts_1_1_supports_bound_parameters_3_01_straight_line_stepper_01_4.html", null ],
-      [ "Acts::SupportsBoundParameters< SympyStepper >", "struct_acts_1_1_supports_bound_parameters_3_01_sympy_stepper_01_4.html", null ]
+      [ "Acts::SupportsBoundParameters< SympyStepper >", "struct_acts_1_1_supports_bound_parameters_3_01_sympy_stepper_01_4.html", null ],
+      [ "detray::algebra::detail::is_storage_vector< algebra::storage::vector< N, scalar_t, array_t > >", "structdetray_1_1algebra_1_1detail_1_1is__storage__vector_3_01algebra_1_1storage_1_1vector_3_01_n027cad9010c0ab5572d1cf93e6954355.html", null ],
+      [ "detray::composite_actor< principal_actor_t, observers >::is_comp_actor", "structdetray_1_1composite__actor_1_1is__comp__actor.html", null ],
+      [ "detray::detail::has_type< T, detray::dtuple< T, Ts... > >", "structdetray_1_1detail_1_1has__type_3_01_t_00_01detray_1_1dtuple_3_01_t_00_01_ts_8_8_8_01_4_01_4.html", null ],
+      [ "detray::detail::is_permutation< detray::dtuple<>, detray::dtuple<> >", "structdetray_1_1detail_1_1is__permutation_3_01detray_1_1dtuple_3_4_00_01detray_1_1dtuple_3_4_01_4.html", null ],
+      [ "detray::types::contains_impl< T, I, list< T, Ts... > >", "structdetray_1_1types_1_1contains__impl_3_01_t_00_01_i_00_01list_3_01_t_00_01_ts_8_8_8_01_4_01_4.html", null ],
+      [ "detray::types::detail::is_type_list< types::list< Ts... > >", "structdetray_1_1types_1_1detail_1_1is__type__list_3_01types_1_1list_3_01_ts_8_8_8_01_4_01_4.html", null ]
     ] ],
     [ "Ts...", null, [
       [ "Acts::overloaded< Ts >", "struct_acts_1_1overloaded.html", null ]

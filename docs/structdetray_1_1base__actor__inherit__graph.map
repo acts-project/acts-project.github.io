@@ -1,0 +1,37 @@
+<map id="detray::base_actor" name="detray::base_actor">
+<area shape="rect" id="Node000001" title="Base class actor implementation." alt="" coords="5,509,148,534"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1actor_1_1momentum__aborter.html" title="Aborter that checks whether the track fell below a minimum momentum." alt="" coords="226,5,414,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,495,92,398,116,265,132,199,150,138,171,89,196,55,224,37,227,42,199,59,176,91,155,140,137,200,121,266,97,399,84,496"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1actor_1_1parameter__setter.html" title="Set the free track parameters in the stepper state, in case observing actors (e.g." alt="" coords="230,69,410,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="75,495,78,420,93,319,108,265,129,212,158,162,196,119,228,99,231,104,199,123,163,165,134,214,113,266,98,320,83,421,80,495"/>
+<area shape="rect" id="Node000004" href="$structdetray_1_1actor_1_1parameter__transporter.html" title="Transport the free track parameters at the destination surface and the covariance at the departure su..." alt="" coords="224,133,416,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="77,495,84,431,103,347,118,303,138,259,164,219,196,183,222,166,225,171,199,187,168,222,143,262,123,305,108,349,89,432,82,495"/>
+<area shape="rect" id="Node000005" href="$structdetray_1_1actor_1_1pathlimit__aborter.html" title="Aborter that checks whether the track has exceeded its pathlimit." alt="" coords="235,197,405,237"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="79,494,90,442,112,375,146,306,169,275,196,247,213,235,233,227,235,231,216,240,199,251,173,278,150,309,117,377,96,443,84,495"/>
+<area shape="rect" id="Node000006" href="$structdetray_1_1actor_1_1pointwise__material__interactor.html" title="Apply energy&#45;loss and multiple&#45;scattering effects at material surfaces." alt="" coords="197,261,443,301"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="83,494,98,454,121,404,154,354,173,331,196,311,215,299,218,304,199,315,177,335,158,357,126,407,103,456,88,496"/>
+<area shape="rect" id="Node000007" href="$structdetray_1_1actor_1_1random__scatterer.html" title="Actor that applies random energy loss and multiple scattering in material." alt="" coords="231,325,409,365"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="90,495,132,434,162,402,196,375,229,359,232,364,199,380,165,406,136,438,94,498"/>
+<area shape="rect" id="Node000008" href="$structdetray_1_1actor_1_1step__tracer.html" title="Collect information at every step." alt="" coords="247,390,393,445"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="110,499,196,455,245,436,247,441,198,460,112,504"/>
+<area shape="rect" id="Node000009" href="$structdetray_1_1actor_1_1surface__sequencer.html" title="Actor that records sensitive or material&#45;bearing surfaces along a propagation." alt="" coords="209,469,431,509"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="161,508,208,501,209,507,162,513"/>
+<area shape="rect" id="Node000010" href="$structdetray_1_1actor_1_1target__aborter.html" title="Aborter checks whether a specific surface was reached." alt="" coords="245,533,395,573"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="162,530,245,541,244,546,161,535"/>
+<area shape="rect" id="Node000011" href="$structdetray_1_1always__init.html" title="Struct that represents the most conservative navigation policy: always re&#45; initialize the current vol..." alt="" coords="247,598,393,623"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="111,539,152,562,198,583,248,597,246,602,196,588,149,567,108,544"/>
+<area shape="rect" id="Node000012" href="$classdetray_1_1composite__actor.html" title="Composition of actors." alt="" coords="204,648,436,688"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="98,543,141,589,169,612,199,632,228,646,226,650,196,637,166,616,138,592,94,547"/>
+<area shape="rect" id="Node000014" href="$structdetray_1_1guided__navigation.html" title="During guided navigation only the next surface should be re&#45;evaluated." alt="" coords="225,713,415,738"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="90,546,106,581,130,623,161,664,199,698,225,711,223,716,196,702,157,667,125,625,101,583,85,548"/>
+<area shape="rect" id="Node000015" href="$structdetray_1_1material__validator_1_1material__tracer.html" title="Actor that collects all material encountered by a track during navigation." alt="" coords="213,763,427,803"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="87,547,101,591,123,645,156,700,176,725,199,747,220,760,217,765,196,751,172,729,151,703,118,647,95,592,82,548"/>
+<area shape="rect" id="Node000016" href="$structdetray_1_1perigee__stopper.html" title="Actor that exits from a navigation stream, if it has reached the perigee." alt="" coords="232,827,408,867"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="83,547,93,603,114,675,129,712,148,749,171,783,199,813,233,832,230,837,196,817,167,786,143,752,124,715,109,676,88,604,78,548"/>
+<area shape="rect" id="Node000017" href="$structdetray_1_1stepper__default__policy.html" title="Default navigation update policy for the steppers: If a constraint has been hit, lower the trustlevel..." alt="" coords="233,891,407,931"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="81,547,87,614,105,703,120,750,140,796,166,839,199,877,215,889,234,897,232,902,213,893,196,881,162,842,136,799,115,752,100,704,82,615,76,548"/>
+<area shape="rect" id="Node000018" href="$structdetray_1_1stepper__rk__policy.html" title="Specific navigation policy for the Runge&#45;Kutta stepper: Use the relative amount of step size correcti..." alt="" coords="245,955,395,995"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="80,548,82,625,87,676,97,731,111,788,133,844,162,896,199,941,221,956,246,965,244,970,218,961,196,945,157,899,128,846,106,790,91,732,82,677,77,625,74,548"/>
+<area shape="rect" id="Node000013" href="$classdetray_1_1composite__actor.html" title=" " alt="" coords="679,626,905,710"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="450,665,679,665,679,671,450,671"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="detray::test::navigation_validation_config&lt; algebra_t &gt;" name="detray::test::navigation_validation_config&lt; algebra_t &gt;">
+<area shape="rect" id="Node000001" title="Configuration for a detector scan test." alt="" coords="5,225,236,265"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1test_1_1configuration.html" title=" " alt="" coords="25,136,216,176"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,190,123,225,118,225,118,190"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1test_1_1configuration.html" title="Test configuration type." alt="" coords="26,5,215,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="123,59,123,136,118,136,118,59"/>
+</map>

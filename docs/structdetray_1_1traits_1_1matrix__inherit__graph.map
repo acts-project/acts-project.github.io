@@ -1,0 +1,7 @@
+<map id="detray::traits::matrix&lt; M &gt;" name="detray::traits::matrix&lt; M &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,107,204,133"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1traits_1_1matrix_3_01_eigen_1_1_block_3_01_eigen_1_1_matrix_3_01_t_00_01_r_o_w_s77ced41dfecd0a6d8f21b9e509d010e8.html" title="Matrix trait for an Eigen block expression." alt="" coords="486,34,703,118"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="218,104,228,103,486,81,486,86,228,108,218,109"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1traits_1_1matrix_3_01_eigen_1_1_matrix_base_3_01derived__t_01_4_01_4.html" title="MatrixMatrix trait for an Eigen matrix expression." alt="" coords="464,143,725,183"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="166,133,228,145,349,156,464,161,464,166,349,162,228,151,165,139"/>
+</map>

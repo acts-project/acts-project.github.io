@@ -1,0 +1,9 @@
+<map id="detray::material_map_config&lt; scalar_t &gt;::map_config" name="detray::material_map_config&lt; scalar_t &gt;::map_config">
+<area shape="rect" id="Node000001" title="How to configure the generation for a specific type of material map." alt="" coords="97,232,259,287"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,101,159,141"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,152,139,206,157,230,153,233,135,210,98,155"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="21,5,143,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="85,45,85,101,79,101,79,45"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="183,109,256,134"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="214,148,189,233,183,231,209,147"/>
+</map>

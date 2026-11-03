@@ -1,0 +1,5 @@
+<map id="detray::propagator&lt; stepper_t, navigator_t, actor_chain_t &gt;::state_base&lt; states_as_reference &gt;" name="detray::propagator&lt; stepper_t, navigator_t, actor_chain_t &gt;::state_base&lt; states_as_reference &gt;">
+<area shape="rect" id="Node000001" title="Propagation that state aggregates a stepping and a navigation state." alt="" coords="5,5,227,75"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1propagator_1_1state__base.html" title=" " alt="" coords="23,145,209,215"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,89,119,145,113,145,113,89"/>
+</map>

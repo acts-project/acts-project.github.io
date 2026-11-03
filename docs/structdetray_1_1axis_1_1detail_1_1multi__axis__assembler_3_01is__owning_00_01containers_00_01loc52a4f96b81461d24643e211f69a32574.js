@@ -1,0 +1,4 @@
+var structdetray_1_1axis_1_1detail_1_1multi__axis__assembler_3_01is__owning_00_01containers_00_01loc52a4f96b81461d24643e211f69a32574 =
+[
+    [ "type", "structdetray_1_1axis_1_1detail_1_1multi__axis__assembler_3_01is__owning_00_01containers_00_01loc52a4f96b81461d24643e211f69a32574.html#a254035cb256310568203138e387f395e", null ]
+];

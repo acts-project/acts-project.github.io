@@ -1,0 +1,9 @@
+<map id="detray::helix_intersector_impl&lt; cylindrical2D&lt; algebra_t &gt;, algebra_t &gt;" name="detray::helix_intersector_impl&lt; cylindrical2D&lt; algebra_t &gt;, algebra_t &gt;">
+<area shape="rect" id="Node000001" title="Intersection implementation for cylinder surfaces using helical trajectories." alt="" coords="864,89,1087,143"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1ray__intersector__impl.html" title=" " alt="" coords="432,33,643,103"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="657,74,840,92,864,95,863,100,840,97,656,79"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1ray__intersector__impl.html" title="Intersection implementation for detector surfaces using a ray trajectory." alt="" coords="5,41,187,95"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="201,65,432,65,432,71,201,71"/>
+<area shape="rect" id="Node000004" href="$structdetray_1_1helix__intersector__impl.html" title="Intersection implementation for detector surfaces using a helix trajectory." alt="" coords="433,127,641,167"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="655,144,746,141,840,135,863,132,864,137,840,140,746,146,655,149"/>
+</map>

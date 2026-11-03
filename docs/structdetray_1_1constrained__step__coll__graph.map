@@ -1,0 +1,9 @@
+<map id="detray::constrained_step&lt; scalar_t &gt;" name="detray::constrained_step&lt; scalar_t &gt;">
+<area shape="rect" id="Node000001" title="Struct that can be configured with a number of different step sizes by other actors and will then res..." alt="" coords="18,323,165,363"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,212,177,252"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,266,94,322,89,322,89,266"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="16,101,167,141"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="94,155,94,212,89,212,89,155"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="30,5,153,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="94,45,94,101,89,101,89,45"/>
+</map>

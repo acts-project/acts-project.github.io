@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,129,64,154"/>
+<area shape="rect" id="Node000001" href="$classdetray_1_1spatial__grid__impl.html" title=" " alt="" coords="137,5,305,75"/>
+<area shape="poly" id="edge459_Node000000_Node000001" title=" " alt="" coords="61,118,111,84,136,71,138,76,113,89,64,122"/>
+<area shape="rect" id="Node000002" href="$classdetray_1_1spatial__grid__impl.html" title=" " alt="" coords="112,99,331,183"/>
+<area shape="poly" id="edge460_Node000000_Node000002" title=" " alt="" coords="78,139,112,139,112,144,78,144"/>
+<area shape="rect" id="Node000003" href="$classdetray_1_1spatial__grid__impl.html" title="An N&#45;dimensional spatial grid for geometry object searches." alt="" coords="148,208,295,248"/>
+<area shape="poly" id="edge461_Node000000_Node000003" title=" " alt="" coords="64,161,113,192,149,207,147,212,111,197,61,165"/>
+</map>

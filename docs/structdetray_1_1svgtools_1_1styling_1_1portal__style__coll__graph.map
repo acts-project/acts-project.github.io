@@ -1,0 +1,25 @@
+<map id="detray::svgtools::styling::portal_style" name="detray::svgtools::styling::portal_style">
+<area shape="rect" id="Node000001" title="Style applied to an actsvg proto portal." alt="" coords="1423,155,1601,195"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1svgtools_1_1styling_1_1surface__style.html" title="Style applied to an actsvg proto surface." alt="" coords="1093,117,1272,157"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1286,146,1422,162,1422,167,1285,152"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="567,14,713,39"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="727,39,887,69,1070,107,1104,115,1103,120,1069,112,886,74,726,44"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="9,31,131,57"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="145,39,566,26,566,32,145,44"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="362,53,505,93"/>
+<area shape="poly" id="edge8_Node000008_Node000004" title=" " alt="" coords="123,58,159,65,265,74,362,74,362,79,265,79,158,71,122,63"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="547,239,733,265"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="719,234,935,189,1093,155,1094,160,937,195,720,239"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="5,218,135,243"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="132,244,159,248,262,256,366,259,546,255,546,260,366,264,262,262,158,253,131,249"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="359,181,508,221"/>
+<area shape="poly" id="edge10_Node000009_Node000006" title=" " alt="" coords="148,222,358,205,359,210,149,227"/>
+<area shape="rect" id="Node000007" href="$structdetray_1_1svgtools_1_1styling_1_1surface__material__style.html" title="Style applied to an actsvg proto surface_material." alt="" coords="757,117,936,157"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="950,135,1093,135,1093,140,950,140"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="519,78,622,90,734,107,771,115,770,120,733,112,621,95,518,83"/>
+<area shape="poly" id="edge9_Node000007_Node000009" title=" " alt="" coords="521,191,623,180,733,163,770,155,771,160,734,168,624,185,522,196"/>
+<area shape="rect" id="Node000010" href="$structdetray_1_1svgtools_1_1styling_1_1grid__style.html" title="Style applied to an actsvg proto grid." alt="" coords="344,117,523,157"/>
+<area shape="poly" id="edge11_Node000007_Node000010" title=" " alt="" coords="536,135,757,135,757,140,536,140"/>
+<area shape="rect" id="Node000011" href="$structdetray_1_1svgtools_1_1styling_1_1link__style.html" title="Style applied to an actsvg proto portal link." alt="" coords="1093,181,1272,221"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="1286,199,1398,192,1422,189,1423,194,1399,197,1286,204"/>
+</map>

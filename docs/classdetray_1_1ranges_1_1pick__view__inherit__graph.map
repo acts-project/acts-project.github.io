@@ -1,0 +1,14 @@
+<map id="detray::ranges::pick_view&lt; range_itr_t, sequence_itr_t &gt;" name="detray::ranges::pick_view&lt; range_itr_t, sequence_itr_t &gt;">
+<area shape="rect" id="Node000001" title="Range adaptor that indexes the elements of a range using another index range." alt="" coords="900,61,1115,115"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="1363,53,1625,123"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="1128,85,1363,85,1363,91,1128,91"/>
+<area shape="rect" id="Node000002" href="$classdetray_1_1ranges_1_1view__interface.html" title=" " alt="" coords="673,53,851,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="865,85,900,85,900,91,865,91"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1ranges_1_1base__view.html" title="Definition of &#39;view&#39;." alt="" coords="5,73,197,98"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="211,76,415,68,532,68,649,72,673,74,673,79,649,77,532,73,415,73,211,81"/>
+<area shape="rect" id="Node000004" href="$classdetray_1_1ranges_1_1view__interface.html" title="Defines a detray &#39;view&#39;." alt="" coords="247,96,443,136"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="211,96,247,101,246,106,210,102"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="456,121,551,122,649,115,673,111,673,116,650,120,551,127,456,126"/>
+<area shape="rect" id="Node000006" href="$structdetray_1_1ranges_1_1views_1_1pick.html" title="Range adaptor that selects indexed elements from an input range." alt="" coords="1675,61,1836,115"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="1639,85,1674,85,1674,91,1639,91"/>
+</map>

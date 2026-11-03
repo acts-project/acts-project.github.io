@@ -1,0 +1,25 @@
+<map id="detray::ray_intersector_impl&lt; frame_t, algebra_t, resolve_pos &gt;" name="detray::ray_intersector_impl&lt; frame_t, algebra_t, resolve_pos &gt;">
+<area shape="rect" id="Node000001" title="Intersection implementation for detector surfaces using a ray trajectory." alt="" coords="5,324,187,379"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1intersector__base.html" title=" " alt="" coords="456,13,663,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,310,114,262,135,207,166,153,186,128,209,108,237,90,267,76,331,58,396,50,456,49,456,54,396,55,332,63,269,81,240,95,212,112,190,132,170,156,139,209,119,264,107,311"/>
+<area shape="rect" id="Node000004" href="$structdetray_1_1ray__intersector__impl.html" title=" " alt="" coords="454,135,665,205"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="123,312,161,270,184,251,209,234,269,208,333,190,396,178,454,171,454,177,396,183,334,195,271,213,212,239,187,255,164,274,127,315"/>
+<area shape="rect" id="Node000007" href="$structdetray_1_1ray__intersector__impl_3_01cartesian2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html" title="A functor to find intersections between straight line and planar surface." alt="" coords="450,229,669,284"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="199,328,449,276,450,282,200,333"/>
+<area shape="rect" id="Node000008" href="$structdetray_1_1ray__intersector__impl_3_01polar2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html" title=" " alt="" coords="853,229,1071,284"/>
+<area shape="poly" id="edge12_Node000001_Node000008" title=" " alt="" coords="200,354,418,355,544,349,670,335,782,312,882,282,884,287,783,317,671,341,545,354,418,361,200,359"/>
+<area shape="rect" id="Node000009" href="$structdetray_1_1ray__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01a3ac95ffd4d9d627a47290193328a8b11.html" title="A functor to find intersections between a straight line and a cylindrical portal surface." alt="" coords="448,399,671,469"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="137,386,172,411,212,430,271,444,332,451,392,451,448,448,448,453,392,456,332,456,270,449,210,435,169,416,134,390"/>
+<area shape="rect" id="Node000010" href="$structdetray_1_1ray__intersector__impl_3_01cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html" title="A functor to find intersections between a ray and a 2D cylinder mask." alt="" coords="472,493,647,562"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="117,390,133,419,155,450,181,478,212,501,243,515,276,526,344,538,411,541,472,538,472,543,411,547,343,544,274,531,241,520,209,506,177,482,151,453,129,422,113,392"/>
+<area shape="rect" id="Node000011" href="$structdetray_1_1ray__intersector__impl_3_01line2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html" title="A functor to find intersections between trajectory and line mask." alt="" coords="450,587,669,641"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="106,391,118,439,138,494,169,547,189,570,212,589,239,605,268,616,329,630,391,634,450,631,450,636,391,640,328,636,266,621,237,609,209,594,185,574,165,550,133,496,113,441,101,392"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1intersector__base.html" title=" " alt="" coords="859,5,1065,119"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="677,59,858,59,858,65,677,65"/>
+<area shape="rect" id="Node000005" href="$structdetray_1_1helix__intersector__impl_3_01cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html" title="Intersection implementation for cylinder surfaces using helical trajectories." alt="" coords="851,143,1073,197"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="678,167,850,167,850,173,678,173"/>
+<area shape="rect" id="Node000006" href="$structdetray_1_1helix__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html" title="Helix intersector for a concentric cylindrical coordinate frame." alt="" coords="1123,143,1345,197"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="1087,167,1123,167,1123,173,1087,173"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="682,262,852,262,852,267,682,268"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="682,246,852,246,852,251,682,251"/>
+</map>

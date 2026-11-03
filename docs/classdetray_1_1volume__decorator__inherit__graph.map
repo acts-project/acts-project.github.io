@@ -1,0 +1,16 @@
+<map id="detray::volume_decorator&lt; detector_t &gt;" name="detray::volume_decorator&lt; detector_t &gt;">
+<area shape="rect" id="Node000001" title="Decorator for the volume builder." alt="" coords="237,189,427,229"/>
+<area shape="rect" id="Node000003" href="$classdetray_1_1grid__builder.html" title=" " alt="" coords="997,26,1244,183"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="362,177,413,134,475,94,543,62,599,43,657,31,732,19,800,9,854,3,907,6,974,19,998,27,996,32,973,25,906,11,854,9,800,14,732,25,658,36,600,48,545,67,477,99,416,139,366,181"/>
+<area shape="rect" id="Node000004" href="$classdetray_1_1grid__builder.html" title="Build a grid of a certain shape." alt="" coords="489,109,695,164"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="417,182,492,161,494,167,419,188"/>
+<area shape="rect" id="Node000005" href="$classdetray_1_1homogeneous__material__builder.html" title="Build a volume containing surfaces with material." alt="" coords="476,189,708,229"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="440,206,476,206,476,211,440,211"/>
+<area shape="rect" id="Node000006" href="$classdetray_1_1homogeneous__volume__material__builder.html" title="Build a volume with homogeneous volume material." alt="" coords="496,253,688,308"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="419,230,497,252,495,257,417,235"/>
+<area shape="rect" id="Node000007" href="$classdetray_1_1material__map__builder.html" title="Build the material maps for a given volume." alt="" coords="491,332,693,387"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="366,236,417,278,477,318,501,330,499,334,475,323,413,283,363,240"/>
+<area shape="rect" id="Node000002" href="$classdetray_1_1volume__builder__interface.html" title="Interface for volume builders (and volume builder decorators)." alt="" coords="5,189,188,229"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,206,237,206,237,211,202,211"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="700,168,710,175,722,190,726,197,733,202,797,225,824,230,851,231,906,222,972,202,1019,181,1022,186,974,207,907,227,851,236,824,235,796,231,731,207,722,201,717,193,706,179,697,173"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="detray::io::grid_bin_payload&lt; content_t &gt;" name="detray::io::grid_bin_payload&lt; content_t &gt;">
+<area shape="rect" id="Node000001" title="A payload for a single grid bin." alt="" coords="102,212,274,252"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,101,171,141"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,150,172,210,168,214,113,153"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="123,5,253,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="151,39,129,57,111,79,98,102,94,100,107,76,125,53,148,35"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="195,109,381,134"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="225,36,247,53,270,81,285,107,280,110,265,84,243,57,222,40"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="270,146,207,214,203,210,266,142"/>
+</map>

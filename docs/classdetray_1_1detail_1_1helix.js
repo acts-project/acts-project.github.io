@@ -1,0 +1,26 @@
+var classdetray_1_1detail_1_1helix =
+[
+    [ "algebra_type", "classdetray_1_1detail_1_1helix.html#aac4377c871dd5cc795000621eede5aba", null ],
+    [ "free_matrix_t", "classdetray_1_1detail_1_1helix.html#a3d4d64ee5ee7a08bc01c423cd0fb621b", null ],
+    [ "free_track_parameters_type", "classdetray_1_1detail_1_1helix.html#ab897adcf3c7f05524840f0f504f25c95", null ],
+    [ "matrix_type", "classdetray_1_1detail_1_1helix.html#a5df15222b414f4fa23cad694077a8064", null ],
+    [ "point3_type", "classdetray_1_1detail_1_1helix.html#a70e0941fdf777cb1cc702d043813b2af", null ],
+    [ "scalar_type", "classdetray_1_1detail_1_1helix.html#ad5181b889f1094f27dbff766656fcaec", null ],
+    [ "transform3_type", "classdetray_1_1detail_1_1helix.html#ac790234ebe6465868d0693a4415bd453", null ],
+    [ "vector3_type", "classdetray_1_1detail_1_1helix.html#a4d04131e1b472923d0d1b6ec5bc52919", null ],
+    [ "helix", "classdetray_1_1detail_1_1helix.html#ab751ea73568dc715188d546db00bde0c", null ],
+    [ "helix", "classdetray_1_1detail_1_1helix.html#ae9434a54e7716748c723da768ea28caf", null ],
+    [ "helix", "classdetray_1_1detail_1_1helix.html#a652ba8b0255b89cf740a0b1d8117c544", null ],
+    [ "B", "classdetray_1_1detail_1_1helix.html#ac747cf5b2e58412f212eff051e5968c0", null ],
+    [ "b_field", "classdetray_1_1detail_1_1helix.html#a11dc19d0f3b8990d84e5576642fd0f02", null ],
+    [ "dir", "classdetray_1_1detail_1_1helix.html#a4adfd4caa4993dd9d6f9a587314f4674", null ],
+    [ "dir", "classdetray_1_1detail_1_1helix.html#aae8ce2259fc91c19ca65ea39c2ed123b", null ],
+    [ "jacobian", "classdetray_1_1detail_1_1helix.html#a70ae30c38041abe12c2ace91a5beff8e", null ],
+    [ "operator()", "classdetray_1_1detail_1_1helix.html#a4cab59fd177e1c2ece160819b2f174fd", null ],
+    [ "pos", "classdetray_1_1detail_1_1helix.html#acaac3974c9e3168e89160e8df365f346", null ],
+    [ "pos", "classdetray_1_1detail_1_1helix.html#ad6b463296fd24d8f49ff1c6ff12e6059", null ],
+    [ "qop", "classdetray_1_1detail_1_1helix.html#abd4abba4bd721251d01ad6352c6f33c9", null ],
+    [ "radius", "classdetray_1_1detail_1_1helix.html#a80bf51970f5e2556a0bf44c6f79644ad", null ],
+    [ "time", "classdetray_1_1detail_1_1helix.html#a01e7504c16cfb8f49b1c038ceca8a907", null ],
+    [ "operator<<", "classdetray_1_1detail_1_1helix.html#ab787c01358c3f1e1d764a2692f8d3dff", null ]
+];

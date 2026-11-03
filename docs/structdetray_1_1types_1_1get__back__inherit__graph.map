@@ -1,0 +1,7 @@
+<map id="detray::types::get_back&lt; typename &gt;" name="detray::types::get_back&lt; typename &gt;">
+<area shape="rect" id="Node000001" title="Access the last type." alt="" coords="109,5,265,45"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1types_1_1get__back_3_01list_3_01_t_00_01_ts_8_8_8_01_4_01_4.html" title="Specialization returning the last type of a nonempty list." alt="" coords="5,116,187,156"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="139,55,122,71,109,94,102,117,97,115,104,91,118,68,135,51"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1types_1_1get__back_3_01list_3_4_01_4.html" title="Empty lists have no last type, represented here by void." alt="" coords="211,116,347,156"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="234,51,251,68,266,91,276,115,271,117,262,94,247,71,231,55"/>
+</map>

@@ -1,0 +1,20 @@
+<map id="detray::intersection_point&lt; algebra_t, point_t, has_pos &gt;" name="detray::intersection_point&lt; algebra_t, point_t, has_pos &gt;">
+<area shape="rect" id="Node000001" title="Result of intersector: Point of intersection on a surface." alt="" coords="5,342,184,397"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1intersection__point.html" title=" " alt="" coords="481,55,687,124"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,328,110,278,130,219,161,163,182,138,206,116,238,98,272,84,343,68,415,64,481,68,481,74,415,69,344,73,273,89,240,103,210,121,186,141,165,166,135,222,115,279,104,329"/>
+<area shape="rect" id="Node000004" href="$structdetray_1_1intersection__point.html" title=" " alt="" coords="459,155,709,210"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="110,328,127,298,148,266,175,236,207,212,251,197,314,188,458,180,459,185,315,193,252,203,209,217,178,240,152,270,131,301,115,331"/>
+<area shape="rect" id="Node000005" href="$structdetray_1_1intersection__point.html" title=" " alt="" coords="459,249,709,303"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="145,332,175,316,207,303,253,293,316,286,458,277,459,283,316,292,254,299,209,308,177,321,147,337"/>
+<area shape="rect" id="Node000006" href="$structdetray_1_1intersection__point.html" title=" " alt="" coords="459,342,709,397"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="197,367,459,367,459,372,197,372"/>
+<area shape="rect" id="Node000007" href="$structdetray_1_1intersection__point.html" title=" " alt="" coords="469,424,699,493"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="144,402,175,421,209,435,274,451,342,460,408,464,469,464,469,469,408,469,341,465,273,456,207,440,173,425,141,407"/>
+<area shape="rect" id="Node000008" href="$structdetray_1_1intersection__point_3_01algebra__t_00_01point__t_00_01_9intersection_1_1contains__pos_01_4.html" title="Result of intersector: Only contains the distance (production)." alt="" coords="468,518,700,573"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="117,407,154,464,180,491,209,512,272,538,339,552,405,557,468,557,468,562,405,563,338,557,270,543,207,517,176,495,150,468,112,410"/>
+<area shape="rect" id="Node000009" href="$structdetray_1_1intersection__point_3_01algebra__t_00_01point__t_00_01intersection_1_1contains__pos_01_4.html" title="Result of intersector: Distance and intersection point (debug)." alt="" coords="759,581,985,635"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="111,409,125,447,146,489,174,530,210,565,273,603,342,629,415,646,490,654,563,655,634,651,758,633,759,638,635,656,564,660,489,659,414,651,341,635,271,608,206,569,170,534,142,492,120,449,106,411"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1intersection__point__err.html" title="Result of intersector: Distance, intersection point (2D or 3D, local/global) and error estimate on di..." alt="" coords="783,69,961,109"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="700,87,782,87,782,92,700,92"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="714,571,759,581,758,586,713,576"/>
+</map>

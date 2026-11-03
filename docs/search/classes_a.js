@@ -8,5 +8,6 @@ var searchData=
   ['kdtree_5',['KDTree',['../class_acts_1_1_k_d_tree.html',1,'Acts']]],
   ['kdtree_3c_20kdims_2c_20std_3a_3asize_5ft_2c_20scalar_5ft_2c_20std_3a_3aarray_2c_20kleafsize_20_3e_6',['KDTree&lt; kDims, std::size_t, scalar_t, std::array, kLeafSize &gt;',['../class_acts_1_1_k_d_tree.html',1,'Acts']]],
   ['kdtree_3c_20ndims_2c_20spacepointindex_2c_20float_2c_20std_3a_3aarray_2c_204_20_3e_7',['KDTree&lt; NDims, SpacePointIndex, float, std::array, 4 &gt;',['../class_acts_1_1_k_d_tree.html',1,'Acts']]],
-  ['keyedsurfacematerial_8',['KeyedSurfaceMaterial',['../struct_acts_1_1_keyed_surface_material.html',1,'Acts']]]
+  ['kernel_8',['kernel',['../structdetray_1_1actor_1_1pointwise__material__interactor_1_1kernel.html',1,'detray::actor::pointwise_material_interactor&lt; algebra_t &gt;::kernel'],['../structdetray_1_1actor_1_1random__scatterer_1_1kernel.html',1,'detray::actor::random_scatterer&lt; algebra_t &gt;::kernel']]],
+  ['keyedsurfacematerial_9',['KeyedSurfaceMaterial',['../struct_acts_1_1_keyed_surface_material.html',1,'Acts']]]
 ];

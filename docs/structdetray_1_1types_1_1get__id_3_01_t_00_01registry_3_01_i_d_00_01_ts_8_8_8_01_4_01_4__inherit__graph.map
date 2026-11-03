@@ -1,0 +1,5 @@
+<map id="detray::types::get_id&lt; T, registry&lt; ID, Ts... &gt; &gt;" name="detray::types::get_id&lt; T, registry&lt; ID, Ts... &gt; &gt;">
+<area shape="rect" id="Node000001" title="Resolve a registered type to its identifier in the original registry." alt="" coords="33,136,188,191"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1types_1_1get__id.html" title="Traits for the type registry." alt="" coords="5,5,216,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,59,113,136,108,136,108,59"/>
+</map>

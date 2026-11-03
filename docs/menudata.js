@@ -49,7 +49,8 @@ var menudata={children:[
 {text:"Class Hierarchy",url:"inherits.html"},
 {text:"Class Members",url:"functions.html",children:[
 {text:"All",url:"functions.html",children:[
-{text:"a",url:"functions.html#index_a"},
+{text:"_",url:"functions.html#index__5F"},
+{text:"a",url:"functions_a.html#index_a"},
 {text:"b",url:"functions_b.html#index_b"},
 {text:"c",url:"functions_c.html#index_c"},
 {text:"d",url:"functions_d.html#index_d"},
@@ -105,7 +106,8 @@ var menudata={children:[
 {text:"z",url:"functions_func_z.html#index_z"},
 {text:"~",url:"functions_func_~.html#index__7E"}]},
 {text:"Variables",url:"functions_vars.html",children:[
-{text:"a",url:"functions_vars.html#index_a"},
+{text:"_",url:"functions_vars.html#index__5F"},
+{text:"a",url:"functions_vars_a.html#index_a"},
 {text:"b",url:"functions_vars_b.html#index_b"},
 {text:"c",url:"functions_vars_c.html#index_c"},
 {text:"d",url:"functions_vars_d.html#index_d"},
@@ -147,6 +149,7 @@ var menudata={children:[
 {text:"n",url:"functions_type_n.html#index_n"},
 {text:"o",url:"functions_type_o.html#index_o"},
 {text:"p",url:"functions_type_p.html#index_p"},
+{text:"q",url:"functions_type_q.html#index_q"},
 {text:"r",url:"functions_type_r.html#index_r"},
 {text:"s",url:"functions_type_s.html#index_s"},
 {text:"t",url:"functions_type_t.html#index_t"},
@@ -165,11 +168,13 @@ var menudata={children:[
 {text:"f",url:"functions_enum.html#index_f"},
 {text:"g",url:"functions_enum.html#index_g"},
 {text:"l",url:"functions_enum.html#index_l"},
+{text:"m",url:"functions_enum.html#index_m"},
 {text:"s",url:"functions_enum.html#index_s"},
 {text:"t",url:"functions_enum.html#index_t"}]},
 {text:"Enumerator",url:"functions_eval.html"},
 {text:"Related Symbols",url:"functions_rela.html",children:[
-{text:"o",url:"functions_rela.html#index_o"}]}]}]},
+{text:"o",url:"functions_rela.html#index_o"},
+{text:"s",url:"functions_rela.html#index_s"}]}]}]},
 {text:"Bibliography",url:"citelist.html"},
 {text:"Deprecated",url:"deprecated.html"},
 {text:"Todos",url:"todo.html"},
