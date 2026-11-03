@@ -1,5 +1,9 @@
 var NAVTREEINDEX56 =
 {
+"struct_acts_1_1_experimental_1_1_bound_parameter_variation_generator.html#ac56d4962961ba0ff82c5836da6f820de":[6,0,0,1,5,0],
+"struct_acts_1_1_experimental_1_1_bound_parameter_variation_generator.html#ac56d4962961ba0ff82c5836da6f820de":[8,0,0,2,5,0],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html":[6,0,0,1,6,0],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html":[8,0,0,2,6,0],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#a10b4cdbe7619c009385b40a08bcff09c":[6,0,0,1,6,0,8],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#a10b4cdbe7619c009385b40a08bcff09c":[8,0,0,2,6,0,8],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#a27cd2c5dc3bfd2c12051cf544b3f9ebb":[6,0,0,1,6,0,7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX56 =
 "struct_acts_1_1_experimental_1_1_gbts_adaptive_tau_ratio_cuts.html#a6f41dbad20c6a436667e2831ec932757":[6,0,0,1,18,0],
 "struct_acts_1_1_experimental_1_1_gbts_adaptive_tau_ratio_cuts.html#a6f41dbad20c6a436667e2831ec932757":[8,0,0,2,18,0],
 "struct_acts_1_1_experimental_1_1_gbts_adaptive_tau_ratio_cuts.html#aad97bce18b7508734d91dfb4b1c3a60c":[6,0,0,1,18,1],
-"struct_acts_1_1_experimental_1_1_gbts_adaptive_tau_ratio_cuts.html#aad97bce18b7508734d91dfb4b1c3a60c":[8,0,0,2,18,1],
-"struct_acts_1_1_experimental_1_1_gbts_bin_group.html":[6,0,0,1,19],
-"struct_acts_1_1_experimental_1_1_gbts_bin_group.html":[8,0,0,2,19],
-"struct_acts_1_1_experimental_1_1_gbts_bin_group.html#a1b700c7e7ed7f076765f8539231683db":[6,0,0,1,19,0],
-"struct_acts_1_1_experimental_1_1_gbts_bin_group.html#a1b700c7e7ed7f076765f8539231683db":[8,0,0,2,19,0]
+"struct_acts_1_1_experimental_1_1_gbts_adaptive_tau_ratio_cuts.html#aad97bce18b7508734d91dfb4b1c3a60c":[8,0,0,2,18,1]
 };

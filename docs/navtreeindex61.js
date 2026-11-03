@@ -1,5 +1,9 @@
 var NAVTREEINDEX61 =
 {
+"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html":[6,0,0,4,0,0,0],
+"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html":[8,0,0,5,0,0,0],
+"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html#a6c50fe79e81432b33e813d51cf8cdc37":[6,0,0,4,0,0,0,4],
+"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html#a6c50fe79e81432b33e813d51cf8cdc37":[8,0,0,5,0,0,0,4],
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html#a7a4dca19f765228d95775dfa8d86c0e3":[6,0,0,4,0,0,0,2],
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html#a7a4dca19f765228d95775dfa8d86c0e3":[8,0,0,5,0,0,0,2],
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html#a7b2393ae2637145360eed79f6d665b4c":[6,0,0,4,0,0,0,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX61 =
 "struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a7e6de8c4969a9b5aee14f1b4b7103b9e":[8,0,0,233,0,10],
 "struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a80925f03f196d157552f1765a3ce68c7":[6,0,0,228,0,6],
 "struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a80925f03f196d157552f1765a3ce68c7":[8,0,0,233,0,6],
-"struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a946bd64d6941cae262e1222c204f6d18":[6,0,0,228,0,12],
-"struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a946bd64d6941cae262e1222c204f6d18":[8,0,0,233,0,12],
-"struct_acts_1_1_iterative_vertex_finder_1_1_config.html#ab2012491f1df624a18d2877cf0b7024d":[6,0,0,228,0,9],
-"struct_acts_1_1_iterative_vertex_finder_1_1_config.html#ab2012491f1df624a18d2877cf0b7024d":[8,0,0,233,0,9],
-"struct_acts_1_1_iterative_vertex_finder_1_1_config.html#ac5a0bdaaa79fb7330d869fc1cb6223b1":[6,0,0,228,0,13]
+"struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a946bd64d6941cae262e1222c204f6d18":[6,0,0,228,0,12]
 };

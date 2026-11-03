@@ -483,7 +483,7 @@ var searchData=
   ['storeid_480',['storeId',['../class_acts_1_1_tracking_geometry_material_json_converter_1_1_encode_context.html#ad83948e23092ad5774d5e6da323fcf9b',1,'Acts::TrackingGeometryMaterialJsonConverter::EncodeContext']]],
   ['straightlinestepper_481',['StraightLineStepper',['../class_acts_1_1_straight_line_stepper.html',1,'Acts']]],
   ['straw_482',['straw',['../struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_do_fcounts.html#adbca8abd75f035cb0c981cc6f7e96ad8',1,'Acts::Experimental::CompositeSpacePointLineFitter::DoFcounts']]],
-  ['strawsurface_483',['StrawSurface',['../class_acts_1_1_straw_surface.html',1,'Acts']]],
+  ['strawsurface_483',['StrawSurface',['../class_acts_1_1_straw_surface.html',1,'Acts::StrawSurface'],['../class_acts_1_1_straw_surface.html#a23c89a478dcd7155942629298c331e06',1,'Acts::StrawSurface::StrawSurface()']]],
   ['stream_484',['stream',['../struct_acts_1_1_navigator_1_1_state.html#a5f1d725fcb85b9096151e055063834ca',1,'Acts::Navigator::State::stream'],['../struct_acts_plugins_1_1_execution_context.html#a56bc994dcfc774112612e334ecbcf7d5',1,'ActsPlugins::ExecutionContext::stream']]],
   ['streamformatter_485',['StreamFormatter',['../class_acts_1_1_assertion_failure_exception_1_1_stream_formatter.html',1,'Acts::AssertionFailureException']]],
   ['streams_486',['Custom Output Streams',['../group__logging.html#autotoc_md47',1,'']]],

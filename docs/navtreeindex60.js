@@ -1,5 +1,9 @@
 var NAVTREEINDEX60 =
 {
+"struct_acts_1_1_graph_viz_1_1_node.html#a2e03944af334f0dcdf04d6302cf98a22":[8,0,0,3,1,0],
+"struct_acts_1_1_graph_viz_1_1_node.html#a85a86e00f0f01b4bf7875ea47fed8e61":[8,0,0,3,1,3],
+"struct_acts_1_1_graph_viz_1_1_node.html#adde1760cb23115c76cf3ec36ab036cf6":[8,0,0,3,1,1],
+"struct_acts_1_1_greedy_ambiguity_resolution_1_1_config.html":[6,0,0,172,0],
 "struct_acts_1_1_greedy_ambiguity_resolution_1_1_config.html":[8,0,0,177,0],
 "struct_acts_1_1_greedy_ambiguity_resolution_1_1_config.html#a24a329cbfbbc529db9936e829c7a9249":[6,0,0,172,0,0],
 "struct_acts_1_1_greedy_ambiguity_resolution_1_1_config.html#a24a329cbfbbc529db9936e829c7a9249":[8,0,0,177,0,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX60 =
 "struct_acts_1_1_hough_transform_utils_1_1_hough_plane_config.html#a6ea146b39e5081c1b641bcb2327ed9b6":[6,0,0,4,4,0],
 "struct_acts_1_1_hough_transform_utils_1_1_hough_plane_config.html#a6ea146b39e5081c1b641bcb2327ed9b6":[8,0,0,5,4,0],
 "struct_acts_1_1_hough_transform_utils_1_1_hough_plane_config.html#ae5a48fb7a28e8f088f6006e15c6f9237":[6,0,0,4,4,1],
-"struct_acts_1_1_hough_transform_utils_1_1_hough_plane_config.html#ae5a48fb7a28e8f088f6006e15c6f9237":[8,0,0,5,4,1],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html":[6,0,0,4,0,0,0],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html":[8,0,0,5,0,0,0],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html#a6c50fe79e81432b33e813d51cf8cdc37":[6,0,0,4,0,0,0,4],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html#a6c50fe79e81432b33e813d51cf8cdc37":[8,0,0,5,0,0,0,4]
+"struct_acts_1_1_hough_transform_utils_1_1_hough_plane_config.html#ae5a48fb7a28e8f088f6006e15c6f9237":[8,0,0,5,4,1]
 };
