@@ -168,8 +168,16 @@ $(function(){initNavTree('deprecated.html','',''); });
 <dd><a class="anchor" id="_deprecated000033"></a>Surface copy-assignment will be removed; copy via <span class="tt">Surface::makeShared&lt;DiscSurface&gt;(other)</span> instead.  </dd>
 <dt>Member <a class="el" href="struct_acts_1_1_doublet_seed_finder_1_1_config.html#af72da006b9f18fb00b05727dad00f06b">Acts::DoubletSeedFinder::Config::deltaZMin</a>  </dt>
 <dd><a class="anchor" id="_deprecated000028"></a>The deltaZ cut is symmetric about zero, so do not set this. If it is set, it must be -deltaZMax.  </dd>
+<dt>Member <a class="el" href="group__json__plugin.html#ga5f0d646d5e653b566152c0a6b86b88b4">Acts::from_json</a>  (const nlohmann::json &amp;j, Material &amp;t)</dt>
+<dd><a class="anchor" id="_deprecated000099"></a>Legacy material format; use <a class="el" href="class_acts_1_1_tracking_geometry_material_json_converter.html">Acts::TrackingGeometryMaterialJsonConverter</a> instead.  </dd>
+<dt>Member <a class="el" href="group__json__plugin.html#gab858857ba46f68cedf8b8896e1a73e68">Acts::from_json</a>  (const nlohmann::json &amp;j, MaterialSlab &amp;t)</dt>
+<dd><a class="anchor" id="_deprecated000101"></a>Legacy material format; use <a class="el" href="class_acts_1_1_tracking_geometry_material_json_converter.html">Acts::TrackingGeometryMaterialJsonConverter</a> instead.  </dd>
+<dt>Member <a class="el" href="group__json__plugin.html#ga58a6de4073cc0d6ff6bf6e770b2dd639">Acts::from_json</a>  (const nlohmann::json &amp;j, MaterialSlabMatrix &amp;t)</dt>
+<dd><a class="anchor" id="_deprecated000102"></a>Legacy material format; use <a class="el" href="class_acts_1_1_tracking_geometry_material_json_converter.html">Acts::TrackingGeometryMaterialJsonConverter</a> instead.  </dd>
+<dt>Member <a class="el" href="group__json__plugin.html#gad4e3a647d9f5607dcff4abf122189cb1">Acts::from_json</a>  (const nlohmann::json &amp;j, volumeMaterialPointer &amp;material)</dt>
+<dd><a class="anchor" id="_deprecated000104"></a>Legacy material format; use <a class="el" href="class_acts_1_1_tracking_geometry_material_json_converter.html">Acts::TrackingGeometryMaterialJsonConverter</a> instead.  </dd>
 <dt>Member <a class="el" href="group__json__plugin.html#ga5468da799422d3b617d84b3b7731b1cf">Acts::from_json</a>  (const nlohmann::json &amp;j, surfaceMaterialPointer &amp;material)</dt>
-<dd><a class="anchor" id="_deprecated000098"></a>Use SurfaceMaterialJsonConverter::fromJson instead  </dd>
+<dd><a class="anchor" id="_deprecated000106"></a>Legacy material format; use <a class="el" href="class_acts_1_1_tracking_geometry_material_json_converter.html">Acts::TrackingGeometryMaterialJsonConverter</a> instead.  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_grid.html#a1691927623860346e0e385eda2a41850">Acts::Grid&lt; T, Axes &gt;::axesTuple</a>  () const</dt>
 <dd><a class="anchor" id="_deprecated000070"></a>Use grid.multiAxis().getAxesTuple() instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_grid.html#ab13552870775039f9df525308cf9440b">Acts::Grid&lt; T, Axes &gt;::binCenter</a>  (const index_t &amp;localBins) const</dt>
@@ -217,6 +225,8 @@ $(function(){initNavTree('deprecated.html','',''); });
 <dd><a class="anchor" id="_deprecated000072"></a>Use grid.multiAxisAny().getUpperRightBinEdgeAny(indices) instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_i_surface_material_accumulator.html#a52ca3cc4e6cf7482814ea9f8be3c2ba9">Acts::ISurfaceMaterialAccumulator::accumulate</a>  (State &amp;state, const GeometryContext &amp;gctx, const std::vector&lt; MaterialInteraction &gt; &amp;interactions, const std::vector&lt; IAssignmentFinder::SurfaceAssignment &gt; &amp;surfacesWithoutAssignment) const</dt>
 <dd><a class="anchor" id="_deprecated000026"></a>Use and override <a class="el" href="class_acts_1_1_i_surface_material_accumulator.html#a286f33aa3653712006e24b9ec695647f">accumulateTracks</a> instead. </dd>
+<dt>Class <a class="el" href="class_acts_1_1_json_material_decorator.html">Acts::JsonMaterialDecorator</a>  </dt>
+<dd><a class="anchor" id="_deprecated000097"></a>Legacy material format; use <a class="el" href="class_acts_1_1_tracking_geometry_material_json_converter.html">Acts::TrackingGeometryMaterialJsonConverter</a> instead.  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_line_surface.html#af046fc56aad348e6151e8ba3300df414">Acts::LineSurface::operator=</a>  (const LineSurface &amp;other)</dt>
 <dd><a class="anchor" id="_deprecated000034"></a>Surface copy-assignment will be removed; copy via <span class="tt">Surface::makeShared&lt;T&gt;(other)</span> instead.  </dd>
 <dt>Member <a class="el" href="namespace_acts.html#a3f4a84430dbcd87dfa5e28f948af00d8">Acts::make_octree</a>  (std::vector&lt; std::unique_ptr&lt; box_t &gt; &gt; &amp;store, const std::vector&lt; box_t * &gt; &amp;prims, std::size_t maxDepth=1, typename box_t::value_type envelope=0)</dt>
@@ -229,6 +239,8 @@ $(function(){initNavTree('deprecated.html','',''); });
 <dd><a class="anchor" id="_deprecated000014"></a>Use configureFace with deferred AxisSpec axes instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_material_designator_blueprint_node.html#a704598a1a7b73c35bee6cc1a75855e43">Acts::MaterialDesignatorBlueprintNode::configureFace</a>  (CuboidVolumeBounds::Face face, const DirectedProtoAxis &amp;loc0, const DirectedProtoAxis &amp;loc1)</dt>
 <dd><a class="anchor" id="_deprecated000015"></a>Use configureFace with deferred AxisSpec axes instead  </dd>
+<dt>Class <a class="el" href="class_acts_1_1_material_map_json_converter.html">Acts::MaterialMapJsonConverter</a>  </dt>
+<dd><a class="anchor" id="_deprecated000107"></a>Legacy material format; use <a class="el" href="class_acts_1_1_tracking_geometry_material_json_converter.html">Acts::TrackingGeometryMaterialJsonConverter</a> instead.  </dd>
 <dt>Member <a class="el" href="namespace_acts.html#a27d200860531f17827d06e26264b903d">Acts::operator&lt;&lt;</a>  (std::ostream &amp;os, const std::vector&lt; ProtoAxis &gt; &amp;a)</dt>
 <dd><a class="anchor" id="_deprecated000079"></a>Use AxisSpec instead  </dd>
 <dt>Member <a class="el" href="namespace_acts.html#a143a8d24731524bb6cd89f6cd3891442">Acts::operator&lt;&lt;</a>  (std::ostream &amp;os, const std::vector&lt; DirectedProtoAxis &gt; &amp;a)</dt>
@@ -243,9 +255,9 @@ $(function(){initNavTree('deprecated.html','',''); });
 <dt>Class <a class="el" href="class_acts_1_1_proto_axis.html">Acts::ProtoAxis</a>  </dt>
 <dd><a class="anchor" id="_deprecated000075"></a>Use AxisSpec instead  </dd>
 <dt>Member <a class="el" href="group__json__plugin.html#ga7db1175609439b8069b2d0b090773503">Acts::ProtoAxisJsonConverter::fromJson</a>  (const nlohmann::json &amp;j)</dt>
-<dd><a class="anchor" id="_deprecated000100"></a>Use AxisSpecJsonConverter with an AxisSpec instead  </dd>
+<dd><a class="anchor" id="_deprecated000109"></a>Use AxisSpecJsonConverter with an AxisSpec instead  </dd>
 <dt>Member <a class="el" href="group__json__plugin.html#ga038acefb1a69555567e98c97b9830cf9">Acts::ProtoAxisJsonConverter::toJson</a>  (const ProtoAxis &amp;pa)</dt>
-<dd><a class="anchor" id="_deprecated000099"></a>Use AxisSpecJsonConverter with an AxisSpec instead  </dd>
+<dd><a class="anchor" id="_deprecated000108"></a>Use AxisSpecJsonConverter with an AxisSpec instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_straw_surface.html#a0c72436cf1f67539f1fc83d6193c3670">Acts::StrawSurface::operator=</a>  (const StrawSurface &amp;other)</dt>
 <dd><a class="anchor" id="_deprecated000037"></a>Surface copy-assignment will be removed; copy via <span class="tt">Surface::makeShared&lt;StrawSurface&gt;(other)</span> instead.  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_surface.html#af2d39a89fb21242671fd1b9872ec1d6f">Acts::Surface::operator=</a>  (const Surface &amp;other) noexcept=default</dt>
@@ -254,16 +266,24 @@ $(function(){initNavTree('deprecated.html','',''); });
 <dd><a class="anchor" id="_deprecated000039"></a>Use <a class="el" href="class_acts_1_1_surface_array.html#a5df019287939eed716ff6bc9133701d8">neighborWindow</a>; this reports the larger bound.  </dd>
 <dt>Member <a class="el" href="struct_acts_1_1_surface_array_1_1_neighbor_window.html#a593b45fc4ef4208bd61f2adcc88fafaf">Acts::SurfaceArray::NeighborWindow::NeighborWindow</a>  (std::uint8_t maxNeighborDistance)</dt>
 <dd><a class="anchor" id="_deprecated000040"></a>The two axes of a layer grid are not equivalent, give the bounds per axis.  </dd>
+<dt>Class <a class="el" href="class_acts_1_1_surface_material_json_converter.html">Acts::SurfaceMaterialJsonConverter</a>  </dt>
+<dd><a class="anchor" id="_deprecated000110"></a>Legacy material format; use <a class="el" href="class_acts_1_1_tracking_geometry_material_json_converter.html">Acts::TrackingGeometryMaterialJsonConverter</a> instead.  </dd>
+<dt>Member <a class="el" href="group__json__plugin.html#ga1a3142c2ce27ed106170462aeeafbb53">Acts::to_json</a>  (nlohmann::json &amp;j, const Material &amp;t)</dt>
+<dd><a class="anchor" id="_deprecated000098"></a>Legacy material format; use <a class="el" href="class_acts_1_1_tracking_geometry_material_json_converter.html">Acts::TrackingGeometryMaterialJsonConverter</a> instead.  </dd>
+<dt>Member <a class="el" href="group__json__plugin.html#ga98f720573bfa68ab9ec67df6d8db62e6">Acts::to_json</a>  (nlohmann::json &amp;j, const MaterialSlab &amp;t)</dt>
+<dd><a class="anchor" id="_deprecated000100"></a>Legacy material format; use <a class="el" href="class_acts_1_1_tracking_geometry_material_json_converter.html">Acts::TrackingGeometryMaterialJsonConverter</a> instead.  </dd>
+<dt>Member <a class="el" href="group__json__plugin.html#ga8883ce55bef32607470a0518e62d4818">Acts::to_json</a>  (nlohmann::json &amp;j, const volumeMaterialPointer &amp;material)</dt>
+<dd><a class="anchor" id="_deprecated000103"></a>Legacy material format; use <a class="el" href="class_acts_1_1_tracking_geometry_material_json_converter.html">Acts::TrackingGeometryMaterialJsonConverter</a> instead.  </dd>
 <dt>Member <a class="el" href="group__json__plugin.html#gacf3669471f11a629a8de8cd7fd8b0579">Acts::to_json</a>  (nlohmann::json &amp;j, const surfaceMaterialPointer &amp;material)</dt>
-<dd><a class="anchor" id="_deprecated000097"></a>Use SurfaceMaterialJsonConverter::toJson instead  </dd>
+<dd><a class="anchor" id="_deprecated000105"></a>Legacy material format; use <a class="el" href="class_acts_1_1_tracking_geometry_material_json_converter.html">Acts::TrackingGeometryMaterialJsonConverter</a> instead.  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_tracking_geometry.html#a979cfe29b23d3fd512b78da0d364f9df">Acts::TrackingGeometry::lowestTrackingVolume</a>  (const GeometryContext &amp;gctx, const Vector3 &amp;gp) const</dt>
 <dd><a class="anchor" id="_deprecated000022"></a>Use <a class="el" href="class_acts_1_1_tracking_geometry.html#a681abf860ea725fb6a96237af0ed56be">resolveLowestTrackingVolume</a> instead, which can resolve boundaries along a direction and reports failures instead of returning <span class="tt">nullptr</span>.  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_tracking_geometry.html#a637c481e57e710623adc80018f31738b">Acts::TrackingGeometry::visualize</a>  (IVisualization3D &amp;helper, const GeometryContext &amp;gctx, const ViewConfig &amp;viewConfig, const ViewConfig &amp;portalViewConfig, const ViewConfig &amp;sensitiveViewConfig) const</dt>
 <dd><a class="anchor" id="_deprecated000023"></a>Use the ViewConfigFunc overload instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_tracking_geometry_json_converter.html#aa05519757f987018f8aca22fb4af23d7">Acts::TrackingGeometryJsonConverter::fromJson</a>  (const GeometryContext &amp;gctx, const std::filesystem::path &amp;jsonPath, const Options &amp;options=Options::defaultOptions()) const</dt>
-<dd><a class="anchor" id="_deprecated000101"></a>Use <a class="el" href="class_acts_1_1_tracking_geometry_json_converter.html#a369a2a7d68b06181e875353303e30710">fromFile</a> instead. <span class="tt">fromJson</span> now takes an in-memory payload, matching every other converter in this plugin.  </dd>
+<dd><a class="anchor" id="_deprecated000111"></a>Use <a class="el" href="class_acts_1_1_tracking_geometry_json_converter.html#a369a2a7d68b06181e875353303e30710">fromFile</a> instead. <span class="tt">fromJson</span> now takes an in-memory payload, matching every other converter in this plugin.  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_tracking_geometry_json_converter.html#a2310d27e95d4380fa52e633608d177dd">Acts::TrackingGeometryJsonConverter::fromJsonPayload</a>  (const GeometryContext &amp;gctx, const nlohmann::json &amp;encoded, const Options &amp;options=Options::defaultOptions()) const</dt>
-<dd><a class="anchor" id="_deprecated000102"></a>Renamed to <a class="el" href="class_acts_1_1_tracking_geometry_json_converter.html#a68aa2172299d3c29e9659b1fbd5842c8">fromJson</a>, which now takes the payload.  </dd>
+<dd><a class="anchor" id="_deprecated000112"></a>Renamed to <a class="el" href="class_acts_1_1_tracking_geometry_json_converter.html#a68aa2172299d3c29e9659b1fbd5842c8">fromJson</a>, which now takes the payload.  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_tracking_volume.html#aefd07dd4cfe34a337fd098bb5517fc5a">Acts::TrackingVolume::visualize</a>  (IVisualization3D &amp;helper, const GeometryContext &amp;gctx, const ViewConfig &amp;viewConfig, const ViewConfig &amp;portalViewConfig, const ViewConfig &amp;sensitiveViewConfig) const</dt>
 <dd><a class="anchor" id="_deprecated000024"></a>Use the ViewConfigFunc overload instead  </dd>
 <dt>Struct <a class="el" href="struct_acts_1_1_vertex_info.html">Acts::VertexInfo</a>  </dt>

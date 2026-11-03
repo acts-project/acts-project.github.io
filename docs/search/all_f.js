@@ -15,7 +15,7 @@ var searchData=
   ['joininplace_12',['joinInPlace',['../class_acts_1_1_tracklet_joiner.html#ad75705a379f4662bc5a28b328f6529bb',1,'Acts::TrackletJoiner']]],
   ['joinstrings_13',['joinStrings',['../namespace_acts.html#aac11e8ec3784f7325583119c7b36bb06',1,'Acts::joinStrings(R &amp;&amp;strings, std::string_view delimiter)'],['../namespace_acts.html#addbd41a294e15a0ec2b8c05ef65a6552',1,'Acts::joinStrings(R &amp;&amp;values, std::string_view delimiter, std::format_string&lt; const std::ranges::range_value_t&lt; R &gt; &amp; &gt; format)']]],
   ['json_14',['JSON',['../material_mapping_howto.html#autotoc_md144',1,'1a. Dump the geometry to JSON'],['../group__python__data__io.html#autotoc_md63',1,'Loading detector geometry from JSON']]],
-  ['json_20format_15',['Material map JSON format',['../material_map_json_format.html',1,'']]],
+  ['json_20format_15',['Legacy material map JSON format',['../material_map_json_format.html',1,'']]],
   ['json_20plugin_16',['JSON Plugin',['../group__json__plugin.html',1,'']]],
   ['jsondetectorelement_17',['JsonDetectorElement',['../class_acts_1_1_json_detector_element.html',1,'Acts::JsonDetectorElement'],['../class_acts_1_1_json_detector_element.html#ac6b0f968f6064c83ac1f424bd6d3be34',1,'Acts::JsonDetectorElement::JsonDetectorElement()']]],
   ['jsonentrypath_18',['jsonEntryPath',['../struct_acts_1_1_json_surfaces_reader_1_1_options.html#a57e0b29472eaed7612f4c352b68d3eea',1,'Acts::JsonSurfacesReader::Options']]],

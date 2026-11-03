@@ -127,8 +127,8 @@ $(function(){initNavTree('group__json__plugin.html','',''); });
 <div class="contents">
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <p>JSON (de)serialization of geometry, material and configuration. </p>
-<p>The file format written by the material converters is documented in <a class="el" href="material_map_json_format.html">Material map JSON format</a>.</p>
-<p>The <a class="el" href="material_map_json_schema.html">Material map schema</a> describes the versioned material format handled by <a class="el" href="class_acts_1_1_tracking_geometry_material_json_converter.html">Acts::TrackingGeometryMaterialJsonConverter</a>. Legacy material converters retain the previous format. </p>
+<p>The file format written by the material converters is documented in <a class="el" href="material_map_json_format.html">Legacy material map JSON format</a>.</p>
+<p>The <a class="el" href="material_map_json_schema.html">Material map schema</a> describes the versioned material format handled by <a class="el" href="class_acts_1_1_tracking_geometry_material_json_converter.html">Acts::TrackingGeometryMaterialJsonConverter</a>. Legacy material converters are deprecated and retain the previous format. </p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -1098,6 +1098,7 @@ template&lt;class T, class decorator_t&gt; </div>
   </table>
   </dd>
 </dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000099">Deprecated</a></b></dt><dd>Legacy material format; use <a class="el" href="class_acts_1_1_tracking_geometry_material_json_converter.html">Acts::TrackingGeometryMaterialJsonConverter</a> instead. </dd></dl>
 
 </div>
 </div>
@@ -1128,6 +1129,7 @@ template&lt;class T, class decorator_t&gt; </div>
   </table>
   </dd>
 </dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000101">Deprecated</a></b></dt><dd>Legacy material format; use <a class="el" href="class_acts_1_1_tracking_geometry_material_json_converter.html">Acts::TrackingGeometryMaterialJsonConverter</a> instead. </dd></dl>
 
 </div>
 </div>
@@ -1158,6 +1160,7 @@ template&lt;class T, class decorator_t&gt; </div>
   </table>
   </dd>
 </dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000102">Deprecated</a></b></dt><dd>Legacy material format; use <a class="el" href="class_acts_1_1_tracking_geometry_material_json_converter.html">Acts::TrackingGeometryMaterialJsonConverter</a> instead. </dd></dl>
 
 </div>
 </div>
@@ -1311,7 +1314,7 @@ template&lt;typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>the caller takes ownership of the returned raw pointer </dd></dl>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000098">Deprecated</a></b></dt><dd>Use SurfaceMaterialJsonConverter::fromJson instead </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000106">Deprecated</a></b></dt><dd>Legacy material format; use <a class="el" href="class_acts_1_1_tracking_geometry_material_json_converter.html">Acts::TrackingGeometryMaterialJsonConverter</a> instead. </dd></dl>
 
 </div>
 </div>
@@ -1432,6 +1435,7 @@ template&lt;typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb
   </table>
   </dd>
 </dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000104">Deprecated</a></b></dt><dd>Legacy material format; use <a class="el" href="class_acts_1_1_tracking_geometry_material_json_converter.html">Acts::TrackingGeometryMaterialJsonConverter</a> instead. </dd></dl>
 
 </div>
 </div>
@@ -1544,7 +1548,7 @@ template&lt;typename value_t, class decorator_t = void&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>ProtoAxis created from the JSON object </dd></dl>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000100">Deprecated</a></b></dt><dd>Use AxisSpecJsonConverter with an AxisSpec instead </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000109">Deprecated</a></b></dt><dd>Use AxisSpecJsonConverter with an AxisSpec instead </dd></dl>
 
 </div>
 </div>
@@ -2184,6 +2188,7 @@ template&lt;typename value_t, class decorator_t = void&gt; </div>
   </table>
   </dd>
 </dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000098">Deprecated</a></b></dt><dd>Legacy material format; use <a class="el" href="class_acts_1_1_tracking_geometry_material_json_converter.html">Acts::TrackingGeometryMaterialJsonConverter</a> instead. </dd></dl>
 
 </div>
 </div>
@@ -2214,6 +2219,7 @@ template&lt;typename value_t, class decorator_t = void&gt; </div>
   </table>
   </dd>
 </dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000100">Deprecated</a></b></dt><dd>Legacy material format; use <a class="el" href="class_acts_1_1_tracking_geometry_material_json_converter.html">Acts::TrackingGeometryMaterialJsonConverter</a> instead. </dd></dl>
 
 </div>
 </div>
@@ -2518,7 +2524,7 @@ template&lt;typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb
   </table>
   </dd>
 </dl>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000097">Deprecated</a></b></dt><dd>Use SurfaceMaterialJsonConverter::toJson instead </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000105">Deprecated</a></b></dt><dd>Legacy material format; use <a class="el" href="class_acts_1_1_tracking_geometry_material_json_converter.html">Acts::TrackingGeometryMaterialJsonConverter</a> instead. </dd></dl>
 
 </div>
 </div>
@@ -2669,6 +2675,7 @@ template&lt;typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb
   </table>
   </dd>
 </dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000103">Deprecated</a></b></dt><dd>Legacy material format; use <a class="el" href="class_acts_1_1_tracking_geometry_material_json_converter.html">Acts::TrackingGeometryMaterialJsonConverter</a> instead. </dd></dl>
 
 </div>
 </div>
@@ -2780,7 +2787,7 @@ template&lt;typename value_t, class decorator_t&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>JSON object representing the proto axis </dd></dl>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000099">Deprecated</a></b></dt><dd>Use AxisSpecJsonConverter with an AxisSpec instead </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000108">Deprecated</a></b></dt><dd>Use AxisSpecJsonConverter with an AxisSpec instead </dd></dl>
 
 </div>
 </div>

@@ -259,7 +259,7 @@ Stable surface assignment keys</h4>
 <p>Proto materials carry the key. Mapping and loading discover it by downcasting the surface's <a class="el" href="class_acts_1_1_i_surface_material.html">Acts::ISurfaceMaterial</a>; <a class="el" href="class_acts_1_1_surface.html">Acts::Surface</a> has no key API or storage. Standalone proto-material and surface serialization preserve the key while the placeholder is attached. Loading replaces the placeholder with real material and consumes this identity. To apply another keyed map, rebuild the geometry with its designators first. Write or combine keyed maps using <a class="el" href="struct_acts_1_1_tracking_geometry_material.html">Acts::TrackingGeometryMaterial</a>, rather than reconstructing keys from decorated surfaces.</p>
 <p><a class="el" href="class_acts_1_1_binned_surface_material_accumulator.html">Acts::BinnedSurfaceMaterialAccumulator</a> validates identities before mapping: it rejects duplicate keys, distinct surfaces with the same geometry ID, and merged-material markers. Repeated visits to the same shared surface are allowed. The accumulator finalizes keyed assignments separately from the legacy ID-indexed assignments in <a class="el" href="struct_acts_1_1_tracking_geometry_material.html#a4c2e14fa9c81f78f19cfdf6951bf9778">Acts::TrackingGeometryMaterial::keyedSurfaces</a>. <a class="el" href="class_acts_1_1_material_mapper.html#a56b9436f9d2fadf4b395c8e94f886afc">Acts::MaterialMapper::finalizeMaps</a> returns those maps. Registry state and identity checks remain internal to the accumulator implementation.</p>
 <p>For a completed geometry, use <a class="el" href="struct_acts_1_1_tracking_geometry_material.html#acc2ccd1fe7da279ae7d01f64d6e30106">TrackingGeometryMaterial::apply</a> (<span class="tt">maps.apply(geometry)</span> in Python), or the overload taking a span of mutable surfaces. These format-independent Core operations validate the selected geometry's key/ID uniqueness and resolve all assignments before updating surfaces. The individual-surface <a class="el" href="struct_acts_1_1_tracking_geometry_material.html#a896e3d34684bc7bf4672b308712e842b">apply(surface)</a> overload performs lookup and material assignment but cannot check uniqueness across other surfaces.</p>
-<p><a class="el" href="class_acts_1_1_tracking_geometry_material_json_converter.html">Acts::TrackingGeometryMaterialJsonConverter</a> reads versioned JSON/CBOR into these maps. Call <span class="tt">converter.fromFile(path).apply(geometry)</span> in C++ or Python to apply them to a completed geometry. Python also provides <span class="tt">acts.IMaterialDecorator.fromFile(path)</span> for construction-time decoration. The legacy JSON decorator remains available for legacy files.</p>
+<p><a class="el" href="class_acts_1_1_tracking_geometry_material_json_converter.html">Acts::TrackingGeometryMaterialJsonConverter</a> reads versioned JSON/CBOR into these maps. Call <span class="tt">converter.fromFile(path).apply(geometry)</span> in C++ or Python to apply them to a completed geometry. Python also provides <span class="tt">acts.IMaterialDecorator.fromFile(path)</span> for construction-time decoration. The deprecated JSON decorator remains available for legacy files, with a Python deprecation warning.</p>
 <ul>
 <li>Applying a keyed map to Gen1 geometry is an error. Stable keys require Gen3 material designators.</li>
 <li>Keyed targets require a matching keyed entry. There is no fallback to a geometry ID when a key is missing.</li>
@@ -267,7 +267,7 @@ Stable surface assignment keys</h4>
 <li>Unused file keys are allowed, so a larger or combined map can decorate a subset geometry.</li>
 <li>An explicit vacuum payload is a valid assignment; an absent payload is not.</li>
 </ul>
-<p>For the serialized representation, see <a class="el" href="material_map_json_format.html">Material map JSON format</a>.</p>
+<p>For the serialized representation, see <a class="el" href="material_map_json_format.html">Legacy material map JSON format</a>.</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md151"></a>
 Step 2: record the material with Geant4</h2>
 <div class="fragment"><div class="line">python Examples/Scripts/Python/material_recording.py -n 1000 -t 1000 -o mydet_geant4</div>
@@ -312,10 +312,12 @@ Step 4: use the map</h2>
 <div class="fragment"><div class="line"><span class="keyword">import</span> acts</div>
 <div class="line"><span class="keyword">from</span> acts.examples.odd <span class="keyword">import</span> getOpenDataDetectorDirectory, getOpenDataDetector</div>
 <div class="line"> </div>
-<div class="line"><span class="comment"># Any of .json, .cbor or .root produced by the mapping step works here.</span></div>
+<div class="line"><span class="comment"># This bundled map uses ROOT; versioned JSON maps can instead be loaded</span></div>
+<div class="line"><span class="comment"># with TrackingGeometryMaterialJsonConverter and applied to the geometry.</span></div>
 <div class="line">material_map = getOpenDataDetectorDirectory() / <span class="stringliteral">&quot;data/odd-material-maps.root&quot;</span></div>
-<div class="line"> </div>
-<div class="line">decorator = acts.IMaterialDecorator.fromFile(material_map)</div>
+<div class="line">decorator = acts.root.RootMaterialDecorator(</div>
+<div class="line">    fileName=str(material_map), level=acts.logging.INFO</div>
+<div class="line">)</div>
 <div class="line">detector = getOpenDataDetector(materialDecorator=decorator)</div>
 <div class="line">trackingGeometry = detector.trackingGeometry()</div>
 </div><!-- fragment --><p>Substitute your own detector and the map you just produced. This snippet comes from <span class="tt">docs/examples/test_material_map.py</span>, which runs as part of the pytest suite.</p>

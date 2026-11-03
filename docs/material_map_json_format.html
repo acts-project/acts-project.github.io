@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ACTS: Material map JSON format</title>
+<title>ACTS: Legacy material map JSON format</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -122,10 +122,11 @@ $(function(){initNavTree('material_map_json_format.html','',''); });
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">Material map JSON format </div></div>
+  <div class="headertitle"><div class="title">Legacy material map JSON format </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>A material map is the file the material mapping writes and the <a class="el" href="class_acts_1_1_json_material_decorator.html">JsonMaterialDecorator</a> reads back to attach material to a tracking geometry. This page documents the on-disk layout as produced by <a class="el" href="class_acts_1_1_material_map_json_converter.html">MaterialMapJsonConverter</a> and <a class="el" href="class_acts_1_1_surface_material_json_converter.html">SurfaceMaterialJsonConverter</a>.</p>
+<div class="textblock"><p>The API documented here is deprecated and retains its legacy behavior. New code should use <a class="el" href="class_acts_1_1_tracking_geometry_material_json_converter.html">Acts::TrackingGeometryMaterialJsonConverter</a> and the separate <a class="el" href="material_map_json_schema.html">Material map schema</a> format.</p>
+<p>A material map is the file the material mapping writes and the <a class="el" href="class_acts_1_1_json_material_decorator.html">JsonMaterialDecorator</a> reads back to attach material to a tracking geometry. This page documents the on-disk layout as produced by <a class="el" href="class_acts_1_1_material_map_json_converter.html">MaterialMapJsonConverter</a> and <a class="el" href="class_acts_1_1_surface_material_json_converter.html">SurfaceMaterialJsonConverter</a>.</p>
 <p>The example below is not typed out by hand. It is generated from the converters by the <span class="tt">MaterialJsonDocumentation</span> unit test, which fails if this file stops matching what the code writes; run that test with <span class="tt">ACTS_UPDATE_DOC_EXAMPLES=1</span> to refresh it after a format change. It is deliberately as small as the format allows, and shows the three surface payloads that differ in shape plus one volume entry. The remaining payload types differ only in the keys tabulated further down.</p>
 <div class="fragment"><div class="line">{</div>
 <div class="line">    &quot;Surfaces&quot;: {</div>

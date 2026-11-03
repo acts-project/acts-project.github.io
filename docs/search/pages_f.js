@@ -6,5 +6,5 @@ var searchData=
   ['jacobian_20code_20generation_3',['Transport Jacobian code generation',['../codegen_sympy_jac.html',1,'']]],
   ['jacobians_4',['Jacobians',['../alignment_composite_jacobians.html',1,'Composite alignment Jacobians'],['../alignment_composite_jacobians.html#autotoc_md92',1,'Composite alignment Jacobians']]],
   ['json_5',['JSON',['../material_mapping_howto.html#autotoc_md144',1,'1a. Dump the geometry to JSON'],['../group__python__data__io.html#autotoc_md63',1,'Loading detector geometry from JSON']]],
-  ['json_20format_6',['Material map JSON format',['../material_map_json_format.html',1,'']]]
+  ['json_20format_6',['Legacy material map JSON format',['../material_map_json_format.html',1,'']]]
 ];

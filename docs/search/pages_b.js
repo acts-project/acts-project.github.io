@@ -18,7 +18,7 @@ var searchData=
   ['for_20surfaces_20and_20sourcelinks_15',['Helper for &lt;span class=&quot;tt&quot;&gt;Surface&lt;/span&gt;s and &lt;span class=&quot;tt&quot;&gt;SourceLink&lt;/span&gt;s',['../group__eventdata__tracks.html#podio_helper',1,'']]],
   ['form_16',['Relation to the CMS form',['../alignment_composite_jacobians.html#autotoc_md98',1,'']]],
   ['formalism_20and_20kalman_20track_20fitter_17',['Kalman formalism and Kalman track fitter',['../tracking.html#kalman-formalism',1,'']]],
-  ['format_18',['format',['../formatting.html#autotoc_md129',1,'C++ formatting: &lt;span class=&quot;tt&quot;&gt;clang-format&lt;/span&gt;'],['../material_map_json_format.html',1,'Material map JSON format']]],
+  ['format_18',['format',['../formatting.html#autotoc_md129',1,'C++ formatting: &lt;span class=&quot;tt&quot;&gt;clang-format&lt;/span&gt;'],['../material_map_json_format.html',1,'Legacy material map JSON format']]],
   ['formation_19',['Space point formation',['../tracking.html#space-point-formation',1,'']]],
   ['formatting_20',['formatting',['../formatting.html#autotoc_md130',1,'Python formatting'],['../formatting.html',1,'Source code formatting']]],
   ['formatting_3a_20clang_20format_21',['C++ formatting: &lt;span class=&quot;tt&quot;&gt;clang-format&lt;/span&gt;',['../formatting.html#autotoc_md129',1,'']]],
