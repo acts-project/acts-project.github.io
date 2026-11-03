@@ -187,12 +187,12 @@ $(function(){initNavTree('_units_8hpp_source.html','',''); });
 <div class="foldopen" id="foldopen00179" data-start="{" data-end="}">
 <div class="line"><a id="l00179" name="l00179"></a><span class="lineno"><a class="line" href="namespace_acts_1_1_unit_literals.html">  179</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_acts_1_1_unit_literals.html">UnitLiterals</a> {</div>
 <div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span><span class="comment">// define user literal functions for the given unit constant</span></div>
-<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span><span class="preprocessor">#define ACTS_DEFINE_UNIT_LITERAL(name)                       \</span></div>
-<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span><span class="preprocessor">  constexpr double operator&quot;&quot;_##name(long double x) {        \</span></div>
-<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span><span class="preprocessor">    return ::Acts::UnitConstants::name * x;                  \</span></div>
-<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span><span class="preprocessor">  }                                                          \</span></div>
-<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span><span class="preprocessor">  constexpr double operator&quot;&quot;_##name(unsigned long long x) { \</span></div>
-<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span><span class="preprocessor">    return ::Acts::UnitConstants::name * x;                  \</span></div>
+<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span><span class="preprocessor">#define ACTS_DEFINE_UNIT_LITERAL(name)                           \</span></div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span><span class="preprocessor">  constexpr double operator&quot;&quot;_##name(long double x) {            \</span></div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span><span class="preprocessor">    return static_cast&lt;double&gt;(::Acts::UnitConstants::name * x); \</span></div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span><span class="preprocessor">  }                                                              \</span></div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span><span class="preprocessor">  constexpr double operator&quot;&quot;_##name(unsigned long long x) {     \</span></div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span><span class="preprocessor">    return ::Acts::UnitConstants::name * static_cast&lt;double&gt;(x); \</span></div>
 <div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span><span class="preprocessor">  }</span></div>
 <div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>ACTS_DEFINE_UNIT_LITERAL(fm)</div>
 <div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>ACTS_DEFINE_UNIT_LITERAL(pm)</div>
