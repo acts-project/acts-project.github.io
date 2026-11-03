@@ -97,8 +97,6 @@ var NAVTREEINDEX14 =
 "class_acts_1_1_experimental_1_1_gbts_node_storage.html#a99f603943b1108fc3e23d56750fbb0f1":[8,0,0,2,29,2],
 "class_acts_1_1_experimental_1_1_gbts_node_storage.html#ac7f8ddfa8c6c9c645c2406da021c22d9":[6,0,0,1,29,8],
 "class_acts_1_1_experimental_1_1_gbts_node_storage.html#ac7f8ddfa8c6c9c645c2406da021c22d9":[8,0,0,2,29,8],
-"class_acts_1_1_experimental_1_1_gbts_node_storage.html#ad7803ac0720606dbea3e8f7304100879":[6,0,0,1,29,10],
-"class_acts_1_1_experimental_1_1_gbts_node_storage.html#ad7803ac0720606dbea3e8f7304100879":[8,0,0,2,29,10],
 "class_acts_1_1_experimental_1_1_gbts_node_storage.html#ada739a97158059c541c023fdc7d5378e":[6,0,0,1,29,9],
 "class_acts_1_1_experimental_1_1_gbts_node_storage.html#ada739a97158059c541c023fdc7d5378e":[8,0,0,2,29,9],
 "class_acts_1_1_experimental_1_1_gbts_node_storage.html#adb572527c7970840ae7c3f63d3c19c9b":[6,0,0,1,29,7],
@@ -249,5 +247,7 @@ var NAVTREEINDEX14 =
 "class_acts_1_1_experimental_1_1_hough_accumulator_section.html#afb11268f1fa71f589c55a661af320abd":[6,0,0,1,43,17],
 "class_acts_1_1_experimental_1_1_hough_accumulator_section.html#afb11268f1fa71f589c55a661af320abd":[8,0,0,2,43,17],
 "class_acts_1_1_experimental_1_1_layer_blueprint_node.html":[6,0,0,1,45],
-"class_acts_1_1_experimental_1_1_layer_blueprint_node.html":[8,0,0,2,45]
+"class_acts_1_1_experimental_1_1_layer_blueprint_node.html":[8,0,0,2,45],
+"class_acts_1_1_experimental_1_1_layer_blueprint_node.html#a18413d63d867729c94003cfc29c21b3a":[6,0,0,1,45,3],
+"class_acts_1_1_experimental_1_1_layer_blueprint_node.html#a18413d63d867729c94003cfc29c21b3a":[8,0,0,2,45,3]
 };

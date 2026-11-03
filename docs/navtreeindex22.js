@@ -1,7 +1,5 @@
 var NAVTREEINDEX22 =
 {
-"class_acts_1_1_i_multi_axis_x_d.html#a3feb2a98b948fab44b1510f99983929f":[6,0,0,199,4],
-"class_acts_1_1_i_multi_axis_x_d.html#a3feb2a98b948fab44b1510f99983929f":[8,0,0,204,4],
 "class_acts_1_1_i_multi_axis_x_d.html#a4f9ec1368c9473bc8275054838ef11d4":[6,0,0,199,23],
 "class_acts_1_1_i_multi_axis_x_d.html#a4f9ec1368c9473bc8275054838ef11d4":[8,0,0,204,23],
 "class_acts_1_1_i_multi_axis_x_d.html#a5752ffd79462e3f29dc98910c264d509":[6,0,0,199,19],
@@ -249,5 +247,7 @@ var NAVTREEINDEX22 =
 "class_acts_1_1_index_grid_navigation_policy.html#af04463e89b607915401f88ca872763c2":[8,0,0,209,1],
 "class_acts_1_1_infinite_bounds.html":[6,0,0,205],
 "class_acts_1_1_infinite_bounds.html":[8,0,0,210],
-"class_acts_1_1_infinite_bounds.html#a3485e422a4da4b2a1174d723550568d4":[6,0,0,205,9]
+"class_acts_1_1_infinite_bounds.html#a3485e422a4da4b2a1174d723550568d4":[6,0,0,205,9],
+"class_acts_1_1_infinite_bounds.html#a3485e422a4da4b2a1174d723550568d4":[8,0,0,210,9],
+"class_acts_1_1_infinite_bounds.html#a45c74da9abade3befd4c3efe07ff4149":[6,0,0,205,1]
 };

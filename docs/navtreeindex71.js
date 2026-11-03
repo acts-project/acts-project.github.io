@@ -1,9 +1,5 @@
 var NAVTREEINDEX71 =
 {
-"struct_acts_fatras_1_1_surface_mask.html#ae0d5eb234fae0f8d447dedf2713d75da":[6,0,2,37,1],
-"struct_acts_fatras_1_1_surface_mask.html#ae0d5eb234fae0f8d447dedf2713d75da":[8,0,1,38,1],
-"struct_acts_plugins_1_1_boost_track_building_1_1_config.html":[5,10,6,0,0],
-"struct_acts_plugins_1_1_cuda_track_building_1_1_config.html":[5,10,6,1,0],
 "struct_acts_plugins_1_1_cuda_track_building_1_1_config.html#a0e8fa7ff0e0a6cbfccd66215924ad52e":[5,10,6,1,0,0],
 "struct_acts_plugins_1_1_cuda_track_building_1_1_config.html#a61e2881340cef4502d230230a523e84f":[5,10,6,1,0,1],
 "struct_acts_plugins_1_1_cuda_track_building_1_1_config.html#a9638c5cf324266523e3fee5d3b3ca67c":[5,10,6,1,0,2],
@@ -249,5 +245,9 @@ var NAVTREEINDEX71 =
 "struct_acts_plugins_1_1_pipeline_tensors.html#aa1eb3257c5ca1a5bb5219c8f83053b2c":[5,10,6,15,2],
 "struct_acts_plugins_1_1_pipeline_tensors.html#ac6357736cc792db22f00eecd8f84c9fc":[5,10,6,15,1],
 "struct_acts_plugins_1_1_root_histogram_fit_1_1_config.html":[6,0,3,53,0],
-"struct_acts_plugins_1_1_root_histogram_fit_1_1_config.html":[8,0,2,58,0]
+"struct_acts_plugins_1_1_root_histogram_fit_1_1_config.html":[8,0,2,58,0],
+"struct_acts_plugins_1_1_root_histogram_fit_1_1_config.html#a452b150140f3984f27c1b4aba9906a33":[6,0,3,53,0,0],
+"struct_acts_plugins_1_1_root_histogram_fit_1_1_config.html#a452b150140f3984f27c1b4aba9906a33":[8,0,2,58,0,0],
+"struct_acts_plugins_1_1_root_material_map_io_1_1_config.html":[5,10,12,3,0],
+"struct_acts_plugins_1_1_root_material_map_io_1_1_config.html#a1758501a0f328604ac45ac422556c4fb":[5,10,12,3,0,11]
 };

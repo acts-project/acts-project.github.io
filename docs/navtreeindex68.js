@@ -1,9 +1,5 @@
 var NAVTREEINDEX68 =
 {
-"struct_acts_1_1_tracking_geometry_builder_1_1_config.html#ada3c68a1b634785733f41c2e0d4dbdb3":[8,0,0,421,0,0],
-"struct_acts_1_1_tracking_geometry_json_converter_1_1_config.html":[5,10,10,13,0],
-"struct_acts_1_1_tracking_geometry_json_converter_1_1_config.html#a00e10da3bdb834278f2c96f9c5ca64c4":[5,10,10,13,0,2],
-"struct_acts_1_1_tracking_geometry_json_converter_1_1_config.html#a31a779ec33e86788a410aa47d03ac58d":[5,10,10,13,0,1],
 "struct_acts_1_1_tracking_geometry_json_converter_1_1_config.html#a954282af7a8826f492b93cfd3c01d5d9":[5,10,10,13,0,0],
 "struct_acts_1_1_tracking_geometry_json_converter_1_1_config.html#a9dde2c527527b1cee81fe4389a228fcf":[5,10,10,13,0,5],
 "struct_acts_1_1_tracking_geometry_json_converter_1_1_config.html#ab33c98b6639e337c38771cd9a66d2350":[5,10,10,13,0,3],
@@ -249,5 +245,9 @@ var NAVTREEINDEX68 =
 "struct_acts_1_1_vertexing_options.html#ae1f12978b6dd84d3c2169ef4e39d409a":[6,0,0,456,6],
 "struct_acts_1_1_vertexing_options.html#ae1f12978b6dd84d3c2169ef4e39d409a":[8,0,0,461,6],
 "struct_acts_1_1_vertexing_options.html#afcf56ade3d3f0c72b21e18bd8fb7707a":[6,0,0,456,2],
-"struct_acts_1_1_vertexing_options.html#afcf56ade3d3f0c72b21e18bd8fb7707a":[8,0,0,461,2]
+"struct_acts_1_1_vertexing_options.html#afcf56ade3d3f0c72b21e18bd8fb7707a":[8,0,0,461,2],
+"struct_acts_1_1_view_config.html":[6,0,0,457],
+"struct_acts_1_1_view_config.html":[8,0,0,462],
+"struct_acts_1_1_view_config.html#a0520a4f0159225dfc4373b47e554d6d7":[6,0,0,457,0],
+"struct_acts_1_1_view_config.html#a0520a4f0159225dfc4373b47e554d6d7":[8,0,0,462,0]
 };
