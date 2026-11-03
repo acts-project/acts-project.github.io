@@ -82,7 +82,7 @@ var searchData=
   ['centralwrapping_79',['CentralWrapping',['../namespace_acts.html#ac067c47704bdb1b88dd0c21c0e8fd8c2acc7765cc3777a384b6a9a93f4cc140f8',1,'Acts']]],
   ['chain_20levels_80',['Chain levels',['../group__gbts.html#gbts-levels',1,'']]],
   ['channel_81',['Channel',['../struct_acts_fatras_1_1_channel.html',1,'ActsFatras::Channel&lt; signal_t, kSize &gt;'],['../struct_acts_fatras_1_1_channel.html#aa6742a2ed761216c9f23ab1e4f658747',1,'ActsFatras::Channel::Channel()']]],
-  ['channelize_82',['channelize',['../class_acts_fatras_1_1_channelizer.html#a4f440783e365c4c6634b628fa3010450',1,'ActsFatras::Channelizer']]],
+  ['channelize_82',['channelize',['../class_acts_fatras_1_1_channelizer.html#ac422c1cad45d9c7021a4c4599c487f2e',1,'ActsFatras::Channelizer']]],
   ['channelizer_83',['Channelizer',['../class_acts_fatras_1_1_channelizer.html',1,'ActsFatras']]],
   ['channels_84',['channels',['../struct_acts_fatras_1_1_cluster.html#a13f5468a84e5153c08fe5e887e033e18',1,'ActsFatras::Cluster']]],
   ['channelsegment_85',['ChannelSegment',['../struct_acts_fatras_1_1_segmentizer_1_1_channel_segment.html',1,'ActsFatras::Segmentizer::ChannelSegment'],['../struct_acts_fatras_1_1_segmentizer_1_1_channel_segment.html#aa99b19ab058da8ac47d40b575aae713d',1,'ActsFatras::Segmentizer::ChannelSegment::ChannelSegment()']]],

@@ -142,8 +142,8 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>Segment3D</b> = std:
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a9fcc76d18b2bf90f8a635b1ace4546e1" id="r_a9fcc76d18b2bf90f8a635b1ace4546e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Acts::Result</a>&lt; std::tuple&lt; <a class="el" href="#a470f78e885fdfc1782df98b4df981766">Segment2D</a>, <a class="el" href="#a2979950c5c597686cf1114a608e20021">Segment3D</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9fcc76d18b2bf90f8a635b1ace4546e1">toReadout</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_surface.html">Acts::Surface</a> &amp;surface, double thickness, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a> &amp;pos, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a> &amp;dir, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a> &amp;driftDir=<a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a>(0., 0., 0.)) const</td></tr>
-<tr class="memdesc:a9fcc76d18b2bf90f8a635b1ace4546e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Drift the full 3D segment onto the surface 2D readout frame.  <br /></td></tr>
+<tr class="memitem:a085d79b083d6426d925db7dce6fd4539" id="r_a085d79b083d6426d925db7dce6fd4539"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Acts::Result</a>&lt; std::tuple&lt; <a class="el" href="#a470f78e885fdfc1782df98b4df981766">Segment2D</a>, <a class="el" href="#a2979950c5c597686cf1114a608e20021">Segment3D</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a085d79b083d6426d925db7dce6fd4539">toReadout</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_surface.html">Acts::Surface</a> &amp;surface, double thickness, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a> &amp;pos, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a> &amp;dir, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a> &amp;driftDir=<a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a>(0., 0., 0.), bool limitCylinderPathToChord=false) const</td></tr>
+<tr class="memdesc:a085d79b083d6426d925db7dce6fd4539"><td class="mdescLeft">&#160;</td><td class="mdescRight">Drift the full 3D segment onto the surface 2D readout frame.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The PlanarSurfaceDrift takes an intersection in the nominal surface and projects the ends into the readout surface, which can be at : -1, 0, 1. </p>
@@ -154,8 +154,8 @@ Public Member Functions</h2></td></tr>
 </ul>
 <p>In every case the in-plane "x"/"y" coordinates carry the same physical (length) units, so the downstream masking and segmentation are identical. </p>
 </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a9fcc76d18b2bf90f8a635b1ace4546e1" name="a9fcc76d18b2bf90f8a635b1ace4546e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9fcc76d18b2bf90f8a635b1ace4546e1">&#9670;&#160;</a></span>toReadout()</h2>
+<a id="a085d79b083d6426d925db7dce6fd4539" name="a085d79b083d6426d925db7dce6fd4539"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a085d79b083d6426d925db7dce6fd4539">&#9670;&#160;</a></span>toReadout()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -188,7 +188,12 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>driftDir</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a>(0.,&#160;0.,&#160;0.)</span>&#160;) const</td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>driftDir</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a>(0.,&#160;0.,&#160;0.)</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>limitCylinderPathToChord</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -201,7 +206,8 @@ Public Member Functions</h2></td></tr>
     <tr><td class="paramname">thickness</td><td>The emulated module/depletion thickness </td></tr>
     <tr><td class="paramname">pos</td><td>The position in global coordinates </td></tr>
     <tr><td class="paramname">dir</td><td>The direction in global coordinates </td></tr>
-    <tr><td class="paramname">driftDir</td><td>The drift direction in the readout-local frame (plane/disc: local x, y, normal; cylinder: tangential, axial, radial). A direction with no perpendicular component emulates a 3D pixel sensor / no Lorentz drift.</td></tr>
+    <tr><td class="paramname">driftDir</td><td>The drift direction in the readout-local frame (plane/disc: local x, y, normal; cylinder: tangential, axial, radial). A direction with no perpendicular component emulates a 3D pixel sensor / no Lorentz drift. </td></tr>
+    <tr><td class="paramname">limitCylinderPathToChord</td><td>On a cylinder, limit the segment length to the longest straight chord through the curved layer, 2 sqrt(2 R thickness). The unrolled frame is flat, so there the path thickness / |cos(incidence)| has no bound for (almost) tangential directions.</td></tr>
   </table>
   </dd>
 </dl>
