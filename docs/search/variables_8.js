@@ -35,7 +35,7 @@ var searchData=
   ['inputduplicatenn_32',['inputDuplicateNN',['../struct_acts_1_1_ambiguity_resolution_m_l_1_1_config.html#a0c8a9236bf14f38a4b4e7d1db164b73f',1,'Acts::AmbiguityResolutionML::Config']]],
   ['inputfile_33',['inputFile',['../struct_acts_1_1_json_surfaces_reader_1_1_options.html#a8037eec28ccc78bce7a51eb7c06a215e',1,'Acts::JsonSurfacesReader::Options']]],
   ['interactionpointcut_34',['interactionPointCut',['../struct_acts_1_1_doublet_seed_finder_1_1_config.html#a2cecb51abdd6428f4692f0b7f0ce876b',1,'Acts::DoubletSeedFinder::Config']]],
-  ['interactions_35',['interactions',['../struct_acts_fatras_1_1_single_particle_simulation.html#a9d0943350edbd6bdfee332d2c5e4cffa',1,'ActsFatras::SingleParticleSimulation']]],
+  ['interactions_35',['interactions',['../struct_acts_1_1_i_surface_material_accumulator_1_1_track_accumulation.html#abdb72d43a094ad5d9653c5c065c02b0f',1,'Acts::ISurfaceMaterialAccumulator::TrackAccumulation::interactions'],['../struct_acts_fatras_1_1_single_particle_simulation.html#a9d0943350edbd6bdfee332d2c5e4cffa',1,'ActsFatras::SingleParticleSimulation::interactions']]],
   ['interceptrange_36',['interceptRange',['../struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_config.html#ae9eb6d0b4e2c8ba4e41f7a1be8593048',1,'Acts::Experimental::CompositeSpacePointLineSeeder::Config']]],
   ['internallimit_37',['internalLimit',['../struct_acts_1_1_path_limit_reached.html#ae530cfb7adcbd4f28be85b2b2db78b96',1,'Acts::PathLimitReached']]],
   ['intersect_38',['intersect',['../struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html#a19990c7b2f1fbe1a9c88ae9cc8517a2f',1,'ActsFatras::Segmentizer::ChannelStep']]],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX18 =
 {
+"class_acts_1_1_generic_runge_kutta_stepper.html#a1c17b6358eda2e683623815d4d396985":[8,0,0,165,25],
 "class_acts_1_1_generic_runge_kutta_stepper.html#a2192f78b28f885821292867e9c28023b":[6,0,0,160,40],
 "class_acts_1_1_generic_runge_kutta_stepper.html#a2192f78b28f885821292867e9c28023b":[8,0,0,165,40],
 "class_acts_1_1_generic_runge_kutta_stepper.html#a23091b24378856e0098e8b2b2f63e9fc":[6,0,0,160,17],
@@ -248,6 +249,5 @@ var NAVTREEINDEX18 =
 "class_acts_1_1_glue_volumes_descriptor.html#ac9f9e46c42427cf78cf90d89385d5e77":[8,0,0,176,2],
 "class_acts_1_1_glue_volumes_descriptor.html#ad66965c9b54ca54eee01047e1eb76bbf":[6,0,0,171,6],
 "class_acts_1_1_glue_volumes_descriptor.html#ad66965c9b54ca54eee01047e1eb76bbf":[8,0,0,176,6],
-"class_acts_1_1_greedy_ambiguity_resolution.html":[6,0,0,172],
-"class_acts_1_1_greedy_ambiguity_resolution.html":[8,0,0,177]
+"class_acts_1_1_greedy_ambiguity_resolution.html":[6,0,0,172]
 };

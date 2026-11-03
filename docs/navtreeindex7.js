@@ -1,5 +1,6 @@
 var NAVTREEINDEX7 =
 {
+"class_acts_1_1_cone_volume_bounds.html#aa2fc1ce5780a5ad29088c8c2a1a7f1a8":[6,0,0,83,2],
 "class_acts_1_1_cone_volume_bounds.html#aa2fc1ce5780a5ad29088c8c2a1a7f1a8":[8,0,0,88,2],
 "class_acts_1_1_cone_volume_bounds.html#aa7dd559d704517bdce9eb71f765e0294":[6,0,0,83,11],
 "class_acts_1_1_cone_volume_bounds.html#aa7dd559d704517bdce9eb71f765e0294":[8,0,0,88,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX7 =
 "class_acts_1_1_cuboid_stack_portal_shell.html#abb9b3b1e06eac8e798fe3db3a6561fba":[8,0,0,100,4],
 "class_acts_1_1_cuboid_volume_bounds.html":[6,0,0,96],
 "class_acts_1_1_cuboid_volume_bounds.html":[8,0,0,101],
-"class_acts_1_1_cuboid_volume_bounds.html#a131382ba050e6239e7e5f24e28e8ad0d":[6,0,0,96,15],
-"class_acts_1_1_cuboid_volume_bounds.html#a131382ba050e6239e7e5f24e28e8ad0d":[8,0,0,101,15]
+"class_acts_1_1_cuboid_volume_bounds.html#a131382ba050e6239e7e5f24e28e8ad0d":[6,0,0,96,15]
 };

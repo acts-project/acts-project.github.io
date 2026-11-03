@@ -1,5 +1,8 @@
 var NAVTREEINDEX44 =
 {
+"class_acts_fatras_1_1_interaction_list.html#af88eefb2124c70d47d1687e10b5cce2b":[6,0,2,17,1],
+"class_acts_fatras_1_1_interaction_list.html#af88eefb2124c70d47d1687e10b5cce2b":[8,0,1,18,1],
+"class_acts_fatras_1_1_landau_distribution.html":[6,0,2,18],
 "class_acts_fatras_1_1_landau_distribution.html":[8,0,1,19],
 "class_acts_fatras_1_1_landau_distribution.html#a017e49323ab717b167c5bb13a5cfb647":[6,0,2,18,2],
 "class_acts_fatras_1_1_landau_distribution.html#a017e49323ab717b167c5bb13a5cfb647":[8,0,1,19,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX44 =
 "class_acts_plugins_1_1_d_d4hep_detector_surface_factory.html#af2099b2fdeed9a6fafb97e6aacdcb2f6":[5,10,2,2,3],
 "class_acts_plugins_1_1_d_d4hep_field_adapter.html":[5,3,1,8],
 "class_acts_plugins_1_1_d_d4hep_field_adapter.html":[5,10,2,3],
-"class_acts_plugins_1_1_d_d4hep_field_adapter.html":[5,11,0,8],
-"class_acts_plugins_1_1_d_d4hep_field_adapter.html#a57ca26e54057dabefe07d83156ce2851":[5,3,1,8,2],
-"class_acts_plugins_1_1_d_d4hep_field_adapter.html#a57ca26e54057dabefe07d83156ce2851":[5,10,2,3,2],
-"class_acts_plugins_1_1_d_d4hep_field_adapter.html#a57ca26e54057dabefe07d83156ce2851":[5,11,0,8,2]
+"class_acts_plugins_1_1_d_d4hep_field_adapter.html":[5,11,0,8]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX21 =
 {
+"class_acts_1_1_hough_transform_utils_1_1_hough_plane.html#aa11a43e930d4716c639c29026df4ccd5":[8,0,0,5,3,8],
 "class_acts_1_1_hough_transform_utils_1_1_hough_plane.html#aa307108cd88fa1980449b49440b3583f":[6,0,0,4,3,17],
 "class_acts_1_1_hough_transform_utils_1_1_hough_plane.html#aa307108cd88fa1980449b49440b3583f":[8,0,0,5,3,17],
 "class_acts_1_1_hough_transform_utils_1_1_hough_plane.html#aac64b3abd0ec305152fc0c674ed5579b":[6,0,0,4,3,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX21 =
 "class_acts_1_1_i_multi_axis_x_d.html#a340710136d0102a70f4fc146aef15163":[6,0,0,199,6],
 "class_acts_1_1_i_multi_axis_x_d.html#a340710136d0102a70f4fc146aef15163":[8,0,0,204,6],
 "class_acts_1_1_i_multi_axis_x_d.html#a3e0ca2e3eac53f6ffaa081cb3d525471":[6,0,0,199,11],
-"class_acts_1_1_i_multi_axis_x_d.html#a3e0ca2e3eac53f6ffaa081cb3d525471":[8,0,0,204,11],
-"class_acts_1_1_i_multi_axis_x_d.html#a3feb2a98b948fab44b1510f99983929f":[6,0,0,199,4]
+"class_acts_1_1_i_multi_axis_x_d.html#a3e0ca2e3eac53f6ffaa081cb3d525471":[8,0,0,204,11]
 };

@@ -11,10 +11,10 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="struct_acts_plugins_1_1_geant4_material_step_converter_1_1_config.html" target="_top" xlink:title="Nested configuration struct.">
+<g id="a_Node000000"><a xlink:href="class_acts_plugins_1_1_geant4_material_step_converter.html" target="_top" xlink:title="Converts Geant4 steps into recorded material tracks.">
 <polygon fill="white" stroke="#666666" points="155,-30 0,-30 0,0 155,0 155,-30"/>
 <text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">ActsPlugins::Geant4Material</text>
-<text text-anchor="middle" x="77.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">StepConverter::Config</text>
+<text text-anchor="middle" x="77.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">StepConverter</text>
 </a>
 </g>
 </g>

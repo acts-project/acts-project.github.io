@@ -1,9 +1,11 @@
 <map id="Acts::BinnedSurfaceMaterialAccumulator::State" name="Acts::BinnedSurfaceMaterialAccumulator::State">
-<area shape="rect" id="Node000001" title="Nested state struct." alt="" coords="889,41,1096,81"/>
+<area shape="rect" id="Node000001" title="Nested state struct." alt="" coords="889,77,1096,117"/>
 <area shape="rect" id="Node000002" href="$class_acts_1_1_i_surface_material_accumulator_1_1_state.html" title="The state of the material accumulator, this is used to cache information across tracks/events." alt="" coords="448,5,695,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="709,34,889,50,889,55,708,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="709,41,866,67,906,75,905,80,865,72,708,46"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="467,70,676,125"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="689,89,865,76,889,73,890,79,866,81,690,94"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="690,95,889,95,889,100,690,100"/>
 <area shape="rect" id="Node000004" title=" " alt="" coords="5,85,140,110"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="154,95,466,95,466,100,154,100"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="480,149,663,189"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="676,153,865,123,905,115,906,120,866,128,677,158"/>
 </map>

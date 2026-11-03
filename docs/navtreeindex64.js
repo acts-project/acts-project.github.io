@@ -1,5 +1,13 @@
 var NAVTREEINDEX64 =
 {
+"struct_acts_1_1_navigator_plain_options.html#ae39cf9c4751da457815d5be80fba23b9":[6,0,0,304,0],
+"struct_acts_1_1_navigator_plain_options.html#ae39cf9c4751da457815d5be80fba23b9":[8,0,0,309,0],
+"struct_acts_1_1_navigator_statistics.html":[6,0,0,305],
+"struct_acts_1_1_navigator_statistics.html":[8,0,0,310],
+"struct_acts_1_1_navigator_statistics.html#ab50ffa8302b4f80f3313323b758f3f30":[6,0,0,305,1],
+"struct_acts_1_1_navigator_statistics.html#ab50ffa8302b4f80f3313323b758f3f30":[8,0,0,310,1],
+"struct_acts_1_1_navigator_statistics.html#ae69b4ee832937554dec5c0ff617f9fd0":[6,0,0,305,0],
+"struct_acts_1_1_navigator_statistics.html#ae69b4ee832937554dec5c0ff617f9fd0":[8,0,0,310,0],
 "struct_acts_1_1_no_target_aborter.html":[6,0,0,307],
 "struct_acts_1_1_no_target_aborter.html":[8,0,0,312],
 "struct_acts_1_1_null_b_field_1_1_cache.html":[5,3,1,6,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX64 =
 "struct_acts_1_1_propagator_state.html#a915284aac1586a21c4765cfba6c0dbbd":[6,0,0,345,4],
 "struct_acts_1_1_propagator_state.html#a915284aac1586a21c4765cfba6c0dbbd":[8,0,0,350,4],
 "struct_acts_1_1_propagator_state.html#aad38b60f36a93223422c2318afa878c3":[6,0,0,345,10],
-"struct_acts_1_1_propagator_state.html#aad38b60f36a93223422c2318afa878c3":[8,0,0,350,10],
-"struct_acts_1_1_propagator_state.html#acf5200cd0b13817ca1687fd05aa3735e":[6,0,0,345,13],
-"struct_acts_1_1_propagator_state.html#acf5200cd0b13817ca1687fd05aa3735e":[8,0,0,350,13],
-"struct_acts_1_1_propagator_state.html#ad3bee839e7289f5b43a310121889f181":[6,0,0,345,2],
-"struct_acts_1_1_propagator_state.html#ad3bee839e7289f5b43a310121889f181":[8,0,0,350,2],
-"struct_acts_1_1_propagator_state.html#aea2a258e8b59c9d83677336e0129259e":[6,0,0,345,14],
-"struct_acts_1_1_propagator_state.html#aea2a258e8b59c9d83677336e0129259e":[8,0,0,350,14],
-"struct_acts_1_1_propagator_statistics.html":[6,0,0,346],
-"struct_acts_1_1_propagator_statistics.html":[8,0,0,351]
+"struct_acts_1_1_propagator_state.html#aad38b60f36a93223422c2318afa878c3":[8,0,0,350,10]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"class_acts_1_1_butcher_tableau.html#a999ce75c74ccc5bcdc44ecfdd05c6ebe":[8,0,0,73,1],
 "class_acts_1_1_butcher_tableau.html#a99aee127e41cba9e6247c5870f3798b4":[6,0,0,68,4],
 "class_acts_1_1_butcher_tableau.html#a99aee127e41cba9e6247c5870f3798b4":[8,0,0,73,4],
 "class_acts_1_1_butcher_tableau.html#aab6bc7507d96cab7a22339121647d141":[6,0,0,68,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "class_acts_1_1_cone_volume_bounds.html#a8e83e32a9ba2e8384288440e5c25a659":[6,0,0,83,9],
 "class_acts_1_1_cone_volume_bounds.html#a8e83e32a9ba2e8384288440e5c25a659":[8,0,0,88,9],
 "class_acts_1_1_cone_volume_bounds.html#a91fa65a7ff4165827a4b695f09f3475f":[6,0,0,83,17],
-"class_acts_1_1_cone_volume_bounds.html#a91fa65a7ff4165827a4b695f09f3475f":[8,0,0,88,17],
-"class_acts_1_1_cone_volume_bounds.html#aa2fc1ce5780a5ad29088c8c2a1a7f1a8":[6,0,0,83,2]
+"class_acts_1_1_cone_volume_bounds.html#a91fa65a7ff4165827a4b695f09f3475f":[8,0,0,88,17]
 };

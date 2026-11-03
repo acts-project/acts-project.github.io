@@ -1,5 +1,13 @@
 var NAVTREEINDEX66 =
 {
+"struct_acts_1_1_stepper_plain_options.html#ab575d98e21a8f5fa2a8d8db17cb30ece":[6,0,0,385,9],
+"struct_acts_1_1_stepper_plain_options.html#ab575d98e21a8f5fa2a8d8db17cb30ece":[8,0,0,390,9],
+"struct_acts_1_1_stepper_plain_options.html#aba86da5f93b3d79bf4439e026d08774c":[6,0,0,385,4],
+"struct_acts_1_1_stepper_plain_options.html#aba86da5f93b3d79bf4439e026d08774c":[8,0,0,390,4],
+"struct_acts_1_1_stepper_plain_options.html#ac8b94ad75f6aa8645c9b7c96f0999240":[6,0,0,385,6],
+"struct_acts_1_1_stepper_plain_options.html#ac8b94ad75f6aa8645c9b7c96f0999240":[8,0,0,390,6],
+"struct_acts_1_1_stepper_plain_options_1_1_dense.html":[6,0,0,385,0],
+"struct_acts_1_1_stepper_plain_options_1_1_dense.html":[8,0,0,390,0],
 "struct_acts_1_1_stepper_plain_options_1_1_dense.html#a64c63f1ca58ff8e9e0829078d69334f3":[6,0,0,385,0,2],
 "struct_acts_1_1_stepper_plain_options_1_1_dense.html#a64c63f1ca58ff8e9e0829078d69334f3":[8,0,0,390,0,2],
 "struct_acts_1_1_stepper_plain_options_1_1_dense.html#a66570b91b0dd942335e569ea47da5e1f":[6,0,0,385,0,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX66 =
 "struct_acts_1_1_table_1_1_column.html#aa7808e83d1bc1375d6b24a56a3f9aeda":[8,0,0,415,0,0],
 "struct_acts_1_1_toroid_field_1_1_barrel_config.html":[6,0,0,411,0],
 "struct_acts_1_1_toroid_field_1_1_barrel_config.html":[8,0,0,416,0],
-"struct_acts_1_1_toroid_field_1_1_barrel_config.html#a19f7c9cceacea45b462a553ce56ba591":[6,0,0,411,0,5],
-"struct_acts_1_1_toroid_field_1_1_barrel_config.html#a19f7c9cceacea45b462a553ce56ba591":[8,0,0,416,0,5],
-"struct_acts_1_1_toroid_field_1_1_barrel_config.html#a87a1cd078b874ee4d24e3ebf099376a4":[6,0,0,411,0,2],
-"struct_acts_1_1_toroid_field_1_1_barrel_config.html#a87a1cd078b874ee4d24e3ebf099376a4":[8,0,0,416,0,2],
-"struct_acts_1_1_toroid_field_1_1_barrel_config.html#aa380973187d261ecf780214d794a9770":[6,0,0,411,0,3],
-"struct_acts_1_1_toroid_field_1_1_barrel_config.html#aa380973187d261ecf780214d794a9770":[8,0,0,416,0,3],
-"struct_acts_1_1_toroid_field_1_1_barrel_config.html#ad0eb88e24f19039e58330ba3db1a51c1":[6,0,0,411,0,4],
-"struct_acts_1_1_toroid_field_1_1_barrel_config.html#ad0eb88e24f19039e58330ba3db1a51c1":[8,0,0,416,0,4],
-"struct_acts_1_1_toroid_field_1_1_barrel_config.html#ade2145ec68155ac2f31e34be46617601":[6,0,0,411,0,0]
+"struct_acts_1_1_toroid_field_1_1_barrel_config.html#a19f7c9cceacea45b462a553ce56ba591":[6,0,0,411,0,5]
 };

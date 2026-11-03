@@ -520,6 +520,7 @@ var hierarchy =
     [ "Acts::ISurfaceMaterialAccumulator::State", "class_acts_1_1_i_surface_material_accumulator_1_1_state.html", [
       [ "Acts::BinnedSurfaceMaterialAccumulator::State", "struct_acts_1_1_binned_surface_material_accumulator_1_1_state.html", null ]
     ] ],
+    [ "Acts::ISurfaceMaterialAccumulator::TrackAccumulation", "struct_acts_1_1_i_surface_material_accumulator_1_1_track_accumulation.html", null ],
     [ "Acts::IterativeVertexFinder::Config", "struct_acts_1_1_iterative_vertex_finder_1_1_config.html", null ],
     [ "Acts::IterativeVertexFinder::State", "struct_acts_1_1_iterative_vertex_finder_1_1_state.html", null ],
     [ "Acts::ITrackingGeometryBuilder", "class_acts_1_1_i_tracking_geometry_builder.html", [

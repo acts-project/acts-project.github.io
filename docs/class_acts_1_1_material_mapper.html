@@ -150,6 +150,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a56b9436f9d2fadf4b395c8e94f886afc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finalize the maps.  <br /></td></tr>
 <tr class="memitem:a3c0d9be739a17e674709ccd0f181ccd6" id="r_a3c0d9be739a17e674709ccd0f181ccd6"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="namespace_acts.html#a7c52cf739300a2e3988b6fbea63e17dd">RecordedMaterialTrack</a>, <a class="el" href="namespace_acts.html#a7c52cf739300a2e3988b6fbea63e17dd">RecordedMaterialTrack</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c0d9be739a17e674709ccd0f181ccd6">mapMaterial</a> (<a class="el" href="struct_acts_1_1_material_mapper_1_1_state.html">State</a> &amp;state, const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_magnetic_field_context.html">MagneticFieldContext</a> &amp;mctx, const <a class="el" href="namespace_acts.html#a7c52cf739300a2e3988b6fbea63e17dd">RecordedMaterialTrack</a> &amp;rmTrack, const <a class="el" href="struct_acts_1_1_material_mapper_1_1_options.html">Options</a> &amp;options=<a class="el" href="struct_acts_1_1_material_mapper_1_1_options.html">Options</a>{}) const</td></tr>
 <tr class="memdesc:a3c0d9be739a17e674709ccd0f181ccd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map the material interactions to the surfaces.  <br /></td></tr>
+<tr class="memitem:ae6885c309b98f72dbc67d4e0d484cbe2" id="r_ae6885c309b98f72dbc67d4e0d484cbe2"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; <a class="el" href="namespace_acts.html#a7c52cf739300a2e3988b6fbea63e17dd">RecordedMaterialTrack</a>, <a class="el" href="namespace_acts.html#a7c52cf739300a2e3988b6fbea63e17dd">RecordedMaterialTrack</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6885c309b98f72dbc67d4e0d484cbe2">mapMaterial</a> (<a class="el" href="struct_acts_1_1_material_mapper_1_1_state.html">State</a> &amp;state, const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_magnetic_field_context.html">MagneticFieldContext</a> &amp;mctx, std::span&lt; const <a class="el" href="namespace_acts.html#a7c52cf739300a2e3988b6fbea63e17dd">RecordedMaterialTrack</a> *const &gt; rmTracks, const <a class="el" href="struct_acts_1_1_material_mapper_1_1_options.html">Options</a> &amp;options=<a class="el" href="struct_acts_1_1_material_mapper_1_1_options.html">Options</a>{}) const</td></tr>
+<tr class="memdesc:ae6885c309b98f72dbc67d4e0d484cbe2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map the material interactions of a batch of tracks.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class that implements the material mapping procedure. </p>
@@ -251,7 +253,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a3c0d9be739a17e674709ccd0f181ccd6" name="a3c0d9be739a17e674709ccd0f181ccd6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c0d9be739a17e674709ccd0f181ccd6">&#9670;&#160;</a></span>mapMaterial()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c0d9be739a17e674709ccd0f181ccd6">&#9670;&#160;</a></span>mapMaterial() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -296,6 +298,56 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the mapped and unmapped material tracks </dd></dl>
+
+</div>
+</div>
+<a id="ae6885c309b98f72dbc67d4e0d484cbe2" name="ae6885c309b98f72dbc67d4e0d484cbe2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6885c309b98f72dbc67d4e0d484cbe2">&#9670;&#160;</a></span>mapMaterial() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::pair&lt; <a class="el" href="namespace_acts.html#a7c52cf739300a2e3988b6fbea63e17dd">RecordedMaterialTrack</a>, <a class="el" href="namespace_acts.html#a7c52cf739300a2e3988b6fbea63e17dd">RecordedMaterialTrack</a> &gt; &gt; Acts::MaterialMapper::mapMaterial </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_acts_1_1_material_mapper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_magnetic_field_context.html">MagneticFieldContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::span&lt; const <a class="el" href="namespace_acts.html#a7c52cf739300a2e3988b6fbea63e17dd">RecordedMaterialTrack</a> *const &gt;</td>          <td class="paramname"><span class="paramname"><em>rmTracks</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_material_mapper_1_1_options.html">Options</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>options</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="struct_acts_1_1_material_mapper_1_1_options.html">Options</a>{}</span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Map the material interactions of a batch of tracks. </p>
+<p>The assignment of the tracks runs concurrently on the configured number of threads, the accumulation is delegated to the batch accumulation of the surface material accumulator. The result is identical to calling the single-track <a class="el" href="#a3c0d9be739a17e674709ccd0f181ccd6">mapMaterial</a> for every track in order.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">state</td><td>the state object holding the sub states </td></tr>
+    <tr><td class="paramname">gctx</td><td>the geometry context </td></tr>
+    <tr><td class="paramname">mctx</td><td>the magnetic field context </td></tr>
+    <tr><td class="paramname">rmTracks</td><td>the recorded material tracks, which are not copied </td></tr>
+    <tr><td class="paramname">options</td><td>the call options (see above)</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the mapped and unmapped material tracks, in input order </dd></dl>
 
 </div>
 </div>

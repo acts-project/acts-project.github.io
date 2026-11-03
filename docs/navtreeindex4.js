@@ -96,10 +96,11 @@ var NAVTREEINDEX4 =
 "class_acts_1_1_binned_surface_material.html#af81db06029929894404cec86997ebee7":[5,3,2,3,3],
 "class_acts_1_1_binned_surface_material_accumulator.html":[5,3,2,0,4],
 "class_acts_1_1_binned_surface_material_accumulator.html#a191154622845a1e8042964c959219695":[5,3,2,0,4,3],
+"class_acts_1_1_binned_surface_material_accumulator.html#a5f3f5c8bd47ec0d0de873fd171879f4f":[5,3,2,0,4,4],
 "class_acts_1_1_binned_surface_material_accumulator.html#a82a4abe894494aa3f90cfad5f0f338c6":[5,3,2,0,4,2],
-"class_acts_1_1_binned_surface_material_accumulator.html#a90c32707e41076fa9e46fdf80a6b39fe":[5,3,2,0,4,5],
-"class_acts_1_1_binned_surface_material_accumulator.html#a9578a63be847d1d97fe15ea4877edc52":[5,3,2,0,4,6],
-"class_acts_1_1_binned_surface_material_accumulator.html#acbbd6c3ad3ea92ceccad70680063f526":[5,3,2,0,4,4],
+"class_acts_1_1_binned_surface_material_accumulator.html#a90c32707e41076fa9e46fdf80a6b39fe":[5,3,2,0,4,6],
+"class_acts_1_1_binned_surface_material_accumulator.html#a9578a63be847d1d97fe15ea4877edc52":[5,3,2,0,4,7],
+"class_acts_1_1_binned_surface_material_accumulator.html#acbbd6c3ad3ea92ceccad70680063f526":[5,3,2,0,4,5],
 "class_acts_1_1_binning_data.html":[6,0,0,55],
 "class_acts_1_1_binning_data.html":[8,0,0,60],
 "class_acts_1_1_binning_data.html#a112c462514c36f0448f5fe8387745433":[6,0,0,55,24],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "class_acts_1_1_blueprint_node.html":[8,0,0,64],
 "class_acts_1_1_blueprint_node.html#a0af7d6319867607174c8ee245cb6f5e9":[6,0,0,59,8],
 "class_acts_1_1_blueprint_node.html#a0af7d6319867607174c8ee245cb6f5e9":[8,0,0,64,8],
-"class_acts_1_1_blueprint_node.html#a1000a11bbbac9055f1564d7a8321e8a1":[6,0,0,59,26],
-"class_acts_1_1_blueprint_node.html#a1000a11bbbac9055f1564d7a8321e8a1":[8,0,0,64,26]
+"class_acts_1_1_blueprint_node.html#a1000a11bbbac9055f1564d7a8321e8a1":[6,0,0,59,26]
 };

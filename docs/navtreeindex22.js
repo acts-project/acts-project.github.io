@@ -1,5 +1,6 @@
 var NAVTREEINDEX22 =
 {
+"class_acts_1_1_i_multi_axis_x_d.html#a3feb2a98b948fab44b1510f99983929f":[6,0,0,199,4],
 "class_acts_1_1_i_multi_axis_x_d.html#a3feb2a98b948fab44b1510f99983929f":[8,0,0,204,4],
 "class_acts_1_1_i_multi_axis_x_d.html#a4f9ec1368c9473bc8275054838ef11d4":[6,0,0,199,23],
 "class_acts_1_1_i_multi_axis_x_d.html#a4f9ec1368c9473bc8275054838ef11d4":[8,0,0,204,23],
@@ -76,11 +77,12 @@ var NAVTREEINDEX22 =
 "class_acts_1_1_i_surface_material.html#ac0689ff6c247b5cd69de981ed7e0be53":[5,3,2,11,14],
 "class_acts_1_1_i_surface_material.html#ae035f5e22c7e7b38707ca694e9051e95":[5,3,2,11,13],
 "class_acts_1_1_i_surface_material_accumulator.html":[5,3,2,0,7],
-"class_acts_1_1_i_surface_material_accumulator.html#a30c36940b0d558c07baa817aeb76133b":[5,3,2,0,7,1],
-"class_acts_1_1_i_surface_material_accumulator.html#a54501974c15657e0fd6eb78434a519af":[5,3,2,0,7,3],
-"class_acts_1_1_i_surface_material_accumulator.html#ab60215d24c64dcc01ea841e3287a493f":[5,3,2,0,7,2],
-"class_acts_1_1_i_surface_material_accumulator.html#ac45d61288d43796414703cb68c4d6f4a":[5,3,2,0,7,5],
-"class_acts_1_1_i_surface_material_accumulator.html#afe614f0b9443659decc7bd0b58f30b43":[5,3,2,0,7,4],
+"class_acts_1_1_i_surface_material_accumulator.html#a286f33aa3653712006e24b9ec695647f":[5,3,2,0,7,4],
+"class_acts_1_1_i_surface_material_accumulator.html#a30c36940b0d558c07baa817aeb76133b":[5,3,2,0,7,2],
+"class_acts_1_1_i_surface_material_accumulator.html#a52ca3cc4e6cf7482814ea9f8be3c2ba9":[5,3,2,0,7,3],
+"class_acts_1_1_i_surface_material_accumulator.html#a54501974c15657e0fd6eb78434a519af":[5,3,2,0,7,5],
+"class_acts_1_1_i_surface_material_accumulator.html#ac45d61288d43796414703cb68c4d6f4a":[5,3,2,0,7,7],
+"class_acts_1_1_i_surface_material_accumulator.html#afe614f0b9443659decc7bd0b58f30b43":[5,3,2,0,7,6],
 "class_acts_1_1_i_surface_material_accumulator_1_1_state.html":[5,3,2,0,7,0],
 "class_acts_1_1_i_tracking_geometry_builder.html":[6,0,0,229],
 "class_acts_1_1_i_tracking_geometry_builder.html":[8,0,0,234],
@@ -247,7 +249,5 @@ var NAVTREEINDEX22 =
 "class_acts_1_1_index_grid_navigation_policy.html#af04463e89b607915401f88ca872763c2":[8,0,0,209,1],
 "class_acts_1_1_infinite_bounds.html":[6,0,0,205],
 "class_acts_1_1_infinite_bounds.html":[8,0,0,210],
-"class_acts_1_1_infinite_bounds.html#a3485e422a4da4b2a1174d723550568d4":[6,0,0,205,9],
-"class_acts_1_1_infinite_bounds.html#a3485e422a4da4b2a1174d723550568d4":[8,0,0,210,9],
-"class_acts_1_1_infinite_bounds.html#a45c74da9abade3befd4c3efe07ff4149":[6,0,0,205,1]
+"class_acts_1_1_infinite_bounds.html#a3485e422a4da4b2a1174d723550568d4":[6,0,0,205,9]
 };

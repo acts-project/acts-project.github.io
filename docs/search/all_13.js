@@ -202,12 +202,13 @@ var searchData=
   ['numpolyhedronpoints_199',['numPolyhedronPoints',['../struct_acts_1_1_index_grid_navigation_json_converter_1_1_options.html#a0336a404b6a9d18ad8cb6fdd6dc88a84',1,'Acts::IndexGridNavigationJsonConverter::Options']]],
   ['numseedincrement_200',['numSeedIncrement',['../struct_acts_1_1_broad_triplet_seed_filter_1_1_config.html#a02adf6d7dd0afda49534ba900f55dc9a',1,'Acts::BroadTripletSeedFilter::Config']]],
   ['numstacktraces_201',['numStackTraces',['../struct_acts_plugins_1_1_fpe_monitor_1_1_result.html#a87ce8ddf60172f56a42bd16081f901ce',1,'ActsPlugins::FpeMonitor::Result']]],
-  ['nupdatemax_202',['nUpdateMax',['../struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#acd7a4cac5bf6ecde98970083fadb866b',1,'Acts::Experimental::Gx2FitterOptions']]],
-  ['nutshell_203',['Tracking in a nutshell',['../tracking.html',1,'']]],
-  ['nvertices_204',['nVertices',['../class_acts_1_1_convex_polygon_bounds.html#ac1b8e14ac348f90aaee8ec9f6785cd8b',1,'Acts::ConvexPolygonBounds::nVertices'],['../class_acts_1_1_convex_polygon_bounds_3_01_polygon_dynamic_01_4.html#ad9f14a1205442f580bb68410e67d319e',1,'Acts::ConvexPolygonBounds&lt; PolygonDynamic &gt;::nVertices']]],
-  ['nvolumeconfig_205',['nVolumeConfig',['../struct_acts_1_1_wrapping_config.html#ae709d911b42877530972c5bc72fdf016',1,'Acts::WrappingConfig']]],
-  ['nvolumeswitches_206',['nVolumeSwitches',['../struct_acts_1_1_navigator_statistics.html#ab50ffa8302b4f80f3313323b758f3f30',1,'Acts::NavigatorStatistics']]],
-  ['nxbins_207',['nXbins',['../struct_acts_1_1_cartesian_space_point_grid_1_1_config.html#a018801c6d438aaef06269cd417b4bdc4',1,'Acts::CartesianSpacePointGrid::Config']]],
-  ['nybins_208',['nYbins',['../struct_acts_1_1_cartesian_space_point_grid_1_1_config.html#a575c2d328e8b544c9d74d7a7520cc916',1,'Acts::CartesianSpacePointGrid::Config']]],
-  ['nzbins_209',['nZbins',['../struct_acts_1_1_cartesian_space_point_grid_1_1_config.html#a49cb7ac7e5352a1874865f49f8b81748',1,'Acts::CartesianSpacePointGrid::Config']]]
+  ['numthreads_202',['numThreads',['../struct_acts_1_1_material_mapper_1_1_config.html#acabad866ef5cb8b45d7fa0fabc92f019',1,'Acts::MaterialMapper::Config']]],
+  ['nupdatemax_203',['nUpdateMax',['../struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#acd7a4cac5bf6ecde98970083fadb866b',1,'Acts::Experimental::Gx2FitterOptions']]],
+  ['nutshell_204',['Tracking in a nutshell',['../tracking.html',1,'']]],
+  ['nvertices_205',['nVertices',['../class_acts_1_1_convex_polygon_bounds.html#ac1b8e14ac348f90aaee8ec9f6785cd8b',1,'Acts::ConvexPolygonBounds::nVertices'],['../class_acts_1_1_convex_polygon_bounds_3_01_polygon_dynamic_01_4.html#ad9f14a1205442f580bb68410e67d319e',1,'Acts::ConvexPolygonBounds&lt; PolygonDynamic &gt;::nVertices']]],
+  ['nvolumeconfig_206',['nVolumeConfig',['../struct_acts_1_1_wrapping_config.html#ae709d911b42877530972c5bc72fdf016',1,'Acts::WrappingConfig']]],
+  ['nvolumeswitches_207',['nVolumeSwitches',['../struct_acts_1_1_navigator_statistics.html#ab50ffa8302b4f80f3313323b758f3f30',1,'Acts::NavigatorStatistics']]],
+  ['nxbins_208',['nXbins',['../struct_acts_1_1_cartesian_space_point_grid_1_1_config.html#a018801c6d438aaef06269cd417b4bdc4',1,'Acts::CartesianSpacePointGrid::Config']]],
+  ['nybins_209',['nYbins',['../struct_acts_1_1_cartesian_space_point_grid_1_1_config.html#a575c2d328e8b544c9d74d7a7520cc916',1,'Acts::CartesianSpacePointGrid::Config']]],
+  ['nzbins_210',['nZbins',['../struct_acts_1_1_cartesian_space_point_grid_1_1_config.html#a49cb7ac7e5352a1874865f49f8b81748',1,'Acts::CartesianSpacePointGrid::Config']]]
 ];

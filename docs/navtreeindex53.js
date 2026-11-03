@@ -1,5 +1,8 @@
 var NAVTREEINDEX53 =
 {
+"struct_acts_1_1_atlas_stepper_1_1_state.html#a17cb9836b5d706519a99dc8f73171bf9":[6,0,0,35,2,4],
+"struct_acts_1_1_atlas_stepper_1_1_state.html#a17cb9836b5d706519a99dc8f73171bf9":[8,0,0,40,2,4],
+"struct_acts_1_1_atlas_stepper_1_1_state.html#a29b6ca916d630d39eed6613a4d6d6521":[6,0,0,35,2,15],
 "struct_acts_1_1_atlas_stepper_1_1_state.html#a29b6ca916d630d39eed6613a4d6d6521":[8,0,0,40,2,15],
 "struct_acts_1_1_atlas_stepper_1_1_state.html#a29f02aa619ee96cf7adcead8c972e8f6":[6,0,0,35,2,20],
 "struct_acts_1_1_atlas_stepper_1_1_state.html#a29f02aa619ee96cf7adcead8c972e8f6":[8,0,0,40,2,20],
@@ -89,6 +92,7 @@ var NAVTREEINDEX53 =
 "struct_acts_1_1_binned_surface_material_accumulator_1_1_state.html":[5,3,2,0,4,1],
 "struct_acts_1_1_binned_surface_material_accumulator_1_1_state.html#a0eecbe30758e6a22f756ac29aedd524f":[5,3,2,0,4,1,0],
 "struct_acts_1_1_binned_surface_material_accumulator_1_1_state.html#a3860dc4fc67c51f34858e344888f837b":[5,3,2,0,4,1,1],
+"struct_acts_1_1_binned_surface_material_accumulator_1_1_state.html#a91069fd60a6a8c260ddafa1b880fff6f":[5,3,2,0,4,1,2],
 "struct_acts_1_1_blueprint_1_1_config.html":[6,0,0,57,0],
 "struct_acts_1_1_blueprint_1_1_config.html":[8,0,0,62,0],
 "struct_acts_1_1_blueprint_1_1_config.html#a4646b7821aa7f6df65f22f230b244df6":[6,0,0,57,0,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX53 =
 "struct_acts_1_1_ccl_1_1_default_connect_3_01_cell_00_012_01_4.html#a59ec26d37e9284faa122f8d2598d078e":[8,0,0,1,5,0],
 "struct_acts_1_1_ccl_1_1_timed_connect.html":[8,0,0,1,7],
 "struct_acts_1_1_ccl_1_1_timed_connect.html#a2a08d0a6a8d5184cd372c38ddb5d0b44":[8,0,0,1,7,0],
-"struct_acts_1_1_ccl_1_1_timed_connect.html#a383c7365f42cbde86e5bfb434f240c7d":[8,0,0,1,7,2],
-"struct_acts_1_1_ccl_1_1_timed_connect.html#ab0f5366a199611f0f526855db18b4079":[8,0,0,1,7,1],
-"struct_acts_1_1_ccl_1_1_timed_connect.html#af7563214bededba9c56dc7edf3cebb2a":[8,0,0,1,7,3],
-"struct_acts_1_1_center_reference_generator.html":[6,0,0,71],
-"struct_acts_1_1_center_reference_generator.html":[8,0,0,76]
+"struct_acts_1_1_ccl_1_1_timed_connect.html#a383c7365f42cbde86e5bfb434f240c7d":[8,0,0,1,7,2]
 };

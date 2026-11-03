@@ -11,10 +11,10 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="struct_acts_1_1_outer_strip_space_point_calibration_details_derived.html" target="_top" xlink:title="Derived collection of outer strip space point details, used for the calibration.">
+<g id="a_Node000000"><a xlink:href="struct_acts_1_1_outer_strip_space_point_calibration_details.html" target="_top" xlink:title="Collection of outer strip space point details, used for the calibration.">
 <polygon fill="white" stroke="#666666" points="147,-30 0,-30 0,0 147,0 147,-30"/>
 <text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::OuterStripSpacePoint</text>
-<text text-anchor="middle" x="73.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">CalibrationDetailsDerived</text>
+<text text-anchor="middle" x="73.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">CalibrationDetails</text>
 </a>
 </g>
 </g>

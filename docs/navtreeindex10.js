@@ -1,5 +1,6 @@
 var NAVTREEINDEX10 =
 {
+"class_acts_1_1_diamond_portal_shell.html":[8,0,0,123],
 "class_acts_1_1_diamond_portal_shell.html#a1ac065624c6fe940d40360a65883337a":[6,0,0,118,3],
 "class_acts_1_1_diamond_portal_shell.html#a1ac065624c6fe940d40360a65883337a":[8,0,0,123,3],
 "class_acts_1_1_diamond_portal_shell.html#a2c48deb5c822d1692ea383763955f952":[6,0,0,118,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX10 =
 "class_acts_1_1_disc_surface.html#ae0cc0fcbd7636df9c31543ea6ae45c60":[8,0,0,130,12],
 "class_acts_1_1_disc_surface.html#af4368a6fadf0cee364f5bbc664e375ee":[6,0,0,125,6],
 "class_acts_1_1_disc_surface.html#af4368a6fadf0cee364f5bbc664e375ee":[8,0,0,130,6],
-"class_acts_1_1_disc_surface.html#af66e99dfe7d3d38708a0255326cb34bf":[6,0,0,125,10],
-"class_acts_1_1_disc_surface.html#af66e99dfe7d3d38708a0255326cb34bf":[8,0,0,130,10]
+"class_acts_1_1_disc_surface.html#af66e99dfe7d3d38708a0255326cb34bf":[6,0,0,125,10]
 };
