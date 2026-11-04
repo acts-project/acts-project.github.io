@@ -1,13 +1,13 @@
 <map id="Acts::TrackingGeometryMaterial" name="Acts::TrackingGeometryMaterial">
-<area shape="rect" id="Node000001" title="Surface and volume material assignments." alt="" coords="855,147,1085,173"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="415,50,646,105"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="660,97,831,129,908,145,907,150,830,135,659,103"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="5,147,140,173"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="96,136,126,112,163,94,226,77,292,67,356,64,415,64,415,70,356,69,292,73,227,82,165,98,129,117,99,140"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="373,140,688,180"/>
-<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="154,157,373,157,373,163,154,163"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="444,205,617,259"/>
-<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="105,178,133,193,165,205,237,221,311,230,444,234,444,239,310,235,236,226,163,211,131,198,102,182"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="702,157,854,157,854,163,702,163"/>
-<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="631,216,830,185,909,170,910,175,831,191,632,221"/>
+<area shape="rect" id="Node000001" title="Surface and volume material assignments." alt="" coords="851,162,1081,190"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="414,57,643,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="658,110,828,143,904,162,899,162,826,148,658,115"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,162,139,190"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="94,150,124,124,162,103,225,85,290,76,354,72,416,75,410,77,354,78,290,81,226,90,164,108,127,128,98,154"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="372,154,685,199"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="154,174,373,174,370,179,155,179"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="442,223,614,284"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="104,196,133,213,163,226,235,243,309,253,380,256,444,259,439,259,379,262,308,258,234,248,162,231,130,218,103,202"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="700,174,853,176,848,176,701,179"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="630,237,827,204,900,191,906,190,827,209,631,242"/>
 </map>

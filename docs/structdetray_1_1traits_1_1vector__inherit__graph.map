@@ -1,5 +1,5 @@
 <map id="detray::traits::vector&lt; M &gt;" name="detray::traits::vector&lt; M &gt;">
-<area shape="rect" id="Node000001" title="Vector type that is compatible with the matrix." alt="" coords="38,5,234,31"/>
-<area shape="rect" id="Node000002" href="$structdetray_1_1traits_1_1vector_3_01_eigen_1_1_matrix_base_3_01derived__t_01_4_01_4.html" title="VectorVector trait for an Eigen expression with a single compile&#45;time column." alt="" coords="5,121,267,161"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="139,45,139,121,133,121,133,45"/>
+<area shape="rect" id="Node000001" title="Vector type that is compatible with the matrix." alt="" coords="38,5,233,33"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1traits_1_1vector_3_01_eigen_1_1_matrix_base_3_01derived__t_01_4_01_4.html" title="VectorVector trait for an Eigen expression with a single compile&#45;time column." alt="" coords="5,128,266,173"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="138,47,138,129,133,127,133,50"/>
 </map>

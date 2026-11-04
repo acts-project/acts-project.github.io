@@ -1,19 +1,19 @@
 <map id="detray::helix_intersector_impl&lt; frame_t, algebra_t &gt;" name="detray::helix_intersector_impl&lt; frame_t, algebra_t &gt;">
-<area shape="rect" id="Node000001" title="Intersection implementation for detector surfaces using a helix trajectory." alt="" coords="5,268,213,308"/>
-<area shape="rect" id="Node000002" href="$structdetray_1_1intersector__base.html" title=" " alt="" coords="440,13,652,97"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,254,169,188,200,153,236,124,285,99,337,80,390,67,439,59,440,64,391,73,338,85,287,104,239,129,204,157,173,191,130,257"/>
-<area shape="rect" id="Node000004" href="$structdetray_1_1helix__intersector__impl_3_01cartesian2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html" title="Intersection implementation for helical trajectories with planar surfaces." alt="" coords="439,121,653,175"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="156,259,236,222,339,189,438,166,439,171,340,194,238,226,158,264"/>
-<area shape="rect" id="Node000005" href="$structdetray_1_1helix__intersector__impl_3_01polar2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html" title=" " alt="" coords="881,183,1069,238"/>
-<area shape="poly" id="edge9_Node000001_Node000005" title=" " alt="" coords="227,275,881,216,881,222,228,280"/>
-<area shape="rect" id="Node000006" href="$structdetray_1_1helix__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html" title="Helix intersector for a concentric cylindrical coordinate frame." alt="" coords="864,322,1087,377"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="227,295,435,312,864,340,864,346,434,317,227,301"/>
-<area shape="rect" id="Node000007" href="$structdetray_1_1helix__intersector__impl_3_01cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html" title="Intersection implementation for cylinder surfaces using helical trajectories." alt="" coords="435,382,657,437"/>
-<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="138,317,182,358,209,377,238,392,286,407,337,415,387,418,434,418,434,424,387,424,336,420,285,412,236,397,206,382,179,362,134,320"/>
-<area shape="rect" id="Node000008" href="$structdetray_1_1helix__intersector__impl_3_01line2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html" title="Intersection implementation for helical trajectories with line surfaces." alt="" coords="456,461,636,515"/>
-<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="125,320,143,356,167,397,199,436,239,467,291,488,348,499,404,502,456,500,456,505,404,507,347,505,290,494,236,472,195,440,163,400,138,359,121,322"/>
-<area shape="rect" id="Node000003" href="$structdetray_1_1intersector__base.html" title=" " alt="" coords="872,5,1079,104"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="666,52,872,52,872,57,666,57"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="667,163,882,194,881,200,666,168"/>
-<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="671,389,863,362,864,367,672,395"/>
+<area shape="rect" id="Node000001" title="Intersection implementation for detector surfaces using a helix trajectory." alt="" coords="5,293,213,337"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1intersector__base.html" title=" " alt="" coords="438,14,649,110"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,278,168,207,199,170,235,139,283,113,335,93,387,78,439,70,435,73,388,83,336,98,285,117,238,144,203,174,172,210,129,280"/>
+<area shape="rect" id="Node000004" href="$structdetray_1_1helix__intersector__impl_3_01cartesian2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html" title="Intersection implementation for helical trajectories with planar surfaces." alt="" coords="436,134,650,195"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="160,282,236,246,337,211,438,186,433,189,339,216,238,251,164,287"/>
+<area shape="rect" id="Node000005" href="$structdetray_1_1helix__intersector__impl_3_01polar2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html" title=" " alt="" coords="877,203,1064,264"/>
+<area shape="poly" id="edge9_Node000001_Node000005" title=" " alt="" coords="228,301,877,240,876,245,229,306"/>
+<area shape="rect" id="Node000006" href="$structdetray_1_1helix__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html" title="Helix intersector for a concentric cylindrical coordinate frame." alt="" coords="860,348,1081,410"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="228,323,433,341,862,371,858,374,432,346,228,329"/>
+<area shape="rect" id="Node000007" href="$structdetray_1_1helix__intersector__impl_3_01cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html" title="Intersection implementation for cylinder surfaces using helical trajectories." alt="" coords="433,411,654,472"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="137,347,182,391,209,411,238,427,285,441,335,450,385,453,435,454,430,455,385,458,335,455,284,447,236,431,206,416,178,395,136,352"/>
+<area shape="rect" id="Node000008" href="$structdetray_1_1helix__intersector__impl_3_01line2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html" title="Intersection implementation for helical trajectories with line surfaces." alt="" coords="454,496,633,558"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="123,349,142,389,166,432,198,473,238,505,290,527,346,538,401,541,450,542,456,541,401,547,345,544,288,532,235,510,194,477,162,435,137,392,122,355"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1intersector__base.html" title=" " alt="" coords="868,5,1073,118"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="664,59,870,61,865,63,665,64"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="666,181,879,218,874,219,666,187"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="669,421,862,395,857,396,670,426"/>
 </map>

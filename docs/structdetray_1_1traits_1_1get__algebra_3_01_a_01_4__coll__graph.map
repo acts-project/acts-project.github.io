@@ -1,5 +1,5 @@
 <map id="detray::traits::get_algebra&lt; A &gt;" name="detray::traits::get_algebra&lt; A &gt;">
-<area shape="rect" id="Node000001" title="Expose the types provided by a supported algebra." alt="" coords="33,116,168,156"/>
-<area shape="rect" id="Node000002" href="$structdetray_1_1traits_1_1get__algebra.html" title="The algebra types." alt="" coords="5,5,196,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,59,103,116,98,116,98,59"/>
+<area shape="rect" id="Node000001" title="Expose the types provided by a supported algebra." alt="" coords="34,123,167,168"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1traits_1_1get__algebra.html" title="The algebra types." alt="" coords="5,5,196,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,64,103,123,98,122,99,68"/>
 </map>

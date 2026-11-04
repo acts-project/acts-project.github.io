@@ -1,68 +1,68 @@
 <map id="detray::test::detector_scan_config&lt; track_generator_t, algebra_t &gt;" name="detray::test::detector_scan_config&lt; track_generator_t, algebra_t &gt;">
-<area shape="rect" id="Node000001" title="Configuration for a detector scan test." alt="" coords="2779,183,3001,238"/>
-<area shape="rect" id="Node000002" href="$structdetray_1_1test_1_1configuration.html" title=" " alt="" coords="2115,89,2305,129"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="2319,120,2467,140,2779,189,2778,195,2466,145,2318,125"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="1475,202,1549,227"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1560,200,1581,190,1599,177,1607,164,1610,151,1613,137,1624,124,1651,116,1696,109,1827,103,2114,104,2114,109,1827,108,1697,115,1652,121,1627,129,1618,139,1615,152,1612,166,1603,180,1584,195,1563,205"/>
-<area shape="rect" id="Node000011" href="$structdetray_1_1test_1_1configuration.html" title="Test configuration type." alt="" coords="1743,152,1932,192"/>
-<area shape="poly" id="edge11_Node000011_Node000003" title=" " alt="" coords="1562,224,1637,233,1678,232,1718,227,1764,211,1803,190,1806,195,1766,216,1719,232,1678,238,1636,238,1562,229"/>
-<area shape="rect" id="Node000004" href="$structdetray_1_1propagation_1_1config.html" title="Configuration of the propagation." alt="" coords="1437,127,1587,167"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="1553,117,1638,70,1689,49,1742,33,1800,26,1858,25,1917,29,1974,37,2078,61,2158,87,2156,92,2076,66,1973,42,1916,34,1858,30,1800,31,1743,39,1691,54,1640,75,1556,121"/>
-<area shape="poly" id="edge12_Node000011_Node000004" title=" " alt="" coords="1600,151,1743,162,1742,167,1600,156"/>
-<area shape="rect" id="Node000005" href="$structdetray_1_1navigation_1_1config.html" title="Navigation configuration." alt="" coords="1113,192,1253,232"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="1266,197,1398,172,1436,163,1437,169,1399,177,1267,202"/>
-<area shape="rect" id="Node000006" href="$structdetray_1_1intersection_1_1config.html" title="Intersector configuration." alt="" coords="773,256,921,296"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="934,261,1069,237,1112,228,1113,233,1070,243,935,266"/>
-<area shape="rect" id="Node000007" title=" " alt="" coords="764,192,929,232"/>
-<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="943,209,1112,209,1112,215,943,215"/>
-<area shape="rect" id="Node000008" title=" " alt="" coords="358,340,509,380"/>
-<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="503,333,789,230,791,235,504,338"/>
-<area shape="rect" id="Node000009" title=" " alt="" coords="9,553,131,578"/>
-<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="104,543,395,378,398,382,107,548"/>
-<area shape="rect" id="Node000018" title=" " alt="" coords="567,666,713,691"/>
-<area shape="poly" id="edge20_Node000018_Node000009" title=" " alt="" coords="120,580,159,591,261,609,342,615,422,623,524,645,548,656,573,663,572,669,546,661,522,651,422,628,341,620,260,614,158,596,119,585"/>
-<area shape="rect" id="Node000022" title=" " alt="" coords="362,545,505,585"/>
-<area shape="poly" id="edge25_Node000022_Node000009" title=" " alt="" coords="145,563,362,563,362,568,145,568"/>
-<area shape="rect" id="Node000010" href="$structdetray_1_1stepping_1_1config.html" title="Configuration flags and limits consumed by a stepper." alt="" coords="1095,134,1270,159"/>
-<area shape="poly" id="edge9_Node000004_Node000010" title=" " alt="" coords="1284,144,1437,144,1437,149,1284,149"/>
-<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="1946,176,2017,174,2090,163,2135,147,2175,127,2177,132,2137,152,2091,168,2018,179,1946,182"/>
-<area shape="rect" id="Node000012" title=" " alt="" coords="1794,271,1881,297"/>
-<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="1894,269,1996,250,2114,233,2296,219,2478,211,2778,207,2778,212,2478,216,2297,224,2115,239,1997,255,1895,275"/>
-<area shape="rect" id="Node000029" href="$structdetray_1_1svgtools_1_1styling_1_1landmark__style.html" title="Style applied to a proto landmark." alt="" coords="2121,312,2299,352"/>
-<area shape="poly" id="edge37_Node000029_Node000012" title=" " alt="" coords="1894,289,2121,318,2120,323,1894,294"/>
-<area shape="rect" id="Node000013" title=" " alt="" coords="1443,264,1581,304"/>
-<area shape="poly" id="edge14_Node000012_Node000013" title=" " alt="" coords="1595,281,1794,281,1794,287,1595,287"/>
-<area shape="rect" id="Node000014" href="$structdetray_1_1svgtools_1_1styling_1_1style.html" title="Global styling options." alt="" coords="2491,321,2669,361"/>
-<area shape="poly" id="edge15_Node000001_Node000014" title=" " alt="" coords="2640,313,2823,236,2825,241,2643,318"/>
-<area shape="rect" id="Node000015" href="$structdetray_1_1svgtools_1_1styling_1_1detector__style.html" title="Style applied to an actsvg proto detector." alt="" coords="2121,376,2299,416"/>
-<area shape="poly" id="edge16_Node000014_Node000015" title=" " alt="" coords="2313,386,2466,367,2504,359,2505,364,2467,372,2314,391"/>
-<area shape="rect" id="Node000016" href="$structdetray_1_1svgtools_1_1styling_1_1volume__style.html" title="Style applied to an actsvg proto volume." alt="" coords="1748,449,1927,489"/>
-<area shape="poly" id="edge17_Node000015_Node000016" title=" " alt="" coords="1940,447,2120,411,2121,416,1941,452"/>
-<area shape="rect" id="Node000017" href="$structdetray_1_1svgtools_1_1styling_1_1surface__style.html" title="Style applied to an actsvg proto surface." alt="" coords="1093,560,1272,600"/>
-<area shape="poly" id="edge18_Node000016_Node000017" title=" " alt="" coords="1286,579,1436,573,1519,564,1601,551,1704,521,1791,487,1793,492,1706,526,1602,556,1520,570,1436,578,1286,584"/>
-<area shape="rect" id="Node000025" href="$structdetray_1_1svgtools_1_1styling_1_1portal__style.html" title="Style applied to an actsvg proto portal." alt="" coords="1423,415,1601,455"/>
-<area shape="poly" id="edge30_Node000025_Node000017" title=" " alt="" coords="1240,552,1464,452,1467,457,1242,557"/>
-<area shape="poly" id="edge19_Node000017_Node000018" title=" " alt="" coords="727,674,827,667,935,652,1038,626,1127,597,1128,603,1039,632,937,657,828,672,727,679"/>
-<area shape="rect" id="Node000019" title=" " alt="" coords="547,725,733,750"/>
-<area shape="poly" id="edge21_Node000017_Node000019" title=" " alt="" coords="747,730,821,722,903,708,988,685,1068,652,1114,625,1154,598,1157,602,1117,630,1071,657,990,690,904,713,822,727,747,736"/>
-<area shape="rect" id="Node000020" title=" " alt="" coords="5,697,135,722"/>
-<area shape="poly" id="edge22_Node000019_Node000020" title=" " alt="" coords="133,722,159,727,262,736,366,740,546,739,546,744,366,745,262,741,158,732,132,728"/>
-<area shape="rect" id="Node000023" title=" " alt="" coords="359,660,508,700"/>
-<area shape="poly" id="edge27_Node000023_Node000020" title=" " alt="" coords="148,700,358,683,359,689,149,706"/>
-<area shape="rect" id="Node000021" href="$structdetray_1_1svgtools_1_1styling_1_1surface__material__style.html" title="Style applied to an actsvg proto surface_material." alt="" coords="757,560,936,600"/>
-<area shape="poly" id="edge23_Node000017_Node000021" title=" " alt="" coords="950,577,1093,577,1093,583,950,583"/>
-<area shape="poly" id="edge24_Node000021_Node000022" title=" " alt="" coords="519,575,547,577,656,581,757,580,757,586,656,586,547,583,518,580"/>
-<area shape="poly" id="edge26_Node000021_Node000023" title=" " alt="" coords="521,658,733,608,773,597,774,603,734,613,522,663"/>
-<area shape="rect" id="Node000024" href="$structdetray_1_1svgtools_1_1styling_1_1grid__style.html" title="Style applied to an actsvg proto grid." alt="" coords="344,465,523,505"/>
-<area shape="poly" id="edge33_Node000015_Node000024" title=" " alt="" coords="478,456,547,420,637,382,739,351,792,342,845,339,1839,339,1914,342,1990,350,2123,373,2122,379,1989,355,1914,347,1839,344,845,344,793,347,740,356,638,387,549,425,481,461"/>
-<area shape="poly" id="edge32_Node000016_Node000024" title=" " alt="" coords="537,482,1748,468,1748,473,537,487"/>
-<area shape="poly" id="edge28_Node000021_Node000024" title=" " alt="" coords="497,508,547,524,599,536,640,542,734,555,757,559,756,564,733,560,639,547,598,541,546,529,495,513"/>
-<area shape="poly" id="edge29_Node000016_Node000025" title=" " alt="" coords="1615,443,1748,457,1748,463,1615,448"/>
-<area shape="rect" id="Node000026" href="$structdetray_1_1svgtools_1_1styling_1_1link__style.html" title="Style applied to an actsvg proto portal link." alt="" coords="1093,379,1272,419"/>
-<area shape="poly" id="edge31_Node000025_Node000026" title=" " alt="" coords="1286,407,1422,422,1422,428,1285,413"/>
-<area shape="rect" id="Node000027" href="$structdetray_1_1svgtools_1_1styling_1_1eta__lines__style.html" title="Style applied to proto eta lines." alt="" coords="2121,440,2299,480"/>
-<area shape="poly" id="edge34_Node000014_Node000027" title=" " alt="" coords="2312,448,2389,434,2466,411,2513,387,2552,359,2555,364,2515,391,2468,416,2390,439,2313,453"/>
-<area shape="rect" id="Node000028" href="$structdetray_1_1svgtools_1_1styling_1_1trajectory__style.html" title="Style applied to a proto trajectory." alt="" coords="2121,248,2299,288"/>
-<area shape="poly" id="edge35_Node000014_Node000028" title=" " alt="" coords="2314,271,2390,280,2467,295,2536,319,2535,324,2466,300,2389,285,2313,276"/>
-<area shape="poly" id="edge36_Node000014_Node000029" title=" " alt="" coords="2313,337,2329,337,2490,340,2490,345,2329,343,2313,342"/>
+<area shape="rect" id="Node000001" title="Configuration for a detector scan test." alt="" coords="2763,196,2986,258"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1test_1_1configuration.html" title=" " alt="" coords="2104,98,2293,143"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="2308,130,2454,150,2766,206,2760,206,2454,155,2309,136"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="1468,219,1541,246"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1555,216,1574,207,1591,194,1600,180,1602,165,1604,151,1616,137,1642,128,1688,122,1817,115,2106,118,2100,119,1817,120,1688,127,1644,133,1619,142,1609,153,1607,166,1605,182,1595,197,1577,211,1557,221"/>
+<area shape="rect" id="Node000011" href="$structdetray_1_1test_1_1configuration.html" title="Test configuration type." alt="" coords="1733,164,1922,208"/>
+<area shape="poly" id="edge11_Node000011_Node000003" title=" " alt="" coords="1555,244,1629,255,1669,255,1709,249,1755,231,1793,210,1798,208,1757,235,1710,254,1670,261,1629,260,1556,249"/>
+<area shape="rect" id="Node000004" href="$structdetray_1_1propagation_1_1config.html" title="Configuration of the propagation." alt="" coords="1430,138,1579,183"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="1548,127,1630,77,1680,54,1733,38,1789,29,1847,28,1905,32,1962,41,2064,67,2146,98,2141,98,2063,72,1960,46,1905,38,1847,33,1790,35,1734,43,1682,59,1633,82,1550,132"/>
+<area shape="poly" id="edge12_Node000011_Node000004" title=" " alt="" coords="1594,165,1736,178,1730,179,1595,170"/>
+<area shape="rect" id="Node000005" href="$structdetray_1_1navigation_1_1config.html" title="Navigation configuration." alt="" coords="1108,205,1247,250"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="1261,212,1391,188,1432,181,1427,183,1393,194,1263,218"/>
+<area shape="rect" id="Node000006" href="$structdetray_1_1intersection_1_1config.html" title="Intersector configuration." alt="" coords="769,274,916,319"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="931,280,1064,255,1110,246,1105,248,1065,260,933,286"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="760,205,925,250"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="940,225,1110,226,1105,228,941,230"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="356,329,506,374"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="521,322,768,249,763,252,523,327"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="9,587,130,614"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="103,575,396,372,398,377,106,580"/>
+<area shape="rect" id="Node000018" title=" " alt="" coords="564,700,710,728"/>
+<area shape="poly" id="edge20_Node000018_Node000009" title=" " alt="" coords="121,617,158,628,259,648,339,655,420,663,521,683,545,693,566,701,561,700,543,698,519,689,419,668,339,660,258,653,157,634,122,623"/>
+<area shape="rect" id="Node000022" title=" " alt="" coords="361,578,502,623"/>
+<area shape="poly" id="edge25_Node000022_Node000009" title=" " alt="" coords="145,598,362,598,359,603,146,603"/>
+<area shape="rect" id="Node000010" href="$structdetray_1_1stepping_1_1config.html" title="Configuration flags and limits consumed by a stepper." alt="" coords="1091,147,1264,174"/>
+<area shape="poly" id="edge9_Node000004_Node000010" title=" " alt="" coords="1279,158,1433,160,1428,161,1280,163"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="1936,192,2008,190,2079,179,2123,162,2161,144,2166,142,2125,167,2080,184,2008,195,1937,197"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="1784,291,1871,318"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="1885,289,1986,268,2103,250,2284,235,2465,226,2766,225,2761,226,2465,232,2284,240,2104,255,1987,273,1886,294"/>
+<area shape="rect" id="Node000029" href="$structdetray_1_1svgtools_1_1styling_1_1landmark__style.html" title="Style applied to a proto landmark." alt="" coords="2110,334,2287,379"/>
+<area shape="poly" id="edge37_Node000029_Node000012" title=" " alt="" coords="1886,310,2112,344,2107,344,1886,315"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="1436,282,1574,327"/>
+<area shape="poly" id="edge14_Node000012_Node000013" title=" " alt="" coords="1589,302,1787,304,1781,305,1590,307"/>
+<area shape="rect" id="Node000014" href="$structdetray_1_1svgtools_1_1styling_1_1style.html" title="Global styling options." alt="" coords="2478,344,2655,388"/>
+<area shape="poly" id="edge15_Node000001_Node000014" title=" " alt="" coords="2631,334,2801,260,2806,258,2633,339"/>
+<area shape="rect" id="Node000015" href="$structdetray_1_1svgtools_1_1styling_1_1detector__style.html" title="Style applied to an actsvg proto detector." alt="" coords="2110,404,2287,448"/>
+<area shape="poly" id="edge16_Node000014_Node000015" title=" " alt="" coords="2302,415,2454,394,2485,389,2490,388,2454,399,2302,420"/>
+<area shape="rect" id="Node000016" href="$structdetray_1_1svgtools_1_1styling_1_1volume__style.html" title="Style applied to an actsvg proto volume." alt="" coords="1739,469,1916,514"/>
+<area shape="poly" id="edge17_Node000015_Node000016" title=" " alt="" coords="1931,470,2107,442,2112,441,1932,476"/>
+<area shape="rect" id="Node000017" href="$structdetray_1_1svgtools_1_1styling_1_1surface__style.html" title="Style applied to an actsvg proto surface." alt="" coords="1089,592,1266,636"/>
+<area shape="poly" id="edge18_Node000016_Node000017" title=" " alt="" coords="1281,614,1430,608,1512,599,1593,584,1626,574,1651,564,1708,537,1768,515,1773,514,1710,542,1653,569,1628,579,1594,589,1513,604,1430,613,1281,619"/>
+<area shape="rect" id="Node000025" href="$structdetray_1_1svgtools_1_1styling_1_1portal__style.html" title="Style applied to an actsvg proto portal." alt="" coords="1416,438,1593,483"/>
+<area shape="poly" id="edge30_Node000025_Node000017" title=" " alt="" coords="1240,582,1452,484,1457,483,1242,587"/>
+<area shape="poly" id="edge19_Node000017_Node000018" title=" " alt="" coords="726,712,825,707,931,693,1033,666,1119,638,1124,636,1034,671,932,699,825,713,726,717"/>
+<area shape="rect" id="Node000019" title=" " alt="" coords="544,767,729,794"/>
+<area shape="poly" id="edge21_Node000017_Node000019" title=" " alt="" coords="745,774,818,766,900,752,984,728,1063,694,1109,665,1148,638,1153,636,1113,669,1066,699,986,733,902,757,819,772,745,780"/>
+<area shape="rect" id="Node000020" title=" " alt="" coords="5,737,134,765"/>
+<area shape="poly" id="edge22_Node000019_Node000020" title=" " alt="" coords="133,767,158,771,261,781,365,785,546,786,541,786,364,790,261,786,157,776,133,772"/>
+<area shape="rect" id="Node000023" title=" " alt="" coords="357,698,506,743"/>
+<area shape="poly" id="edge27_Node000023_Node000020" title=" " alt="" coords="149,742,357,724,356,730,150,747"/>
+<area shape="rect" id="Node000021" href="$structdetray_1_1svgtools_1_1styling_1_1surface__material__style.html" title="Style applied to an actsvg proto surface_material." alt="" coords="753,592,932,636"/>
+<area shape="poly" id="edge23_Node000017_Node000021" title=" " alt="" coords="947,611,1091,614,1085,614,947,617"/>
+<area shape="poly" id="edge24_Node000021_Node000022" title=" " alt="" coords="517,608,544,610,652,613,755,615,750,616,652,618,544,615,518,613"/>
+<area shape="poly" id="edge26_Node000021_Node000023" title=" " alt="" coords="520,697,729,644,762,638,767,636,730,650,521,702"/>
+<area shape="rect" id="Node000024" href="$structdetray_1_1svgtools_1_1styling_1_1grid__style.html" title="Style applied to an actsvg proto grid." alt="" coords="343,490,520,535"/>
+<area shape="poly" id="edge33_Node000015_Node000024" title=" " alt="" coords="481,480,549,443,637,405,737,374,789,365,841,362,1829,362,1903,366,1978,375,2112,403,2107,403,1977,380,1903,371,1829,367,841,367,790,371,738,380,639,410,551,448,483,484"/>
+<area shape="poly" id="edge32_Node000016_Node000024" title=" " alt="" coords="535,509,1392,499,1741,493,1736,494,1392,505,536,515"/>
+<area shape="poly" id="edge28_Node000021_Node000024" title=" " alt="" coords="498,538,545,554,596,566,637,571,730,585,755,592,750,592,729,590,636,577,595,571,543,559,498,544"/>
+<area shape="poly" id="edge29_Node000016_Node000025" title=" " alt="" coords="1609,468,1741,483,1736,483,1609,473"/>
+<area shape="rect" id="Node000026" href="$structdetray_1_1svgtools_1_1styling_1_1link__style.html" title="Style applied to an actsvg proto portal link." alt="" coords="1089,402,1266,447"/>
+<area shape="poly" id="edge31_Node000025_Node000026" title=" " alt="" coords="1281,433,1418,451,1413,451,1282,439"/>
+<area shape="rect" id="Node000027" href="$structdetray_1_1svgtools_1_1styling_1_1eta__lines__style.html" title="Style applied to proto eta lines." alt="" coords="2110,473,2287,518"/>
+<area shape="poly" id="edge34_Node000014_Node000027" title=" " alt="" coords="2302,483,2377,468,2453,443,2500,417,2538,390,2543,388,2503,421,2455,448,2379,473,2303,488"/>
+<area shape="rect" id="Node000028" href="$structdetray_1_1svgtools_1_1styling_1_1trajectory__style.html" title="Style applied to a proto trajectory." alt="" coords="2110,265,2287,310"/>
+<area shape="poly" id="edge35_Node000014_Node000028" title=" " alt="" coords="2302,289,2378,298,2455,314,2525,343,2519,343,2453,319,2377,303,2302,295"/>
+<area shape="poly" id="edge36_Node000014_Node000029" title=" " alt="" coords="2302,361,2317,361,2480,366,2475,367,2317,367,2303,366"/>
 </map>

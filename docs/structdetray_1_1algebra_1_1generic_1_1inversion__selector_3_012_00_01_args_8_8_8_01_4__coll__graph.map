@@ -1,5 +1,5 @@
 <map id="detray::algebra::generic::inversion_selector&lt; 2, Args... &gt;" name="detray::algebra::generic::inversion_selector&lt; 2, Args... &gt;">
-<area shape="rect" id="Node000001" title="Always use hard coded implementation for very small matrices." alt="" coords="7,131,183,185"/>
-<area shape="rect" id="Node000002" href="$structdetray_1_1algebra_1_1generic_1_1inversion__selector.html" title="Get the type of inversion algorithm according to matrix dimension." alt="" coords="5,5,184,60"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,73,97,130,92,130,92,73"/>
+<area shape="rect" id="Node000001" title="Always use hard coded implementation for very small matrices." alt="" coords="6,140,182,202"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1algebra_1_1generic_1_1inversion__selector.html" title="Get the type of inversion algorithm according to matrix dimension." alt="" coords="5,5,183,67"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,81,97,140,91,139,92,84"/>
 </map>

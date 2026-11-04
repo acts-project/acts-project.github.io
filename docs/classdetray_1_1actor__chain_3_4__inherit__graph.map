@@ -1,5 +1,5 @@
 <map id="detray::actor_chain&lt;&gt;" name="detray::actor_chain&lt;&gt;">
-<area shape="rect" id="Node000001" title="Empty actor chain (placeholder)." alt="" coords="5,116,173,141"/>
-<area shape="rect" id="Node000002" href="$classdetray_1_1actor__chain.html" title="The interface to the actors and aborters in the propagation." alt="" coords="16,5,163,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,59,92,116,87,116,87,59"/>
+<area shape="rect" id="Node000001" title="Empty actor chain (placeholder)." alt="" coords="5,123,173,151"/>
+<area shape="rect" id="Node000002" href="$classdetray_1_1actor__chain.html" title="The interface to the actors and aborters in the propagation." alt="" coords="16,5,162,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,64,92,123,86,122,87,67"/>
 </map>

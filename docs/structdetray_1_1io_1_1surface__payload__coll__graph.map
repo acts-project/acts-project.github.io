@@ -1,16 +1,16 @@
 <map id="detray::io::surface_payload" name="detray::io::surface_payload">
-<area shape="rect" id="Node000001" title="A payload for surfaces." alt="" coords="287,343,425,383"/>
-<area shape="rect" id="Node000002" href="$structdetray_1_1io_1_1transform__payload.html" title="A payload for an affine transformation in homogeneous coordinates." alt="" coords="188,232,343,272"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="292,281,342,341,338,344,288,284"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="5,101,168,141"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="126,147,240,230,237,234,122,152"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="119,5,241,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="138,39,115,56,101,79,93,102,88,100,97,76,111,53,134,35"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="192,101,355,141"/>
-<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="216,36,237,53,255,76,267,100,263,103,250,79,233,57,212,40"/>
-<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="274,155,269,232,264,232,269,155"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="367,232,527,272"/>
-<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="428,285,399,320,377,344,373,340,395,317,423,281"/>
-<area shape="rect" id="Node000007" title=" " alt="" coords="382,109,511,134"/>
-<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="449,148,449,232,444,232,444,148"/>
+<area shape="rect" id="Node000001" title="A payload for surfaces." alt="" coords="282,364,420,408"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1io_1_1transform__payload.html" title="A payload for an affine transformation in homogeneous coordinates." alt="" coords="185,246,339,291"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="289,301,337,364,332,363,287,306"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,106,167,151"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="126,158,237,245,232,247,125,163"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="117,5,239,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="129,43,114,59,100,82,92,106,87,105,95,80,110,55,132,39"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="191,106,352,151"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="215,39,235,55,252,80,265,106,260,106,248,83,231,59,216,45"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="270,164,266,247,261,245,267,168"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="364,246,523,291"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="422,302,395,341,373,365,371,361,391,338,418,305"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="379,114,508,142"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="445,155,446,247,441,244,442,159"/>
 </map>

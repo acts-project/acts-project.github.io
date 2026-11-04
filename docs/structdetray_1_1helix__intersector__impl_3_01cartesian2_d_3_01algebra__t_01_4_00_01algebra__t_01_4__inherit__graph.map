@@ -1,7 +1,7 @@
 <map id="detray::helix_intersector_impl&lt; cartesian2D&lt; algebra_t &gt;, algebra_t &gt;" name="detray::helix_intersector_impl&lt; cartesian2D&lt; algebra_t &gt;, algebra_t &gt;">
-<area shape="rect" id="Node000001" title="Intersection implementation for helical trajectories with planar surfaces." alt="" coords="5,136,220,191"/>
-<area shape="rect" id="Node000003" href="$structdetray_1_1helix__intersector__impl_3_01polar2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html" title=" " alt="" coords="19,240,207,295"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="115,204,115,240,110,240,110,204"/>
-<area shape="rect" id="Node000002" href="$structdetray_1_1helix__intersector__impl.html" title="Intersection implementation for detector surfaces using a helix trajectory." alt="" coords="9,5,217,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,59,115,136,110,136,110,59"/>
+<area shape="rect" id="Node000001" title="Intersection implementation for helical trajectories with planar surfaces." alt="" coords="5,145,220,207"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1helix__intersector__impl_3_01polar2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html" title=" " alt="" coords="19,256,206,318"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="114,220,115,257,110,255,111,224"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1helix__intersector__impl.html" title="Intersection implementation for detector surfaces using a helix trajectory." alt="" coords="9,5,216,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,63,115,146,110,145,111,68"/>
 </map>

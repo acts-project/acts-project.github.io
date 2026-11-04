@@ -1,5 +1,5 @@
 <map id="detray::detail::unwrap_refwrapper&lt; T &gt;" name="detray::detail::unwrap_refwrapper&lt; T &gt;">
-<area shape="rect" id="Node000001" title="make_tuple for std::tuple users have to specify tuple_t for detail::make_tuple" alt="" coords="25,5,189,45"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,136,209,191"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,59,110,136,105,136,105,59"/>
+<area shape="rect" id="Node000001" title="make_tuple for std::tuple users have to specify tuple_t for detail::make_tuple" alt="" coords="25,5,189,50"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,145,209,207"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,64,110,146,104,145,105,68"/>
 </map>

@@ -1,5 +1,5 @@
 <map id="detray::types::get_at&lt; N, mapped_registry&lt; R, S &gt; &gt;" name="detray::types::get_at&lt; N, mapped_registry&lt; R, S &gt; &gt;">
-<area shape="rect" id="Node000001" title="Select a type by position from a mapped registry." alt="" coords="5,136,191,191"/>
-<area shape="rect" id="Node000002" href="$structdetray_1_1types_1_1get__at.html" title="Access the N&#45;th type." alt="" coords="20,5,176,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,59,101,136,95,136,95,59"/>
+<area shape="rect" id="Node000001" title="Select a type by position from a mapped registry." alt="" coords="5,145,190,207"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1types_1_1get__at.html" title="Access the N&#45;th type." alt="" coords="20,5,175,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,64,100,146,95,145,95,67"/>
 </map>

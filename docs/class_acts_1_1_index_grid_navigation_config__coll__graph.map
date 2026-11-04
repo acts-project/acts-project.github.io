@@ -1,17 +1,17 @@
 <map id="Acts::IndexGridNavigationConfig" name="Acts::IndexGridNavigationConfig">
-<area shape="rect" id="Node000001" title="Configuration for the index&#45;grid based navigation policy." alt="" coords="792,81,984,121"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="420,7,607,33"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="621,25,694,35,769,51,846,79,844,84,767,56,693,40,620,31"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="19,34,149,59"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="162,39,420,23,420,28,162,45"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="431,58,596,83"/>
-<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="140,60,187,69,250,75,315,77,430,74,431,79,315,82,250,80,186,75,139,65"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="610,76,792,91,792,96,610,81"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="432,108,595,148"/>
-<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="609,129,686,129,768,124,803,119,804,124,768,129,687,135,609,135"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="5,143,163,169"/>
-<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="176,147,432,131,432,136,177,153"/>
-<area shape="rect" id="Node000007" title=" " alt="" coords="423,172,603,212"/>
-<area shape="poly" id="edge8_Node000007_Node000006" title=" " alt="" coords="155,169,187,173,310,184,423,188,423,194,310,189,186,179,155,174"/>
-<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="617,185,691,176,767,159,813,140,853,119,856,124,815,145,769,164,692,181,617,190"/>
+<area shape="rect" id="Node000001" title="Configuration for the index&#45;grid based navigation policy." alt="" coords="790,85,981,130"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="419,9,605,36"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="620,27,693,37,767,53,843,85,838,85,765,58,692,42,620,32"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="19,35,148,63"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="163,42,419,26,417,31,164,47"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="430,62,594,90"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="150,64,186,70,314,78,432,79,427,81,314,84,185,75,152,69"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="610,81,792,99,787,100,610,87"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="431,113,592,158"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="608,137,685,137,766,131,787,131,792,130,766,137,686,142,608,143"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="5,157,162,184"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="177,160,431,140,430,145,177,166"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="422,183,602,227"/>
+<area shape="poly" id="edge8_Node000007_Node000006" title=" " alt="" coords="156,185,186,190,309,200,424,206,419,206,309,206,185,195,156,191"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="617,196,690,186,765,168,809,150,846,131,852,130,811,154,767,173,691,191,617,202"/>
 </map>

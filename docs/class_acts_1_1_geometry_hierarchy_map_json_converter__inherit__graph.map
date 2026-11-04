@@ -1,11 +1,11 @@
 <map id="Acts::GeometryHierarchyMapJsonConverter&lt; value_t, decorator_t &gt;" name="Acts::GeometryHierarchyMapJsonConverter&lt; value_t, decorator_t &gt;">
-<area shape="rect" id="Node000001" title="Convert a geometry hierarchy map to/from Json." alt="" coords="5,163,220,218"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_geometry_hierarchy_map_json_converter.html" title=" " alt="" coords="579,20,822,89"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="150,151,192,118,243,91,328,66,416,51,502,45,579,44,579,50,502,50,417,57,329,71,245,96,195,123,153,156"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_geometry_hierarchy_map_json_converter.html" title=" " alt="" coords="553,113,848,183"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="234,179,553,156,553,161,234,185"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="593,207,808,262"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="234,206,244,207,429,221,593,229,593,234,429,226,244,212,233,211"/>
-<area shape="rect" id="Node000005" href="$class_acts_1_1_geometry_hierarchy_map_json_converter.html" title=" " alt="" coords="571,289,830,359"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="149,226,192,264,218,281,245,295,327,319,412,332,495,336,571,335,571,340,495,341,411,337,326,324,243,300,215,286,189,269,146,230"/>
+<area shape="rect" id="Node000001" title="Convert a geometry hierarchy map to/from Json." alt="" coords="5,184,219,246"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_geometry_hierarchy_map_json_converter.html" title=" " alt="" coords="577,25,819,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="146,170,189,131,214,112,242,98,326,71,414,56,499,50,579,53,574,55,499,56,414,61,327,76,244,103,217,117,192,135,150,174"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_geometry_hierarchy_map_json_converter.html" title=" " alt="" coords="551,128,845,206"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="233,195,242,194,401,180,553,173,548,175,402,185,243,199,235,200"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="591,231,804,293"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="234,222,592,251,589,256,235,227"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_geometry_hierarchy_map_json_converter.html" title=" " alt="" coords="569,320,827,398"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="151,254,194,292,218,308,244,321,325,346,410,361,493,367,571,369,566,369,493,372,409,366,324,351,242,326,215,313,190,296,150,260"/>
 </map>

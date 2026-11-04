@@ -1,11 +1,11 @@
 <map id="detray::io::surface_material_payload" name="detray::io::surface_material_payload">
-<area shape="rect" id="Node000001" title="A payload object for a material slab/rod." alt="" coords="62,323,205,363"/>
-<area shape="rect" id="Node000002" href="$structdetray_1_1io_1_1single__link__payload.html" title="A payload for a single object link (volume local)." alt="" coords="5,212,136,252"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,262,125,321,120,324,86,265"/>
-<area shape="rect" id="Node000003" href="$structdetray_1_1io_1_1material__param__payload.html" title="A payload object for a material parametrization." alt="" coords="160,212,307,252"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="209,264,153,324,149,321,205,260"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="152,101,315,141"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="236,155,236,212,231,212,231,155"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="172,5,295,31"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="236,45,236,101,231,101,231,45"/>
+<area shape="rect" id="Node000001" title="A payload object for a material slab/rod." alt="" coords="60,341,202,386"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1io_1_1single__link__payload.html" title="A payload for a single object link (volume local)." alt="" coords="5,224,135,268"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,280,123,341,117,341,87,284"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1io_1_1material__param__payload.html" title="A payload object for a material parametrization." alt="" coords="159,224,304,268"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="205,279,152,343,148,339,200,281"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="151,106,312,151"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="233,164,234,224,229,222,230,169"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="171,5,292,33"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="232,46,234,106,229,105,230,51"/>
 </map>

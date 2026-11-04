@@ -1,7 +1,7 @@
 <map id="detray::types::mapped_registry&lt; registry_t, type_selector_t &gt;" name="detray::types::mapped_registry&lt; registry_t, type_selector_t &gt;">
-<area shape="rect" id="Node000001" title="Select a number of types from another registry and map their IDs to a continuous range of new type in..." alt="" coords="5,80,173,135"/>
-<area shape="rect" id="Node000003" href="$classdetray_1_1types_1_1mapped__registry.html" title=" " alt="" coords="5,205,173,245"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="92,148,92,205,87,205,87,148"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="47,5,131,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,45,92,80,87,80,87,45"/>
+<area shape="rect" id="Node000001" title="Select a number of types from another registry and map their IDs to a continuous range of new type in..." alt="" coords="5,82,173,144"/>
+<area shape="rect" id="Node000003" href="$classdetray_1_1types_1_1mapped__registry.html" title=" " alt="" coords="5,217,173,262"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="91,158,92,217,86,216,87,161"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="47,5,131,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,46,92,82,86,81,88,51"/>
 </map>

@@ -1,21 +1,21 @@
 <map id="detray::detail::has_type&lt; T, tuple_t &gt;" name="detray::detail::has_type&lt; T, tuple_t &gt;">
-<area shape="rect" id="Node000001" title="Check if the tuple contains a type." alt="" coords="5,324,155,364"/>
-<area shape="rect" id="Node000002" href="$structdetray_1_1detail_1_1has__type.html" title=" " alt="" coords="392,13,571,67"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,310,93,265,111,212,138,159,156,135,177,114,226,82,282,60,339,46,391,39,392,45,339,51,284,65,229,86,180,118,160,139,143,162,116,214,99,267,89,311"/>
-<area shape="rect" id="Node000003" href="$structdetray_1_1detail_1_1has__type_3_01_t_00_01detray_1_1dtuple_3_01_u_00_01_ts_8_8_8_01_4_01_4.html" title=" " alt="" coords="639,91,817,146"/>
-<area shape="poly" id="edge6_Node000001_Node000003" title=" " alt="" coords="93,310,126,256,150,228,177,206,213,189,262,174,385,150,520,133,638,122,638,127,520,138,386,155,264,179,215,194,180,210,153,232,131,259,98,313"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="406,183,557,238"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="121,314,178,284,236,263,296,245,405,221,406,226,298,251,238,268,180,289,123,319"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="653,215,803,270"/>
-<area shape="poly" id="edge9_Node000001_Node000005" title=" " alt="" coords="168,323,178,321,294,311,385,310,475,307,527,301,589,289,661,267,662,273,590,295,528,306,475,312,385,315,294,316,179,327,169,328"/>
-<area shape="rect" id="Node000006" href="$structdetray_1_1detail_1_1has__type_3_01_t_00_01detray_1_1dtuple_3_01_t_00_01_ts_8_8_8_01_4_01_4.html" title=" " alt="" coords="392,354,571,409"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="169,362,179,364,290,375,392,379,392,384,289,380,178,369,168,368"/>
-<area shape="rect" id="Node000007" href="$structdetray_1_1detail_1_1has__type_3_01_t_00_01detray_1_1dtuple_3_4_01_4.html" title=" " alt="" coords="373,433,589,473"/>
-<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="118,370,147,389,180,406,228,421,278,432,374,446,373,451,277,438,226,426,178,410,144,394,115,374"/>
-<area shape="rect" id="Node000008" title=" " alt="" coords="406,498,557,553"/>
-<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="95,376,108,405,127,438,151,468,180,492,235,517,294,530,353,534,406,532,406,538,352,539,293,535,233,522,177,497,147,472,122,440,103,408,90,378"/>
-<area shape="rect" id="Node000009" title=" " alt="" coords="388,577,575,617"/>
-<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="88,377,97,421,115,472,141,523,159,545,180,563,228,589,282,603,336,608,388,608,388,613,336,614,281,608,226,594,177,568,155,548,137,525,110,474,92,422,83,378"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="582,69,642,89,641,94,580,74"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="571,220,653,230,652,236,570,225"/>
+<area shape="rect" id="Node000001" title="Check if the tuple contains a type." alt="" coords="5,343,154,388"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1detail_1_1has__type.html" title=" " alt="" coords="390,11,568,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,327,93,280,110,226,137,171,155,146,176,123,225,90,280,66,336,51,392,44,387,47,337,57,282,71,227,94,179,127,159,149,142,173,115,228,98,282,88,328"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1detail_1_1has__type_3_01_t_00_01detray_1_1dtuple_3_01_u_00_01_ts_8_8_8_01_4_01_4.html" title=" " alt="" coords="636,97,815,159"/>
+<area shape="poly" id="edge6_Node000001_Node000003" title=" " alt="" coords="93,328,126,271,149,243,176,219,212,201,261,186,383,161,518,143,639,133,634,136,518,148,384,166,262,191,214,206,179,224,152,247,130,274,98,330"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="405,192,554,254"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="124,332,177,304,235,282,295,263,407,236,402,239,297,268,237,287,179,309,128,336"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="651,231,800,292"/>
+<area shape="poly" id="edge9_Node000001_Node000005" title=" " alt="" coords="167,343,177,341,293,331,383,330,473,328,525,322,586,310,654,292,649,294,588,315,526,327,473,333,383,336,293,336,178,347,170,348"/>
+<area shape="rect" id="Node000006" href="$structdetray_1_1detail_1_1has__type_3_01_t_00_01detray_1_1dtuple_3_01_t_00_01_ts_8_8_8_01_4_01_4.html" title=" " alt="" coords="390,373,568,435"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="168,387,178,389,288,400,392,404,388,407,288,405,177,394,170,392"/>
+<area shape="rect" id="Node000007" href="$structdetray_1_1detail_1_1has__type_3_01_t_00_01detray_1_1dtuple_3_4_01_4.html" title=" " alt="" coords="372,459,587,504"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="117,395,147,416,179,432,226,448,276,460,374,476,369,478,275,465,225,453,177,437,145,420,118,400"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="405,528,554,590"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="92,400,108,433,126,466,149,498,179,524,205,538,233,549,292,562,351,567,407,568,401,569,351,572,292,568,232,554,203,543,176,528,145,502,121,469,103,435,92,405"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="386,614,572,658"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="85,401,96,449,113,503,140,555,158,578,179,598,227,624,280,639,334,645,388,648,383,648,334,651,279,644,225,629,176,602,154,582,136,558,108,505,91,450,84,406"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="582,75,638,96,633,97,583,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="569,234,653,249,648,250,570,239"/>
 </map>

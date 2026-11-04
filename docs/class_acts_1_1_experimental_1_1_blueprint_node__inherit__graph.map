@@ -1,23 +1,23 @@
 <map id="Acts::Experimental::BlueprintNode" name="Acts::Experimental::BlueprintNode">
-<area shape="rect" id="Node000001" title="Base class for all nodes in the blueprint tree." alt="" coords="5,137,151,177"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_blueprint.html" title="This class is the top&#45;level entry point to build a tracking geometry using the blueprint building mec..." alt="" coords="270,5,387,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,124,142,80,169,58,197,40,233,26,269,19,270,24,235,31,200,44,172,62,146,83,105,128"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_container_blueprint_node.html" title="A blueprint node that can contain multiple child volumes." alt="" coords="221,55,436,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="121,127,158,107,198,90,243,77,244,83,200,95,160,112,123,132"/>
-<area shape="rect" id="Node000006" href="$class_acts_1_1_geometry_identifier_blueprint_node.html" title="Blueprint node for configuring and applying geometry identifiers to volumes." alt="" coords="238,105,419,145"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="164,143,237,134,238,139,165,148"/>
-<area shape="rect" id="Node000007" href="$class_acts_1_1_material_designator_blueprint_node.html" title="This node type registers material proxies into its child volume during the blueprint construction." alt="" coords="237,169,420,209"/>
-<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="165,165,238,174,237,180,164,170"/>
-<area shape="rect" id="Node000008" href="$class_acts_1_1_portal_designator_blueprint_node.html" title="This node type assigns string tags to specific portal faces of its child volume during the blueprint ..." alt="" coords="199,233,459,259"/>
-<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="123,181,160,201,200,218,244,231,243,236,198,223,158,206,121,186"/>
-<area shape="rect" id="Node000009" href="$class_acts_1_1_static_blueprint_node.html" title="The static blueprint node wraps a single already&#45;constructred TrackingVolume." alt="" coords="235,283,423,308"/>
-<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="105,186,146,230,172,251,200,269,235,282,234,287,197,274,169,256,142,234,101,189"/>
-<area shape="rect" id="Node000004" href="$class_acts_1_1_cuboid_container_blueprint_node.html" title="Container blueprint node stacking cuboid volumes." alt="" coords="511,31,770,56"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="450,55,511,51,511,56,450,61"/>
-<area shape="rect" id="Node000005" href="$class_acts_1_1_cylinder_container_blueprint_node.html" title="Container blueprint node stacking cylindrical volumes." alt="" coords="507,80,775,105"/>
-<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="450,74,507,79,506,84,449,80"/>
-<area shape="rect" id="Node000010" href="$class_acts_1_1_layer_blueprint_node.html" title="The layer node is essentially an auto&#45;sizing wrapper around a set of surfaces." alt="" coords="547,257,734,283"/>
-<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="436,284,547,275,547,280,437,289"/>
-<area shape="rect" id="Node000011" href="$class_acts_1_1_pad_blueprint_node.html" title="Wraps a single child blueprint node and pads it into a larger volume whose dimensions are evaluated a..." alt="" coords="553,307,728,332"/>
-<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="437,301,553,310,553,315,436,306"/>
+<area shape="rect" id="Node000001" title="Base class for all nodes in the blueprint tree." alt="" coords="5,144,150,188"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_blueprint.html" title="This class is the top&#45;level entry point to build a tracking geometry using the blueprint building mec..." alt="" coords="269,5,386,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,129,143,84,168,62,196,43,232,29,271,22,266,25,233,34,199,48,172,66,146,88,106,133"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_container_blueprint_node.html" title="A blueprint node that can contain multiple child volumes." alt="" coords="221,57,434,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="122,133,158,112,197,94,235,84,231,87,199,99,160,117,126,137"/>
+<area shape="rect" id="Node000006" href="$class_acts_1_1_geometry_identifier_blueprint_node.html" title="Blueprint node for configuring and applying geometry identifiers to volumes." alt="" coords="237,109,418,154"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="164,151,239,142,234,145,166,156"/>
+<area shape="rect" id="Node000007" href="$class_acts_1_1_material_designator_blueprint_node.html" title="This node type registers material proxies into its child volume during the blueprint construction." alt="" coords="236,178,418,223"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="165,175,238,187,233,189,165,181"/>
+<area shape="rect" id="Node000008" href="$class_acts_1_1_portal_designator_blueprint_node.html" title="This node type assigns string tags to specific portal faces of its child volume during the blueprint ..." alt="" coords="198,247,457,274"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="124,194,160,215,199,233,236,245,231,247,197,238,158,220,124,200"/>
+<area shape="rect" id="Node000009" href="$class_acts_1_1_static_blueprint_node.html" title="The static blueprint node wraps a single already&#45;constructred TrackingVolume." alt="" coords="234,299,421,326"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="105,198,146,244,172,266,199,283,236,300,231,300,196,288,168,270,143,248,103,203"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_cuboid_container_blueprint_node.html" title="Container blueprint node stacking cuboid volumes." alt="" coords="510,32,768,60"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="449,59,512,55,507,57,450,64"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_cylinder_container_blueprint_node.html" title="Container blueprint node stacking cylindrical volumes." alt="" coords="505,84,772,112"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="449,79,507,86,502,87,450,84"/>
+<area shape="rect" id="Node000010" href="$class_acts_1_1_layer_blueprint_node.html" title="The layer node is essentially an auto&#45;sizing wrapper around a set of surfaces." alt="" coords="546,272,732,300"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="436,301,548,294,543,294,437,306"/>
+<area shape="rect" id="Node000011" href="$class_acts_1_1_pad_blueprint_node.html" title="Wraps a single child blueprint node and pads it into a larger volume whose dimensions are evaluated a..." alt="" coords="552,324,725,352"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="436,319,554,331,549,331,436,324"/>
 </map>

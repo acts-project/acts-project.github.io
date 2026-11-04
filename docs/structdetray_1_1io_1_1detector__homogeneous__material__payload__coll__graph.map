@@ -1,7 +1,7 @@
 <map id="detray::io::detector_homogeneous_material_payload" name="detray::io::detector_homogeneous_material_payload">
-<area shape="rect" id="Node000001" title="A payload for the homogeneous material description of a detector." alt="" coords="5,247,188,301"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="16,121,177,176"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,189,99,246,94,246,94,189"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="32,5,161,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="99,44,99,121,94,121,94,44"/>
+<area shape="rect" id="Node000001" title="A payload for the homogeneous material description of a detector." alt="" coords="5,263,188,325"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="16,128,177,190"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,204,99,263,94,262,95,207"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="32,5,161,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="97,46,99,128,94,128,96,51"/>
 </map>

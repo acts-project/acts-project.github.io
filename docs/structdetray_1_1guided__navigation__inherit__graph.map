@@ -1,5 +1,5 @@
 <map id="detray::guided_navigation" name="detray::guided_navigation">
-<area shape="rect" id="Node000001" title="During guided navigation only the next surface should be re&#45;evaluated." alt="" coords="5,79,196,104"/>
-<area shape="rect" id="Node000002" href="$structdetray_1_1base__actor.html" title="Base class actor implementation." alt="" coords="29,5,172,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,44,103,79,98,79,98,44"/>
+<area shape="rect" id="Node000001" title="During guided navigation only the next surface should be re&#45;evaluated." alt="" coords="5,81,196,109"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1base__actor.html" title="Base class actor implementation." alt="" coords="30,5,171,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,47,103,82,98,80,99,51"/>
 </map>

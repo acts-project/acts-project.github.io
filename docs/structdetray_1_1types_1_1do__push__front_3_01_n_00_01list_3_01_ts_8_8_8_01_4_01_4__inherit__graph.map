@@ -1,5 +1,5 @@
 <map id="detray::types::do_push_front&lt; N, list&lt; Ts... &gt; &gt;" name="detray::types::do_push_front&lt; N, list&lt; Ts... &gt; &gt;">
-<area shape="rect" id="Node000001" title="Prepend N to the supplied type list." alt="" coords="5,116,188,156"/>
-<area shape="rect" id="Node000002" href="$structdetray_1_1types_1_1do__push__front.html" title="Prepend a type." alt="" coords="9,5,184,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,59,99,116,94,116,94,59"/>
+<area shape="rect" id="Node000001" title="Prepend N to the supplied type list." alt="" coords="5,123,188,168"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1types_1_1do__push__front.html" title="Prepend a type." alt="" coords="10,5,183,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,64,99,123,94,122,95,68"/>
 </map>

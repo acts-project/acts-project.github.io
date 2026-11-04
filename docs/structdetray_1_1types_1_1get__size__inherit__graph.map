@@ -1,9 +1,9 @@
 <map id="detray::types::get_size&lt; typename &gt;" name="detray::types::get_size&lt; typename &gt;">
-<area shape="rect" id="Node000001" title="Number of types in the list." alt="" coords="5,79,156,119"/>
-<area shape="rect" id="Node000002" href="$structdetray_1_1types_1_1get__size_3_01list_3_01_ts_8_8_8_01_4_01_4.html" title=" " alt="" coords="379,5,539,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="130,70,179,52,283,33,379,24,379,30,283,38,181,57,132,75"/>
-<area shape="rect" id="Node000003" href="$structdetray_1_1types_1_1get__size_3_01mapped__registry_3_01_r_00_01_s_01_4_01_4.html" title=" " alt="" coords="369,71,549,126"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="170,96,369,96,369,101,170,101"/>
-<area shape="rect" id="Node000004" href="$structdetray_1_1types_1_1get__size_3_01registry_3_01_i_d_00_01_ts_8_8_8_01_4_01_4.html" title="Specialization of the type list size traits." alt="" coords="383,150,536,205"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="163,120,181,124,286,146,383,163,382,168,285,151,179,129,161,125"/>
+<area shape="rect" id="Node000001" title="Number of types in the list." alt="" coords="5,84,156,129"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1types_1_1get__size_3_01list_3_01_ts_8_8_8_01_4_01_4.html" title=" " alt="" coords="379,5,538,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,74,179,54,230,42,282,34,381,27,376,30,283,39,231,47,180,60,134,79"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1types_1_1get__size_3_01mapped__registry_3_01_r_00_01_s_01_4_01_4.html" title=" " alt="" coords="369,76,548,137"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="171,104,370,104,367,108,171,109"/>
+<area shape="rect" id="Node000004" href="$structdetray_1_1types_1_1get__size_3_01registry_3_01_i_d_00_01_ts_8_8_8_01_4_01_4.html" title="Specialization of the type list size traits." alt="" coords="382,161,534,222"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="167,131,180,134,286,158,384,179,379,179,285,163,179,139,167,136"/>
 </map>

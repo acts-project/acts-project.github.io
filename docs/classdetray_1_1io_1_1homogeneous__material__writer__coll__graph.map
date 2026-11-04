@@ -1,7 +1,7 @@
 <map id="detray::io::homogeneous_material_writer" name="detray::io::homogeneous_material_writer">
-<area shape="rect" id="Node000001" title="Homogeneous material writer backend." alt="" coords="5,191,188,231"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="34,95,159,120"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,134,99,190,94,190,94,134"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="13,5,180,45"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="99,59,99,94,94,94,94,59"/>
+<area shape="rect" id="Node000001" title="Homogeneous material writer backend." alt="" coords="5,200,188,245"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="34,99,159,127"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,141,99,200,94,199,95,145"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="14,5,179,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="97,63,99,99,94,98,96,68"/>
 </map>

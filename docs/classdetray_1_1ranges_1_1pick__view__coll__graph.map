@@ -1,10 +1,10 @@
 <map id="detray::ranges::pick_view&lt; range_itr_t, sequence_itr_t &gt;" name="detray::ranges::pick_view&lt; range_itr_t, sequence_itr_t &gt;">
-<area shape="rect" id="Node000001" title="Range adaptor that indexes the elements of a range using another index range." alt="" coords="5,329,220,384"/>
-<area shape="rect" id="Node000002" href="$classdetray_1_1ranges_1_1view__interface.html" title=" " alt="" coords="24,211,201,280"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,294,115,329,110,329,110,294"/>
-<area shape="rect" id="Node000003" href="$structdetray_1_1ranges_1_1base__view.html" title="Definition of &#39;view&#39;." alt="" coords="11,5,203,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="111,44,115,210,109,210,105,44"/>
-<area shape="rect" id="Node000004" href="$classdetray_1_1ranges_1_1view__interface.html" title="Defines a detray &#39;view&#39;." alt="" coords="129,80,325,120"/>
-<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="138,36,201,78,198,82,135,41"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="205,133,142,212,138,209,201,129"/>
+<area shape="rect" id="Node000001" title="Range adaptor that indexes the elements of a range using another index range." alt="" coords="5,350,220,412"/>
+<area shape="rect" id="Node000002" href="$classdetray_1_1ranges_1_1view__interface.html" title=" " alt="" coords="24,222,201,301"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,314,115,351,110,349,111,319"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1ranges_1_1base__view.html" title="Definition of &#39;view&#39;." alt="" coords="12,5,203,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="110,46,114,222,109,222,106,50"/>
+<area shape="rect" id="Node000004" href="$classdetray_1_1ranges_1_1view__interface.html" title="Defines a detray &#39;view&#39;." alt="" coords="128,82,324,127"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="138,39,197,81,192,83,138,45"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="200,141,143,223,139,220,203,137"/>
 </map>

@@ -1,14 +1,14 @@
 <map id="Acts::GridDensityVertexFinder::State" name="Acts::GridDensityVertexFinder::State">
-<area shape="rect" id="Node000001" title="The State struct." alt="" coords="804,103,1021,143"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="363,35,613,75"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="627,69,780,92,822,100,821,105,780,97,627,74"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="5,77,140,102"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="154,80,164,79,362,62,363,67,164,84,154,85"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="387,103,589,143"/>
-<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="113,105,165,121,221,129,279,132,387,130,387,135,279,138,221,134,163,127,111,110"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="602,120,804,120,804,125,602,125"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="417,167,559,207"/>
-<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="573,176,780,148,822,140,823,145,780,153,573,181"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="8,174,137,199"/>
-<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="151,184,416,184,416,189,151,189"/>
+<area shape="rect" id="Node000001" title="The State struct." alt="" coords="801,114,1017,159"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="361,41,611,86"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="626,79,777,103,817,114,811,114,777,109,626,84"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,87,139,114"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="153,88,162,87,362,70,359,75,163,93,155,93"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="386,114,586,159"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="115,119,163,135,220,143,278,146,388,146,383,147,277,152,219,148,162,140,115,124"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="601,134,803,136,798,137,601,139"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="415,184,556,228"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="572,194,777,164,811,160,816,159,777,170,572,199"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="8,192,136,220"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="152,203,415,203,414,209,152,209"/>
 </map>

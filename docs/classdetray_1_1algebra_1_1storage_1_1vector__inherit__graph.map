@@ -1,37 +1,37 @@
 <map id="detray::algebra::storage::vector&lt; N, scalar_t, array_t &gt;" name="detray::algebra::storage::vector&lt; N, scalar_t, array_t &gt;">
-<area shape="rect" id="Node000001" title="Vector wrapper for AoS vs interleaved SoA data." alt="" coords="5,169,183,224"/>
-<area shape="rect" id="Node000002" href="$classdetray_1_1algebra_1_1storage_1_1vector.html" title=" " alt="" coords="434,12,615,67"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,156,155,111,179,90,205,73,262,51,321,38,380,32,434,31,434,36,381,37,322,43,263,56,208,78,182,94,159,115,122,160"/>
-<area shape="rect" id="Node000003" href="$classdetray_1_1algebra_1_1storage_1_1vector.html" title=" " alt="" coords="430,91,619,145"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="161,161,206,146,263,134,322,125,430,117,430,122,322,131,264,139,207,151,163,166"/>
-<area shape="rect" id="Node000004" href="$classdetray_1_1algebra_1_1storage_1_1vector.html" title=" " alt="" coords="430,169,619,224"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="196,194,430,194,430,199,196,199"/>
-<area shape="rect" id="Node000005" href="$classdetray_1_1algebra_1_1storage_1_1vector.html" title=" " alt="" coords="415,249,635,289"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="197,220,207,222,314,240,415,254,414,259,313,245,206,227,196,225"/>
-<area shape="rect" id="Node000012" href="$classdetray_1_1algebra_1_1storage_1_1vector.html" title=" " alt="" coords="436,635,613,689"/>
-<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="132,232,500,633,496,636,128,236"/>
-<area shape="rect" id="Node000006" href="$classdetray_1_1algebra_1_1storage_1_1vector.html" title=" " alt="" coords="840,5,1017,60"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="628,238,633,234,642,221,645,209,645,183,644,156,648,141,657,127,687,99,718,87,752,80,793,69,839,54,841,59,794,74,753,85,719,92,690,104,661,130,653,144,649,156,650,183,651,209,646,223,637,237,631,242"/>
-<area shape="rect" id="Node000007" href="$classdetray_1_1algebra_1_1storage_1_1vector.html" title=" " alt="" coords="840,84,1017,139"/>
-<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="624,239,633,233,641,223,644,213,648,201,657,189,691,168,721,160,753,156,793,147,839,134,840,139,794,153,754,161,722,165,693,173,660,193,652,203,649,214,646,226,637,237,628,244"/>
-<area shape="rect" id="Node000008" href="$classdetray_1_1algebra_1_1storage_1_1vector.html" title=" " alt="" coords="840,163,1017,217"/>
-<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="633,243,658,238,839,203,840,209,659,243,634,248"/>
-<area shape="rect" id="Node000009" href="$classdetray_1_1algebra_1_1storage_1_1vector.html" title=" " alt="" coords="840,241,1017,296"/>
-<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="649,266,840,266,840,271,649,271"/>
-<area shape="rect" id="Node000010" href="$classdetray_1_1algebra_1_1storage_1_1vector.html" title=" " alt="" coords="840,320,1017,375"/>
-<area shape="poly" id="edge9_Node000005_Node000010" title=" " alt="" coords="634,289,659,294,840,329,839,334,658,299,633,294"/>
-<area shape="rect" id="Node000011" href="$classdetray_1_1algebra_1_1storage_1_1vector.html" title=" " alt="" coords="840,399,1017,453"/>
-<area shape="poly" id="edge10_Node000005_Node000011" title=" " alt="" coords="568,294,611,320,660,345,752,379,840,404,839,409,750,384,658,350,609,325,565,298"/>
-<area shape="rect" id="Node000013" href="$classdetray_1_1algebra_1_1storage_1_1vector.html" title=" " alt="" coords="817,477,1040,532"/>
-<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="578,625,658,582,738,552,817,528,818,533,739,557,660,587,581,629"/>
-<area shape="rect" id="Node000014" href="$classdetray_1_1algebra_1_1storage_1_1vector.html" title=" " alt="" coords="825,556,1032,611"/>
-<area shape="poly" id="edge13_Node000012_Node000014" title=" " alt="" coords="626,638,658,631,825,599,826,605,659,637,627,643"/>
-<area shape="rect" id="Node000015" href="$classdetray_1_1algebra_1_1storage_1_1vector.html" title=" " alt="" coords="817,635,1040,689"/>
-<area shape="poly" id="edge14_Node000012_Node000015" title=" " alt="" coords="627,659,817,659,817,665,627,665"/>
-<area shape="rect" id="Node000016" href="$classdetray_1_1algebra_1_1storage_1_1vector.html" title=" " alt="" coords="817,713,1040,768"/>
-<area shape="poly" id="edge15_Node000012_Node000016" title=" " alt="" coords="627,681,659,687,817,718,816,723,658,693,626,686"/>
-<area shape="rect" id="Node000017" href="$classdetray_1_1algebra_1_1storage_1_1vector.html" title=" " alt="" coords="817,792,1040,847"/>
-<area shape="poly" id="edge16_Node000012_Node000017" title=" " alt="" coords="579,694,660,738,739,768,818,791,817,796,738,773,658,743,576,699"/>
-<area shape="rect" id="Node000018" href="$classdetray_1_1algebra_1_1storage_1_1vector.html" title=" " alt="" coords="793,871,1064,925"/>
-<area shape="poly" id="edge17_Node000012_Node000018" title=" " alt="" coords="555,699,600,754,629,782,660,806,728,843,799,868,797,873,725,848,657,811,626,786,597,758,550,702"/>
+<area shape="rect" id="Node000001" title="Vector wrapper for AoS vs interleaved SoA data." alt="" coords="5,184,182,246"/>
+<area shape="rect" id="Node000002" href="$classdetray_1_1algebra_1_1storage_1_1vector.html" title=" " alt="" coords="432,13,612,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,170,153,120,177,97,204,78,260,55,319,41,378,35,434,35,430,39,378,41,320,47,262,60,207,83,181,101,157,123,121,172"/>
+<area shape="rect" id="Node000003" href="$classdetray_1_1algebra_1_1storage_1_1vector.html" title=" " alt="" coords="428,99,616,160"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="162,175,205,159,262,146,320,137,430,129,426,132,320,142,263,151,206,164,166,179"/>
+<area shape="rect" id="Node000004" href="$classdetray_1_1algebra_1_1storage_1_1vector.html" title=" " alt="" coords="428,184,616,246"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="196,212,429,213,426,217,198,217"/>
+<area shape="rect" id="Node000005" href="$classdetray_1_1algebra_1_1storage_1_1vector.html" title=" " alt="" coords="413,270,632,314"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="196,241,206,243,312,262,414,278,410,281,311,267,205,248,198,246"/>
+<area shape="rect" id="Node000012" href="$classdetray_1_1algebra_1_1storage_1_1vector.html" title=" " alt="" coords="434,688,610,750"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="132,255,497,687,492,689,129,260"/>
+<area shape="rect" id="Node000006" href="$classdetray_1_1algebra_1_1storage_1_1vector.html" title=" " alt="" coords="836,5,1013,67"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="628,258,630,256,641,239,645,223,641,189,638,155,642,136,654,118,693,85,740,62,789,47,838,39,834,42,790,52,742,67,696,89,658,122,647,139,643,155,647,189,650,223,646,241,634,259,632,261"/>
+<area shape="rect" id="Node000007" href="$classdetray_1_1algebra_1_1storage_1_1vector.html" title=" " alt="" coords="836,91,1013,152"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="626,259,630,256,639,244,641,232,645,219,654,206,696,177,743,155,791,139,839,130,834,133,792,145,745,160,699,182,658,210,650,222,647,233,643,246,634,259,629,263"/>
+<area shape="rect" id="Node000008" href="$classdetray_1_1algebra_1_1storage_1_1vector.html" title=" " alt="" coords="836,176,1013,238"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="635,264,655,259,838,223,834,226,657,264,638,268"/>
+<area shape="rect" id="Node000009" href="$classdetray_1_1algebra_1_1storage_1_1vector.html" title=" " alt="" coords="836,261,1013,323"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="647,290,839,291,834,293,648,295"/>
+<area shape="rect" id="Node000010" href="$classdetray_1_1algebra_1_1storage_1_1vector.html" title=" " alt="" coords="836,347,1013,408"/>
+<area shape="poly" id="edge9_Node000005_Node000010" title=" " alt="" coords="637,316,657,320,838,359,833,361,655,325,638,321"/>
+<area shape="rect" id="Node000011" href="$classdetray_1_1algebra_1_1storage_1_1vector.html" title=" " alt="" coords="836,432,1013,494"/>
+<area shape="poly" id="edge10_Node000005_Node000011" title=" " alt="" coords="568,321,611,347,657,372,723,398,791,418,839,435,833,436,789,423,721,403,655,377,609,352,568,326"/>
+<area shape="rect" id="Node000013" href="$classdetray_1_1algebra_1_1storage_1_1vector.html" title=" " alt="" coords="814,517,1035,579"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="578,677,655,632,734,600,816,576,811,578,736,605,657,637,580,682"/>
+<area shape="rect" id="Node000014" href="$classdetray_1_1algebra_1_1storage_1_1vector.html" title=" " alt="" coords="822,603,1027,664"/>
+<area shape="poly" id="edge13_Node000012_Node000014" title=" " alt="" coords="625,692,655,686,824,653,819,655,657,691,627,697"/>
+<area shape="rect" id="Node000015" href="$classdetray_1_1algebra_1_1storage_1_1vector.html" title=" " alt="" coords="814,688,1035,750"/>
+<area shape="poly" id="edge14_Node000012_Node000015" title=" " alt="" coords="626,716,816,718,811,720,626,721"/>
+<area shape="rect" id="Node000016" href="$classdetray_1_1algebra_1_1storage_1_1vector.html" title=" " alt="" coords="814,773,1035,835"/>
+<area shape="poly" id="edge15_Node000012_Node000016" title=" " alt="" coords="626,740,657,747,817,782,811,783,655,752,626,745"/>
+<area shape="rect" id="Node000017" href="$classdetray_1_1algebra_1_1storage_1_1vector.html" title=" " alt="" coords="814,859,1035,920"/>
+<area shape="poly" id="edge16_Node000012_Node000017" title=" " alt="" coords="581,755,657,799,723,824,791,844,827,858,822,858,789,849,721,829,655,804,580,761"/>
+<area shape="rect" id="Node000018" href="$classdetray_1_1algebra_1_1storage_1_1vector.html" title=" " alt="" coords="790,944,1059,1006"/>
+<area shape="poly" id="edge17_Node000012_Node000018" title=" " alt="" coords="555,760,601,815,658,867,692,890,730,910,808,944,803,943,728,915,690,895,654,871,597,818,553,765"/>
 </map>

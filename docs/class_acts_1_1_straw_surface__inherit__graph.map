@@ -1,11 +1,11 @@
 <map id="Acts::StrawSurface" name="Acts::StrawSurface">
-<area shape="rect" id="Node000001" title="Class for a StrawSurface in the TrackingGeometry to describe dirft tube and straw like detectors." alt="" coords="112,240,256,265"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_line_surface.html" title="Base class for a linear surfaces in the TrackingGeometry to describe dirft tube, straw like detectors..." alt="" coords="117,167,251,192"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="187,206,187,240,181,240,181,206"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_surface.html" title="Abstract Base Class for tracking surfaces." alt="" coords="131,93,237,119"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="187,132,187,167,181,167,181,132"/>
-<area shape="rect" id="Node000004" href="$class_acts_1_1_geometry_object.html" title="Base class to provide GeometryIdentifier interface:" alt="" coords="5,13,171,38"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="114,45,171,91,168,95,111,49"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="195,5,365,45"/>
-<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="248,56,200,95,197,91,245,52"/>
+<area shape="rect" id="Node000001" title="Class for a StrawSurface in the TrackingGeometry to describe dirft tube and straw like detectors." alt="" coords="110,249,254,277"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_line_surface.html" title="Base class for a linear surfaces in the TrackingGeometry to describe dirft tube, straw like detectors..." alt="" coords="116,174,249,201"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="184,215,184,250,180,248,180,219"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_surface.html" title="Abstract Base Class for tracking surfaces." alt="" coords="129,98,235,126"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="184,139,185,174,180,172,181,144"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_geometry_object.html" title="Base class to provide GeometryIdentifier interface:" alt="" coords="5,14,170,42"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="114,49,170,97,165,99,114,55"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="194,5,363,50"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="239,62,199,99,196,95,243,59"/>
 </map>

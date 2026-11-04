@@ -1,10 +1,10 @@
 <map id="Acts::GenericRungeKuttaStepper::Config" name="Acts::GenericRungeKuttaStepper::Config">
-<area shape="rect" id="Node000001" title="Configuration for the Runge&#45;Kutta stepper." alt="" coords="752,48,985,88"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="424,17,647,57"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="661,46,752,55,751,60,660,51"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="5,57,163,82"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="176,60,424,43,424,48,177,65"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="447,81,624,121"/>
-<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="151,82,187,88,323,98,447,100,447,106,323,103,186,93,150,87"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="638,89,728,80,752,78,752,83,728,85,638,94"/>
+<area shape="rect" id="Node000001" title="Configuration for the Runge&#45;Kutta stepper." alt="" coords="749,52,981,97"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="423,19,644,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="659,51,751,63,746,63,659,57"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,62,162,90"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="177,66,423,47,421,53,178,72"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="445,88,622,133"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="156,91,186,96,322,107,447,112,442,112,322,112,185,101,156,96"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="637,97,725,88,746,88,751,88,725,93,637,103"/>
 </map>

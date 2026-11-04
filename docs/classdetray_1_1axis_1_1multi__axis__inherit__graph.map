@@ -1,7 +1,7 @@
 <map id="detray::axis::multi_axis&lt; ownership, local_frame_t, axis_ts &gt;" name="detray::axis::multi_axis&lt; ownership, local_frame_t, axis_ts &gt;">
-<area shape="rect" id="Node000001" title="An N&#45;dimensional collection of single axes." alt="" coords="5,70,183,125"/>
-<area shape="rect" id="Node000002" href="$classdetray_1_1axis_1_1multi__axis.html" title=" " alt="" coords="470,13,631,67"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="196,69,206,67,345,49,470,41,470,46,346,55,207,72,197,74"/>
-<area shape="rect" id="Node000003" href="$classdetray_1_1axis_1_1multi__axis.html" title=" " alt="" coords="433,119,668,188"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="153,129,207,149,264,159,323,164,433,163,433,168,322,170,264,165,206,155,151,134"/>
+<area shape="rect" id="Node000001" title="An N&#45;dimensional collection of single axes." alt="" coords="5,77,182,138"/>
+<area shape="rect" id="Node000002" href="$classdetray_1_1axis_1_1multi__axis.html" title=" " alt="" coords="469,15,629,77"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="196,75,205,73,344,55,471,48,466,50,344,60,206,78,198,80"/>
+<area shape="rect" id="Node000003" href="$classdetray_1_1axis_1_1multi__axis.html" title=" " alt="" coords="432,130,666,208"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="149,145,177,160,206,170,263,182,321,187,434,186,428,186,321,192,262,187,205,176,175,164,148,150"/>
 </map>

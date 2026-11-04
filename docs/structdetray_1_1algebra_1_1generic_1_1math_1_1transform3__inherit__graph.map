@@ -1,7 +1,7 @@
 <map id="detray::algebra::generic::math::transform3&lt; index_t, scalar_t, matrix_t, array_t &gt;" name="detray::algebra::generic::math::transform3&lt; index_t, scalar_t, matrix_t, array_t &gt;">
-<area shape="rect" id="Node000001" title="Transform wrapper class to ensure standard API within different plugins." alt="" coords="5,70,231,125"/>
-<area shape="rect" id="Node000002" href="$structdetray_1_1algebra_1_1generic_1_1math_1_1transform3.html" title=" " alt="" coords="459,5,653,75"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="243,68,254,67,360,53,458,44,459,49,360,59,255,72,244,74"/>
-<area shape="rect" id="Node000003" href="$structdetray_1_1algebra_1_1generic_1_1math_1_1transform3.html" title=" " alt="" coords="448,111,664,195"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="187,128,255,149,304,157,353,160,448,160,448,165,353,166,303,162,254,155,186,133"/>
+<area shape="rect" id="Node000001" title="Transform wrapper class to ensure standard API within different plugins." alt="" coords="5,75,230,137"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1algebra_1_1generic_1_1math_1_1transform3.html" title=" " alt="" coords="456,5,650,84"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="244,73,253,71,357,57,458,50,453,52,358,63,254,77,246,78"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1algebra_1_1generic_1_1math_1_1transform3.html" title=" " alt="" coords="446,120,661,215"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="183,141,218,157,254,169,302,177,351,180,448,181,442,181,351,186,301,182,253,174,216,162,182,147"/>
 </map>

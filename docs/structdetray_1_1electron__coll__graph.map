@@ -1,5 +1,5 @@
 <map id="detray::electron&lt; scalar_t &gt;" name="detray::electron&lt; scalar_t &gt;">
-<area shape="rect" id="Node000001" title="Electron hypothesis." alt="" coords="5,93,211,119"/>
-<area shape="rect" id="Node000002" href="$structdetray_1_1pdg__particle.html" title="Particle hypothesis identified by PDG number, mass, and electric charge." alt="" coords="33,5,183,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,59,111,93,105,93,105,59"/>
+<area shape="rect" id="Node000001" title="Electron hypothesis." alt="" coords="5,98,210,126"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1pdg__particle.html" title="Particle hypothesis identified by PDG number, mass, and electric charge." alt="" coords="32,5,183,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,64,110,98,105,96,106,68"/>
 </map>

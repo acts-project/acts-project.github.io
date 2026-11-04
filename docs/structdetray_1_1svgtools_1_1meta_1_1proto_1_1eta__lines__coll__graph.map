@@ -1,7 +1,7 @@
 <map id="detray::svgtools::meta::proto::eta_lines" name="detray::svgtools::meta::proto::eta_lines">
-<area shape="rect" id="Node000001" title="A proto eta line." alt="" coords="5,232,173,272"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="15,101,164,141"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,155,92,232,87,232,87,155"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="25,5,154,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="92,45,92,101,87,101,87,45"/>
+<area shape="rect" id="Node000001" title="A proto eta line." alt="" coords="5,246,173,291"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="15,106,163,151"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,165,92,246,86,245,87,168"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="25,5,153,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="90,46,92,106,86,105,88,51"/>
 </map>

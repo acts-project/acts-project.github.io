@@ -1,7 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" title=" " alt="" coords="5,45,143,70"/>
-<area shape="rect" id="Node000001" href="$classdetray_1_1io_1_1material__map__writer.html" title="Material maps writer backend." alt="" coords="191,5,337,45"/>
-<area shape="poly" id="edge301_Node000000_Node000001" title=" " alt="" coords="156,41,190,35,191,40,157,46"/>
-<area shape="rect" id="Node000002" href="$classdetray_1_1io_1_1surface__grid__writer.html" title="Surface grid writer backend." alt="" coords="195,69,333,109"/>
-<area shape="poly" id="edge302_Node000000_Node000002" title=" " alt="" coords="157,69,195,75,194,80,156,74"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,48,142,76"/>
+<area shape="rect" id="Node000001" href="$classdetray_1_1io_1_1material__map__writer.html" title="Material maps writer backend." alt="" coords="190,5,335,50"/>
+<area shape="poly" id="edge301_Node000000_Node000001" title=" " alt="" coords="156,44,192,40,187,42,158,50"/>
+<area shape="rect" id="Node000002" href="$classdetray_1_1io_1_1surface__grid__writer.html" title="Surface grid writer backend." alt="" coords="193,75,332,119"/>
+<area shape="poly" id="edge302_Node000000_Node000002" title=" " alt="" coords="157,75,195,84,190,85,157,80"/>
 </map>

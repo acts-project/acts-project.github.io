@@ -1,10 +1,10 @@
 <map id="Acts::ScoreBasedAmbiguityResolution::DetectorConfig" name="Acts::ScoreBasedAmbiguityResolution::DetectorConfig">
-<area shape="rect" id="Node000001" title="Detector configuration struct : contains the configuration for each detector." alt="" coords="87,257,289,297"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,101,171,127"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,138,125,182,156,232,173,255,169,259,151,235,121,185,97,140"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="122,5,251,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="166,42,102,103,98,99,163,38"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="195,101,381,127"/>
-<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="217,37,238,53,281,100,277,103,234,57,214,41"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="284,141,267,186,239,235,216,259,212,255,235,232,262,184,279,139"/>
+<area shape="rect" id="Node000001" title="Detector configuration struct : contains the configuration for each detector." alt="" coords="86,274,286,318"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,106,170,134"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,145,125,195,155,248,172,274,166,273,150,251,120,197,98,150"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="122,5,250,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="162,46,103,107,99,104,164,41"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="194,106,381,134"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="218,40,237,55,281,105,275,106,234,59,218,45"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="282,147,266,199,238,251,215,275,212,271,233,248,261,196,278,150"/>
 </map>

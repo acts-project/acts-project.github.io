@@ -1,124 +1,124 @@
 <map id="detray::ranges::base_view" name="detray::ranges::base_view">
-<area shape="rect" id="Node000001" title="Definition of &#39;view&#39;." alt="" coords="5,744,197,769"/>
-<area shape="rect" id="Node000002" href="$classdetray_1_1ranges_1_1view__interface.html" title=" " alt="" coords="691,811,890,865"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="172,738,291,716,433,697,502,692,564,693,616,701,654,717,663,726,667,736,668,757,668,777,671,787,678,796,693,808,689,812,674,800,667,789,663,778,663,757,662,738,658,729,650,722,615,706,564,698,502,697,434,702,292,721,173,744"/>
-<area shape="rect" id="Node000004" href="$classdetray_1_1ranges_1_1view__interface.html" title=" " alt="" coords="701,5,880,60"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="103,730,121,612,152,446,171,361,193,283,218,218,245,172,291,127,346,92,406,65,469,47,532,34,594,27,701,24,701,30,594,33,533,39,470,52,408,70,348,96,295,131,249,176,223,220,198,285,176,363,157,447,126,613,109,731"/>
-<area shape="rect" id="Node000006" href="$classdetray_1_1ranges_1_1view__interface.html" title=" " alt="" coords="686,703,895,787"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="129,734,171,706,220,680,287,651,340,633,395,621,466,610,520,599,564,588,586,586,607,588,629,596,654,611,667,628,669,646,669,665,678,683,696,700,693,704,674,686,664,666,663,647,662,630,650,615,627,601,606,593,585,591,565,593,521,604,467,615,396,626,341,638,289,656,222,684,174,711,132,738"/>
-<area shape="rect" id="Node000013" href="$classdetray_1_1ranges_1_1view__interface.html" title=" " alt="" coords="676,285,905,340"/>
-<area shape="poly" id="edge9_Node000001_Node000013" title=" " alt="" coords="108,730,126,676,155,606,194,530,218,493,245,459,296,403,342,364,395,335,466,310,518,298,573,292,676,294,676,299,573,298,519,303,467,315,397,340,345,368,300,407,249,462,222,496,199,532,159,608,131,678,113,731"/>
-<area shape="rect" id="Node000017" href="$classdetray_1_1ranges_1_1view__interface.html" title=" " alt="" coords="709,507,872,561"/>
-<area shape="poly" id="edge14_Node000001_Node000017" title=" " alt="" coords="113,731,166,645,203,594,245,547,299,493,344,454,395,423,466,397,518,382,560,376,603,380,653,397,691,418,725,447,753,477,774,505,769,508,748,481,721,451,688,423,651,402,601,385,560,381,519,387,467,402,398,428,347,458,302,497,249,550,207,598,170,648,118,733"/>
-<area shape="rect" id="Node000024" href="$classdetray_1_1ranges_1_1view__interface.html" title=" " alt="" coords="699,619,882,673"/>
-<area shape="poly" id="edge23_Node000001_Node000024" title=" " alt="" coords="122,732,176,679,256,612,304,578,355,548,410,522,466,503,519,488,564,478,585,477,607,481,629,489,654,504,666,520,669,537,670,554,678,571,704,596,733,616,730,621,700,600,674,574,665,555,664,537,661,522,650,508,627,494,605,486,585,482,564,483,520,493,467,509,412,527,358,553,307,583,260,616,180,683,125,736"/>
-<area shape="rect" id="Node000026" href="$classdetray_1_1ranges_1_1view__interface.html" title=" " alt="" coords="681,97,900,152"/>
-<area shape="poly" id="edge25_Node000001_Node000026" title=" " alt="" coords="102,730,113,648,138,530,156,465,180,399,209,334,244,274,292,208,337,162,391,127,466,97,524,84,583,81,642,85,695,95,694,100,641,91,583,86,524,89,467,102,394,132,340,166,296,212,249,277,214,337,185,401,161,467,143,532,119,649,108,731"/>
-<area shape="rect" id="Node000030" href="$classdetray_1_1ranges_1_1view__interface.html" title=" " alt="" coords="708,189,873,244"/>
-<area shape="poly" id="edge30_Node000001_Node000030" title=" " alt="" coords="105,730,119,663,146,570,187,467,214,418,245,371,294,309,339,265,392,232,466,203,528,189,592,185,653,189,708,196,707,201,653,194,592,191,529,195,467,209,395,237,342,269,298,312,249,374,218,420,192,470,152,572,125,664,110,731"/>
-<area shape="rect" id="Node000033" href="$classdetray_1_1ranges_1_1view__interface.html" title=" " alt="" coords="709,1309,873,1364"/>
-<area shape="poly" id="edge33_Node000001_Node000033" title=" " alt="" coords="109,783,126,901,156,1067,175,1153,197,1231,222,1295,249,1339,280,1364,325,1387,380,1407,442,1423,504,1434,562,1439,613,1437,651,1426,658,1420,663,1413,674,1396,726,1362,729,1366,678,1400,667,1416,662,1424,653,1431,614,1442,562,1444,503,1440,440,1428,379,1412,323,1392,277,1368,245,1342,217,1297,192,1232,170,1154,150,1069,120,902,103,784"/>
-<area shape="rect" id="Node000036" href="$classdetray_1_1ranges_1_1view__interface.html" title=" " alt="" coords="702,1534,879,1603"/>
-<area shape="poly" id="edge36_Node000001_Node000036" title=" " alt="" coords="106,783,117,941,141,1176,160,1298,183,1410,213,1503,230,1538,249,1566,293,1610,337,1642,381,1661,428,1671,477,1672,530,1666,651,1639,696,1623,737,1601,740,1606,698,1628,653,1645,531,1671,477,1677,427,1676,380,1666,334,1646,289,1614,245,1569,226,1541,208,1505,178,1412,154,1299,135,1177,111,942,101,783"/>
-<area shape="rect" id="Node000040" href="$classdetray_1_1ranges_1_1view__interface.html" title=" " alt="" coords="697,1671,884,1725"/>
-<area shape="poly" id="edge41_Node000001_Node000040" title=" " alt="" coords="105,783,108,964,114,1095,125,1237,142,1378,168,1507,184,1563,203,1611,224,1649,248,1677,299,1712,355,1734,414,1747,476,1752,538,1750,597,1744,700,1723,701,1728,598,1749,538,1756,476,1757,414,1753,353,1739,296,1716,245,1681,220,1652,198,1613,179,1564,163,1508,137,1379,119,1238,108,1096,103,964,100,783"/>
-<area shape="rect" id="Node000044" href="$classdetray_1_1ranges_1_1view__interface.html" title=" " alt="" coords="701,1187,880,1241"/>
-<area shape="poly" id="edge46_Node000001_Node000044" title=" " alt="" coords="106,783,114,866,135,985,153,1050,177,1115,209,1176,249,1232,297,1280,344,1307,398,1324,467,1339,520,1353,563,1362,604,1360,626,1352,650,1340,660,1331,663,1321,666,1309,674,1296,707,1265,742,1239,745,1244,710,1269,678,1300,671,1311,668,1323,664,1334,654,1344,628,1357,605,1365,563,1367,519,1358,466,1345,397,1329,342,1312,294,1285,245,1236,204,1179,173,1117,148,1051,130,986,108,867,101,783"/>
-<area shape="rect" id="Node000049" href="$classdetray_1_1ranges_1_1view__interface.html" title=" " alt="" coords="697,1043,884,1097"/>
-<area shape="poly" id="edge49_Node000001_Node000049" title=" " alt="" coords="118,780,165,856,199,905,241,957,289,1008,343,1056,403,1096,468,1126,518,1141,559,1146,601,1141,651,1126,663,1118,675,1108,701,1095,703,1100,677,1112,666,1122,653,1131,602,1146,559,1152,517,1147,466,1131,400,1101,340,1060,285,1012,237,960,195,908,160,859,114,783"/>
-<area shape="rect" id="Node000052" href="$classdetray_1_1ranges_1_1view__interface.html" title=" " alt="" coords="681,1122,900,1162"/>
-<area shape="poly" id="edge51_Node000001_Node000052" title=" " alt="" coords="109,782,122,849,148,938,166,986,189,1034,216,1080,249,1122,299,1169,345,1198,398,1216,467,1233,520,1247,564,1257,584,1258,605,1255,627,1247,650,1233,660,1221,662,1206,664,1190,674,1174,693,1160,696,1164,678,1177,669,1191,668,1207,665,1223,654,1237,629,1252,606,1260,585,1263,563,1262,519,1253,466,1238,397,1221,343,1203,296,1174,245,1125,212,1083,184,1037,161,988,143,940,117,850,104,784"/>
-<area shape="rect" id="Node000054" href="$classdetray_1_1ranges_1_1view__interface.html" title=" " alt="" coords="681,1410,900,1450"/>
-<area shape="poly" id="edge53_Node000001_Node000054" title=" " alt="" coords="108,783,123,916,152,1109,171,1209,194,1301,220,1377,234,1407,249,1430,292,1478,335,1515,380,1542,427,1558,477,1564,530,1562,588,1551,651,1533,698,1500,763,1448,766,1452,701,1504,653,1538,589,1557,531,1567,477,1570,426,1563,378,1546,332,1520,288,1482,245,1433,229,1409,215,1379,189,1302,166,1210,146,1110,118,917,103,783"/>
-<area shape="rect" id="Node000056" href="$classdetray_1_1ranges_1_1view__interface.html" title="Defines a detray &#39;view&#39;." alt="" coords="247,901,443,941"/>
-<area shape="poly" id="edge55_Node000001_Node000056" title=" " alt="" coords="134,775,315,898,312,903,131,780"/>
-<area shape="rect" id="Node000003" href="$classdetray_1_1bins_1_1dynamic__array.html" title="Bin that views a collection of entries it does not own." alt="" coords="981,821,1143,861"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="904,836,980,837,980,843,903,842"/>
-<area shape="rect" id="Node000005" href="$classdetray_1_1bins_1_1static__array.html" title="Bin that holds a collection of entries." alt="" coords="983,13,1141,53"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="894,30,983,30,983,35,894,35"/>
-<area shape="rect" id="Node000007" href="$classdetray_1_1navigation_1_1base__state.html" title="A navigation state object used to cache the information of the current navigation stream." alt="" coords="977,712,1147,796"/>
-<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="909,746,977,748,977,754,909,751"/>
-<area shape="rect" id="Node000008" href="$classdetray_1_1navigation_1_1base__state.html" title=" " alt="" coords="1478,888,1670,972"/>
-<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="1160,796,1171,807,1180,820,1183,832,1186,843,1195,853,1227,874,1262,891,1336,914,1410,927,1478,931,1478,936,1410,932,1335,919,1260,896,1224,879,1192,857,1182,846,1178,834,1175,822,1167,810,1156,800"/>
-<area shape="rect" id="Node000010" href="$classdetray_1_1navigation_1_1base__state.html" title=" " alt="" coords="1470,770,1678,839"/>
-<area shape="poly" id="edge8_Node000007_Node000010" title=" " alt="" coords="1161,760,1419,785,1470,790,1470,795,1418,790,1160,765"/>
-<area shape="rect" id="Node000014" href="$structdetray_1_1ranges_1_1cartesian__product__view.html" title=" " alt="" coords="1467,277,1681,317"/>
-<area shape="poly" id="edge10_Node000013_Node000014" title=" " alt="" coords="919,299,955,297,1187,288,1419,290,1467,291,1467,296,1419,295,1187,293,955,302,919,304"/>
-<area shape="rect" id="Node000016" href="$structdetray_1_1ranges_1_1cartesian__product__view.html" title="Range adaptor that generates a cartesian product from the given input ranges." alt="" coords="961,311,1163,351"/>
-<area shape="poly" id="edge12_Node000013_Node000016" title=" " alt="" coords="919,319,960,322,960,327,919,324"/>
-<area shape="rect" id="Node000015" href="$structdetray_1_1ranges_1_1views_1_1cartesian__product.html" title="interface type to construct a cartesian_product_view with CTAD" alt="" coords="1949,269,2111,324"/>
-<area shape="poly" id="edge11_Node000014_Node000015" title=" " alt="" coords="1695,294,1949,294,1949,299,1695,299"/>
-<area shape="poly" id="edge13_Node000016_Node000014" title=" " alt="" coords="1177,326,1418,313,1466,308,1467,313,1419,318,1177,331"/>
-<area shape="rect" id="Node000018" href="$classdetray_1_1ranges_1_1detail_1_1subrange__view.html" title="Implements a subrange by providing start and end iterators on another range." alt="" coords="959,514,1165,554"/>
-<area shape="poly" id="edge15_Node000017_Node000018" title=" " alt="" coords="886,531,958,531,958,537,886,537"/>
-<area shape="rect" id="Node000019" href="$structdetray_1_1ranges_1_1subrange.html" title=" " alt="" coords="1907,490,2153,530"/>
-<area shape="poly" id="edge16_Node000018_Node000019" title=" " alt="" coords="1140,555,1281,590,1370,607,1467,621,1570,629,1675,629,1780,620,1882,598,1917,585,1950,566,2004,528,2007,532,1953,571,1919,589,1883,603,1781,625,1676,634,1570,634,1467,626,1369,612,1280,596,1139,560"/>
-<area shape="rect" id="Node000021" href="$structdetray_1_1ranges_1_1subrange.html" title=" " alt="" coords="1936,381,2124,421"/>
-<area shape="poly" id="edge17_Node000018_Node000021" title=" " alt="" coords="1144,508,1258,477,1403,442,1565,410,1729,386,1836,382,1936,387,1935,393,1836,387,1730,391,1566,415,1404,448,1260,482,1146,513"/>
-<area shape="rect" id="Node000022" href="$structdetray_1_1ranges_1_1subrange.html" title=" " alt="" coords="1917,606,2143,646"/>
-<area shape="poly" id="edge18_Node000018_Node000022" title=" " alt="" coords="1097,561,1141,593,1194,620,1291,646,1392,664,1493,672,1594,674,1690,671,1779,663,1926,643,1927,649,1779,669,1690,676,1594,679,1493,678,1391,669,1290,652,1192,624,1139,598,1094,565"/>
-<area shape="rect" id="Node000023" href="$structdetray_1_1ranges_1_1subrange.html" title="interface type to construct a subrange_view with CTAD" alt="" coords="1473,494,1675,534"/>
-<area shape="poly" id="edge19_Node000018_Node000023" title=" " alt="" coords="1179,527,1473,515,1473,521,1179,532"/>
-<area shape="poly" id="edge20_Node000023_Node000019" title=" " alt="" coords="1688,510,1906,508,1906,514,1688,516"/>
-<area shape="poly" id="edge21_Node000023_Node000021" title=" " alt="" coords="1643,487,1729,461,1805,443,1882,429,1935,418,1937,423,1883,434,1806,449,1730,466,1645,492"/>
-<area shape="poly" id="edge22_Node000023_Node000022" title=" " alt="" coords="1651,535,1730,558,1928,603,1927,609,1729,563,1650,541"/>
-<area shape="rect" id="Node000025" href="$classdetray_1_1ranges_1_1empty__view.html" title="Implements an empty view of a given type." alt="" coords="979,626,1145,666"/>
-<area shape="poly" id="edge24_Node000024_Node000025" title=" " alt="" coords="896,643,979,643,979,649,896,649"/>
-<area shape="rect" id="Node000027" href="$classdetray_1_1ranges_1_1enumerate__view.html" title=" " alt="" coords="1468,97,1680,137"/>
-<area shape="poly" id="edge26_Node000026_Node000027" title=" " alt="" coords="914,116,955,114,1187,106,1419,107,1468,109,1468,114,1419,113,1187,111,955,119,914,121"/>
-<area shape="rect" id="Node000029" href="$classdetray_1_1ranges_1_1enumerate__view.html" title="Enumerates the elements of a range on the fly." alt="" coords="960,129,1164,169"/>
-<area shape="poly" id="edge28_Node000026_Node000029" title=" " alt="" coords="914,133,960,137,959,142,913,138"/>
-<area shape="rect" id="Node000028" href="$structdetray_1_1ranges_1_1views_1_1enumerate.html" title="Range adaptor that creates an enumerate view, optionally starting at a selected index." alt="" coords="1943,89,2117,144"/>
-<area shape="poly" id="edge27_Node000027_Node000028" title=" " alt="" coords="1694,114,1942,114,1942,119,1694,119"/>
-<area shape="poly" id="edge29_Node000029_Node000027" title=" " alt="" coords="1178,143,1418,130,1468,126,1468,131,1419,135,1178,148"/>
-<area shape="rect" id="Node000031" href="$classdetray_1_1ranges_1_1iota__view.html" title="Range factory that produces a sequence of values." alt="" coords="988,197,1136,237"/>
-<area shape="poly" id="edge31_Node000030_Node000031" title=" " alt="" coords="887,214,988,214,988,219,887,219"/>
-<area shape="rect" id="Node000032" href="$structdetray_1_1ranges_1_1views_1_1iota.html" title="interface type to construct a iota_view with CTAD Range adaptor that constructs an iota view from a r..." alt="" coords="1493,197,1655,237"/>
-<area shape="poly" id="edge32_Node000031_Node000032" title=" " alt="" coords="1150,214,1493,214,1493,219,1150,219"/>
-<area shape="rect" id="Node000034" href="$structdetray_1_1ranges_1_1join__view.html" title="Range adaptor that joins different ranges of the same type (static)." alt="" coords="989,1317,1135,1357"/>
-<area shape="poly" id="edge34_Node000033_Node000034" title=" " alt="" coords="887,1334,989,1334,989,1339,887,1339"/>
-<area shape="rect" id="Node000035" href="$structdetray_1_1ranges_1_1views_1_1join.html" title="interface type to construct a join_view with CTAD" alt="" coords="1493,1317,1655,1357"/>
-<area shape="poly" id="edge35_Node000034_Node000035" title=" " alt="" coords="1150,1334,1493,1334,1493,1339,1150,1339"/>
-<area shape="rect" id="Node000037" title=" " alt="" coords="1443,1557,1705,1626"/>
-<area shape="poly" id="edge37_Node000036_Node000037" title=" " alt="" coords="893,1570,955,1573,1443,1586,1442,1591,955,1578,893,1576"/>
-<area shape="rect" id="Node000039" href="$classdetray_1_1ranges_1_1pick__view.html" title="Range adaptor that indexes the elements of a range using another index range." alt="" coords="955,1508,1169,1563"/>
-<area shape="poly" id="edge39_Node000036_Node000039" title=" " alt="" coords="893,1553,954,1546,955,1551,894,1559"/>
-<area shape="rect" id="Node000038" href="$structdetray_1_1ranges_1_1views_1_1pick.html" title="Range adaptor that selects indexed elements from an input range." alt="" coords="1949,1564,2111,1619"/>
-<area shape="poly" id="edge38_Node000037_Node000038" title=" " alt="" coords="1719,1589,1949,1589,1949,1594,1719,1594"/>
-<area shape="poly" id="edge40_Node000039_Node000037" title=" " alt="" coords="1183,1546,1443,1574,1442,1580,1182,1551"/>
-<area shape="rect" id="Node000041" href="$classdetray_1_1ranges_1_1pointer__view.html" title=" " alt="" coords="1485,1675,1663,1715"/>
-<area shape="poly" id="edge42_Node000040_Node000041" title=" " alt="" coords="898,1694,929,1694,1193,1693,1485,1693,1485,1698,1193,1698,929,1699,898,1700"/>
-<area shape="rect" id="Node000043" href="$classdetray_1_1ranges_1_1pointer__view.html" title="Struct that implements a pointer based view on a single element." alt="" coords="977,1714,1147,1754"/>
-<area shape="poly" id="edge44_Node000040_Node000043" title=" " alt="" coords="898,1709,978,1720,977,1725,897,1715"/>
-<area shape="rect" id="Node000042" href="$structdetray_1_1ranges_1_1views_1_1pointer.html" title="interface type to construct a pointer_view with CTAD" alt="" coords="1949,1675,2111,1715"/>
-<area shape="poly" id="edge43_Node000041_Node000042" title=" " alt="" coords="1676,1693,1949,1693,1949,1698,1676,1698"/>
-<area shape="poly" id="edge45_Node000043_Node000041" title=" " alt="" coords="1160,1730,1283,1725,1418,1715,1485,1707,1486,1712,1419,1721,1284,1730,1160,1735"/>
-<area shape="rect" id="Node000045" href="$classdetray_1_1ranges_1_1single__view.html" title="Struct that implements a view on a single element." alt="" coords="981,1194,1143,1234"/>
-<area shape="poly" id="edge47_Node000044_Node000045" title=" " alt="" coords="894,1211,980,1211,980,1217,894,1217"/>
-<area shape="rect" id="Node000047" href="$classdetray_1_1ranges_1_1single__view.html" title=" " alt="" coords="1493,1054,1655,1094"/>
-<area shape="poly" id="edge48_Node000045_Node000047" title=" " alt="" coords="1148,1188,1499,1091,1501,1097,1150,1193"/>
-<area shape="rect" id="Node000050" href="$structdetray_1_1ranges_1_1static__join__view.html" title="Range adaptor that joins different ranges of the same type (static)." alt="" coords="961,1050,1163,1090"/>
-<area shape="poly" id="edge50_Node000049_Node000050" title=" " alt="" coords="898,1067,960,1067,960,1073,898,1073"/>
-<area shape="rect" id="Node000053" href="$structdetray_1_1volume__graph_1_1edge__generator.html" title="Builds graph edges from the detector mask collection on the fly." alt="" coords="955,1115,1169,1169"/>
-<area shape="poly" id="edge52_Node000052_Node000053" title=" " alt="" coords="914,1139,955,1139,955,1145,914,1145"/>
-<area shape="rect" id="Node000055" href="$structdetray_1_1volume__graph_1_1node__generator.html" title="Builds a graph node from the detector collections on the fly." alt="" coords="955,1403,1169,1457"/>
-<area shape="poly" id="edge54_Node000054_Node000055" title=" " alt="" coords="914,1427,955,1427,955,1433,914,1433"/>
-<area shape="poly" id="edge59_Node000056_Node000002" title=" " alt="" coords="456,903,651,873,694,863,695,868,653,878,457,908"/>
-<area shape="poly" id="edge60_Node000056_Node000004" title=" " alt="" coords="345,887,353,736,373,523,389,414,409,313,434,230,448,197,465,171,724,58,726,63,468,175,453,199,439,232,414,315,394,415,378,524,358,736,350,887"/>
-<area shape="poly" id="edge61_Node000056_Node000006" title=" " alt="" coords="377,889,418,858,465,830,520,807,577,788,685,760,686,765,579,793,522,812,468,835,421,863,381,894"/>
-<area shape="poly" id="edge56_Node000056_Node000008" title=" " alt="" coords="456,932,467,933,559,935,652,933,1478,928,1478,933,652,938,559,940,467,938,456,937"/>
-<area shape="poly" id="edge57_Node000056_Node000010" title=" " alt="" coords="456,917,999,908,1266,897,1361,890,1418,882,1508,837,1510,842,1419,887,1362,896,1266,903,999,913,456,922"/>
-<area shape="poly" id="edge62_Node000056_Node000013" title=" " alt="" coords="343,887,347,806,363,698,379,640,400,582,428,528,465,479,487,458,509,445,552,433,598,426,623,419,651,406,706,373,753,338,756,343,709,377,653,411,625,424,599,431,553,438,511,450,490,463,469,482,433,531,405,584,384,641,369,699,352,807,348,887"/>
-<area shape="poly" id="edge63_Node000056_Node000017" title=" " alt="" coords="345,886,353,822,372,740,387,698,408,657,433,619,465,587,492,567,522,552,586,533,650,525,709,524,709,529,651,530,587,538,524,557,495,572,468,591,437,622,412,659,392,700,377,742,358,823,350,887"/>
-<area shape="poly" id="edge64_Node000056_Node000024" title=" " alt="" coords="350,887,364,840,386,784,419,729,441,705,465,684,492,668,521,655,582,639,643,633,699,633,699,638,643,638,583,645,523,660,494,673,468,688,444,708,424,732,391,786,369,841,355,888"/>
-<area shape="poly" id="edge65_Node000056_Node000026" title=" " alt="" coords="345,887,356,755,377,573,393,481,413,396,436,326,450,299,465,278,487,258,509,247,532,242,555,240,602,236,626,229,650,213,658,204,662,195,666,185,674,175,712,150,714,154,678,179,670,188,667,197,663,207,654,217,628,233,603,242,555,246,533,247,511,252,490,262,469,281,454,302,441,328,418,398,398,482,383,574,361,755,351,887"/>
-<area shape="poly" id="edge66_Node000056_Node000030" title=" " alt="" coords="346,886,359,770,383,614,399,536,418,464,440,405,465,364,487,344,509,333,531,328,554,326,601,321,625,314,650,300,662,286,674,271,720,242,723,246,678,275,666,289,654,304,627,319,602,326,554,331,532,333,511,338,490,349,469,368,444,408,423,466,404,537,388,615,365,771,352,887"/>
-<area shape="poly" id="edge67_Node000056_Node000033" title=" " alt="" coords="349,954,355,1024,372,1114,387,1161,408,1206,435,1247,468,1283,495,1301,523,1316,586,1335,650,1343,709,1343,709,1348,650,1348,585,1340,521,1321,492,1306,465,1287,431,1250,403,1208,382,1163,367,1115,349,1025,344,954"/>
-<area shape="poly" id="edge68_Node000056_Node000036" title=" " alt="" coords="351,954,363,1072,386,1231,402,1311,421,1384,443,1443,469,1483,493,1504,520,1522,580,1547,643,1561,702,1567,702,1572,642,1566,579,1552,517,1526,490,1508,465,1486,438,1445,416,1385,397,1312,381,1232,358,1073,346,955"/>
-<area shape="poly" id="edge69_Node000056_Node000040" title=" " alt="" coords="350,954,358,1096,378,1293,393,1394,413,1485,438,1560,453,1589,469,1611,483,1623,505,1634,563,1654,631,1670,698,1682,697,1688,630,1675,561,1659,503,1639,481,1627,465,1615,448,1592,433,1562,408,1487,388,1395,372,1294,353,1096,345,955"/>
-<area shape="poly" id="edge70_Node000056_Node000044" title=" " alt="" coords="352,954,363,1009,383,1075,398,1109,417,1141,441,1169,468,1193,495,1208,523,1220,584,1232,645,1234,701,1230,701,1235,645,1240,583,1238,521,1225,492,1213,465,1198,437,1173,413,1144,394,1111,378,1077,358,1010,347,955"/>
-<area shape="poly" id="edge58_Node000056_Node000047" title=" " alt="" coords="456,939,467,941,763,982,1055,1018,1493,1064,1492,1069,1054,1023,762,987,466,946,456,944"/>
-<area shape="poly" id="edge71_Node000056_Node000049" title=" " alt="" coords="368,951,409,1002,437,1027,468,1046,508,1057,567,1064,697,1069,697,1074,566,1070,507,1063,466,1051,434,1031,405,1006,364,954"/>
-<area shape="poly" id="edge72_Node000056_Node000052" title=" " alt="" coords="361,953,377,988,401,1028,431,1066,468,1097,519,1121,574,1136,629,1144,681,1147,681,1152,628,1149,572,1142,517,1126,465,1102,427,1070,396,1031,372,990,356,955"/>
-<area shape="poly" id="edge73_Node000056_Node000054" title=" " alt="" coords="353,954,368,1051,392,1177,408,1239,426,1295,447,1341,469,1371,491,1388,516,1403,570,1422,627,1433,681,1436,681,1441,626,1438,568,1428,513,1407,488,1393,465,1375,442,1343,421,1297,403,1241,387,1178,362,1052,348,955"/>
+<area shape="rect" id="Node000001" title="Definition of &#39;view&#39;." alt="" coords="5,780,197,807"/>
+<area shape="rect" id="Node000002" href="$classdetray_1_1ranges_1_1view__interface.html" title=" " alt="" coords="688,853,887,915"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="177,774,298,750,437,731,504,726,564,727,615,735,651,751,661,762,665,773,666,795,665,818,668,829,675,840,691,854,685,855,671,843,663,831,660,819,661,795,660,774,656,765,648,756,613,740,564,732,504,732,437,736,299,755,181,778"/>
+<area shape="rect" id="Node000004" href="$classdetray_1_1ranges_1_1view__interface.html" title=" " alt="" coords="698,5,877,67"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="103,764,120,640,150,467,170,378,192,297,217,229,244,181,290,135,344,99,403,72,466,53,529,40,591,33,700,30,696,33,591,38,530,45,467,58,405,77,347,104,293,139,248,184,222,231,197,298,175,380,156,468,126,641,108,765"/>
+<area shape="rect" id="Node000006" href="$classdetray_1_1ranges_1_1view__interface.html" title=" " alt="" coords="683,734,892,829"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="130,769,172,740,219,714,286,684,339,665,394,651,465,639,518,627,562,616,583,615,605,617,627,625,651,640,664,657,666,675,667,694,676,713,694,733,689,733,671,716,662,696,661,676,659,659,648,643,625,630,603,622,583,620,563,622,519,632,466,644,395,656,340,670,288,689,222,719,175,745,135,772"/>
+<area shape="rect" id="Node000013" href="$classdetray_1_1ranges_1_1view__interface.html" title=" " alt="" coords="673,291,902,352"/>
+<area shape="poly" id="edge9_Node000001_Node000013" title=" " alt="" coords="107,764,125,708,154,634,193,554,217,516,244,480,295,422,340,382,393,352,465,326,517,313,570,306,675,306,671,310,571,311,517,318,466,331,395,357,343,387,298,426,248,483,222,519,198,557,159,636,130,710,113,766"/>
+<area shape="rect" id="Node000017" href="$classdetray_1_1ranges_1_1view__interface.html" title=" " alt="" coords="707,523,868,584"/>
+<area shape="poly" id="edge14_Node000001_Node000017" title=" " alt="" coords="114,765,166,675,202,622,244,573,297,517,342,475,393,443,464,415,516,400,558,394,600,398,650,415,687,436,720,463,747,493,769,522,763,522,743,496,716,467,684,440,648,420,599,403,558,399,517,405,466,420,396,448,346,480,301,521,248,577,207,626,170,678,119,767"/>
+<area shape="rect" id="Node000024" href="$classdetray_1_1ranges_1_1view__interface.html" title=" " alt="" coords="697,641,878,703"/>
+<area shape="poly" id="edge23_Node000001_Node000024" title=" " alt="" coords="122,766,177,710,256,640,303,605,354,573,408,547,465,527,517,511,562,501,583,501,604,504,627,513,651,527,664,543,666,560,668,577,676,595,699,619,727,640,722,641,696,623,671,598,662,578,661,561,659,545,648,532,624,518,603,509,582,506,562,507,519,517,466,532,410,551,357,578,306,609,260,644,180,713,127,769"/>
+<area shape="rect" id="Node000026" href="$classdetray_1_1ranges_1_1view__interface.html" title=" " alt="" coords="678,100,897,162"/>
+<area shape="poly" id="edge25_Node000001_Node000026" title=" " alt="" coords="102,764,113,677,137,555,156,487,179,418,208,351,244,288,291,220,335,171,389,134,464,102,518,88,573,85,628,89,680,98,676,101,627,94,573,90,519,94,466,107,392,139,338,175,295,223,248,291,213,353,184,420,161,489,142,556,118,678,107,764"/>
+<area shape="rect" id="Node000030" href="$classdetray_1_1ranges_1_1view__interface.html" title=" " alt="" coords="705,195,870,256"/>
+<area shape="poly" id="edge30_Node000001_Node000030" title=" " alt="" coords="104,764,119,693,146,596,187,490,213,438,244,389,292,325,337,279,390,244,465,214,526,199,589,195,651,198,707,206,703,209,650,203,590,200,527,204,466,219,393,249,340,283,296,328,248,392,218,440,192,492,151,598,124,694,110,765"/>
+<area shape="rect" id="Node000033" href="$classdetray_1_1ranges_1_1view__interface.html" title=" " alt="" coords="706,1360,869,1422"/>
+<area shape="poly" id="edge33_Node000001_Node000033" title=" " alt="" coords="106,820,125,948,154,1123,173,1212,195,1294,220,1361,248,1408,279,1433,325,1457,381,1479,442,1496,504,1508,562,1512,612,1508,648,1495,658,1484,660,1471,662,1455,671,1440,703,1419,708,1417,675,1443,667,1457,665,1472,662,1486,651,1500,613,1514,562,1518,503,1513,441,1501,379,1484,322,1462,276,1438,244,1411,216,1364,190,1296,168,1214,149,1124,119,949,106,826"/>
+<area shape="rect" id="Node000036" href="$classdetray_1_1ranges_1_1view__interface.html" title=" " alt="" coords="699,1554,876,1633"/>
+<area shape="poly" id="edge36_Node000001_Node000036" title=" " alt="" coords="104,820,119,982,145,1216,164,1337,187,1449,215,1543,231,1579,248,1608,290,1660,335,1702,381,1735,430,1756,481,1766,534,1765,590,1749,648,1721,657,1712,661,1701,664,1688,671,1675,694,1651,719,1635,723,1632,698,1655,675,1678,668,1690,666,1702,662,1714,651,1725,592,1754,535,1770,481,1772,429,1761,379,1739,332,1706,287,1663,244,1611,226,1582,210,1545,182,1451,159,1338,140,1216,114,982,104,825"/>
+<area shape="rect" id="Node000040" href="$classdetray_1_1ranges_1_1view__interface.html" title=" " alt="" coords="695,1688,880,1750"/>
+<area shape="poly" id="edge41_Node000001_Node000040" title=" " alt="" coords="102,820,106,1015,111,1153,122,1302,139,1451,165,1585,181,1644,201,1694,223,1735,248,1765,274,1785,302,1800,331,1811,362,1819,427,1825,493,1820,559,1807,620,1789,721,1751,727,1750,622,1794,560,1812,494,1825,427,1830,361,1824,329,1816,299,1805,271,1789,244,1769,218,1738,196,1697,176,1645,160,1587,134,1451,116,1303,106,1153,101,1015,102,826"/>
+<area shape="rect" id="Node000044" href="$classdetray_1_1ranges_1_1view__interface.html" title=" " alt="" coords="698,1245,877,1307"/>
+<area shape="poly" id="edge46_Node000001_Node000044" title=" " alt="" coords="103,820,112,911,133,1035,151,1103,176,1171,208,1236,248,1294,296,1344,343,1373,397,1390,466,1407,519,1422,562,1431,582,1432,603,1429,624,1421,648,1407,658,1395,661,1381,663,1364,671,1347,694,1324,724,1306,720,1309,698,1328,675,1350,668,1366,666,1382,663,1397,651,1412,626,1426,604,1434,583,1438,561,1437,517,1427,465,1412,395,1395,341,1377,293,1348,244,1298,203,1238,171,1173,146,1104,128,1036,107,911,103,825"/>
+<area shape="rect" id="Node000049" href="$classdetray_1_1ranges_1_1view__interface.html" title=" " alt="" coords="694,1091,881,1152"/>
+<area shape="poly" id="edge49_Node000001_Node000049" title=" " alt="" coords="116,819,164,901,198,952,239,1007,287,1060,341,1110,401,1152,466,1183,516,1199,558,1204,599,1199,648,1183,660,1174,672,1162,696,1151,692,1155,675,1166,664,1178,651,1188,600,1204,558,1209,515,1204,464,1188,398,1157,338,1114,283,1064,235,1010,194,955,160,904,116,824"/>
+<area shape="rect" id="Node000052" href="$classdetray_1_1ranges_1_1view__interface.html" title=" " alt="" coords="678,1176,897,1221"/>
+<area shape="poly" id="edge51_Node000001_Node000052" title=" " alt="" coords="106,820,121,892,147,986,165,1037,188,1087,215,1135,248,1178,298,1228,344,1258,397,1277,466,1295,519,1310,562,1320,582,1321,603,1317,624,1309,648,1295,658,1282,660,1267,661,1249,671,1232,691,1220,687,1223,675,1235,666,1251,665,1267,663,1284,651,1300,627,1314,604,1323,583,1326,562,1325,517,1315,465,1300,395,1282,342,1262,294,1232,244,1182,211,1138,183,1089,160,1039,142,988,116,894,106,826"/>
+<area shape="rect" id="Node000054" href="$classdetray_1_1ranges_1_1view__interface.html" title=" " alt="" coords="678,1454,897,1498"/>
+<area shape="poly" id="edge53_Node000001_Node000054" title=" " alt="" coords="105,821,122,964,150,1166,170,1271,192,1366,219,1446,233,1477,248,1501,278,1529,323,1556,380,1581,441,1602,504,1617,562,1624,612,1622,632,1617,648,1609,659,1595,661,1579,662,1561,671,1541,698,1516,728,1500,733,1498,702,1520,675,1544,667,1562,666,1579,664,1597,651,1613,634,1622,613,1627,562,1630,503,1622,440,1607,378,1586,321,1561,275,1533,244,1505,228,1480,214,1448,187,1368,164,1272,145,1167,117,965,105,826"/>
+<area shape="rect" id="Node000056" href="$classdetray_1_1ranges_1_1view__interface.html" title="Defines a detray &#39;view&#39;." alt="" coords="246,947,441,992"/>
+<area shape="poly" id="edge55_Node000001_Node000056" title=" " alt="" coords="133,814,314,945,309,948,134,819"/>
+<area shape="rect" id="Node000003" href="$classdetray_1_1bins_1_1dynamic__array.html" title="Bin that views a collection of entries it does not own." alt="" coords="978,866,1139,910"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="901,883,979,886,975,888,903,888"/>
+<area shape="rect" id="Node000005" href="$classdetray_1_1bins_1_1static__array.html" title="Bin that holds a collection of entries." alt="" coords="980,14,1136,58"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="891,34,982,35,977,38,894,38"/>
+<area shape="rect" id="Node000007" href="$classdetray_1_1navigation_1_1base__state.html" title="A navigation state object used to cache the information of the current navigation stream." alt="" coords="974,746,1142,841"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="906,784,976,789,971,791,908,789"/>
+<area shape="rect" id="Node000008" href="$classdetray_1_1navigation_1_1base__state.html" title=" " alt="" coords="1473,895,1665,991"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="1155,843,1167,852,1179,866,1191,878,1260,908,1335,927,1407,938,1476,944,1470,945,1407,943,1334,932,1259,913,1188,883,1175,870,1163,855,1155,848"/>
+<area shape="rect" id="Node000010" href="$classdetray_1_1navigation_1_1base__state.html" title=" " alt="" coords="1465,773,1673,852"/>
+<area shape="poly" id="edge8_Node000007_Node000010" title=" " alt="" coords="1157,795,1467,807,1463,809,1158,800"/>
+<area shape="rect" id="Node000014" href="$structdetray_1_1ranges_1_1cartesian__product__view.html" title=" " alt="" coords="1462,282,1676,326"/>
+<area shape="poly" id="edge10_Node000013_Node000014" title=" " alt="" coords="916,311,951,310,1189,303,1464,303,1460,305,1189,308,951,315,919,316"/>
+<area shape="rect" id="Node000016" href="$structdetray_1_1ranges_1_1cartesian__product__view.html" title="Range adaptor that generates a cartesian product from the given input ranges." alt="" coords="958,324,1159,369"/>
+<area shape="poly" id="edge12_Node000013_Node000016" title=" " alt="" coords="916,331,960,336,955,339,918,336"/>
+<area shape="rect" id="Node000015" href="$structdetray_1_1ranges_1_1views_1_1cartesian__product.html" title="interface type to construct a cartesian_product_view with CTAD" alt="" coords="1943,273,2104,335"/>
+<area shape="poly" id="edge11_Node000014_Node000015" title=" " alt="" coords="1691,302,1945,303,1940,305,1692,307"/>
+<area shape="poly" id="edge13_Node000016_Node000014" title=" " alt="" coords="1173,343,1290,338,1414,328,1464,323,1460,325,1415,333,1291,343,1175,348"/>
+<area shape="rect" id="Node000018" href="$classdetray_1_1ranges_1_1detail_1_1subrange__view.html" title="Implements a subrange by providing start and end iterators on another range." alt="" coords="955,531,1161,576"/>
+<area shape="poly" id="edge15_Node000017_Node000018" title=" " alt="" coords="882,551,957,552,952,555,885,556"/>
+<area shape="rect" id="Node000019" href="$structdetray_1_1ranges_1_1subrange.html" title=" " alt="" coords="1901,510,2146,554"/>
+<area shape="poly" id="edge16_Node000018_Node000019" title=" " alt="" coords="1140,578,1282,617,1370,635,1467,650,1569,658,1672,659,1776,649,1876,627,1899,616,1930,597,1991,556,1995,553,1932,601,1902,621,1878,632,1777,655,1673,665,1568,664,1466,655,1369,640,1281,622,1141,584"/>
+<area shape="rect" id="Node000021" href="$structdetray_1_1ranges_1_1subrange.html" title=" " alt="" coords="1930,392,2117,437"/>
+<area shape="poly" id="edge17_Node000018_Node000021" title=" " alt="" coords="1147,524,1261,492,1404,456,1563,422,1723,398,1830,394,1932,402,1926,403,1830,399,1724,403,1564,427,1405,461,1263,497,1150,529"/>
+<area shape="rect" id="Node000022" href="$structdetray_1_1ranges_1_1subrange.html" title=" " alt="" coords="1910,631,2136,676"/>
+<area shape="poly" id="edge18_Node000018_Node000022" title=" " alt="" coords="1093,584,1139,618,1190,646,1284,674,1382,692,1481,702,1579,704,1674,701,1762,694,1912,675,1907,677,1762,699,1674,706,1579,709,1481,707,1381,697,1283,679,1188,651,1136,623,1094,589"/>
+<area shape="rect" id="Node000023" href="$structdetray_1_1ranges_1_1subrange.html" title="interface type to construct a subrange_view with CTAD" alt="" coords="1469,518,1669,562"/>
+<area shape="poly" id="edge19_Node000018_Node000023" title=" " alt="" coords="1176,548,1471,542,1466,544,1178,553"/>
+<area shape="poly" id="edge20_Node000023_Node000019" title=" " alt="" coords="1684,536,1903,533,1898,535,1685,541"/>
+<area shape="poly" id="edge21_Node000023_Node000021" title=" " alt="" coords="1637,509,1723,479,1799,460,1876,445,1932,435,1927,437,1877,450,1800,465,1724,484,1640,514"/>
+<area shape="poly" id="edge22_Node000023_Node000022" title=" " alt="" coords="1649,565,1724,588,1912,632,1907,633,1723,593,1650,571"/>
+<area shape="rect" id="Node000025" href="$classdetray_1_1ranges_1_1empty__view.html" title="Implements an empty view of a given type." alt="" coords="976,650,1140,694"/>
+<area shape="poly" id="edge24_Node000024_Node000025" title=" " alt="" coords="893,670,978,671,973,673,895,675"/>
+<area shape="rect" id="Node000027" href="$classdetray_1_1ranges_1_1enumerate__view.html" title=" " alt="" coords="1463,127,1675,172"/>
+<area shape="poly" id="edge26_Node000026_Node000027" title=" " alt="" coords="911,119,1145,110,1280,111,1415,119,1465,127,1460,129,1414,124,1280,116,1145,115,913,124"/>
+<area shape="rect" id="Node000029" href="$classdetray_1_1ranges_1_1enumerate__view.html" title="Enumerates the elements of a range on the fly." alt="" coords="956,134,1160,178"/>
+<area shape="poly" id="edge28_Node000026_Node000029" title=" " alt="" coords="911,140,958,145,954,148,913,145"/>
+<area shape="rect" id="Node000028" href="$structdetray_1_1ranges_1_1views_1_1enumerate.html" title="Range adaptor that creates an enumerate view, optionally starting at a selected index." alt="" coords="1937,119,2110,180"/>
+<area shape="poly" id="edge27_Node000027_Node000028" title=" " alt="" coords="1689,147,1939,148,1934,151,1691,152"/>
+<area shape="poly" id="edge29_Node000029_Node000027" title=" " alt="" coords="1174,152,1465,149,1460,152,1176,157"/>
+<area shape="rect" id="Node000031" href="$classdetray_1_1ranges_1_1iota__view.html" title="Range factory that produces a sequence of values." alt="" coords="984,203,1132,248"/>
+<area shape="poly" id="edge31_Node000030_Node000031" title=" " alt="" coords="884,223,986,224,982,227,886,228"/>
+<area shape="rect" id="Node000032" href="$structdetray_1_1ranges_1_1views_1_1iota.html" title="interface type to construct a iota_view with CTAD Range adaptor that constructs an iota view from a r..." alt="" coords="1489,203,1649,248"/>
+<area shape="poly" id="edge32_Node000031_Node000032" title=" " alt="" coords="1146,223,1491,224,1486,227,1148,228"/>
+<area shape="rect" id="Node000034" href="$structdetray_1_1ranges_1_1join__view.html" title="Range adaptor that joins different ranges of the same type (static)." alt="" coords="985,1368,1131,1413"/>
+<area shape="poly" id="edge34_Node000033_Node000034" title=" " alt="" coords="884,1388,987,1390,982,1392,885,1393"/>
+<area shape="rect" id="Node000035" href="$structdetray_1_1ranges_1_1views_1_1join.html" title="interface type to construct a join_view with CTAD" alt="" coords="1489,1368,1649,1413"/>
+<area shape="poly" id="edge35_Node000034_Node000035" title=" " alt="" coords="1146,1388,1491,1390,1486,1391,1147,1393"/>
+<area shape="rect" id="Node000037" title=" " alt="" coords="1438,1580,1700,1658"/>
+<area shape="poly" id="edge37_Node000036_Node000037" title=" " alt="" coords="891,1602,951,1607,1211,1616,1441,1620,1436,1620,1211,1621,951,1612,891,1608"/>
+<area shape="rect" id="Node000039" href="$classdetray_1_1ranges_1_1pick__view.html" title="Range adaptor that indexes the elements of a range using another index range." alt="" coords="951,1536,1165,1598"/>
+<area shape="poly" id="edge39_Node000036_Node000039" title=" " alt="" coords="891,1581,953,1577,948,1578,892,1586"/>
+<area shape="rect" id="Node000038" href="$structdetray_1_1ranges_1_1views_1_1pick.html" title="Range adaptor that selects indexed elements from an input range." alt="" coords="1943,1588,2104,1650"/>
+<area shape="poly" id="edge38_Node000037_Node000038" title=" " alt="" coords="1715,1616,1945,1619,1940,1619,1715,1621"/>
+<area shape="poly" id="edge40_Node000039_Node000037" title=" " alt="" coords="1181,1577,1441,1605,1435,1606,1181,1582"/>
+<area shape="rect" id="Node000041" href="$classdetray_1_1ranges_1_1pointer__view.html" title=" " alt="" coords="1481,1698,1657,1742"/>
+<area shape="poly" id="edge42_Node000040_Node000041" title=" " alt="" coords="896,1713,1133,1709,1414,1711,1483,1716,1478,1716,1414,1716,1133,1715,896,1719"/>
+<area shape="rect" id="Node000043" href="$classdetray_1_1ranges_1_1pointer__view.html" title="Struct that implements a pointer based view on a single element." alt="" coords="974,1732,1142,1777"/>
+<area shape="poly" id="edge44_Node000040_Node000043" title=" " alt="" coords="896,1731,976,1744,971,1744,896,1736"/>
+<area shape="rect" id="Node000042" href="$structdetray_1_1ranges_1_1views_1_1pointer.html" title="interface type to construct a pointer_view with CTAD" alt="" coords="1943,1698,2104,1742"/>
+<area shape="poly" id="edge43_Node000041_Node000042" title=" " alt="" coords="1672,1718,1945,1720,1940,1720,1672,1723"/>
+<area shape="poly" id="edge45_Node000043_Node000041" title=" " alt="" coords="1158,1750,1414,1736,1478,1732,1483,1732,1415,1741,1158,1755"/>
+<area shape="rect" id="Node000045" href="$classdetray_1_1ranges_1_1single__view.html" title="Struct that implements a view on a single element." alt="" coords="978,1254,1139,1298"/>
+<area shape="poly" id="edge47_Node000044_Node000045" title=" " alt="" coords="892,1274,980,1275,974,1277,893,1279"/>
+<area shape="rect" id="Node000047" href="$classdetray_1_1ranges_1_1single__view.html" title=" " alt="" coords="1488,1098,1650,1142"/>
+<area shape="poly" id="edge48_Node000045_Node000047" title=" " alt="" coords="1148,1246,1495,1142,1491,1144,1149,1251"/>
+<area shape="rect" id="Node000050" href="$structdetray_1_1ranges_1_1static__join__view.html" title="Range adaptor that joins different ranges of the same type (static)." alt="" coords="957,1099,1159,1144"/>
+<area shape="poly" id="edge50_Node000049_Node000050" title=" " alt="" coords="895,1119,959,1121,954,1122,897,1124"/>
+<area shape="rect" id="Node000053" href="$structdetray_1_1volume__graph_1_1edge__generator.html" title="Builds graph edges from the detector mask collection on the fly." alt="" coords="952,1168,1165,1230"/>
+<area shape="poly" id="edge52_Node000052_Node000053" title=" " alt="" coords="912,1196,954,1198,949,1200,913,1201"/>
+<area shape="rect" id="Node000055" href="$structdetray_1_1volume__graph_1_1node__generator.html" title="Builds a graph node from the detector collections on the fly." alt="" coords="952,1445,1165,1507"/>
+<area shape="poly" id="edge54_Node000054_Node000055" title=" " alt="" coords="912,1474,954,1476,949,1477,913,1479"/>
+<area shape="poly" id="edge59_Node000056_Node000002" title=" " alt="" coords="456,952,649,921,690,913,686,916,650,926,458,956"/>
+<area shape="poly" id="edge60_Node000056_Node000004" title=" " alt="" coords="343,931,351,772,370,549,386,435,406,330,432,243,447,208,463,181,484,159,504,143,525,133,547,127,594,118,648,98,672,86,718,66,715,69,675,91,650,103,595,123,548,132,527,138,507,148,487,162,467,184,451,211,437,245,411,331,391,436,376,550,357,773,349,932"/>
+<area shape="poly" id="edge61_Node000056_Node000006" title=" " alt="" coords="378,935,418,903,464,874,503,858,558,840,685,806,681,809,560,845,505,863,467,879,421,907,382,938"/>
+<area shape="poly" id="edge56_Node000056_Node000008" title=" " alt="" coords="455,981,465,982,557,984,649,982,865,983,1032,986,1200,984,1414,968,1475,962,1470,964,1415,973,1200,989,1032,992,865,988,649,987,557,989,465,987,458,986"/>
+<area shape="poly" id="edge57_Node000056_Node000010" title=" " alt="" coords="456,966,1020,957,1285,947,1372,940,1413,931,1422,921,1425,909,1428,896,1436,881,1475,854,1479,851,1440,885,1433,897,1430,910,1427,924,1416,936,1373,945,1286,952,1021,963,457,971"/>
+<area shape="poly" id="edge62_Node000056_Node000013" title=" " alt="" coords="347,931,363,831,388,701,422,578,442,529,463,496,485,476,507,464,550,454,596,448,621,441,648,429,705,391,755,351,752,355,708,395,651,434,623,446,597,453,551,459,509,469,488,480,467,499,446,532,427,580,393,702,368,832,353,933"/>
+<area shape="poly" id="edge63_Node000056_Node000017" title=" " alt="" coords="343,931,350,863,369,776,384,730,405,687,431,646,464,612,490,592,520,576,583,556,648,546,709,546,704,549,648,552,585,561,522,581,493,596,467,615,435,650,409,689,389,732,374,777,355,863,349,932"/>
+<area shape="poly" id="edge64_Node000056_Node000024" title=" " alt="" coords="349,931,363,882,385,824,418,767,439,741,464,719,490,703,519,689,579,672,640,663,699,663,694,666,641,669,580,677,521,694,493,707,467,724,443,745,422,770,390,826,368,883,355,932"/>
+<area shape="poly" id="edge65_Node000056_Node000026" title=" " alt="" coords="344,931,354,792,375,602,391,505,410,417,434,344,448,315,463,293,485,273,508,262,531,258,554,257,600,252,624,244,647,228,656,217,659,206,662,194,671,181,703,160,700,164,675,185,667,196,664,208,661,220,651,232,626,249,602,258,554,262,531,263,509,267,488,278,467,297,453,318,439,346,415,418,396,506,380,602,359,792,349,932"/>
+<area shape="poly" id="edge66_Node000056_Node000030" title=" " alt="" coords="345,931,358,808,381,645,396,562,415,487,437,426,463,382,485,363,508,352,531,347,553,346,600,341,623,333,648,318,655,308,659,299,663,288,671,277,706,255,703,259,675,281,668,291,664,301,660,311,651,322,626,338,601,347,554,351,531,352,510,357,488,367,467,386,442,428,420,489,402,564,386,646,363,809,351,932"/>
+<area shape="poly" id="edge67_Node000056_Node000033" title=" " alt="" coords="345,1004,352,1081,368,1175,384,1224,405,1270,432,1313,467,1349,493,1368,522,1381,584,1398,647,1403,708,1403,703,1404,647,1408,583,1403,520,1386,490,1372,464,1354,428,1316,400,1273,379,1226,363,1176,346,1082,344,1010"/>
+<area shape="poly" id="edge68_Node000056_Node000036" title=" " alt="" coords="348,1005,361,1130,383,1291,398,1372,417,1445,440,1504,453,1526,467,1543,492,1562,519,1577,579,1596,641,1603,702,1605,696,1606,641,1609,578,1601,517,1582,489,1567,463,1547,449,1529,436,1506,412,1447,393,1373,377,1292,356,1130,347,1010"/>
+<area shape="poly" id="edge69_Node000056_Node000040" title=" " alt="" coords="347,1005,356,1151,376,1346,391,1445,411,1535,436,1608,451,1635,467,1656,491,1676,517,1692,576,1713,637,1723,697,1727,692,1728,636,1728,574,1718,515,1697,488,1681,463,1660,447,1638,432,1610,406,1536,386,1446,370,1347,351,1151,345,1010"/>
+<area shape="poly" id="edge70_Node000056_Node000044" title=" " alt="" coords="349,1005,361,1064,381,1133,396,1168,415,1201,439,1230,467,1255,493,1270,521,1282,581,1294,642,1296,700,1293,695,1295,642,1302,580,1300,519,1287,491,1275,464,1259,435,1234,411,1204,392,1170,376,1135,356,1066,348,1010"/>
+<area shape="poly" id="edge58_Node000056_Node000047" title=" " alt="" coords="455,988,466,990,761,1030,1052,1065,1490,1112,1485,1114,1051,1070,760,1036,465,995,458,993"/>
+<area shape="poly" id="edge71_Node000056_Node000049" title=" " alt="" coords="366,1002,409,1056,436,1080,466,1100,507,1111,564,1117,696,1122,692,1125,564,1123,506,1116,464,1105,433,1085,405,1059,366,1008"/>
+<area shape="poly" id="edge72_Node000056_Node000052" title=" " alt="" coords="358,1003,377,1041,400,1081,430,1120,467,1151,517,1175,571,1191,626,1199,680,1204,675,1206,625,1205,570,1196,515,1180,464,1155,426,1123,396,1084,372,1043,358,1009"/>
+<area shape="poly" id="edge73_Node000056_Node000054" title=" " alt="" coords="350,1005,366,1108,390,1237,406,1301,424,1358,444,1404,467,1434,489,1451,514,1464,568,1481,624,1488,680,1490,675,1492,623,1494,567,1486,512,1469,487,1455,463,1438,440,1406,419,1360,401,1302,385,1238,361,1109,349,1010"/>
 </map>

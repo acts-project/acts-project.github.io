@@ -1,9 +1,9 @@
 <map id="detray::io::header_payload&lt; sub_header_payload_t &gt;" name="detray::io::header_payload&lt; sub_header_payload_t &gt;">
-<area shape="rect" id="Node000001" title="a payload for common and extra information" alt="" coords="5,84,176,139"/>
-<area shape="rect" id="Node000002" href="$structdetray_1_1io_1_1header__payload.html" title=" " alt="" coords="448,5,651,60"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,76,199,61,263,47,328,38,448,30,448,35,329,44,264,53,201,66,158,81"/>
-<area shape="rect" id="Node000003" href="$structdetray_1_1io_1_1header__payload.html" title=" " alt="" coords="429,84,669,139"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="190,109,429,109,429,114,190,114"/>
-<area shape="rect" id="Node000004" href="$structdetray_1_1io_1_1header__payload.html" title=" " alt="" coords="448,163,651,217"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="190,134,201,137,329,159,448,176,447,181,328,164,199,142,189,140"/>
+<area shape="rect" id="Node000001" title="a payload for common and extra information" alt="" coords="5,91,176,152"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1io_1_1header__payload.html" title=" " alt="" coords="447,5,648,67"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="158,81,199,66,262,51,327,42,449,35,444,37,327,47,263,56,200,71,161,86"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1io_1_1header__payload.html" title=" " alt="" coords="428,91,667,152"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="191,119,429,119,426,124,192,124"/>
+<area shape="rect" id="Node000004" href="$structdetray_1_1io_1_1header__payload.html" title=" " alt="" coords="446,176,648,238"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="190,147,200,149,328,173,448,194,443,194,327,179,199,154,191,152"/>
 </map>

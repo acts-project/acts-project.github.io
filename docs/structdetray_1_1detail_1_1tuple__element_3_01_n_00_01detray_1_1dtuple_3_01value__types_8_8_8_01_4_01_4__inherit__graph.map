@@ -1,5 +1,5 @@
 <map id="detray::detail::tuple_element&lt; N, detray::dtuple&lt; value_types... &gt; &gt;" name="detray::detail::tuple_element&lt; N, detray::dtuple&lt; value_types... &gt; &gt;">
-<area shape="rect" id="Node000001" title="Select tuple element N from a detray tuple." alt="" coords="5,136,204,191"/>
-<area shape="rect" id="Node000002" href="$structdetray_1_1detail_1_1tuple__element.html" title="tuple_element for std::tuple" alt="" coords="30,5,179,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,59,107,136,102,136,102,59"/>
+<area shape="rect" id="Node000001" title="Select tuple element N from a detray tuple." alt="" coords="5,145,204,207"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1detail_1_1tuple__element.html" title="tuple_element for std::tuple" alt="" coords="30,5,179,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,64,107,146,102,145,102,68"/>
 </map>

@@ -1,9 +1,9 @@
 <map id="Acts::SensorLayerAssembler&lt; BackendT &gt;" name="Acts::SensorLayerAssembler&lt; BackendT &gt;">
-<area shape="rect" id="Node000001" title="Fluent builder that assembles multiple cylindrical or disc&#45;like detector layers directly from sensor ..." alt="" coords="5,69,212,109"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_sensor_layer_assembler.html" title=" " alt="" coords="513,5,720,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="206,64,236,59,381,40,513,29,513,34,381,46,236,64,207,69"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_sensor_layer_assembler.html" title=" " alt="" coords="513,69,720,109"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="226,87,513,87,513,92,226,92"/>
-<area shape="rect" id="Node000004" href="$class_acts_1_1_sensor_layer_assembler.html" title=" " alt="" coords="493,133,740,173"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="207,109,236,115,369,132,493,143,493,148,368,137,236,120,206,115"/>
+<area shape="rect" id="Node000001" title="Fluent builder that assembles multiple cylindrical or disc&#45;like detector layers directly from sensor ..." alt="" coords="5,75,212,119"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_sensor_layer_assembler.html" title=" " alt="" coords="511,5,718,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,68,235,64,379,44,513,34,508,35,380,49,236,69,213,73"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_sensor_layer_assembler.html" title=" " alt="" coords="511,75,718,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="227,94,512,95,509,99,228,100"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_sensor_layer_assembler.html" title=" " alt="" coords="492,144,737,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="213,120,236,125,368,143,494,158,489,158,367,148,235,130,213,126"/>
 </map>

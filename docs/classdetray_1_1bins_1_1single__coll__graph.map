@@ -1,17 +1,17 @@
 <map id="detray::bins::single&lt; entry_t &gt;" name="detray::bins::single&lt; entry_t &gt;">
-<area shape="rect" id="Node000001" title="Bin with a single entry." alt="" coords="1423,33,1568,73"/>
-<area shape="rect" id="Node000002" href="$classdetray_1_1ranges_1_1single__view.html" title=" " alt="" coords="1211,33,1373,73"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1387,51,1423,51,1423,56,1387,56"/>
-<area shape="rect" id="Node000003" href="$classdetray_1_1ranges_1_1view__interface.html" title="Defines a detray &#39;view&#39;." alt="" coords="467,5,663,45"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="677,24,911,29,1187,41,1211,43,1210,48,1187,47,911,35,676,29"/>
-<area shape="rect" id="Node000004" href="$structdetray_1_1ranges_1_1base__view.html" title="Definition of &#39;view&#39;." alt="" coords="5,63,197,89"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="192,59,221,55,466,30,467,35,222,60,193,64"/>
-<area shape="rect" id="Node000006" href="$classdetray_1_1ranges_1_1view__interface.html" title=" " alt="" coords="687,63,865,118"/>
-<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="211,76,686,86,686,91,211,81"/>
-<area shape="rect" id="Node000007" href="$classdetray_1_1ranges_1_1view__interface.html" title="Defines a detray &#39;view&#39;." alt="" coords="247,116,443,156"/>
-<area shape="poly" id="edge8_Node000007_Node000004" title=" " alt="" coords="167,89,264,113,262,119,166,95"/>
-<area shape="rect" id="Node000005" href="$classdetray_1_1ranges_1_1single__view.html" title="Struct that implements a view on a single element." alt="" coords="915,64,1077,104"/>
-<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="1091,73,1186,64,1210,61,1211,67,1187,69,1091,79"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="879,85,914,84,914,89,880,90"/>
-<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="457,145,557,146,610,142,662,135,720,116,722,121,663,140,611,148,557,151,457,150"/>
+<area shape="rect" id="Node000001" title="Bin with a single entry." alt="" coords="1416,35,1561,79"/>
+<area shape="rect" id="Node000002" href="$classdetray_1_1ranges_1_1single__view.html" title=" " alt="" coords="1206,35,1367,79"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1383,54,1419,57,1414,57,1383,60"/>
+<area shape="rect" id="Node000003" href="$classdetray_1_1ranges_1_1view__interface.html" title="Defines a detray &#39;view&#39;." alt="" coords="465,5,661,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="676,26,909,31,1182,44,1208,48,1203,48,1182,49,909,36,676,31"/>
+<area shape="rect" id="Node000004" href="$structdetray_1_1ranges_1_1base__view.html" title="Definition of &#39;view&#39;." alt="" coords="5,64,197,92"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="204,59,220,57,466,33,463,37,221,62,206,64"/>
+<area shape="rect" id="Node000006" href="$classdetray_1_1ranges_1_1view__interface.html" title=" " alt="" coords="685,65,863,126"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="213,79,685,91,684,96,213,84"/>
+<area shape="rect" id="Node000007" href="$classdetray_1_1ranges_1_1view__interface.html" title="Defines a detray &#39;view&#39;." alt="" coords="246,120,441,165"/>
+<area shape="poly" id="edge8_Node000007_Node000004" title=" " alt="" coords="171,94,259,119,254,120,171,99"/>
+<area shape="rect" id="Node000005" href="$classdetray_1_1ranges_1_1single__view.html" title="Struct that implements a view on a single element." alt="" coords="912,67,1074,111"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="1089,78,1181,69,1203,69,1208,68,1182,74,1090,84"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="878,90,914,91,909,92,879,95"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="457,152,557,153,609,150,660,142,710,128,715,127,661,147,610,155,557,159,457,157"/>
 </map>

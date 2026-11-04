@@ -1,5 +1,5 @@
 <map id="detray::types::get_type&lt; I, registry&lt; ID, Ts... &gt; &gt;" name="detray::types::get_type&lt; I, registry&lt; ID, Ts... &gt; &gt;">
-<area shape="rect" id="Node000001" title="Resolve an identifier value to its registered type." alt="" coords="15,136,162,191"/>
-<area shape="rect" id="Node000002" href="$structdetray_1_1types_1_1get__type.html" title="Get the type corresponding to an ID." alt="" coords="5,5,172,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,59,91,136,86,136,86,59"/>
+<area shape="rect" id="Node000001" title="Resolve an identifier value to its registered type." alt="" coords="15,145,161,207"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1types_1_1get__type.html" title="Get the type corresponding to an ID." alt="" coords="5,5,171,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,64,91,146,85,145,86,67"/>
 </map>

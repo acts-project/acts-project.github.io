@@ -1,10 +1,10 @@
 <map id="Acts::ISurfaceMaterialAccumulator::TrackAccumulation" name="Acts::ISurfaceMaterialAccumulator::TrackAccumulation">
-<area shape="rect" id="Node000001" title="The accumulation input of a single track." alt="" coords="821,40,1068,80"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="401,5,562,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="576,30,822,48,821,53,576,35"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="5,49,135,74"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="148,52,158,51,400,30,400,35,159,56,149,57"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="381,70,581,125"/>
-<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="105,78,131,90,159,99,216,108,273,111,381,107,381,113,273,116,215,113,158,104,129,95,103,83"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="595,88,797,73,821,71,821,76,798,79,595,94"/>
+<area shape="rect" id="Node000001" title="The accumulation input of a single track." alt="" coords="818,41,1064,86"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="399,5,560,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="575,32,820,54,815,54,575,38"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,52,134,80"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="148,54,157,53,400,31,398,36,158,58,150,59"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="380,74,579,136"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="107,85,132,97,158,106,214,115,272,119,382,118,377,118,272,124,214,120,157,111,130,102,106,91"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="595,95,794,79,815,80,820,79,794,85,595,101"/>
 </map>

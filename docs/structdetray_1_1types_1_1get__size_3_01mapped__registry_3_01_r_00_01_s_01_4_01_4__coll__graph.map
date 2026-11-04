@@ -1,7 +1,7 @@
 <map id="detray::types::get_size&lt; mapped_registry&lt; R, S &gt; &gt;" name="detray::types::get_size&lt; mapped_registry&lt; R, S &gt; &gt;">
-<area shape="rect" id="Node000001" title=" " alt="" coords="407,41,587,96"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,213,60"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="227,40,383,54,406,56,406,62,382,59,227,45"/>
-<area shape="rect" id="Node000003" href="$structdetray_1_1types_1_1get__size.html" title="Number of types in the list." alt="" coords="34,85,185,125"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="199,109,288,110,382,102,420,94,421,99,383,107,288,115,199,114"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="405,44,584,106"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,213,67"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="228,43,381,58,407,63,401,63,380,63,228,48"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1types_1_1get__size.html" title="Number of types in the list." alt="" coords="34,91,184,136"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="199,118,287,119,380,110,407,107,412,106,381,115,288,124,200,123"/>
 </map>

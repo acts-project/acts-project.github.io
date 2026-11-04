@@ -1,9 +1,9 @@
 <map id="detray::algebra::smatrix::math::transform3&lt; scalar_t &gt;" name="detray::algebra::smatrix::math::transform3&lt; scalar_t &gt;">
-<area shape="rect" id="Node000001" title="Transform wrapper class to ensure standard API towards the ROOT::SMatrix lib." alt="" coords="5,37,231,77"/>
-<area shape="rect" id="Node000002" href="$structdetray_1_1algebra_1_1smatrix_1_1math_1_1transform3.html" title=" " alt="" coords="384,5,624,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="244,44,384,33,384,38,245,50"/>
-<area shape="rect" id="Node000003" href="$structdetray_1_1algebra_1_1smatrix_1_1math_1_1transform3.html" title=" " alt="" coords="413,69,595,109"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="245,70,255,71,413,82,412,87,254,76,244,75"/>
-<area shape="rect" id="Node000004" href="$structdetray_1_1algebra_1_1smatrix_1_1math_1_1transform3.html" title=" " alt="" coords="783,62,965,117"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="609,87,782,87,782,92,609,92"/>
+<area shape="rect" id="Node000001" title="Transform wrapper class to ensure standard API towards the ROOT::SMatrix lib." alt="" coords="5,40,230,85"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1algebra_1_1smatrix_1_1math_1_1transform3.html" title=" " alt="" coords="382,5,621,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="245,48,384,38,379,39,246,53"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1algebra_1_1smatrix_1_1math_1_1transform3.html" title=" " alt="" coords="411,75,592,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="245,76,254,77,413,91,408,92,253,82,245,81"/>
+<area shape="rect" id="Node000004" href="$structdetray_1_1algebra_1_1smatrix_1_1math_1_1transform3.html" title=" " alt="" coords="779,66,960,128"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="608,94,781,97,776,97,608,100"/>
 </map>

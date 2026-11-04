@@ -1,7 +1,7 @@
 <map id="detray::types::cast_impl_id&lt; I, typename &gt;" name="detray::types::cast_impl_id&lt; I, typename &gt;">
-<area shape="rect" id="Node000001" title="Get the type corresponding to an ID." alt="" coords="5,56,191,96"/>
-<area shape="rect" id="Node000002" href="$structdetray_1_1types_1_1cast__impl__id_3_01_i_00_01mapped__registry_3_01_r_00_01_s_01_4_01_4.html" title="Cast an in&#45;range index to the identifier type of a mapped registry." alt="" coords="384,9,541,63"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,62,383,42,384,47,204,67"/>
-<area shape="rect" id="Node000003" href="$structdetray_1_1types_1_1cast__impl__id_3_01_i_00_01registry_3_01_i_d_00_01_ts_8_8_8_01_4_01_4.html" title="Cast an in&#45;range index to the registry&#39;s identifier type." alt="" coords="385,87,540,142"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="175,97,215,105,303,113,385,115,385,120,302,119,214,111,174,102"/>
+<area shape="rect" id="Node000001" title="Get the type corresponding to an ID." alt="" coords="5,60,190,105"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1types_1_1cast__impl__id_3_01_i_00_01mapped__registry_3_01_r_00_01_s_01_4_01_4.html" title="Cast an in&#45;range index to the identifier type of a mapped registry." alt="" coords="383,9,539,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="205,68,384,48,380,51,206,73"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1types_1_1cast__impl__id_3_01_i_00_01registry_3_01_i_d_00_01_ts_8_8_8_01_4_01_4.html" title="Cast an in&#45;range index to the registry&#39;s identifier type." alt="" coords="384,95,538,156"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="169,108,214,119,302,128,386,130,381,131,301,133,213,125,168,113"/>
 </map>

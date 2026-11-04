@@ -1,5 +1,5 @@
 <map id="detray::antimuon&lt; scalar_t &gt;" name="detray::antimuon&lt; scalar_t &gt;">
-<area shape="rect" id="Node000001" title="Positive muon hypothesis." alt="" coords="5,93,220,119"/>
-<area shape="rect" id="Node000002" href="$structdetray_1_1pdg__particle.html" title="Particle hypothesis identified by PDG number, mass, and electric charge." alt="" coords="37,5,188,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,59,115,93,110,93,110,59"/>
+<area shape="rect" id="Node000001" title="Positive muon hypothesis." alt="" coords="5,98,219,126"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1pdg__particle.html" title="Particle hypothesis identified by PDG number, mass, and electric charge." alt="" coords="37,5,187,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,64,114,98,110,96,110,68"/>
 </map>

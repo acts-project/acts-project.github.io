@@ -1,17 +1,17 @@
 <map id="Acts::SurfaceJsonConverter::Config" name="Acts::SurfaceJsonConverter::Config">
-<area shape="rect" id="Node000001" title="Configuration struct." alt="" coords="876,165,1075,205"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="460,20,669,89"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="683,77,767,98,853,126,937,163,935,168,851,130,766,104,682,82"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_type_dispatcher.html" title="Template class for type&#45;based function dispatch." alt="" coords="9,79,185,119"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="199,87,460,62,460,67,199,92"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="461,114,668,169"/>
-<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="174,120,214,128,342,140,461,142,461,147,342,145,213,133,172,125"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="682,151,876,172,875,177,681,156"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="465,193,664,263"/>
-<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="677,217,852,200,875,197,876,202,852,205,678,222"/>
-<area shape="rect" id="Node000006" href="$class_acts_1_1_json_kind_dispatcher.html" title="JSON&#45;specific dispatcher that routes decoder functions based on a string kind tag found in the encode..." alt="" coords="5,249,189,289"/>
-<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="202,257,465,234,465,239,203,263"/>
-<area shape="rect" id="Node000007" title=" " alt="" coords="473,287,657,342"/>
-<area shape="poly" id="edge8_Node000007_Node000006" title=" " alt="" coords="166,291,214,303,281,311,349,316,472,316,472,322,349,321,280,317,213,308,164,296"/>
-<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="670,293,759,271,851,243,896,224,937,203,939,208,898,229,853,248,760,276,671,298"/>
+<area shape="rect" id="Node000001" title="Configuration struct." alt="" coords="873,184,1070,228"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="459,24,667,103"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="682,88,766,112,850,141,934,183,928,183,848,146,764,117,682,93"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_type_dispatcher.html" title="Template class for type&#45;based function dispatch." alt="" coords="9,89,185,134"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="199,96,212,94,460,70,457,74,213,99,202,100"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="460,127,666,189"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="183,135,213,141,341,154,462,159,457,161,340,160,212,147,184,141"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="682,169,875,194,870,195,682,175"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="464,213,662,292"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="677,239,849,220,875,220,870,220,849,226,677,244"/>
+<area shape="rect" id="Node000006" href="$class_acts_1_1_json_kind_dispatcher.html" title="JSON&#45;specific dispatcher that routes decoder functions based on a string kind tag found in the encode..." alt="" coords="5,273,189,318"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="204,283,465,259,463,264,205,288"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="471,316,654,378"/>
+<area shape="poly" id="edge8_Node000007_Node000006" title=" " alt="" coords="166,321,213,333,280,343,348,348,473,352,468,352,347,353,279,348,212,339,166,326"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="669,323,757,299,848,268,892,248,931,230,936,228,894,253,850,273,759,304,670,328"/>
 </map>

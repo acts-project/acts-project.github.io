@@ -1,9 +1,9 @@
 <map id="detray::algebra::generic::determinant_selector&lt; N, Args &gt;" name="detray::algebra::generic::determinant_selector&lt; N, Args &gt;">
-<area shape="rect" id="Node000001" title="Get the type of determinant algorithm according to matrix dimension." alt="" coords="5,99,181,153"/>
-<area shape="rect" id="Node000002" href="$structdetray_1_1algebra_1_1generic_1_1determinant__selector_3_012_00_01_args_8_8_8_01_4.html" title="Always use hard coded implementation for very small matrices." alt="" coords="451,5,627,60"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="143,89,173,72,205,59,267,44,332,34,450,27,451,33,333,39,268,49,206,65,175,77,146,93"/>
-<area shape="rect" id="Node000003" href="$structdetray_1_1algebra_1_1generic_1_1determinant__selector_3_014_00_01array_1_1matrix__type_3_0076493f3bea6c7faaf51985f4a3cc500.html" title="Choose the backend&#45;specific determinant implementation for 4x4 matrices." alt="" coords="443,84,635,168"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="195,123,443,123,443,129,195,129"/>
-<area shape="rect" id="Node000004" href="$structdetray_1_1algebra_1_1generic_1_1determinant__selector_3_014_00_01vc__aos_1_1matrix__type_3975239fab6881c19129e45f9b00f9779.html" title="Choose the backend&#45;specific determinant implementation for 4x4 matrices." alt="" coords="437,192,640,276"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="143,159,174,177,206,191,264,208,325,219,437,230,437,236,324,225,263,213,204,197,171,182,140,163"/>
+<area shape="rect" id="Node000001" title="Get the type of determinant algorithm according to matrix dimension." alt="" coords="5,108,181,170"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1algebra_1_1generic_1_1determinant__selector_3_012_00_01_args_8_8_8_01_4.html" title="Always use hard coded implementation for very small matrices." alt="" coords="449,5,624,67"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="141,97,171,78,204,63,266,46,331,36,393,31,451,31,446,33,393,36,331,41,267,51,206,68,174,83,145,101"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1algebra_1_1generic_1_1determinant__selector_3_014_00_01array_1_1matrix__type_3_0076493f3bea6c7faaf51985f4a3cc500.html" title="Choose the backend&#45;specific determinant implementation for 4x4 matrices." alt="" coords="441,91,632,187"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="196,136,442,137,439,141,197,141"/>
+<area shape="rect" id="Node000004" href="$structdetray_1_1algebra_1_1generic_1_1determinant__selector_3_014_00_01vc__aos_1_1matrix__type_3975239fab6881c19129e45f9b00f9779.html" title="Choose the backend&#45;specific determinant implementation for 4x4 matrices." alt="" coords="436,211,638,307"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="143,177,174,196,206,211,263,229,323,242,438,257,433,257,322,247,262,235,204,216,171,201,143,182"/>
 </map>

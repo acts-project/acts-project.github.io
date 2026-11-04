@@ -1,9 +1,9 @@
 <map id="detray::io::detector_reader_config" name="detray::io::detector_reader_config">
-<area shape="rect" id="Node000001" title="config struct for detector reading." alt="" coords="127,212,273,252"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,109,192,134"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,142,184,210,181,214,117,146"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="34,5,163,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="101,45,101,109,96,109,96,45"/>
-<area shape="rect" id="Node000004" href="$structdetray_1_1volume__builder__options.html" title="Options for the volume builder classes." alt="" coords="217,101,389,141"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="277,153,220,214,216,210,273,150"/>
+<area shape="rect" id="Node000001" title="config struct for detector reading." alt="" coords="127,224,272,268"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,114,191,142"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,152,183,223,178,224,118,156"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="34,5,162,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="99,46,101,114,95,113,97,51"/>
+<area shape="rect" id="Node000004" href="$structdetray_1_1volume__builder__options.html" title="Options for the volume builder classes." alt="" coords="215,106,386,151"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="274,162,220,225,217,221,269,164"/>
 </map>

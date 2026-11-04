@@ -1,5 +1,5 @@
 <map id="Acts::BasePropagator" name="Acts::BasePropagator">
-<area shape="rect" id="Node000001" title="Common simplified base interface for propagators." alt="" coords="28,5,189,31"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,212,119"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,44,111,79,106,79,106,44"/>
+<area shape="rect" id="Node000001" title="Common simplified base interface for propagators." alt="" coords="28,5,188,33"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,81,211,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,47,110,81,106,79,106,51"/>
 </map>

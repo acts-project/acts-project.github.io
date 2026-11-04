@@ -1,9 +1,9 @@
 <map id="Acts::KalmanFitterResult&lt; traj_t &gt;" name="Acts::KalmanFitterResult&lt; traj_t &gt;">
-<area shape="rect" id="Node000001" title="Result payload returned by the Kalman fitter." alt="" coords="77,212,259,252"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,101,147,141"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="73,155,74,171,80,187,91,199,106,210,102,214,87,203,75,189,69,173,67,155"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="11,5,141,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="79,45,79,101,73,101,73,45"/>
-<area shape="rect" id="Node000004" href="$struct_acts_1_1_path_limit_reached.html" title="This is the condition that the pathLimit has been reached." alt="" coords="173,109,347,134"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="255,148,246,169,233,190,204,214,201,210,229,186,241,167,250,146"/>
+<area shape="rect" id="Node000001" title="Result payload returned by the Kalman fitter." alt="" coords="75,224,257,268"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,106,146,151"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="70,163,73,183,79,198,90,211,104,223,99,223,86,215,75,201,68,184,68,168"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="11,5,140,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="76,46,78,106,73,105,75,51"/>
+<area shape="rect" id="Node000004" href="$struct_acts_1_1_path_limit_reached.html" title="This is the condition that the pathLimit has been reached." alt="" coords="171,114,345,142"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="253,155,244,180,231,201,204,226,201,221,227,198,239,178,249,159"/>
 </map>

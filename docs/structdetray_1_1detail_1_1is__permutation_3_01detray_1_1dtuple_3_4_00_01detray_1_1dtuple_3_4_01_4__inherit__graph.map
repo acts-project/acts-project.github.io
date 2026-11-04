@@ -1,10 +1,10 @@
 <map id="detray::detail::is_permutation&lt; detray::dtuple&lt;&gt;, detray::dtuple&lt;&gt; &gt;" name="detray::detail::is_permutation&lt; detray::dtuple&lt;&gt;, detray::dtuple&lt;&gt; &gt;">
-<area shape="rect" id="Node000001" title=" " alt="" coords="61,211,289,265"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,124,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="65,44,67,81,76,119,90,145,108,169,146,209,142,212,104,172,86,148,72,121,62,81,60,45"/>
-<area shape="rect" id="Node000004" href="$structdetray_1_1detail_1_1is__permutation.html" title="Check for equality of tuple types modulo permutation." alt="" coords="86,80,265,120"/>
-<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="93,37,151,78,148,82,90,41"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="289,87,401,113"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="348,127,344,158,338,174,328,188,311,204,291,216,288,211,307,200,324,185,333,172,338,157,343,126"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="178,134,178,211,173,211,173,134"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="61,222,288,284"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,123,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="62,46,66,86,76,126,89,153,106,178,144,222,139,222,102,181,85,156,71,128,61,87,62,51"/>
+<area shape="rect" id="Node000004" href="$structdetray_1_1detail_1_1is__permutation.html" title="Check for equality of tuple types modulo permutation." alt="" coords="86,82,264,127"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="93,40,148,81,143,83,93,45"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="288,91,400,118"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="347,132,343,168,337,185,327,200,310,216,290,228,288,224,307,212,323,197,332,183,338,167,343,136"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="177,141,177,223,172,221,173,145"/>
 </map>

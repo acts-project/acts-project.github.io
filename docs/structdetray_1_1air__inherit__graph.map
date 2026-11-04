@@ -1,5 +1,5 @@
 <map id="detray::air&lt; scalar_t, R &gt;" name="detray::air&lt; scalar_t, R &gt;">
-<area shape="rect" id="Node000001" title="Mixtures or Compounds." alt="" coords="24,93,167,133"/>
-<area shape="rect" id="Node000002" href="$structdetray_1_1material.html" title="Material composition properties and density data used by interactions." alt="" coords="5,5,185,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,59,98,93,93,93,93,59"/>
+<area shape="rect" id="Node000001" title="Mixtures or Compounds." alt="" coords="24,98,166,143"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1material.html" title="Material composition properties and density data used by interactions." alt="" coords="5,5,185,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,64,98,99,92,97,93,68"/>
 </map>

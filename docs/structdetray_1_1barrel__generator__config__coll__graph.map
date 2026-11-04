@@ -1,13 +1,13 @@
 <map id="detray::barrel_generator_config&lt; scalar_t &gt;" name="detray::barrel_generator_config&lt; scalar_t &gt;">
-<area shape="rect" id="Node000001" title="configuration for the barrel module generator" alt="" coords="105,312,283,352"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,129,79,154"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="42,168,41,195,43,227,52,258,68,286,85,301,106,312,103,317,82,306,64,290,47,260,38,228,35,195,36,168"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="105,129,277,154"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="194,168,196,312,191,312,189,168"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="127,5,256,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="194,44,194,129,189,129,189,44"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="302,121,451,161"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="373,176,354,233,338,264,316,290,298,304,277,314,275,309,295,299,312,286,333,261,349,231,368,174"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="304,5,449,31"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="379,45,379,121,374,121,374,45"/>
+<area shape="rect" id="Node000001" title="configuration for the barrel module generator" alt="" coords="104,335,283,380"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,137,78,164"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="38,177,39,210,41,244,49,279,67,310,84,326,107,339,102,340,81,330,62,313,44,281,36,245,33,210,37,182"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="104,137,275,164"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="192,179,196,335,190,334,188,181"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="125,5,254,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="191,46,192,137,187,136,188,51"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="299,128,448,173"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="370,187,353,252,336,285,314,313,278,337,276,332,310,309,332,282,348,250,366,190"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="301,5,446,33"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="375,46,376,129,371,127,372,51"/>
 </map>

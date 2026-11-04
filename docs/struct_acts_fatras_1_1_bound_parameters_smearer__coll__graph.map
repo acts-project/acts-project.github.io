@@ -1,13 +1,13 @@
 <map id="ActsFatras::BoundParametersSmearer&lt; generator_t, kSize &gt;" name="ActsFatras::BoundParametersSmearer&lt; generator_t, kSize &gt;">
-<area shape="rect" id="Node000001" title="Uncorrelated smearing algorithm for fast digitisation of bound parameters." alt="" coords="791,101,1016,141"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="404,29,631,69"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="645,68,767,91,807,99,806,104,766,96,644,74"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="5,110,128,135"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="97,101,123,87,151,76,215,61,281,52,403,44,404,50,281,57,216,66,153,81,125,92,100,105"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="414,94,621,149"/>
-<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="142,120,414,119,414,124,142,125"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="425,173,610,198"/>
-<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="114,137,153,148,223,161,295,170,425,180,424,185,295,175,222,166,151,153,113,142"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="635,119,791,119,791,124,635,124"/>
-<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="623,169,766,147,808,139,809,144,767,152,624,174"/>
+<area shape="rect" id="Node000001" title="Uncorrelated smearing algorithm for fast digitisation of bound parameters." alt="" coords="786,111,1010,156"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="402,34,627,78"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="643,76,763,100,801,110,795,110,761,105,642,82"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,121,127,148"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="97,109,122,94,150,83,213,67,279,57,404,51,399,53,279,62,214,72,152,88,125,99,100,114"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="412,102,617,164"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="142,132,412,131,410,136,142,137"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="422,189,606,216"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="116,152,151,162,221,176,293,186,424,199,419,200,292,191,220,181,150,168,115,157"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="632,131,788,133,783,133,632,136"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="622,185,762,161,796,157,801,156,762,166,623,190"/>
 </map>

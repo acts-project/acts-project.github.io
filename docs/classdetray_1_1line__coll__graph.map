@@ -1,7 +1,7 @@
 <map id="detray::line&lt; kSquareCrossSect &gt;" name="detray::line&lt; kSquareCrossSect &gt;">
-<area shape="rect" id="Node000001" title="Geometrical shape of a line surface." alt="" coords="5,191,204,231"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="42,95,167,120"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,134,107,190,102,190,102,134"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="21,5,188,45"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="107,59,107,94,102,94,102,59"/>
+<area shape="rect" id="Node000001" title="Geometrical shape of a line surface." alt="" coords="5,200,204,245"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="42,99,167,127"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,141,107,200,102,199,103,145"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="22,5,187,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="105,63,107,99,102,98,104,68"/>
 </map>

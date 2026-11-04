@@ -1,5 +1,5 @@
 <map id="detray::algebra::generic::matrix::determinant::cofactor&lt; matrix_t &gt;::determinant_getter_helper&lt; N &gt;" name="detray::algebra::generic::matrix::determinant::cofactor&lt; matrix_t &gt;::determinant_getter_helper&lt; N &gt;">
-<area shape="rect" id="Node000001" title="Helper that evaluates the determinant for a fixed matrix rank." alt="" coords="5,5,253,75"/>
-<area shape="rect" id="Node000002" href="$structdetray_1_1algebra_1_1generic_1_1matrix_1_1determinant_1_1cofactor_1_1determinant__getter__helper_3_01_n_01_4.html" title="Determinant specialization for a one&#45;element matrix." alt="" coords="351,5,599,75"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="267,37,350,37,350,43,267,43"/>
+<area shape="rect" id="Node000001" title="Helper that evaluates the determinant for a fixed matrix rank." alt="" coords="5,5,253,84"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1algebra_1_1generic_1_1matrix_1_1determinant_1_1cofactor_1_1determinant__getter__helper_3_01_n_01_4.html" title="Determinant specialization for a one&#45;element matrix." alt="" coords="349,5,596,84"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="268,42,351,44,346,45,268,47"/>
 </map>

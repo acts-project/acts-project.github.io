@@ -1,8 +1,8 @@
 <map id="detray::grid_collection&lt; grid_t, typename &gt;" name="detray::grid_collection&lt; grid_t, typename &gt;">
-<area shape="rect" id="Node000001" title="A collection of grids that can be moved to device as part of the detector." alt="" coords="5,5,172,45"/>
-<area shape="rect" id="Node000002" href="$classdetray_1_1grid__collection_3_01spatial__grid__impl_3_01grid__t_01_4_01_4.html" title="Accelerator collection specialization for detray::spatial_grid_impl." alt="" coords="444,5,675,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,30,444,31,444,36,186,35"/>
-<area shape="poly" id="edge3_Node000001_Node000002" title=" " alt="" coords="186,15,444,15,444,20,186,21"/>
-<area shape="rect" id="Node000003" href="$classdetray_1_1grid__collection_3_01detray_1_1grid__impl_3_01axes__t_00_01bin__t_00_01serializer__t_01_4_01_4.html" title="Specialization for detray::grid." alt="" coords="463,73,655,127"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="139,49,197,71,265,85,335,93,463,99,463,105,335,99,264,90,195,76,137,54"/>
+<area shape="rect" id="Node000001" title="A collection of grids that can be moved to device as part of the detector." alt="" coords="5,5,171,50"/>
+<area shape="rect" id="Node000002" href="$classdetray_1_1grid__collection_3_01spatial__grid__impl_3_01grid__t_01_4_01_4.html" title="Accelerator collection specialization for detray::spatial_grid_impl." alt="" coords="442,5,672,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,32,442,33,440,38,186,38"/>
+<area shape="poly" id="edge3_Node000001_Node000002" title=" " alt="" coords="186,18,442,17,440,22,186,23"/>
+<area shape="rect" id="Node000003" href="$classdetray_1_1grid__collection_3_01detray_1_1grid__impl_3_01axes__t_00_01bin__t_00_01serializer__t_01_4_01_4.html" title="Specialization for detray::grid." alt="" coords="461,77,652,138"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="140,55,195,78,263,93,333,102,463,110,458,111,333,107,263,98,194,83,139,60"/>
 </map>

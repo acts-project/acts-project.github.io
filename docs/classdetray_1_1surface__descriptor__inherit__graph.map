@@ -1,7 +1,7 @@
 <map id="detray::surface_descriptor&lt; mask_link_t, material_link_t, transform_link_t, navigation_link_t &gt;" name="detray::surface_descriptor&lt; mask_link_t, material_link_t, transform_link_t, navigation_link_t &gt;">
-<area shape="rect" id="Node000001" title="Templated surface class for detector surfaces and portals." alt="" coords="11,5,202,75"/>
-<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="217,32,229,40,220,47,203,50,202,45,218,42,223,40,214,37"/>
-<area shape="poly" id="edge2_Node000001_Node000001" title=" " alt="" coords="216,22,334,23,376,29,389,33,394,40,388,47,374,52,329,57,202,57,202,52,328,52,373,47,385,43,389,40,386,37,375,34,334,28,216,27"/>
-<area shape="rect" id="Node000002" href="$classdetray_1_1surface__descriptor.html" title=" " alt="" coords="5,185,208,240"/>
-<area shape="poly" id="edge3_Node000001_Node000002" title=" " alt="" coords="109,89,109,185,104,185,104,89"/>
+<area shape="rect" id="Node000001" title="Templated surface class for detector surfaces and portals." alt="" coords="11,5,201,84"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="216,36,228,45,220,52,203,55,200,51,217,48,223,45,217,41"/>
+<area shape="poly" id="edge2_Node000001_Node000001" title=" " alt="" coords="216,25,334,26,375,32,388,37,393,45,387,52,373,57,328,64,266,66,202,64,201,58,266,60,327,58,372,52,384,48,388,45,384,42,374,38,333,31,217,30"/>
+<area shape="rect" id="Node000002" href="$classdetray_1_1surface__descriptor.html" title=" " alt="" coords="5,202,207,263"/>
+<area shape="poly" id="edge3_Node000001_Node000002" title=" " alt="" coords="108,98,109,202,103,201,104,101"/>
 </map>

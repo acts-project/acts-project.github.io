@@ -1,21 +1,21 @@
 <map id="detray::svgtools::styling::surface_style" name="detray::svgtools::styling::surface_style">
-<area shape="rect" id="Node000001" title="Style applied to an actsvg proto surface." alt="" coords="1093,116,1272,156"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="567,13,713,38"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="727,38,887,68,1070,105,1104,113,1103,118,1069,111,886,73,726,43"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="9,30,131,55"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="145,38,566,25,566,30,145,43"/>
-<area shape="rect" id="Node000007" title=" " alt="" coords="362,52,505,92"/>
-<area shape="poly" id="edge7_Node000007_Node000003" title=" " alt="" coords="123,56,159,64,265,73,362,73,362,78,265,78,158,69,122,62"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="547,238,733,263"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="719,233,935,188,1093,153,1094,159,937,193,720,238"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="5,217,135,242"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="132,242,159,247,262,255,366,258,546,254,546,259,366,263,262,260,158,252,131,248"/>
-<area shape="rect" id="Node000008" title=" " alt="" coords="359,180,508,220"/>
-<area shape="poly" id="edge9_Node000008_Node000005" title=" " alt="" coords="148,220,358,203,359,209,149,226"/>
-<area shape="rect" id="Node000006" href="$structdetray_1_1svgtools_1_1styling_1_1surface__material__style.html" title="Style applied to an actsvg proto surface_material." alt="" coords="757,116,936,156"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="950,133,1093,133,1093,139,950,139"/>
-<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="519,77,622,88,734,105,771,113,770,118,733,111,621,94,518,82"/>
-<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="521,190,623,178,733,161,770,154,771,159,734,167,624,184,522,195"/>
-<area shape="rect" id="Node000009" href="$structdetray_1_1svgtools_1_1styling_1_1grid__style.html" title="Style applied to an actsvg proto grid." alt="" coords="344,116,523,156"/>
-<area shape="poly" id="edge10_Node000006_Node000009" title=" " alt="" coords="536,133,757,133,757,139,536,139"/>
+<area shape="rect" id="Node000001" title="Style applied to an actsvg proto surface." alt="" coords="1089,126,1266,171"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="564,16,710,44"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="725,43,884,75,1065,115,1098,126,1093,125,1064,120,883,80,725,49"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="9,35,130,62"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="145,43,564,30,562,35,146,49"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="361,57,502,101"/>
+<area shape="poly" id="edge7_Node000007_Node000003" title=" " alt="" coords="127,64,158,71,264,80,363,81,358,84,264,85,157,76,128,70"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="544,256,729,284"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="724,250,931,205,1086,171,1091,170,932,211,725,255"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,235,134,262"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="133,264,158,268,261,277,365,280,541,277,546,277,365,285,261,282,157,273,133,269"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="357,195,506,240"/>
+<area shape="poly" id="edge9_Node000008_Node000005" title=" " alt="" coords="149,239,357,221,356,227,150,244"/>
+<area shape="rect" id="Node000006" href="$structdetray_1_1svgtools_1_1styling_1_1surface__material__style.html" title="Style applied to an actsvg proto surface_material." alt="" coords="753,126,932,171"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="947,146,1091,148,1085,149,947,151"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="518,84,620,97,730,115,765,125,760,125,729,120,619,102,518,90"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="520,207,621,194,729,176,759,172,765,171,730,181,622,199,521,212"/>
+<area shape="rect" id="Node000009" href="$structdetray_1_1svgtools_1_1styling_1_1grid__style.html" title="Style applied to an actsvg proto grid." alt="" coords="343,126,520,171"/>
+<area shape="poly" id="edge10_Node000006_Node000009" title=" " alt="" coords="535,146,756,148,750,149,536,151"/>
 </map>

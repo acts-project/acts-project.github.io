@@ -1,14 +1,14 @@
 <map id="detray::ranges::pointer_view&lt; value_t &gt;" name="detray::ranges::pointer_view&lt; value_t &gt;">
-<area shape="rect" id="Node000001" title="Struct that implements a pointer based view on a single element." alt="" coords="22,315,191,355"/>
-<area shape="rect" id="Node000005" href="$classdetray_1_1ranges_1_1pointer__view.html" title=" " alt="" coords="18,425,195,465"/>
-<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="109,369,109,425,104,425,104,369"/>
-<area shape="rect" id="Node000002" href="$classdetray_1_1ranges_1_1view__interface.html" title=" " alt="" coords="13,211,200,265"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,279,109,314,104,314,104,279"/>
-<area shape="rect" id="Node000003" href="$structdetray_1_1ranges_1_1base__view.html" title="Definition of &#39;view&#39;." alt="" coords="5,5,197,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="105,45,109,210,103,211,99,45"/>
-<area shape="rect" id="Node000004" href="$classdetray_1_1ranges_1_1view__interface.html" title="Defines a detray &#39;view&#39;." alt="" coords="123,80,319,120"/>
-<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="132,36,195,78,192,82,129,41"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="199,132,131,212,127,209,195,129"/>
-<area shape="rect" id="Node000006" href="$structdetray_1_1ranges_1_1views_1_1pointer.html" title="interface type to construct a pointer_view with CTAD" alt="" coords="26,515,187,555"/>
-<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="109,479,109,515,104,515,104,479"/>
+<area shape="rect" id="Node000001" title="Struct that implements a pointer based view on a single element." alt="" coords="22,333,190,378"/>
+<area shape="rect" id="Node000005" href="$classdetray_1_1ranges_1_1pointer__view.html" title=" " alt="" coords="18,451,194,496"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="107,392,109,451,104,450,105,396"/>
+<area shape="rect" id="Node000002" href="$classdetray_1_1ranges_1_1view__interface.html" title=" " alt="" coords="14,222,199,284"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,297,109,333,104,333,106,302"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1ranges_1_1base__view.html" title="Definition of &#39;view&#39;." alt="" coords="5,5,197,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="102,46,108,222,103,222,101,51"/>
+<area shape="rect" id="Node000004" href="$classdetray_1_1ranges_1_1view__interface.html" title="Defines a detray &#39;view&#39;." alt="" coords="122,82,317,127"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="131,40,191,81,186,83,133,45"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="193,142,132,224,127,221,195,137"/>
+<area shape="rect" id="Node000006" href="$structdetray_1_1ranges_1_1views_1_1pointer.html" title="interface type to construct a pointer_view with CTAD" alt="" coords="26,545,186,590"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="108,509,109,545,104,544,105,513"/>
 </map>

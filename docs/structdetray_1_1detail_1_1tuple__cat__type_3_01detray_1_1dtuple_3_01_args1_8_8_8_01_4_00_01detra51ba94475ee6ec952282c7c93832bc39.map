@@ -1,5 +1,5 @@
 <map id="detray::detail::tuple_cat_type&lt; detray::dtuple&lt; Args1... &gt;, detray::dtuple&lt; Args2... &gt;, tuple_ts... &gt;" name="detray::detail::tuple_cat_type&lt; detray::dtuple&lt; Args1... &gt;, detray::dtuple&lt; Args2... &gt;, tuple_ts... &gt;">
-<area shape="rect" id="Node000001" title="Concatenate two or more detray tuple type lists recursively." alt="" coords="5,156,204,225"/>
-<area shape="rect" id="Node000002" href="$structdetray_1_1detail_1_1tuple__cat__type.html" title="Concatenate tuple types." alt="" coords="21,5,188,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,59,107,156,102,156,102,59"/>
+<area shape="rect" id="Node000001" title="Concatenate two or more detray tuple type lists recursively." alt="" coords="5,168,204,246"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1detail_1_1tuple__cat__type.html" title="Concatenate tuple types." alt="" coords="21,5,188,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,64,107,167,102,167,102,67"/>
 </map>

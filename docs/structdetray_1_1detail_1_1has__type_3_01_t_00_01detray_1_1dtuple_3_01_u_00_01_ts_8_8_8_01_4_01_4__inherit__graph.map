@@ -1,8 +1,8 @@
 <map id="detray::detail::has_type&lt; T, detray::dtuple&lt; U, Ts... &gt; &gt;" name="detray::detail::has_type&lt; T, detray::dtuple&lt; U, Ts... &gt; &gt;">
-<area shape="rect" id="Node000001" title=" " alt="" coords="560,47,739,102"/>
-<area shape="rect" id="Node000002" href="$structdetray_1_1detail_1_1has__type.html" title=" " alt="" coords="332,85,511,139"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="524,93,559,87,560,92,525,98"/>
-<area shape="rect" id="Node000003" href="$structdetray_1_1detail_1_1has__type.html" title="Check if the tuple contains a type." alt="" coords="5,55,155,95"/>
-<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="168,53,178,52,281,46,384,47,560,61,560,66,383,53,281,52,179,57,169,59"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="169,93,179,95,257,103,332,108,332,113,257,108,178,100,168,98"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="558,49,737,111"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1detail_1_1has__type.html" title=" " alt="" coords="331,88,509,150"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="524,99,555,96,560,95,525,104"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1detail_1_1has__type.html" title="Check if the tuple contains a type." alt="" coords="5,58,154,103"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="168,57,177,56,279,50,382,51,560,68,555,69,382,57,280,55,178,62,170,63"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="169,102,178,104,256,112,333,119,328,119,256,118,177,109,169,107"/>
 </map>

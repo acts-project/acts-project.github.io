@@ -1,11 +1,11 @@
 <map id="detray::svgtools::meta::proto::trajectory&lt; point3_t &gt;" name="detray::svgtools::meta::proto::trajectory&lt; point3_t &gt;">
-<area shape="rect" id="Node000001" title="A proto landmark class as a simple translation layer from a description of a point." alt="" coords="59,212,278,252"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,116,180,141"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,151,156,210,152,213,108,154"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="27,13,156,38"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="94,52,95,116,90,116,89,52"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="205,116,292,141"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="233,154,186,213,182,210,229,150"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="181,5,319,45"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="252,60,251,116,246,116,247,59"/>
+<area shape="rect" id="Node000001" title="A proto landmark class as a simple translation layer from a description of a point." alt="" coords="59,224,277,268"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,123,179,151"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,161,155,223,150,223,109,166"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="26,14,155,42"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="92,55,94,123,89,122,90,60"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="204,123,290,151"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="231,162,186,225,182,221,226,164"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="179,5,317,50"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="249,63,249,124,244,122,246,68"/>
 </map>

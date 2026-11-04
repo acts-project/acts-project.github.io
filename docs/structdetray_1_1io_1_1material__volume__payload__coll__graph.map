@@ -1,9 +1,9 @@
 <map id="detray::io::material_volume_payload" name="detray::io::material_volume_payload">
-<area shape="rect" id="Node000001" title="A payload object for all of the [surface] material contained in a volume." alt="" coords="633,41,780,81"/>
-<area shape="rect" id="Node000002" href="$structdetray_1_1io_1_1single__link__payload.html" title="A payload for a single object link (volume local)." alt="" coords="351,5,481,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="496,32,633,50,633,55,495,38"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="336,70,496,125"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="509,85,609,73,633,70,633,75,610,79,510,90"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="5,85,135,110"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="148,95,336,95,336,100,148,100"/>
+<area shape="rect" id="Node000001" title="A payload object for all of the [surface] material contained in a volume." alt="" coords="630,44,775,89"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1io_1_1single__link__payload.html" title="A payload for a single object link (volume local)." alt="" coords="349,5,478,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="494,36,632,56,627,57,494,41"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="334,74,493,136"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="508,93,606,81,627,80,632,79,606,86,509,98"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,91,134,119"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="149,102,334,102,333,108,149,108"/>
 </map>
