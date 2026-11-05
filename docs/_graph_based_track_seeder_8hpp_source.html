@@ -258,16 +258,21 @@ $(function(){initNavTree('_graph_based_track_seeder_8hpp_source.html','',''); })
 <div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>                                <span class="keyword">const</span> GbtsTrackingFilter&amp; filter,</div>
 <div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>                                <span class="keywordtype">bool</span> withFits) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span></div>
-<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>  std::vector&lt;detail::GbtsEdgeState&gt; extractBestPathPerEdge(</div>
-<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>      <span class="keyword">const</span> detail::GbtsNodeView&amp; nodeView, <span class="keyword">const</span> GbtsGraph&amp; graph,</div>
-<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>      <span class="keyword">const</span> GbtsTrackingFilter&amp; filter) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span></div>
-<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>  <span class="keywordtype">float</span> estimateCurvature(<span class="keyword">const</span> detail::GbtsNodeView&amp; nodeView,</div>
-<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>                          <span class="keyword">const</span> std::array&lt;SpacePointIndex, 3&gt;&amp; nodes) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>};</div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>  <span class="keyword">struct </span>FittedPath {</div>
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>    detail::GbtsEdgeState state;</div>
+<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>    std::vector&lt;std::uint32_t&gt; edges;</div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>  };</div>
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span></div>
+<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span>  std::vector&lt;FittedPath&gt; extractBestPathPerEdge(</div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>      <span class="keyword">const</span> detail::GbtsNodeView&amp; nodeView, <span class="keyword">const</span> GbtsGraph&amp; graph,</div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>      <span class="keyword">const</span> GbtsTrackingFilter&amp; filter) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span></div>
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>  <span class="keywordtype">float</span> estimateCurvature(<span class="keyword">const</span> detail::GbtsNodeView&amp; nodeView,</div>
+<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>                          <span class="keyword">const</span> std::array&lt;SpacePointIndex, 3&gt;&amp; nodes) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>};</div>
 </div>
-<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span> </div>
-<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>}  <span class="comment">// namespace Acts::Experimental</span></div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span> </div>
+<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>}  <span class="comment">// namespace Acts::Experimental</span></div>
 <div class="ttc" id="aclass_acts_1_1_experimental_1_1_gbts_graph_builder_html"><div class="ttname"><a href="class_acts_1_1_experimental_1_1_gbts_graph_builder.html">Acts::Experimental::GbtsGraphBuilder</a></div><div class="ttdoc">Builds the doublet graph of the GBTS workflow.</div><div class="ttdef"><b>Definition</b> GbtsGraphBuilder.hpp:44</div></div>
 <div class="ttc" id="aclass_acts_1_1_experimental_1_1_gbts_node_storage_html"><div class="ttname"><a href="class_acts_1_1_experimental_1_1_gbts_node_storage.html">Acts::Experimental::GbtsNodeStorage</a></div><div class="ttdoc">Storage for the GBTS graph nodes.</div><div class="ttdef"><b>Definition</b> GbtsNodeStorage.hpp:38</div></div>
 <div class="ttc" id="aclass_acts_1_1_experimental_1_1_gbts_roi_descriptor_html"><div class="ttname"><a href="class_acts_1_1_experimental_1_1_gbts_roi_descriptor.html">Acts::Experimental::GbtsRoiDescriptor</a></div><div class="ttdoc">GBTS region of interest, as the eta and z bounds the seeder cuts on.</div><div class="ttdef"><b>Definition</b> GbtsRoiDescriptor.hpp:17</div></div>
