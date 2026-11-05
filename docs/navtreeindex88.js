@@ -1,5 +1,7 @@
 var NAVTREEINDEX88 =
 {
+"structdetray_1_1base__actor.html":[8,0,3,35],
+"structdetray_1_1base__actor_1_1is__comp__actor.html":[6,0,4,22,0],
 "structdetray_1_1base__actor_1_1is__comp__actor.html":[8,0,3,35,0],
 "structdetray_1_1base__actor_1_1state.html":[6,0,4,22,1],
 "structdetray_1_1base__actor_1_1state.html":[8,0,3,35,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX88 =
 "structdetray_1_1cartesian2_d.html#aaf9b0fb4a0a3c0a93eb119fcb8317f91":[8,0,3,46,9],
 "structdetray_1_1cartesian2_d.html#ac19026c492c993c8068354b8d2fdac53":[6,0,4,33,10],
 "structdetray_1_1cartesian2_d.html#ac19026c492c993c8068354b8d2fdac53":[8,0,3,46,10],
-"structdetray_1_1cartesian2_d.html#ac34eedbde403e1ce320e7cb9928c2089":[6,0,4,33,7],
-"structdetray_1_1cartesian2_d.html#ac34eedbde403e1ce320e7cb9928c2089":[8,0,3,46,7],
-"structdetray_1_1cartesian2_d.html#ac53836bc12db8b4b8cad72c0c472700f":[6,0,4,33,12]
+"structdetray_1_1cartesian2_d.html#ac34eedbde403e1ce320e7cb9928c2089":[6,0,4,33,7]
 };

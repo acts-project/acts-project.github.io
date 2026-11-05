@@ -144,6 +144,8 @@ std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><
 <tr class="memitem:ae0cc97ce3837e63997de1b525a25409d" id="r_ae0cc97ce3837e63997de1b525a25409d"><td class="memItemLeft" align="right" valign="top"><a id="ae0cc97ce3837e63997de1b525a25409d" name="ae0cc97ce3837e63997de1b525a25409d"></a>
 std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>chi2CutOffOutlier</b> {}</td></tr>
 <tr class="memdesc:ae0cc97ce3837e63997de1b525a25409d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum local chi2 contribution to classify as outlier. <br /></td></tr>
+<tr class="memitem:a4d9ae483ec5dc523580c06915995be4c" id="r_a4d9ae483ec5dc523580c06915995be4c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d9ae483ec5dc523580c06915995be4c">chi2CutPerDimension</a> = false</td></tr>
+<tr class="memdesc:a4d9ae483ec5dc523580c06915995be4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, the chi2 cuts are the cuts for one-dimensional measurements.  <br /></td></tr>
 <tr class="memitem:a0a2fcfde7f4698df7c9b13c2e85ca6fb" id="r_a0a2fcfde7f4698df7c9b13c2e85ca6fb"><td class="memItemLeft" align="right" valign="top"><a id="a0a2fcfde7f4698df7c9b13c2e85ca6fb" name="a0a2fcfde7f4698df7c9b13c2e85ca6fb"></a>
 std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>etaBins</b> {}</td></tr>
 <tr class="memdesc:a0a2fcfde7f4698df7c9b13c2e85ca6fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">bins in |eta| to specify variable selections <br /></td></tr>
@@ -154,7 +156,25 @@ std::vector&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bott
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Selection cuts for associating measurements with predicted track parameters on a surface. </p>
 <p>The default configuration only takes the best matching measurement without a cut on the local chi2. </p>
-</div></div><!-- contents -->
+</div><a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a4d9ae483ec5dc523580c06915995be4c" name="a4d9ae483ec5dc523580c06915995be4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d9ae483ec5dc523580c06915995be4c">&#9670;&#160;</a></span>chi2CutPerDimension</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Acts::MeasurementSelectorCuts::chi2CutPerDimension = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>If true, the chi2 cuts are the cuts for one-dimensional measurements. </p>
+<p>A measurement of dimension D uses the chi2 value with the same p-value for D degrees of freedom, so that every dimension has the same rejection probability. </p>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

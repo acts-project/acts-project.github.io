@@ -1,5 +1,7 @@
 var NAVTREEINDEX78 =
 {
+"struct_acts_1_1_score_based_ambiguity_resolution_1_1_config.html#ac213583172205fd23a3c86e2b1da9e60":[6,0,0,366,0,5],
+"struct_acts_1_1_score_based_ambiguity_resolution_1_1_config.html#ac213583172205fd23a3c86e2b1da9e60":[8,0,0,371,0,5],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_config.html#ae9b3ecee0ffdf248b920d05292bdbb60":[6,0,0,366,0,7],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_config.html#ae9b3ecee0ffdf248b920d05292bdbb60":[8,0,0,371,0,7],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_config.html#aefea0eee44d7d937405f3145c27a857b":[6,0,0,366,0,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX78 =
 "struct_acts_1_1_supports_bound_parameters.html":[8,0,0,394],
 "struct_acts_1_1_supports_bound_parameters_3_01_eigen_stepper_3_4_01_4.html":[6,0,0,390],
 "struct_acts_1_1_supports_bound_parameters_3_01_eigen_stepper_3_4_01_4.html":[8,0,0,395],
-"struct_acts_1_1_supports_bound_parameters_3_01_generic_runge_kutta_stepper_01_4.html":[6,0,0,391],
-"struct_acts_1_1_supports_bound_parameters_3_01_generic_runge_kutta_stepper_01_4.html":[8,0,0,396],
-"struct_acts_1_1_supports_bound_parameters_3_01_helix_stepper_01_4.html":[6,0,0,392]
+"struct_acts_1_1_supports_bound_parameters_3_01_generic_runge_kutta_stepper_01_4.html":[6,0,0,391]
 };

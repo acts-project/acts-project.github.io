@@ -1,5 +1,7 @@
 var NAVTREEINDEX97 =
 {
+"structdetray_1_1random__track__generator__config.html#a085957c86577cb49bb14394d60d4e9f0":[6,0,4,149,2],
+"structdetray_1_1random__track__generator__config.html#a085957c86577cb49bb14394d60d4e9f0":[8,0,3,162,2],
 "structdetray_1_1random__track__generator__config.html#a12900bee17ebfc67bd6c4cb8e85c240a":[6,0,4,149,46],
 "structdetray_1_1random__track__generator__config.html#a12900bee17ebfc67bd6c4cb8e85c240a":[8,0,3,162,46],
 "structdetray_1_1random__track__generator__config.html#a139a79fdf48aea59b4519916a5e5be16":[6,0,4,149,20],
@@ -247,7 +249,5 @@ var NAVTREEINDEX97 =
 "structdetray_1_1ranges_1_1views_1_1static__join.html":[8,0,3,12,1,7],
 "structdetray_1_1ranges_1_1views_1_1static__join.html#a58b25736b00765fbc21cfee5603d42d3":[8,0,3,12,1,7,1],
 "structdetray_1_1ranges_1_1views_1_1static__join.html#aac42c3945a13641301d4540638c61967":[8,0,3,12,1,7,0],
-"structdetray_1_1ratio__sum.html":[6,0,4,150],
-"structdetray_1_1ratio__sum.html":[8,0,3,163],
-"structdetray_1_1ratio__sum.html#a05d20bc2bc924d4bd75033bf4d9d916b":[6,0,4,150,0]
+"structdetray_1_1ratio__sum.html":[6,0,4,150]
 };

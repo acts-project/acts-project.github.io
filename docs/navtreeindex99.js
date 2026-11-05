@@ -1,5 +1,7 @@
 var NAVTREEINDEX99 =
 {
+"structdetray_1_1smatrix.html#a342ef83c8e14085c3667413eab074a56":[8,0,3,182,8],
+"structdetray_1_1smatrix.html#a5d387cbac347dc1820a12f43d335f540":[6,0,4,169,3],
 "structdetray_1_1smatrix.html#a5d387cbac347dc1820a12f43d335f540":[8,0,3,182,3],
 "structdetray_1_1smatrix.html#a6bd7973a005b760b2fdd7c933ba8f228":[6,0,4,169,7],
 "structdetray_1_1smatrix.html#a6bd7973a005b760b2fdd7c933ba8f228":[8,0,3,182,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX99 =
 "structdetray_1_1svgtools_1_1styling_1_1surface__style.html#a8a5256ef625e35e4b8719c43c4c521fe":[6,0,4,4,0,10,1],
 "structdetray_1_1svgtools_1_1styling_1_1surface__style.html#a8a5256ef625e35e4b8719c43c4c521fe":[8,0,3,14,2,9,1],
 "structdetray_1_1svgtools_1_1styling_1_1surface__style.html#a95abb943e15254eea0f72b71c0730b2e":[6,0,4,4,0,10,2],
-"structdetray_1_1svgtools_1_1styling_1_1surface__style.html#a95abb943e15254eea0f72b71c0730b2e":[8,0,3,14,2,9,2],
-"structdetray_1_1svgtools_1_1styling_1_1surface__style.html#abde7fa2300003dd435dbb8cad5a9957a":[6,0,4,4,0,10,6],
-"structdetray_1_1svgtools_1_1styling_1_1surface__style.html#abde7fa2300003dd435dbb8cad5a9957a":[8,0,3,14,2,9,6]
+"structdetray_1_1svgtools_1_1styling_1_1surface__style.html#a95abb943e15254eea0f72b71c0730b2e":[8,0,3,14,2,9,2]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX84 =
 {
+"struct_acts_plugins_1_1_device.html#accc360d8927adc93ed85ecbae8680e62":[5,10,6,2,1],
+"struct_acts_plugins_1_1_device.html#ae38ca3263b27d84b76c3170a93eb9fc0":[5,10,6,2,2],
 "struct_acts_plugins_1_1_device.html#afe74d25b11d7a9544bf8fe22bfcc7739":[5,10,6,2,6],
 "struct_acts_plugins_1_1_e_d_m4hep_util_1_1_measurement_data.html":[8,0,2,2,0],
 "struct_acts_plugins_1_1_e_d_m4hep_util_1_1_measurement_data.html#a4480d35c611447427a86a2aa3602ccb7":[8,0,2,2,0,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX84 =
 "struct_acts_plugins_1_1_svg_1_1_tracking_geometry_projections_1_1_options.html#ade0e9b98e23c7c28fcd18e8258a177a1":[8,0,2,5,6,0,0],
 "struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_config.html":[6,0,3,63,0],
 "struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_config.html":[8,0,2,68,0],
-"struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_config.html#a03480b657f30babb981b983299602a5c":[6,0,3,63,0,0],
-"struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_config.html#a03480b657f30babb981b983299602a5c":[8,0,2,68,0,0],
-"struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_config.html#a0bac3824e4aa59eb01de06523d4e9942":[6,0,3,63,0,2]
+"struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_config.html#a03480b657f30babb981b983299602a5c":[6,0,3,63,0,0]
 };
