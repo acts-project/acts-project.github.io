@@ -1043,6 +1043,7 @@ var hierarchy =
     [ "ActsPlugins::DetrayPayloadConverter", "class_acts_plugins_1_1_detray_payload_converter.html", null ],
     [ "ActsPlugins::DetrayPayloadConverter::Config", "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html", null ],
     [ "ActsPlugins::DetrayPayloadConverter::Payloads", "struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html", null ],
+    [ "ActsPlugins::DetraySurfaceIdMap", "class_acts_plugins_1_1_detray_surface_id_map.html", null ],
     [ "ActsPlugins::Device", "struct_acts_plugins_1_1_device.html", null ],
     [ "ActsPlugins::DWalkTrackBuilding::Config", "struct_acts_plugins_1_1_d_walk_track_building_1_1_config.html", null ],
     [ "ActsPlugins::EdgeClassificationBase", "class_acts_plugins_1_1_edge_classification_base.html", [

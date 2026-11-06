@@ -11,12 +11,12 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="structdetray_1_1actor_1_1parameter__transporter_1_1get__bound__to__free__dpos__dloc__visitor.html" target="_top" xlink:title="Visitors to the surface local coordinate frameCompute position derivatives with respect to local coor...">
+<g id="a_Node000000"><a xlink:href="structdetray_1_1actor_1_1parameter__transporter_1_1get__bound__to__free__dpos__dangle__visitor.html" target="_top" xlink:title="Visitor computing position derivatives with respect to direction angles.">
 <polygon fill="white" stroke="#666666" points="152.5,-59 0,-59 0,0 152.5,0 152.5,-59"/>
 <text xml:space="preserve" text-anchor="start" x="8" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">detray::actor::parameter</text>
 <text xml:space="preserve" text-anchor="start" x="8" y="-32.75" font-family="Helvetica,sans-Serif" font-size="10.00">_transporter&lt; algebra_t</text>
 <text xml:space="preserve" text-anchor="start" x="8" y="-20" font-family="Helvetica,sans-Serif" font-size="10.00"> &gt;::get_bound_to_free_dpos</text>
-<text xml:space="preserve" text-anchor="middle" x="76.25" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">_dloc_visitor</text>
+<text xml:space="preserve" text-anchor="middle" x="76.25" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">_dangle_visitor</text>
 </a>
 </g>
 </g>

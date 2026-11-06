@@ -1,5 +1,15 @@
 var NAVTREEINDEX82 =
 {
+"struct_acts_1_1_volume_stack_1_1_resize_strategies.html#ab8ac745c512f6db1150d0aebdad8e142":[6,0,0,465,0,0],
+"struct_acts_1_1_volume_stack_1_1_resize_strategies.html#ab8ac745c512f6db1150d0aebdad8e142":[8,0,0,470,0,0],
+"struct_acts_1_1_volume_stack_1_1_resize_strategies.html#acbf1e5df6b514ac79c801c7952ea1eb6":[6,0,0,465,0,1],
+"struct_acts_1_1_volume_stack_1_1_resize_strategies.html#acbf1e5df6b514ac79c801c7952ea1eb6":[8,0,0,470,0,1],
+"struct_acts_1_1_wrapping_config.html":[6,0,0,466],
+"struct_acts_1_1_wrapping_config.html":[8,0,0,471],
+"struct_acts_1_1_wrapping_config.html#a1a4e4fdd8c1d19c3506bfa1a75a91bd1":[6,0,0,466,4],
+"struct_acts_1_1_wrapping_config.html#a1a4e4fdd8c1d19c3506bfa1a75a91bd1":[8,0,0,471,4],
+"struct_acts_1_1_wrapping_config.html#a35279a88a7b19f7cc23d8316ab9817e5":[6,0,0,466,11],
+"struct_acts_1_1_wrapping_config.html#a35279a88a7b19f7cc23d8316ab9817e5":[8,0,0,471,11],
 "struct_acts_1_1_wrapping_config.html#a3f1df8c520566b1195a6560b4d918106":[6,0,0,466,7],
 "struct_acts_1_1_wrapping_config.html#a3f1df8c520566b1195a6560b4d918106":[8,0,0,471,7],
 "struct_acts_1_1_wrapping_config.html#a419d41dc39cd88851a61968779a60e09":[6,0,0,466,5],
@@ -239,15 +249,5 @@ var NAVTREEINDEX82 =
 "struct_acts_fatras_1_1_max.html#a08a178ea664debfa586eb5b4f1699244":[6,0,2,19,1],
 "struct_acts_fatras_1_1_max.html#a08a178ea664debfa586eb5b4f1699244":[8,0,1,20,1],
 "struct_acts_fatras_1_1_max.html#a47ab6b793e91a9f6a9347926980f91e2":[6,0,2,19,0],
-"struct_acts_fatras_1_1_max.html#a47ab6b793e91a9f6a9347926980f91e2":[8,0,1,20,0],
-"struct_acts_fatras_1_1_min.html":[6,0,2,20],
-"struct_acts_fatras_1_1_min.html":[8,0,1,21],
-"struct_acts_fatras_1_1_min.html#a104d396595e69cafd036da180c7d9922":[6,0,2,20,1],
-"struct_acts_fatras_1_1_min.html#a104d396595e69cafd036da180c7d9922":[8,0,1,21,1],
-"struct_acts_fatras_1_1_min.html#a1377624168473947405370ece39fce04":[6,0,2,20,0],
-"struct_acts_fatras_1_1_min.html#a1377624168473947405370ece39fce04":[8,0,1,21,0],
-"struct_acts_fatras_1_1_multi_particle_simulation.html":[6,0,2,21],
-"struct_acts_fatras_1_1_multi_particle_simulation.html":[8,0,1,22],
-"struct_acts_fatras_1_1_multi_particle_simulation.html#a58cdac85f2a25e3b9f75f7b91df839dd":[6,0,2,21,1],
-"struct_acts_fatras_1_1_multi_particle_simulation.html#a58cdac85f2a25e3b9f75f7b91df839dd":[8,0,1,22,1]
+"struct_acts_fatras_1_1_max.html#a47ab6b793e91a9f6a9347926980f91e2":[8,0,1,20,0]
 };

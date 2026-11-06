@@ -733,6 +733,7 @@ var annotated_dup =
       [ "DD4hepVolumeBuilder", "class_acts_plugins_1_1_d_d4hep_volume_builder.html", "class_acts_plugins_1_1_d_d4hep_volume_builder" ],
       [ "DetrayGeometryConverter", "class_acts_plugins_1_1_detray_geometry_converter.html", "class_acts_plugins_1_1_detray_geometry_converter" ],
       [ "DetrayPayloadConverter", "class_acts_plugins_1_1_detray_payload_converter.html", "class_acts_plugins_1_1_detray_payload_converter" ],
+      [ "DetraySurfaceIdMap", "class_acts_plugins_1_1_detray_surface_id_map.html", "class_acts_plugins_1_1_detray_surface_id_map" ],
       [ "DetrayUnsupportedMaterialException", "class_acts_plugins_1_1_detray_unsupported_material_exception.html", "class_acts_plugins_1_1_detray_unsupported_material_exception" ],
       [ "Device", "struct_acts_plugins_1_1_device.html", "struct_acts_plugins_1_1_device" ],
       [ "DWalkTrackBuilding", "class_acts_plugins_1_1_d_walk_track_building.html", "class_acts_plugins_1_1_d_walk_track_building" ],

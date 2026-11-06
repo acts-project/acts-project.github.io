@@ -1,5 +1,15 @@
 var NAVTREEINDEX73 =
 {
+"struct_acts_1_1_grid_axis_generators_1_1_var_eq.html#a6e347a1954753bbfe0deb81ff7fd2e54":[8,0,0,4,4,2],
+"struct_acts_1_1_grid_axis_generators_1_1_var_eq.html#a7d1d3bc997eb2ea342ffc38103f38ebc":[6,0,0,2,4,4],
+"struct_acts_1_1_grid_axis_generators_1_1_var_eq.html#a7d1d3bc997eb2ea342ffc38103f38ebc":[8,0,0,4,4,4],
+"struct_acts_1_1_grid_axis_generators_1_1_var_eq.html#a8f7186f88499126aee3e354c20671555":[6,0,0,2,4,5],
+"struct_acts_1_1_grid_axis_generators_1_1_var_eq.html#a8f7186f88499126aee3e354c20671555":[8,0,0,4,4,5],
+"struct_acts_1_1_grid_axis_generators_1_1_var_eq.html#aa2d66f64c93cd4f120c9a8b71c6ba67c":[6,0,0,2,4,0],
+"struct_acts_1_1_grid_axis_generators_1_1_var_eq.html#aa2d66f64c93cd4f120c9a8b71c6ba67c":[8,0,0,4,4,0],
+"struct_acts_1_1_grid_axis_generators_1_1_var_eq.html#acb221ae27f46a37f5056a450cee3fa13":[6,0,0,2,4,3],
+"struct_acts_1_1_grid_axis_generators_1_1_var_eq.html#acb221ae27f46a37f5056a450cee3fa13":[8,0,0,4,4,3],
+"struct_acts_1_1_grid_axis_generators_1_1_var_var.html":[6,0,0,2,5],
 "struct_acts_1_1_grid_axis_generators_1_1_var_var.html":[8,0,0,4,5],
 "struct_acts_1_1_grid_axis_generators_1_1_var_var.html#a015a2837a034173f4039c58e8013af32":[6,0,0,2,5,4],
 "struct_acts_1_1_grid_axis_generators_1_1_var_var.html#a015a2837a034173f4039c58e8013af32":[8,0,0,4,5,4],
@@ -239,15 +249,5 @@ var NAVTREEINDEX73 =
 "struct_acts_1_1_i_reference_generator.html":[6,0,0,214],
 "struct_acts_1_1_i_reference_generator.html":[8,0,0,219],
 "struct_acts_1_1_i_reference_generator.html#a47965ad0050064bd8d14baec0176d8de":[6,0,0,214,0],
-"struct_acts_1_1_i_reference_generator.html#a47965ad0050064bd8d14baec0176d8de":[8,0,0,219,0],
-"struct_acts_1_1_i_surface_material_accumulator_1_1_track_accumulation.html":[5,3,2,0,7,1],
-"struct_acts_1_1_i_surface_material_accumulator_1_1_track_accumulation.html#a22e9b0e097dfc5aac1255a19ae47de97":[5,3,2,0,7,1,1],
-"struct_acts_1_1_i_surface_material_accumulator_1_1_track_accumulation.html#abdb72d43a094ad5d9653c5c065c02b0f":[5,3,2,0,7,1,0],
-"struct_acts_1_1_impact_parameters_and_sigma.html":[6,0,0,196],
-"struct_acts_1_1_impact_parameters_and_sigma.html":[8,0,0,201],
-"struct_acts_1_1_impact_parameters_and_sigma.html#a0055158a8a13eb2908255f83f2fe9a00":[6,0,0,196,4],
-"struct_acts_1_1_impact_parameters_and_sigma.html#a0055158a8a13eb2908255f83f2fe9a00":[8,0,0,201,4],
-"struct_acts_1_1_impact_parameters_and_sigma.html#a01b2e408696061c166d5135b1df6a9cf":[6,0,0,196,5],
-"struct_acts_1_1_impact_parameters_and_sigma.html#a01b2e408696061c166d5135b1df6a9cf":[8,0,0,201,5],
-"struct_acts_1_1_impact_parameters_and_sigma.html#a3715ab051fc7e9a0b6e4170ebcaa84c2":[6,0,0,196,0]
+"struct_acts_1_1_i_reference_generator.html#a47965ad0050064bd8d14baec0176d8de":[8,0,0,219,0]
 };

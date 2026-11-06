@@ -1,7 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" title=" " alt="" coords="5,52,89,80"/>
-<area shape="rect" id="Node000001" href="$classdetray_1_1types_1_1mapped__registry.html" title=" " alt="" coords="137,5,304,50"/>
-<area shape="poly" id="edge464_Node000000_Node000001" title=" " alt="" coords="103,51,139,45,134,48,105,56"/>
-<area shape="rect" id="Node000002" href="$classdetray_1_1types_1_1mapped__registry.html" title="Select a number of types from another registry and map their IDs to a continuous range of new type in..." alt="" coords="137,74,304,136"/>
-<area shape="poly" id="edge465_Node000000_Node000002" title=" " alt="" coords="104,76,139,86,134,87,104,82"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,39,135,67"/>
+<area shape="rect" id="Node000001" href="$classdetray_1_1composite__actor.html" title=" " alt="" coords="183,5,408,101"/>
+<area shape="poly" id="edge463_Node000000_Node000001" title=" " alt="" coords="150,51,185,53,180,54,151,56"/>
 </map>

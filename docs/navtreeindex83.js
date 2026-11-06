@@ -1,5 +1,15 @@
 var NAVTREEINDEX83 =
 {
+"struct_acts_fatras_1_1_min.html":[6,0,2,20],
+"struct_acts_fatras_1_1_min.html":[8,0,1,21],
+"struct_acts_fatras_1_1_min.html#a104d396595e69cafd036da180c7d9922":[6,0,2,20,1],
+"struct_acts_fatras_1_1_min.html#a104d396595e69cafd036da180c7d9922":[8,0,1,21,1],
+"struct_acts_fatras_1_1_min.html#a1377624168473947405370ece39fce04":[6,0,2,20,0],
+"struct_acts_fatras_1_1_min.html#a1377624168473947405370ece39fce04":[8,0,1,21,0],
+"struct_acts_fatras_1_1_multi_particle_simulation.html":[6,0,2,21],
+"struct_acts_fatras_1_1_multi_particle_simulation.html":[8,0,1,22],
+"struct_acts_fatras_1_1_multi_particle_simulation.html#a58cdac85f2a25e3b9f75f7b91df839dd":[6,0,2,21,1],
+"struct_acts_fatras_1_1_multi_particle_simulation.html#a58cdac85f2a25e3b9f75f7b91df839dd":[8,0,1,22,1],
 "struct_acts_fatras_1_1_multi_particle_simulation.html#a6529f8a215892e8a0658fe1fbf4d0474":[6,0,2,21,4],
 "struct_acts_fatras_1_1_multi_particle_simulation.html#a6529f8a215892e8a0658fe1fbf4d0474":[8,0,1,22,4],
 "struct_acts_fatras_1_1_multi_particle_simulation.html#a928d46ea95905d13e50dd7477f767a65":[6,0,2,21,2],
@@ -221,6 +231,7 @@ var NAVTREEINDEX83 =
 "struct_acts_plugins_1_1_detray_geometry_converter_1_1_config.html#ad5f7b0a4dc6903d5535c59444d3487c7":[5,10,3,1,0,2],
 "struct_acts_plugins_1_1_detray_geometry_converter_1_1_config.html#aece7de232b048e9e0145134293677e8f":[5,10,3,1,0,0],
 "struct_acts_plugins_1_1_detray_geometry_converter_1_1_detray_geometry.html":[5,10,3,1,1],
+"struct_acts_plugins_1_1_detray_geometry_converter_1_1_detray_geometry.html#a893ef698eabdf002512ac40040b510b4":[5,10,3,1,1,2],
 "struct_acts_plugins_1_1_detray_geometry_converter_1_1_detray_geometry.html#aafe93d68cc0b2989ae078cffd226969f":[5,10,3,1,1,0],
 "struct_acts_plugins_1_1_detray_geometry_converter_1_1_detray_geometry.html#ad1965de6a0854f6bd9e13714945ff178":[5,10,3,1,1,1],
 "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html":[5,10,3,2,0],
@@ -238,16 +249,5 @@ var NAVTREEINDEX83 =
 "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#adabd4c6ae5a37289210b34f7dc536465":[5,10,3,2,0,10],
 "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#adbfa19d516a1bc916d8169d1726ec89e":[5,10,3,2,0,7],
 "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#adc36fa68f369600e63e1fbd46e9cce7c":[5,10,3,2,0,8],
-"struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html":[5,10,3,2,1],
-"struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html#a755635698f150e7c303db79024b8e6ba":[5,10,3,2,1,2],
-"struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html#a76f6bb4069cf112277624229e021a036":[5,10,3,2,1,4],
-"struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html#a90b02fc06a2d2bc766c22c6912c3d30e":[5,10,3,2,1,0],
-"struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html#a9239d19fa3c531e8c8602514967e1224":[5,10,3,2,1,3],
-"struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html#af9d1ecb7bf107b095ee157a31e49a65e":[5,10,3,2,1,1],
-"struct_acts_plugins_1_1_device.html":[5,10,6,2],
-"struct_acts_plugins_1_1_device.html#a4e675967a57061838705d12784d93f72":[5,10,6,2,3],
-"struct_acts_plugins_1_1_device.html#a6f4a90fb663d1a054e7217269d41755d":[5,10,6,2,4],
-"struct_acts_plugins_1_1_device.html#a8d6402367687af920630e52d91c4c366":[5,10,6,2,0],
-"struct_acts_plugins_1_1_device.html#a8fa5c6856600a9ebf8795b67a6940b71":[5,10,6,2,7],
-"struct_acts_plugins_1_1_device.html#ab415c73a916bc8a0eea4a67b4e065064":[5,10,6,2,5]
+"struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html":[5,10,3,2,1]
 };

@@ -13,7 +13,8 @@ var group__detray__plugin =
       ] ],
       [ "DetrayGeometry", "struct_acts_plugins_1_1_detray_geometry_converter_1_1_detray_geometry.html", [
         [ "detector", "struct_acts_plugins_1_1_detray_geometry_converter_1_1_detray_geometry.html#aafe93d68cc0b2989ae078cffd226969f", null ],
-        [ "names", "struct_acts_plugins_1_1_detray_geometry_converter_1_1_detray_geometry.html#ad1965de6a0854f6bd9e13714945ff178", null ]
+        [ "names", "struct_acts_plugins_1_1_detray_geometry_converter_1_1_detray_geometry.html#ad1965de6a0854f6bd9e13714945ff178", null ],
+        [ "surfaceIds", "struct_acts_plugins_1_1_detray_geometry_converter_1_1_detray_geometry.html#a893ef698eabdf002512ac40040b510b4", null ]
       ] ],
       [ "DetrayGeometryConverter", "class_acts_plugins_1_1_detray_geometry_converter.html#a8b4630ea81ac8aad5db94ecdc6413315", null ],
       [ "convert", "class_acts_plugins_1_1_detray_geometry_converter.html#aef1caba916d4984ff8bb055a421d14e6", null ]
@@ -61,6 +62,17 @@ var group__detray__plugin =
       [ "convertTrackingGeometry", "class_acts_plugins_1_1_detray_payload_converter.html#a57fe0c842aba6279bb9afd03cf183c83", null ],
       [ "convertTryAllNavigationPolicy", "class_acts_plugins_1_1_detray_payload_converter.html#aa2276135102d853be4d6283722ca633f", null ],
       [ "convertVolume", "class_acts_plugins_1_1_detray_payload_converter.html#ace1bce4d0eacd16932573ab712a9860b", null ]
+    ] ],
+    [ "ActsPlugins::DetraySurfaceIdMap", "class_acts_plugins_1_1_detray_surface_id_map.html", [
+      [ "Entry", "class_acts_plugins_1_1_detray_surface_id_map.html#a516f1d1f0bcf2609cc0b13aaf5785499", null ],
+      [ "DetraySurfaceIdMap", "class_acts_plugins_1_1_detray_surface_id_map.html#a43f2cb510a2c07c5a18d84bdefd52077", null ],
+      [ "DetraySurfaceIdMap", "class_acts_plugins_1_1_detray_surface_id_map.html#a69b209342eb01d2f368e36dc86f94fbe", null ],
+      [ "DetraySurfaceIdMap", "class_acts_plugins_1_1_detray_surface_id_map.html#abf9fa24c6050f96ad3b8852a5517f16f", null ],
+      [ "empty", "class_acts_plugins_1_1_detray_surface_id_map.html#a3f41e3886fa7ec1570c0b43839d5d601", null ],
+      [ "fromDetray", "class_acts_plugins_1_1_detray_surface_id_map.html#a3016d120d8ff0c0564c049ae1eed98b5", null ],
+      [ "size", "class_acts_plugins_1_1_detray_surface_id_map.html#a90c8bf3fd579a099b64f27806d758214", null ],
+      [ "surface", "class_acts_plugins_1_1_detray_surface_id_map.html#afc6dba05551e9675c7dd12adaebc720b", null ],
+      [ "toDetray", "class_acts_plugins_1_1_detray_surface_id_map.html#ac0fa95e7472e4bc573b5272b333c85a5", null ]
     ] ],
     [ "ActsPlugins::DetrayUnsupportedMaterialException", "class_acts_plugins_1_1_detray_unsupported_material_exception.html", [
       [ "DetrayUnsupportedMaterialException", "class_acts_plugins_1_1_detray_unsupported_material_exception.html#ac5c274803e557c3cdae36f1345bf503d", null ]

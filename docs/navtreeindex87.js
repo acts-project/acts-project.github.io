@@ -1,5 +1,16 @@
 var NAVTREEINDEX87 =
 {
+"structdetray_1_1algebra_1_1generic_1_1matrix_1_1inverse_1_1hard__coded.html#afc80d8bf82f3bf249993380963a1d17c":[8,0,3,1,4,1,3,1,5],
+"structdetray_1_1algebra_1_1generic_1_1matrix_1_1inverse_1_1partial__pivot__lud.html":[8,0,3,1,4,1,3,2],
+"structdetray_1_1algebra_1_1generic_1_1matrix_1_1inverse_1_1partial__pivot__lud.html#a45ffe5e3ad7b65ed9fe385ebeb8649d4":[8,0,3,1,4,1,3,2,2],
+"structdetray_1_1algebra_1_1generic_1_1matrix_1_1inverse_1_1partial__pivot__lud.html#a63627eb601edaf87bd3a400014214440":[8,0,3,1,4,1,3,2,0],
+"structdetray_1_1algebra_1_1generic_1_1matrix_1_1inverse_1_1partial__pivot__lud.html#a97f2c63d14476b5b9357b72742527b2a":[8,0,3,1,4,1,3,2,4],
+"structdetray_1_1algebra_1_1generic_1_1matrix_1_1inverse_1_1partial__pivot__lud.html#aa597cb785818f791a733cbf69e9c52d9":[8,0,3,1,4,1,3,2,3],
+"structdetray_1_1algebra_1_1generic_1_1matrix_1_1inverse_1_1partial__pivot__lud.html#ac7785c4f7f1567c4ef206b5143869e5a":[8,0,3,1,4,1,3,2,1],
+"structdetray_1_1algebra_1_1smatrix_1_1math_1_1transform3.html":[8,0,3,1,5,0,0],
+"structdetray_1_1algebra_1_1smatrix_1_1math_1_1transform3.html#a0626b4c117be7008fa21c3da4f5347bf":[8,0,3,1,5,0,0,29],
+"structdetray_1_1algebra_1_1smatrix_1_1math_1_1transform3.html#a078ae30e1a2966ba2c588c0dd9be9cca":[8,0,3,1,5,0,0,26],
+"structdetray_1_1algebra_1_1smatrix_1_1math_1_1transform3.html#a0953976c253d2973df41157c3aef298a":[8,0,3,1,5,0,0,1],
 "structdetray_1_1algebra_1_1smatrix_1_1math_1_1transform3.html#a11931ac43f3fdea1f799c7892c34ae7c":[8,0,3,1,5,0,0,20],
 "structdetray_1_1algebra_1_1smatrix_1_1math_1_1transform3.html#a156017db46e3f2b683f0e9786ba96741":[8,0,3,1,5,0,0,19],
 "structdetray_1_1algebra_1_1smatrix_1_1math_1_1transform3.html#a1dae580d7f2cb86aab89549b4ab7eb20":[8,0,3,1,5,0,0,9],
@@ -238,16 +249,5 @@ var NAVTREEINDEX87 =
 "structdetray_1_1barrel__generator__config.html#ad28243fede14d6b49ca7a455755c7f0c":[6,0,4,21,8],
 "structdetray_1_1barrel__generator__config.html#ad28243fede14d6b49ca7a455755c7f0c":[8,0,3,34,8],
 "structdetray_1_1barrel__generator__config.html#ad30fa9753c64aa46e3d3c04fbef45faa":[6,0,4,21,16],
-"structdetray_1_1barrel__generator__config.html#ad30fa9753c64aa46e3d3c04fbef45faa":[8,0,3,34,16],
-"structdetray_1_1barrel__generator__config.html#ad7769d851c1d934fa00fa07a65fcf380":[6,0,4,21,6],
-"structdetray_1_1barrel__generator__config.html#ad7769d851c1d934fa00fa07a65fcf380":[8,0,3,34,6],
-"structdetray_1_1barrel__generator__config.html#ad842991cff1225667329848ba6a34401":[6,0,4,21,0],
-"structdetray_1_1barrel__generator__config.html#ad842991cff1225667329848ba6a34401":[8,0,3,34,0],
-"structdetray_1_1barrel__generator__config.html#ad857c4db35aec854821386980ef1f7f8":[6,0,4,21,20],
-"structdetray_1_1barrel__generator__config.html#ad857c4db35aec854821386980ef1f7f8":[8,0,3,34,20],
-"structdetray_1_1barrel__generator__config.html#ae9b09504b8f2b9bf3cb22595532d1989":[6,0,4,21,15],
-"structdetray_1_1barrel__generator__config.html#ae9b09504b8f2b9bf3cb22595532d1989":[8,0,3,34,15],
-"structdetray_1_1barrel__generator__config.html#aea5a117cf6b790bc0be3e1a80b64fa23":[6,0,4,21,17],
-"structdetray_1_1barrel__generator__config.html#aea5a117cf6b790bc0be3e1a80b64fa23":[8,0,3,34,17],
-"structdetray_1_1base__actor.html":[6,0,4,22]
+"structdetray_1_1barrel__generator__config.html#ad30fa9753c64aa46e3d3c04fbef45faa":[8,0,3,34,16]
 };

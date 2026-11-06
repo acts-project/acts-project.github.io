@@ -133,7 +133,7 @@ $(function(){initNavTree('struct_acts_plugins_1_1_detray_geometry_converter_1_1_
 <div class="dynheader">
 Collaboration diagram for ActsPlugins::DetrayGeometryConverter::DetrayGeometry&lt; metadata_t &gt;:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="struct_acts_plugins_1_1_detray_geometry_converter_1_1_detray_geometry__coll__graph.svg" width="100%" height="429"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="struct_acts_plugins_1_1_detray_geometry_converter_1_1_detray_geometry__coll__graph.svg" width="100%" height="480"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -144,17 +144,39 @@ std::shared_ptr&lt; detray::host::detector&lt; metadata_t &gt; &gt;&#160;</td><t
 <tr class="memitem:ad1965de6a0854f6bd9e13714945ff178" id="r_ad1965de6a0854f6bd9e13714945ff178"><td class="memItemLeft" align="right" valign="top"><a id="ad1965de6a0854f6bd9e13714945ff178" name="ad1965de6a0854f6bd9e13714945ff178"></a>
 <a class="el" href="structdetray_1_1name__map.html">detray::name_map</a>&#160;</td><td class="memItemRight" valign="bottom"><b>names</b></td></tr>
 <tr class="memdesc:ad1965de6a0854f6bd9e13714945ff178"><td class="mdescLeft">&#160;</td><td class="mdescRight">The detray volume and surface name map. <br /></td></tr>
+<tr class="memitem:a893ef698eabdf002512ac40040b510b4" id="r_a893ef698eabdf002512ac40040b510b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_plugins_1_1_detray_surface_id_map.html">DetraySurfaceIdMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a893ef698eabdf002512ac40040b510b4">surfaceIds</a></td></tr>
+<tr class="memdesc:a893ef698eabdf002512ac40040b510b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The map between ACTS and detray identifiers of the sensitive surfaces.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;<a class="el" href="conceptdetray_1_1concepts_1_1metadata.html">detray::concepts::metadata</a> metadata_t&gt;<br />
 struct ActsPlugins::DetrayGeometryConverter::DetrayGeometry&lt; metadata_t &gt;</div><p>Combined result of a geometry conversion. </p>
-<p>Bundles the built detray detector together with the detray volume/surface name map. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+<p>Bundles the built detray detector together with the detray volume/surface name map and the map between ACTS and detray surface identifiers. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">metadata_t</td><td>the detector metadata type </td></tr>
   </table>
   </dd>
 </dl>
-</div></div><!-- contents -->
+</div><a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a893ef698eabdf002512ac40040b510b4" name="a893ef698eabdf002512ac40040b510b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a893ef698eabdf002512ac40040b510b4">&#9670;&#160;</a></span>surfaceIds</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="conceptdetray_1_1concepts_1_1metadata.html">detray::concepts::metadata</a> metadata_t&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_acts_plugins_1_1_detray_surface_id_map.html">DetraySurfaceIdMap</a> <a class="el" href="struct_acts_plugins_1_1_detray_geometry_converter_1_1_detray_geometry.html">ActsPlugins::DetrayGeometryConverter::DetrayGeometry</a>&lt; metadata_t &gt;::surfaceIds</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The map between ACTS and detray identifiers of the sensitive surfaces. </p>
+<p>It points to the surfaces of the converted tracking geometry, which has to outlive it. </p>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

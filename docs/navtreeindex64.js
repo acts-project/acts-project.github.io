@@ -1,5 +1,15 @@
 var NAVTREEINDEX64 =
 {
+"namespacedetray.html#a6b4838cfc48ec628d4fdf378ad98d03d":[6,0,4,276],
+"namespacedetray.html#a6bf94de620d7a239c612c5f9e8dbc1f3":[6,0,4,217],
+"namespacedetray.html#a6cfc7874a145c16e976a0e7bda4d941c":[6,0,4,324],
+"namespacedetray.html#a6d7291eb269d86fcc12800085534c917":[6,0,4,295],
+"namespacedetray.html#a6e31c62c3d46efc382ca6b3ca07ee7b0":[6,0,4,229],
+"namespacedetray.html#a7161a744b049f4d46eed3a9e7c4abb76":[6,0,4,250],
+"namespacedetray.html#a72646e056a2bdfcc8cb0f640243a6044":[6,0,4,306],
+"namespacedetray.html#a7782214f495fb249bf52b550031b5a90":[6,0,4,252],
+"namespacedetray.html#a7ed10b9a9f7f954acdd70996470a8f02":[6,0,4,246],
+"namespacedetray.html#a7f46b767c740d57296c69cb31eb86069":[6,0,4,216],
 "namespacedetray.html#a80ffc46212108d08db96b8782e2e0a1e":[6,0,4,270],
 "namespacedetray.html#a8198b6fe44ff0acf9a2c5400e81bbf6f":[6,0,4,335],
 "namespacedetray.html#a8249dd120ecb62c0dd4e00d675d0c81a":[6,0,4,214],
@@ -239,15 +249,5 @@ var NAVTREEINDEX64 =
 "struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#aadea9ce68d170e95e230418574bc1fbb":[8,0,0,22,0,3],
 "struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#abc473e52b1e20ba7c2895efd7dbac7ec":[6,0,0,17,0,1],
 "struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#abc473e52b1e20ba7c2895efd7dbac7ec":[8,0,0,22,0,1],
-"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#abe83b567e3c2a35fc6ce736fd5c8516b":[6,0,0,17,0,5],
-"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#abe83b567e3c2a35fc6ce736fd5c8516b":[8,0,0,22,0,5],
-"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#acef7300de7197685285103945db00c57":[6,0,0,17,0,6],
-"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#acef7300de7197685285103945db00c57":[8,0,0,22,0,6],
-"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html":[6,0,0,18,0],
-"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html":[8,0,0,23,0],
-"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a00a497c926a673ba3a2682a19b50ac9e":[6,0,0,18,0,15],
-"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a00a497c926a673ba3a2682a19b50ac9e":[8,0,0,23,0,15],
-"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a0b411817188fbcf7a9592ba2e1aabd32":[6,0,0,18,0,18],
-"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a0b411817188fbcf7a9592ba2e1aabd32":[8,0,0,23,0,18],
-"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a13b63aac430ad76e6c6030dfae4fae39":[6,0,0,18,0,13]
+"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#abe83b567e3c2a35fc6ce736fd5c8516b":[6,0,0,17,0,5]
 };

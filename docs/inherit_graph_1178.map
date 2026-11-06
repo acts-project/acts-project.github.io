@@ -1,85 +1,19 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" title=" " alt="" coords="5,1560,123,1588"/>
-<area shape="rect" id="Node000001" href="$struct_acts_1_1_supports_bound_parameters_3_01_eigen_stepper_3_4_01_4.html" title=" " alt="" coords="209,741,438,786"/>
-<area shape="poly" id="edge477_Node000000_Node000001" title=" " alt="" coords="62,1545,64,1390,77,1165,89,1050,108,944,134,856,150,822,169,797,187,782,210,771,207,776,189,786,173,800,155,825,139,858,113,945,95,1050,82,1166,70,1390,68,1545"/>
-<area shape="rect" id="Node000007" href="$struct_acts_1_1_supports_bound_parameters_3_01_generic_runge_kutta_stepper_01_4.html" title=" " alt="" coords="209,811,438,855"/>
-<area shape="poly" id="edge478_Node000000_Node000007" title=" " alt="" coords="63,1545,67,1402,81,1199,94,1094,112,998,137,920,152,889,169,866,187,851,210,841,207,845,190,855,173,869,156,892,142,922,118,1000,99,1095,86,1199,72,1403,68,1545"/>
-<area shape="rect" id="Node000008" href="$struct_acts_1_1_supports_bound_parameters_3_01_helix_stepper_01_4.html" title=" " alt="" coords="209,880,438,925"/>
-<area shape="poly" id="edge479_Node000000_Node000008" title=" " alt="" coords="63,1545,69,1415,85,1232,99,1139,117,1053,140,983,153,956,169,935,187,921,210,910,207,915,189,925,173,939,158,959,145,985,122,1055,104,1139,91,1233,74,1415,69,1545"/>
-<area shape="rect" id="Node000009" href="$struct_acts_1_1_supports_bound_parameters_3_01_straight_line_stepper_01_4.html" title=" " alt="" coords="209,949,438,994"/>
-<area shape="poly" id="edge480_Node000000_Node000009" title=" " alt="" coords="64,1545,72,1427,90,1265,103,1183,121,1108,142,1047,155,1023,169,1004,187,990,210,980,207,984,190,994,173,1008,159,1026,147,1049,126,1110,109,1184,95,1266,77,1428,69,1545"/>
-<area shape="rect" id="Node000010" href="$struct_acts_1_1_supports_bound_parameters_3_01_sympy_stepper_01_4.html" title=" " alt="" coords="209,1019,438,1063"/>
-<area shape="poly" id="edge481_Node000000_Node000010" title=" " alt="" coords="65,1545,75,1440,94,1299,108,1227,125,1162,145,1109,169,1073,187,1058,210,1049,207,1053,190,1063,173,1076,150,1111,130,1164,113,1228,99,1300,80,1441,70,1546"/>
-<area shape="rect" id="Node000011" href="$structdetray_1_1algebra_1_1detail_1_1is__storage__vector_3_01algebra_1_1storage_1_1vector_3_01_n027cad9010c0ab5572d1cf93e6954355.html" title=" " alt="" coords="219,1087,427,1166"/>
-<area shape="poly" id="edge482_Node000000_Node000011" title=" " alt="" coords="62,1545,64,1472,77,1373,90,1320,109,1268,135,1219,169,1175,191,1157,220,1143,217,1148,194,1161,173,1179,140,1222,114,1270,95,1322,82,1374,69,1472,67,1545"/>
-<area shape="rect" id="Node000017" href="$structdetray_1_1detail_1_1is__permutation_3_01detray_1_1dtuple_3_01_args1_8_8_8_01_4_00_01detray38333a8cbf7bb66120bf99d406e36e64.html" title="Compare the two detray tuple type lists as unordered sets of types." alt="" coords="219,1535,428,1614"/>
-<area shape="poly" id="edge483_Node000000_Node000017" title=" " alt="" coords="136,1572,220,1572,216,1576,140,1576"/>
-<area shape="rect" id="Node000014" href="$structdetray_1_1detail_1_1is__permutation_3_01detray_1_1dtuple_3_4_00_01detray_1_1dtuple_3_4_01_4.html" title=" " alt="" coords="210,485,437,546"/>
-<area shape="poly" id="edge484_Node000000_Node000014" title=" " alt="" coords="64,1545,73,1335,94,1021,108,863,125,723,145,616,156,579,169,557,187,540,211,529,208,533,190,545,173,560,161,582,150,617,130,723,113,863,99,1022,79,1335,69,1545"/>
-<area shape="rect" id="Node000018" href="$structdetray_1_1types_1_1contains__impl.html" title=" " alt="" coords="232,1637,415,1682"/>
-<area shape="poly" id="edge485_Node000000_Node000018" title=" " alt="" coords="103,1593,172,1622,233,1641,229,1644,170,1628,105,1598"/>
-<area shape="rect" id="Node000019" href="$structdetray_1_1types_1_1contains__impl.html" title=" " alt="" coords="235,1842,412,1904"/>
-<area shape="poly" id="edge486_Node000000_Node000019" title=" " alt="" coords="69,1601,83,1651,101,1709,131,1770,150,1797,172,1822,202,1842,237,1857,232,1859,199,1847,169,1826,146,1801,126,1772,96,1711,77,1652,70,1606"/>
-<area shape="rect" id="Node000020" href="$structdetray_1_1types_1_1contains__impl_3_01_t_00_01_i_00_01registry_3_01_i_d_00_01_ts_8_8_8_01_4_01_4.html" title="Specialization of the type list contains trait." alt="" coords="524,1864,693,1925"/>
-<area shape="poly" id="edge493_Node000000_Node000020" title=" " alt="" coords="70,1601,86,1678,108,1773,137,1860,154,1893,172,1914,213,1937,258,1951,305,1958,353,1959,400,1954,446,1946,530,1924,526,1927,448,1951,401,1959,353,1964,304,1964,256,1957,211,1942,169,1918,150,1896,132,1863,103,1774,81,1679,70,1606"/>
-<area shape="rect" id="Node000021" href="$structdetray_1_1types_1_1contains__impl.html" title=" " alt="" coords="239,1706,408,1768"/>
-<area shape="poly" id="edge488_Node000000_Node000021" title=" " alt="" coords="82,1599,121,1647,145,1672,172,1692,204,1708,241,1721,236,1724,202,1713,169,1697,142,1676,117,1651,83,1604"/>
-<area shape="rect" id="Node000022" href="$structdetray_1_1types_1_1contains__impl_3_01_u_00_01_i_00_01list_3_01_t_00_01_ts_8_8_8_01_4_01_4.html" title="Continue the lookup after the current head type did not match." alt="" coords="524,1753,693,1814"/>
-<area shape="poly" id="edge494_Node000000_Node000022" title=" " alt="" coords="70,1601,84,1644,103,1693,132,1741,150,1761,172,1777,214,1798,259,1812,305,1820,352,1823,444,1818,526,1805,521,1809,444,1823,352,1829,304,1826,257,1817,212,1803,169,1782,147,1765,128,1744,98,1695,79,1646,71,1606"/>
-<area shape="rect" id="Node000015" href="$structdetray_1_1types_1_1contains__impl_3_01_t_00_01_i_00_01list_3_01_t_00_01_ts_8_8_8_01_4_01_4.html" title="Report the current position when the head type matches." alt="" coords="239,570,408,632"/>
-<area shape="poly" id="edge490_Node000000_Node000015" title=" " alt="" coords="64,1545,75,1350,96,1064,111,920,128,793,147,696,157,663,169,642,183,628,200,618,240,605,236,609,202,622,186,632,173,645,162,665,152,697,133,793,116,920,102,1064,80,1351,69,1545"/>
-<area shape="rect" id="Node000023" href="$structdetray_1_1types_1_1contains__impl_3_01_t_00_01_i_00_01list_3_4_01_4.html" title="Report an invalid position after reaching an empty list." alt="" coords="239,1979,408,2023"/>
-<area shape="poly" id="edge491_Node000000_Node000023" title=" " alt="" coords="64,1601,69,1676,82,1771,95,1821,114,1871,140,1917,172,1958,203,1979,241,1993,236,1995,201,1984,169,1962,135,1920,109,1873,90,1823,77,1772,64,1676,64,1607"/>
-<area shape="rect" id="Node000024" href="$structdetray_1_1types_1_1contains__impl_3_01_t_00_01_i_00_01mapped__registry_3_01_r_00_01_s_01_4_01_4.html" title="Search a mapped registry and translate original positions to filtered positions where applicable." alt="" coords="218,2048,428,2109"/>
-<area shape="poly" id="edge492_Node000000_Node000024" title=" " alt="" coords="68,1601,82,1700,103,1829,117,1894,133,1953,152,2001,173,2034,194,2051,220,2064,215,2066,191,2055,169,2037,147,2004,128,1955,112,1896,98,1830,77,1701,68,1606"/>
-<area shape="rect" id="Node000016" href="$structdetray_1_1types_1_1detail_1_1is__type__list_3_01types_1_1list_3_01_ts_8_8_8_01_4_01_4.html" title=" " alt="" coords="246,656,400,717"/>
-<area shape="poly" id="edge495_Node000000_Node000016" title=" " alt="" coords="62,1545,63,1379,66,1261,74,1134,86,1007,106,890,132,794,149,756,169,727,185,712,204,701,247,689,244,693,206,706,188,717,173,731,154,759,137,796,111,891,92,1008,79,1134,72,1261,68,1379,67,1545"/>
-<area shape="rect" id="Node000025" href="$struct_acts_1_1_is_read_only_multi_trajectory_3_01_acts_plugins_1_1_mutable_podio_track_state_container_3_01holder__t_01_4_01_4.html" title=" " alt="" coords="185,2133,461,2194"/>
-<area shape="poly" id="edge496_Node000000_Node000025" title=" " alt="" coords="67,1601,79,1717,97,1872,111,1950,128,2021,149,2080,173,2119,187,2133,182,2134,169,2123,144,2082,123,2023,106,1951,92,1872,73,1717,67,1607"/>
-<area shape="rect" id="Node000026" href="$struct_acts_1_1_is_read_only_multi_trajectory_3_01_vector_multi_trajectory_01_4.html" title=" " alt="" coords="209,2219,437,2263"/>
-<area shape="poly" id="edge497_Node000000_Node000026" title=" " alt="" coords="66,1601,75,1733,91,1914,104,2006,122,2090,145,2159,158,2185,173,2204,190,2218,211,2230,206,2232,187,2223,169,2208,153,2188,140,2161,117,2091,99,2007,86,1914,69,1733,66,1606"/>
-<area shape="rect" id="Node000027" href="$struct_acts_1_1_is_read_only_track_container_3_01_acts_plugins_1_1_mutable_podio_track_container_3_01holder__t_01_4_01_4.html" title=" " alt="" coords="171,2288,476,2349"/>
-<area shape="poly" id="edge498_Node000000_Node000027" title=" " alt="" coords="66,1601,73,1744,88,1946,101,2049,119,2144,143,2221,157,2251,173,2274,185,2286,180,2287,169,2277,152,2254,138,2223,114,2145,96,2050,82,1946,67,1744,66,1606"/>
-<area shape="rect" id="Node000028" href="$struct_acts_1_1_is_read_only_track_container_3_01_vector_track_container_01_4.html" title=" " alt="" coords="209,2373,437,2418"/>
-<area shape="poly" id="edge499_Node000000_Node000028" title=" " alt="" coords="65,1601,69,1760,81,1988,94,2105,113,2212,139,2300,155,2334,173,2359,190,2373,211,2385,206,2387,187,2378,169,2363,150,2337,134,2302,108,2213,89,2106,76,1988,64,1761,65,1606"/>
-<area shape="rect" id="Node000029" href="$struct_acts_1_1_supports_bound_parameters.html" title=" " alt="" coords="209,2443,438,2487"/>
-<area shape="poly" id="edge500_Node000000_Node000029" title=" " alt="" coords="67,1601,81,1784,103,2047,118,2179,134,2294,153,2382,163,2411,173,2429,189,2443,211,2455,205,2456,186,2447,169,2432,158,2413,148,2383,129,2295,112,2179,98,2047,76,1785,67,1606"/>
-<area shape="rect" id="Node000030" href="$struct_acts_1_1missing__specialization.html" title=" " alt="" coords="221,2512,426,2557"/>
-<area shape="poly" id="edge501_Node000000_Node000030" title=" " alt="" coords="67,1601,80,1797,101,2082,115,2225,132,2351,151,2447,162,2479,173,2498,195,2515,223,2529,218,2529,192,2520,169,2501,157,2481,146,2448,127,2352,110,2226,96,2082,75,1798,67,1606"/>
-<area shape="rect" id="Node000031" href="$structdetray_1_1algebra_1_1detail_1_1is__storage__vector.html" title=" " alt="" coords="232,2581,414,2626"/>
-<area shape="poly" id="edge502_Node000000_Node000031" title=" " alt="" coords="67,1601,79,1810,99,2117,113,2272,130,2409,150,2512,161,2547,173,2567,200,2587,234,2601,229,2601,197,2592,169,2571,156,2549,145,2513,125,2409,108,2273,94,2118,73,1811,66,1607"/>
-<area shape="rect" id="Node000032" href="$structdetray_1_1base__actor_1_1is__comp__actor.html" title="Tag whether this is a composite type." alt="" coords="253,1189,394,1234"/>
-<area shape="poly" id="edge503_Node000000_Node000032" title=" " alt="" coords="63,1545,68,1482,84,1401,97,1358,115,1317,139,1278,169,1244,187,1231,208,1221,254,1211,250,1215,210,1226,190,1235,172,1248,143,1281,120,1319,102,1360,89,1402,73,1483,68,1545"/>
-<area shape="rect" id="Node000033" href="$structdetray_1_1detail_1_1has__type_3_01_t_00_01detray_1_1dtuple_3_4_01_4.html" title=" " alt="" coords="216,1259,431,1303"/>
-<area shape="poly" id="edge504_Node000000_Node000033" title=" " alt="" coords="66,1545,75,1494,93,1432,124,1368,144,1339,169,1314,190,1299,217,1290,214,1294,193,1304,172,1318,148,1342,128,1371,98,1434,80,1495,71,1545"/>
-<area shape="rect" id="Node000034" href="$structdetray_1_1detail_1_1is__permutation.html" title="Check for equality of tuple types modulo permutation." alt="" coords="234,1328,412,1373"/>
-<area shape="poly" id="edge505_Node000000_Node000034" title=" " alt="" coords="71,1545,84,1508,104,1464,132,1420,169,1383,200,1366,235,1356,232,1360,202,1371,172,1387,136,1423,109,1466,89,1510,76,1546"/>
-<area shape="rect" id="Node000035" href="$structdetray_1_1types_1_1contains__impl.html" title="Does the list contain a particular type?" alt="" coords="216,1397,431,1442"/>
-<area shape="poly" id="edge506_Node000000_Node000035" title=" " alt="" coords="79,1546,117,1497,141,1473,169,1452,217,1433,214,1437,172,1457,145,1477,121,1501,84,1548"/>
-<area shape="rect" id="Node000036" href="$structdetray_1_1types_1_1detail_1_1is__type__list.html" title=" " alt="" coords="224,1467,423,1511"/>
-<area shape="poly" id="edge507_Node000000_Node000036" title=" " alt="" coords="101,1551,170,1520,225,1505,222,1509,172,1525,106,1554"/>
-<area shape="poly" id="edge487_Node000019_Node000020" title=" " alt="" coords="427,1878,526,1887,521,1889,429,1883"/>
-<area shape="poly" id="edge489_Node000021_Node000022" title=" " alt="" coords="422,1751,526,1768,521,1771,424,1756"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="8,587,120,615"/>
-<area shape="poly" id="edge512_Node000002_Node000001" title=" " alt="" coords="80,626,119,679,144,705,172,727,211,745,206,748,169,731,140,709,115,682,81,631"/>
-<area shape="poly" id="edge513_Node000002_Node000007" title=" " alt="" coords="72,627,88,667,107,713,135,758,172,796,210,817,206,820,169,800,131,762,103,715,83,669,73,632"/>
-<area shape="poly" id="edge514_Node000002_Node000008" title=" " alt="" coords="68,627,79,681,97,745,127,811,148,840,172,866,190,878,211,888,206,891,187,882,169,870,144,843,123,813,92,747,74,682,68,633"/>
-<area shape="poly" id="edge515_Node000002_Node000009" title=" " alt="" coords="65,628,73,694,88,777,101,820,119,862,143,901,172,935,190,948,211,958,206,961,187,952,169,939,138,904,114,865,96,822,82,778,67,695,65,633"/>
-<area shape="poly" id="edge516_Node000002_Node000010" title=" " alt="" coords="69,628,84,717,106,829,136,936,153,977,173,1004,190,1018,211,1028,206,1031,187,1022,169,1008,149,980,131,938,101,831,79,718,69,633"/>
-<area shape="poly" id="edge517_Node000002_Node000011" title=" " alt="" coords="68,627,82,729,103,862,117,929,133,990,152,1040,173,1074,194,1092,221,1106,216,1109,191,1096,169,1077,147,1042,128,992,112,930,98,863,77,730,68,633"/>
-<area shape="poly" id="edge520_Node000002_Node000014" title=" " alt="" coords="110,579,170,556,211,544,208,548,172,561,114,582"/>
-<area shape="poly" id="edge521_Node000002_Node000015" title=" " alt="" coords="133,599,240,599,236,603,137,603"/>
-<area shape="poly" id="edge522_Node000002_Node000016" title=" " alt="" coords="111,619,172,641,248,665,243,668,170,646,113,623"/>
-<area shape="rect" id="Node000003" href="$struct_acts_1_1_is_read_only_multi_trajectory_3_01_acts_plugins_1_1_const_podio_track_state_container_3_01holder__t_01_4_01_4.html" title=" " alt="" coords="193,245,453,306"/>
-<area shape="poly" id="edge508_Node000002_Node000003" title=" " alt="" coords="65,571,73,517,91,449,104,413,122,378,143,345,169,316,194,300,191,305,172,320,147,348,126,380,109,415,96,450,78,518,70,572"/>
-<area shape="rect" id="Node000004" href="$struct_acts_1_1_is_read_only_multi_trajectory_3_01_const_vector_multi_trajectory_01_4.html" title=" " alt="" coords="209,331,437,375"/>
-<area shape="poly" id="edge509_Node000002_Node000004" title=" " alt="" coords="69,572,80,529,100,479,129,428,148,405,169,386,210,365,207,369,172,390,152,409,134,431,105,481,86,531,74,572"/>
-<area shape="rect" id="Node000005" href="$struct_acts_1_1_is_read_only_track_container_3_01_acts_plugins_1_1_const_podio_track_container_3_01holder__t_01_4_01_4.html" title=" " alt="" coords="179,400,468,461"/>
-<area shape="poly" id="edge510_Node000002_Node000005" title=" " alt="" coords="78,573,115,521,141,494,169,471,192,460,189,464,172,475,144,498,120,524,83,575"/>
-<area shape="rect" id="Node000006" href="$struct_acts_1_1_is_read_only_track_container_3_01_const_vector_track_container_01_4.html" title=" " alt="" coords="209,5,437,50"/>
-<area shape="poly" id="edge511_Node000002_Node000006" title=" " alt="" coords="64,572,73,460,92,306,105,229,123,158,143,100,169,61,187,46,210,36,207,40,190,50,173,64,148,103,128,160,111,230,97,307,78,460,70,572"/>
-<area shape="rect" id="Node000012" href="$structdetray_1_1composite__actor_1_1is__comp__actor.html" title="Tag whether this is a composite type (hides the def in the actor)." alt="" coords="215,74,431,136"/>
-<area shape="poly" id="edge518_Node000002_Node000012" title=" " alt="" coords="66,571,77,475,98,348,112,284,129,226,147,179,169,146,190,129,216,117,213,122,192,134,173,149,152,181,134,228,117,286,104,349,83,476,71,572"/>
-<area shape="rect" id="Node000013" href="$structdetray_1_1detail_1_1has__type_3_01_t_00_01detray_1_1dtuple_3_01_t_00_01_ts_8_8_8_01_4_01_4.html" title=" " alt="" coords="234,160,412,221"/>
-<area shape="poly" id="edge519_Node000002_Node000013" title=" " alt="" coords="62,571,65,502,80,411,93,363,112,315,137,270,169,231,199,210,235,197,232,202,201,215,172,235,141,273,116,317,98,364,85,412,71,503,67,571"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,136,119,164"/>
+<area shape="rect" id="Node000001" href="$class_acts_1_1_assertion_failure_exception.html" title="Exception type for assertion failures This class captures the information available to the throw_asse..." alt="" coords="167,5,392,33"/>
+<area shape="poly" id="edge469_Node000000_Node000001" title=" " alt="" coords="80,122,117,81,140,61,165,43,197,32,193,35,168,48,143,65,120,85,85,125"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_portal_fusing_exception.html" title="Exception thrown when portals cannot be fused." alt="" coords="179,57,380,85"/>
+<area shape="poly" id="edge470_Node000000_Node000002" title=" " alt="" coords="99,126,166,95,209,84,205,87,168,100,102,131"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_portal_merging_exception.html" title="Exception thrown when portals cannot be merged." alt="" coords="173,109,386,137"/>
+<area shape="poly" id="edge471_Node000000_Node000003" title=" " alt="" coords="133,139,175,135,171,138,136,143"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_surface_merging_exception.html" title="Exception type failures to merge two surfaces." alt="" coords="168,161,391,189"/>
+<area shape="poly" id="edge472_Node000000_Node000004" title=" " alt="" coords="133,156,169,161,165,163,135,161"/>
+<area shape="rect" id="Node000005" href="$struct_acts_plugins_1_1_no_edges_error.html" title="Error that is thrown if no edges are found." alt="" coords="183,213,376,241"/>
+<area shape="poly" id="edge473_Node000000_Node000005" title=" " alt="" coords="102,168,168,198,210,212,205,213,166,203,102,174"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="210,265,348,293"/>
+<area shape="poly" id="edge474_Node000000_Node000006" title=" " alt="" coords="83,174,121,214,143,234,168,250,212,269,207,270,165,255,140,238,117,218,82,179"/>
+<area shape="rect" id="Node000007" href="$class_acts_1_1_logging_1_1_threshold_failure.html" title="Custom exception class so threshold failures can be caught." alt="" coords="466,222,646,267"/>
+<area shape="poly" id="edge475_Node000006_Node000007" title=" " alt="" coords="363,266,468,255,463,256,364,271"/>
+<area shape="rect" id="Node000008" href="$class_acts_plugins_1_1_detray_unsupported_material_exception.html" title="Exception thrown when encountering unsupported material types in Detray conversion." alt="" coords="440,292,671,336"/>
+<area shape="poly" id="edge476_Node000006_Node000008" title=" " alt="" coords="364,287,442,299,437,299,364,292"/>
 </map>
