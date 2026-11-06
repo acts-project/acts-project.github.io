@@ -1,5 +1,7 @@
 var NAVTREEINDEX93 =
 {
+"structdetray_1_1intersection__record.html#afc7947741c45e41f398b259aa876ba5e":[8,0,3,117,0],
+"structdetray_1_1intersector.html":[6,0,4,105],
 "structdetray_1_1intersector.html":[8,0,3,118],
 "structdetray_1_1intersector.html#a29ab7fc6445eeda34d17a101aa098c71":[6,0,4,105,1],
 "structdetray_1_1intersector.html#a29ab7fc6445eeda34d17a101aa098c71":[8,0,3,118,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX93 =
 "structdetray_1_1io_1_1homogeneous__material__sub__header__payload.html#aa5f2b7df77a405b31fc3d152c3c70cec":[6,0,4,3,16,3],
 "structdetray_1_1io_1_1homogeneous__material__sub__header__payload.html#aa5f2b7df77a405b31fc3d152c3c70cec":[8,0,3,7,17,3],
 "structdetray_1_1io_1_1homogeneous__material__sub__header__payload.html#ac37a3fb7c21faa7dbedf12db293e86a1":[6,0,4,3,16,2],
-"structdetray_1_1io_1_1homogeneous__material__sub__header__payload.html#ac37a3fb7c21faa7dbedf12db293e86a1":[8,0,3,7,17,2],
-"structdetray_1_1io_1_1mask__payload.html":[6,0,4,3,20],
-"structdetray_1_1io_1_1mask__payload.html":[8,0,3,7,21]
+"structdetray_1_1io_1_1homogeneous__material__sub__header__payload.html#ac37a3fb7c21faa7dbedf12db293e86a1":[8,0,3,7,17,2]
 };

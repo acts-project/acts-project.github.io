@@ -176,6 +176,8 @@ requires std::invocable&lt;F, float&gt;</td></tr>
 <tr class="memdesc:a9d18154c2de70abcd2e7de5f6e9b4af9"><td class="mdescLeft">&#160;</td><td class="mdescRight">create left section that is result of splitting this one into 2  <br /></td></tr>
 <tr class="memitem:ad95e655970dba881ccc81ad28f8a0097" id="r_ad95e655970dba881ccc81ad28f8a0097"><td class="memItemLeft" align="right" valign="top">HoughAccumulatorSection&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad95e655970dba881ccc81ad28f8a0097">right</a> (bool copyIndices=false) const</td></tr>
 <tr class="memdesc:ad95e655970dba881ccc81ad28f8a0097"><td class="mdescLeft">&#160;</td><td class="mdescRight">create right section that is result of splitting this one into 2  <br /></td></tr>
+<tr class="memitem:aab1b9208e5a28885695e10a441dd8bdf" id="r_aab1b9208e5a28885695e10a441dd8bdf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab1b9208e5a28885695e10a441dd8bdf">setDivisionLevel</a> (std::uint32_t divLvl)</td></tr>
+<tr class="memdesc:aab1b9208e5a28885695e10a441dd8bdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Override the division level (e.g.  <br /></td></tr>
 <tr class="memitem:a1cadaf1896275a2503e2ffb2de4abbef" id="r_a1cadaf1896275a2503e2ffb2de4abbef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1cadaf1896275a2503e2ffb2de4abbef">setHistory</a> (std::size_t index, float value)</td></tr>
 <tr class="memdesc:a1cadaf1896275a2503e2ffb2de4abbef"><td class="mdescLeft">&#160;</td><td class="mdescRight">store additional (arbitrary) info in indexed array  <br /></td></tr>
 <tr class="memitem:afb11268f1fa71f589c55a661af320abd" id="r_afb11268f1fa71f589c55a661af320abd"><td class="memItemLeft" align="right" valign="top">HoughAccumulatorSection&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb11268f1fa71f589c55a661af320abd">top</a> (bool copyIndices=false) const</td></tr>
@@ -614,6 +616,31 @@ requires std::invocable&lt;F, float&gt;</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>- new section </dd></dl>
+
+</div>
+</div>
+<a id="aab1b9208e5a28885695e10a441dd8bdf" name="aab1b9208e5a28885695e10a441dd8bdf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab1b9208e5a28885695e10a441dd8bdf">&#9670;&#160;</a></span>setDivisionLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Acts::Experimental::HoughAccumulatorSection::setDivisionLevel </td>
+          <td>(</td>
+          <td class="paramtype">std::uint32_t</td>          <td class="paramname"><span class="paramname"><em>divLvl</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Override the division level (e.g. </p>
+<p>when changing search space) </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">divLvl</td><td>New division level to set </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

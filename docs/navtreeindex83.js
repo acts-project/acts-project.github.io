@@ -1,5 +1,7 @@
 var NAVTREEINDEX83 =
 {
+"struct_acts_fatras_1_1_max.html#a47ab6b793e91a9f6a9347926980f91e2":[6,0,2,19,0],
+"struct_acts_fatras_1_1_max.html#a47ab6b793e91a9f6a9347926980f91e2":[8,0,1,20,0],
 "struct_acts_fatras_1_1_min.html":[6,0,2,20],
 "struct_acts_fatras_1_1_min.html":[8,0,1,21],
 "struct_acts_fatras_1_1_min.html#a104d396595e69cafd036da180c7d9922":[6,0,2,20,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX83 =
 "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#ad942c0bba09c759a4e3cae2ca56426a1a17247e8342b8e88031255c2c226f5172":[5,10,3,2,0,0,1],
 "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#ad942c0bba09c759a4e3cae2ca56426a1a29ee5d1ebcc033234938a5234f1f2075":[5,10,3,2,0,0,0],
 "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#adabd4c6ae5a37289210b34f7dc536465":[5,10,3,2,0,10],
-"struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#adbfa19d516a1bc916d8169d1726ec89e":[5,10,3,2,0,7],
-"struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#adc36fa68f369600e63e1fbd46e9cce7c":[5,10,3,2,0,8],
-"struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html":[5,10,3,2,1]
+"struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#adbfa19d516a1bc916d8169d1726ec89e":[5,10,3,2,0,7]
 };

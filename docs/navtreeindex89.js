@@ -1,5 +1,7 @@
 var NAVTREEINDEX89 =
 {
+"structdetray_1_1cartesian2_d.html#a5a17fe7385c4dc0c15e15c46a953e89c":[6,0,4,33,5],
+"structdetray_1_1cartesian2_d.html#a5a17fe7385c4dc0c15e15c46a953e89c":[8,0,3,46,5],
 "structdetray_1_1cartesian2_d.html#a61f28d8c860ee32da7ae6fb1e9477103":[6,0,4,33,3],
 "structdetray_1_1cartesian2_d.html#a61f28d8c860ee32da7ae6fb1e9477103":[8,0,3,46,3],
 "structdetray_1_1cartesian2_d.html#a6330a07b75eacb4873e03b0e7ba5a65b":[6,0,4,33,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX89 =
 "structdetray_1_1cylinder__portal__generator_1_1boundaries.html#ab053af92500603e0058af107ce361ac5":[6,0,4,54,0,1],
 "structdetray_1_1cylinder__portal__generator_1_1boundaries.html#ab053af92500603e0058af107ce361ac5":[8,0,3,67,0,1],
 "structdetray_1_1cylinder__portal__generator_1_1boundaries.html#ae0aa951f6ee20d6ec2e2cfa915a20b7b":[6,0,4,54,0,0],
-"structdetray_1_1cylinder__portal__generator_1_1boundaries.html#ae0aa951f6ee20d6ec2e2cfa915a20b7b":[8,0,3,67,0,0],
-"structdetray_1_1cylindrical2_d.html":[6,0,4,55],
-"structdetray_1_1cylindrical2_d.html":[8,0,3,68]
+"structdetray_1_1cylinder__portal__generator_1_1boundaries.html#ae0aa951f6ee20d6ec2e2cfa915a20b7b":[8,0,3,67,0,0]
 };

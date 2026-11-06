@@ -16,6 +16,7 @@ var class_acts_1_1_experimental_1_1_hough_accumulator_section =
     [ "isLineInside", "class_acts_1_1_experimental_1_1_hough_accumulator_section.html#a4fda168bb9fe95d8b43b275c26e430c8", null ],
     [ "left", "class_acts_1_1_experimental_1_1_hough_accumulator_section.html#a9d18154c2de70abcd2e7de5f6e9b4af9", null ],
     [ "right", "class_acts_1_1_experimental_1_1_hough_accumulator_section.html#ad95e655970dba881ccc81ad28f8a0097", null ],
+    [ "setDivisionLevel", "class_acts_1_1_experimental_1_1_hough_accumulator_section.html#aab1b9208e5a28885695e10a441dd8bdf", null ],
     [ "setHistory", "class_acts_1_1_experimental_1_1_hough_accumulator_section.html#a1cadaf1896275a2503e2ffb2de4abbef", null ],
     [ "top", "class_acts_1_1_experimental_1_1_hough_accumulator_section.html#afb11268f1fa71f589c55a661af320abd", null ],
     [ "topLeft", "class_acts_1_1_experimental_1_1_hough_accumulator_section.html#abc53ed81d9f99e810cf4126eed936925", null ],

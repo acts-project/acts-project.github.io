@@ -1,5 +1,7 @@
 var NAVTREEINDEX79 =
 {
+"struct_acts_1_1_strip_space_point_builder_1_1_constrained_strip_cache.html#abe99262a06e82bea3ac5ebc56aad99c7":[8,0,0,12,2,3],
+"struct_acts_1_1_strip_space_point_builder_1_1_cosmic_options.html":[8,0,0,12,3],
 "struct_acts_1_1_strip_space_point_builder_1_1_cosmic_options.html#ab40cba538b563ba9407e2341bb8ce23c":[8,0,0,12,3,1],
 "struct_acts_1_1_strip_space_point_builder_1_1_cosmic_options.html#ad94292d444b7df8e779c99e839402f4c":[8,0,0,12,3,0],
 "struct_acts_1_1_strip_space_point_builder_1_1_strip_ends.html":[8,0,0,12,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX79 =
 "struct_acts_1_1_track_at_vertex.html#a67639e906cd264660a06a59f67bf599d":[8,0,0,417,6],
 "struct_acts_1_1_track_at_vertex.html#a8cdfdadf6827caf8097081d3aa5f3b60":[6,0,0,412,7],
 "struct_acts_1_1_track_at_vertex.html#a8cdfdadf6827caf8097081d3aa5f3b60":[8,0,0,417,7],
-"struct_acts_1_1_track_at_vertex.html#a95809671c89a42218e024b025c16c398":[6,0,0,412,5],
-"struct_acts_1_1_track_at_vertex.html#a95809671c89a42218e024b025c16c398":[8,0,0,417,5],
-"struct_acts_1_1_track_at_vertex.html#aaa5e0c23dafc8d497d9421d188fb8b19":[6,0,0,412,1]
+"struct_acts_1_1_track_at_vertex.html#a95809671c89a42218e024b025c16c398":[6,0,0,412,5]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX96 =
 {
+"structdetray_1_1pdg__particle.html#acdf8ccb8ea049831faafed5cc95b5614":[6,0,4,135,0],
+"structdetray_1_1pdg__particle.html#acdf8ccb8ea049831faafed5cc95b5614":[8,0,3,148,0],
 "structdetray_1_1perigee__stopper.html":[6,0,4,137],
 "structdetray_1_1perigee__stopper.html":[8,0,3,150],
 "structdetray_1_1perigee__stopper.html#a38d302610ec501eba5112665840630bc":[6,0,4,137,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX96 =
 "structdetray_1_1propagator_1_1state__base.html#ae56ce335295d7bfff265b0f2c59aeed3":[8,0,3,159,0,15],
 "structdetray_1_1propagator_1_1state__base.html#ae856b3474ba3fa0c11b935d74ca9e6b3":[6,0,4,146,0,2],
 "structdetray_1_1propagator_1_1state__base.html#ae856b3474ba3fa0c11b935d74ca9e6b3":[8,0,3,159,0,2],
-"structdetray_1_1propagator_1_1state__base.html#af77333bf0e00737be592aa8518d17f7d":[6,0,4,146,0,1],
-"structdetray_1_1propagator_1_1state__base.html#af77333bf0e00737be592aa8518d17f7d":[8,0,3,159,0,1],
-"structdetray_1_1propane.html":[6,0,4,147]
+"structdetray_1_1propagator_1_1state__base.html#af77333bf0e00737be592aa8518d17f7d":[6,0,4,146,0,1]
 };
