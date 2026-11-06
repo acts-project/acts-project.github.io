@@ -1,5 +1,7 @@
 var NAVTREEINDEX44 =
 {
+"class_acts_fatras_1_1_interaction_list.html#a8e983a13d1fddd65eb0a8144f33e4f63":[6,0,2,17,5],
+"class_acts_fatras_1_1_interaction_list.html#a8e983a13d1fddd65eb0a8144f33e4f63":[8,0,1,18,5],
 "class_acts_fatras_1_1_interaction_list.html#af5d20ac43bf454f48b910e3b9e22e87a":[6,0,2,17,4],
 "class_acts_fatras_1_1_interaction_list.html#af5d20ac43bf454f48b910e3b9e22e87a":[8,0,1,18,4],
 "class_acts_fatras_1_1_interaction_list.html#af812f26927d7871a863dcb93b70c47fc":[6,0,2,17,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX44 =
 "class_acts_plugins_1_1_d_d4hep_detector_element.html#abf17c510e5e5697c63300e090b9a1605":[5,10,2,0,1],
 "class_acts_plugins_1_1_d_d4hep_detector_surface_factory.html":[5,10,2,2],
 "class_acts_plugins_1_1_d_d4hep_detector_surface_factory.html#a07c26620fec6d1a668ded631bdda58de":[5,10,2,2,6],
-"class_acts_plugins_1_1_d_d4hep_detector_surface_factory.html#a0ca59c343e47e8c7e533f651d9d2eba5":[5,10,2,2,5],
-"class_acts_plugins_1_1_d_d4hep_detector_surface_factory.html#a204e01f7e505b12bd5a5f1ed25f76b76":[5,10,2,2,4],
-"class_acts_plugins_1_1_d_d4hep_detector_surface_factory.html#a68f387e6d31943cfdbf4050caaf5beaa":[5,10,2,2,7]
+"class_acts_plugins_1_1_d_d4hep_detector_surface_factory.html#a0ca59c343e47e8c7e533f651d9d2eba5":[5,10,2,2,5]
 };

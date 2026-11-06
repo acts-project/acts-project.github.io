@@ -1,5 +1,7 @@
 var NAVTREEINDEX61 =
 {
+"group__python__bindings.html":[5,12],
+"group__python__custom__algorithms.html":[5,12,0],
 "group__python__data__io.html":[5,12,1],
 "group__python__performance__plotting.html":[5,12,2],
 "group__python__testing.html":[3,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX61 =
 "namespace_acts.html#a67cc3d5d72150ff20e4deb6627519248":[6,0,0,531],
 "namespace_acts.html#a6892e054d938002cb1cc681d19619ad5":[6,0,0,879],
 "namespace_acts.html#a68a45911e56331406f861490dc249b1c":[6,0,0,983],
-"namespace_acts.html#a692f3bf198b75679e1051ae422c41869":[6,0,0,707],
-"namespace_acts.html#a6a5beb945158d8185b7baf48937105ec":[6,0,0,543],
-"namespace_acts.html#a6a670110d0ebb9267ec1256f8bd88b6e":[6,0,0,611]
+"namespace_acts.html#a692f3bf198b75679e1051ae422c41869":[6,0,0,707]
 };

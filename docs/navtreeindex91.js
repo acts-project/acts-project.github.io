@@ -1,5 +1,7 @@
 var NAVTREEINDEX91 =
 {
+"structdetray_1_1detector__traits_3_01metadata__t_01_4.html#a352274d560bab7b8061ad850b1e24ea7":[6,0,4,62,3],
+"structdetray_1_1detector__traits_3_01metadata__t_01_4.html#a352274d560bab7b8061ad850b1e24ea7":[8,0,3,75,3],
 "structdetray_1_1detector__traits_3_01metadata__t_01_4.html#a521629631751d1c0cd84dd62b5b3d2ea":[6,0,4,62,2],
 "structdetray_1_1detector__traits_3_01metadata__t_01_4.html#a521629631751d1c0cd84dd62b5b3d2ea":[8,0,3,75,2],
 "structdetray_1_1detector__traits_3_01metadata__t_01_4.html#a5b58a879270b3be8ec42089feefa8f4b":[6,0,4,62,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX91 =
 "structdetray_1_1hash__tree_1_1hashed__node.html#acd925bd439a2e71928478507a284daa2":[6,0,4,83,0,6],
 "structdetray_1_1hash__tree_1_1hashed__node.html#acd925bd439a2e71928478507a284daa2":[8,0,3,96,0,6],
 "structdetray_1_1helium__gas.html":[6,0,4,84],
-"structdetray_1_1helium__gas.html":[8,0,3,97],
-"structdetray_1_1helium__gas.html#af8599a5918010138b20b0678cbea927c":[6,0,4,84,0],
-"structdetray_1_1helium__gas.html#af8599a5918010138b20b0678cbea927c":[8,0,3,97,0]
+"structdetray_1_1helium__gas.html":[8,0,3,97]
 };

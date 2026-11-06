@@ -1,5 +1,7 @@
 var NAVTREEINDEX64 =
 {
+"namespacedetray.html#a6712f813b04c1f4bee462e3cf2e36314":[6,0,4,310],
+"namespacedetray.html#a68269516a936ce842b8e809fee0f16e2":[6,0,4,213],
 "namespacedetray.html#a69501b8eefb3eceb07b8513f637cb4a9":[6,0,4,218],
 "namespacedetray.html#a6b2d2bf651df9e580cae4a34a880959b":[6,0,4,331],
 "namespacedetray.html#a6b4838cfc48ec628d4fdf378ad98d03d":[6,0,4,276],
@@ -247,7 +249,5 @@ var NAVTREEINDEX64 =
 "struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a848bdd8c6f360dec3b1ea0d61355023d":[8,0,0,22,0,0],
 "struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a8a4a0a17ed7030d814212800a5b78d79":[6,0,0,17,0,7],
 "struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a8a4a0a17ed7030d814212800a5b78d79":[8,0,0,22,0,7],
-"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#aadea9ce68d170e95e230418574bc1fbb":[6,0,0,17,0,3],
-"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#aadea9ce68d170e95e230418574bc1fbb":[8,0,0,22,0,3],
-"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#abc473e52b1e20ba7c2895efd7dbac7ec":[6,0,0,17,0,1]
+"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#aadea9ce68d170e95e230418574bc1fbb":[6,0,0,17,0,3]
 };

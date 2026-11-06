@@ -1,5 +1,7 @@
 var NAVTREEINDEX99 =
 {
+"structdetray_1_1silicon.html#ac7d9fb041d14afe305d4670694640408":[6,0,4,165,0],
+"structdetray_1_1silicon.html#ac7d9fb041d14afe305d4670694640408":[8,0,3,178,0],
 "structdetray_1_1silicon__tml.html":[6,0,4,166],
 "structdetray_1_1silicon__tml.html":[8,0,3,179],
 "structdetray_1_1silicon__tml.html#a93162a3e6c6ddf753b8d6f523a31172c":[6,0,4,166,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX99 =
 "structdetray_1_1svgtools_1_1styling_1_1surface__material__style.html#a606e38fc0585f4663e2cd293acfb7a93":[8,0,3,14,2,8,6],
 "structdetray_1_1svgtools_1_1styling_1_1surface__material__style.html#a8a8321ad09a5b85451731a2a866a7225":[6,0,4,4,0,9,4],
 "structdetray_1_1svgtools_1_1styling_1_1surface__material__style.html#a8a8321ad09a5b85451731a2a866a7225":[8,0,3,14,2,8,4],
-"structdetray_1_1svgtools_1_1styling_1_1surface__material__style.html#a94b291d073ea431f2bdcd9e41d6434ff":[6,0,4,4,0,9,2],
-"structdetray_1_1svgtools_1_1styling_1_1surface__material__style.html#a94b291d073ea431f2bdcd9e41d6434ff":[8,0,3,14,2,8,2],
-"structdetray_1_1svgtools_1_1styling_1_1surface__material__style.html#ab27a6c311e00f37051675b526dda16ab":[6,0,4,4,0,9,3]
+"structdetray_1_1svgtools_1_1styling_1_1surface__material__style.html#a94b291d073ea431f2bdcd9e41d6434ff":[6,0,4,4,0,9,2]
 };

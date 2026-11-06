@@ -1,5 +1,7 @@
 var NAVTREEINDEX90 =
 {
+"structdetray_1_1cylinder__portal__generator_1_1boundaries.html#ae0aa951f6ee20d6ec2e2cfa915a20b7b":[6,0,4,54,0,0],
+"structdetray_1_1cylinder__portal__generator_1_1boundaries.html#ae0aa951f6ee20d6ec2e2cfa915a20b7b":[8,0,3,67,0,0],
 "structdetray_1_1cylindrical2_d.html":[6,0,4,55],
 "structdetray_1_1cylindrical2_d.html":[8,0,3,68],
 "structdetray_1_1cylindrical2_d.html#a0e283f6f8cbf8812051fb9fa29f4effa":[6,0,4,55,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX90 =
 "structdetray_1_1detector__traits_3_01metadata__t_01_4.html":[6,0,4,62],
 "structdetray_1_1detector__traits_3_01metadata__t_01_4.html":[8,0,3,75],
 "structdetray_1_1detector__traits_3_01metadata__t_01_4.html#a03b5dc465c96a65f3b7ec986b60cb436":[6,0,4,62,0],
-"structdetray_1_1detector__traits_3_01metadata__t_01_4.html#a03b5dc465c96a65f3b7ec986b60cb436":[8,0,3,75,0],
-"structdetray_1_1detector__traits_3_01metadata__t_01_4.html#a352274d560bab7b8061ad850b1e24ea7":[6,0,4,62,3],
-"structdetray_1_1detector__traits_3_01metadata__t_01_4.html#a352274d560bab7b8061ad850b1e24ea7":[8,0,3,75,3]
+"structdetray_1_1detector__traits_3_01metadata__t_01_4.html#a03b5dc465c96a65f3b7ec986b60cb436":[8,0,3,75,0]
 };

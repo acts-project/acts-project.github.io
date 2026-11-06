@@ -1,5 +1,7 @@
 var NAVTREEINDEX72 =
 {
+"struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html#accb2728c2e156a5481a4f4893ed8d6ae":[6,0,0,152,0,1],
+"struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html#accb2728c2e156a5481a4f4893ed8d6ae":[8,0,0,157,0,1],
 "struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html#ad3a3e102f812957f4dc5d93773f96a24":[6,0,0,152,0,2],
 "struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html#ad3a3e102f812957f4dc5d93773f96a24":[8,0,0,157,0,2],
 "struct_acts_1_1_gaussian_grid_track_density_1_1_config.html":[6,0,0,155,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX72 =
 "struct_acts_1_1_grid_axis_generators_1_1_var.html#a6b1b4a87ea8af5bbcb69b0f5281bf96d":[8,0,0,4,3,1],
 "struct_acts_1_1_grid_axis_generators_1_1_var.html#ac6ff49556dda8417098cf57c8f56e833":[6,0,0,2,3,3],
 "struct_acts_1_1_grid_axis_generators_1_1_var.html#ac6ff49556dda8417098cf57c8f56e833":[8,0,0,4,3,3],
-"struct_acts_1_1_grid_axis_generators_1_1_var_eq.html":[6,0,0,2,4],
-"struct_acts_1_1_grid_axis_generators_1_1_var_eq.html":[8,0,0,4,4],
-"struct_acts_1_1_grid_axis_generators_1_1_var_eq.html#a0dcdbce1b678b407665faf4efc116373":[6,0,0,2,4,1]
+"struct_acts_1_1_grid_axis_generators_1_1_var_eq.html":[6,0,0,2,4]
 };

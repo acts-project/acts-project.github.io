@@ -1,5 +1,7 @@
 var NAVTREEINDEX25 =
 {
+"class_acts_1_1_magnetic_field_provider.html#abb7f95f21fb87e6cb2cbe723d98711b6":[5,11,0,4,4],
+"class_acts_1_1_magnetic_field_provider.html#af82788015e1c741b7afbf507a4713aab":[5,3,1,4,5],
 "class_acts_1_1_magnetic_field_provider.html#af82788015e1c741b7afbf507a4713aab":[5,11,0,4,5],
 "class_acts_1_1_material.html":[5,3,2,13],
 "class_acts_1_1_material.html#a04851cb28db7a92e3ad92d714df6e009":[5,3,2,13,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX25 =
 "class_acts_1_1_multi_axis_spec.html#ae109916f627d937c740bef8be97adcaf":[6,0,0,281,2],
 "class_acts_1_1_multi_axis_spec.html#ae109916f627d937c740bef8be97adcaf":[8,0,0,286,2],
 "class_acts_1_1_multi_axis_spec.html#affa73aaeff96d8e41b7d5add013e0b1d":[6,0,0,281,5],
-"class_acts_1_1_multi_axis_spec.html#affa73aaeff96d8e41b7d5add013e0b1d":[8,0,0,286,5],
-"class_acts_1_1_multi_axis_spec_x_d.html":[6,0,0,282],
-"class_acts_1_1_multi_axis_spec_x_d.html":[8,0,0,287]
+"class_acts_1_1_multi_axis_spec.html#affa73aaeff96d8e41b7d5add013e0b1d":[8,0,0,286,5]
 };

@@ -177,14 +177,17 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ac26a4ce886502ac6cde1b732a73bf416" id="r_ac26a4ce886502ac6cde1b732a73bf416"><td class="memTemplParams" colspan="2">template&lt;CompositeSpacePoint Sp_t&gt; </td></tr>
-<tr class="memitem:ac26a4ce886502ac6cde1b732a73bf416 template"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_two_circle_tangent_pars.html">TwoCircleTangentPars</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac26a4ce886502ac6cde1b732a73bf416">constructTangentLine</a> (const Sp_t &amp;topHit, const Sp_t &amp;bottomHit, const <a class="el" href="#a8c6d44a4e6eb0c0759db6ddb456fb6ce">TangentAmbi</a> ambi)</td></tr>
-<tr class="memdesc:ac26a4ce886502ac6cde1b732a73bf416"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct the line that is tangential to a pair of two straw circle measurements.  <br /></td></tr>
+<tr class="memitem:a3307fd0f824afb9e774f85e36ccc79d8" id="r_a3307fd0f824afb9e774f85e36ccc79d8"><td class="memTemplParams" colspan="2">template&lt;CompositeSpacePoint Sp_t&gt; </td></tr>
+<tr class="memitem:a3307fd0f824afb9e774f85e36ccc79d8 template"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_two_circle_tangent_pars.html">TwoCircleTangentPars</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3307fd0f824afb9e774f85e36ccc79d8">constructTangentSeed</a> (const Sp_t &amp;topHit, const Sp_t &amp;bottomHit, const <a class="el" href="#a8c6d44a4e6eb0c0759db6ddb456fb6ce">TangentAmbi</a> ambi)</td></tr>
+<tr class="memdesc:a3307fd0f824afb9e774f85e36ccc79d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct the line that is tangential to a pair of two straw circle measurements.  <br /></td></tr>
 <tr class="memitem:abfe5da7116a2b347de4567bf02748015" id="r_abfe5da7116a2b347de4567bf02748015"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#a8c6d44a4e6eb0c0759db6ddb456fb6ce">TangentAmbi</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfe5da7116a2b347de4567bf02748015">encodeAmbiguity</a> (const int signTop, const int signBottom)</td></tr>
 <tr class="memdesc:abfe5da7116a2b347de4567bf02748015"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translate the combination of two drift signs into the proper tangent ambiguity enum value.  <br /></td></tr>
 <tr class="memitem:ac66d19cccb6c42a3a7c249bfc87d1642" id="r_ac66d19cccb6c42a3a7c249bfc87d1642"><td class="memTemplParams" colspan="2">template&lt;CompositeSpacePoint Spt_t&gt; </td></tr>
 <tr class="memitem:ac66d19cccb6c42a3a7c249bfc87d1642 template"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#a6292bc65cc5aaea11a90ceb103c1e003">Vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac66d19cccb6c42a3a7c249bfc87d1642">makeDirection</a> (const Spt_t &amp;refHit, const double tanAngle)</td></tr>
 <tr class="memdesc:ac66d19cccb6c42a3a7c249bfc87d1642"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the direction vector from the reference hit used to construct the tangent seed and the result on theta.  <br /></td></tr>
+<tr class="memitem:a2d7b71c717ad88b3c4474a61acb9d7f2" id="r_a2d7b71c717ad88b3c4474a61acb9d7f2"><td class="memTemplParams" colspan="2">template&lt;CompositeSpacePoint Spt_t&gt; </td></tr>
+<tr class="memitem:a2d7b71c717ad88b3c4474a61acb9d7f2 template"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#a329fa005f2600cb79d779e80c01f36ba">Line_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d7b71c717ad88b3c4474a61acb9d7f2">makeLineFromSeed</a> (const Spt_t &amp;refHit, const <a class="el" href="struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_two_circle_tangent_pars.html">TwoCircleTangentPars</a> &amp;seed)</td></tr>
+<tr class="memdesc:a2d7b71c717ad88b3c4474a61acb9d7f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the pair of intercept and direction vector representing the line.  <br /></td></tr>
 <tr class="memitem:a0186dfc2fc2180287d7fc0d3e6c17713" id="r_a0186dfc2fc2180287d7fc0d3e6c17713"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0186dfc2fc2180287d7fc0d3e6c17713">toString</a> (const <a class="el" href="#a8c6d44a4e6eb0c0759db6ddb456fb6ce">TangentAmbi</a> ambi)</td></tr>
 <tr class="memdesc:a0186dfc2fc2180287d7fc0d3e6c17713"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts the line tangent ambiguity into a string.  <br /></td></tr>
 </table>
@@ -269,8 +272,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac26a4ce886502ac6cde1b732a73bf416" name="ac26a4ce886502ac6cde1b732a73bf416"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac26a4ce886502ac6cde1b732a73bf416">&#9670;&#160;</a></span>constructTangentLine()</h2>
+<a id="a3307fd0f824afb9e774f85e36ccc79d8" name="a3307fd0f824afb9e774f85e36ccc79d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3307fd0f824afb9e774f85e36ccc79d8">&#9670;&#160;</a></span>constructTangentSeed()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -281,7 +284,7 @@ template&lt;CompositeSpacePoint Sp_t&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_two_circle_tangent_pars.html">TwoCircleTangentPars</a> Acts::Experimental::CompositeSpacePointLineSeeder::constructTangentLine </td>
+          <td class="memname"><a class="el" href="struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_two_circle_tangent_pars.html">TwoCircleTangentPars</a> Acts::Experimental::CompositeSpacePointLineSeeder::constructTangentSeed </td>
           <td>(</td>
           <td class="paramtype">const Sp_t &amp;</td>          <td class="paramname"><span class="paramname"><em>topHit</em></span>, </td>
         </tr>
@@ -393,6 +396,47 @@ template&lt;CompositeSpacePoint Spt_t&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Direction vector </dd></dl>
+
+</div>
+</div>
+<a id="a2d7b71c717ad88b3c4474a61acb9d7f2" name="a2d7b71c717ad88b3c4474a61acb9d7f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d7b71c717ad88b3c4474a61acb9d7f2">&#9670;&#160;</a></span>makeLineFromSeed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;CompositeSpacePoint Spt_t&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a329fa005f2600cb79d779e80c01f36ba">Line_t</a> Acts::Experimental::CompositeSpacePointLineSeeder::makeLineFromSeed </td>
+          <td>(</td>
+          <td class="paramtype">const Spt_t &amp;</td>          <td class="paramname"><span class="paramname"><em>refHit</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_two_circle_tangent_pars.html">TwoCircleTangentPars</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>seed</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates the pair of intercept and direction vector representing the line. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">refHit</td><td>Reference hit to define the local axes (Bottom hit) </td></tr>
+    <tr><td class="paramname">seed</td><td>Seed from which the intercept shall be made </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Intercept vector at z=0 </dd></dl>
 
 </div>
 </div>

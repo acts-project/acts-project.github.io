@@ -12,9 +12,10 @@ var class_acts_1_1_experimental_1_1_composite_space_point_line_seeder =
     [ "TangentAmbi", "class_acts_1_1_experimental_1_1_composite_space_point_line_seeder.html#a8c6d44a4e6eb0c0759db6ddb456fb6ce", null ],
     [ "CompositeSpacePointLineSeeder", "class_acts_1_1_experimental_1_1_composite_space_point_line_seeder.html#a5b3603840c1908dc7b645a41f4ae1334", null ],
     [ "config", "class_acts_1_1_experimental_1_1_composite_space_point_line_seeder.html#ab0fe9d2bf98395954641b68e71672e79", null ],
-    [ "constructTangentLine", "class_acts_1_1_experimental_1_1_composite_space_point_line_seeder.html#ac26a4ce886502ac6cde1b732a73bf416", null ],
+    [ "constructTangentSeed", "class_acts_1_1_experimental_1_1_composite_space_point_line_seeder.html#a3307fd0f824afb9e774f85e36ccc79d8", null ],
     [ "encodeAmbiguity", "class_acts_1_1_experimental_1_1_composite_space_point_line_seeder.html#abfe5da7116a2b347de4567bf02748015", null ],
     [ "makeDirection", "class_acts_1_1_experimental_1_1_composite_space_point_line_seeder.html#ac66d19cccb6c42a3a7c249bfc87d1642", null ],
+    [ "makeLineFromSeed", "class_acts_1_1_experimental_1_1_composite_space_point_line_seeder.html#a2d7b71c717ad88b3c4474a61acb9d7f2", null ],
     [ "nextSeed", "class_acts_1_1_experimental_1_1_composite_space_point_line_seeder.html#a178b4720478e7e2f313b338bf146dacf", null ],
     [ "toString", "class_acts_1_1_experimental_1_1_composite_space_point_line_seeder.html#a0186dfc2fc2180287d7fc0d3e6c17713", null ],
     [ "operator<<", "class_acts_1_1_experimental_1_1_composite_space_point_line_seeder.html#ae2ea04963b90400fae04cfffd8d65258", null ]

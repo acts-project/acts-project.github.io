@@ -1,5 +1,7 @@
 var NAVTREEINDEX60 =
 {
+"group__errors.html#gga1f61f3856fa7ffded6d06723801cf8e6ab56f3a5e1762955a164fd9ef356395d6":[5,4,16,2],
+"group__errors.html#gga1f61f3856fa7ffded6d06723801cf8e6ace1e7d82baa32665deec88097ce70f3e":[5,4,16,1],
 "group__errors.html#gga1f61f3856fa7ffded6d06723801cf8e6ad8f78ca9a692a9411afbc7584b69d043":[5,4,16,9],
 "group__errors.html#gga1f61f3856fa7ffded6d06723801cf8e6adbbde5ea220b09db210c62e8926a02c5":[5,4,16,3],
 "group__errors.html#gga1f61f3856fa7ffded6d06723801cf8e6ade2e45aece7bcbb9fe7540cc9e11c40f":[5,4,16,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX60 =
 "group__onnx__plugin.html#gaa3b245e0f99493e0754975ba707607aa":[5,10,11,4],
 "group__pattern__recog.html":[5,9],
 "group__plugins.html":[5,10],
-"group__propagation.html":[5,11],
-"group__python__bindings.html":[5,12],
-"group__python__custom__algorithms.html":[5,12,0]
+"group__propagation.html":[5,11]
 };

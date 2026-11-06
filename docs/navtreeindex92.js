@@ -1,5 +1,7 @@
 var NAVTREEINDEX92 =
 {
+"structdetray_1_1helium__gas.html#af8599a5918010138b20b0678cbea927c":[6,0,4,84,0],
+"structdetray_1_1helium__gas.html#af8599a5918010138b20b0678cbea927c":[8,0,3,97,0],
 "structdetray_1_1helix__intersector__impl.html":[6,0,4,85],
 "structdetray_1_1helix__intersector__impl.html":[8,0,3,98],
 "structdetray_1_1helix__intersector__impl_3_01cartesian2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html":[6,0,4,86],
@@ -247,7 +249,5 @@ var NAVTREEINDEX92 =
 "structdetray_1_1intersection__record.html#ae7d12d671c7bad2ba7d175059257acd4":[8,0,3,117,15],
 "structdetray_1_1intersection__record.html#af2b8f5836595079cf5a5354d322377f3":[6,0,4,104,18],
 "structdetray_1_1intersection__record.html#af2b8f5836595079cf5a5354d322377f3":[8,0,3,117,18],
-"structdetray_1_1intersection__record.html#afab5c590e2d807c1c19bb9efa196e792":[6,0,4,104,16],
-"structdetray_1_1intersection__record.html#afab5c590e2d807c1c19bb9efa196e792":[8,0,3,117,16],
-"structdetray_1_1intersection__record.html#afc7947741c45e41f398b259aa876ba5e":[6,0,4,104,0]
+"structdetray_1_1intersection__record.html#afab5c590e2d807c1c19bb9efa196e792":[6,0,4,104,16]
 };
