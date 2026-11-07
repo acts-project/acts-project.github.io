@@ -1,0 +1,11 @@
+<map id="Acts::ITrackingGeometryVisitor" name="Acts::ITrackingGeometryVisitor">
+<area shape="rect" id="Node000001" title="Base class for tracking geometry visitors." alt="" coords="5,50,228,78"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_tracking_geometry_mutable_visitor.html" title="Mutable visitor interface for modifying the tracking geometry hierarchy." alt="" coords="276,8,505,53"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="243,46,278,44,273,45,244,51"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_tracking_geometry_visitor.html" title="Visitor interface for traversing the tracking geometry hierarchy." alt="" coords="281,79,500,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="243,75,283,81,278,81,243,80"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="553,5,804,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="520,26,555,29,550,29,521,32"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="568,75,789,119"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="515,92,570,95,565,96,515,97"/>
+</map>

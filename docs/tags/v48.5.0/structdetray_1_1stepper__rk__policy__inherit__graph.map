@@ -1,0 +1,5 @@
+<map id="detray::stepper_rk_policy&lt; scalar_t &gt;" name="detray::stepper_rk_policy&lt; scalar_t &gt;">
+<area shape="rect" id="Node000001" title="Specific navigation policy for the Runge&#45;Kutta stepper: Use the relative amount of step size correcti..." alt="" coords="5,81,154,126"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1base__actor.html" title="Base class actor implementation." alt="" coords="9,5,150,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="81,47,82,81,77,80,78,51"/>
+</map>

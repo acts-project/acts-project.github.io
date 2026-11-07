@@ -1,0 +1,15 @@
+<map id="Acts::DirectNavigator::Options" name="Acts::DirectNavigator::Options">
+<area shape="rect" id="Node000001" title="The nested options struct." alt="" coords="963,111,1123,155"/>
+<area shape="rect" id="Node000002" href="$struct_acts_1_1_navigator_plain_options.html" title="Plain navigator options carrying geometry context and navigation settings." alt="" coords="710,80,914,108"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="913,109,965,120,960,119,913,114"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="373,5,520,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="535,37,687,62,757,80,751,80,686,68,535,42"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,83,134,111"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="119,75,157,64,270,43,375,32,370,34,271,48,158,69,122,80"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="371,75,522,119"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="149,94,371,95,369,99,150,100"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="546,135,686,179"/>
+<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="120,114,158,125,263,141,369,151,548,158,543,158,368,156,262,146,157,130,120,119"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="537,94,712,95,707,95,538,99"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="702,152,913,142,960,141,965,141,914,147,702,157"/>
+</map>

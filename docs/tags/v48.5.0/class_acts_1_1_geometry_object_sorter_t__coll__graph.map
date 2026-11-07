@@ -1,0 +1,11 @@
+<map id="Acts::GeometryObjectSorterT&lt; T &gt;" name="Acts::GeometryObjectSorterT&lt; T &gt;">
+<area shape="rect" id="Node000001" title="Sorter functor for geometry objects by reference position." alt="" coords="89,224,292,268"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_object_sorter_t.html" title=" " alt="" coords="28,106,175,151"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,162,141,198,165,223,159,223,136,201,116,167"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_object_sorter_t.html" title="Sorter functor for geometry objects by axis direction." alt="" coords="5,5,190,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="99,46,103,106,98,105,98,51"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="205,106,374,151"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="273,163,248,201,222,226,219,221,243,198,269,166"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="214,5,370,33"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="293,47,292,106,288,104,290,51"/>
+</map>

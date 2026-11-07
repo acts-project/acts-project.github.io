@@ -1,0 +1,7 @@
+<map id="Acts::ITrackingVolumeBuilder" name="Acts::ITrackingVolumeBuilder">
+<area shape="rect" id="Node000001" title="Interface class ITrackingVolumeBuilders." alt="" coords="111,5,321,33"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_cuboid_volume_builder.html" title="This class builds a box detector with a configurable amount of surfaces in it." alt="" coords="5,81,203,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,41,125,83,123,78,181,42"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_cylinder_volume_builder.html" title="A volume builder to be used for building concentric cylinder volumes." alt="" coords="226,81,432,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="250,39,312,81,307,80,248,44"/>
+</map>

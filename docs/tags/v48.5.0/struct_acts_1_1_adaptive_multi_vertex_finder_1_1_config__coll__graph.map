@@ -1,0 +1,22 @@
+<map id="Acts::AdaptiveMultiVertexFinder::Config" name="Acts::AdaptiveMultiVertexFinder::Config">
+<area shape="rect" id="Node000001" title="Configuration struct." alt="" coords="897,175,1087,219"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_adaptive_multi_vertex_fitter.html" title="Implements an adaptive multi&#45;vertex fitter as described in detail in Section 5.3.5 in: Ref." alt="" coords="477,5,667,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="682,30,779,47,828,61,874,81,905,101,934,125,977,175,971,174,930,129,902,106,872,86,826,66,777,52,683,36"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="488,75,656,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="671,104,770,120,874,144,947,174,942,174,872,149,769,125,672,110"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="28,119,184,147"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="198,122,230,120,489,101,485,105,231,125,201,127"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="461,144,682,189"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="159,150,231,167,290,173,349,176,463,175,458,177,349,181,289,179,230,172,160,155"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_impact_point_estimator.html" title="Estimator for impact point calculations A description of the underlying mathematics can be found here..." alt="" coords="473,212,671,240"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="686,227,778,226,873,219,899,218,894,219,873,225,778,231,687,233"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="698,173,899,190,894,191,698,178"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="503,264,640,309"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="655,286,760,280,817,271,872,258,917,240,955,221,960,219,919,245,874,263,818,276,761,285,656,291"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="34,270,178,298"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="194,282,504,283,502,288,194,287"/>
+<area shape="rect" id="Node000009" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="454,336,690,381"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="705,356,790,343,832,331,872,314,904,294,932,268,973,221,978,219,936,272,907,298,874,319,834,336,791,348,706,361"/>
+<area shape="rect" id="Node000010" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="5,340,207,385"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="222,359,454,357,452,362,222,364"/>
+</map>

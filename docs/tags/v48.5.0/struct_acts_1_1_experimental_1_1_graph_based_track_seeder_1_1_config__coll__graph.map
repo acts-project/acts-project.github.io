@@ -1,0 +1,7 @@
+<map id="Acts::Experimental::GraphBasedTrackSeeder::Config" name="Acts::Experimental::GraphBasedTrackSeeder::Config">
+<area shape="rect" id="Node000001" title="Configuration struct for the GBTS seeding algorithm." alt="" coords="22,207,209,268"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,106,226,134"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,147,118,207,113,205,114,151"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="51,5,180,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="117,46,118,106,113,105,114,51"/>
+</map>

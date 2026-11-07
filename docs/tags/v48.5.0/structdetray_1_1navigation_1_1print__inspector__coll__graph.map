@@ -1,0 +1,22 @@
+<map id="detray::navigation::print_inspector" name="detray::navigation::print_inspector">
+<area shape="rect" id="Node000001" title="A navigation inspector that prints information about the current navigation state." alt="" coords="183,542,322,587"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="121,441,254,469"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,483,192,501,198,517,219,542,214,541,194,519,187,502,186,487"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="72,347,245,392"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="172,404,186,441,180,440,170,409"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="84,253,232,298"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="159,311,161,347,156,346,157,316"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,159,146,204"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="105,213,141,252,136,254,106,219"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="73,82,243,110"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="133,124,99,160,95,157,136,119"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="170,159,314,204"/>
+<area shape="poly" id="edge8_Node000008_Node000006" title=" " alt="" coords="182,118,223,158,218,159,182,124"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="105,5,211,33"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="159,46,161,82,156,82,158,51"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="210,218,180,254,176,251,213,214"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="290,441,376,469"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="322,481,299,520,277,544,274,539,295,516,317,484"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="269,347,407,392"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="337,405,336,442,331,439,334,409"/>
+</map>

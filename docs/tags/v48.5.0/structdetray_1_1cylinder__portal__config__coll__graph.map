@@ -1,0 +1,9 @@
+<map id="detray::cylinder_portal_config&lt; scalar_t &gt;" name="detray::cylinder_portal_config&lt; scalar_t &gt;">
+<area shape="rect" id="Node000001" title="configuration for the cylinder portal generator" alt="" coords="28,274,196,318"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,106,78,134"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="35,147,33,198,36,224,45,248,54,261,68,273,62,274,51,264,40,251,31,225,28,198,34,152"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="102,106,266,134"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="184,147,176,198,157,251,139,275,135,271,152,248,171,197,180,151"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="120,5,248,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="185,46,187,106,182,105,183,51"/>
+</map>

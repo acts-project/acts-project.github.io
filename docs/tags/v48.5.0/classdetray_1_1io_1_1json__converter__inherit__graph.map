@@ -1,0 +1,5 @@
+<map id="detray::io::json_converter&lt; detector_t, backend_t &gt;" name="detray::io::json_converter&lt; detector_t, backend_t &gt;">
+<area shape="rect" id="Node000001" title="Class that adds converts io payloads to json and back." alt="" coords="5,5,197,50"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="212,22,223,28,198,34,197,29,218,27,212,28"/>
+<area shape="poly" id="edge2_Node000001_Node000001" title=" " alt="" coords="212,17,338,18,382,21,401,28,380,35,331,38,197,38,197,32,331,32,379,30,396,28,381,26,338,23,212,23"/>
+</map>

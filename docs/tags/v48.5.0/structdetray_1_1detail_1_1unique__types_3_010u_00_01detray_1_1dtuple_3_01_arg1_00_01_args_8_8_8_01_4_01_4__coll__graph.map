@@ -1,0 +1,5 @@
+<map id="detray::detail::unique_types&lt; 0u, detray::dtuple&lt; Arg1, Args... &gt; &gt;" name="detray::detail::unique_types&lt; 0u, detray::dtuple&lt; Arg1, Args... &gt; &gt;">
+<area shape="rect" id="Node000001" title="Base case retaining the remaining unique element types." alt="" coords="5,145,199,207"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1detail_1_1unique__types.html" title="Remove duplicate types from tuple." alt="" coords="22,5,182,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,64,105,146,99,145,100,67"/>
+</map>

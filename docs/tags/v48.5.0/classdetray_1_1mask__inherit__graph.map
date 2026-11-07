@@ -1,0 +1,29 @@
+<map id="detray::mask&lt; shape_t, algebra_t, links_t &gt;" name="detray::mask&lt; shape_t, algebra_t, links_t &gt;">
+<area shape="rect" id="Node000001" title="Mask a region on a surface and link it to a volume." alt="" coords="5,554,174,599"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="410,40,598,102"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,539,102,436,122,304,136,239,153,181,172,133,196,101,219,84,244,71,299,55,356,50,411,53,407,56,356,55,300,60,246,76,222,89,200,105,177,136,158,182,141,241,127,305,107,436,96,539"/>
+<area shape="rect" id="Node000003" href="$classdetray_1_1mask.html" title=" " alt="" coords="408,128,600,172"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="93,539,106,451,128,342,158,242,176,203,196,177,225,168,277,160,409,152,405,156,277,166,226,173,199,181,180,206,162,244,133,344,111,452,98,539"/>
+<area shape="rect" id="Node000004" href="$classdetray_1_1mask.html" title=" " alt="" coords="421,196,586,258"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="89,538,95,476,111,400,125,361,143,323,167,289,196,260,212,250,235,243,292,232,423,225,419,229,293,238,236,248,215,255,199,264,171,293,148,326,130,363,116,402,100,477,94,539"/>
+<area shape="rect" id="Node000005" href="$classdetray_1_1mask.html" title=" " alt="" coords="422,282,586,343"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="94,538,105,493,125,440,154,388,174,365,196,345,236,329,293,319,424,311,420,315,294,324,237,334,199,350,177,368,159,391,130,442,111,494,99,539"/>
+<area shape="rect" id="Node000006" href="$classdetray_1_1mask.html" title=" " alt="" coords="421,367,586,429"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="103,539,119,510,139,478,165,449,196,425,236,411,294,403,423,397,418,400,294,408,238,417,199,430,169,453,144,482,124,512,109,541"/>
+<area shape="rect" id="Node000007" href="$classdetray_1_1mask.html" title=" " alt="" coords="421,452,586,514"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="127,543,160,521,197,503,254,488,313,480,423,477,419,480,313,485,255,494,199,508,162,525,131,546"/>
+<area shape="rect" id="Node000008" href="$classdetray_1_1mask.html" title=" " alt="" coords="410,538,598,599"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="188,575,384,573,411,573,407,576,384,578,190,580"/>
+<area shape="rect" id="Node000009" href="$classdetray_1_1mask.html" title=" " alt="" coords="419,623,588,685"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="139,604,198,628,255,641,313,648,421,655,417,658,312,654,254,646,197,633,141,609"/>
+<area shape="rect" id="Node000010" href="$classdetray_1_1mask.html" title=" " alt="" coords="422,708,586,770"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="109,610,147,662,171,686,199,706,254,728,312,740,369,745,424,746,419,748,369,750,311,745,252,733,196,710,168,690,143,666,110,615"/>
+<area shape="rect" id="Node000011" href="$classdetray_1_1mask.html" title=" " alt="" coords="422,794,586,855"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="97,612,111,658,130,709,159,758,178,780,199,798,225,812,252,823,310,836,368,839,425,838,420,840,368,845,309,841,250,829,222,817,196,802,174,784,155,761,125,711,106,660,97,617"/>
+<area shape="rect" id="Node000012" href="$classdetray_1_1mask.html" title=" " alt="" coords="416,879,592,941"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="91,612,99,677,114,754,128,794,146,831,170,864,199,892,223,908,249,919,305,931,362,932,418,929,413,931,362,938,304,936,247,924,221,912,196,897,166,868,142,833,123,796,109,756,93,678,91,617"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="416,965,592,1010"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="95,612,110,705,131,818,144,873,160,922,179,961,199,986,225,1002,253,1013,283,1019,314,1022,375,1018,434,1010,429,1011,376,1024,314,1027,282,1024,252,1018,223,1007,196,990,174,964,155,924,139,875,125,819,104,706,95,617"/>
+<area shape="rect" id="Node000014" href="$classdetray_1_1mask.html" title=" " alt="" coords="409,1034,599,1079"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="94,612,106,719,125,852,139,918,156,976,176,1023,199,1053,225,1069,252,1080,282,1087,312,1090,373,1087,427,1080,432,1079,374,1093,312,1096,281,1093,251,1086,222,1074,196,1057,171,1026,151,978,134,919,120,853,101,719,93,617"/>
+</map>

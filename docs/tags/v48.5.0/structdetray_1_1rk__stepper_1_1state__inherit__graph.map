@@ -1,0 +1,5 @@
+<map id="detray::rk_stepper&lt; magnetic_field_t, algebra_t, constraint_t, policy_t, inspector_t, flags_v &gt;::state" name="detray::rk_stepper&lt; magnetic_field_t, algebra_t, constraint_t, policy_t, inspector_t, flags_v &gt;::state">
+<area shape="rect" id="Node000001" title="Per&#45;track integration state maintained by the stepper." alt="" coords="22,115,183,211"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,200,67"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,80,105,115,100,114,101,85"/>
+</map>

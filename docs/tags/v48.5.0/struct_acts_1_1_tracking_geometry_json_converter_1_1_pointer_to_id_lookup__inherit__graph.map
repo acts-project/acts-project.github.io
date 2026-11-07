@@ -1,0 +1,9 @@
+<map id="Acts::TrackingGeometryJsonConverter::PointerToIdLookup&lt; object_t, kContext &gt;" name="Acts::TrackingGeometryJsonConverter::PointerToIdLookup&lt; object_t, kContext &gt;">
+<area shape="rect" id="Node000001" title="Generic lookup from object pointer identity to serialized object ID." alt="" coords="5,91,217,152"/>
+<area shape="rect" id="Node000002" href="$struct_acts_1_1_tracking_geometry_json_converter_1_1_pointer_to_id_lookup.html" title=" " alt="" coords="519,5,781,67"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="231,90,240,88,383,65,521,49,516,51,384,70,241,93,233,95"/>
+<area shape="rect" id="Node000003" href="$struct_acts_1_1_tracking_geometry_json_converter_1_1_pointer_to_id_lookup.html" title=" " alt="" coords="530,91,770,152"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="232,119,530,119,528,124,232,124"/>
+<area shape="rect" id="Node000004" href="$struct_acts_1_1_tracking_geometry_json_converter_1_1_pointer_to_id_lookup.html" title=" " alt="" coords="492,176,808,238"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="192,156,241,172,304,184,368,193,494,205,489,206,368,199,303,189,240,177,191,161"/>
+</map>

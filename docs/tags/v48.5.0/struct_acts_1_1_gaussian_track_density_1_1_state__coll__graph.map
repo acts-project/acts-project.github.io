@@ -1,0 +1,7 @@
+<map id="Acts::GaussianTrackDensity::State" name="Acts::GaussianTrackDensity::State">
+<area shape="rect" id="Node000001" title="The State struct." alt="" coords="5,263,207,308"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="23,128,189,190"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,204,109,263,103,262,104,207"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="42,5,170,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="107,46,109,128,103,128,105,51"/>
+</map>

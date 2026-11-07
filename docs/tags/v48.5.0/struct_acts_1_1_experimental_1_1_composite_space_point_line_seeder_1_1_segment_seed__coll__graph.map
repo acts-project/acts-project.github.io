@@ -1,0 +1,9 @@
+<map id="Acts::Experimental::CompositeSpacePointLineSeeder::SegmentSeed&lt; contType_t &gt;" name="Acts::Experimental::CompositeSpacePointLineSeeder::SegmentSeed&lt; contType_t &gt;">
+<area shape="rect" id="Node000001" title="Helper struct to pack the parameters and the associated measurements into a common object." alt="" coords="50,263,294,325"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,128,160,190"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,203,110,238,132,263,126,263,105,240,91,208"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="22,5,143,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="83,46,85,128,80,128,82,51"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="184,145,275,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="220,186,187,264,183,261,215,188"/>
+</map>

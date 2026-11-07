@@ -1,0 +1,7 @@
+<map id="detray::axis::multi_bin&lt; DIM, index_t &gt;" name="detray::axis::multi_bin&lt; DIM, index_t &gt;">
+<area shape="rect" id="Node000001" title="Multi&#45;bin: contains bin indices from multiple axes." alt="" coords="10,99,170,144"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1axis_1_1multi__bin.html" title=" " alt="" coords="20,217,160,262"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="92,158,93,217,87,216,88,162"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,175,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,63,93,99,87,98,89,68"/>
+</map>

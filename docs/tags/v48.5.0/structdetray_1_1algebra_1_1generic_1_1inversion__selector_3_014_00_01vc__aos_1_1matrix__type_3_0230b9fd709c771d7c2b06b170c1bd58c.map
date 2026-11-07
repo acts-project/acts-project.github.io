@@ -1,0 +1,5 @@
+<map id="detray::algebra::generic::inversion_selector&lt; 4, vc_aos::matrix_type&lt; T, ROWS, COLS &gt;, vc_aos::element_getter &gt;" name="detray::algebra::generic::inversion_selector&lt; 4, vc_aos::matrix_type&lt; T, ROWS, COLS &gt;, vc_aos::element_getter &gt;">
+<area shape="rect" id="Node000001" title="Choose the backend&#45;specific inverse implementation for 4x4 matrices." alt="" coords="5,185,243,280"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1algebra_1_1generic_1_1inversion__selector.html" title="Get the type of inversion algorithm according to matrix dimension." alt="" coords="35,5,213,67"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="126,80,127,185,121,184,122,84"/>
+</map>

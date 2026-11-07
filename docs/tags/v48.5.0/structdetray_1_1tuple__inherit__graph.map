@@ -1,0 +1,35 @@
+<map id="detray::tuple&lt; Ts &gt;" name="detray::tuple&lt; Ts &gt;">
+<area shape="rect" id="Node000001" title="Default tuple type." alt="" coords="5,549,152,577"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1tuple.html" title=" " alt="" coords="286,465,467,493"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,539,175,514,230,499,287,489,283,492,231,504,177,519,120,543"/>
+<area shape="rect" id="Node000015" href="$structdetray_1_1tuple.html" title=" " alt="" coords="290,521,463,549"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="166,552,291,541,287,545,168,557"/>
+<area shape="rect" id="Node000016" href="$structdetray_1_1tuple.html" title=" " alt="" coords="297,577,456,605"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="151,578,176,581,299,590,295,593,175,587,154,583"/>
+<area shape="rect" id="Node000017" href="$structdetray_1_1tuple_3_01_t_00_01_ts_8_8_8_01_4.html" title="Recursive tuple node holding one value and the remaining tuple tail." alt="" coords="289,633,464,661"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="110,583,142,603,177,619,233,633,291,643,286,645,232,639,175,624,140,608,111,589"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1tuple.html" title=" " alt="" coords="726,27,892,72"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="379,449,393,363,417,251,449,146,468,105,489,78,515,60,544,47,605,31,668,28,727,33,723,35,668,33,606,37,546,52,518,65,493,82,472,108,454,148,422,253,398,364,384,451"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="724,96,893,158"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="376,449,381,387,398,306,413,264,432,224,458,187,490,155,522,146,581,138,726,129,722,132,582,143,523,151,492,160,462,190,437,226,418,266,403,308,387,388,381,451"/>
+<area shape="rect" id="Node000005" href="$structdetray_1_1tuple.html" title=" " alt="" coords="726,182,892,227"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="379,449,390,401,410,341,442,282,464,255,489,233,516,217,546,205,607,190,669,186,727,190,723,192,669,191,608,195,547,210,519,221,493,237,468,259,447,285,415,343,395,402,384,451"/>
+<area shape="rect" id="Node000006" href="$structdetray_1_1tuple.html" title=" " alt="" coords="707,251,910,278"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="384,449,398,412,420,368,450,326,469,307,490,291,528,278,582,269,709,263,704,265,583,274,529,283,492,296,472,311,454,329,424,371,403,414,388,452"/>
+<area shape="rect" id="Node000007" href="$structdetray_1_1tuple.html" title=" " alt="" coords="708,303,909,365"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="395,451,435,408,461,387,490,370,521,362,574,355,710,341,706,344,575,360,522,368,492,375,464,391,439,412,399,454"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="710,389,907,468"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="481,464,712,438,707,441,483,469"/>
+<area shape="rect" id="Node000009" href="$structdetray_1_1tuple.html" title=" " alt="" coords="726,491,892,536"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="475,493,491,495,614,504,728,511,723,513,614,510,491,500,476,498"/>
+<area shape="rect" id="Node000010" href="$structdetray_1_1tuple.html" title=" " alt="" coords="726,561,892,605"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="449,497,469,508,477,516,481,524,485,531,492,538,549,562,610,577,670,584,728,588,722,589,670,589,609,582,547,567,490,542,481,535,476,527,472,519,465,512,449,502"/>
+<area shape="rect" id="Node000011" href="$structdetray_1_1tuple.html" title=" " alt="" coords="726,630,892,675"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="458,499,469,508,478,522,482,537,480,565,479,592,483,604,493,615,518,634,545,648,606,664,668,668,728,667,723,668,668,673,605,669,543,653,515,638,489,619,478,606,474,592,475,565,477,538,473,525,465,511,458,504"/>
+<area shape="rect" id="Node000012" href="$structdetray_1_1tuple.html" title=" " alt="" coords="726,699,892,744"/>
+<area shape="poly" id="edge11_Node000002_Node000012" title=" " alt="" coords="459,499,469,508,484,534,487,559,485,585,478,609,473,633,471,656,477,678,493,699,517,718,544,731,574,741,605,746,667,747,728,742,722,743,667,752,604,751,573,746,542,736,514,723,489,703,472,680,466,656,468,632,473,608,479,584,482,560,478,536,465,511,459,504"/>
+<area shape="rect" id="Node000013" href="$structdetray_1_1tuple.html" title=" " alt="" coords="726,769,892,813"/>
+<area shape="poly" id="edge12_Node000002_Node000013" title=" " alt="" coords="459,499,469,508,479,533,483,566,479,647,477,727,481,758,493,778,518,797,546,810,576,818,607,823,671,821,727,814,733,814,672,826,607,828,575,824,544,815,515,801,489,782,476,759,471,727,474,647,478,566,474,534,465,511,459,504"/>
+<area shape="rect" id="Node000014" href="$structdetray_1_1tuple.html" title=" " alt="" coords="726,838,892,883"/>
+<area shape="poly" id="edge13_Node000002_Node000014" title=" " alt="" coords="460,500,469,508,482,539,485,582,478,686,474,739,473,788,478,828,484,843,493,854,519,873,548,886,580,894,613,897,679,893,736,884,741,883,679,898,612,903,579,899,546,892,516,878,489,858,480,845,473,829,468,788,469,739,473,686,480,582,477,541,465,511,460,505"/>
+</map>

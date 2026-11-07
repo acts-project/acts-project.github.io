@@ -1,0 +1,7 @@
+<map id="detray::grid_collection&lt; spatial_grid_impl&lt; grid_t &gt; &gt;" name="detray::grid_collection&lt; spatial_grid_impl&lt; grid_t &gt; &gt;">
+<area shape="rect" id="Node000001" title="Accelerator collection specialization for detray::spatial_grid_impl." alt="" coords="354,40,584,85"/>
+<area shape="rect" id="Node000002" href="$classdetray_1_1grid__collection.html" title="A collection of grids that can be moved to device as part of the detector." alt="" coords="5,5,171,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,32,330,44,356,49,351,49,329,49,186,37"/>
+<area shape="rect" id="Node000003" href="$classdetray_1_1grid__collection.html" title="A collection of grids that can be moved to device as part of the detector." alt="" coords="5,75,171,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="186,96,195,96,262,99,329,96,393,86,398,85,330,102,262,105,195,102,186,102"/>
+</map>

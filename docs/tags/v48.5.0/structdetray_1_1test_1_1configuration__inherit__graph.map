@@ -1,0 +1,13 @@
+<map id="detray::test::configuration&lt; scalar_t &gt;" name="detray::test::configuration&lt; scalar_t &gt;">
+<area shape="rect" id="Node000001" title="Test configuration type." alt="" coords="5,52,194,97"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1test_1_1configuration.html" title=" " alt="" coords="376,12,564,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="209,60,378,43,374,47,210,66"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1test_1_1configuration.html" title=" " alt="" coords="376,91,565,136"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="176,99,218,109,298,116,378,119,373,120,298,122,217,114,176,105"/>
+<area shape="rect" id="Node000004" href="$structdetray_1_1test_1_1detector__scan__config.html" title="Configuration for a detector scan test." alt="" coords="618,5,841,67"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="561,84,621,68,626,67,563,89"/>
+<area shape="rect" id="Node000005" href="$structdetray_1_1test_1_1material__validation__config.html" title="Configuration for a detector scan test." alt="" coords="614,91,845,136"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="580,111,616,113,611,114,581,116"/>
+<area shape="rect" id="Node000006" href="$structdetray_1_1test_1_1navigation__validation__config.html" title="Configuration for a detector scan test." alt="" coords="614,160,845,205"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="572,138,646,160,641,160,571,143"/>
+</map>

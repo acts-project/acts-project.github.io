@@ -1,0 +1,10 @@
+<map id="Acts::MultiTrajectoryHelpers::TrajectoryState" name="Acts::MultiTrajectoryHelpers::TrajectoryState">
+<area shape="rect" id="Node000001" title="Struct for brief trajectory summary info." alt="" coords="79,291,283,335"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,114,170,142"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,155,92,211,100,239,112,265,137,290,132,290,108,268,95,241,87,211,85,160"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="117,5,245,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="156,47,148,59,100,115,96,112,143,55,159,42"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="193,106,358,151"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="212,40,229,55,266,105,261,106,226,59,212,45"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="274,164,264,216,254,243,240,268,217,292,214,288,236,265,249,241,259,215,270,168"/>
+</map>

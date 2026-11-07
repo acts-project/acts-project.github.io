@@ -1,0 +1,5 @@
+<map id="Acts::Logging::DefaultFilterPolicy" name="Acts::Logging::DefaultFilterPolicy">
+<area shape="rect" id="Node000001" title="default filter policy for debug messages" alt="" coords="5,98,203,143"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_logging_1_1_output_filter_policy.html" title="abstract base class for filtering debug output" alt="" coords="7,5,201,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,64,106,99,102,97,102,68"/>
+</map>

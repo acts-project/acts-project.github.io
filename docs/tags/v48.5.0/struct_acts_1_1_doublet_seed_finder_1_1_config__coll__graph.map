@@ -1,0 +1,9 @@
+<map id="Acts::DoubletSeedFinder::Config" name="Acts::DoubletSeedFinder::Config">
+<area shape="rect" id="Node000001" title="Collection of configuration parameters for the doublet seed finder." alt="" coords="922,36,1102,80"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_direction.html" title="The direction is always with respect to a given momentum, surface normal or other general axes." alt="" coords="571,5,687,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="703,24,924,49,919,49,703,29"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="515,57,743,136"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="758,86,898,74,919,73,924,73,898,79,758,92"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="5,74,207,119"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="222,94,515,94,514,99,222,99"/>
+</map>

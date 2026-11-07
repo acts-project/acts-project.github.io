@@ -1,0 +1,14 @@
+<map id="ActsPlugins::GeoModelTree" name="ActsPlugins::GeoModelTree">
+<area shape="rect" id="Node000001" title="Holder struct to manage a GeoModel world." alt="" coords="843,71,1040,98"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="413,9,659,37"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="674,34,819,54,886,70,881,70,819,59,674,39"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,40,162,68"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="176,42,185,41,414,27,411,31,186,46,178,47"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="409,62,663,107"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="125,72,155,84,186,93,242,101,299,104,411,102,406,103,299,110,242,107,185,99,153,90,125,78"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="679,82,845,84,840,85,679,87"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="493,131,579,158"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="594,138,699,129,819,112,887,99,892,99,819,118,700,134,595,144"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="14,122,153,167"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="168,142,493,142,492,147,168,147"/>
+</map>

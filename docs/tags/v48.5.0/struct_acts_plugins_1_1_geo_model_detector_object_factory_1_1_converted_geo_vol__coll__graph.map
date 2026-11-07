@@ -1,0 +1,15 @@
+<map id="ActsPlugins::GeoModelDetectorObjectFactory::ConvertedGeoVol" name="ActsPlugins::GeoModelDetectorObjectFactory::ConvertedGeoVol">
+<area shape="rect" id="Node000001" title="Tuple describing the shared ptr to a Volume which will be turned into a TrackingVolume,..." alt="" coords="633,68,863,113"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="353,8,514,53"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="530,45,610,60,637,67,632,67,608,65,529,50"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,16,162,44"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="177,28,354,28,350,32,178,33"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="390,76,476,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="491,88,635,90,630,91,492,93"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="14,68,153,113"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="168,88,391,88,388,93,169,93"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="345,132,522,177"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="537,132,608,118,641,114,646,113,610,123,538,138"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="19,144,148,172"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="163,155,345,153,344,158,163,160"/>
+</map>

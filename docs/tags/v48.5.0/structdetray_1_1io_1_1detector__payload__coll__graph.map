@@ -1,0 +1,7 @@
+<map id="detray::io::detector_payload" name="detray::io::detector_payload">
+<area shape="rect" id="Node000001" title="A payload for a detector geometry." alt="" coords="19,246,164,291"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,128,178,173"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,187,94,246,89,245,89,191"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="27,5,156,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="93,46,94,128,89,128,90,51"/>
+</map>

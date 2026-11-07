@@ -1,0 +1,11 @@
+<map id="Acts::PropagatorState&lt; propagator_options_t, stepper_state_t, navigator_state_t, extension_state_t &gt;" name="Acts::PropagatorState&lt; propagator_options_t, stepper_state_t, navigator_state_t, extension_state_t &gt;">
+<area shape="rect" id="Node000001" title="private Propagator state for navigation and debugging" alt="" coords="10,224,222,302"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,106,185,151"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,163,113,224,108,223,99,168"/>
+<area shape="rect" id="Node000003" href="$struct_acts_1_1_propagator_statistics.html" title="A struct to hold statistics of the propagator." alt="" coords="209,114,397,142"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="275,151,172,225,169,221,270,152"/>
+<area shape="rect" id="Node000004" href="$struct_acts_1_1_stepper_statistics.html" title="A struct to hold statistics of the stepper." alt="" coords="119,5,287,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="226,42,293,113,288,114,225,47"/>
+<area shape="rect" id="Node000005" href="$struct_acts_1_1_navigator_statistics.html" title="A struct to hold statistics of the navigator." alt="" coords="311,5,492,33"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="382,43,317,116,313,112,377,46"/>
+</map>

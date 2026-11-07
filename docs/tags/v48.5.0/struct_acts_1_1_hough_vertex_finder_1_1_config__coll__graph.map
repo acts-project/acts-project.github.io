@@ -1,0 +1,10 @@
+<map id="Acts::HoughVertexFinder::Config" name="Acts::HoughVertexFinder::Config">
+<area shape="rect" id="Node000001" title="Configuration struct." alt="" coords="100,251,281,296"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,106,170,134"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,146,115,186,139,226,163,251,157,251,134,229,110,189,96,151"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="126,5,254,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="165,46,103,107,99,104,167,41"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="194,106,395,134"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="221,40,240,55,286,105,281,106,236,59,221,45"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="288,147,273,189,250,229,224,253,222,249,245,226,269,186,284,150"/>
+</map>

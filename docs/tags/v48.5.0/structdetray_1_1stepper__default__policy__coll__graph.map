@@ -1,0 +1,5 @@
+<map id="detray::stepper_default_policy&lt; scalar_t &gt;" name="detray::stepper_default_policy&lt; scalar_t &gt;">
+<area shape="rect" id="Node000001" title="Default navigation update policy for the steppers: If a constraint has been hit, lower the trustlevel..." alt="" coords="5,81,178,126"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1base__actor.html" title="Base class actor implementation." alt="" coords="21,5,162,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,47,94,81,89,79,90,51"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Acts::InterpolatedMaterialMap&lt; Mapper_t &gt;" name="Acts::InterpolatedMaterialMap&lt; Mapper_t &gt;">
+<area shape="rect" id="Node000001" title="Interpolate material classification values from material values on a given grid." alt="" coords="5,81,196,126"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_i_volume_material.html" title="Material associated with a Volume (homogeneous, binned, interpolated)." alt="" coords="18,5,183,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,47,103,81,98,79,99,51"/>
+</map>

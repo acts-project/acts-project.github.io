@@ -1,0 +1,12 @@
+<map id="Acts::Ccl::ClusteringData" name="Acts::Ccl::ClusteringData">
+<area shape="rect" id="Node000001" title="Collection of mutable data used by clustering utilities." alt="" coords="173,224,355,251"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,106,147,151"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="128,156,243,222,238,224,126,161"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="105,5,234,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="110,43,94,59,83,82,79,107,74,105,78,80,90,55,113,38"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="171,114,357,142"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="211,39,231,55,251,85,263,115,258,114,246,88,227,59,211,44"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="266,156,266,224,262,222,262,160"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_ccl_1_1_disjoint_sets.html" title="Wrapper around boost::disjoint_sets used by the clustering helpers." alt="" coords="381,114,544,142"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="430,150,340,202,293,226,291,221,337,197,425,151"/>
+</map>

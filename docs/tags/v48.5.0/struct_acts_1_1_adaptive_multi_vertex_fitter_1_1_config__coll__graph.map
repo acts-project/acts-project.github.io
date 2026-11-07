@@ -1,0 +1,14 @@
+<map id="Acts::AdaptiveMultiVertexFitter::Config" name="Acts::AdaptiveMultiVertexFitter::Config">
+<area shape="rect" id="Node000001" title="Configuration options for the adaptive multi&#45;vertex fit." alt="" coords="1114,82,1304,127"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_impact_point_estimator.html" title="Estimator for impact point calculations A description of the underlying mathematics can be found here..." alt="" coords="678,5,876,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="892,23,990,34,1091,54,1163,82,1157,82,1089,59,989,39,892,28"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_annealing_utility.html" title="Implements a deterministic thermodynamic annealing scheme Ref." alt="" coords="696,59,858,86"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="874,77,1116,97,1111,98,874,82"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="659,110,896,155"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="911,134,1000,133,1090,127,1116,126,1111,127,1090,132,1000,138,912,140"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="5,188,207,232"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="151,177,189,157,230,142,342,121,457,112,565,112,662,119,656,120,565,117,457,117,343,126,231,147,191,162,154,181"/>
+<area shape="rect" id="Node000006" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="617,196,938,343"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="139,240,182,275,206,290,232,301,279,314,328,323,429,328,526,322,613,311,619,311,527,327,429,334,328,328,278,319,230,306,203,294,179,279,138,246"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="952,215,1089,164,1166,128,1171,126,1091,169,954,220"/>
+</map>

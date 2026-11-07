@@ -1,0 +1,10 @@
+<map id="detray::unbounded&lt; shape_t &gt;" name="detray::unbounded&lt; shape_t &gt;">
+<area shape="rect" id="Node000001" title="Wraps any shape, but does not enforce boundaries." alt="" coords="11,340,165,385"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="26,99,150,127"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,140,82,200,82,267,88,340,83,339,76,267,77,200,84,145"/>
+<area shape="rect" id="Node000004" href="$structdetray_1_1utils_1_1string__view__concat2.html" title="Convenience class to statically concatenate two string views." alt="" coords="180,222,324,267"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="117,134,227,221,223,223,116,139"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,171,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="88,63,91,99,85,99,88,68"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="211,276,120,342,117,337,206,276"/>
+</map>

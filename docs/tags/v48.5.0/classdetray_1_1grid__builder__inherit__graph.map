@@ -1,0 +1,9 @@
+<map id="detray::grid_builder&lt; detector_t, grid_t, bin_filler_t, grid_factory_t &gt;" name="detray::grid_builder&lt; detector_t, grid_t, bin_filler_t, grid_factory_t &gt;">
+<area shape="rect" id="Node000001" title="Build a grid of a certain shape." alt="" coords="475,178,681,240"/>
+<area shape="rect" id="Node000004" href="$classdetray_1_1grid__builder.html" title=" " alt="" coords="969,119,1214,299"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="696,206,971,209,966,209,696,212"/>
+<area shape="rect" id="Node000002" href="$classdetray_1_1volume__decorator.html" title="Decorator for the volume builder." alt="" coords="237,187,425,231"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="441,206,477,209,472,209,441,212"/>
+<area shape="rect" id="Node000003" href="$classdetray_1_1volume__builder__interface.html" title="Interface for volume builders (and volume builder decorators)." alt="" coords="5,187,188,231"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="203,206,239,208,234,210,204,212"/>
+</map>

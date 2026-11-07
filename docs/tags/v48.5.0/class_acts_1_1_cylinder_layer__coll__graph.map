@@ -1,0 +1,54 @@
+<map id="Acts::CylinderLayer" name="Acts::CylinderLayer">
+<area shape="rect" id="Node000001" title="Class to describe a cylindrical detector layer for tracking, it inherits from both,..." alt="" coords="1950,354,2097,381"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_cylinder_surface.html" title="Class for a CylinderSurface in the TrackingGeometry." alt="" coords="1740,440,1900,468"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1868,431,1986,383,1991,381,1869,437"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_regular_surface.html" title="A physical surface which does not depend on the direction you look at it from." alt="" coords="1353,440,1509,468"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1525,452,1742,454,1737,454,1525,457"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_surface.html" title="Abstract Base Class for tracking surfaces." alt="" coords="908,435,1015,463"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1030,447,1355,453,1350,454,1030,452"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_geometry_object.html" title="Base class to provide GeometryIdentifier interface:" alt="" coords="473,232,638,260"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="627,262,682,276,734,283,779,284,819,292,840,304,861,322,870,334,875,347,875,371,874,395,878,406,885,418,911,437,905,436,881,421,873,408,869,395,869,371,869,348,866,337,857,325,837,308,817,297,778,289,734,288,680,281,627,267"/>
+<area shape="rect" id="Node000015" href="$class_acts_1_1_layer.html" title="Base Class for a Detector Layer in the Tracking Geometry." alt="" coords="1774,242,1867,269"/>
+<area shape="poly" id="edge16_Node000015_Node000005" title=" " alt="" coords="652,242,1111,240,1411,242,1716,248,1776,253,1771,253,1716,253,1411,247,1111,245,653,248"/>
+<area shape="rect" id="Node000023" href="$class_acts_1_1_volume.html" title="It inherits from GeometryObject for geometry identification." alt="" coords="908,268,1015,296"/>
+<area shape="poly" id="edge26_Node000023_Node000005" title=" " alt="" coords="653,252,910,277,905,279,653,258"/>
+<area shape="rect" id="Node000006" href="$class_acts_1_1_geometry_identifier.html" title="Identifier for geometry nodes within the geometry hierarchy." alt="" coords="5,224,186,252"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="200,237,474,243,471,247,202,243"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="471,385,640,430"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="655,407,755,413,860,424,911,435,905,436,859,429,754,418,656,412"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="454,299,657,361"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="672,348,781,372,827,385,861,397,873,407,885,417,918,435,912,434,882,422,870,411,858,402,825,390,780,377,672,354"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="35,324,156,352"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="171,334,455,330,452,334,172,340"/>
+<area shape="rect" id="Node000010" href="$class_acts_1_1_cloneable_ptr.html" title=" " alt="" coords="474,455,637,499"/>
+<area shape="poly" id="edge9_Node000004_Node000010" title=" " alt="" coords="652,468,910,452,905,453,653,473"/>
+<area shape="rect" id="Node000011" href="$class_acts_1_1_cloneable_ptr.html" title="A copyable smart pointer that uses a cloner function to copy the managed object." alt="" coords="6,463,185,491"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="200,474,474,475,472,479,200,480"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="464,524,647,569"/>
+<area shape="poly" id="edge11_Node000004_Node000012" title=" " alt="" coords="662,534,759,520,859,495,899,479,933,464,938,463,901,484,860,500,760,525,663,540"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="17,563,174,591"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="189,568,464,550,463,555,189,573"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="681,581,859,626"/>
+<area shape="poly" id="edge14_Node000014_Node000013" title=" " alt="" coords="174,591,210,597,338,606,466,609,683,608,678,608,466,614,337,611,209,602,174,597"/>
+<area shape="poly" id="edge13_Node000002_Node000014" title=" " alt="" coords="875,586,1737,464,1741,467,875,591"/>
+<area shape="poly" id="edge15_Node000001_Node000015" title=" " alt="" coords="1861,275,1999,354,1994,353,1860,280"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="1349,372,1513,417"/>
+<area shape="poly" id="edge17_Node000015_Node000016" title=" " alt="" coords="1529,399,1574,398,1622,393,1670,382,1715,365,1746,344,1772,318,1808,271,1813,269,1776,321,1749,348,1717,370,1671,387,1623,398,1574,403,1529,405"/>
+<area shape="rect" id="Node000017" title=" " alt="" coords="889,380,1034,408"/>
+<area shape="poly" id="edge18_Node000016_Node000017" title=" " alt="" coords="1049,392,1351,394,1346,395,1049,397"/>
+<area shape="rect" id="Node000018" href="$class_acts_1_1_bin_utility.html" title="The BinUtility class that translated global and local position into a bins of a BinnedArray,..." alt="" coords="1372,320,1490,348"/>
+<area shape="poly" id="edge19_Node000015_Node000018" title=" " alt="" coords="1505,335,1606,331,1662,324,1715,311,1761,291,1797,271,1802,269,1763,296,1717,316,1663,329,1607,337,1506,340"/>
+<area shape="rect" id="Node000019" title=" " alt="" coords="1347,11,1515,55"/>
+<area shape="poly" id="edge20_Node000015_Node000019" title=" " alt="" coords="1530,26,1577,29,1626,38,1674,53,1717,76,1739,94,1757,115,1787,161,1806,206,1817,242,1813,240,1801,208,1782,163,1753,118,1735,98,1715,80,1672,58,1625,43,1577,34,1531,31"/>
+<area shape="rect" id="Node000020" title=" " alt="" coords="883,88,1040,116"/>
+<area shape="poly" id="edge21_Node000019_Node000020" title=" " alt="" coords="1018,81,1063,69,1213,46,1349,36,1344,38,1213,52,1064,74,1020,86"/>
+<area shape="rect" id="Node000021" title=" " alt="" coords="1329,80,1533,125"/>
+<area shape="poly" id="edge23_Node000021_Node000020" title=" " alt="" coords="1055,100,1331,101,1326,103,1056,105"/>
+<area shape="rect" id="Node000024" title=" " alt="" coords="1350,149,1512,194"/>
+<area shape="poly" id="edge28_Node000024_Node000020" title=" " alt="" coords="1019,119,1064,130,1216,153,1352,167,1347,168,1215,158,1063,135,1019,124"/>
+<area shape="poly" id="edge22_Node000015_Node000021" title=" " alt="" coords="1549,104,1634,120,1677,133,1717,151,1747,171,1774,195,1812,242,1806,240,1770,198,1744,175,1715,155,1675,138,1633,125,1549,110"/>
+<area shape="rect" id="Node000022" href="$class_acts_1_1_tracking_volume.html" title="Full Volume description used in Tracking, it inherits from Volume to get the geometrical structure." alt="" coords="1351,268,1511,296"/>
+<area shape="poly" id="edge24_Node000015_Node000022" title=" " alt="" coords="1526,281,1618,279,1716,273,1776,266,1770,267,1716,278,1619,285,1527,286"/>
+<area shape="poly" id="edge25_Node000022_Node000023" title=" " alt="" coords="1030,280,1353,282,1347,283,1030,285"/>
+<area shape="poly" id="edge27_Node000015_Node000024" title=" " alt="" coords="1526,177,1619,189,1717,210,1792,241,1787,241,1715,215,1618,195,1527,182"/>
+</map>

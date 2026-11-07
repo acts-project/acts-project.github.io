@@ -1,0 +1,5 @@
+<map id="detray::traits::element_getter&lt; Eigen::Block&lt; Eigen::Matrix&lt; T, ROWS, COLS, OPT, ROWS, COLS &gt;, bROWS, bCOLS, false &gt; &gt;" name="detray::traits::element_getter&lt; Eigen::Block&lt; Eigen::Matrix&lt; T, ROWS, COLS, OPT, ROWS, COLS &gt;, bROWS, bCOLS, false &gt; &gt;">
+<area shape="rect" id="Node000001" title="Element accessor trait for an Eigen matrix block." alt="" coords="5,190,208,286"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1traits_1_1element__getter.html" title="Getter types." alt="" coords="23,5,190,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,64,109,190,104,189,104,67"/>
+</map>

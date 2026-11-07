@@ -1,0 +1,37 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$class_acts_1_1_surface_bounds.html" title="Interface for surface bounds." alt="" coords="5,161,160,189"/>
+<area shape="rect" id="Node000001" href="$class_acts_1_1_cone_bounds.html" title="Bounds for a conical surface, the opening angle is stored in &#160;and always positively defined." alt="" coords="218,5,356,33"/>
+<area shape="poly" id="edge218_Node000000_Node000001" title=" " alt="" coords="100,148,145,95,174,68,206,44,234,32,230,36,209,48,178,72,149,99,105,150"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_cylinder_bounds.html" title=" " alt="" coords="208,57,367,85"/>
+<area shape="poly" id="edge219_Node000000_Node000002" title=" " alt="" coords="114,150,157,122,207,95,240,84,236,87,209,100,160,127,118,154"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_disc_bounds.html" title=" " alt="" coords="221,109,354,137"/>
+<area shape="poly" id="edge220_Node000000_Node000003" title=" " alt="" coords="154,155,232,136,228,140,156,159"/>
+<area shape="rect" id="Node000007" href="$class_acts_1_1_infinite_bounds.html" title="templated boundless extension to forward the interface Returns all inside checks to true and can temp..." alt="" coords="212,161,362,189"/>
+<area shape="poly" id="edge224_Node000000_Node000007" title=" " alt="" coords="174,173,214,174,210,177,177,178"/>
+<area shape="rect" id="Node000008" href="$class_acts_1_1_line_bounds.html" title="Bounds for a LineSurface." alt="" coords="221,213,354,241"/>
+<area shape="poly" id="edge225_Node000000_Node000008" title=" " alt="" coords="155,191,232,211,227,214,155,196"/>
+<area shape="rect" id="Node000009" href="$class_acts_1_1_planar_bounds.html" title="common base class for all bounds that are in a local x/y cartesian frame" alt="" coords="214,265,360,293"/>
+<area shape="poly" id="edge226_Node000000_Node000009" title=" " alt="" coords="116,195,160,223,209,250,241,264,235,265,207,255,157,228,116,201"/>
+<area shape="rect" id="Node000017" href="$class_acts_1_1_point_bounds.html" title="Bounds for a PointSurface." alt="" coords="218,317,356,345"/>
+<area shape="poly" id="edge234_Node000000_Node000017" title=" " alt="" coords="103,199,149,252,178,279,209,302,235,316,230,317,206,307,174,283,145,255,102,204"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_annulus_bounds.html" title="Class that implements a (potentially asymmetric) bounds with difference between surface bound center ..." alt="" coords="456,31,613,58"/>
+<area shape="poly" id="edge221_Node000003_Node000004" title=" " alt="" coords="348,101,366,94,390,81,414,69,458,58,453,60,416,74,392,86,368,99,351,106"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_disc_trapezoid_bounds.html" title="Class to describe the bounds for a planar DiscSurface." alt="" coords="436,83,632,110"/>
+<area shape="poly" id="edge222_Node000003_Node000005" title=" " alt="" coords="368,112,438,106,434,108,370,117"/>
+<area shape="rect" id="Node000006" href="$class_acts_1_1_radial_bounds.html" title="Class to describe the bounds for a planar DiscSurface." alt="" coords="461,135,607,162"/>
+<area shape="poly" id="edge223_Node000003_Node000006" title=" " alt="" coords="369,129,463,140,458,142,370,134"/>
+<area shape="rect" id="Node000010" href="$class_acts_1_1_convex_polygon_bounds_base.html" title="base class for convex polygon bounds" alt="" coords="415,187,653,214"/>
+<area shape="poly" id="edge227_Node000009_Node000010" title=" " alt="" coords="348,257,366,250,390,237,414,225,458,214,453,216,416,230,392,242,368,255,350,262"/>
+<area shape="rect" id="Node000013" href="$class_acts_1_1_diamond_bounds.html" title=" " alt="" coords="452,239,616,266"/>
+<area shape="poly" id="edge230_Node000009_Node000013" title=" " alt="" coords="375,267,454,261,449,262,376,272"/>
+<area shape="rect" id="Node000014" href="$class_acts_1_1_ellipse_bounds.html" title=" " alt="" coords="460,291,608,318"/>
+<area shape="poly" id="edge231_Node000009_Node000014" title=" " alt="" coords="375,286,462,296,457,297,376,291"/>
+<area shape="rect" id="Node000015" href="$class_acts_1_1_rectangle_bounds.html" title=" " alt="" coords="449,343,619,370"/>
+<area shape="poly" id="edge232_Node000009_Node000015" title=" " alt="" coords="349,296,368,303,392,316,416,327,459,342,454,342,414,332,390,321,366,308,349,301"/>
+<area shape="rect" id="Node000016" href="$class_acts_1_1_trapezoid_bounds.html" title="Bounds for a trapezoidal, planar Surface." alt="" coords="450,395,618,422"/>
+<area shape="poly" id="edge233_Node000009_Node000016" title=" " alt="" coords="360,298,369,304,385,324,393,344,400,362,417,380,453,399,447,398,413,384,396,365,388,345,381,326,365,308,359,303"/>
+<area shape="rect" id="Node000011" href="$class_acts_1_1_convex_polygon_bounds_3_01_polygon_dynamic_01_4.html" title="This is the specialization handling a polygon with a dynamic number of points." alt="" coords="721,149,928,194"/>
+<area shape="poly" id="edge228_Node000010_Node000011" title=" " alt="" coords="668,184,724,181,718,182,670,189"/>
+<area shape="rect" id="Node000012" href="$class_acts_1_1_convex_polygon_bounds.html" title="This is the actual implementation of the bounds." alt="" coords="701,217,948,245"/>
+<area shape="poly" id="edge229_Node000010_Node000012" title=" " alt="" coords="669,212,703,218,698,218,669,217"/>
+</map>

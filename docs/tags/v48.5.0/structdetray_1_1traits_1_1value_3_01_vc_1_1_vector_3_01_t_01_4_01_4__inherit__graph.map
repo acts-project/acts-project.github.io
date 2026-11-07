@@ -1,0 +1,5 @@
+<map id="detray::traits::value&lt; Vc::Vector&lt; T &gt; &gt;" name="detray::traits::value&lt; Vc::Vector&lt; T &gt; &gt;">
+<area shape="rect" id="Node000001" title="Get the single value type from the simd scalar typeValue trait that unwraps the element type from a V..." alt="" coords="23,106,178,151"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1traits_1_1value.html" title="Value type that is used with the matrix (e.g." alt="" coords="5,5,196,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,47,103,106,98,105,99,51"/>
+</map>

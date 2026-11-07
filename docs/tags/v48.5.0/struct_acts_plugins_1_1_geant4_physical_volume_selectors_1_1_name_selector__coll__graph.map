@@ -1,0 +1,9 @@
+<map id="ActsPlugins::Geant4PhysicalVolumeSelectors::NameSelector" name="ActsPlugins::Geant4PhysicalVolumeSelectors::NameSelector">
+<area shape="rect" id="Node000001" title="Struct that selects G4VPhysicalVolume objects that match one of the provided names,..." alt="" coords="60,224,290,268"/>
+<area shape="rect" id="Node000002" href="$class_acts_plugins_1_1_i_geant4_physical_volume_selector.html" title="Interface class for selectors from physical volumes." alt="" coords="5,106,215,151"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,162,166,223,160,223,128,167"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="239,114,424,142"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="305,151,206,226,203,221,299,152"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="267,5,396,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="333,47,334,115,329,113,330,51"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="detray::grid_factory&lt; bin_t, serializer_t, algebra_t &gt;" name="detray::grid_factory&lt; bin_t, serializer_t, algebra_t &gt;">
+<area shape="rect" id="Node000001" title="Provides functionality to instantiate grids and grid collections." alt="" coords="5,104,158,166"/>
+<area shape="rect" id="Node000002" href="$classdetray_1_1grid__factory.html" title=" " alt="" coords="441,33,681,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="171,101,181,99,315,80,443,73,438,75,315,85,182,104,174,106"/>
+<area shape="rect" id="Node000004" href="$classdetray_1_1grid__factory.html" title=" " alt="" coords="460,151,662,247"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="133,172,158,186,182,196,253,211,326,217,396,216,463,214,457,214,397,222,326,222,252,216,181,201,155,191,132,178"/>
+<area shape="rect" id="Node000003" href="$classdetray_1_1grid__factory.html" title=" " alt="" coords="902,24,1091,120"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="697,69,903,72,898,73,697,75"/>
+<area shape="rect" id="Node000005" href="$classdetray_1_1grid__factory.html" title=" " alt="" coords="876,144,1116,256"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="677,196,878,200,873,200,677,202"/>
+</map>

@@ -1,0 +1,22 @@
+var structdetray_1_1ray__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01a3ac95ffd4d9d627a47290193328a8b11 =
+[
+    [ "algebra_type", "structdetray_1_1ray__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01a3ac95ffd4d9d627a47290193328a8b11.html#ac838d14bce74beb77a8d328ccb200052", null ],
+    [ "algebra_type", "structdetray_1_1ray__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01a3ac95ffd4d9d627a47290193328a8b11.html#ac838d14bce74beb77a8d328ccb200052", null ],
+    [ "frame_type", "structdetray_1_1ray__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01a3ac95ffd4d9d627a47290193328a8b11.html#a01ddcc02a34d04ce2dda5e448d64fb13", null ],
+    [ "intersection_type", "structdetray_1_1ray__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01a3ac95ffd4d9d627a47290193328a8b11.html#a28012f348301f91d422e38ddd0ab02d6", null ],
+    [ "intersection_type", "structdetray_1_1ray__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01a3ac95ffd4d9d627a47290193328a8b11.html#a28012f348301f91d422e38ddd0ab02d6", null ],
+    [ "point2_type", "structdetray_1_1ray__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01a3ac95ffd4d9d627a47290193328a8b11.html#a5bbb30a82884ea766dddc09772a247b8", null ],
+    [ "point3_type", "structdetray_1_1ray__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01a3ac95ffd4d9d627a47290193328a8b11.html#a8e5ddfe9b3f6b5004b220963e8dd0143", null ],
+    [ "point_type", "structdetray_1_1ray__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01a3ac95ffd4d9d627a47290193328a8b11.html#a2c303052ae2775d96f9628ad39897816", null ],
+    [ "result_type", "structdetray_1_1ray__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01a3ac95ffd4d9d627a47290193328a8b11.html#aea11e67f86edc0016a0f144e70000f16", null ],
+    [ "result_type", "structdetray_1_1ray__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01a3ac95ffd4d9d627a47290193328a8b11.html#a461b1407fdb56c220483e6926eee9441", null ],
+    [ "scalar_type", "structdetray_1_1ray__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01a3ac95ffd4d9d627a47290193328a8b11.html#a098453a75c9124c77d2d54eaefcc0353", null ],
+    [ "trajectory_type", "structdetray_1_1ray__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01a3ac95ffd4d9d627a47290193328a8b11.html#ab99a9ec860ea04bc23f5f85695d8ecd9", null ],
+    [ "trajectory_type", "structdetray_1_1ray__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01a3ac95ffd4d9d627a47290193328a8b11.html#ab99a9ec860ea04bc23f5f85695d8ecd9", null ],
+    [ "transform3_type", "structdetray_1_1ray__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01a3ac95ffd4d9d627a47290193328a8b11.html#acc283c69ebc775d11815f74bfe89d99e", null ],
+    [ "value_type", "structdetray_1_1ray__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01a3ac95ffd4d9d627a47290193328a8b11.html#a0cf946c796baf676cb5debf315c15192", null ],
+    [ "vector3_type", "structdetray_1_1ray__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01a3ac95ffd4d9d627a47290193328a8b11.html#abd6045fc904de42a559c066297ab2c56", null ],
+    [ "point_of_intersection", "structdetray_1_1ray__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01a3ac95ffd4d9d627a47290193328a8b11.html#a4fc38e3eabb2d8438f5d30ba4974b9a3", null ],
+    [ "point_of_intersection", "structdetray_1_1ray__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01a3ac95ffd4d9d627a47290193328a8b11.html#a8f2fba7b5f95c3d4b8bd326d30c0121b", null ],
+    [ "n_solutions", "structdetray_1_1ray__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01a3ac95ffd4d9d627a47290193328a8b11.html#a9ff917ba08cf61cdf6ae7fa8cd4e8cb7", null ]
+];

@@ -1,0 +1,7 @@
+<map id="detray::detail::tuple_size&lt; T &gt;" name="detray::detail::tuple_size&lt; T &gt;">
+<area shape="rect" id="Node000001" title="tuple_size for std::tuple" alt="" coords="5,59,154,104"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="343,8,524,70"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="169,68,344,48,340,52,170,73"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1detail_1_1tuple__size_3_1_1detray_1_1dtuple_3_01value__types_8_8_8_01_4_01_4.html" title="Report the number of elements in a detray tuple." alt="" coords="352,93,515,155"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="139,108,178,120,267,130,354,131,349,132,267,135,177,125,139,113"/>
+</map>

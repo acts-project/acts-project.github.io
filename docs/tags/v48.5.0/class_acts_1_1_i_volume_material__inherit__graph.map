@@ -1,0 +1,9 @@
+<map id="Acts::IVolumeMaterial" name="Acts::IVolumeMaterial">
+<area shape="rect" id="Node000001" title="Material associated with a Volume (homogeneous, binned, interpolated)." alt="" coords="5,65,170,93"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_homogeneous_volume_material.html" title="It extends the IVolumeMaterial base class to describe a simple homogeneous material in a volume." alt="" coords="218,5,472,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="153,58,217,42,270,33,265,35,218,47,155,63"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_interpolated_material_map.html" title="Interpolate material classification values from material values on a given grid." alt="" coords="250,57,440,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="185,77,252,78,247,80,185,82"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_proto_volume_material.html" title="proxy to VolumeMaterial hand over BinUtility" alt="" coords="248,125,442,153"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="154,95,218,111,270,125,265,125,217,116,154,100"/>
+</map>

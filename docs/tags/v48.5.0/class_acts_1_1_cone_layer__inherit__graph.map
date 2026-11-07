@@ -1,0 +1,16 @@
+<map id="Acts::ConeLayer" name="Acts::ConeLayer">
+<area shape="rect" id="Node000001" title="Class to describe a conical detector layer for tracking, it inherits from both, Layer base class and ..." alt="" coords="143,325,269,353"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_cone_surface.html" title="Class for a conical surface in the Tracking geometry." alt="" coords="83,249,222,277"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="172,287,199,325,194,324,170,292"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_regular_surface.html" title="A physical surface which does not depend on the direction you look at it from." alt="" coords="53,174,210,201"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="140,214,152,249,146,248,138,219"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_surface.html" title="Abstract Base Class for tracking surfaces." alt="" coords="78,98,184,126"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="132,139,134,174,129,173,130,144"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_geometry_object.html" title="Base class to provide GeometryIdentifier interface:" alt="" coords="198,14,363,42"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="242,52,157,100,154,95,245,47"/>
+<area shape="rect" id="Node000007" href="$class_acts_1_1_layer.html" title="Base Class for a Detector Layer in the Tracking Geometry." alt="" coords="234,174,327,201"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="282,55,283,174,278,172,279,59"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="5,5,175,50"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="108,61,127,97,122,98,108,66"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="270,214,215,326,211,323,265,216"/>
+</map>

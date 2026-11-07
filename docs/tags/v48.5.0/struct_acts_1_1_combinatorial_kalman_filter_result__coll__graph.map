@@ -1,0 +1,12 @@
+<map id="Acts::CombinatorialKalmanFilterResult&lt; track_container_t &gt;" name="Acts::CombinatorialKalmanFilterResult&lt; track_container_t &gt;">
+<area shape="rect" id="Node000001" title="Result container for the combinatorial Kalman filter actor." alt="" coords="214,229,452,274"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,106,197,134"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="129,141,172,172,221,203,274,228,269,229,218,207,169,176,128,146"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="152,5,280,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="186,45,172,59,117,107,113,104,169,55,189,41"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="220,106,446,134"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="256,38,281,55,307,80,327,106,321,105,303,84,278,59,256,44"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="335,148,335,230,331,227,331,151"/>
+<area shape="rect" id="Node000005" href="$struct_acts_1_1_path_limit_reached.html" title="This is the condition that the pathLimit has been reached." alt="" coords="470,106,644,134"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="544,146,520,179,488,207,438,231,436,226,485,203,516,176,539,148"/>
+</map>

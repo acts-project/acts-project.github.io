@@ -1,0 +1,11 @@
+<map id="ActsFatras::Channel&lt; signal_t, kSize &gt;" name="ActsFatras::Channel&lt; signal_t, kSize &gt;">
+<area shape="rect" id="Node000001" title="A channel definition: Cell identification, readout word, links." alt="" coords="113,224,263,268"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,114,187,142"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,152,173,223,168,224,114,156"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="35,5,157,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="97,46,99,114,93,113,95,51"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="210,106,352,151"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="257,162,207,225,204,221,252,164"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="191,5,372,33"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="283,47,284,106,279,104,280,51"/>
+</map>

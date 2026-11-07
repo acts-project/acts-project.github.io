@@ -1,0 +1,10 @@
+<map id="Acts::VolumeConfig" name="Acts::VolumeConfig">
+<area shape="rect" id="Node000001" title="VolumeConfig struct to understand the layer config." alt="" coords="127,224,274,251"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,114,180,142"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,151,190,222,185,224,115,155"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="136,5,265,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="175,46,108,116,104,112,178,42"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="204,106,416,151"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="237,39,258,55,281,80,299,106,294,105,277,83,255,59,237,44"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="280,161,215,226,212,221,275,162"/>
+</map>

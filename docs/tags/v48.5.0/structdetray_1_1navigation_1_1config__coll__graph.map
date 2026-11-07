@@ -1,0 +1,11 @@
+<map id="detray::navigation::config" name="detray::navigation::config">
+<area shape="rect" id="Node000001" title="Navigation configuration." alt="" coords="67,341,206,386"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1intersection_1_1config.html" title="Intersector configuration." alt="" coords="5,224,153,268"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,280,115,316,127,341,122,340,110,319,95,285"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="177,224,341,268"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="235,279,199,319,170,343,167,338,196,315,230,282"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="184,106,334,151"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="260,164,261,224,257,222,258,169"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="198,5,320,33"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="260,46,262,106,256,105,258,51"/>
+</map>
