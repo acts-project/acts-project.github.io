@@ -1,9 +1,0 @@
-<map id="detray::io::surface_grid_reader&lt; surface_descriptor_t, CAP, DIM &gt;" name="detray::io::surface_grid_reader&lt; surface_descriptor_t, CAP, DIM &gt;">
-<area shape="rect" id="Node000001" title="Surface grid reader backend." alt="" coords="500,78,689,139"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="220,5,423,118"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="439,79,503,92,497,92,439,84"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="260,142,384,170"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="399,140,497,125,502,125,400,145"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="5,134,171,179"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="186,154,262,156,256,157,186,159"/>
-</map>

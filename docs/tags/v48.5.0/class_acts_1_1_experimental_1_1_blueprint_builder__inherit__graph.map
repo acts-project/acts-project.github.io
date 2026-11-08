@@ -1,7 +1,0 @@
-<map id="Acts::Experimental::BlueprintBuilder&lt; BackendT &gt;" name="Acts::Experimental::BlueprintBuilder&lt; BackendT &gt;">
-<area shape="rect" id="Node000001" title="High&#45;level builder that converts a backend detector element hierarchy into a blueprint node tree." alt="" coords="5,32,151,93"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_blueprint_builder.html" title=" " alt="" coords="472,5,634,50"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="166,53,472,31,471,36,167,59"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_blueprint_builder.html" title=" " alt="" coords="431,75,676,119"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="166,81,175,82,307,93,433,99,428,99,306,99,174,87,166,86"/>
-</map>

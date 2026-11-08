@@ -1,9 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$class_acts_1_1_track_state_type_base.html" title=" " alt="" coords="5,66,246,128"/>
-<area shape="rect" id="Node000001" href="$class_acts_1_1_track_state_type_map.html" title=" " alt="" coords="294,5,477,50"/>
-<area shape="poly" id="edge260_Node000000_Node000001" title=" " alt="" coords="257,59,301,50,297,52,259,64"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_track_state_type_map.html" title=" " alt="" coords="294,75,477,119"/>
-<area shape="poly" id="edge261_Node000000_Node000002" title=" " alt="" coords="261,94,296,96,291,98,262,100"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_track_state_type_map.html" title="TrackStateTypeBase mapped to external storage." alt="" coords="294,144,477,189"/>
-<area shape="poly" id="edge262_Node000000_Node000003" title=" " alt="" coords="258,130,302,143,296,143,258,135"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="detray::io::mask_payload" name="detray::io::mask_payload">
-<area shape="rect" id="Node000001" title="A payload object for surface masks." alt="" coords="36,224,221,251"/>
-<area shape="rect" id="Node000002" href="$structdetray_1_1io_1_1single__link__payload.html" title="A payload for a single object link (volume local)." alt="" coords="5,106,135,151"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,163,103,198,120,223,115,223,98,201,82,168"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="159,114,338,142"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="233,153,190,202,155,226,153,221,187,198,228,156"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="184,5,313,33"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="250,47,251,115,246,113,247,51"/>
-</map>

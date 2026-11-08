@@ -1,5 +1,0 @@
-<map id="Acts::TrackDensityVertexFinder" name="Acts::TrackDensityVertexFinder">
-<area shape="rect" id="Node000001" title="Finds a vertex seed based on the maximum of a track density function." alt="" coords="5,81,189,126"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_i_vertex_finder.html" title="Common interface for both vertex finders and vertex seed finders." alt="" coords="25,5,169,33"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,47,100,81,94,79,95,51"/>
-</map>

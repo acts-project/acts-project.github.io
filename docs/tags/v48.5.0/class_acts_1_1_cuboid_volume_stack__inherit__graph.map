@@ -1,9 +1,0 @@
-<map id="Acts::CuboidVolumeStack" name="Acts::CuboidVolumeStack">
-<area shape="rect" id="Node000001" title="This class implements a x&#45;." alt="" coords="5,232,193,260"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_volume_stack.html" title="A stack of volumes." alt="" coords="28,157,170,184"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,198,101,233,97,231,97,202"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_volume.html" title="It inherits from GeometryObject for geometry identification." alt="" coords="46,81,152,109"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="100,122,102,157,96,156,98,127"/>
-<area shape="rect" id="Node000004" href="$class_acts_1_1_geometry_object.html" title="Base class to provide GeometryIdentifier interface:" alt="" coords="17,5,181,33"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="100,46,102,81,96,80,98,51"/>
-</map>

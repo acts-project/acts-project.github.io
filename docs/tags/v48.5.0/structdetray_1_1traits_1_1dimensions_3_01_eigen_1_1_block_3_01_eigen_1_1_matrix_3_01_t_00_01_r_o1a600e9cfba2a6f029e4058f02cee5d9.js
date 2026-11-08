@@ -1,7 +1,0 @@
-var structdetray_1_1traits_1_1dimensions_3_01_eigen_1_1_block_3_01_eigen_1_1_matrix_3_01_t_00_01_r_o1a600e9cfba2a6f029e4058f02cee5d9 =
-[
-    [ "index_type", "structdetray_1_1traits_1_1dimensions_3_01_eigen_1_1_block_3_01_eigen_1_1_matrix_3_01_t_00_01_r_o1a600e9cfba2a6f029e4058f02cee5d9.html#ad770406fabdd49e8d3f819ced1935fed", null ],
-    [ "_columns", "structdetray_1_1traits_1_1dimensions_3_01_eigen_1_1_block_3_01_eigen_1_1_matrix_3_01_t_00_01_r_o1a600e9cfba2a6f029e4058f02cee5d9.html#aebe6d4b7d43fd52fb40b21654adefdfa", null ],
-    [ "_dim", "structdetray_1_1traits_1_1dimensions_3_01_eigen_1_1_block_3_01_eigen_1_1_matrix_3_01_t_00_01_r_o1a600e9cfba2a6f029e4058f02cee5d9.html#acd2914ece8a885a0a149c71d1c115ce2", null ],
-    [ "_rows", "structdetray_1_1traits_1_1dimensions_3_01_eigen_1_1_block_3_01_eigen_1_1_matrix_3_01_t_00_01_r_o1a600e9cfba2a6f029e4058f02cee5d9.html#a3fa4eddaa3e706db42d524c5d88fbae2", null ]
-];

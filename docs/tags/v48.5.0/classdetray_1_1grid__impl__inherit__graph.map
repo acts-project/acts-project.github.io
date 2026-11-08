@@ -1,9 +1,0 @@
-<map id="detray::grid_impl&lt; axes_t, bin_t, serializer_t &gt;" name="detray::grid_impl&lt; axes_t, bin_t, serializer_t &gt;">
-<area shape="rect" id="Node000001" title="An N&#45;dimensional grid for object storage." alt="" coords="5,108,208,152"/>
-<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="86,90,94,84,106,81,118,83,127,89,130,98,129,108,124,106,125,99,122,92,116,88,107,86,96,88,90,94"/>
-<area shape="poly" id="edge4_Node000001_Node000001" title=" " alt="" coords="63,94,62,80,69,68,84,59,107,56,133,61,148,73,151,90,142,109,138,106,146,89,144,76,131,65,106,61,86,64,73,71,67,81,68,94"/>
-<area shape="rect" id="Node000002" href="$classdetray_1_1grid__impl.html" title=" " alt="" coords="461,29,665,108"/>
-<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="203,101,231,95,350,80,463,72,458,74,350,85,232,101,204,106"/>
-<area shape="rect" id="Node000003" href="$classdetray_1_1grid__impl.html" title=" " alt="" coords="463,143,663,239"/>
-<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="153,158,191,178,232,193,291,203,351,207,465,205,460,206,350,212,290,208,231,198,189,183,152,163"/>
-</map>

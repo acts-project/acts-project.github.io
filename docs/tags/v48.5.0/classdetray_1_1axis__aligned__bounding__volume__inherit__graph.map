@@ -1,7 +1,0 @@
-<map id="detray::axis_aligned_bounding_volume&lt; shape_t, algebra_t &gt;" name="detray::axis_aligned_bounding_volume&lt; shape_t, algebra_t &gt;">
-<area shape="rect" id="Node000001" title="An axis aligned bounding box of a given." alt="" coords="5,51,204,112"/>
-<area shape="rect" id="Node000002" href="$classdetray_1_1axis__aligned__bounding__volume.html" title=" " alt="" coords="420,8,644,70"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="219,67,421,48,417,52,220,73"/>
-<area shape="rect" id="Node000003" href="$classdetray_1_1axis__aligned__bounding__volume.html" title=" " alt="" coords="420,93,644,155"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="219,96,228,97,422,116,417,118,227,103,219,102"/>
-</map>

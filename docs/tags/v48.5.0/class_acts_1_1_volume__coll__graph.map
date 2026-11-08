@@ -1,7 +1,0 @@
-<map id="Acts::Volume" name="Acts::Volume">
-<area shape="rect" id="Node000001" title="It inherits from GeometryObject for geometry identification." alt="" coords="42,183,149,211"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_geometry_object.html" title="Base class to provide GeometryIdentifier interface:" alt="" coords="13,106,178,134"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,147,98,184,93,182,94,151"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_geometry_identifier.html" title="Identifier for geometry nodes within the geometry hierarchy." alt="" coords="5,5,186,33"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="97,46,98,106,93,105,94,51"/>
-</map>

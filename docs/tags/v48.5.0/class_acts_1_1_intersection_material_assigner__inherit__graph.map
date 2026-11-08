@@ -1,5 +1,0 @@
-<map id="Acts::IntersectionMaterialAssigner" name="Acts::IntersectionMaterialAssigner">
-<area shape="rect" id="Node000001" title="A purely intersection based material assigner on a trial and error basis." alt="" coords="5,81,194,126"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_i_assignment_finder.html" title="Interface for the material mapping that seeks the possible assignment candidates for the material int..." alt="" coords="10,5,189,33"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,47,102,81,97,79,98,51"/>
-</map>

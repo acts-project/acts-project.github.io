@@ -1,5 +1,0 @@
-<map id="detray::propagator&lt; stepper_t, navigator_t, actor_chain_t &gt;" name="detray::propagator&lt; stepper_t, navigator_t, actor_chain_t &gt;">
-<area shape="rect" id="Node000001" title="Templated propagator class, using a stepper and a navigator object in succession." alt="" coords="17,5,185,67"/>
-<area shape="rect" id="Node000002" href="$structdetray_1_1propagator.html" title=" " alt="" coords="5,162,197,224"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,81,104,162,98,161,99,84"/>
-</map>

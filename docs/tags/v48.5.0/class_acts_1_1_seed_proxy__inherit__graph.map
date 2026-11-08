@@ -1,7 +1,0 @@
-<map id="Acts::SeedProxy&lt; read_only &gt;" name="Acts::SeedProxy&lt; read_only &gt;">
-<area shape="rect" id="Node000001" title="A proxy class for accessing individual seeds." alt="" coords="118,5,289,50"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_seed_proxy.html" title=" " alt="" coords="5,123,194,151"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="175,61,114,125,110,121,169,62"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_seed_proxy.html" title=" " alt="" coords="218,123,400,151"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="237,59,299,123,293,123,234,64"/>
-</map>

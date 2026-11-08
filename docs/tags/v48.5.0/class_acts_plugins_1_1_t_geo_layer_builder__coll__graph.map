@@ -1,5 +1,0 @@
-<map id="ActsPlugins::TGeoLayerBuilder" name="ActsPlugins::TGeoLayerBuilder">
-<area shape="rect" id="Node000001" title="This parses the gGeoManager and looks for a defined combination of volume with contained sensitive de..." alt="" coords="5,81,226,109"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_i_layer_builder.html" title="Interface class for ILayerBuilders in a typical | EC&#45; | Central | EC+ | detector setup." alt="" coords="44,5,187,33"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,47,118,82,113,79,114,51"/>
-</map>

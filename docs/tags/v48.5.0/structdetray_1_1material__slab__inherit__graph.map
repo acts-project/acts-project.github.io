@@ -1,5 +1,0 @@
-<map id="detray::material_slab&lt; scalar_t &gt;" name="detray::material_slab&lt; scalar_t &gt;">
-<area shape="rect" id="Node000001" title="Slab structure to be mapped on the mask (plane, cylinder)." alt="" coords="5,5,165,50"/>
-<area shape="rect" id="Node000002" href="$structdetray_1_1material__slab.html" title=" " alt="" coords="5,123,165,168"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,64,88,123,82,122,83,68"/>
-</map>

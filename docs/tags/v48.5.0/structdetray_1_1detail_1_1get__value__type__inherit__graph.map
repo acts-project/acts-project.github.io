@@ -1,7 +1,0 @@
-<map id="detray::detail::get_value_type&lt; T &gt;" name="detray::detail::get_value_type&lt; T &gt;">
-<area shape="rect" id="Node000001" title="Extract the value type of e.g." alt="" coords="5,40,144,85"/>
-<area shape="rect" id="Node000002" href="$structdetray_1_1detail_1_1get__value__type_3_01_t_01_5_01_4.html" title="Extract the pointee type when the input is a raw pointer." alt="" coords="330,5,479,50"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="159,51,331,33,328,38,160,56"/>
-<area shape="rect" id="Node000003" href="$structdetray_1_1detail_1_1get__value__type_3_01container__t_01_4.html" title="Extract a container&#39;s value_type when it is not void." alt="" coords="303,75,506,119"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="159,78,168,79,305,93,300,95,167,85,159,83"/>
-</map>

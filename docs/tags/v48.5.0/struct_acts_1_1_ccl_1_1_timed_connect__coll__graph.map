@@ -1,7 +1,0 @@
-<map id="Acts::Ccl::TimedConnect&lt; Cell, N &gt;" name="Acts::Ccl::TimedConnect&lt; Cell, N &gt;">
-<area shape="rect" id="Node000001" title="Connection type with an added time compatibility requirement." alt="" coords="9,217,188,262"/>
-<area shape="rect" id="Node000002" href="$struct_acts_1_1_ccl_1_1_default_connect.html" title=" " alt="" coords="5,123,192,168"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,181,101,217,96,216,97,185"/>
-<area shape="rect" id="Node000003" href="$struct_acts_1_1_ccl_1_1_default_connect.html" title=" " alt="" coords="5,5,192,50"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="100,64,101,123,96,122,97,68"/>
-</map>

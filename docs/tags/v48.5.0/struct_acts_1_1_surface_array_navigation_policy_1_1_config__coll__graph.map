@@ -1,9 +1,0 @@
-<map id="Acts::SurfaceArrayNavigationPolicy::Config" name="Acts::SurfaceArrayNavigationPolicy::Config">
-<area shape="rect" id="Node000001" title="Config struct to configure the surface array navigation." alt="" coords="59,246,272,291"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="6,128,149,173"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,183,152,245,146,246,102,188"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,150,33"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="78,46,80,128,75,128,77,51"/>
-<area shape="rect" id="Node000004" href="$struct_acts_1_1_extent_envelope.html" title="This struct models a multi&#45;dimensional enveloper along the axis directions." alt="" coords="174,137,333,164"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="237,176,184,248,180,244,232,178"/>
-</map>

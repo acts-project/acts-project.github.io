@@ -1,7 +1,0 @@
-<map id="detray::wire_chamber_config&lt; scalar_t, wire_shape_t &gt;" name="detray::wire_chamber_config&lt; scalar_t, wire_shape_t &gt;">
-<area shape="rect" id="Node000001" title="Configuration for building a wire chamber detector." alt="" coords="38,190,208,252"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,14,78,42"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="35,54,33,110,36,138,45,165,66,189,61,190,41,167,31,139,27,110,34,60"/>
-<area shape="rect" id="Node000003" href="$structdetray_1_1volume__builder__options.html" title="Options for the volume builder classes." alt="" coords="120,5,291,50"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="205,63,198,115,179,167,160,192,157,188,174,165,192,114,202,67"/>
-</map>

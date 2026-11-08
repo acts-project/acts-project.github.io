@@ -1,9 +1,0 @@
-<map id="detray::geometry::surface&lt; det_t &gt;" name="detray::geometry::surface&lt; det_t &gt;">
-<area shape="rect" id="Node000001" title="Facade for a detray detector surface." alt="" coords="92,5,280,50"/>
-<area shape="rect" id="Node000002" href="$classdetray_1_1geometry_1_1surface.html" title=" " alt="" coords="5,123,194,168"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,63,142,76,112,124,107,121,137,72,152,59"/>
-<area shape="rect" id="Node000003" href="$classdetray_1_1geometry_1_1surface.html" title=" " alt="" coords="217,123,406,168"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="227,57,245,72,295,122,289,123,242,76,226,62"/>
-<area shape="rect" id="Node000004" href="$classdetray_1_1tracking__surface.html" title="Facade for a detray detector surface with extra tracking capabilities." alt="" coords="222,217,401,262"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="313,181,314,218,309,215,310,185"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="Acts::ISurfaceMaterialAccumulator::State" name="Acts::ISurfaceMaterialAccumulator::State">
-<area shape="rect" id="Node000001" title="The state of the material accumulator, this is used to cache information across tracks/events." alt="" coords="5,5,252,50"/>
-<area shape="rect" id="Node000002" href="$struct_acts_1_1_binned_surface_material_accumulator_1_1_state.html" title="Nested state struct." alt="" coords="26,98,231,143"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="130,64,131,99,126,97,127,68"/>
-</map>

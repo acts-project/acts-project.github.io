@@ -1,5 +1,0 @@
-<map id="Acts::ConstantBField" name="Acts::ConstantBField">
-<area shape="rect" id="Node000001" title="The simplest magnetic field implementation is a constant field, which returns the same field values a..." alt="" coords="29,81,184,109"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_magnetic_field_provider.html" title="Base class for all magnetic field providers." alt="" coords="5,5,208,33"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,47,109,82,104,79,105,51"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="detray::volume_builder&lt; detector_t &gt;" name="detray::volume_builder&lt; detector_t &gt;">
-<area shape="rect" id="Node000001" title="Provides basic functionality to build detector volumes." alt="" coords="11,98,182,143"/>
-<area shape="rect" id="Node000002" href="$classdetray_1_1volume__builder__interface.html" title="Interface for volume builders (and volume builder decorators)." alt="" coords="5,5,188,50"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,64,99,99,94,97,95,68"/>
-</map>

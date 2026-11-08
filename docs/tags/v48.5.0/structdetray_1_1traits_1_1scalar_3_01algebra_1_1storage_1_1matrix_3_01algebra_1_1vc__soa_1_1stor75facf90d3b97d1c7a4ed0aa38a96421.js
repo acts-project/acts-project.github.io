@@ -1,4 +1,0 @@
-var structdetray_1_1traits_1_1scalar_3_01algebra_1_1storage_1_1matrix_3_01algebra_1_1vc__soa_1_1stor75facf90d3b97d1c7a4ed0aa38a96421 =
-[
-    [ "type", "structdetray_1_1traits_1_1scalar_3_01algebra_1_1storage_1_1matrix_3_01algebra_1_1vc__soa_1_1stor75facf90d3b97d1c7a4ed0aa38a96421.html#a613fafc5f9fa117a1621086c513bcb7a", null ]
-];

@@ -1,5 +1,0 @@
-<map id="detray::io::reader_interface&lt; detector_t &gt;" name="detray::io::reader_interface&lt; detector_t &gt;">
-<area shape="rect" id="Node000001" title="Abstract base class for detray detector component readers." alt="" coords="10,5,192,50"/>
-<area shape="rect" id="Node000002" href="$classdetray_1_1io_1_1json__converter_3_01detector__t_00_01backend__t_01_4.html" title="Class that adds json functionality to backend reader types." alt="" coords="5,98,197,143"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,64,103,99,99,97,99,68"/>
-</map>

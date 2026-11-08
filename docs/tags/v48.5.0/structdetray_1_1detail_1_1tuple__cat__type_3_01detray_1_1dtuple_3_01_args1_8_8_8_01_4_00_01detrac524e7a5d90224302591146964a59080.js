@@ -1,4 +1,0 @@
-var structdetray_1_1detail_1_1tuple__cat__type_3_01detray_1_1dtuple_3_01_args1_8_8_8_01_4_00_01detrac524e7a5d90224302591146964a59080 =
-[
-    [ "type", "structdetray_1_1detail_1_1tuple__cat__type_3_01detray_1_1dtuple_3_01_args1_8_8_8_01_4_00_01detrac524e7a5d90224302591146964a59080.html#acca91975a06b62d6f93c7d30d6174511", null ]
-];

@@ -1,7 +1,0 @@
-<map id="Acts::Experimental::RiddersStepper&lt; stepper_impl_t &gt;::Config" name="Acts::Experimental::RiddersStepper&lt; stepper_impl_t &gt;::Config">
-<area shape="rect" id="Node000001" title="Configuration struct for the RiddersStepper." alt="" coords="41,263,234,325"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,128,270,190"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="139,204,140,264,135,262,136,207"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="59,5,216,33"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="139,46,140,128,135,127,136,51"/>
-</map>

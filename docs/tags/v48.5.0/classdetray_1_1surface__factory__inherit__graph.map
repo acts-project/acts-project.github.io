@@ -1,7 +1,0 @@
-<map id="detray::surface_factory&lt; detector_t, mask_shape_t &gt;" name="detray::surface_factory&lt; detector_t, mask_shape_t &gt;">
-<area shape="rect" id="Node000001" title="Generates a number of surfaces for a volume (can be portals, passives or sensitives) and fills them i..." alt="" coords="5,99,225,144"/>
-<area shape="rect" id="Node000003" href="$classdetray_1_1surface__factory.html" title=" " alt="" coords="8,217,222,262"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="117,158,118,217,112,216,113,162"/>
-<area shape="rect" id="Node000002" href="$classdetray_1_1surface__factory__interface.html" title="How to generate surfaces with their corresponding masks and transforms." alt="" coords="24,5,206,50"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,63,118,99,112,98,114,68"/>
-</map>

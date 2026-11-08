@@ -1,9 +1,0 @@
-<map id="detray::types::contains_impl&lt; T, I, list&lt;&gt; &gt;" name="detray::types::contains_impl&lt; T, I, list&lt;&gt; &gt;">
-<area shape="rect" id="Node000001" title="Report an invalid position after reaching an empty list." alt="" coords="5,200,175,245"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="31,5,149,33"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,47,84,126,87,200,82,200,78,126,82,51"/>
-<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="98,47,102,126,98,201,93,199,96,126,95,51"/>
-<area shape="rect" id="Node000003" href="$structdetray_1_1types_1_1contains__impl.html" title="Does the list contain a particular type?" alt="" coords="140,82,355,127"/>
-<area shape="poly" id="edge4_Node000003_Node000002" title=" " alt="" coords="128,38,209,81,204,83,128,43"/>
-<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="208,136,121,202,118,197,203,137"/>
-</map>

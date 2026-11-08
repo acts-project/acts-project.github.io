@@ -1,7 +1,0 @@
-<map id="Acts::TrackStateType" name="Acts::TrackStateType">
-<area shape="rect" id="Node000001" title="TrackStateTypeBase captured by value." alt="" coords="22,217,178,245"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_track_state_type_base.html" title=" " alt="" coords="5,123,195,168"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,181,102,218,98,215,98,185"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_track_state_type_base.html" title="CRTP base class for TrackStateType and TrackStateTypeMap." alt="" coords="6,5,194,50"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="101,64,103,123,97,122,99,68"/>
-</map>

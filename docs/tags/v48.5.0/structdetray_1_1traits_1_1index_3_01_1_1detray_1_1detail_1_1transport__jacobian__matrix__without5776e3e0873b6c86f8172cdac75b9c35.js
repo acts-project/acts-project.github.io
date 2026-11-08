@@ -1,4 +1,0 @@
-var structdetray_1_1traits_1_1index_3_01_1_1detray_1_1detail_1_1transport__jacobian__matrix__without5776e3e0873b6c86f8172cdac75b9c35 =
-[
-    [ "type", "structdetray_1_1traits_1_1index_3_01_1_1detray_1_1detail_1_1transport__jacobian__matrix__without5776e3e0873b6c86f8172cdac75b9c35.html#a3d0d9106ec7449c898d6172eb26a4bcd", null ]
-];

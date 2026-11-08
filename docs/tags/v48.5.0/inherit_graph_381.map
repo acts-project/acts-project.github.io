@@ -1,9 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$class_acts_1_1_multi_axis_spec.html" title="Specification of a multi&#45;dimensional binning that builds the axes of a grid." alt="" coords="5,57,155,85"/>
-<area shape="rect" id="Node000001" href="$class_acts_1_1_multi_axis_spec_x_d.html" title=" " alt="" coords="203,5,409,33"/>
-<area shape="poly" id="edge186_Node000000_Node000001" title=" " alt="" coords="158,51,245,32,240,35,159,56"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_multi_axis_spec_x_d.html" title=" " alt="" coords="203,57,409,85"/>
-<area shape="poly" id="edge187_Node000000_Node000002" title=" " alt="" coords="170,69,205,70,200,72,171,74"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_multi_axis_spec_x_d.html" title="Multi&#45;dimensional binning spec of a compile&#45;time dimension." alt="" coords="222,109,390,154"/>
-<area shape="poly" id="edge188_Node000000_Node000003" title=" " alt="" coords="150,87,224,108,219,110,149,92"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="Acts::MultiIntersection&lt; DIM &gt;" name="Acts::MultiIntersection&lt; DIM &gt;">
-<area shape="rect" id="Node000001" title="Container for up to two intersections in a given dimension." alt="" coords="139,5,306,50"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_multi_intersection.html" title=" " alt="" coords="5,123,211,151"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,61,123,125,120,121,186,61"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_multi_intersection.html" title=" " alt="" coords="235,123,440,151"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="258,58,326,123,321,123,256,63"/>
-</map>
