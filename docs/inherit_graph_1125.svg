@@ -11,10 +11,10 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="structdetray_1_1types_1_1get__at_3_01_n_00_01list_3_01_t_00_01_ts_8_8_8_01_4_01_4.html" target="_top" xlink:title="Select the type at position N from a nonempty list.">
+<g id="a_Node000000"><a xlink:href="structdetray_1_1types_1_1get__back_3_01list_3_01_t_00_01_ts_8_8_8_01_4_01_4.html" target="_top" xlink:title="Specialization returning the last type of a nonempty list.">
 <polygon fill="white" stroke="#666666" points="135.25,-33.5 0,-33.5 0,0 135.25,0 135.25,-33.5"/>
 <text xml:space="preserve" text-anchor="start" x="8" y="-20" font-family="Helvetica,sans-Serif" font-size="10.00">detray::types::get</text>
-<text xml:space="preserve" text-anchor="middle" x="67.62" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">_at&lt; N, list&lt; T, Ts... &gt; &gt;</text>
+<text xml:space="preserve" text-anchor="middle" x="67.62" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">_back&lt; list&lt; T, Ts... &gt; &gt;</text>
 </a>
 </g>
 </g>

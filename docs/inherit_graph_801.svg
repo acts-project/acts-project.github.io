@@ -11,11 +11,11 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="structdetray_1_1algebra_1_1generic_1_1math_1_1transform3.html" target="_top" xlink:title="Transform wrapper class to ensure standard API within different plugins.">
-<polygon fill="white" stroke="#666666" points="168.25,-46.25 0,-46.25 0,0 168.25,0 168.25,-46.25"/>
+<g id="a_Node000000"><a xlink:href="structdetray_1_1algebra_1_1generic_1_1matrix_1_1decomposition_1_1partial__pivot__lud.html" target="_top" xlink:title="&quot;Partial Pivot LU Decomposition&quot;, assuming a N X N matrix">
+<polygon fill="white" stroke="#666666" points="167.5,-46.25 0,-46.25 0,0 167.5,0 167.5,-46.25"/>
 <text xml:space="preserve" text-anchor="start" x="8" y="-32.75" font-family="Helvetica,sans-Serif" font-size="10.00">detray::algebra::generic</text>
-<text xml:space="preserve" text-anchor="start" x="8" y="-20" font-family="Helvetica,sans-Serif" font-size="10.00">::math::transform3&lt; index</text>
-<text xml:space="preserve" text-anchor="middle" x="84.12" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">_t, scalar_t, matrix_t, array_t &gt;</text>
+<text xml:space="preserve" text-anchor="start" x="8" y="-20" font-family="Helvetica,sans-Serif" font-size="10.00">::matrix::decomposition</text>
+<text xml:space="preserve" text-anchor="middle" x="83.75" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">::partial_pivot_lud&lt; matrix_t &gt;</text>
 </a>
 </g>
 </g>

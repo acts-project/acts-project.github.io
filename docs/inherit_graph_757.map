@@ -1,5 +1,11 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" title=" " alt="" coords="5,5,205,118"/>
-<area shape="rect" id="Node000001" href="$classdetray_1_1line__stepper.html" title="Straight line stepper implementation." alt="" coords="253,31,440,92"/>
-<area shape="poly" id="edge289_Node000000_Node000001" title=" " alt="" coords="220,59,255,61,249,62,220,64"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,160,145,188"/>
+<area shape="rect" id="Node000001" href="$struct_acts_1_1_propagator_result.html" title=" " alt="" coords="193,5,407,50"/>
+<area shape="poly" id="edge291_Node000000_Node000001" title=" " alt="" coords="95,147,137,103,163,80,191,60,218,49,214,52,194,65,166,84,140,107,99,150"/>
+<area shape="rect" id="Node000002" href="$struct_acts_1_1_propagator_state.html" title=" " alt="" coords="198,74,402,170"/>
+<area shape="poly" id="edge292_Node000000_Node000002" title=" " alt="" coords="152,154,200,144,196,148,154,159"/>
+<area shape="rect" id="Node000003" href="$struct_acts_1_1_propagator_result.html" title="Simple class holding result of propagation call." alt="" coords="215,194,384,256"/>
+<area shape="poly" id="edge293_Node000000_Node000003" title=" " alt="" coords="154,189,217,205,212,207,154,195"/>
+<area shape="rect" id="Node000004" href="$struct_acts_1_1_propagator_state.html" title="private Propagator state for navigation and debugging" alt="" coords="194,280,406,359"/>
+<area shape="poly" id="edge294_Node000000_Node000004" title=" " alt="" coords="104,196,146,231,194,265,216,280,211,280,191,270,143,235,103,202"/>
 </map>

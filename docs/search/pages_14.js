@@ -8,7 +8,7 @@ var searchData=
   ['open_20items_5',['Limitations and open items',['../alignment_composite_jacobians.html#autotoc_md101',1,'']]],
   ['opendatadetector_6',['The OpenDataDetector',['../building_acts.html#autotoc_md107',1,'']]],
   ['optional_7',['Install Go pprof (Optional)',['../howto_profiling.html#autotoc_md117',1,'']]],
-  ['optional_20quantization_8',['Optional quantization',['../material_map_json_schema.html#autotoc_md171',1,'']]],
+  ['optional_20quantization_8',['Optional quantization',['../material_map_json_schema.html#autotoc_md170',1,'']]],
   ['options_9',['Build options',['../building_acts.html#build-options',1,'']]],
   ['other_20systems_10',['Other Systems',['../howto_profiling.html#autotoc_md115',1,'']]],
   ['output_11',['output',['../group__python__data__io.html#autotoc_md59',1,'Event data input and output'],['../group__gsf.html#gsf-passes',1,'Forward/backward passes and output']]],

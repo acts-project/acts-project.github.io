@@ -1,7 +1,7 @@
 var searchData=
 [
   ['k_0',['k',['../struct_acts_1_1_eigen_stepper_default_extension.html#a77f7a2639c0c6ce76bc6bb9988209e99',1,'Acts::EigenStepperDefaultExtension::k()'],['../struct_acts_1_1_eigen_stepper_dense_extension.html#ab0e3dcfaf673c8d6c59286a583b3ff68',1,'Acts::EigenStepperDenseExtension::k()']]],
-  ['k_20b_20x_20y_20z_20m_1',['k B x y z M',['../group__magnetic__field.html#autotoc_md178',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||'],['../group__root__plugin.html#autotoc_md184',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||']]],
+  ['k_20b_20x_20y_20z_20m_1',['k B x y z M',['../group__magnetic__field.html#autotoc_md177',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||'],['../group__root__plugin.html#autotoc_md183',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||']]],
   ['k1_2',['k1',['../struct_acts_1_1_eigen_stepper_1_1_state.html#a0f360a26bd1560084a5d48a757a837e7',1,'Acts::EigenStepper::State']]],
   ['k_5fmax_5fpi_3',['k_max_pi',['../structdetray_1_1uniform__track__generator__config.html#a361f1468509930160cf8da24448c155b',1,'detray::uniform_track_generator_config']]],
   ['kalman_20filter_4',['Combinatorial Kalman Filter',['../tracking.html#combinatorial-kalman-filter',1,'']]],
@@ -28,7 +28,7 @@ var searchData=
   ['keyedsurfacematerial_25',['KeyedSurfaceMaterial',['../struct_acts_1_1_keyed_surface_material.html',1,'Acts']]],
   ['keyedsurfacematerialmaps_26',['KeyedSurfaceMaterialMaps',['../namespace_acts.html#aced2304433e8c9b412679158ae856142',1,'Acts']]],
   ['keyedsurfaces_27',['keyedSurfaces',['../struct_acts_1_1_tracking_geometry_material.html#a4c2e14fa9c81f78f19cfdf6951bf9778',1,'Acts::TrackingGeometryMaterial']]],
-  ['keys_28',['keys',['../material_mapping_howto.html#autotoc_md150',1,'Stable surface assignment keys'],['../material_map_json_format.html#autotoc_md168',1,'Stable surface assignment keys']]],
+  ['keys_28',['keys',['../material_mapping_howto.html#autotoc_md150',1,'Stable surface assignment keys'],['../material_map_json_format.html#autotoc_md167',1,'Stable surface assignment keys']]],
   ['kfinalmulticomponentstatecolumn_29',['kFinalMultiComponentStateColumn',['../namespace_acts_1_1_gsf_constants.html#a8005ac628397542f6fc55da86ad78bed',1,'Acts::GsfConstants']]],
   ['kfullsize_30',['kFullSize',['../class_acts_1_1_variable_subspace_helper.html#ac4fd465ebe8f461c5c13621ce41b61c1',1,'Acts::VariableSubspaceHelper::kFullSize'],['../class_acts_1_1_fixed_subspace_helper.html#a545feac78cbf5e4e8d4599e60e095fd6',1,'Acts::FixedSubspaceHelper::kFullSize']]],
   ['kfwdmaxmaterialxoverx0_31',['kFwdMaxMaterialXOverX0',['../namespace_acts_1_1_gsf_constants.html#a8370f5e21c19127e3c309a9807ad9297',1,'Acts::GsfConstants']]],

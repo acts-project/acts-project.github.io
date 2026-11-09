@@ -11,9 +11,9 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="structdetray_1_1traits_1_1index_3_01_eigen_1_1_block_3_01_eigen_1_1_matrix_3_01_t_00_01_r_o_w_s_510373b27aa54ba888a8db335b026fd1.html" target="_top" xlink:title="Index trait specialization for a fixed Eigen matrix block.">
+<g id="a_Node000000"><a xlink:href="structdetray_1_1traits_1_1matrix_3_01_eigen_1_1_block_3_01_eigen_1_1_matrix_3_01_t_00_01_r_o_w_s77ced41dfecd0a6d8f21b9e509d010e8.html" target="_top" xlink:title="Matrix trait for an Eigen block expression.">
 <polygon fill="white" stroke="#666666" points="162.25,-71.75 0,-71.75 0,0 162.25,0 162.25,-71.75"/>
-<text xml:space="preserve" text-anchor="start" x="8" y="-58.25" font-family="Helvetica,sans-Serif" font-size="10.00">detray::traits::index</text>
+<text xml:space="preserve" text-anchor="start" x="8" y="-58.25" font-family="Helvetica,sans-Serif" font-size="10.00">detray::traits::matrix</text>
 <text xml:space="preserve" text-anchor="start" x="8" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; Eigen::Block&lt; Eigen</text>
 <text xml:space="preserve" text-anchor="start" x="8" y="-32.75" font-family="Helvetica,sans-Serif" font-size="10.00">::Matrix&lt; T, ROWS, COLS,</text>
 <text xml:space="preserve" text-anchor="start" x="8" y="-20" font-family="Helvetica,sans-Serif" font-size="10.00"> OPT, ROWS, COLS &gt;, bROWS,</text>

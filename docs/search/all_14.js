@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['n_0',['N',['../struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html#a462cc9bc8a9fc9c00a9d79fc9c8d6e09',1,'Acts::InterpolatedBFieldMap::FieldCell::N'],['../struct_acts_1_1_material_map_lookup_1_1_material_cell.html#a8d259edab66cba82a13643fba5699c29',1,'Acts::MaterialMapLookup::MaterialCell::N']]],
+  ['n_0',['N',['../struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html#a462cc9bc8a9fc9c00a9d79fc9c8d6e09',1,'Acts::InterpolatedBFieldMap::FieldCell']]],
   ['n_5fbins_1',['n_bins',['../structdetray_1_1material__map__config_1_1map__config.html#a0d3341fbc44f103afc75f8feeaa61e53',1,'detray::material_map_config::map_config']]],
   ['n_5fbrl_5flayers_2',['n_brl_layers',['../structdetray_1_1toy__det__config.html#ae4a4104c193643284c4627d14e6e33ab',1,'detray::toy_det_config::n_brl_layers(const unsigned int n)'],['../structdetray_1_1toy__det__config.html#ac127353ee453388a34a9936a8bfd61a8',1,'detray::toy_det_config::n_brl_layers() const']]],
   ['n_5fcandidates_3',['n_candidates',['../classdetray_1_1direct__navigator_1_1state.html#ac4aa57b26b16a79e6033d0b2de87eec5',1,'detray::direct_navigator::state::n_candidates()'],['../classdetray_1_1navigation_1_1base__state.html#a4d975c701d1ca74e7e9feb27ae9fabed',1,'detray::navigation::base_state::n_candidates()'],['../classdetray_1_1navigator_1_1state.html#a6e95893c9bc335d2bdddaaa92695b231',1,'detray::navigator::state::n_candidates()']]],

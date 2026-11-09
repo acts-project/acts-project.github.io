@@ -29,10 +29,6 @@ var group__material__mapping =
       [ "trackVariance", "class_acts_1_1_accumulated_surface_material.html#a460f7cde2af9efed6973cae280fa3082", null ],
       [ "trackVariance", "class_acts_1_1_accumulated_surface_material.html#aa84d92bf9ceebdc19d237b080f462301", null ]
     ] ],
-    [ "Acts::AccumulatedVolumeMaterial", "class_acts_1_1_accumulated_volume_material.html", [
-      [ "accumulate", "class_acts_1_1_accumulated_volume_material.html#a0254a8dcffda8a43c82fdc074126efb6", null ],
-      [ "average", "class_acts_1_1_accumulated_volume_material.html#a2c0c2e316e9d65219d3a8a4d0ed3473b", null ]
-    ] ],
     [ "Acts::BinnedSurfaceMaterialAccumulator", "class_acts_1_1_binned_surface_material_accumulator.html", [
       [ "Config", "struct_acts_1_1_binned_surface_material_accumulator_1_1_config.html", [
         [ "emptyBinCorrection", "struct_acts_1_1_binned_surface_material_accumulator_1_1_config.html#ae69930fa2dc55092a18ebb7edbe8a076", null ],

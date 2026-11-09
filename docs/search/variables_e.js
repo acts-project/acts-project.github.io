@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['n_0',['N',['../struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html#a462cc9bc8a9fc9c00a9d79fc9c8d6e09',1,'Acts::InterpolatedBFieldMap::FieldCell::N'],['../struct_acts_1_1_material_map_lookup_1_1_material_cell.html#a8d259edab66cba82a13643fba5699c29',1,'Acts::MaterialMapLookup::MaterialCell::N']]],
+  ['n_0',['N',['../struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html#a462cc9bc8a9fc9c00a9d79fc9c8d6e09',1,'Acts::InterpolatedBFieldMap::FieldCell']]],
   ['n_5fbins_1',['n_bins',['../structdetray_1_1material__map__config_1_1map__config.html#a0d3341fbc44f103afc75f8feeaa61e53',1,'detray::material_map_config::map_config']]],
   ['n_5fgood_5ftracks_2',['n_good_tracks',['../structdetray_1_1navigation__validator_1_1track__statistics.html#ab0fcd88aedb1cfab1123936d5e4079e9',1,'detray::navigation_validator::track_statistics']]],
   ['n_5fgrids_3',['n_grids',['../structdetray_1_1io_1_1grid__sub__header__payload.html#af0170eaa2732fa9c33c35e88d6797f24',1,'detray::io::grid_sub_header_payload']]],

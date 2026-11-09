@@ -2,7 +2,6 @@ var hierarchy =
 [
     [ "Acts::AccumulatedMaterialSlab", "class_acts_1_1_accumulated_material_slab.html", null ],
     [ "Acts::AccumulatedSurfaceMaterial", "class_acts_1_1_accumulated_surface_material.html", null ],
-    [ "Acts::AccumulatedVolumeMaterial", "class_acts_1_1_accumulated_volume_material.html", null ],
     [ "Acts::ActorHasResultStruct&lt; actor_t &gt;", "struct_acts_1_1_actor_has_result_struct.html", null ],
     [ "Acts::ActorList&lt; actors_t &gt;", "struct_acts_1_1_actor_list.html", null ],
     [ "Acts::ActorResultTypeExtractor&lt; T &gt;", "struct_acts_1_1_actor_result_type_extractor.html", null ],
@@ -427,10 +426,6 @@ var hierarchy =
     ] ],
     [ "Acts::IGrid", "class_acts_1_1_i_grid.html", [
       [ "Acts::Grid< const TrackingVolume *, Axes... >", "class_acts_1_1_grid.html", null ],
-      [ "Acts::Grid< Acts::AccumulatedVolumeMaterial, EAxis, EAxis >", "class_acts_1_1_grid.html", null ],
-      [ "Acts::Grid< Acts::AccumulatedVolumeMaterial, EAxis, EAxis, EAxis >", "class_acts_1_1_grid.html", null ],
-      [ "Acts::Grid< Acts::Material::ParametersVector, EAxis, EAxis >", "class_acts_1_1_grid.html", null ],
-      [ "Acts::Grid< Acts::Material::ParametersVector, EAxis, EAxis, EAxis >", "class_acts_1_1_grid.html", null ],
       [ "Acts::Grid< HoughCell< identifier_t >, Axis, Axis >", "class_acts_1_1_grid.html", null ],
       [ "Acts::Grid< T, Axis< AxisType::Equidistant, aType > >", "class_acts_1_1_grid.html", null ],
       [ "Acts::Grid< T, Axis< AxisType::Variable, aType > >", "class_acts_1_1_grid.html", null ],
@@ -492,7 +487,6 @@ var hierarchy =
     [ "Acts::InterpolatedBFieldMap&lt; grid_t &gt;::Cache", "struct_acts_1_1_interpolated_b_field_map_1_1_cache.html", null ],
     [ "Acts::InterpolatedBFieldMap&lt; grid_t &gt;::Config", "struct_acts_1_1_interpolated_b_field_map_1_1_config.html", null ],
     [ "Acts::InterpolatedBFieldMap&lt; grid_t &gt;::FieldCell", "struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html", null ],
-    [ "Acts::InterpolatedMaterialMap&lt; Mapper_t &gt;::Cache", "struct_acts_1_1_interpolated_material_map_1_1_cache.html", null ],
     [ "Acts::Intersection&lt; DIM &gt;", "class_acts_1_1_intersection.html", null ],
     [ "Acts::IntersectionMaterialAssigner::Config", "struct_acts_1_1_intersection_material_assigner_1_1_config.html", null ],
     [ "Acts::IReferenceGenerator", "struct_acts_1_1_i_reference_generator.html", [
@@ -564,7 +558,6 @@ var hierarchy =
     ] ],
     [ "Acts::IVolumeMaterial", "class_acts_1_1_i_volume_material.html", [
       [ "Acts::HomogeneousVolumeMaterial", "class_acts_1_1_homogeneous_volume_material.html", null ],
-      [ "Acts::InterpolatedMaterialMap< Mapper_t >", "class_acts_1_1_interpolated_material_map.html", null ],
       [ "Acts::ProtoVolumeMaterial", "class_acts_1_1_proto_volume_material.html", null ]
     ] ],
     [ "Acts::IVolumeMaterialJsonDecorator", "class_acts_1_1_i_volume_material_json_decorator.html", null ],
@@ -616,8 +609,6 @@ var hierarchy =
     [ "Acts::MaterialInteractor", "struct_acts_1_1_material_interactor.html", null ],
     [ "Acts::MaterialMapJsonConverter", "class_acts_1_1_material_map_json_converter.html", null ],
     [ "Acts::MaterialMapJsonConverter::Config", "class_acts_1_1_material_map_json_converter_1_1_config.html", null ],
-    [ "Acts::MaterialMapLookup&lt; G &gt;", "struct_acts_1_1_material_map_lookup.html", null ],
-    [ "Acts::MaterialMapLookup&lt; G &gt;::MaterialCell", "struct_acts_1_1_material_map_lookup_1_1_material_cell.html", null ],
     [ "Acts::MaterialMapper", "class_acts_1_1_material_mapper.html", null ],
     [ "Acts::MaterialMapper::Config", "struct_acts_1_1_material_mapper_1_1_config.html", null ],
     [ "Acts::MaterialMapper::Options", "struct_acts_1_1_material_mapper_1_1_options.html", null ],

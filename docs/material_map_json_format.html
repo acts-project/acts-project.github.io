@@ -349,9 +349,6 @@ Material slabs</h3>
 <span class="tt">merged-material-marker</span></h3>
 <p>A sentinel left behind by <a class="el" href="class_acts_1_1_portal.html#a326d4d68f36fe1b29bb9a52287807dc9">Acts::Portal::merge</a> when the material of two merged portal surfaces had to be dropped. Its payload is just the tag and <span class="tt">mapMaterial</span>; it carries no material, only the information that something was lost here.</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md167"></a>
-Volume material payloads</h2>
-<p>Volume material entries are written by a separate, older converter and use their own tags: <span class="tt">homogeneous</span> (a single <a class="el" href="class_acts_1_1_material.html">Acts::Material</a> parameter vector under <span class="tt">data</span>, as in the example above), <span class="tt">proto</span> (a <span class="tt">binUtility</span> only), and <span class="tt">interpolated2D</span> / <span class="tt">interpolated3D</span> (a <span class="tt">binUtility</span> plus one parameter vector per bin). The tags overlap with the surface ones by accident; the two lists live under different top level keys and are never mixed.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md168"></a>
 Stable surface assignment keys</h2>
 <p>For configuration, mapping, and application, see <a class="el" href="material_mapping_howto.html#material_mapping_stable_keys">material_mapping_stable_keys</a> in the material-mapping guide.</p>
 <p>Maps with keyed assignments add a <span class="tt">KeyedSurfaces</span> section:</p>

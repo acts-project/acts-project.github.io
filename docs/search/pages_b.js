@@ -31,5 +31,5 @@ var searchData=
   ['from_20json_28',['Loading detector geometry from JSON',['../group__python__data__io.html#autotoc_md63',1,'']]],
   ['from_20scratch_29',['How to create a track from scratch',['../group__eventdata__tracks.html#autotoc_md29',1,'']]],
   ['function_30',['&lt;span class=&quot;tt&quot;&gt;getDefaultLogger&lt;/span&gt; Factory Function',['../group__logging.html#autotoc_md45',1,'']]],
-  ['functions_31',['functions',['../_combinatorial_seed_solver_8hpp.html#autotoc_md180',1,'The 3-layer combinatorics functions'],['../_combinatorial_seed_solver_8hpp.html#autotoc_md179',1,'The 4-layer combinatorics functions']]]
+  ['functions_31',['functions',['../_combinatorial_seed_solver_8hpp.html#autotoc_md179',1,'The 3-layer combinatorics functions'],['../_combinatorial_seed_solver_8hpp.html#autotoc_md178',1,'The 4-layer combinatorics functions']]]
 ];

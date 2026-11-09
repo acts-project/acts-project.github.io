@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['m_0',['M',['../group__magnetic__field.html#autotoc_md177',1,'|| r | i || z | j || |B(r,z)| || M ||'],['../group__root__plugin.html#autotoc_md183',1,'|| r | i || z | j || |B(r,z)| || M ||'],['../group__magnetic__field.html#autotoc_md178',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||'],['../group__root__plugin.html#autotoc_md184',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||']]],
+  ['m_0',['M',['../group__magnetic__field.html#autotoc_md176',1,'|| r | i || z | j || |B(r,z)| || M ||'],['../group__root__plugin.html#autotoc_md182',1,'|| r | i || z | j || |B(r,z)| || M ||'],['../group__magnetic__field.html#autotoc_md177',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||'],['../group__root__plugin.html#autotoc_md183',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||']]],
   ['machine_1',['On your local machine',['../building_acts.html#autotoc_md105',1,'']]],
   ['machine_20learning_20assisted_20acceptance_2',['Machine-learning assisted acceptance',['../group__gbts.html#gbts-ml',1,'']]],
   ['macros_3',['Using Logging Macros',['../group__logging.html#autotoc_md41',1,'']]],
@@ -21,7 +21,7 @@ var searchData=
   ['material_20mapping_18',['Material mapping',['../material_mapping_howto.html',1,'Material mapping'],['../material_mapping_howto.html#autotoc_md142',1,'Material mapping']]],
   ['material_20marker_19',['&lt;span class=&quot;tt&quot;&gt;merged-material-marker&lt;/span&gt;',['../material_map_json_format.html#autotoc_md166',1,'']]],
   ['material_20modelling_20',['Geometry and material modelling',['../tracking.html#geometry-and-material-modelling',1,'']]],
-  ['material_20payloads_21',['material payloads',['../material_map_json_format.html#autotoc_md161',1,'Surface material payloads'],['../material_map_json_format.html#autotoc_md167',1,'Volume material payloads']]],
+  ['material_20payloads_21',['Surface material payloads',['../material_map_json_format.html#autotoc_md161',1,'']]],
   ['material_20slabs_22',['Material slabs',['../material_map_json_format.html#autotoc_md162',1,'']]],
   ['material_20with_20geant4_23',['Step 2: record the material with Geant4',['../material_mapping_howto.html#autotoc_md151',1,'']]],
   ['member_20logger_20pattern_24',['Member Logger Pattern',['../group__logging.html#autotoc_md42',1,'']]],

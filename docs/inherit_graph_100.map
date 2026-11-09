@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$class_acts_1_1_d_b_scan.html" title="A general implementation of an N dimensional DBScan clustering algorithm." alt="" coords="5,5,174,50"/>
+<area shape="rect" id="Node000000" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="5,5,214,50"/>
+<area shape="rect" id="Node000001" href="$class_acts_1_1_owning_delegate_3_01_r_07_args_8_8_8_08_00_01_h_01_4.html" title="Alias for an owning delegate." alt="" coords="262,5,427,50"/>
+<area shape="poly" id="edge33_Node000000_Node000001" title=" " alt="" coords="229,25,264,28,258,28,229,30"/>
 </map>

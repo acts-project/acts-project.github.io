@@ -1,3 +1,51 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$struct_acts_1_1_geometry_identifier_hook.html" title="Base class for hooks that can be used to modify the Geometry Identifier during construction." alt="" coords="5,5,220,33"/>
+<area shape="rect" id="Node000000" href="$class_acts_1_1_geometry_object.html" title="Base class to provide GeometryIdentifier interface:" alt="" coords="5,161,170,189"/>
+<area shape="rect" id="Node000001" href="$class_acts_1_1_layer.html" title="Base Class for a Detector Layer in the Tracking Geometry." alt="" coords="632,161,725,189"/>
+<area shape="poly" id="edge67_Node000000_Node000001" title=" " alt="" coords="185,173,632,173,630,178,186,178"/>
+<area shape="rect" id="Node000011" href="$class_acts_1_1_surface.html" title="Abstract Base Class for tracking surfaces." alt="" coords="218,244,324,272"/>
+<area shape="poly" id="edge73_Node000000_Node000011" title=" " alt="" coords="134,193,241,242,236,245,134,198"/>
+<area shape="rect" id="Node000018" href="$class_acts_1_1_volume.html" title="It inherits from GeometryObject for geometry identification." alt="" coords="218,111,324,138"/>
+<area shape="poly" id="edge87_Node000000_Node000018" title=" " alt="" coords="153,154,220,137,216,141,156,159"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_cone_layer.html" title="Class to describe a conical detector layer for tracking, it inherits from both, Layer base class and ..." alt="" coords="844,213,970,241"/>
+<area shape="poly" id="edge68_Node000001_Node000002" title=" " alt="" coords="740,186,846,213,841,213,740,192"/>
+<area shape="rect" id="Node000006" href="$class_acts_1_1_cylinder_layer.html" title="Class to describe a cylindrical detector layer for tracking, it inherits from both,..." alt="" coords="833,109,980,137"/>
+<area shape="poly" id="edge69_Node000001_Node000006" title=" " alt="" coords="740,159,845,137,840,138,741,164"/>
+<area shape="rect" id="Node000008" href="$class_acts_1_1_disc_layer.html" title="Class to describe a disc&#45;like detector layer for tracking, it inherits from both, Layer base class an..." alt="" coords="846,317,968,345"/>
+<area shape="poly" id="edge70_Node000001_Node000008" title=" " alt="" coords="740,181,761,188,778,200,790,213,798,226,804,252,809,278,816,290,826,302,849,318,843,317,823,307,811,293,804,280,798,253,793,228,786,216,775,204,758,193,740,186"/>
+<area shape="rect" id="Node000017" href="$class_acts_1_1_navigation_layer.html" title="Class to be used for gaps in Volumes as a navigational link." alt="" coords="825,161,989,189"/>
+<area shape="poly" id="edge71_Node000001_Node000017" title=" " alt="" coords="740,173,827,175,822,176,741,178"/>
+<area shape="rect" id="Node000010" href="$class_acts_1_1_plane_layer.html" title="Class to describe a planar detector layer for tracking, it inherits from both, Layer base class and P..." alt="" coords="842,265,972,293"/>
+<area shape="poly" id="edge72_Node000001_Node000010" title=" " alt="" coords="740,184,778,200,794,212,803,225,812,238,826,250,852,265,847,264,823,255,808,242,799,228,790,216,775,204,740,189"/>
+<area shape="rect" id="Node000012" href="$class_acts_1_1_line_surface.html" title="Base class for a linear surfaces in the TrackingGeometry to describe dirft tube, straw like detectors..." alt="" coords="386,369,519,397"/>
+<area shape="poly" id="edge74_Node000011_Node000012" title=" " alt="" coords="306,278,433,368,428,369,304,283"/>
+<area shape="rect" id="Node000015" href="$class_acts_1_1_point_surface.html" title="Surface describing the point of closest approach (PCA) of a track to a single fixed 3D point (the sur..." alt="" coords="382,213,522,241"/>
+<area shape="poly" id="edge77_Node000011_Node000015" title=" " alt="" coords="338,244,385,238,380,240,340,249"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_regular_surface.html" title="A physical surface which does not depend on the direction you look at it from." alt="" coords="374,265,530,293"/>
+<area shape="poly" id="edge78_Node000011_Node000004" title=" " alt="" coords="339,263,376,269,371,270,340,269"/>
+<area shape="rect" id="Node000013" href="$class_acts_1_1_perigee_surface.html" title="Class describing the Line to which the Perigee refers to." alt="" coords="601,421,756,449"/>
+<area shape="poly" id="edge75_Node000012_Node000013" title=" " alt="" coords="531,398,617,421,612,421,530,404"/>
+<area shape="rect" id="Node000014" href="$class_acts_1_1_straw_surface.html" title="Class for a StrawSurface in the TrackingGeometry to describe dirft tube and straw like detectors." alt="" coords="607,369,750,397"/>
+<area shape="poly" id="edge76_Node000012_Node000014" title=" " alt="" coords="534,381,609,383,604,383,535,386"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_cone_surface.html" title="Class for a conical surface in the Tracking geometry." alt="" coords="609,213,748,241"/>
+<area shape="poly" id="edge79_Node000004_Node000003" title=" " alt="" coords="530,259,617,241,612,242,531,264"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_cylinder_surface.html" title="Class for a CylinderSurface in the TrackingGeometry." alt="" coords="598,109,759,137"/>
+<area shape="poly" id="edge81_Node000004_Node000005" title=" " alt="" coords="525,255,530,251,541,238,548,226,553,200,559,174,567,161,579,148,598,139,602,136,582,152,571,164,564,176,559,201,553,228,546,241,534,254,528,260"/>
+<area shape="rect" id="Node000007" href="$class_acts_1_1_disc_surface.html" title="Class for a disc surface (or a segment thereof)." alt="" coords="611,317,746,345"/>
+<area shape="poly" id="edge83_Node000004_Node000007" title=" " alt="" coords="531,294,617,316,612,317,531,300"/>
+<area shape="rect" id="Node000009" href="$class_acts_1_1_plane_surface.html" title="Class for a planaer in the TrackingGeometry." alt="" coords="607,265,750,293"/>
+<area shape="poly" id="edge85_Node000004_Node000009" title=" " alt="" coords="545,277,609,279,604,280,546,282"/>
+<area shape="poly" id="edge80_Node000003_Node000002" title=" " alt="" coords="764,225,846,227,840,228,764,230"/>
+<area shape="poly" id="edge82_Node000005_Node000006" title=" " alt="" coords="773,121,835,123,830,124,774,126"/>
+<area shape="poly" id="edge84_Node000007_Node000008" title=" " alt="" coords="761,329,848,331,843,331,762,334"/>
+<area shape="poly" id="edge86_Node000009_Node000010" title=" " alt="" coords="765,277,844,279,839,279,765,282"/>
+<area shape="rect" id="Node000019" href="$class_acts_1_1_tracking_volume.html" title="Full Volume description used in Tracking, it inherits from Volume to get the geometrical structure." alt="" coords="372,111,532,138"/>
+<area shape="poly" id="edge88_Node000018_Node000019" title=" " alt="" coords="339,122,374,123,369,126,341,127"/>
+<area shape="rect" id="Node000020" href="$class_acts_1_1_volume_stack.html" title="A stack of volumes." alt="" coords="381,57,523,85"/>
+<area shape="poly" id="edge89_Node000018_Node000020" title=" " alt="" coords="333,103,405,84,400,87,336,108"/>
+<area shape="rect" id="Node000021" href="$class_acts_1_1_cuboid_volume_stack.html" title="This class implements a x&#45;." alt="" coords="585,57,772,85"/>
+<area shape="poly" id="edge90_Node000020_Node000021" title=" " alt="" coords="538,69,587,70,582,72,540,74"/>
+<area shape="rect" id="Node000022" href="$class_acts_1_1_cylinder_volume_stack.html" title="This class implements a z&#45;aligned or r&#45;aligned stack of cylinder volumes with synchronized bounds." alt="" coords="580,5,777,33"/>
+<area shape="poly" id="edge91_Node000020_Node000022" title=" " alt="" coords="530,51,617,32,612,35,532,56"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="15,236,160,280"/>
+<area shape="poly" id="edge92_Node000016_Node000011" title=" " alt="" coords="175,255,219,257,215,259,176,260"/>
 </map>

@@ -101,23 +101,6 @@ var group__material =
       [ "geometryId", "struct_acts_1_1_interaction_volume.html#a0b8c377680d4af652edebf0111dc95a7", null ],
       [ "trackingVolume", "struct_acts_1_1_interaction_volume.html#a77d495eabb2b1af7b014e4686d56485d", null ]
     ] ],
-    [ "Acts::InterpolatedMaterialMap&lt; Mapper_t &gt;", "class_acts_1_1_interpolated_material_map.html", [
-      [ "Cache", "struct_acts_1_1_interpolated_material_map_1_1_cache.html", [
-        [ "initialized", "struct_acts_1_1_interpolated_material_map_1_1_cache.html#acb0bf22899fd4caa0f5daa3985187509", null ],
-        [ "matCell", "struct_acts_1_1_interpolated_material_map_1_1_cache.html#aee4de0ac7b3e281317d6d19a5e3f51da", null ]
-      ] ],
-      [ "InterpolatedMaterialMap", "class_acts_1_1_interpolated_material_map.html#afade92faa2a0f37685b4d6b6c689cc5d", null ],
-      [ "InterpolatedMaterialMap", "class_acts_1_1_interpolated_material_map.html#a61f53b1773fd14623cb5fa863ad782a7", null ],
-      [ "binUtility", "class_acts_1_1_interpolated_material_map.html#a618655f0d3f9f1a2fc296c842ffa43f5", null ],
-      [ "getMapper", "class_acts_1_1_interpolated_material_map.html#a6e45cb9ad2b2e182fc0906e11fc51445", null ],
-      [ "getMaterial", "class_acts_1_1_interpolated_material_map.html#a446e7e28fb456464dde02e2510ad38c8", null ],
-      [ "getMaterial", "class_acts_1_1_interpolated_material_map.html#a70ddbf71ca1995611ea3e5248ad7c2f0", null ],
-      [ "getMaterialGradient", "class_acts_1_1_interpolated_material_map.html#a0e24c0dd55dbbe9dacf17e0fed2b59af", null ],
-      [ "getMaterialGradient", "class_acts_1_1_interpolated_material_map.html#aaaef693094374616b614933404427ff1", null ],
-      [ "isInside", "class_acts_1_1_interpolated_material_map.html#a2e9fb09de766586179efd55d5cc791e6", null ],
-      [ "material", "class_acts_1_1_interpolated_material_map.html#a08b9e93a210c8c3fba82d79c91e67c4c", null ],
-      [ "toStream", "class_acts_1_1_interpolated_material_map.html#a8aed80aca40331b159cd7b0d9f486005", null ]
-    ] ],
     [ "Acts::ISurfaceMaterial", "class_acts_1_1_i_surface_material.html", [
       [ "ISurfaceMaterial", "class_acts_1_1_i_surface_material.html#a4b85724677f00d18e8f6939aa0b85837", null ],
       [ "ISurfaceMaterial", "class_acts_1_1_i_surface_material.html#a6d3255357711ef99fe2b761675deebad", null ],
@@ -159,25 +142,6 @@ var group__material =
       [ "X0", "class_acts_1_1_material.html#ab368d9810d904fe1486228fbaa6f03b7", null ],
       [ "Z", "class_acts_1_1_material.html#a72156b7dd532f65bc23ac011e3a51161", null ],
       [ "operator==", "class_acts_1_1_material.html#a533a7f5ac8146ec992f5330f307c7fd7", null ]
-    ] ],
-    [ "Acts::MaterialMapLookup&lt; G &gt;", "struct_acts_1_1_material_map_lookup.html", [
-      [ "MaterialCell", "struct_acts_1_1_material_map_lookup_1_1_material_cell.html", [
-        [ "MaterialCell", "struct_acts_1_1_material_map_lookup_1_1_material_cell.html#a447ddc3fe86b30e01125b66c0d29112e", null ],
-        [ "getMaterial", "struct_acts_1_1_material_map_lookup_1_1_material_cell.html#a7aae18920dedea7de8a59eb0682a89e9", null ],
-        [ "isInside", "struct_acts_1_1_material_map_lookup_1_1_material_cell.html#a1a257c46b79aa8799e3e9b8774fee4b8", null ],
-        [ "N", "struct_acts_1_1_material_map_lookup_1_1_material_cell.html#a8d259edab66cba82a13643fba5699c29", null ]
-      ] ],
-      [ "Grid_t", "struct_acts_1_1_material_map_lookup.html#a3ef869ee18854d087d775aa00b9821e2", null ],
-      [ "MaterialMapLookup", "struct_acts_1_1_material_map_lookup.html#ac35940a0af1725b004bfc5c1c538736c", null ],
-      [ "getGrid", "struct_acts_1_1_material_map_lookup.html#a4927918c8d2ed819320b0a33f4e47567", null ],
-      [ "getMaterial", "struct_acts_1_1_material_map_lookup.html#a0f1c8e03f009c1f9d1aa8e3eed8e2259", null ],
-      [ "getMaterialCell", "struct_acts_1_1_material_map_lookup.html#a3b19749c25e1aa0092c81cd00c928ffd", null ],
-      [ "getMax", "struct_acts_1_1_material_map_lookup.html#aeaea9cb1f3d433a83cf04198dd0664d4", null ],
-      [ "getMin", "struct_acts_1_1_material_map_lookup.html#a02d1defa8c03da9fb7b5748efe2571c3", null ],
-      [ "getNBins", "struct_acts_1_1_material_map_lookup.html#a60ed3890393c53adc17900c625280f28", null ],
-      [ "isInside", "struct_acts_1_1_material_map_lookup.html#a47799e2c89c9dcf311cc0b7417684e9f", null ],
-      [ "material", "struct_acts_1_1_material_map_lookup.html#ae8a25c53ddc463fde78fca263a15f589", null ],
-      [ "DIM_POS", "struct_acts_1_1_material_map_lookup.html#ac55e39b067b641722f710f9e73a45063", null ]
     ] ],
     [ "Acts::MaterialSlab", "class_acts_1_1_material_slab.html", [
       [ "MaterialSlab", "class_acts_1_1_material_slab.html#a3efc4b62964bb8b76d06c226f3b42e8a", null ],
@@ -259,7 +223,5 @@ var group__material =
     ] ],
     [ "Acts::ProtoGridSurfaceMaterial", "group__material.html#gaee4b3702e1722a63aab1022d8709175d", null ],
     [ "Acts::ProtoSurfaceMaterial", "group__material.html#gabad517c3d330be68557175bbe3e71402", null ],
-    [ "Acts::makeDefaultBetheHeitlerApprox", "group__material.html#ga5d92067ce8a043093cfe704c6ae8b20d", null ],
-    [ "Acts::materialMapperRZ", "group__material.html#ga36398a73a93820ca563cdaebf35c8c99", null ],
-    [ "Acts::materialMapperXYZ", "group__material.html#ga58e02a2bfb006720b513203973586084", null ]
+    [ "Acts::makeDefaultBetheHeitlerApprox", "group__material.html#ga5d92067ce8a043093cfe704c6ae8b20d", null ]
 ];

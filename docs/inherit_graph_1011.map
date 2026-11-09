@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$structdetray_1_1ranges_1_1detail_1_1cartesian__product__iterator.html" title="Iterator implementation for the cartesian product view." alt="" coords="5,5,206,67"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,5,299,101"/>
+<area shape="rect" id="Node000001" href="$classdetray_1_1uniform__track__generator.html" title="Generates track states with momentum directions in a uniform angle space." alt="" coords="347,22,508,84"/>
+<area shape="poly" id="edge423_Node000000_Node000001" title=" " alt="" coords="314,51,349,53,343,53,314,56"/>
 </map>

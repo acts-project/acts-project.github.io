@@ -1,15 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$struct_acts_1_1_stepper_plain_options.html" title="Common options shared by plain steppers." alt="" coords="5,187,195,215"/>
-<area shape="rect" id="Node000001" href="$struct_acts_1_1_atlas_stepper_1_1_options.html" title="Stepper options extending plain stepper settings." alt="" coords="289,5,429,50"/>
-<area shape="poly" id="edge212_Node000000_Node000001" title=" " alt="" coords="119,173,171,116,204,86,241,60,290,41,286,44,244,65,208,90,175,120,124,176"/>
-<area shape="rect" id="Node000002" href="$struct_acts_1_1_eigen_stepper_1_1_options.html" title="Stepper options including geometry and magnetic field contexts." alt="" coords="266,75,452,119"/>
-<area shape="poly" id="edge213_Node000000_Node000002" title=" " alt="" coords="139,177,242,129,278,118,274,121,244,134,142,182"/>
-<area shape="rect" id="Node000003" href="$struct_acts_1_1_generic_runge_kutta_stepper_1_1_options.html" title="Runtime options for Runge&#45;Kutta propagation." alt="" coords="243,144,475,189"/>
-<area shape="poly" id="edge214_Node000000_Node000003" title=" " alt="" coords="209,184,245,181,240,183,211,189"/>
-<area shape="rect" id="Node000004" href="$struct_acts_1_1_helix_stepper_1_1_options.html" title="Runtime options for helix propagation." alt="" coords="288,213,430,258"/>
-<area shape="poly" id="edge215_Node000000_Node000004" title=" " alt="" coords="210,213,290,225,285,227,211,218"/>
-<area shape="rect" id="Node000005" href="$struct_acts_1_1_straight_line_stepper_1_1_options.html" title="Configuration options for straight line propagation." alt="" coords="266,283,452,327"/>
-<area shape="poly" id="edge216_Node000000_Node000005" title=" " alt="" coords="141,220,244,268,279,282,273,283,242,273,140,225"/>
-<area shape="rect" id="Node000006" href="$struct_acts_1_1_sympy_stepper_1_1_options.html" title="Runtime options for sympy propagation." alt="" coords="283,352,435,397"/>
-<area shape="poly" id="edge217_Node000000_Node000006" title=" " alt="" coords="122,225,175,282,208,312,244,337,285,357,280,357,241,342,204,316,171,286,121,230"/>
+<area shape="rect" id="Node000000" href="$struct_acts_1_1_straight_line_stepper_1_1_config.html" title=" " alt="" coords="5,5,191,50"/>
 </map>

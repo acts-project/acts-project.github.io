@@ -9,7 +9,7 @@ var searchData=
   ['quadratic_5fequation_3c_20scalar_5ft_20_3e_6',['quadratic_equation&lt; scalar_t &gt;',['../classdetray_1_1detail_1_1quadratic__equation_3_01scalar__t_01_4.html',1,'detray::detail']]],
   ['quality_7',['Quality',['../namespace_acts.html#a1f6eba2b6bc61b840fff13f9b3343edfa571094bb27864b600d8e6b561a137a55',1,'Acts']]],
   ['quality_8',['quality',['../class_acts_1_1_seed_proxy.html#a3c868274a9c3ba72d5931beccaae4023',1,'Acts::SeedProxy::quality() noexcept'],['../class_acts_1_1_seed_proxy.html#abb34f4234cb4be88f924a34d2a19869f',1,'Acts::SeedProxy::quality() const noexcept']]],
-  ['quantization_9',['Optional quantization',['../material_map_json_schema.html#autotoc_md171',1,'']]],
+  ['quantization_9',['Optional quantization',['../material_map_json_schema.html#autotoc_md170',1,'']]],
   ['quartersegments_10',['quarterSegments',['../struct_acts_1_1_view_config.html#a0b4d42c15d6e3af524cc7d811419912c',1,'Acts::ViewConfig::quarterSegments'],['../struct_acts_plugins_1_1_svg_1_1_style.html#ad19fb2e85cf8b66e9a090046aea30434',1,'ActsPlugins::Svg::Style::quarterSegments']]],
   ['queries_11',['queries',['../struct_acts_plugins_1_1_geo_model_detector_object_factory_1_1_options.html#a3822869a40daaba6a7d06d5e1dbb812d',1,'ActsPlugins::GeoModelDetectorObjectFactory::Options']]],
   ['query_5ftype_12',['query_type',['../structdetray_1_1brute__force__collection_1_1brute__forcer.html#aa1d1c5c15a15095959196f34d5dc432b',1,'detray::brute_force_collection::brute_forcer::query_type'],['../classdetray_1_1spatial__grid__impl.html#a4b76f712fa01b80a1110b4315636a6f8',1,'detray::spatial_grid_impl::query_type']]],

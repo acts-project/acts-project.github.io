@@ -1,7 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$class_acts_1_1_track_state_proxy_common.html" title=" " alt="" coords="5,32,233,93"/>
-<area shape="rect" id="Node000001" href="$class_acts_1_1_track_state_proxy.html" title=" " alt="" coords="281,5,498,50"/>
-<area shape="poly" id="edge256_Node000000_Node000001" title=" " alt="" coords="248,43,283,41,277,42,249,48"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_track_state_proxy.html" title=" " alt="" coords="299,75,480,119"/>
-<area shape="poly" id="edge257_Node000000_Node000002" title=" " alt="" coords="248,76,301,85,296,86,248,82"/>
+<area shape="rect" id="Node000000" href="$class_acts_1_1_track_state_type_base.html" title=" " alt="" coords="5,5,195,50"/>
+<area shape="rect" id="Node000001" href="$class_acts_1_1_track_state_type.html" title="TrackStateTypeBase captured by value." alt="" coords="243,14,398,42"/>
+<area shape="poly" id="edge254_Node000000_Node000001" title=" " alt="" coords="210,25,245,27,240,28,210,30"/>
 </map>

@@ -1,11 +1,9 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$class_acts_plugins_1_1_track_building_base.html" title="Base class for track building implementations." alt="" coords="5,84,229,112"/>
-<area shape="rect" id="Node000001" href="$class_acts_plugins_1_1_boost_track_building.html" title="Track building implementation using Boost." alt="" coords="282,5,510,33"/>
-<area shape="poly" id="edge285_Node000000_Node000001" title=" " alt="" coords="172,76,276,43,328,33,323,35,277,48,174,81"/>
-<area shape="rect" id="Node000002" href="$class_acts_plugins_1_1_cuda_track_building.html" title="Track building implementation using CUDA." alt="" coords="284,57,508,85"/>
-<area shape="poly" id="edge286_Node000000_Node000002" title=" " alt="" coords="244,83,286,81,281,83,245,88"/>
-<area shape="rect" id="Node000003" href="$class_acts_plugins_1_1_d_walk_track_building.html" title="Track building stage using the D&#45;WALK graph segmentation algorithm." alt="" coords="279,109,512,137"/>
-<area shape="poly" id="edge287_Node000000_Node000003" title=" " alt="" coords="244,107,281,112,276,113,244,112"/>
-<area shape="rect" id="Node000004" href="$class_acts_plugins_1_1_edge_layer_connector.html" title="Track building stage based on the EdgeLayerConnector algorithm from the ModuleMapGraph library (CUDA ..." alt="" coords="277,161,515,189"/>
-<area shape="poly" id="edge288_Node000000_Node000004" title=" " alt="" coords="175,115,277,146,329,161,324,161,276,151,174,120"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,57,108,85"/>
+<area shape="rect" id="Node000001" href="$class_acts_1_1_calibration_context.html" title="This is the central definition of the Acts payload object regarding detector calibration." alt="" coords="166,5,345,33"/>
+<area shape="poly" id="edge288_Node000000_Node000001" title=" " alt="" coords="122,52,202,32,197,35,123,57"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_geometry_context.html" title="This is the central definition of the Acts payload object regarding detector geometry status (e...." alt="" coords="169,57,342,85"/>
+<area shape="poly" id="edge289_Node000000_Node000002" title=" " alt="" coords="123,69,171,70,166,72,123,74"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_magnetic_field_context.html" title="Context object for lookup of magnetic field values." alt="" coords="156,109,355,137"/>
+<area shape="poly" id="edge290_Node000000_Node000003" title=" " alt="" coords="123,86,202,108,197,110,122,91"/>
 </map>

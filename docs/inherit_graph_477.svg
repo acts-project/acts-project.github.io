@@ -11,10 +11,10 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="struct_acts_1_1_strip_space_point_builder_1_1_cluster_pairing_options.html" target="_top" xlink:title="Collection of cluster pairing options.">
+<g id="a_Node000000"><a xlink:href="struct_acts_1_1_strip_space_point_builder_1_1_strip_ends.html" target="_top" xlink:title="Strip cluster details.">
 <polygon fill="white" stroke="#666666" points="154,-33.5 0,-33.5 0,0 154,0 154,-33.5"/>
 <text xml:space="preserve" text-anchor="start" x="8" y="-20" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::StripSpacePointBuilder</text>
-<text xml:space="preserve" text-anchor="middle" x="77" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">::ClusterPairingOptions</text>
+<text xml:space="preserve" text-anchor="middle" x="77" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">::StripEnds</text>
 </a>
 </g>
 </g>
