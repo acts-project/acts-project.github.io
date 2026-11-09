@@ -141,8 +141,8 @@ Motivation</h2>
 <p>The second factor is the <em>composite</em> or <em>hierarchy Jacobian</em>. The derivatives of a structure are the sum of this product over all its sensors on the track.</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md94"></a>
 ACTS alignment parameter convention</h2>
-<p>In short, <b>current ACTS surface alignment parameters are mixed</b>: global-frame translations of the center, and local-frame rotations about the center.</p>
-<p>ACTS is expected to move to fully local-frame parameters. The implementation is structured so that only one function changes when that happens (see <a class="el" href="#alignment_composite_convention_adapter">alignment_composite_convention_adapter</a>).</p>
+<p>ACTS surface alignment parameters are local-frame parameters: translations along the surface's own local axes, and rotations about those axes.</p>
+<p>The adapter from these parameters to the local-frame parameters used below is the identity. It is kept in one function so that a change of convention stays local to it (see <a class="el" href="#alignment_composite_convention_adapter">alignment_composite_convention_adapter</a>).</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md95"></a>
 Derivation</h2>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md96"></a>
@@ -190,35 +190,25 @@ Relation to the CMS form</h3>
 <li>element \((i, j)\) of the top-right block is  \(-\hat{a}_i \cdot (\mathbf{d} \times \hat{b}_j) = \hat{b}_j \cdot (\mathbf{d} \times \hat{a}_i)
   = (\mathbf{d} \times \hat{a}_i)\cdot\hat{b}_j\), the CMS expression with \(\mathbf{T} = \mathbf{d}\), including the sign.</li>
 </ul>
-<p>This form is only correct when <b>both</b> levels use local-frame parameters. It does not apply directly to current ACTS surface parameters, whose translations are global. Porting CMS or Belle II code without accounting for this gives a wrong top-left block. On a pure translation test with \(R_c \approx 1\) that mistake can look correct.</p>
+<p>Both levels use local-frame parameters, which is also the ACTS surface convention, so this matrix applies directly to ACTS alignment derivatives.</p>
 <p><a class="anchor" id="alignment_composite_convention_adapter"></a></p>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md99"></a>
 Convention adapter</h3>
-<p>The ACTS parameters of a surface relate to its local-frame parameters by \(\delta\mathbf{c} = R_s\,\delta\mathbf{t}\), with the rotations unchanged:</p>
+<p>ACTS alignment parameters are the local-frame parameters \((\delta\mathbf{t}, \delta\boldsymbol{\omega})\). They match the parameters of the composite Jacobian, so</p>
 <p class="formulaDsp">
 \[\frac{\partial\,\mathbf{a}_\mathrm{ACTS}}{\partial(\delta\mathbf{t}, \delta\boldsymbol{\omega})}
-= \begin{pmatrix} R_s &amp; 0 \\ 0 &amp; 1 \end{pmatrix}.
+= I.
 \]
 </p>
-<p>The Jacobian used on the derivatives ACTS provides is therefore</p>
-<p class="formulaDsp">
-\[\frac{\partial\,\mathbf{a}_\mathrm{ACTS}}{\partial(\delta\mathbf{T}, \delta\mathbf{W})}
-= \begin{pmatrix} R_s &amp; 0 \\ 0 &amp; 1 \end{pmatrix}
-  \begin{pmatrix} R_\mathrm{rel}^T &amp; -R_s^T [\mathbf{d}]_\times R_c \\ 0 &amp; R_\mathrm{rel}^T \end{pmatrix}
-= \begin{pmatrix} R_c &amp; -[\mathbf{d}]_\times R_c \\ 0 &amp; R_s^T R_c \end{pmatrix}.
-\]
-</p>
-<p>The adapter is only needed when chaining to structure parameters:</p>
+<p>The derivative with respect to the composite parameters is therefore</p>
 <p class="formulaDsp">
 \[\frac{\partial r}{\partial(\delta\mathbf{T}, \delta\mathbf{W})}
 = \frac{\partial r}{\partial \mathbf{a}_\mathrm{ACTS}}
-  \begin{pmatrix} R_s &amp; 0 \\ 0 &amp; 1 \end{pmatrix}
   \frac{\partial(\delta\mathbf{t}, \delta\boldsymbol{\omega})_s}
        {\partial(\delta\mathbf{T}, \delta\mathbf{W})_c}.
 \]
 </p>
-<p>An alignment of single surfaces uses the derivatives \(\partial r/\partial \mathbf{a}_\mathrm{ACTS}\) as they are: the solver then returns ACTS parameters, which is the convention corrections are applied in, and no adapter enters. Applying the adapter to the surface derivatives alone (the surface as its own structure) would instead give parameters in the surface's local frame.</p>
-<p>When ACTS moves to local-frame parameters, the adapter becomes the identity and the composite Jacobian is used unchanged.</p>
+<p><span class="tt">localFrameToAlignmentParametersJacobian</span> returns that identity. It is the single place that records the convention. While the center parameters were a shift in global coordinates, it returned \(\mathrm{diag}(R_s, 1)\).</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md100"></a>
 Implementation</h2>
 <p><span class="tt">Acts/Surfaces/detail/AlignmentHelper.hpp</span> provides two free functions next to <span class="tt">rotationToLocalAxesDerivative</span>:</p>
@@ -233,7 +223,7 @@ Implementation</h2>
 <div class="line">}  <span class="comment">// namespace Acts::detail</span></div>
 <div class="ttc" id="agroup__algebra__types_html_gab6e508c2d10f1fd653dc4f05c26f9151"><div class="ttname"><a href="group__algebra__types.html#gab6e508c2d10f1fd653dc4f05c26f9151">Acts::Transform3</a></div><div class="ttdeci">Eigen::Transform&lt; double, 3, Eigen::Isometry &gt; Transform3</div><div class="ttdoc">3D rigid transformation (rotation/reflection plus translation)</div><div class="ttdef"><b>Definition</b> Algebra.hpp:104</div></div>
 <div class="ttc" id="anamespace_acts_html_a8d2a9eacf555f86f4769bbbcfa276b1e"><div class="ttname"><a href="namespace_acts.html#a8d2a9eacf555f86f4769bbbcfa276b1e">Acts::AlignmentMatrix</a></div><div class="ttdeci">Matrix&lt; eAlignmentSize, eAlignmentSize &gt; AlignmentMatrix</div><div class="ttdoc">Square matrix type for alignment parameters.</div><div class="ttdef"><b>Definition</b> Alignment.hpp:41</div></div>
-</div><!-- fragment --><p>Both take local-to-global transforms. <span class="tt">localFrameToAlignmentParametersJacobian</span> is the only place that encodes the ACTS convention.</p>
+</div><!-- fragment --><p><span class="tt">compositeToComponentJacobian</span> takes the local-to-global transforms. <span class="tt">localFrameToAlignmentParametersJacobian</span> still takes the surface transform so a later convention change can use it; the argument is unused while the conventions agree. It is the only place that encodes the ACTS convention.</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md101"></a>
 Limitations and open items</h2>
 <ul>

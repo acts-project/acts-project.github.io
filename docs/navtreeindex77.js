@@ -1,12 +1,5 @@
 var NAVTREEINDEX77 =
 {
-"struct_acts_1_1_passive_layer_builder_1_1_config.html#a440874e6d8a016eb3d58ca218c0e6884":[6,0,0,321,0,4],
-"struct_acts_1_1_passive_layer_builder_1_1_config.html#a440874e6d8a016eb3d58ca218c0e6884":[8,0,0,326,0,4],
-"struct_acts_1_1_passive_layer_builder_1_1_config.html#a544cc34889b10d31354818a162a4d47c":[6,0,0,321,0,3],
-"struct_acts_1_1_passive_layer_builder_1_1_config.html#a544cc34889b10d31354818a162a4d47c":[8,0,0,326,0,3],
-"struct_acts_1_1_passive_layer_builder_1_1_config.html#a719e99dfab1faa46f4bc537c84c9e910":[6,0,0,321,0,8],
-"struct_acts_1_1_passive_layer_builder_1_1_config.html#a719e99dfab1faa46f4bc537c84c9e910":[8,0,0,326,0,8],
-"struct_acts_1_1_passive_layer_builder_1_1_config.html#a7f4f3889abf4f57ac849afc60002d766":[6,0,0,321,0,2],
 "struct_acts_1_1_passive_layer_builder_1_1_config.html#a7f4f3889abf4f57ac849afc60002d766":[8,0,0,326,0,2],
 "struct_acts_1_1_passive_layer_builder_1_1_config.html#aca92b1b0743c70725ca0910737102f66":[6,0,0,321,0,1],
 "struct_acts_1_1_passive_layer_builder_1_1_config.html#aca92b1b0743c70725ca0910737102f66":[8,0,0,326,0,1],
@@ -249,5 +242,12 @@ var NAVTREEINDEX77 =
 "struct_acts_1_1_rz_grid_volume_lookup_1_1_config.html":[6,0,0,364,0],
 "struct_acts_1_1_rz_grid_volume_lookup_1_1_config.html":[8,0,0,369,0],
 "struct_acts_1_1_rz_grid_volume_lookup_1_1_config.html#a8ce09d28d25894c6193bd056aaad792a":[6,0,0,364,0,2],
-"struct_acts_1_1_rz_grid_volume_lookup_1_1_config.html#a8ce09d28d25894c6193bd056aaad792a":[8,0,0,369,0,2]
+"struct_acts_1_1_rz_grid_volume_lookup_1_1_config.html#a8ce09d28d25894c6193bd056aaad792a":[8,0,0,369,0,2],
+"struct_acts_1_1_rz_grid_volume_lookup_1_1_config.html#abea079379d6a698b8a7e8fd9f4093d9f":[6,0,0,364,0,1],
+"struct_acts_1_1_rz_grid_volume_lookup_1_1_config.html#abea079379d6a698b8a7e8fd9f4093d9f":[8,0,0,369,0,1],
+"struct_acts_1_1_rz_grid_volume_lookup_1_1_config.html#af7d8d7cc9a655e1f1246c96130a65a47":[6,0,0,364,0,0],
+"struct_acts_1_1_rz_grid_volume_lookup_1_1_config.html#af7d8d7cc9a655e1f1246c96130a65a47":[8,0,0,369,0,0],
+"struct_acts_1_1_score_based_ambiguity_resolution_1_1_config.html":[6,0,0,366,0],
+"struct_acts_1_1_score_based_ambiguity_resolution_1_1_config.html":[8,0,0,371,0],
+"struct_acts_1_1_score_based_ambiguity_resolution_1_1_config.html#a042ec5053056473bd11e46daace10fc1":[6,0,0,366,0,6]
 };

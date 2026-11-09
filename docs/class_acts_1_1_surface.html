@@ -211,8 +211,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a76eb5970c457ab4492f6466d4e666f9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether the Surface is sensitive.  <br /></td></tr>
 <tr class="memitem:a8fafa7a2ac57f1c10c18aa1d9021e051" id="r_a8fafa7a2ac57f1c10c18aa1d9021e051"><td class="memItemLeft" align="right" valign="top">virtual std::array&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a>, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fafa7a2ac57f1c10c18aa1d9021e051">localAxes</a> () const =0</td></tr>
 <tr class="memdesc:a8fafa7a2ac57f1c10c18aa1d9021e051"><td class="mdescLeft">&#160;</td><td class="mdescRight">Local axes of the surface.  <br /></td></tr>
-<tr class="memitem:a14e93dffe68b9794aba1e60976168c14" id="r_a14e93dffe68b9794aba1e60976168c14"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__algebra__types.html#ga6601cf34fab9264b809ec0bc9364048d">Matrix</a>&lt; 2, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14e93dffe68b9794aba1e60976168c14">localCartesianToBoundLocalDerivative</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position) const =0</td></tr>
-<tr class="memdesc:a14e93dffe68b9794aba1e60976168c14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the derivative of bound track parameters local position w.r.t.  <br /></td></tr>
+<tr class="memitem:a1628d6cdb42863857cb2303b4961d323" id="r_a1628d6cdb42863857cb2303b4961d323"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__algebra__types.html#ga6601cf34fab9264b809ec0bc9364048d">Matrix</a>&lt; 2, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1628d6cdb42863857cb2303b4961d323">localCartesianToBoundLocalDerivative</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction) const =0</td></tr>
+<tr class="memdesc:a1628d6cdb42863857cb2303b4961d323"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the derivative of bound track parameters local position w.r.t.  <br /></td></tr>
 <tr class="memitem:a7b2cbad2c5f7f25915035cc0fa2c6e96" id="r_a7b2cbad2c5f7f25915035cc0fa2c6e96"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b2cbad2c5f7f25915035cc0fa2c6e96">localToGlobal</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Vector2</a> &amp;lposition, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction) const =0</td></tr>
 <tr class="memdesc:a7b2cbad2c5f7f25915035cc0fa2c6e96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Local to global transformation Generalized local to global transformation for the surface types.  <br /></td></tr>
 <tr class="memitem:ae21355c33b72c2686ba2f8f2839e67f5" id="r_ae21355c33b72c2686ba2f8f2839e67f5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group__algebra__types.html#gab6e508c2d10f1fd653dc4f05c26f9151">Transform3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae21355c33b72c2686ba2f8f2839e67f5">localToGlobalTransform</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx) const</td></tr>
@@ -287,6 +287,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="memdesc:a362fefd7e074b60b9b2d4595b7e3f198"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from SurfacePlacement: Element proxy.  <br /></td></tr>
 <tr class="memitem:a2ae67591c6ce6b42568881be16f29ddc" id="r_a2ae67591c6ce6b42568881be16f29ddc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ae67591c6ce6b42568881be16f29ddc">Surface</a> (const <a class="el" href="group__algebra__types.html#gab6e508c2d10f1fd653dc4f05c26f9151">Transform3</a> &amp;transform=Transform3::Identity())</td></tr>
 <tr class="memdesc:a2ae67591c6ce6b42568881be16f29ddc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor with Transform3 as a shared object.  <br /></td></tr>
+<tr class="memitem:a40ea4497a0796f77f0adddaff6b670d0" id="r_a40ea4497a0796f77f0adddaff6b670d0"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_acts.html#a72c66db9f558730c39a21c68b2445f7d">AlignmentToBoundMatrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40ea4497a0796f77f0adddaff6b670d0">alignmentToBoundDerivativeWithoutCorrection</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction) const</td></tr>
+<tr class="memdesc:a40ea4497a0796f77f0adddaff6b670d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the derivative of bound track parameters w.r.t.  <br /></td></tr>
 <tr class="memitem:af2d39a89fb21242671fd1b9872ec1d6f" id="r_af2d39a89fb21242671fd1b9872ec1d6f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a2ae67591c6ce6b42568881be16f29ddc">Surface</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2d39a89fb21242671fd1b9872ec1d6f">operator=</a> (const <a class="el" href="#a2ae67591c6ce6b42568881be16f29ddc">Surface</a> &amp;other) noexcept=default</td></tr>
 <tr class="memdesc:af2d39a89fb21242671fd1b9872ec1d6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator.  <br /></td></tr>
 <tr class="memitem:a10a856c74db9fae99306dd602e6c7e2b" id="r_a10a856c74db9fae99306dd602e6c7e2b"><td class="memItemLeft" align="right" valign="top">virtual std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10a856c74db9fae99306dd602e6c7e2b">toStreamImpl</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, std::ostream &amp;sl) const</td></tr>
@@ -511,10 +513,10 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_swapMaterialAxes</b
 </div><div class="memdoc">
 
 <p>The derivative of bound track parameters w.r.t. </p>
-<p>alignment parameters of its reference surface (i.e. local frame origin in global 3D Cartesian coordinates and its rotation represented with extrinsic Euler angles)</p>
+<p>alignment parameters of its reference surface (i.e. translations along the local x/y/z axes and rotations represented with extrinsic Euler angles around the local x/y/z axes)</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">gctx</td><td>The current geometry context object, e.g. alignment change of alignment parameters </td></tr>
+    <tr><td class="paramname">gctx</td><td>The current geometry context object, e.g. alignment </td></tr>
     <tr><td class="paramname">position</td><td>global 3D position </td></tr>
     <tr><td class="paramname">direction</td><td>global 3D momentum direction </td></tr>
     <tr><td class="paramname">pathDerivative</td><td>is the derivative of free parameters w.r.t. path length</td></tr>
@@ -522,6 +524,55 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_swapMaterialAxes</b
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Derivative of bound track parameters w.r.t. local frame alignment parameters </dd></dl>
+
+</div>
+</div>
+<a id="a40ea4497a0796f77f0adddaff6b670d0" name="a40ea4497a0796f77f0adddaff6b670d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40ea4497a0796f77f0adddaff6b670d0">&#9670;&#160;</a></span>alignmentToBoundDerivativeWithoutCorrection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="namespace_acts.html#a72c66db9f558730c39a21c68b2445f7d">AlignmentToBoundMatrix</a> Acts::Surface::alignmentToBoundDerivativeWithoutCorrection </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>direction</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calculate the derivative of bound track parameters w.r.t. </p>
+<p>alignment parameters of its reference surface (i.e. translations along the local x/y/z axes and rotations represented with extrinsic Euler angles around the local x/y/z axes) without any path correction</p>
+<dl class="section note"><dt>Note</dt><dd>Used together with the alignment to path derivative to get the full alignment to bound derivatives. The default implementation multiplies <code>localCartesianToBoundLocalDerivative</code> by the derivative of the local 3D Cartesian position w.r.t. the alignment parameters.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gctx</td><td>The current geometry context object, e.g. alignment </td></tr>
+    <tr><td class="paramname">position</td><td>global 3D position </td></tr>
+    <tr><td class="paramname">direction</td><td>global 3D momentum direction</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Derivative of bound track parameters w.r.t. local frame alignment parameters without path correction </dd></dl>
+
+<p>Reimplemented in <a class="el" href="class_acts_1_1_point_surface.html#a8af3527e88b1f2ed50dcb9f04a20e1f0">Acts::PointSurface</a>.</p>
 
 </div>
 </div>
@@ -558,7 +609,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_swapMaterialAxes</b
 </div><div class="memdoc">
 
 <p>Calculate the derivative of path length at the geometry constraint or point-of-closest-approach w.r.t. </p>
-<p>alignment parameters of the surface (i.e. local frame origin in global 3D Cartesian coordinates and its rotation represented with extrinsic Euler angles)</p>
+<p>alignment parameters of the surface (i.e. translations along the local x/y/z axes and rotations represented with extrinsic Euler angles around the local x/y/z axes)</p>
 <dl class="section note"><dt>Note</dt><dd>Re-implementation is needed for surface whose intersection with track is not its local xy plane, e.g. LineSurface, CylinderSurface and ConeSurface</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -1359,8 +1410,8 @@ Only call this if you need shared ownership of this object.</dd></dl>
 
 </div>
 </div>
-<a id="a14e93dffe68b9794aba1e60976168c14" name="a14e93dffe68b9794aba1e60976168c14"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a14e93dffe68b9794aba1e60976168c14">&#9670;&#160;</a></span>localCartesianToBoundLocalDerivative()</h2>
+<a id="a1628d6cdb42863857cb2303b4961d323" name="a1628d6cdb42863857cb2303b4961d323"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1628d6cdb42863857cb2303b4961d323">&#9670;&#160;</a></span>localCartesianToBoundLocalDerivative()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1376,7 +1427,12 @@ Only call this if you need shared ownership of this object.</dd></dl>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;) const</td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>direction</em></span>&#160;) const</td>
         </tr>
       </table>
   </td>
@@ -1391,13 +1447,14 @@ Only call this if you need shared ownership of this object.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">gctx</td><td>The current geometry context object, e.g. alignment </td></tr>
-    <tr><td class="paramname">position</td><td>The position of the parameters in global</td></tr>
+    <tr><td class="paramname">position</td><td>The position of the parameters in global </td></tr>
+    <tr><td class="paramname">direction</td><td>The track direction, used by surfaces whose measurement frame depends on it</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Derivative of bound local position w.r.t. position in local 3D cartesian coordinates </dd></dl>
 
-<p>Implemented in <a class="el" href="class_acts_1_1_cone_surface.html#a839fa10e6df15b1c323f575d4fad9eb5">Acts::ConeSurface</a>, <a class="el" href="class_acts_1_1_cylinder_surface.html#adde02d31ce657dd56de7c6499ad50247">Acts::CylinderSurface</a>, <a class="el" href="class_acts_1_1_disc_surface.html#ad69865491de6bae1ab4526ef9b13126b">Acts::DiscSurface</a>, <a class="el" href="class_acts_1_1_line_surface.html#a825ebcc14668c62530790207d3181664">Acts::LineSurface</a>, <a class="el" href="class_acts_1_1_plane_surface.html#a88a4a3d9e22a10d9b06e5475b55d06df">Acts::PlaneSurface</a>, and <a class="el" href="class_acts_1_1_point_surface.html#aada1e8ee73917e61d50e6f35f95b3038">Acts::PointSurface</a>.</p>
+<p>Implemented in <a class="el" href="class_acts_1_1_cone_surface.html#af358b3e0960451f85f4715040e1e98e2">Acts::ConeSurface</a>, <a class="el" href="class_acts_1_1_cylinder_surface.html#a5d97942b3edf4ba4c34618d5abcc04f7">Acts::CylinderSurface</a>, <a class="el" href="class_acts_1_1_disc_surface.html#a33312d9f9776a30800645b276347dec3">Acts::DiscSurface</a>, <a class="el" href="class_acts_1_1_line_surface.html#a85a79159406099541f52b1ef4cb419a5">Acts::LineSurface</a>, <a class="el" href="class_acts_1_1_plane_surface.html#a0fb4db0c4825286ef9c20bbce426731a">Acts::PlaneSurface</a>, and <a class="el" href="class_acts_1_1_point_surface.html#a279dae233e45e5a9e92e10bb25ab4f9e">Acts::PointSurface</a>.</p>
 
 </div>
 </div>

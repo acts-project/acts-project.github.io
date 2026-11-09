@@ -1,12 +1,5 @@
 var NAVTREEINDEX93 =
 {
-"structdetray_1_1intersection__record.html#afab5c590e2d807c1c19bb9efa196e792":[8,0,3,117,16],
-"structdetray_1_1intersection__record.html#afc7947741c45e41f398b259aa876ba5e":[6,0,4,104,0],
-"structdetray_1_1intersection__record.html#afc7947741c45e41f398b259aa876ba5e":[8,0,3,117,0],
-"structdetray_1_1intersector.html":[6,0,4,105],
-"structdetray_1_1intersector.html":[8,0,3,118],
-"structdetray_1_1intersector.html#a29ab7fc6445eeda34d17a101aa098c71":[6,0,4,105,1],
-"structdetray_1_1intersector.html#a29ab7fc6445eeda34d17a101aa098c71":[8,0,3,118,1],
 "structdetray_1_1intersector.html#a3e5745bcc755b9ac746e735f249a5111":[6,0,4,105,3],
 "structdetray_1_1intersector.html#a3e5745bcc755b9ac746e735f249a5111":[8,0,3,118,3],
 "structdetray_1_1intersector.html#a462afd8106c7a594a7432f8af3d17f2b":[6,0,4,105,11],
@@ -249,5 +242,12 @@ var NAVTREEINDEX93 =
 "structdetray_1_1io_1_1homogeneous__material__sub__header__payload.html#a81ef24c86508a53c2666ecfc43c6750a":[6,0,4,3,16,0],
 "structdetray_1_1io_1_1homogeneous__material__sub__header__payload.html#a81ef24c86508a53c2666ecfc43c6750a":[8,0,3,7,17,0],
 "structdetray_1_1io_1_1homogeneous__material__sub__header__payload.html#aa5f2b7df77a405b31fc3d152c3c70cec":[6,0,4,3,16,3],
-"structdetray_1_1io_1_1homogeneous__material__sub__header__payload.html#aa5f2b7df77a405b31fc3d152c3c70cec":[8,0,3,7,17,3]
+"structdetray_1_1io_1_1homogeneous__material__sub__header__payload.html#aa5f2b7df77a405b31fc3d152c3c70cec":[8,0,3,7,17,3],
+"structdetray_1_1io_1_1homogeneous__material__sub__header__payload.html#ac37a3fb7c21faa7dbedf12db293e86a1":[6,0,4,3,16,2],
+"structdetray_1_1io_1_1homogeneous__material__sub__header__payload.html#ac37a3fb7c21faa7dbedf12db293e86a1":[8,0,3,7,17,2],
+"structdetray_1_1io_1_1mask__payload.html":[6,0,4,3,20],
+"structdetray_1_1io_1_1mask__payload.html":[8,0,3,7,21],
+"structdetray_1_1io_1_1mask__payload.html#a6ec34ec63ded9839d3477cfca89ca920":[6,0,4,3,20,3],
+"structdetray_1_1io_1_1mask__payload.html#a6ec34ec63ded9839d3477cfca89ca920":[8,0,3,7,21,3],
+"structdetray_1_1io_1_1mask__payload.html#a967ee2330030dcd10acb5381edd8ce26":[6,0,4,3,20,4]
 };

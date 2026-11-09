@@ -1,12 +1,5 @@
 var NAVTREEINDEX56 =
 {
-"classdetray_1_1tracking__volume.html#a5e8f166b60752eef4172c13302004a6e":[8,0,3,197,12],
-"classdetray_1_1tracking__volume.html#a5f0caea1012ae4b27052c4b30657823e":[6,0,4,184,7],
-"classdetray_1_1tracking__volume.html#a5f0caea1012ae4b27052c4b30657823e":[8,0,3,197,7],
-"classdetray_1_1tracking__volume.html#a7566817ede0f29e1acc676c53820ce13":[6,0,4,184,17],
-"classdetray_1_1tracking__volume.html#a7566817ede0f29e1acc676c53820ce13":[8,0,3,197,17],
-"classdetray_1_1tracking__volume.html#a7a48f53b372415da5b90b5a5fcb77bc3":[6,0,4,184,16],
-"classdetray_1_1tracking__volume.html#a7a48f53b372415da5b90b5a5fcb77bc3":[8,0,3,197,16],
 "classdetray_1_1tracking__volume.html#a7bde5393086c25fc943589465b475c1d":[6,0,4,184,8],
 "classdetray_1_1tracking__volume.html#a7bde5393086c25fc943589465b475c1d":[8,0,3,197,8],
 "classdetray_1_1tracking__volume.html#a7fc10a5e9bfcd7948d2bfc9474ea1166":[6,0,4,184,1],
@@ -249,5 +242,12 @@ var NAVTREEINDEX56 =
 "classdetray_1_1volume__builder.html#af65a61ad62e40345f527ecdf7c36b968":[8,0,3,214,11],
 "classdetray_1_1volume__builder__interface.html":[6,0,4,202],
 "classdetray_1_1volume__builder__interface.html":[8,0,3,215],
-"classdetray_1_1volume__builder__interface.html#a0358258c6dec6bf2fe492f3d15953ac8":[6,0,4,202,1]
+"classdetray_1_1volume__builder__interface.html#a0358258c6dec6bf2fe492f3d15953ac8":[6,0,4,202,1],
+"classdetray_1_1volume__builder__interface.html#a0358258c6dec6bf2fe492f3d15953ac8":[8,0,3,215,1],
+"classdetray_1_1volume__builder__interface.html#a0491c981527139f231e1d8a6bdbe5748":[6,0,4,202,13],
+"classdetray_1_1volume__builder__interface.html#a0491c981527139f231e1d8a6bdbe5748":[8,0,3,215,13],
+"classdetray_1_1volume__builder__interface.html#a09640340c3ca111f66bebb043277db0d":[6,0,4,202,15],
+"classdetray_1_1volume__builder__interface.html#a09640340c3ca111f66bebb043277db0d":[8,0,3,215,15],
+"classdetray_1_1volume__builder__interface.html#a1b0f79d84f9455018fe38e06edecbaf3":[6,0,4,202,14],
+"classdetray_1_1volume__builder__interface.html#a1b0f79d84f9455018fe38e06edecbaf3":[8,0,3,215,14]
 };

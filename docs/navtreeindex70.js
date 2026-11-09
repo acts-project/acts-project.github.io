@@ -1,12 +1,5 @@
 var NAVTREEINDEX70 =
 {
-"struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#ade2d693079ebba057e702d40de1be920":[6,0,0,1,23,0,20],
-"struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#ade2d693079ebba057e702d40de1be920":[8,0,0,2,23,0,20],
-"struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#ae0306c2787dbc98f40d0ddb785fcdcbe":[6,0,0,1,23,0,18],
-"struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#ae0306c2787dbc98f40d0ddb785fcdcbe":[8,0,0,2,23,0,18],
-"struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#ae0f9ead8c3ccc24f55ae688fb9152f24":[6,0,0,1,23,0,10],
-"struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#ae0f9ead8c3ccc24f55ae688fb9152f24":[8,0,0,2,23,0,10],
-"struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#af2d0b04d26f79b2e0517942a3cd45702":[6,0,0,1,23,0,13],
 "struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#af2d0b04d26f79b2e0517942a3cd45702":[8,0,0,2,23,0,13],
 "struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#af7f8a53c2cb7c92a3a806b970a883bef":[6,0,0,1,23,0,23],
 "struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#af7f8a53c2cb7c92a3a806b970a883bef":[8,0,0,2,23,0,23],
@@ -249,5 +242,12 @@ var NAVTREEINDEX70 =
 "struct_acts_1_1_experimental_1_1_hough_exploration_options.html#a4b6154f8af1a242c5b31fa24f655f19d":[6,0,0,1,44,1],
 "struct_acts_1_1_experimental_1_1_hough_exploration_options.html#a4b6154f8af1a242c5b31fa24f655f19d":[8,0,0,2,44,1],
 "struct_acts_1_1_experimental_1_1_hough_exploration_options.html#a56bf7a7e2d7d36dd9bbcb40384f52300":[6,0,0,1,44,3],
-"struct_acts_1_1_experimental_1_1_hough_exploration_options.html#a56bf7a7e2d7d36dd9bbcb40384f52300":[8,0,0,2,44,3]
+"struct_acts_1_1_experimental_1_1_hough_exploration_options.html#a56bf7a7e2d7d36dd9bbcb40384f52300":[8,0,0,2,44,3],
+"struct_acts_1_1_experimental_1_1_hough_exploration_options.html#acad657f3de32fc1b23d93ff5e4f5eda6":[6,0,0,1,44,7],
+"struct_acts_1_1_experimental_1_1_hough_exploration_options.html#acad657f3de32fc1b23d93ff5e4f5eda6":[8,0,0,2,44,7],
+"struct_acts_1_1_experimental_1_1_hough_exploration_options.html#acc88a092a6cb6ba26841627d62a31aa2":[6,0,0,1,44,4],
+"struct_acts_1_1_experimental_1_1_hough_exploration_options.html#acc88a092a6cb6ba26841627d62a31aa2":[8,0,0,2,44,4],
+"struct_acts_1_1_experimental_1_1_hough_exploration_options.html#ad73e98021d0aaaabe001ec85df585942":[6,0,0,1,44,6],
+"struct_acts_1_1_experimental_1_1_hough_exploration_options.html#ad73e98021d0aaaabe001ec85df585942":[8,0,0,2,44,6],
+"struct_acts_1_1_experimental_1_1_hough_exploration_options.html#ae57d040669bd8694325ae0a83265cf84":[6,0,0,1,44,2]
 };

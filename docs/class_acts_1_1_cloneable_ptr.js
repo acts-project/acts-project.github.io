@@ -15,7 +15,7 @@ var class_acts_1_1_cloneable_ptr =
     [ "operator*", "class_acts_1_1_cloneable_ptr.html#a762686d0a5f99cd866886ed79b1d6a47", null ],
     [ "operator->", "class_acts_1_1_cloneable_ptr.html#a9f1d3af738da3f0de26a5f93804cb7f5", null ],
     [ "operator=", "class_acts_1_1_cloneable_ptr.html#a586e48c7fa597b904c0ccdbd0a64d427", null ],
-    [ "operator=", "class_acts_1_1_cloneable_ptr.html#ae08ea2d0bd1b2ceb1521d5741f23bdaa", null ],
+    [ "operator=", "class_acts_1_1_cloneable_ptr.html#a78ac33174861f4e92aafea3f53045a9a", null ],
     [ "operator=", "class_acts_1_1_cloneable_ptr.html#a2383679e379a3e1b0a412a6749accc0a", null ],
     [ "release", "class_acts_1_1_cloneable_ptr.html#a717102f43d600ece6cb590cf9c773419", null ],
     [ "reset", "class_acts_1_1_cloneable_ptr.html#aeaf518fe1889fa6fb13f6d317e458964", null ],

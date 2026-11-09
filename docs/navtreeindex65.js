@@ -1,12 +1,5 @@
 var NAVTREEINDEX65 =
 {
-"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#aadea9ce68d170e95e230418574bc1fbb":[8,0,0,22,0,3],
-"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#abc473e52b1e20ba7c2895efd7dbac7ec":[6,0,0,17,0,1],
-"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#abc473e52b1e20ba7c2895efd7dbac7ec":[8,0,0,22,0,1],
-"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#abe83b567e3c2a35fc6ce736fd5c8516b":[6,0,0,17,0,5],
-"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#abe83b567e3c2a35fc6ce736fd5c8516b":[8,0,0,22,0,5],
-"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#acef7300de7197685285103945db00c57":[6,0,0,17,0,6],
-"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#acef7300de7197685285103945db00c57":[8,0,0,22,0,6],
 "struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html":[6,0,0,18,0],
 "struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html":[8,0,0,23,0],
 "struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a00a497c926a673ba3a2682a19b50ac9e":[6,0,0,18,0,15],
@@ -249,5 +242,12 @@ var NAVTREEINDEX65 =
 "struct_acts_1_1_axis_spec_1_1_variable_params.html#aa744bd079679e5020abcb14b24fd00ec":[6,0,0,43,2,1],
 "struct_acts_1_1_axis_spec_1_1_variable_params.html#aa744bd079679e5020abcb14b24fd00ec":[8,0,0,48,2,1],
 "struct_acts_1_1_axis_spec_1_1_variable_params.html#aec4edb15c3bf62d94b206f027dbb41ff":[6,0,0,43,2,0],
-"struct_acts_1_1_axis_spec_1_1_variable_params.html#aec4edb15c3bf62d94b206f027dbb41ff":[8,0,0,48,2,0]
+"struct_acts_1_1_axis_spec_1_1_variable_params.html#aec4edb15c3bf62d94b206f027dbb41ff":[8,0,0,48,2,0],
+"struct_acts_1_1_axis_spec_options.html":[6,0,0,44],
+"struct_acts_1_1_axis_spec_options.html":[8,0,0,49],
+"struct_acts_1_1_axis_spec_options.html#a21676d088f97b13fdfb5691cb653f246":[6,0,0,44,0],
+"struct_acts_1_1_axis_spec_options.html#a21676d088f97b13fdfb5691cb653f246":[8,0,0,49,0],
+"struct_acts_1_1_axis_spec_options.html#a60bfa8326059970640b0f4dea3cbaca2":[6,0,0,44,3],
+"struct_acts_1_1_axis_spec_options.html#a60bfa8326059970640b0f4dea3cbaca2":[8,0,0,49,3],
+"struct_acts_1_1_axis_spec_options.html#a9a373ab538a6985f329bb5926608f296":[6,0,0,44,2]
 };

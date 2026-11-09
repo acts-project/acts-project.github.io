@@ -1,12 +1,5 @@
 var NAVTREEINDEX91 =
 {
-"structdetray_1_1detector__traits_3_01metadata__t_01_4.html#a352274d560bab7b8061ad850b1e24ea7":[6,0,4,62,3],
-"structdetray_1_1detector__traits_3_01metadata__t_01_4.html#a352274d560bab7b8061ad850b1e24ea7":[8,0,3,75,3],
-"structdetray_1_1detector__traits_3_01metadata__t_01_4.html#a521629631751d1c0cd84dd62b5b3d2ea":[6,0,4,62,2],
-"structdetray_1_1detector__traits_3_01metadata__t_01_4.html#a521629631751d1c0cd84dd62b5b3d2ea":[8,0,3,75,2],
-"structdetray_1_1detector__traits_3_01metadata__t_01_4.html#a5b58a879270b3be8ec42089feefa8f4b":[6,0,4,62,1],
-"structdetray_1_1detector__traits_3_01metadata__t_01_4.html#a5b58a879270b3be8ec42089feefa8f4b":[8,0,3,75,1],
-"structdetray_1_1detector__traits_3_01metadata__t_01_4.html#a8391b613f794d31677589da8734ba1a6":[6,0,4,62,4],
 "structdetray_1_1detector__traits_3_01metadata__t_01_4.html#a8391b613f794d31677589da8734ba1a6":[8,0,3,75,4],
 "structdetray_1_1eigen.html":[6,0,4,64],
 "structdetray_1_1eigen.html":[8,0,3,77],
@@ -249,5 +242,12 @@ var NAVTREEINDEX91 =
 "structdetray_1_1hash__tree_1_1hashed__node.html#acd925bd439a2e71928478507a284daa2":[6,0,4,83,0,6],
 "structdetray_1_1hash__tree_1_1hashed__node.html#acd925bd439a2e71928478507a284daa2":[8,0,3,96,0,6],
 "structdetray_1_1helium__gas.html":[6,0,4,84],
-"structdetray_1_1helium__gas.html":[8,0,3,97]
+"structdetray_1_1helium__gas.html":[8,0,3,97],
+"structdetray_1_1helium__gas.html#af8599a5918010138b20b0678cbea927c":[6,0,4,84,0],
+"structdetray_1_1helium__gas.html#af8599a5918010138b20b0678cbea927c":[8,0,3,97,0],
+"structdetray_1_1helix__intersector__impl.html":[6,0,4,85],
+"structdetray_1_1helix__intersector__impl.html":[8,0,3,98],
+"structdetray_1_1helix__intersector__impl_3_01cartesian2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html":[6,0,4,86],
+"structdetray_1_1helix__intersector__impl_3_01cartesian2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html":[8,0,3,99],
+"structdetray_1_1helix__intersector__impl_3_01cartesian2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html#a16e7e43b16dff287a2616c4d2aae5e10":[6,0,4,86,7]
 };

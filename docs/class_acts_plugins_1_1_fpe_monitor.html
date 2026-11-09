@@ -140,13 +140,19 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a1385198ebc65a40547bb036330ab5572" id="r_a1385198ebc65a40547bb036330ab5572"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1385198ebc65a40547bb036330ab5572">FpeMonitor</a> (FpeMonitor &amp;&amp;other)=default</td></tr>
-<tr class="memdesc:a1385198ebc65a40547bb036330ab5572"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor.  <br /></td></tr>
+<tr class="memitem:a00ae1091489180ff189cb668443502de" id="r_a00ae1091489180ff189cb668443502de"><td class="memItemLeft" align="right" valign="top"><a id="a00ae1091489180ff189cb668443502de" name="a00ae1091489180ff189cb668443502de"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>FpeMonitor</b> (const FpeMonitor &amp;)=delete</td></tr>
+<tr class="memitem:a7730ddf9e4c9b15c02975397b66da0be" id="r_a7730ddf9e4c9b15c02975397b66da0be"><td class="memItemLeft" align="right" valign="top"><a id="a7730ddf9e4c9b15c02975397b66da0be" name="a7730ddf9e4c9b15c02975397b66da0be"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>FpeMonitor</b> (FpeMonitor &amp;&amp;)=delete</td></tr>
 <tr class="memitem:a4f83c2e557323a8d3109ac0622ddc5a5" id="r_a4f83c2e557323a8d3109ac0622ddc5a5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f83c2e557323a8d3109ac0622ddc5a5">FpeMonitor</a> (int excepts)</td></tr>
 <tr class="memdesc:a4f83c2e557323a8d3109ac0622ddc5a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor with exception mask.  <br /></td></tr>
 <tr class="memitem:ac2aa897de8f4c4433145c503fd814438" id="r_ac2aa897de8f4c4433145c503fd814438"><td class="memItemLeft" align="right" valign="top"><a id="ac2aa897de8f4c4433145c503fd814438" name="ac2aa897de8f4c4433145c503fd814438"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>consumeRecorded</b> ()</td></tr>
 <tr class="memdesc:ac2aa897de8f4c4433145c503fd814438"><td class="mdescLeft">&#160;</td><td class="mdescRight">Process recorded exceptions. <br /></td></tr>
+<tr class="memitem:a472478bba54562664f3d8acf97c8362d" id="r_a472478bba54562664f3d8acf97c8362d"><td class="memItemLeft" align="right" valign="top"><a id="a472478bba54562664f3d8acf97c8362d" name="a472478bba54562664f3d8acf97c8362d"></a>
+FpeMonitor &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const FpeMonitor &amp;)=delete</td></tr>
+<tr class="memitem:abd546ba8a4f9aae082c3c3bfa29e5cd9" id="r_abd546ba8a4f9aae082c3c3bfa29e5cd9"><td class="memItemLeft" align="right" valign="top"><a id="abd546ba8a4f9aae082c3c3bfa29e5cd9" name="abd546ba8a4f9aae082c3c3bfa29e5cd9"></a>
+FpeMonitor &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (FpeMonitor &amp;&amp;)=delete</td></tr>
 <tr class="memitem:ab87768fdbe0a7975af3948e6169d23f7" id="r_ab87768fdbe0a7975af3948e6169d23f7"><td class="memItemLeft" align="right" valign="top"><a id="ab87768fdbe0a7975af3948e6169d23f7" name="ab87768fdbe0a7975af3948e6169d23f7"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>rearm</b> ()</td></tr>
 <tr class="memdesc:ab87768fdbe0a7975af3948e6169d23f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Re-enable exception monitoring. <br /></td></tr>
@@ -168,7 +174,7 @@ Static Public Member Functions</h2></td></tr>
 <div class="textblock"><p>Monitor for floating-point exceptions with stack trace capture. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4f83c2e557323a8d3109ac0622ddc5a5" name="a4f83c2e557323a8d3109ac0622ddc5a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4f83c2e557323a8d3109ac0622ddc5a5">&#9670;&#160;</a></span>FpeMonitor() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f83c2e557323a8d3109ac0622ddc5a5">&#9670;&#160;</a></span>FpeMonitor()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -194,39 +200,6 @@ Static Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">excepts</td><td>Mask of exceptions to monitor </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a1385198ebc65a40547bb036330ab5572" name="a1385198ebc65a40547bb036330ab5572"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1385198ebc65a40547bb036330ab5572">&#9670;&#160;</a></span>FpeMonitor() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ActsPlugins::FpeMonitor::FpeMonitor </td>
-          <td>(</td>
-          <td class="paramtype">FpeMonitor &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Move constructor. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">other</td><td>Monitor to move from </td></tr>
   </table>
   </dd>
 </dl>

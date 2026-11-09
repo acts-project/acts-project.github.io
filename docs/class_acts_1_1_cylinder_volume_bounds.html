@@ -184,8 +184,8 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a53576911a993b1bf17aac3e08c9838f5" id="r_a53576911a993b1bf17aac3e08c9838f5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53576911a993b1bf17aac3e08c9838f5">CylinderVolumeBounds</a> (const <a class="el" href="class_acts_1_1_cylinder_bounds.html">CylinderBounds</a> &amp;cBounds, double thickness)</td></tr>
 <tr class="memdesc:a53576911a993b1bf17aac3e08c9838f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor - extruded from cylinder bounds and thickness.  <br /></td></tr>
-<tr class="memitem:a66c905eb141b683f27d164d846841bcc" id="r_a66c905eb141b683f27d164d846841bcc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66c905eb141b683f27d164d846841bcc">CylinderVolumeBounds</a> (const CylinderVolumeBounds &amp;cylbo)</td></tr>
-<tr class="memdesc:a66c905eb141b683f27d164d846841bcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy Constructor.  <br /></td></tr>
+<tr class="memitem:a44706bb12777104e7e0c24217bb6c971" id="r_a44706bb12777104e7e0c24217bb6c971"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44706bb12777104e7e0c24217bb6c971">CylinderVolumeBounds</a> (const CylinderVolumeBounds &amp;cylbo)=default</td></tr>
+<tr class="memdesc:a44706bb12777104e7e0c24217bb6c971"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy Constructor.  <br /></td></tr>
 <tr class="memitem:a40184d2dae59ba9da3e44289c8a3e4a4" id="r_a40184d2dae59ba9da3e44289c8a3e4a4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40184d2dae59ba9da3e44289c8a3e4a4">CylinderVolumeBounds</a> (const <a class="el" href="class_acts_1_1_radial_bounds.html">RadialBounds</a> &amp;rBounds, double thickness)</td></tr>
 <tr class="memdesc:a40184d2dae59ba9da3e44289c8a3e4a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor - extruded from radial bounds and thickness.  <br /></td></tr>
 <tr class="memitem:af6b927b5ea1b3fb41d2794b996bc8d9e" id="r_af6b927b5ea1b3fb41d2794b996bc8d9e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6b927b5ea1b3fb41d2794b996bc8d9e">CylinderVolumeBounds</a> (const std::array&lt; double, eSize &gt; &amp;<a class="el" href="#a832a9a77c6f0e2d7d62084c097d3bd38">values</a>)</td></tr>
@@ -418,11 +418,14 @@ static const std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight"
 
 </div>
 </div>
-<a id="a66c905eb141b683f27d164d846841bcc" name="a66c905eb141b683f27d164d846841bcc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66c905eb141b683f27d164d846841bcc">&#9670;&#160;</a></span>CylinderVolumeBounds() <span class="overload">[5/5]</span></h2>
+<a id="a44706bb12777104e7e0c24217bb6c971" name="a44706bb12777104e7e0c24217bb6c971"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44706bb12777104e7e0c24217bb6c971">&#9670;&#160;</a></span>CylinderVolumeBounds() <span class="overload">[5/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">Acts::CylinderVolumeBounds::CylinderVolumeBounds </td>
@@ -431,6 +434,11 @@ static const std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight"
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Copy Constructor. </p>

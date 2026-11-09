@@ -1,12 +1,5 @@
 var NAVTREEINDEX61 =
 {
-"group__python__bindings.html":[5,12],
-"group__python__custom__algorithms.html":[5,12,0],
-"group__python__data__io.html":[5,12,1],
-"group__python__performance__plotting.html":[5,12,2],
-"group__python__testing.html":[3,7],
-"group__python__testing.html":[5,12,3],
-"group__python__testing.html#root_file_hashes":[3,8],
 "group__root__plugin.html":[5,10,12],
 "group__root__plugin.html#ga17ad41fa38da45d72a3b6020632207a2":[5,10,12,22],
 "group__root__plugin.html#ga1d6552cacc19e90697dfbb5617e52cc2":[5,10,12,21],
@@ -249,5 +242,12 @@ var NAVTREEINDEX61 =
 "namespace_acts.html#a67cc3d5d72150ff20e4deb6627519248":[6,0,0,531],
 "namespace_acts.html#a6892e054d938002cb1cc681d19619ad5":[6,0,0,879],
 "namespace_acts.html#a68a45911e56331406f861490dc249b1c":[6,0,0,983],
-"namespace_acts.html#a692f3bf198b75679e1051ae422c41869":[6,0,0,707]
+"namespace_acts.html#a692f3bf198b75679e1051ae422c41869":[6,0,0,707],
+"namespace_acts.html#a6a5beb945158d8185b7baf48937105ec":[6,0,0,543],
+"namespace_acts.html#a6a670110d0ebb9267ec1256f8bd88b6e":[6,0,0,611],
+"namespace_acts.html#a6a9928559b584e711a83869d56fe1bdb":[6,0,0,852],
+"namespace_acts.html#a6a9fb11be9ef92418a895d177e0d873c":[6,0,0,855],
+"namespace_acts.html#a6bacc83149ffd31c3d1c02297b63a884":[6,0,0,558],
+"namespace_acts.html#a6c086a09086424ffb3ace68710e8e92c":[6,0,0,658],
+"namespace_acts.html#a6c1d412bb8bda7a8080ef4b2c8a7067d":[6,0,0,574]
 };

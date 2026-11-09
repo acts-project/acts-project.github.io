@@ -1,12 +1,5 @@
 var NAVTREEINDEX78 =
 {
-"struct_acts_1_1_rz_grid_volume_lookup_1_1_config.html#abea079379d6a698b8a7e8fd9f4093d9f":[6,0,0,364,0,1],
-"struct_acts_1_1_rz_grid_volume_lookup_1_1_config.html#abea079379d6a698b8a7e8fd9f4093d9f":[8,0,0,369,0,1],
-"struct_acts_1_1_rz_grid_volume_lookup_1_1_config.html#af7d8d7cc9a655e1f1246c96130a65a47":[6,0,0,364,0,0],
-"struct_acts_1_1_rz_grid_volume_lookup_1_1_config.html#af7d8d7cc9a655e1f1246c96130a65a47":[8,0,0,369,0,0],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_config.html":[6,0,0,366,0],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_config.html":[8,0,0,371,0],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_config.html#a042ec5053056473bd11e46daace10fc1":[6,0,0,366,0,6],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_config.html#a042ec5053056473bd11e46daace10fc1":[8,0,0,371,0,6],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_config.html#a0e1bc7a39ddc95ecc7a2956e303e7ac9":[6,0,0,366,0,1],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_config.html#a0e1bc7a39ddc95ecc7a2956e303e7ac9":[8,0,0,371,0,1],
@@ -249,5 +242,12 @@ var NAVTREEINDEX78 =
 "struct_acts_1_1_strip_space_point_builder_1_1_constrained_options.html#acb83225ec2cd1edeff5c2c40b748b212":[8,0,0,12,1,0],
 "struct_acts_1_1_strip_space_point_builder_1_1_constrained_strip_cache.html":[8,0,0,12,2],
 "struct_acts_1_1_strip_space_point_builder_1_1_constrained_strip_cache.html#a291a2498838b9de8ee650331f89ab24c":[8,0,0,12,2,1],
-"struct_acts_1_1_strip_space_point_builder_1_1_constrained_strip_cache.html#a2edb2034181758c0bb15c3dadb0ec85e":[8,0,0,12,2,2]
+"struct_acts_1_1_strip_space_point_builder_1_1_constrained_strip_cache.html#a2edb2034181758c0bb15c3dadb0ec85e":[8,0,0,12,2,2],
+"struct_acts_1_1_strip_space_point_builder_1_1_constrained_strip_cache.html#a69647841f96af10b565072a6b8b646bd":[8,0,0,12,2,4],
+"struct_acts_1_1_strip_space_point_builder_1_1_constrained_strip_cache.html#ab771e80b64fcfdef993c986703d6f4c6":[8,0,0,12,2,0],
+"struct_acts_1_1_strip_space_point_builder_1_1_constrained_strip_cache.html#abe99262a06e82bea3ac5ebc56aad99c7":[8,0,0,12,2,3],
+"struct_acts_1_1_strip_space_point_builder_1_1_cosmic_options.html":[8,0,0,12,3],
+"struct_acts_1_1_strip_space_point_builder_1_1_cosmic_options.html#ab40cba538b563ba9407e2341bb8ce23c":[8,0,0,12,3,1],
+"struct_acts_1_1_strip_space_point_builder_1_1_cosmic_options.html#ad94292d444b7df8e779c99e839402f4c":[8,0,0,12,3,0],
+"struct_acts_1_1_strip_space_point_builder_1_1_strip_ends.html":[8,0,0,12,4]
 };

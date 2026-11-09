@@ -1,12 +1,5 @@
 var NAVTREEINDEX80 =
 {
-"struct_acts_1_1_track_at_vertex.html#a8cdfdadf6827caf8097081d3aa5f3b60":[8,0,0,417,7],
-"struct_acts_1_1_track_at_vertex.html#a95809671c89a42218e024b025c16c398":[6,0,0,412,5],
-"struct_acts_1_1_track_at_vertex.html#a95809671c89a42218e024b025c16c398":[8,0,0,417,5],
-"struct_acts_1_1_track_at_vertex.html#aaa5e0c23dafc8d497d9421d188fb8b19":[6,0,0,412,1],
-"struct_acts_1_1_track_at_vertex.html#aaa5e0c23dafc8d497d9421d188fb8b19":[8,0,0,417,1],
-"struct_acts_1_1_track_density_vertex_finder_1_1_config.html":[6,0,0,414,0],
-"struct_acts_1_1_track_density_vertex_finder_1_1_config.html":[8,0,0,419,0],
 "struct_acts_1_1_track_density_vertex_finder_1_1_config.html#aeb1fd39ab4c2e690543c3e17f36c734a":[6,0,0,414,0,0],
 "struct_acts_1_1_track_density_vertex_finder_1_1_config.html#aeb1fd39ab4c2e690543c3e17f36c734a":[8,0,0,419,0,0],
 "struct_acts_1_1_track_density_vertex_finder_1_1_state.html":[6,0,0,414,1],
@@ -249,5 +242,12 @@ var NAVTREEINDEX80 =
 "struct_acts_1_1_triplet_seed_finder_1_1_config.html#a2b53ee52ca5a8e67699a16f6a82fe150":[6,0,0,440,0,3],
 "struct_acts_1_1_triplet_seed_finder_1_1_config.html#a2b53ee52ca5a8e67699a16f6a82fe150":[8,0,0,445,0,3],
 "struct_acts_1_1_triplet_seed_finder_1_1_config.html#a3222ca8e4e50ad639009caec135762e4":[6,0,0,440,0,10],
-"struct_acts_1_1_triplet_seed_finder_1_1_config.html#a3222ca8e4e50ad639009caec135762e4":[8,0,0,445,0,10]
+"struct_acts_1_1_triplet_seed_finder_1_1_config.html#a3222ca8e4e50ad639009caec135762e4":[8,0,0,445,0,10],
+"struct_acts_1_1_triplet_seed_finder_1_1_config.html#a3689f281628a3346aa3df4afd061a200":[6,0,0,440,0,5],
+"struct_acts_1_1_triplet_seed_finder_1_1_config.html#a3689f281628a3346aa3df4afd061a200":[8,0,0,445,0,5],
+"struct_acts_1_1_triplet_seed_finder_1_1_config.html#a3a4fca5e415ebf06f46d5d8dd2fc3aa6":[6,0,0,440,0,9],
+"struct_acts_1_1_triplet_seed_finder_1_1_config.html#a3a4fca5e415ebf06f46d5d8dd2fc3aa6":[8,0,0,445,0,9],
+"struct_acts_1_1_triplet_seed_finder_1_1_config.html#a4de694714c9ab2d914f84d49724f3905":[6,0,0,440,0,7],
+"struct_acts_1_1_triplet_seed_finder_1_1_config.html#a4de694714c9ab2d914f84d49724f3905":[8,0,0,445,0,7],
+"struct_acts_1_1_triplet_seed_finder_1_1_config.html#a6759b19c90ff253131eb131d83e000dc":[6,0,0,440,0,8]
 };

@@ -177,8 +177,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9f1d3af738da3f0de26a5f93804cb7f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Arrow operator.  <br /></td></tr>
 <tr class="memitem:a586e48c7fa597b904c0ccdbd0a64d427" id="r_a586e48c7fa597b904c0ccdbd0a64d427"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ae7aac6328a8a29b4e72c469f46f6c213">CloneablePtr</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a586e48c7fa597b904c0ccdbd0a64d427">operator=</a> (<a class="el" href="#ae7aac6328a8a29b4e72c469f46f6c213">CloneablePtr</a> &amp;&amp;) noexcept=default</td></tr>
 <tr class="memdesc:a586e48c7fa597b904c0ccdbd0a64d427"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment.  <br /></td></tr>
-<tr class="memitem:ae08ea2d0bd1b2ceb1521d5741f23bdaa" id="r_ae08ea2d0bd1b2ceb1521d5741f23bdaa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ae7aac6328a8a29b4e72c469f46f6c213">CloneablePtr</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae08ea2d0bd1b2ceb1521d5741f23bdaa">operator=</a> (const <a class="el" href="#ae7aac6328a8a29b4e72c469f46f6c213">CloneablePtr</a> &amp;other) noexcept</td></tr>
-<tr class="memdesc:ae08ea2d0bd1b2ceb1521d5741f23bdaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment.  <br /></td></tr>
+<tr class="memitem:a78ac33174861f4e92aafea3f53045a9a" id="r_a78ac33174861f4e92aafea3f53045a9a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ae7aac6328a8a29b4e72c469f46f6c213">CloneablePtr</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78ac33174861f4e92aafea3f53045a9a">operator=</a> (const <a class="el" href="#ae7aac6328a8a29b4e72c469f46f6c213">CloneablePtr</a> &amp;other)</td></tr>
+<tr class="memdesc:a78ac33174861f4e92aafea3f53045a9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment.  <br /></td></tr>
 <tr class="memitem:a2383679e379a3e1b0a412a6749accc0a" id="r_a2383679e379a3e1b0a412a6749accc0a"><td class="memTemplParams" colspan="2">template&lt;typename T1&gt; <br />
 requires (std::is_copy_constructible_v&lt;T1&gt; &amp;&amp; std::is_base_of_v&lt;T, T1&gt;)</td></tr>
 <tr class="memitem:a2383679e379a3e1b0a412a6749accc0a template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ae7aac6328a8a29b4e72c469f46f6c213">CloneablePtr</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2383679e379a3e1b0a412a6749accc0a">operator=</a> (std::unique_ptr&lt; T1 &gt; &amp;&amp;ptr) noexcept</td></tr>
@@ -459,16 +459,13 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="ae08ea2d0bd1b2ceb1521d5741f23bdaa" name="ae08ea2d0bd1b2ceb1521d5741f23bdaa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae08ea2d0bd1b2ceb1521d5741f23bdaa">&#9670;&#160;</a></span>operator=() <span class="overload">[2/3]</span></h2>
+<a id="a78ac33174861f4e92aafea3f53045a9a" name="a78ac33174861f4e92aafea3f53045a9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78ac33174861f4e92aafea3f53045a9a">&#9670;&#160;</a></span>operator=() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="#ae7aac6328a8a29b4e72c469f46f6c213">CloneablePtr</a> &amp; <a class="el" href="class_acts_1_1_cloneable_ptr.html">Acts::CloneablePtr</a>&lt; T &gt;::operator= </td>
@@ -477,11 +474,6 @@ template&lt;typename T&gt; </div>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Copy assignment. </p>

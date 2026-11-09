@@ -1,12 +1,5 @@
 var NAVTREEINDEX85 =
 {
-"struct_acts_plugins_1_1_svg_1_1_tracking_geometry_converter_1_1_options.html":[5,10,0,8],
-"struct_acts_plugins_1_1_svg_1_1_tracking_geometry_converter_1_1_options.html#aeacc9061e45a28b62ab076884c010434":[5,10,0,8,0],
-"struct_acts_plugins_1_1_svg_1_1_tracking_geometry_converter_1_1_options.html#aff4f2b12cecf7a3006aceb9ac49e4727":[5,10,0,8,1],
-"struct_acts_plugins_1_1_svg_1_1_tracking_geometry_converter_1_1_state.html":[5,10,0,9],
-"struct_acts_plugins_1_1_svg_1_1_tracking_geometry_converter_1_1_state.html#a645d52940fbe91498edd3c6cd81cce23":[5,10,0,9,0],
-"struct_acts_plugins_1_1_svg_1_1_tracking_geometry_converter_1_1_state.html#a770b9ecdb1ee33a5e113060e0f0c9b90":[5,10,0,9,1],
-"struct_acts_plugins_1_1_svg_1_1_tracking_geometry_converter_1_1_state.html#aeba562c12c9577dd82a75ca1563125f0":[5,10,0,9,2],
 "struct_acts_plugins_1_1_svg_1_1_tracking_geometry_projections_1_1_options.html":[8,0,2,5,6,0],
 "struct_acts_plugins_1_1_svg_1_1_tracking_geometry_projections_1_1_options.html#a2222a15a827a105266536efd3b8e8318":[8,0,2,5,6,0,2],
 "struct_acts_plugins_1_1_svg_1_1_tracking_geometry_projections_1_1_options.html#a2f1ed3fc5e73508c1a6d976dee7e5c0f":[8,0,2,5,6,0,1],
@@ -249,5 +242,12 @@ var NAVTREEINDEX85 =
 "structdetray_1_1actor_1_1step__tracer_1_1state.html#ad645778fcadc56fff68749b57a77f222":[8,0,3,0,11,0,2],
 "structdetray_1_1actor_1_1surface__sequencer.html":[8,0,3,0,12],
 "structdetray_1_1actor_1_1surface__sequencer.html#a2ddd9d0fdbb4375c6c3e3e06f579a16a":[8,0,3,0,12,1],
-"structdetray_1_1actor_1_1surface__sequencer_1_1state.html":[8,0,3,0,12,0]
+"structdetray_1_1actor_1_1surface__sequencer_1_1state.html":[8,0,3,0,12,0],
+"structdetray_1_1actor_1_1surface__sequencer_1_1state.html#a0b5c815d22ea68eb85eb67cb4b0b5875":[8,0,3,0,12,0,5],
+"structdetray_1_1actor_1_1surface__sequencer_1_1state.html#a1c7fa3966ed7e7b12da7944d57ec0bb1":[8,0,3,0,12,0,2],
+"structdetray_1_1actor_1_1surface__sequencer_1_1state.html#a2054554d90e558752a0ca7802a159f5f":[8,0,3,0,12,0,0],
+"structdetray_1_1actor_1_1surface__sequencer_1_1state.html#a41482f9c3a151cadb24256428d04f76e":[8,0,3,0,12,0,4],
+"structdetray_1_1actor_1_1surface__sequencer_1_1state.html#a7fd948ef479907583a2a93fbc5cf9cbe":[8,0,3,0,12,0,1],
+"structdetray_1_1actor_1_1surface__sequencer_1_1state.html#a809880a950ef58f75ed09b0568717597":[8,0,3,0,12,0,3],
+"structdetray_1_1actor_1_1surface__sequencer_1_1state.html#a90fe070395778257c5f45a7b8e84209b":[8,0,3,0,12,0,6]
 };

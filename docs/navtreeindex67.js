@@ -1,12 +1,5 @@
 var NAVTREEINDEX67 =
 {
-"struct_acts_1_1_const_ref_holder.html":[6,0,0,86],
-"struct_acts_1_1_const_ref_holder.html":[8,0,0,91],
-"struct_acts_1_1_const_ref_holder.html#a09d489a74747538869ede43dcfeea567":[6,0,0,86,1],
-"struct_acts_1_1_const_ref_holder.html#a09d489a74747538869ede43dcfeea567":[8,0,0,91,1],
-"struct_acts_1_1_const_ref_holder.html#a1a9fe3fc666fb642e0cd366d211a8dc3":[6,0,0,86,3],
-"struct_acts_1_1_const_ref_holder.html#a1a9fe3fc666fb642e0cd366d211a8dc3":[8,0,0,91,3],
-"struct_acts_1_1_const_ref_holder.html#a835704cb5dca05096a16a6b0ccd447ab":[6,0,0,86,5],
 "struct_acts_1_1_const_ref_holder.html#a835704cb5dca05096a16a6b0ccd447ab":[8,0,0,91,5],
 "struct_acts_1_1_const_ref_holder.html#ab01c13f1553eb2e6ea1e12d31374bd55":[6,0,0,86,0],
 "struct_acts_1_1_const_ref_holder.html#ab01c13f1553eb2e6ea1e12d31374bd55":[8,0,0,91,0],
@@ -249,5 +242,12 @@ var NAVTREEINDEX67 =
 "struct_acts_1_1_doublet_seed_finder_1_1_config.html#ae3031ae1c7d2be8cdc4f37f7610e9ef4":[6,0,0,128,0,4],
 "struct_acts_1_1_doublet_seed_finder_1_1_config.html#ae3031ae1c7d2be8cdc4f37f7610e9ef4":[8,0,0,133,0,4],
 "struct_acts_1_1_doublet_seed_finder_1_1_config.html#ae5bd7578ef1b5a8de6039a585255274e":[6,0,0,128,0,6],
-"struct_acts_1_1_doublet_seed_finder_1_1_config.html#ae5bd7578ef1b5a8de6039a585255274e":[8,0,0,133,0,6]
+"struct_acts_1_1_doublet_seed_finder_1_1_config.html#ae5bd7578ef1b5a8de6039a585255274e":[8,0,0,133,0,6],
+"struct_acts_1_1_doublet_seed_finder_1_1_config.html#af72da006b9f18fb00b05727dad00f06b":[6,0,0,128,0,9],
+"struct_acts_1_1_doublet_seed_finder_1_1_config.html#af72da006b9f18fb00b05727dad00f06b":[8,0,0,133,0,9],
+"struct_acts_1_1_doublet_seed_finder_1_1_config.html#affb52c144b89342d640711544807f921":[6,0,0,128,0,15],
+"struct_acts_1_1_doublet_seed_finder_1_1_config.html#affb52c144b89342d640711544807f921":[8,0,0,133,0,15],
+"struct_acts_1_1_doublet_seed_finder_1_1_derived_config.html":[6,0,0,128,1],
+"struct_acts_1_1_doublet_seed_finder_1_1_derived_config.html":[8,0,0,133,1],
+"struct_acts_1_1_doublet_seed_finder_1_1_derived_config.html#a2cbcb1e4412f47f04ae8151e1ea23fdd":[6,0,0,128,1,3]
 };

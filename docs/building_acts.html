@@ -127,17 +127,17 @@ $(function(){initNavTree('building_acts.html','',''); });
 <div class="contents">
 <div class="textblock"><h1 class="doxsection"><a class="anchor" id="autotoc_md102"></a>
 Quick start</h1>
-<p>ACTS is developed in C++ and is built using <a href="https://cmake.org">CMake</a>. Building the core library requires a C++20 compatible compiler, <a href="https://www.boost.org">Boost</a>, and <a href="https://eigen.tuxfamily.org">Eigen</a>. The following commands will clone the repository, configure, and build the core library:</p>
+<p>ACTS is developed in C++ and is built using <a href="https://cmake.org">CMake</a>. Building the core library requires a C++23 compatible compiler, <a href="https://www.boost.org">Boost</a>, and <a href="https://eigen.tuxfamily.org">Eigen</a>. The following commands will clone the repository, configure, and build the core library:</p>
 <div class="fragment"><div class="line">git clone https://github.com/acts-project/acts &lt;source&gt;</div>
 <div class="line">cmake -B &lt;build&gt; -S &lt;source&gt;</div>
 <div class="line">cmake --build &lt;build&gt;</div>
-</div><!-- fragment --><p>The default C++ standard is C++23. To build in the supported C++20 mode, configure with <span class="tt">-DCMAKE_CXX_STANDARD=20</span> and use dependencies built for C++20.</p>
+</div><!-- fragment --><p>The minimum and default C++ standard is C++23. Use dependencies built for C++23.</p>
 <p>For a full list of dependencies, including specific versions, see the <a class="el" href="#prerequisites">Prerequisites</a> section below. Build options to activate additional components are described in the <a class="el" href="#build-options">Build options</a> section.</p>
 <h1 class="doxsection"><a class="anchor" id="prerequisites"></a>
 Prerequisites</h1>
 <p>The following dependencies are required to build the ACTS core library:</p>
 <ul>
-<li>A C++20 compatible compiler (recent versions of either gcc and clang should work)</li>
+<li>A C++23 compatible compiler (recent versions of either gcc and clang should work)</li>
 <li><a href="https://cmake.org">CMake</a> &gt;= 3.14</li>
 <li><a href="https://www.boost.org">Boost</a> &gt;= 1.71 with <span class="tt">filesystem</span>, <span class="tt">program_options</span>, and <span class="tt">unit_test_framework</span></li>
 <li><a href="https://eigen.tuxfamily.org">Eigen</a> &gt;= 3.3.7</li>
