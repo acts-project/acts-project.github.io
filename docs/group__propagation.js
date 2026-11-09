@@ -1,5 +1,69 @@
 var group__propagation =
 [
     [ "Magnetic Field", "group__magnetic__field.html", "group__magnetic__field" ],
-    [ "Symbolic code generation", "group__sympy__codegen.html", null ]
+    [ "Symbolic code generation", "group__sympy__codegen.html", null ],
+    [ "Acts::AtlasStepper", "class_acts_1_1_atlas_stepper.html", [
+      [ "Config", "struct_acts_1_1_atlas_stepper_1_1_config.html", [
+        [ "bField", "struct_acts_1_1_atlas_stepper_1_1_config.html#a84d3f3c142ae47956e755181e051cd5f", null ]
+      ] ],
+      [ "Options", "struct_acts_1_1_atlas_stepper_1_1_options.html", [
+        [ "Options", "struct_acts_1_1_atlas_stepper_1_1_options.html#a4ab33928e006d785e3537c36073676cd", null ],
+        [ "setPlainOptions", "struct_acts_1_1_atlas_stepper_1_1_options.html#a59febc7891dd436f8dba8fc5f8cdada6", null ]
+      ] ],
+      [ "State", "struct_acts_1_1_atlas_stepper_1_1_state.html", [
+        [ "State", "struct_acts_1_1_atlas_stepper_1_1_state.html#aca20fb95811e29333423c7709ec61156", null ],
+        [ "cov", "struct_acts_1_1_atlas_stepper_1_1_state.html#af19085c6e82bbeba215a6157700c3fd9", null ],
+        [ "derivativeReady", "struct_acts_1_1_atlas_stepper_1_1_state.html#a33ce139b0c28162db487c8eb47bddb82", null ],
+        [ "field", "struct_acts_1_1_atlas_stepper_1_1_state.html#afb180b5e371b7d3e6a211b58a529a931", null ],
+        [ "fieldCache", "struct_acts_1_1_atlas_stepper_1_1_state.html#a73e59eece5c3944168e5637b443a76e9", null ],
+        [ "newField", "struct_acts_1_1_atlas_stepper_1_1_state.html#a7bc0f6c63a2297e806fbdf6964dbd651", null ],
+        [ "nSteps", "struct_acts_1_1_atlas_stepper_1_1_state.html#ac91d30f1cdc099ac947f438a9ffa19c2", null ],
+        [ "options", "struct_acts_1_1_atlas_stepper_1_1_state.html#af2cc0fc0ca380701fb6dc1be39f69e5c", null ],
+        [ "particleHypothesis", "struct_acts_1_1_atlas_stepper_1_1_state.html#a29b6ca916d630d39eed6613a4d6d6521", null ],
+        [ "pathAccumulated", "struct_acts_1_1_atlas_stepper_1_1_state.html#aeb5d203462c2924eced88d60cdbb912b", null ],
+        [ "previousStepSize", "struct_acts_1_1_atlas_stepper_1_1_state.html#ab04e4fd5b28119c3690f0f8798943565", null ],
+        [ "pVector", "struct_acts_1_1_atlas_stepper_1_1_state.html#ad71ad2fcbb566ebb722e8fb735ef9568", null ],
+        [ "statistics", "struct_acts_1_1_atlas_stepper_1_1_state.html#a29f02aa619ee96cf7adcead8c972e8f6", null ],
+        [ "stepSize", "struct_acts_1_1_atlas_stepper_1_1_state.html#ac5d94694b54896c4a7c9883ec493133a", null ]
+      ] ],
+      [ "BoundParameters", "class_acts_1_1_atlas_stepper.html#ab52fe6b7180cf06c503bb826905d8f17", null ],
+      [ "Covariance", "class_acts_1_1_atlas_stepper.html#a0621e44f0f27a4e6464a3e378f7f88a4", null ],
+      [ "Jacobian", "class_acts_1_1_atlas_stepper.html#abfeeb7e97e877a18eb247217bd2d0caf", null ],
+      [ "AtlasStepper", "class_acts_1_1_atlas_stepper.html#a46bb98d17148584df91f6eb32d92da4d", null ],
+      [ "AtlasStepper", "class_acts_1_1_atlas_stepper.html#afe015e1d79f77ded4f318b3d8561a92b", null ],
+      [ "absoluteMomentum", "class_acts_1_1_atlas_stepper.html#a141b82019d154f6f70f09221ba6c7339", null ],
+      [ "boundParameters", "class_acts_1_1_atlas_stepper.html#a377cfc4f624c54e7f58fdae06d2180d9", null ],
+      [ "charge", "class_acts_1_1_atlas_stepper.html#a517f578beb8a42e6311c4702ffb310ee", null ],
+      [ "covariance", "class_acts_1_1_atlas_stepper.html#a5d4ea1de64b590907a5196c23c82ca63", null ],
+      [ "curvature", "class_acts_1_1_atlas_stepper.html#a6004ed6a3f7c94daba23abc3e28ffd5e", null ],
+      [ "curvilinearParameters", "class_acts_1_1_atlas_stepper.html#a1f930e21f0fed8b06ac53332aed350ea", null ],
+      [ "direction", "class_acts_1_1_atlas_stepper.html#aba6f026f3fccc9472e957dad018d72aa", null ],
+      [ "getField", "class_acts_1_1_atlas_stepper.html#aa6d9b1de6416f5fbfbbf1bcc8d4290b6", null ],
+      [ "getStepSize", "class_acts_1_1_atlas_stepper.html#a401b7be5e93e875f3c6bcd8a1bd720b4", null ],
+      [ "hasCovariance", "class_acts_1_1_atlas_stepper.html#ae9a5c6ec3b0b0f5189a549a809195d5b", null ],
+      [ "initialize", "class_acts_1_1_atlas_stepper.html#aa0c8b6a76f0f18af0bc0da689e9ab1a9", null ],
+      [ "initialize", "class_acts_1_1_atlas_stepper.html#a8e5b22dc244a6be994a41604f8e81667", null ],
+      [ "makeState", "class_acts_1_1_atlas_stepper.html#a9928d64ab03521a6f5915b2d77cc14fb", null ],
+      [ "momentum", "class_acts_1_1_atlas_stepper.html#a133d09cefccf6b9b5bc70c46bcb5f6dd", null ],
+      [ "outputStepSize", "class_acts_1_1_atlas_stepper.html#a16968ad922509d102a455f97088fe700", null ],
+      [ "overstepLimit", "class_acts_1_1_atlas_stepper.html#ae4eb08c28db5b240e1d5c29547e2ab87", null ],
+      [ "particleHypothesis", "class_acts_1_1_atlas_stepper.html#aa4a92814e4ecb974b156a3ab63af9dfa", null ],
+      [ "pathLength", "class_acts_1_1_atlas_stepper.html#a821d0b05c6c52cf468849cdd3ab38585", null ],
+      [ "position", "class_acts_1_1_atlas_stepper.html#a6af686bb9b04d73a69bbc23ae7173d93", null ],
+      [ "prepareCurvilinearState", "class_acts_1_1_atlas_stepper.html#a59acde84d6ca056d319fa0eae0d2de3c", null ],
+      [ "qOverP", "class_acts_1_1_atlas_stepper.html#ad23f9bbbae7b31bc98776ce07691de5c", null ],
+      [ "releaseStepSize", "class_acts_1_1_atlas_stepper.html#a33d357292ca85d648b04f53016cad0e0", null ],
+      [ "setCovariance", "class_acts_1_1_atlas_stepper.html#a3e5ff4ab816f5d73be5ee34e2de4015b", null ],
+      [ "statistics", "class_acts_1_1_atlas_stepper.html#ada3d02eaa52a420c1cd2a356b9ee3602", null ],
+      [ "step", "class_acts_1_1_atlas_stepper.html#a3c050c88cae4bc6c7534ed3309d8ce1a", null ],
+      [ "stepSize", "class_acts_1_1_atlas_stepper.html#a7ac4f7741f7c649485bea815bfc7848e", null ],
+      [ "time", "class_acts_1_1_atlas_stepper.html#a5567385ad6523ef252f2ac222074c280", null ],
+      [ "transportToBound", "class_acts_1_1_atlas_stepper.html#a8ed9b837bf17f713fe4bb95de4dd119d", null ],
+      [ "transportToCurvilinear", "class_acts_1_1_atlas_stepper.html#a352a04b02eb1a187e5ac9c0e5bbd5be3", null ],
+      [ "update", "class_acts_1_1_atlas_stepper.html#a2db1084885c61cabb7a8ae41a5eeb480", null ],
+      [ "update", "class_acts_1_1_atlas_stepper.html#ae685ac7af45b27799cab2a22fe2cca34", null ],
+      [ "updateStepSize", "class_acts_1_1_atlas_stepper.html#a4202d2ac654fa9749f8b71b64dceb0e0", null ],
+      [ "updateStepSize", "class_acts_1_1_atlas_stepper.html#a1f388f63bebb6b3643499b0c6f433b5f", null ],
+      [ "updateSurfaceStatus", "class_acts_1_1_atlas_stepper.html#a262cb0491260b7a4e355320b9fbe7062", null ]
+    ] ]
 ];

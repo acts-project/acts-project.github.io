@@ -127,6 +127,7 @@ $(function(){initNavTree('group__propagation.html','',''); });
 <div class="contents">
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <p>Particle propagation. </p>
+<p>Use <a class="el" href="class_acts_1_1_sympy_stepper.html">Acts::SympyStepper</a> or <a class="el" href="class_acts_1_1_eigen_stepper.html">Acts::EigenStepper</a> for production propagation in a magnetic field. The <a class="el" href="class_acts_1_1_atlas_stepper.html">Acts::AtlasStepper</a> is a historical, hand-expanded ATLAS Runge-Kutta-Nystroem implementation retained for performance studies. It prioritizes speed and is not intended for production tracking. Its class documentation summarizes its origin and limitations.</p>
 <p>The transport Jacobian used for covariance transport is not written by hand: it is derived symbolically with sympy and printed as C++ at build time. See <a class="el" href="codegen_sympy_jac.html">Transport Jacobian code generation</a> for the derivation, the sparsity patterns it exploits and the code it produces.</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md53"></a>
 Steppers</h2>
@@ -140,6 +141,11 @@ Topics</h2></td></tr>
 <tr class="memdesc:group__magnetic__field"><td class="mdescLeft">&#160;</td><td class="mdescRight">A description of magnetic field configurations for algorithms. <br /></td></tr>
 <tr class="memitem:sympy_5Fcodegen" id="r_sympy_5Fcodegen"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sympy__codegen.html">Symbolic code generation </a></td></tr>
 <tr class="memdesc:group__sympy__codegen"><td class="mdescLeft">&#160;</td><td class="mdescRight">How the <a class="el" href="class_acts_1_1_sympy_stepper.html">Acts::SympyStepper</a> kernels are derived with sympy, and the ATLAS-form arrangement they use. <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:Acts_3A_3AAtlasStepper" id="r_Acts_3A_3AAtlasStepper"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_atlas_stepper.html">Acts::AtlasStepper</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Historical ATLAS Runge-Kutta-Nystroem stepper for performance studies.  <a href="class_acts_1_1_atlas_stepper.html#details">More...</a><br /></td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -122,11 +122,11 @@ $(function(){initNavTree('class_acts_1_1_atlas_stepper.html','','class_acts_1_1_
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">Acts::AtlasStepper Class Reference</div></div>
+  <div class="headertitle"><div class="title">Acts::AtlasStepper Class Reference<div class="ingroups"><a class="el" href="group__propagation.html">Propagation</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>the AtlasStepper implementation for the  
+<p>Historical ATLAS Runge-Kutta-Nystroem stepper for performance studies.  
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_atlas_stepper_8hpp_source.html">Acts/Propagator/AtlasStepper.hpp</a>&gt;</code></p>
@@ -228,8 +228,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a262cb0491260b7a4e355320b9fbe7062"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update surface status.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>the AtlasStepper implementation for the </p>
-<p>This is based original stepper code from the ATLAS RungeKuttaPropagator </p>
+<div class="textblock"><p>Historical ATLAS Runge-Kutta-Nystroem stepper for performance studies. </p>
+<dl class="section warning"><dt>Warning</dt><dd>This implementation prioritizes speed and is not intended for production use. Use SympyStepper or EigenStepper for production tracking.</dd></dl>
+<p>Adapted from the ATLAS RungeKuttaPropagator in Athena, with ACTS-specific time propagation and error control. The integration kernel uses hand-expanded scalar expressions and approximate direction normalization. Covariance transport neglects magnetic-field gradients. Volume material and the non-linear free-to-bound correction are not supported.</p>
+<p>This historical port is maintained independently of Athena. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a46bb98d17148584df91f6eb32d92da4d" name="a46bb98d17148584df91f6eb32d92da4d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a46bb98d17148584df91f6eb32d92da4d">&#9670;&#160;</a></span>AtlasStepper() <span class="overload">[1/2]</span></h2>
@@ -1005,7 +1007,7 @@ Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">state</td><td>State of the stepper </td></tr>
     <tr><td class="paramdir"></td><td class="paramname">propDir</td><td>is the direction of propagation </td></tr>
-    <tr><td class="paramdir"></td><td class="paramname">material</td><td>is the optional volume material we are stepping through. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">material</td><td>is the optional volume material we are stepping through. Ignored; this stepper only integrates motion in a magnetic field. </td></tr>
   </table>
   </dd>
 </dl>
