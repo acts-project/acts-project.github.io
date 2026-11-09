@@ -1,11 +1,5 @@
 var NAVTREEINDEX105 =
 {
-"structdetray_1_1wire__chamber__metadata.html#aba1e089de5850f206ddd443c23c33f2e":[6,0,4,208,10],
-"structdetray_1_1wire__chamber__metadata.html#aba1e089de5850f206ddd443c23c33f2e":[8,0,3,221,10],
-"structdetray_1_1wire__chamber__metadata.html#ad04fb3d6cd68fff5d0a810a6212db3cc":[6,0,4,208,7],
-"structdetray_1_1wire__chamber__metadata.html#ad04fb3d6cd68fff5d0a810a6212db3cc":[8,0,3,221,7],
-"structdetray_1_1wire__chamber__metadata.html#adab70afaf1ee466b9c3fa071e6a9d71f":[6,0,4,208,5],
-"structdetray_1_1wire__chamber__metadata.html#adab70afaf1ee466b9c3fa071e6a9d71f":[8,0,3,221,5],
 "structdetray_1_1wire__chamber__metadata.html#adbb5a688074365dca5f7be708cb96f3f":[6,0,4,208,20],
 "structdetray_1_1wire__chamber__metadata.html#adbb5a688074365dca5f7be708cb96f3f":[8,0,3,221,20],
 "structdetray_1_1wire__chamber__metadata.html#adc8aa7315ac7778974425b2bfb8d9fc3":[6,0,4,208,15],

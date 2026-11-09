@@ -1,11 +1,5 @@
 var NAVTREEINDEX74 =
 {
-"struct_acts_1_1_impact_parameters_and_sigma.html#a01b2e408696061c166d5135b1df6a9cf":[6,0,0,196,5],
-"struct_acts_1_1_impact_parameters_and_sigma.html#a01b2e408696061c166d5135b1df6a9cf":[8,0,0,201,5],
-"struct_acts_1_1_impact_parameters_and_sigma.html#a3715ab051fc7e9a0b6e4170ebcaa84c2":[6,0,0,196,0],
-"struct_acts_1_1_impact_parameters_and_sigma.html#a3715ab051fc7e9a0b6e4170ebcaa84c2":[8,0,0,201,0],
-"struct_acts_1_1_impact_parameters_and_sigma.html#a5977c69dc8eef5b6e49cd6c7b9c965d5":[6,0,0,196,1],
-"struct_acts_1_1_impact_parameters_and_sigma.html#a5977c69dc8eef5b6e49cd6c7b9c965d5":[8,0,0,201,1],
 "struct_acts_1_1_impact_parameters_and_sigma.html#a6d7dee624647a0ff8ff0bb87279a96fe":[6,0,0,196,2],
 "struct_acts_1_1_impact_parameters_and_sigma.html#a6d7dee624647a0ff8ff0bb87279a96fe":[8,0,0,201,2],
 "struct_acts_1_1_impact_parameters_and_sigma.html#a8ed9ab5adafbb6ae3810c492399e1751":[6,0,0,196,3],
@@ -249,5 +243,11 @@ var NAVTREEINDEX74 =
 "struct_acts_1_1_linear_volume_lookup_1_1_config.html":[6,0,0,257,0],
 "struct_acts_1_1_linear_volume_lookup_1_1_config.html":[8,0,0,262,0],
 "struct_acts_1_1_linear_volume_lookup_1_1_config.html#ac4cdf8b9880a16cf81a6f2edc518964f":[6,0,0,257,0,0],
-"struct_acts_1_1_linear_volume_lookup_1_1_config.html#ac4cdf8b9880a16cf81a6f2edc518964f":[8,0,0,262,0,0]
+"struct_acts_1_1_linear_volume_lookup_1_1_config.html#ac4cdf8b9880a16cf81a6f2edc518964f":[8,0,0,262,0,0],
+"struct_acts_1_1_linearized_track.html":[6,0,0,256],
+"struct_acts_1_1_linearized_track.html":[8,0,0,261],
+"struct_acts_1_1_linearized_track.html#a0368ab9b69ba2fa3035dab1b8662c799":[6,0,0,256,1],
+"struct_acts_1_1_linearized_track.html#a0368ab9b69ba2fa3035dab1b8662c799":[8,0,0,261,1],
+"struct_acts_1_1_linearized_track.html#a0fdf707cfe866bc3fb367154e0cf306c":[6,0,0,256,7],
+"struct_acts_1_1_linearized_track.html#a0fdf707cfe866bc3fb367154e0cf306c":[8,0,0,261,7]
 };

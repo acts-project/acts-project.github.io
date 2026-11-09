@@ -1,11 +1,5 @@
 var NAVTREEINDEX92 =
 {
-"structdetray_1_1helix__intersector__impl_3_01cartesian2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html#ac544e504bd124870a0801667f994e45f":[8,0,3,99,1],
-"structdetray_1_1helix__intersector__impl_3_01cartesian2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html#ac97a475a1955fbe4a949e6a4268d91c8":[6,0,4,86,5],
-"structdetray_1_1helix__intersector__impl_3_01cartesian2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html#ac97a475a1955fbe4a949e6a4268d91c8":[8,0,3,99,5],
-"structdetray_1_1helix__intersector__impl_3_01cartesian2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html#ad11e7c8e500c5d83f021c70fdb36a980":[6,0,4,86,6],
-"structdetray_1_1helix__intersector__impl_3_01cartesian2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html#ad11e7c8e500c5d83f021c70fdb36a980":[8,0,3,99,6],
-"structdetray_1_1helix__intersector__impl_3_01cartesian2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html#ada2c7caf362e93dd061616386fe4fd33":[6,0,4,86,8],
 "structdetray_1_1helix__intersector__impl_3_01cartesian2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html#ada2c7caf362e93dd061616386fe4fd33":[8,0,3,99,8],
 "structdetray_1_1helix__intersector__impl_3_01cartesian2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html#ae261b48eaf1f46f9945c56cbab10a99d":[6,0,4,86,4],
 "structdetray_1_1helix__intersector__impl_3_01cartesian2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html#ae261b48eaf1f46f9945c56cbab10a99d":[8,0,3,99,4],
@@ -249,5 +243,11 @@ var NAVTREEINDEX92 =
 "structdetray_1_1intersector.html#a3e5745bcc755b9ac746e735f249a5111":[6,0,4,105,3],
 "structdetray_1_1intersector.html#a3e5745bcc755b9ac746e735f249a5111":[8,0,3,118,3],
 "structdetray_1_1intersector.html#a462afd8106c7a594a7432f8af3d17f2b":[6,0,4,105,11],
-"structdetray_1_1intersector.html#a462afd8106c7a594a7432f8af3d17f2b":[8,0,3,118,11]
+"structdetray_1_1intersector.html#a462afd8106c7a594a7432f8af3d17f2b":[8,0,3,118,11],
+"structdetray_1_1intersector.html#a51be450161b587661f1ca417fd69719f":[6,0,4,105,5],
+"structdetray_1_1intersector.html#a51be450161b587661f1ca417fd69719f":[8,0,3,118,5],
+"structdetray_1_1intersector.html#a71c4c7cb8690b209549bc36c01fedc77":[6,0,4,105,12],
+"structdetray_1_1intersector.html#a71c4c7cb8690b209549bc36c01fedc77":[8,0,3,118,12],
+"structdetray_1_1intersector.html#a7583f094948c20a24298cfa8469780c5":[6,0,4,105,7],
+"structdetray_1_1intersector.html#a7583f094948c20a24298cfa8469780c5":[8,0,3,118,7]
 };

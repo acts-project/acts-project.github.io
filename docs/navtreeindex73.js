@@ -1,11 +1,5 @@
 var NAVTREEINDEX73 =
 {
-"struct_acts_1_1_grid_axis_generators_1_1_var_eq.html#acb221ae27f46a37f5056a450cee3fa13":[6,0,0,2,4,3],
-"struct_acts_1_1_grid_axis_generators_1_1_var_eq.html#acb221ae27f46a37f5056a450cee3fa13":[8,0,0,4,4,3],
-"struct_acts_1_1_grid_axis_generators_1_1_var_var.html":[6,0,0,2,5],
-"struct_acts_1_1_grid_axis_generators_1_1_var_var.html":[8,0,0,4,5],
-"struct_acts_1_1_grid_axis_generators_1_1_var_var.html#a015a2837a034173f4039c58e8013af32":[6,0,0,2,5,4],
-"struct_acts_1_1_grid_axis_generators_1_1_var_var.html#a015a2837a034173f4039c58e8013af32":[8,0,0,4,5,4],
 "struct_acts_1_1_grid_axis_generators_1_1_var_var.html#a70076e03e7fd9dde97f9cd00d387ea1e":[6,0,0,2,5,2],
 "struct_acts_1_1_grid_axis_generators_1_1_var_var.html#a70076e03e7fd9dde97f9cd00d387ea1e":[8,0,0,4,5,2],
 "struct_acts_1_1_grid_axis_generators_1_1_var_var.html#a75a0722f3b0930b21e486fd91318573f":[6,0,0,2,5,1],
@@ -249,5 +243,11 @@ var NAVTREEINDEX73 =
 "struct_acts_1_1_impact_parameters_and_sigma.html":[6,0,0,196],
 "struct_acts_1_1_impact_parameters_and_sigma.html":[8,0,0,201],
 "struct_acts_1_1_impact_parameters_and_sigma.html#a0055158a8a13eb2908255f83f2fe9a00":[6,0,0,196,4],
-"struct_acts_1_1_impact_parameters_and_sigma.html#a0055158a8a13eb2908255f83f2fe9a00":[8,0,0,201,4]
+"struct_acts_1_1_impact_parameters_and_sigma.html#a0055158a8a13eb2908255f83f2fe9a00":[8,0,0,201,4],
+"struct_acts_1_1_impact_parameters_and_sigma.html#a01b2e408696061c166d5135b1df6a9cf":[6,0,0,196,5],
+"struct_acts_1_1_impact_parameters_and_sigma.html#a01b2e408696061c166d5135b1df6a9cf":[8,0,0,201,5],
+"struct_acts_1_1_impact_parameters_and_sigma.html#a3715ab051fc7e9a0b6e4170ebcaa84c2":[6,0,0,196,0],
+"struct_acts_1_1_impact_parameters_and_sigma.html#a3715ab051fc7e9a0b6e4170ebcaa84c2":[8,0,0,201,0],
+"struct_acts_1_1_impact_parameters_and_sigma.html#a5977c69dc8eef5b6e49cd6c7b9c965d5":[6,0,0,196,1],
+"struct_acts_1_1_impact_parameters_and_sigma.html#a5977c69dc8eef5b6e49cd6c7b9c965d5":[8,0,0,201,1]
 };

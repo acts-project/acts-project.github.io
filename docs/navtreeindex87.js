@@ -1,11 +1,5 @@
 var NAVTREEINDEX87 =
 {
-"structdetray_1_1algebra_1_1smatrix_1_1math_1_1transform3.html":[8,0,3,1,5,0,0],
-"structdetray_1_1algebra_1_1smatrix_1_1math_1_1transform3.html#a0626b4c117be7008fa21c3da4f5347bf":[8,0,3,1,5,0,0,29],
-"structdetray_1_1algebra_1_1smatrix_1_1math_1_1transform3.html#a078ae30e1a2966ba2c588c0dd9be9cca":[8,0,3,1,5,0,0,26],
-"structdetray_1_1algebra_1_1smatrix_1_1math_1_1transform3.html#a0953976c253d2973df41157c3aef298a":[8,0,3,1,5,0,0,1],
-"structdetray_1_1algebra_1_1smatrix_1_1math_1_1transform3.html#a11931ac43f3fdea1f799c7892c34ae7c":[8,0,3,1,5,0,0,20],
-"structdetray_1_1algebra_1_1smatrix_1_1math_1_1transform3.html#a156017db46e3f2b683f0e9786ba96741":[8,0,3,1,5,0,0,19],
 "structdetray_1_1algebra_1_1smatrix_1_1math_1_1transform3.html#a1dae580d7f2cb86aab89549b4ab7eb20":[8,0,3,1,5,0,0,9],
 "structdetray_1_1algebra_1_1smatrix_1_1math_1_1transform3.html#a2d30e66c3e3652c6c79ab18f11d74d4c":[8,0,3,1,5,0,0,4],
 "structdetray_1_1algebra_1_1smatrix_1_1math_1_1transform3.html#a32ab4c194a765ed62c6e47893d96f7f2":[8,0,3,1,5,0,0,16],
@@ -249,5 +243,11 @@ var NAVTREEINDEX87 =
 "structdetray_1_1barrel__generator__config.html#ad842991cff1225667329848ba6a34401":[8,0,3,34,0],
 "structdetray_1_1barrel__generator__config.html#ad857c4db35aec854821386980ef1f7f8":[6,0,4,21,20],
 "structdetray_1_1barrel__generator__config.html#ad857c4db35aec854821386980ef1f7f8":[8,0,3,34,20],
-"structdetray_1_1barrel__generator__config.html#ae9b09504b8f2b9bf3cb22595532d1989":[6,0,4,21,15]
+"structdetray_1_1barrel__generator__config.html#ae9b09504b8f2b9bf3cb22595532d1989":[6,0,4,21,15],
+"structdetray_1_1barrel__generator__config.html#ae9b09504b8f2b9bf3cb22595532d1989":[8,0,3,34,15],
+"structdetray_1_1barrel__generator__config.html#aea5a117cf6b790bc0be3e1a80b64fa23":[6,0,4,21,17],
+"structdetray_1_1barrel__generator__config.html#aea5a117cf6b790bc0be3e1a80b64fa23":[8,0,3,34,17],
+"structdetray_1_1base__actor.html":[6,0,4,22],
+"structdetray_1_1base__actor.html":[8,0,3,35],
+"structdetray_1_1base__actor_1_1is__comp__actor.html":[6,0,4,22,0]
 };

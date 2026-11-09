@@ -1,11 +1,5 @@
 var NAVTREEINDEX58 =
 {
-"concept_acts_1_1_mutable_multi_trajectory_backend.html":[6,0,0,489],
-"concept_acts_1_1_mutable_multi_trajectory_backend.html":[7,0,24],
-"concept_acts_1_1_mutable_surface_visitor.html":[6,0,0,490],
-"concept_acts_1_1_mutable_surface_visitor.html":[7,0,25],
-"concept_acts_1_1_mutable_track_container_backend.html":[6,0,0,491],
-"concept_acts_1_1_mutable_track_container_backend.html":[7,0,26],
 "concept_acts_1_1_mutable_track_proxy_concept.html":[6,0,0,492],
 "concept_acts_1_1_mutable_track_proxy_concept.html":[7,0,27],
 "concept_acts_1_1_mutable_track_state_proxy_concept.html":[6,0,0,493],
@@ -249,5 +243,11 @@ var NAVTREEINDEX58 =
 "contribution_clang_tidy.html":[3,0],
 "deprecated.html":[10],
 "formatting.html":[3,3],
-"functions.html":[8,2,0]
+"functions.html":[8,2,0],
+"functions.html":[8,2,0,0],
+"functions_a.html":[8,2,0,1],
+"functions_b.html":[8,2,0,2],
+"functions_c.html":[8,2,0,3],
+"functions_d.html":[8,2,0,4],
+"functions_e.html":[8,2,0,5]
 };

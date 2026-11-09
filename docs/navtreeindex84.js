@@ -1,11 +1,5 @@
 var NAVTREEINDEX84 =
 {
-"struct_acts_plugins_1_1_device.html#a6f4a90fb663d1a054e7217269d41755d":[5,10,6,2,4],
-"struct_acts_plugins_1_1_device.html#a8d6402367687af920630e52d91c4c366":[5,10,6,2,0],
-"struct_acts_plugins_1_1_device.html#a8fa5c6856600a9ebf8795b67a6940b71":[5,10,6,2,7],
-"struct_acts_plugins_1_1_device.html#ab415c73a916bc8a0eea4a67b4e065064":[5,10,6,2,5],
-"struct_acts_plugins_1_1_device.html#accc360d8927adc93ed85ecbae8680e62":[5,10,6,2,1],
-"struct_acts_plugins_1_1_device.html#ae38ca3263b27d84b76c3170a93eb9fc0":[5,10,6,2,2],
 "struct_acts_plugins_1_1_device.html#afe74d25b11d7a9544bf8fe22bfcc7739":[5,10,6,2,6],
 "struct_acts_plugins_1_1_e_d_m4hep_util_1_1_measurement_data.html":[8,0,2,2,0],
 "struct_acts_plugins_1_1_e_d_m4hep_util_1_1_measurement_data.html#a4480d35c611447427a86a2aa3602ccb7":[8,0,2,2,0,2],
@@ -249,5 +243,11 @@ var NAVTREEINDEX84 =
 "struct_acts_plugins_1_1_svg_1_1_tracking_geometry_projections_1_1_options.html":[8,0,2,5,6,0],
 "struct_acts_plugins_1_1_svg_1_1_tracking_geometry_projections_1_1_options.html#a2222a15a827a105266536efd3b8e8318":[8,0,2,5,6,0,2],
 "struct_acts_plugins_1_1_svg_1_1_tracking_geometry_projections_1_1_options.html#a2f1ed3fc5e73508c1a6d976dee7e5c0f":[8,0,2,5,6,0,1],
-"struct_acts_plugins_1_1_svg_1_1_tracking_geometry_projections_1_1_options.html#a8fb885e238cc4bb82dc353c50794c5d4":[8,0,2,5,6,0,3]
+"struct_acts_plugins_1_1_svg_1_1_tracking_geometry_projections_1_1_options.html#a8fb885e238cc4bb82dc353c50794c5d4":[8,0,2,5,6,0,3],
+"struct_acts_plugins_1_1_svg_1_1_tracking_geometry_projections_1_1_options.html#ade0e9b98e23c7c28fcd18e8258a177a1":[8,0,2,5,6,0,0],
+"struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_config.html":[6,0,3,64,0],
+"struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_config.html":[8,0,2,69,0],
+"struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_config.html#a03480b657f30babb981b983299602a5c":[6,0,3,64,0,0],
+"struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_config.html#a03480b657f30babb981b983299602a5c":[8,0,2,69,0,0],
+"struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_config.html#a0bac3824e4aa59eb01de06523d4e9942":[6,0,3,64,0,2]
 };

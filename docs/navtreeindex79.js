@@ -1,11 +1,5 @@
 var NAVTREEINDEX79 =
 {
-"struct_acts_1_1_supports_bound_parameters_3_01_eigen_stepper_3_4_01_4.html":[6,0,0,390],
-"struct_acts_1_1_supports_bound_parameters_3_01_eigen_stepper_3_4_01_4.html":[8,0,0,395],
-"struct_acts_1_1_supports_bound_parameters_3_01_generic_runge_kutta_stepper_01_4.html":[6,0,0,391],
-"struct_acts_1_1_supports_bound_parameters_3_01_generic_runge_kutta_stepper_01_4.html":[8,0,0,396],
-"struct_acts_1_1_supports_bound_parameters_3_01_helix_stepper_01_4.html":[6,0,0,392],
-"struct_acts_1_1_supports_bound_parameters_3_01_helix_stepper_01_4.html":[8,0,0,397],
 "struct_acts_1_1_supports_bound_parameters_3_01_straight_line_stepper_01_4.html":[6,0,0,393],
 "struct_acts_1_1_supports_bound_parameters_3_01_straight_line_stepper_01_4.html":[8,0,0,398],
 "struct_acts_1_1_supports_bound_parameters_3_01_sympy_stepper_01_4.html":[6,0,0,394],
@@ -249,5 +243,11 @@ var NAVTREEINDEX79 =
 "struct_acts_1_1_track_density_vertex_finder_1_1_config.html#aeb1fd39ab4c2e690543c3e17f36c734a":[6,0,0,414,0,0],
 "struct_acts_1_1_track_density_vertex_finder_1_1_config.html#aeb1fd39ab4c2e690543c3e17f36c734a":[8,0,0,419,0,0],
 "struct_acts_1_1_track_density_vertex_finder_1_1_state.html":[6,0,0,414,1],
-"struct_acts_1_1_track_density_vertex_finder_1_1_state.html":[8,0,0,419,1]
+"struct_acts_1_1_track_density_vertex_finder_1_1_state.html":[8,0,0,419,1],
+"struct_acts_1_1_track_selector_1_1_config.html":[6,0,0,428,0],
+"struct_acts_1_1_track_selector_1_1_config.html":[8,0,0,433,0],
+"struct_acts_1_1_track_selector_1_1_config.html#a02c75fbcec69c6f3aa9d73947ff1d74c":[6,0,0,428,0,25],
+"struct_acts_1_1_track_selector_1_1_config.html#a02c75fbcec69c6f3aa9d73947ff1d74c":[8,0,0,433,0,25],
+"struct_acts_1_1_track_selector_1_1_config.html#a09e4801fea9841f5c3225767f2081e2f":[6,0,0,428,0,13],
+"struct_acts_1_1_track_selector_1_1_config.html#a09e4801fea9841f5c3225767f2081e2f":[8,0,0,433,0,13]
 };

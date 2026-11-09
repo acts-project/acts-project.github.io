@@ -1,11 +1,5 @@
 var NAVTREEINDEX85 =
 {
-"struct_acts_plugins_1_1_svg_1_1_tracking_geometry_projections_1_1_options.html#ade0e9b98e23c7c28fcd18e8258a177a1":[8,0,2,5,6,0,0],
-"struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_config.html":[6,0,3,64,0],
-"struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_config.html":[8,0,2,69,0],
-"struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_config.html#a03480b657f30babb981b983299602a5c":[6,0,3,64,0,0],
-"struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_config.html#a03480b657f30babb981b983299602a5c":[8,0,2,69,0,0],
-"struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_config.html#a0bac3824e4aa59eb01de06523d4e9942":[6,0,3,64,0,2],
 "struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_config.html#a0bac3824e4aa59eb01de06523d4e9942":[8,0,2,69,0,2],
 "struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_config.html#a0d73fe6c2d97e748ccca2ee4f0e6bbcb":[6,0,3,64,0,4],
 "struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_config.html#a0d73fe6c2d97e748ccca2ee4f0e6bbcb":[8,0,2,69,0,4],
@@ -249,5 +243,11 @@ var NAVTREEINDEX85 =
 "structdetray_1_1actor_1_1surface__sequencer_1_1state.html#aa73f52d3c4e099f9b3a81db95559304a":[8,0,3,0,12,0,8],
 "structdetray_1_1actor_1_1surface__sequencer_1_1state.html#ae53a5b9d27e8aacbae40b10c40137e79":[8,0,3,0,12,0,7],
 "structdetray_1_1actor_1_1target__aborter.html":[8,0,3,0,13],
-"structdetray_1_1actor_1_1target__aborter.html#a4b339109aee65314f3098999ba610973":[8,0,3,0,13,1]
+"structdetray_1_1actor_1_1target__aborter.html#a4b339109aee65314f3098999ba610973":[8,0,3,0,13,1],
+"structdetray_1_1actor_1_1target__aborter_1_1state.html":[8,0,3,0,13,0],
+"structdetray_1_1actor_1_1target__aborter_1_1state.html#acfab32460e288edf7b0d0ae170390f00":[8,0,3,0,13,0,0],
+"structdetray_1_1aggregate__inspector.html":[6,0,4,8],
+"structdetray_1_1aggregate__inspector.html":[8,0,3,21],
+"structdetray_1_1aggregate__inspector.html#a3cff1197a87aa1835dd90acff3efaeee":[6,0,4,8,2],
+"structdetray_1_1aggregate__inspector.html#a3cff1197a87aa1835dd90acff3efaeee":[8,0,3,21,2]
 };

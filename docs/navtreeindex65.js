@@ -1,11 +1,5 @@
 var NAVTREEINDEX65 =
 {
-"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a0b411817188fbcf7a9592ba2e1aabd32":[6,0,0,18,0,18],
-"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a0b411817188fbcf7a9592ba2e1aabd32":[8,0,0,23,0,18],
-"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a13b63aac430ad76e6c6030dfae4fae39":[6,0,0,18,0,13],
-"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a13b63aac430ad76e6c6030dfae4fae39":[8,0,0,23,0,13],
-"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a1fdd5701a75e9cacbac2044a6cfb3c16":[6,0,0,18,0,5],
-"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a1fdd5701a75e9cacbac2044a6cfb3c16":[8,0,0,23,0,5],
 "struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a20571aa48aaea253c51ec388db9494aa":[6,0,0,18,0,9],
 "struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a20571aa48aaea253c51ec388db9494aa":[8,0,0,23,0,9],
 "struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a26b4238e64cb10afb16a1e65b5ff06fe":[6,0,0,18,0,16],
@@ -249,5 +243,11 @@ var NAVTREEINDEX65 =
 "struct_acts_1_1_axis_spec_options.html#a9a373ab538a6985f329bb5926608f296":[8,0,0,49,2],
 "struct_acts_1_1_axis_spec_options.html#aee7955c52cc72400dbce07348a97493c":[6,0,0,44,1],
 "struct_acts_1_1_axis_spec_options.html#aee7955c52cc72400dbce07348a97493c":[8,0,0,49,1],
-"struct_acts_1_1_binned_surface_material_accumulator_1_1_config.html":[5,3,2,0,4,0]
+"struct_acts_1_1_binned_surface_material_accumulator_1_1_config.html":[5,3,2,0,4,0],
+"struct_acts_1_1_binned_surface_material_accumulator_1_1_config.html#a076bdf5eb88751fcac1e8b1069a41982":[5,3,2,0,4,0,1],
+"struct_acts_1_1_binned_surface_material_accumulator_1_1_config.html#ae69930fa2dc55092a18ebb7edbe8a076":[5,3,2,0,4,0,0],
+"struct_acts_1_1_binned_surface_material_accumulator_1_1_state.html":[5,3,2,0,4,1],
+"struct_acts_1_1_binned_surface_material_accumulator_1_1_state.html#a0eecbe30758e6a22f756ac29aedd524f":[5,3,2,0,4,1,0],
+"struct_acts_1_1_binned_surface_material_accumulator_1_1_state.html#a3860dc4fc67c51f34858e344888f837b":[5,3,2,0,4,1,1],
+"struct_acts_1_1_binned_surface_material_accumulator_1_1_state.html#a91069fd60a6a8c260ddafa1b880fff6f":[5,3,2,0,4,1,2]
 };
