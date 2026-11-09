@@ -1,9 +1,5 @@
 var NAVTREEINDEX71 =
 {
-"struct_acts_1_1_experimental_1_1_hough_exploration_options.html#ae57d040669bd8694325ae0a83265cf84":[8,0,0,2,44,2],
-"struct_acts_1_1_experimental_1_1_hough_exploration_options.html#af546732450c3bed80fe69ace73a24f93":[6,0,0,1,44,5],
-"struct_acts_1_1_experimental_1_1_hough_exploration_options.html#af546732450c3bed80fe69ace73a24f93":[8,0,0,2,44,5],
-"struct_acts_1_1_experimental_1_1_multi_layer_navigation_policy_1_1_config.html":[6,0,0,1,47,0],
 "struct_acts_1_1_experimental_1_1_multi_layer_navigation_policy_1_1_config.html":[8,0,0,2,47,0],
 "struct_acts_1_1_experimental_1_1_multi_layer_navigation_policy_1_1_config.html#a75b7ea708d3aac053ac0311e3dd51a11":[6,0,0,1,47,0,0],
 "struct_acts_1_1_experimental_1_1_multi_layer_navigation_policy_1_1_config.html#a75b7ea708d3aac053ac0311e3dd51a11":[8,0,0,2,47,0,0],
@@ -249,5 +245,9 @@ var NAVTREEINDEX71 =
 "struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html#ad3a3e102f812957f4dc5d93773f96a24":[8,0,0,157,0,2],
 "struct_acts_1_1_gaussian_grid_track_density_1_1_config.html":[6,0,0,155,0],
 "struct_acts_1_1_gaussian_grid_track_density_1_1_config.html":[8,0,0,160,0],
-"struct_acts_1_1_gaussian_grid_track_density_1_1_config.html#a24e5d86ad9d76cb103c173020021667a":[6,0,0,155,0,3]
+"struct_acts_1_1_gaussian_grid_track_density_1_1_config.html#a24e5d86ad9d76cb103c173020021667a":[6,0,0,155,0,3],
+"struct_acts_1_1_gaussian_grid_track_density_1_1_config.html#a24e5d86ad9d76cb103c173020021667a":[8,0,0,160,0,3],
+"struct_acts_1_1_gaussian_grid_track_density_1_1_config.html#a269b2461907a4755bd715bbea41c973c":[6,0,0,155,0,0],
+"struct_acts_1_1_gaussian_grid_track_density_1_1_config.html#a269b2461907a4755bd715bbea41c973c":[8,0,0,160,0,0],
+"struct_acts_1_1_gaussian_grid_track_density_1_1_config.html#aaf2ffbe85a27f22c4d4fe7cecbc7e12d":[6,0,0,155,0,6]
 };

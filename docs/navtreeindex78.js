@@ -1,9 +1,5 @@
 var NAVTREEINDEX78 =
 {
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_config.html#a042ec5053056473bd11e46daace10fc1":[8,0,0,371,0,6],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_config.html#a0e1bc7a39ddc95ecc7a2956e303e7ac9":[6,0,0,366,0,1],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_config.html#a0e1bc7a39ddc95ecc7a2956e303e7ac9":[8,0,0,371,0,1],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_config.html#a58b3cbe18ecf014c19bc3faa0516ffcb":[6,0,0,366,0,4],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_config.html#a58b3cbe18ecf014c19bc3faa0516ffcb":[8,0,0,371,0,4],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_config.html#a6f38723f9550fab67b0a2fd96c027345":[6,0,0,366,0,0],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_config.html#a6f38723f9550fab67b0a2fd96c027345":[8,0,0,371,0,0],
@@ -249,5 +245,9 @@ var NAVTREEINDEX78 =
 "struct_acts_1_1_strip_space_point_builder_1_1_cosmic_options.html":[8,0,0,12,3],
 "struct_acts_1_1_strip_space_point_builder_1_1_cosmic_options.html#ab40cba538b563ba9407e2341bb8ce23c":[8,0,0,12,3,1],
 "struct_acts_1_1_strip_space_point_builder_1_1_cosmic_options.html#ad94292d444b7df8e779c99e839402f4c":[8,0,0,12,3,0],
-"struct_acts_1_1_strip_space_point_builder_1_1_strip_ends.html":[8,0,0,12,4]
+"struct_acts_1_1_strip_space_point_builder_1_1_strip_ends.html":[8,0,0,12,4],
+"struct_acts_1_1_strip_space_point_builder_1_1_strip_ends.html#a4c425f1cbd0af7d6bc4ef35c0506f854":[8,0,0,12,4,1],
+"struct_acts_1_1_strip_space_point_builder_1_1_strip_ends.html#aca1e9355119835f3349ee7dec653cf19":[8,0,0,12,4,0],
+"struct_acts_1_1_supports_bound_parameters.html":[6,0,0,389],
+"struct_acts_1_1_supports_bound_parameters.html":[8,0,0,394]
 };

@@ -1,9 +1,5 @@
 var NAVTREEINDEX85 =
 {
-"struct_acts_plugins_1_1_svg_1_1_tracking_geometry_projections_1_1_options.html":[8,0,2,5,6,0],
-"struct_acts_plugins_1_1_svg_1_1_tracking_geometry_projections_1_1_options.html#a2222a15a827a105266536efd3b8e8318":[8,0,2,5,6,0,2],
-"struct_acts_plugins_1_1_svg_1_1_tracking_geometry_projections_1_1_options.html#a2f1ed3fc5e73508c1a6d976dee7e5c0f":[8,0,2,5,6,0,1],
-"struct_acts_plugins_1_1_svg_1_1_tracking_geometry_projections_1_1_options.html#a8fb885e238cc4bb82dc353c50794c5d4":[8,0,2,5,6,0,3],
 "struct_acts_plugins_1_1_svg_1_1_tracking_geometry_projections_1_1_options.html#ade0e9b98e23c7c28fcd18e8258a177a1":[8,0,2,5,6,0,0],
 "struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_config.html":[6,0,3,64,0],
 "struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_config.html":[8,0,2,69,0],
@@ -249,5 +245,9 @@ var NAVTREEINDEX85 =
 "structdetray_1_1actor_1_1surface__sequencer_1_1state.html#a41482f9c3a151cadb24256428d04f76e":[8,0,3,0,12,0,4],
 "structdetray_1_1actor_1_1surface__sequencer_1_1state.html#a7fd948ef479907583a2a93fbc5cf9cbe":[8,0,3,0,12,0,1],
 "structdetray_1_1actor_1_1surface__sequencer_1_1state.html#a809880a950ef58f75ed09b0568717597":[8,0,3,0,12,0,3],
-"structdetray_1_1actor_1_1surface__sequencer_1_1state.html#a90fe070395778257c5f45a7b8e84209b":[8,0,3,0,12,0,6]
+"structdetray_1_1actor_1_1surface__sequencer_1_1state.html#a90fe070395778257c5f45a7b8e84209b":[8,0,3,0,12,0,6],
+"structdetray_1_1actor_1_1surface__sequencer_1_1state.html#aa73f52d3c4e099f9b3a81db95559304a":[8,0,3,0,12,0,8],
+"structdetray_1_1actor_1_1surface__sequencer_1_1state.html#ae53a5b9d27e8aacbae40b10c40137e79":[8,0,3,0,12,0,7],
+"structdetray_1_1actor_1_1target__aborter.html":[8,0,3,0,13],
+"structdetray_1_1actor_1_1target__aborter.html#a4b339109aee65314f3098999ba610973":[8,0,3,0,13,1]
 };

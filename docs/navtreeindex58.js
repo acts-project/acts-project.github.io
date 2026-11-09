@@ -1,9 +1,5 @@
 var NAVTREEINDEX58 =
 {
-"concept_acts_1_1_free_track_parameters_concept.html":[6,0,0,485],
-"concept_acts_1_1_free_track_parameters_concept.html":[7,0,20],
-"concept_acts_1_1_holder_for.html":[6,0,0,487],
-"concept_acts_1_1_holder_for.html":[7,0,22],
 "concept_acts_1_1_mutable_multi_trajectory_backend.html":[6,0,0,489],
 "concept_acts_1_1_mutable_multi_trajectory_backend.html":[7,0,24],
 "concept_acts_1_1_mutable_surface_visitor.html":[6,0,0,490],
@@ -249,5 +245,9 @@ var NAVTREEINDEX58 =
 "conceptdetray_1_1ranges_1_1random__access__range.html":[7,1,2,4],
 "conceptdetray_1_1ranges_1_1range.html":[7,1,2,5],
 "conceptdetray_1_1ranges_1_1range__of.html":[7,1,2,6],
-"concepts.html":[7]
+"concepts.html":[7],
+"contribution_clang_tidy.html":[3,0],
+"deprecated.html":[10],
+"formatting.html":[3,3],
+"functions.html":[8,2,0]
 };

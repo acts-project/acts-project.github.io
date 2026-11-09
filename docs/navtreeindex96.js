@@ -1,9 +1,5 @@
 var NAVTREEINDEX96 =
 {
-"structdetray_1_1perigee__stopper.html#a38d302610ec501eba5112665840630bc":[8,0,3,150,1],
-"structdetray_1_1perigee__stopper.html#afbee0158bbef8968e0b404a2bf9561f7":[6,0,4,137,2],
-"structdetray_1_1perigee__stopper.html#afbee0158bbef8968e0b404a2bf9561f7":[8,0,3,150,2],
-"structdetray_1_1perigee__stopper_1_1state.html":[6,0,4,137,0],
 "structdetray_1_1perigee__stopper_1_1state.html":[8,0,3,150,0],
 "structdetray_1_1perigee__stopper_1_1state.html#a59e473d530c7148f788b369c24f3cb82":[6,0,4,137,0,2],
 "structdetray_1_1perigee__stopper_1_1state.html#a59e473d530c7148f788b369c24f3cb82":[8,0,3,150,0,2],
@@ -249,5 +245,9 @@ var NAVTREEINDEX96 =
 "structdetray_1_1propane.html":[6,0,4,147],
 "structdetray_1_1propane.html":[8,0,3,160],
 "structdetray_1_1propane.html#a49d1bf98fb0964be8eaae2f20a32aa22":[6,0,4,147,0],
-"structdetray_1_1propane.html#a49d1bf98fb0964be8eaae2f20a32aa22":[8,0,3,160,0]
+"structdetray_1_1propane.html#a49d1bf98fb0964be8eaae2f20a32aa22":[8,0,3,160,0],
+"structdetray_1_1random__track__generator__config.html":[6,0,4,149],
+"structdetray_1_1random__track__generator__config.html":[8,0,3,162],
+"structdetray_1_1random__track__generator__config.html#a047aac13aef8fe09172875105a30c32d":[6,0,4,149,21],
+"structdetray_1_1random__track__generator__config.html#a047aac13aef8fe09172875105a30c32d":[8,0,3,162,21]
 };

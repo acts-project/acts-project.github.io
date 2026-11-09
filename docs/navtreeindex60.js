@@ -1,9 +1,5 @@
 var NAVTREEINDEX60 =
 {
-"group__errors.html#gga21cb0f3d4dc02db3af0291385e70d4e0adec88b388126e180a1d7807815c6c8dd":[5,4,2,1],
-"group__errors.html#gga2cc876d4889b5c6656ed7d5e0c1fca19a77fd0ff5599a44c8cd17ffb15f2de120":[5,4,9,0],
-"group__errors.html#gga2cc876d4889b5c6656ed7d5e0c1fca19a7d447f6eb40d640d8d86a78220a2c96a":[5,4,9,1],
-"group__errors.html#gga2cc876d4889b5c6656ed7d5e0c1fca19aeae409a43853a45ed4b8c5b4930836a2":[5,4,9,2],
 "group__errors.html#gga52148d84844c7850d7239a8e76d18514a82255a4834b3e563dd9c482e0e2fd4d7":[5,4,15,0],
 "group__errors.html#gga52148d84844c7850d7239a8e76d18514af74ca3848c0c6a51fdff12029826abc2":[5,4,15,1],
 "group__errors.html#gga5708898bc604b9dfedc12319218b8c1ba2ff410cc0e0ef7f55e8353551458922e":[5,4,0,3],
@@ -249,5 +245,9 @@ var NAVTREEINDEX60 =
 "group__python__performance__plotting.html":[5,12,2],
 "group__python__testing.html":[3,7],
 "group__python__testing.html":[5,12,3],
-"group__python__testing.html#root_file_hashes":[3,8]
+"group__python__testing.html#root_file_hashes":[3,8],
+"group__root__plugin.html":[5,10,12],
+"group__root__plugin.html#ga17ad41fa38da45d72a3b6020632207a2":[5,10,12,22],
+"group__root__plugin.html#ga1d6552cacc19e90697dfbb5617e52cc2":[5,10,12,21],
+"group__root__plugin.html#ga378672f895c4e16375ce7f1217c43427":[5,10,12,20]
 };

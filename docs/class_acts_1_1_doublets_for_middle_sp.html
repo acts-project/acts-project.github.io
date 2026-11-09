@@ -171,10 +171,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aac29de97ab590ef0b6cddc63b7784209"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get iterator to beginning of doublets container.  <br /></td></tr>
 <tr class="memitem:abea621d8c70c97751eac275ea4a5f01c" id="r_abea621d8c70c97751eac275ea4a5f01c"><td class="memItemLeft" align="right" valign="top"><a id="abea621d8c70c97751eac275ea4a5f01c" name="abea621d8c70c97751eac275ea4a5f01c"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr>
-<tr class="memdesc:abea621d8c70c97751eac275ea4a5f01c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear all stored doublets and associated data. <br /></td></tr>
-<tr class="memitem:affb2ef4438677b59c9b64513acc04031" id="r_affb2ef4438677b59c9b64513acc04031"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; float &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affb2ef4438677b59c9b64513acc04031">cotTheta</a> () const</td></tr>
-<tr class="memdesc:affb2ef4438677b59c9b64513acc04031"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get reference to cotTheta values container.  <br /></td></tr>
-<tr class="memitem:a9d169fd9f0cd08b85c86a1cb88f9dfb0" id="r_a9d169fd9f0cd08b85c86a1cb88f9dfb0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d169fd9f0cd08b85c86a1cb88f9dfb0">emplace_back</a> (<a class="el" href="namespace_acts.html#a22317e6b568d121dd169e79bec0bff8c">SpacePointIndex</a> sp, float <a class="el" href="#affb2ef4438677b59c9b64513acc04031">cotTheta</a>, float iDeltaR, float er, float u, float v, float x, float y)</td></tr>
+<tr class="memdesc:abea621d8c70c97751eac275ea4a5f01c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear all stored doublets. <br /></td></tr>
+<tr class="memitem:a9d169fd9f0cd08b85c86a1cb88f9dfb0" id="r_a9d169fd9f0cd08b85c86a1cb88f9dfb0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d169fd9f0cd08b85c86a1cb88f9dfb0">emplace_back</a> (<a class="el" href="namespace_acts.html#a22317e6b568d121dd169e79bec0bff8c">SpacePointIndex</a> sp, float cotTheta, float iDeltaR, float er, float u, float v, float x, float y)</td></tr>
 <tr class="memdesc:a9d169fd9f0cd08b85c86a1cb88f9dfb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a new doublet with associated parameters.  <br /></td></tr>
 <tr class="memitem:a5799c6d1e9d7c44cb66c140b1f5e829c" id="r_a5799c6d1e9d7c44cb66c140b1f5e829c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5799c6d1e9d7c44cb66c140b1f5e829c">empty</a> () const</td></tr>
 <tr class="memdesc:a5799c6d1e9d7c44cb66c140b1f5e829c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the doublets container is empty.  <br /></td></tr>
@@ -194,8 +192,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr
 <tr class="memdesc:aaa494ef65d31a686aeb8b9dce2909a5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort doublets by cotTheta within given range.  <br /></td></tr>
 <tr class="memitem:a6f95e7f0fea604a93500a76ffa1f295e" id="r_a6f95e7f0fea604a93500a76ffa1f295e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f95e7f0fea604a93500a76ffa1f295e">sortByCotTheta</a> (const <a class="el" href="#a7ad0809dae29ce5d31cbef2f7176f719">IndexRange</a> &amp;<a class="el" href="#a7f8a170b647559b2e8b2c74c0f305ba4">range</a>, std::vector&lt; <a class="el" href="struct_acts_1_1_doublets_for_middle_sp_1_1_index_and_cot_theta.html">IndexAndCotTheta</a> &gt; &amp;indexAndCotTheta, <a class="el" href="struct_acts_1_1_doublets_for_middle_sp_1_1_sort_storage.html">SortStorage</a> &amp;storage) const</td></tr>
 <tr class="memdesc:a6f95e7f0fea604a93500a76ffa1f295e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort doublets by cotTheta within given range, with storage the caller keeps between calls.  <br /></td></tr>
-<tr class="memitem:a1bcd91857db9dbb382bf7655918946ec" id="r_a1bcd91857db9dbb382bf7655918946ec"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="namespace_acts.html#a22317e6b568d121dd169e79bec0bff8c">SpacePointIndex</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1bcd91857db9dbb382bf7655918946ec">spacePoints</a> () const</td></tr>
-<tr class="memdesc:a1bcd91857db9dbb382bf7655918946ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get reference to space point indices container.  <br /></td></tr>
 <tr class="memitem:acf5046a01340f98b8276a6f2a6a23d81" id="r_acf5046a01340f98b8276a6f2a6a23d81"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_doublets_for_middle_sp_1_1_subset2.html">Subset2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf5046a01340f98b8276a6f2a6a23d81">subset</a> (const <a class="el" href="#a7382122c85e38256a07f91aa049e19e7">IndexAndCotThetaSubset</a> &amp;subset) const noexcept</td></tr>
 <tr class="memdesc:acf5046a01340f98b8276a6f2a6a23d81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create subset view from index and cotTheta subset.  <br /></td></tr>
 <tr class="memitem:a2e80bf7434ac5a4273d37f6d400c843e" id="r_a2e80bf7434ac5a4273d37f6d400c843e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_doublets_for_middle_sp_1_1_subset.html">Subset</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e80bf7434ac5a4273d37f6d400c843e">subset</a> (const <a class="el" href="#a99fb06aa62461b453d740cc6d14ce998">IndexSubset</a> &amp;subset) const noexcept</td></tr>
@@ -203,7 +199,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Container for doublets found by the doublet seed finder. </p>
-<p>This implementation uses partial AoS/SoA depending on the access pattern in the doublet finding process. </p>
+<p>Each doublet is stored as one record. The triplet finder visits the doublets in cotTheta order, i.e. through an index, and reads several quantities of each; one record keeps them together in memory. </p>
 </div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
 <a id="af51c07e017ae732dc4e047c674f174b1" name="af51c07e017ae732dc4e047c674f174b1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af51c07e017ae732dc4e047c674f174b1">&#9670;&#160;</a></span>const_iterator</h2>
@@ -241,26 +237,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr
 
 <p>Get iterator to beginning of doublets container. </p>
 <dl class="section return"><dt>Returns</dt><dd>Const iterator to first doublet </dd></dl>
-
-</div>
-</div>
-<a id="affb2ef4438677b59c9b64513acc04031" name="affb2ef4438677b59c9b64513acc04031"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#affb2ef4438677b59c9b64513acc04031">&#9670;&#160;</a></span>cotTheta()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::vector&lt; float &gt; &amp; Acts::DoubletsForMiddleSp::cotTheta </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get reference to cotTheta values container. </p>
-<dl class="section return"><dt>Returns</dt><dd>Const reference to cotTheta values vector </dd></dl>
 
 </div>
 </div>
@@ -316,14 +292,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr
 <p>Add a new doublet with associated parameters. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">sp</td><td>space point index for the doublet </td></tr>
-    <tr><td class="paramname">cotTheta</td><td>Cotangent of polar angle </td></tr>
-    <tr><td class="paramname">iDeltaR</td><td>Inverse delta R parameter </td></tr>
-    <tr><td class="paramname">er</td><td>Error in R coordinate </td></tr>
-    <tr><td class="paramname">u</td><td>U coordinate parameter </td></tr>
-    <tr><td class="paramname">v</td><td>V coordinate parameter </td></tr>
-    <tr><td class="paramname">x</td><td>X coordinate </td></tr>
-    <tr><td class="paramname">y</td><td>Y coordinate </td></tr>
+    <tr><td class="paramname">sp</td><td>Index of the other space point of the doublet </td></tr>
+    <tr><td class="paramname">cotTheta</td><td>Cotangent of the doublet's polar angle </td></tr>
+    <tr><td class="paramname">iDeltaR</td><td>Inverse transverse distance between the space points </td></tr>
+    <tr><td class="paramname">er</td><td>Squared uncertainty of cotTheta </td></tr>
+    <tr><td class="paramname">u</td><td>U coordinate of the other space point in the conformal frame </td></tr>
+    <tr><td class="paramname">v</td><td>V coordinate of the other space point in the conformal frame </td></tr>
+    <tr><td class="paramname">x</td><td>X of the other space point relative to the middle one, in the frame rotated to the middle space point's direction </td></tr>
+    <tr><td class="paramname">y</td><td>Y of the other space point relative to the middle one, in the frame rotated to the middle space point's direction </td></tr>
   </table>
   </dd>
 </dl>
@@ -583,26 +559,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="a1bcd91857db9dbb382bf7655918946ec" name="a1bcd91857db9dbb382bf7655918946ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1bcd91857db9dbb382bf7655918946ec">&#9670;&#160;</a></span>spacePoints()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::vector&lt; <a class="el" href="namespace_acts.html#a22317e6b568d121dd169e79bec0bff8c">SpacePointIndex</a> &gt; &amp; Acts::DoubletsForMiddleSp::spacePoints </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get reference to space point indices container. </p>
-<dl class="section return"><dt>Returns</dt><dd>Const reference to space point indices vector </dd></dl>
 
 </div>
 </div>
