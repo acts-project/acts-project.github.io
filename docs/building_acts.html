@@ -510,6 +510,8 @@ level above certain threshold<br  />
 <td class="markdownTableBodyNone">ACTS_COMPILE_HEADERS  </td><td class="markdownTableBodyNone">Generate targets to compile header files<br  />
  type: <span class="tt">bool</span>, default: <span class="tt">ON</span>  </td></tr>
 </table>
+<p>Some options automatically enable dependencies during configuration. CMake prints each newly enabled option and the condition that enabled it, followed by a summary of their effective values at the end of configuration. Options already enabled by the user are not marked as automatically enabled.</p>
+<p>These overrides do not change the CMake cache, so tools such as <span class="tt">ccmake</span> or <span class="tt">cmake -LAH</span> can still show an option as <span class="tt">OFF</span> even though the build uses <span class="tt">ON</span>.</p>
 <p>All ACTS-specific options are disabled or empty by default and must be specifically requested.</p>
 <p>ACTS comes with a couple of CMakePresets which allow to collect and origanize common configuration workflows. On the surface the current list of presets contains:</p>
 <ul>
