@@ -1,11 +1,5 @@
 var NAVTREEINDEX94 =
 {
-"structdetray_1_1material__map__config_1_1map__config.html#a243d089aab1eb4316b6f9012b5c63e46":[8,0,3,132,0,5],
-"structdetray_1_1material__map__config_1_1map__config.html#a3ef9dff61ae3cc151d8ddb7e1635ee51":[6,0,4,119,0,3],
-"structdetray_1_1material__map__config_1_1map__config.html#a3ef9dff61ae3cc151d8ddb7e1635ee51":[8,0,3,132,0,3],
-"structdetray_1_1material__map__config_1_1map__config.html#a8cd5ba9c135484e4f72b98f3a0cf4bc3":[6,0,4,119,0,1],
-"structdetray_1_1material__map__config_1_1map__config.html#a8cd5ba9c135484e4f72b98f3a0cf4bc3":[8,0,3,132,0,1],
-"structdetray_1_1material__map__config_1_1map__config.html#ab1621e435b8562872dc0b8292882dfb9":[6,0,4,119,0,0],
 "structdetray_1_1material__map__config_1_1map__config.html#ab1621e435b8562872dc0b8292882dfb9":[8,0,3,132,0,0],
 "structdetray_1_1material__map__config_1_1map__config.html#ad4348cd2ee4fa73393baddc20874cea4":[6,0,4,119,0,2],
 "structdetray_1_1material__map__config_1_1map__config.html#ad4348cd2ee4fa73393baddc20874cea4":[8,0,3,132,0,2],
@@ -249,5 +243,11 @@ var NAVTREEINDEX94 =
 "structdetray_1_1pion__plus.html":[8,0,3,151],
 "structdetray_1_1pion__plus.html#ad2c988f94db55fef269f03bced63a365":[6,0,4,138,0],
 "structdetray_1_1pion__plus.html#ad2c988f94db55fef269f03bced63a365":[8,0,3,151,0],
-"structdetray_1_1pion__zero.html":[6,0,4,139]
+"structdetray_1_1pion__zero.html":[6,0,4,139],
+"structdetray_1_1pion__zero.html":[8,0,3,152],
+"structdetray_1_1pion__zero.html#abdf5a6feb1db9ac9104864e6c9a8d6f4":[6,0,4,139,0],
+"structdetray_1_1pion__zero.html#abdf5a6feb1db9ac9104864e6c9a8d6f4":[8,0,3,152,0],
+"structdetray_1_1polar2_d.html":[6,0,4,140],
+"structdetray_1_1polar2_d.html":[8,0,3,153],
+"structdetray_1_1polar2_d.html#a080dfbfa8a17663e2afdb34450f7aeb8":[6,0,4,140,2]
 };

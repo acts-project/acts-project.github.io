@@ -6,7 +6,6 @@ var struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config =
     [ "maxCurvature", "struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config.html#ab3fb92ed6f172affea9bfe1ebb944ef3", null ],
     [ "maxDChi2X", "struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config.html#ae2e6bc31a67f1154ddfde13c3ffcc9c7", null ],
     [ "maxDChi2Y", "struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config.html#af8e0ccd474270d2ab39ca6c5444532e3", null ],
-    [ "maxZ0", "struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config.html#a42efe616c12b34c1cb0ea54e2c5680dc", null ],
     [ "radLen", "struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config.html#a616b3a3894bc5301b70dd40e3b6eb242", null ],
     [ "sigmaMS", "struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config.html#a9f35797611d41c1c088dc4fd81d45cb7", null ],
     [ "sigmaX", "struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config.html#a586b5eef778e3ef52b69703439b8d1fa", null ],

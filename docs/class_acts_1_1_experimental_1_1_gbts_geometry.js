@@ -6,5 +6,6 @@ var class_acts_1_1_experimental_1_1_gbts_geometry =
     [ "layerDescription", "class_acts_1_1_experimental_1_1_gbts_geometry.html#a73e5b254d151f7259dd453dda89b0c11", null ],
     [ "layerIndex", "class_acts_1_1_experimental_1_1_gbts_geometry.html#aa1685d6555fe9bfc60004911bd2a310f", null ],
     [ "numBins", "class_acts_1_1_experimental_1_1_gbts_geometry.html#a87557959acaf87b5343b9c80f6a7cc07", null ],
-    [ "numLayers", "class_acts_1_1_experimental_1_1_gbts_geometry.html#a5f8cde139599e2b2037ae027c6c1f7b8", null ]
+    [ "numLayers", "class_acts_1_1_experimental_1_1_gbts_geometry.html#a5f8cde139599e2b2037ae027c6c1f7b8", null ],
+    [ "z0Range", "class_acts_1_1_experimental_1_1_gbts_geometry.html#a78867ead836bec7a5958e22f1caa5bc0", null ]
 ];

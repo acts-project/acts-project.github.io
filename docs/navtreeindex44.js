@@ -1,5 +1,7 @@
 var NAVTREEINDEX44 =
 {
+"class_acts_fatras_1_1_particle.html#a36f16a722e4fefe7e1fa69bad1c3e3e2":[8,0,1,27,23],
+"class_acts_fatras_1_1_particle.html#a3f12c14924d17439fefb11ccb2d18bec":[6,0,2,26,52],
 "class_acts_fatras_1_1_particle.html#a3f12c14924d17439fefb11ccb2d18bec":[8,0,1,27,52],
 "class_acts_fatras_1_1_particle.html#a451fa54bfa04ce73e4cd32aa3826ee4e":[6,0,2,26,19],
 "class_acts_fatras_1_1_particle.html#a451fa54bfa04ce73e4cd32aa3826ee4e":[8,0,1,27,19],
@@ -247,7 +249,5 @@ var NAVTREEINDEX44 =
 "class_acts_plugins_1_1_detray_surface_id_map.html#a69b209342eb01d2f368e36dc86f94fbe":[5,10,3,3,2],
 "class_acts_plugins_1_1_detray_surface_id_map.html#a90c8bf3fd579a099b64f27806d758214":[5,10,3,3,6],
 "class_acts_plugins_1_1_detray_surface_id_map.html#abf9fa24c6050f96ad3b8852a5517f16f":[5,10,3,3,3],
-"class_acts_plugins_1_1_detray_surface_id_map.html#ac0fa95e7472e4bc573b5272b333c85a5":[5,10,3,3,8],
-"class_acts_plugins_1_1_detray_surface_id_map.html#afc6dba05551e9675c7dd12adaebc720b":[5,10,3,3,7],
-"class_acts_plugins_1_1_detray_unsupported_material_exception.html":[5,10,3,4]
+"class_acts_plugins_1_1_detray_surface_id_map.html#ac0fa95e7472e4bc573b5272b333c85a5":[5,10,3,3,8]
 };

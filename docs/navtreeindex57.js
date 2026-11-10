@@ -1,5 +1,7 @@
 var NAVTREEINDEX57 =
 {
+"classdetray_1_1volume__decorator.html#afd2b60ad293d30cfd72a15f4ec99a265":[8,0,3,214,17],
+"classdetray_1_1volume__descriptor.html":[6,0,4,202],
 "classdetray_1_1volume__descriptor.html":[8,0,3,215],
 "classdetray_1_1volume__descriptor.html#a0037bee48738065070f25e18b389821d":[6,0,4,202,25],
 "classdetray_1_1volume__descriptor.html#a0037bee48738065070f25e18b389821d":[8,0,3,215,25],
@@ -247,7 +249,5 @@ var NAVTREEINDEX57 =
 "conceptdetray_1_1concepts_1_1arithmetic.html":[7,1,0,7],
 "conceptdetray_1_1concepts_1_1arithmetic__cvref.html":[6,0,4,1,8],
 "conceptdetray_1_1concepts_1_1arithmetic__cvref.html":[7,1,0,8],
-"conceptdetray_1_1concepts_1_1axis.html":[6,0,4,1,9],
-"conceptdetray_1_1concepts_1_1axis.html":[7,1,0,9],
-"conceptdetray_1_1concepts_1_1column__matrix.html":[6,0,4,1,10]
+"conceptdetray_1_1concepts_1_1axis.html":[6,0,4,1,9]
 };

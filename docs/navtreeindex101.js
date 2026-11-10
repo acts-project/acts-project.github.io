@@ -1,11 +1,5 @@
 var NAVTREEINDEX101 =
 {
-"structdetray_1_1traits_1_1value_3_01_eigen_1_1_matrix_base_3_01derived__t_01_4_01_4.html#ac3ca63021807b977ac5529240575f8c5":[8,0,3,16,33,0],
-"structdetray_1_1traits_1_1value_3_01_t_01_4.html":[8,0,3,16,34],
-"structdetray_1_1traits_1_1value_3_01_t_01_4.html#a9f8ee3be8b9dc0ee5ea13b21a8ee040b":[8,0,3,16,34,0],
-"structdetray_1_1traits_1_1value_3_01_vc_1_1_vector_3_01_t_01_4_01_4.html":[8,0,3,16,35],
-"structdetray_1_1traits_1_1value_3_01_vc_1_1_vector_3_01_t_01_4_01_4.html#a18bfb886f44d96d3c1c9298898f7f8bd":[8,0,3,16,35,0],
-"structdetray_1_1traits_1_1value_3_01_vc__1_1_1_vector_3_01_t_00_01_vc__1_1_1simd__abi_1_1fixed__size_3_01_n_01_4_01_4_01_4.html":[8,0,3,16,36],
 "structdetray_1_1traits_1_1value_3_01_vc__1_1_1_vector_3_01_t_00_01_vc__1_1_1simd__abi_1_1fixed__size_3_01_n_01_4_01_4_01_4.html#a890bfa7d2141c756d8a5274cf2bd23e2":[8,0,3,16,36,0],
 "structdetray_1_1traits_1_1value_3_01algebra_1_1vc__aos_1_1storage__type_3_01_t_00_01_n_01_4_01_4.html":[8,0,3,16,31],
 "structdetray_1_1traits_1_1value_3_01algebra_1_1vc__aos_1_1storage__type_3_01_t_00_01_n_01_4_01_4.html#a48f4596f96575ebabb22d309ee21b9f5":[8,0,3,16,31,0],
@@ -249,5 +243,11 @@ var NAVTREEINDEX101 =
 "structdetray_1_1uniform__track__generator__config.html#a8391a6676ca84f5485838b8bbab1c8b9":[8,0,3,202,16],
 "structdetray_1_1uniform__track__generator__config.html#a8ba425be9dcea90b2eaa08d655ca19b7":[6,0,4,189,45],
 "structdetray_1_1uniform__track__generator__config.html#a8ba425be9dcea90b2eaa08d655ca19b7":[8,0,3,202,45],
-"structdetray_1_1uniform__track__generator__config.html#a8d73f5f81a01a23653c61163becfb1ab":[6,0,4,189,20]
+"structdetray_1_1uniform__track__generator__config.html#a8d73f5f81a01a23653c61163becfb1ab":[6,0,4,189,20],
+"structdetray_1_1uniform__track__generator__config.html#a8d73f5f81a01a23653c61163becfb1ab":[8,0,3,202,20],
+"structdetray_1_1uniform__track__generator__config.html#a8e0dc1844a8c7b8814a6f0dfe20be287":[6,0,4,189,28],
+"structdetray_1_1uniform__track__generator__config.html#a8e0dc1844a8c7b8814a6f0dfe20be287":[8,0,3,202,28],
+"structdetray_1_1uniform__track__generator__config.html#a911a209a1c0f24db6599cea9614307bb":[6,0,4,189,27],
+"structdetray_1_1uniform__track__generator__config.html#a911a209a1c0f24db6599cea9614307bb":[8,0,3,202,27],
+"structdetray_1_1uniform__track__generator__config.html#a93045c43fe0467d12619995887d58b97":[6,0,4,189,41]
 };

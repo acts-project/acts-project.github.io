@@ -1,11 +1,5 @@
 var NAVTREEINDEX89 =
 {
-"structdetray_1_1container__types.html#a5cc7d63eed82a4b2d157bf298dc456ce":[8,0,3,57,2],
-"structdetray_1_1container__types.html#a64e8655f16d1b5f2a8b9894981828395":[6,0,4,44,1],
-"structdetray_1_1container__types.html#a64e8655f16d1b5f2a8b9894981828395":[8,0,3,57,1],
-"structdetray_1_1container__types.html#ac18e6ac654e8273122bebe163e04f541":[6,0,4,44,0],
-"structdetray_1_1container__types.html#ac18e6ac654e8273122bebe163e04f541":[8,0,3,57,0],
-"structdetray_1_1copper.html":[6,0,4,45],
 "structdetray_1_1copper.html":[8,0,3,58],
 "structdetray_1_1copper.html#a971c0ba4a8b922b5abb7ff4fa03ca209":[6,0,4,45,0],
 "structdetray_1_1copper.html#a971c0ba4a8b922b5abb7ff4fa03ca209":[8,0,3,58,0],
@@ -249,5 +243,11 @@ var NAVTREEINDEX89 =
 "structdetray_1_1detail_1_1tuple__element_3_01_n_00_01detray_1_1dtuple_3_01value__types_8_8_8_01_4_01_4.html#ac47e44f62f67e9bf33ec13c2ec77c790":[8,0,3,4,34,0],
 "structdetray_1_1detail_1_1tuple__size.html":[8,0,3,4,35],
 "structdetray_1_1detail_1_1tuple__size_3_1_1detray_1_1dtuple_3_01value__types_8_8_8_01_4_01_4.html":[8,0,3,4,36],
-"structdetray_1_1detail_1_1tuple__size_3_1_1detray_1_1dtuple_3_01value__types_8_8_8_01_4_01_4.html#ac8ab7e7430598530906eb3eb607eaab7":[8,0,3,4,36,0]
+"structdetray_1_1detail_1_1tuple__size_3_1_1detray_1_1dtuple_3_01value__types_8_8_8_01_4_01_4.html#ac8ab7e7430598530906eb3eb607eaab7":[8,0,3,4,36,0],
+"structdetray_1_1detail_1_1unique__types.html":[8,0,3,4,37],
+"structdetray_1_1detail_1_1unique__types_3_010u_00_01detray_1_1dtuple_3_01_arg1_00_01_args_8_8_8_01_4_01_4.html":[8,0,3,4,38],
+"structdetray_1_1detail_1_1unique__types_3_010u_00_01detray_1_1dtuple_3_01_arg1_00_01_args_8_8_8_01_4_01_4.html#a3f2fc85586ba5b681fbaaa0ac416d6dd":[8,0,3,4,38,0],
+"structdetray_1_1detail_1_1unique__types_3_01_i_00_01detray_1_1dtuple_3_01_arg1_00_01_args_8_8_8_01_4_01_4.html":[8,0,3,4,39],
+"structdetray_1_1detail_1_1unique__types_3_01_i_00_01detray_1_1dtuple_3_01_arg1_00_01_args_8_8_8_01_4_01_4.html#ab89a8a95802ced4fd644d9d71340f73f":[8,0,3,4,39,0],
+"structdetray_1_1detail_1_1unique__types_3_01_i_00_01detray_1_1dtuple_3_4_01_4.html":[8,0,3,4,40]
 };

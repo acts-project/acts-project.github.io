@@ -1,11 +1,5 @@
 var NAVTREEINDEX99 =
 {
-"structdetray_1_1svgtools_1_1styling_1_1trajectory__style.html#a1c8d4e7d35d74485f51e9bdff3b90a42":[6,0,4,4,0,11,0],
-"structdetray_1_1svgtools_1_1styling_1_1trajectory__style.html#a1c8d4e7d35d74485f51e9bdff3b90a42":[8,0,3,14,2,10,0],
-"structdetray_1_1svgtools_1_1styling_1_1trajectory__style.html#ab367f199bcaa5e38b76da2ed543a504b":[6,0,4,4,0,11,1],
-"structdetray_1_1svgtools_1_1styling_1_1trajectory__style.html#ab367f199bcaa5e38b76da2ed543a504b":[8,0,3,14,2,10,1],
-"structdetray_1_1svgtools_1_1styling_1_1volume__style.html":[6,0,4,4,0,12],
-"structdetray_1_1svgtools_1_1styling_1_1volume__style.html":[8,0,3,14,2,11],
 "structdetray_1_1svgtools_1_1styling_1_1volume__style.html#a25406c1b64531322597641c475a7f9ef":[6,0,4,4,0,12,0],
 "structdetray_1_1svgtools_1_1styling_1_1volume__style.html#a25406c1b64531322597641c475a7f9ef":[8,0,3,14,2,11,0],
 "structdetray_1_1svgtools_1_1styling_1_1volume__style.html#a3da0ecdce3d78b3e5884f76b6266c46b":[6,0,4,4,0,12,2],
@@ -249,5 +243,11 @@ var NAVTREEINDEX99 =
 "structdetray_1_1test_1_1navigation__validation__config.html#ad59a3849c317a7abbe44b71202bf8c9b":[8,0,3,15,3,30],
 "structdetray_1_1test_1_1navigation__validation__config.html#ae9406b0262baea74a2c6db4ead2f818f":[8,0,3,15,3,43],
 "structdetray_1_1test_1_1navigation__validation__config.html#afdd132e48aa959c8125bddae5015dc29":[8,0,3,15,3,0],
-"structdetray_1_1test_1_1navigation__validation__config.html#affca0530e6deba1ee863a11c1b3c501c":[8,0,3,15,3,26]
+"structdetray_1_1test_1_1navigation__validation__config.html#affca0530e6deba1ee863a11c1b3c501c":[8,0,3,15,3,26],
+"structdetray_1_1toy__det__config.html":[6,0,4,179],
+"structdetray_1_1toy__det__config.html":[8,0,3,192],
+"structdetray_1_1toy__det__config.html#a02592eadb9815b324cc308dbbecf9129":[6,0,4,179,19],
+"structdetray_1_1toy__det__config.html#a02592eadb9815b324cc308dbbecf9129":[8,0,3,192,19],
+"structdetray_1_1toy__det__config.html#a05f37d8c50fc4acbfcf3b2485c77db30":[6,0,4,179,2],
+"structdetray_1_1toy__det__config.html#a05f37d8c50fc4acbfcf3b2485c77db30":[8,0,3,192,2]
 };

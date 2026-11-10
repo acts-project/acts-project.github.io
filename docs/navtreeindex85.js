@@ -1,11 +1,5 @@
 var NAVTREEINDEX85 =
 {
-"structdetray_1_1actor_1_1parameter__setter.html#a6c4db4cef19c4a7a39d4e6113cffc155":[8,0,3,0,3,1],
-"structdetray_1_1actor_1_1parameter__transporter.html":[8,0,3,0,4],
-"structdetray_1_1actor_1_1parameter__transporter.html#a1ed832cb00f422da11458053e5b63f7f":[8,0,3,0,4,4],
-"structdetray_1_1actor_1_1parameter__transporter.html#a22f461ab16a24e75e3ef26b5dbb405a7":[8,0,3,0,4,9],
-"structdetray_1_1actor_1_1parameter__transporter.html#a4277cb2895e9f7817b7326258f13959f":[8,0,3,0,4,6],
-"structdetray_1_1actor_1_1parameter__transporter.html#a4cf62e4fb7c3b75f38bcc82aae0b2cdf":[8,0,3,0,4,10],
 "structdetray_1_1actor_1_1parameter__transporter.html#a55eb0927f0b4fa3a60792ca1fe9a2e2c":[8,0,3,0,4,11],
 "structdetray_1_1actor_1_1parameter__transporter.html#aa10ede15da9d98fa7fd3da526a4772df":[8,0,3,0,4,5],
 "structdetray_1_1actor_1_1parameter__transporter.html#ab45d7f25e4e51ceed6f11ff43bfd0a7a":[8,0,3,0,4,8],
@@ -249,5 +243,11 @@ var NAVTREEINDEX85 =
 "structdetray_1_1algebra_1_1fastor_1_1storage_1_1block__getter.html#a04cbf409503fd9a6a523d523883b0069":[8,0,3,1,3,1,0,0],
 "structdetray_1_1algebra_1_1fastor_1_1storage_1_1block__getter.html#a181654737e20dd1da930d989349d066e":[8,0,3,1,3,1,0,1],
 "structdetray_1_1algebra_1_1fastor_1_1storage_1_1block__getter.html#a221f2ca13ac75718e978b8a70e893170":[8,0,3,1,3,1,0,2],
-"structdetray_1_1algebra_1_1fastor_1_1storage_1_1block__getter.html#afaf2946356d2196be0aa9c3d36feda05":[8,0,3,1,3,1,0,3]
+"structdetray_1_1algebra_1_1fastor_1_1storage_1_1block__getter.html#afaf2946356d2196be0aa9c3d36feda05":[8,0,3,1,3,1,0,3],
+"structdetray_1_1algebra_1_1fastor_1_1storage_1_1element__getter.html":[8,0,3,1,3,1,1],
+"structdetray_1_1algebra_1_1fastor_1_1storage_1_1element__getter.html#a149a9bea0c4dfd789f93cc5caa7f100d":[8,0,3,1,3,1,1,1],
+"structdetray_1_1algebra_1_1fastor_1_1storage_1_1element__getter.html#a2474ca8040d953913cd3ab8c236e4771":[8,0,3,1,3,1,1,0],
+"structdetray_1_1algebra_1_1fastor_1_1storage_1_1element__getter.html#a594ffd524c611240a10a10883c11f540":[8,0,3,1,3,1,1,2],
+"structdetray_1_1algebra_1_1fastor_1_1storage_1_1element__getter.html#a60f4c2a4a91137dfea82fd48f14b1106":[8,0,3,1,3,1,1,3],
+"structdetray_1_1algebra_1_1fastor_1_1storage_1_1element__getter.html#a6aae43f6a68b6363d1d8959ac1603235":[8,0,3,1,3,1,1,4]
 };

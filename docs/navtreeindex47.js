@@ -1,5 +1,7 @@
 var NAVTREEINDEX47 =
 {
+"classdetray_1_1axis_1_1multi__axis.html#abb2f3baefba7d2426e51a5a652ee9dea":[8,0,3,2,1,28],
+"classdetray_1_1axis_1_1multi__axis.html#abe31d52d7f28a4f4907814f696d950a7":[8,0,3,2,1,13],
 "classdetray_1_1axis_1_1multi__axis.html#ac001cf6c347eab2c8e78e36ab8ac1b98":[8,0,3,2,1,18],
 "classdetray_1_1axis_1_1multi__axis.html#ac0c263e266d2c3e13f799c50865cd3b6":[8,0,3,2,1,14],
 "classdetray_1_1axis_1_1multi__axis.html#ad7532e48d844f249aae5ae6beab59543":[8,0,3,2,1,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX47 =
 "classdetray_1_1concentric__cylinder2_d.html#af77686c11775b82be5990860ef8c6f3f":[8,0,3,52,7],
 "classdetray_1_1cuboid3_d.html":[6,0,4,47],
 "classdetray_1_1cuboid3_d.html":[8,0,3,60],
-"classdetray_1_1cuboid3_d.html#a1d4a372b0b38e761253b5c9735d41edb":[6,0,4,47,4],
-"classdetray_1_1cuboid3_d.html#a1d4a372b0b38e761253b5c9735d41edb":[8,0,3,60,4],
-"classdetray_1_1cuboid3_d.html#a24ed2cd54e7898fbe5f7c1bd22145ecc":[6,0,4,47,7]
+"classdetray_1_1cuboid3_d.html#a1d4a372b0b38e761253b5c9735d41edb":[6,0,4,47,4]
 };

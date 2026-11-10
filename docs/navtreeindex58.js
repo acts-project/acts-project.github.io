@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"conceptdetray_1_1concepts_1_1axis.html":[7,1,0,9],
+"conceptdetray_1_1concepts_1_1column__matrix.html":[6,0,4,1,10],
 "conceptdetray_1_1concepts_1_1column__matrix.html":[7,1,0,10],
 "conceptdetray_1_1concepts_1_1column__matrix3_d.html":[6,0,4,1,11],
 "conceptdetray_1_1concepts_1_1column__matrix3_d.html":[7,1,0,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "functions_type_c.html":[8,2,3,2],
 "functions_type_d.html":[8,2,3,3],
 "functions_type_e.html":[8,2,3,4],
-"functions_type_f.html":[8,2,3,5],
-"functions_type_g.html":[8,2,3,6],
-"functions_type_h.html":[8,2,3,7]
+"functions_type_f.html":[8,2,3,5]
 };

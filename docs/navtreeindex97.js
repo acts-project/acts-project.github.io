@@ -1,11 +1,5 @@
 var NAVTREEINDEX97 =
 {
-"structdetray_1_1ratio__sum__helper_3_01ratio1_00_01ratio2_00_01ratios_8_8_8_01_4.html#a6c7a986a8e2cb41129cb465c838bd0c1":[8,0,3,164,1],
-"structdetray_1_1ratio__sum__helper_3_01ratio1_00_01ratio2_00_01ratios_8_8_8_01_4.html#afc98ff28e5afc8fc7830b39e5b2e8dc3":[6,0,4,151,0],
-"structdetray_1_1ratio__sum__helper_3_01ratio1_00_01ratio2_00_01ratios_8_8_8_01_4.html#afc98ff28e5afc8fc7830b39e5b2e8dc3":[8,0,3,164,0],
-"structdetray_1_1ray__intersector__impl.html":[6,0,4,152],
-"structdetray_1_1ray__intersector__impl.html":[8,0,3,165],
-"structdetray_1_1ray__intersector__impl_3_01cartesian2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html":[6,0,4,153],
 "structdetray_1_1ray__intersector__impl_3_01cartesian2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html":[8,0,3,166],
 "structdetray_1_1ray__intersector__impl_3_01cartesian2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#a24a65377683e21a6cdd6b95e2efc0215":[6,0,4,153,10],
 "structdetray_1_1ray__intersector__impl_3_01cartesian2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#a24a65377683e21a6cdd6b95e2efc0215":[6,0,4,153,11],
@@ -249,5 +243,11 @@ var NAVTREEINDEX97 =
 "structdetray_1_1smatrix.html#a85622aeed135743f172fec12be839dd7":[8,0,3,180,10],
 "structdetray_1_1smatrix.html#ab3a6825531724dca10055f3d9467b2b0":[6,0,4,167,4],
 "structdetray_1_1smatrix.html#ab3a6825531724dca10055f3d9467b2b0":[8,0,3,180,4],
-"structdetray_1_1smatrix.html#ae39bab42eda0247cd551c201fe27408b":[6,0,4,167,6]
+"structdetray_1_1smatrix.html#ae39bab42eda0247cd551c201fe27408b":[6,0,4,167,6],
+"structdetray_1_1smatrix.html#ae39bab42eda0247cd551c201fe27408b":[8,0,3,180,6],
+"structdetray_1_1smatrix.html#afa7501aef105312a8c908c2219e16bea":[6,0,4,167,9],
+"structdetray_1_1smatrix.html#afa7501aef105312a8c908c2219e16bea":[8,0,3,180,9],
+"structdetray_1_1step__record.html":[6,0,4,169],
+"structdetray_1_1step__record.html":[8,0,3,182],
+"structdetray_1_1step__record.html#a09c6e5276591b3aeeaf2ec489fe054ef":[6,0,4,169,6]
 };

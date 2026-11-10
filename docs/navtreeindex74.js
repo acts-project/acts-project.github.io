@@ -1,11 +1,5 @@
 var NAVTREEINDEX74 =
 {
-"struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html#ac01798730b4f8d1f8c515526cd531abe":[5,3,1,1,2,1],
-"struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html#ac01798730b4f8d1f8c515526cd531abe":[5,11,0,1,2,1],
-"struct_acts_1_1_intersection_material_assigner_1_1_config.html":[5,3,2,0,5,0],
-"struct_acts_1_1_intersection_material_assigner_1_1_config.html#ab7b89cd7e6be5ffc2248ad5b995661fc":[5,3,2,0,5,0,1],
-"struct_acts_1_1_intersection_material_assigner_1_1_config.html#ad3b60497de27d6e5b54220a4846a5ea5":[5,3,2,0,5,0,0],
-"struct_acts_1_1_is_read_only_multi_trajectory.html":[6,0,0,214],
 "struct_acts_1_1_is_read_only_multi_trajectory.html":[8,0,0,219],
 "struct_acts_1_1_is_read_only_multi_trajectory_3_01_acts_plugins_1_1_const_podio_track_state_container_3_01holder__t_01_4_01_4.html":[5,10,4,0],
 "struct_acts_1_1_is_read_only_multi_trajectory_3_01_acts_plugins_1_1_mutable_podio_track_state_container_3_01holder__t_01_4_01_4.html":[5,10,4,1],
@@ -249,5 +243,11 @@ var NAVTREEINDEX74 =
 "struct_acts_1_1_measurement_selector_cuts.html#a4d9ae483ec5dc523580c06915995be4c":[8,0,0,278,2],
 "struct_acts_1_1_measurement_selector_cuts.html#a66e47c626973bf8183ab3ac6ea853032":[6,0,0,273,0],
 "struct_acts_1_1_measurement_selector_cuts.html#a66e47c626973bf8183ab3ac6ea853032":[8,0,0,278,0],
-"struct_acts_1_1_measurement_selector_cuts.html#ac151079586a111dacc3c3ca889c1578b":[6,0,0,273,4]
+"struct_acts_1_1_measurement_selector_cuts.html#ac151079586a111dacc3c3ca889c1578b":[6,0,0,273,4],
+"struct_acts_1_1_measurement_selector_cuts.html#ac151079586a111dacc3c3ca889c1578b":[8,0,0,278,4],
+"struct_acts_1_1_measurement_selector_cuts.html#ae0cc97ce3837e63997de1b525a25409d":[6,0,0,273,1],
+"struct_acts_1_1_measurement_selector_cuts.html#ae0cc97ce3837e63997de1b525a25409d":[8,0,0,278,1],
+"struct_acts_1_1_merged_material_marker_1_1_origin.html":[5,3,2,14,0],
+"struct_acts_1_1_merged_material_marker_1_1_origin.html#a0db27b5ee04d854dfadb286d77200310":[5,3,2,14,0,0],
+"struct_acts_1_1_merged_material_marker_1_1_origin.html#a9ba2c860bfc1b72cd7d8bc3f825eba65":[5,3,2,14,0,1]
 };

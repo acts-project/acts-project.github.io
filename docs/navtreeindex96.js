@@ -1,11 +1,5 @@
 var NAVTREEINDEX96 =
 {
-"structdetray_1_1random__track__generator__config.html#a399f07e8e3508af7dad0fbeb724a4efe":[6,0,4,147,14],
-"structdetray_1_1random__track__generator__config.html#a399f07e8e3508af7dad0fbeb724a4efe":[8,0,3,160,14],
-"structdetray_1_1random__track__generator__config.html#a3af0350180153b40fb45ff558bec7f79":[6,0,4,147,28],
-"structdetray_1_1random__track__generator__config.html#a3af0350180153b40fb45ff558bec7f79":[8,0,3,160,28],
-"structdetray_1_1random__track__generator__config.html#a3b40961bd641f5fe97ac38f5c481a268":[6,0,4,147,9],
-"structdetray_1_1random__track__generator__config.html#a3b40961bd641f5fe97ac38f5c481a268":[8,0,3,160,9],
 "structdetray_1_1random__track__generator__config.html#a3df077dda443ffa57661fd66a42dcfb0":[6,0,4,147,41],
 "structdetray_1_1random__track__generator__config.html#a3df077dda443ffa57661fd66a42dcfb0":[8,0,3,160,41],
 "structdetray_1_1random__track__generator__config.html#a44425be09f1c763fadcb6f6a4a4a6a47":[6,0,4,147,24],
@@ -249,5 +243,11 @@ var NAVTREEINDEX96 =
 "structdetray_1_1ratio__sum__helper_3_01ratio1_00_01ratio2_00_01ratios_8_8_8_01_4.html":[8,0,3,164],
 "structdetray_1_1ratio__sum__helper_3_01ratio1_00_01ratio2_00_01ratios_8_8_8_01_4.html#a2091e3fd359620e37bb95cfd720cab93":[6,0,4,151,2],
 "structdetray_1_1ratio__sum__helper_3_01ratio1_00_01ratio2_00_01ratios_8_8_8_01_4.html#a2091e3fd359620e37bb95cfd720cab93":[8,0,3,164,2],
-"structdetray_1_1ratio__sum__helper_3_01ratio1_00_01ratio2_00_01ratios_8_8_8_01_4.html#a6c7a986a8e2cb41129cb465c838bd0c1":[6,0,4,151,1]
+"structdetray_1_1ratio__sum__helper_3_01ratio1_00_01ratio2_00_01ratios_8_8_8_01_4.html#a6c7a986a8e2cb41129cb465c838bd0c1":[6,0,4,151,1],
+"structdetray_1_1ratio__sum__helper_3_01ratio1_00_01ratio2_00_01ratios_8_8_8_01_4.html#a6c7a986a8e2cb41129cb465c838bd0c1":[8,0,3,164,1],
+"structdetray_1_1ratio__sum__helper_3_01ratio1_00_01ratio2_00_01ratios_8_8_8_01_4.html#afc98ff28e5afc8fc7830b39e5b2e8dc3":[6,0,4,151,0],
+"structdetray_1_1ratio__sum__helper_3_01ratio1_00_01ratio2_00_01ratios_8_8_8_01_4.html#afc98ff28e5afc8fc7830b39e5b2e8dc3":[8,0,3,164,0],
+"structdetray_1_1ray__intersector__impl.html":[6,0,4,152],
+"structdetray_1_1ray__intersector__impl.html":[8,0,3,165],
+"structdetray_1_1ray__intersector__impl_3_01cartesian2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html":[6,0,4,153]
 };

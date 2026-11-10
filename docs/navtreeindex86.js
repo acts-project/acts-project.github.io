@@ -1,11 +1,5 @@
 var NAVTREEINDEX86 =
 {
-"structdetray_1_1algebra_1_1fastor_1_1storage_1_1element__getter.html":[8,0,3,1,3,1,1],
-"structdetray_1_1algebra_1_1fastor_1_1storage_1_1element__getter.html#a149a9bea0c4dfd789f93cc5caa7f100d":[8,0,3,1,3,1,1,1],
-"structdetray_1_1algebra_1_1fastor_1_1storage_1_1element__getter.html#a2474ca8040d953913cd3ab8c236e4771":[8,0,3,1,3,1,1,0],
-"structdetray_1_1algebra_1_1fastor_1_1storage_1_1element__getter.html#a594ffd524c611240a10a10883c11f540":[8,0,3,1,3,1,1,2],
-"structdetray_1_1algebra_1_1fastor_1_1storage_1_1element__getter.html#a60f4c2a4a91137dfea82fd48f14b1106":[8,0,3,1,3,1,1,3],
-"structdetray_1_1algebra_1_1fastor_1_1storage_1_1element__getter.html#a6aae43f6a68b6363d1d8959ac1603235":[8,0,3,1,3,1,1,4],
 "structdetray_1_1algebra_1_1fastor_1_1storage_1_1element__getter.html#a772d0679faf84c9b27c0fa2e5802eb80":[8,0,3,1,3,1,1,5],
 "structdetray_1_1algebra_1_1generic_1_1determinant__selector.html":[8,0,3,1,4,2],
 "structdetray_1_1algebra_1_1generic_1_1determinant__selector.html#a462daee3f9f0f6e365128ef84c238589":[8,0,3,1,4,2,0],
@@ -249,5 +243,11 @@ var NAVTREEINDEX86 =
 "structdetray_1_1argon__gas.html#a78d21c4e79aed14e4c61c9d3a82b9be7":[6,0,4,14,0],
 "structdetray_1_1argon__gas.html#a78d21c4e79aed14e4c61c9d3a82b9be7":[8,0,3,27,0],
 "structdetray_1_1argon__liquid.html":[6,0,4,15],
-"structdetray_1_1argon__liquid.html":[8,0,3,28]
+"structdetray_1_1argon__liquid.html":[8,0,3,28],
+"structdetray_1_1argon__liquid.html#af33f1ec31357d52a3c7a54609155f874":[6,0,4,15,0],
+"structdetray_1_1argon__liquid.html#af33f1ec31357d52a3c7a54609155f874":[8,0,3,28,0],
+"structdetray_1_1array.html":[6,0,4,16],
+"structdetray_1_1array.html":[8,0,3,29],
+"structdetray_1_1array.html#a0f1ee95729fb58c18ce9326bdca6b94d":[6,0,4,16,8],
+"structdetray_1_1array.html#a0f1ee95729fb58c18ce9326bdca6b94d":[8,0,3,29,8]
 };

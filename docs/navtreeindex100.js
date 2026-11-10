@@ -1,11 +1,5 @@
 var NAVTREEINDEX100 =
 {
-"structdetray_1_1toy__det__config.html":[6,0,4,179],
-"structdetray_1_1toy__det__config.html":[8,0,3,192],
-"structdetray_1_1toy__det__config.html#a02592eadb9815b324cc308dbbecf9129":[6,0,4,179,19],
-"structdetray_1_1toy__det__config.html#a02592eadb9815b324cc308dbbecf9129":[8,0,3,192,19],
-"structdetray_1_1toy__det__config.html#a05f37d8c50fc4acbfcf3b2485c77db30":[6,0,4,179,2],
-"structdetray_1_1toy__det__config.html#a05f37d8c50fc4acbfcf3b2485c77db30":[8,0,3,192,2],
 "structdetray_1_1toy__det__config.html#a08341974e2562c890055c2da09196280":[6,0,4,179,57],
 "structdetray_1_1toy__det__config.html#a08341974e2562c890055c2da09196280":[8,0,3,192,57],
 "structdetray_1_1toy__det__config.html#a08f1fb7aeff49388e3357b50892c1665":[6,0,4,179,30],
@@ -249,5 +243,11 @@ var NAVTREEINDEX100 =
 "structdetray_1_1traits_1_1value.html":[8,0,3,16,30],
 "structdetray_1_1traits_1_1value_3_01_eigen_1_1_block_3_01_eigen_1_1_matrix_3_01_t_00_01_r_o_w_s_01801a5178825d878d2d71d2ce99d187.html":[8,0,3,16,32],
 "structdetray_1_1traits_1_1value_3_01_eigen_1_1_block_3_01_eigen_1_1_matrix_3_01_t_00_01_r_o_w_s_01801a5178825d878d2d71d2ce99d187.html#a70b3176d475950b4a890142e727adbd5":[8,0,3,16,32,0],
-"structdetray_1_1traits_1_1value_3_01_eigen_1_1_matrix_base_3_01derived__t_01_4_01_4.html":[8,0,3,16,33]
+"structdetray_1_1traits_1_1value_3_01_eigen_1_1_matrix_base_3_01derived__t_01_4_01_4.html":[8,0,3,16,33],
+"structdetray_1_1traits_1_1value_3_01_eigen_1_1_matrix_base_3_01derived__t_01_4_01_4.html#ac3ca63021807b977ac5529240575f8c5":[8,0,3,16,33,0],
+"structdetray_1_1traits_1_1value_3_01_t_01_4.html":[8,0,3,16,34],
+"structdetray_1_1traits_1_1value_3_01_t_01_4.html#a9f8ee3be8b9dc0ee5ea13b21a8ee040b":[8,0,3,16,34,0],
+"structdetray_1_1traits_1_1value_3_01_vc_1_1_vector_3_01_t_01_4_01_4.html":[8,0,3,16,35],
+"structdetray_1_1traits_1_1value_3_01_vc_1_1_vector_3_01_t_01_4_01_4.html#a18bfb886f44d96d3c1c9298898f7f8bd":[8,0,3,16,35,0],
+"structdetray_1_1traits_1_1value_3_01_vc__1_1_1_vector_3_01_t_00_01_vc__1_1_1simd__abi_1_1fixed__size_3_01_n_01_4_01_4_01_4.html":[8,0,3,16,36]
 };

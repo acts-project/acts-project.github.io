@@ -1,11 +1,5 @@
 var NAVTREEINDEX93 =
 {
-"structdetray_1_1io_1_1grid__payload.html#a2dc98cd653bfc8f9fd6c1b143c4195f1":[8,0,3,7,13,4],
-"structdetray_1_1io_1_1grid__payload.html#a410998fe4f84661d2cc0835c8ef3eb60":[6,0,4,3,12,2],
-"structdetray_1_1io_1_1grid__payload.html#a410998fe4f84661d2cc0835c8ef3eb60":[8,0,3,7,13,2],
-"structdetray_1_1io_1_1grid__payload.html#a858e312bf798a678a013d62adcf8c206":[6,0,4,3,12,3],
-"structdetray_1_1io_1_1grid__payload.html#a858e312bf798a678a013d62adcf8c206":[8,0,3,7,13,3],
-"structdetray_1_1io_1_1grid__payload.html#afee45f7291cbe4365d00fdea3c29d126":[6,0,4,3,12,1],
 "structdetray_1_1io_1_1grid__payload.html#afee45f7291cbe4365d00fdea3c29d126":[8,0,3,7,13,1],
 "structdetray_1_1io_1_1grid__payload.html#aff3fdcd70fbf3ea591526c3b5c60993d":[6,0,4,3,12,0],
 "structdetray_1_1io_1_1grid__payload.html#aff3fdcd70fbf3ea591526c3b5c60993d":[8,0,3,7,13,0],
@@ -249,5 +243,11 @@ var NAVTREEINDEX93 =
 "structdetray_1_1material__map__config_1_1map__config.html#a0d3341fbc44f103afc75f8feeaa61e53":[8,0,3,132,0,4],
 "structdetray_1_1material__map__config_1_1map__config.html#a0faaa89c5687104c28fa0a69c4e61a90":[6,0,4,119,0,6],
 "structdetray_1_1material__map__config_1_1map__config.html#a0faaa89c5687104c28fa0a69c4e61a90":[8,0,3,132,0,6],
-"structdetray_1_1material__map__config_1_1map__config.html#a243d089aab1eb4316b6f9012b5c63e46":[6,0,4,119,0,5]
+"structdetray_1_1material__map__config_1_1map__config.html#a243d089aab1eb4316b6f9012b5c63e46":[6,0,4,119,0,5],
+"structdetray_1_1material__map__config_1_1map__config.html#a243d089aab1eb4316b6f9012b5c63e46":[8,0,3,132,0,5],
+"structdetray_1_1material__map__config_1_1map__config.html#a3ef9dff61ae3cc151d8ddb7e1635ee51":[6,0,4,119,0,3],
+"structdetray_1_1material__map__config_1_1map__config.html#a3ef9dff61ae3cc151d8ddb7e1635ee51":[8,0,3,132,0,3],
+"structdetray_1_1material__map__config_1_1map__config.html#a8cd5ba9c135484e4f72b98f3a0cf4bc3":[6,0,4,119,0,1],
+"structdetray_1_1material__map__config_1_1map__config.html#a8cd5ba9c135484e4f72b98f3a0cf4bc3":[8,0,3,132,0,1],
+"structdetray_1_1material__map__config_1_1map__config.html#ab1621e435b8562872dc0b8292882dfb9":[6,0,4,119,0,0]
 };

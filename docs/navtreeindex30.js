@@ -1,5 +1,7 @@
 var NAVTREEINDEX30 =
 {
+"class_acts_1_1_portal_designator_blueprint_node.html#a1422b6a4140c408d269b9490964e7419":[8,0,0,336,3],
+"class_acts_1_1_portal_designator_blueprint_node.html#a4cc41bd57d8496352329928b3b1ce3b0":[6,0,0,331,7],
 "class_acts_1_1_portal_designator_blueprint_node.html#a4cc41bd57d8496352329928b3b1ce3b0":[8,0,0,336,7],
 "class_acts_1_1_portal_designator_blueprint_node.html#a9770f0d3e8e23d56076807ecd52e3993":[6,0,0,331,5],
 "class_acts_1_1_portal_designator_blueprint_node.html#a9770f0d3e8e23d56076807ecd52e3993":[8,0,0,336,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX30 =
 "class_acts_1_1_range_x_d.html#a6caa03a651f57841207e425e1e70d781":[8,0,0,356,28],
 "class_acts_1_1_range_x_d.html#a6e8d952cca24ae8f310c576685ee7214":[6,0,0,351,4],
 "class_acts_1_1_range_x_d.html#a6e8d952cca24ae8f310c576685ee7214":[8,0,0,356,4],
-"class_acts_1_1_range_x_d.html#a6ffb8110a98325ba67c922d5e39a66f3":[6,0,0,351,39],
-"class_acts_1_1_range_x_d.html#a6ffb8110a98325ba67c922d5e39a66f3":[8,0,0,356,39],
-"class_acts_1_1_range_x_d.html#a706009f7f3ecaadb1acdbfd4f25b0950":[6,0,0,351,18]
+"class_acts_1_1_range_x_d.html#a6ffb8110a98325ba67c922d5e39a66f3":[6,0,0,351,39]
 };

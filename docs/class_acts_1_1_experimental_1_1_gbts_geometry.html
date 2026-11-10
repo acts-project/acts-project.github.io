@@ -133,7 +133,7 @@ $(function(){initNavTree('class_acts_1_1_experimental_1_1_gbts_geometry.html',''
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aac0ef4f33f7f976a72ea538484f68076" id="r_aac0ef4f33f7f976a72ea538484f68076"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac0ef4f33f7f976a72ea538484f68076">GbtsGeometry</a> (std::span&lt; const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_description.html">GbtsLayerDescription</a> &gt; layerDescriptions, std::span&lt; const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_connection.html">GbtsLayerConnection</a> &gt; layerConnections, float etaBinWidth, const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_z0_range.html">GbtsZ0Range</a> &amp;z0Range={}, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">getDummyLogger</a>())</td></tr>
+<tr class="memitem:aac0ef4f33f7f976a72ea538484f68076" id="r_aac0ef4f33f7f976a72ea538484f68076"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac0ef4f33f7f976a72ea538484f68076">GbtsGeometry</a> (std::span&lt; const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_description.html">GbtsLayerDescription</a> &gt; layerDescriptions, std::span&lt; const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_connection.html">GbtsLayerConnection</a> &gt; layerConnections, float etaBinWidth, const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_z0_range.html">GbtsZ0Range</a> &amp;<a class="el" href="#a78867ead836bec7a5958e22f1caa5bc0">z0Range</a>={}, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">getDummyLogger</a>())</td></tr>
 <tr class="memdesc:aac0ef4f33f7f976a72ea538484f68076"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
 <tr class="memitem:a280466c1812bd87ead783b151b3fd4ba" id="r_a280466c1812bd87ead783b151b3fd4ba"><td class="memItemLeft" align="right" valign="top">std::span&lt; const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_bin_group.html">GbtsBinGroup</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a280466c1812bd87ead783b151b3fd4ba">binGroups</a> () const</td></tr>
 <tr class="memdesc:a280466c1812bd87ead783b151b3fd4ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the eta bin pairs the graph is built over, in build order.  <br /></td></tr>
@@ -147,6 +147,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a87557959acaf87b5343b9c80f6a7cc07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of eta bins across all layers.  <br /></td></tr>
 <tr class="memitem:a5f8cde139599e2b2037ae027c6c1f7b8" id="r_a5f8cde139599e2b2037ae027c6c1f7b8"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f8cde139599e2b2037ae027c6c1f7b8">numLayers</a> () const</td></tr>
 <tr class="memdesc:a5f8cde139599e2b2037ae027c6c1f7b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of layers the geometry was built from.  <br /></td></tr>
+<tr class="memitem:a78867ead836bec7a5958e22f1caa5bc0" id="r_a78867ead836bec7a5958e22f1caa5bc0"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_z0_range.html">GbtsZ0Range</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78867ead836bec7a5958e22f1caa5bc0">z0Range</a> () const</td></tr>
+<tr class="memdesc:a78867ead836bec7a5958e22f1caa5bc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The z0 window of the seeding.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Geometry helper built from layers and connectors. </p>
@@ -335,6 +337,26 @@ Public Member Functions</h2></td></tr>
 
 <p>Get the number of layers the geometry was built from. </p>
 <dl class="section return"><dt>Returns</dt><dd>The layer count </dd></dl>
+
+</div>
+</div>
+<a id="a78867ead836bec7a5958e22f1caa5bc0" name="a78867ead836bec7a5958e22f1caa5bc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78867ead836bec7a5958e22f1caa5bc0">&#9670;&#160;</a></span>z0Range()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_z0_range.html">GbtsZ0Range</a> &amp; Acts::Experimental::GbtsGeometry::z0Range </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The z0 window of the seeding. </p>
+<dl class="section return"><dt>Returns</dt><dd>The window </dd></dl>
 
 </div>
 </div>

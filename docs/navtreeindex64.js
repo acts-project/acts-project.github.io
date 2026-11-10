@@ -1,5 +1,7 @@
 var NAVTREEINDEX64 =
 {
+"namespacedetray_1_1algebra_1_1math.html":[6,0,4,0,0],
+"namespacedetray_1_1algebra_1_1math.html#a0493d96386d8930d011b60a90e22f4a3":[6,0,4,0,0,2],
 "namespacedetray_1_1algebra_1_1math.html#a06e8a0d2ce030dae45335ed28a3041cb":[6,0,4,0,0,13],
 "namespacedetray_1_1algebra_1_1math.html#a120ec656941a2596d28a30e6183186ee":[6,0,4,0,0,6],
 "namespacedetray_1_1algebra_1_1math.html#a24427142d68052d4d6c082d298f7ce60":[6,0,4,0,0,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX64 =
 "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#aa20c5243730953fcb1271f5b4e9b8850":[6,0,0,18,1,3],
 "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#aa20c5243730953fcb1271f5b4e9b8850":[8,0,0,23,1,3],
 "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#ac1a0a6486a820b53f1cf851fee422683":[6,0,0,18,1,0],
-"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#ac1a0a6486a820b53f1cf851fee422683":[8,0,0,23,1,0],
-"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#aca64301b5a686f7035b3d59caa6e7b47":[6,0,0,18,1,6],
-"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#aca64301b5a686f7035b3d59caa6e7b47":[8,0,0,23,1,6]
+"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#ac1a0a6486a820b53f1cf851fee422683":[8,0,0,23,1,0]
 };

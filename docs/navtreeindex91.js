@@ -1,11 +1,5 @@
 var NAVTREEINDEX91 =
 {
-"structdetray_1_1guided__navigation.html":[8,0,3,94],
-"structdetray_1_1guided__navigation.html#a96dabedc9f54f11cff1e6ff98620af18":[6,0,4,81,1],
-"structdetray_1_1guided__navigation.html#a96dabedc9f54f11cff1e6ff98620af18":[8,0,3,94,1],
-"structdetray_1_1guided__navigation_1_1state.html":[6,0,4,81,0],
-"structdetray_1_1guided__navigation_1_1state.html":[8,0,3,94,0],
-"structdetray_1_1hash__tree_1_1hashed__node.html":[6,0,4,82,0],
 "structdetray_1_1hash__tree_1_1hashed__node.html":[8,0,3,95,0],
 "structdetray_1_1hash__tree_1_1hashed__node.html#a051526fca93468bd9ab1d0337c5d80ad":[6,0,4,82,0,1],
 "structdetray_1_1hash__tree_1_1hashed__node.html#a051526fca93468bd9ab1d0337c5d80ad":[8,0,3,95,0,1],
@@ -249,5 +243,11 @@ var NAVTREEINDEX91 =
 "structdetray_1_1intersection__record.html#a37bc1fa0f5f1c403744ae857f15aac8d":[6,0,4,103,17],
 "structdetray_1_1intersection__record.html#a37bc1fa0f5f1c403744ae857f15aac8d":[8,0,3,116,17],
 "structdetray_1_1intersection__record.html#a510cc2106c6451b9754fd7d58cc6caef":[6,0,4,103,6],
-"structdetray_1_1intersection__record.html#a510cc2106c6451b9754fd7d58cc6caef":[8,0,3,116,6]
+"structdetray_1_1intersection__record.html#a510cc2106c6451b9754fd7d58cc6caef":[8,0,3,116,6],
+"structdetray_1_1intersection__record.html#a637a61b21b4ec334ad1f2d1313814aaa":[6,0,4,103,2],
+"structdetray_1_1intersection__record.html#a637a61b21b4ec334ad1f2d1313814aaa":[8,0,3,116,2],
+"structdetray_1_1intersection__record.html#a6d544c27978758b8fc4d9df8b45721cf":[6,0,4,103,12],
+"structdetray_1_1intersection__record.html#a6d544c27978758b8fc4d9df8b45721cf":[8,0,3,116,12],
+"structdetray_1_1intersection__record.html#a71aa0831258eda47c7eba3b342cd2a13":[6,0,4,103,8],
+"structdetray_1_1intersection__record.html#a71aa0831258eda47c7eba3b342cd2a13":[8,0,3,116,8]
 };
