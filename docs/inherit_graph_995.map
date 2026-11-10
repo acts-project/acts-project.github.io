@@ -1,21 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$structdetray_1_1pdg__particle.html" title="Particle hypothesis identified by PDG number, mass, and electric charge." alt="" coords="5,205,156,250"/>
-<area shape="rect" id="Node000001" href="$structdetray_1_1antimuon.html" title="Positive muon hypothesis." alt="" coords="204,5,417,33"/>
-<area shape="poly" id="edge358_Node000000_Node000001" title=" " alt="" coords="94,189,112,154,136,115,166,76,202,44,229,31,225,35,205,48,170,80,140,118,116,157,99,191"/>
-<area shape="rect" id="Node000002" href="$structdetray_1_1electron.html" title="Electron hypothesis." alt="" coords="208,57,412,85"/>
-<area shape="poly" id="edge359_Node000000_Node000002" title=" " alt="" coords="104,191,146,141,173,116,202,96,233,84,229,87,205,100,176,120,150,145,108,193"/>
-<area shape="rect" id="Node000003" href="$structdetray_1_1invalid.html" title="Invalid particle hypothesis (PDG number zero)." alt="" coords="213,109,408,137"/>
-<area shape="poly" id="edge360_Node000000_Node000003" title=" " alt="" coords="122,194,161,169,203,147,241,136,237,139,205,152,163,174,126,197"/>
-<area shape="rect" id="Node000004" href="$structdetray_1_1muon.html" title="Negative muon hypothesis." alt="" coords="216,161,404,189"/>
-<area shape="poly" id="edge361_Node000000_Node000004" title=" " alt="" coords="170,204,248,188,244,191,172,209"/>
-<area shape="rect" id="Node000005" href="$structdetray_1_1photon.html" title="Photon hypothesis." alt="" coords="212,213,408,241"/>
-<area shape="poly" id="edge362_Node000000_Node000005" title=" " alt="" coords="170,225,214,226,209,229,173,230"/>
-<area shape="rect" id="Node000006" href="$structdetray_1_1pion__minus.html" title="Negative pion hypothesis." alt="" coords="238,265,383,310"/>
-<area shape="poly" id="edge363_Node000000_Node000006" title=" " alt="" coords="170,248,240,267,235,269,171,253"/>
-<area shape="rect" id="Node000007" href="$structdetray_1_1pion__plus.html" title="Positive pion hypothesis." alt="" coords="239,334,382,379"/>
-<area shape="poly" id="edge364_Node000000_Node000007" title=" " alt="" coords="117,257,159,290,205,319,241,336,236,338,202,324,156,294,117,262"/>
-<area shape="rect" id="Node000008" href="$structdetray_1_1pion__zero.html" title="Neutral pion hypothesis." alt="" coords="238,404,382,448"/>
-<area shape="poly" id="edge365_Node000000_Node000008" title=" " alt="" coords="100,260,144,327,172,360,205,389,240,409,235,409,202,393,169,364,140,330,99,265"/>
-<area shape="rect" id="Node000009" href="$structdetray_1_1positron.html" title="Positron hypothesis." alt="" coords="208,472,412,500"/>
-<area shape="poly" id="edge366_Node000000_Node000009" title=" " alt="" coords="91,262,108,309,131,362,163,414,183,438,205,458,224,472,219,471,202,463,179,442,159,418,126,364,103,311,90,267"/>
+<area shape="rect" id="Node000000" href="$structdetray_1_1perigee__stopper_1_1state.html" title="Per&#45;actor configuration for checking the perigee." alt="" coords="5,5,181,50"/>
 </map>

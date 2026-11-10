@@ -1,23 +1,9 @@
 <map id="detray::spatial_grid_impl&lt; grid_t &gt;" name="detray::spatial_grid_impl&lt; grid_t &gt;">
-<area shape="rect" id="Node000001" title="An N&#45;dimensional spatial grid for geometry object searches." alt="" coords="113,500,259,545"/>
-<area shape="rect" id="Node000003" href="$classdetray_1_1spatial__grid__impl.html" title=" " alt="" coords="552,422,720,501"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="262,494,283,488,353,476,424,468,554,461,550,464,425,473,354,482,284,493,265,498"/>
-<area shape="rect" id="Node000004" href="$classdetray_1_1spatial__grid__impl.html" title=" " alt="" coords="527,536,745,632"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="223,552,253,572,284,586,345,599,408,605,470,604,529,601,525,603,470,609,408,610,344,604,282,591,250,576,224,558"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,509,64,537"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,521,115,521,111,525,81,525"/>
-<area shape="rect" id="Node000005" href="$classdetray_1_1spatial__grid__impl.html" title=" " alt="" coords="1037,41,1303,188"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="734,523,742,511,751,486,754,451,751,367,750,283,755,249,766,224,793,197,824,174,857,156,892,141,965,122,1039,113,1034,116,966,127,894,146,859,161,826,179,797,201,771,227,760,250,755,283,756,367,759,451,756,487,747,513,738,526"/>
-<area shape="rect" id="Node000006" href="$classdetray_1_1spatial__grid__impl.html" title=" " alt="" coords="1055,213,1284,342"/>
-<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="732,523,742,511,752,486,752,463,754,440,767,416,797,387,830,363,867,343,905,326,982,301,1057,287,1052,289,983,306,907,331,869,347,833,368,800,392,771,419,759,442,758,464,757,487,747,514,736,527"/>
-<area shape="rect" id="Node000007" href="$classdetray_1_1spatial__grid__impl.html" title=" " alt="" coords="1050,366,1290,496"/>
-<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="758,533,768,530,913,487,1052,456,1047,458,915,493,769,535,761,538"/>
-<area shape="rect" id="Node000008" href="$classdetray_1_1spatial__grid__impl.html" title=" " alt="" coords="1056,519,1284,649"/>
-<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="759,582,1058,583,1053,585,760,587"/>
-<area shape="rect" id="Node000009" href="$classdetray_1_1spatial__grid__impl.html" title=" " alt="" coords="1022,673,1318,820"/>
-<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="687,641,726,675,770,701,831,724,896,738,960,746,1024,752,1019,753,960,752,895,743,830,729,768,706,723,679,687,646"/>
-<area shape="rect" id="Node000010" href="$classdetray_1_1spatial__grid__impl.html" title=" " alt="" coords="1056,845,1284,974"/>
-<area shape="poly" id="edge9_Node000004_Node000010" title=" " alt="" coords="660,644,680,685,704,727,734,767,770,801,803,823,838,842,912,870,987,889,1058,902,1053,903,986,894,910,875,835,846,800,828,767,806,730,771,700,730,675,688,659,649"/>
-<area shape="rect" id="Node000011" href="$classdetray_1_1spatial__grid__impl.html" title=" " alt="" coords="1029,999,1311,1145"/>
-<area shape="poly" id="edge10_Node000004_Node000011" title=" " alt="" coords="638,645,647,731,655,779,666,830,683,880,706,928,734,972,770,1010,798,1030,828,1047,894,1069,962,1081,1031,1086,1026,1086,962,1086,893,1074,826,1052,795,1035,767,1014,730,975,701,931,678,882,661,831,649,781,641,732,636,650"/>
+<area shape="rect" id="Node000001" title="An N&#45;dimensional spatial grid for geometry object searches." alt="" coords="113,88,259,133"/>
+<area shape="rect" id="Node000003" href="$classdetray_1_1spatial__grid__impl.html" title=" " alt="" coords="552,10,720,88"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="262,81,283,76,353,64,424,56,554,50,549,51,425,61,354,69,284,81,264,86"/>
+<area shape="rect" id="Node000004" href="$classdetray_1_1spatial__grid__impl.html" title=" " alt="" coords="527,124,745,219"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="224,140,253,159,284,173,345,187,408,192,470,191,524,190,530,189,470,197,408,197,344,192,282,178,250,164,223,145"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,96,64,124"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,108,115,109,110,112,80,113"/>
 </map>

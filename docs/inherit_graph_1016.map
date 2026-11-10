@@ -1,5 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$structdetray_1_1ray__intersector__impl_3_01cartesian2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html" title="A functor to find intersections between straight line and planar surface." alt="" coords="5,5,224,67"/>
-<area shape="rect" id="Node000001" href="$structdetray_1_1ray__intersector__impl_3_01polar2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html" title=" " alt="" coords="272,5,490,67"/>
-<area shape="poly" id="edge424_Node000000_Node000001" title=" " alt="" coords="239,34,274,36,268,36,239,39"/>
+<area shape="rect" id="Node000000" href="$structdetray_1_1ray__intersector__impl.html" title=" " alt="" coords="5,5,216,84"/>
+<area shape="rect" id="Node000001" href="$structdetray_1_1helix__intersector__impl_3_01cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html" title="Intersection implementation for cylinder surfaces using helical trajectories." alt="" coords="264,14,485,76"/>
+<area shape="poly" id="edge425_Node000000_Node000001" title=" " alt="" coords="231,42,266,44,261,45,231,47"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1helix__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html" title="Helix intersector for a concentric cylindrical coordinate frame." alt="" coords="533,14,754,76"/>
+<area shape="poly" id="edge426_Node000001_Node000002" title=" " alt="" coords="500,42,535,45,530,45,501,47"/>
 </map>

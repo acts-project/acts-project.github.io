@@ -1,9 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" title=" " alt="" coords="5,83,112,111"/>
-<area shape="rect" id="Node000001" href="$structdetray_1_1axis_1_1multi__bin.html" title=" " alt="" coords="170,5,310,50"/>
-<area shape="poly" id="edge451_Node000000_Node000001" title=" " alt="" coords="110,75,181,49,177,52,112,80"/>
-<area shape="rect" id="Node000002" href="$structdetray_1_1axis_1_1multi__bin.html" title="Multi&#45;bin: contains bin indices from multiple axes." alt="" coords="160,75,320,119"/>
-<area shape="poly" id="edge452_Node000000_Node000002" title=" " alt="" coords="127,94,161,96,157,98,128,100"/>
-<area shape="rect" id="Node000003" href="$structdetray_1_1axis_1_1multi__bin__range.html" title="Multi&#45;bin&#45;range: contains bin index ranges from multiple axes." alt="" coords="166,144,314,189"/>
-<area shape="poly" id="edge453_Node000000_Node000003" title=" " alt="" coords="111,114,182,142,177,144,111,119"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,52,89,80"/>
+<area shape="rect" id="Node000001" href="$classdetray_1_1types_1_1mapped__registry.html" title=" " alt="" coords="137,5,304,50"/>
+<area shape="poly" id="edge459_Node000000_Node000001" title=" " alt="" coords="103,51,139,45,134,48,105,56"/>
+<area shape="rect" id="Node000002" href="$classdetray_1_1types_1_1mapped__registry.html" title="Select a number of types from another registry and map their IDs to a continuous range of new type in..." alt="" coords="137,74,304,136"/>
+<area shape="poly" id="edge460_Node000000_Node000002" title=" " alt="" coords="104,76,139,86,134,87,104,82"/>
 </map>

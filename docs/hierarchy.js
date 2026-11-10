@@ -1303,7 +1303,6 @@ var hierarchy =
     [ "detray::cylindrical2D&lt; algebra_t &gt;", "structdetray_1_1cylindrical2_d.html", null ],
     [ "detray::cylindrical3D&lt; algebra_t &gt;", "structdetray_1_1cylindrical3_d.html", null ],
     [ "detray::default_hash&lt; value_t &gt;", "structdetray_1_1default__hash.html", null ],
-    [ "detray::default_metadata&lt; algebra_t &gt;", "structdetray_1_1default__metadata.html", null ],
     [ "detray::detail::add_sf_material_map&lt; material_t &gt;", "structdetray_1_1detail_1_1add__sf__material__map.html", null ],
     [ "detray::detail::bit_encoder&lt; value_t &gt;", "classdetray_1_1detail_1_1bit__encoder.html", null ],
     [ "detray::detail::dbase_view", null, [
@@ -1493,7 +1492,6 @@ var hierarchy =
       [ "detray::caching_navigator< detector_t, k_cache_capacity, inspector_t, intersection_t >", "classdetray_1_1caching__navigator.html", null ],
       [ "detray::navigator< detector_t, inspector_t, intersection_t >", "classdetray_1_1navigator.html", null ]
     ] ],
-    [ "detray::odd_metadata&lt; algebra_t &gt;", "structdetray_1_1odd__metadata.html", null ],
     [ "detray::pdg_particle&lt; scalar_t &gt;", "structdetray_1_1pdg__particle.html", [
       [ "detray::antimuon< scalar_t >", "structdetray_1_1antimuon.html", null ],
       [ "detray::electron< scalar_t >", "structdetray_1_1electron.html", null ],
@@ -1693,7 +1691,6 @@ var hierarchy =
       [ "detray::test::navigation_validation_config< algebra_t >", "structdetray_1_1test_1_1navigation__validation__config.html", null ]
     ] ],
     [ "detray::toy_det_config&lt; scalar_t &gt;", "structdetray_1_1toy__det__config.html", null ],
-    [ "detray::toy_metadata&lt; algebra_t &gt;", "structdetray_1_1toy__metadata.html", null ],
     [ "detray::tracking_volume&lt; detector_t &gt;", "classdetray_1_1tracking__volume.html", null ],
     [ "detray::traits::block_getter&lt; M &gt;", "structdetray_1_1traits_1_1block__getter.html", null ],
     [ "detray::traits::block_getter&lt; Eigen::MatrixBase&lt; derived_t &gt; &gt;", "structdetray_1_1traits_1_1block__getter_3_01_eigen_1_1_matrix_base_3_01derived__t_01_4_01_4.html", null ],
@@ -1799,7 +1796,6 @@ var hierarchy =
     [ "detray::volume_graph&lt; detector_t, node_inspector, vector_t &gt;::node_generator::node", "structdetray_1_1volume__graph_1_1node__generator_1_1node.html", null ],
     [ "detray::volume_graph&lt; detector_t, node_inspector, vector_t &gt;::node_generator::node_builder", "structdetray_1_1volume__graph_1_1node__generator_1_1node__builder.html", null ],
     [ "detray::wire_chamber_config&lt; scalar_t, wire_shape_t &gt;", "structdetray_1_1wire__chamber__config.html", null ],
-    [ "detray::wire_chamber_metadata&lt; algebra_t &gt;", "structdetray_1_1wire__chamber__metadata.html", null ],
     [ "detray::wire_layer_generator_config&lt; scalar_t &gt;", "structdetray_1_1wire__layer__generator__config.html", null ],
     [ "dmulti_index", null, [
       [ "detray::axis::multi_bin< dim >", "structdetray_1_1axis_1_1multi__bin.html", null ],

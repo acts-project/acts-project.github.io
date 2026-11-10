@@ -1,7 +1,7 @@
 var searchData=
 [
   ['object_5fid_0',['object_id',['../classdetray_1_1tracking__volume.html#a7fc10a5e9bfcd7948d2bfc9474ea1166',1,'detray::tracking_volume::object_id'],['../classdetray_1_1volume__descriptor.html#af977f9d6bc1d2ae84d2e21f79a99e85d',1,'detray::volume_descriptor::object_id']]],
-  ['object_5flink_5ftype_1',['object_link_type',['../structdetray_1_1default__metadata.html#a5b95db54031ad320536ea0a660a11e23',1,'detray::default_metadata::object_link_type'],['../structdetray_1_1odd__metadata.html#abb3471ab159947b68e1a6a2510f6a756',1,'detray::odd_metadata::object_link_type'],['../structdetray_1_1telescope__metadata.html#a9a2acf47382ea2034966a03c099629c7',1,'detray::telescope_metadata::object_link_type'],['../structdetray_1_1toy__metadata.html#a6f3a4c94e6e208ea4a200373bb5e5807',1,'detray::toy_metadata::object_link_type'],['../structdetray_1_1wire__chamber__metadata.html#a4ccece8e6b1d65db5192d13dbdd627b6',1,'detray::wire_chamber_metadata::object_link_type']]],
+  ['object_5flink_5ftype_1',['object_link_type',['../structdetray_1_1telescope__metadata.html#a9a2acf47382ea2034966a03c099629c7',1,'detray::telescope_metadata']]],
   ['observer_5fstate_5frefs_2',['observer_state_refs',['../classdetray_1_1composite__actor.html#a33aca69728cf77d6d68a06750c258450',1,'detray::composite_actor']]],
   ['observer_5fstates_3',['observer_states',['../classdetray_1_1composite__actor.html#ad8d7220b3f3912425ca2346f2a54a77f',1,'detray::composite_actor']]],
   ['optionalcuts_4',['OptionalCuts',['../struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#aff0a092a21d36d86a9e2ec11def3a5f9',1,'Acts::ScoreBasedAmbiguityResolution::Optionals']]],
