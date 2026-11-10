@@ -142,9 +142,9 @@ Classes</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a8b4630ea81ac8aad5db94ecdc6413315" id="r_a8b4630ea81ac8aad5db94ecdc6413315"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b4630ea81ac8aad5db94ecdc6413315">DetrayGeometryConverter</a> (<a class="el" href="struct_acts_plugins_1_1_detray_geometry_converter_1_1_config.html">Config</a> config, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &gt; logger=<a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">Acts::getDefaultLogger</a>(&quot;DetrayGeometryConverter&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Acts::Logging::INFO</a>))</td></tr>
 <tr class="memdesc:a8b4630ea81ac8aad5db94ecdc6413315"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
-<tr class="memitem:aef1caba916d4984ff8bb055a421d14e6" id="r_aef1caba916d4984ff8bb055a421d14e6"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="conceptdetray_1_1concepts_1_1metadata.html">detray::concepts::metadata</a> metadata_t&gt; </td></tr>
-<tr class="memitem:aef1caba916d4984ff8bb055a421d14e6 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_plugins_1_1_detray_geometry_converter_1_1_detray_geometry.html">DetrayGeometry</a>&lt; metadata_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef1caba916d4984ff8bb055a421d14e6">convert</a> (vecmem::memory_resource &amp;mr, const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, const std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_tracking_geometry.html">Acts::TrackingGeometry</a> &gt; &amp;trackingGeometry, const std::string &amp;detectorName=&quot;&quot;) const</td></tr>
-<tr class="memdesc:aef1caba916d4984ff8bb055a421d14e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert an ACTS TrackingGeometry into a detray detector.  <br /></td></tr>
+<tr class="memitem:a8054438d49551acfa8b1484fb172eaf0" id="r_a8054438d49551acfa8b1484fb172eaf0"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="conceptdetray_1_1concepts_1_1metadata.html">detray::concepts::metadata</a> metadata_t&gt; </td></tr>
+<tr class="memitem:a8054438d49551acfa8b1484fb172eaf0 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_plugins_1_1_detray_geometry_converter_1_1_detray_geometry.html">DetrayGeometry</a>&lt; metadata_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8054438d49551acfa8b1484fb172eaf0">convert</a> (vecmem::memory_resource &amp;mr, const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, const std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_tracking_geometry.html">Acts::TrackingGeometry</a> &gt; &amp;trackingGeometry) const</td></tr>
+<tr class="memdesc:a8054438d49551acfa8b1484fb172eaf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert an ACTS TrackingGeometry into a detray detector.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Converter from an ACTS TrackingGeometry to a detray detector. </p>
@@ -189,8 +189,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="aef1caba916d4984ff8bb055a421d14e6" name="aef1caba916d4984ff8bb055a421d14e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef1caba916d4984ff8bb055a421d14e6">&#9670;&#160;</a></span>convert()</h2>
+<a id="a8054438d49551acfa8b1484fb172eaf0" name="a8054438d49551acfa8b1484fb172eaf0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8054438d49551acfa8b1484fb172eaf0">&#9670;&#160;</a></span>convert()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -210,12 +210,7 @@ template&lt;<a class="el" href="conceptdetray_1_1concepts_1_1metadata.html">detr
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_tracking_geometry.html">Acts::TrackingGeometry</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>trackingGeometry</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>detectorName</em></span><span class="paramdefsep"> = </span><span class="paramdefval">&quot;&quot;</span>&#160;) const</td>
+          <td class="paramtype">const std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_tracking_geometry.html">Acts::TrackingGeometry</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>trackingGeometry</em></span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -231,14 +226,13 @@ template&lt;<a class="el" href="conceptdetray_1_1concepts_1_1metadata.html">detr
   <table class="params">
     <tr><td class="paramname">mr</td><td>the memory resource to use for the detray detector construction </td></tr>
     <tr><td class="paramname">gctx</td><td>the geometry context </td></tr>
-    <tr><td class="paramname">trackingGeometry</td><td>the ACTS tracking geometry to convert </td></tr>
-    <tr><td class="paramname">detectorName</td><td>the name to set for the detray detector (optional, if not set, it will be taken from the payloads or defaulted to empty)</td></tr>
+    <tr><td class="paramname">trackingGeometry</td><td>the ACTS tracking geometry to convert</td></tr>
   </table>
   </dd>
 </dl>
 <p>This method performs the following steps:</p><ol type="1">
-<li>It converts the ACTS tracking geometry into detray payloads using the configured DetrayPayloadConverter.</li>
-<li>It builds a detray detector from the converted payloads using the detray::detector_builder.</li>
+<li>It converts the ACTS tracking geometry into a detray detector payload using the configured DetrayPayloadConverter.</li>
+<li>It builds a detray detector from the converted payloads using the detray detector reader function.</li>
 </ol>
 <dl class="section return"><dt>Returns</dt><dd>The built detray detector together with its name map and the ACTS &lt;-&gt; detray surface identifier map. </dd></dl>
 

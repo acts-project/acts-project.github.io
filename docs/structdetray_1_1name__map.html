@@ -133,6 +133,9 @@ $(function(){initNavTree('structdetray_1_1name__map.html','','structdetray_1_1na
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a2ba05b42bb3eecc328a64ed5b2a24f74" id="r_a2ba05b42bb3eecc328a64ed5b2a24f74"><td class="memItemLeft" align="right" valign="top"><a id="a2ba05b42bb3eecc328a64ed5b2a24f74" name="a2ba05b42bb3eecc328a64ed5b2a24f74"></a>
+constexpr&#160;</td><td class="memItemRight" valign="bottom"><b>name_map</b> ()=default</td></tr>
+<tr class="memdesc:a2ba05b42bb3eecc328a64ed5b2a24f74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ensure default constructor is present for some HIP builds. <br /></td></tr>
 <tr class="memitem:ad666988ef832cd268a9901307482e60c" id="r_ad666988ef832cd268a9901307482e60c"><td class="memItemLeft" align="right" valign="top">decltype(auto)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad666988ef832cd268a9901307482e60c">at</a> (const std::string &amp;name) const</td></tr>
 <tr class="memdesc:ad666988ef832cd268a9901307482e60c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the index associated with a volume name.  <br /></td></tr>
 <tr class="memitem:a824da91a2763933342309bba80c763ea" id="r_a824da91a2763933342309bba80c763ea"><td class="memItemLeft" align="right" valign="top">decltype(auto)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a824da91a2763933342309bba80c763ea">at</a> (const std::string_view name) const</td></tr>
@@ -155,6 +158,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clear_names</b> ()</t
 <tr class="memitem:a86de9db076036d64ded942ef8c2b38c1" id="r_a86de9db076036d64ded942ef8c2b38c1"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86de9db076036d64ded942ef8c2b38c1">get_detector_name</a> () const</td></tr>
 <tr class="memitem:a6370f9f4333da7941fcae5e46d2533bb" id="r_a6370f9f4333da7941fcae5e46d2533bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6370f9f4333da7941fcae5e46d2533bb">set_detector_name</a> (const std::string_view name)</td></tr>
 <tr class="memdesc:a6370f9f4333da7941fcae5e46d2533bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the name of the detector  <br /></td></tr>
+<tr class="memitem:a811841dd8e11bdbfba5f5d0893dde636" id="r_a811841dd8e11bdbfba5f5d0893dde636"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a811841dd8e11bdbfba5f5d0893dde636">size</a> () const</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Map volume indices to volume names and vice versa. </p>
@@ -399,6 +403,24 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clear_names</b> ()</t
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a811841dd8e11bdbfba5f5d0893dde636" name="a811841dd8e11bdbfba5f5d0893dde636"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a811841dd8e11bdbfba5f5d0893dde636">&#9670;&#160;</a></span>size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t detray::name_map::size </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>the number of elements in the name map </dd></dl>
 
 </div>
 </div>

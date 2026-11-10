@@ -1,5 +1,6 @@
 var structdetray_1_1name__map =
 [
+    [ "name_map", "structdetray_1_1name__map.html#a2ba05b42bb3eecc328a64ed5b2a24f74", null ],
     [ "at", "structdetray_1_1name__map.html#ad666988ef832cd268a9901307482e60c", null ],
     [ "at", "structdetray_1_1name__map.html#a824da91a2763933342309bba80c763ea", null ],
     [ "at", "structdetray_1_1name__map.html#a889acdd6806c3947c7a92a48717aa454", null ],
@@ -11,5 +12,6 @@ var structdetray_1_1name__map =
     [ "emplace", "structdetray_1_1name__map.html#a70357b5fd51f5e6c23c54b47a7347599", null ],
     [ "empty", "structdetray_1_1name__map.html#ada6ae460e463205de705a24777a31ffc", null ],
     [ "get_detector_name", "structdetray_1_1name__map.html#a86de9db076036d64ded942ef8c2b38c1", null ],
-    [ "set_detector_name", "structdetray_1_1name__map.html#a6370f9f4333da7941fcae5e46d2533bb", null ]
+    [ "set_detector_name", "structdetray_1_1name__map.html#a6370f9f4333da7941fcae5e46d2533bb", null ],
+    [ "size", "structdetray_1_1name__map.html#a811841dd8e11bdbfba5f5d0893dde636", null ]
 ];

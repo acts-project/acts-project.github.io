@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$structdetray_1_1bins_1_1dynamic__array_1_1data.html" title="Metadata describing one bin&#39;s range in shared storage." alt="" coords="5,5,181,50"/>
+<area shape="rect" id="Node000000" href="$structdetray_1_1bound__parameters__vector.html" title="Six&#45;component parameter vector expressed in a surface&#45;bound coordinate frame." alt="" coords="5,5,198,50"/>
+<area shape="rect" id="Node000001" href="$structdetray_1_1bound__track__parameters.html" title="Combine the bound track parameter vector with the covariance and associated surface." alt="" coords="246,5,440,50"/>
+<area shape="poly" id="edge317_Node000000_Node000001" title=" " alt="" coords="213,25,248,27,242,28,213,30"/>
 </map>

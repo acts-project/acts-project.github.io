@@ -1,6 +1,10 @@
 var structdetray_1_1io_1_1detector__reader__config =
 [
-    [ "add_file", "structdetray_1_1io_1_1detector__reader__config.html#ac84b3cc7cc1ae70767d8c0ee896de45f", null ],
+    [ "add_file", "structdetray_1_1io_1_1detector__reader__config.html#a5b6e76a4ff84bdfebad27f2387222249", null ],
+    [ "add_files", "structdetray_1_1io_1_1detector__reader__config.html#ac6d4b7c9dde7a69513704c30a21b2129", null ],
+    [ "add_files", "structdetray_1_1io_1_1detector__reader__config.html#a7125910f351bbf43927e010f93aeda67", null ],
+    [ "add_files", "structdetray_1_1io_1_1detector__reader__config.html#a208f8e922e8e765d96b9f9601bf53889", null ],
+    [ "add_files", "structdetray_1_1io_1_1detector__reader__config.html#ab1249f6b056d64774818abc22ccd9250", null ],
     [ "builder_options", "structdetray_1_1io_1_1detector__reader__config.html#aa2324d03ced31818553406dce3bdaa1d", null ],
     [ "deduplicate", "structdetray_1_1io_1_1detector__reader__config.html#ae391570cc06b9352dc13fb1311d6beab", null ],
     [ "deduplicate", "structdetray_1_1io_1_1detector__reader__config.html#a98961fc6c14f3fc399b45b46141437e2", null ],

@@ -149,9 +149,9 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>payload_type</b> = <
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a91a0573c7bb2e844d27bcc312270ce9e" id="r_a91a0573c7bb2e844d27bcc312270ce9e"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="conceptdetray_1_1concepts_1_1detector.html">detray::concepts::detector</a> detector_t&gt; </td></tr>
-<tr class="memitem:a91a0573c7bb2e844d27bcc312270ce9e template"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91a0573c7bb2e844d27bcc312270ce9e">header_to_payload</a> (const detector_t &amp;det, const std::string_view det_name)</td></tr>
-<tr class="memdesc:a91a0573c7bb2e844d27bcc312270ce9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the header information into its payload.  <br /></td></tr>
+<tr class="memitem:a4457bd070eabedc150cceceb2e43a91e" id="r_a4457bd070eabedc150cceceb2e43a91e"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="conceptdetray_1_1concepts_1_1detector.html">detray::concepts::detector</a> detector_t&gt; </td></tr>
+<tr class="memitem:a4457bd070eabedc150cceceb2e43a91e template"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4457bd070eabedc150cceceb2e43a91e">to_header_payload</a> (const detector_t &amp;det)</td></tr>
+<tr class="memdesc:a4457bd070eabedc150cceceb2e43a91e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the header information into its payload.  <br /></td></tr>
 <tr class="memitem:aafcfe1a24e69105b0b9539fb7868456b" id="r_aafcfe1a24e69105b0b9539fb7868456b"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="conceptdetray_1_1concepts_1_1detector.html">detray::concepts::detector</a> detector_t&gt; </td></tr>
 <tr class="memitem:aafcfe1a24e69105b0b9539fb7868456b template"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#a1dc6d62a78b174ef9e6e5eb56600192f">payload_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafcfe1a24e69105b0b9539fb7868456b">to_payload</a> (const detector_t &amp;det, const typename detector_t::name_map &amp;)</td></tr>
 <tr class="memdesc:aafcfe1a24e69105b0b9539fb7868456b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the grid collections of a detector <code class="param">det</code> into their io payload.  <br /></td></tr>
@@ -166,8 +166,8 @@ static constexpr std::string_view&#160;</td><td class="memItemRight" valign="bot
 <div class="textblock"><p>Surface grid writer backend. </p>
 <p>Fills a surface <code>detector_grids_payload</code> from a <code>detector</code> instance </p>
 </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a91a0573c7bb2e844d27bcc312270ce9e" name="a91a0573c7bb2e844d27bcc312270ce9e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a91a0573c7bb2e844d27bcc312270ce9e">&#9670;&#160;</a></span>header_to_payload()</h2>
+<a id="a4457bd070eabedc150cceceb2e43a91e" name="a4457bd070eabedc150cceceb2e43a91e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4457bd070eabedc150cceceb2e43a91e">&#9670;&#160;</a></span>to_header_payload()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -178,14 +178,10 @@ template&lt;<a class="el" href="conceptdetray_1_1concepts_1_1detector.html">detr
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">auto detray::io::surface_grid_writer::header_to_payload </td>
+          <td class="memname">auto detray::io::surface_grid_writer::to_header_payload </td>
           <td>(</td>
-          <td class="paramtype">const detector_t &amp;</td>          <td class="paramname"><span class="paramname"><em>det</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const detector_t &amp;</td>          <td class="paramname"><span class="paramname"><em>det</em></span></td><td>)</td>
           <td></td>
-          <td class="paramtype">const std::string_view</td>          <td class="paramname"><span class="paramname"><em>det_name</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -205,7 +201,6 @@ template&lt;<a class="el" href="conceptdetray_1_1concepts_1_1detector.html">detr
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">det</td><td>Detector whose surface grids are written. </td></tr>
-    <tr><td class="paramname">det_name</td><td>Name recorded in the serialized header. </td></tr>
   </table>
   </dd>
 </dl>

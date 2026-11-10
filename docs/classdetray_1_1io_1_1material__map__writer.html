@@ -148,9 +148,9 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a38c73cee94f4cd03b7f0ab4f61d9502a" id="r_a38c73cee94f4cd03b7f0ab4f61d9502a"><td class="memTemplParams" colspan="2">template&lt;class detector_t&gt; </td></tr>
-<tr class="memitem:a38c73cee94f4cd03b7f0ab4f61d9502a template"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38c73cee94f4cd03b7f0ab4f61d9502a">header_to_payload</a> (const detector_t &amp;det, const std::string_view det_name)</td></tr>
-<tr class="memdesc:a38c73cee94f4cd03b7f0ab4f61d9502a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the header information into its payload.  <br /></td></tr>
+<tr class="memitem:aff16c8eda8e157ebfd0ccbcb0257f862" id="r_aff16c8eda8e157ebfd0ccbcb0257f862"><td class="memTemplParams" colspan="2">template&lt;class detector_t&gt; </td></tr>
+<tr class="memitem:aff16c8eda8e157ebfd0ccbcb0257f862 template"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff16c8eda8e157ebfd0ccbcb0257f862">to_header_payload</a> (const detector_t &amp;det)</td></tr>
+<tr class="memdesc:aff16c8eda8e157ebfd0ccbcb0257f862"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the header information into its payload.  <br /></td></tr>
 <tr class="memitem:ada357fb7f9336373815f5e57e9a0576f" id="r_ada357fb7f9336373815f5e57e9a0576f"><td class="memTemplParams" colspan="2">template&lt;class detector_t&gt; </td></tr>
 <tr class="memitem:ada357fb7f9336373815f5e57e9a0576f template"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#a64a644713c99d14af475b3917d26da2b">payload_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada357fb7f9336373815f5e57e9a0576f">to_payload</a> (const detector_t &amp;det, const typename detector_t::name_map &amp;)</td></tr>
 <tr class="memdesc:ada357fb7f9336373815f5e57e9a0576f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the material description of a detector <code class="param">det</code> into its io payload.  <br /></td></tr>
@@ -178,15 +178,15 @@ static constexpr std::string_view&#160;</td><td class="memItemRight" valign="bot
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">      <a class="code hl_struct" href="structdetray_1_1io_1_1detector__grids__payload.html">detector_grids_payload&lt;surface_material_payload, io::material_id&gt;</a></div>
-<div class="ttc" id="astructdetray_1_1io_1_1detector__grids__payload_html"><div class="ttname"><a href="structdetray_1_1io_1_1detector__grids__payload.html">detray::io::detector_grids_payload</a></div><div class="ttdoc">A payload for the grid collections of a detector.</div><div class="ttdef"><b>Definition</b> payloads.hpp:344</div></div>
+<div class="ttc" id="astructdetray_1_1io_1_1detector__grids__payload_html"><div class="ttname"><a href="structdetray_1_1io_1_1detector__grids__payload.html">detray::io::detector_grids_payload</a></div><div class="ttdoc">A payload for the grid collections of a detector.</div><div class="ttdef"><b>Definition</b> payloads.hpp:314</div></div>
 </div><!-- fragment -->
 <p>Payload type that the reader processes. </p>
 
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a38c73cee94f4cd03b7f0ab4f61d9502a" name="a38c73cee94f4cd03b7f0ab4f61d9502a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38c73cee94f4cd03b7f0ab4f61d9502a">&#9670;&#160;</a></span>header_to_payload()</h2>
+<a id="aff16c8eda8e157ebfd0ccbcb0257f862" name="aff16c8eda8e157ebfd0ccbcb0257f862"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff16c8eda8e157ebfd0ccbcb0257f862">&#9670;&#160;</a></span>to_header_payload()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -197,14 +197,10 @@ template&lt;class detector_t&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">auto detray::io::material_map_writer::header_to_payload </td>
+          <td class="memname">auto detray::io::material_map_writer::to_header_payload </td>
           <td>(</td>
-          <td class="paramtype">const detector_t &amp;</td>          <td class="paramname"><span class="paramname"><em>det</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const detector_t &amp;</td>          <td class="paramname"><span class="paramname"><em>det</em></span></td><td>)</td>
           <td></td>
-          <td class="paramtype">const std::string_view</td>          <td class="paramname"><span class="paramname"><em>det_name</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -224,7 +220,6 @@ template&lt;class detector_t&gt; </div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">det</td><td>Detector whose material grids are written. </td></tr>
-    <tr><td class="paramname">det_name</td><td>Name recorded in the serialized header. </td></tr>
   </table>
   </dd>
 </dl>

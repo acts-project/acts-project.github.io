@@ -1,5 +1,9 @@
 <map id="detray::io::reader_interface&lt; detector_t &gt;" name="detray::io::reader_interface&lt; detector_t &gt;">
-<area shape="rect" id="Node000001" title="Abstract base class for detray detector component readers." alt="" coords="10,5,192,50"/>
-<area shape="rect" id="Node000002" href="$classdetray_1_1io_1_1json__converter_3_01detector__t_00_01backend__t_01_4.html" title="Class that adds json functionality to backend reader types." alt="" coords="5,98,197,143"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,64,103,99,99,97,99,68"/>
+<area shape="rect" id="Node000001" title="Abstract base class for detray detector component readers." alt="" coords="5,75,188,119"/>
+<area shape="rect" id="Node000002" href="$classdetray_1_1io_1_1geometry__reader.html" title="Tracking geometry reader backend." alt="" coords="267,5,433,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="194,68,268,49,264,52,196,73"/>
+<area shape="rect" id="Node000003" href="$classdetray_1_1io_1_1homogeneous__material__reader.html" title="Homogeneous material reader backend." alt="" coords="236,75,464,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="203,94,238,96,233,98,204,100"/>
+<area shape="rect" id="Node000004" href="$classdetray_1_1io_1_1material__map__reader.html" title="Material map reader backend." alt="" coords="262,144,438,205"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="187,122,265,147,259,148,187,127"/>
 </map>

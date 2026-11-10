@@ -1,7 +1,7 @@
 var classdetray_1_1io_1_1geometry__writer =
 [
-    [ "payload_type", "classdetray_1_1io_1_1geometry__writer.html#aae6c02497accb57d1db8ef368b90c0a7", null ],
-    [ "header_to_payload", "classdetray_1_1io_1_1geometry__writer.html#aa9e58f7f51837e3a92d9413f5552d87d", null ],
+    [ "payload_type", "classdetray_1_1io_1_1geometry__writer.html#ade862bf374316022d474eec4d962430f", null ],
+    [ "to_header_payload", "classdetray_1_1io_1_1geometry__writer.html#a9980f5cca168620eda4d196ba4cb3ff3", null ],
     [ "to_payload", "classdetray_1_1io_1_1geometry__writer.html#a6a0f16dbf00e5e8326ba8757c325841a", null ],
     [ "to_payload", "classdetray_1_1io_1_1geometry__writer.html#a1e8073f6ac8bf91ea877401a2e3d0b12", null ],
     [ "to_payload", "classdetray_1_1io_1_1geometry__writer.html#a8972aa60c44a0198bbca22f3825343f9", null ],

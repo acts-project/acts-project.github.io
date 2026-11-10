@@ -1,0 +1,5 @@
+<map id="detray::io::geometry_reader&lt; detector_t &gt;" name="detray::io::geometry_reader&lt; detector_t &gt;">
+<area shape="rect" id="Node000001" title="Tracking geometry reader backend." alt="" coords="13,98,180,143"/>
+<area shape="rect" id="Node000002" href="$classdetray_1_1io_1_1reader__interface.html" title="Abstract base class for detray detector component readers." alt="" coords="5,5,188,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,64,99,99,94,97,95,68"/>
+</map>

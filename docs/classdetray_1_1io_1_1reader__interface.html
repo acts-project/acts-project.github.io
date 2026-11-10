@@ -133,103 +133,49 @@ $(function(){initNavTree('classdetray_1_1io_1_1reader__interface.html','','class
 <div class="dynheader">
 Inheritance diagram for detray::io::reader_interface&lt; detector_t &gt;:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classdetray_1_1io_1_1reader__interface__inherit__graph.svg" width="203" height="148"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classdetray_1_1io_1_1reader__interface__inherit__graph.svg" width="470" height="211"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a87ef0fe2289c41f43b452c8830b10ede" id="r_a87ef0fe2289c41f43b452c8830b10ede"><td class="memItemLeft" align="right" valign="top"><a id="a87ef0fe2289c41f43b452c8830b10ede" name="a87ef0fe2289c41f43b452c8830b10ede"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>reader_interface</b> ()=delete</td></tr>
-<tr class="memdesc:a87ef0fe2289c41f43b452c8830b10ede"><td class="mdescLeft">&#160;</td><td class="mdescRight">All readers must define a file extension. <br /></td></tr>
-<tr class="memitem:a66e64a5e6558591291deea81d597209e" id="r_a66e64a5e6558591291deea81d597209e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66e64a5e6558591291deea81d597209e">reader_interface</a> (const std::string &amp;ext)</td></tr>
-<tr class="memdesc:a66e64a5e6558591291deea81d597209e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Only accept files with a fixed <code class="param">ext</code>.  <br /></td></tr>
 <tr class="memitem:a881d52e7bd03c5db67c04e20bf37791e" id="r_a881d52e7bd03c5db67c04e20bf37791e"><td class="memItemLeft" align="right" valign="top"><a id="a881d52e7bd03c5db67c04e20bf37791e" name="a881d52e7bd03c5db67c04e20bf37791e"></a>
 virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~reader_interface</b> ()=default</td></tr>
 <tr class="memdesc:a881d52e7bd03c5db67c04e20bf37791e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default destructor. <br /></td></tr>
-<tr class="memitem:a16c7f8f7929a75d4b51403f6832622dd" id="r_a16c7f8f7929a75d4b51403f6832622dd"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16c7f8f7929a75d4b51403f6832622dd">file_extension</a> () const</td></tr>
-<tr class="memitem:a8bb774eab09753a8d924373b2d8e500a" id="r_a8bb774eab09753a8d924373b2d8e500a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8bb774eab09753a8d924373b2d8e500a">read</a> (<a class="el" href="classdetray_1_1detector__builder.html">detector_builder</a>&lt; typename detector_t::metadata, <a class="el" href="classdetray_1_1volume__builder.html">volume_builder</a> &gt; &amp;, const std::string &amp;)=0</td></tr>
-<tr class="memdesc:a8bb774eab09753a8d924373b2d8e500a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads the respective detector component from file.  <br /></td></tr>
+<tr class="memitem:ac18a55e6c67f1ad2fb2cceea7928fbb3" id="r_ac18a55e6c67f1ad2fb2cceea7928fbb3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac18a55e6c67f1ad2fb2cceea7928fbb3">from_payload</a> (<a class="el" href="classdetray_1_1detector__builder.html">detector_builder</a>&lt; typename detector_t::metadata, <a class="el" href="classdetray_1_1volume__builder.html">volume_builder</a> &gt; &amp;det_builder, const <a class="el" href="structdetray_1_1io_1_1detector__payload.html">detector_payload</a> &amp;payload) const =0</td></tr>
+<tr class="memdesc:ac18a55e6c67f1ad2fb2cceea7928fbb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads the respective detector component from file.  <br /></td></tr>
+<tr class="memitem:acf72275e16d6dd5f3a38e0c2ac61cbff" id="r_acf72275e16d6dd5f3a38e0c2ac61cbff"><td class="memItemLeft" align="right" valign="top">virtual std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf72275e16d6dd5f3a38e0c2ac61cbff">tag</a> () const =0</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><div class="compoundTemplParams">template&lt;class detector_t&gt;<br />
+<div class="textblock"><div class="compoundTemplParams">template&lt;<a class="el" href="conceptdetray_1_1concepts_1_1detector.html">detray::concepts::detector</a> detector_t&gt;<br />
 class detray::io::reader_interface&lt; detector_t &gt;</div><p>Abstract base class for detray detector component readers. </p>
-</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a66e64a5e6558591291deea81d597209e" name="a66e64a5e6558591291deea81d597209e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66e64a5e6558591291deea81d597209e">&#9670;&#160;</a></span>reader_interface()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class detector_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classdetray_1_1io_1_1reader__interface.html">detray::io::reader_interface</a>&lt; detector_t &gt;::reader_interface </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>ext</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel explicit">explicit</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Only accept files with a fixed <code class="param">ext</code>. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">ext</td><td>file extension handled by this reader </td></tr>
+<p>Interface for components readers from payload to <code>detector_builder</code> </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">detector_t</td><td>the detector type under construction </td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a16c7f8f7929a75d4b51403f6832622dd" name="a16c7f8f7929a75d4b51403f6832622dd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a16c7f8f7929a75d4b51403f6832622dd">&#9670;&#160;</a></span>file_extension()</h2>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="ac18a55e6c67f1ad2fb2cceea7928fbb3" name="ac18a55e6c67f1ad2fb2cceea7928fbb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac18a55e6c67f1ad2fb2cceea7928fbb3">&#9670;&#160;</a></span>from_payload()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class detector_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::string &amp; <a class="el" href="classdetray_1_1io_1_1reader__interface.html">detray::io::reader_interface</a>&lt; detector_t &gt;::file_extension </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>the file extension </dd></dl>
-
-</div>
-</div>
-<a id="a8bb774eab09753a8d924373b2d8e500a" name="a8bb774eab09753a8d924373b2d8e500a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8bb774eab09753a8d924373b2d8e500a">&#9670;&#160;</a></span>read()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class detector_t&gt; </div>
+template&lt;<a class="el" href="conceptdetray_1_1concepts_1_1detector.html">detray::concepts::detector</a> detector_t&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void <a class="el" href="classdetray_1_1io_1_1reader__interface.html">detray::io::reader_interface</a>&lt; detector_t &gt;::read </td>
+          <td class="memname">virtual void <a class="el" href="classdetray_1_1io_1_1reader__interface.html">detray::io::reader_interface</a>&lt; detector_t &gt;::from_payload </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classdetray_1_1detector__builder.html">detector_builder</a>&lt; typename detector_t::metadata, <a class="el" href="classdetray_1_1volume__builder.html">volume_builder</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+          <td class="paramtype"><a class="el" href="classdetray_1_1detector__builder.html">detector_builder</a>&lt; typename detector_t::metadata, <a class="el" href="classdetray_1_1volume__builder.html">volume_builder</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>det_builder</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="structdetray_1_1io_1_1detector__payload.html">detector_payload</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>payload</em></span>&#160;) const</td>
         </tr>
       </table>
   </td>
@@ -240,9 +186,45 @@ template&lt;class detector_t&gt; </div>
 </div><div class="memdoc">
 
 <p>Reads the respective detector component from file. </p>
-<p>Since the detector does not keep the volume names, the name map is also passed and filled. </p>
+<p>Since the detector does not keep the volume names, the name map is also passed and filled. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">det_builder</td><td>the detector builder that accumulates the data </td></tr>
+    <tr><td class="paramname">payload</td><td>the input detector payload </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p>Implemented in <a class="el" href="classdetray_1_1io_1_1json__converter_3_01detector__t_00_01backend__t_01_4.html#abfd4efc1c6088900651245ff69249a36">detray::io::json_converter&lt; detector_t, backend_t &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classdetray_1_1io_1_1geometry__reader.html#aaa642700b8b4e60d86c114f6356341b2">detray::io::geometry_reader&lt; detector_t &gt;</a>, <a class="el" href="classdetray_1_1io_1_1homogeneous__material__reader.html#a603bea8937da6626e9df1632ed5a5bf1">detray::io::homogeneous_material_reader&lt; detector_t &gt;</a>, and <a class="el" href="classdetray_1_1io_1_1material__map__reader.html#a16e6f6c64c43d8e291b5523baac022c6">detray::io::material_map_reader&lt; detector_t, DIM &gt;</a>.</p>
+
+</div>
+</div>
+<a id="acf72275e16d6dd5f3a38e0c2ac61cbff" name="acf72275e16d6dd5f3a38e0c2ac61cbff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf72275e16d6dd5f3a38e0c2ac61cbff">&#9670;&#160;</a></span>tag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="conceptdetray_1_1concepts_1_1detector.html">detray::concepts::detector</a> detector_t&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::string_view <a class="el" href="classdetray_1_1io_1_1reader__interface.html">detray::io::reader_interface</a>&lt; detector_t &gt;::tag </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>the string tag that describes the type of reader, which is also present in data file headers to match the IO data </dd></dl>
+
+<p>Implemented in <a class="el" href="classdetray_1_1io_1_1geometry__reader.html#ab3616663cfd969887cad94d0c9fb1d38">detray::io::geometry_reader&lt; detector_t &gt;</a>, <a class="el" href="classdetray_1_1io_1_1homogeneous__material__reader.html#acded839f7d00fd08512424d8f743abdd">detray::io::homogeneous_material_reader&lt; detector_t &gt;</a>, and <a class="el" href="classdetray_1_1io_1_1material__map__reader.html#a82b311d3ee88d11f6cc48c356490835f">detray::io::material_map_reader&lt; detector_t, DIM &gt;</a>.</p>
 
 </div>
 </div>

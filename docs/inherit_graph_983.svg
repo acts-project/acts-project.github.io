@@ -11,10 +11,10 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="structdetray_1_1navigation_1_1config.html" target="_top" xlink:title="Navigation configuration.">
+<g id="a_Node000000"><a xlink:href="structdetray_1_1navigation_1_1print__inspector.html" target="_top" xlink:title="A navigation inspector that prints information about the current navigation state.">
 <polygon fill="white" stroke="#666666" points="104.5,-33.5 0,-33.5 0,0 104.5,0 104.5,-33.5"/>
 <text xml:space="preserve" text-anchor="start" x="8" y="-20" font-family="Helvetica,sans-Serif" font-size="10.00">detray::navigation</text>
-<text xml:space="preserve" text-anchor="middle" x="52.25" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">::config</text>
+<text xml:space="preserve" text-anchor="middle" x="52.25" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">::print_inspector</text>
 </a>
 </g>
 </g>

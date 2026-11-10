@@ -1,7 +1,18 @@
 <map id="detray::io::detector_payload" name="detray::io::detector_payload">
-<area shape="rect" id="Node000001" title="A payload for a detector geometry." alt="" coords="19,246,164,291"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,128,178,173"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,187,94,246,89,245,89,191"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="27,5,156,33"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="93,46,94,128,89,128,90,51"/>
+<area shape="rect" id="Node000001" title="Detector intermediate data representation." alt="" coords="90,502,235,547"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1io_1_1header__payload.html" title="a payload for common and extra information in file IO" alt="" coords="95,385,230,429"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,443,165,503,160,501,161,447"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1io_1_1common__header__payload.html" title="a payload for common information in file IO" alt="" coords="73,267,220,312"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="153,325,162,385,157,384,150,329"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="31,99,118,127"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="63,144,53,185,41,240,37,300,39,330,44,360,62,402,87,441,115,474,141,502,136,502,111,478,83,444,57,405,39,361,33,331,31,300,36,239,48,184,65,139"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="86,139,140,266,135,267,85,144"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,5,144,50"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="75,63,77,99,72,99,74,68"/>
+<area shape="rect" id="Node000006" href="$structdetray_1_1io_1_1detector__geometry__payload.html" title="A payload for a detector geometry." alt="" coords="254,385,404,429"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="288,438,195,504,192,499,283,439"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="244,267,417,312"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="332,325,332,385,327,383,328,330"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="266,99,395,127"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="332,140,333,268,328,266,329,145"/>
 </map>

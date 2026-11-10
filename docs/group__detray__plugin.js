@@ -6,8 +6,6 @@ var group__detray__plugin =
     ] ],
     [ "ActsPlugins::DetrayGeometryConverter", "class_acts_plugins_1_1_detray_geometry_converter.html", [
       [ "Config", "struct_acts_plugins_1_1_detray_geometry_converter_1_1_config.html", [
-        [ "convertMaterial", "struct_acts_plugins_1_1_detray_geometry_converter_1_1_config.html#aece7de232b048e9e0145134293677e8f", null ],
-        [ "convertSurfaceGrids", "struct_acts_plugins_1_1_detray_geometry_converter_1_1_config.html#a421975324847fa54c6d8cf3beb567967", null ],
         [ "deduplicateMaterial", "struct_acts_plugins_1_1_detray_geometry_converter_1_1_config.html#ad5f7b0a4dc6903d5535c59444d3487c7", null ],
         [ "payloadConverter", "struct_acts_plugins_1_1_detray_geometry_converter_1_1_config.html#a0596e737f7af62f3cef9e1445122a701", null ]
       ] ],
@@ -17,7 +15,7 @@ var group__detray__plugin =
         [ "surfaceIds", "struct_acts_plugins_1_1_detray_geometry_converter_1_1_detray_geometry.html#a893ef698eabdf002512ac40040b510b4", null ]
       ] ],
       [ "DetrayGeometryConverter", "class_acts_plugins_1_1_detray_geometry_converter.html#a8b4630ea81ac8aad5db94ecdc6413315", null ],
-      [ "convert", "class_acts_plugins_1_1_detray_geometry_converter.html#aef1caba916d4984ff8bb055a421d14e6", null ]
+      [ "convert", "class_acts_plugins_1_1_detray_geometry_converter.html#a8054438d49551acfa8b1484fb172eaf0", null ]
     ] ],
     [ "ActsPlugins::DetrayPayloadConverter", "class_acts_plugins_1_1_detray_payload_converter.html", [
       [ "Config", "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html", [
@@ -30,19 +28,15 @@ var group__detray__plugin =
         [ "operator=", "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#a7deec81bea4311b997e64f208a04d0a2", null ],
         [ "operator=", "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#abf9dcc84aef1f49626e2c9e64078ac68", null ],
         [ "beampipeVolume", "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#a70906ac1e034fdbdbf105daa346f66d4", null ],
+        [ "convertMaterial", "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#af6671700f5f999e6e38b55874ffd0f81", null ],
         [ "convertNavigationPolicy", "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#a44ebb5eed7bc8a0e3e99f492231319fe", null ],
+        [ "convertSurfaceGrids", "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#aa233f2c67e8c5d3d7f4ee461a82b5916", null ],
         [ "convertSurfaceMaterial", "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#adbfa19d516a1bc916d8169d1726ec89e", null ],
+        [ "detectorName", "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#a3a980346b6adb601bacaf15b8224c512", null ],
         [ "includeWorld", "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#adc36fa68f369600e63e1fbd46e9cce7c", null ],
         [ "portalSegmentTolerance", "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#a1cd3fd98b29a7271dfb0f78eabd3986f", null ],
         [ "replacementWorld", "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#adabd4c6ae5a37289210b34f7dc536465", null ],
         [ "sensitiveStrategy", "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#a6366ebf9a368e06a89e88cbe243a6362", null ]
-      ] ],
-      [ "Payloads", "struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html", [
-        [ "detector", "struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html#a90b02fc06a2d2bc766c22c6912c3d30e", null ],
-        [ "homogeneousMaterial", "struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html#af9d1ecb7bf107b095ee157a31e49a65e", null ],
-        [ "materialGrids", "struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html#a755635698f150e7c303db79024b8e6ba", null ],
-        [ "names", "struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html#a9239d19fa3c531e8c8602514967e1224", null ],
-        [ "surfaceGrids", "struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html#a76f6bb4069cf112277624229e021a036", null ]
       ] ],
       [ "DetraySurfaceGrid", "class_acts_plugins_1_1_detray_payload_converter.html#ad2012c6f039307d9851ae990f0c1e9df", null ],
       [ "DetraySurfaceMaterial", "class_acts_plugins_1_1_detray_payload_converter.html#ade59a6025a491ac191e1cc493bc968f9", null ],
@@ -59,7 +53,7 @@ var group__detray__plugin =
       [ "convertProtoSurfaceMaterialBinUtility", "class_acts_plugins_1_1_detray_payload_converter.html#adcaa739825f529ad15590157c9a57e36", null ],
       [ "convertSurface", "class_acts_plugins_1_1_detray_payload_converter.html#a2b921159db15734d73e130c6ae5aa83e", null ],
       [ "convertSurfaceArray", "class_acts_plugins_1_1_detray_payload_converter.html#a99edaf8b41837ffa6d14c0c9b78e5fb9", null ],
-      [ "convertTrackingGeometry", "class_acts_plugins_1_1_detray_payload_converter.html#a57fe0c842aba6279bb9afd03cf183c83", null ],
+      [ "convertTrackingGeometry", "class_acts_plugins_1_1_detray_payload_converter.html#aacf5bb08ce9d2dc5b191ed4e52b32850", null ],
       [ "convertTryAllNavigationPolicy", "class_acts_plugins_1_1_detray_payload_converter.html#aa2276135102d853be4d6283722ca633f", null ],
       [ "convertVolume", "class_acts_plugins_1_1_detray_payload_converter.html#ace1bce4d0eacd16932573ab712a9860b", null ]
     ] ],

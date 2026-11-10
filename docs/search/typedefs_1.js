@@ -13,7 +13,7 @@ var searchData=
   ['bin2d_10',['Bin2D',['../struct_acts_fatras_1_1_segmentizer.html#a6adde1744912b310710f0fbd60cc3780',1,'ActsFatras::Segmentizer']]],
   ['bin_5fcontainer_5ftype_11',['bin_container_type',['../classdetray_1_1grid__impl.html#a618db547a4db77502bd5cd89a0dc6cc0',1,'detray::grid_impl::bin_container_type'],['../classdetray_1_1grid__collection_3_01detray_1_1grid__impl_3_01axes__t_00_01bin__t_00_01serializer__t_01_4_01_4.html#a53afe9f3069bcd8fc55e96c686371fff',1,'detray::grid_collection&lt; detray::grid_impl&lt; axes_t, bin_t, serializer_t &gt; &gt;::bin_container_type']]],
   ['bin_5fdata_5ftype_12',['bin_data_type',['../structdetray_1_1fill__by__bin.html#a3b3bb43d01c824e03e817b510040492e',1,'detray::fill_by_bin::bin_data_type'],['../classdetray_1_1material__map__builder.html#a1de00138d233080fee5ab95a3e892337',1,'detray::material_map_builder::bin_data_type']]],
-  ['bin_5findex_5ftype_13',['bin_index_type',['../classdetray_1_1io_1_1material__map__reader.html#ae6426571e24baa354a56ca4adf5e7602',1,'detray::io::material_map_reader']]],
+  ['bin_5findex_5ftype_13',['bin_index_type',['../classdetray_1_1io_1_1material__map__reader.html#a7683239ffb844d879aa88387c7b110cf',1,'detray::io::material_map_reader']]],
   ['bin_5fstorage_14',['bin_storage',['../classdetray_1_1grid__impl.html#ac0ab84fc8efe265e6dc241bb0fa103fa',1,'detray::grid_impl']]],
   ['bin_5ftype_15',['bin_type',['../classdetray_1_1grid__factory.html#a93209d6e5d9e85d403ccbf5bb02c7bd4',1,'detray::grid_factory::bin_type'],['../classdetray_1_1grid__impl.html#aecbc0201db9656bc216c3c0d7f28d037',1,'detray::grid_impl::bin_type']]],
   ['bindelta2d_16',['BinDelta2D',['../struct_acts_fatras_1_1_segmentizer.html#ac16b531670f11f8e51ae0d12ee608345',1,'ActsFatras::Segmentizer']]],

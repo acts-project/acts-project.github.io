@@ -1,7 +1,6 @@
 var class_acts_plugins_1_1_detray_payload_converter =
 [
     [ "Config", "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html", "struct_acts_plugins_1_1_detray_payload_converter_1_1_config" ],
-    [ "Payloads", "struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html", "struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads" ],
     [ "DetraySurfaceGrid", "class_acts_plugins_1_1_detray_payload_converter.html#ad2012c6f039307d9851ae990f0c1e9df", null ],
     [ "DetraySurfaceMaterial", "class_acts_plugins_1_1_detray_payload_converter.html#ade59a6025a491ac191e1cc493bc968f9", null ],
     [ "SurfaceLookupFunction", "class_acts_plugins_1_1_detray_payload_converter.html#a2840e76e22a9a76d7d8150cd321f0368", null ],
@@ -17,7 +16,7 @@ var class_acts_plugins_1_1_detray_payload_converter =
     [ "convertProtoSurfaceMaterialBinUtility", "class_acts_plugins_1_1_detray_payload_converter.html#adcaa739825f529ad15590157c9a57e36", null ],
     [ "convertSurface", "class_acts_plugins_1_1_detray_payload_converter.html#a2b921159db15734d73e130c6ae5aa83e", null ],
     [ "convertSurfaceArray", "class_acts_plugins_1_1_detray_payload_converter.html#a99edaf8b41837ffa6d14c0c9b78e5fb9", null ],
-    [ "convertTrackingGeometry", "class_acts_plugins_1_1_detray_payload_converter.html#a57fe0c842aba6279bb9afd03cf183c83", null ],
+    [ "convertTrackingGeometry", "class_acts_plugins_1_1_detray_payload_converter.html#aacf5bb08ce9d2dc5b191ed4e52b32850", null ],
     [ "convertTryAllNavigationPolicy", "class_acts_plugins_1_1_detray_payload_converter.html#aa2276135102d853be4d6283722ca633f", null ],
     [ "convertVolume", "class_acts_plugins_1_1_detray_payload_converter.html#ace1bce4d0eacd16932573ab712a9860b", null ]
 ];

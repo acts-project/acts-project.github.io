@@ -1,0 +1,5 @@
+<map id="detray::io::material_map_reader&lt; detector_t, DIM &gt;" name="detray::io::material_map_reader&lt; detector_t, DIM &gt;">
+<area shape="rect" id="Node000001" title="Material map reader backend." alt="" coords="9,98,184,160"/>
+<area shape="rect" id="Node000002" href="$classdetray_1_1io_1_1reader__interface.html" title="Abstract base class for detray detector component readers." alt="" coords="5,5,188,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,63,99,98,94,97,95,68"/>
+</map>

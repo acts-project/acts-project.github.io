@@ -135,8 +135,6 @@ $(function(){initNavTree('class_acts_plugins_1_1_detray_payload_converter.html',
 Classes</h2></td></tr>
 <tr class="memitem:Config" id="r_Config"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html">Config</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration for the Detray payload converter.  <a href="struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#details">More...</a><br /></td></tr>
-<tr class="memitem:Payloads" id="r_Payloads"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html">Payloads</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Container for all Detray payload outputs.  <a href="struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -155,8 +153,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a4f0a6766e441baba98eff6427d7424bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert material.  <br /></td></tr>
 <tr class="memitem:a2b921159db15734d73e130c6ae5aa83e" id="r_a2b921159db15734d73e130c6ae5aa83e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdetray_1_1io_1_1surface__payload.html">detray::io::surface_payload</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b921159db15734d73e130c6ae5aa83e">convertSurface</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_surface.html">Acts::Surface</a> &amp;surface, bool portal=false) const</td></tr>
 <tr class="memdesc:a2b921159db15734d73e130c6ae5aa83e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert surface.  <br /></td></tr>
-<tr class="memitem:a57fe0c842aba6279bb9afd03cf183c83" id="r_a57fe0c842aba6279bb9afd03cf183c83"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html">Payloads</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57fe0c842aba6279bb9afd03cf183c83">convertTrackingGeometry</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_tracking_geometry.html">Acts::TrackingGeometry</a> &amp;geometry) const</td></tr>
-<tr class="memdesc:a57fe0c842aba6279bb9afd03cf183c83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert tracking geometry.  <br /></td></tr>
+<tr class="memitem:aacf5bb08ce9d2dc5b191ed4e52b32850" id="r_aacf5bb08ce9d2dc5b191ed4e52b32850"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdetray_1_1io_1_1detector__payload.html">detray::io::detector_payload</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aacf5bb08ce9d2dc5b191ed4e52b32850">convertTrackingGeometry</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_tracking_geometry.html">Acts::TrackingGeometry</a> &amp;geometry) const</td></tr>
+<tr class="memdesc:aacf5bb08ce9d2dc5b191ed4e52b32850"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert tracking geometry.  <br /></td></tr>
 <tr class="memitem:ace1bce4d0eacd16932573ab712a9860b" id="r_ace1bce4d0eacd16932573ab712a9860b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdetray_1_1io_1_1volume__payload.html">detray::io::volume_payload</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace1bce4d0eacd16932573ab712a9860b">convertVolume</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_tracking_volume.html">Acts::TrackingVolume</a> &amp;volume) const</td></tr>
 <tr class="memdesc:ace1bce4d0eacd16932573ab712a9860b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert volume.  <br /></td></tr>
 </table><table class="memberdecls">
@@ -199,7 +197,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">      <a class="code hl_struct" href="structdetray_1_1io_1_1grid__payload.html">detray::io::grid_payload&lt;std::size_t, detray::io::accel_id&gt;</a></div>
-<div class="ttc" id="astructdetray_1_1io_1_1grid__payload_html"><div class="ttname"><a href="structdetray_1_1io_1_1grid__payload.html">detray::io::grid_payload</a></div><div class="ttdoc">A payload for a grid definition.</div><div class="ttdef"><b>Definition</b> payloads.hpp:324</div></div>
+<div class="ttc" id="astructdetray_1_1io_1_1grid__payload_html"><div class="ttname"><a href="structdetray_1_1io_1_1grid__payload.html">detray::io::grid_payload</a></div><div class="ttdoc">A payload for a grid definition.</div><div class="ttdef"><b>Definition</b> payloads.hpp:294</div></div>
 </div><!-- fragment -->
 <p>Detray surface grid payload type. </p>
 
@@ -221,7 +219,7 @@ Static Public Member Functions</h2></td></tr>
 <div class="line">                               <a class="code hl_enumeration" href="namespacedetray_1_1io.html#aacae05165d36b2e2c6bed47d42d434c2">detray::io::material_id</a>&gt;,</div>
 <div class="line">      <a class="code hl_struct" href="structdetray_1_1io_1_1surface__material__payload.html">detray::io::surface_material_payload</a>&gt;</div>
 <div class="ttc" id="anamespacedetray_1_1io_html_aacae05165d36b2e2c6bed47d42d434c2"><div class="ttname"><a href="namespacedetray_1_1io.html#aacae05165d36b2e2c6bed47d42d434c2">detray::io::material_id</a></div><div class="ttdeci">material_id</div><div class="ttdoc">Enumerate the different material types.</div><div class="ttdef"><b>Definition</b> definitions.hpp:59</div></div>
-<div class="ttc" id="astructdetray_1_1io_1_1surface__material__payload_html"><div class="ttname"><a href="structdetray_1_1io_1_1surface__material__payload.html">detray::io::surface_material_payload</a></div><div class="ttdoc">A payload object for a material slab/rod.</div><div class="ttdef"><b>Definition</b> payloads.hpp:223</div></div>
+<div class="ttc" id="astructdetray_1_1io_1_1surface__material__payload_html"><div class="ttname"><a href="structdetray_1_1io_1_1surface__material__payload.html">detray::io::surface_material_payload</a></div><div class="ttdoc">A payload object for a material slab/rod.</div><div class="ttdef"><b>Definition</b> payloads.hpp:196</div></div>
 </div><!-- fragment -->
 <p>Detray surface material payload type. </p>
 
@@ -760,14 +758,14 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a57fe0c842aba6279bb9afd03cf183c83" name="a57fe0c842aba6279bb9afd03cf183c83"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a57fe0c842aba6279bb9afd03cf183c83">&#9670;&#160;</a></span>convertTrackingGeometry()</h2>
+<a id="aacf5bb08ce9d2dc5b191ed4e52b32850" name="aacf5bb08ce9d2dc5b191ed4e52b32850"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacf5bb08ce9d2dc5b191ed4e52b32850">&#9670;&#160;</a></span>convertTrackingGeometry()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html">Payloads</a> ActsPlugins::DetrayPayloadConverter::convertTrackingGeometry </td>
+          <td class="memname"><a class="el" href="structdetray_1_1io_1_1detector__payload.html">detray::io::detector_payload</a> ActsPlugins::DetrayPayloadConverter::convertTrackingGeometry </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
         </tr>

@@ -1,0 +1,5 @@
+<map id="detray::io::tagged_header_payload" name="detray::io::tagged_header_payload">
+<area shape="rect" id="Node000001" title="a payload for common information and a content tag" alt="" coords="11,98,147,143"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1io_1_1common__header__payload.html" title="a payload for common information in file IO" alt="" coords="5,5,153,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="81,64,82,99,76,97,77,68"/>
+</map>

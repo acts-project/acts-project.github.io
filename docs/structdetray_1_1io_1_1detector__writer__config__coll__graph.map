@@ -1,7 +1,7 @@
 <map id="detray::io::detector_writer_config" name="detray::io::detector_writer_config">
-<area shape="rect" id="Node000001" title="config struct for detector writing." alt="" coords="5,200,150,245"/>
+<area shape="rect" id="Node000001" title="config struct for detector writing." alt="" coords="5,222,150,267"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="34,99,121,127"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,141,80,200,75,199,75,144"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,141,80,223,75,222,75,144"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="8,5,147,50"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="78,63,80,99,75,98,77,68"/>
 </map>

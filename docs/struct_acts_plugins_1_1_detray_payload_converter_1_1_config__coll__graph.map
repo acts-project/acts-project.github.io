@@ -1,18 +1,22 @@
 <map id="ActsPlugins::DetrayPayloadConverter::Config" name="ActsPlugins::DetrayPayloadConverter::Config">
-<area shape="rect" id="Node000001" title="Configuration for the Detray payload converter." alt="" coords="1638,149,1837,194"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_tracking_volume.html" title="Full Volume description used in Tracking, it inherits from Volume to get the geometrical structure." alt="" coords="1179,32,1340,60"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1336,62,1424,84,1657,149,1652,149,1422,89,1336,67"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_volume.html" title="It inherits from GeometryObject for geometry identification." alt="" coords="585,16,691,44"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="706,29,1181,43,1177,45,707,35"/>
-<area shape="rect" id="Node000004" href="$class_acts_1_1_geometry_object.html" title="Base class to provide GeometryIdentifier interface:" alt="" coords="337,16,501,44"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="516,28,587,30,582,31,517,33"/>
-<area shape="rect" id="Node000005" href="$class_acts_1_1_geometry_identifier.html" title="Identifier for geometry nodes within the geometry hierarchy." alt="" coords="5,16,186,44"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="201,28,338,29,334,32,202,33"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="1096,98,1423,245"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="1438,169,1640,171,1635,172,1438,174"/>
-<area shape="rect" id="Node000007" href="$class_acts_1_1_type_dispatcher.html" title="Template class for type&#45;based function dispatch." alt="" coords="550,236,726,281"/>
-<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="740,237,749,236,840,225,910,219,981,213,1071,203,1092,202,1098,201,1072,208,982,219,911,224,840,230,750,241,741,242"/>
-<area shape="rect" id="Node000008" title=" " alt="" coords="1125,270,1394,348"/>
-<area shape="poly" id="edge8_Node000008_Node000007" title=" " alt="" coords="693,285,750,305,847,320,945,326,1040,326,1122,324,1127,324,1040,331,945,332,846,326,749,311,692,290"/>
-<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="1408,264,1654,195,1659,194,1409,269"/>
+<area shape="rect" id="Node000001" title="Configuration for the Detray payload converter." alt="" coords="1638,139,1837,184"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="1216,17,1302,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1317,24,1380,24,1456,28,1537,40,1615,63,1645,79,1673,98,1718,140,1713,138,1670,102,1642,83,1613,68,1536,45,1455,33,1380,29,1318,30"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="569,6,707,51"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="722,26,1218,30,1213,32,723,31"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_tracking_volume.html" title="Full Volume description used in Tracking, it inherits from Volume to get the geometrical structure." alt="" coords="1179,72,1340,100"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="1355,98,1640,146,1635,146,1355,103"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_volume.html" title="It inherits from GeometryObject for geometry identification." alt="" coords="585,75,691,102"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="706,85,1181,85,1177,87,707,91"/>
+<area shape="rect" id="Node000006" href="$class_acts_1_1_geometry_object.html" title="Base class to provide GeometryIdentifier interface:" alt="" coords="337,75,501,102"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="516,86,587,88,582,89,517,91"/>
+<area shape="rect" id="Node000007" href="$class_acts_1_1_geometry_identifier.html" title="Identifier for geometry nodes within the geometry hierarchy." alt="" coords="5,75,186,102"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="201,86,338,87,334,90,202,91"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="1096,128,1423,275"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="1439,190,1614,176,1640,176,1635,176,1614,181,1439,195"/>
+<area shape="rect" id="Node000009" href="$class_acts_1_1_type_dispatcher.html" title="Template class for type&#45;based function dispatch." alt="" coords="550,281,726,325"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="741,282,749,280,840,271,911,268,981,263,1071,250,1093,248,1098,248,1072,255,982,268,911,273,840,276,750,286,741,287"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="1125,309,1394,388"/>
+<area shape="poly" id="edge10_Node000010_Node000009" title=" " alt="" coords="693,330,750,350,847,365,945,370,1040,368,1122,365,1127,365,1040,374,945,375,846,370,749,355,692,335"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="1398,301,1504,263,1613,220,1691,185,1696,184,1615,225,1506,268,1399,306"/>
 </map>

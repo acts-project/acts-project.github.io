@@ -154,86 +154,84 @@ $(function(){initNavTree('material__map__writer_8hpp_source.html','',''); });
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span></div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>  <span class="keyword">using </span>base_type::base_type;</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span></div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>  <span class="keyword">template</span> &lt;<span class="keyword">class</span> detector_t&gt;</div>
-<div class="foldopen" id="foldopen00048" data-start="{" data-end="}">
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="classdetray_1_1io_1_1material__map__writer.html#a38c73cee94f4cd03b7f0ab4f61d9502a">   48</a></span>  <span class="keyword">static</span> <span class="keyword">auto</span> <a class="code hl_function" href="classdetray_1_1io_1_1material__map__writer.html#a38c73cee94f4cd03b7f0ab4f61d9502a">header_to_payload</a>(<span class="keyword">const</span> detector_t&amp; det,</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>                                <span class="keyword">const</span> std::string_view det_name) {</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="keywordflow">return</span> grid_writer_t::header_to_payload(<a class="code hl_variable" href="classdetray_1_1io_1_1material__map__writer.html#a163d31f17a1ffc9ac3e3829b972baeb2">tag</a>, det.material_store(),</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>                                            det_name);</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>  }</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>  <span class="keyword">template</span> &lt;<span class="keyword">class</span> detector_t&gt;</div>
+<div class="foldopen" id="foldopen00047" data-start="{" data-end="}">
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="classdetray_1_1io_1_1material__map__writer.html#aff16c8eda8e157ebfd0ccbcb0257f862">   47</a></span>  <span class="keyword">static</span> <span class="keyword">auto</span> <a class="code hl_function" href="classdetray_1_1io_1_1material__map__writer.html#aff16c8eda8e157ebfd0ccbcb0257f862">to_header_payload</a>(<span class="keyword">const</span> detector_t&amp; det) {</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keywordflow">return</span> grid_writer_t::to_header_payload(det.material_store());</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>  }</div>
 </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span></div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>  <span class="keyword">template</span> &lt;<span class="keyword">class</span> detector_t&gt;</div>
-<div class="foldopen" id="foldopen00060" data-start="{" data-end="}">
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="classdetray_1_1io_1_1material__map__writer.html#ada357fb7f9336373815f5e57e9a0576f">   60</a></span>  <span class="keyword">static</span> <a class="code hl_typedef" href="classdetray_1_1io_1_1material__map__writer.html#a64a644713c99d14af475b3917d26da2b">payload_type</a> <a class="code hl_function" href="classdetray_1_1io_1_1material__map__writer.html#ada357fb7f9336373815f5e57e9a0576f">to_payload</a>(</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>      <span class="keyword">const</span> detector_t&amp; det, <span class="keyword">const</span> <span class="keyword">typename</span> detector_t::name_map&amp; <span class="comment">/*unused*/</span>) {</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keyword">using </span>algebra_t = <span class="keyword">typename</span> detector_t::algebra_type;</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <span class="keyword">using </span>material_t = <a class="code hl_struct" href="structdetray_1_1material__slab.html">material_slab&lt;typename detector_t::scalar_type&gt;</a>;</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <a class="code hl_typedef" href="classdetray_1_1io_1_1material__map__writer.html#a64a644713c99d14af475b3917d26da2b">payload_type</a> grids_data;</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; vol_desc : det.volumes()) {</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>      <span class="comment">// Volume local surface indices</span></div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>      <a class="code hl_typedef" href="namespacedetray.html#a3622614888b24c246e000c62d1833da4">dindex</a> offset{<a class="code hl_variable" href="namespacedetray.html#a4acd0b976198d508f4a3c4e9aa6e7c92">dindex_invalid</a>};</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span></div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>      <span class="keyword">auto</span> vol = <a class="code hl_class" href="classdetray_1_1tracking__volume.html">tracking_volume</a>{det, vol_desc};</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; sf_desc : vol.surfaces()) {</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>        <span class="keywordflow">if</span> (sf_desc.index() &lt; offset) {</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>          offset = sf_desc.index();</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>        }</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>        <span class="keyword">const</span> <span class="keyword">auto</span>&amp; mat_link = sf_desc.material();</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>        <span class="comment">// Don&#39;t look at empty links</span></div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>        <span class="keywordflow">if</span> (mat_link.is_invalid() ||</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>            mat_link.id() == detector_t::material::id::e_none) {</div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>          <span class="keywordflow">continue</span>;</div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>        }</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>        <span class="comment">// Do not attempt to convert homogeneous material</span></div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>        <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (<a class="code hl_concept" href="conceptdetray_1_1concepts_1_1has__material__slabs.html">detray::concepts::has_material_slabs&lt;detector_t&gt;</a>) {</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>          <span class="keywordflow">if</span> (mat_link.id() == detector_t::material::id::e_material_slab) {</div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>            <span class="keywordflow">continue</span>;</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>          }</div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>        }</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>        <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (<a class="code hl_concept" href="conceptdetray_1_1concepts_1_1has__material__rods.html">detray::concepts::has_material_rods&lt;detector_t&gt;</a>) {</div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>          <span class="keywordflow">if</span> (mat_link.id() == detector_t::material::id::e_material_rod) {</div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>            <span class="keywordflow">continue</span>;</div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>          }</div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>        }</div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>        <span class="comment">// How to convert a material slab in the grid</span></div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>        <span class="keyword">auto</span> mat_converter = [&amp;sf_desc](<span class="keyword">const</span> material_t&amp; mat) {</div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>          <span class="keywordflow">return</span> <a class="code hl_function" href="classdetray_1_1io_1_1homogeneous__material__writer.html#a5730eaf4712f0d9a14bef08d6a17a8e7">mat_writer_t::to_payload&lt;algebra_t&gt;</a>(mat, sf_desc.index());</div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>        };</div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>        <span class="comment">// Generate the payload</span></div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>        grid_writer_t::to_payload(det.material_store(), mat_link,</div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>                                  vol_desc.index(), sf_desc.index() - offset,</div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>                                  grids_data, mat_converter);</div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>      }</div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    }</div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span> </div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    <span class="keywordflow">return</span> grids_data;</div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>  }</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>  <span class="keyword">template</span> &lt;<span class="keyword">class</span> detector_t&gt;</div>
+<div class="foldopen" id="foldopen00057" data-start="{" data-end="}">
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="classdetray_1_1io_1_1material__map__writer.html#ada357fb7f9336373815f5e57e9a0576f">   57</a></span>  <span class="keyword">static</span> <a class="code hl_typedef" href="classdetray_1_1io_1_1material__map__writer.html#a64a644713c99d14af475b3917d26da2b">payload_type</a> <a class="code hl_function" href="classdetray_1_1io_1_1material__map__writer.html#ada357fb7f9336373815f5e57e9a0576f">to_payload</a>(</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>      <span class="keyword">const</span> detector_t&amp; det, <span class="keyword">const</span> <span class="keyword">typename</span> detector_t::name_map&amp; <span class="comment">/*unused*/</span>) {</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <span class="keyword">using </span>algebra_t = <span class="keyword">typename</span> detector_t::algebra_type;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="keyword">using </span>material_t = <a class="code hl_struct" href="structdetray_1_1material__slab.html">material_slab&lt;typename detector_t::scalar_type&gt;</a>;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <a class="code hl_typedef" href="classdetray_1_1io_1_1material__map__writer.html#a64a644713c99d14af475b3917d26da2b">payload_type</a> grids_data;</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; vol_desc : det.volumes()) {</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>      <span class="comment">// Volume local surface indices</span></div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>      <a class="code hl_typedef" href="namespacedetray.html#a3622614888b24c246e000c62d1833da4">dindex</a> offset{<a class="code hl_variable" href="namespacedetray.html#a4acd0b976198d508f4a3c4e9aa6e7c92">dindex_invalid</a>};</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span></div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>      <span class="keyword">auto</span> vol = <a class="code hl_class" href="classdetray_1_1tracking__volume.html">tracking_volume</a>{det, vol_desc};</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; sf_desc : vol.surfaces()) {</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>        <span class="keywordflow">if</span> (sf_desc.index() &lt; offset) {</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>          offset = sf_desc.index();</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>        }</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>        <span class="keyword">const</span> <span class="keyword">auto</span>&amp; mat_link = sf_desc.material();</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>        <span class="comment">// Don&#39;t look at empty links</span></div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>        <span class="keywordflow">if</span> (mat_link.is_invalid() ||</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>            mat_link.id() == detector_t::material::id::e_none) {</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>          <span class="keywordflow">continue</span>;</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>        }</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>        <span class="comment">// Do not attempt to convert homogeneous material</span></div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>        <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (<a class="code hl_concept" href="conceptdetray_1_1concepts_1_1has__material__slabs.html">detray::concepts::has_material_slabs&lt;detector_t&gt;</a>) {</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>          <span class="keywordflow">if</span> (mat_link.id() == detector_t::material::id::e_material_slab) {</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>          }</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>        }</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>        <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (<a class="code hl_concept" href="conceptdetray_1_1concepts_1_1has__material__rods.html">detray::concepts::has_material_rods&lt;detector_t&gt;</a>) {</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>          <span class="keywordflow">if</span> (mat_link.id() == detector_t::material::id::e_material_rod) {</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>          }</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>        }</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>        <span class="comment">// How to convert a material slab in the grid</span></div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>        <span class="keyword">auto</span> mat_converter = [&amp;sf_desc](<span class="keyword">const</span> material_t&amp; mat) {</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>          <span class="keywordflow">return</span> <a class="code hl_function" href="classdetray_1_1io_1_1homogeneous__material__writer.html#a5730eaf4712f0d9a14bef08d6a17a8e7">mat_writer_t::to_payload&lt;algebra_t&gt;</a>(mat, sf_desc.index());</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>        };</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>        <span class="comment">// Generate the payload</span></div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>        grid_writer_t::to_payload(det.material_store(), mat_link,</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>                                  vol_desc.index(), sf_desc.index() - offset,</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>                                  grids_data, mat_converter);</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>      }</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    }</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span> </div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    <span class="keywordflow">return</span> grids_data;</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>  }</div>
 </div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>};</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>};</div>
 </div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span> </div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>}  <span class="comment">// namespace detray::io</span></div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span> </div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>}  <span class="comment">// namespace detray::io</span></div>
 <div class="ttc" id="aclassdetray_1_1io_1_1homogeneous__material__writer_html"><div class="ttname"><a href="classdetray_1_1io_1_1homogeneous__material__writer.html">detray::io::homogeneous_material_writer</a></div><div class="ttdoc">Homogeneous material writer backend.</div><div class="ttdef"><b>Definition</b> homogeneous_material_writer.hpp:32</div></div>
-<div class="ttc" id="aclassdetray_1_1io_1_1homogeneous__material__writer_html_a5730eaf4712f0d9a14bef08d6a17a8e7"><div class="ttname"><a href="classdetray_1_1io_1_1homogeneous__material__writer.html#a5730eaf4712f0d9a14bef08d6a17a8e7">detray::io::homogeneous_material_writer::to_payload</a></div><div class="ttdeci">static payload_type to_payload(const detector_t &amp;det, const typename detector_t::name_map &amp;)</div><div class="ttdoc">Convert the material description of a detector det into its io payload.</div><div class="ttdef"><b>Definition</b> homogeneous_material_writer.hpp:100</div></div>
+<div class="ttc" id="aclassdetray_1_1io_1_1homogeneous__material__writer_html_a5730eaf4712f0d9a14bef08d6a17a8e7"><div class="ttname"><a href="classdetray_1_1io_1_1homogeneous__material__writer.html#a5730eaf4712f0d9a14bef08d6a17a8e7">detray::io::homogeneous_material_writer::to_payload</a></div><div class="ttdeci">static payload_type to_payload(const detector_t &amp;det, const typename detector_t::name_map &amp;)</div><div class="ttdoc">Convert the material description of a detector det into its io payload.</div><div class="ttdef"><b>Definition</b> homogeneous_material_writer.hpp:95</div></div>
 <div class="ttc" id="aclassdetray_1_1io_1_1material__map__writer_html"><div class="ttname"><a href="classdetray_1_1io_1_1material__map__writer.html">detray::io::material_map_writer</a></div><div class="ttdoc">Material maps writer backend.</div><div class="ttdef"><b>Definition</b> material_map_writer.hpp:26</div></div>
 <div class="ttc" id="aclassdetray_1_1io_1_1material__map__writer_html_a163d31f17a1ffc9ac3e3829b972baeb2"><div class="ttname"><a href="classdetray_1_1io_1_1material__map__writer.html#a163d31f17a1ffc9ac3e3829b972baeb2">detray::io::material_map_writer::tag</a></div><div class="ttdeci">static constexpr std::string_view tag</div><div class="ttdoc">Tag the writer as &quot;material_map&quot;.</div><div class="ttdef"><b>Definition</b> material_map_writer.hpp:33</div></div>
-<div class="ttc" id="aclassdetray_1_1io_1_1material__map__writer_html_a38c73cee94f4cd03b7f0ab4f61d9502a"><div class="ttname"><a href="classdetray_1_1io_1_1material__map__writer.html#a38c73cee94f4cd03b7f0ab4f61d9502a">detray::io::material_map_writer::header_to_payload</a></div><div class="ttdeci">static auto header_to_payload(const detector_t &amp;det, const std::string_view det_name)</div><div class="ttdoc">Convert the header information into its payload.</div><div class="ttdef"><b>Definition</b> material_map_writer.hpp:48</div></div>
 <div class="ttc" id="aclassdetray_1_1io_1_1material__map__writer_html_a64a644713c99d14af475b3917d26da2b"><div class="ttname"><a href="classdetray_1_1io_1_1material__map__writer.html#a64a644713c99d14af475b3917d26da2b">detray::io::material_map_writer::payload_type</a></div><div class="ttdeci">detector_grids_payload&lt; surface_material_payload, io::material_id &gt; payload_type</div><div class="ttdoc">Payload type that the reader processes.</div><div class="ttdef"><b>Definition</b> material_map_writer.hpp:36</div></div>
-<div class="ttc" id="aclassdetray_1_1io_1_1material__map__writer_html_ada357fb7f9336373815f5e57e9a0576f"><div class="ttname"><a href="classdetray_1_1io_1_1material__map__writer.html#ada357fb7f9336373815f5e57e9a0576f">detray::io::material_map_writer::to_payload</a></div><div class="ttdeci">static payload_type to_payload(const detector_t &amp;det, const typename detector_t::name_map &amp;)</div><div class="ttdoc">Convert the material description of a detector det into its io payload.</div><div class="ttdef"><b>Definition</b> material_map_writer.hpp:60</div></div>
+<div class="ttc" id="aclassdetray_1_1io_1_1material__map__writer_html_ada357fb7f9336373815f5e57e9a0576f"><div class="ttname"><a href="classdetray_1_1io_1_1material__map__writer.html#ada357fb7f9336373815f5e57e9a0576f">detray::io::material_map_writer::to_payload</a></div><div class="ttdeci">static payload_type to_payload(const detector_t &amp;det, const typename detector_t::name_map &amp;)</div><div class="ttdoc">Convert the material description of a detector det into its io payload.</div><div class="ttdef"><b>Definition</b> material_map_writer.hpp:57</div></div>
+<div class="ttc" id="aclassdetray_1_1io_1_1material__map__writer_html_aff16c8eda8e157ebfd0ccbcb0257f862"><div class="ttname"><a href="classdetray_1_1io_1_1material__map__writer.html#aff16c8eda8e157ebfd0ccbcb0257f862">detray::io::material_map_writer::to_header_payload</a></div><div class="ttdeci">static auto to_header_payload(const detector_t &amp;det)</div><div class="ttdoc">Convert the header information into its payload.</div><div class="ttdef"><b>Definition</b> material_map_writer.hpp:47</div></div>
 <div class="ttc" id="aclassdetray_1_1tracking__volume_html"><div class="ttname"><a href="classdetray_1_1tracking__volume.html">detray::tracking_volume</a></div><div class="ttdoc">Facade for a detray detector volume.</div><div class="ttdef"><b>Definition</b> tracking_volume.hpp:44</div></div>
 <div class="ttc" id="aconceptdetray_1_1concepts_1_1has__material__rods_html"><div class="ttname"><a href="conceptdetray_1_1concepts_1_1has__material__rods.html">detray::concepts::has_material_rods</a></div><div class="ttdoc">Check for the the presence of material rods in a detector definition.</div><div class="ttdef"><b>Definition</b> concepts.hpp:146</div></div>
 <div class="ttc" id="aconceptdetray_1_1concepts_1_1has__material__slabs_html"><div class="ttname"><a href="conceptdetray_1_1concepts_1_1has__material__slabs.html">detray::concepts::has_material_slabs</a></div><div class="ttdoc">Check for the the presence of material slabs in a detector definition.</div><div class="ttdef"><b>Definition</b> concepts.hpp:141</div></div>
 <div class="ttc" id="anamespacedetray_1_1io_html"><div class="ttname"><a href="namespacedetray_1_1io.html">detray::io</a></div><div class="ttdoc">The following enums are global for all detectors.</div><div class="ttdef"><b>Definition</b> concepts.hpp:18</div></div>
 <div class="ttc" id="anamespacedetray_html_a3622614888b24c246e000c62d1833da4"><div class="ttname"><a href="namespacedetray.html#a3622614888b24c246e000c62d1833da4">detray::dindex</a></div><div class="ttdeci">unsigned int dindex</div><div class="ttdoc">Default index type.</div><div class="ttdef"><b>Definition</b> indexing.hpp:18</div></div>
 <div class="ttc" id="anamespacedetray_html_a4acd0b976198d508f4a3c4e9aa6e7c92"><div class="ttname"><a href="namespacedetray.html#a4acd0b976198d508f4a3c4e9aa6e7c92">detray::dindex_invalid</a></div><div class="ttdeci">constexpr dindex dindex_invalid</div><div class="ttdoc">Global invalid index definition.</div><div class="ttdef"><b>Definition</b> indexing.hpp:21</div></div>
-<div class="ttc" id="astructdetray_1_1io_1_1detector__grids__payload_html"><div class="ttname"><a href="structdetray_1_1io_1_1detector__grids__payload.html">detray::io::detector_grids_payload</a></div><div class="ttdoc">A payload for the grid collections of a detector.</div><div class="ttdef"><b>Definition</b> payloads.hpp:344</div></div>
+<div class="ttc" id="astructdetray_1_1io_1_1detector__grids__payload_html"><div class="ttname"><a href="structdetray_1_1io_1_1detector__grids__payload.html">detray::io::detector_grids_payload</a></div><div class="ttdoc">A payload for the grid collections of a detector.</div><div class="ttdef"><b>Definition</b> payloads.hpp:314</div></div>
 <div class="ttc" id="astructdetray_1_1material__slab_html"><div class="ttname"><a href="structdetray_1_1material__slab.html">detray::material_slab</a></div><div class="ttdoc">Slab structure to be mapped on the mask (plane, cylinder).</div><div class="ttdef"><b>Definition</b> material_slab.hpp:25</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

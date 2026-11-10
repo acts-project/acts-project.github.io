@@ -147,11 +147,11 @@ Public Member Functions</h2></td></tr>
 virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~writer_interface</b> ()=default</td></tr>
 <tr class="memdesc:a41708796a83d1a2793a5567e50af7f1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default destructor. <br /></td></tr>
 <tr class="memitem:a353d7d60c78e49beca2af6587f68212d" id="r_a353d7d60c78e49beca2af6587f68212d"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a353d7d60c78e49beca2af6587f68212d">file_extension</a> () const</td></tr>
-<tr class="memitem:a7e4ed2ff6a430e57c349c9ff75ed5b0a" id="r_a7e4ed2ff6a430e57c349c9ff75ed5b0a"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e4ed2ff6a430e57c349c9ff75ed5b0a">write</a> (const detector_t &amp;detector, const typename detector_t::name_map &amp;names, const std::ios_base::openmode mode, const std::filesystem::path &amp;path)=0</td></tr>
-<tr class="memdesc:a7e4ed2ff6a430e57c349c9ff75ed5b0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write detector components to a path using the supplied name map.  <br /></td></tr>
+<tr class="memitem:a3d03e70a27e9a6e99db722828fd54c45" id="r_a3d03e70a27e9a6e99db722828fd54c45"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d03e70a27e9a6e99db722828fd54c45">write</a> (const detector_t &amp;detector, const typename detector_t::name_map &amp;names, const std::string &amp;source, const std::ios_base::openmode mode, const std::filesystem::path &amp;path)=0</td></tr>
+<tr class="memdesc:a3d03e70a27e9a6e99db722828fd54c45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write detector components to a path using the supplied name map.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><div class="compoundTemplParams">template&lt;class detector_t&gt;<br />
+<div class="textblock"><div class="compoundTemplParams">template&lt;<a class="el" href="conceptdetray_1_1concepts_1_1detector.html">detray::concepts::detector</a> detector_t&gt;<br />
 class detray::io::writer_interface&lt; detector_t &gt;</div><p>Abstract base class for detray detector component writers. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a201aaefa63cfa3afb74e1c100e2ceadd" name="a201aaefa63cfa3afb74e1c100e2ceadd"></a>
@@ -160,7 +160,7 @@ class detray::io::writer_interface&lt; detector_t &gt;</div><p>Abstract base cla
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class detector_t&gt; </div>
+template&lt;<a class="el" href="conceptdetray_1_1concepts_1_1detector.html">detray::concepts::detector</a> detector_t&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -196,7 +196,7 @@ template&lt;class detector_t&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class detector_t&gt; </div>
+template&lt;<a class="el" href="conceptdetray_1_1concepts_1_1detector.html">detray::concepts::detector</a> detector_t&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">const std::string &amp; <a class="el" href="classdetray_1_1io_1_1writer__interface.html">detray::io::writer_interface</a>&lt; detector_t &gt;::file_extension </td>
@@ -210,13 +210,13 @@ template&lt;class detector_t&gt; </div>
 
 </div>
 </div>
-<a id="a7e4ed2ff6a430e57c349c9ff75ed5b0a" name="a7e4ed2ff6a430e57c349c9ff75ed5b0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e4ed2ff6a430e57c349c9ff75ed5b0a">&#9670;&#160;</a></span>write()</h2>
+<a id="a3d03e70a27e9a6e99db722828fd54c45" name="a3d03e70a27e9a6e99db722828fd54c45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d03e70a27e9a6e99db722828fd54c45">&#9670;&#160;</a></span>write()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class detector_t&gt; </div>
+template&lt;<a class="el" href="conceptdetray_1_1concepts_1_1detector.html">detray::concepts::detector</a> detector_t&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -230,6 +230,11 @@ template&lt;class detector_t&gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const typename detector_t::name_map &amp;</td>          <td class="paramname"><span class="paramname"><em>names</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>source</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -254,14 +259,16 @@ template&lt;class detector_t&gt; </div>
   <table class="params">
     <tr><td class="paramname">detector</td><td>detector components to serialize </td></tr>
     <tr><td class="paramname">names</td><td>map used to name detector components </td></tr>
+    <tr><td class="paramname">source</td><td>the source description of the detector </td></tr>
     <tr><td class="paramname">mode</td><td>stream open mode </td></tr>
     <tr><td class="paramname">path</td><td>output directory guaranteed to exist by the caller </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>path or filename written by the implementation </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>The existence of the file path has to be guaranteed by the caller </dd></dl>
 
-<p>Implemented in <a class="el" href="classdetray_1_1io_1_1json__converter_3_01detector__t_00_01backend__t_01_4.html#a9d49c655905e5ae3f7d27fbd5d572f3a">detray::io::json_converter&lt; detector_t, backend_t &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classdetray_1_1io_1_1json__converter_3_01detector__t_00_01backend__t_01_4.html#abf9e001926ed231a804df78baf04466f">detray::io::json_converter&lt; detector_t, backend_t &gt;</a>.</p>
 
 </div>
 </div>

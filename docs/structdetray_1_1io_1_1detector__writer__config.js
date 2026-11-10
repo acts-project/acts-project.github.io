@@ -8,6 +8,8 @@ var structdetray_1_1io_1_1detector__writer__config =
     [ "path", "structdetray_1_1io_1_1detector__writer__config.html#a92900fa939b2a589ba8c57448b9ee793", null ],
     [ "replace_files", "structdetray_1_1io_1_1detector__writer__config.html#aeba2cfe15ac9fa8566df70fefba995f3", null ],
     [ "replace_files", "structdetray_1_1io_1_1detector__writer__config.html#ae42e383d425b9d70216c1566dc9bf161", null ],
+    [ "source", "structdetray_1_1io_1_1detector__writer__config.html#a7396039e8b451bf60dc65a596ed8b544", null ],
+    [ "source", "structdetray_1_1io_1_1detector__writer__config.html#ad1b51f1ad342ad3443659ba6783819f7", null ],
     [ "write_grids", "structdetray_1_1io_1_1detector__writer__config.html#a1a262ae399067367e3cb05ac642dd6e9", null ],
     [ "write_grids", "structdetray_1_1io_1_1detector__writer__config.html#a6ae836695cea2a5943d1c356b422a602", null ],
     [ "write_material", "structdetray_1_1io_1_1detector__writer__config.html#a2245c0799eb840d1099074db23828f78", null ],
@@ -17,6 +19,7 @@ var structdetray_1_1io_1_1detector__writer__config =
     [ "m_format", "structdetray_1_1io_1_1detector__writer__config.html#a78164db86bc4f6f8450b648bf5e3af61", null ],
     [ "m_path", "structdetray_1_1io_1_1detector__writer__config.html#a29029bf6ca2b76ca2955fc068c20650a", null ],
     [ "m_replace", "structdetray_1_1io_1_1detector__writer__config.html#a6405a72333087efd7a517376988d2fc2", null ],
+    [ "m_source", "structdetray_1_1io_1_1detector__writer__config.html#ab00439ce8f69d0ce9ba10eacc49f96f0", null ],
     [ "m_write_grids", "structdetray_1_1io_1_1detector__writer__config.html#a32060aff1e27d0ca57a1d51b3f48204f", null ],
     [ "m_write_material", "structdetray_1_1io_1_1detector__writer__config.html#a635fc9436f7679fda701f498630cd531", null ]
 ];

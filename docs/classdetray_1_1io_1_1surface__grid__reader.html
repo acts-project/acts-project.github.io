@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ACTS: detray::io::surface_grid_reader&lt; surface_descriptor_t, CAP, DIM &gt; Class Template Reference</title>
+<title>ACTS: detray::io::surface_grid_reader&lt; detector_t, CAP, DIM &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -122,7 +122,7 @@ $(function(){initNavTree('classdetray_1_1io_1_1surface__grid__reader.html','','c
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">detray::io::surface_grid_reader&lt; surface_descriptor_t, CAP, DIM &gt; Class Template Reference</div></div>
+  <div class="headertitle"><div class="title">detray::io::surface_grid_reader&lt; detector_t, CAP, DIM &gt; Class Template Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -131,84 +131,109 @@ $(function(){initNavTree('classdetray_1_1io_1_1surface__grid__reader.html','','c
 
 <p><code>#include &lt;<a class="el" href="surface__grid__reader_8hpp_source.html">detray/io/backend/surface_grid_reader.hpp</a>&gt;</code></p>
 <div class="dynheader">
-Inheritance diagram for detray::io::surface_grid_reader&lt; surface_descriptor_t, CAP, DIM &gt;:</div>
+Inheritance diagram for detray::io::surface_grid_reader&lt; detector_t, CAP, DIM &gt;:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classdetray_1_1io_1_1surface__grid__reader__inherit__graph.svg" width="451" height="124"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classdetray_1_1io_1_1surface__grid__reader__inherit__graph.svg" width="419" height="140"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for detray::io::surface_grid_reader&lt; surface_descriptor_t, CAP, DIM &gt;:</div>
+Collaboration diagram for detray::io::surface_grid_reader&lt; detector_t, CAP, DIM &gt;:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classdetray_1_1io_1_1surface__grid__reader__coll__graph.svg" width="100%" height="438"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classdetray_1_1io_1_1surface__grid__reader__coll__graph.svg" width="100%" height="450"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ac5c26582594974c3c508ccf2bf520913" id="r_ac5c26582594974c3c508ccf2bf520913"><td class="memItemLeft" align="right" valign="top"><a id="ac5c26582594974c3c508ccf2bf520913" name="ac5c26582594974c3c508ccf2bf520913"></a>
+<tr class="memitem:a24d31c0bfcfeb64ccf0f496ed4afdcfa" id="r_a24d31c0bfcfeb64ccf0f496ed4afdcfa"><td class="memItemLeft" align="right" valign="top"><a id="a24d31c0bfcfeb64ccf0f496ed4afdcfa" name="a24d31c0bfcfeb64ccf0f496ed4afdcfa"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>payload_type</b> = <a class="el" href="structdetray_1_1io_1_1detector__grids__payload.html">detector_grids_payload</a>&lt;std::size_t, <a class="el" href="namespacedetray_1_1io.html#a6b1a4b80b44a224de9510ceb77cda463">io::accel_id</a>&gt;</td></tr>
-<tr class="memdesc:ac5c26582594974c3c508ccf2bf520913"><td class="mdescLeft">&#160;</td><td class="mdescRight">Payload type that the reader processes. <br /></td></tr>
+<tr class="memdesc:a24d31c0bfcfeb64ccf0f496ed4afdcfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Payload type that the reader processes. <br /></td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ab94a988719eb5081fe19895b922fffc3" id="r_ab94a988719eb5081fe19895b922fffc3"><td class="memTemplParams" colspan="2">template&lt;concepts::detector detector_t&gt; </td></tr>
-<tr class="memitem:ab94a988719eb5081fe19895b922fffc3 template"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab94a988719eb5081fe19895b922fffc3">from_payload</a> (<a class="el" href="classdetray_1_1detector__builder.html">detector_builder</a>&lt; typename detector_t::metadata, <a class="el" href="classdetray_1_1volume__builder.html">volume_builder</a> &gt; &amp;det_builder, const <a class="el" href="#ac5c26582594974c3c508ccf2bf520913">payload_type</a> &amp;grids_data)</td></tr>
-<tr class="memdesc:ab94a988719eb5081fe19895b922fffc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the detector grids <code class="param">grids_data</code> from their IO payload.  <br /></td></tr>
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a608ee58be16b08cf6ba07a6b71475822" id="r_a608ee58be16b08cf6ba07a6b71475822"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a608ee58be16b08cf6ba07a6b71475822">from_payload</a> (<a class="el" href="classdetray_1_1detector__builder.html">detector_builder</a>&lt; typename detector_t::metadata, <a class="el" href="classdetray_1_1volume__builder.html">volume_builder</a> &gt; &amp;det_builder, const <a class="el" href="structdetray_1_1io_1_1detector__payload.html">detector_payload</a> &amp;det_data) const override</td></tr>
+<tr class="memdesc:a608ee58be16b08cf6ba07a6b71475822"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the detector grids <code class="param">grids_data</code> from their IO payload.  <br /></td></tr>
+<tr class="memitem:ae3435446d5dff76f22b36099da040b83" id="r_ae3435446d5dff76f22b36099da040b83"><td class="memItemLeft" align="right" valign="top">std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3435446d5dff76f22b36099da040b83">tag</a> () const override</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a30e7f81e6e97217fb15e4bd5318c95cc" id="r_a30e7f81e6e97217fb15e4bd5318c95cc"><td class="memItemLeft" align="right" valign="top"><a id="a30e7f81e6e97217fb15e4bd5318c95cc" name="a30e7f81e6e97217fb15e4bd5318c95cc"></a>
-static constexpr std::string_view&#160;</td><td class="memItemRight" valign="bottom"><b>tag</b> = &quot;surface_grids&quot;</td></tr>
-<tr class="memdesc:a30e7f81e6e97217fb15e4bd5318c95cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tag the reader as "surface_grids". <br /></td></tr>
+<tr class="memitem:a6c7862f96d7a4fdc3b189881f72ab568" id="r_a6c7862f96d7a4fdc3b189881f72ab568"><td class="memItemLeft" align="right" valign="top"><a id="a6c7862f96d7a4fdc3b189881f72ab568" name="a6c7862f96d7a4fdc3b189881f72ab568"></a>
+static constexpr std::string_view&#160;</td><td class="memItemRight" valign="bottom"><b>s_tag</b> = &quot;surface_grids&quot;</td></tr>
+<tr class="memdesc:a6c7862f96d7a4fdc3b189881f72ab568"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tag the reader as "surface_grids". <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><div class="compoundTemplParams">template&lt;class surface_descriptor_t, typename CAP = std::integral_constant&lt;std::size_t, 9&gt;, typename DIM = std::integral_constant&lt;std::size_t, 2&gt;&gt;<br />
-class detray::io::surface_grid_reader&lt; surface_descriptor_t, CAP, DIM &gt;</div><p>Surface grid reader backend. </p>
-<p>Fills a <code>detector_builder</code> from a surface <code>detector_grids_payload</code> </p>
+<div class="textblock"><div class="compoundTemplParams">template&lt;<a class="el" href="conceptdetray_1_1concepts_1_1detector.html">detray::concepts::detector</a> detector_t, typename CAP = std::integral_constant&lt;std::size_t, 9&gt;, typename DIM = std::integral_constant&lt;std::size_t, 2&gt;&gt;<br />
+class detray::io::surface_grid_reader&lt; detector_t, CAP, DIM &gt;</div><p>Surface grid reader backend. </p>
+<p>Fills a <code>detector_builder</code> from a surface <code>detector_grids_payload</code> </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">detector_t</td><td>Detector type being constructed. </td></tr>
+  </table>
+  </dd>
+</dl>
 </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="ab94a988719eb5081fe19895b922fffc3" name="ab94a988719eb5081fe19895b922fffc3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab94a988719eb5081fe19895b922fffc3">&#9670;&#160;</a></span>from_payload()</h2>
+<a id="a608ee58be16b08cf6ba07a6b71475822" name="a608ee58be16b08cf6ba07a6b71475822"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a608ee58be16b08cf6ba07a6b71475822">&#9670;&#160;</a></span>from_payload()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class surface_descriptor_t, typename CAP = std::integral_constant&lt;std::size_t, 9&gt;, typename DIM = std::integral_constant&lt;std::size_t, 2&gt;&gt; </div>
-<div class="memtemplate">
-template&lt;concepts::detector detector_t&gt; </div>
+template&lt;<a class="el" href="conceptdetray_1_1concepts_1_1detector.html">detray::concepts::detector</a> detector_t, typename CAP = std::integral_constant&lt;std::size_t, 9&gt;, typename DIM = std::integral_constant&lt;std::size_t, 2&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classdetray_1_1io_1_1surface__grid__reader.html">detray::io::surface_grid_reader</a>&lt; surface_descriptor_t, CAP, DIM &gt;::from_payload </td>
+          <td class="memname">void <a class="el" href="classdetray_1_1io_1_1surface__grid__reader.html">detray::io::surface_grid_reader</a>&lt; detector_t, CAP, DIM &gt;::from_payload </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classdetray_1_1detector__builder.html">detector_builder</a>&lt; typename detector_t::metadata, <a class="el" href="classdetray_1_1volume__builder.html">volume_builder</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>det_builder</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="#ac5c26582594974c3c508ccf2bf520913">payload_type</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>grids_data</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="structdetray_1_1io_1_1detector__payload.html">detector_payload</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>det_data</em></span>&#160;) const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel override">override</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Convert the detector grids <code class="param">grids_data</code> from their IO payload. </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">detector_t</td><td>Detector type being constructed. </td></tr>
-  </table>
-  </dd>
-</dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">det_builder</td><td>Builder receiving the acceleration structures. </td></tr>
-    <tr><td class="paramname">grids_data</td><td>Serialized surface-grid payload. </td></tr>
+    <tr><td class="paramname">det_data</td><td>Detector payload that contains the sub-payload </td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="ae3435446d5dff76f22b36099da040b83" name="ae3435446d5dff76f22b36099da040b83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3435446d5dff76f22b36099da040b83">&#9670;&#160;</a></span>tag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="conceptdetray_1_1concepts_1_1detector.html">detray::concepts::detector</a> detector_t, typename CAP = std::integral_constant&lt;std::size_t, 9&gt;, typename DIM = std::integral_constant&lt;std::size_t, 2&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string_view <a class="el" href="classdetray_1_1io_1_1surface__grid__reader.html">detray::io::surface_grid_reader</a>&lt; detector_t, CAP, DIM &gt;::tag </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>the tag of the reader: "surface_grids" </dd></dl>
 
 </div>
 </div>
