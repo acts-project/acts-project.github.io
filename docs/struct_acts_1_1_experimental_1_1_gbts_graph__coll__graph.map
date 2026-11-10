@@ -1,7 +1,10 @@
 <map id="Acts::Experimental::GbtsGraph" name="Acts::Experimental::GbtsGraph">
-<area shape="rect" id="Node000001" title="The doublet graph of the GBTS workflow, as built by GbtsGraphBuilder." alt="" coords="5,224,150,268"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="6,106,149,151"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,165,80,224,75,223,75,168"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="13,5,142,33"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="78,46,80,106,75,105,77,51"/>
+<area shape="rect" id="Node000001" title="The doublet graph of the GBTS workflow, as built by GbtsGraphBuilder." alt="" coords="102,246,246,291"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,106,148,151"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,161,137,220,157,246,151,245,132,224,95,166"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="110,5,238,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="111,42,95,59,83,82,79,107,74,105,78,80,91,55,114,38"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="172,114,373,142"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="218,38,240,55,260,85,271,115,266,114,255,88,236,59,218,44"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="264,155,248,190,227,224,203,248,200,244,222,220,244,187,260,158"/>
 </map>

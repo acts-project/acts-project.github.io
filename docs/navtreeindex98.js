@@ -1,5 +1,9 @@
 var NAVTREEINDEX98 =
 {
+"structdetray_1_1ray__intersector__impl_3_01cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#ac30ab458d43fb5792a66525188749ea2":[8,0,3,170,17],
+"structdetray_1_1ray__intersector__impl_3_01cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#acecb08bcfd653feb529da511adf9e97e":[6,0,4,157,8],
+"structdetray_1_1ray__intersector__impl_3_01cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#acecb08bcfd653feb529da511adf9e97e":[8,0,3,170,8],
+"structdetray_1_1ray__intersector__impl_3_01cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#ad7449ef0156a0f2f509b4f2c457f4d0d":[6,0,4,157,15],
 "structdetray_1_1ray__intersector__impl_3_01cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#ad7449ef0156a0f2f509b4f2c457f4d0d":[8,0,3,170,15],
 "structdetray_1_1ray__intersector__impl_3_01cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#ae77336ee6efd4743f1521eaa3ebe8e59":[6,0,4,157,9],
 "structdetray_1_1ray__intersector__impl_3_01cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#ae77336ee6efd4743f1521eaa3ebe8e59":[8,0,3,170,9],
@@ -245,9 +249,5 @@ var NAVTREEINDEX98 =
 "structdetray_1_1svgtools_1_1conversion_1_1detail_1_1bin__association__getter.html#a651125b05189068e47ccef7c378328e3":[8,0,3,14,0,0,0,0],
 "structdetray_1_1svgtools_1_1conversion_1_1detail_1_1type__and__edge__getter.html":[8,0,3,14,0,0,1],
 "structdetray_1_1svgtools_1_1conversion_1_1detail_1_1type__and__edge__getter.html#a2a3594625eb4ccacb7500399206d36c7":[8,0,3,14,0,0,1,0],
-"structdetray_1_1svgtools_1_1conversion_1_1material__converter.html":[8,0,3,14,0,1],
-"structdetray_1_1svgtools_1_1conversion_1_1material__converter.html#a4b989ce1c7062153df21c9c76625438d":[8,0,3,14,0,1,0],
-"structdetray_1_1svgtools_1_1conversion_1_1surface__converter.html":[8,0,3,14,0,2],
-"structdetray_1_1svgtools_1_1conversion_1_1surface__converter.html#a8541acc7068ab069361c96689725b81c":[8,0,3,14,0,2,0],
-"structdetray_1_1svgtools_1_1conversion_1_1surface__converter.html#ac32c4e1d9374bc72950207383f155186":[8,0,3,14,0,2,1]
+"structdetray_1_1svgtools_1_1conversion_1_1material__converter.html":[8,0,3,14,0,1]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX92 =
 {
+"structdetray_1_1interaction.html#accb6cfff90737992d76a1a1aa72f791b":[8,0,3,111,10],
+"structdetray_1_1interaction.html#ace22eeaa77f4cab92b12bc1c155438cd":[6,0,4,98,13],
+"structdetray_1_1interaction.html#ace22eeaa77f4cab92b12bc1c155438cd":[8,0,3,111,13],
+"structdetray_1_1interaction.html#af09c061f6a7c3d962526fb222bf4557e":[6,0,4,98,7],
 "structdetray_1_1interaction.html#af09c061f6a7c3d962526fb222bf4557e":[8,0,3,111,7],
 "structdetray_1_1interaction.html#af8be2d3d39632589dae997d308f034da":[6,0,4,98,2],
 "structdetray_1_1interaction.html#af8be2d3d39632589dae997d308f034da":[8,0,3,111,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX92 =
 "structdetray_1_1io_1_1detector__reader__config.html":[8,0,3,7,6],
 "structdetray_1_1io_1_1detector__reader__config.html#a248de2e5536d68423ad88644cdd74314":[6,0,4,3,5,8],
 "structdetray_1_1io_1_1detector__reader__config.html#a248de2e5536d68423ad88644cdd74314":[8,0,3,7,6,8],
-"structdetray_1_1io_1_1detector__reader__config.html#a294209ab12e09a2c90238582e67b8a99":[6,0,4,3,5,4],
-"structdetray_1_1io_1_1detector__reader__config.html#a294209ab12e09a2c90238582e67b8a99":[8,0,3,7,6,4],
-"structdetray_1_1io_1_1detector__reader__config.html#a33245727a4e4a22312a68fa8cb9c7ad6":[6,0,4,3,5,5],
-"structdetray_1_1io_1_1detector__reader__config.html#a33245727a4e4a22312a68fa8cb9c7ad6":[8,0,3,7,6,5],
-"structdetray_1_1io_1_1detector__reader__config.html#a5d68df83b4b3c115964172a9807da42e":[6,0,4,3,5,9]
+"structdetray_1_1io_1_1detector__reader__config.html#a294209ab12e09a2c90238582e67b8a99":[6,0,4,3,5,4]
 };

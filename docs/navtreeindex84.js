@@ -1,5 +1,9 @@
 var NAVTREEINDEX84 =
 {
+"struct_acts_plugins_1_1_gnn_timing.html":[5,10,6,9],
+"struct_acts_plugins_1_1_gnn_timing.html#a21d7f699b42493f04aadb08f02af17a2":[5,10,6,9,2],
+"struct_acts_plugins_1_1_gnn_timing.html#a3de440d1e92e37fcba509043e648a56c":[5,10,6,9,3],
+"struct_acts_plugins_1_1_gnn_timing.html#a791906be719a14714c6a250c536e3ace":[5,10,6,9,0],
 "struct_acts_plugins_1_1_gnn_timing.html#a9a98e199ad0210ff2e3ef5f477da9e39":[5,10,6,9,1],
 "struct_acts_plugins_1_1_module_map_cuda_1_1_config.html":[5,10,6,12,0],
 "struct_acts_plugins_1_1_module_map_cuda_1_1_config.html#a03b067774629d5397fc852ecbd10ae2f":[5,10,6,12,0,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX84 =
 "structdetray_1_1actor_1_1noise__cfg.html#a6f54176b153b97782a70c04efa885ce4":[8,0,3,0,2,0],
 "structdetray_1_1actor_1_1noise__cfg.html#ad2478cec635bc07c49c52d4feac10d75":[8,0,3,0,2,2],
 "structdetray_1_1actor_1_1parameter__setter.html":[8,0,3,0,3],
-"structdetray_1_1actor_1_1parameter__setter.html#a0fe031b90801b0e875817b17f1eb3f82":[8,0,3,0,3,0],
-"structdetray_1_1actor_1_1parameter__setter.html#a6c4db4cef19c4a7a39d4e6113cffc155":[8,0,3,0,3,1],
-"structdetray_1_1actor_1_1parameter__transporter.html":[8,0,3,0,4],
-"structdetray_1_1actor_1_1parameter__transporter.html#a1ed832cb00f422da11458053e5b63f7f":[8,0,3,0,4,4],
-"structdetray_1_1actor_1_1parameter__transporter.html#a22f461ab16a24e75e3ef26b5dbb405a7":[8,0,3,0,4,9]
+"structdetray_1_1actor_1_1parameter__setter.html#a0fe031b90801b0e875817b17f1eb3f82":[8,0,3,0,3,0]
 };

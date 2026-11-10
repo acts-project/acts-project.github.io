@@ -133,21 +133,56 @@ $(function(){initNavTree('struct_acts_1_1_experimental_1_1_gbts_graph.html','','
 <div class="dynheader">
 Collaboration diagram for Acts::Experimental::GbtsGraph:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="struct_acts_1_1_experimental_1_1_gbts_graph__coll__graph.svg" width="228" height="274"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="struct_acts_1_1_experimental_1_1_gbts_graph__coll__graph.svg" width="379" height="296"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a1a928020189b19b0837b3f63f110c9b0" id="r_a1a928020189b19b0837b3f63f110c9b0"><td class="memItemLeft" align="right" valign="top">std::span&lt; const std::uint32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a928020189b19b0837b3f63f110c9b0">innerNeighbours</a> (std::uint32_t edge) const</td></tr>
+<tr class="memdesc:a1a928020189b19b0837b3f63f110c9b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The inner neighbour edges of an edge.  <br /></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a24295c8d140de911f2db7c4acb4f2143" id="r_a24295c8d140de911f2db7c4acb4f2143"><td class="memItemLeft" align="right" valign="top"><a id="a24295c8d140de911f2db7c4acb4f2143" name="a24295c8d140de911f2db7c4acb4f2143"></a>
 std::vector&lt; detail::GbtsEdge &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>edgeStorage</b></td></tr>
 <tr class="memdesc:a24295c8d140de911f2db7c4acb4f2143"><td class="mdescLeft">&#160;</td><td class="mdescRight">The graph edges, i.e. the doublets. <br /></td></tr>
-<tr class="memitem:a409c46b9a77ba71941e240e3b991682c" id="r_a409c46b9a77ba71941e240e3b991682c"><td class="memItemLeft" align="right" valign="top"><a id="a409c46b9a77ba71941e240e3b991682c" name="a409c46b9a77ba71941e240e3b991682c"></a>
-std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>nConnections</b> = 0</td></tr>
-<tr class="memdesc:a409c46b9a77ba71941e240e3b991682c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of links between edges. <br /></td></tr>
+<tr class="memitem:a1bd362858aa7e456162724825c780db3" id="r_a1bd362858aa7e456162724825c780db3"><td class="memItemLeft" align="right" valign="top"><a id="a1bd362858aa7e456162724825c780db3" name="a1bd362858aa7e456162724825c780db3"></a>
+std::vector&lt; std::uint32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>neighbourOffsets</b></td></tr>
+<tr class="memdesc:a1bd362858aa7e456162724825c780db3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The inner neighbours of edge <span class="tt">e</span> are <span class="tt">neighbours[neighbourOffsets[e]]</span> up to, not including, <span class="tt">neighbours[neighbourOffsets[e + 1]]</span>, in the order they were linked. <br /></td></tr>
+<tr class="memitem:a3220a91d253caffa110baffaba421aac" id="r_a3220a91d253caffa110baffaba421aac"><td class="memItemLeft" align="right" valign="top"><a id="a3220a91d253caffa110baffaba421aac" name="a3220a91d253caffa110baffaba421aac"></a>
+std::vector&lt; std::uint32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>neighbours</b></td></tr>
+<tr class="memdesc:a3220a91d253caffa110baffaba421aac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inner neighbour edges of all edges, see <span class="tt">neighbourOffsets</span>. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The doublet graph of the GBTS workflow, as built by <span class="tt">GbtsGraphBuilder</span>. </p>
-</div></div><!-- contents -->
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a1a928020189b19b0837b3f63f110c9b0" name="a1a928020189b19b0837b3f63f110c9b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a928020189b19b0837b3f63f110c9b0">&#9670;&#160;</a></span>innerNeighbours()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::span&lt; const std::uint32_t &gt; Acts::Experimental::GbtsGraph::innerNeighbours </td>
+          <td>(</td>
+          <td class="paramtype">std::uint32_t</td>          <td class="paramname"><span class="paramname"><em>edge</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The inner neighbour edges of an edge. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">edge</td><td>Index of the edge in <span class="tt">edgeStorage</span> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The indices of its inner neighbours </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

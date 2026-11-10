@@ -1,5 +1,9 @@
 var NAVTREEINDEX99 =
 {
+"structdetray_1_1svgtools_1_1conversion_1_1material__converter.html#a4b989ce1c7062153df21c9c76625438d":[8,0,3,14,0,1,0],
+"structdetray_1_1svgtools_1_1conversion_1_1surface__converter.html":[8,0,3,14,0,2],
+"structdetray_1_1svgtools_1_1conversion_1_1surface__converter.html#a8541acc7068ab069361c96689725b81c":[8,0,3,14,0,2,0],
+"structdetray_1_1svgtools_1_1conversion_1_1surface__converter.html#ac32c4e1d9374bc72950207383f155186":[8,0,3,14,0,2,1],
 "structdetray_1_1svgtools_1_1meta_1_1proto_1_1eta__lines.html":[8,0,3,14,1,0,0],
 "structdetray_1_1svgtools_1_1meta_1_1proto_1_1eta__lines.html#a1fd8422fb1274488ddc746b26d437056":[8,0,3,14,1,0,0,2],
 "structdetray_1_1svgtools_1_1meta_1_1proto_1_1eta__lines.html#a4eee2bbaf74000a9bfffdb9e59c7c1f6":[8,0,3,14,1,0,0,7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX99 =
 "structdetray_1_1telescope__metadata.html#a3ce92d3dfac21940d2a887b3dd548c46":[6,0,4,180,8],
 "structdetray_1_1telescope__metadata.html#a3ce92d3dfac21940d2a887b3dd548c46":[8,0,3,193,8],
 "structdetray_1_1telescope__metadata.html#a4de3d893e0f2ecee07801b39c9ef512c":[6,0,4,180,9],
-"structdetray_1_1telescope__metadata.html#a4de3d893e0f2ecee07801b39c9ef512c":[8,0,3,193,9],
-"structdetray_1_1telescope__metadata.html#a62e449257c904370933edee0b6dca06d":[6,0,4,180,4],
-"structdetray_1_1telescope__metadata.html#a62e449257c904370933edee0b6dca06d":[8,0,3,193,4],
-"structdetray_1_1telescope__metadata.html#a6f6590b86927d5cac849bdec823cbd09":[6,0,4,180,18],
-"structdetray_1_1telescope__metadata.html#a6f6590b86927d5cac849bdec823cbd09":[8,0,3,193,18]
+"structdetray_1_1telescope__metadata.html#a4de3d893e0f2ecee07801b39c9ef512c":[8,0,3,193,9]
 };

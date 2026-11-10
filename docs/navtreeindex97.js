@@ -1,5 +1,9 @@
 var NAVTREEINDEX97 =
 {
+"structdetray_1_1ranges_1_1detail_1_1join__iterator.html#a50066b67f4ff8771d9e84193abe19404":[8,0,3,12,0,1,1],
+"structdetray_1_1ranges_1_1detail_1_1join__iterator.html#a507fb054ec12246112975ef4ea5eec1d":[8,0,3,12,0,1,16],
+"structdetray_1_1ranges_1_1detail_1_1join__iterator.html#a547cc0b28707ec11ed4a9f2f23a1dd3a":[8,0,3,12,0,1,23],
+"structdetray_1_1ranges_1_1detail_1_1join__iterator.html#a7da7b0405de430674824cb4b1a1f4bda":[8,0,3,12,0,1,9],
 "structdetray_1_1ranges_1_1detail_1_1join__iterator.html#a852d9d6ae3efb4c24da306e5263cdf0a":[8,0,3,12,0,1,20],
 "structdetray_1_1ranges_1_1detail_1_1join__iterator.html#a93f12e88b2b08d5eace3fc4cef3c2c4f":[8,0,3,12,0,1,22],
 "structdetray_1_1ranges_1_1detail_1_1join__iterator.html#a943d43ba26c5590fab8865a3aa11c88b":[8,0,3,12,0,1,7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX97 =
 "structdetray_1_1ray__intersector__impl_3_01cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#a74b551d0b732952d34130b0ebc1c41e0":[8,0,3,170,13],
 "structdetray_1_1ray__intersector__impl_3_01cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#a8835358131bcb1e57b27ad3f5f944998":[6,0,4,157,2],
 "structdetray_1_1ray__intersector__impl_3_01cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#a8835358131bcb1e57b27ad3f5f944998":[8,0,3,170,2],
-"structdetray_1_1ray__intersector__impl_3_01cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#ac30ab458d43fb5792a66525188749ea2":[6,0,4,157,17],
-"structdetray_1_1ray__intersector__impl_3_01cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#ac30ab458d43fb5792a66525188749ea2":[8,0,3,170,17],
-"structdetray_1_1ray__intersector__impl_3_01cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#acecb08bcfd653feb529da511adf9e97e":[6,0,4,157,8],
-"structdetray_1_1ray__intersector__impl_3_01cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#acecb08bcfd653feb529da511adf9e97e":[8,0,3,170,8],
-"structdetray_1_1ray__intersector__impl_3_01cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#ad7449ef0156a0f2f509b4f2c457f4d0d":[6,0,4,157,15]
+"structdetray_1_1ray__intersector__impl_3_01cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#ac30ab458d43fb5792a66525188749ea2":[6,0,4,157,17]
 };
