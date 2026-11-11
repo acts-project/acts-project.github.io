@@ -6,5 +6,6 @@ var struct_acts_1_1_tracking_geometry_json_converter_1_1_config =
     [ "decodeVolumeBounds", "struct_acts_1_1_tracking_geometry_json_converter_1_1_config.html#ab33c98b6639e337c38771cd9a66d2350", null ],
     [ "encodeNavigationPolicy", "struct_acts_1_1_tracking_geometry_json_converter_1_1_config.html#acb3fcf85696bdf558d832fc8dc021323", null ],
     [ "encodePortalLink", "struct_acts_1_1_tracking_geometry_json_converter_1_1_config.html#a9dde2c527527b1cee81fe4389a228fcf", null ],
-    [ "encodeVolumeBounds", "struct_acts_1_1_tracking_geometry_json_converter_1_1_config.html#ac01e7b99e26a0d143d29b9845427a53d", null ]
+    [ "encodeVolumeBounds", "struct_acts_1_1_tracking_geometry_json_converter_1_1_config.html#ac01e7b99e26a0d143d29b9845427a53d", null ],
+    [ "materialConfig", "struct_acts_1_1_tracking_geometry_json_converter_1_1_config.html#a1e1264db024fdc3a5ad1d57e14eaae55", null ]
 ];

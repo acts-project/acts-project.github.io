@@ -125,10 +125,10 @@ $(function(){initNavTree('alignment_composite_jacobians.html','',''); });
   <div class="headertitle"><div class="title">Composite alignment Jacobians </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1 class="doxsection"><a class="anchor" id="autotoc_md92"></a>
+<div class="textblock"><h1 class="doxsection"><a class="anchor" id="autotoc_md93"></a>
 Composite alignment Jacobians</h1>
 <p>This page documents the composite (hierarchy) Jacobians, which relate the alignment parameters of a component (e.g. a sensor) to those of a rigid structure it belongs to (e.g. a stave, a layer or a half-barrel). It covers the parameter conventions they rely on, the derivation, the implementation, and what is still missing.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md93"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md94"></a>
 Motivation</h2>
 <p>ACTS computes derivatives of the residuals w.r.t. the alignment parameters of single surfaces. Aligning every sensor individually does not scale to a real tracker: the first steps of a real alignment are done on larger rigid bodies.</p>
 <p>Aligning a rigid structure requires the chain rule from the sensor alignment parameters, for which ACTS computes derivatives, to the structure parameters:</p>
@@ -139,13 +139,13 @@ Motivation</h2>
 \]
 </p>
 <p>The second factor is the <em>composite</em> or <em>hierarchy Jacobian</em>. The derivatives of a structure are the sum of this product over all its sensors on the track.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md94"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md95"></a>
 ACTS alignment parameter convention</h2>
 <p>ACTS surface alignment parameters are local-frame parameters: translations along the surface's own local axes, and rotations about those axes.</p>
 <p>The adapter from these parameters to the local-frame parameters used below is the identity. It is kept in one function so that a change of convention stays local to it (see <a class="el" href="#alignment_composite_convention_adapter">alignment_composite_convention_adapter</a>).</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md95"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md96"></a>
 Derivation</h2>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md96"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md97"></a>
 Local-frame parameters</h3>
 <p>For an object with local-to-global transform \((R, \mathbf{c})\), the <em>local-frame</em> alignment parameters are \((\delta\mathbf{t}, \delta\boldsymbol{\omega})\): a translation along the object's own local axes, and small rotation angles about its own local axes, pivoting on its local origin. The moved object is</p>
 <p class="formulaDsp">
@@ -154,7 +154,7 @@ Local-frame parameters</h3>
 \]
 </p>
 <p>i.e. \(T&#39; = T \cdot \Delta\) with \(\Delta = (1 + [\delta\boldsymbol{\omega}]_\times,\ \delta\mathbf{t})\). This is the convention used by CMS and Belle II for hierarchical alignment.</p>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md97"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md98"></a>
 Composite to component</h3>
 <p>Let the composite (structure) have transform \((R_c, \mathbf{c}_c)\) and parameters \((\delta\mathbf{T}, \delta\mathbf{W})\), and the component (sensor) have \((R_s, \mathbf{c}_s)\). A rigid motion of the composite moves the global point \(\mathbf{x}\) by \(R_c\,\delta\mathbf{T} + (R_c\,\delta\mathbf{W}) \times (\mathbf{x} - \mathbf{c}_c)\) and rotates by the global rotation vector \(R_c\,\delta\mathbf{W}\). With the lever arm \(\mathbf{d} = \mathbf{c}_s - \mathbf{c}_c\) (global coordinates), the component therefore moves by</p>
 <p class="formulaDsp">
@@ -177,7 +177,7 @@ Composite to component</h3>
 \qquad R_\mathrm{rel} = R_c^T R_s .
 \]
 </p>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md98"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md99"></a>
 Relation to the CMS form</h3>
 <p>The CMS form of this matrix is</p>
 <p class="formulaDsp">
@@ -192,7 +192,7 @@ Relation to the CMS form</h3>
 </ul>
 <p>Both levels use local-frame parameters, which is also the ACTS surface convention, so this matrix applies directly to ACTS alignment derivatives.</p>
 <p><a class="anchor" id="alignment_composite_convention_adapter"></a></p>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md99"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md100"></a>
 Convention adapter</h3>
 <p>ACTS alignment parameters are the local-frame parameters \((\delta\mathbf{t}, \delta\boldsymbol{\omega})\). They match the parameters of the composite Jacobian, so</p>
 <p class="formulaDsp">
@@ -209,7 +209,7 @@ Convention adapter</h3>
 \]
 </p>
 <p><span class="tt">localFrameToAlignmentParametersJacobian</span> returns that identity. It is the single place that records the convention. While the center parameters were a shift in global coordinates, it returned \(\mathrm{diag}(R_s, 1)\).</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md100"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md101"></a>
 Implementation</h2>
 <p><span class="tt">Acts/Surfaces/detail/AlignmentHelper.hpp</span> provides two free functions next to <span class="tt">rotationToLocalAxesDerivative</span>:</p>
 <div class="fragment"><div class="line"><span class="keyword">namespace </span>Acts::detail {</div>
@@ -224,7 +224,7 @@ Implementation</h2>
 <div class="ttc" id="agroup__algebra__types_html_gab6e508c2d10f1fd653dc4f05c26f9151"><div class="ttname"><a href="group__algebra__types.html#gab6e508c2d10f1fd653dc4f05c26f9151">Acts::Transform3</a></div><div class="ttdeci">Eigen::Transform&lt; double, 3, Eigen::Isometry &gt; Transform3</div><div class="ttdoc">3D rigid transformation (rotation/reflection plus translation)</div><div class="ttdef"><b>Definition</b> Algebra.hpp:104</div></div>
 <div class="ttc" id="anamespace_acts_html_a8d2a9eacf555f86f4769bbbcfa276b1e"><div class="ttname"><a href="namespace_acts.html#a8d2a9eacf555f86f4769bbbcfa276b1e">Acts::AlignmentMatrix</a></div><div class="ttdeci">Matrix&lt; eAlignmentSize, eAlignmentSize &gt; AlignmentMatrix</div><div class="ttdoc">Square matrix type for alignment parameters.</div><div class="ttdef"><b>Definition</b> Alignment.hpp:41</div></div>
 </div><!-- fragment --><p><span class="tt">compositeToComponentJacobian</span> takes the local-to-global transforms. <span class="tt">localFrameToAlignmentParametersJacobian</span> still takes the surface transform so a later convention change can use it; the argument is unused while the conventions agree. It is the only place that encodes the ACTS convention.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md101"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md102"></a>
 Limitations and open items</h2>
 <ul>
 <li><b>Structure frames.</b> The Jacobian needs the frame of the composite: its origin (the pivot of the rotations, entering through the lever arm) and its orientation \(R_c\). The choice is up to the user; a common one is the global orientation centred on the structure, so that the translations are global shifts.</li>

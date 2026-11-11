@@ -1,5 +1,7 @@
 var NAVTREEINDEX85 =
 {
+"struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#ad4dc2930b3bbd374c89a74174b9b0d46":[5,10,6,19,0,1],
+"struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#ae341ca5a5218420ce852e961001222dd":[5,10,6,19,0,2],
 "structdetray_1_1actor_1_1empty__result.html":[8,0,3,0,0],
 "structdetray_1_1actor_1_1momentum__aborter.html":[8,0,3,0,1],
 "structdetray_1_1actor_1_1momentum__aborter.html#a4f186a2d125b4f6c89f50204b0c664f5":[8,0,3,0,1,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX85 =
 "structdetray_1_1algebra_1_1fastor_1_1math_1_1transform3.html#a721f40dc70e7471a01605e849d37050d":[8,0,3,1,3,0,0,22],
 "structdetray_1_1algebra_1_1fastor_1_1math_1_1transform3.html#a77673320c0a25d20b3134871b30cba1b":[8,0,3,1,3,0,0,11],
 "structdetray_1_1algebra_1_1fastor_1_1math_1_1transform3.html#a781f67cdd2d4f6f2eb0d2e9154e6416f":[8,0,3,1,3,0,0,25],
-"structdetray_1_1algebra_1_1fastor_1_1math_1_1transform3.html#a8c9ba29113a5ef062c82b85d31c21deb":[8,0,3,1,3,0,0,27],
-"structdetray_1_1algebra_1_1fastor_1_1math_1_1transform3.html#a8ecb8596f066e396943ee2770993bbaf":[8,0,3,1,3,0,0,23],
-"structdetray_1_1algebra_1_1fastor_1_1math_1_1transform3.html#a922ddb25654554e40c028f94b14e7405":[8,0,3,1,3,0,0,15]
+"structdetray_1_1algebra_1_1fastor_1_1math_1_1transform3.html#a8c9ba29113a5ef062c82b85d31c21deb":[8,0,3,1,3,0,0,27]
 };

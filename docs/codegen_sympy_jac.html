@@ -128,7 +128,7 @@ $(function(){initNavTree('codegen_sympy_jac.html','',''); });
 <div class="textblock"><p><a class="anchor" id="md_build_2docs_2notebooks_2codegen__sympy__jac"></a></p>
 <p>This file has two lives. The build runs it as a plain Python script to generate <span class="tt">codegen/sympy_jac_math.hpp</span>, the header behind <span class="tt">Acts::detail::sympy::boundToBoundTransportJacobian</span> and <span class="tt">boundToCurvilinearTransportJacobian</span>. Opened in a jupytext-capable viewer (JupyterLab or VS Code with the jupytext extension, <span class="tt">jupytext --to ipynb</span> for anything else) the same file is a notebook that derives, shows and explains every matrix that goes into that header.</p>
 <p>The two never drift apart because there is only one file: the <span class="tt"># %%</span> markers are Python comments, so what the notebook shows is exactly what the build runs. The rendered form of this notebook is part of the ACTS documentation; see <span class="tt">docs/render_notebook.py</span> for how it gets there.</p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md80"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md81"></a>
 How the build invokes this</h1>
 <p><span class="tt">codegen/manifest.json</span> is the single source of truth for every generated file. Its entry for this one says:</p>
 <div class="fragment"><div class="line">&quot;Core/src/Propagator/codegen/sympy_jac_math.hpp&quot;: {</div>
@@ -147,7 +147,7 @@ How the build invokes this</h1>
 </div><!-- fragment --><p>To open it as a notebook, the only extra requirement is that the <span class="tt">codegen</span> package is importable:</p>
 <div class="fragment"><div class="line">$ uv run --with ./codegen --with jupyterlab --with jupytext \</div>
 <div class="line">      jupyter lab Core/src/Propagator/detail/generate_sympy_jac.py</div>
-</div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="autotoc_md81"></a>
+</div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="autotoc_md82"></a>
 The problem</h1>
 <p>A track is stored on a surface as six <em>bound</em> parameters with a \(6\times6\) covariance. Propagating that covariance from a surface \(A\) to a surface \(B\) needs the Jacobian of the bound parameters at \(B\) with respect to the bound parameters at \(A\),</p>
 <p class="formulaDsp">
@@ -172,7 +172,7 @@ The problem</h1>
 </table>
 <p>Doing that product with dense matrices costs \(6\cdot8\cdot8 + \ldots\) multiply-adds, and the overwhelming majority of them multiply a structural zero. All four factors are extremely sparse, and <em>which</em> entries are zero is known at compile time — it follows from the parametrisation, not from the track. That is what makes this worth generating: sympy is told the sparsity pattern of \(M = J_t J_{bf}\) and the remaining factors; the printed C++ contains only the operations that survive.</p>
 <p>The equivalent dense implementation is <span class="tt">Acts::detail::boundToBoundTransportJacobian</span> in <span class="tt">Core/src/Propagator/detail/JacobianEngine.cpp</span> — a useful reference when reading what follows, and the thing the generated code has to agree with.</p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md82"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md83"></a>
 Setup</h1>
 <p>The imports, and the one piece of dual-mode machinery: whether we are a notebook or a build step. <span class="tt">ipykernel</span> is only ever imported by a Jupyter kernel, so its presence in <span class="tt">sys.modules</span> separates the two cases without any environment variable or flag.</p>
 <div class="fragment"><div class="line"><span class="keyword">import</span> argparse</div>
@@ -230,7 +230,7 @@ Setup</h1>
 <div class="line"><span class="stringliteral">    page of symbols.</span></div>
 <div class="line"><span class="stringliteral">    &quot;&quot;&quot;</span></div>
 <div class="line">    <span class="keywordflow">return</span> sym.Matrix(*matrix.shape, <span class="keyword">lambda</span> i, j: 0 <span class="keywordflow">if</span> matrix[i, j] == 0 <span class="keywordflow">else</span> 1)</div>
-</div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="autotoc_md83"></a>
+</div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="autotoc_md84"></a>
 Parameter conventions</h1>
 <p>Both parameter vectors are fixed by ACTS and used verbatim below.</p>
 <p>The <b>free</b> vector \(r\) has eight components, indexed as in <span class="tt">Acts::FreeIndices</span>:</p>
@@ -248,7 +248,7 @@ Parameter conventions</h1>
 <td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">\(l_0,\ l_1\)  </td><td class="markdownTableBodyNone">\(\phi\)  </td><td class="markdownTableBodyNone">\(\theta\)  </td><td class="markdownTableBodyNone">\(q/p\)  </td><td class="markdownTableBodyNone">\(t\)  </td></tr>
 </table>
 <p>Note that the two orderings do not agree: free puts time third, bound puts it last. Several of the "1" entries in the matrices below are exactly that reshuffling.</p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md84"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md85"></a>
 \(M\) — the transported bound-to-free Jacobian</h1>
 <p>The stepper now transports the bound-to-free Jacobian directly: \(M = J_t J_{bf}\). The generator receives this \(8\times6\) matrix instead of multiplying the two factors again. Position depends on the initial local coordinates, angles and \(q/p\); direction depends on angles and \(q/p\); time depends on \(q/p\) and the initial time. The \(q/p\) diagonal is retained as an input, while the time column is exactly the free-time unit vector.</p>
 <p>The structural zeros are shared with the stepper and allow sympy to discard operations that cannot contribute.</p>
@@ -262,7 +262,7 @@ Parameter conventions</h1>
 <div class="line"> </div>
 <div class="line">structure(M)</div>
 </div><!-- fragment --><p>\(\displaystyle \left[\begin{matrix}1 &amp; 1 &amp; 1 &amp; 1 &amp; 1 &amp; 0\\1 &amp; 1 &amp; 1 &amp; 1 &amp; 1 &amp; 0\\1 &amp; 1 &amp; 1 &amp; 1 &amp; 1 &amp; 0\\0 &amp; 0 &amp; 0 &amp; 0 &amp; 1 &amp; 1\\0 &amp; 0 &amp; 1 &amp; 1 &amp; 1 &amp; 0\\0 &amp; 0 &amp; 1 &amp; 1 &amp; 1 &amp; 0\\0 &amp; 0 &amp; 1 &amp; 1 &amp; 1 &amp; 0\\0 &amp; 0 &amp; 0 &amp; 0 &amp; 1 &amp; 0\end{matrix}\right]\)</p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md85"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md86"></a>
 \(J_{fb}\) — free to bound at the target surface</h1>
 <p>The projection back to bound parameters, built by <span class="tt">Acts::Surface::freeToBoundJacobian</span>: local coordinates from the global position, \(\phi\) and \(\theta\) from the direction, and \(q/p\) and \(t\) passed through into their (differently numbered) bound slots.</p>
 <div class="fragment"><div class="line">J_fb_dense = MatrixSymbol(<span class="stringliteral">&quot;J_fb&quot;</span>, 6, 8).as_explicit()</div>
@@ -275,7 +275,7 @@ Parameter conventions</h1>
 <div class="line"> </div>
 <div class="line">J_fb</div>
 </div><!-- fragment --><p>\(\displaystyle \left[\begin{matrix}{J_{fb}}_{0,0} &amp; {J_{fb}}_{0,1} &amp; {J_{fb}}_{0,2} &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0\\{J_{fb}}_{1,0} &amp; {J_{fb}}_{1,1} &amp; {J_{fb}}_{1,2} &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0\\0 &amp; 0 &amp; 0 &amp; 0 &amp; {J_{fb}}_{2,4} &amp; {J_{fb}}_{2,5} &amp; {J_{fb}}_{2,6} &amp; 0\\0 &amp; 0 &amp; 0 &amp; 0 &amp; {J_{fb}}_{3,4} &amp; {J_{fb}}_{3,5} &amp; {J_{fb}}_{3,6} &amp; 0\\0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 1\\0 &amp; 0 &amp; 0 &amp; 1 &amp; 0 &amp; 0 &amp; 0 &amp; 0\end{matrix}\right]\)</p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md86"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md87"></a>
 The path-length correction</h1>
 <p>The stepper stops at the target surface, not after a fixed path length. If the start parameters are varied, the varied trajectory reaches the surface after a <em>different</em> path length, and the free parameters have to be walked forward (or back) along the trajectory to the surface before being projected onto it. To first order that is</p>
 <p class="formulaDsp">
@@ -301,7 +301,7 @@ s}\frac{\partial s}{\partial r}\) sandwiched between \(J_t\) and \(J_{fb}\) in t
 <div class="line"> </div>
 <div class="line">surface_path_derivatives</div>
 </div><!-- fragment --><p>\(\displaystyle \left[\begin{matrix}{surface_{path derivatives}}_{0,0} &amp; {surface_{path derivatives}}_{0,1} &amp; {surface_{path derivatives}}_{0,2} &amp; 0 &amp; {surface_{path derivatives}}_{0,4} &amp; {surface_{path derivatives}}_{0,5} &amp; {surface_{path derivatives}}_{0,6} &amp; 0\end{matrix}\right]\)</p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md87"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md88"></a>
 The generic product</h1>
 <p>With \(J_t J_{bf}\) already transported as \(M\), the assembly is one line. <span class="tt">name_expr</span> pairs an expression with the symbol the generated code should assign it to — here a \(6\times6\) <span class="tt">MatrixSymbol</span> called <span class="tt">J_full</span>, which becomes the output span in the C++ signature.</p>
 <div class="fragment"><div class="line">J_full_generic = name_expr(</div>
@@ -324,7 +324,7 @@ The generic product</h1>
 
 
 after CSE:         342 operations
-</pre><h1 class="doxsection"><a class="anchor" id="autotoc_md88"></a>
+</pre><h1 class="doxsection"><a class="anchor" id="autotoc_md89"></a>
 The curvilinear special case</h1>
 <p>Propagating to a curvilinear frame — the plane through the current position perpendicular to the direction — is common enough to be worth its own function. There the intersection condition is explicit: the plane is perpendicular to \(\vec d\), so moving the free position by \(\delta\vec r\) changes the path length to the plane by \(-\vec d \cdot \delta \vec r\), and nothing else contributes. \(\partial s / \partial r\) collapses from six unknown entries to \((-\vec d^{\,T}, 0, 0, 0, 0, 0)\), which sympy then multiplies out.</p>
 <p>Everything else in the product is unchanged, so only this factor is rebuilt.</p>
@@ -343,7 +343,7 @@ The curvilinear special case</h1>
 <div class="line"> </div>
 <div class="line">surface_path_derivatives_curvilinear</div>
 </div><!-- fragment --><p>\(\displaystyle \left[\begin{matrix}- {dir}_{0,0} &amp; - {dir}_{1,0} &amp; - {dir}_{2,0} &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0\end{matrix}\right]\)</p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md89"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md90"></a>
 The shape the covariance transport assumes</h1>
 <p>That structure is not just an observation: the <em>next</em> generator in the chain is built on them. <span class="tt">generate_sympy_cov.py</span>, which prints \(C \mapsto J C J^{T}\) for the bound covariance, masks its <span class="tt">J_full</span> input down to exactly this shape before multiplying, so that the zeros cost nothing there either.</p>
 <p>Nothing links the two files, so if a change here made an entry outside that shape live, the covariance transport would silently drop it. Rather than leave that to chance, assert the shape at generation time: a violation stops the build with an error instead of quietly producing a wrong covariance.</p>
@@ -382,7 +382,7 @@ The shape the covariance transport assumes</h1>
 <div class="line"><span class="keywordflow">if</span> RUN_CHECKS:</div>
 <div class="line">    check_curvilinear_is_generic_specialised()</div>
 <div class="line">    check_covariance_transport_sparsity(J_full_generic.expr)</div>
-</div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="autotoc_md90"></a>
+</div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="autotoc_md91"></a>
 From expressions to C++</h1>
 <p>The printing side is shared with every other ACTS generator and lives in <span class="tt">codegen/src/codegen/sympy_common.py</span>. <span class="tt">my_expression_print</span> does three things:</p>
 <ol type="1">
@@ -414,7 +414,7 @@ From expressions to C++</h1>
 <div class="line">    <span class="stringliteral">&quot; std::span&lt;const T, 8&gt; step_path_derivatives,&quot;</span></div>
 <div class="line">    <span class="stringliteral">&quot; std::span&lt;const T, 3&gt; dir, std::span&lt;T, 36&gt; J_full)&quot;</span></div>
 <div class="line">)</div>
-</div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="autotoc_md91"></a>
+</div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="autotoc_md92"></a>
 The generated header</h1>
 <p>Assemble the file: licence header, include guard, and the two functions.</p>
 <div class="fragment"><div class="line">HEADER = <span class="stringliteral">&quot;&quot;&quot;// This file is part of the ACTS project.</span></div>

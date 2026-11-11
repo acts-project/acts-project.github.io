@@ -103,7 +103,8 @@ var group__json__plugin =
         [ "decodeVolumeBounds", "struct_acts_1_1_tracking_geometry_json_converter_1_1_config.html#ab33c98b6639e337c38771cd9a66d2350", null ],
         [ "encodeNavigationPolicy", "struct_acts_1_1_tracking_geometry_json_converter_1_1_config.html#acb3fcf85696bdf558d832fc8dc021323", null ],
         [ "encodePortalLink", "struct_acts_1_1_tracking_geometry_json_converter_1_1_config.html#a9dde2c527527b1cee81fe4389a228fcf", null ],
-        [ "encodeVolumeBounds", "struct_acts_1_1_tracking_geometry_json_converter_1_1_config.html#ac01e7b99e26a0d143d29b9845427a53d", null ]
+        [ "encodeVolumeBounds", "struct_acts_1_1_tracking_geometry_json_converter_1_1_config.html#ac01e7b99e26a0d143d29b9845427a53d", null ],
+        [ "materialConfig", "struct_acts_1_1_tracking_geometry_json_converter_1_1_config.html#a1e1264db024fdc3a5ad1d57e14eaae55", null ]
       ] ],
       [ "IdToPointerLikeLookup", "struct_acts_1_1_tracking_geometry_json_converter_1_1_id_to_pointer_like_lookup.html", null ],
       [ "Options", "struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html", [
@@ -111,6 +112,7 @@ var group__json__plugin =
         [ "defaultOptions", "struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#ad91b4499b5bc1092e6892bbcaefc4ee1", null ],
         [ "compressionLevel", "struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#a3764ff34cc3a49f81ed323c6ebe1ebbc", null ],
         [ "indentation", "struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#ab61f52690c0cedd1ba20d8eee2012052", null ],
+        [ "materialOptions", "struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#a4042872846c3827168e522391d8c8a05", null ],
         [ "writeMaterial", "struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#a16dd03f80e6462e2d5d89b00ed317f1b", null ]
       ] ],
       [ "PointerToIdLookup", "struct_acts_1_1_tracking_geometry_json_converter_1_1_pointer_to_id_lookup.html", null ],
