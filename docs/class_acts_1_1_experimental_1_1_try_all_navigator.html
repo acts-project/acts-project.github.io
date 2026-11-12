@@ -245,7 +245,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Check if the target is still valid. </p>
 <p>This method checks if the target is valid based on the current position and direction. It returns true if the target is still valid.</p>
-<p>For the TryAllNavigator, the target is always invalid since we do not want to assume any specific surface sequence over multiple steps.</p>
+<p>For the TryAllNavigator, a target ahead is always invalid since we do not want to assume any specific surface sequence over multiple steps. A target behind, found on the last step, stays valid until it is reached or becomes unreachable.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">state</td><td>The navigation state </td></tr>
