@@ -1,5 +1,8 @@
 var NAVTREEINDEX103 =
 {
+"structdetray_1_1vc__soa.html#a5863ddff1d9b54dd6d6b4e008c16e17f":[8,0,3,208,3],
+"structdetray_1_1vc__soa.html#a652e789cb615b0a1d48298fec7b06543":[6,0,4,195,7],
+"structdetray_1_1vc__soa.html#a652e789cb615b0a1d48298fec7b06543":[8,0,3,208,7],
 "structdetray_1_1vc__soa.html#a7e35a8565ac103f115b4f418ed4830e2":[6,0,4,195,6],
 "structdetray_1_1vc__soa.html#a7e35a8565ac103f115b4f418ed4830e2":[8,0,3,208,6],
 "structdetray_1_1vc__soa.html#a80096974b207a5a51d3fadb4fe91479c":[6,0,4,195,10],

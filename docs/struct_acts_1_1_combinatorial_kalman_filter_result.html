@@ -161,6 +161,8 @@ std::vector&lt; <a class="el" href="#aee765c2e0fc9de1426e4c26bdb9d5974">TrackPro
 <tr class="memitem:ad2700e631c01f620f6f9a3cc918cbf8e" id="r_ad2700e631c01f620f6f9a3cc918cbf8e"><td class="memItemLeft" align="right" valign="top"><a id="ad2700e631c01f620f6f9a3cc918cbf8e" name="ad2700e631c01f620f6f9a3cc918cbf8e"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>finished</b> = false</td></tr>
 <tr class="memdesc:ad2700e631c01f620f6f9a3cc918cbf8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicator if track finding has been done. <br /></td></tr>
+<tr class="memitem:a8f56c400c28364d75fa408b2c237a888" id="r_a8f56c400c28364d75fa408b2c237a888"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f56c400c28364d75fa408b2c237a888">pathLengthOffset</a> = 0</td></tr>
+<tr class="memdesc:a8f56c400c28364d75fa408b2c237a888"><td class="mdescLeft">&#160;</td><td class="mdescRight">Path length of the branch tip at the last restart of the stepper.  <br /></td></tr>
 <tr class="memitem:a00c98956d536de14d80156261a8b990b" id="r_a00c98956d536de14d80156261a8b990b"><td class="memItemLeft" align="right" valign="top"><a id="a00c98956d536de14d80156261a8b990b" name="a00c98956d536de14d80156261a8b990b"></a>
 <a class="el" href="struct_acts_1_1_path_limit_reached.html">PathLimitReached</a>&#160;</td><td class="memItemRight" valign="bottom"><b>pathLimitReached</b></td></tr>
 <tr class="memdesc:a00c98956d536de14d80156261a8b990b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Path limit aborter. <br /></td></tr>
@@ -201,6 +203,26 @@ template&lt;typename track_container_t&gt; </div>
 <div class="line">      <span class="keyword">typename</span> track_container_t::TrackStateContainerBackend</div>
 </div><!-- fragment -->
 <p>Track state container backend type. </p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a8f56c400c28364d75fa408b2c237a888" name="a8f56c400c28364d75fa408b2c237a888"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f56c400c28364d75fa408b2c237a888">&#9670;&#160;</a></span>pathLengthOffset</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename track_container_t&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">double <a class="el" href="struct_acts_1_1_combinatorial_kalman_filter_result.html">Acts::CombinatorialKalmanFilterResult</a>&lt; track_container_t &gt;::pathLengthOffset = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Path length of the branch tip at the last restart of the stepper. </p>
+<p>The stepper counts its path length from zero after a restart. </p>
 
 </div>
 </div>

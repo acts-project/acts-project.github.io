@@ -1,5 +1,8 @@
 var NAVTREEINDEX87 =
 {
+"structdetray_1_1aluminium.html":[8,0,3,23],
+"structdetray_1_1aluminium.html#a81256659bc81b5f11eaf9f0a25cf6afa":[6,0,4,10,0],
+"structdetray_1_1aluminium.html#a81256659bc81b5f11eaf9f0a25cf6afa":[8,0,3,23,0],
 "structdetray_1_1always__init.html":[6,0,4,11],
 "structdetray_1_1always__init.html":[8,0,3,24],
 "structdetray_1_1always__init.html#a0a16826578e366d7c0fea08162b62df8":[6,0,4,11,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX87 =
 "structdetray_1_1bound__parameters__vector.html#a86b3797f5b9aeaf2cb9dd6820b92d71a":[6,0,4,27,10],
 "structdetray_1_1bound__parameters__vector.html#a86b3797f5b9aeaf2cb9dd6820b92d71a":[8,0,3,40,10],
 "structdetray_1_1bound__parameters__vector.html#a88ff855d799e402d57d17ceaf236249b":[6,0,4,27,29],
-"structdetray_1_1bound__parameters__vector.html#a88ff855d799e402d57d17ceaf236249b":[8,0,3,40,29],
-"structdetray_1_1bound__parameters__vector.html#a8c0be31cf12ed1f9f2b04085eeb74d4f":[6,0,4,27,24],
-"structdetray_1_1bound__parameters__vector.html#a8c0be31cf12ed1f9f2b04085eeb74d4f":[8,0,3,40,24],
-"structdetray_1_1bound__parameters__vector.html#a8d34b23eccec01e8012e71a4253d6057":[6,0,4,27,31]
+"structdetray_1_1bound__parameters__vector.html#a88ff855d799e402d57d17ceaf236249b":[8,0,3,40,29]
 };

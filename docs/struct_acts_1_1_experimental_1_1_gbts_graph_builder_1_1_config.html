@@ -150,6 +150,8 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>d0Max</b> = 3.0f * <
 <tr class="memitem:a899bbbaf2b159a693fa0007ca217792a" id="r_a899bbbaf2b159a693fa0007ca217792a"><td class="memItemLeft" align="right" valign="top"><a id="a899bbbaf2b159a693fa0007ca217792a" name="a899bbbaf2b159a693fa0007ca217792a"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>doubletFilterRZ</b> = true</td></tr>
 <tr class="memdesc:a899bbbaf2b159a693fa0007ca217792a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply RZ cuts on doublets. <br /></td></tr>
+<tr class="memitem:aca4a603817ea22ba71447b70ee4f81f9" id="r_aca4a603817ea22ba71447b70ee4f81f9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca4a603817ea22ba71447b70ee4f81f9">dropDeadEnds</a> = true</td></tr>
+<tr class="memdesc:aca4a603817ea22ba71447b70ee4f81f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Leave out edges whose chain cannot grow beyond the edge itself, too short for a seed.  <br /></td></tr>
 <tr class="memitem:a75a8ffc9f77a794cdc04497e2c800d5e" id="r_a75a8ffc9f77a794cdc04497e2c800d5e"><td class="memItemLeft" align="right" valign="top"><a id="a75a8ffc9f77a794cdc04497e2c800d5e" name="a75a8ffc9f77a794cdc04497e2c800d5e"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>matchBeforeCreate</b> = false</td></tr>
 <tr class="memdesc:a75a8ffc9f77a794cdc04497e2c800d5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Match seeds before creating them. <br /></td></tr>
@@ -239,6 +241,23 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>z0Resolution</b> = 2
 
 <p>Resolve a doublet's strip endpoints against its own direction before cutting on them. </p>
 <p>Nothing is written back; the correction belongs to the pair. </p>
+
+</div>
+</div>
+<a id="aca4a603817ea22ba71447b70ee4f81f9" name="aca4a603817ea22ba71447b70ee4f81f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca4a603817ea22ba71447b70ee4f81f9">&#9670;&#160;</a></span>dropDeadEnds</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Acts::Experimental::GbtsGraphBuilder::Config::dropDeadEnds = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Leave out edges whose chain cannot grow beyond the edge itself, too short for a seed. </p>
+<p>An edge of an inner bin that no connection leads into is never extended inwards, so it is kept only if it links to an outer edge, and outer nodes without edges are not tried for it. The seeds are unchanged unless the edge array reaches <span class="tt">maxEdgesPerSP</span>. </p>
 
 </div>
 </div>

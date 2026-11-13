@@ -81,9 +81,10 @@ var searchData=
   ['dpds_78',['dPds',['../struct_acts_1_1_eigen_stepper_dense_extension.html#ab4727c2e62837553180e1806a5f7ed1f',1,'Acts::EigenStepperDenseExtension']]],
   ['dqopds_79',['dqopds',['../structdetray_1_1rk__stepper_1_1intermediate__state.html#a61c2dd6b641544e5ed677a673f5ab66e',1,'detray::rk_stepper::intermediate_state']]],
   ['dropafterreached_80',['dropAfterReached',['../struct_acts_1_1_additional_surface.html#a64c2980b6a4e965d2888c77d567734dd',1,'Acts::AdditionalSurface']]],
-  ['ds_81',['ds',['../struct_acts_1_1_ccl_1_1_clustering_data.html#a827c711277c8bae2adaefdeba2573ed4',1,'Acts::Ccl::ClusteringData']]],
-  ['dst_82',['dst',['../struct_acts_1_1_experimental_1_1_gbts_layer_connection.html#af62958b7e74dc933fe74d4397a922bf0',1,'Acts::Experimental::GbtsLayerConnection']]],
-  ['dtds_83',['dtds',['../struct_acts_1_1_sympy_stepper_1_1_state.html#afe22eee28edcd607ab5bd34db9cef411',1,'Acts::SympyStepper::State::dtds'],['../structdetray_1_1rk__stepper_1_1intermediate__state.html#a69c2054e97610102d4e95873f5dc8b94',1,'detray::rk_stepper::intermediate_state::dtds']]],
-  ['dtheta_84',['dTheta',['../struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_two_circle_tangent_pars.html#aa688e7412c574acb5fe380b855c8204a',1,'Acts::Experimental::CompositeSpacePointLineSeeder::TwoCircleTangentPars']]],
-  ['dy0_85',['dY0',['../struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_two_circle_tangent_pars.html#a12f9c504ee52652e24661736dc465267',1,'Acts::Experimental::CompositeSpacePointLineSeeder::TwoCircleTangentPars']]]
+  ['dropdeadends_81',['dropDeadEnds',['../struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#aca4a603817ea22ba71447b70ee4f81f9',1,'Acts::Experimental::GbtsGraphBuilder::Config']]],
+  ['ds_82',['ds',['../struct_acts_1_1_ccl_1_1_clustering_data.html#a827c711277c8bae2adaefdeba2573ed4',1,'Acts::Ccl::ClusteringData']]],
+  ['dst_83',['dst',['../struct_acts_1_1_experimental_1_1_gbts_layer_connection.html#af62958b7e74dc933fe74d4397a922bf0',1,'Acts::Experimental::GbtsLayerConnection']]],
+  ['dtds_84',['dtds',['../struct_acts_1_1_sympy_stepper_1_1_state.html#afe22eee28edcd607ab5bd34db9cef411',1,'Acts::SympyStepper::State::dtds'],['../structdetray_1_1rk__stepper_1_1intermediate__state.html#a69c2054e97610102d4e95873f5dc8b94',1,'detray::rk_stepper::intermediate_state::dtds']]],
+  ['dtheta_85',['dTheta',['../struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_two_circle_tangent_pars.html#aa688e7412c574acb5fe380b855c8204a',1,'Acts::Experimental::CompositeSpacePointLineSeeder::TwoCircleTangentPars']]],
+  ['dy0_86',['dY0',['../struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_two_circle_tangent_pars.html#a12f9c504ee52652e24661736dc465267',1,'Acts::Experimental::CompositeSpacePointLineSeeder::TwoCircleTangentPars']]]
 ];

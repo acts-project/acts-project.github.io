@@ -6,6 +6,7 @@ var struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config =
     [ "cutDPhiMax", "struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#ad13ab5d8a6ab0a5f885bea1892e00e66", null ],
     [ "d0Max", "struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a3d7b8ac524af9fa06ee6949c3c2d6e00", null ],
     [ "doubletFilterRZ", "struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a899bbbaf2b159a693fa0007ca217792a", null ],
+    [ "dropDeadEnds", "struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#aca4a603817ea22ba71447b70ee4f81f9", null ],
     [ "matchBeforeCreate", "struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a75a8ffc9f77a794cdc04497e2c800d5e", null ],
     [ "matchBeforeCreateMaxBarrelOrder", "struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a5eb7d6c7cbbeff0313f3aeabf65dc8db", null ],
     [ "matchBeforeCreateMaxEdges", "struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a2658fd10a8726aecc35e32bd4c81b014", null ],

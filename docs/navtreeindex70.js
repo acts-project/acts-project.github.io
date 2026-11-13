@@ -1,5 +1,8 @@
 var NAVTREEINDEX70 =
 {
+"struct_acts_1_1_experimental_1_1_gbts_tau_bounds.html#a247d67503d289dbc1807b579118fde64":[8,0,0,2,32,2],
+"struct_acts_1_1_experimental_1_1_gbts_tau_bounds.html#a72a3d01a6e8fb06350fee06080893110":[6,0,0,1,32,3],
+"struct_acts_1_1_experimental_1_1_gbts_tau_bounds.html#a72a3d01a6e8fb06350fee06080893110":[8,0,0,2,32,3],
 "struct_acts_1_1_experimental_1_1_gbts_tau_bounds.html#a83a4894c7e075d84bd8ee4bf4ba52fe8":[6,0,0,1,32,0],
 "struct_acts_1_1_experimental_1_1_gbts_tau_bounds.html#a83a4894c7e075d84bd8ee4bf4ba52fe8":[8,0,0,2,32,0],
 "struct_acts_1_1_experimental_1_1_gbts_tau_bounds.html#ace805d7e57e8e3293aeb67bcd67076ab":[6,0,0,1,32,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX70 =
 "struct_acts_1_1_experimental_1_1_scattering_properties.html#a274350757314c6773ae659910e767239":[5,13,10,3],
 "struct_acts_1_1_experimental_1_1_scattering_properties.html#a2bebe68bd02a62f7689ebd477c511a74":[5,13,10,0],
 "struct_acts_1_1_experimental_1_1_scattering_properties.html#a7d14107e03a8a5f6441eb8a1e7f9db3d":[5,13,10,4],
-"struct_acts_1_1_experimental_1_1_scattering_properties.html#aae5250d2a8772a2cf2f4a37bb2a8b415":[5,13,10,1],
-"struct_acts_1_1_experimental_1_1_scattering_properties.html#ae2e40bad69374ec2a4d993e6a959c4c2":[5,13,10,2],
-"struct_acts_1_1_experimental_1_1_spherical_space_point_grid_1_1_config.html":[6,0,0,1,59,0],
-"struct_acts_1_1_experimental_1_1_spherical_space_point_grid_1_1_config.html":[8,0,0,2,59,0]
+"struct_acts_1_1_experimental_1_1_scattering_properties.html#aae5250d2a8772a2cf2f4a37bb2a8b415":[5,13,10,1]
 };

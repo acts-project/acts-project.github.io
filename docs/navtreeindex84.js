@@ -1,5 +1,8 @@
 var NAVTREEINDEX84 =
 {
+"struct_acts_plugins_1_1_geo_model_detector_object_factory_1_1_options.html":[5,10,8,2,3],
+"struct_acts_plugins_1_1_geo_model_detector_object_factory_1_1_options.html#a3822869a40daaba6a7d06d5e1dbb812d":[5,10,8,2,3,0],
+"struct_acts_plugins_1_1_geo_model_tree.html":[5,10,8,3],
 "struct_acts_plugins_1_1_geo_model_tree.html#a065da70d7db6f00c53a548940bc9343c":[5,10,8,3,4],
 "struct_acts_plugins_1_1_geo_model_tree.html#a56cc217a558a6140036c03ad3af1db3c":[5,10,8,3,6],
 "struct_acts_plugins_1_1_geo_model_tree.html#a754a20da925365c5e7832f8e0a8e69da":[5,10,8,3,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX84 =
 "struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html":[5,10,6,19,0],
 "struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#a784c0c55a0a9f407c565e72b09297998":[5,10,6,19,0,5],
 "struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#a9ce9e6d34a76f7971c01bcd938110ecd":[5,10,6,19,0,7],
-"struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#aa8eaaf40b2c763310a16774465d125f1":[5,10,6,19,0,0],
-"struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#aad5017f4e550af46cfc538c2a0de4952":[5,10,6,19,0,4],
-"struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#aba7188d23a4425717cfcd77d8b128b60":[5,10,6,19,0,3],
-"struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#ad3d9b3eb45c5d293942df89182d3a625":[5,10,6,19,0,6]
+"struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#aa8eaaf40b2c763310a16774465d125f1":[5,10,6,19,0,0]
 };

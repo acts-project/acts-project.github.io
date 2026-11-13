@@ -244,6 +244,7 @@ r_1\}\).</p>
 <li><span class="tt">matchBeforeCreate</span> (off by default, limited by <span class="tt">matchBeforeCreateMaxBarrelOrder</span>) demands the \(\tau\) half of the triplet test <em>before</em> the edge exists: \(n_2\) must already carry an incoming edge whose \(\tau\) agrees with the candidate's within <span class="tt">tauRatioPrecut</span>. A node with two or fewer incoming edges passes unconditionally, there being too little evidence to reject it.</li>
 <li>Every inner node accumulates a 16-bit \(z_0\) <b>histogram bitmask</b> of its confirmed edges. On the layers down to <span class="tt">z0HistogramMaxBarrelOrder</span> that mask rejects candidates whose \(z_0\) falls in an empty bin, and nodes with no connections at all are skipped outright.</li>
 </ul>
+<p>Edges of an inner bin that no connection leads into, in practice the innermost pixel barrel layer, are never extended inwards. With <span class="tt">dropDeadEnds</span> (on by default) such an edge is kept only if it links to an outer edge, and outer nodes without edges are not tried for it. Neither could be part of a seed, so the seeds are unchanged while the graph and the edge array shrink.</p>
 <h2 class="doxsection"><a class="anchor" id="gbts-levels"></a>
 Chain levels</h2>
 <p>With the edge graph built, every edge gets a <b>level</b>: the length of the longest chain of linked edges going outwards from it, so an edge that nothing further out links to is at level 1. An edge only links to edges further in, which are always created after it, so a single pass over the edges in creation order settles every level. Chains longer than <span class="tt">maxChainLength</span> edges are left unsettled and take no part in the extraction.</p>
@@ -287,8 +288,10 @@ Configuration</h2>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><span class="tt">maxEdgesPerSP</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-graph">Building the graph</a>  </td><td class="markdownTableBodyNone">cap on the edge array per space point (30 by default); exceeding it costs efficiency  </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><span class="tt">matchBeforeCreate</span>, <span class="tt">tauRatioPrecut</span>, <span class="tt">matchBeforeCreateMaxBarrelOrder</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-graph">Building the graph</a>  </td><td class="markdownTableBodyNone">require a compatible incoming edge before creating one, down to that depth in the pixel barrel  </td></tr>
+<td class="markdownTableBodyNone"><span class="tt">dropDeadEnds</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-graph">Building the graph</a>  </td><td class="markdownTableBodyNone">leave out the innermost edges that cannot join a chain (on by default); the seeds are unchanged  </td></tr>
 <tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">matchBeforeCreate</span>, <span class="tt">tauRatioPrecut</span>, <span class="tt">matchBeforeCreateMaxBarrelOrder</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-graph">Building the graph</a>  </td><td class="markdownTableBodyNone">require a compatible incoming edge before creating one, down to that depth in the pixel barrel  </td></tr>
+<tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><span class="tt">z0HistogramMaxBarrelOrder</span>, <span class="tt">z0Resolution</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-graph">Building the graph</a>  </td><td class="markdownTableBodyNone">\(z_0\) histogram cut, down to that depth in the pixel barrel  </td></tr>
 </table>
 <p>The rest are on <a class="el" href="class_acts_1_1_experimental_1_1_graph_based_track_seeder.html">GraphBasedTrackSeeder::Config</a>:</p>

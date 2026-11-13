@@ -1,5 +1,8 @@
 var NAVTREEINDEX72 =
 {
+"struct_acts_1_1_generic_runge_kutta_stepper_1_1_state.html#a17bd47cce19378680b53e54964a2c4bc":[8,0,0,164,2,2],
+"struct_acts_1_1_generic_runge_kutta_stepper_1_1_state.html#a288dfb72d29d677a9db42681e00dac00":[6,0,0,159,2,1],
+"struct_acts_1_1_generic_runge_kutta_stepper_1_1_state.html#a288dfb72d29d677a9db42681e00dac00":[8,0,0,164,2,1],
 "struct_acts_1_1_generic_runge_kutta_stepper_1_1_state.html#a2d65b45f8eddd3ab11dc684ca683c799":[6,0,0,159,2,0],
 "struct_acts_1_1_generic_runge_kutta_stepper_1_1_state.html#a2d65b45f8eddd3ab11dc684ca683c799":[8,0,0,164,2,0],
 "struct_acts_1_1_generic_runge_kutta_stepper_1_1_state.html#a2fb774b611dbe56a370d85ad65eac0e2":[6,0,0,159,2,14],
@@ -246,8 +249,5 @@ var NAVTREEINDEX72 =
 "struct_acts_1_1_gsf_options.html#ab1f4fdb6cf96b33857e0e070c8156512":[5,13,15,11],
 "struct_acts_1_1_gsf_options.html#ab40e2071c2a5686d979208cc5a92a912":[5,13,15,9],
 "struct_acts_1_1_gsf_options.html#ae78fe7859ab94acac17312823dd57621":[5,13,15,10],
-"struct_acts_1_1_gsf_options.html#aeee4d872e28d82703ebbc93c5904ffa0":[5,13,15,1],
-"struct_acts_1_1_gsf_options.html#aef2b39b4e7d66946c5b5fb5ab065f50b":[5,13,15,14],
-"struct_acts_1_1_helical_track_linearizer_1_1_config.html":[6,0,0,183,0],
-"struct_acts_1_1_helical_track_linearizer_1_1_config.html":[8,0,0,188,0]
+"struct_acts_1_1_gsf_options.html#aeee4d872e28d82703ebbc93c5904ffa0":[5,13,15,1]
 };
