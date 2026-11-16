@@ -140,8 +140,8 @@ Classes</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a9d1ef8ae74732e497799e5bafcc2d6c9" id="r_a9d1ef8ae74732e497799e5bafcc2d6c9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d1ef8ae74732e497799e5bafcc2d6c9">NumericalTrackLinearizer</a> (const <a class="el" href="struct_acts_1_1_numerical_track_linearizer_1_1_config.html">Config</a> &amp;config, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &gt; _logger=<a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">getDefaultLogger</a>(&quot;NumTrkLinProp&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Logging::INFO</a>))</td></tr>
 <tr class="memdesc:a9d1ef8ae74732e497799e5bafcc2d6c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
-<tr class="memitem:a7141d2c42078f5cb666382c051189b64" id="r_a7141d2c42078f5cb666382c051189b64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="struct_acts_1_1_linearized_track.html">LinearizedTrack</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7141d2c42078f5cb666382c051189b64">linearizeTrack</a> (const <a class="el" href="class_acts_1_1_bound_track_parameters.html">BoundTrackParameters</a> &amp;params, double linPointTime, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;perigeeSurface, const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_magnetic_field_context.html">Acts::MagneticFieldContext</a> &amp;mctx, <a class="el" href="class_acts_1_1_magnetic_field_provider.html#a1f11a18dff2bb4106d1c1f76ff25e1d9">MagneticFieldProvider::Cache</a> &amp;) const</td></tr>
-<tr class="memdesc:a7141d2c42078f5cb666382c051189b64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that linearizes BoundTrackParameters at the PCA to a given Perigee surface.  <br /></td></tr>
+<tr class="memitem:a963bea900e77c27a76aa2923e01a56d1" id="r_a963bea900e77c27a76aa2923e01a56d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="struct_acts_1_1_linearized_track.html">LinearizedTrack</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a963bea900e77c27a76aa2923e01a56d1">linearizeTrack</a> (const <a class="el" href="class_acts_1_1_bound_track_parameters.html">BoundTrackParameters</a> &amp;params, double linPointTime, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;perigeeSurface, const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, <a class="el" href="class_acts_1_1_magnetic_field_query.html">MagneticFieldQuery</a> &amp;fieldQuery) const</td></tr>
+<tr class="memdesc:a963bea900e77c27a76aa2923e01a56d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Linearize using propagation; no separate field lookup is needed.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Linearizes the track parameters at the PCA to a user-provided point (linPoint). </p>
@@ -193,8 +193,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a7141d2c42078f5cb666382c051189b64" name="a7141d2c42078f5cb666382c051189b64"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7141d2c42078f5cb666382c051189b64">&#9670;&#160;</a></span>linearizeTrack()</h2>
+<a id="a963bea900e77c27a76aa2923e01a56d1" name="a963bea900e77c27a76aa2923e01a56d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a963bea900e77c27a76aa2923e01a56d1">&#9670;&#160;</a></span>linearizeTrack()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -217,39 +217,28 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="class_acts_1_1_magnetic_field_context.html">Acts::MagneticFieldContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mctx</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_acts_1_1_magnetic_field_provider.html#a1f11a18dff2bb4106d1c1f76ff25e1d9">MagneticFieldProvider::Cache</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;) const</td>
+          <td class="paramtype"><a class="el" href="class_acts_1_1_magnetic_field_query.html">MagneticFieldQuery</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>fieldQuery</em></span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Function that linearizes BoundTrackParameters at the PCA to a given Perigee surface. </p>
+<p>Linearize using propagation; no separate field lookup is needed. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">params</td><td>Parameters to linearize </td></tr>
-    <tr><td class="paramname">linPointTime</td><td>Time associated to the linearization point </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section note"><dt>Note</dt><dd>Transverse plane of the Perigee corresponding to <code class="param">linPoint</code> is parallel to the global x-y plane </dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">perigeeSurface</td><td>Perigee surface belonging to <code class="param">linPoint</code> </td></tr>
+    <tr><td class="paramname">linPointTime</td><td>Time of the linearization point </td></tr>
+    <tr><td class="paramname">perigeeSurface</td><td>Surface defining the linearization point </td></tr>
     <tr><td class="paramname">gctx</td><td>Geometry context </td></tr>
-    <tr><td class="paramname">mctx</td><td>Magnetic field context</td></tr>
+    <tr><td class="paramname">fieldQuery</td><td>Query supplying the context for propagation </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Linearized track </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Linearized track or a propagation error </dd></dl>
 
 </div>
 </div>

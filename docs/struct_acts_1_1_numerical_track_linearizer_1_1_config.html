@@ -133,21 +133,16 @@ $(function(){initNavTree('struct_acts_1_1_numerical_track_linearizer_1_1_config.
 <div class="dynheader">
 Collaboration diagram for Acts::NumericalTrackLinearizer::Config:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="struct_acts_1_1_numerical_track_linearizer_1_1_config__coll__graph.svg" width="100%" height="404"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="struct_acts_1_1_numerical_track_linearizer_1_1_config__coll__graph.svg" width="338" height="274"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:acae8a0e9e16bc3d9c7db0034ab53ed9c" id="r_acae8a0e9e16bc3d9c7db0034ab53ed9c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acae8a0e9e16bc3d9c7db0034ab53ed9c">Config</a> (std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_base_propagator.html">BasePropagator</a> &gt; prop)</td></tr>
-<tr class="memdesc:acae8a0e9e16bc3d9c7db0034ab53ed9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Config constructor without B field -&gt; uses NullBField.  <br /></td></tr>
-<tr class="memitem:a9f9f1d28aed0cf1df18880d78ac71daa" id="r_a9f9f1d28aed0cf1df18880d78ac71daa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f9f1d28aed0cf1df18880d78ac71daa">Config</a> (std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_magnetic_field_provider.html">MagneticFieldProvider</a> &gt; bIn, std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_base_propagator.html">BasePropagator</a> &gt; prop)</td></tr>
-<tr class="memdesc:a9f9f1d28aed0cf1df18880d78ac71daa"><td class="mdescLeft">&#160;</td><td class="mdescRight">@ Config constructor if magnetic field is present  <br /></td></tr>
+<tr class="memdesc:acae8a0e9e16bc3d9c7db0034ab53ed9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct the configuration with a propagator.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a1442c56154ad29584473f1387aabcdb0" id="r_a1442c56154ad29584473f1387aabcdb0"><td class="memItemLeft" align="right" valign="top"><a id="a1442c56154ad29584473f1387aabcdb0" name="a1442c56154ad29584473f1387aabcdb0"></a>
-std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_magnetic_field_provider.html">MagneticFieldProvider</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>bField</b></td></tr>
-<tr class="memdesc:a1442c56154ad29584473f1387aabcdb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Magnetic field provider for numerical linearization. <br /></td></tr>
 <tr class="memitem:aa87b3b8ef9f0ca545f2cbf191f8d6055" id="r_aa87b3b8ef9f0ca545f2cbf191f8d6055"><td class="memItemLeft" align="right" valign="top"><a id="aa87b3b8ef9f0ca545f2cbf191f8d6055" name="aa87b3b8ef9f0ca545f2cbf191f8d6055"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><b>delta</b> = 1e-8</td></tr>
 <tr class="memdesc:aa87b3b8ef9f0ca545f2cbf191f8d6055"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setting size of the perturbation delta for calculation of numerical derivatives (i.e., f'(x) ~ (f(x+delta) - f(x)) / delta). <br /></td></tr>
@@ -161,46 +156,8 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>targetTolerance</b>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Configuration struct. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a9f9f1d28aed0cf1df18880d78ac71daa" name="a9f9f1d28aed0cf1df18880d78ac71daa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f9f1d28aed0cf1df18880d78ac71daa">&#9670;&#160;</a></span>Config() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Acts::NumericalTrackLinearizer::Config::Config </td>
-          <td>(</td>
-          <td class="paramtype">std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_magnetic_field_provider.html">MagneticFieldProvider</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>bIn</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_base_propagator.html">BasePropagator</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>prop</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel explicit">explicit</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>@ Config constructor if magnetic field is present </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">bIn</td><td>The magnetic field </td></tr>
-    <tr><td class="paramname">prop</td><td>The propagator </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
 <a id="acae8a0e9e16bc3d9c7db0034ab53ed9c" name="acae8a0e9e16bc3d9c7db0034ab53ed9c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acae8a0e9e16bc3d9c7db0034ab53ed9c">&#9670;&#160;</a></span>Config() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acae8a0e9e16bc3d9c7db0034ab53ed9c">&#9670;&#160;</a></span>Config()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -222,7 +179,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>targetTolerance</b>
 </table>
 </div><div class="memdoc">
 
-<p>Config constructor without B field -&gt; uses NullBField. </p>
+<p>Construct the configuration with a propagator. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">prop</td><td>Propagator </td></tr>

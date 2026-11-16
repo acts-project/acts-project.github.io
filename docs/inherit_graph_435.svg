@@ -11,10 +11,10 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="struct_acts_1_1_ranges_1_1to__adaptor.html" target="_top" xlink:title="Adaptor for converting a range to a container.">
-<polygon fill="white" stroke="#666666" points="137.5,-33.5 0,-33.5 0,0 137.5,0 137.5,-33.5"/>
-<text xml:space="preserve" text-anchor="start" x="8" y="-20" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Ranges::to_adaptor</text>
-<text xml:space="preserve" text-anchor="middle" x="68.75" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; Container &gt;</text>
+<g id="a_Node000000"><a xlink:href="struct_acts_1_1_proxy_accessor_base.html" target="_top" xlink:title="Utility class that eases accessing dynamic columns in track and track state containers.">
+<polygon fill="white" stroke="#666666" points="138.25,-33.5 0,-33.5 0,0 138.25,0 138.25,-33.5"/>
+<text xml:space="preserve" text-anchor="start" x="8" y="-20" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::ProxyAccessorBase</text>
+<text xml:space="preserve" text-anchor="middle" x="69.12" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; T, ReadOnly &gt;</text>
 </a>
 </g>
 </g>

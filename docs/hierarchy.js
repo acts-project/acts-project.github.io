@@ -601,6 +601,7 @@ var hierarchy =
       [ "ActsPlugins::DD4hepFieldAdapter", "class_acts_plugins_1_1_d_d4hep_field_adapter.html", null ]
     ] ],
     [ "Acts::MagneticFieldProvider::FieldAndGradient", "struct_acts_1_1_magnetic_field_provider_1_1_field_and_gradient.html", null ],
+    [ "Acts::MagneticFieldQuery", "class_acts_1_1_magnetic_field_query.html", null ],
     [ "Acts::Material", "class_acts_1_1_material.html", null ],
     [ "Acts::MaterialComposition", "class_acts_1_1_material_composition.html", null ],
     [ "Acts::MaterialInteraction", "struct_acts_1_1_material_interaction.html", null ],

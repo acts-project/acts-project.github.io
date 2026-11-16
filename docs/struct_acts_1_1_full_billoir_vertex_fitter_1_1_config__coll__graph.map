@@ -1,10 +1,10 @@
 <map id="Acts::FullBilloirVertexFitter::Config" name="Acts::FullBilloirVertexFitter::Config">
-<area shape="rect" id="Node000001" title="Configuration options for the Billoir vertex fitter." alt="" coords="1114,114,1308,159"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="659,49,896,94"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="911,89,1116,122,1111,122,911,94"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="5,126,207,171"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="151,116,189,96,230,81,342,60,457,51,565,51,662,58,656,59,565,56,457,56,343,65,231,86,191,101,154,120"/>
-<area shape="rect" id="Node000004" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="617,135,938,282"/>
-<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="139,179,182,214,206,229,232,240,279,253,328,262,429,267,526,261,613,250,619,250,527,266,429,272,328,267,278,258,230,245,203,233,179,218,138,184"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="953,177,1111,153,1116,152,954,182"/>
+<area shape="rect" id="Node000001" title="Configuration options for the Billoir vertex fitter." alt="" coords="1126,103,1320,148"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="642,45,878,89"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="894,81,1128,113,1123,114,894,87"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="5,111,207,156"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="160,102,194,87,230,76,338,59,448,51,552,50,645,56,639,57,552,56,448,56,339,64,231,82,196,92,163,107"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="571,129,950,242"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="144,163,185,192,232,213,316,231,403,237,489,234,567,228,573,227,489,239,403,242,315,236,230,218,182,196,143,168"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="965,157,1123,139,1128,138,965,162"/>
 </map>

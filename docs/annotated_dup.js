@@ -418,6 +418,7 @@ var annotated_dup =
       [ "Logger", "class_acts_1_1_logger.html", "class_acts_1_1_logger" ],
       [ "MagneticFieldContext", "class_acts_1_1_magnetic_field_context.html", null ],
       [ "MagneticFieldProvider", "class_acts_1_1_magnetic_field_provider.html", "class_acts_1_1_magnetic_field_provider" ],
+      [ "MagneticFieldQuery", "class_acts_1_1_magnetic_field_query.html", "class_acts_1_1_magnetic_field_query" ],
       [ "Material", "class_acts_1_1_material.html", "class_acts_1_1_material" ],
       [ "MaterialComposition", "class_acts_1_1_material_composition.html", "class_acts_1_1_material_composition" ],
       [ "MaterialDesignatorBlueprintNode", "class_acts_1_1_material_designator_blueprint_node.html", "class_acts_1_1_material_designator_blueprint_node" ],
