@@ -23,11 +23,12 @@ var group__magnetic__field =
         [ "grid", "struct_acts_1_1_interpolated_b_field_map_1_1_config.html#ad8d51e0f43b664bd4c959ecac45b7841", null ],
         [ "scale", "struct_acts_1_1_interpolated_b_field_map_1_1_config.html#a2f14ee23705a6ba569006649e15b086e", null ],
         [ "transformBField", "struct_acts_1_1_interpolated_b_field_map_1_1_config.html#a0a710c9e048ee68865822edfe39b62c6", null ],
+        [ "transformDependsOnPosition", "struct_acts_1_1_interpolated_b_field_map_1_1_config.html#a53f061e045e1e5de0819ac3290344f7b", null ],
         [ "transformPos", "struct_acts_1_1_interpolated_b_field_map_1_1_config.html#a3676804a99a64af42a06671734bd0de7", null ]
       ] ],
       [ "FieldCell", "struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html", [
-        [ "FieldCell", "struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html#a1f203f4cb00108dca4bc6aae19540237", null ],
-        [ "getField", "struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html#ac01798730b4f8d1f8c515526cd531abe", null ],
+        [ "FieldCell", "struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html#aa848edfd96ebbf9ad1db17c561445532", null ],
+        [ "getField", "struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html#aec56d95da35679d7e8872b4988e5f53a", null ],
         [ "isInside", "struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html#a1b6514eb580b994c4bfb6b284f3d4752", null ],
         [ "N", "struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html#a462cc9bc8a9fc9c00a9d79fc9c8d6e09", null ]
       ] ],

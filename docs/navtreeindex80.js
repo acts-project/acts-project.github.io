@@ -1,5 +1,7 @@
 var NAVTREEINDEX80 =
 {
+"struct_acts_1_1_track_state_creator.html#a2ac9a5fbf7104626c6305ae5bb93c957":[6,0,0,426,12],
+"struct_acts_1_1_track_state_creator.html#a2ac9a5fbf7104626c6305ae5bb93c957":[8,0,0,431,12],
 "struct_acts_1_1_track_state_creator.html#a369aacf2a91fede8dc9cbf1d4a0a71d2":[6,0,0,426,14],
 "struct_acts_1_1_track_state_creator.html#a369aacf2a91fede8dc9cbf1d4a0a71d2":[8,0,0,431,14],
 "struct_acts_1_1_track_state_creator.html#a5506b3706f98f03b8abe2012e89bde09":[6,0,0,426,13],
@@ -247,7 +249,5 @@ var NAVTREEINDEX80 =
 "struct_acts_1_1_vertex_fit_candidate.html#a25045f2fcbcaa54ca773a437e59d0e41":[8,0,0,455,0],
 "struct_acts_1_1_vertex_fit_candidate.html#ab25b79529359d40372e9f24b6e14775d":[6,0,0,450,2],
 "struct_acts_1_1_vertex_fit_candidate.html#ab25b79529359d40372e9f24b6e14775d":[8,0,0,455,2],
-"struct_acts_1_1_vertex_fit_candidate.html#aedc2daa178f93f482bc11cfe63bd90f4":[6,0,0,450,1],
-"struct_acts_1_1_vertex_fit_candidate.html#aedc2daa178f93f482bc11cfe63bd90f4":[8,0,0,455,1],
-"struct_acts_1_1_vertex_fit_candidate.html#af47c66ae521b825d74fbf76c73d25dac":[6,0,0,450,3]
+"struct_acts_1_1_vertex_fit_candidate.html#aedc2daa178f93f482bc11cfe63bd90f4":[6,0,0,450,1]
 };

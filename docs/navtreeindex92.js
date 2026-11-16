@@ -1,5 +1,7 @@
 var NAVTREEINDEX92 =
 {
+"structdetray_1_1intersection__point__err.html#aaafbf67f78c9487da3ac79fce6202021":[8,0,3,115,9],
+"structdetray_1_1intersection__point__err.html#acded81172b036f1b27e4ffee32131ebd":[6,0,4,102,7],
 "structdetray_1_1intersection__point__err.html#acded81172b036f1b27e4ffee32131ebd":[8,0,3,115,7],
 "structdetray_1_1intersection__point__err.html#ad2082a6fc9cb2fe34dca875b1b3a72a2":[6,0,4,102,5],
 "structdetray_1_1intersection__point__err.html#ad2082a6fc9cb2fe34dca875b1b3a72a2":[8,0,3,115,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX92 =
 "structdetray_1_1io_1_1detector__reader__config.html#ad60803d80515a4d2fc5ac4d90feffe7d":[6,0,4,3,6,15],
 "structdetray_1_1io_1_1detector__reader__config.html#ad60803d80515a4d2fc5ac4d90feffe7d":[8,0,3,7,7,15],
 "structdetray_1_1io_1_1detector__reader__config.html#ae391570cc06b9352dc13fb1311d6beab":[6,0,4,3,6,6],
-"structdetray_1_1io_1_1detector__reader__config.html#ae391570cc06b9352dc13fb1311d6beab":[8,0,3,7,7,6],
-"structdetray_1_1io_1_1detector__writer__config.html":[6,0,4,3,7],
-"structdetray_1_1io_1_1detector__writer__config.html":[8,0,3,7,8]
+"structdetray_1_1io_1_1detector__reader__config.html#ae391570cc06b9352dc13fb1311d6beab":[8,0,3,7,7,6]
 };

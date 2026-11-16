@@ -250,7 +250,13 @@ template&lt;typename grid_t&gt; </div>
 <p>default constructor </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">cfg</td><td>Configuration containing grid and scaling factor </td></tr>
+    <tr><td class="paramname">cfg</td><td>Configuration containing grid and scaling factor</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::invalid_argument</td><td>if <code>cfg.transformDependsOnPosition</code> is <code>false</code> and <code>FieldType</code> is not <code>Vector3</code> </td></tr>
   </table>
   </dd>
 </dl>
@@ -355,7 +361,7 @@ template&lt;typename grid_t&gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>field cell containing the given global position</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>field cell containing the given global position (see <a class="el" href="struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html">FieldCell</a> for the frame of its field values)</dd></dl>
 <dl class="section pre"><dt>Precondition</dt><dd>The given <code>position</code> must lie within the range of the underlying magnetic field map. </dd></dl>
 
 </div>

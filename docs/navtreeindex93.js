@@ -1,5 +1,7 @@
 var NAVTREEINDEX93 =
 {
+"structdetray_1_1io_1_1detector__writer__config.html":[6,0,4,3,7],
+"structdetray_1_1io_1_1detector__writer__config.html":[8,0,3,7,8],
 "structdetray_1_1io_1_1detector__writer__config.html#a03a655e0672135c7e9ad5ada90c820c7":[6,0,4,3,7,14],
 "structdetray_1_1io_1_1detector__writer__config.html#a03a655e0672135c7e9ad5ada90c820c7":[8,0,3,7,8,14],
 "structdetray_1_1io_1_1detector__writer__config.html#a1a262ae399067367e3cb05ac642dd6e9":[6,0,4,3,7,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX93 =
 "structdetray_1_1line__stepper_1_1state.html#a283594845ea6278077030cdb21dc649f":[6,0,4,114,0,1],
 "structdetray_1_1line__stepper_1_1state.html#a283594845ea6278077030cdb21dc649f":[8,0,3,127,0,1],
 "structdetray_1_1line__stepper_1_1state.html#a51884fe6a225fe905370d88bedb464f2":[6,0,4,114,0,3],
-"structdetray_1_1line__stepper_1_1state.html#a51884fe6a225fe905370d88bedb464f2":[8,0,3,127,0,3],
-"structdetray_1_1line__stepper_1_1state.html#ab340c4327b7073f77c48abb17968b6f9":[6,0,4,114,0,0],
-"structdetray_1_1line__stepper_1_1state.html#ab340c4327b7073f77c48abb17968b6f9":[8,0,3,127,0,0]
+"structdetray_1_1line__stepper_1_1state.html#a51884fe6a225fe905370d88bedb464f2":[8,0,3,127,0,3]
 };
