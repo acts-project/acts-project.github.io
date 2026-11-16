@@ -1,5 +1,8 @@
 var NAVTREEINDEX69 =
 {
+"struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_candidates.html":[6,0,0,1,12,0],
+"struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_candidates.html":[8,0,0,2,12,0],
+"struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_candidates.html#a06b1b899abc38afbf1b23176e2af8372":[6,0,0,1,12,0,1],
 "struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_candidates.html#a06b1b899abc38afbf1b23176e2af8372":[8,0,0,2,12,0,1],
 "struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_candidates.html#a12f73db53317615c5cf62b766f2208f2":[6,0,0,1,12,0,0],
 "struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_candidates.html#a12f73db53317615c5cf62b766f2208f2":[8,0,0,2,12,0,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX69 =
 "struct_acts_1_1_experimental_1_1_gbts_seed_fit.html#ab0d971c1a3f19df1e0c6d84ccb7eb25e":[6,0,0,1,31,1],
 "struct_acts_1_1_experimental_1_1_gbts_seed_fit.html#ab0d971c1a3f19df1e0c6d84ccb7eb25e":[8,0,0,2,31,1],
 "struct_acts_1_1_experimental_1_1_gbts_seed_fit.html#adb81df7918625ba475a3c2991fe52c20":[6,0,0,1,31,3],
-"struct_acts_1_1_experimental_1_1_gbts_seed_fit.html#adb81df7918625ba475a3c2991fe52c20":[8,0,0,2,31,3],
-"struct_acts_1_1_experimental_1_1_gbts_tau_bounds.html":[6,0,0,1,32],
-"struct_acts_1_1_experimental_1_1_gbts_tau_bounds.html":[8,0,0,2,32],
-"struct_acts_1_1_experimental_1_1_gbts_tau_bounds.html#a247d67503d289dbc1807b579118fde64":[6,0,0,1,32,2]
+"struct_acts_1_1_experimental_1_1_gbts_seed_fit.html#adb81df7918625ba475a3c2991fe52c20":[8,0,0,2,31,3]
 };

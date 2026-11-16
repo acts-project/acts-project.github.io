@@ -1,5 +1,8 @@
 var NAVTREEINDEX97 =
 {
+"structdetray_1_1ranges_1_1join__view.html#aa4d6a9cbc56496b7c850d693cff7bf36":[8,0,3,12,8,6],
+"structdetray_1_1ranges_1_1join__view.html#ab707b9fbb8cec17feda9d25db39eef14":[8,0,3,12,8,8],
+"structdetray_1_1ranges_1_1join__view.html#ac85d370a0b43b51443ac0994efff8935":[8,0,3,12,8,3],
 "structdetray_1_1ranges_1_1join__view.html#ace6d8ece518b1ce7a8e13031a52d01b0":[8,0,3,12,8,13],
 "structdetray_1_1ranges_1_1join__view.html#acfa74086d95e65bcfa46a198d1129453":[8,0,3,12,8,11],
 "structdetray_1_1ranges_1_1join__view.html#aed3761aea04c43746025749d2ed29b89":[8,0,3,12,8,9],
@@ -246,8 +249,5 @@ var NAVTREEINDEX97 =
 "structdetray_1_1ray__intersector__impl_3_01line2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#adb4d4033c4f7e2881b9f2106ffcc5ce6":[8,0,3,169,8],
 "structdetray_1_1ray__intersector__impl_3_01polar2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html":[6,0,4,157],
 "structdetray_1_1ray__intersector__impl_3_01polar2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html":[8,0,3,170],
-"structdetray_1_1replace.html":[6,0,4,159],
-"structdetray_1_1replace.html":[8,0,3,172],
-"structdetray_1_1replace.html#aef159391d03b81cf2412fc6797341112":[6,0,4,159,0],
-"structdetray_1_1replace.html#aef159391d03b81cf2412fc6797341112":[8,0,3,172,0]
+"structdetray_1_1replace.html":[6,0,4,159]
 };

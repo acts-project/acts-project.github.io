@@ -1,5 +1,8 @@
 var NAVTREEINDEX71 =
 {
+"struct_acts_1_1_experimental_1_1_scattering_properties.html#a2bebe68bd02a62f7689ebd477c511a74":[5,13,10,0],
+"struct_acts_1_1_experimental_1_1_scattering_properties.html#a7d14107e03a8a5f6441eb8a1e7f9db3d":[5,13,10,4],
+"struct_acts_1_1_experimental_1_1_scattering_properties.html#aae5250d2a8772a2cf2f4a37bb2a8b415":[5,13,10,1],
 "struct_acts_1_1_experimental_1_1_scattering_properties.html#ae2e40bad69374ec2a4d993e6a959c4c2":[5,13,10,2],
 "struct_acts_1_1_experimental_1_1_spherical_space_point_grid_1_1_config.html":[6,0,0,1,59,0],
 "struct_acts_1_1_experimental_1_1_spherical_space_point_grid_1_1_config.html":[8,0,0,2,59,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX71 =
 "struct_acts_1_1_generic_runge_kutta_stepper_1_1_options.html#abb53b597dd260f45e203c053009e2c85":[6,0,0,159,1,5],
 "struct_acts_1_1_generic_runge_kutta_stepper_1_1_options.html#abb53b597dd260f45e203c053009e2c85":[8,0,0,164,1,5],
 "struct_acts_1_1_generic_runge_kutta_stepper_1_1_state.html":[6,0,0,159,2],
-"struct_acts_1_1_generic_runge_kutta_stepper_1_1_state.html":[8,0,0,164,2],
-"struct_acts_1_1_generic_runge_kutta_stepper_1_1_state.html#a040dd25ca1563ddc40a5a4c23af75d4b":[6,0,0,159,2,8],
-"struct_acts_1_1_generic_runge_kutta_stepper_1_1_state.html#a040dd25ca1563ddc40a5a4c23af75d4b":[8,0,0,164,2,8],
-"struct_acts_1_1_generic_runge_kutta_stepper_1_1_state.html#a17bd47cce19378680b53e54964a2c4bc":[6,0,0,159,2,2]
+"struct_acts_1_1_generic_runge_kutta_stepper_1_1_state.html":[8,0,0,164,2]
 };

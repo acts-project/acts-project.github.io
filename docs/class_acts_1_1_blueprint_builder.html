@@ -196,6 +196,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a7fadbb35db0f8867108d81f21d98c593"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a <a class="el" href="class_acts_1_1_layer_blueprint_node.html">LayerBlueprintNode</a> from an explicit list of sensitive elements.  <br /></td></tr>
 <tr class="memitem:a46750f374679ba43d5b0e730db88c48a" id="r_a46750f374679ba43d5b0e730db88c48a"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_layer_blueprint_node.html">LayerBlueprintNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46750f374679ba43d5b0e730db88c48a">makeLayer</a> (std::span&lt; const <a class="el" href="#a49cf1c5e5b8f93dedd630b15e714801d">Element</a> &gt; sensitives, const <a class="el" href="#a44893ff66015df7cdc54763432330a1c">LayerSpec</a> &amp;layerSpec) const</td></tr>
 <tr class="memdesc:a46750f374679ba43d5b0e730db88c48a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a <a class="el" href="class_acts_1_1_layer_blueprint_node.html">LayerBlueprintNode</a> from sensitive elements without a parent/context element.  <br /></td></tr>
+<tr class="memitem:a6ee34b416be5d2bb12e07b5bc9f456fd" id="r_a6ee34b416be5d2bb12e07b5bc9f456fd"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_static_blueprint_node.html">StaticBlueprintNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ee34b416be5d2bb12e07b5bc9f456fd">makeMaterialCollector</a> (double rMin, double rMax, double halfLengthZ, double zCenter, const std::string &amp;name) const</td></tr>
+<tr class="memdesc:a6ee34b416be5d2bb12e07b5bc9f456fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a static blueprint node for a synthetic material-collector volume: a plain cylindrical volume with explicit bounds and no corresponding detector element.  <br /></td></tr>
 <tr class="memitem:ac46c9433a039c6f0711e8ad4e3e6eec0" id="r_ac46c9433a039c6f0711e8ad4e3e6eec0"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_static_blueprint_node.html">StaticBlueprintNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac46c9433a039c6f0711e8ad4e3e6eec0">makePassiveElement</a> (const <a class="el" href="#a49cf1c5e5b8f93dedd630b15e714801d">Element</a> &amp;element, const std::string &amp;volumeName=&quot;&quot;) const</td></tr>
 <tr class="memdesc:ac46c9433a039c6f0711e8ad4e3e6eec0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a <a class="el" href="class_acts_1_1_static_blueprint_node.html">StaticBlueprintNode</a> for a passive detector element.  <br /></td></tr>
 <tr class="memitem:aa69b6901c36fca8aac85dbf9c640a19c" id="r_aa69b6901c36fca8aac85dbf9c640a19c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="#a49cf1c5e5b8f93dedd630b15e714801d">Element</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa69b6901c36fca8aac85dbf9c640a19c">resolveSensitives</a> (const <a class="el" href="#a49cf1c5e5b8f93dedd630b15e714801d">Element</a> &amp;detElement) const</td></tr>
@@ -738,6 +740,57 @@ template&lt;detail::BlueprintBackend BackendT&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Shared pointer to the constructed <a class="el" href="class_acts_1_1_layer_blueprint_node.html">LayerBlueprintNode</a>. </dd></dl>
+
+</div>
+</div>
+<a id="a6ee34b416be5d2bb12e07b5bc9f456fd" name="a6ee34b416be5d2bb12e07b5bc9f456fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ee34b416be5d2bb12e07b5bc9f456fd">&#9670;&#160;</a></span>makeMaterialCollector()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;detail::BlueprintBackend BackendT&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_static_blueprint_node.html">StaticBlueprintNode</a> &gt; <a class="el" href="class_acts_1_1_blueprint_builder.html">Acts::BlueprintBuilder</a>&lt; BackendT &gt;::makeMaterialCollector </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>rMin</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>rMax</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>halfLengthZ</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>zCenter</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>name</em></span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a static blueprint node for a synthetic material-collector volume: a plain cylindrical volume with explicit bounds and no corresponding detector element. </p>
+<p>Used to place bookkeeping surfaces just outside the tracker's own envelope so that, during material mapping, interactions originating in nearby non-tracker material (e.g. in the gap before the calorimeter) are attributed to these surfaces instead of being misattributed to the nearest real tracker surface. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rMin</td><td>Inner radius of the collector volume. </td></tr>
+    <tr><td class="paramname">rMax</td><td>Outer radius of the collector volume. </td></tr>
+    <tr><td class="paramname">halfLengthZ</td><td>Half-length along z of the collector volume. </td></tr>
+    <tr><td class="paramname">zCenter</td><td>Position of the volume's center along z. </td></tr>
+    <tr><td class="paramname">name</td><td>Name for the created volume. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Shared pointer to the generated blueprint node. </dd></dl>
 
 </div>
 </div>

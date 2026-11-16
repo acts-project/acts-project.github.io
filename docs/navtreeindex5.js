@@ -1,5 +1,7 @@
 var NAVTREEINDEX5 =
 {
+"class_acts_1_1_blueprint_node.html#ac23e86a20cea80ff8982924121731a89":[6,0,0,58,19],
+"class_acts_1_1_blueprint_node.html#ac23e86a20cea80ff8982924121731a89":[8,0,0,63,19],
 "class_acts_1_1_blueprint_node.html#ac35e718f9904a51803ec32be25e5cb5a":[6,0,0,58,27],
 "class_acts_1_1_blueprint_node.html#ac35e718f9904a51803ec32be25e5cb5a":[8,0,0,63,27],
 "class_acts_1_1_blueprint_node.html#ad2fea0f75a1008dee2c25f18746550ac":[6,0,0,58,18],
@@ -247,7 +249,5 @@ var NAVTREEINDEX5 =
 "class_acts_1_1_ccl_1_1_disjoint_sets.html#a6ecff3345ce2003f67bb282e3c3e98e1":[8,0,0,1,6,4],
 "class_acts_1_1_ccl_1_1_disjoint_sets.html#a85310e7dfb9b349131990f770edfc2f0":[8,0,0,1,6,3],
 "class_acts_1_1_ccl_1_1_disjoint_sets.html#afaf6b2826bb5097562997049363831ff":[8,0,0,1,6,0],
-"class_acts_1_1_charge_hypothesis.html":[5,6,0,0],
-"class_acts_1_1_charge_hypothesis.html#a6dddc5dfe52c80e34744ef41eb0a2ef0":[5,6,0,0,5],
-"class_acts_1_1_charge_hypothesis.html#a6decc6a4f4404f36c8157a43e875cbcd":[5,6,0,0,0]
+"class_acts_1_1_charge_hypothesis.html":[5,6,0,0]
 };

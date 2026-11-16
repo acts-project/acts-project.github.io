@@ -1,5 +1,9 @@
 var NAVTREEINDEX14 =
 {
+"class_acts_1_1_experimental_1_1_gbts_geometry.html":[6,0,0,1,21],
+"class_acts_1_1_experimental_1_1_gbts_geometry.html":[8,0,0,2,21],
+"class_acts_1_1_experimental_1_1_gbts_geometry.html#a280466c1812bd87ead783b151b3fd4ba":[6,0,0,1,21,1],
+"class_acts_1_1_experimental_1_1_gbts_geometry.html#a280466c1812bd87ead783b151b3fd4ba":[8,0,0,2,21,1],
 "class_acts_1_1_experimental_1_1_gbts_geometry.html#a5f8cde139599e2b2037ae027c6c1f7b8":[6,0,0,1,21,6],
 "class_acts_1_1_experimental_1_1_gbts_geometry.html#a5f8cde139599e2b2037ae027c6c1f7b8":[8,0,0,2,21,6],
 "class_acts_1_1_experimental_1_1_gbts_geometry.html#a73e5b254d151f7259dd453dda89b0c11":[6,0,0,1,21,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX14 =
 "class_acts_1_1_experimental_1_1_layer_blueprint_node.html#ad1e60664675a850eaaf6c836f9f5b868":[8,0,0,2,45,16],
 "class_acts_1_1_experimental_1_1_layer_blueprint_node.html#ad30b4030aed81d185203e4e1a298c0b6":[6,0,0,1,45,6],
 "class_acts_1_1_experimental_1_1_layer_blueprint_node.html#ad30b4030aed81d185203e4e1a298c0b6":[8,0,0,2,45,6],
-"class_acts_1_1_experimental_1_1_layer_blueprint_node.html#ad8414b44be60ac4c489d3c873c0996c2":[6,0,0,1,45,5],
-"class_acts_1_1_experimental_1_1_layer_blueprint_node.html#ad8414b44be60ac4c489d3c873c0996c2":[8,0,0,2,45,5],
-"class_acts_1_1_experimental_1_1_material_designator_blueprint_node.html":[6,0,0,1,46],
-"class_acts_1_1_experimental_1_1_material_designator_blueprint_node.html":[8,0,0,2,46],
-"class_acts_1_1_experimental_1_1_material_designator_blueprint_node.html#a07b0cbcdcb1d61d795a76a4faf1aa382":[6,0,0,1,46,13]
+"class_acts_1_1_experimental_1_1_layer_blueprint_node.html#ad8414b44be60ac4c489d3c873c0996c2":[6,0,0,1,45,5]
 };

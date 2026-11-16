@@ -236,7 +236,7 @@ var searchData=
   ['makemagneticfieldmaprzfromtext_233',['makeMagneticFieldMapRzFromText',['../group__magnetic__field.html#ga5867649c2811a2b164af6e62f4ee6d8c',1,'Acts']]],
   ['makemagneticfieldmapxyzfromroot_234',['makeMagneticFieldMapXyzFromRoot',['../group__root__plugin.html#ga1d6552cacc19e90697dfbb5617e52cc2',1,'ActsPlugins']]],
   ['makemagneticfieldmapxyzfromtext_235',['makeMagneticFieldMapXyzFromText',['../group__magnetic__field.html#ga3baad317424227151687cad974537339',1,'Acts']]],
-  ['makematerialcollector_236',['makeMaterialCollector',['../class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#a7c55ac8e4e0ab2cfad5ad4fb2875dad0',1,'ActsPlugins::DD4hep::DD4hepBackend']]],
+  ['makematerialcollector_236',['makeMaterialCollector',['../class_acts_1_1_blueprint_builder.html#a6ee34b416be5d2bb12e07b5bc9f456fd',1,'Acts::BlueprintBuilder::makeMaterialCollector()'],['../class_acts_1_1_experimental_1_1_blueprint_builder.html#a6ee34b416be5d2bb12e07b5bc9f456fd',1,'Acts::Experimental::BlueprintBuilder::makeMaterialCollector()']]],
   ['makenextsibling_237',['makeNextSibling',['../class_acts_1_1_multi_index.html#a84828370a59e014e229868cdcd4b2390',1,'Acts::MultiIndex']]],
   ['makenodestorage_238',['makeNodeStorage',['../class_acts_1_1_experimental_1_1_graph_based_track_seeder.html#a8ad63488ab87085f3be985e3b6964541',1,'Acts::Experimental::GraphBasedTrackSeeder']]],
   ['makenucleusgroundstate_239',['makeNucleusGroundState',['../namespace_acts.html#aba9e1010998ed0a39553174f81cc6c3c',1,'Acts']]],

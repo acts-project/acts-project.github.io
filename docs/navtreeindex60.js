@@ -1,5 +1,8 @@
 var NAVTREEINDEX60 =
 {
+"group__errors.html#ggaebbb9744bded7af55e310fecf0f4f0c0a7ac6622a5288b4ef6c1bc502f1dc3e21":[5,4,1,0],
+"group__errors.html#ggaebbb9744bded7af55e310fecf0f4f0c0aa25817537de612a782e6ab26d99d9cec":[5,4,1,2],
+"group__errors.html#ggaebbb9744bded7af55e310fecf0f4f0c0abd61bae5b37b03638ada093db05c3925":[5,4,1,1],
 "group__errors.html#ggaebbb9744bded7af55e310fecf0f4f0c0abff279d56cb31d81e2b1a9f71a5394d5":[5,4,1,3],
 "group__errors.html#ggaebbb9744bded7af55e310fecf0f4f0c0ae887f671d35b1e3abb22adb9d2eff469":[5,4,1,5],
 "group__errors.html#ggaf2646ee646a0b70b9c7ebe6e7f473629a0268957bd873958df11f8dd8816d4ce2":[5,4,8,5],
@@ -246,8 +249,5 @@ var NAVTREEINDEX60 =
 "hierarchy.html":[8,1],
 "howto_profiling.html":[3,1],
 "howto_release.html":[3,2],
-"howto_spack.html":[3,5],
-"index.html":[],
-"index.html":[0],
-"material_map_json_format.html":[2,2]
+"howto_spack.html":[3,5]
 };

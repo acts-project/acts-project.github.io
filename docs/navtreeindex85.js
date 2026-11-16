@@ -1,5 +1,8 @@
 var NAVTREEINDEX85 =
 {
+"struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#adccb4128138cd1501f72b9f5a1fd1835":[5,10,6,18,0,0],
+"struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html":[5,10,6,19,0],
+"struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#a784c0c55a0a9f407c565e72b09297998":[5,10,6,19,0,5],
 "struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#a9ce9e6d34a76f7971c01bcd938110ecd":[5,10,6,19,0,7],
 "struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#aa8eaaf40b2c763310a16774465d125f1":[5,10,6,19,0,0],
 "struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#aad5017f4e550af46cfc538c2a0de4952":[5,10,6,19,0,4],
@@ -246,8 +249,5 @@ var NAVTREEINDEX85 =
 "structdetray_1_1algebra_1_1fastor_1_1math_1_1transform3.html#a39a280732335bc04247180c74e76bc91":[8,0,3,1,3,0,0,2],
 "structdetray_1_1algebra_1_1fastor_1_1math_1_1transform3.html#a426be74ef85b65ff6d6a8d5f057537c8":[8,0,3,1,3,0,0,28],
 "structdetray_1_1algebra_1_1fastor_1_1math_1_1transform3.html#a435944e4282f37b519052d5c1003ca73":[8,0,3,1,3,0,0,21],
-"structdetray_1_1algebra_1_1fastor_1_1math_1_1transform3.html#a4bbf768c3646ef90e7c6a4e7d9e27384":[8,0,3,1,3,0,0,1],
-"structdetray_1_1algebra_1_1fastor_1_1math_1_1transform3.html#a4d45f10f498734dd44ecece1ded0a8cc":[8,0,3,1,3,0,0,4],
-"structdetray_1_1algebra_1_1fastor_1_1math_1_1transform3.html#a572e492b3ea03968add6a09a1d1b276b":[8,0,3,1,3,0,0,17],
-"structdetray_1_1algebra_1_1fastor_1_1math_1_1transform3.html#a6b3c5d1a32796015cc628a9fe55a3b90":[8,0,3,1,3,0,0,3]
+"structdetray_1_1algebra_1_1fastor_1_1math_1_1transform3.html#a4bbf768c3646ef90e7c6a4e7d9e27384":[8,0,3,1,3,0,0,1]
 };

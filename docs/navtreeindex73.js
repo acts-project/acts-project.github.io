@@ -1,5 +1,8 @@
 var NAVTREEINDEX73 =
 {
+"struct_acts_1_1_gsf_options.html#ab40e2071c2a5686d979208cc5a92a912":[5,13,15,9],
+"struct_acts_1_1_gsf_options.html#ae78fe7859ab94acac17312823dd57621":[5,13,15,10],
+"struct_acts_1_1_gsf_options.html#aeee4d872e28d82703ebbc93c5904ffa0":[5,13,15,1],
 "struct_acts_1_1_gsf_options.html#aef2b39b4e7d66946c5b5fb5ab065f50b":[5,13,15,14],
 "struct_acts_1_1_helical_track_linearizer_1_1_config.html":[6,0,0,183,0],
 "struct_acts_1_1_helical_track_linearizer_1_1_config.html":[8,0,0,188,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX73 =
 "struct_acts_1_1_interaction_volume_collector_1_1this__result.html":[8,0,0,212,0],
 "struct_acts_1_1_interaction_volume_collector_1_1this__result.html#adf9b0d8475b1c02f813d9eab98195dc6":[6,0,0,207,0,0],
 "struct_acts_1_1_interaction_volume_collector_1_1this__result.html#adf9b0d8475b1c02f813d9eab98195dc6":[8,0,0,212,0,0],
-"struct_acts_1_1_interpolated_b_field_map_1_1_cache.html":[5,3,1,1,0],
-"struct_acts_1_1_interpolated_b_field_map_1_1_cache.html":[5,11,0,1,0],
-"struct_acts_1_1_interpolated_b_field_map_1_1_cache.html#a4ee0c05dd49764b3616091cd0bed9a29":[5,3,1,1,0,1],
-"struct_acts_1_1_interpolated_b_field_map_1_1_cache.html#a4ee0c05dd49764b3616091cd0bed9a29":[5,11,0,1,0,1]
+"struct_acts_1_1_interpolated_b_field_map_1_1_cache.html":[5,3,1,1,0]
 };

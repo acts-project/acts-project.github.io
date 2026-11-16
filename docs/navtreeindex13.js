@@ -1,5 +1,9 @@
 var NAVTREEINDEX13 =
 {
+"class_acts_1_1_experimental_1_1_composite_space_point_line_seeder.html#a329fa005f2600cb79d779e80c01f36ba":[6,0,0,1,7,5],
+"class_acts_1_1_experimental_1_1_composite_space_point_line_seeder.html#a329fa005f2600cb79d779e80c01f36ba":[8,0,0,2,7,5],
+"class_acts_1_1_experimental_1_1_composite_space_point_line_seeder.html#a3307fd0f824afb9e774f85e36ccc79d8":[6,0,0,1,7,12],
+"class_acts_1_1_experimental_1_1_composite_space_point_line_seeder.html#a3307fd0f824afb9e774f85e36ccc79d8":[8,0,0,2,7,12],
 "class_acts_1_1_experimental_1_1_composite_space_point_line_seeder.html#a3b00d2bc86a712da4d2b25a6b273d2c8":[6,0,0,1,7,6],
 "class_acts_1_1_experimental_1_1_composite_space_point_line_seeder.html#a3b00d2bc86a712da4d2b25a6b273d2c8":[8,0,0,2,7,6],
 "class_acts_1_1_experimental_1_1_composite_space_point_line_seeder.html#a5b3603840c1908dc7b645a41f4ae1334":[6,0,0,1,7,10],
@@ -245,9 +249,5 @@ var NAVTREEINDEX13 =
 "class_acts_1_1_experimental_1_1_frustum_navigation_policy.html#ae97393828a5c0344a1a64a0b7161b2e5":[6,0,0,1,17,7],
 "class_acts_1_1_experimental_1_1_frustum_navigation_policy.html#ae97393828a5c0344a1a64a0b7161b2e5":[8,0,0,2,17,7],
 "class_acts_1_1_experimental_1_1_frustum_navigation_policy.html#aef22d7d46f3bea5c2ab25b0b5d16096b":[6,0,0,1,17,6],
-"class_acts_1_1_experimental_1_1_frustum_navigation_policy.html#aef22d7d46f3bea5c2ab25b0b5d16096b":[8,0,0,2,17,6],
-"class_acts_1_1_experimental_1_1_gbts_geometry.html":[6,0,0,1,21],
-"class_acts_1_1_experimental_1_1_gbts_geometry.html":[8,0,0,2,21],
-"class_acts_1_1_experimental_1_1_gbts_geometry.html#a280466c1812bd87ead783b151b3fd4ba":[6,0,0,1,21,1],
-"class_acts_1_1_experimental_1_1_gbts_geometry.html#a280466c1812bd87ead783b151b3fd4ba":[8,0,0,2,21,1]
+"class_acts_1_1_experimental_1_1_frustum_navigation_policy.html#aef22d7d46f3bea5c2ab25b0b5d16096b":[8,0,0,2,17,6]
 };
