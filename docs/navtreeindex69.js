@@ -1,8 +1,5 @@
 var NAVTREEINDEX69 =
 {
-"struct_acts_1_1_experimental_1_1_covariance_bound_parameter_variation_generator.html#a881fc27622151c75114f2b9b2b8bdd6d":[6,0,0,1,9,3],
-"struct_acts_1_1_experimental_1_1_covariance_bound_parameter_variation_generator.html#a881fc27622151c75114f2b9b2b8bdd6d":[8,0,0,2,9,3],
-"struct_acts_1_1_experimental_1_1_covariance_bound_parameter_variation_generator.html#aa509ad2bcb7f712ef4f8de181f2729eb":[6,0,0,1,9,4],
 "struct_acts_1_1_experimental_1_1_covariance_bound_parameter_variation_generator.html#aa509ad2bcb7f712ef4f8de181f2729eb":[8,0,0,2,9,4],
 "struct_acts_1_1_experimental_1_1_covariance_bound_parameter_variation_generator.html#ac22c38e1600ec50711fcc8a419aa4987":[6,0,0,1,9,0],
 "struct_acts_1_1_experimental_1_1_covariance_bound_parameter_variation_generator.html#ac22c38e1600ec50711fcc8a419aa4987":[8,0,0,2,9,0],
@@ -249,5 +246,8 @@ var NAVTREEINDEX69 =
 "struct_acts_1_1_experimental_1_1_gbts_layer_description.html#ac055d01f011cee9d6067679e1aa9a9f3":[6,0,0,1,28,5],
 "struct_acts_1_1_experimental_1_1_gbts_layer_description.html#ac055d01f011cee9d6067679e1aa9a9f3":[8,0,0,2,28,5],
 "struct_acts_1_1_experimental_1_1_gbts_layer_description.html#ac23731356e92dce07faf735e24e0ff30":[6,0,0,1,28,8],
-"struct_acts_1_1_experimental_1_1_gbts_layer_description.html#ac23731356e92dce07faf735e24e0ff30":[8,0,0,2,28,8]
+"struct_acts_1_1_experimental_1_1_gbts_layer_description.html#ac23731356e92dce07faf735e24e0ff30":[8,0,0,2,28,8],
+"struct_acts_1_1_experimental_1_1_gbts_seed_fit.html":[6,0,0,1,31],
+"struct_acts_1_1_experimental_1_1_gbts_seed_fit.html":[8,0,0,2,31],
+"struct_acts_1_1_experimental_1_1_gbts_seed_fit.html#a07f091cecc59eefaeadb831b99ce3b86":[6,0,0,1,31,0]
 };

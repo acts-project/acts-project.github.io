@@ -191,10 +191,7 @@ var NAVTREEINDEX57 =
 "concept_acts_1_1_concepts_1_1_common_stepper.html":[7,0,1,2],
 "concept_acts_1_1_concepts_1_1_interpolatable.html":[7,0,1,9],
 "concept_acts_1_1_concepts_1_1_multi_stepper.html":[7,0,1,12],
-"concept_acts_1_1_concepts_1_1_navigator_check_target_valid_with_curvature.html":[7,0,1,13],
-"concept_acts_1_1_concepts_1_1_navigator_handle_surface_reached_with_curvature.html":[7,0,1,14],
-"concept_acts_1_1_concepts_1_1_navigator_next_target_with_curvature.html":[7,0,1,15],
-"concept_acts_1_1_concepts_1_1_single_stepper.html":[7,0,1,18],
+"concept_acts_1_1_concepts_1_1_single_stepper.html":[7,0,1,15],
 "concept_acts_1_1_concepts_1_1arithmetic.html":[7,0,1,0],
 "concept_acts_1_1_concepts_1_1decayed__same__as.html":[7,0,1,3],
 "concept_acts_1_1_concepts_1_1eigen__base__is__fixed__size.html":[7,0,1,4],
@@ -204,8 +201,8 @@ var NAVTREEINDEX57 =
 "concept_acts_1_1_concepts_1_1eigen__bases__have__same__size.html":[7,0,1,8],
 "concept_acts_1_1_concepts_1_1invocable__and__returns.html":[7,0,1,10],
 "concept_acts_1_1_concepts_1_1is__eigen__base.html":[7,0,1,11],
-"concept_acts_1_1_concepts_1_1nothrow__move__constructible.html":[7,0,1,16],
-"concept_acts_1_1_concepts_1_1same__as__any__of.html":[7,0,1,17],
+"concept_acts_1_1_concepts_1_1nothrow__move__constructible.html":[7,0,1,13],
+"concept_acts_1_1_concepts_1_1same__as__any__of.html":[7,0,1,14],
 "concept_acts_1_1_const_multi_trajectory_backend.html":[6,0,0,479],
 "concept_acts_1_1_const_multi_trajectory_backend.html":[7,0,16],
 "concept_acts_1_1_const_track_container_backend.html":[6,0,0,480],
@@ -249,5 +246,8 @@ var NAVTREEINDEX57 =
 "concept_acts_1_1_smart_pointer_concept.html":[6,0,0,496],
 "concept_acts_1_1_smart_pointer_concept.html":[7,0,33],
 "concept_acts_1_1_stepper_concept.html":[6,0,0,497],
-"concept_acts_1_1_stepper_concept.html":[7,0,34]
+"concept_acts_1_1_stepper_concept.html":[7,0,34],
+"concept_acts_1_1_surface_concept.html":[6,0,0,498],
+"concept_acts_1_1_surface_concept.html":[7,0,35],
+"concept_acts_1_1_surface_visitor.html":[6,0,0,499]
 };

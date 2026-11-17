@@ -1,8 +1,5 @@
 var NAVTREEINDEX71 =
 {
-"struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#acc4dd3425cf4d60c99cde753cddd321c":[6,0,0,1,55,1,6],
-"struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#acc4dd3425cf4d60c99cde753cddd321c":[8,0,0,2,55,1,6],
-"struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#ad698b141a4d2dade36d7e3890b982778":[6,0,0,1,55,1,1],
 "struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#ad698b141a4d2dade36d7e3890b982778":[8,0,0,2,55,1,1],
 "struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#ae64c6d00c707891c185b7d72b64c8304":[6,0,0,1,55,1,2],
 "struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#ae64c6d00c707891c185b7d72b64c8304":[8,0,0,2,55,1,2],
@@ -249,5 +246,8 @@ var NAVTREEINDEX71 =
 "struct_acts_1_1_generic_runge_kutta_stepper_1_1_options.html#a24fc871386b0b58ae4a6ad02d56ed333":[6,0,0,159,1,1],
 "struct_acts_1_1_generic_runge_kutta_stepper_1_1_options.html#a24fc871386b0b58ae4a6ad02d56ed333":[8,0,0,164,1,1],
 "struct_acts_1_1_generic_runge_kutta_stepper_1_1_options.html#a6c9394f67e911a7a9c2bb42b60c310c6":[6,0,0,159,1,3],
-"struct_acts_1_1_generic_runge_kutta_stepper_1_1_options.html#a6c9394f67e911a7a9c2bb42b60c310c6":[8,0,0,164,1,3]
+"struct_acts_1_1_generic_runge_kutta_stepper_1_1_options.html#a6c9394f67e911a7a9c2bb42b60c310c6":[8,0,0,164,1,3],
+"struct_acts_1_1_generic_runge_kutta_stepper_1_1_options.html#a835f93c3891bd2b4646c1cfe69b36126":[6,0,0,159,1,0],
+"struct_acts_1_1_generic_runge_kutta_stepper_1_1_options.html#a835f93c3891bd2b4646c1cfe69b36126":[8,0,0,164,1,0],
+"struct_acts_1_1_generic_runge_kutta_stepper_1_1_options.html#a952555b504ff7742607b8ae4a0eaa29e":[6,0,0,159,1,2]
 };

@@ -1,8 +1,5 @@
 var NAVTREEINDEX82 =
 {
-"struct_acts_fatras_1_1_bound_parameters_smearer.html#a4b61ae78162f09deb92a48878ae96644":[6,0,2,5,5],
-"struct_acts_fatras_1_1_bound_parameters_smearer.html#a4b61ae78162f09deb92a48878ae96644":[8,0,1,6,5],
-"struct_acts_fatras_1_1_bound_parameters_smearer.html#a563eaa0338797cc2b66b441edb4ab50f":[6,0,2,5,2],
 "struct_acts_fatras_1_1_bound_parameters_smearer.html#a563eaa0338797cc2b66b441edb4ab50f":[8,0,1,6,2],
 "struct_acts_fatras_1_1_bound_parameters_smearer.html#a5b0f49991dd80806a1b48c7d45ad2a2d":[6,0,2,5,4],
 "struct_acts_fatras_1_1_bound_parameters_smearer.html#a5b0f49991dd80806a1b48c7d45ad2a2d":[8,0,1,6,4],
@@ -249,5 +246,8 @@ var NAVTREEINDEX82 =
 "struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html#acedae300b39757fdcff27f7d39383aad":[6,0,2,33,1,4],
 "struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html#acedae300b39757fdcff27f7d39383aad":[8,0,1,34,1,4],
 "struct_acts_fatras_1_1_single_particle_simulation.html":[6,0,2,34],
-"struct_acts_fatras_1_1_single_particle_simulation.html":[8,0,1,35]
+"struct_acts_fatras_1_1_single_particle_simulation.html":[8,0,1,35],
+"struct_acts_fatras_1_1_single_particle_simulation.html#a0f13b998682de4c9f8f54163588e9b38":[6,0,2,34,1],
+"struct_acts_fatras_1_1_single_particle_simulation.html#a0f13b998682de4c9f8f54163588e9b38":[8,0,1,35,1],
+"struct_acts_fatras_1_1_single_particle_simulation.html#a116bffb900348f4f71158471b566a1fc":[6,0,2,34,2]
 };
