@@ -1,5 +1,7 @@
 var NAVTREEINDEX81 =
 {
+"struct_acts_1_1_vertex_fit_candidate.html":[6,0,0,451],
+"struct_acts_1_1_vertex_fit_candidate.html":[8,0,0,456],
 "struct_acts_1_1_vertex_fit_candidate.html#a25045f2fcbcaa54ca773a437e59d0e41":[6,0,0,451,0],
 "struct_acts_1_1_vertex_fit_candidate.html#a25045f2fcbcaa54ca773a437e59d0e41":[8,0,0,456,0],
 "struct_acts_1_1_vertex_fit_candidate.html#ab25b79529359d40372e9f24b6e14775d":[6,0,0,451,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX81 =
 "struct_acts_fatras_1_1_bound_parameters_smearer.html#a0afcfa8735408555fadf7ba2621710b9":[6,0,2,5,1],
 "struct_acts_fatras_1_1_bound_parameters_smearer.html#a0afcfa8735408555fadf7ba2621710b9":[8,0,1,6,1],
 "struct_acts_fatras_1_1_bound_parameters_smearer.html#a3ec5813b278b9184d68ead0524ad4d3f":[6,0,2,5,7],
-"struct_acts_fatras_1_1_bound_parameters_smearer.html#a3ec5813b278b9184d68ead0524ad4d3f":[8,0,1,6,7],
-"struct_acts_fatras_1_1_bound_parameters_smearer.html#a4b61ae78162f09deb92a48878ae96644":[6,0,2,5,5],
-"struct_acts_fatras_1_1_bound_parameters_smearer.html#a4b61ae78162f09deb92a48878ae96644":[8,0,1,6,5]
+"struct_acts_fatras_1_1_bound_parameters_smearer.html#a3ec5813b278b9184d68ead0524ad4d3f":[8,0,1,6,7]
 };

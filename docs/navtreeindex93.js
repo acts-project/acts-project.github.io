@@ -1,5 +1,7 @@
 var NAVTREEINDEX93 =
 {
+"structdetray_1_1io_1_1detector__reader__config.html#ab1249f6b056d64774818abc22ccd9250":[8,0,3,7,7,4],
+"structdetray_1_1io_1_1detector__reader__config.html#ac6d4b7c9dde7a69513704c30a21b2129":[6,0,4,3,6,1],
 "structdetray_1_1io_1_1detector__reader__config.html#ac6d4b7c9dde7a69513704c30a21b2129":[8,0,3,7,7,1],
 "structdetray_1_1io_1_1detector__reader__config.html#ad60803d80515a4d2fc5ac4d90feffe7d":[6,0,4,3,6,15],
 "structdetray_1_1io_1_1detector__reader__config.html#ad60803d80515a4d2fc5ac4d90feffe7d":[8,0,3,7,7,15],
@@ -121,8 +123,8 @@ var NAVTREEINDEX93 =
 "structdetray_1_1io_1_1mask__payload.html#adcbde5443cabaacdbd8a353cf9abc742":[8,0,3,7,25,0],
 "structdetray_1_1io_1_1material__param__payload.html":[6,0,4,3,27],
 "structdetray_1_1io_1_1material__param__payload.html":[8,0,3,7,28],
-"structdetray_1_1io_1_1material__param__payload.html#a5863f9575beb8c21b934e5256218cc5b":[6,0,4,3,27,0],
-"structdetray_1_1io_1_1material__param__payload.html#a5863f9575beb8c21b934e5256218cc5b":[8,0,3,7,28,0],
+"structdetray_1_1io_1_1material__param__payload.html#a3f10538a122f23ad3ff63dbefd801274":[6,0,4,3,27,0],
+"structdetray_1_1io_1_1material__param__payload.html#a3f10538a122f23ad3ff63dbefd801274":[8,0,3,7,28,0],
 "structdetray_1_1io_1_1material__volume__payload.html":[6,0,4,3,28],
 "structdetray_1_1io_1_1material__volume__payload.html":[8,0,3,7,29],
 "structdetray_1_1io_1_1material__volume__payload.html#a1a0ceaa61f80b447fc83a9088bfaee73":[6,0,4,3,28,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX93 =
 "structdetray_1_1line2_d.html#ac9d6ccfd160c2a7d9959e7ea2fe00876":[8,0,3,126,0],
 "structdetray_1_1line2_d.html#ae7eb8889e28620d2ed54db15b0bce14d":[6,0,4,113,6],
 "structdetray_1_1line2_d.html#ae7eb8889e28620d2ed54db15b0bce14d":[8,0,3,126,6],
-"structdetray_1_1line2_d.html#af05bd0783b445eda560a725de4a803bf":[6,0,4,113,9],
-"structdetray_1_1line2_d.html#af05bd0783b445eda560a725de4a803bf":[8,0,3,126,9],
-"structdetray_1_1line__stepper_1_1state.html":[6,0,4,114,0]
+"structdetray_1_1line2_d.html#af05bd0783b445eda560a725de4a803bf":[6,0,4,113,9]
 };

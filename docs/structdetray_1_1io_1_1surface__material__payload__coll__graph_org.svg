@@ -64,7 +64,7 @@
 <g id="a_Node000004"><a xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="230,-210 109,-210 109,-176.5 230,-176.5 230,-210"/>
 <text xml:space="preserve" text-anchor="start" x="117" y="-196.5" font-family="Helvetica,sans-Serif" font-size="10.00">std::array&lt; io::scalar,</text>
-<text xml:space="preserve" text-anchor="middle" x="169.5" y="-183.75" font-family="Helvetica,sans-Serif" font-size="10.00"> 7u &gt;</text>
+<text xml:space="preserve" text-anchor="middle" x="169.5" y="-183.75" font-family="Helvetica,sans-Serif" font-size="10.00"> 6u &gt;</text>
 </a>
 </g>
 </g>
@@ -95,7 +95,7 @@
 <polygon fill="orange" stroke="orange" points="166,-252.82 169.5,-262.82 173,-252.82 166,-252.82"/>
 </a>
 </g>
-<text xml:space="preserve" text-anchor="start" x="172.5" y="-234.25" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">&lt; io::scalar, 7u &gt;</text>
+<text xml:space="preserve" text-anchor="start" x="172.5" y="-234.25" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">&lt; io::scalar, 6u &gt;</text>
 </g>
 </g>
 </svg>

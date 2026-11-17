@@ -1810,7 +1810,7 @@ var hierarchy =
       [ "detray::axis::multi_bin_range< DIM >", "structdetray_1_1axis_1_1multi__bin__range.html", null ]
     ] ],
     [ "grid_t", null, [
-      [ "detray::spatial_grid_impl< typename grid_t::template type< is_owning > >", "classdetray_1_1spatial__grid__impl.html", null ],
+      [ "detray::spatial_grid_impl< typename grid_t::template owning_type< is_owning > >", "classdetray_1_1spatial__grid__impl.html", null ],
       [ "detray::spatial_grid_impl< grid_impl< coordinate_axes< axes_t, algebra_t, ownership, containers >, bin_t, simple_serializer > >", "classdetray_1_1spatial__grid__impl.html", null ],
       [ "detray::spatial_grid_impl< grid_t >", "classdetray_1_1spatial__grid__impl.html", null ]
     ] ],

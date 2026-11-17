@@ -139,7 +139,7 @@ var searchData=
   ['grid_5fimpl_136',['grid_impl',['../classdetray_1_1grid__impl.html',1,'detray']]],
   ['grid_5fimpl_3c_20axes_5ft_2c_20bin_5ft_2c_20serializer_5ft_20_3e_137',['grid_impl&lt; axes_t, bin_t, serializer_t &gt;',['../classdetray_1_1grid__impl.html',1,'detray']]],
   ['grid_5fimpl_3c_20coordinate_5faxes_3c_20axes_5ft_2c_20algebra_5ft_2c_20ownership_2c_20containers_20_3e_2c_20bin_5ft_2c_20simple_5fserializer_20_3e_138',['grid_impl&lt; coordinate_axes&lt; axes_t, algebra_t, ownership, containers &gt;, bin_t, simple_serializer &gt;',['../classdetray_1_1grid__impl.html',1,'detray']]],
-  ['grid_5fimpl_3c_20typename_20axes_5ft_3a_3atemplate_20type_3c_20owning_20_3e_2c_20bin_5ft_2c_20serializer_5ft_20_3e_139',['grid_impl&lt; typename axes_t::template type&lt; owning &gt;, bin_t, serializer_t &gt;',['../classdetray_1_1grid__impl.html',1,'detray']]],
+  ['grid_5fimpl_3c_20typename_20axes_5ft_3a_3atemplate_20owning_5ftype_3c_20owning_20_3e_2c_20bin_5ft_2c_20serializer_5ft_20_3e_139',['grid_impl&lt; typename axes_t::template owning_type&lt; owning &gt;, bin_t, serializer_t &gt;',['../classdetray_1_1grid__impl.html',1,'detray']]],
   ['grid_5fpayload_140',['grid_payload',['../structdetray_1_1io_1_1grid__payload.html',1,'detray::io']]],
   ['grid_5fpayload_3c_20std_3a_3asize_5ft_2c_20detray_3a_3aio_3a_3aaccel_5fid_20_3e_141',['grid_payload&lt; std::size_t, detray::io::accel_id &gt;',['../structdetray_1_1io_1_1grid__payload.html',1,'detray::io']]],
   ['grid_5fstyle_142',['grid_style',['../structdetray_1_1svgtools_1_1styling_1_1grid__style.html',1,'detray::svgtools::styling']]],

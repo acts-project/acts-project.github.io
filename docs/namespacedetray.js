@@ -392,7 +392,6 @@ var namespacedetray =
     [ "spatial_grid", "namespacedetray.html#a5aeeb07ac4d9742f6ec5cfdbf56a6b41", null ],
     [ "bound_indices", "namespacedetray.html#aa73575bc95098d37d9006f6158a82570", null ],
     [ "free_indices", "namespacedetray.html#a9ecba0b1ea0caedb0701698d2444f3d5", null ],
-    [ "material_state", "namespacedetray.html#a8ecafbcaf1efb063d64203e4f14626fc", null ],
     [ "rk_stepper_flags", "namespacedetray.html#aa9ed3c463e6a0eb08b806eb9b4eecc35", [
       [ "e_allow_covariance_transport", "namespacedetray.html#aa9ed3c463e6a0eb08b806eb9b4eecc35ab33a80263af684f772bcca5830e0d837", null ],
       [ "e_allow_field_gradient", "namespacedetray.html#aa9ed3c463e6a0eb08b806eb9b4eecc35a74b96b9f607e0dcce5097e73257e30e7", null ]
@@ -437,6 +436,7 @@ var namespacedetray =
     [ "operator<<", "namespacedetray.html#afe6c51fc21b81c3800148bec004fc41a", null ],
     [ "operator<<", "namespacedetray.html#ae2eec53ddf4c5d8016229aca4e4c8165", null ],
     [ "operator==", "namespacedetray.html#af174903c8da8c4a7af07c12feb67de32", null ],
+    [ "operator==", "namespacedetray.html#af6b45e0f9a3f6222c993da961768482e", null ],
     [ "prefill_detector", "namespacedetray.html#a421d300217f4ccf1d2dee71b0b9b17dc", null ],
     [ "propagation_validation", "namespacedetray.html#afa2dae6fba2b5123add3aa6546f4081f", null ],
     [ "read_bfield", "namespacedetray.html#a6cfc7874a145c16e976a0e7bda4d941c", null ],

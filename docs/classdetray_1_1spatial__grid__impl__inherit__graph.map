@@ -1,9 +1,9 @@
 <map id="detray::spatial_grid_impl&lt; grid_t &gt;" name="detray::spatial_grid_impl&lt; grid_t &gt;">
-<area shape="rect" id="Node000001" title="An N&#45;dimensional spatial grid for geometry object searches." alt="" coords="113,88,259,133"/>
-<area shape="rect" id="Node000003" href="$classdetray_1_1spatial__grid__impl.html" title=" " alt="" coords="552,10,720,88"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="262,81,283,76,353,64,424,56,554,50,549,51,425,61,354,69,284,81,264,86"/>
-<area shape="rect" id="Node000004" href="$classdetray_1_1spatial__grid__impl.html" title=" " alt="" coords="527,124,745,219"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="224,140,253,159,284,173,345,187,408,192,470,191,524,190,530,189,470,197,408,197,344,192,282,178,250,164,223,145"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,96,64,124"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,108,115,109,110,112,80,113"/>
+<area shape="rect" id="Node000001" title="An N&#45;dimensional spatial grid for geometry object searches." alt="" coords="113,110,259,155"/>
+<area shape="rect" id="Node000003" href="$classdetray_1_1spatial__grid__impl.html" title=" " alt="" coords="542,32,730,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="262,103,283,98,418,79,544,72,539,74,418,84,284,103,264,108"/>
+<area shape="rect" id="Node000004" href="$classdetray_1_1spatial__grid__impl.html" title=" " alt="" coords="527,146,745,242"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="224,162,253,181,284,195,345,209,408,214,470,214,524,212,530,212,470,219,408,220,344,214,282,200,250,186,223,167"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,119,64,146"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,130,115,131,110,134,80,135"/>
 </map>

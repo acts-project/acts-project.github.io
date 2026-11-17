@@ -28,7 +28,7 @@ var classdetray_1_1grid__collection_3_01detray_1_1grid__impl_3_01axes__t_00_01bi
     [ "offsets", "classdetray_1_1grid__collection_3_01detray_1_1grid__impl_3_01axes__t_00_01bin__t_00_01serializer__t_01_4_01_4.html#a01f2ecaf889413fabae373fe8c84537c", null ],
     [ "operator=", "classdetray_1_1grid__collection_3_01detray_1_1grid__impl_3_01axes__t_00_01bin__t_00_01serializer__t_01_4_01_4.html#a50a48ecfc9319ebdb938126e7f2f206a", null ],
     [ "operator[]", "classdetray_1_1grid__collection_3_01detray_1_1grid__impl_3_01axes__t_00_01bin__t_00_01serializer__t_01_4_01_4.html#a50ba500be5752d2c355b9486264f86a0", null ],
-    [ "push_back", "classdetray_1_1grid__collection_3_01detray_1_1grid__impl_3_01axes__t_00_01bin__t_00_01serializer__t_01_4_01_4.html#a760bb5ebeb674aaed1340cd4559b6980", null ],
+    [ "push_back", "classdetray_1_1grid__collection_3_01detray_1_1grid__impl_3_01axes__t_00_01bin__t_00_01serializer__t_01_4_01_4.html#a89964bd2948a02313e3bea875c20af4d", null ],
     [ "reserve", "classdetray_1_1grid__collection_3_01detray_1_1grid__impl_3_01axes__t_00_01bin__t_00_01serializer__t_01_4_01_4.html#ac4d5ebcefa8ec8dd2dd92299d3a0f8cc", null ],
     [ "resize", "classdetray_1_1grid__collection_3_01detray_1_1grid__impl_3_01axes__t_00_01bin__t_00_01serializer__t_01_4_01_4.html#a71988687f30b7316c74972a0e9c0f775", null ],
     [ "size", "classdetray_1_1grid__collection_3_01detray_1_1grid__impl_3_01axes__t_00_01bin__t_00_01serializer__t_01_4_01_4.html#a23db93c093884f84e3774649ce361fce", null ]

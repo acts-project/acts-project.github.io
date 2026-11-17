@@ -140,14 +140,14 @@ Inheritance diagram for detray::material_data&lt; scalar_t &gt;:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ad255e369bd5d2d06f9d8ead2a0b9d4e8" id="r_ad255e369bd5d2d06f9d8ead2a0b9d4e8"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad255e369bd5d2d06f9d8ead2a0b9d4e8">material_data</a> (const scalar_t thickness, const <a class="el" href="structdetray_1_1material.html">material</a>&lt; scalar_t &gt; &amp;mat, const std::size_t sf_idx=detail::invalid_value&lt; std::size_t &gt;())</td></tr>
 <tr class="memdesc:ad255e369bd5d2d06f9d8ead2a0b9d4e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from a predefined material.  <br /></td></tr>
-<tr class="memitem:a10eea9da8920ea5d5fbcd3fd3bf1112d" id="r_a10eea9da8920ea5d5fbcd3fd3bf1112d"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10eea9da8920ea5d5fbcd3fd3bf1112d">material_data</a> (const scalar_t thickness, const std::vector&lt; scalar_t &gt; &amp;material_paramters, const <a class="el" href="namespacedetray.html#a8ecafbcaf1efb063d64203e4f14626fc">material_state</a> state=material_state::e_solid, const std::size_t sf_idx=detail::invalid_value&lt; std::size_t &gt;())</td></tr>
-<tr class="memdesc:a10eea9da8920ea5d5fbcd3fd3bf1112d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from all parameters:  <br /></td></tr>
+<tr class="memitem:acd50caafdf15486817a150c6b23d268d" id="r_acd50caafdf15486817a150c6b23d268d"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd50caafdf15486817a150c6b23d268d">material_data</a> (const scalar_t thickness, const std::vector&lt; scalar_t &gt; &amp;material_paramters, const std::size_t sf_idx=detail::invalid_value&lt; std::size_t &gt;())</td></tr>
+<tr class="memdesc:acd50caafdf15486817a150c6b23d268d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from all parameters:  <br /></td></tr>
 <tr class="memitem:a77191f63437cdf1a51088a3b507d446f" id="r_a77191f63437cdf1a51088a3b507d446f"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77191f63437cdf1a51088a3b507d446f">material_data</a> (const std::size_t sf_idx=detail::invalid_value&lt; std::size_t &gt;())</td></tr>
 <tr class="memdesc:a77191f63437cdf1a51088a3b507d446f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct empty data for a given surface.  <br /></td></tr>
 <tr class="memitem:aa85716a7bc0096890057c9113bce6609" id="r_aa85716a7bc0096890057c9113bce6609"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa85716a7bc0096890057c9113bce6609">append</a> (const scalar_t thickness, const <a class="el" href="structdetray_1_1material.html">material</a>&lt; scalar_t &gt; &amp;mat)</td></tr>
 <tr class="memdesc:aa85716a7bc0096890057c9113bce6609"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append new material.  <br /></td></tr>
-<tr class="memitem:a59c13dd39e003b918f81a58b36296b07" id="r_a59c13dd39e003b918f81a58b36296b07"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59c13dd39e003b918f81a58b36296b07">append</a> (const scalar_t thickness, const std::vector&lt; scalar_t &gt; &amp;material_paramters, const <a class="el" href="namespacedetray.html#a8ecafbcaf1efb063d64203e4f14626fc">material_state</a> state=material_state::e_solid)</td></tr>
-<tr class="memdesc:a59c13dd39e003b918f81a58b36296b07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append new material.  <br /></td></tr>
+<tr class="memitem:aaff4e905e0e43b3a7d734cc1451adef8" id="r_aaff4e905e0e43b3a7d734cc1451adef8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaff4e905e0e43b3a7d734cc1451adef8">append</a> (const scalar_t thickness, const std::vector&lt; scalar_t &gt; &amp;material_paramters)</td></tr>
+<tr class="memdesc:aaff4e905e0e43b3a7d734cc1451adef8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append new material.  <br /></td></tr>
 <tr class="memitem:a0625cff4adf185c1daf08b9b30adbf72" id="r_a0625cff4adf185c1daf08b9b30adbf72"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0625cff4adf185c1daf08b9b30adbf72">append</a> (<a class="el" href="#a77191f63437cdf1a51088a3b507d446f">material_data</a> &amp;&amp;other)</td></tr>
 <tr class="memdesc:a0625cff4adf185c1daf08b9b30adbf72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append new material from.  <br /></td></tr>
 <tr class="memitem:aa5bf52d3cf946356afec997286b3864e" id="r_aa5bf52d3cf946356afec997286b3864e"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5bf52d3cf946356afec997286b3864e">get_data</a> () -&gt; std::tuple&lt; std::size_t &amp;, std::vector&lt; <a class="el" href="structdetray_1_1material.html">material</a>&lt; scalar_t &gt; &gt; &amp;, std::vector&lt; scalar_t &gt; &amp; &gt;</td></tr>
@@ -237,8 +237,8 @@ template&lt;concepts::scalar scalar_t&gt; </div>
 
 </div>
 </div>
-<a id="a10eea9da8920ea5d5fbcd3fd3bf1112d" name="a10eea9da8920ea5d5fbcd3fd3bf1112d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10eea9da8920ea5d5fbcd3fd3bf1112d">&#9670;&#160;</a></span>material_data() <span class="overload">[3/3]</span></h2>
+<a id="acd50caafdf15486817a150c6b23d268d" name="acd50caafdf15486817a150c6b23d268d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd50caafdf15486817a150c6b23d268d">&#9670;&#160;</a></span>material_data() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -261,11 +261,6 @@ template&lt;concepts::scalar scalar_t&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespacedetray.html#a8ecafbcaf1efb063d64203e4f14626fc">material_state</a></td>          <td class="paramname"><span class="paramname"><em>state</em></span><span class="paramdefsep"> = </span><span class="paramdefval">material_state::e_solid</span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">const std::size_t</td>          <td class="paramname"><span class="paramname"><em>sf_idx</em></span><span class="paramdefsep"> = </span><span class="paramdefval">detail::invalid_value&lt;std::size_t&gt;()</span>&#160;)</td>
         </tr>
       </table>
@@ -281,7 +276,6 @@ template&lt;concepts::scalar scalar_t&gt; </div>
   <table class="params">
     <tr><td class="paramname">thickness</td><td>of the material slab/rod </td></tr>
     <tr><td class="paramname">material_paramters</td><td>Vector containing radiation length, nuclear interaction length, relative atomic mass, charge number, and molar density. </td></tr>
-    <tr><td class="paramname">state</td><td>of the material (liquid, solid etc.) </td></tr>
     <tr><td class="paramname">sf_idx</td><td>the index of the surface this material belongs to, needs to be passed only if a special oredering must be observed </td></tr>
   </table>
   </dd>
@@ -322,8 +316,8 @@ template&lt;concepts::scalar scalar_t&gt; </div>
 
 </div>
 </div>
-<a id="a59c13dd39e003b918f81a58b36296b07" name="a59c13dd39e003b918f81a58b36296b07"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59c13dd39e003b918f81a58b36296b07">&#9670;&#160;</a></span>append() <span class="overload">[2/3]</span></h2>
+<a id="aaff4e905e0e43b3a7d734cc1451adef8" name="aaff4e905e0e43b3a7d734cc1451adef8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaff4e905e0e43b3a7d734cc1451adef8">&#9670;&#160;</a></span>append() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -338,12 +332,7 @@ template&lt;concepts::scalar scalar_t&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; scalar_t &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>material_paramters</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="namespacedetray.html#a8ecafbcaf1efb063d64203e4f14626fc">material_state</a></td>          <td class="paramname"><span class="paramname"><em>state</em></span><span class="paramdefsep"> = </span><span class="paramdefval">material_state::e_solid</span>&#160;)</td>
+          <td class="paramtype">const std::vector&lt; scalar_t &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>material_paramters</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -353,7 +342,6 @@ template&lt;concepts::scalar scalar_t&gt; </div>
   <table class="params">
     <tr><td class="paramname">thickness</td><td>of the material slab/rod </td></tr>
     <tr><td class="paramname">material_paramters</td><td>Vector containing radiation length, nuclear interaction length, relative atomic mass, charge number, and molar density. </td></tr>
-    <tr><td class="paramname">state</td><td>of the material (liquid, solid etc.) </td></tr>
   </table>
   </dd>
 </dl>

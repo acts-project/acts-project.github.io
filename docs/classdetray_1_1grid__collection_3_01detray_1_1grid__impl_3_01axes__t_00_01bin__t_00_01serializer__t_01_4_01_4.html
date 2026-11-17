@@ -203,10 +203,10 @@ constexpr void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> (
 <tr class="memdesc:a50a48ecfc9319ebdb938126e7f2f206a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment.  <br /></td></tr>
 <tr class="memitem:a50ba500be5752d2c355b9486264f86a0" id="r_a50ba500be5752d2c355b9486264f86a0"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50ba500be5752d2c355b9486264f86a0">operator[]</a> (const <a class="el" href="#ac662ea814e82713763b2facfdc146118">size_type</a> i) const -&gt; grid_t</td></tr>
 <tr class="memdesc:a50ba500be5752d2c355b9486264f86a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create grid from container pointers - const.  <br /></td></tr>
-<tr class="memitem:a760bb5ebeb674aaed1340cd4559b6980" id="r_a760bb5ebeb674aaed1340cd4559b6980"><td class="memTemplParams" colspan="2">template&lt;typename other_grid_t&gt; <br />
-requires std::constructible_from&lt;typename grid_t::template type&lt;true&gt;, other_grid_t&gt;</td></tr>
-<tr class="memitem:a760bb5ebeb674aaed1340cd4559b6980 template"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a760bb5ebeb674aaed1340cd4559b6980">push_back</a> (const other_grid_t &amp;gr) noexcept(false) -&gt; void</td></tr>
-<tr class="memdesc:a760bb5ebeb674aaed1340cd4559b6980"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a new grid.  <br /></td></tr>
+<tr class="memitem:a89964bd2948a02313e3bea875c20af4d" id="r_a89964bd2948a02313e3bea875c20af4d"><td class="memTemplParams" colspan="2">template&lt;typename other_grid_t&gt; <br />
+requires std::constructible_from&lt; typename grid_t::template owning_type&lt;true&gt;, other_grid_t&gt;</td></tr>
+<tr class="memitem:a89964bd2948a02313e3bea875c20af4d template"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89964bd2948a02313e3bea875c20af4d">push_back</a> (const other_grid_t &amp;gr) noexcept(false) -&gt; void</td></tr>
+<tr class="memdesc:a89964bd2948a02313e3bea875c20af4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a new grid.  <br /></td></tr>
 <tr class="memitem:ac4d5ebcefa8ec8dd2dd92299d3a0f8cc" id="r_ac4d5ebcefa8ec8dd2dd92299d3a0f8cc"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4d5ebcefa8ec8dd2dd92299d3a0f8cc">reserve</a> (std::size_t) noexcept</td></tr>
 <tr class="memdesc:ac4d5ebcefa8ec8dd2dd92299d3a0f8cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reserve memory.  <br /></td></tr>
 <tr class="memitem:a71988687f30b7316c74972a0e9c0f775" id="r_a71988687f30b7316c74972a0e9c0f775"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71988687f30b7316c74972a0e9c0f775">resize</a> (std::size_t) noexcept</td></tr>
@@ -819,8 +819,8 @@ template&lt;typename axes_t, typename bin_t, template&lt; std::size_t &gt; class
 
 </div>
 </div>
-<a id="a760bb5ebeb674aaed1340cd4559b6980" name="a760bb5ebeb674aaed1340cd4559b6980"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a760bb5ebeb674aaed1340cd4559b6980">&#9670;&#160;</a></span>push_back()</h2>
+<a id="a89964bd2948a02313e3bea875c20af4d" name="a89964bd2948a02313e3bea875c20af4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89964bd2948a02313e3bea875c20af4d">&#9670;&#160;</a></span>push_back()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -828,7 +828,7 @@ template&lt;typename axes_t, typename bin_t, template&lt; std::size_t &gt; class
 template&lt;typename axes_t, typename bin_t, template&lt; std::size_t &gt; class serializer_t&gt; </div>
 <div class="memtemplate">
 template&lt;typename other_grid_t&gt; <br />
-requires std::constructible_from&lt;typename grid_t::template type&lt;true&gt;, other_grid_t&gt;</div>
+requires std::constructible_from&lt; typename grid_t::template owning_type&lt;true&gt;, other_grid_t&gt;</div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">

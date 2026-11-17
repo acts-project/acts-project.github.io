@@ -821,12 +821,6 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="memdesc:a9ecba0b1ea0caedb0701698d2444f3d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Components of a free track parameters vector.  <a href="#a9ecba0b1ea0caedb0701698d2444f3d5">More...</a><br /></td></tr>
-<tr class="memitem:a8ecafbcaf1efb063d64203e4f14626fc" id="r_a8ecafbcaf1efb063d64203e4f14626fc"><td class="memItemLeft" align="right" valign="top"><a id="a8ecafbcaf1efb063d64203e4f14626fc" name="a8ecafbcaf1efb063d64203e4f14626fc"></a>enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ecafbcaf1efb063d64203e4f14626fc">material_state</a> { <b>e_solid</b> = 0
-, <b>e_liquid</b> = 1
-, <b>e_gas</b> = 2
-, <b>e_unknown</b> = 3
- }</td></tr>
-<tr class="memdesc:a8ecafbcaf1efb063d64203e4f14626fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Material State. <br /></td></tr>
 <tr class="memitem:aa9ed3c463e6a0eb08b806eb9b4eecc35" id="r_aa9ed3c463e6a0eb08b806eb9b4eecc35"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa9ed3c463e6a0eb08b806eb9b4eecc35">rk_stepper_flags</a> : std::uint32_t { <a class="el" href="#aa9ed3c463e6a0eb08b806eb9b4eecc35ab33a80263af684f772bcca5830e0d837">e_allow_covariance_transport</a> = 1
 , <a class="el" href="#aa9ed3c463e6a0eb08b806eb9b4eecc35a74b96b9f607e0dcce5097e73257e30e7">e_allow_field_gradient</a> = 2
  }</td></tr>
@@ -937,6 +931,10 @@ requires (concepts::vector&lt;vector_t&gt; || concepts::point&lt;vector_t&gt;)</
 <tr class="memitem:af174903c8da8c4a7af07c12feb67de32" id="r_af174903c8da8c4a7af07c12feb67de32"><td class="memTemplParams" colspan="2">template&lt;std::size_t N, concepts::scalar S&gt; </td></tr>
 <tr class="memitem:af174903c8da8c4a7af07c12feb67de32 template"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af174903c8da8c4a7af07c12feb67de32">operator==</a> (const Fastor::Tensor&lt; S, N &gt; &amp;lhs, const Fastor::Tensor&lt; S, N &gt; &amp;rhs)</td></tr>
 <tr class="memdesc:af174903c8da8c4a7af07c12feb67de32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare two Fastor vectors component-wise for exact equality.  <br /></td></tr>
+<tr class="memitem:af6b45e0f9a3f6222c993da961768482e" id="r_af6b45e0f9a3f6222c993da961768482e"><td class="memTemplParams" colspan="2">template&lt;concepts::grid grid_lhs_t, concepts::grid grid_rhs_t&gt; <br />
+requires (!std::same_as&lt;grid_lhs_t, grid_rhs_t&gt; &amp;&amp; (std::same_as&lt;typename grid_lhs_t::template owning_type&lt;false&gt;, grid_rhs_t&gt; || std::same_as&lt;typename grid_rhs_t::template owning_type&lt;false&gt;, grid_lhs_t&gt;))</td></tr>
+<tr class="memitem:af6b45e0f9a3f6222c993da961768482e template"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6b45e0f9a3f6222c993da961768482e">operator==</a> (const grid_lhs_t &amp;lhs, const grid_rhs_t &amp;rhs)</td></tr>
+<tr class="memdesc:af6b45e0f9a3f6222c993da961768482e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equality comparison across grids of owning and non-owning type.  <br /></td></tr>
 <tr class="memitem:a421d300217f4ccf1d2dee71b0b9b17dc" id="r_a421d300217f4ccf1d2dee71b0b9b17dc"><td class="memTemplParams" colspan="2">template&lt;concepts::detector detector_t&gt; </td></tr>
 <tr class="memitem:a421d300217f4ccf1d2dee71b0b9b17dc template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a421d300217f4ccf1d2dee71b0b9b17dc">prefill_detector</a> (detector_t &amp;d, typename detector_t::geometry_context ctx)</td></tr>
 <tr class="memdesc:a421d300217f4ccf1d2dee71b0b9b17dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a few surfaces to the detector for testing the builder code on non-empty detectors.  <br /></td></tr>
@@ -1211,7 +1209,7 @@ template&lt;concepts::algebra algebra_t, typename shape_t, typename container_t 
 <div class="line">                          <a class="code hl_class" href="classdetray_1_1bins_1_1single.html">bins::single&lt;material_slab&lt;dscalar&lt;algebra_t&gt;</a>&gt;&gt;,</div>
 <div class="line">                          simple_serializer, container_t, owning&gt;</div>
 <div class="ttc" id="aclassdetray_1_1bins_1_1single_html"><div class="ttname"><a href="classdetray_1_1bins_1_1single.html">detray::bins::single</a></div><div class="ttdoc">Bin with a single entry.</div><div class="ttdef"><b>Definition</b> grid_bins.hpp:25</div></div>
-<div class="ttc" id="anamespacedetray_html_ad0d0bab42c19c22bd4e1bc9ea29a9bec"><div class="ttname"><a href="#ad0d0bab42c19c22bd4e1bc9ea29a9bec">detray::grid</a></div><div class="ttdeci">grid_impl&lt; coordinate_axes&lt; axes_t, algebra_t, ownership, containers &gt;, bin_t, simple_serializer &gt; grid</div><div class="ttdoc">Type alias for easier construction.</div><div class="ttdef"><b>Definition</b> grid.hpp:422</div></div>
+<div class="ttc" id="anamespacedetray_html_ad0d0bab42c19c22bd4e1bc9ea29a9bec"><div class="ttname"><a href="#ad0d0bab42c19c22bd4e1bc9ea29a9bec">detray::grid</a></div><div class="ttdeci">grid_impl&lt; coordinate_axes&lt; axes_t, algebra_t, ownership, containers &gt;, bin_t, simple_serializer &gt; grid</div><div class="ttdoc">Type alias for easier construction.</div><div class="ttdef"><b>Definition</b> grid.hpp:425</div></div>
 </div><!-- fragment -->
 <p>Definition of binned material. </p>
 
@@ -2765,7 +2763,7 @@ requires (concepts::vector&lt;vector_t&gt; || concepts::point&lt;vector_t&gt;)</
 </div>
 </div>
 <a id="af174903c8da8c4a7af07c12feb67de32" name="af174903c8da8c4a7af07c12feb67de32"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af174903c8da8c4a7af07c12feb67de32">&#9670;&#160;</a></span>operator==()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af174903c8da8c4a7af07c12feb67de32">&#9670;&#160;</a></span>operator==() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2802,6 +2800,48 @@ template&lt;std::size_t N, concepts::scalar S&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Whether all elements compare equal. </dd></dl>
+
+</div>
+</div>
+<a id="af6b45e0f9a3f6222c993da961768482e" name="af6b45e0f9a3f6222c993da961768482e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6b45e0f9a3f6222c993da961768482e">&#9670;&#160;</a></span>operator==() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;concepts::grid grid_lhs_t, concepts::grid grid_rhs_t&gt; <br />
+requires (!std::same_as&lt;grid_lhs_t, grid_rhs_t&gt; &amp;&amp; (std::same_as&lt;typename grid_lhs_t::template owning_type&lt;false&gt;, grid_rhs_t&gt; || std::same_as&lt;typename grid_rhs_t::template owning_type&lt;false&gt;, grid_lhs_t&gt;))</div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool detray::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const grid_lhs_t &amp;</td>          <td class="paramname"><span class="paramname"><em>lhs</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const grid_rhs_t &amp;</td>          <td class="paramname"><span class="paramname"><em>rhs</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Equality comparison across grids of owning and non-owning type. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lhs</td><td>the right-hand side of the comparison </td></tr>
+    <tr><td class="paramname">rhs</td><td>the right-hand side of the comparison</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>whether the two grids are equal </dd></dl>
 
 </div>
 </div>

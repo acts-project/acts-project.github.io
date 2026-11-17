@@ -133,7 +133,7 @@ $(function(){initNavTree('classdetray_1_1spatial__grid__impl.html','','classdetr
 <div class="dynheader">
 Inheritance diagram for detray::spatial_grid_impl&lt; grid_t &gt;:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classdetray_1_1spatial__grid__impl__inherit__graph.svg" width="100%" height="469"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classdetray_1_1spatial__grid__impl__inherit__graph.svg" width="100%" height="485"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for detray::spatial_grid_impl&lt; grid_t &gt;:</div>
@@ -145,13 +145,12 @@ Collaboration diagram for detray::spatial_grid_impl&lt; grid_t &gt;:</div>
 Public Types</h2></td></tr>
 <tr class="memitem:afc69570ae4db6e3335c172044e933471" id="r_afc69570ae4db6e3335c172044e933471"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc69570ae4db6e3335c172044e933471">mask_type</a></td></tr>
 <tr class="memdesc:afc69570ae4db6e3335c172044e933471"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mask type used for the grid's virtual reference surface.  <br /></td></tr>
+<tr class="memitem:aaa54f336af0fcb660fd1904a0e8b44f7" id="r_aaa54f336af0fcb660fd1904a0e8b44f7"><td class="memTemplParams" colspan="2">template&lt;bool is_owning&gt; </td></tr>
+<tr class="memitem:aaa54f336af0fcb660fd1904a0e8b44f7 template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa54f336af0fcb660fd1904a0e8b44f7">owning_type</a></td></tr>
+<tr class="memdesc:aaa54f336af0fcb660fd1904a0e8b44f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find the corresponding (non-)owning grid type.  <br /></td></tr>
 <tr class="memitem:a4b76f712fa01b80a1110b4315636a6f8" id="r_a4b76f712fa01b80a1110b4315636a6f8"><td class="memItemLeft" align="right" valign="top"><a id="a4b76f712fa01b80a1110b4315636a6f8" name="a4b76f712fa01b80a1110b4315636a6f8"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>query_type</b> = typename base_grid::point_type</td></tr>
 <tr class="memdesc:a4b76f712fa01b80a1110b4315636a6f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Coordinate type used to query bins. <br /></td></tr>
-<tr class="memitem:a96b04dd85d240ff74575662aaa83562b" id="r_a96b04dd85d240ff74575662aaa83562b"><td class="memTemplParams" colspan="2"><a id="a96b04dd85d240ff74575662aaa83562b" name="a96b04dd85d240ff74575662aaa83562b"></a>
-template&lt;bool is_owning&gt; </td></tr>
-<tr class="memitem:a96b04dd85d240ff74575662aaa83562b template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><b>type</b> = <a class="el" href="#a16a46e24c1d4ee74080bcb2c5108d4da">spatial_grid_impl</a>&lt;typename grid_t::template <a class="el" href="#a96b04dd85d240ff74575662aaa83562b">type</a>&lt;is_owning&gt;&gt;</td></tr>
-<tr class="memdesc:a96b04dd85d240ff74575662aaa83562b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find the corresponding (non-)owning grid type. <br /></td></tr>
 <tr class="memitem:a99e86152d3fbdfebef497e34d72a61d7" id="r_a99e86152d3fbdfebef497e34d72a61d7"><td class="memItemLeft" align="right" valign="top"><a id="a99e86152d3fbdfebef497e34d72a61d7" name="a99e86152d3fbdfebef497e34d72a61d7"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>value_type</b> = typename base_grid::value_type</td></tr>
 <tr class="memdesc:a99e86152d3fbdfebef497e34d72a61d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value type stored in the grid bins. <br /></td></tr>
@@ -204,6 +203,29 @@ template&lt;concepts::grid grid_t&gt; </div>
 <div class="ttc" id="aclassdetray_1_1mask_html"><div class="ttname"><a href="classdetray_1_1mask.html">detray::mask</a></div><div class="ttdoc">Mask a region on a surface and link it to a volume.</div><div class="ttdef"><b>Definition</b> mask.hpp:46</div></div>
 </div><!-- fragment -->
 <p>Mask type used for the grid's virtual reference surface. </p>
+
+</div>
+</div>
+<a id="aaa54f336af0fcb660fd1904a0e8b44f7" name="aaa54f336af0fcb660fd1904a0e8b44f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa54f336af0fcb660fd1904a0e8b44f7">&#9670;&#160;</a></span>owning_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;concepts::grid grid_t&gt; </div>
+<div class="memtemplate">
+template&lt;bool is_owning&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classdetray_1_1spatial__grid__impl.html">detray::spatial_grid_impl</a>&lt; grid_t &gt;::owning_type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line"> </div>
+<div class="line">      <a class="code hl_function" href="#a16a46e24c1d4ee74080bcb2c5108d4da">spatial_grid_impl&lt;typename grid_t::template owning_type&lt;is_owning&gt;</a>&gt;</div>
+<div class="ttc" id="aclassdetray_1_1spatial__grid__impl_html_a16a46e24c1d4ee74080bcb2c5108d4da"><div class="ttname"><a href="#a16a46e24c1d4ee74080bcb2c5108d4da">detray::spatial_grid_impl::spatial_grid_impl</a></div><div class="ttdeci">constexpr spatial_grid_impl(base_grid &amp;&amp;gr, Args &amp;&amp;...mask_values)</div><div class="ttdoc">Construct from existing grid - move.</div><div class="ttdef"><b>Definition</b> spatial_grid.hpp:63</div></div>
+</div><!-- fragment -->
+<p>Find the corresponding (non-)owning grid type. </p>
 
 </div>
 </div>

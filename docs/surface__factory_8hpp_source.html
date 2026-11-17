@@ -323,54 +323,53 @@ $(function(){initNavTree('surface__factory_8hpp_source.html','',''); });
 <div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>          }</div>
 <div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>        }</div>
 <div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span> </div>
-<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>        <span class="comment">// Add surface with all links set (relative to the given</span></div>
-<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>        <span class="comment">// containers)</span></div>
-<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>        mask_link_t mask_link{};</div>
-<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>        mask_link.set_id(mask_id);</div>
-<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>        <span class="keyword">const</span> <span class="keyword">auto</span> mask_idx{</div>
-<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>            <span class="keyword">static_cast&lt;</span><a class="code hl_typedef" href="namespacedetray.html#a3622614888b24c246e000c62d1833da4">dindex</a><span class="keyword">&gt;</span>(masks.template <a class="code hl_function" href="classdetray_1_1surface__factory__interface.html#ae884dc31de0cd33d40bb3eb698797e99">size&lt;mask_id&gt;</a>() - n_masks)};</div>
-<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>        <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (concepts::index&lt;typename mask_link_t::index_type&gt;) {</div>
-<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>          mask_link.set_index(mask_idx);</div>
-<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>        } <span class="keywordflow">else</span> {</div>
-<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>          mask_link.set_index({mask_idx, <span class="keyword">static_cast&lt;</span><a class="code hl_typedef" href="namespacedetray.html#a3622614888b24c246e000c62d1833da4">dindex</a><span class="keyword">&gt;</span>(n_masks)});</div>
-<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>        }</div>
-<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>        <span class="comment">// If material is present, it is added in a later step</span></div>
-<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>        material_link_t material_link{no_material, <a class="code hl_variable" href="namespacedetray.html#a4acd0b976198d508f4a3c4e9aa6e7c92">dindex_invalid</a>};</div>
-<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span> </div>
-<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>        <span class="comment">// Add the surface descriptor at the position given by &#39;sf_idx&#39;</span></div>
-<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>        this-&gt;<a class="code hl_function" href="classdetray_1_1surface__factory__interface.html#a439697b71f915eab3a793fc0339ff9cd">insert_in_container</a>(surfaces,</div>
-<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>                                  {surface_t{trf_idx, mask_link, material_link,</div>
-<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>                                             volume.index(), m_types[idx]},</div>
-<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>                                   m_sources[idx]},</div>
-<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>                                  sf_idx);</div>
-<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>      }</div>
-<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>    }</div>
-<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span> </div>
-<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>    <span class="keywordflow">return</span> {surfaces_offset, <span class="keyword">static_cast&lt;</span><a class="code hl_typedef" href="namespacedetray.html#a3622614888b24c246e000c62d1833da4">dindex</a><span class="keyword">&gt;</span>(surfaces.size())};</div>
-<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>  }</div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>        <span class="comment">// Add surface with all links set (relative to the given containers)</span></div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>        mask_link_t mask_link{};</div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>        mask_link.set_id(mask_id);</div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>        <span class="keyword">const</span> <span class="keyword">auto</span> mask_idx{</div>
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>            <span class="keyword">static_cast&lt;</span><a class="code hl_typedef" href="namespacedetray.html#a3622614888b24c246e000c62d1833da4">dindex</a><span class="keyword">&gt;</span>(masks.template <a class="code hl_function" href="classdetray_1_1surface__factory__interface.html#ae884dc31de0cd33d40bb3eb698797e99">size&lt;mask_id&gt;</a>() - n_masks)};</div>
+<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>        <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (concepts::index&lt;typename mask_link_t::index_type&gt;) {</div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>          mask_link.set_index(mask_idx);</div>
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>          mask_link.set_index({mask_idx, <span class="keyword">static_cast&lt;</span><a class="code hl_typedef" href="namespacedetray.html#a3622614888b24c246e000c62d1833da4">dindex</a><span class="keyword">&gt;</span>(n_masks)});</div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>        }</div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>        <span class="comment">// If material is present, it is added in a later step</span></div>
+<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>        material_link_t material_link{no_material, <a class="code hl_variable" href="namespacedetray.html#a4acd0b976198d508f4a3c4e9aa6e7c92">dindex_invalid</a>};</div>
+<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span> </div>
+<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span>        <span class="comment">// Add the surface descriptor at the position given by &#39;sf_idx&#39;</span></div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>        this-&gt;<a class="code hl_function" href="classdetray_1_1surface__factory__interface.html#a439697b71f915eab3a793fc0339ff9cd">insert_in_container</a>(surfaces,</div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>                                  {surface_t{trf_idx, mask_link, material_link,</div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>                                             volume.index(), m_types[idx]},</div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>                                   m_sources[idx]},</div>
+<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>                                  sf_idx);</div>
+<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>      }</div>
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>    }</div>
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span> </div>
+<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>    <span class="keywordflow">return</span> {surfaces_offset, <span class="keyword">static_cast&lt;</span><a class="code hl_typedef" href="namespacedetray.html#a3622614888b24c246e000c62d1833da4">dindex</a><span class="keyword">&gt;</span>(surfaces.size())};</div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>  }</div>
 </div>
-<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span> </div>
-<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>  DETRAY_HOST</div>
-<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>  <span class="keywordtype">void</span> check()<span class="keyword"> const </span>{</div>
-<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>    <span class="comment">// This should not happen (need same number and ordering of data)</span></div>
-<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>    assert(m_bounds.size() == m_types.size());</div>
-<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>    assert(m_bounds.size() == m_volume_links.size());</div>
-<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>    assert(m_bounds.size() == m_indices.size());</div>
-<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>    assert(m_bounds.size() == m_sources.size());</div>
-<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>    assert(m_bounds.size() == m_transforms.size());</div>
-<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>  }</div>
-<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span></div>
-<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>  std::vector&lt;surface_id&gt; m_types{};</div>
-<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>  volume_link_collection m_volume_links{};</div>
-<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>  std::vector&lt;dindex&gt; m_indices{};</div>
-<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>  std::vector&lt;std::uint64_t&gt; m_sources{};</div>
-<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>  std::vector&lt;std::vector&lt;std::vector&lt;scalar_t&gt;&gt;&gt; m_bounds{};</div>
-<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>  std::vector&lt;typename detector_t::transform3_type&gt; m_transforms{};</div>
-<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>};</div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span> </div>
+<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span>  DETRAY_HOST</div>
+<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>  <span class="keywordtype">void</span> check()<span class="keyword"> const </span>{</div>
+<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>    <span class="comment">// This should not happen (need same number and ordering of data)</span></div>
+<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>    assert(m_bounds.size() == m_types.size());</div>
+<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>    assert(m_bounds.size() == m_volume_links.size());</div>
+<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>    assert(m_bounds.size() == m_indices.size());</div>
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>    assert(m_bounds.size() == m_sources.size());</div>
+<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>    assert(m_bounds.size() == m_transforms.size());</div>
+<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>  }</div>
+<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span></div>
+<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>  std::vector&lt;surface_id&gt; m_types{};</div>
+<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>  volume_link_collection m_volume_links{};</div>
+<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>  std::vector&lt;dindex&gt; m_indices{};</div>
+<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>  std::vector&lt;std::uint64_t&gt; m_sources{};</div>
+<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>  std::vector&lt;std::vector&lt;std::vector&lt;scalar_t&gt;&gt;&gt; m_bounds{};</div>
+<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>  std::vector&lt;typename detector_t::transform3_type&gt; m_transforms{};</div>
+<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>};</div>
 </div>
-<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span> </div>
-<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>}  <span class="comment">// namespace detray</span></div>
+<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span> </div>
+<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>}  <span class="comment">// namespace detray</span></div>
 <div class="ttc" id="aclassdetray_1_1surface__data_html"><div class="ttname"><a href="classdetray_1_1surface__data.html">detray::surface_data</a></div><div class="ttdoc">Bind transform and mask data together for surface building.</div><div class="ttdef"><b>Definition</b> surface_factory_interface.hpp:37</div></div>
 <div class="ttc" id="aclassdetray_1_1surface__factory__interface_html_a439697b71f915eab3a793fc0339ff9cd"><div class="ttname"><a href="classdetray_1_1surface__factory__interface.html#a439697b71f915eab3a793fc0339ff9cd">detray::surface_factory_interface::insert_in_container</a></div><div class="ttdeci">dindex insert_in_container(container_t &amp;cont, const typename container_t::value_type value, const dindex idx, Args &amp;&amp;...args) const</div><div class="ttdoc">Insert a value in a container at a specific index.</div><div class="ttdef"><b>Definition</b> surface_factory_interface.hpp:173</div></div>
 <div class="ttc" id="aclassdetray_1_1surface__factory__interface_html_ae884dc31de0cd33d40bb3eb698797e99"><div class="ttname"><a href="classdetray_1_1surface__factory__interface.html#ae884dc31de0cd33d40bb3eb698797e99">detray::surface_factory_interface::size</a></div><div class="ttdeci">virtual dindex size() const =0</div></div>

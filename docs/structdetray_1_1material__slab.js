@@ -4,7 +4,7 @@ var structdetray_1_1material__slab =
     [ "scalar_type", "structdetray_1_1material__slab.html#a2716e6e8724cea69d5e31be9e0b916ab", null ],
     [ "material_slab", "structdetray_1_1material__slab.html#a4a7e95861843f5e38e55722f4abddd57", null ],
     [ "get_material", "structdetray_1_1material__slab.html#acbb40ee0ee779faff9509a9928f07619", null ],
-    [ "operator bool", "structdetray_1_1material__slab.html#ab29e3fe0f957e284176f78f894fdc358", null ],
+    [ "is_valid", "structdetray_1_1material__slab.html#af2d15b51fb8cd0bc3b6b262d36feb4c9", null ],
     [ "operator==", "structdetray_1_1material__slab.html#a112ef657bc6b511347e4de9b25916e01", null ],
     [ "path_segment", "structdetray_1_1material__slab.html#ade01f172cef66e7b923acbaf2f717602", null ],
     [ "path_segment_in_L0", "structdetray_1_1material__slab.html#a95b2b8149aab129e12d94b919ceb241b", null ],

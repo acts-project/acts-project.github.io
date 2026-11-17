@@ -148,16 +148,16 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>algebra_type</b> = t
 <tr class="memitem:a9ff0bc3d1706f8d824b71eeb61d35023" id="r_a9ff0bc3d1706f8d824b71eeb61d35023"><td class="memItemLeft" align="right" valign="top"><a id="a9ff0bc3d1706f8d824b71eeb61d35023" name="a9ff0bc3d1706f8d824b71eeb61d35023"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>local_frame_type</b> = local_frame_t</td></tr>
 <tr class="memdesc:a9ff0bc3d1706f8d824b71eeb61d35023"><td class="mdescLeft">&#160;</td><td class="mdescRight">Projection onto local coordinate system that is spanned by the axes. <br /></td></tr>
+<tr class="memitem:abc4ec9851dc8a5e68a69111a30651a64" id="r_abc4ec9851dc8a5e68a69111a30651a64"><td class="memTemplParams" colspan="2"><a id="abc4ec9851dc8a5e68a69111a30651a64" name="abc4ec9851dc8a5e68a69111a30651a64"></a>
+template&lt;bool owning&gt; </td></tr>
+<tr class="memitem:abc4ec9851dc8a5e68a69111a30651a64 template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><b>owning_type</b> = <a class="el" href="#aee638bbf5f49a829dd61cd58bce9dd26">multi_axis</a>&lt;owning, local_frame_t, axis_ts...&gt;</td></tr>
+<tr class="memdesc:abc4ec9851dc8a5e68a69111a30651a64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find the corresponding (non-)owning type. <br /></td></tr>
 <tr class="memitem:ad7532e48d844f249aae5ae6beab59543" id="r_ad7532e48d844f249aae5ae6beab59543"><td class="memItemLeft" align="right" valign="top"><a id="ad7532e48d844f249aae5ae6beab59543" name="ad7532e48d844f249aae5ae6beab59543"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>point_type</b> = typename local_frame_type::loc_point</td></tr>
 <tr class="memdesc:ad7532e48d844f249aae5ae6beab59543"><td class="mdescLeft">&#160;</td><td class="mdescRight">Point type in the local coordinate system. <br /></td></tr>
 <tr class="memitem:a6e18d010a8d3bc60ae8cd5554ced73a3" id="r_a6e18d010a8d3bc60ae8cd5554ced73a3"><td class="memItemLeft" align="right" valign="top"><a id="a6e18d010a8d3bc60ae8cd5554ced73a3" name="a6e18d010a8d3bc60ae8cd5554ced73a3"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>scalar_type</b> = typename detray::detail::first_t&lt;axis_ts...&gt;::scalar_type</td></tr>
 <tr class="memdesc:a6e18d010a8d3bc60ae8cd5554ced73a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scalar type used for all constituent axes. <br /></td></tr>
-<tr class="memitem:aaedc545ea798d0f5f14312c22f8db051" id="r_aaedc545ea798d0f5f14312c22f8db051"><td class="memTemplParams" colspan="2"><a id="aaedc545ea798d0f5f14312c22f8db051" name="aaedc545ea798d0f5f14312c22f8db051"></a>
-template&lt;bool owning&gt; </td></tr>
-<tr class="memitem:aaedc545ea798d0f5f14312c22f8db051 template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><b>type</b> = <a class="el" href="#aee638bbf5f49a829dd61cd58bce9dd26">multi_axis</a>&lt;owning, local_frame_t, axis_ts...&gt;</td></tr>
-<tr class="memdesc:aaedc545ea798d0f5f14312c22f8db051"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find the corresponding (non-)owning type. <br /></td></tr>
 <tr class="memitem:ac0c263e266d2c3e13f799c50865cd3b6" id="r_ac0c263e266d2c3e13f799c50865cd3b6"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0c263e266d2c3e13f799c50865cd3b6">view_type</a></td></tr>
 <tr class="memdesc:ac0c263e266d2c3e13f799c50865cd3b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vecmem based view type.  <br /></td></tr>
 <tr id="pub-types-0" class="groupHeader"><td colspan="2"><div class="groupHeader"></div></td></tr>

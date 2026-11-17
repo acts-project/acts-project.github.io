@@ -178,10 +178,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aac4c99e9e462d680859be52c3340c776"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment.  <br /></td></tr>
 <tr class="memitem:aeda951e8b7164a359d39937d7b6af4d7" id="r_aeda951e8b7164a359d39937d7b6af4d7"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeda951e8b7164a359d39937d7b6af4d7">operator[]</a> (const <a class="el" href="#a20a079245da224f8ecc96b5165cd89b1">size_type</a> i) const -&gt; <a class="el" href="classdetray_1_1spatial__grid__impl.html">spatial_grid_impl</a>&lt; grid_t &gt;</td></tr>
 <tr class="memdesc:aeda951e8b7164a359d39937d7b6af4d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create spatial grid acceleration structure from underlying grid data.  <br /></td></tr>
-<tr class="memitem:aecbe3069c9373f69f48d6e0a5792d949" id="r_aecbe3069c9373f69f48d6e0a5792d949"><td class="memTemplParams" colspan="2">template&lt;concepts::spatial_grid other_grid_t&gt; <br />
-requires std::constructible_from&lt; typename <a class="el" href="classdetray_1_1spatial__grid__impl.html">spatial_grid_impl</a>&lt;grid_t&gt;::template type&lt;true&gt;, other_grid_t&gt;</td></tr>
-<tr class="memitem:aecbe3069c9373f69f48d6e0a5792d949 template"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aecbe3069c9373f69f48d6e0a5792d949">push_back</a> (const other_grid_t &amp;gr) noexcept(false) -&gt; void</td></tr>
-<tr class="memdesc:aecbe3069c9373f69f48d6e0a5792d949"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a new grid.  <br /></td></tr>
+<tr class="memitem:ae0f733722bf5437807f63780d7ece065" id="r_ae0f733722bf5437807f63780d7ece065"><td class="memTemplParams" colspan="2">template&lt;concepts::spatial_grid other_grid_t&gt; <br />
+requires std::constructible_from&lt; typename <a class="el" href="classdetray_1_1spatial__grid__impl.html">spatial_grid_impl</a>&lt;grid_t&gt;::template owning_type&lt;true&gt;, other_grid_t&gt;</td></tr>
+<tr class="memitem:ae0f733722bf5437807f63780d7ece065 template"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0f733722bf5437807f63780d7ece065">push_back</a> (const other_grid_t &amp;gr) noexcept(false) -&gt; void</td></tr>
+<tr class="memdesc:ae0f733722bf5437807f63780d7ece065"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a new grid.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;concepts::grid grid_t&gt;<br />
@@ -539,8 +539,8 @@ template&lt;concepts::grid grid_t&gt; </div>
 
 </div>
 </div>
-<a id="aecbe3069c9373f69f48d6e0a5792d949" name="aecbe3069c9373f69f48d6e0a5792d949"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aecbe3069c9373f69f48d6e0a5792d949">&#9670;&#160;</a></span>push_back()</h2>
+<a id="ae0f733722bf5437807f63780d7ece065" name="ae0f733722bf5437807f63780d7ece065"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0f733722bf5437807f63780d7ece065">&#9670;&#160;</a></span>push_back()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -548,7 +548,7 @@ template&lt;concepts::grid grid_t&gt; </div>
 template&lt;concepts::grid grid_t&gt; </div>
 <div class="memtemplate">
 template&lt;concepts::spatial_grid other_grid_t&gt; <br />
-requires std::constructible_from&lt; typename <a class="el" href="classdetray_1_1spatial__grid__impl.html">spatial_grid_impl</a>&lt;grid_t&gt;::template type&lt;true&gt;, other_grid_t&gt;</div>
+requires std::constructible_from&lt; typename <a class="el" href="classdetray_1_1spatial__grid__impl.html">spatial_grid_impl</a>&lt;grid_t&gt;::template owning_type&lt;true&gt;, other_grid_t&gt;</div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">

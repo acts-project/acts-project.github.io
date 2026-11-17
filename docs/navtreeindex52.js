@@ -1,5 +1,7 @@
 var NAVTREEINDEX52 =
 {
+"classdetray_1_1io_1_1input__file__converter__interface.html#aca8f906c02ef97561ae515004ac69ea2":[8,0,3,7,21,0],
+"classdetray_1_1io_1_1input__file__converter__interface.html#af15177f06dd2875224f1281c8bb7d1e0":[6,0,4,3,20,3],
 "classdetray_1_1io_1_1input__file__converter__interface.html#af15177f06dd2875224f1281c8bb7d1e0":[8,0,3,7,21,3],
 "classdetray_1_1io_1_1json__converter.html":[6,0,4,3,21],
 "classdetray_1_1io_1_1json__converter.html":[8,0,3,7,22],
@@ -235,19 +237,17 @@ var NAVTREEINDEX52 =
 "classdetray_1_1material__data.html":[8,0,3,130],
 "classdetray_1_1material__data.html#a0625cff4adf185c1daf08b9b30adbf72":[6,0,4,117,5],
 "classdetray_1_1material__data.html#a0625cff4adf185c1daf08b9b30adbf72":[8,0,3,130,5],
-"classdetray_1_1material__data.html#a10eea9da8920ea5d5fbcd3fd3bf1112d":[6,0,4,117,2],
-"classdetray_1_1material__data.html#a10eea9da8920ea5d5fbcd3fd3bf1112d":[8,0,3,130,2],
 "classdetray_1_1material__data.html#a4667d5fdc3880dafabfbdf7e0607c13d":[6,0,4,117,7],
 "classdetray_1_1material__data.html#a4667d5fdc3880dafabfbdf7e0607c13d":[8,0,3,130,7],
-"classdetray_1_1material__data.html#a59c13dd39e003b918f81a58b36296b07":[6,0,4,117,4],
-"classdetray_1_1material__data.html#a59c13dd39e003b918f81a58b36296b07":[8,0,3,130,4],
 "classdetray_1_1material__data.html#a77191f63437cdf1a51088a3b507d446f":[6,0,4,117,0],
 "classdetray_1_1material__data.html#a77191f63437cdf1a51088a3b507d446f":[8,0,3,130,0],
 "classdetray_1_1material__data.html#aa5bf52d3cf946356afec997286b3864e":[6,0,4,117,6],
 "classdetray_1_1material__data.html#aa5bf52d3cf946356afec997286b3864e":[8,0,3,130,6],
 "classdetray_1_1material__data.html#aa85716a7bc0096890057c9113bce6609":[6,0,4,117,3],
 "classdetray_1_1material__data.html#aa85716a7bc0096890057c9113bce6609":[8,0,3,130,3],
-"classdetray_1_1material__data.html#ad255e369bd5d2d06f9d8ead2a0b9d4e8":[6,0,4,117,1],
-"classdetray_1_1material__data.html#ad255e369bd5d2d06f9d8ead2a0b9d4e8":[8,0,3,130,1],
-"classdetray_1_1material__map__builder.html":[6,0,4,118]
+"classdetray_1_1material__data.html#aaff4e905e0e43b3a7d734cc1451adef8":[6,0,4,117,4],
+"classdetray_1_1material__data.html#aaff4e905e0e43b3a7d734cc1451adef8":[8,0,3,130,4],
+"classdetray_1_1material__data.html#acd50caafdf15486817a150c6b23d268d":[6,0,4,117,2],
+"classdetray_1_1material__data.html#acd50caafdf15486817a150c6b23d268d":[8,0,3,130,2],
+"classdetray_1_1material__data.html#ad255e369bd5d2d06f9d8ead2a0b9d4e8":[6,0,4,117,1]
 };

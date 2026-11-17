@@ -133,7 +133,7 @@ $(function(){initNavTree('classdetray_1_1grid__impl.html','','classdetray_1_1gri
 <div class="dynheader">
 Inheritance diagram for detray::grid_impl&lt; axes_t, bin_t, serializer_t &gt;:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classdetray_1_1grid__impl__inherit__graph.svg" width="100%" height="483"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classdetray_1_1grid__impl__inherit__graph.svg" width="100%" height="484"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
@@ -165,6 +165,9 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>loc_bin_index</b> = 
 <tr class="memitem:a045fc8aff3c7e34807522e8d8b800e11" id="r_a045fc8aff3c7e34807522e8d8b800e11"><td class="memItemLeft" align="right" valign="top"><a id="a045fc8aff3c7e34807522e8d8b800e11" name="a045fc8aff3c7e34807522e8d8b800e11"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>local_frame_type</b> = typename axes_type::local_frame_type</td></tr>
 <tr class="memdesc:a045fc8aff3c7e34807522e8d8b800e11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Coordinate frame spanned by the grid axes. <br /></td></tr>
+<tr class="memitem:a7b5574ba06b07fad5f3132c6e32ce417" id="r_a7b5574ba06b07fad5f3132c6e32ce417"><td class="memTemplParams" colspan="2">template&lt;bool owning&gt; </td></tr>
+<tr class="memitem:a7b5574ba06b07fad5f3132c6e32ce417 template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b5574ba06b07fad5f3132c6e32ce417">owning_type</a></td></tr>
+<tr class="memdesc:a7b5574ba06b07fad5f3132c6e32ce417"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find the corresponding (non-)owning grid type.  <br /></td></tr>
 <tr class="memitem:a945dbbabf82bf3d5de575fe15f54b10c" id="r_a945dbbabf82bf3d5de575fe15f54b10c"><td class="memItemLeft" align="right" valign="top"><a id="a945dbbabf82bf3d5de575fe15f54b10c" name="a945dbbabf82bf3d5de575fe15f54b10c"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>point_type</b> = typename axes_type::point_type</td></tr>
 <tr class="memdesc:a945dbbabf82bf3d5de575fe15f54b10c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Point type used for coordinates in the grid frame. <br /></td></tr>
@@ -175,9 +178,6 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>scalar_type</b> = <a
 template&lt;std::size_t DIM&gt; </td></tr>
 <tr class="memitem:ab8b13c04f25897927b3550ae70b03291 template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><b>serializer_type</b> = serializer_t&lt;DIM&gt;</td></tr>
 <tr class="memdesc:ab8b13c04f25897927b3550ae70b03291"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializer type used for a grid with <span class="tt">DIM</span> axes. <br /></td></tr>
-<tr class="memitem:a858ec6cc9fe714f4177b4503dd857f10" id="r_a858ec6cc9fe714f4177b4503dd857f10"><td class="memTemplParams" colspan="2">template&lt;bool owning&gt; </td></tr>
-<tr class="memitem:a858ec6cc9fe714f4177b4503dd857f10 template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a858ec6cc9fe714f4177b4503dd857f10">type</a></td></tr>
-<tr class="memdesc:a858ec6cc9fe714f4177b4503dd857f10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find the corresponding (non-)owning grid type.  <br /></td></tr>
 <tr class="memitem:a764b3f7f5b73653218dde9d28ffa472b" id="r_a764b3f7f5b73653218dde9d28ffa472b"><td class="memItemLeft" align="right" valign="top"><a id="a764b3f7f5b73653218dde9d28ffa472b" name="a764b3f7f5b73653218dde9d28ffa472b"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>value_type</b> = typename bin_type::entry_type</td></tr>
 <tr class="memdesc:a764b3f7f5b73653218dde9d28ffa472b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type stored in each bin. <br /></td></tr>
@@ -191,14 +191,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a24f7487e5ccd73868f3dbd9bd50a564f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make grid default constructible: Empty grid with empty axis. <br /></td></tr>
 <tr class="memitem:ac206a76ed85ba70e57ae6bad21518137" id="r_ac206a76ed85ba70e57ae6bad21518137"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac206a76ed85ba70e57ae6bad21518137">grid_impl</a> (<a class="el" href="#a618db547a4db77502bd5cd89a0dc6cc0">bin_container_type</a> &amp;&amp;bin_data, <a class="el" href="#abebfcde47a3833d40032d6f9ad58ee89">axes_type</a> &amp;&amp;<a class="el" href="#a5838e30c111fcfd8c5abbba3b0451fbf">axes</a>)</td></tr>
 <tr class="memdesc:ac206a76ed85ba70e57ae6bad21518137"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create grid with well defined <code class="param">axes</code> and <code class="param">bin_data</code> - move.  <br /></td></tr>
-<tr class="memitem:a822bc331ba5fcf266a4169ac5a86beba" id="r_a822bc331ba5fcf266a4169ac5a86beba"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a822bc331ba5fcf266a4169ac5a86beba">grid_impl</a> (<a class="el" href="#a618db547a4db77502bd5cd89a0dc6cc0">bin_container_type</a> *bin_data_ptr, <a class="el" href="#abebfcde47a3833d40032d6f9ad58ee89">axes_type</a> &amp;&amp;<a class="el" href="#a5838e30c111fcfd8c5abbba3b0451fbf">axes</a>, const <a class="el" href="namespacedetray.html#a3622614888b24c246e000c62d1833da4">dindex</a> offset=0u)</td></tr>
-<tr class="memdesc:a822bc331ba5fcf266a4169ac5a86beba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create grid from container pointers - non-owning (both grid and axes).  <br /></td></tr>
-<tr class="memitem:a2be17ecca9b1cf71b3015eae0406e223" id="r_a2be17ecca9b1cf71b3015eae0406e223"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2be17ecca9b1cf71b3015eae0406e223">grid_impl</a> (<a class="el" href="#a618db547a4db77502bd5cd89a0dc6cc0">bin_container_type</a> *bin_data_ptr, <a class="el" href="#abebfcde47a3833d40032d6f9ad58ee89">axes_type</a> &amp;<a class="el" href="#a5838e30c111fcfd8c5abbba3b0451fbf">axes</a>, const <a class="el" href="namespacedetray.html#a3622614888b24c246e000c62d1833da4">dindex</a> offset=0u)</td></tr>
-<tr class="memdesc:a2be17ecca9b1cf71b3015eae0406e223"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create grid from container pointers - non-owning (both grid and axes).  <br /></td></tr>
-<tr class="memitem:a894584b9ee5d9a3b9679fb76a7278fe2" id="r_a894584b9ee5d9a3b9679fb76a7278fe2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a894584b9ee5d9a3b9679fb76a7278fe2">grid_impl</a> (const <a class="el" href="#a618db547a4db77502bd5cd89a0dc6cc0">bin_container_type</a> *bin_data_ptr, <a class="el" href="#abebfcde47a3833d40032d6f9ad58ee89">axes_type</a> &amp;&amp;<a class="el" href="#a5838e30c111fcfd8c5abbba3b0451fbf">axes</a>, const <a class="el" href="namespacedetray.html#a3622614888b24c246e000c62d1833da4">dindex</a> offset=0)</td></tr>
-<tr class="memdesc:a894584b9ee5d9a3b9679fb76a7278fe2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create grid from container pointers - non-owning (both grid and axes).  <br /></td></tr>
-<tr class="memitem:a9711c7f6182aecaf0322eb7e551c2570" id="r_a9711c7f6182aecaf0322eb7e551c2570"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9711c7f6182aecaf0322eb7e551c2570">grid_impl</a> (const <a class="el" href="#a618db547a4db77502bd5cd89a0dc6cc0">bin_container_type</a> *bin_data_ptr, const <a class="el" href="#abebfcde47a3833d40032d6f9ad58ee89">axes_type</a> &amp;<a class="el" href="#a5838e30c111fcfd8c5abbba3b0451fbf">axes</a>, const <a class="el" href="namespacedetray.html#a3622614888b24c246e000c62d1833da4">dindex</a> offset=0)</td></tr>
-<tr class="memdesc:a9711c7f6182aecaf0322eb7e551c2570"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create grid from container pointers - non-owning (both grid and axes).  <br /></td></tr>
+<tr class="memitem:a1f53960fc515fcd7953a2fe98ec51037" id="r_a1f53960fc515fcd7953a2fe98ec51037"><td class="memTemplParams" colspan="2">template&lt;bool owner = is_owning&gt; <br />
+requires (!owner)</td></tr>
+<tr class="memitem:a1f53960fc515fcd7953a2fe98ec51037 template"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f53960fc515fcd7953a2fe98ec51037">grid_impl</a> (const <a class="el" href="#a7b5574ba06b07fad5f3132c6e32ce417">owning_type</a>&lt; true &gt; &amp;owning_grid)</td></tr>
+<tr class="memdesc:a1f53960fc515fcd7953a2fe98ec51037"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create non-owning grid from owning grid.  <br /></td></tr>
 <tr class="memitem:a270dee56ef31eec3fc4608342ace383a" id="r_a270dee56ef31eec3fc4608342ace383a"><td class="memTemplParams" colspan="2">template&lt;concepts::device_view grid_view_t&gt; </td></tr>
 <tr class="memitem:a270dee56ef31eec3fc4608342ace383a template"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a270dee56ef31eec3fc4608342ace383a">grid_impl</a> (grid_view_t &amp;view)</td></tr>
 <tr class="memdesc:a270dee56ef31eec3fc4608342ace383a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Device-side construction from a vecmem based view type.  <br /></td></tr>
@@ -233,6 +229,12 @@ requires owning</td></tr>
 <tr class="memdesc:abf734f188417cc7ba21cf86c69722066"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert per-axis bin indices to a flattened bin index.  <br /></td></tr>
 <tr class="memitem:ab5a27c3b9044e05dfd10b545a1a25d0b" id="r_ab5a27c3b9044e05dfd10b545a1a25d0b"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5a27c3b9044e05dfd10b545a1a25d0b">size</a> () const -&gt; <a class="el" href="namespacedetray.html#a3622614888b24c246e000c62d1833da4">dindex</a></td></tr>
 <tr id="pub-methods-0" class="groupHeader"><td colspan="2"><div class="groupHeader"></div></td></tr>
+<tr class="memitem:abf62174062a23a1da6a5a42ad5097847" id="r_abf62174062a23a1da6a5a42ad5097847"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf62174062a23a1da6a5a42ad5097847">grid_impl</a> (typename bin_storage::const_pointer_type const bin_data_ptr, const <a class="el" href="#abebfcde47a3833d40032d6f9ad58ee89">axes_type</a> &amp;<a class="el" href="#a5838e30c111fcfd8c5abbba3b0451fbf">axes</a>, const <a class="el" href="namespacedetray.html#a3622614888b24c246e000c62d1833da4">dindex</a> offset=0)</td></tr>
+<tr class="memdesc:abf62174062a23a1da6a5a42ad5097847"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create grid from container pointers - non-owning (both grid and axes).  <br /></td></tr>
+<tr class="memitem:a4ae210a93abd258ff4cda9c62f9d7de4" id="r_a4ae210a93abd258ff4cda9c62f9d7de4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ae210a93abd258ff4cda9c62f9d7de4">grid_impl</a> (typename bin_storage::pointer_type const bin_data_ptr, <a class="el" href="#abebfcde47a3833d40032d6f9ad58ee89">axes_type</a> &amp;<a class="el" href="#a5838e30c111fcfd8c5abbba3b0451fbf">axes</a>, const <a class="el" href="namespacedetray.html#a3622614888b24c246e000c62d1833da4">dindex</a> offset=0u)</td></tr>
+<tr class="memitem:ac35c35c4cf81f878645b009cf0d911a1" id="r_ac35c35c4cf81f878645b009cf0d911a1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac35c35c4cf81f878645b009cf0d911a1">grid_impl</a> (typename bin_storage::const_pointer_type const bin_data_ptr, <a class="el" href="#abebfcde47a3833d40032d6f9ad58ee89">axes_type</a> &amp;&amp;<a class="el" href="#a5838e30c111fcfd8c5abbba3b0451fbf">axes</a>, const <a class="el" href="namespacedetray.html#a3622614888b24c246e000c62d1833da4">dindex</a> offset=0)</td></tr>
+<tr class="memitem:a2b55a8aea19b6fcf6d28ad48be1c44da" id="r_a2b55a8aea19b6fcf6d28ad48be1c44da"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b55a8aea19b6fcf6d28ad48be1c44da">grid_impl</a> (typename bin_storage::pointer_type const bin_data_ptr, <a class="el" href="#abebfcde47a3833d40032d6f9ad58ee89">axes_type</a> &amp;&amp;<a class="el" href="#a5838e30c111fcfd8c5abbba3b0451fbf">axes</a>, const <a class="el" href="namespacedetray.html#a3622614888b24c246e000c62d1833da4">dindex</a> offset=0u)</td></tr>
+<tr id="pub-methods-1" class="groupHeader"><td colspan="2"><div class="groupHeader"></div></td></tr>
 <tr class="memitem:a8d5fdda4d445d93cbf8c129cb8fdfd56" id="r_a8d5fdda4d445d93cbf8c129cb8fdfd56"><td class="memItemLeft" align="right" valign="top">decltype(auto)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d5fdda4d445d93cbf8c129cb8fdfd56">bin</a> (const <a class="el" href="#afaead74ef0e9c01a1a452109a1b9d836">glob_bin_index</a> gbin) const</td></tr>
 <tr class="memitem:a158be394b395b91057e5472a9d433d72" id="r_a158be394b395b91057e5472a9d433d72"><td class="memItemLeft" align="right" valign="top">decltype(auto)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a158be394b395b91057e5472a9d433d72">bin</a> (const <a class="el" href="#afaead74ef0e9c01a1a452109a1b9d836">glob_bin_index</a> gbin)</td></tr>
 <tr class="memitem:aa748a44ea8597ddc59667f8390f4e9d9" id="r_aa748a44ea8597ddc59667f8390f4e9d9"><td class="memItemLeft" align="right" valign="top">decltype(auto)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa748a44ea8597ddc59667f8390f4e9d9">bin</a> (const <a class="el" href="#a2e7af35fad64750c2a6ad4029095faff">loc_bin_index</a> &amp;mbin) const</td></tr>
@@ -245,13 +247,13 @@ requires owning</td></tr>
 requires (sizeof...(I) == <a class="el" href="#af418a689699a31d054c0aa2f863d3575">dim</a>)</td></tr>
 <tr class="memitem:a3d615299cf0028164cce91131e9dd330 template"><td class="memItemLeft" align="right" valign="top">decltype(auto)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d615299cf0028164cce91131e9dd330">bin</a> (I... indices) const</td></tr>
 <tr class="memdesc:a3d615299cf0028164cce91131e9dd330"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access a bin using one index per axis.  <br /></td></tr>
-<tr id="pub-methods-1" class="groupHeader"><td colspan="2"><div class="groupHeader"></div></td></tr>
+<tr id="pub-methods-2" class="groupHeader"><td colspan="2"><div class="groupHeader"></div></td></tr>
 <tr class="memitem:a8d34aaf6ee4a0b8681cc412dfaf34f2b" id="r_a8d34aaf6ee4a0b8681cc412dfaf34f2b"><td class="memItemLeft" align="right" valign="top">decltype(auto)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d34aaf6ee4a0b8681cc412dfaf34f2b">at</a> (const <a class="el" href="#afaead74ef0e9c01a1a452109a1b9d836">glob_bin_index</a> gbin, const <a class="el" href="namespacedetray.html#a3622614888b24c246e000c62d1833da4">dindex</a> idx)</td></tr>
 <tr class="memdesc:a8d34aaf6ee4a0b8681cc412dfaf34f2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access a single entry in a bin from the global bin index, as well as the index of the entry in the bin.  <br /></td></tr>
 <tr class="memitem:aa6f794092a7a6d9c2ff7a26bba1044b2" id="r_aa6f794092a7a6d9c2ff7a26bba1044b2"><td class="memItemLeft" align="right" valign="top">decltype(auto)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6f794092a7a6d9c2ff7a26bba1044b2">at</a> (const <a class="el" href="#afaead74ef0e9c01a1a452109a1b9d836">glob_bin_index</a> gbin, const <a class="el" href="namespacedetray.html#a3622614888b24c246e000c62d1833da4">dindex</a> idx) const</td></tr>
 <tr class="memitem:a164e1751727cede2bf0d4fc1a4c51161" id="r_a164e1751727cede2bf0d4fc1a4c51161"><td class="memItemLeft" align="right" valign="top">decltype(auto)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a164e1751727cede2bf0d4fc1a4c51161">at</a> (const <a class="el" href="#a2e7af35fad64750c2a6ad4029095faff">loc_bin_index</a> &amp;mbin, const <a class="el" href="namespacedetray.html#a3622614888b24c246e000c62d1833da4">dindex</a> idx)</td></tr>
 <tr class="memitem:a8028add1a08aef1600283cb212218969" id="r_a8028add1a08aef1600283cb212218969"><td class="memItemLeft" align="right" valign="top">decltype(auto)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8028add1a08aef1600283cb212218969">at</a> (const <a class="el" href="#a2e7af35fad64750c2a6ad4029095faff">loc_bin_index</a> &amp;mbin, const <a class="el" href="namespacedetray.html#a3622614888b24c246e000c62d1833da4">dindex</a> idx) const</td></tr>
-<tr id="pub-methods-2" class="groupHeader"><td colspan="2"><div class="groupHeader"></div></td></tr>
+<tr id="pub-methods-3" class="groupHeader"><td colspan="2"><div class="groupHeader"></div></td></tr>
 <tr class="memitem:a407f19f13b548a7337d9cc9e28b4877e" id="r_a407f19f13b548a7337d9cc9e28b4877e"><td class="memTemplParams" colspan="2">template&lt;typename populator_t, typename V = value_type&gt; </td></tr>
 <tr class="memitem:a407f19f13b548a7337d9cc9e28b4877e template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a407f19f13b548a7337d9cc9e28b4877e">populate</a> (const <a class="el" href="#a2e7af35fad64750c2a6ad4029095faff">loc_bin_index</a> &amp;mbin, V &amp;&amp;v)</td></tr>
 <tr class="memdesc:a407f19f13b548a7337d9cc9e28b4877e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Poupulate a bin with a single one of its corresponding values <code class="param">v</code>.  <br /></td></tr>
@@ -349,8 +351,8 @@ template&lt;typename axes_t, typename bin_t, template&lt; std::size_t &gt; class
 
 </div>
 </div>
-<a id="a858ec6cc9fe714f4177b4503dd857f10" name="a858ec6cc9fe714f4177b4503dd857f10"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a858ec6cc9fe714f4177b4503dd857f10">&#9670;&#160;</a></span>type</h2>
+<a id="a7b5574ba06b07fad5f3132c6e32ce417" name="a7b5574ba06b07fad5f3132c6e32ce417"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b5574ba06b07fad5f3132c6e32ce417">&#9670;&#160;</a></span>owning_type</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -360,12 +362,12 @@ template&lt;typename axes_t, typename bin_t, template&lt; std::size_t &gt; class
 template&lt;bool owning&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classdetray_1_1grid__impl.html">detray::grid_impl</a>&lt; axes_t, bin_t, serializer_t &gt;::type</td>
+          <td class="memname">using <a class="el" href="classdetray_1_1grid__impl.html">detray::grid_impl</a>&lt; axes_t, bin_t, serializer_t &gt;::owning_type</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line"> </div>
-<div class="line">      <a class="code hl_function" href="#a24f7487e5ccd73868f3dbd9bd50a564f">grid_impl&lt;typename axes_t::template type&lt;owning&gt;</a>, bin_t, serializer_t&gt;</div>
+<b>Initial value:</b><div class="fragment"><div class="line"> <a class="code hl_function" href="#a24f7487e5ccd73868f3dbd9bd50a564f">grid_impl&lt;typename axes_t::template owning_type&lt;owning&gt;</a>,</div>
+<div class="line">                                bin_t, serializer_t&gt;</div>
 <div class="ttc" id="aclassdetray_1_1grid__impl_html_a24f7487e5ccd73868f3dbd9bd50a564f"><div class="ttname"><a href="#a24f7487e5ccd73868f3dbd9bd50a564f">detray::grid_impl::grid_impl</a></div><div class="ttdeci">grid_impl()=default</div><div class="ttdoc">Make grid default constructible: Empty grid with empty axis.</div></div>
 </div><!-- fragment -->
 <p>Find the corresponding (non-)owning grid type. </p>
@@ -394,7 +396,7 @@ template&lt;typename axes_t, typename bin_t, template&lt; std::size_t &gt; class
 </div>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5655be499a644c8b8dcc8f1b74c39216" name="a5655be499a644c8b8dcc8f1b74c39216"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5655be499a644c8b8dcc8f1b74c39216">&#9670;&#160;</a></span>grid_impl() <span class="overload">[1/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5655be499a644c8b8dcc8f1b74c39216">&#9670;&#160;</a></span>grid_impl() <span class="overload">[1/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -429,7 +431,7 @@ template&lt;typename axes_t, typename bin_t, template&lt; std::size_t &gt; class
 </div>
 </div>
 <a id="ac206a76ed85ba70e57ae6bad21518137" name="ac206a76ed85ba70e57ae6bad21518137"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac206a76ed85ba70e57ae6bad21518137">&#9670;&#160;</a></span>grid_impl() <span class="overload">[2/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac206a76ed85ba70e57ae6bad21518137">&#9670;&#160;</a></span>grid_impl() <span class="overload">[2/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -460,8 +462,8 @@ template&lt;typename axes_t, typename bin_t, template&lt; std::size_t &gt; class
 
 </div>
 </div>
-<a id="a9711c7f6182aecaf0322eb7e551c2570" name="a9711c7f6182aecaf0322eb7e551c2570"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9711c7f6182aecaf0322eb7e551c2570">&#9670;&#160;</a></span>grid_impl() <span class="overload">[3/7]</span></h2>
+<a id="abf62174062a23a1da6a5a42ad5097847" name="abf62174062a23a1da6a5a42ad5097847"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf62174062a23a1da6a5a42ad5097847">&#9670;&#160;</a></span>grid_impl() <span class="overload">[3/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -471,7 +473,7 @@ template&lt;typename axes_t, typename bin_t, template&lt; std::size_t &gt; class
         <tr>
           <td class="memname"><a class="el" href="classdetray_1_1grid__impl.html">detray::grid_impl</a>&lt; axes_t, bin_t, serializer_t &gt;::grid_impl </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#a618db547a4db77502bd5cd89a0dc6cc0">bin_container_type</a> *</td>          <td class="paramname"><span class="paramname"><em>bin_data_ptr</em></span>, </td>
+          <td class="paramtype">typename bin_storage::const_pointer_type const</td>          <td class="paramname"><span class="paramname"><em>bin_data_ptr</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -498,8 +500,8 @@ template&lt;typename axes_t, typename bin_t, template&lt; std::size_t &gt; class
 
 </div>
 </div>
-<a id="a2be17ecca9b1cf71b3015eae0406e223" name="a2be17ecca9b1cf71b3015eae0406e223"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2be17ecca9b1cf71b3015eae0406e223">&#9670;&#160;</a></span>grid_impl() <span class="overload">[4/7]</span></h2>
+<a id="a4ae210a93abd258ff4cda9c62f9d7de4" name="a4ae210a93abd258ff4cda9c62f9d7de4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ae210a93abd258ff4cda9c62f9d7de4">&#9670;&#160;</a></span>grid_impl() <span class="overload">[4/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -509,7 +511,7 @@ template&lt;typename axes_t, typename bin_t, template&lt; std::size_t &gt; class
         <tr>
           <td class="memname"><a class="el" href="classdetray_1_1grid__impl.html">detray::grid_impl</a>&lt; axes_t, bin_t, serializer_t &gt;::grid_impl </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a618db547a4db77502bd5cd89a0dc6cc0">bin_container_type</a> *</td>          <td class="paramname"><span class="paramname"><em>bin_data_ptr</em></span>, </td>
+          <td class="paramtype">typename bin_storage::pointer_type const</td>          <td class="paramname"><span class="paramname"><em>bin_data_ptr</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -523,8 +525,6 @@ template&lt;typename axes_t, typename bin_t, template&lt; std::size_t &gt; class
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Create grid from container pointers - non-owning (both grid and axes). </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">bin_data_ptr</td><td>Bin storage to view. </td></tr>
@@ -536,8 +536,8 @@ template&lt;typename axes_t, typename bin_t, template&lt; std::size_t &gt; class
 
 </div>
 </div>
-<a id="a894584b9ee5d9a3b9679fb76a7278fe2" name="a894584b9ee5d9a3b9679fb76a7278fe2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a894584b9ee5d9a3b9679fb76a7278fe2">&#9670;&#160;</a></span>grid_impl() <span class="overload">[5/7]</span></h2>
+<a id="ac35c35c4cf81f878645b009cf0d911a1" name="ac35c35c4cf81f878645b009cf0d911a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac35c35c4cf81f878645b009cf0d911a1">&#9670;&#160;</a></span>grid_impl() <span class="overload">[5/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -547,7 +547,7 @@ template&lt;typename axes_t, typename bin_t, template&lt; std::size_t &gt; class
         <tr>
           <td class="memname"><a class="el" href="classdetray_1_1grid__impl.html">detray::grid_impl</a>&lt; axes_t, bin_t, serializer_t &gt;::grid_impl </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#a618db547a4db77502bd5cd89a0dc6cc0">bin_container_type</a> *</td>          <td class="paramname"><span class="paramname"><em>bin_data_ptr</em></span>, </td>
+          <td class="paramtype">typename bin_storage::const_pointer_type const</td>          <td class="paramname"><span class="paramname"><em>bin_data_ptr</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -561,12 +561,10 @@ template&lt;typename axes_t, typename bin_t, template&lt; std::size_t &gt; class
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Create grid from container pointers - non-owning (both grid and axes). </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">bin_data_ptr</td><td>Bin storage to view. </td></tr>
-    <tr><td class="paramname">axes</td><td>Axis definitions moved into the grid view. </td></tr>
+    <tr><td class="paramname">axes</td><td>Axis definitions to view. </td></tr>
     <tr><td class="paramname">offset</td><td>Offset of this grid's bins in the container. </td></tr>
   </table>
   </dd>
@@ -574,8 +572,8 @@ template&lt;typename axes_t, typename bin_t, template&lt; std::size_t &gt; class
 
 </div>
 </div>
-<a id="a822bc331ba5fcf266a4169ac5a86beba" name="a822bc331ba5fcf266a4169ac5a86beba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a822bc331ba5fcf266a4169ac5a86beba">&#9670;&#160;</a></span>grid_impl() <span class="overload">[6/7]</span></h2>
+<a id="a2b55a8aea19b6fcf6d28ad48be1c44da" name="a2b55a8aea19b6fcf6d28ad48be1c44da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b55a8aea19b6fcf6d28ad48be1c44da">&#9670;&#160;</a></span>grid_impl() <span class="overload">[6/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -585,7 +583,7 @@ template&lt;typename axes_t, typename bin_t, template&lt; std::size_t &gt; class
         <tr>
           <td class="memname"><a class="el" href="classdetray_1_1grid__impl.html">detray::grid_impl</a>&lt; axes_t, bin_t, serializer_t &gt;::grid_impl </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a618db547a4db77502bd5cd89a0dc6cc0">bin_container_type</a> *</td>          <td class="paramname"><span class="paramname"><em>bin_data_ptr</em></span>, </td>
+          <td class="paramtype">typename bin_storage::pointer_type const</td>          <td class="paramname"><span class="paramname"><em>bin_data_ptr</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -599,12 +597,10 @@ template&lt;typename axes_t, typename bin_t, template&lt; std::size_t &gt; class
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Create grid from container pointers - non-owning (both grid and axes). </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">bin_data_ptr</td><td>Bin storage to view. </td></tr>
-    <tr><td class="paramname">axes</td><td>Axis definitions moved into the grid view. </td></tr>
+    <tr><td class="paramname">axes</td><td>Axis definitions to view. </td></tr>
     <tr><td class="paramname">offset</td><td>Offset of this grid's bins in the container. </td></tr>
   </table>
   </dd>
@@ -612,8 +608,52 @@ template&lt;typename axes_t, typename bin_t, template&lt; std::size_t &gt; class
 
 </div>
 </div>
+<a id="a1f53960fc515fcd7953a2fe98ec51037" name="a1f53960fc515fcd7953a2fe98ec51037"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f53960fc515fcd7953a2fe98ec51037">&#9670;&#160;</a></span>grid_impl() <span class="overload">[7/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename axes_t, typename bin_t, template&lt; std::size_t &gt; class serializer_t = simple_serializer&gt; </div>
+<div class="memtemplate">
+template&lt;bool owner = is_owning&gt; <br />
+requires (!owner)</div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classdetray_1_1grid__impl.html">detray::grid_impl</a>&lt; axes_t, bin_t, serializer_t &gt;::grid_impl </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7b5574ba06b07fad5f3132c6e32ce417">owning_type</a>&lt; true &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>owning_grid</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel explicit">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create non-owning grid from owning grid. </p>
+<p>A single owning grid cannot be part of a grid collection, so the offset is 0 </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">owner</td><td>whether the grid is owning: non-owning </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">owning_grid</td><td>the owning grid of which to create a non-owning grid </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a270dee56ef31eec3fc4608342ace383a" name="a270dee56ef31eec3fc4608342ace383a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a270dee56ef31eec3fc4608342ace383a">&#9670;&#160;</a></span>grid_impl() <span class="overload">[7/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a270dee56ef31eec3fc4608342ace383a">&#9670;&#160;</a></span>grid_impl() <span class="overload">[8/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

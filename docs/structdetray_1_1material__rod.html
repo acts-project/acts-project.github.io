@@ -146,8 +146,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a66c2cac867c3faa66ea47583abc94293"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a rod from a material and its radius.  <br /></td></tr>
 <tr class="memitem:a77787bcacc2ffb4c59e60e84dca07a4e" id="r_a77787bcacc2ffb4c59e60e84dca07a4e"><td class="memItemLeft" align="right" valign="top">constexpr const <a class="el" href="#a87c7670c1f7af87c87ecc2c0e7ec79da">material_type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77787bcacc2ffb4c59e60e84dca07a4e">get_material</a> () const</td></tr>
 <tr class="memdesc:a77787bcacc2ffb4c59e60e84dca07a4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the (average) material parameters.  <br /></td></tr>
-<tr class="memitem:a7c10f37fbcc07e4079f85a5fdd064e3d" id="r_a7c10f37fbcc07e4079f85a5fdd064e3d"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c10f37fbcc07e4079f85a5fdd064e3d">operator bool</a> () const</td></tr>
-<tr class="memdesc:a7c10f37fbcc07e4079f85a5fdd064e3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Boolean operator.  <br /></td></tr>
+<tr class="memitem:a4122488ca55baf6ffea3340ba49175c1" id="r_a4122488ca55baf6ffea3340ba49175c1"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4122488ca55baf6ffea3340ba49175c1">is_valid</a> () const</td></tr>
+<tr class="memdesc:a4122488ca55baf6ffea3340ba49175c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Boolean operator.  <br /></td></tr>
 <tr class="memitem:adb4ef4ca7675b3b8db2fc8dbefbe5093" id="r_adb4ef4ca7675b3b8db2fc8dbefbe5093"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb4ef4ca7675b3b8db2fc8dbefbe5093">operator==</a> (const material_rod&lt; <a class="el" href="#af277aac8df386980eb40be9537c1f2ea">scalar_type</a> &gt; &amp;rhs) const</td></tr>
 <tr class="memdesc:adb4ef4ca7675b3b8db2fc8dbefbe5093"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equality operator.  <br /></td></tr>
 <tr class="memitem:a6af86c144bcec9e81eea3fe02c397695" id="r_a6af86c144bcec9e81eea3fe02c397695"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="#af277aac8df386980eb40be9537c1f2ea">scalar_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6af86c144bcec9e81eea3fe02c397695">path_segment</a> (const <a class="el" href="#af277aac8df386980eb40be9537c1f2ea">scalar_type</a> cos_inc_angle, const <a class="el" href="#af277aac8df386980eb40be9537c1f2ea">scalar_type</a> approach) const</td></tr>
@@ -236,8 +236,8 @@ template&lt;concepts::scalar scalar_t&gt; </div>
 
 </div>
 </div>
-<a id="a7c10f37fbcc07e4079f85a5fdd064e3d" name="a7c10f37fbcc07e4079f85a5fdd064e3d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c10f37fbcc07e4079f85a5fdd064e3d">&#9670;&#160;</a></span>operator bool()</h2>
+<a id="a4122488ca55baf6ffea3340ba49175c1" name="a4122488ca55baf6ffea3340ba49175c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4122488ca55baf6ffea3340ba49175c1">&#9670;&#160;</a></span>is_valid()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -248,7 +248,7 @@ template&lt;concepts::scalar scalar_t&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structdetray_1_1material__rod.html">detray::material_rod</a>&lt; scalar_t &gt;::operator bool </td>
+          <td class="memname">bool <a class="el" href="structdetray_1_1material__rod.html">detray::material_rod</a>&lt; scalar_t &gt;::is_valid </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -256,7 +256,7 @@ template&lt;concepts::scalar scalar_t&gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel explicit">explicit</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -292,6 +292,7 @@ template&lt;concepts::scalar scalar_t&gt; </div>
 </div><div class="memdoc">
 
 <p>Equality operator. </p>
+<dl class="section note"><dt>Note</dt><dd>: <code>radius_in_X0</code> and <code>radius_in_L0</code> are dependent quantities</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rhs</td><td>is the right hand side to be compared to </td></tr>

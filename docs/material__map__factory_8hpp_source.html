@@ -232,95 +232,98 @@ $(function(){initNavTree('material__map__factory_8hpp_source.html','',''); });
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>  DETRAY_HOST</div>
 <div class="foldopen" id="foldopen00127" data-start="{" data-end="}">
 <div class="line"><a id="l00127" name="l00127"></a><span class="lineno"><a class="line" href="classdetray_1_1material__map__factory.html#af33b1c22b5d27a45c468a57db02635d3">  127</a></span>  <span class="keyword">auto</span> <a class="code hl_function" href="classdetray_1_1material__map__factory.html#af33b1c22b5d27a45c468a57db02635d3">clear</a>() -&gt; <span class="keywordtype">void</span> <span class="keyword">override</span> {</div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>    m_links.clear();</div>
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>    m_n_bins.clear();</div>
-<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>    m_axis_spans.clear();</div>
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>    m_materials.clear();</div>
-<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>    m_thickness.clear();</div>
-<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>  }</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>    <a class="code hl_function" href="classdetray_1_1factory__decorator.html#a0bb70fec0006ecd6d74807035652e774">base_factory::clear</a>();</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span> </div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>    m_links.clear();</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>    m_n_bins.clear();</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>    m_axis_spans.clear();</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>    m_materials.clear();</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>    m_thickness.clear();</div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>  }</div>
 </div>
-<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span></div>
-<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>  <span class="keyword">template</span> &lt;<span class="keyword">typename</span> bin_data_t, std::<span class="keywordtype">size_t</span> N&gt;</div>
-<div class="foldopen" id="foldopen00152" data-start="{" data-end="}">
-<div class="line"><a id="l00152" name="l00152"></a><span class="lineno"><a class="line" href="classdetray_1_1material__map__factory.html#a0302a402c4bf7bf164df2ea80080ce54">  152</a></span>  DETRAY_HOST <span class="keyword">auto</span> <a class="code hl_function" href="classdetray_1_1material__map__factory.html#a0302a402c4bf7bf164df2ea80080ce54">operator()</a>(</div>
-<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>      <span class="keyword">typename</span> detector_t::surface_lookup_container &amp;surfaces,</div>
-<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>      std::map&lt;<a class="code hl_typedef" href="namespacedetray.html#a3622614888b24c246e000c62d1833da4">dindex</a>, std::vector&lt;bin_data_t&gt;&gt; &amp;<a class="code hl_typedef" href="namespacedetray.html#a2fe4a8fe66a88e44f66329ed0a67a45b">material_map</a>,</div>
-<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>      std::map&lt;<a class="code hl_typedef" href="namespacedetray.html#a3622614888b24c246e000c62d1833da4">dindex</a>, <a class="code hl_typedef" href="namespacedetray.html#a6bf94de620d7a239c612c5f9e8dbc1f3">darray&lt;std::size_t, N&gt;</a>&gt; &amp;n_bins,</div>
-<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>      std::map&lt;<a class="code hl_typedef" href="namespacedetray.html#a3622614888b24c246e000c62d1833da4">dindex</a>, <a class="code hl_typedef" href="namespacedetray.html#a6bf94de620d7a239c612c5f9e8dbc1f3">darray</a>&lt;std::vector&lt;scalar_type&gt;, N&gt;&gt; &amp;axis_spans) {</div>
-<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>    DETRAY_VERBOSE_HOST(<span class="stringliteral">&quot;Add material maps...&quot;</span>);</div>
-<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span> </div>
-<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>    <span class="keyword">using </span>link_t = <span class="keyword">typename</span> detector_t::surface_type::material_link;</div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span></div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>  <span class="keyword">template</span> &lt;<span class="keyword">typename</span> bin_data_t, std::<span class="keywordtype">size_t</span> N&gt;</div>
+<div class="foldopen" id="foldopen00154" data-start="{" data-end="}">
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno"><a class="line" href="classdetray_1_1material__map__factory.html#a0302a402c4bf7bf164df2ea80080ce54">  154</a></span>  DETRAY_HOST <span class="keyword">auto</span> <a class="code hl_function" href="classdetray_1_1material__map__factory.html#a0302a402c4bf7bf164df2ea80080ce54">operator()</a>(</div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>      <span class="keyword">typename</span> detector_t::surface_lookup_container &amp;surfaces,</div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>      std::map&lt;<a class="code hl_typedef" href="namespacedetray.html#a3622614888b24c246e000c62d1833da4">dindex</a>, std::vector&lt;bin_data_t&gt;&gt; &amp;<a class="code hl_typedef" href="namespacedetray.html#a2fe4a8fe66a88e44f66329ed0a67a45b">material_map</a>,</div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>      std::map&lt;<a class="code hl_typedef" href="namespacedetray.html#a3622614888b24c246e000c62d1833da4">dindex</a>, <a class="code hl_typedef" href="namespacedetray.html#a6bf94de620d7a239c612c5f9e8dbc1f3">darray&lt;std::size_t, N&gt;</a>&gt; &amp;n_bins,</div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>      std::map&lt;<a class="code hl_typedef" href="namespacedetray.html#a3622614888b24c246e000c62d1833da4">dindex</a>, <a class="code hl_typedef" href="namespacedetray.html#a6bf94de620d7a239c612c5f9e8dbc1f3">darray</a>&lt;std::vector&lt;scalar_type&gt;, N&gt;&gt; &amp;axis_spans) {</div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>    DETRAY_VERBOSE_HOST(<span class="stringliteral">&quot;Add material maps...&quot;</span>);</div>
 <div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span> </div>
-<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>    <span class="comment">// Check data consistency</span></div>
-<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>    <span class="keyword">const</span> std::size_t <a class="code hl_function" href="classdetray_1_1material__map__factory.html#a2fe9579430a8134e3ebbedb00e0b020a">n_materials</a>{this-&gt;<a class="code hl_function" href="classdetray_1_1material__map__factory.html#a2fe9579430a8134e3ebbedb00e0b020a">n_materials</a>()};</div>
-<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>    <span class="keywordflow">if</span> (n_materials == 0) {</div>
-<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>      <span class="keywordflow">return</span>;</div>
-<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>    }</div>
-<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span> </div>
-<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>    assert(surfaces.size() &gt;= <a class="code hl_function" href="classdetray_1_1material__map__factory.html#a2fe9579430a8134e3ebbedb00e0b020a">n_materials</a>);</div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>    <span class="keyword">using </span>link_t = <span class="keyword">typename</span> detector_t::surface_type::material_link;</div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span> </div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>    <span class="comment">// Check data consistency</span></div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>    <span class="keyword">const</span> std::size_t <a class="code hl_function" href="classdetray_1_1material__map__factory.html#a2fe9579430a8134e3ebbedb00e0b020a">n_materials</a>{this-&gt;<a class="code hl_function" href="classdetray_1_1material__map__factory.html#a2fe9579430a8134e3ebbedb00e0b020a">n_materials</a>()};</div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>    <span class="keywordflow">if</span> (n_materials == 0) {</div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>      <span class="keywordflow">return</span>;</div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>    }</div>
 <div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span> </div>
-<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>    DETRAY_VERBOSE_HOST(<span class="stringliteral">&quot;-&gt; Have &quot;</span> &lt;&lt; m_materials.size()</div>
-<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>                                   &lt;&lt; <span class="stringliteral">&quot; configured material map(s) to assign&quot;</span>);</div>
-<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span> </div>
-<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>    <span class="comment">// Add the material only to those surfaces that the data links against</span></div>
-<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;[i, <a class="code hl_function" href="classdetray_1_1material__map__factory.html#a65c5e9892fa303ee88bbed60f98d1dcc">materials</a>] : m_materials) {</div>
-<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>      <span class="keyword">const</span> <span class="keyword">auto</span> sf_idx{<span class="keyword">static_cast&lt;</span><a class="code hl_typedef" href="namespacedetray.html#a3622614888b24c246e000c62d1833da4">dindex</a><span class="keyword">&gt;</span>(i)};</div>
-<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span> </div>
-<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>      DETRAY_DEBUG_HOST(<span class="stringliteral">&quot;--&gt; #&quot;</span> &lt;&lt; sf_idx &lt;&lt; <span class="stringliteral">&quot; sf = &quot;</span> &lt;&lt; surfaces.at(sf_idx));</div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>    assert(surfaces.size() &gt;= <a class="code hl_function" href="classdetray_1_1material__map__factory.html#a2fe9579430a8134e3ebbedb00e0b020a">n_materials</a>);</div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span> </div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>    DETRAY_VERBOSE_HOST(<span class="stringliteral">&quot;-&gt; Have &quot;</span> &lt;&lt; m_materials.size()</div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>                                   &lt;&lt; <span class="stringliteral">&quot; configured material map(s) to assign&quot;</span>);</div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span> </div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>    <span class="comment">// Add the material only to those surfaces that the data links against</span></div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;[i, <a class="code hl_function" href="classdetray_1_1material__map__factory.html#a65c5e9892fa303ee88bbed60f98d1dcc">materials</a>] : m_materials) {</div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>      <span class="keyword">const</span> <span class="keyword">auto</span> sf_idx{<span class="keyword">static_cast&lt;</span><a class="code hl_typedef" href="namespacedetray.html#a3622614888b24c246e000c62d1833da4">dindex</a><span class="keyword">&gt;</span>(i)};</div>
 <div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span> </div>
-<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>      <span class="comment">// Copy the number of bins to the builder</span></div>
-<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>      assert(m_n_bins.at(sf_idx).size() == N);</div>
-<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span>      n_bins.emplace(sf_idx, <a class="code hl_typedef" href="namespacedetray.html#a6bf94de620d7a239c612c5f9e8dbc1f3">darray&lt;std::size_t, N&gt;</a>{});</div>
-<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>      std::ranges::copy_n(m_n_bins.at(sf_idx).begin(), N,</div>
-<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span>                          n_bins.at(sf_idx).begin());</div>
-<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span> </div>
-<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>      <span class="comment">// Copy the axis spans to the builder (if present)</span></div>
-<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>      axis_spans.emplace(sf_idx, <a class="code hl_typedef" href="namespacedetray.html#a6bf94de620d7a239c612c5f9e8dbc1f3">darray</a>&lt;std::vector&lt;scalar_type&gt;, N&gt;{});</div>
-<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>      <span class="keywordflow">for</span> (std::size_t in = 0; in &lt; N; ++in) {</div>
-<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>        <span class="keywordflow">if</span> (m_axis_spans.at(sf_idx).size() &gt; in) {</div>
-<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>          axis_spans.at(sf_idx).at(in) = m_axis_spans.at(sf_idx).at(in);</div>
-<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>        }</div>
-<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>      }</div>
-<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span> </div>
-<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>      <span class="comment">// Combine the material slab with its local bin index</span></div>
-<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> [j, mat] : <a class="code hl_struct" href="structdetray_1_1ranges_1_1views_1_1enumerate.html">detray::views::enumerate</a>(<a class="code hl_function" href="classdetray_1_1material__map__factory.html#a65c5e9892fa303ee88bbed60f98d1dcc">materials</a>)) {</div>
-<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>        <a class="code hl_typedef" href="classdetray_1_1material__map__factory.html#a6747626973ba40cac1bad4d5fbf76e6d">scalar_type</a> t{m_thickness.at(sf_idx)[j]};</div>
-<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>        <span class="keyword">auto</span> &amp;loc_bin_idx{m_links.at(sf_idx).second.at(j)};</div>
-<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span> </div>
-<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>        <a class="code hl_struct" href="structdetray_1_1material__slab.html">material_slab&lt;scalar_type&gt;</a> mat_slab{mat, t};</div>
-<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>        bin_data_t data{loc_bin_idx, mat_slab};</div>
-<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span> </div>
-<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>        <span class="keyword">auto</span> search = <a class="code hl_typedef" href="namespacedetray.html#a2fe4a8fe66a88e44f66329ed0a67a45b">material_map</a>.find(sf_idx);</div>
-<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span>        <span class="keywordflow">if</span> (search == <a class="code hl_typedef" href="namespacedetray.html#a2fe4a8fe66a88e44f66329ed0a67a45b">material_map</a>.end()) {</div>
-<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span>          <a class="code hl_typedef" href="namespacedetray.html#a2fe4a8fe66a88e44f66329ed0a67a45b">material_map</a>.emplace(sf_idx, std::vector&lt;bin_data_t&gt;{data});</div>
-<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>        } <span class="keywordflow">else</span> {</div>
-<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>          search-&gt;second.push_back(data);</div>
-<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span>        }</div>
-<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>      }</div>
-<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span> </div>
-<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span>      <span class="keyword">auto</span> map_id{m_links.at(sf_idx).first};</div>
-<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span>      DETRAY_DEBUG_HOST(<span class="stringliteral">&quot;--&gt; Set surface material id: &quot;</span> &lt;&lt; map_id);</div>
-<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span>      surfaces.at(sf_idx).material() = link_t{map_id, <a class="code hl_variable" href="namespacedetray.html#a4acd0b976198d508f4a3c4e9aa6e7c92">dindex_invalid</a>};</div>
-<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span>    }</div>
-<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span> </div>
-<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span>    DETRAY_DEBUG_HOST(<span class="stringliteral">&quot;Finished&quot;</span>);</div>
-<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span>  }</div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>      DETRAY_DEBUG_HOST(<span class="stringliteral">&quot;--&gt; #&quot;</span> &lt;&lt; sf_idx &lt;&lt; <span class="stringliteral">&quot; sf = &quot;</span> &lt;&lt; surfaces.at(sf_idx));</div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span> </div>
+<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span>      <span class="comment">// Copy the number of bins to the builder</span></div>
+<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>      assert(m_n_bins.at(sf_idx).size() == N);</div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span>      n_bins.emplace(sf_idx, <a class="code hl_typedef" href="namespacedetray.html#a6bf94de620d7a239c612c5f9e8dbc1f3">darray&lt;std::size_t, N&gt;</a>{});</div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>      std::ranges::copy_n(m_n_bins.at(sf_idx).begin(), N,</div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>                          n_bins.at(sf_idx).begin());</div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span> </div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>      <span class="comment">// Copy the axis spans to the builder (if present)</span></div>
+<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>      axis_spans.emplace(sf_idx, <a class="code hl_typedef" href="namespacedetray.html#a6bf94de620d7a239c612c5f9e8dbc1f3">darray</a>&lt;std::vector&lt;scalar_type&gt;, N&gt;{});</div>
+<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>      <span class="keywordflow">for</span> (std::size_t in = 0; in &lt; N; ++in) {</div>
+<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>        <span class="keywordflow">if</span> (m_axis_spans.at(sf_idx).size() &gt; in) {</div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>          axis_spans.at(sf_idx).at(in) = m_axis_spans.at(sf_idx).at(in);</div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>        }</div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>      }</div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span> </div>
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>      <span class="comment">// Combine the material slab with its local bin index</span></div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> [j, mat] : <a class="code hl_struct" href="structdetray_1_1ranges_1_1views_1_1enumerate.html">detray::views::enumerate</a>(<a class="code hl_function" href="classdetray_1_1material__map__factory.html#a65c5e9892fa303ee88bbed60f98d1dcc">materials</a>)) {</div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>        <a class="code hl_typedef" href="classdetray_1_1material__map__factory.html#a6747626973ba40cac1bad4d5fbf76e6d">scalar_type</a> t{m_thickness.at(sf_idx)[j]};</div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>        <span class="keyword">auto</span> &amp;loc_bin_idx{m_links.at(sf_idx).second.at(j)};</div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span> </div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>        <a class="code hl_struct" href="structdetray_1_1material__slab.html">material_slab&lt;scalar_type&gt;</a> mat_slab{mat, t};</div>
+<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>        bin_data_t data{loc_bin_idx, mat_slab};</div>
+<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span> </div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span>        <span class="keyword">auto</span> search = <a class="code hl_typedef" href="namespacedetray.html#a2fe4a8fe66a88e44f66329ed0a67a45b">material_map</a>.find(sf_idx);</div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>        <span class="keywordflow">if</span> (search == <a class="code hl_typedef" href="namespacedetray.html#a2fe4a8fe66a88e44f66329ed0a67a45b">material_map</a>.end()) {</div>
+<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>          <a class="code hl_typedef" href="namespacedetray.html#a2fe4a8fe66a88e44f66329ed0a67a45b">material_map</a>.emplace(sf_idx, std::vector&lt;bin_data_t&gt;{data});</div>
+<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span>        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>          search-&gt;second.push_back(data);</div>
+<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>        }</div>
+<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span>      }</div>
+<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span> </div>
+<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span>      <span class="keyword">auto</span> map_id{m_links.at(sf_idx).first};</div>
+<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span>      DETRAY_DEBUG_HOST(<span class="stringliteral">&quot;--&gt; Set surface material id: &quot;</span> &lt;&lt; map_id);</div>
+<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span>      surfaces.at(sf_idx).material() = link_t{map_id, <a class="code hl_variable" href="namespacedetray.html#a4acd0b976198d508f4a3c4e9aa6e7c92">dindex_invalid</a>};</div>
+<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span>    }</div>
+<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span> </div>
+<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span>    DETRAY_DEBUG_HOST(<span class="stringliteral">&quot;Finished&quot;</span>);</div>
+<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span>  }</div>
 </div>
-<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span> </div>
-<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span>  std::map&lt;std::size_t, std::pair&lt;material_id, std::vector&lt;index_type&gt;&gt;&gt;</div>
-<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>      m_links{};</div>
-<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>  std::map&lt;std::size_t, std::vector&lt;std::size_t&gt;&gt; m_n_bins{};</div>
-<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>  std::map&lt;std::size_t, std::vector&lt;std::vector&lt;scalar_type&gt;&gt;&gt; m_axis_spans{};</div>
-<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>  std::map&lt;std::size_t, std::vector&lt;scalar_type&gt;&gt; m_thickness{};</div>
-<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>  std::map&lt;std::size_t, std::vector&lt;material&lt;scalar_type&gt;&gt;&gt; m_materials{};</div>
-<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>};</div>
+<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span> </div>
+<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>  std::map&lt;std::size_t, std::pair&lt;material_id, std::vector&lt;index_type&gt;&gt;&gt;</div>
+<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>      m_links{};</div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>  std::map&lt;std::size_t, std::vector&lt;std::size_t&gt;&gt; m_n_bins{};</div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>  std::map&lt;std::size_t, std::vector&lt;std::vector&lt;scalar_type&gt;&gt;&gt; m_axis_spans{};</div>
+<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>  std::map&lt;std::size_t, std::vector&lt;scalar_type&gt;&gt; m_thickness{};</div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>  std::map&lt;std::size_t, std::vector&lt;material&lt;scalar_type&gt;&gt;&gt; m_materials{};</div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>};</div>
 </div>
-<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span> </div>
-<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>}  <span class="comment">// namespace detray</span></div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span> </div>
+<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>}  <span class="comment">// namespace detray</span></div>
+<div class="ttc" id="aclassdetray_1_1factory__decorator_html_a0bb70fec0006ecd6d74807035652e774"><div class="ttname"><a href="classdetray_1_1factory__decorator.html#a0bb70fec0006ecd6d74807035652e774">detray::factory_decorator::clear</a></div><div class="ttdeci">void clear() override</div><div class="ttdoc">Clear all data in the factory.</div><div class="ttdef"><b>Definition</b> surface_factory_interface.hpp:238</div></div>
 <div class="ttc" id="aclassdetray_1_1factory__decorator_html_aee8ee3d9f620add6b63a3b396625e4de"><div class="ttname"><a href="classdetray_1_1factory__decorator.html#aee8ee3d9f620add6b63a3b396625e4de">detray::factory_decorator::factory_decorator</a></div><div class="ttdeci">factory_decorator(std::unique_ptr&lt; surface_factory_interface&lt; detector_t &gt; &gt; factory)</div><div class="ttdoc">Wrap a concrete surface factory and forward interface calls to it.</div><div class="ttdef"><b>Definition</b> surface_factory_interface.hpp:203</div></div>
 <div class="ttc" id="aclassdetray_1_1material__data_html"><div class="ttname"><a href="classdetray_1_1material__data.html">detray::material_data</a></div><div class="ttdoc">Bind components for material together.</div><div class="ttdef"><b>Definition</b> homogeneous_material_factory.hpp:35</div></div>
-<div class="ttc" id="aclassdetray_1_1material__map__factory_html_a0302a402c4bf7bf164df2ea80080ce54"><div class="ttname"><a href="classdetray_1_1material__map__factory.html#a0302a402c4bf7bf164df2ea80080ce54">detray::material_map_factory::operator()</a></div><div class="ttdeci">auto operator()(typename detector_t::surface_lookup_container &amp;surfaces, std::map&lt; dindex, std::vector&lt; bin_data_t &gt; &gt; &amp;material_map, std::map&lt; dindex, darray&lt; std::size_t, N &gt; &gt; &amp;n_bins, std::map&lt; dindex, darray&lt; std::vector&lt; scalar_type &gt;, N &gt; &gt; &amp;axis_spans)</div><div class="ttdoc">Add data for material maps to the containers of a volume builder.</div><div class="ttdef"><b>Definition</b> material_map_factory.hpp:152</div></div>
+<div class="ttc" id="aclassdetray_1_1material__map__factory_html_a0302a402c4bf7bf164df2ea80080ce54"><div class="ttname"><a href="classdetray_1_1material__map__factory.html#a0302a402c4bf7bf164df2ea80080ce54">detray::material_map_factory::operator()</a></div><div class="ttdeci">auto operator()(typename detector_t::surface_lookup_container &amp;surfaces, std::map&lt; dindex, std::vector&lt; bin_data_t &gt; &gt; &amp;material_map, std::map&lt; dindex, darray&lt; std::size_t, N &gt; &gt; &amp;n_bins, std::map&lt; dindex, darray&lt; std::vector&lt; scalar_type &gt;, N &gt; &gt; &amp;axis_spans)</div><div class="ttdoc">Add data for material maps to the containers of a volume builder.</div><div class="ttdef"><b>Definition</b> material_map_factory.hpp:154</div></div>
 <div class="ttc" id="aclassdetray_1_1material__map__factory_html_a09a8545b67a017b9cbece78b94572053"><div class="ttname"><a href="classdetray_1_1material__map__factory.html#a09a8545b67a017b9cbece78b94572053">detray::material_map_factory::links</a></div><div class="ttdeci">auto links() const -&gt; const std::map&lt; std::size_t, std::pair&lt; material_id, std::vector&lt; index_type &gt; &gt; &gt; &amp;</div><div class="ttdef"><b>Definition</b> material_map_factory.hpp:81</div></div>
 <div class="ttc" id="aclassdetray_1_1material__map__factory_html_a2fe9579430a8134e3ebbedb00e0b020a"><div class="ttname"><a href="classdetray_1_1material__map__factory.html#a2fe9579430a8134e3ebbedb00e0b020a">detray::material_map_factory::n_materials</a></div><div class="ttdeci">auto n_materials() const -&gt; dindex</div><div class="ttdef"><b>Definition</b> material_map_factory.hpp:67</div></div>
 <div class="ttc" id="aclassdetray_1_1material__map__factory_html_a65c5e9892fa303ee88bbed60f98d1dcc"><div class="ttname"><a href="classdetray_1_1material__map__factory.html#a65c5e9892fa303ee88bbed60f98d1dcc">detray::material_map_factory::materials</a></div><div class="ttdeci">auto materials() const -&gt; const std::map&lt; std::size_t, std::vector&lt; material&lt; scalar_type &gt; &gt; &gt; &amp;</div><div class="ttdef"><b>Definition</b> material_map_factory.hpp:88</div></div>
@@ -340,7 +343,7 @@ $(function(){initNavTree('material__map__factory_8hpp_source.html','',''); });
 <div class="ttc" id="anamespacedetray_html_a6bf94de620d7a239c612c5f9e8dbc1f3"><div class="ttname"><a href="namespacedetray.html#a6bf94de620d7a239c612c5f9e8dbc1f3">detray::darray</a></div><div class="ttdeci">std::array&lt; value_t, kDIM &gt; darray</div><div class="ttdoc">Fixed-size array container.</div><div class="ttdef"><b>Definition</b> containers.hpp:30</div></div>
 <div class="ttc" id="anamespacedetray_html_a90749bf228857740974055a5e546adf4"><div class="ttname"><a href="namespacedetray.html#a90749bf228857740974055a5e546adf4">detray::pair</a></div><div class="ttdeci">tuple&lt; T1, T2 &gt; pair</div><div class="ttdoc">A two-element tuple alias.</div><div class="ttdef"><b>Definition</b> tuple.hpp:145</div></div>
 <div class="ttc" id="astructdetray_1_1material__slab_html"><div class="ttname"><a href="structdetray_1_1material__slab.html">detray::material_slab</a></div><div class="ttdoc">Slab structure to be mapped on the mask (plane, cylinder).</div><div class="ttdef"><b>Definition</b> material_slab.hpp:25</div></div>
-<div class="ttc" id="astructdetray_1_1material_html"><div class="ttname"><a href="structdetray_1_1material.html">detray::material</a></div><div class="ttdoc">Material composition properties and density data used by interactions.</div><div class="ttdef"><b>Definition</b> material.hpp:36</div></div>
+<div class="ttc" id="astructdetray_1_1material_html"><div class="ttname"><a href="structdetray_1_1material.html">detray::material</a></div><div class="ttdoc">Material composition properties and density data used by interactions.</div><div class="ttdef"><b>Definition</b> material.hpp:28</div></div>
 <div class="ttc" id="astructdetray_1_1ranges_1_1views_1_1enumerate_html"><div class="ttname"><a href="structdetray_1_1ranges_1_1views_1_1enumerate.html">detray::ranges::views::enumerate</a></div><div class="ttdoc">Range adaptor that creates an enumerate view, optionally starting at a selected index.</div><div class="ttdef"><b>Definition</b> enumerate.hpp:266</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

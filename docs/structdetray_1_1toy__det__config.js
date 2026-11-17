@@ -10,7 +10,7 @@ var structdetray_1_1toy__det__config =
     [ "beampipe_material_map", "structdetray_1_1toy__det__config.html#a9e83a55a730fed8d27c240e8ad9c3940", null ],
     [ "beampipe_material_map", "structdetray_1_1toy__det__config.html#a21bd51d0953d486f95bcce4d4e707faa", null ],
     [ "beampipe_vol_radius", "structdetray_1_1toy__det__config.html#a7cb793f018e59f442ab38c5a3e373ad1", null ],
-    [ "builder_options", "structdetray_1_1toy__det__config.html#a1ae0bdce06aec5fe3f2475f2e0561ee3", null ],
+    [ "builder_options", "structdetray_1_1toy__det__config.html#a7cfd7dc83c3a61e525f8ebf519e9372a", null ],
     [ "builder_options", "structdetray_1_1toy__det__config.html#a0e5cef23159982202df1f0a75b2b52ef", null ],
     [ "cyl_map_bins", "structdetray_1_1toy__det__config.html#a51e26f26d434f97f43ae265d90598543", null ],
     [ "cyl_map_bins", "structdetray_1_1toy__det__config.html#a2570cc82221181d8284de1a4c0921176", null ],

@@ -1,8 +1,8 @@
 var classdetray_1_1spatial__grid__impl =
 [
     [ "mask_type", "classdetray_1_1spatial__grid__impl.html#afc69570ae4db6e3335c172044e933471", null ],
+    [ "owning_type", "classdetray_1_1spatial__grid__impl.html#aaa54f336af0fcb660fd1904a0e8b44f7", null ],
     [ "query_type", "classdetray_1_1spatial__grid__impl.html#a4b76f712fa01b80a1110b4315636a6f8", null ],
-    [ "type", "classdetray_1_1spatial__grid__impl.html#a96b04dd85d240ff74575662aaa83562b", null ],
     [ "value_type", "classdetray_1_1spatial__grid__impl.html#a99e86152d3fbdfebef497e34d72a61d7", null ],
     [ "spatial_grid_impl", "classdetray_1_1spatial__grid__impl.html#a16a46e24c1d4ee74080bcb2c5108d4da", null ],
     [ "spatial_grid_impl", "classdetray_1_1spatial__grid__impl.html#a7420614ad0ba14a18fce7a07c1aed6c1", null ],
