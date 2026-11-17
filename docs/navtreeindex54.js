@@ -1,13 +1,5 @@
 var NAVTREEINDEX54 =
 {
-"classdetray_1_1ranges_1_1enumerate__view.html#a7bcb7d52a4725428cff775bc5a688a4d":[8,0,3,12,6,5],
-"classdetray_1_1ranges_1_1enumerate__view.html#a7ff4636af7d629ba91e607f881fd7c5f":[8,0,3,12,6,4],
-"classdetray_1_1ranges_1_1enumerate__view.html#ad6c80f0087b928e9283e7e5b721321ed":[8,0,3,12,6,1],
-"classdetray_1_1ranges_1_1iota__view.html":[8,0,3,12,7],
-"classdetray_1_1ranges_1_1iota__view.html#a196f2736ef980e3c59437b661e6b1aca":[8,0,3,12,7,1],
-"classdetray_1_1ranges_1_1iota__view.html#a36cc22da31f9b26738e5b13663fb7e62":[8,0,3,12,7,6],
-"classdetray_1_1ranges_1_1iota__view.html#a8750a2b54429c8339380a4159878d1a2":[8,0,3,12,7,5],
-"classdetray_1_1ranges_1_1iota__view.html#a904f45ab00415d0f6d82fc65b6e60829":[8,0,3,12,7,4],
 "classdetray_1_1ranges_1_1iota__view.html#a992ea36b6c81da7121e456f69c3f6e44":[8,0,3,12,7,3],
 "classdetray_1_1ranges_1_1iota__view.html#adcb4f2676246ff17998ebba7db3b45a2":[8,0,3,12,7,7],
 "classdetray_1_1ranges_1_1iota__view.html#adf883a00c1661f5199b118a52f526402":[8,0,3,12,7,2],
@@ -249,5 +241,13 @@ var NAVTREEINDEX54 =
 "classdetray_1_1surface__data.html#a8a8bd562817101c0e6a2c515306ae931":[6,0,4,172,1],
 "classdetray_1_1surface__data.html#a8a8bd562817101c0e6a2c515306ae931":[8,0,3,185,1],
 "classdetray_1_1surface__data.html#a9c6fe0f9651db14e90a8f7ae0e8b6775":[6,0,4,172,0],
-"classdetray_1_1surface__data.html#a9c6fe0f9651db14e90a8f7ae0e8b6775":[8,0,3,185,0]
+"classdetray_1_1surface__data.html#a9c6fe0f9651db14e90a8f7ae0e8b6775":[8,0,3,185,0],
+"classdetray_1_1surface__data.html#ae91866c47daacd69ca324b99548ed994":[6,0,4,172,4],
+"classdetray_1_1surface__data.html#ae91866c47daacd69ca324b99548ed994":[8,0,3,185,4],
+"classdetray_1_1surface__descriptor.html":[6,0,4,173],
+"classdetray_1_1surface__descriptor.html":[8,0,3,186],
+"classdetray_1_1surface__descriptor.html#a0369582ec28fec498296cb1267543afd":[6,0,4,173,6],
+"classdetray_1_1surface__descriptor.html#a0369582ec28fec498296cb1267543afd":[8,0,3,186,6],
+"classdetray_1_1surface__descriptor.html#a2af8436c7ae3dd413a3ea62281889edd":[6,0,4,173,0],
+"classdetray_1_1surface__descriptor.html#a2af8436c7ae3dd413a3ea62281889edd":[8,0,3,186,0]
 };

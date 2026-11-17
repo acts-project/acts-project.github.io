@@ -1,13 +1,5 @@
 var NAVTREEINDEX48 =
 {
-"classdetray_1_1concentric__cylinder2_d.html#a83c6d57ab0b0dc4a21b08f6b700e049a":[6,0,4,39,9],
-"classdetray_1_1concentric__cylinder2_d.html#a83c6d57ab0b0dc4a21b08f6b700e049a":[8,0,3,52,9],
-"classdetray_1_1concentric__cylinder2_d.html#a8e315edd8b23c5bf1f69d6f9ba7e3194":[6,0,4,39,1],
-"classdetray_1_1concentric__cylinder2_d.html#a8e315edd8b23c5bf1f69d6f9ba7e3194":[8,0,3,52,1],
-"classdetray_1_1concentric__cylinder2_d.html#a95784d1ecdf387c76962608d60c0954b":[6,0,4,39,6],
-"classdetray_1_1concentric__cylinder2_d.html#a95784d1ecdf387c76962608d60c0954b":[8,0,3,52,6],
-"classdetray_1_1concentric__cylinder2_d.html#aae76cd2588bb418955f68bd5a9dcd908":[6,0,4,39,13],
-"classdetray_1_1concentric__cylinder2_d.html#aae76cd2588bb418955f68bd5a9dcd908":[8,0,3,52,13],
 "classdetray_1_1concentric__cylinder2_d.html#abd5ed278c2380475ea97a03f5bc49e21":[6,0,4,39,12],
 "classdetray_1_1concentric__cylinder2_d.html#abd5ed278c2380475ea97a03f5bc49e21":[8,0,3,52,12],
 "classdetray_1_1concentric__cylinder2_d.html#ad012b22e4582aaeea7da8bc47e9f862b":[6,0,4,39,15],
@@ -249,5 +241,13 @@ var NAVTREEINDEX48 =
 "classdetray_1_1detail_1_1ray.html#abf01ff8e443d254c2e5bc890b132164e":[8,0,3,4,24,12],
 "classdetray_1_1detail_1_1ray.html#ac150cb66206d3cbe0e8903f2bdfa18a3":[8,0,3,4,24,15],
 "classdetray_1_1detail_1_1ray.html#ad6a3989acde955d0c202401673bd74c8":[8,0,3,4,24,1],
-"classdetray_1_1detail_1_1ray.html#adcc433efa1c24a11a79a0b683327c087":[8,0,3,4,24,3]
+"classdetray_1_1detail_1_1ray.html#adcc433efa1c24a11a79a0b683327c087":[8,0,3,4,24,3],
+"classdetray_1_1detail_1_1ray.html#af622602ea524da6be5aa458f19cd11f5":[8,0,3,4,24,11],
+"classdetray_1_1detector__builder.html":[6,0,4,58],
+"classdetray_1_1detector__builder.html":[8,0,3,71],
+"classdetray_1_1detector__builder.html#a11039c618ab8d092bb152fed0f03f016":[6,0,4,58,3],
+"classdetray_1_1detector__builder.html#a11039c618ab8d092bb152fed0f03f016":[8,0,3,71,3],
+"classdetray_1_1detector__builder.html#a1cf890a25f359bc6eaa1ba46f7f9197a":[6,0,4,58,8],
+"classdetray_1_1detector__builder.html#a1cf890a25f359bc6eaa1ba46f7f9197a":[8,0,3,71,8],
+"classdetray_1_1detector__builder.html#a25b2978c043616c4b4861cf7e2dedf9c":[6,0,4,58,2]
 };

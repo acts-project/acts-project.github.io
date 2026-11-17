@@ -1,13 +1,5 @@
 var NAVTREEINDEX45 =
 {
-"class_acts_plugins_1_1_detray_payload_converter.html#aacf5bb08ce9d2dc5b191ed4e52b32850":[5,10,3,2,16],
-"class_acts_plugins_1_1_detray_payload_converter.html#aae3c28d6dd92fdb47dcf51800bdf1993":[5,10,3,2,5],
-"class_acts_plugins_1_1_detray_payload_converter.html#ac59cc6bfe06441d9a9a4b078af75daa1":[5,10,3,2,7],
-"class_acts_plugins_1_1_detray_payload_converter.html#ace1bce4d0eacd16932573ab712a9860b":[5,10,3,2,18],
-"class_acts_plugins_1_1_detray_payload_converter.html#ad2012c6f039307d9851ae990f0c1e9df":[5,10,3,2,1],
-"class_acts_plugins_1_1_detray_payload_converter.html#adcaa739825f529ad15590157c9a57e36":[5,10,3,2,13],
-"class_acts_plugins_1_1_detray_payload_converter.html#ade59a6025a491ac191e1cc493bc968f9":[5,10,3,2,2],
-"class_acts_plugins_1_1_detray_payload_converter.html#adf6c138a139b24e70160498fadccde30":[5,10,3,2,8],
 "class_acts_plugins_1_1_detray_payload_converter.html#ae086fd17a9c63deef99d88928c14f886":[5,10,3,2,12],
 "class_acts_plugins_1_1_detray_payload_converter.html#af637f67bec806bb733cdc5a036ac6101":[5,10,3,2,6],
 "class_acts_plugins_1_1_detray_surface_id_map.html":[5,10,3,3],
@@ -249,5 +241,13 @@ var NAVTREEINDEX45 =
 "class_acts_plugins_1_1_root_histogram_fit.html#a7940d7c5c77109bb367f1c0746f10309":[8,0,2,59,3],
 "class_acts_plugins_1_1_root_histogram_fit.html#ab677c7102ca7f08b85654ee4d1b83ef3":[6,0,3,54,4],
 "class_acts_plugins_1_1_root_histogram_fit.html#ab677c7102ca7f08b85654ee4d1b83ef3":[8,0,2,59,4],
-"class_acts_plugins_1_1_root_histogram_fit.html#ad88aad06c0cabb1dca0f2a64b53b5a3f":[6,0,3,54,2]
+"class_acts_plugins_1_1_root_histogram_fit.html#ad88aad06c0cabb1dca0f2a64b53b5a3f":[6,0,3,54,2],
+"class_acts_plugins_1_1_root_histogram_fit.html#ad88aad06c0cabb1dca0f2a64b53b5a3f":[8,0,2,59,2],
+"class_acts_plugins_1_1_root_histogram_fit.html#adc89a8ef7829e952b3f748671cf90e34":[6,0,3,54,1],
+"class_acts_plugins_1_1_root_histogram_fit.html#adc89a8ef7829e952b3f748671cf90e34":[8,0,2,59,1],
+"class_acts_plugins_1_1_root_material_decorator.html":[5,10,12,2],
+"class_acts_plugins_1_1_root_material_decorator.html#a028a7dd6b5bb8a1bf76c7e1431b6f80b":[5,10,12,2,1],
+"class_acts_plugins_1_1_root_material_decorator.html#a1ab17ddc98f20aaf79d069f298dd5711":[5,10,12,2,2],
+"class_acts_plugins_1_1_root_material_decorator.html#a79c270de84205bbbfcdc11d0faa11c13":[5,10,12,2,4],
+"class_acts_plugins_1_1_root_material_decorator.html#a8a69b7f763da71fe64a322b9803aad05":[5,10,12,2,3]
 };

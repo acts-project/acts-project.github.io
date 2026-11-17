@@ -1,13 +1,5 @@
 var NAVTREEINDEX53 =
 {
-"classdetray_1_1material__data.html#a77191f63437cdf1a51088a3b507d446f":[8,0,3,130,0],
-"classdetray_1_1material__data.html#aa5bf52d3cf946356afec997286b3864e":[6,0,4,117,6],
-"classdetray_1_1material__data.html#aa5bf52d3cf946356afec997286b3864e":[8,0,3,130,6],
-"classdetray_1_1material__data.html#aa85716a7bc0096890057c9113bce6609":[6,0,4,117,3],
-"classdetray_1_1material__data.html#aa85716a7bc0096890057c9113bce6609":[8,0,3,130,3],
-"classdetray_1_1material__data.html#ad255e369bd5d2d06f9d8ead2a0b9d4e8":[6,0,4,117,1],
-"classdetray_1_1material__data.html#ad255e369bd5d2d06f9d8ead2a0b9d4e8":[8,0,3,130,1],
-"classdetray_1_1material__map__builder.html":[6,0,4,118],
 "classdetray_1_1material__map__builder.html":[8,0,3,131],
 "classdetray_1_1material__map__builder.html#a177596fd04409ba6726e3f910f856555":[6,0,4,118,1],
 "classdetray_1_1material__map__builder.html#a177596fd04409ba6726e3f910f856555":[8,0,3,131,1],
@@ -249,5 +241,13 @@ var NAVTREEINDEX53 =
 "classdetray_1_1ranges_1_1enumerate__view.html#a34bf0fd8b88e7be36ef507ff189476c4":[8,0,3,12,6,2],
 "classdetray_1_1ranges_1_1enumerate__view.html#a3ce5c24ef9717f7909fbf0cdbba43cbe":[8,0,3,12,6,0],
 "classdetray_1_1ranges_1_1enumerate__view.html#a3e7e0f3befa8a4a5f54d9e98ab1f2d4f":[8,0,3,12,6,3],
-"classdetray_1_1ranges_1_1enumerate__view.html#a69d0379cf4f77822153c6aec4ef6f726":[8,0,3,12,6,6]
+"classdetray_1_1ranges_1_1enumerate__view.html#a69d0379cf4f77822153c6aec4ef6f726":[8,0,3,12,6,6],
+"classdetray_1_1ranges_1_1enumerate__view.html#a7bcb7d52a4725428cff775bc5a688a4d":[8,0,3,12,6,5],
+"classdetray_1_1ranges_1_1enumerate__view.html#a7ff4636af7d629ba91e607f881fd7c5f":[8,0,3,12,6,4],
+"classdetray_1_1ranges_1_1enumerate__view.html#ad6c80f0087b928e9283e7e5b721321ed":[8,0,3,12,6,1],
+"classdetray_1_1ranges_1_1iota__view.html":[8,0,3,12,7],
+"classdetray_1_1ranges_1_1iota__view.html#a196f2736ef980e3c59437b661e6b1aca":[8,0,3,12,7,1],
+"classdetray_1_1ranges_1_1iota__view.html#a36cc22da31f9b26738e5b13663fb7e62":[8,0,3,12,7,6],
+"classdetray_1_1ranges_1_1iota__view.html#a8750a2b54429c8339380a4159878d1a2":[8,0,3,12,7,5],
+"classdetray_1_1ranges_1_1iota__view.html#a904f45ab00415d0f6d82fc65b6e60829":[8,0,3,12,7,4]
 };

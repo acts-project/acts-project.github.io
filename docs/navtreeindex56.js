@@ -1,13 +1,5 @@
 var NAVTREEINDEX56 =
 {
-"classdetray_1_1tracking__volume.html#accd8da548114ac953ca0fde7f9d1775f":[6,0,4,181,5],
-"classdetray_1_1tracking__volume.html#accd8da548114ac953ca0fde7f9d1775f":[8,0,3,194,5],
-"classdetray_1_1tracking__volume.html#adb90c5acf245fb724c395354c9b9a524":[6,0,4,181,19],
-"classdetray_1_1tracking__volume.html#adb90c5acf245fb724c395354c9b9a524":[8,0,3,194,19],
-"classdetray_1_1tracking__volume.html#ae585bcb4c9558d9bd08dce1b785c4476":[6,0,4,181,24],
-"classdetray_1_1tracking__volume.html#ae585bcb4c9558d9bd08dce1b785c4476":[8,0,3,194,24],
-"classdetray_1_1tracking__volume.html#af90dd55ff1077c20dc066f54a17089ce":[6,0,4,181,11],
-"classdetray_1_1tracking__volume.html#af90dd55ff1077c20dc066f54a17089ce":[8,0,3,194,11],
 "classdetray_1_1tracking__volume.html#af958752212c801da95e06fc330ca04e3":[6,0,4,181,2],
 "classdetray_1_1tracking__volume.html#af958752212c801da95e06fc330ca04e3":[8,0,3,194,2],
 "classdetray_1_1trapezoid2_d.html":[6,0,4,182],
@@ -249,5 +241,13 @@ var NAVTREEINDEX56 =
 "classdetray_1_1volume__builder__interface.html#aaedb73e5c67537f8bed884193d84c115":[6,0,4,199,8],
 "classdetray_1_1volume__builder__interface.html#aaedb73e5c67537f8bed884193d84c115":[8,0,3,212,8],
 "classdetray_1_1volume__builder__interface.html#abcedf8869405974158b6bd51870ce23b":[6,0,4,199,11],
-"classdetray_1_1volume__builder__interface.html#abcedf8869405974158b6bd51870ce23b":[8,0,3,212,11]
+"classdetray_1_1volume__builder__interface.html#abcedf8869405974158b6bd51870ce23b":[8,0,3,212,11],
+"classdetray_1_1volume__builder__interface.html#ad305cbd23a26c58d20e459e8f033f61d":[6,0,4,199,5],
+"classdetray_1_1volume__builder__interface.html#ad305cbd23a26c58d20e459e8f033f61d":[8,0,3,212,5],
+"classdetray_1_1volume__builder__interface.html#aded02b022fb8edefb51e6687668ee0ce":[6,0,4,199,10],
+"classdetray_1_1volume__builder__interface.html#aded02b022fb8edefb51e6687668ee0ce":[8,0,3,212,10],
+"classdetray_1_1volume__builder__interface.html#af1275346e45964d6295ce1ec3c0a79b6":[6,0,4,199,7],
+"classdetray_1_1volume__builder__interface.html#af1275346e45964d6295ce1ec3c0a79b6":[8,0,3,212,7],
+"classdetray_1_1volume__decorator.html":[6,0,4,201],
+"classdetray_1_1volume__decorator.html":[8,0,3,214]
 };

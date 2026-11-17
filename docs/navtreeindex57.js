@@ -1,13 +1,5 @@
 var NAVTREEINDEX57 =
 {
-"classdetray_1_1volume__builder__interface.html#ad305cbd23a26c58d20e459e8f033f61d":[6,0,4,199,5],
-"classdetray_1_1volume__builder__interface.html#ad305cbd23a26c58d20e459e8f033f61d":[8,0,3,212,5],
-"classdetray_1_1volume__builder__interface.html#aded02b022fb8edefb51e6687668ee0ce":[6,0,4,199,10],
-"classdetray_1_1volume__builder__interface.html#aded02b022fb8edefb51e6687668ee0ce":[8,0,3,212,10],
-"classdetray_1_1volume__builder__interface.html#af1275346e45964d6295ce1ec3c0a79b6":[6,0,4,199,7],
-"classdetray_1_1volume__builder__interface.html#af1275346e45964d6295ce1ec3c0a79b6":[8,0,3,212,7],
-"classdetray_1_1volume__decorator.html":[6,0,4,201],
-"classdetray_1_1volume__decorator.html":[8,0,3,214],
 "classdetray_1_1volume__decorator.html#a05d322ba7fd5e3f62387d75793d38795":[6,0,4,201,0],
 "classdetray_1_1volume__decorator.html#a05d322ba7fd5e3f62387d75793d38795":[8,0,3,214,0],
 "classdetray_1_1volume__decorator.html#a0ae551c90463a1825cd14737356968ca":[6,0,4,201,13],
@@ -249,5 +241,13 @@ var NAVTREEINDEX57 =
 "concept_acts_1_1_navigator_concept.html":[6,0,0,493],
 "concept_acts_1_1_navigator_concept.html":[7,0,30],
 "concept_acts_1_1_pointer_concept.html":[6,0,0,494],
-"concept_acts_1_1_pointer_concept.html":[7,0,31]
+"concept_acts_1_1_pointer_concept.html":[7,0,31],
+"concept_acts_1_1_regular_surface_concept.html":[6,0,0,495],
+"concept_acts_1_1_regular_surface_concept.html":[7,0,32],
+"concept_acts_1_1_smart_pointer_concept.html":[6,0,0,496],
+"concept_acts_1_1_smart_pointer_concept.html":[7,0,33],
+"concept_acts_1_1_stepper_concept.html":[6,0,0,497],
+"concept_acts_1_1_stepper_concept.html":[7,0,34],
+"concept_acts_1_1_surface_concept.html":[6,0,0,498],
+"concept_acts_1_1_surface_concept.html":[7,0,35]
 };

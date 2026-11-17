@@ -1,13 +1,5 @@
 var NAVTREEINDEX80 =
 {
-"struct_acts_1_1_track_selector_1_1_measurement_counter.html#a033a81282f810c938f9e52e19190ebba":[8,0,0,431,2,0],
-"struct_acts_1_1_track_selector_1_1_measurement_counter.html#a4459122e72b3d2c21926cd19a20c2a07":[6,0,0,426,2,2],
-"struct_acts_1_1_track_selector_1_1_measurement_counter.html#a4459122e72b3d2c21926cd19a20c2a07":[8,0,0,431,2,2],
-"struct_acts_1_1_track_selector_1_1_measurement_counter.html#a52e570e71ec9ae5f04f9df3b3861dab7":[6,0,0,426,2,1],
-"struct_acts_1_1_track_selector_1_1_measurement_counter.html#a52e570e71ec9ae5f04f9df3b3861dab7":[8,0,0,431,2,1],
-"struct_acts_1_1_track_selector_1_1_measurement_counter.html#ae05ab2aa9dadb711fa64c75e807dae84":[6,0,0,426,2,3],
-"struct_acts_1_1_track_selector_1_1_measurement_counter.html#ae05ab2aa9dadb711fa64c75e807dae84":[8,0,0,431,2,3],
-"struct_acts_1_1_track_state_creator.html":[6,0,0,427],
 "struct_acts_1_1_track_state_creator.html":[8,0,0,432],
 "struct_acts_1_1_track_state_creator.html#a06f1064552766d083cbd780aa541efed":[6,0,0,427,1],
 "struct_acts_1_1_track_state_creator.html#a06f1064552766d083cbd780aa541efed":[8,0,0,432,1],
@@ -249,5 +241,13 @@ var NAVTREEINDEX80 =
 "struct_acts_1_1_value_holder.html#a9a06ea43028136e0fe1b7a3896532093":[6,0,0,446,1],
 "struct_acts_1_1_value_holder.html#a9a06ea43028136e0fe1b7a3896532093":[8,0,0,451,1],
 "struct_acts_1_1_value_holder.html#ac23e2720a07aa0a7c655316ce7a86fa8":[6,0,0,446,6],
-"struct_acts_1_1_value_holder.html#ac23e2720a07aa0a7c655316ce7a86fa8":[8,0,0,451,6]
+"struct_acts_1_1_value_holder.html#ac23e2720a07aa0a7c655316ce7a86fa8":[8,0,0,451,6],
+"struct_acts_1_1_value_holder.html#ace59063cff8d17a1d593a2b106a742ca":[6,0,0,446,5],
+"struct_acts_1_1_value_holder.html#ace59063cff8d17a1d593a2b106a742ca":[8,0,0,451,5],
+"struct_acts_1_1_value_holder.html#ad248ed1c86939ec8946b2ab9414418f3":[6,0,0,446,0],
+"struct_acts_1_1_value_holder.html#ad248ed1c86939ec8946b2ab9414418f3":[8,0,0,451,0],
+"struct_acts_1_1_value_holder.html#aefadac57fcbab7ebe1dfd0079ab2964a":[6,0,0,446,4],
+"struct_acts_1_1_value_holder.html#aefadac57fcbab7ebe1dfd0079ab2964a":[8,0,0,451,4],
+"struct_acts_1_1_vertex_fit_candidate.html":[6,0,0,451],
+"struct_acts_1_1_vertex_fit_candidate.html":[8,0,0,456]
 };

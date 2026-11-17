@@ -138,25 +138,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae558a4a258c02e501e4995af7dd1ac38" id="r_ae558a4a258c02e501e4995af7dd1ac38"><td class="memItemLeft" align="right" valign="top"><a id="ae558a4a258c02e501e4995af7dd1ac38" name="ae558a4a258c02e501e4995af7dd1ac38"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>MagneticFieldQuery</b> (const <a class="el" href="class_acts_1_1_magnetic_field_provider.html">MagneticFieldProvider</a> &amp;provider, const <a class="el" href="class_acts_1_1_magnetic_field_context.html">MagneticFieldContext</a> &amp;&amp;mctx)=delete</td></tr>
 <tr class="memitem:a83ae951e765b2f580f08c3f7a650b6f2" id="r_a83ae951e765b2f580f08c3f7a650b6f2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83ae951e765b2f580f08c3f7a650b6f2">MagneticFieldQuery</a> (const <a class="el" href="class_acts_1_1_magnetic_field_provider.html">MagneticFieldProvider</a> &amp;provider, const <a class="el" href="class_acts_1_1_magnetic_field_context.html">MagneticFieldContext</a> &amp;mctx)</td></tr>
-<tr class="memitem:a8e3f27fc7a21fde427c495a0663e1319" id="r_a8e3f27fc7a21fde427c495a0663e1319"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e3f27fc7a21fde427c495a0663e1319">MagneticFieldQuery</a> (const MagneticFieldQuery &amp;other)=default</td></tr>
-<tr class="memdesc:a8e3f27fc7a21fde427c495a0663e1319"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy the cache, retaining the borrowed provider and context.  <br /></td></tr>
-<tr class="memitem:afe4de3b3855827c7aca111ba58ff7663" id="r_afe4de3b3855827c7aca111ba58ff7663"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe4de3b3855827c7aca111ba58ff7663">MagneticFieldQuery</a> (MagneticFieldQuery &amp;&amp;other)=default</td></tr>
-<tr class="memdesc:afe4de3b3855827c7aca111ba58ff7663"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move another query, preserving its borrowed provider and context.  <br /></td></tr>
 <tr class="memitem:a76c6bbb282870672bd2bcb4c4fe90f3f" id="r_a76c6bbb282870672bd2bcb4c4fe90f3f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_magnetic_field_context.html">MagneticFieldContext</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76c6bbb282870672bd2bcb4c4fe90f3f">context</a> () const</td></tr>
 <tr class="memdesc:a76c6bbb282870672bd2bcb4c4fe90f3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the context used to create this query's cache.  <br /></td></tr>
 <tr class="memitem:a78d91befa5d258e2d292da5f544293aa" id="r_a78d91befa5d258e2d292da5f544293aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78d91befa5d258e2d292da5f544293aa">getField</a> (const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position)</td></tr>
 <tr class="memdesc:a78d91befa5d258e2d292da5f544293aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query the field, updating the private provider-specific cache.  <br /></td></tr>
-<tr class="memitem:a6a8b16c452337953ea0d7b8abc84c13d" id="r_a6a8b16c452337953ea0d7b8abc84c13d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a83ae951e765b2f580f08c3f7a650b6f2">MagneticFieldQuery</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a8b16c452337953ea0d7b8abc84c13d">operator=</a> (const <a class="el" href="#a83ae951e765b2f580f08c3f7a650b6f2">MagneticFieldQuery</a> &amp;other)=default</td></tr>
-<tr class="memdesc:a6a8b16c452337953ea0d7b8abc84c13d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy the cache and borrowed provider/context references.  <br /></td></tr>
-<tr class="memitem:a1b8cce2bd1d428d1d9c1def2966f1e66" id="r_a1b8cce2bd1d428d1d9c1def2966f1e66"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a83ae951e765b2f580f08c3f7a650b6f2">MagneticFieldQuery</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b8cce2bd1d428d1d9c1def2966f1e66">operator=</a> (<a class="el" href="#a83ae951e765b2f580f08c3f7a650b6f2">MagneticFieldQuery</a> &amp;&amp;other)=default</td></tr>
-<tr class="memdesc:a1b8cce2bd1d428d1d9c1def2966f1e66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move another query's provider and context references and cache into this query.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A field provider paired with its own reusable lookup cache. </p>
 <p>Construct once per magnetic field context and reuse for sequential lookups. The provider and context are borrowed and must outlive the query. The context and any context-dependent data referenced by the cache must remain unchanged while the query is in use. Do not share a query between concurrent operations; construct independent queries for them (and for a new magnetic field context). </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a83ae951e765b2f580f08c3f7a650b6f2" name="a83ae951e765b2f580f08c3f7a650b6f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a83ae951e765b2f580f08c3f7a650b6f2">&#9670;&#160;</a></span>MagneticFieldQuery() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a83ae951e765b2f580f08c3f7a650b6f2">&#9670;&#160;</a></span>MagneticFieldQuery()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -177,72 +169,6 @@ Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">provider</td><td>Field provider used for both cache creation and lookup </td></tr>
     <tr><td class="paramname">mctx</td><td>Borrowed context for cache creation and propagation </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a8e3f27fc7a21fde427c495a0663e1319" name="a8e3f27fc7a21fde427c495a0663e1319"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e3f27fc7a21fde427c495a0663e1319">&#9670;&#160;</a></span>MagneticFieldQuery() <span class="overload">[2/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Acts::MagneticFieldQuery::MagneticFieldQuery </td>
-          <td>(</td>
-          <td class="paramtype">const MagneticFieldQuery &amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Copy the cache, retaining the borrowed provider and context. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">other</td><td>Query whose cache state is copied </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="afe4de3b3855827c7aca111ba58ff7663" name="afe4de3b3855827c7aca111ba58ff7663"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe4de3b3855827c7aca111ba58ff7663">&#9670;&#160;</a></span>MagneticFieldQuery() <span class="overload">[3/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Acts::MagneticFieldQuery::MagneticFieldQuery </td>
-          <td>(</td>
-          <td class="paramtype">MagneticFieldQuery &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Move another query, preserving its borrowed provider and context. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">other</td><td>Query to move from </td></tr>
   </table>
   </dd>
 </dl>
@@ -293,74 +219,6 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Magnetic field or the provider's lookup error </dd></dl>
-
-</div>
-</div>
-<a id="a6a8b16c452337953ea0d7b8abc84c13d" name="a6a8b16c452337953ea0d7b8abc84c13d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a8b16c452337953ea0d7b8abc84c13d">&#9670;&#160;</a></span>operator=() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#a83ae951e765b2f580f08c3f7a650b6f2">MagneticFieldQuery</a> &amp; Acts::MagneticFieldQuery::operator= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="#a83ae951e765b2f580f08c3f7a650b6f2">MagneticFieldQuery</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Copy the cache and borrowed provider/context references. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">other</td><td>Query whose cache state is copied </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>This query </dd></dl>
-
-</div>
-</div>
-<a id="a1b8cce2bd1d428d1d9c1def2966f1e66" name="a1b8cce2bd1d428d1d9c1def2966f1e66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b8cce2bd1d428d1d9c1def2966f1e66">&#9670;&#160;</a></span>operator=() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#a83ae951e765b2f580f08c3f7a650b6f2">MagneticFieldQuery</a> &amp; Acts::MagneticFieldQuery::operator= </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="#a83ae951e765b2f580f08c3f7a650b6f2">MagneticFieldQuery</a> &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Move another query's provider and context references and cache into this query. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">other</td><td>Query to move from </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>This query </dd></dl>
 
 </div>
 </div>

@@ -1,13 +1,5 @@
 var NAVTREEINDEX70 =
 {
-"struct_acts_1_1_experimental_1_1_gbts_layer_description.html#ab52f793e34acc9675912129a311fa9d0":[6,0,0,1,28,7],
-"struct_acts_1_1_experimental_1_1_gbts_layer_description.html#ab52f793e34acc9675912129a311fa9d0":[8,0,0,2,28,7],
-"struct_acts_1_1_experimental_1_1_gbts_layer_description.html#ac055d01f011cee9d6067679e1aa9a9f3":[6,0,0,1,28,5],
-"struct_acts_1_1_experimental_1_1_gbts_layer_description.html#ac055d01f011cee9d6067679e1aa9a9f3":[8,0,0,2,28,5],
-"struct_acts_1_1_experimental_1_1_gbts_layer_description.html#ac23731356e92dce07faf735e24e0ff30":[6,0,0,1,28,8],
-"struct_acts_1_1_experimental_1_1_gbts_layer_description.html#ac23731356e92dce07faf735e24e0ff30":[8,0,0,2,28,8],
-"struct_acts_1_1_experimental_1_1_gbts_seed_fit.html":[6,0,0,1,31],
-"struct_acts_1_1_experimental_1_1_gbts_seed_fit.html":[8,0,0,2,31],
 "struct_acts_1_1_experimental_1_1_gbts_seed_fit.html#a07f091cecc59eefaeadb831b99ce3b86":[6,0,0,1,31,0],
 "struct_acts_1_1_experimental_1_1_gbts_seed_fit.html#a07f091cecc59eefaeadb831b99ce3b86":[8,0,0,2,31,0],
 "struct_acts_1_1_experimental_1_1_gbts_seed_fit.html#a5bef8e9fc1d7c68fcbdf2e0373e01966":[6,0,0,1,31,2],
@@ -249,5 +241,13 @@ var NAVTREEINDEX70 =
 "struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#a59c6f8414b0cb5ed5295bbabce5194ba":[6,0,0,1,55,1,3],
 "struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#a59c6f8414b0cb5ed5295bbabce5194ba":[8,0,0,2,55,1,3],
 "struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#a8a5162a90fc436122eeb85c71c8bea8b":[6,0,0,1,55,1,5],
-"struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#a8a5162a90fc436122eeb85c71c8bea8b":[8,0,0,2,55,1,5]
+"struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#a8a5162a90fc436122eeb85c71c8bea8b":[8,0,0,2,55,1,5],
+"struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#a8ef9f929fc3ad65e8dd168dd481b82be":[6,0,0,1,55,1,8],
+"struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#a8ef9f929fc3ad65e8dd168dd481b82be":[8,0,0,2,55,1,8],
+"struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#a90659c0db401a97769f7fe4c78d4f050":[6,0,0,1,55,1,7],
+"struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#a90659c0db401a97769f7fe4c78d4f050":[8,0,0,2,55,1,7],
+"struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#a99d07be11bb95a03792a27e6fd59ff7e":[6,0,0,1,55,1,4],
+"struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#a99d07be11bb95a03792a27e6fd59ff7e":[8,0,0,2,55,1,4],
+"struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#acc4dd3425cf4d60c99cde753cddd321c":[6,0,0,1,55,1,6],
+"struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#acc4dd3425cf4d60c99cde753cddd321c":[8,0,0,2,55,1,6]
 };

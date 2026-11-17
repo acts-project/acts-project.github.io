@@ -1,13 +1,5 @@
 var NAVTREEINDEX64 =
 {
-"namespacedetray.html#ab1a36ffbcf27473e523fc3f5e9a8da12":[6,0,4,207],
-"namespacedetray.html#ab2fc3c9899474f64c479d58915c6a2e4":[6,0,4,231],
-"namespacedetray.html#ab617d3cc088984ab933fa8345afd24b5":[6,0,4,233],
-"namespacedetray.html#ab8441d68506e168f0013f3afb05a1bc6":[6,0,4,251],
-"namespacedetray.html#aba4aaf6153599bba83af097aa4bd9000":[6,0,4,236],
-"namespacedetray.html#aba966e15753da94e53047c3790832d2c":[6,0,4,305],
-"namespacedetray.html#abdda1eb14e9771e5b2c7542b113f08c6":[6,0,4,298],
-"namespacedetray.html#abf8a6d21aaf2af94ef51328d284fc213":[6,0,4,308],
 "namespacedetray.html#ac0f691799e9b2238b9605a06f6309852":[6,0,4,259],
 "namespacedetray.html#ac1741853a8de8b0b0281a6b6be53cf81":[6,0,4,323],
 "namespacedetray.html#ac55901eaf2884aa0fafae1a98a5d32f6":[6,0,4,234],
@@ -249,5 +241,13 @@ var NAVTREEINDEX64 =
 "struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a74b192423379d4023d3824196c42412d":[6,0,0,17,0,11],
 "struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a74b192423379d4023d3824196c42412d":[8,0,0,22,0,11],
 "struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a75c1a6436a50d9d100aace1e805c65eb":[6,0,0,17,0,14],
-"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a75c1a6436a50d9d100aace1e805c65eb":[8,0,0,22,0,14]
+"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a75c1a6436a50d9d100aace1e805c65eb":[8,0,0,22,0,14],
+"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a79ef2ba5f5ab651398a2a30172589e0a":[6,0,0,17,0,1],
+"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a79ef2ba5f5ab651398a2a30172589e0a":[8,0,0,22,0,1],
+"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a7abb7fedb3afde8d3284a2aaacc32e97":[6,0,0,17,0,10],
+"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a7abb7fedb3afde8d3284a2aaacc32e97":[8,0,0,22,0,10],
+"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a8d8dc1014acb81c97d4341ba03f31f06":[6,0,0,17,0,4],
+"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a8d8dc1014acb81c97d4341ba03f31f06":[8,0,0,22,0,4],
+"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#aaad39a5f1bb113fcf1cab7ae1a57708c":[6,0,0,17,0,23],
+"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#aaad39a5f1bb113fcf1cab7ae1a57708c":[8,0,0,22,0,23]
 };

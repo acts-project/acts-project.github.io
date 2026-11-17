@@ -1,13 +1,5 @@
 var NAVTREEINDEX67 =
 {
-"struct_acts_1_1_cuboid_volume_builder_1_1_volume_config.html#aca8d7b10382861e417a46d50c7d34bd2":[6,0,0,96,3,5],
-"struct_acts_1_1_cuboid_volume_builder_1_1_volume_config.html#aca8d7b10382861e417a46d50c7d34bd2":[8,0,0,101,3,5],
-"struct_acts_1_1_cuboid_volume_builder_1_1_volume_config.html#afc8f82913ae419fea66e9ca1a0101596":[6,0,0,96,3,8],
-"struct_acts_1_1_cuboid_volume_builder_1_1_volume_config.html#afc8f82913ae419fea66e9ca1a0101596":[8,0,0,101,3,8],
-"struct_acts_1_1_cylinder_volume_builder_1_1_config.html":[6,0,0,108,0],
-"struct_acts_1_1_cylinder_volume_builder_1_1_config.html":[8,0,0,113,0],
-"struct_acts_1_1_cylinder_volume_builder_1_1_config.html#a32c08eeb7ed4303b6b3dfbf2907afc96":[6,0,0,108,0,5],
-"struct_acts_1_1_cylinder_volume_builder_1_1_config.html#a32c08eeb7ed4303b6b3dfbf2907afc96":[8,0,0,113,0,5],
 "struct_acts_1_1_cylinder_volume_builder_1_1_config.html#a3d726924b61e3be4002c1d315ee0780f":[6,0,0,108,0,3],
 "struct_acts_1_1_cylinder_volume_builder_1_1_config.html#a3d726924b61e3be4002c1d315ee0780f":[8,0,0,113,0,3],
 "struct_acts_1_1_cylinder_volume_builder_1_1_config.html#a46873728b95312a57cd4940cd218432e":[6,0,0,108,0,8],
@@ -249,5 +241,13 @@ var NAVTREEINDEX67 =
 "struct_acts_1_1_eigen_stepper_default_extension.html":[6,0,0,131],
 "struct_acts_1_1_eigen_stepper_default_extension.html":[8,0,0,136],
 "struct_acts_1_1_eigen_stepper_default_extension.html#a5583a180f7f65025e833a3ae29b0ca80":[6,0,0,131,0],
-"struct_acts_1_1_eigen_stepper_default_extension.html#a5583a180f7f65025e833a3ae29b0ca80":[8,0,0,136,0]
+"struct_acts_1_1_eigen_stepper_default_extension.html#a5583a180f7f65025e833a3ae29b0ca80":[8,0,0,136,0],
+"struct_acts_1_1_eigen_stepper_default_extension.html#a77f7a2639c0c6ce76bc6bb9988209e99":[6,0,0,131,2],
+"struct_acts_1_1_eigen_stepper_default_extension.html#a77f7a2639c0c6ce76bc6bb9988209e99":[8,0,0,136,2],
+"struct_acts_1_1_eigen_stepper_default_extension.html#afe4e62fa683045becdf703703dfa5b3f":[6,0,0,131,1],
+"struct_acts_1_1_eigen_stepper_default_extension.html#afe4e62fa683045becdf703703dfa5b3f":[8,0,0,136,1],
+"struct_acts_1_1_eigen_stepper_dense_extension.html":[6,0,0,132],
+"struct_acts_1_1_eigen_stepper_dense_extension.html":[8,0,0,137],
+"struct_acts_1_1_eigen_stepper_dense_extension.html#a038a69c2d97b606342a3d296419c6805":[6,0,0,132,13],
+"struct_acts_1_1_eigen_stepper_dense_extension.html#a038a69c2d97b606342a3d296419c6805":[8,0,0,137,13]
 };

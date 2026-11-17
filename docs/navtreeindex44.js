@@ -1,13 +1,5 @@
 var NAVTREEINDEX44 =
 {
-"class_acts_fatras_1_1_particle.html#a0e9aa925e4a57b9bf895b3ef401079aa":[8,0,1,27,38],
-"class_acts_fatras_1_1_particle.html#a1684efc4f8c1bdacfdfff6b8e4257dcf":[6,0,2,26,22],
-"class_acts_fatras_1_1_particle.html#a1684efc4f8c1bdacfdfff6b8e4257dcf":[8,0,1,27,22],
-"class_acts_fatras_1_1_particle.html#a1ae024da00e7bb91794975d62deb6373":[6,0,2,26,42],
-"class_acts_fatras_1_1_particle.html#a1ae024da00e7bb91794975d62deb6373":[8,0,1,27,42],
-"class_acts_fatras_1_1_particle.html#a1d1af1e6e0a2d5cdad41a9c30f39f88e":[6,0,2,26,12],
-"class_acts_fatras_1_1_particle.html#a1d1af1e6e0a2d5cdad41a9c30f39f88e":[8,0,1,27,12],
-"class_acts_fatras_1_1_particle.html#a2418d8fb3095e017d6e1d9f026e4818c":[6,0,2,26,41],
 "class_acts_fatras_1_1_particle.html#a2418d8fb3095e017d6e1d9f026e4818c":[8,0,1,27,41],
 "class_acts_fatras_1_1_particle.html#a26cc5f90343593ab610ff7fd35e52af5":[6,0,2,26,15],
 "class_acts_fatras_1_1_particle.html#a26cc5f90343593ab610ff7fd35e52af5":[8,0,1,27,15],
@@ -249,5 +241,13 @@ var NAVTREEINDEX44 =
 "class_acts_plugins_1_1_detray_payload_converter.html#a4f0a6766e441baba98eff6427d7424bc":[5,10,3,2,9],
 "class_acts_plugins_1_1_detray_payload_converter.html#a785c6510cb78e1bd3a98ff5bc2dd767b":[5,10,3,2,10],
 "class_acts_plugins_1_1_detray_payload_converter.html#a99edaf8b41837ffa6d14c0c9b78e5fb9":[5,10,3,2,15],
-"class_acts_plugins_1_1_detray_payload_converter.html#aa2276135102d853be4d6283722ca633f":[5,10,3,2,17]
+"class_acts_plugins_1_1_detray_payload_converter.html#aa2276135102d853be4d6283722ca633f":[5,10,3,2,17],
+"class_acts_plugins_1_1_detray_payload_converter.html#aacf5bb08ce9d2dc5b191ed4e52b32850":[5,10,3,2,16],
+"class_acts_plugins_1_1_detray_payload_converter.html#aae3c28d6dd92fdb47dcf51800bdf1993":[5,10,3,2,5],
+"class_acts_plugins_1_1_detray_payload_converter.html#ac59cc6bfe06441d9a9a4b078af75daa1":[5,10,3,2,7],
+"class_acts_plugins_1_1_detray_payload_converter.html#ace1bce4d0eacd16932573ab712a9860b":[5,10,3,2,18],
+"class_acts_plugins_1_1_detray_payload_converter.html#ad2012c6f039307d9851ae990f0c1e9df":[5,10,3,2,1],
+"class_acts_plugins_1_1_detray_payload_converter.html#adcaa739825f529ad15590157c9a57e36":[5,10,3,2,13],
+"class_acts_plugins_1_1_detray_payload_converter.html#ade59a6025a491ac191e1cc493bc968f9":[5,10,3,2,2],
+"class_acts_plugins_1_1_detray_payload_converter.html#adf6c138a139b24e70160498fadccde30":[5,10,3,2,8]
 };

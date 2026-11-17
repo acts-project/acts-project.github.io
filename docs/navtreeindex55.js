@@ -1,13 +1,5 @@
 var NAVTREEINDEX55 =
 {
-"classdetray_1_1surface__data.html#ae91866c47daacd69ca324b99548ed994":[6,0,4,172,4],
-"classdetray_1_1surface__data.html#ae91866c47daacd69ca324b99548ed994":[8,0,3,185,4],
-"classdetray_1_1surface__descriptor.html":[6,0,4,173],
-"classdetray_1_1surface__descriptor.html":[8,0,3,186],
-"classdetray_1_1surface__descriptor.html#a0369582ec28fec498296cb1267543afd":[6,0,4,173,6],
-"classdetray_1_1surface__descriptor.html#a0369582ec28fec498296cb1267543afd":[8,0,3,186,6],
-"classdetray_1_1surface__descriptor.html#a2af8436c7ae3dd413a3ea62281889edd":[6,0,4,173,0],
-"classdetray_1_1surface__descriptor.html#a2af8436c7ae3dd413a3ea62281889edd":[8,0,3,186,0],
 "classdetray_1_1surface__descriptor.html#a3020fc248a473615b81cf1c811d2dc8d":[6,0,4,173,20],
 "classdetray_1_1surface__descriptor.html#a3020fc248a473615b81cf1c811d2dc8d":[8,0,3,186,20],
 "classdetray_1_1surface__descriptor.html#a3823cf33391ba037bb6b848a294915d5":[6,0,4,173,26],
@@ -249,5 +241,13 @@ var NAVTREEINDEX55 =
 "classdetray_1_1tracking__volume.html#ac4f30920eaccb82fb411997a5866bc21":[6,0,4,181,23],
 "classdetray_1_1tracking__volume.html#ac4f30920eaccb82fb411997a5866bc21":[8,0,3,194,23],
 "classdetray_1_1tracking__volume.html#ac8edc65439611710a05e930fc3a854c3":[6,0,4,181,9],
-"classdetray_1_1tracking__volume.html#ac8edc65439611710a05e930fc3a854c3":[8,0,3,194,9]
+"classdetray_1_1tracking__volume.html#ac8edc65439611710a05e930fc3a854c3":[8,0,3,194,9],
+"classdetray_1_1tracking__volume.html#accd8da548114ac953ca0fde7f9d1775f":[6,0,4,181,5],
+"classdetray_1_1tracking__volume.html#accd8da548114ac953ca0fde7f9d1775f":[8,0,3,194,5],
+"classdetray_1_1tracking__volume.html#adb90c5acf245fb724c395354c9b9a524":[6,0,4,181,19],
+"classdetray_1_1tracking__volume.html#adb90c5acf245fb724c395354c9b9a524":[8,0,3,194,19],
+"classdetray_1_1tracking__volume.html#ae585bcb4c9558d9bd08dce1b785c4476":[6,0,4,181,24],
+"classdetray_1_1tracking__volume.html#ae585bcb4c9558d9bd08dce1b785c4476":[8,0,3,194,24],
+"classdetray_1_1tracking__volume.html#af90dd55ff1077c20dc066f54a17089ce":[6,0,4,181,11],
+"classdetray_1_1tracking__volume.html#af90dd55ff1077c20dc066f54a17089ce":[8,0,3,194,11]
 };

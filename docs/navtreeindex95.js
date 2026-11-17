@@ -1,13 +1,5 @@
 var NAVTREEINDEX95 =
 {
-"structdetray_1_1navigation_1_1object__tracer.html#aa37be95854f513c68081053f2066b1ac":[8,0,3,9,2,4],
-"structdetray_1_1navigation_1_1object__tracer.html#aa46ce482eb08acea5ff1382c5d0d1cc7":[8,0,3,9,2,7],
-"structdetray_1_1navigation_1_1object__tracer.html#ab537d71fad3287a21b714b983a036df0":[8,0,3,9,2,16],
-"structdetray_1_1navigation_1_1object__tracer.html#abe29232aed9556e6055bd24c20815c3b":[8,0,3,9,2,14],
-"structdetray_1_1navigation_1_1object__tracer.html#ac0c319f6a8bd7bcbd818d529ee968c8e":[8,0,3,9,2,1],
-"structdetray_1_1navigation_1_1object__tracer.html#ac13893b8183afe063b6ba5a4217a4ce6":[8,0,3,9,2,8],
-"structdetray_1_1navigation_1_1object__tracer.html#ac62acf0a76f549ec21bfec42c07f2b20":[8,0,3,9,2,12],
-"structdetray_1_1navigation_1_1object__tracer.html#ae87e32e0e2bbab1d50acab2690de7521":[8,0,3,9,2,10],
 "structdetray_1_1navigation_1_1print__inspector.html":[8,0,3,9,3],
 "structdetray_1_1navigation_1_1print__inspector.html#a03adc8037c37caada6bb962b9db77f97":[8,0,3,9,3,7],
 "structdetray_1_1navigation_1_1print__inspector.html#a28c017dc17f08ab3128660eb85cdada9":[8,0,3,9,3,12],
@@ -249,5 +241,13 @@ var NAVTREEINDEX95 =
 "structdetray_1_1propagator.html#a9518cd2aec09994ad45ef3844dc96691":[6,0,4,144,15],
 "structdetray_1_1propagator.html#a9518cd2aec09994ad45ef3844dc96691":[8,0,3,157,15],
 "structdetray_1_1propagator.html#a95e04476d39be9802895d881934880ab":[6,0,4,144,12],
-"structdetray_1_1propagator.html#a95e04476d39be9802895d881934880ab":[8,0,3,157,12]
+"structdetray_1_1propagator.html#a95e04476d39be9802895d881934880ab":[8,0,3,157,12],
+"structdetray_1_1propagator.html#a9ae4d2dd2412b35c8843b6839099c5f2":[6,0,4,144,11],
+"structdetray_1_1propagator.html#a9ae4d2dd2412b35c8843b6839099c5f2":[8,0,3,157,11],
+"structdetray_1_1propagator.html#ab8ae5a32e347ad1868965cee1e140cda":[6,0,4,144,19],
+"structdetray_1_1propagator.html#ab8ae5a32e347ad1868965cee1e140cda":[8,0,3,157,19],
+"structdetray_1_1propagator.html#ac5ab5c628814681d1769173b4841a30d":[6,0,4,144,14],
+"structdetray_1_1propagator.html#ac5ab5c628814681d1769173b4841a30d":[8,0,3,157,14],
+"structdetray_1_1propagator.html#ad2d30231235fb0bdb80273e23a3dd551":[6,0,4,144,10],
+"structdetray_1_1propagator.html#ad2d30231235fb0bdb80273e23a3dd551":[8,0,3,157,10]
 };

@@ -1,13 +1,5 @@
 var NAVTREEINDEX60 =
 {
-"group__errors.html#gga83f8b59ffc557631bb7fdd01c18431caa6d0086586e767bdd2adbe51bfe8a6a51":[5,4,5,1],
-"group__errors.html#gga83f8b59ffc557631bb7fdd01c18431caa77854eb69cd722eed562c1deaf1db15f":[5,4,5,2],
-"group__errors.html#gga83f8b59ffc557631bb7fdd01c18431caa78b62f76aa8053db68df72c21e0c71fa":[5,4,5,3],
-"group__errors.html#gga83f8b59ffc557631bb7fdd01c18431caacd3ce8112cc132a6786646eff9689454":[5,4,5,0],
-"group__errors.html#ggac32894235c42ab9d5e6bf5c5cd1f6f3dae3446c971b61f402878421556af2d52c":[5,4,13,0],
-"group__errors.html#ggac3f65a46059b0f9516370f5bdcb9bddda0a5bbca22e12682affb21d70ecb3c465":[5,4,6,3],
-"group__errors.html#ggac3f65a46059b0f9516370f5bdcb9bddda210024a5a0be9f5a6cd5824097e286e9":[5,4,6,4],
-"group__errors.html#ggac3f65a46059b0f9516370f5bdcb9bddda9a1dae01a56ad58a9db7ea93bb3c7a1c":[5,4,6,2],
 "group__errors.html#ggac3f65a46059b0f9516370f5bdcb9bdddab1699d129532c7c6294a1f26fd4032d9":[5,4,6,0],
 "group__errors.html#ggac3f65a46059b0f9516370f5bdcb9bdddab91834cc99e0c4508dfebaadb2980b7c":[5,4,6,1],
 "group__errors.html#ggad9ea430c0897aa29fcaccb4fa68aa459a2fb2d2aa3fefe80d75ca568b29f43bb1":[5,4,10,0],
@@ -249,5 +241,13 @@ var NAVTREEINDEX60 =
 "group__track__fitting.html#ga2a01eb359a5aea7c6497367694fefa21":[5,13,28],
 "group__track__fitting.html#ga2d42e87cd0bd4eb9a52fa04db44f033d":[5,13,31],
 "group__track__fitting.html#ga2e4730c98bab4db36b6caaba7a1b606b":[5,13,24],
-"group__track__fitting.html#ga4429cc1ca8b22cab2de57f9ae250865a":[5,13,29]
+"group__track__fitting.html#ga4429cc1ca8b22cab2de57f9ae250865a":[5,13,29],
+"group__track__fitting.html#ga5bdb130b59461a2bcaf2c18eee161341":[5,13,30],
+"group__track__fitting.html#ga5dc7667fa9886694323a291f67ebd831":[5,13,26],
+"group__track__fitting.html#ga68584ae82d2275abd9b0af855d4048c5":[5,13,27],
+"group__track__fitting.html#ga6b4ab37353c322c5e6a328b74148bf8a":[5,13,25],
+"group__track__fitting.html#ga920082397516a41a551b2a9883131d66":[5,13,23],
+"group__track__fitting.html#gad4f1ce6c1ef539c4290db1d05ffcd0d7":[5,13,32],
+"group__track__fitting.html#gae7ae481a3998f95a4029fd2bc280b362":[5,13,33],
+"group__utilities.html":[5,14]
 };
