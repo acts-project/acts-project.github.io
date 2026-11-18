@@ -4,7 +4,7 @@ var class_acts_1_1_direct_navigator =
     [ "Options", "struct_acts_1_1_direct_navigator_1_1_options.html", "struct_acts_1_1_direct_navigator_1_1_options" ],
     [ "State", "struct_acts_1_1_direct_navigator_1_1_state.html", "struct_acts_1_1_direct_navigator_1_1_state" ],
     [ "DirectNavigator", "class_acts_1_1_direct_navigator.html#af750c89e1df5791fed10887a12e9fc16", null ],
-    [ "checkTargetValid", "class_acts_1_1_direct_navigator.html#a25426ff514b976126b4849911fc70f71", null ],
+    [ "checkTargetValid", "class_acts_1_1_direct_navigator.html#a18e0d97decb14f3959a44105c5615f1a", null ],
     [ "currentSurface", "class_acts_1_1_direct_navigator.html#aded824922fcad1d7e01b11e52327b34c", null ],
     [ "currentVolume", "class_acts_1_1_direct_navigator.html#a7ebca29bf8aa930a793a739aa3cf006e", null ],
     [ "currentVolumeMaterial", "class_acts_1_1_direct_navigator.html#a41d8e7d21a3aa42c97feb5551ca6e67a", null ],

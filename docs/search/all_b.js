@@ -135,7 +135,7 @@ var searchData=
   ['entity_132',['entity',['../class_acts_1_1_axis_aligned_bounding_box.html#a4b6f774b0a971d54486f5941d40afc2f',1,'Acts::AxisAlignedBoundingBox']]],
   ['entity_5ftype_133',['entity_type',['../class_acts_1_1_axis_aligned_bounding_box.html#a2e2a5add69d980b11ce2e34184fa9bcc',1,'Acts::AxisAlignedBoundingBox']]],
   ['entry_134',['Entry',['../class_acts_plugins_1_1_detray_surface_id_map.html#a516f1d1f0bcf2609cc0b13aaf5785499',1,'ActsPlugins::DetraySurfaceIdMap']]],
-  ['entry_135',['entry',['../struct_acts_1_1_i_assignment_finder_1_1_volume_assignment.html#a54473972830119f68b6fd9c8dcd05b9d',1,'Acts::IAssignmentFinder::VolumeAssignment::entry'],['../struct_acts_1_1_navigator_1_1_state_1_1_additional_surface_state.html#ab8748def1e818356b07d1990a45ad7d7',1,'Acts::Navigator::State::AdditionalSurfaceState::entry']]],
+  ['entry_135',['entry',['../struct_acts_1_1_i_assignment_finder_1_1_volume_assignment.html#a54473972830119f68b6fd9c8dcd05b9d',1,'Acts::IAssignmentFinder::VolumeAssignment']]],
   ['entry_5fptr_5ft_136',['entry_ptr_t',['../classdetray_1_1bins_1_1dynamic__array.html#a8bdb3b1772ec2ba959c3efb2750b5ab9',1,'detray::bins::dynamic_array']]],
   ['entry_5ftype_137',['entry_type',['../classdetray_1_1bins_1_1single.html#a447792dca7b854c62efd36373ad86c66',1,'detray::bins::single::entry_type'],['../classdetray_1_1bins_1_1static__array.html#a876f852de37079247c7829f63cd0984f',1,'detray::bins::static_array::entry_type'],['../classdetray_1_1bins_1_1dynamic__array.html#a81cd5067b6a2c592cfd36771720a4f3a',1,'detray::bins::dynamic_array::entry_type']]],
   ['enum_20pattern_138',['Error Enum Pattern',['../group__errors.html#autotoc_md22',1,'']]],

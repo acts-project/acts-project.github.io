@@ -126,15 +126,10 @@ $(function(){initNavTree('struct_acts_1_1_surface_reached.html','','struct_acts_
 </div><!--header-->
 <div class="contents">
 
-<p>This is the condition that the Surface has been reached it then triggers a propagation abort.  
+<p>Aborts once the navigator reports the target surface as the current surface.  
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_standard_aborters_8hpp_source.html">Acts/Propagator/StandardAborters.hpp</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for Acts::SurfaceReached:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="struct_acts_1_1_surface_reached__inherit__graph.svg" width="216" height="207"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for Acts::SurfaceReached:</div>
 <div class="dyncontent">
@@ -143,62 +138,22 @@ Collaboration diagram for Acts::SurfaceReached:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af663217706f0d220d408ca1722b41da0" id="r_af663217706f0d220d408ca1722b41da0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af663217706f0d220d408ca1722b41da0">SurfaceReached</a> (double nLimit)</td></tr>
-<tr class="memdesc:af663217706f0d220d408ca1722b41da0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor with custom near limit.  <br /></td></tr>
-<tr class="memitem:a6cca0b47bff733f04213a8ac01e41200" id="r_a6cca0b47bff733f04213a8ac01e41200"><td class="memTemplParams" colspan="2">template&lt;typename propagator_state_t, typename stepper_t, typename navigator_t&gt; </td></tr>
-<tr class="memitem:a6cca0b47bff733f04213a8ac01e41200 template"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6cca0b47bff733f04213a8ac01e41200">checkAbort</a> (propagator_state_t &amp;state, const stepper_t &amp;stepper, const navigator_t &amp;navigator, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger) const</td></tr>
-<tr class="memdesc:a6cca0b47bff733f04213a8ac01e41200"><td class="mdescLeft">&#160;</td><td class="mdescRight">boolean operator for abort condition without using the result  <br /></td></tr>
+<tr class="memitem:a815bc2f2b7648926da17d00340a85313" id="r_a815bc2f2b7648926da17d00340a85313"><td class="memTemplParams" colspan="2">template&lt;typename propagator_state_t, typename stepper_t, typename navigator_t&gt; </td></tr>
+<tr class="memitem:a815bc2f2b7648926da17d00340a85313 template"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a815bc2f2b7648926da17d00340a85313">checkAbort</a> (propagator_state_t &amp;state, const stepper_t &amp;, const navigator_t &amp;navigator, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger) const</td></tr>
+<tr class="memdesc:a815bc2f2b7648926da17d00340a85313"><td class="mdescLeft">&#160;</td><td class="mdescRight">boolean operator for abort condition without using the result  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a2e157d743eba564961eac741c2b492ee" id="r_a2e157d743eba564961eac741c2b492ee"><td class="memItemLeft" align="right" valign="top"><a id="a2e157d743eba564961eac741c2b492ee" name="a2e157d743eba564961eac741c2b492ee"></a>
-<a class="el" href="class_acts_1_1_boundary_tolerance.html">BoundaryTolerance</a>&#160;</td><td class="memItemRight" valign="bottom"><b>boundaryTolerance</b> = <a class="el" href="class_acts_1_1_boundary_tolerance.html#a37f9fa35e522bffbdd6b7107443599cc">BoundaryTolerance::None</a>()</td></tr>
-<tr class="memdesc:a2e157d743eba564961eac741c2b492ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Boundary tolerance for surface intersection checks. <br /></td></tr>
-<tr class="memitem:a1926ba7ff0eb8dcfc6dd6cbad5eb5a49" id="r_a1926ba7ff0eb8dcfc6dd6cbad5eb5a49"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1926ba7ff0eb8dcfc6dd6cbad5eb5a49">nearLimit</a> = -100 * <a class="el" href="namespace_acts_1_1_unit_constants.html#a4c14b1784de166f9efc43c1e16c35478">UnitConstants::um</a></td></tr>
-<tr class="memdesc:a1926ba7ff0eb8dcfc6dd6cbad5eb5a49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Distance limit to discard intersections "behind us".  <br /></td></tr>
 <tr class="memitem:aff385c3a2dd335e2c82e607a6d018e7e" id="r_aff385c3a2dd335e2c82e607a6d018e7e"><td class="memItemLeft" align="right" valign="top"><a id="aff385c3a2dd335e2c82e607a6d018e7e" name="aff385c3a2dd335e2c82e607a6d018e7e"></a>
 const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>surface</b> = nullptr</td></tr>
 <tr class="memdesc:aff385c3a2dd335e2c82e607a6d018e7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Target surface to reach for propagation termination. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>This is the condition that the Surface has been reached it then triggers a propagation abort. </p>
-</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="af663217706f0d220d408ca1722b41da0" name="af663217706f0d220d408ca1722b41da0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af663217706f0d220d408ca1722b41da0">&#9670;&#160;</a></span>SurfaceReached()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Acts::SurfaceReached::SurfaceReached </td>
-          <td>(</td>
-          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>nLimit</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel explicit">explicit</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Constructor with custom near limit. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">nLimit</td><td>Distance limit to discard intersections "behind us" </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a6cca0b47bff733f04213a8ac01e41200" name="a6cca0b47bff733f04213a8ac01e41200"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6cca0b47bff733f04213a8ac01e41200">&#9670;&#160;</a></span>checkAbort()</h2>
+<div class="textblock"><p>Aborts once the navigator reports the target surface as the current surface. </p>
+<dl class="section note"><dt>Note</dt><dd>It does not steer. The navigator does, so an actor with its own target registers it as an additional surface of the navigator. </dd></dl>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a815bc2f2b7648926da17d00340a85313" name="a815bc2f2b7648926da17d00340a85313"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a815bc2f2b7648926da17d00340a85313">&#9670;&#160;</a></span>checkAbort()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -213,7 +168,7 @@ template&lt;typename propagator_state_t, typename stepper_t, typename navigator_
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const stepper_t &amp;</td>          <td class="paramname"><span class="paramname"><em>stepper</em></span>, </td>
+          <td class="paramtype">const stepper_t &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -240,31 +195,12 @@ template&lt;typename propagator_state_t, typename stepper_t, typename navigator_
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">state</td><td>The propagation state object </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stepper</td><td>Stepper used for propagation </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">navigator</td><td>Navigator used for propagation </td></tr>
     <tr><td class="paramdir"></td><td class="paramname">logger</td><td>a logger instance </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if abort condition is met (surface reached) </dd></dl>
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a1926ba7ff0eb8dcfc6dd6cbad5eb5a49" name="a1926ba7ff0eb8dcfc6dd6cbad5eb5a49"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1926ba7ff0eb8dcfc6dd6cbad5eb5a49">&#9670;&#160;</a></span>nearLimit</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Acts::SurfaceReached::nearLimit = -100 * <a class="el" href="namespace_acts_1_1_unit_constants.html#a4c14b1784de166f9efc43c1e16c35478">UnitConstants::um</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Distance limit to discard intersections "behind us". </p>
-<dl class="section note"><dt>Note</dt><dd>this is only necessary because some surfaces have more than one intersection </dd></dl>
 
 </div>
 </div>

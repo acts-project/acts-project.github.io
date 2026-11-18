@@ -1,16 +1,5 @@
 var NAVTREEINDEX98 =
 {
-"structdetray_1_1ray__intersector__impl_3_01line2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#a7a86966e5158015f3651338ea1ea7177":[6,0,4,156,10],
-"structdetray_1_1ray__intersector__impl_3_01line2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#a7a86966e5158015f3651338ea1ea7177":[6,0,4,156,11],
-"structdetray_1_1ray__intersector__impl_3_01line2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#a7a86966e5158015f3651338ea1ea7177":[8,0,3,169,10],
-"structdetray_1_1ray__intersector__impl_3_01line2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#a7a86966e5158015f3651338ea1ea7177":[8,0,3,169,11],
-"structdetray_1_1ray__intersector__impl_3_01line2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#a7c2e901e354008860a3c072b97ed744b":[6,0,4,156,3],
-"structdetray_1_1ray__intersector__impl_3_01line2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#a7c2e901e354008860a3c072b97ed744b":[6,0,4,156,4],
-"structdetray_1_1ray__intersector__impl_3_01line2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#a7c2e901e354008860a3c072b97ed744b":[8,0,3,169,3],
-"structdetray_1_1ray__intersector__impl_3_01line2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#a7c2e901e354008860a3c072b97ed744b":[8,0,3,169,4],
-"structdetray_1_1ray__intersector__impl_3_01line2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#a9f2883ed7fb921fa46578b9dc6962fa9":[6,0,4,156,7],
-"structdetray_1_1ray__intersector__impl_3_01line2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#a9f2883ed7fb921fa46578b9dc6962fa9":[8,0,3,169,7],
-"structdetray_1_1ray__intersector__impl_3_01line2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#adb4d4033c4f7e2881b9f2106ffcc5ce6":[6,0,4,156,8],
 "structdetray_1_1ray__intersector__impl_3_01line2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#adb4d4033c4f7e2881b9f2106ffcc5ce6":[8,0,3,169,8],
 "structdetray_1_1ray__intersector__impl_3_01polar2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html":[6,0,4,157],
 "structdetray_1_1ray__intersector__impl_3_01polar2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html":[8,0,3,170],
@@ -249,5 +238,16 @@ var NAVTREEINDEX98 =
 "structdetray_1_1svgtools_1_1meta_1_1proto_1_1trajectory.html#aadd2fa927d9f5e8334ef270708cbeb1c":[8,0,3,14,1,0,4,1],
 "structdetray_1_1svgtools_1_1styling_1_1colors_1_1tableau__colorblind10.html":[8,0,3,14,2,0,0],
 "structdetray_1_1svgtools_1_1styling_1_1colors_1_1tableau__colorblind10.html#a77204b1872d11217120e617cf3146669":[8,0,3,14,2,0,0,2],
-"structdetray_1_1svgtools_1_1styling_1_1colors_1_1tableau__colorblind10.html#a7a4d99b2b55cce3598b3ac8304d045b1":[8,0,3,14,2,0,0,0]
+"structdetray_1_1svgtools_1_1styling_1_1colors_1_1tableau__colorblind10.html#a7a4d99b2b55cce3598b3ac8304d045b1":[8,0,3,14,2,0,0,0],
+"structdetray_1_1svgtools_1_1styling_1_1colors_1_1tableau__colorblind10.html#ab098278f626436b96c033a2f60b191c8":[8,0,3,14,2,0,0,1],
+"structdetray_1_1svgtools_1_1styling_1_1detector__style.html":[6,0,4,4,0,2],
+"structdetray_1_1svgtools_1_1styling_1_1detector__style.html":[8,0,3,14,2,1],
+"structdetray_1_1svgtools_1_1styling_1_1detector__style.html#a4165e1bf797f9975338be9e6a580e983":[6,0,4,4,0,2,1],
+"structdetray_1_1svgtools_1_1styling_1_1detector__style.html#a4165e1bf797f9975338be9e6a580e983":[8,0,3,14,2,1,1],
+"structdetray_1_1svgtools_1_1styling_1_1detector__style.html#a59c0d0e78ebdfe39df9511ccf4edff10":[6,0,4,4,0,2,0],
+"structdetray_1_1svgtools_1_1styling_1_1detector__style.html#a59c0d0e78ebdfe39df9511ccf4edff10":[8,0,3,14,2,1,0],
+"structdetray_1_1svgtools_1_1styling_1_1eta__lines__style.html":[6,0,4,4,0,3],
+"structdetray_1_1svgtools_1_1styling_1_1eta__lines__style.html":[8,0,3,14,2,2],
+"structdetray_1_1svgtools_1_1styling_1_1eta__lines__style.html#a39aca8082313a8ac596c85de2e75b2e9":[6,0,4,4,0,3,1],
+"structdetray_1_1svgtools_1_1styling_1_1eta__lines__style.html#a39aca8082313a8ac596c85de2e75b2e9":[8,0,3,14,2,2,1]
 };

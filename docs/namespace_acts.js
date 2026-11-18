@@ -214,7 +214,6 @@ var namespace_acts =
     [ "ExtentEnvelope", "struct_acts_1_1_extent_envelope.html", "struct_acts_1_1_extent_envelope" ],
     [ "FiniteStateMachine", "class_acts_1_1_finite_state_machine.html", "class_acts_1_1_finite_state_machine" ],
     [ "FixedSubspaceHelper", "class_acts_1_1_fixed_subspace_helper.html", "class_acts_1_1_fixed_subspace_helper" ],
-    [ "ForcedSurfaceReached", "struct_acts_1_1_forced_surface_reached.html", null ],
     [ "FreeTrackParameters", "class_acts_1_1_free_track_parameters.html", "class_acts_1_1_free_track_parameters" ],
     [ "Frustum", "class_acts_1_1_frustum.html", "class_acts_1_1_frustum" ],
     [ "FsmwMode1dFinder", "class_acts_1_1_fsmw_mode1d_finder.html", "class_acts_1_1_fsmw_mode1d_finder" ],
@@ -355,7 +354,6 @@ var namespace_acts =
     [ "MultiNavigationPolicy", "class_acts_1_1_multi_navigation_policy.html", "class_acts_1_1_multi_navigation_policy" ],
     [ "MultiRangeBField", "class_acts_1_1_multi_range_b_field.html", "class_acts_1_1_multi_range_b_field" ],
     [ "MultiStepperLoop", "class_acts_1_1_multi_stepper_loop.html", "class_acts_1_1_multi_stepper_loop" ],
-    [ "MultiStepperSurfaceReached", "struct_acts_1_1_multi_stepper_surface_reached.html", "struct_acts_1_1_multi_stepper_surface_reached" ],
     [ "MultiTrajectory", "class_acts_1_1_multi_trajectory.html", "class_acts_1_1_multi_trajectory" ],
     [ "MultiWireVolumeBuilder", "class_acts_1_1_multi_wire_volume_builder.html", "class_acts_1_1_multi_wire_volume_builder" ],
     [ "MutableProtoLayer", "struct_acts_1_1_mutable_proto_layer.html", null ],
@@ -773,7 +771,8 @@ var namespace_acts =
       [ "AverageTrackLeftCurrentVolume", "group__errors.html#ggaf2646ee646a0b70b9c7ebe6e7f473629aeee15646060f246fb74042fd33493e3e", null ],
       [ "AllComponentsSteppingError", "group__errors.html#ggaf2646ee646a0b70b9c7ebe6e7f473629a6a7ea3e1e957ceba5dff740af6894cb0", null ],
       [ "AllComponentsConversionToBoundFailed", "group__errors.html#ggaf2646ee646a0b70b9c7ebe6e7f473629a7ac064d72c54b96c24ff6d868012e712", null ],
-      [ "SomeComponentsConversionToBoundFailed", "group__errors.html#ggaf2646ee646a0b70b9c7ebe6e7f473629a0268957bd873958df11f8dd8816d4ce2", null ]
+      [ "SomeComponentsConversionToBoundFailed", "group__errors.html#ggaf2646ee646a0b70b9c7ebe6e7f473629a0268957bd873958df11f8dd8816d4ce2", null ],
+      [ "NoComponentsLeft", "group__errors.html#ggaf2646ee646a0b70b9c7ebe6e7f473629ad6cdeb3db1d1359314e5cfd0152784ac", null ]
     ] ],
     [ "NavigatorError", "group__errors.html#ga2cc876d4889b5c6656ed7d5e0c1fca19", [
       [ "NotInsideExpectedVolume", "group__errors.html#gga2cc876d4889b5c6656ed7d5e0c1fca19a77fd0ff5599a44c8cd17ffb15f2de120", null ],

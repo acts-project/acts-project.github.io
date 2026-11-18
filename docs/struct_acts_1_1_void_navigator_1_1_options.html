@@ -145,6 +145,8 @@ Collaboration diagram for Acts::VoidNavigator::Options:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a59b05d8c8d32f7b7d768c73049872f02" id="r_a59b05d8c8d32f7b7d768c73049872f02"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59b05d8c8d32f7b7d768c73049872f02">Options</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx)</td></tr>
 <tr class="memdesc:a59b05d8c8d32f7b7d768c73049872f02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for void navigator options.  <br /></td></tr>
+<tr class="memitem:a92f4b92721d8ae89bb961d3254d28709" id="r_a92f4b92721d8ae89bb961d3254d28709"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92f4b92721d8ae89bb961d3254d28709">Options</a> (const <a class="el" href="struct_acts_1_1_navigator_plain_options.html#ae39cf9c4751da457815d5be80fba23b9">NavigatorPlainOptions</a> &amp;options)</td></tr>
+<tr class="memdesc:a92f4b92721d8ae89bb961d3254d28709"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from the plain options of another navigator.  <br /></td></tr>
 <tr class="memitem:ad4c6e60ee51392d80bb7edc557efcb7a" id="r_ad4c6e60ee51392d80bb7edc557efcb7a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4c6e60ee51392d80bb7edc557efcb7a">setPlainOptions</a> (const <a class="el" href="struct_acts_1_1_navigator_plain_options.html#ae39cf9c4751da457815d5be80fba23b9">NavigatorPlainOptions</a> &amp;options)</td></tr>
 <tr class="memdesc:ad4c6e60ee51392d80bb7edc557efcb7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the plain navigator options.  <br /></td></tr>
 <tr class="inherit_header pub_methods_struct_acts_1_1_navigator_plain_options"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_struct_acts_1_1_navigator_plain_options')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="struct_acts_1_1_navigator_plain_options.html">Acts::NavigatorPlainOptions</a></td></tr>
@@ -183,7 +185,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>surfaceTolerance</b
 <div class="textblock"><p>Nested Options struct. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a59b05d8c8d32f7b7d768c73049872f02" name="a59b05d8c8d32f7b7d768c73049872f02"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59b05d8c8d32f7b7d768c73049872f02">&#9670;&#160;</a></span>Options()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a59b05d8c8d32f7b7d768c73049872f02">&#9670;&#160;</a></span>Options() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -208,7 +210,40 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>surfaceTolerance</b
 <p>Constructor for void navigator options. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">gctx</td><td>Geometry context (required but unused by void navigator) </td></tr>
+    <tr><td class="paramname">gctx</td><td>Geometry context </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a92f4b92721d8ae89bb961d3254d28709" name="a92f4b92721d8ae89bb961d3254d28709"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92f4b92721d8ae89bb961d3254d28709">&#9670;&#160;</a></span>Options() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Acts::VoidNavigator::Options::Options </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_navigator_plain_options.html#ae39cf9c4751da457815d5be80fba23b9">NavigatorPlainOptions</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>options</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel explicit">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor from the plain options of another navigator. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">options</td><td>The plain navigator options to copy </td></tr>
   </table>
   </dd>
 </dl>
@@ -234,7 +269,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>surfaceTolerance</b
 <p>Sets the plain navigator options. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">options</td><td>The plain navigator options to copy (unused by void navigator) </td></tr>
+    <tr><td class="paramname">options</td><td>The plain navigator options to copy </td></tr>
   </table>
   </dd>
 </dl>

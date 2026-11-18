@@ -6,6 +6,7 @@ var struct_acts_1_1_direct_navigator_1_1_state =
     [ "nextSurface", "struct_acts_1_1_direct_navigator_1_1_state.html#a568e1413c197ab59f3cb212dd7dee7ea", null ],
     [ "remainingSurfaces", "struct_acts_1_1_direct_navigator_1_1_state.html#ac6a229aacc01ee409f11697ca3133be4", null ],
     [ "resetSurfaceIndex", "struct_acts_1_1_direct_navigator_1_1_state.html#ac1fb35706f854ad011830afbff7e3b6c", null ],
+    [ "additional", "struct_acts_1_1_direct_navigator_1_1_state.html#a2d1a80db9544038d7c2bb56c63b041f7", null ],
     [ "currentSurface", "struct_acts_1_1_direct_navigator_1_1_state.html#a08725557da53524ee8bad62576bc8603", null ],
     [ "direction", "struct_acts_1_1_direct_navigator_1_1_state.html#a84146a48325786d2ed53644967e038c6", null ],
     [ "navigationBreak", "struct_acts_1_1_direct_navigator_1_1_state.html#a42079388f1978c38fcf99ace31050ef4", null ],

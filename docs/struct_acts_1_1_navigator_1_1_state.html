@@ -138,8 +138,6 @@ Collaboration diagram for Acts::Navigator::State:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:AdditionalSurfaceState" id="r_AdditionalSurfaceState"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_navigator_1_1_state_1_1_additional_surface_state.html">AdditionalSurfaceState</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An additional surface of the options with its bookkeeping.  <a href="struct_acts_1_1_navigator_1_1_state_1_1_additional_surface_state.html#details">More...</a><br /></td></tr>
 <tr class="memitem:ResolvedExtendedSurface" id="r_ResolvedExtendedSurface"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_navigator_1_1_state_1_1_resolved_extended_surface.html">ResolvedExtendedSurface</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An extended surface with its volume resolved.  <a href="struct_acts_1_1_navigator_1_1_state_1_1_resolved_extended_surface.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
@@ -168,9 +166,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>resetAfterVolumeSwitc
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ae75a4021879ca2594cad684df19cb570" id="r_ae75a4021879ca2594cad684df19cb570"><td class="memItemLeft" align="right" valign="top"><a id="ae75a4021879ca2594cad684df19cb570" name="ae75a4021879ca2594cad684df19cb570"></a>
-std::vector&lt; <a class="el" href="struct_acts_1_1_navigator_1_1_state_1_1_additional_surface_state.html">AdditionalSurfaceState</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>additionalSurfaces</b> {}</td></tr>
-<tr class="memdesc:ae75a4021879ca2594cad684df19cb570"><td class="mdescLeft">&#160;</td><td class="mdescRight">Additional surfaces of the options, tracked over the propagation. <br /></td></tr>
+<tr class="memitem:a2d6f56962e1c9fe78b28034d788a4619" id="r_a2d6f56962e1c9fe78b28034d788a4619"><td class="memItemLeft" align="right" valign="top"><a id="a2d6f56962e1c9fe78b28034d788a4619" name="a2d6f56962e1c9fe78b28034d788a4619"></a>
+detail::AdditionalSurfaceNavigation&#160;</td><td class="memItemRight" valign="bottom"><b>additional</b></td></tr>
+<tr class="memdesc:a2d6f56962e1c9fe78b28034d788a4619"><td class="mdescLeft">&#160;</td><td class="mdescRight">Additional surfaces and candidate history. <br /></td></tr>
 <tr class="memitem:a80020ca927928717d2401262a7a26c46" id="r_a80020ca927928717d2401262a7a26c46"><td class="memItemLeft" align="right" valign="top"><a id="a80020ca927928717d2401262a7a26c46" name="a80020ca927928717d2401262a7a26c46"></a>
 const <a class="el" href="class_acts_1_1_layer.html">Layer</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>currentLayer</b> = nullptr</td></tr>
 <tr class="memdesc:a80020ca927928717d2401262a7a26c46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current layer during navigation. <br /></td></tr>
@@ -215,8 +213,6 @@ std::optional&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bo
 <tr class="memitem:a0ec9d252d55889edcb6bce4aad0e30c9" id="r_a0ec9d252d55889edcb6bce4aad0e30c9"><td class="memItemLeft" align="right" valign="top"><a id="a0ec9d252d55889edcb6bce4aad0e30c9" name="a0ec9d252d55889edcb6bce4aad0e30c9"></a>
 <a class="el" href="struct_acts_1_1_navigator_1_1_options.html">Options</a>&#160;</td><td class="memItemRight" valign="bottom"><b>options</b></td></tr>
 <tr class="memdesc:a0ec9d252d55889edcb6bce4aad0e30c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Navigation options configuration. <br /></td></tr>
-<tr class="memitem:a96b4135514459f28cbe9013bbe51e2fc" id="r_a96b4135514459f28cbe9013bbe51e2fc"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="class_acts_1_1_navigation_target.html">NavigationTarget</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96b4135514459f28cbe9013bbe51e2fc">pendingTarget</a></td></tr>
-<tr class="memdesc:a96b4135514459f28cbe9013bbe51e2fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">The staged candidate an additional surface took precedence over.  <br /></td></tr>
 <tr class="memitem:abd197c87d5aa7c396fc55732e42d62bb" id="r_abd197c87d5aa7c396fc55732e42d62bb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd197c87d5aa7c396fc55732e42d62bb">policyStateIsDefault</a> = true</td></tr>
 <tr class="memdesc:abd197c87d5aa7c396fc55732e42d62bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the current volume's policy state carries no validity constraint.  <br /></td></tr>
 <tr class="memitem:af2969f4b15e9ea5dd8a00fba1c699c89" id="r_af2969f4b15e9ea5dd8a00fba1c699c89"><td class="memItemLeft" align="right" valign="top"><a id="af2969f4b15e9ea5dd8a00fba1c699c89" name="af2969f4b15e9ea5dd8a00fba1c699c89"></a>
@@ -414,23 +410,6 @@ const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *&#160;</td><
 
 <p>Latest global geometric curvature supplied at a public navigation entry point. </p>
 <p>Forwarded to policy creation, validity, and candidate queries. </p>
-
-</div>
-</div>
-<a id="a96b4135514459f28cbe9013bbe51e2fc" name="a96b4135514459f28cbe9013bbe51e2fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a96b4135514459f28cbe9013bbe51e2fc">&#9670;&#160;</a></span>pendingTarget</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::optional&lt;<a class="el" href="class_acts_1_1_navigation_target.html">NavigationTarget</a>&gt; Acts::Navigator::State::pendingTarget</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The staged candidate an additional surface took precedence over. </p>
-<p>It is handed out once the additional surface is no longer the closer one. </p>
 
 </div>
 </div>

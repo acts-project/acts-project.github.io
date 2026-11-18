@@ -1,16 +1,5 @@
 var NAVTREEINDEX104 =
 {
-"structdetray_1_1wire__layer__generator__config.html#a51914556653294bce1c92a1f071d857e":[8,0,3,219,2],
-"structdetray_1_1wire__layer__generator__config.html#a6ee379ac816151027aae0b4abebe801a":[6,0,4,206,9],
-"structdetray_1_1wire__layer__generator__config.html#a6ee379ac816151027aae0b4abebe801a":[8,0,3,219,9],
-"structdetray_1_1wire__layer__generator__config.html#a84588eb32a1722bd4677527300461fc2":[6,0,4,206,1],
-"structdetray_1_1wire__layer__generator__config.html#a84588eb32a1722bd4677527300461fc2":[8,0,3,219,1],
-"structdetray_1_1wire__layer__generator__config.html#aceb41eb7e98f97ace16cdc372da95a5b":[6,0,4,206,4],
-"structdetray_1_1wire__layer__generator__config.html#aceb41eb7e98f97ace16cdc372da95a5b":[8,0,3,219,4],
-"structdetray_1_1wire__layer__generator__config.html#ad1ba20e6cf4aba0a385f01b6af9f088f":[6,0,4,206,10],
-"structdetray_1_1wire__layer__generator__config.html#ad1ba20e6cf4aba0a385f01b6af9f088f":[8,0,3,219,10],
-"structdetray_1_1wire__layer__generator__config.html#adb931a51e480979174f3b2a898a934a7":[6,0,4,206,3],
-"structdetray_1_1wire__layer__generator__config.html#adb931a51e480979174f3b2a898a934a7":[8,0,3,219,3],
 "todo.html":[11],
 "topics.html":[5],
 "tracking.html":[1],

@@ -56,7 +56,8 @@ var group__errors =
       [ "Acts::MultiStepperError::AverageTrackLeftCurrentVolume", "group__errors.html#ggaf2646ee646a0b70b9c7ebe6e7f473629aeee15646060f246fb74042fd33493e3e", null ],
       [ "Acts::MultiStepperError::AllComponentsSteppingError", "group__errors.html#ggaf2646ee646a0b70b9c7ebe6e7f473629a6a7ea3e1e957ceba5dff740af6894cb0", null ],
       [ "Acts::MultiStepperError::AllComponentsConversionToBoundFailed", "group__errors.html#ggaf2646ee646a0b70b9c7ebe6e7f473629a7ac064d72c54b96c24ff6d868012e712", null ],
-      [ "Acts::MultiStepperError::SomeComponentsConversionToBoundFailed", "group__errors.html#ggaf2646ee646a0b70b9c7ebe6e7f473629a0268957bd873958df11f8dd8816d4ce2", null ]
+      [ "Acts::MultiStepperError::SomeComponentsConversionToBoundFailed", "group__errors.html#ggaf2646ee646a0b70b9c7ebe6e7f473629a0268957bd873958df11f8dd8816d4ce2", null ],
+      [ "Acts::MultiStepperError::NoComponentsLeft", "group__errors.html#ggaf2646ee646a0b70b9c7ebe6e7f473629ad6cdeb3db1d1359314e5cfd0152784ac", null ]
     ] ],
     [ "Acts::NavigatorError", "group__errors.html#ga2cc876d4889b5c6656ed7d5e0c1fca19", [
       [ "Acts::NavigatorError::NotInsideExpectedVolume", "group__errors.html#gga2cc876d4889b5c6656ed7d5e0c1fca19a77fd0ff5599a44c8cd17ffb15f2de120", null ],

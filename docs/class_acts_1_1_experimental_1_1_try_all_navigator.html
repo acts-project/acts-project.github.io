@@ -144,8 +144,8 @@ Classes</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a5c0aa5d868023840ae661a63e03f3202" id="r_a5c0aa5d868023840ae661a63e03f3202"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c0aa5d868023840ae661a63e03f3202">TryAllNavigator</a> (<a class="el" href="struct_acts_1_1_experimental_1_1_try_all_navigator_1_1_config.html">Config</a> cfg, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &gt; logger=<a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">getDefaultLogger</a>(&quot;TryAllNavigator&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Logging::INFO</a>))</td></tr>
 <tr class="memdesc:a5c0aa5d868023840ae661a63e03f3202"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor with configuration object.  <br /></td></tr>
-<tr class="memitem:a2f90b88346963fbcbc56383a5824103d" id="r_a2f90b88346963fbcbc56383a5824103d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f90b88346963fbcbc56383a5824103d">checkTargetValid</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_try_all_navigator_1_1_state.html">State</a> &amp;state, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;curvature=Vector3::Zero()) const</td></tr>
-<tr class="memdesc:a2f90b88346963fbcbc56383a5824103d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the target is still valid.  <br /></td></tr>
+<tr class="memitem:a74e64aa382d778e30228d2e423bb8b43" id="r_a74e64aa382d778e30228d2e423bb8b43"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74e64aa382d778e30228d2e423bb8b43">checkTargetValid</a> (<a class="el" href="struct_acts_1_1_experimental_1_1_try_all_navigator_1_1_state.html">State</a> &amp;state, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;curvature=Vector3::Zero()) const</td></tr>
+<tr class="memdesc:a74e64aa382d778e30228d2e423bb8b43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the target is still valid.  <br /></td></tr>
 <tr class="memitem:ad314d676efe005d6662b38b563b80a6c" id="r_ad314d676efe005d6662b38b563b80a6c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad314d676efe005d6662b38b563b80a6c">currentSurface</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_try_all_navigator_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:ad314d676efe005d6662b38b563b80a6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current surface from the navigation state.  <br /></td></tr>
 <tr class="memitem:a787103481f27a8890f6cab311d2de78a" id="r_a787103481f27a8890f6cab311d2de78a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a787103481f27a8890f6cab311d2de78a">currentVolume</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_try_all_navigator_1_1_state.html">State</a> &amp;state) const</td></tr>
@@ -154,8 +154,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ada889b48d2318994a1345f15b76079bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the material of the current tracking volume.  <br /></td></tr>
 <tr class="memitem:a934fc271e56961e98ca8f6dcc013fe00" id="r_a934fc271e56961e98ca8f6dcc013fe00"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a934fc271e56961e98ca8f6dcc013fe00">endOfWorldReached</a> (<a class="el" href="struct_acts_1_1_experimental_1_1_try_all_navigator_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:a934fc271e56961e98ca8f6dcc013fe00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the end of the world has been reached.  <br /></td></tr>
-<tr class="memitem:ab3c95d413066b8d5131db6f50f35e526" id="r_ab3c95d413066b8d5131db6f50f35e526"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3c95d413066b8d5131db6f50f35e526">handleSurfaceReached</a> (<a class="el" href="struct_acts_1_1_experimental_1_1_try_all_navigator_1_1_state.html">State</a> &amp;state, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;curvature=Vector3::Zero()) const</td></tr>
-<tr class="memdesc:ab3c95d413066b8d5131db6f50f35e526"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle the surface reached.  <br /></td></tr>
+<tr class="memitem:ade89182b8f9a4569d1fee8a397a28acd" id="r_ade89182b8f9a4569d1fee8a397a28acd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade89182b8f9a4569d1fee8a397a28acd">handleSurfaceReached</a> (<a class="el" href="struct_acts_1_1_experimental_1_1_try_all_navigator_1_1_state.html">State</a> &amp;state, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;curvature=Vector3::Zero()) const</td></tr>
+<tr class="memdesc:ade89182b8f9a4569d1fee8a397a28acd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle the surface reached.  <br /></td></tr>
 <tr class="memitem:ae17b91cf4558bc5cbdca9a437ed715dd" id="r_ae17b91cf4558bc5cbdca9a437ed715dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae17b91cf4558bc5cbdca9a437ed715dd">initialize</a> (<a class="el" href="struct_acts_1_1_experimental_1_1_try_all_navigator_1_1_state.html">State</a> &amp;state, const <a class="el" href="struct_acts_1_1_navigator_initialize_arguments.html">NavigatorInitializeArguments</a> &amp;args) const</td></tr>
 <tr class="memdesc:ae17b91cf4558bc5cbdca9a437ed715dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the navigator.  <br /></td></tr>
 <tr class="memitem:ab25402431aa9913d0121c89dc09dc2ad" id="r_ab25402431aa9913d0121c89dc09dc2ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_1_1_experimental_1_1_try_all_navigator_1_1_state.html">State</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab25402431aa9913d0121c89dc09dc2ad">makeState</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_try_all_navigator_1_1_options.html">Options</a> &amp;options) const</td></tr>
@@ -214,8 +214,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a2f90b88346963fbcbc56383a5824103d" name="a2f90b88346963fbcbc56383a5824103d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f90b88346963fbcbc56383a5824103d">&#9670;&#160;</a></span>checkTargetValid()</h2>
+<a id="a74e64aa382d778e30228d2e423bb8b43" name="a74e64aa382d778e30228d2e423bb8b43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74e64aa382d778e30228d2e423bb8b43">&#9670;&#160;</a></span>checkTargetValid()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -223,7 +223,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">bool Acts::Experimental::TryAllNavigator::checkTargetValid </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_acts_1_1_experimental_1_1_try_all_navigator_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span>, </td>
+          <td class="paramtype"><a class="el" href="struct_acts_1_1_experimental_1_1_try_all_navigator_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -363,8 +363,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab3c95d413066b8d5131db6f50f35e526" name="ab3c95d413066b8d5131db6f50f35e526"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab3c95d413066b8d5131db6f50f35e526">&#9670;&#160;</a></span>handleSurfaceReached()</h2>
+<a id="ade89182b8f9a4569d1fee8a397a28acd" name="ade89182b8f9a4569d1fee8a397a28acd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade89182b8f9a4569d1fee8a397a28acd">&#9670;&#160;</a></span>handleSurfaceReached()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -387,7 +387,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>surface</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -404,6 +404,7 @@ Public Member Functions</h2></td></tr>
     <tr><td class="paramname">state</td><td>The navigation state </td></tr>
     <tr><td class="paramname">position</td><td>The current position </td></tr>
     <tr><td class="paramname">direction</td><td>The current direction </td></tr>
+    <tr><td class="paramname">surface</td><td>The surface reached </td></tr>
     <tr><td class="paramname">curvature</td><td>Current global geometric curvature (inverse length) </td></tr>
   </table>
   </dd>

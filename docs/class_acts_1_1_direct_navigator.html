@@ -144,8 +144,8 @@ Classes</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:af750c89e1df5791fed10887a12e9fc16" id="r_af750c89e1df5791fed10887a12e9fc16"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af750c89e1df5791fed10887a12e9fc16">DirectNavigator</a> (std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &gt; _logger=<a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">getDefaultLogger</a>(&quot;DirectNavigator&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Logging::INFO</a>))</td></tr>
 <tr class="memdesc:af750c89e1df5791fed10887a12e9fc16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor with optional logger.  <br /></td></tr>
-<tr class="memitem:a25426ff514b976126b4849911fc70f71" id="r_a25426ff514b976126b4849911fc70f71"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25426ff514b976126b4849911fc70f71">checkTargetValid</a> (const <a class="el" href="struct_acts_1_1_direct_navigator_1_1_state.html">State</a> &amp;state, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;curvature=Vector3::Zero()) const</td></tr>
-<tr class="memdesc:a25426ff514b976126b4849911fc70f71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the current target is still valid.  <br /></td></tr>
+<tr class="memitem:a18e0d97decb14f3959a44105c5615f1a" id="r_a18e0d97decb14f3959a44105c5615f1a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18e0d97decb14f3959a44105c5615f1a">checkTargetValid</a> (<a class="el" href="struct_acts_1_1_direct_navigator_1_1_state.html">State</a> &amp;state, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;curvature=Vector3::Zero()) const</td></tr>
+<tr class="memdesc:a18e0d97decb14f3959a44105c5615f1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the current target is still valid.  <br /></td></tr>
 <tr class="memitem:aded824922fcad1d7e01b11e52327b34c" id="r_aded824922fcad1d7e01b11e52327b34c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aded824922fcad1d7e01b11e52327b34c">currentSurface</a> (const <a class="el" href="struct_acts_1_1_direct_navigator_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:aded824922fcad1d7e01b11e52327b34c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current surface from the navigation state.  <br /></td></tr>
 <tr class="memitem:a7ebca29bf8aa930a793a739aa3cf006e" id="r_a7ebca29bf8aa930a793a739aa3cf006e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ebca29bf8aa930a793a739aa3cf006e">currentVolume</a> (const <a class="el" href="struct_acts_1_1_direct_navigator_1_1_state.html">State</a> &amp;state) const</td></tr>
@@ -208,8 +208,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a25426ff514b976126b4849911fc70f71" name="a25426ff514b976126b4849911fc70f71"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25426ff514b976126b4849911fc70f71">&#9670;&#160;</a></span>checkTargetValid()</h2>
+<a id="a18e0d97decb14f3959a44105c5615f1a" name="a18e0d97decb14f3959a44105c5615f1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18e0d97decb14f3959a44105c5615f1a">&#9670;&#160;</a></span>checkTargetValid()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -217,7 +217,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">bool Acts::DirectNavigator::checkTargetValid </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_acts_1_1_direct_navigator_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span>, </td>
+          <td class="paramtype"><a class="el" href="struct_acts_1_1_direct_navigator_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -238,7 +238,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Check if the current target is still valid. </p>
-<p>This function checks if the target is valid. For the direct navigator this is always true.</p>
+<p>The surface sequence stays valid, so only the additional surfaces can take over the target.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">state</td><td>The navigation state </td></tr>
@@ -397,8 +397,8 @@ Public Member Functions</h2></td></tr>
     <tr><td class="paramname">state</td><td>The navigation state </td></tr>
     <tr><td class="paramname">position</td><td>The current position </td></tr>
     <tr><td class="paramname">direction</td><td>The current direction </td></tr>
-    <tr><td class="paramname">curvature</td><td>Current global geometric curvature (inverse length) </td></tr>
     <tr><td class="paramname">surface</td><td>The surface reached </td></tr>
+    <tr><td class="paramname">curvature</td><td>Current global geometric curvature (inverse length) </td></tr>
   </table>
   </dd>
 </dl>
@@ -527,7 +527,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get the next target surface. </p>
-<p>This function gets the next target surface for the propagation. For the direct navigator this is always the next surface in the sequence.</p>
+<p>This function gets the next target surface for the propagation. For the direct navigator this is the next surface in the sequence, unless an additional surface is closer.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">state</td><td>The navigation state </td></tr>

@@ -1,6 +1,5 @@
 var struct_acts_1_1_navigator_1_1_state =
 [
-    [ "AdditionalSurfaceState", "struct_acts_1_1_navigator_1_1_state_1_1_additional_surface_state.html", "struct_acts_1_1_navigator_1_1_state_1_1_additional_surface_state" ],
     [ "ResolvedExtendedSurface", "struct_acts_1_1_navigator_1_1_state_1_1_resolved_extended_surface.html", "struct_acts_1_1_navigator_1_1_state_1_1_resolved_extended_surface" ],
     [ "State", "struct_acts_1_1_navigator_1_1_state.html#ad8f8eac8361a0f3f2b558b107bb70f97", null ],
     [ "navBoundary", "struct_acts_1_1_navigator_1_1_state.html#aa5a0e03a0e224d3c3d8cfbb34556ad98", null ],
@@ -11,7 +10,7 @@ var struct_acts_1_1_navigator_1_1_state =
     [ "resetAfterVolumeSwitch", "struct_acts_1_1_navigator_1_1_state.html#aedf8b2d233b4df2645b539975b6b64a9", null ],
     [ "resetForInitialization", "struct_acts_1_1_navigator_1_1_state.html#ac7195a3f6b0f7726653a896e35038b8e", null ],
     [ "resetForRenavigation", "struct_acts_1_1_navigator_1_1_state.html#a8333f56ce01a4e1edf9cc58fb677983d", null ],
-    [ "additionalSurfaces", "struct_acts_1_1_navigator_1_1_state.html#ae75a4021879ca2594cad684df19cb570", null ],
+    [ "additional", "struct_acts_1_1_navigator_1_1_state.html#a2d6f56962e1c9fe78b28034d788a4619", null ],
     [ "currentLayer", "struct_acts_1_1_navigator_1_1_state.html#a80020ca927928717d2401262a7a26c46", null ],
     [ "currentSurface", "struct_acts_1_1_navigator_1_1_state.html#aefa673eab0064b8c62288054818468d5", null ],
     [ "currentVolume", "struct_acts_1_1_navigator_1_1_state.html#aa664552fae00e3d87df1121c1e7b3edf", null ],
@@ -27,7 +26,6 @@ var struct_acts_1_1_navigator_1_1_state =
     [ "navSurfaceIndex", "struct_acts_1_1_navigator_1_1_state.html#ac7ebe3f762cdb3df57f327e43f58435c", null ],
     [ "navSurfaces", "struct_acts_1_1_navigator_1_1_state.html#aa48bb4efe5699e2ba7dd04c83b62d483", null ],
     [ "options", "struct_acts_1_1_navigator_1_1_state.html#a0ec9d252d55889edcb6bce4aad0e30c9", null ],
-    [ "pendingTarget", "struct_acts_1_1_navigator_1_1_state.html#a96b4135514459f28cbe9013bbe51e2fc", null ],
     [ "policyStateIsDefault", "struct_acts_1_1_navigator_1_1_state.html#abd197c87d5aa7c396fc55732e42d62bb", null ],
     [ "policyStateManager", "struct_acts_1_1_navigator_1_1_state.html#af2969f4b15e9ea5dd8a00fba1c699c89", null ],
     [ "startLayer", "struct_acts_1_1_navigator_1_1_state.html#ab60b9f0f8c6248efd957c338531d984b", null ],

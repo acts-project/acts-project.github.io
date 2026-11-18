@@ -663,7 +663,6 @@ var hierarchy =
     [ "Acts::Navigator", "class_acts_1_1_navigator.html", null ],
     [ "Acts::Navigator::Config", "struct_acts_1_1_navigator_1_1_config.html", null ],
     [ "Acts::Navigator::State", "struct_acts_1_1_navigator_1_1_state.html", null ],
-    [ "Acts::Navigator::State::AdditionalSurfaceState", "struct_acts_1_1_navigator_1_1_state_1_1_additional_surface_state.html", null ],
     [ "Acts::Navigator::State::ResolvedExtendedSurface", "struct_acts_1_1_navigator_1_1_state_1_1_resolved_extended_surface.html", null ],
     [ "Acts::NavigatorInitializeArguments", "struct_acts_1_1_navigator_initialize_arguments.html", null ],
     [ "Acts::NavigatorPlainOptions", "struct_acts_1_1_navigator_plain_options.html", [
@@ -821,11 +820,7 @@ var hierarchy =
         [ "ActsPlugins::DD4hepDetectorElement", "class_acts_plugins_1_1_d_d4hep_detector_element.html", null ]
       ] ]
     ] ],
-    [ "Acts::SurfaceReached", "struct_acts_1_1_surface_reached.html", [
-      [ "Acts::ForcedSurfaceReached", "struct_acts_1_1_forced_surface_reached.html", [
-        [ "Acts::MultiStepperSurfaceReached", "struct_acts_1_1_multi_stepper_surface_reached.html", null ]
-      ] ]
-    ] ],
+    [ "Acts::SurfaceReached", "struct_acts_1_1_surface_reached.html", null ],
     [ "Acts::SurfaceSelector", "struct_acts_1_1_surface_selector.html", null ],
     [ "Acts::SympyStepper", "class_acts_1_1_sympy_stepper.html", null ],
     [ "Acts::SympyStepper::Config", "struct_acts_1_1_sympy_stepper_1_1_config.html", null ],

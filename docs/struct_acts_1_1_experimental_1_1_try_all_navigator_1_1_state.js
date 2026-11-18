@@ -7,6 +7,7 @@ var struct_acts_1_1_experimental_1_1_try_all_navigator_1_1_state =
     [ "activeTargetBehindIndex", "struct_acts_1_1_experimental_1_1_try_all_navigator_1_1_state.html#a8cc39f71c498826b8ad0f578badb397b", null ],
     [ "activeTargetsAhead", "struct_acts_1_1_experimental_1_1_try_all_navigator_1_1_state.html#a830b63515e2efa415441a33093bdcd3d", null ],
     [ "activeTargetsBehind", "struct_acts_1_1_experimental_1_1_try_all_navigator_1_1_state.html#a03cef1ef0ffecfe6d1ccf6ac543658cb", null ],
+    [ "additional", "struct_acts_1_1_experimental_1_1_try_all_navigator_1_1_state.html#a6427fa8f443b8e849dd916deb412bd18", null ],
     [ "currentSurface", "struct_acts_1_1_experimental_1_1_try_all_navigator_1_1_state.html#a0df6f331cf6bfc5bf3176f5b9f52e481", null ],
     [ "currentVolume", "struct_acts_1_1_experimental_1_1_try_all_navigator_1_1_state.html#a670edc4f69f6e466952d9b186ec5d5cd", null ],
     [ "lastPosition", "struct_acts_1_1_experimental_1_1_try_all_navigator_1_1_state.html#a08dea8fe5ba3cea18babdd1cbf68979c", null ],
