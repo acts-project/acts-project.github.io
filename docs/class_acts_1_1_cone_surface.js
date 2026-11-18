@@ -14,6 +14,7 @@ var class_acts_1_1_cone_surface =
     [ "globalToLocal", "class_acts_1_1_cone_surface.html#a3082370f6db11d7bedddbb5fb642792b", null ],
     [ "globalToLocal", "class_acts_1_1_cone_surface.html#a7533c07fc1f5fc471a46d2cc57a3c844", null ],
     [ "intersect", "class_acts_1_1_cone_surface.html#ac63273b38cda1b798eb420c2e24a11b2", null ],
+    [ "intersect", "class_acts_1_1_cone_surface.html#a14c28f64545f413214dd456dd7fa49c0", null ],
     [ "localAxes", "class_acts_1_1_cone_surface.html#a6128c26fc43c0c31608f190a4b0d5206", null ],
     [ "localCartesianToBoundLocalDerivative", "class_acts_1_1_cone_surface.html#af358b3e0960451f85f4715040e1e98e2", null ],
     [ "localToGlobal", "class_acts_1_1_cone_surface.html#ab1274b38341ec77af0346ff40ca8a7e2", null ],

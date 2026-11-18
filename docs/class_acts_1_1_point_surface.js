@@ -16,6 +16,7 @@ var class_acts_1_1_point_surface =
     [ "freeToPathDerivative", "class_acts_1_1_point_surface.html#aca886402c46528bd933c9638918a8505", null ],
     [ "globalToLocal", "class_acts_1_1_point_surface.html#a575602d0d3bc42be275faf1f833654e9", null ],
     [ "intersect", "class_acts_1_1_point_surface.html#a040b382f6cf29d1669264d49d43919bc", null ],
+    [ "intersect", "class_acts_1_1_point_surface.html#a14c28f64545f413214dd456dd7fa49c0", null ],
     [ "localAxes", "class_acts_1_1_point_surface.html#a1d2b876e21b927b54ba9275d37cce969", null ],
     [ "localCartesianToBoundLocalDerivative", "class_acts_1_1_point_surface.html#a279dae233e45e5a9e92e10bb25ab4f9e", null ],
     [ "localToGlobal", "class_acts_1_1_point_surface.html#ad0089a52590f3eb852e8a54690a47d62", null ],

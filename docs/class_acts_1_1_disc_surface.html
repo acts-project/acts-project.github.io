@@ -161,6 +161,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a892421fcb7f5057a4643814f34807a12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Special method for DiscSurface : global&lt;-&gt;local from cartesian coordinates.  <br /></td></tr>
 <tr class="memitem:a7ddbbdf24c18569999f2af1531f07585" id="r_a7ddbbdf24c18569999f2af1531f07585"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#ae4e962ae4108b1150b697ebcc6132bff">MultiIntersection3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ddbbdf24c18569999f2af1531f07585">intersect</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction, const <a class="el" href="class_acts_1_1_boundary_tolerance.html">BoundaryTolerance</a> &amp;boundaryTolerance=<a class="el" href="class_acts_1_1_boundary_tolerance.html#a8f2376046ddf8c108006502775cd1aef">BoundaryTolerance::Infinite</a>(), double tolerance=<a class="el" href="namespace_acts.html#a062150b6d58b9acb88af2feaf8d3aa2b">s_onSurfaceTolerance</a>) const final</td></tr>
 <tr class="memdesc:a7ddbbdf24c18569999f2af1531f07585"><td class="mdescLeft">&#160;</td><td class="mdescRight">Straight line intersection schema.  <br /></td></tr>
+<tr class="memitem:adaecc343a241e8c6a69b5dae56fb4e67" id="r_adaecc343a241e8c6a69b5dae56fb4e67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#ae4e962ae4108b1150b697ebcc6132bff">MultiIntersection3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adaecc343a241e8c6a69b5dae56fb4e67">intersect</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;curvature, const <a class="el" href="class_acts_1_1_boundary_tolerance.html">BoundaryTolerance</a> &amp;boundaryTolerance=<a class="el" href="class_acts_1_1_boundary_tolerance.html#a8f2376046ddf8c108006502775cd1aef">BoundaryTolerance::Infinite</a>(), double tolerance=<a class="el" href="namespace_acts.html#a062150b6d58b9acb88af2feaf8d3aa2b">s_onSurfaceTolerance</a>) const final</td></tr>
+<tr class="memdesc:adaecc343a241e8c6a69b5dae56fb4e67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estimate intersections using local geometric curvature.     <br /></td></tr>
 <tr class="memitem:a33312d9f9776a30800645b276347dec3" id="r_a33312d9f9776a30800645b276347dec3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga6601cf34fab9264b809ec0bc9364048d">Matrix</a>&lt; 2, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33312d9f9776a30800645b276347dec3">localCartesianToBoundLocalDerivative</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction) const final</td></tr>
 <tr class="memdesc:a33312d9f9776a30800645b276347dec3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the derivative of bound track parameters local position w.r.t.  <br /></td></tr>
 <tr class="memitem:a5017f46a3580f9089882b651e1850e3f" id="r_a5017f46a3580f9089882b651e1850e3f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5017f46a3580f9089882b651e1850e3f">localCartesianToGlobal</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Vector2</a> &amp;lposition) const</td></tr>
@@ -969,7 +971,7 @@ hx_{max} \) This is n this case you have DiscTrapezoidBounds. </p>
 </div>
 </div>
 <a id="a7ddbbdf24c18569999f2af1531f07585" name="a7ddbbdf24c18569999f2af1531f07585"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ddbbdf24c18569999f2af1531f07585">&#9670;&#160;</a></span>intersect()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ddbbdf24c18569999f2af1531f07585">&#9670;&#160;</a></span>intersect() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1041,6 +1043,72 @@ hx_{max} \) This is n this case you have DiscTrapezoidBounds. </p>
 <dl class="section return"><dt>Returns</dt><dd>The <code>MultiIntersection3D</code> object </dd></dl>
 
 <p>Implements <a class="el" href="class_acts_1_1_surface.html#a23b661e68fee3ab78ca59ccb98bf52b9">Acts::Surface</a>.</p>
+
+</div>
+</div>
+<a id="adaecc343a241e8c6a69b5dae56fb4e67" name="adaecc343a241e8c6a69b5dae56fb4e67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adaecc343a241e8c6a69b5dae56fb4e67">&#9670;&#160;</a></span>intersect() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_acts.html#ae4e962ae4108b1150b697ebcc6132bff">MultiIntersection3D</a> Acts::DiscSurface::intersect </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>direction</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>curvature</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_boundary_tolerance.html">BoundaryTolerance</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>boundaryTolerance</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="class_acts_1_1_boundary_tolerance.html#a8f2376046ddf8c108006502775cd1aef">BoundaryTolerance::Infinite</a>()</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>tolerance</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_acts.html#a062150b6d58b9acb88af2feaf8d3aa2b">s_onSurfaceTolerance</a></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel final">final</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Estimate intersections using local geometric curvature.    </p>
+<p>The default implementation uses the straight-line intersection. Supported shapes apply a first-order correction about each ray root, preserving its index. This is a prediction, not an exact helix intersection. Unsupported or unreliable corrections retain the bounded ray result. A finite-bounds rejection applies to this approximate prediction; it does not establish that the physical trajectory misses the surface. Callers selecting distant navigation candidates must account for prediction error.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gctx</td><td>Geometry context </td></tr>
+    <tr><td class="paramname">position</td><td>Starting global position </td></tr>
+    <tr><td class="paramname">direction</td><td>Unit propagation direction </td></tr>
+    <tr><td class="paramname">curvature</td><td>Global d^2 x / ds^2, unchanged under path reversal </td></tr>
+    <tr><td class="paramname">boundaryTolerance</td><td>Bounds tolerance at the predicted crossing </td></tr>
+    <tr><td class="paramname">tolerance</td><td>On-surface tolerance for arrival </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Intersections with the original ray branch indices    </dd></dl>
+
+<p>Reimplemented from <a class="el" href="class_acts_1_1_surface.html#a14c28f64545f413214dd456dd7fa49c0">Acts::Surface</a>.</p>
 
 </div>
 </div>

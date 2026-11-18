@@ -15,6 +15,7 @@ var class_acts_1_1_disc_surface =
     [ "globalToLocal", "class_acts_1_1_disc_surface.html#ae0cc0fcbd7636df9c31543ea6ae45c60", null ],
     [ "globalToLocalCartesian", "class_acts_1_1_disc_surface.html#a892421fcb7f5057a4643814f34807a12", null ],
     [ "intersect", "class_acts_1_1_disc_surface.html#a7ddbbdf24c18569999f2af1531f07585", null ],
+    [ "intersect", "class_acts_1_1_disc_surface.html#adaecc343a241e8c6a69b5dae56fb4e67", null ],
     [ "localAxes", "class_acts_1_1_disc_surface.html#a91dd337e282e7ae86bfce1f0648ee038", null ],
     [ "localCartesianToBoundLocalDerivative", "class_acts_1_1_disc_surface.html#a33312d9f9776a30800645b276347dec3", null ],
     [ "localCartesianToGlobal", "class_acts_1_1_disc_surface.html#a5017f46a3580f9089882b651e1850e3f", null ],

@@ -27,6 +27,7 @@ var class_acts_1_1_surface =
     [ "hasMaterial", "class_acts_1_1_surface.html#a629edb6765a73f70130000c21fa7415b", null ],
     [ "insideBounds", "class_acts_1_1_surface.html#a8b2a73e04f09f076f719b5b91cde8a7c", null ],
     [ "intersect", "class_acts_1_1_surface.html#a23b661e68fee3ab78ca59ccb98bf52b9", null ],
+    [ "intersect", "class_acts_1_1_surface.html#a14c28f64545f413214dd456dd7fa49c0", null ],
     [ "isAlignable", "class_acts_1_1_surface.html#a12d3b34fa4b7d351482864daa32f738d", null ],
     [ "isOnSurface", "class_acts_1_1_surface.html#a737d6899bed07338996dadf34b912db0", null ],
     [ "isSensitive", "class_acts_1_1_surface.html#a76eb5970c457ab4492f6466d4e666f9b", null ],

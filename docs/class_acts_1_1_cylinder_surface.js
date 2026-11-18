@@ -13,6 +13,7 @@ var class_acts_1_1_cylinder_surface =
     [ "globalToLocal", "class_acts_1_1_cylinder_surface.html#a3082370f6db11d7bedddbb5fb642792b", null ],
     [ "globalToLocal", "class_acts_1_1_cylinder_surface.html#a380c931f77d165f5b0ae45fd5c8844b7", null ],
     [ "intersect", "class_acts_1_1_cylinder_surface.html#aa8e78f321fa27863bbb84e966253a3bd", null ],
+    [ "intersect", "class_acts_1_1_cylinder_surface.html#abe0f5006280c31c7451b2cf1ec693ed3", null ],
     [ "localAxes", "class_acts_1_1_cylinder_surface.html#ab982aae85e8439eec40460fdacd91645", null ],
     [ "localCartesianToBoundLocalDerivative", "class_acts_1_1_cylinder_surface.html#a5d97942b3edf4ba4c34618d5abcc04f7", null ],
     [ "localToGlobal", "class_acts_1_1_cylinder_surface.html#a553373aefffb7172ae1b3592fb414442", null ],
