@@ -22,6 +22,8 @@ var namespace_acts_plugins =
     [ "DD4hepVolumeBuilder", "class_acts_plugins_1_1_d_d4hep_volume_builder.html", "class_acts_plugins_1_1_d_d4hep_volume_builder" ],
     [ "DetrayGeometryConverter", "class_acts_plugins_1_1_detray_geometry_converter.html", "class_acts_plugins_1_1_detray_geometry_converter" ],
     [ "DetrayPayloadConverter", "class_acts_plugins_1_1_detray_payload_converter.html", "class_acts_plugins_1_1_detray_payload_converter" ],
+    [ "DetraySurfaceGridConfig", "struct_acts_plugins_1_1_detray_surface_grid_config.html", "struct_acts_plugins_1_1_detray_surface_grid_config" ],
+    [ "DetraySurfaceGridPolicy", "class_acts_plugins_1_1_detray_surface_grid_policy.html", "class_acts_plugins_1_1_detray_surface_grid_policy" ],
     [ "DetraySurfaceIdMap", "class_acts_plugins_1_1_detray_surface_id_map.html", "class_acts_plugins_1_1_detray_surface_id_map" ],
     [ "DetrayUnsupportedMaterialException", "class_acts_plugins_1_1_detray_unsupported_material_exception.html", "class_acts_plugins_1_1_detray_unsupported_material_exception" ],
     [ "Device", "struct_acts_plugins_1_1_device.html", "struct_acts_plugins_1_1_device" ],
@@ -106,6 +108,7 @@ var namespace_acts_plugins =
       [ "MissingLogicalVolume", "group__errors.html#gga1ce88ea0e4490538ca747b2877e17317a89bee9aff604972a1db820c948a17e62", null ]
     ] ],
     [ "addCylinderLayerProtoMaterial", "group__dd4hep__plugin.html#ga4fb2db06f0ad15d273ca56a5a909c7d2", null ],
+    [ "addDetrayNavigationPolicies", "namespace_acts_plugins.html#ad9153da85f18849b12ea1de8b125e64b", null ],
     [ "addDiscLayerProtoMaterial", "group__dd4hep__plugin.html#gafe331283f4d3c1e7f759bd44896051fa", null ],
     [ "addLayerProtoMaterial", "group__dd4hep__plugin.html#gafde2e0859cd41cdc5c8c5b88f302c7c4", null ],
     [ "applyEdgeLimit", "group__gnn__plugin.html#gac273131a18e9f7f3e3873054606325b1", null ],
@@ -150,5 +153,6 @@ var namespace_acts_plugins =
     [ "toRoot", "namespace_acts_plugins.html#a937cfa045100748431006cb044d5a9ed", null ],
     [ "toRoot", "namespace_acts_plugins.html#a84a3cf37c86e2fac7572ce0c8fb96baf", null ],
     [ "volumeBuilder_dd4hep", "group__dd4hep__plugin.html#gab5ff22deaf2206ac743a1d6d1ebef441", null ],
-    [ "allowedBinnings", "group__dd4hep__plugin.html#gaaf696f8070f1f3990ead852282a1b33e", null ]
+    [ "allowedBinnings", "group__dd4hep__plugin.html#gaaf696f8070f1f3990ead852282a1b33e", null ],
+    [ "kDetraySurfaceGridPolicyJsonKind", "namespace_acts_plugins.html#a296c585edd052e0ec217e80adada66bd", null ]
 ];

@@ -44,6 +44,7 @@ var group__detray__plugin =
       [ "DetrayPayloadConverter", "class_acts_plugins_1_1_detray_payload_converter.html#a49ab7c6d3a59f3928524e6fe71f7555d", null ],
       [ "convertBinnedSurfaceMaterial", "class_acts_plugins_1_1_detray_payload_converter.html#aae3c28d6dd92fdb47dcf51800bdf1993", null ],
       [ "convertCylinderNavigationPolicy", "class_acts_plugins_1_1_detray_payload_converter.html#af637f67bec806bb733cdc5a036ac6101", null ],
+      [ "convertDetraySurfaceGridPolicy", "class_acts_plugins_1_1_detray_payload_converter.html#af59281a3763d10579ab68ce8eaae0a93", null ],
       [ "convertHomogeneousSurfaceMaterial", "class_acts_plugins_1_1_detray_payload_converter.html#ac59cc6bfe06441d9a9a4b078af75daa1", null ],
       [ "convertMask", "class_acts_plugins_1_1_detray_payload_converter.html#adf6c138a139b24e70160498fadccde30", null ],
       [ "convertMaterial", "class_acts_plugins_1_1_detray_payload_converter.html#a4f0a6766e441baba98eff6427d7424bc", null ],
@@ -53,9 +54,12 @@ var group__detray__plugin =
       [ "convertProtoSurfaceMaterialBinUtility", "class_acts_plugins_1_1_detray_payload_converter.html#adcaa739825f529ad15590157c9a57e36", null ],
       [ "convertSurface", "class_acts_plugins_1_1_detray_payload_converter.html#a2b921159db15734d73e130c6ae5aa83e", null ],
       [ "convertSurfaceArray", "class_acts_plugins_1_1_detray_payload_converter.html#a99edaf8b41837ffa6d14c0c9b78e5fb9", null ],
+      [ "convertSurfaceArrayNavigationPolicy", "class_acts_plugins_1_1_detray_payload_converter.html#a84b1d9e3ad4ec40bbc8b4cd772a5df19", null ],
+      [ "convertSurfaceGridForDetray", "class_acts_plugins_1_1_detray_payload_converter.html#a92a14aea1f6d4abd14be57e63b3aa4b6", null ],
       [ "convertTrackingGeometry", "class_acts_plugins_1_1_detray_payload_converter.html#aacf5bb08ce9d2dc5b191ed4e52b32850", null ],
       [ "convertTryAllNavigationPolicy", "class_acts_plugins_1_1_detray_payload_converter.html#aa2276135102d853be4d6283722ca633f", null ],
-      [ "convertVolume", "class_acts_plugins_1_1_detray_payload_converter.html#ace1bce4d0eacd16932573ab712a9860b", null ]
+      [ "convertVolume", "class_acts_plugins_1_1_detray_payload_converter.html#ace1bce4d0eacd16932573ab712a9860b", null ],
+      [ "fillSurfaceGridDetrayNative", "class_acts_plugins_1_1_detray_payload_converter.html#a2b84609d0d67b4c77d5670fe8bdc92a8", null ]
     ] ],
     [ "ActsPlugins::DetraySurfaceIdMap", "class_acts_plugins_1_1_detray_surface_id_map.html", [
       [ "Entry", "class_acts_plugins_1_1_detray_surface_id_map.html#a516f1d1f0bcf2609cc0b13aaf5785499", null ],

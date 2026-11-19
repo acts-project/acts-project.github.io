@@ -157,6 +157,10 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converter from an ACTS TrackingGeometry to a detray detector.  <a href="class_acts_plugins_1_1_detray_geometry_converter.html#details">More...</a><br /></td></tr>
 <tr class="memitem:DetrayPayloadConverter" id="r_DetrayPayloadConverter"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_plugins_1_1_detray_payload_converter.html">DetrayPayloadConverter</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converter for ACTS geometry to Detray payload format.  <a href="class_acts_plugins_1_1_detray_payload_converter.html#details">More...</a><br /></td></tr>
+<tr class="memitem:DetraySurfaceGridConfig" id="r_DetraySurfaceGridConfig"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_plugins_1_1_detray_surface_grid_config.html">DetraySurfaceGridConfig</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters of the detray surface grid of a volume.  <a href="struct_acts_plugins_1_1_detray_surface_grid_config.html#details">More...</a><br /></td></tr>
+<tr class="memitem:DetraySurfaceGridPolicy" id="r_DetraySurfaceGridPolicy"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_plugins_1_1_detray_surface_grid_policy.html">DetraySurfaceGridPolicy</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Navigation policy carrying the <a class="el" href="struct_acts_plugins_1_1_detray_surface_grid_config.html">DetraySurfaceGridConfig</a> of a volume.  <a href="class_acts_plugins_1_1_detray_surface_grid_policy.html#details">More...</a><br /></td></tr>
 <tr class="memitem:DetraySurfaceIdMap" id="r_DetraySurfaceIdMap"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_plugins_1_1_detray_surface_id_map.html">DetraySurfaceIdMap</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Two-way map between ACTS and detray surface identifiers.  <a href="class_acts_plugins_1_1_detray_surface_id_map.html#details">More...</a><br /></td></tr>
 <tr class="memitem:DetrayUnsupportedMaterialException" id="r_DetrayUnsupportedMaterialException"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_plugins_1_1_detray_unsupported_material_exception.html">DetrayUnsupportedMaterialException</a></td></tr>
@@ -341,6 +345,8 @@ Enumerations</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:ga4fb2db06f0ad15d273ca56a5a909c7d2" id="r_ga4fb2db06f0ad15d273ca56a5a909c7d2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dd4hep__plugin.html#ga4fb2db06f0ad15d273ca56a5a909c7d2">addCylinderLayerProtoMaterial</a> (dd4hep::DetElement detElement, <a class="el" href="class_acts_1_1_layer.html">Acts::Layer</a> &amp;cylinderLayer, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>())</td></tr>
 <tr class="memdesc:ga4fb2db06f0ad15d273ca56a5a909c7d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper method to translate DD4hep material to Acts::ISurfaceMaterial.  <br /></td></tr>
+<tr class="memitem:ad9153da85f18849b12ea1de8b125e64b" id="r_ad9153da85f18849b12ea1de8b125e64b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9153da85f18849b12ea1de8b125e64b">addDetrayNavigationPolicies</a> (<a class="el" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_config.html">Acts::TrackingGeometryJsonConverter::Config</a> &amp;config)</td></tr>
+<tr class="memdesc:ad9153da85f18849b12ea1de8b125e64b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Teach a tracking geometry JSON converter the navigation policies of the Detray plugin, so geometries carrying them can be written and read back.  <br /></td></tr>
 <tr class="memitem:gafe331283f4d3c1e7f759bd44896051fa" id="r_gafe331283f4d3c1e7f759bd44896051fa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dd4hep__plugin.html#gafe331283f4d3c1e7f759bd44896051fa">addDiscLayerProtoMaterial</a> (dd4hep::DetElement detElement, <a class="el" href="class_acts_1_1_layer.html">Acts::Layer</a> &amp;discLayer, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>())</td></tr>
 <tr class="memdesc:gafe331283f4d3c1e7f759bd44896051fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper method to translate DD4hep material to Acts::ISurfaceMaterial.  <br /></td></tr>
 <tr class="memitem:gafde2e0859cd41cdc5c8c5b88f302c7c4" id="r_gafde2e0859cd41cdc5c8c5b88f302c7c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dd4hep__plugin.html#gafde2e0859cd41cdc5c8c5b88f302c7c4">addLayerProtoMaterial</a> (const dd4hep::rec::VariantParameters &amp;params, <a class="el" href="class_acts_1_1_layer.html">Acts::Layer</a> &amp;layer, const std::vector&lt; std::pair&lt; const std::string, <a class="el" href="namespace_acts.html#a3aaee285dd8963f35f05db5e6bf23769">Acts::BinningOption</a> &gt; &gt; &amp;binning, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>())</td></tr>
@@ -444,6 +450,8 @@ Functions</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:gaaf696f8070f1f3990ead852282a1b33e" id="r_gaaf696f8070f1f3990ead852282a1b33e"><td class="memItemLeft" align="right" valign="top">static const std::vector&lt; std::tuple&lt; std::string, <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">Acts::AxisDirection</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dd4hep__plugin.html#gaaf696f8070f1f3990ead852282a1b33e">allowedBinnings</a></td></tr>
 <tr class="memdesc:gaaf696f8070f1f3990ead852282a1b33e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allowed binning directions for DD4hep conversion.  <br /></td></tr>
+<tr class="memitem:a296c585edd052e0ec217e80adada66bd" id="r_a296c585edd052e0ec217e80adada66bd"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a296c585edd052e0ec217e80adada66bd">kDetraySurfaceGridPolicyJsonKind</a></td></tr>
+<tr class="memdesc:a296c585edd052e0ec217e80adada66bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Kind tag of <a class="el" href="class_acts_plugins_1_1_detray_surface_grid_policy.html">DetraySurfaceGridPolicy</a> in the tracking geometry JSON.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The ACTS plugins namespace: All plugins go here. </p>
@@ -487,6 +495,31 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="ad9153da85f18849b12ea1de8b125e64b" name="ad9153da85f18849b12ea1de8b125e64b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9153da85f18849b12ea1de8b125e64b">&#9670;&#160;</a></span>addDetrayNavigationPolicies()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ActsPlugins::addDetrayNavigationPolicies </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_config.html">Acts::TrackingGeometryJsonConverter::Config</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>config</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Teach a tracking geometry JSON converter the navigation policies of the Detray plugin, so geometries carrying them can be written and read back. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">config</td><td>The converter configuration to extend </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a2526e749fd364aea904da498207163d5" name="a2526e749fd364aea904da498207163d5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2526e749fd364aea904da498207163d5">&#9670;&#160;</a></span>make_error_code()</h2>
 
@@ -672,6 +705,33 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>unique pointer to new TProfile </dd></dl>
+
+</div>
+</div>
+<a name="doc-var-members" id="doc-var-members"></a><h2 id="header-doc-var-members" class="groupheader">Variable Documentation</h2>
+<a id="a296c585edd052e0ec217e80adada66bd" name="a296c585edd052e0ec217e80adada66bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a296c585edd052e0ec217e80adada66bd">&#9670;&#160;</a></span>kDetraySurfaceGridPolicyJsonKind</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* ActsPlugins::kDetraySurfaceGridPolicyJsonKind</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">    <span class="stringliteral">&quot;DetraySurfaceGrid&quot;</span></div>
+</div><!-- fragment -->
+<p>Kind tag of <a class="el" href="class_acts_plugins_1_1_detray_surface_grid_policy.html">DetraySurfaceGridPolicy</a> in the tracking geometry JSON. </p>
 
 </div>
 </div>

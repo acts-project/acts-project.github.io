@@ -164,6 +164,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:aae3c28d6dd92fdb47dcf51800bdf1993"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert binned surface material.  <br /></td></tr>
 <tr class="memitem:af637f67bec806bb733cdc5a036ac6101" id="r_af637f67bec806bb733cdc5a036ac6101"><td class="memItemLeft" align="right" valign="top">static std::optional&lt; <a class="el" href="#ad2012c6f039307d9851ae990f0c1e9df">DetraySurfaceGrid</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af637f67bec806bb733cdc5a036ac6101">convertCylinderNavigationPolicy</a> (const <a class="el" href="class_acts_1_1_cylinder_navigation_policy.html">Acts::CylinderNavigationPolicy</a> &amp;policy, const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, const <a class="el" href="#a2840e76e22a9a76d7d8150cd321f0368">SurfaceLookupFunction</a> &amp;surfaceLookup, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger)</td></tr>
 <tr class="memdesc:af637f67bec806bb733cdc5a036ac6101"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert cylinder navigation policy.  <br /></td></tr>
+<tr class="memitem:af59281a3763d10579ab68ce8eaae0a93" id="r_af59281a3763d10579ab68ce8eaae0a93"><td class="memItemLeft" align="right" valign="top">static std::optional&lt; <a class="el" href="#ad2012c6f039307d9851ae990f0c1e9df">DetraySurfaceGrid</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af59281a3763d10579ab68ce8eaae0a93">convertDetraySurfaceGridPolicy</a> (const <a class="el" href="class_acts_plugins_1_1_detray_surface_grid_policy.html">DetraySurfaceGridPolicy</a> &amp;policy, const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, const <a class="el" href="#a2840e76e22a9a76d7d8150cd321f0368">SurfaceLookupFunction</a> &amp;surfaceLookup, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger)</td></tr>
+<tr class="memdesc:af59281a3763d10579ab68ce8eaae0a93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build the detray surface grid of the policy's volume from the volume's surface array, filled for detray's lookup.  <br /></td></tr>
 <tr class="memitem:ac59cc6bfe06441d9a9a4b078af75daa1" id="r_ac59cc6bfe06441d9a9a4b078af75daa1"><td class="memItemLeft" align="right" valign="top">static std::optional&lt; <a class="el" href="#ade59a6025a491ac191e1cc493bc968f9">DetraySurfaceMaterial</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac59cc6bfe06441d9a9a4b078af75daa1">convertHomogeneousSurfaceMaterial</a> (const <a class="el" href="class_acts_1_1_homogeneous_surface_material.html">Acts::HomogeneousSurfaceMaterial</a> &amp;material, const <a class="el" href="class_acts_1_1_surface.html">Acts::Surface</a> &amp;surface)</td></tr>
 <tr class="memdesc:ac59cc6bfe06441d9a9a4b078af75daa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert homogeneous surface material.  <br /></td></tr>
 <tr class="memitem:adf6c138a139b24e70160498fadccde30" id="r_adf6c138a139b24e70160498fadccde30"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structdetray_1_1io_1_1mask__payload.html">detray::io::mask_payload</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf6c138a139b24e70160498fadccde30">convertMask</a> (const <a class="el" href="class_acts_1_1_surface_bounds.html">Acts::SurfaceBounds</a> &amp;bounds, bool forPortal)</td></tr>
@@ -177,9 +179,15 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:adcaa739825f529ad15590157c9a57e36" id="r_adcaa739825f529ad15590157c9a57e36"><td class="memItemLeft" align="right" valign="top">static std::optional&lt; <a class="el" href="#ade59a6025a491ac191e1cc493bc968f9">DetraySurfaceMaterial</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcaa739825f529ad15590157c9a57e36">convertProtoSurfaceMaterialBinUtility</a> (const <a class="el" href="class_acts_1_1_proto_surface_material_t.html">Acts::ProtoSurfaceMaterialT</a>&lt; <a class="el" href="class_acts_1_1_bin_utility.html">Acts::BinUtility</a> &gt; &amp;material, const <a class="el" href="class_acts_1_1_surface.html">Acts::Surface</a> &amp;surface)</td></tr>
 <tr class="memdesc:adcaa739825f529ad15590157c9a57e36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert proto surface material with bin utility.  <br /></td></tr>
 <tr class="memitem:a99edaf8b41837ffa6d14c0c9b78e5fb9" id="r_a99edaf8b41837ffa6d14c0c9b78e5fb9"><td class="memItemLeft" align="right" valign="top">static std::optional&lt; <a class="el" href="#ad2012c6f039307d9851ae990f0c1e9df">DetraySurfaceGrid</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99edaf8b41837ffa6d14c0c9b78e5fb9">convertSurfaceArray</a> (const <a class="el" href="class_acts_1_1_surface_array_navigation_policy.html">Acts::SurfaceArrayNavigationPolicy</a> &amp;policy, const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, const <a class="el" href="#a2840e76e22a9a76d7d8150cd321f0368">SurfaceLookupFunction</a> &amp;surfaceLookup, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger)</td></tr>
-<tr class="memdesc:a99edaf8b41837ffa6d14c0c9b78e5fb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert surface array navigation policy.  <br /></td></tr>
+<tr class="memdesc:a99edaf8b41837ffa6d14c0c9b78e5fb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy the bins of a surface array 1:1 into a detray surface grid.  <br /></td></tr>
+<tr class="memitem:a84b1d9e3ad4ec40bbc8b4cd772a5df19" id="r_a84b1d9e3ad4ec40bbc8b4cd772a5df19"><td class="memItemLeft" align="right" valign="top">static std::optional&lt; <a class="el" href="#ad2012c6f039307d9851ae990f0c1e9df">DetraySurfaceGrid</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84b1d9e3ad4ec40bbc8b4cd772a5df19">convertSurfaceArrayNavigationPolicy</a> (const <a class="el" href="class_acts_1_1_surface_array_navigation_policy.html">Acts::SurfaceArrayNavigationPolicy</a> &amp;policy, const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, const <a class="el" href="#a2840e76e22a9a76d7d8150cd321f0368">SurfaceLookupFunction</a> &amp;surfaceLookup, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger)</td></tr>
+<tr class="memdesc:a84b1d9e3ad4ec40bbc8b4cd772a5df19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Surface arrays have no detray grid of their own, see <a class="el" href="class_acts_plugins_1_1_detray_surface_grid_policy.html">DetraySurfaceGridPolicy</a>.  <br /></td></tr>
+<tr class="memitem:a92a14aea1f6d4abd14be57e63b3aa4b6" id="r_a92a14aea1f6d4abd14be57e63b3aa4b6"><td class="memItemLeft" align="right" valign="top">static std::optional&lt; <a class="el" href="#ad2012c6f039307d9851ae990f0c1e9df">DetraySurfaceGrid</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92a14aea1f6d4abd14be57e63b3aa4b6">convertSurfaceGridForDetray</a> (const <a class="el" href="class_acts_1_1_surface_array_navigation_policy.html">Acts::SurfaceArrayNavigationPolicy</a> &amp;policy, const <a class="el" href="class_acts_1_1_tracking_volume.html">Acts::TrackingVolume</a> &amp;volume, const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, const <a class="el" href="#a2840e76e22a9a76d7d8150cd321f0368">SurfaceLookupFunction</a> &amp;surfaceLookup, const <a class="el" href="struct_acts_plugins_1_1_detray_surface_grid_config.html">DetraySurfaceGridConfig</a> &amp;fill, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger)</td></tr>
+<tr class="memdesc:a92a14aea1f6d4abd14be57e63b3aa4b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build the detray surface grid of a volume from its surface array, binned and filled for detray's lookup.  <br /></td></tr>
 <tr class="memitem:aa2276135102d853be4d6283722ca633f" id="r_aa2276135102d853be4d6283722ca633f"><td class="memItemLeft" align="right" valign="top">static std::optional&lt; <a class="el" href="#ad2012c6f039307d9851ae990f0c1e9df">DetraySurfaceGrid</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2276135102d853be4d6283722ca633f">convertTryAllNavigationPolicy</a> (const <a class="el" href="class_acts_1_1_try_all_navigation_policy.html">Acts::TryAllNavigationPolicy</a> &amp;policy, const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, const <a class="el" href="#a2840e76e22a9a76d7d8150cd321f0368">SurfaceLookupFunction</a> &amp;surfaceLookup, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger)</td></tr>
 <tr class="memdesc:aa2276135102d853be4d6283722ca633f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert try all navigation policy.  <br /></td></tr>
+<tr class="memitem:a2b84609d0d67b4c77d5670fe8bdc92a8" id="r_a2b84609d0d67b4c77d5670fe8bdc92a8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b84609d0d67b4c77d5670fe8bdc92a8">fillSurfaceGridDetrayNative</a> (<a class="el" href="#ad2012c6f039307d9851ae990f0c1e9df">DetraySurfaceGrid</a> &amp;grid, const <a class="el" href="class_acts_1_1_surface_array.html">Acts::SurfaceArray</a> &amp;surfaceArray, const <a class="el" href="class_acts_1_1_tracking_volume.html">Acts::TrackingVolume</a> &amp;volume, const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, const <a class="el" href="#a2840e76e22a9a76d7d8150cd321f0368">SurfaceLookupFunction</a> &amp;surfaceLookup, const <a class="el" href="struct_acts_plugins_1_1_detray_surface_grid_config.html">DetraySurfaceGridConfig</a> &amp;fill, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger)</td></tr>
+<tr class="memdesc:a2b84609d0d67b4c77d5670fe8bdc92a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace the bin contents of <code class="param">grid</code>, converted from <code class="param">surfaceArray</code>, by the surfaces detray must find for the track family of <code class="param">fill</code>.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Converter for ACTS geometry to Detray payload format. </p>
@@ -366,6 +374,57 @@ Static Public Member Functions</h2></td></tr>
     <tr><td class="paramname">policy</td><td>Cylinder navigation policy </td></tr>
     <tr><td class="paramname">gctx</td><td>Geometry context </td></tr>
     <tr><td class="paramname">surfaceLookup</td><td>Surface lookup function </td></tr>
+    <tr><td class="paramname">logger</td><td>Logger instance </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Detray surface grid payload </dd></dl>
+
+</div>
+</div>
+<a id="af59281a3763d10579ab68ce8eaae0a93" name="af59281a3763d10579ab68ce8eaae0a93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af59281a3763d10579ab68ce8eaae0a93">&#9670;&#160;</a></span>convertDetraySurfaceGridPolicy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; <a class="el" href="#ad2012c6f039307d9851ae990f0c1e9df">DetraySurfaceGrid</a> &gt; ActsPlugins::DetrayPayloadConverter::convertDetraySurfaceGridPolicy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_plugins_1_1_detray_surface_grid_policy.html">DetraySurfaceGridPolicy</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>policy</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a2840e76e22a9a76d7d8150cd321f0368">SurfaceLookupFunction</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>surfaceLookup</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>logger</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Build the detray surface grid of the policy's volume from the volume's surface array, filled for detray's lookup. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">policy</td><td>Detray surface grid policy </td></tr>
+    <tr><td class="paramname">gctx</td><td>Geometry context </td></tr>
+    <tr><td class="paramname">surfaceLookup</td><td>Function to look up surface indices </td></tr>
     <tr><td class="paramname">logger</td><td>Logger instance </td></tr>
   </table>
   </dd>
@@ -744,8 +803,8 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Convert surface array navigation policy. </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>Copy the bins of a surface array 1:1 into a detray surface grid. </p>
+<p>Not used for dispatch: detray reads these bins at a different point than ACTS fills them. <a class="el" href="class_acts_plugins_1_1_detray_surface_grid_policy.html">DetraySurfaceGridPolicy</a> builds on this copy. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">policy</td><td>Surface array navigation policy </td></tr>
     <tr><td class="paramname">gctx</td><td>Geometry context </td></tr>
@@ -755,6 +814,120 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Detray surface grid payload </dd></dl>
+
+</div>
+</div>
+<a id="a84b1d9e3ad4ec40bbc8b4cd772a5df19" name="a84b1d9e3ad4ec40bbc8b4cd772a5df19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84b1d9e3ad4ec40bbc8b4cd772a5df19">&#9670;&#160;</a></span>convertSurfaceArrayNavigationPolicy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; <a class="el" href="#ad2012c6f039307d9851ae990f0c1e9df">DetraySurfaceGrid</a> &gt; ActsPlugins::DetrayPayloadConverter::convertSurfaceArrayNavigationPolicy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_surface_array_navigation_policy.html">Acts::SurfaceArrayNavigationPolicy</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>policy</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a2840e76e22a9a76d7d8150cd321f0368">SurfaceLookupFunction</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>surfaceLookup</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>logger</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Surface arrays have no detray grid of their own, see <a class="el" href="class_acts_plugins_1_1_detray_surface_grid_policy.html">DetraySurfaceGridPolicy</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">policy</td><td>Surface array navigation policy </td></tr>
+    <tr><td class="paramname">gctx</td><td>Geometry context </td></tr>
+    <tr><td class="paramname">surfaceLookup</td><td>Surface lookup function </td></tr>
+    <tr><td class="paramname">logger</td><td>Logger instance </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Always std::nullopt </dd></dl>
+
+</div>
+</div>
+<a id="a92a14aea1f6d4abd14be57e63b3aa4b6" name="a92a14aea1f6d4abd14be57e63b3aa4b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92a14aea1f6d4abd14be57e63b3aa4b6">&#9670;&#160;</a></span>convertSurfaceGridForDetray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; <a class="el" href="#ad2012c6f039307d9851ae990f0c1e9df">DetraySurfaceGrid</a> &gt; ActsPlugins::DetrayPayloadConverter::convertSurfaceGridForDetray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_surface_array_navigation_policy.html">Acts::SurfaceArrayNavigationPolicy</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>policy</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_tracking_volume.html">Acts::TrackingVolume</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>volume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a2840e76e22a9a76d7d8150cd321f0368">SurfaceLookupFunction</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>surfaceLookup</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_acts_plugins_1_1_detray_surface_grid_config.html">DetraySurfaceGridConfig</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>fill</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>logger</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Build the detray surface grid of a volume from its surface array, binned and filled for detray's lookup. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">policy</td><td>Surface array policy of the volume </td></tr>
+    <tr><td class="paramname">volume</td><td>Volume owning <code class="param">policy</code> </td></tr>
+    <tr><td class="paramname">gctx</td><td>Geometry context </td></tr>
+    <tr><td class="paramname">surfaceLookup</td><td>Detray index lookup for the surfaces </td></tr>
+    <tr><td class="paramname">fill</td><td>Grid parameters </td></tr>
+    <tr><td class="paramname">logger</td><td>Logger </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The detray surface grid payload </dd></dl>
 
 </div>
 </div>
@@ -868,6 +1041,74 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Detray volume payload </dd></dl>
+
+</div>
+</div>
+<a id="a2b84609d0d67b4c77d5670fe8bdc92a8" name="a2b84609d0d67b4c77d5670fe8bdc92a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b84609d0d67b4c77d5670fe8bdc92a8">&#9670;&#160;</a></span>fillSurfaceGridDetrayNative()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ActsPlugins::DetrayPayloadConverter::fillSurfaceGridDetrayNative </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ad2012c6f039307d9851ae990f0c1e9df">DetraySurfaceGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>grid</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_surface_array.html">Acts::SurfaceArray</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>surfaceArray</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_tracking_volume.html">Acts::TrackingVolume</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>volume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a2840e76e22a9a76d7d8150cd321f0368">SurfaceLookupFunction</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>surfaceLookup</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_acts_plugins_1_1_detray_surface_grid_config.html">DetraySurfaceGridConfig</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>fill</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>logger</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Replace the bin contents of <code class="param">grid</code>, converted from <code class="param">surfaceArray</code>, by the surfaces detray must find for the track family of <code class="param">fill</code>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">grid</td><td>Detray surface grid converted from <code class="param">surfaceArray</code> </td></tr>
+    <tr><td class="paramname">surfaceArray</td><td>Surface array the grid was converted from </td></tr>
+    <tr><td class="paramname">volume</td><td>Volume owning the surface array </td></tr>
+    <tr><td class="paramname">gctx</td><td>Geometry context </td></tr>
+    <tr><td class="paramname">surfaceLookup</td><td>Detray index lookup for the surfaces </td></tr>
+    <tr><td class="paramname">fill</td><td>Track family to serve </td></tr>
+    <tr><td class="paramname">logger</td><td>Logger </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

@@ -473,7 +473,8 @@ var hierarchy =
       [ "Acts::MultiLayerNavigationPolicy", "class_acts_1_1_multi_layer_navigation_policy.html", null ],
       [ "Acts::MultiNavigationPolicy", "class_acts_1_1_multi_navigation_policy.html", null ],
       [ "Acts::SurfaceArrayNavigationPolicy", "class_acts_1_1_surface_array_navigation_policy.html", null ],
-      [ "Acts::TryAllNavigationPolicy", "class_acts_1_1_try_all_navigation_policy.html", null ]
+      [ "Acts::TryAllNavigationPolicy", "class_acts_1_1_try_all_navigation_policy.html", null ],
+      [ "ActsPlugins::DetraySurfaceGridPolicy", "class_acts_plugins_1_1_detray_surface_grid_policy.html", null ]
     ] ],
     [ "Acts::INavigationPolicy::EmptyState", "struct_acts_1_1_i_navigation_policy_1_1_empty_state.html", null ],
     [ "Acts::IndexGrid&lt; grid_t &gt;", "class_acts_1_1_index_grid.html", null ],
@@ -1029,6 +1030,7 @@ var hierarchy =
     [ "ActsPlugins::DetrayGeometryConverter::DetrayGeometry&lt; metadata_t &gt;", "struct_acts_plugins_1_1_detray_geometry_converter_1_1_detray_geometry.html", null ],
     [ "ActsPlugins::DetrayPayloadConverter", "class_acts_plugins_1_1_detray_payload_converter.html", null ],
     [ "ActsPlugins::DetrayPayloadConverter::Config", "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html", null ],
+    [ "ActsPlugins::DetraySurfaceGridConfig", "struct_acts_plugins_1_1_detray_surface_grid_config.html", null ],
     [ "ActsPlugins::DetraySurfaceIdMap", "class_acts_plugins_1_1_detray_surface_id_map.html", null ],
     [ "ActsPlugins::Device", "struct_acts_plugins_1_1_device.html", null ],
     [ "ActsPlugins::DWalkTrackBuilding::Config", "struct_acts_plugins_1_1_d_walk_track_building_1_1_config.html", null ],
