@@ -312,7 +312,6 @@ var hierarchy =
     [ "Acts::FreeTrackParameters", "class_acts_1_1_free_track_parameters.html", null ],
     [ "Acts::Frustum&lt; value_t, DIM, SIDES &gt;", "class_acts_1_1_frustum.html", null ],
     [ "Acts::FsmwMode1dFinder", "class_acts_1_1_fsmw_mode1d_finder.html", null ],
-    [ "Acts::FullBilloirVertexFitter", "class_acts_1_1_full_billoir_vertex_fitter.html", null ],
     [ "Acts::FullBilloirVertexFitter::Config", "struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html", null ],
     [ "Acts::GainMatrixSmoother", "class_acts_1_1_gain_matrix_smoother.html", null ],
     [ "Acts::GainMatrixUpdater", "class_acts_1_1_gain_matrix_updater.html", null ],
@@ -547,6 +546,9 @@ var hierarchy =
       [ "Acts::IterativeVertexFinder", "class_acts_1_1_iterative_vertex_finder.html", null ],
       [ "Acts::TrackDensityVertexFinder", "class_acts_1_1_track_density_vertex_finder.html", null ],
       [ "Acts::ZScanVertexFinder", "class_acts_1_1_z_scan_vertex_finder.html", null ]
+    ] ],
+    [ "Acts::IVertexFitter", "class_acts_1_1_i_vertex_fitter.html", [
+      [ "Acts::FullBilloirVertexFitter", "class_acts_1_1_full_billoir_vertex_fitter.html", null ]
     ] ],
     [ "Acts::IVisualization3D", "class_acts_1_1_i_visualization3_d.html", [
       [ "Acts::ObjVisualization3D", "class_acts_1_1_obj_visualization3_d.html", null ],
@@ -938,6 +940,7 @@ var hierarchy =
     [ "Acts::ValueHolder&lt; T &gt;", "struct_acts_1_1_value_holder.html", null ],
     [ "Acts::Vertex", "class_acts_1_1_vertex.html", null ],
     [ "Acts::VertexFitCandidate", "struct_acts_1_1_vertex_fit_candidate.html", null ],
+    [ "Acts::VertexFitInput", "struct_acts_1_1_vertex_fit_input.html", null ],
     [ "Acts::VertexFitProblem", "struct_acts_1_1_vertex_fit_problem.html", null ],
     [ "Acts::VertexInfo", "struct_acts_1_1_vertex_info.html", null ],
     [ "Acts::VertexingOptions", "struct_acts_1_1_vertexing_options.html", null ],
@@ -1175,8 +1178,8 @@ var hierarchy =
       [ "detray::io::surface_grid_reader< detector_t, CAP, DIM >", "classdetray_1_1io_1_1surface__grid__reader.html", null ]
     ] ],
     [ "detail::grid_writer", null, [
-      [ "detray::io::material_map_writer", "classdetray_1_1io_1_1material__map__writer.html", null ],
-      [ "detray::io::surface_grid_writer", "classdetray_1_1io_1_1surface__grid__writer.html", null ]
+      [ "detray::io::material_map_writer< detector_t >", "classdetray_1_1io_1_1material__map__writer.html", null ],
+      [ "detray::io::surface_grid_writer< detector_t >", "classdetray_1_1io_1_1surface__grid__writer.html", null ]
     ] ],
     [ "detail::SpacePointGridBase", null, [
       [ "Acts::CartesianSpacePointGrid", "class_acts_1_1_cartesian_space_point_grid.html", null ],
@@ -1398,6 +1401,11 @@ var hierarchy =
     [ "detray::io::csv::bound_track_parameters", "structdetray_1_1io_1_1csv_1_1bound__track__parameters.html", null ],
     [ "detray::io::csv::free_track_parameters", "structdetray_1_1io_1_1csv_1_1free__track__parameters.html", null ],
     [ "detray::io::csv::intersection2D", "structdetray_1_1io_1_1csv_1_1intersection2_d.html", null ],
+    [ "detray::io::detail::write_switch", "structdetray_1_1io_1_1detail_1_1write__switch.html", [
+      [ "detray::io::geometry_header_payload", "structdetray_1_1io_1_1geometry__header__payload.html", null ],
+      [ "detray::io::grid_header_payload", "structdetray_1_1io_1_1grid__header__payload.html", null ],
+      [ "detray::io::homogeneous_material_header_payload", "structdetray_1_1io_1_1homogeneous__material__header__payload.html", null ]
+    ] ],
     [ "detray::io::detector_geometry_payload", "structdetray_1_1io_1_1detector__geometry__payload.html", null ],
     [ "detray::io::detector_grids_payload&lt; bin_content_t, grid_id_t &gt;", "structdetray_1_1io_1_1detector__grids__payload.html", null ],
     [ "detray::io::detector_homogeneous_material_payload", "structdetray_1_1io_1_1detector__homogeneous__material__payload.html", null ],
@@ -1405,22 +1413,21 @@ var hierarchy =
     [ "detray::io::detector_reader_config", "structdetray_1_1io_1_1detector__reader__config.html", null ],
     [ "detray::io::detector_writer_config", "structdetray_1_1io_1_1detector__writer__config.html", null ],
     [ "detray::io::file_handle", "classdetray_1_1io_1_1file__handle.html", null ],
-    [ "detray::io::geometry_header_payload", "structdetray_1_1io_1_1geometry__header__payload.html", null ],
-    [ "detray::io::geometry_writer", "classdetray_1_1io_1_1geometry__writer.html", null ],
     [ "detray::io::grid_bin_payload&lt; content_t &gt;", "structdetray_1_1io_1_1grid__bin__payload.html", null ],
-    [ "detray::io::grid_header_payload", "structdetray_1_1io_1_1grid__header__payload.html", null ],
     [ "detray::io::grid_payload&lt; bin_content_t, grid_id_t &gt;", "structdetray_1_1io_1_1grid__payload.html", null ],
-    [ "detray::io::homogeneous_material_header_payload", "structdetray_1_1io_1_1homogeneous__material__header__payload.html", null ],
-    [ "detray::io::homogeneous_material_writer", "classdetray_1_1io_1_1homogeneous__material__writer.html", null ],
     [ "detray::io::input_converter_interface", "classdetray_1_1io_1_1input__converter__interface.html", [
       [ "detray::io::input_file_converter_interface", "classdetray_1_1io_1_1input__file__converter__interface.html", [
         [ "detray::io::json_input_converter", "classdetray_1_1io_1_1json__input__converter.html", null ]
       ] ]
     ] ],
-    [ "detray::io::json_converter&lt; detector_t, backend_t &gt;", "classdetray_1_1io_1_1json__converter.html", null ],
     [ "detray::io::mask_payload", "structdetray_1_1io_1_1mask__payload.html", null ],
     [ "detray::io::material_param_payload", "structdetray_1_1io_1_1material__param__payload.html", null ],
     [ "detray::io::material_volume_payload", "structdetray_1_1io_1_1material__volume__payload.html", null ],
+    [ "detray::io::output_converter_interface", "classdetray_1_1io_1_1output__converter__interface.html", [
+      [ "detray::io::output_file_converter_interface", "classdetray_1_1io_1_1output__file__converter__interface.html", [
+        [ "detray::io::json_output_converter", "classdetray_1_1io_1_1json__output__converter.html", null ]
+      ] ]
+    ] ],
     [ "detray::io::reader_interface&lt; detector_t &gt;", "classdetray_1_1io_1_1reader__interface.html", [
       [ "detray::io::geometry_reader< detector_t >", "classdetray_1_1io_1_1geometry__reader.html", null ],
       [ "detray::io::homogeneous_material_reader< detector_t >", "classdetray_1_1io_1_1homogeneous__material__reader.html", null ],
@@ -1434,7 +1441,8 @@ var hierarchy =
     [ "detray::io::volume_material_payload", "structdetray_1_1io_1_1volume__material__payload.html", null ],
     [ "detray::io::volume_payload", "structdetray_1_1io_1_1volume__payload.html", null ],
     [ "detray::io::writer_interface&lt; detector_t &gt;", "classdetray_1_1io_1_1writer__interface.html", [
-      [ "detray::io::json_converter< detector_t, backend_t >", "classdetray_1_1io_1_1json__converter_3_01detector__t_00_01backend__t_01_4.html", null ]
+      [ "detray::io::geometry_writer< detector_t >", "classdetray_1_1io_1_1geometry__writer.html", null ],
+      [ "detray::io::homogeneous_material_writer< detector_t >", "classdetray_1_1io_1_1homogeneous__material__writer.html", null ]
     ] ],
     [ "detray::is_ratio_one&lt; R &gt;", "structdetray_1_1is__ratio__one.html", null ],
     [ "detray::landau_distribution&lt; scalar_t &gt;", "classdetray_1_1landau__distribution.html", null ],

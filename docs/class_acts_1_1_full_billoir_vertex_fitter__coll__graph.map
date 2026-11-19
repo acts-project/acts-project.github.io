@@ -1,0 +1,5 @@
+<map id="Acts::FullBilloirVertexFitter" name="Acts::FullBilloirVertexFitter">
+<area shape="rect" id="Node000001" title="Vertex fitter class implementing the Billoir vertex fitter." alt="" coords="5,81,200,109"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_i_vertex_fitter.html" title="Common interface for fitting one vertex." alt="" coords="34,5,171,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,47,105,82,100,80,101,51"/>
+</map>

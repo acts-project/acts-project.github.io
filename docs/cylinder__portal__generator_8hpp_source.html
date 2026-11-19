@@ -333,7 +333,7 @@ $(function(){initNavTree('cylinder__portal__generator_8hpp_source.html','',''); 
 <div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>    assert(volume.id() == volume_id::e_cylinder);</div>
 <div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>    <span class="keyword">const</span> <a class="code hl_typedef" href="namespacedetray.html#a3622614888b24c246e000c62d1833da4">dindex</a> vol_idx{volume.index()};</div>
 <div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span> </div>
-<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>    <span class="keyword">const</span> std::size_t n_surfaces{surfaces.size()};</div>
+<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>    <span class="keyword">const</span> std::size_t <a class="code hl_function" href="namespacedetray.html#a902fd2339819880fa737c6ada03b47be">n_surfaces</a>{surfaces.size()};</div>
 <div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span> </div>
 <div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>    <span class="keywordflow">if</span> (!m_cfg.do_autofit()) {</div>
 <div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>      <span class="comment">// Without autofit, the portal bounds have to be given explicitly</span></div>
@@ -342,7 +342,7 @@ $(function(){initNavTree('cylinder__portal__generator_8hpp_source.html','',''); 
 <div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>             m_cfg.fixed_half_length() != 0.f);</div>
 <div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>    } <span class="keywordflow">else</span> {</div>
 <div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>      <span class="comment">// Need surfaces in volume to do autofit</span></div>
-<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>      assert(n_surfaces != 0u);</div>
+<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>      assert(<a class="code hl_function" href="namespacedetray.html#a902fd2339819880fa737c6ada03b47be">n_surfaces</a> != 0u);</div>
 <div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>    }</div>
 <div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span> </div>
 <div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>    scalar_t inner_r{m_cfg.fixed_inner_radius()};</div>
@@ -353,7 +353,7 @@ $(function(){initNavTree('cylinder__portal__generator_8hpp_source.html','',''); 
 <div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>    <span class="keywordflow">if</span> (m_cfg.do_autofit()) {</div>
 <div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>      <span class="comment">// The bounding boxes around the module surfaces</span></div>
 <div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>      std::vector&lt;aabb_t&gt; boxes;</div>
-<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>      boxes.reserve(n_surfaces);</div>
+<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>      boxes.reserve(<a class="code hl_function" href="namespacedetray.html#a902fd2339819880fa737c6ada03b47be">n_surfaces</a>);</div>
 <div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span> </div>
 <div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;sf : surfaces) {</div>
 <div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>        masks.template visit&lt;bounding_box_creator&gt;(</div>
@@ -412,7 +412,7 @@ $(function(){initNavTree('cylinder__portal__generator_8hpp_source.html','',''); 
 <div class="line"><a id="l00329" name="l00329"></a><span class="lineno">  329</span>    add_disc_portal(surfaces, transforms, masks, ctx, vol_idx,</div>
 <div class="line"><a id="l00330" name="l00330"></a><span class="lineno">  330</span>                    m_cfg.link_east(), inner_r, outer_r, upper_z);</div>
 <div class="line"><a id="l00331" name="l00331"></a><span class="lineno">  331</span> </div>
-<div class="line"><a id="l00332" name="l00332"></a><span class="lineno">  332</span>    <span class="keywordflow">return</span> {<span class="keyword">static_cast&lt;</span><a class="code hl_typedef" href="namespacedetray.html#a3622614888b24c246e000c62d1833da4">dindex</a><span class="keyword">&gt;</span>(n_surfaces),</div>
+<div class="line"><a id="l00332" name="l00332"></a><span class="lineno">  332</span>    <span class="keywordflow">return</span> {<span class="keyword">static_cast&lt;</span><a class="code hl_typedef" href="namespacedetray.html#a3622614888b24c246e000c62d1833da4">dindex</a><span class="keyword">&gt;</span>(<a class="code hl_function" href="namespacedetray.html#a902fd2339819880fa737c6ada03b47be">n_surfaces</a>),</div>
 <div class="line"><a id="l00333" name="l00333"></a><span class="lineno">  333</span>            <span class="keyword">static_cast&lt;</span><a class="code hl_typedef" href="namespacedetray.html#a3622614888b24c246e000c62d1833da4">dindex</a><span class="keyword">&gt;</span>(surfaces.size())};</div>
 <div class="line"><a id="l00334" name="l00334"></a><span class="lineno">  334</span>  }</div>
 </div>
@@ -530,6 +530,7 @@ $(function(){initNavTree('cylinder__portal__generator_8hpp_source.html','',''); 
 <div class="ttc" id="anamespacedetray_html_a18ed1845ba44169fa8d052d353821c01"><div class="ttname"><a href="namespacedetray.html#a18ed1845ba44169fa8d052d353821c01">detray::dindex_range</a></div><div class="ttdeci">detail::index_range&lt; dindex &gt; dindex_range</div><div class="ttdoc">Index ranges and sequences.</div><div class="ttdef"><b>Definition</b> indexing.hpp:24</div></div>
 <div class="ttc" id="anamespacedetray_html_a3622614888b24c246e000c62d1833da4"><div class="ttname"><a href="namespacedetray.html#a3622614888b24c246e000c62d1833da4">detray::dindex</a></div><div class="ttdeci">unsigned int dindex</div><div class="ttdoc">Default index type.</div><div class="ttdef"><b>Definition</b> indexing.hpp:18</div></div>
 <div class="ttc" id="anamespacedetray_html_a4acd0b976198d508f4a3c4e9aa6e7c92"><div class="ttname"><a href="namespacedetray.html#a4acd0b976198d508f4a3c4e9aa6e7c92">detray::dindex_invalid</a></div><div class="ttdeci">constexpr dindex dindex_invalid</div><div class="ttdoc">Global invalid index definition.</div><div class="ttdef"><b>Definition</b> indexing.hpp:21</div></div>
+<div class="ttc" id="anamespacedetray_html_a902fd2339819880fa737c6ada03b47be"><div class="ttname"><a href="namespacedetray.html#a902fd2339819880fa737c6ada03b47be">detray::n_surfaces</a></div><div class="ttdeci">std::size_t n_surfaces(const detector_t &amp;det)</div><div class="ttdef"><b>Definition</b> detector_statistics.hpp:60</div></div>
 <div class="ttc" id="anamespacedetray_html_aa6f739a55c57d6653ae9b01a06ae1aec"><div class="ttname"><a href="namespacedetray.html#aa6f739a55c57d6653ae9b01a06ae1aec">detray::dvector3D</a></div><div class="ttdeci">get_vector3D_t&lt; A, T &gt; dvector3D</div><div class="ttdoc">Three-dimensional vector type for algebra A and value type T.</div><div class="ttdef"><b>Definition</b> algebra.hpp:80</div></div>
 <div class="ttc" id="anamespacedetray_html_ab617d3cc088984ab933fa8345afd24b5"><div class="ttname"><a href="namespacedetray.html#ab617d3cc088984ab933fa8345afd24b5">detray::dtransform3D</a></div><div class="ttdeci">get_transform3D_t&lt; A, T &gt; dtransform3D</div><div class="ttdoc">Three-dimensional transform type for algebra A and value type T.</div><div class="ttdef"><b>Definition</b> algebra.hpp:84</div></div>
 <div class="ttc" id="anamespacedetray_html_ac62bdc6004337ad2c4c7d0872cbdfd4a"><div class="ttname"><a href="namespacedetray.html#ac62bdc6004337ad2c4c7d0872cbdfd4a">detray::dpoint3D</a></div><div class="ttdeci">get_point3D_t&lt; A, T &gt; dpoint3D</div><div class="ttdoc">Three-dimensional point type for algebra A and value type T.</div><div class="ttdef"><b>Definition</b> algebra.hpp:72</div></div>

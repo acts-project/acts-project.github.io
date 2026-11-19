@@ -1,0 +1,9 @@
+<map id="detray::io::detail::write_switch" name="detray::io::detail::write_switch">
+<area shape="rect" id="Node000001" title="Reusable write toggle for detector component headers." alt="" coords="5,75,133,119"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1io_1_1geometry__header__payload.html" title="Geometry payloads." alt="" coords="201,5,354,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="146,69,210,49,206,52,149,73"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1io_1_1grid__header__payload.html" title="Payloads for a uniform grid." alt="" coords="194,75,362,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="148,94,196,96,191,98,149,100"/>
+<area shape="rect" id="Node000004" href="$structdetray_1_1io_1_1homogeneous__material__header__payload.html" title="Material payloads." alt="" coords="181,144,375,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="148,120,211,143,206,144,147,126"/>
+</map>

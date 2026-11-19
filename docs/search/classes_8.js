@@ -134,8 +134,9 @@ var searchData=
   ['itripletseedcuts_131',['ITripletSeedCuts',['../class_acts_1_1_i_triplet_seed_cuts.html',1,'Acts']]],
   ['itripletseedfilter_132',['ITripletSeedFilter',['../class_acts_1_1_i_triplet_seed_filter.html',1,'Acts']]],
   ['ivertexfinder_133',['IVertexFinder',['../class_acts_1_1_i_vertex_finder.html',1,'Acts']]],
-  ['ivisualization3d_134',['IVisualization3D',['../class_acts_1_1_i_visualization3_d.html',1,'Acts']]],
-  ['ivolumelookup_135',['IVolumeLookup',['../class_acts_1_1_i_volume_lookup.html',1,'Acts']]],
-  ['ivolumematerial_136',['IVolumeMaterial',['../class_acts_1_1_i_volume_material.html',1,'Acts']]],
-  ['ivolumematerialjsondecorator_137',['IVolumeMaterialJsonDecorator',['../class_acts_1_1_i_volume_material_json_decorator.html',1,'Acts']]]
+  ['ivertexfitter_134',['IVertexFitter',['../class_acts_1_1_i_vertex_fitter.html',1,'Acts']]],
+  ['ivisualization3d_135',['IVisualization3D',['../class_acts_1_1_i_visualization3_d.html',1,'Acts']]],
+  ['ivolumelookup_136',['IVolumeLookup',['../class_acts_1_1_i_volume_lookup.html',1,'Acts']]],
+  ['ivolumematerial_137',['IVolumeMaterial',['../class_acts_1_1_i_volume_material.html',1,'Acts']]],
+  ['ivolumematerialjsondecorator_138',['IVolumeMaterialJsonDecorator',['../class_acts_1_1_i_volume_material_json_decorator.html',1,'Acts']]]
 ];

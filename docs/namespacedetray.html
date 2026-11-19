@@ -914,6 +914,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a279df485c8054d38ba9e6352e65c9839 template"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a279df485c8054d38ba9e6352e65c9839">n_sensitives</a> (const detector_t &amp;det)</td></tr>
 <tr class="memitem:a8305de4919bdac48de0e173646039f11" id="r_a8305de4919bdac48de0e173646039f11"><td class="memTemplParams" colspan="2">template&lt;concepts::detector detector_t&gt; </td></tr>
 <tr class="memitem:a8305de4919bdac48de0e173646039f11 template"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8305de4919bdac48de0e173646039f11">n_surface_grids</a> (const detector_t &amp;det)</td></tr>
+<tr class="memitem:a902fd2339819880fa737c6ada03b47be" id="r_a902fd2339819880fa737c6ada03b47be"><td class="memTemplParams" colspan="2">template&lt;concepts::detector detector_t&gt; </td></tr>
+<tr class="memitem:a902fd2339819880fa737c6ada03b47be template"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a902fd2339819880fa737c6ada03b47be">n_surfaces</a> (const detector_t &amp;det)</td></tr>
 <tr class="memitem:aba966e15753da94e53047c3790832d2c" id="r_aba966e15753da94e53047c3790832d2c"><td class="memTemplParams" colspan="2">template&lt;typename scalar_t, typename function_t&gt; </td></tr>
 <tr class="memitem:aba966e15753da94e53047c3790832d2c template"><td class="memItemLeft" align="right" valign="top">std::pair&lt; scalar_t, scalar_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba966e15753da94e53047c3790832d2c">newton_raphson</a> (function_t &amp;evaluate_func, scalar_t s, const scalar_t convergence_tolerance=1.f *<a class="el" href="structdetray_1_1unit.html">unit</a>&lt; scalar_t &gt;::um, const std::size_t max_n_tries=1000u, const scalar_t max_path=5.f *<a class="el" href="structdetray_1_1unit.html">unit</a>&lt; scalar_t &gt;::m)</td></tr>
 <tr class="memdesc:aba966e15753da94e53047c3790832d2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a root using the Newton-Raphson algorithm.  <br /></td></tr>
@@ -2266,6 +2268,32 @@ template&lt;concepts::detector detector_t&gt; </div>
       </table>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>the total number of surface grids in the detector</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">det</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a902fd2339819880fa737c6ada03b47be" name="a902fd2339819880fa737c6ada03b47be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a902fd2339819880fa737c6ada03b47be">&#9670;&#160;</a></span>n_surfaces()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;concepts::detector detector_t&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t detray::n_surfaces </td>
+          <td>(</td>
+          <td class="paramtype">const detector_t &amp;</td>          <td class="paramname"><span class="paramname"><em>det</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>the total number of surfaces in the detector</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">det</td><td></td></tr>

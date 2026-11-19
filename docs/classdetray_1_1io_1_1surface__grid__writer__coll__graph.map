@@ -1,9 +1,9 @@
-<map id="detray::io::surface_grid_writer" name="detray::io::surface_grid_writer">
-<area shape="rect" id="Node000001" title="Surface grid writer backend." alt="" coords="26,200,164,245"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,99,142,127"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="81,140,93,200,88,199,77,144"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="166,99,290,127"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="203,137,123,202,120,197,197,137"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="146,5,311,50"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="230,63,231,100,226,98,227,68"/>
+<map id="detray::io::surface_grid_writer&lt; detector_t &gt;" name="detray::io::surface_grid_writer&lt; detector_t &gt;">
+<area shape="rect" id="Node000001" title="Surface grid writer backend." alt="" coords="5,217,200,262"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="13,99,149,144"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,157,101,217,96,216,86,161"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="174,108,298,136"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="212,145,129,219,126,214,207,146"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="153,5,318,50"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="237,64,238,109,233,107,234,68"/>
 </map>

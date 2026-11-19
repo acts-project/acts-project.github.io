@@ -1,7 +1,8 @@
 var classdetray_1_1io_1_1material__map__writer =
 [
-    [ "payload_type", "classdetray_1_1io_1_1material__map__writer.html#a64a644713c99d14af475b3917d26da2b", null ],
-    [ "to_header_payload", "classdetray_1_1io_1_1material__map__writer.html#aff16c8eda8e157ebfd0ccbcb0257f862", null ],
-    [ "to_payload", "classdetray_1_1io_1_1material__map__writer.html#ada357fb7f9336373815f5e57e9a0576f", null ],
-    [ "tag", "classdetray_1_1io_1_1material__map__writer.html#a163d31f17a1ffc9ac3e3829b972baeb2", null ]
+    [ "payload_type", "classdetray_1_1io_1_1material__map__writer.html#aaec577c183352557243c59c41eab7092", null ],
+    [ "tag", "classdetray_1_1io_1_1material__map__writer.html#a21020cbad09c36be72f60b25faf2ec2a", null ],
+    [ "to_payload", "classdetray_1_1io_1_1material__map__writer.html#aa6e9bea79f37fafcce1961b04dc0b4cf", null ],
+    [ "to_payload_impl", "classdetray_1_1io_1_1material__map__writer.html#a170f00b99bd166e655109002c41b7c85", null ],
+    [ "s_tag", "classdetray_1_1io_1_1material__map__writer.html#a2900afa995adc4d593c0219e2c19ed31", null ]
 ];

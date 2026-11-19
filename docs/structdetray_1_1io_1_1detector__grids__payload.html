@@ -141,16 +141,41 @@ Collaboration diagram for detray::io::detector_grids_payload&lt; bin_content_t, 
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="structdetray_1_1io_1_1detector__grids__payload__coll__graph.svg" width="100%" height="407"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a53c8cfe16850f191c9c5ba8df84fe41f" id="r_a53c8cfe16850f191c9c5ba8df84fe41f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53c8cfe16850f191c9c5ba8df84fe41f">is_valid</a> () const</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a1758e38bf3545f3d226e0eba8c9e79d4" id="r_a1758e38bf3545f3d226e0eba8c9e79d4"><td class="memItemLeft" align="right" valign="top"><a id="a1758e38bf3545f3d226e0eba8c9e79d4" name="a1758e38bf3545f3d226e0eba8c9e79d4"></a>
 std::map&lt; std::size_t, std::vector&lt; <a class="el" href="structdetray_1_1io_1_1grid__payload.html">grid_payload</a>&lt; bin_content_t, grid_id_t &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>grids</b> = {}</td></tr>
-<tr class="memdesc:a1758e38bf3545f3d226e0eba8c9e79d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Grid collections keyed by owning volume index. <br /></td></tr>
+<tr class="memdesc:a1758e38bf3545f3d226e0eba8c9e79d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">A collection of grids (can be the surface search grid, volume or surface material grids) per volume index (not all volumes may contain grids). <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename bin_content_t = std::size_t, typename grid_id_t = io::accel_id&gt;<br />
 struct detray::io::detector_grids_payload&lt; bin_content_t, grid_id_t &gt;</div><p>A payload for the grid collections of a detector. </p>
-</div></div><!-- contents -->
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a53c8cfe16850f191c9c5ba8df84fe41f" name="a53c8cfe16850f191c9c5ba8df84fe41f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53c8cfe16850f191c9c5ba8df84fe41f">&#9670;&#160;</a></span>is_valid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename bin_content_t = std::size_t, typename grid_id_t = io::accel_id&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="structdetray_1_1io_1_1detector__grids__payload.html">detray::io::detector_grids_payload</a>&lt; bin_content_t, grid_id_t &gt;::is_valid </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>whether the payload contains any valid data </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

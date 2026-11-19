@@ -178,63 +178,73 @@ $(function(){initNavTree('detector__statistics_8hpp_source.html','',''); });
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>}</div>
 </div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span></div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="keyword">template</span> &lt;std::<span class="keywordtype">size_t</span> I = 0u, <span class="keyword">typename</span> store_t&gt;</div>
-<div class="foldopen" id="foldopen00064" data-start="{" data-end="}">
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="namespacedetray.html#ad866a1acd50df1bf880363fae48ba0dd">   64</a></span>DETRAY_HOST_DEVICE <span class="keyword">inline</span> std::size_t <a class="code hl_function" href="namespacedetray.html#ad866a1acd50df1bf880363fae48ba0dd">n_grids</a>(<span class="keyword">const</span> store_t&amp; store,</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>                                              std::size_t n = 0u) {</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>  <span class="keyword">constexpr</span> <span class="keyword">auto</span> coll_id{types::id_cast&lt;typename store_t::value_types, I&gt;};</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>  <span class="keyword">using </span>value_type = types::get&lt;typename store_t::value_types, coll_id&gt;;</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>  <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (<a class="code hl_concept" href="conceptdetray_1_1concepts_1_1grid.html">detray::concepts::grid&lt;value_type&gt;</a>) {</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    n += store.template size&lt;coll_id&gt;();</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>  }</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>  <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (I &lt; store_t::n_collections() - 1u) {</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="namespacedetray.html#ad866a1acd50df1bf880363fae48ba0dd">n_grids&lt;I + 1&gt;</a>(store, n);</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>  }</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>  <span class="keywordflow">return</span> n;</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>}</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="keyword">template</span> &lt;concepts::detector detector_t&gt;</div>
+<div class="foldopen" id="foldopen00060" data-start="{" data-end="}">
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="namespacedetray.html#a902fd2339819880fa737c6ada03b47be">   60</a></span>DETRAY_HOST_DEVICE <span class="keyword">inline</span> std::size_t <a class="code hl_function" href="namespacedetray.html#a902fd2339819880fa737c6ada03b47be">n_surfaces</a>(<span class="keyword">const</span> detector_t&amp; det) {</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>  assert(det.surfaces().size() ==</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>         (<a class="code hl_function" href="namespacedetray.html#a72646e056a2bdfcc8cb0f640243a6044">n_portals</a>(det) + <a class="code hl_function" href="namespacedetray.html#a279df485c8054d38ba9e6352e65c9839">n_sensitives</a>(det) + <a class="code hl_function" href="namespacedetray.html#a49b7326d91418302f8752d1404488ec6">n_passives</a>(det)));</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>  <span class="keywordflow">return</span> det.surfaces().size();</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>}</div>
 </div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span></div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span><span class="keyword">template</span> &lt;concepts::detector detector_t&gt;</div>
-<div class="foldopen" id="foldopen00081" data-start="{" data-end="}">
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno"><a class="line" href="namespacedetray.html#a8305de4919bdac48de0e173646039f11">   81</a></span>DETRAY_HOST_DEVICE <span class="keyword">inline</span> std::size_t <a class="code hl_function" href="namespacedetray.html#a8305de4919bdac48de0e173646039f11">n_surface_grids</a>(<span class="keyword">const</span> detector_t&amp; det) {</div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>  <span class="keywordflow">return</span> <a class="code hl_function" href="namespacedetray.html#ad866a1acd50df1bf880363fae48ba0dd">n_grids</a>(det.accelerator_store());</div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>}</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span></div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="keyword">template</span> &lt;std::<span class="keywordtype">size_t</span> I = 0u, <span class="keyword">typename</span> store_t&gt;</div>
+<div class="foldopen" id="foldopen00073" data-start="{" data-end="}">
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="namespacedetray.html#ad866a1acd50df1bf880363fae48ba0dd">   73</a></span>DETRAY_HOST_DEVICE <span class="keyword">inline</span> std::size_t <a class="code hl_function" href="namespacedetray.html#ad866a1acd50df1bf880363fae48ba0dd">n_grids</a>(<span class="keyword">const</span> store_t&amp; store,</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>                                              std::size_t n = 0u) {</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>  <span class="keyword">constexpr</span> <span class="keyword">auto</span> coll_id{types::id_cast&lt;typename store_t::value_types, I&gt;};</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>  <span class="keyword">using </span>value_type = types::get&lt;typename store_t::value_types, coll_id&gt;;</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>  <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (<a class="code hl_concept" href="conceptdetray_1_1concepts_1_1grid.html">detray::concepts::grid&lt;value_type&gt;</a>) {</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    n += store.template size&lt;coll_id&gt;();</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>  }</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>  <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (I &lt; store_t::n_collections() - 1u) {</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="namespacedetray.html#ad866a1acd50df1bf880363fae48ba0dd">n_grids&lt;I + 1&gt;</a>(store, n);</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>  }</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>  <span class="keywordflow">return</span> n;</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>}</div>
 </div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span></div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span><span class="keyword">template</span> &lt;concepts::detector detector_t&gt;</div>
-<div class="foldopen" id="foldopen00087" data-start="{" data-end="}">
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno"><a class="line" href="namespacedetray.html#abdda1eb14e9771e5b2c7542b113f08c6">   87</a></span>DETRAY_HOST_DEVICE <span class="keyword">inline</span> std::size_t <a class="code hl_function" href="namespacedetray.html#abdda1eb14e9771e5b2c7542b113f08c6">n_material_maps</a>(<span class="keyword">const</span> detector_t&amp; det) {</div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>  <span class="keywordflow">return</span> <a class="code hl_function" href="namespacedetray.html#ad866a1acd50df1bf880363fae48ba0dd">n_grids</a>(det.material_store());</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>}</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span></div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span><span class="keyword">template</span> &lt;concepts::detector detector_t&gt;</div>
+<div class="foldopen" id="foldopen00090" data-start="{" data-end="}">
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno"><a class="line" href="namespacedetray.html#a8305de4919bdac48de0e173646039f11">   90</a></span>DETRAY_HOST_DEVICE <span class="keyword">inline</span> std::size_t <a class="code hl_function" href="namespacedetray.html#a8305de4919bdac48de0e173646039f11">n_surface_grids</a>(<span class="keyword">const</span> detector_t&amp; det) {</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>  <span class="keywordflow">return</span> <a class="code hl_function" href="namespacedetray.html#ad866a1acd50df1bf880363fae48ba0dd">n_grids</a>(det.accelerator_store());</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>}</div>
 </div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span></div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span><span class="keyword">template</span> &lt;concepts::detector detector_t&gt;</div>
-<div class="foldopen" id="foldopen00094" data-start="{" data-end="}">
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno"><a class="line" href="namespacedetray.html#a18d3284d9cff492a26241551ae8444c5">   94</a></span>DETRAY_HOST_DEVICE <span class="keyword">inline</span> std::size_t <a class="code hl_function" href="namespacedetray.html#a18d3284d9cff492a26241551ae8444c5">n_material_slabs</a>(<span class="keyword">const</span> detector_t&amp; det) {</div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>  <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (<a class="code hl_concept" href="conceptdetray_1_1concepts_1_1has__material__slabs.html">detray::concepts::has_material_slabs&lt;detector_t&gt;</a>) {</div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    <span class="keyword">constexpr</span> <span class="keyword">auto</span> slab_id{detector_t::material::id::e_material_slab};</div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    <span class="keywordflow">return</span> det.material_store().template size&lt;slab_id&gt;();</div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>  } <span class="keywordflow">else</span> {</div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    <span class="keywordflow">return</span> 0u;</div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>  }</div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>}</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span></div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span><span class="keyword">template</span> &lt;concepts::detector detector_t&gt;</div>
+<div class="foldopen" id="foldopen00096" data-start="{" data-end="}">
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno"><a class="line" href="namespacedetray.html#abdda1eb14e9771e5b2c7542b113f08c6">   96</a></span>DETRAY_HOST_DEVICE <span class="keyword">inline</span> std::size_t <a class="code hl_function" href="namespacedetray.html#abdda1eb14e9771e5b2c7542b113f08c6">n_material_maps</a>(<span class="keyword">const</span> detector_t&amp; det) {</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>  <span class="keywordflow">return</span> <a class="code hl_function" href="namespacedetray.html#ad866a1acd50df1bf880363fae48ba0dd">n_grids</a>(det.material_store());</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>}</div>
 </div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span></div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span><span class="keyword">template</span> &lt;concepts::detector detector_t&gt;</div>
-<div class="foldopen" id="foldopen00105" data-start="{" data-end="}">
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno"><a class="line" href="namespacedetray.html#a02e56f75b41d3bac65106c1d7539361e">  105</a></span>DETRAY_HOST_DEVICE <span class="keyword">inline</span> std::size_t <a class="code hl_function" href="namespacedetray.html#a02e56f75b41d3bac65106c1d7539361e">n_material_rods</a>(<span class="keyword">const</span> detector_t&amp; det) {</div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>  <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (<a class="code hl_concept" href="conceptdetray_1_1concepts_1_1has__material__rods.html">detray::concepts::has_material_rods&lt;detector_t&gt;</a>) {</div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    <span class="keyword">constexpr</span> <span class="keyword">auto</span> rod_id{detector_t::material::id::e_material_rod};</div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>    <span class="keywordflow">return</span> det.material_store().template size&lt;rod_id&gt;();</div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>  } <span class="keywordflow">else</span> {</div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    <span class="keywordflow">return</span> 0u;</div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>  }</div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>}</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span></div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span><span class="keyword">template</span> &lt;concepts::detector detector_t&gt;</div>
+<div class="foldopen" id="foldopen00103" data-start="{" data-end="}">
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno"><a class="line" href="namespacedetray.html#a18d3284d9cff492a26241551ae8444c5">  103</a></span>DETRAY_HOST_DEVICE <span class="keyword">inline</span> std::size_t <a class="code hl_function" href="namespacedetray.html#a18d3284d9cff492a26241551ae8444c5">n_material_slabs</a>(<span class="keyword">const</span> detector_t&amp; det) {</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>  <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (<a class="code hl_concept" href="conceptdetray_1_1concepts_1_1has__material__slabs.html">detray::concepts::has_material_slabs&lt;detector_t&gt;</a>) {</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    <span class="keyword">constexpr</span> <span class="keyword">auto</span> slab_id{detector_t::material::id::e_material_slab};</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    <span class="keywordflow">return</span> det.material_store().template size&lt;slab_id&gt;();</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>  } <span class="keywordflow">else</span> {</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>    <span class="keywordflow">return</span> 0u;</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>  }</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>}</div>
 </div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span> </div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>}  <span class="comment">// namespace detray</span></div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span></div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span><span class="keyword">template</span> &lt;concepts::detector detector_t&gt;</div>
+<div class="foldopen" id="foldopen00114" data-start="{" data-end="}">
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno"><a class="line" href="namespacedetray.html#a02e56f75b41d3bac65106c1d7539361e">  114</a></span>DETRAY_HOST_DEVICE <span class="keyword">inline</span> std::size_t <a class="code hl_function" href="namespacedetray.html#a02e56f75b41d3bac65106c1d7539361e">n_material_rods</a>(<span class="keyword">const</span> detector_t&amp; det) {</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>  <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (<a class="code hl_concept" href="conceptdetray_1_1concepts_1_1has__material__rods.html">detray::concepts::has_material_rods&lt;detector_t&gt;</a>) {</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>    <span class="keyword">constexpr</span> <span class="keyword">auto</span> rod_id{detector_t::material::id::e_material_rod};</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>    <span class="keywordflow">return</span> det.material_store().template size&lt;rod_id&gt;();</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>  } <span class="keywordflow">else</span> {</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    <span class="keywordflow">return</span> 0u;</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>  }</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>}</div>
+</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span> </div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>}  <span class="comment">// namespace detray</span></div>
 <div class="ttc" id="aclassdetray_1_1tracking__volume_html"><div class="ttname"><a href="classdetray_1_1tracking__volume.html">detray::tracking_volume</a></div><div class="ttdoc">Facade for a detray detector volume.</div><div class="ttdef"><b>Definition</b> tracking_volume.hpp:44</div></div>
 <div class="ttc" id="aclassdetray_1_1tracking__volume_html_a221f4fe6ac6420b9098be35d16b20968"><div class="ttname"><a href="classdetray_1_1tracking__volume.html#a221f4fe6ac6420b9098be35d16b20968">detray::tracking_volume::n_sensitives</a></div><div class="ttdeci">constexpr dindex n_sensitives() const</div><div class="ttdef"><b>Definition</b> tracking_volume.hpp:149</div></div>
 <div class="ttc" id="aclassdetray_1_1tracking__volume_html_a5e8f166b60752eef4172c13302004a6e"><div class="ttname"><a href="classdetray_1_1tracking__volume.html#a5e8f166b60752eef4172c13302004a6e">detray::tracking_volume::n_portals</a></div><div class="ttdeci">constexpr dindex n_portals() const</div><div class="ttdef"><b>Definition</b> tracking_volume.hpp:141</div></div>
@@ -243,14 +253,15 @@ $(function(){initNavTree('detector__statistics_8hpp_source.html','',''); });
 <div class="ttc" id="aconceptdetray_1_1concepts_1_1has__material__rods_html"><div class="ttname"><a href="conceptdetray_1_1concepts_1_1has__material__rods.html">detray::concepts::has_material_rods</a></div><div class="ttdoc">Check for the the presence of material rods in a detector definition.</div><div class="ttdef"><b>Definition</b> concepts.hpp:146</div></div>
 <div class="ttc" id="aconceptdetray_1_1concepts_1_1has__material__slabs_html"><div class="ttname"><a href="conceptdetray_1_1concepts_1_1has__material__slabs.html">detray::concepts::has_material_slabs</a></div><div class="ttdoc">Check for the the presence of material slabs in a detector definition.</div><div class="ttdef"><b>Definition</b> concepts.hpp:141</div></div>
 <div class="ttc" id="anamespacedetray_html"><div class="ttname"><a href="namespacedetray.html">detray</a></div><div class="ttdoc">Detray include(s).</div><div class="ttdef"><b>Definition</b> array_operators.hpp:18</div></div>
-<div class="ttc" id="anamespacedetray_html_a02e56f75b41d3bac65106c1d7539361e"><div class="ttname"><a href="namespacedetray.html#a02e56f75b41d3bac65106c1d7539361e">detray::n_material_rods</a></div><div class="ttdeci">std::size_t n_material_rods(const detector_t &amp;det)</div><div class="ttdef"><b>Definition</b> detector_statistics.hpp:105</div></div>
-<div class="ttc" id="anamespacedetray_html_a18d3284d9cff492a26241551ae8444c5"><div class="ttname"><a href="namespacedetray.html#a18d3284d9cff492a26241551ae8444c5">detray::n_material_slabs</a></div><div class="ttdeci">std::size_t n_material_slabs(const detector_t &amp;det)</div><div class="ttdef"><b>Definition</b> detector_statistics.hpp:94</div></div>
+<div class="ttc" id="anamespacedetray_html_a02e56f75b41d3bac65106c1d7539361e"><div class="ttname"><a href="namespacedetray.html#a02e56f75b41d3bac65106c1d7539361e">detray::n_material_rods</a></div><div class="ttdeci">std::size_t n_material_rods(const detector_t &amp;det)</div><div class="ttdef"><b>Definition</b> detector_statistics.hpp:114</div></div>
+<div class="ttc" id="anamespacedetray_html_a18d3284d9cff492a26241551ae8444c5"><div class="ttname"><a href="namespacedetray.html#a18d3284d9cff492a26241551ae8444c5">detray::n_material_slabs</a></div><div class="ttdeci">std::size_t n_material_slabs(const detector_t &amp;det)</div><div class="ttdef"><b>Definition</b> detector_statistics.hpp:103</div></div>
 <div class="ttc" id="anamespacedetray_html_a279df485c8054d38ba9e6352e65c9839"><div class="ttname"><a href="namespacedetray.html#a279df485c8054d38ba9e6352e65c9839">detray::n_sensitives</a></div><div class="ttdeci">std::size_t n_sensitives(const detector_t &amp;det)</div><div class="ttdef"><b>Definition</b> detector_statistics.hpp:36</div></div>
 <div class="ttc" id="anamespacedetray_html_a49b7326d91418302f8752d1404488ec6"><div class="ttname"><a href="namespacedetray.html#a49b7326d91418302f8752d1404488ec6">detray::n_passives</a></div><div class="ttdeci">std::size_t n_passives(const detector_t &amp;det)</div><div class="ttdef"><b>Definition</b> detector_statistics.hpp:48</div></div>
 <div class="ttc" id="anamespacedetray_html_a72646e056a2bdfcc8cb0f640243a6044"><div class="ttname"><a href="namespacedetray.html#a72646e056a2bdfcc8cb0f640243a6044">detray::n_portals</a></div><div class="ttdeci">std::size_t n_portals(const detector_t &amp;det)</div><div class="ttdef"><b>Definition</b> detector_statistics.hpp:24</div></div>
-<div class="ttc" id="anamespacedetray_html_a8305de4919bdac48de0e173646039f11"><div class="ttname"><a href="namespacedetray.html#a8305de4919bdac48de0e173646039f11">detray::n_surface_grids</a></div><div class="ttdeci">std::size_t n_surface_grids(const detector_t &amp;det)</div><div class="ttdef"><b>Definition</b> detector_statistics.hpp:81</div></div>
-<div class="ttc" id="anamespacedetray_html_abdda1eb14e9771e5b2c7542b113f08c6"><div class="ttname"><a href="namespacedetray.html#abdda1eb14e9771e5b2c7542b113f08c6">detray::n_material_maps</a></div><div class="ttdeci">std::size_t n_material_maps(const detector_t &amp;det)</div><div class="ttdef"><b>Definition</b> detector_statistics.hpp:87</div></div>
-<div class="ttc" id="anamespacedetray_html_ad866a1acd50df1bf880363fae48ba0dd"><div class="ttname"><a href="namespacedetray.html#ad866a1acd50df1bf880363fae48ba0dd">detray::n_grids</a></div><div class="ttdeci">std::size_t n_grids(const store_t &amp;store, std::size_t n=0u)</div><div class="ttdoc">Count grid collections in a detector store.</div><div class="ttdef"><b>Definition</b> detector_statistics.hpp:64</div></div>
+<div class="ttc" id="anamespacedetray_html_a8305de4919bdac48de0e173646039f11"><div class="ttname"><a href="namespacedetray.html#a8305de4919bdac48de0e173646039f11">detray::n_surface_grids</a></div><div class="ttdeci">std::size_t n_surface_grids(const detector_t &amp;det)</div><div class="ttdef"><b>Definition</b> detector_statistics.hpp:90</div></div>
+<div class="ttc" id="anamespacedetray_html_a902fd2339819880fa737c6ada03b47be"><div class="ttname"><a href="namespacedetray.html#a902fd2339819880fa737c6ada03b47be">detray::n_surfaces</a></div><div class="ttdeci">std::size_t n_surfaces(const detector_t &amp;det)</div><div class="ttdef"><b>Definition</b> detector_statistics.hpp:60</div></div>
+<div class="ttc" id="anamespacedetray_html_abdda1eb14e9771e5b2c7542b113f08c6"><div class="ttname"><a href="namespacedetray.html#abdda1eb14e9771e5b2c7542b113f08c6">detray::n_material_maps</a></div><div class="ttdeci">std::size_t n_material_maps(const detector_t &amp;det)</div><div class="ttdef"><b>Definition</b> detector_statistics.hpp:96</div></div>
+<div class="ttc" id="anamespacedetray_html_ad866a1acd50df1bf880363fae48ba0dd"><div class="ttname"><a href="namespacedetray.html#ad866a1acd50df1bf880363fae48ba0dd">detray::n_grids</a></div><div class="ttdeci">std::size_t n_grids(const store_t &amp;store, std::size_t n=0u)</div><div class="ttdoc">Count grid collections in a detector store.</div><div class="ttdef"><b>Definition</b> detector_statistics.hpp:73</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

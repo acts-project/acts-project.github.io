@@ -1,5 +1,5 @@
-<map id="detray::io::surface_grid_writer" name="detray::io::surface_grid_writer">
-<area shape="rect" id="Node000001" title="Surface grid writer backend." alt="" coords="5,81,144,126"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="6,5,143,33"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="76,47,77,81,72,80,73,51"/>
+<map id="detray::io::surface_grid_writer&lt; detector_t &gt;" name="detray::io::surface_grid_writer&lt; detector_t &gt;">
+<area shape="rect" id="Node000001" title="Surface grid writer backend." alt="" coords="5,98,200,143"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="34,5,171,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,64,105,99,100,97,101,68"/>
 </map>

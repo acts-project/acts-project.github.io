@@ -11,11 +11,11 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="structdetray_1_1actor_1_1random__scatterer_1_1state.html" target="_top" xlink:title="Per&#45;propagation state for random scattering and energy loss.">
+<g id="a_Node000000"><a xlink:href="structdetray_1_1actor_1_1random__scatterer_1_1kernel.html" target="_top" xlink:title="Material store visitor.">
 <polygon fill="white" stroke="#666666" points="121.75,-46.25 0,-46.25 0,0 121.75,0 121.75,-46.25"/>
 <text xml:space="preserve" text-anchor="start" x="8" y="-32.75" font-family="Helvetica,sans-Serif" font-size="10.00">detray::actor::random</text>
 <text xml:space="preserve" text-anchor="start" x="8" y="-20" font-family="Helvetica,sans-Serif" font-size="10.00">_scatterer&lt; algebra_t</text>
-<text xml:space="preserve" text-anchor="middle" x="60.88" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00"> &gt;::state</text>
+<text xml:space="preserve" text-anchor="middle" x="60.88" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00"> &gt;::kernel</text>
 </a>
 </g>
 </g>

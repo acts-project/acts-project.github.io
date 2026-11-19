@@ -133,6 +133,8 @@ var NAVTREEINDEX17 =
 "class_acts_1_1_fsmw_mode1d_finder.html#aa7b0cd73b4242ec451c37237b263bb37":[8,0,0,154,2],
 "class_acts_1_1_full_billoir_vertex_fitter.html":[6,0,0,150],
 "class_acts_1_1_full_billoir_vertex_fitter.html":[8,0,0,155],
+"class_acts_1_1_full_billoir_vertex_fitter.html#aad7eb11ff6657fded0ce452bfd207eb1":[6,0,0,150,3],
+"class_acts_1_1_full_billoir_vertex_fitter.html#aad7eb11ff6657fded0ce452bfd207eb1":[8,0,0,155,3],
 "class_acts_1_1_full_billoir_vertex_fitter.html#ad8ad64701c842f4b24e494d332aeb487":[6,0,0,150,2],
 "class_acts_1_1_full_billoir_vertex_fitter.html#ad8ad64701c842f4b24e494d332aeb487":[8,0,0,155,2],
 "class_acts_1_1_full_billoir_vertex_fitter.html#af7adbeb84e0872446e62a9f97425dd2d":[6,0,0,150,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX17 =
 "class_acts_1_1_generic_runge_kutta_stepper.html#a6a9f81e6dcdb60fad394a7ad92dde27e":[6,0,0,158,3],
 "class_acts_1_1_generic_runge_kutta_stepper.html#a6a9f81e6dcdb60fad394a7ad92dde27e":[8,0,0,163,3],
 "class_acts_1_1_generic_runge_kutta_stepper.html#a6ca1c23fea5eb0bc6ad616eafcefd7de":[6,0,0,158,41],
-"class_acts_1_1_generic_runge_kutta_stepper.html#a6ca1c23fea5eb0bc6ad616eafcefd7de":[8,0,0,163,41],
-"class_acts_1_1_generic_runge_kutta_stepper.html#a71d270e578ede9989f533f8912548057":[6,0,0,158,26],
-"class_acts_1_1_generic_runge_kutta_stepper.html#a71d270e578ede9989f533f8912548057":[8,0,0,163,26]
+"class_acts_1_1_generic_runge_kutta_stepper.html#a6ca1c23fea5eb0bc6ad616eafcefd7de":[8,0,0,163,41]
 };

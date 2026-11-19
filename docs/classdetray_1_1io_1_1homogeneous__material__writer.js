@@ -1,10 +1,11 @@
 var classdetray_1_1io_1_1homogeneous__material__writer =
 [
-    [ "payload_type", "classdetray_1_1io_1_1homogeneous__material__writer.html#af10744175299e54e6d1f000b7dcfc775", null ],
-    [ "to_header_payload", "classdetray_1_1io_1_1homogeneous__material__writer.html#a88e5674fc897bc686d8ea3a0d8c98dfa", null ],
-    [ "to_payload", "classdetray_1_1io_1_1homogeneous__material__writer.html#a5730eaf4712f0d9a14bef08d6a17a8e7", null ],
-    [ "to_payload", "classdetray_1_1io_1_1homogeneous__material__writer.html#a763ee9d29b1f0647fdb8969027ea6f17", null ],
-    [ "to_payload", "classdetray_1_1io_1_1homogeneous__material__writer.html#ad9da95e4285d2f728a21c055f1502e2b", null ],
-    [ "to_payload", "classdetray_1_1io_1_1homogeneous__material__writer.html#a32387c7e5559d68fd21f21a26a9578a1", null ],
-    [ "tag", "classdetray_1_1io_1_1homogeneous__material__writer.html#abc480b05675ef251ef09873f65cea9c8", null ]
+    [ "payload_type", "classdetray_1_1io_1_1homogeneous__material__writer.html#ae434b639c520b375b01b1f2117b50f68", null ],
+    [ "tag", "classdetray_1_1io_1_1homogeneous__material__writer.html#a89ff0790876e5aeef2fe2a72fa3d3f85", null ],
+    [ "to_payload", "classdetray_1_1io_1_1homogeneous__material__writer.html#a02f3900e730026863525e3421cc55970", null ],
+    [ "to_payload_impl", "classdetray_1_1io_1_1homogeneous__material__writer.html#ae63b57218ea58ade6f10c2bbe7454928", null ],
+    [ "to_payload_impl", "classdetray_1_1io_1_1homogeneous__material__writer.html#a162ae2166763869de1a627db9b6da813", null ],
+    [ "to_payload_impl", "classdetray_1_1io_1_1homogeneous__material__writer.html#a3a92d58c1fc5ae0c5795fed62cdab4bc", null ],
+    [ "to_payload_impl", "classdetray_1_1io_1_1homogeneous__material__writer.html#aaf70276c055af54703e5cdada50f6129", null ],
+    [ "s_tag", "classdetray_1_1io_1_1homogeneous__material__writer.html#a3a5a2c9aafd5000c13b5621a2f6e48a3", null ]
 ];

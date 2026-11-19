@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ACTS: detray::io::material_map_writer Class Reference</title>
+<title>ACTS: detray::io::material_map_writer&lt; detector_t &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -122,7 +122,7 @@ $(function(){initNavTree('classdetray_1_1io_1_1material__map__writer.html','','c
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">detray::io::material_map_writer Class Reference</div></div>
+  <div class="headertitle"><div class="title">detray::io::material_map_writer&lt; detector_t &gt; Class Template Reference<span class="mlabels"><span class="mlabel final">final</span></span></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -131,115 +131,152 @@ $(function(){initNavTree('classdetray_1_1io_1_1material__map__writer.html','','c
 
 <p><code>#include &lt;<a class="el" href="material__map__writer_8hpp_source.html">detray/io/backend/material_map_writer.hpp</a>&gt;</code></p>
 <div class="dynheader">
-Inheritance diagram for detray::io::material_map_writer:</div>
+Inheritance diagram for detray::io::material_map_writer&lt; detector_t &gt;:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classdetray_1_1io_1_1material__map__writer__inherit__graph.svg" width="156" height="131"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classdetray_1_1io_1_1material__map__writer__inherit__graph.svg" width="210" height="148"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for detray::io::material_map_writer:</div>
+Collaboration diagram for detray::io::material_map_writer&lt; detector_t &gt;:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classdetray_1_1io_1_1material__map__writer__coll__graph.svg" width="316" height="251"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classdetray_1_1io_1_1material__map__writer__coll__graph.svg" width="326" height="267"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a64a644713c99d14af475b3917d26da2b" id="r_a64a644713c99d14af475b3917d26da2b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64a644713c99d14af475b3917d26da2b">payload_type</a></td></tr>
-<tr class="memdesc:a64a644713c99d14af475b3917d26da2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Payload type that the reader processes.  <br /></td></tr>
+<tr class="memitem:aaec577c183352557243c59c41eab7092" id="r_aaec577c183352557243c59c41eab7092"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaec577c183352557243c59c41eab7092">payload_type</a></td></tr>
+<tr class="memdesc:aaec577c183352557243c59c41eab7092"><td class="mdescLeft">&#160;</td><td class="mdescRight">Payload type that the reader processes.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a21020cbad09c36be72f60b25faf2ec2a" id="r_a21020cbad09c36be72f60b25faf2ec2a"><td class="memItemLeft" align="right" valign="top">std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21020cbad09c36be72f60b25faf2ec2a">tag</a> () const override</td></tr>
+<tr class="memitem:aa6e9bea79f37fafcce1961b04dc0b4cf" id="r_aa6e9bea79f37fafcce1961b04dc0b4cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6e9bea79f37fafcce1961b04dc0b4cf">to_payload</a> (const detector_t &amp;det, const typename detector_t::name_map &amp;names, <a class="el" href="structdetray_1_1io_1_1detector__payload.html">detector_payload</a> &amp;det_data) const override</td></tr>
+<tr class="memdesc:aa6e9bea79f37fafcce1961b04dc0b4cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the material maps of the detector.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:aff16c8eda8e157ebfd0ccbcb0257f862" id="r_aff16c8eda8e157ebfd0ccbcb0257f862"><td class="memTemplParams" colspan="2">template&lt;class detector_t&gt; </td></tr>
-<tr class="memitem:aff16c8eda8e157ebfd0ccbcb0257f862 template"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff16c8eda8e157ebfd0ccbcb0257f862">to_header_payload</a> (const detector_t &amp;det)</td></tr>
-<tr class="memdesc:aff16c8eda8e157ebfd0ccbcb0257f862"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the header information into its payload.  <br /></td></tr>
-<tr class="memitem:ada357fb7f9336373815f5e57e9a0576f" id="r_ada357fb7f9336373815f5e57e9a0576f"><td class="memTemplParams" colspan="2">template&lt;class detector_t&gt; </td></tr>
-<tr class="memitem:ada357fb7f9336373815f5e57e9a0576f template"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#a64a644713c99d14af475b3917d26da2b">payload_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada357fb7f9336373815f5e57e9a0576f">to_payload</a> (const detector_t &amp;det, const typename detector_t::name_map &amp;)</td></tr>
-<tr class="memdesc:ada357fb7f9336373815f5e57e9a0576f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the material description of a detector <code class="param">det</code> into its io payload.  <br /></td></tr>
+<tr class="memitem:a170f00b99bd166e655109002c41b7c85" id="r_a170f00b99bd166e655109002c41b7c85"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#aaec577c183352557243c59c41eab7092">payload_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a170f00b99bd166e655109002c41b7c85">to_payload_impl</a> (const detector_t &amp;det, const typename detector_t::name_map &amp;)</td></tr>
+<tr class="memdesc:a170f00b99bd166e655109002c41b7c85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the material description of a detector <code class="param">det</code> into its io payload.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a163d31f17a1ffc9ac3e3829b972baeb2" id="r_a163d31f17a1ffc9ac3e3829b972baeb2"><td class="memItemLeft" align="right" valign="top"><a id="a163d31f17a1ffc9ac3e3829b972baeb2" name="a163d31f17a1ffc9ac3e3829b972baeb2"></a>
-static constexpr std::string_view&#160;</td><td class="memItemRight" valign="bottom"><b>tag</b> = &quot;material_maps&quot;</td></tr>
-<tr class="memdesc:a163d31f17a1ffc9ac3e3829b972baeb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tag the writer as "material_map". <br /></td></tr>
+<tr class="memitem:a2900afa995adc4d593c0219e2c19ed31" id="r_a2900afa995adc4d593c0219e2c19ed31"><td class="memItemLeft" align="right" valign="top"><a id="a2900afa995adc4d593c0219e2c19ed31" name="a2900afa995adc4d593c0219e2c19ed31"></a>
+static constexpr std::string_view&#160;</td><td class="memItemRight" valign="bottom"><b>s_tag</b> = &quot;material_maps&quot;</td></tr>
+<tr class="memdesc:a2900afa995adc4d593c0219e2c19ed31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tag the writer as "material_map". <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Material maps writer backend. </p>
+<div class="textblock"><div class="compoundTemplParams">template&lt;<a class="el" href="conceptdetray_1_1concepts_1_1detector.html">detray::concepts::detector</a> detector_t&gt;<br />
+class detray::io::material_map_writer&lt; detector_t &gt;</div><p>Material maps writer backend. </p>
 <p>Fills a material <code>detector_grids_payload</code> from a <code>detector</code> instance </p>
 </div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a64a644713c99d14af475b3917d26da2b" name="a64a644713c99d14af475b3917d26da2b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a64a644713c99d14af475b3917d26da2b">&#9670;&#160;</a></span>payload_type</h2>
+<a id="aaec577c183352557243c59c41eab7092" name="aaec577c183352557243c59c41eab7092"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaec577c183352557243c59c41eab7092">&#9670;&#160;</a></span>payload_type</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="conceptdetray_1_1concepts_1_1detector.html">detray::concepts::detector</a> detector_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a64a644713c99d14af475b3917d26da2b">detray::io::material_map_writer::payload_type</a></td>
+          <td class="memname">using <a class="el" href="classdetray_1_1io_1_1material__map__writer.html">detray::io::material_map_writer</a>&lt; detector_t &gt;::payload_type</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">      <a class="code hl_struct" href="structdetray_1_1io_1_1detector__grids__payload.html">detector_grids_payload&lt;surface_material_payload, io::material_id&gt;</a></div>
-<div class="ttc" id="astructdetray_1_1io_1_1detector__grids__payload_html"><div class="ttname"><a href="structdetray_1_1io_1_1detector__grids__payload.html">detray::io::detector_grids_payload</a></div><div class="ttdoc">A payload for the grid collections of a detector.</div><div class="ttdef"><b>Definition</b> payloads.hpp:313</div></div>
+<div class="ttc" id="astructdetray_1_1io_1_1detector__grids__payload_html"><div class="ttname"><a href="structdetray_1_1io_1_1detector__grids__payload.html">detray::io::detector_grids_payload</a></div><div class="ttdoc">A payload for the grid collections of a detector.</div><div class="ttdef"><b>Definition</b> payloads.hpp:333</div></div>
 </div><!-- fragment -->
 <p>Payload type that the reader processes. </p>
 
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="aff16c8eda8e157ebfd0ccbcb0257f862" name="aff16c8eda8e157ebfd0ccbcb0257f862"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff16c8eda8e157ebfd0ccbcb0257f862">&#9670;&#160;</a></span>to_header_payload()</h2>
+<a id="a21020cbad09c36be72f60b25faf2ec2a" name="a21020cbad09c36be72f60b25faf2ec2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21020cbad09c36be72f60b25faf2ec2a">&#9670;&#160;</a></span>tag()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class detector_t&gt; </div>
+template&lt;<a class="el" href="conceptdetray_1_1concepts_1_1detector.html">detray::concepts::detector</a> detector_t&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">auto detray::io::material_map_writer::to_header_payload </td>
+          <td class="memname">std::string_view <a class="el" href="classdetray_1_1io_1_1material__map__writer.html">detray::io::material_map_writer</a>&lt; detector_t &gt;::tag </td>
           <td>(</td>
-          <td class="paramtype">const detector_t &amp;</td>          <td class="paramname"><span class="paramname"><em>det</em></span></td><td>)</td>
-          <td></td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel override">override</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Convert the header information into its payload. </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">detector_t</td><td>Detector type to serialize. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">det</td><td>Detector whose material grids are written. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Header payload describing the material grids. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>the tag of the writer: "material_maps" </dd></dl>
 
 </div>
 </div>
-<a id="ada357fb7f9336373815f5e57e9a0576f" name="ada357fb7f9336373815f5e57e9a0576f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada357fb7f9336373815f5e57e9a0576f">&#9670;&#160;</a></span>to_payload()</h2>
+<a id="aa6e9bea79f37fafcce1961b04dc0b4cf" name="aa6e9bea79f37fafcce1961b04dc0b4cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6e9bea79f37fafcce1961b04dc0b4cf">&#9670;&#160;</a></span>to_payload()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class detector_t&gt; </div>
+template&lt;<a class="el" href="conceptdetray_1_1concepts_1_1detector.html">detray::concepts::detector</a> detector_t&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a64a644713c99d14af475b3917d26da2b">payload_type</a> detray::io::material_map_writer::to_payload </td>
+          <td class="memname">void <a class="el" href="classdetray_1_1io_1_1material__map__writer.html">detray::io::material_map_writer</a>&lt; detector_t &gt;::to_payload </td>
+          <td>(</td>
+          <td class="paramtype">const detector_t &amp;</td>          <td class="paramname"><span class="paramname"><em>det</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const typename detector_t::name_map &amp;</td>          <td class="paramname"><span class="paramname"><em>names</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structdetray_1_1io_1_1detector__payload.html">detector_payload</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>det_data</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert the material maps of the detector. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">det</td><td>Detector whose material maps are serialized. </td></tr>
+    <tr><td class="paramname">names</td><td>Optional volume names indexed by volume index. </td></tr>
+    <tr><td class="paramname">det_data</td><td>Payload to which the serialized data is added. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a170f00b99bd166e655109002c41b7c85" name="a170f00b99bd166e655109002c41b7c85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a170f00b99bd166e655109002c41b7c85">&#9670;&#160;</a></span>to_payload_impl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="conceptdetray_1_1concepts_1_1detector.html">detray::concepts::detector</a> detector_t&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#aaec577c183352557243c59c41eab7092">payload_type</a> <a class="el" href="classdetray_1_1io_1_1material__map__writer.html">detray::io::material_map_writer</a>&lt; detector_t &gt;::to_payload_impl </td>
           <td>(</td>
           <td class="paramtype">const detector_t &amp;</td>          <td class="paramname"><span class="paramname"><em>det</em></span>, </td>
         </tr>

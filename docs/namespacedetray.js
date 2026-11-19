@@ -423,6 +423,7 @@ var namespacedetray =
     [ "n_portals", "namespacedetray.html#a72646e056a2bdfcc8cb0f640243a6044", null ],
     [ "n_sensitives", "namespacedetray.html#a279df485c8054d38ba9e6352e65c9839", null ],
     [ "n_surface_grids", "namespacedetray.html#a8305de4919bdac48de0e173646039f11", null ],
+    [ "n_surfaces", "namespacedetray.html#a902fd2339819880fa737c6ada03b47be", null ],
     [ "newton_raphson", "namespacedetray.html#aba966e15753da94e53047c3790832d2c", null ],
     [ "newton_raphson_safe", "namespacedetray.html#a6712f813b04c1f4bee462e3cf2e36314", null ],
     [ "operator*", "namespacedetray.html#a5012a04ca8fc85fab77a3fbb8a550f7c", null ],

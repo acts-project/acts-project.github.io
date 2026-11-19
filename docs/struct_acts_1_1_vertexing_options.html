@@ -143,6 +143,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a51b8a6e95b545cd976fec1300f2e0b96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor is deleted. <br /></td></tr>
 <tr class="memitem:afcf56ade3d3f0c72b21e18bd8fb7707a" id="r_afcf56ade3d3f0c72b21e18bd8fb7707a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcf56ade3d3f0c72b21e18bd8fb7707a">VertexingOptions</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_magnetic_field_context.html">MagneticFieldContext</a> &amp;mctx)</td></tr>
 <tr class="memdesc:afcf56ade3d3f0c72b21e18bd8fb7707a"><td class="mdescLeft">&#160;</td><td class="mdescRight">VertexingOptions with context and without vertex constraint.  <br /></td></tr>
+<tr class="memitem:ab5f375fb7775443af8a995caed5f2e21" id="r_ab5f375fb7775443af8a995caed5f2e21"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5f375fb7775443af8a995caed5f2e21">VertexingOptions</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_magnetic_field_context.html">MagneticFieldContext</a> &amp;mctx, const std::optional&lt; <a class="el" href="class_acts_1_1_vertex.html">Vertex</a> &gt; &amp;constr)</td></tr>
+<tr class="memdesc:ab5f375fb7775443af8a995caed5f2e21"><td class="mdescLeft">&#160;</td><td class="mdescRight">VertexingOptions with context and an optional vertex constraint.  <br /></td></tr>
 <tr class="memitem:a21cc7a26b97c4a143c8b785f3fa675fd" id="r_a21cc7a26b97c4a143c8b785f3fa675fd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21cc7a26b97c4a143c8b785f3fa675fd">VertexingOptions</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_magnetic_field_context.html">MagneticFieldContext</a> &amp;mctx, const <a class="el" href="class_acts_1_1_vertex.html">Vertex</a> &amp;constr, const bool useConstr=true)</td></tr>
 <tr class="memdesc:a21cc7a26b97c4a143c8b785f3fa675fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">VertexingOptions with context and vertex constraint.  <br /></td></tr>
 </table><table class="memberdecls">
@@ -163,7 +165,7 @@ std::reference_wrapper&lt; const <a class="el" href="class_acts_1_1_magnetic_fie
 <div class="textblock"><p>Vertex Finder Options. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a21cc7a26b97c4a143c8b785f3fa675fd" name="a21cc7a26b97c4a143c8b785f3fa675fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a21cc7a26b97c4a143c8b785f3fa675fd">&#9670;&#160;</a></span>VertexingOptions() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a21cc7a26b97c4a143c8b785f3fa675fd">&#9670;&#160;</a></span>VertexingOptions() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -204,8 +206,44 @@ std::reference_wrapper&lt; const <a class="el" href="class_acts_1_1_magnetic_fie
 
 </div>
 </div>
+<a id="ab5f375fb7775443af8a995caed5f2e21" name="ab5f375fb7775443af8a995caed5f2e21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5f375fb7775443af8a995caed5f2e21">&#9670;&#160;</a></span>VertexingOptions() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Acts::VertexingOptions::VertexingOptions </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_magnetic_field_context.html">MagneticFieldContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::optional&lt; <a class="el" href="class_acts_1_1_vertex.html">Vertex</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>constr</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>VertexingOptions with context and an optional vertex constraint. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gctx</td><td>Geometry context </td></tr>
+    <tr><td class="paramname">mctx</td><td>Magnetic field context </td></tr>
+    <tr><td class="paramname">constr</td><td>Vertex constraint, or nullopt for an unconstrained fit </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="afcf56ade3d3f0c72b21e18bd8fb7707a" name="afcf56ade3d3f0c72b21e18bd8fb7707a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afcf56ade3d3f0c72b21e18bd8fb7707a">&#9670;&#160;</a></span>VertexingOptions() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afcf56ade3d3f0c72b21e18bd8fb7707a">&#9670;&#160;</a></span>VertexingOptions() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

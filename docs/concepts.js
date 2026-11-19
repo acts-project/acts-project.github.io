@@ -174,12 +174,6 @@ var concepts =
         [ "volume_grid", "conceptdetray_1_1concepts_1_1volume__grid.html", null ],
         [ "volume_material", "conceptdetray_1_1concepts_1_1volume__material.html", null ]
       ] ],
-      [ "io", "namespacedetray_1_1io.html", [
-        [ "concepts", null, [
-          [ "reader_backend", "conceptdetray_1_1io_1_1concepts_1_1reader__backend.html", null ],
-          [ "writer_backend", "conceptdetray_1_1io_1_1concepts_1_1writer__backend.html", null ]
-        ] ]
-      ] ],
       [ "ranges", null, [
         [ "bidirectional_range", "conceptdetray_1_1ranges_1_1bidirectional__range.html", null ],
         [ "forward_range", "conceptdetray_1_1ranges_1_1forward__range.html", null ],

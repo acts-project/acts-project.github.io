@@ -11,10 +11,10 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="struct_acts_1_1_i_assignment_finder_1_1_surface_assignment.html" target="_top" xlink:title="SurfaceAssignment is a surface, a position and a direction.">
+<g id="a_Node000000"><a xlink:href="struct_acts_1_1_i_assignment_finder_1_1_volume_assignment.html" target="_top" xlink:title="VolumeAssignment is a volume and a entry and exit of the volume.">
 <polygon fill="white" stroke="#666666" points="133.75,-33.5 0,-33.5 0,0 133.75,0 133.75,-33.5"/>
 <text xml:space="preserve" text-anchor="start" x="8" y="-20" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::IAssignmentFinder</text>
-<text xml:space="preserve" text-anchor="middle" x="66.88" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">::SurfaceAssignment</text>
+<text xml:space="preserve" text-anchor="middle" x="66.88" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">::VolumeAssignment</text>
 </a>
 </g>
 </g>

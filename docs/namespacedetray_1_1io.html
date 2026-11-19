@@ -173,12 +173,10 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract base class for detray detector component converters.  <a href="classdetray_1_1io_1_1input__converter__interface.html#details">More...</a><br /></td></tr>
 <tr class="memitem:input_5Ffile_5Fconverter_5Finterface" id="r_input_5Ffile_5Fconverter_5Finterface"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdetray_1_1io_1_1input__file__converter__interface.html">input_file_converter_interface</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract base class for detray detector component file readers.  <a href="classdetray_1_1io_1_1input__file__converter__interface.html#details">More...</a><br /></td></tr>
-<tr class="memitem:json_5Fconverter" id="r_json_5Fconverter"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdetray_1_1io_1_1json__converter.html">json_converter</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class that adds converts io payloads to json and back.  <a href="classdetray_1_1io_1_1json__converter.html#details">More...</a><br /></td></tr>
-<tr class="memitem:json_5Fconverter_3C_20detector_5Ft_2C_20backend_5Ft_20_3E" id="r_json_5Fconverter_3C_20detector_5Ft_2C_20backend_5Ft_20_3E"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdetray_1_1io_1_1json__converter_3_01detector__t_00_01backend__t_01_4.html">json_converter&lt; detector_t, backend_t &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class that adds json functionality to backend writer types.  <a href="classdetray_1_1io_1_1json__converter_3_01detector__t_00_01backend__t_01_4.html#details">More...</a><br /></td></tr>
 <tr class="memitem:json_5Finput_5Fconverter" id="r_json_5Finput_5Fconverter"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdetray_1_1io_1_1json__input__converter.html">json_input_converter</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class that reads json data from file and converts it to a detector payload (single component per file).  <a href="classdetray_1_1io_1_1json__input__converter.html#details">More...</a><br /></td></tr>
+<tr class="memitem:json_5Foutput_5Fconverter" id="r_json_5Foutput_5Fconverter"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdetray_1_1io_1_1json__output__converter.html">json_output_converter</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class that converts a detector payload to json and writes it to file (single component per file).  <a href="classdetray_1_1io_1_1json__output__converter.html#details">More...</a><br /></td></tr>
 <tr class="memitem:mask_5Fpayload" id="r_mask_5Fpayload"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdetray_1_1io_1_1mask__payload.html">mask_payload</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A payload object for surface masks.  <a href="structdetray_1_1io_1_1mask__payload.html#details">More...</a><br /></td></tr>
 <tr class="memitem:material_5Fmap_5Freader" id="r_material_5Fmap_5Freader"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdetray_1_1io_1_1material__map__reader.html">material_map_reader</a></td></tr>
@@ -189,6 +187,10 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A payload object for a material parametrization.  <a href="structdetray_1_1io_1_1material__param__payload.html#details">More...</a><br /></td></tr>
 <tr class="memitem:material_5Fvolume_5Fpayload" id="r_material_5Fvolume_5Fpayload"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdetray_1_1io_1_1material__volume__payload.html">material_volume_payload</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A payload object for all of the [surface] material contained in a volume.  <a href="structdetray_1_1io_1_1material__volume__payload.html#details">More...</a><br /></td></tr>
+<tr class="memitem:output_5Fconverter_5Finterface" id="r_output_5Fconverter_5Finterface"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdetray_1_1io_1_1output__converter__interface.html">output_converter_interface</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract base class for detray detector payload output converters.  <a href="classdetray_1_1io_1_1output__converter__interface.html#details">More...</a><br /></td></tr>
+<tr class="memitem:output_5Ffile_5Fconverter_5Finterface" id="r_output_5Ffile_5Fconverter_5Finterface"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdetray_1_1io_1_1output__file__converter__interface.html">output_file_converter_interface</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract base class for detray detector payload file writers.  <a href="classdetray_1_1io_1_1output__file__converter__interface.html#details">More...</a><br /></td></tr>
 <tr class="memitem:reader_5Finterface" id="r_reader_5Finterface"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdetray_1_1io_1_1reader__interface.html">reader_interface</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract base class for detray detector component readers.  <a href="classdetray_1_1io_1_1reader__interface.html#details">More...</a><br /></td></tr>
 <tr class="memitem:single_5Flink_5Fpayload" id="r_single_5Flink_5Fpayload"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdetray_1_1io_1_1single__link__payload.html">single_link_payload</a></td></tr>
@@ -302,8 +304,13 @@ Enumerations</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a0fd9f8bce198d236e2aecbc62e04bbd4" id="r_a0fd9f8bce198d236e2aecbc62e04bbd4"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fd9f8bce198d236e2aecbc62e04bbd4">alt_file_name</a> (const std::string &amp;name)</td></tr>
 <tr class="memdesc:a0fd9f8bce198d236e2aecbc62e04bbd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find an unused numbered alternative to an existing file name.  <br /></td></tr>
+<tr class="memitem:ad8bd0081f8f8c71030457e89f705a0cf" id="r_ad8bd0081f8f8c71030457e89f705a0cf"><td class="memTemplParams" colspan="2">template&lt;typename... output_converter_ts&gt; </td></tr>
+<tr class="memitem:ad8bd0081f8f8c71030457e89f705a0cf template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8bd0081f8f8c71030457e89f705a0cf">convert_from_payload</a> (<a class="el" href="structdetray_1_1io_1_1detector__payload.html">detray::io::detector_payload</a> &amp;payload, const <a class="el" href="structdetray_1_1io_1_1detector__writer__config.html">detray::io::detector_writer_config</a> &amp;cfg)</td></tr>
+<tr class="memdesc:ad8bd0081f8f8c71030457e89f705a0cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the detector payload into output files.  <br /></td></tr>
 <tr class="memitem:a140aa993fa776326d62b49745c3c62c9" id="r_a140aa993fa776326d62b49745c3c62c9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a140aa993fa776326d62b49745c3c62c9">convert_json_to_payload</a> (<a class="el" href="structdetray_1_1io_1_1detector__payload.html">detray::io::detector_payload</a> &amp;payload, std::initializer_list&lt; std::string_view &gt; file_names)</td></tr>
 <tr class="memdesc:a140aa993fa776326d62b49745c3c62c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert data from json input files to detector payload.  <br /></td></tr>
+<tr class="memitem:aa4784db42b11279ebe47437b80690cf8" id="r_aa4784db42b11279ebe47437b80690cf8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4784db42b11279ebe47437b80690cf8">convert_payload_to_json</a> (<a class="el" href="structdetray_1_1io_1_1detector__payload.html">detray::io::detector_payload</a> &amp;payload, const <a class="el" href="structdetray_1_1io_1_1detector__writer__config.html">detray::io::detector_writer_config</a> &amp;cfg)</td></tr>
+<tr class="memdesc:aa4784db42b11279ebe47437b80690cf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the detector payload to json output files.  <br /></td></tr>
 <tr class="memitem:a7cab95af23a4d41aa51c30e45e1f3072" id="r_a7cab95af23a4d41aa51c30e45e1f3072"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cab95af23a4d41aa51c30e45e1f3072">create_path</a> (const std::string &amp;outdir)</td></tr>
 <tr class="memdesc:a7cab95af23a4d41aa51c30e45e1f3072"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a given file path exists and generate it if not.  <br /></td></tr>
 <tr class="memitem:aa21bdaf79ec0be1f8fe9231cc9a320e6" id="r_aa21bdaf79ec0be1f8fe9231cc9a320e6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa21bdaf79ec0be1f8fe9231cc9a320e6">file_exists</a> (const std::string &amp;outdir)</td></tr>
@@ -323,9 +330,23 @@ Functions</h2></td></tr>
 <tr class="memitem:a1c2d54c032604822e995d2ed3c8f753e" id="r_a1c2d54c032604822e995d2ed3c8f753e"><td class="memTemplParams" colspan="2">template&lt;class detector_t, std::size_t GCAP = 0u, std::size_t GDIM = 2u, std::size_t MDIM = 2u, template&lt; typename &gt; class volume_builder_t = volume_builder&gt; </td></tr>
 <tr class="memitem:a1c2d54c032604822e995d2ed3c8f753e template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c2d54c032604822e995d2ed3c8f753e">read_detector_json</a> (vecmem::memory_resource &amp;resc, const <a class="el" href="structdetray_1_1io_1_1detector__reader__config.html">detector_reader_config</a> &amp;cfg) noexcept(false)</td></tr>
 <tr class="memdesc:a1c2d54c032604822e995d2ed3c8f753e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read and build the detector completely from json files.  <br /></td></tr>
-<tr class="memitem:a0496715254e8af0df5437ac4bb3972be" id="r_a0496715254e8af0df5437ac4bb3972be"><td class="memTemplParams" colspan="2">template&lt;class detector_t&gt; </td></tr>
-<tr class="memitem:a0496715254e8af0df5437ac4bb3972be template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0496715254e8af0df5437ac4bb3972be">write_detector</a> (detector_t &amp;det, const typename detector_t::name_map &amp;names, <a class="el" href="structdetray_1_1io_1_1detector__writer__config.html">detector_writer_config</a> &amp;cfg)</td></tr>
-<tr class="memdesc:a0496715254e8af0df5437ac4bb3972be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writer function for detray detectors.  <br /></td></tr>
+<tr class="memitem:aa3bed30d3d88d324b4570d8016432813" id="r_aa3bed30d3d88d324b4570d8016432813"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdetray_1_1io_1_1geometry__header__payload.html">geometry_header_payload</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3bed30d3d88d324b4570d8016432813">to_header_payload</a> (const <a class="el" href="structdetray_1_1io_1_1detector__geometry__payload.html">detector_geometry_payload</a> &amp;geo_data)</td></tr>
+<tr class="memdesc:aa3bed30d3d88d324b4570d8016432813"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate the geometry header payload.  <br /></td></tr>
+<tr class="memitem:acf56648b392f87c9e51406d96a9be63d" id="r_acf56648b392f87c9e51406d96a9be63d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdetray_1_1io_1_1grid__header__payload.html">grid_header_payload</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf56648b392f87c9e51406d96a9be63d">to_header_payload</a> (const <a class="el" href="structdetray_1_1io_1_1detector__grids__payload.html">detector_grids_payload</a>&lt; std::size_t, <a class="el" href="#a6b1a4b80b44a224de9510ceb77cda463">io::accel_id</a> &gt; &amp;grid_data)</td></tr>
+<tr class="memdesc:acf56648b392f87c9e51406d96a9be63d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the header information into its payload.  <br /></td></tr>
+<tr class="memitem:a24531fb7c85a673c5a25a6132cac53dc" id="r_a24531fb7c85a673c5a25a6132cac53dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdetray_1_1io_1_1grid__header__payload.html">grid_header_payload</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24531fb7c85a673c5a25a6132cac53dc">to_header_payload</a> (const <a class="el" href="structdetray_1_1io_1_1detector__grids__payload.html">detector_grids_payload</a>&lt; <a class="el" href="structdetray_1_1io_1_1surface__material__payload.html">surface_material_payload</a>, <a class="el" href="#aacae05165d36b2e2c6bed47d42d434c2">io::material_id</a> &gt; &amp;maps_data)</td></tr>
+<tr class="memdesc:a24531fb7c85a673c5a25a6132cac53dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the header information into its payload.  <br /></td></tr>
+<tr class="memitem:a356000f3a9ea7963481a01b325b67ec7" id="r_a356000f3a9ea7963481a01b325b67ec7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdetray_1_1io_1_1homogeneous__material__header__payload.html">homogeneous_material_header_payload</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a356000f3a9ea7963481a01b325b67ec7">to_header_payload</a> (const <a class="el" href="structdetray_1_1io_1_1detector__homogeneous__material__payload.html">detector_homogeneous_material_payload</a> &amp;mat_data)</td></tr>
+<tr class="memdesc:a356000f3a9ea7963481a01b325b67ec7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate the material header data.  <br /></td></tr>
+<tr class="memitem:a0d01543146b5a76f4b5bcb8633dd9d0c" id="r_a0d01543146b5a76f4b5bcb8633dd9d0c"><td class="memTemplParams" colspan="2">template&lt;class detector_t, typename... output_converter_ts&gt; </td></tr>
+<tr class="memitem:a0d01543146b5a76f4b5bcb8633dd9d0c template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d01543146b5a76f4b5bcb8633dd9d0c">write_detector</a> (const detector_t &amp;det, const typename detector_t::name_map &amp;names, <a class="el" href="structdetray_1_1io_1_1detector__writer__config.html">detray::io::detector_writer_config</a> &amp;cfg) noexcept(false)</td></tr>
+<tr class="memdesc:a0d01543146b5a76f4b5bcb8633dd9d0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write the output file completely from detector.  <br /></td></tr>
+<tr class="memitem:af621852eb9b77fed431dc14aa71ae15e" id="r_af621852eb9b77fed431dc14aa71ae15e"><td class="memTemplParams" colspan="2">template&lt;class detector_t, typename... output_converter_ts&gt; </td></tr>
+<tr class="memitem:af621852eb9b77fed431dc14aa71ae15e template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af621852eb9b77fed431dc14aa71ae15e">write_detector</a> (const detector_t &amp;det, const typename detector_t::name_map &amp;names, <a class="el" href="structdetray_1_1io_1_1detector__writer__config.html">detray::io::detector_writer_config</a> &amp;cfg, <a class="el" href="structdetray_1_1io_1_1detector__payload.html">detray::io::detector_payload</a> &amp;payload) noexcept(false)</td></tr>
+<tr class="memdesc:af621852eb9b77fed431dc14aa71ae15e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writer function for detray detectors: some components are written from externally provided payload.  <br /></td></tr>
+<tr class="memitem:a95bd56def2c1091534f9bd327c2d39cb" id="r_a95bd56def2c1091534f9bd327c2d39cb"><td class="memTemplParams" colspan="2">template&lt;class detector_t&gt; </td></tr>
+<tr class="memitem:a95bd56def2c1091534f9bd327c2d39cb template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95bd56def2c1091534f9bd327c2d39cb">write_detector_json</a> (const detector_t &amp;det, const typename detector_t::name_map &amp;names, <a class="el" href="structdetray_1_1io_1_1detector__writer__config.html">detray::io::detector_writer_config</a> &amp;cfg) noexcept(false)</td></tr>
+<tr class="memdesc:a95bd56def2c1091534f9bd327c2d39cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write the detector completely to json files.  <br /></td></tr>
 <tr id="func-members-0" class="groupHeader"><td colspan="2"><div class="groupHeader"></div></td></tr>
 <tr class="memitem:ae1f2f29b3967aa9cdf2cb9fae420392e" id="r_ae1f2f29b3967aa9cdf2cb9fae420392e"><td class="memTemplParams" colspan="2">template&lt;typename... input_converter_ts&gt; </td></tr>
 <tr class="memitem:ae1f2f29b3967aa9cdf2cb9fae420392e template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1f2f29b3967aa9cdf2cb9fae420392e">convert_to_payload</a> (<a class="el" href="structdetray_1_1io_1_1detector__payload.html">detray::io::detector_payload</a> &amp;payload, const std::vector&lt; std::string &gt; &amp;file_names)</td></tr>
@@ -458,6 +479,44 @@ template&lt;<a class="el" href="conceptdetray_1_1concepts_1_1algebra.html">detra
 
 </div>
 </div>
+<a id="ad8bd0081f8f8c71030457e89f705a0cf" name="ad8bd0081f8f8c71030457e89f705a0cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8bd0081f8f8c71030457e89f705a0cf">&#9670;&#160;</a></span>convert_from_payload()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename... output_converter_ts&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void detray::io::convert_from_payload </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structdetray_1_1io_1_1detector__payload.html">detray::io::detector_payload</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>payload</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structdetray_1_1io_1_1detector__writer__config.html">detray::io::detector_writer_config</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cfg</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert the detector payload into output files. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">output_converter_ts</td><td>converter types for the output file formats</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">payload</td><td>the full detector payload, which is converted. Its header is generated from the payload data </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">cfg</td><td>the detector writer configuration </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a140aa993fa776326d62b49745c3c62c9" name="a140aa993fa776326d62b49745c3c62c9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a140aa993fa776326d62b49745c3c62c9">&#9670;&#160;</a></span>convert_json_to_payload()</h2>
 
@@ -482,6 +541,36 @@ template&lt;<a class="el" href="conceptdetray_1_1concepts_1_1algebra.html">detra
   <table class="params">
     <tr><td class="paramdir">[out]</td><td class="paramname">payload</td><td>payload containing detector data (all components) </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">file_names</td><td>a number of input file names </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aa4784db42b11279ebe47437b80690cf8" name="aa4784db42b11279ebe47437b80690cf8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4784db42b11279ebe47437b80690cf8">&#9670;&#160;</a></span>convert_payload_to_json()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void detray::io::convert_payload_to_json </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structdetray_1_1io_1_1detector__payload.html">detray::io::detector_payload</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>payload</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structdetray_1_1io_1_1detector__writer__config.html">detray::io::detector_writer_config</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cfg</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert the detector payload to json output files. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">payload</td><td>payload containing detector data (all components). Its header is generated from the payload data </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">cfg</td><td>the detector writer configuration </td></tr>
   </table>
   </dd>
 </dl>
@@ -832,18 +921,122 @@ template&lt;class detector_t, std::size_t GCAP = 0u, std::size_t GDIM = 2u, std:
 
 </div>
 </div>
-<a id="a0496715254e8af0df5437ac4bb3972be" name="a0496715254e8af0df5437ac4bb3972be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0496715254e8af0df5437ac4bb3972be">&#9670;&#160;</a></span>write_detector()</h2>
+<a id="aa3bed30d3d88d324b4570d8016432813" name="aa3bed30d3d88d324b4570d8016432813"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3bed30d3d88d324b4570d8016432813">&#9670;&#160;</a></span>to_header_payload() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structdetray_1_1io_1_1geometry__header__payload.html">geometry_header_payload</a> detray::io::to_header_payload </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structdetray_1_1io_1_1detector__geometry__payload.html">detector_geometry_payload</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>geo_data</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generate the geometry header payload. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">geo_data</td><td>the input geometry payload </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the geometry header data </dd></dl>
+
+</div>
+</div>
+<a id="acf56648b392f87c9e51406d96a9be63d" name="acf56648b392f87c9e51406d96a9be63d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf56648b392f87c9e51406d96a9be63d">&#9670;&#160;</a></span>to_header_payload() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structdetray_1_1io_1_1grid__header__payload.html">grid_header_payload</a> detray::io::to_header_payload </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structdetray_1_1io_1_1detector__grids__payload.html">detector_grids_payload</a>&lt; std::size_t, <a class="el" href="#a6b1a4b80b44a224de9510ceb77cda463">io::accel_id</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>grid_data</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert the header information into its payload. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">grid_data</td><td>The input surface grid payload. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Header payload describing the material grids. </dd></dl>
+
+</div>
+</div>
+<a id="a24531fb7c85a673c5a25a6132cac53dc" name="a24531fb7c85a673c5a25a6132cac53dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24531fb7c85a673c5a25a6132cac53dc">&#9670;&#160;</a></span>to_header_payload() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structdetray_1_1io_1_1grid__header__payload.html">grid_header_payload</a> detray::io::to_header_payload </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structdetray_1_1io_1_1detector__grids__payload.html">detector_grids_payload</a>&lt; <a class="el" href="structdetray_1_1io_1_1surface__material__payload.html">surface_material_payload</a>, <a class="el" href="#aacae05165d36b2e2c6bed47d42d434c2">io::material_id</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>maps_data</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert the header information into its payload. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">maps_data</td><td>The input material maps payload. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Header payload describing the material grids. </dd></dl>
+
+</div>
+</div>
+<a id="a356000f3a9ea7963481a01b325b67ec7" name="a356000f3a9ea7963481a01b325b67ec7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a356000f3a9ea7963481a01b325b67ec7">&#9670;&#160;</a></span>to_header_payload() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structdetray_1_1io_1_1homogeneous__material__header__payload.html">homogeneous_material_header_payload</a> detray::io::to_header_payload </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structdetray_1_1io_1_1detector__homogeneous__material__payload.html">detector_homogeneous_material_payload</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mat_data</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generate the material header data. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mat_data</td><td>the input homogeneous material payload </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the homogeneous material header data </dd></dl>
+
+</div>
+</div>
+<a id="a0d01543146b5a76f4b5bcb8633dd9d0c" name="a0d01543146b5a76f4b5bcb8633dd9d0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d01543146b5a76f4b5bcb8633dd9d0c">&#9670;&#160;</a></span>write_detector() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class detector_t&gt; </div>
+template&lt;class detector_t, typename... output_converter_ts&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void detray::io::write_detector </td>
           <td>(</td>
-          <td class="paramtype">detector_t &amp;</td>          <td class="paramname"><span class="paramname"><em>det</em></span>, </td>
+          <td class="paramtype">const detector_t &amp;</td>          <td class="paramname"><span class="paramname"><em>det</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -853,23 +1046,120 @@ template&lt;class detector_t&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structdetray_1_1io_1_1detector__writer__config.html">detector_writer_config</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cfg</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="structdetray_1_1io_1_1detector__writer__config.html">detray::io::detector_writer_config</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cfg</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Writer function for detray detectors. </p>
-<p>Assemble the configured component writers and serialize the detector. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+<p>Write the output file completely from detector. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">detector_t</td><td>detector type providing stores and name map </td></tr>
+    <tr><td class="paramname">detector_t</td><td>the type of detector to be written </td></tr>
+    <tr><td class="paramname">output_converter_ts</td><td>converter types for the output file formats</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">det</td><td>detector whose component stores are written </td></tr>
-    <tr><td class="paramname">names</td><td>map used to write component names </td></tr>
-    <tr><td class="paramname">cfg</td><td>output format, destination, and component-selection options </td></tr>
+    <tr><td class="paramname">det</td><td>the detector to be written </td></tr>
+    <tr><td class="paramname">names</td><td>the volume names of the detector </td></tr>
+    <tr><td class="paramname">cfg</td><td>the detector writer configuration </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af621852eb9b77fed431dc14aa71ae15e" name="af621852eb9b77fed431dc14aa71ae15e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af621852eb9b77fed431dc14aa71ae15e">&#9670;&#160;</a></span>write_detector() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class detector_t, typename... output_converter_ts&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void detray::io::write_detector </td>
+          <td>(</td>
+          <td class="paramtype">const detector_t &amp;</td>          <td class="paramname"><span class="paramname"><em>det</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const typename detector_t::name_map &amp;</td>          <td class="paramname"><span class="paramname"><em>names</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structdetray_1_1io_1_1detector__writer__config.html">detray::io::detector_writer_config</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cfg</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structdetray_1_1io_1_1detector__payload.html">detray::io::detector_payload</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>payload</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Writer function for detray detectors: some components are written from externally provided payload. </p>
+<p>Based on both the given config/file format and the detector type, the correct writers and converters are being assembled and called.</p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">detector_t</td><td>the type of detector to be written </td></tr>
+    <tr><td class="paramname">output_converter_ts</td><td>converter types for the output file formats</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir"></td><td class="paramname">det</td><td>the detector to be written </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">names</td><td>the volume names of the detector </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">cfg</td><td>the detector writer configuration </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">payload</td><td>detector intermediate data representation </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a95bd56def2c1091534f9bd327c2d39cb" name="a95bd56def2c1091534f9bd327c2d39cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95bd56def2c1091534f9bd327c2d39cb">&#9670;&#160;</a></span>write_detector_json()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class detector_t&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void detray::io::write_detector_json </td>
+          <td>(</td>
+          <td class="paramtype">const detector_t &amp;</td>          <td class="paramname"><span class="paramname"><em>det</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const typename detector_t::name_map &amp;</td>          <td class="paramname"><span class="paramname"><em>names</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structdetray_1_1io_1_1detector__writer__config.html">detray::io::detector_writer_config</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cfg</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Write the detector completely to json files. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">detector_t</td><td>the type of detector to be written</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">det</td><td>the detector to be written </td></tr>
+    <tr><td class="paramname">names</td><td>the volume names of the detector </td></tr>
+    <tr><td class="paramname">cfg</td><td>the detector writer configuration </td></tr>
   </table>
   </dd>
 </dl>

@@ -122,7 +122,7 @@ $(function(){initNavTree('class_acts_1_1_full_billoir_vertex_fitter.html','','cl
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">Acts::FullBilloirVertexFitter Class Reference</div></div>
+  <div class="headertitle"><div class="title">Acts::FullBilloirVertexFitter Class Reference<span class="mlabels"><span class="mlabel final">final</span></span></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -130,6 +130,16 @@ $(function(){initNavTree('class_acts_1_1_full_billoir_vertex_fitter.html','','cl
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_full_billoir_vertex_fitter_8hpp_source.html">Acts/Vertexing/FullBilloirVertexFitter.hpp</a>&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for Acts::FullBilloirVertexFitter:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_acts_1_1_full_billoir_vertex_fitter__inherit__graph.svg" width="206" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for Acts::FullBilloirVertexFitter:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_acts_1_1_full_billoir_vertex_fitter__coll__graph.svg" width="206" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -142,6 +152,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:af7adbeb84e0872446e62a9f97425dd2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for user-defined InputTrack type.  <br /></td></tr>
 <tr class="memitem:ad8ad64701c842f4b24e494d332aeb487" id="r_ad8ad64701c842f4b24e494d332aeb487"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="class_acts_1_1_vertex.html">Vertex</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8ad64701c842f4b24e494d332aeb487">fit</a> (const std::vector&lt; <a class="el" href="struct_acts_1_1_input_track.html">InputTrack</a> &gt; &amp;paramVector, const <a class="el" href="struct_acts_1_1_vertexing_options.html">VertexingOptions</a> &amp;vertexingOptions, <a class="el" href="class_acts_1_1_magnetic_field_query.html">MagneticFieldQuery</a> &amp;field) const</td></tr>
 <tr class="memdesc:ad8ad64701c842f4b24e494d332aeb487"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fit using a reusable field query.  <br /></td></tr>
+<tr class="memitem:aad7eb11ff6657fded0ce452bfd207eb1" id="r_aad7eb11ff6657fded0ce452bfd207eb1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="class_acts_1_1_vertex.html">Vertex</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad7eb11ff6657fded0ce452bfd207eb1">fit</a> (const <a class="el" href="struct_acts_1_1_vertex_fit_input.html">VertexFitInput</a> &amp;input, const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, <a class="el" href="class_acts_1_1_magnetic_field_query.html">MagneticFieldQuery</a> &amp;field) const override</td></tr>
+<tr class="memdesc:aad7eb11ff6657fded0ce452bfd207eb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fit one vertex from tracks, a seed and an optional vertex constraint.     <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Vertex fitter class implementing the Billoir vertex fitter. </p>
@@ -190,7 +202,7 @@ Public Member Functions</h2></td></tr>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="ad8ad64701c842f4b24e494d332aeb487" name="ad8ad64701c842f4b24e494d332aeb487"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8ad64701c842f4b24e494d332aeb487">&#9670;&#160;</a></span>fit()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8ad64701c842f4b24e494d332aeb487">&#9670;&#160;</a></span>fit() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -223,6 +235,53 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Fitted vertex </dd></dl>
+
+</div>
+</div>
+<a id="aad7eb11ff6657fded0ce452bfd207eb1" name="aad7eb11ff6657fded0ce452bfd207eb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad7eb11ff6657fded0ce452bfd207eb1">&#9670;&#160;</a></span>fit() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="class_acts_1_1_vertex.html">Vertex</a> &gt; Acts::FullBilloirVertexFitter::fit </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_vertex_fit_input.html">VertexFitInput</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>input</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_acts_1_1_magnetic_field_query.html">MagneticFieldQuery</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>field</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Fit one vertex from tracks, a seed and an optional vertex constraint.    </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">input</td><td>Fit inputs, including the initial linearization point </td></tr>
+    <tr><td class="paramname">gctx</td><td>Geometry context for this fit </td></tr>
+    <tr><td class="paramname">field</td><td>Reusable field query, not retained by the fit </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Fitted vertex with its fitted tracks, or a fitting error    </dd></dl>
+
+<p>Implements <a class="el" href="class_acts_1_1_i_vertex_fitter.html#a1d9985287f8d063448a560dec42cc1c6">Acts::IVertexFitter</a>.</p>
 
 </div>
 </div>

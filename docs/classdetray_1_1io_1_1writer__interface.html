@@ -133,29 +133,31 @@ $(function(){initNavTree('classdetray_1_1io_1_1writer__interface.html','','class
 <div class="dynheader">
 Inheritance diagram for detray::io::writer_interface&lt; detector_t &gt;:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classdetray_1_1io_1_1writer__interface__inherit__graph.svg" width="203" height="148"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classdetray_1_1io_1_1writer__interface__inherit__graph.svg" width="466" height="126"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4020909f046b8033ee8d1a29186eab7d" id="r_a4020909f046b8033ee8d1a29186eab7d"><td class="memItemLeft" align="right" valign="top"><a id="a4020909f046b8033ee8d1a29186eab7d" name="a4020909f046b8033ee8d1a29186eab7d"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>writer_interface</b> ()=delete</td></tr>
-<tr class="memdesc:a4020909f046b8033ee8d1a29186eab7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">All writers must define a file extension. <br /></td></tr>
-<tr class="memitem:a201aaefa63cfa3afb74e1c100e2ceadd" id="r_a201aaefa63cfa3afb74e1c100e2ceadd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a201aaefa63cfa3afb74e1c100e2ceadd">writer_interface</a> (const std::string &amp;ext)</td></tr>
-<tr class="memdesc:a201aaefa63cfa3afb74e1c100e2ceadd"><td class="mdescLeft">&#160;</td><td class="mdescRight">File gets created with a fixed <code class="param">ext</code>.  <br /></td></tr>
 <tr class="memitem:a41708796a83d1a2793a5567e50af7f1e" id="r_a41708796a83d1a2793a5567e50af7f1e"><td class="memItemLeft" align="right" valign="top"><a id="a41708796a83d1a2793a5567e50af7f1e" name="a41708796a83d1a2793a5567e50af7f1e"></a>
 virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~writer_interface</b> ()=default</td></tr>
 <tr class="memdesc:a41708796a83d1a2793a5567e50af7f1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default destructor. <br /></td></tr>
-<tr class="memitem:a353d7d60c78e49beca2af6587f68212d" id="r_a353d7d60c78e49beca2af6587f68212d"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a353d7d60c78e49beca2af6587f68212d">file_extension</a> () const</td></tr>
-<tr class="memitem:a3d03e70a27e9a6e99db722828fd54c45" id="r_a3d03e70a27e9a6e99db722828fd54c45"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d03e70a27e9a6e99db722828fd54c45">write</a> (const detector_t &amp;detector, const typename detector_t::name_map &amp;names, const std::string &amp;source, const std::ios_base::openmode mode, const std::filesystem::path &amp;path)=0</td></tr>
-<tr class="memdesc:a3d03e70a27e9a6e99db722828fd54c45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write detector components to a path using the supplied name map.  <br /></td></tr>
+<tr class="memitem:af866bfc819d844550212e66f0e15d87d" id="r_af866bfc819d844550212e66f0e15d87d"><td class="memItemLeft" align="right" valign="top">virtual std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af866bfc819d844550212e66f0e15d87d">tag</a> () const =0</td></tr>
+<tr class="memitem:a953cbea0c5d91c47957507f1719f27f1" id="r_a953cbea0c5d91c47957507f1719f27f1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a953cbea0c5d91c47957507f1719f27f1">to_payload</a> (const detector_t &amp;detector, const typename detector_t::name_map &amp;names, <a class="el" href="structdetray_1_1io_1_1detector__payload.html">detector_payload</a> &amp;payload) const =0</td></tr>
+<tr class="memdesc:a953cbea0c5d91c47957507f1719f27f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes the respective detector component to its payload.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;<a class="el" href="conceptdetray_1_1concepts_1_1detector.html">detray::concepts::detector</a> detector_t&gt;<br />
 class detray::io::writer_interface&lt; detector_t &gt;</div><p>Abstract base class for detray detector component writers. </p>
-</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a201aaefa63cfa3afb74e1c100e2ceadd" name="a201aaefa63cfa3afb74e1c100e2ceadd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a201aaefa63cfa3afb74e1c100e2ceadd">&#9670;&#160;</a></span>writer_interface()</h2>
+<p>Interface for component writers from a detector to a <code>detector_payload</code> </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">detector_t</td><td>the detector type that is converted </td></tr>
+  </table>
+  </dd>
+</dl>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="af866bfc819d844550212e66f0e15d87d" name="af866bfc819d844550212e66f0e15d87d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af866bfc819d844550212e66f0e15d87d">&#9670;&#160;</a></span>tag()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -166,52 +168,26 @@ template&lt;<a class="el" href="conceptdetray_1_1concepts_1_1detector.html">detr
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classdetray_1_1io_1_1writer__interface.html">detray::io::writer_interface</a>&lt; detector_t &gt;::writer_interface </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>ext</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel explicit">explicit</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>File gets created with a fixed <code class="param">ext</code>. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">ext</td><td>file extension handled by this writer </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a353d7d60c78e49beca2af6587f68212d" name="a353d7d60c78e49beca2af6587f68212d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a353d7d60c78e49beca2af6587f68212d">&#9670;&#160;</a></span>file_extension()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;<a class="el" href="conceptdetray_1_1concepts_1_1detector.html">detray::concepts::detector</a> detector_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::string &amp; <a class="el" href="classdetray_1_1io_1_1writer__interface.html">detray::io::writer_interface</a>&lt; detector_t &gt;::file_extension </td>
+          <td class="memname">virtual std::string_view <a class="el" href="classdetray_1_1io_1_1writer__interface.html">detray::io::writer_interface</a>&lt; detector_t &gt;::tag </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>the file extension </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>the string tag that describes the type of writer, which is also present in data file headers to match the IO data </dd></dl>
+
+<p>Implemented in <a class="el" href="classdetray_1_1io_1_1geometry__writer.html#ac2cbf65614837a3239c596b5538393fc">detray::io::geometry_writer&lt; detector_t &gt;</a>, and <a class="el" href="classdetray_1_1io_1_1homogeneous__material__writer.html#a89ff0790876e5aeef2fe2a72fa3d3f85">detray::io::homogeneous_material_writer&lt; detector_t &gt;</a>.</p>
 
 </div>
 </div>
-<a id="a3d03e70a27e9a6e99db722828fd54c45" name="a3d03e70a27e9a6e99db722828fd54c45"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d03e70a27e9a6e99db722828fd54c45">&#9670;&#160;</a></span>write()</h2>
+<a id="a953cbea0c5d91c47957507f1719f27f1" name="a953cbea0c5d91c47957507f1719f27f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a953cbea0c5d91c47957507f1719f27f1">&#9670;&#160;</a></span>to_payload()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -222,7 +198,7 @@ template&lt;<a class="el" href="conceptdetray_1_1concepts_1_1detector.html">detr
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual std::string <a class="el" href="classdetray_1_1io_1_1writer__interface.html">detray::io::writer_interface</a>&lt; detector_t &gt;::write </td>
+          <td class="memname">virtual void <a class="el" href="classdetray_1_1io_1_1writer__interface.html">detray::io::writer_interface</a>&lt; detector_t &gt;::to_payload </td>
           <td>(</td>
           <td class="paramtype">const detector_t &amp;</td>          <td class="paramname"><span class="paramname"><em>detector</em></span>, </td>
         </tr>
@@ -234,17 +210,7 @@ template&lt;<a class="el" href="conceptdetray_1_1concepts_1_1detector.html">detr
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>source</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::ios_base::openmode</td>          <td class="paramname"><span class="paramname"><em>mode</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="structdetray_1_1io_1_1detector__payload.html">detector_payload</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>payload</em></span>&#160;) const</td>
         </tr>
       </table>
   </td>
@@ -254,21 +220,17 @@ template&lt;<a class="el" href="conceptdetray_1_1concepts_1_1detector.html">detr
 </table>
 </div><div class="memdoc">
 
-<p>Write detector components to a path using the supplied name map. </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>Writes the respective detector component to its payload. </p>
+<p>Since the detector does not provide the volume names, the name map is also passed. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">detector</td><td>detector components to serialize </td></tr>
     <tr><td class="paramname">names</td><td>map used to name detector components </td></tr>
-    <tr><td class="paramname">source</td><td>the source description of the detector </td></tr>
-    <tr><td class="paramname">mode</td><td>stream open mode </td></tr>
-    <tr><td class="paramname">path</td><td>output directory guaranteed to exist by the caller </td></tr>
+    <tr><td class="paramname">payload</td><td>the payload to be filled with the detector component. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>path or filename written by the implementation </dd></dl>
-<dl class="section note"><dt>Note</dt><dd>The existence of the file path has to be guaranteed by the caller </dd></dl>
 
-<p>Implemented in <a class="el" href="classdetray_1_1io_1_1json__converter_3_01detector__t_00_01backend__t_01_4.html#abf9e001926ed231a804df78baf04466f">detray::io::json_converter&lt; detector_t, backend_t &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classdetray_1_1io_1_1geometry__writer.html#a624a90f0956e301d18447417d809e616">detray::io::geometry_writer&lt; detector_t &gt;</a>, and <a class="el" href="classdetray_1_1io_1_1homogeneous__material__writer.html#a02f3900e730026863525e3421cc55970">detray::io::homogeneous_material_writer&lt; detector_t &gt;</a>.</p>
 
 </div>
 </div>
