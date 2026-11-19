@@ -1,5 +1,13 @@
 var NAVTREEINDEX83 =
 {
+"struct_acts_fatras_1_1_segmentizer.html#ac16b531670f11f8e51ae0d12ee608345":[6,0,2,33,3],
+"struct_acts_fatras_1_1_segmentizer.html#ac16b531670f11f8e51ae0d12ee608345":[8,0,1,34,3],
+"struct_acts_fatras_1_1_segmentizer.html#ad22aedcd22ec1e19d444528b9253753a":[6,0,2,33,4],
+"struct_acts_fatras_1_1_segmentizer.html#ad22aedcd22ec1e19d444528b9253753a":[8,0,1,34,4],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_segment.html":[6,0,2,33,0],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_segment.html":[8,0,1,34,0],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_segment.html#a1568b8f750b95bbbd60a895a74d88e74":[6,0,2,33,0,2],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_segment.html#a1568b8f750b95bbbd60a895a74d88e74":[8,0,1,34,0,2],
 "struct_acts_fatras_1_1_segmentizer_1_1_channel_segment.html#a9cec247205c840790acd72f4a37ffd51":[6,0,2,33,0,1],
 "struct_acts_fatras_1_1_segmentizer_1_1_channel_segment.html#a9cec247205c840790acd72f4a37ffd51":[8,0,1,34,0,1],
 "struct_acts_fatras_1_1_segmentizer_1_1_channel_segment.html#aa99b19ab058da8ac47d40b575aae713d":[6,0,2,33,0,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX83 =
 "struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_cache.html#a69f62f49444123426d73085ac8fdb08d":[5,10,7,2,0,0],
 "struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_cache.html#a8b347fa5d76a1051b3b1c8ec7f39eeb9":[5,10,7,2,0,2],
 "struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_cache.html#ab1d74e293db1476cf2075590f81bb257":[5,10,7,2,0,1],
-"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_config.html":[5,10,7,2,1],
-"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html":[5,10,7,2,2],
-"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html#a2786b92799a43ef1c1b1fbc1c815959d":[5,10,7,2,2,1],
-"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html#a402db01c9178bde3bf2ba39e18014e59":[5,10,7,2,2,3],
-"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html#a49b6e3d970d6561eb8ab379252b3b754":[5,10,7,2,2,2],
-"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html#a4d7ae6c105360582b40e32c7925f95e8":[5,10,7,2,2,4],
-"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html#a92ff66aaa89ee71deee702d7160c3d65":[5,10,7,2,2,0],
-"struct_acts_plugins_1_1_geant4_material_converter.html":[5,10,7,3],
-"struct_acts_plugins_1_1_geant4_material_converter.html#a4503d1a5ec2770e611200d5ec425d39d":[5,10,7,3,1]
+"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_config.html":[5,10,7,2,1]
 };

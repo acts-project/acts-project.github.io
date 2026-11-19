@@ -1,5 +1,13 @@
 var NAVTREEINDEX103 =
 {
+"structdetray_1_1unit.html#af95511a87ae05c51cb713d94be46c3e5":[8,0,3,203,5],
+"structdetray_1_1unit.html#afe0437791d237b4781a5a3520aeca221":[6,0,4,190,31],
+"structdetray_1_1unit.html#afe0437791d237b4781a5a3520aeca221":[8,0,3,203,31],
+"structdetray_1_1unit__vectors.html":[6,0,4,191],
+"structdetray_1_1unit__vectors.html":[8,0,3,204],
+"structdetray_1_1unit__vectors.html#a52db2b58e1f95d7b3ca11d734fd415fb":[6,0,4,191,1],
+"structdetray_1_1unit__vectors.html#a52db2b58e1f95d7b3ca11d734fd415fb":[8,0,3,204,1],
+"structdetray_1_1unit__vectors.html#aad8a72af181246317afb59bab1af69f3":[6,0,4,191,0],
 "structdetray_1_1unit__vectors.html#aad8a72af181246317afb59bab1af69f3":[8,0,3,204,0],
 "structdetray_1_1utils_1_1detail_1_1accelerator__printer.html":[8,0,3,18,0,0],
 "structdetray_1_1utils_1_1detail_1_1accelerator__printer.html#a7f1bdc3db7f06b969ee82f423f074cc5":[8,0,3,18,0,0,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX103 =
 "structdetray_1_1wire__chamber__config.html#ab2720b5116d85f8fb3eb8a2014ef42ca":[6,0,4,204,2],
 "structdetray_1_1wire__chamber__config.html#ab2720b5116d85f8fb3eb8a2014ef42ca":[8,0,3,217,2],
 "structdetray_1_1wire__chamber__config.html#abd114e5bdfe716870462d7949f12cd79":[6,0,4,204,12],
-"structdetray_1_1wire__chamber__config.html#abd114e5bdfe716870462d7949f12cd79":[8,0,3,217,12],
-"structdetray_1_1wire__chamber__config.html#abd2bbc789cf89422c09e6c3122898ee0":[6,0,4,204,28],
-"structdetray_1_1wire__chamber__config.html#abd2bbc789cf89422c09e6c3122898ee0":[8,0,3,217,28],
-"structdetray_1_1wire__chamber__config.html#ad66236e9afeaf0d24533c1f2a8d74f91":[6,0,4,204,31],
-"structdetray_1_1wire__chamber__config.html#ad66236e9afeaf0d24533c1f2a8d74f91":[8,0,3,217,31],
-"structdetray_1_1wire__chamber__config.html#ad6f977bb00434584cc9ab7fa46e68986":[6,0,4,204,20],
-"structdetray_1_1wire__chamber__config.html#ad6f977bb00434584cc9ab7fa46e68986":[8,0,3,217,20],
-"structdetray_1_1wire__chamber__config.html#ad7833231825c202b143da1044dd2796c":[6,0,4,204,16],
-"structdetray_1_1wire__chamber__config.html#ad7833231825c202b143da1044dd2796c":[8,0,3,217,16]
+"structdetray_1_1wire__chamber__config.html#abd114e5bdfe716870462d7949f12cd79":[8,0,3,217,12]
 };

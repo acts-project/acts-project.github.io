@@ -1,5 +1,13 @@
 var NAVTREEINDEX90 =
 {
+"structdetray_1_1default__hash.html#ae8ba2fa0dd5e2b2cbf03511c762e7dc6":[8,0,3,70,4],
+"structdetray_1_1detail_1_1add__sf__material__map.html":[8,0,3,4,0],
+"structdetray_1_1detail_1_1add__sf__material__map.html#af89d50f11e4812f866446fa748f97efc":[8,0,3,4,0,0],
+"structdetray_1_1detail_1_1extent2_d.html":[8,0,3,4,3],
+"structdetray_1_1detail_1_1extent2_d.html#a3ab4ba2f70512c643b5e45f9a7df3a90":[8,0,3,4,3,0],
+"structdetray_1_1detail_1_1extent2_d.html#ad215e4784998d6fbe1cd51a8ef7b5fc6":[8,0,3,4,3,1],
+"structdetray_1_1detail_1_1first__idx.html":[8,0,3,4,4],
+"structdetray_1_1detail_1_1first__idx.html#ae991c499351116759e7fd13aa6b519d2":[8,0,3,4,4,0],
 "structdetray_1_1detail_1_1first__type.html":[8,0,3,4,5],
 "structdetray_1_1detail_1_1first__type.html#a10e7fbc7ca5ab74f94b6f2afe00153a4":[8,0,3,4,5,0],
 "structdetray_1_1detail_1_1get__type__pos.html":[8,0,3,4,6],
@@ -241,13 +249,5 @@ var NAVTREEINDEX90 =
 "structdetray_1_1fill__by__bin.html#a3b3bb43d01c824e03e817b510040492e":[8,0,3,84,1],
 "structdetray_1_1fill__by__bin.html#a5d00ecf893c6e3d01946a8ec626cf3f4":[6,0,4,71,2],
 "structdetray_1_1fill__by__bin.html#a5d00ecf893c6e3d01946a8ec626cf3f4":[8,0,3,84,2],
-"structdetray_1_1fill__by__bin_1_1bin__data.html":[6,0,4,71,0],
-"structdetray_1_1fill__by__bin_1_1bin__data.html":[8,0,3,84,0],
-"structdetray_1_1fill__by__bin_1_1bin__data.html#a41ae6c10f35c29708cf706b34f17b02d":[6,0,4,71,0,1],
-"structdetray_1_1fill__by__bin_1_1bin__data.html#a41ae6c10f35c29708cf706b34f17b02d":[8,0,3,84,0,1],
-"structdetray_1_1fill__by__bin_1_1bin__data.html#ab1d23e3b5b7648b99e573b6415c9d015":[6,0,4,71,0,0],
-"structdetray_1_1fill__by__bin_1_1bin__data.html#ab1d23e3b5b7648b99e573b6415c9d015":[8,0,3,84,0,0],
-"structdetray_1_1fill__by__pos.html":[6,0,4,72],
-"structdetray_1_1fill__by__pos.html":[8,0,3,85],
-"structdetray_1_1fill__by__pos.html#a06c42cceef6dcf74bcb695b6e3fb84fa":[6,0,4,72,0]
+"structdetray_1_1fill__by__bin_1_1bin__data.html":[6,0,4,71,0]
 };

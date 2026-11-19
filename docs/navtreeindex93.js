@@ -1,5 +1,13 @@
 var NAVTREEINDEX93 =
 {
+"structdetray_1_1io_1_1detector__payload.html#a8fadcfec0d8e430975a64b957a979579":[8,0,3,7,6,9],
+"structdetray_1_1io_1_1detector__payload.html#a998f697b11b347d77ced74f172631163":[6,0,4,3,5,5],
+"structdetray_1_1io_1_1detector__payload.html#a998f697b11b347d77ced74f172631163":[8,0,3,7,6,5],
+"structdetray_1_1io_1_1detector__payload.html#aa2a12a7d316c4224b790b4d1d271aab1":[6,0,4,3,5,0],
+"structdetray_1_1io_1_1detector__payload.html#aa2a12a7d316c4224b790b4d1d271aab1":[8,0,3,7,6,0],
+"structdetray_1_1io_1_1detector__payload.html#aadb1eab3372fb6bf2ea6a76e62c34ddb":[6,0,4,3,5,2],
+"structdetray_1_1io_1_1detector__payload.html#aadb1eab3372fb6bf2ea6a76e62c34ddb":[8,0,3,7,6,2],
+"structdetray_1_1io_1_1detector__payload.html#ab7e3da1be147b34dff4a15935c619b78":[6,0,4,3,5,7],
 "structdetray_1_1io_1_1detector__payload.html#ab7e3da1be147b34dff4a15935c619b78":[8,0,3,7,6,7],
 "structdetray_1_1io_1_1detector__payload.html#ac9bf4ae6081df05ec3649c99672edba5":[6,0,4,3,5,10],
 "structdetray_1_1io_1_1detector__payload.html#ac9bf4ae6081df05ec3649c99672edba5":[8,0,3,7,6,10],
@@ -241,13 +249,5 @@ var NAVTREEINDEX93 =
 "structdetray_1_1io_1_1volume__payload.html#ab41738e0319def44ea44b3e7117d0f77":[8,0,3,7,40,4],
 "structdetray_1_1io_1_1volume__payload.html#abe5dd7da39fe0eac9dc4165608aad5e0":[6,0,4,3,39,2],
 "structdetray_1_1io_1_1volume__payload.html#abe5dd7da39fe0eac9dc4165608aad5e0":[8,0,3,7,40,2],
-"structdetray_1_1io_1_1volume__payload.html#ac608faf47858eb069ad919304d2e2489":[6,0,4,3,39,0],
-"structdetray_1_1io_1_1volume__payload.html#ac608faf47858eb069ad919304d2e2489":[8,0,3,7,40,0],
-"structdetray_1_1iron.html":[6,0,4,107],
-"structdetray_1_1iron.html":[8,0,3,120],
-"structdetray_1_1iron.html#aec6c5abd62d4095c3e47f8fbca25b8b7":[6,0,4,107,0],
-"structdetray_1_1iron.html#aec6c5abd62d4095c3e47f8fbca25b8b7":[8,0,3,120,0],
-"structdetray_1_1iron__with__ded.html":[6,0,4,108],
-"structdetray_1_1iron__with__ded.html":[8,0,3,121],
-"structdetray_1_1iron__with__ded.html#a0f73e1fa638c7ed5508f3ecc67ff94c2":[6,0,4,108,0]
+"structdetray_1_1io_1_1volume__payload.html#ac608faf47858eb069ad919304d2e2489":[6,0,4,3,39,0]
 };

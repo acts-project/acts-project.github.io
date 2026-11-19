@@ -10,6 +10,7 @@ var class_acts_1_1_disc_surface =
     [ "bounds", "class_acts_1_1_disc_surface.html#a7f806e65cb66960f4b89665750694768", null ],
     [ "boundsPtr", "class_acts_1_1_disc_surface.html#a0727d3d26f210fbef9736f9046907f29", null ],
     [ "boundToFreeJacobian", "class_acts_1_1_disc_surface.html#a734a2510a2303b0268a3c214f8b7f7f0", null ],
+    [ "contains", "class_acts_1_1_disc_surface.html#ae94a11f3ea7f13d179163fe751d5772a", null ],
     [ "freeToBoundJacobian", "class_acts_1_1_disc_surface.html#af66e99dfe7d3d38708a0255326cb34bf", null ],
     [ "globalToLocal", "class_acts_1_1_disc_surface.html#a3082370f6db11d7bedddbb5fb642792b", null ],
     [ "globalToLocal", "class_acts_1_1_disc_surface.html#ae0cc0fcbd7636df9c31543ea6ae45c60", null ],

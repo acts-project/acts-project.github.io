@@ -1,5 +1,13 @@
 var NAVTREEINDEX49 =
 {
+"classdetray_1_1detail_1_1helix.html#ac747cf5b2e58412f212eff051e5968c0":[8,0,3,4,15,11],
+"classdetray_1_1detail_1_1helix.html#ac790234ebe6465868d0693a4415bd453":[8,0,3,4,15,6],
+"classdetray_1_1detail_1_1helix.html#acaac3974c9e3168e89160e8df365f346":[8,0,3,4,15,17],
+"classdetray_1_1detail_1_1helix.html#ad5181b889f1094f27dbff766656fcaec":[8,0,3,4,15,5],
+"classdetray_1_1detail_1_1helix.html#ad6b463296fd24d8f49ff1c6ff12e6059":[8,0,3,4,15,18],
+"classdetray_1_1detail_1_1helix.html#ae9434a54e7716748c723da768ea28caf":[8,0,3,4,15,9],
+"classdetray_1_1detail_1_1quadratic__equation.html":[8,0,3,4,21],
+"classdetray_1_1detail_1_1quadratic__equation_3_01scalar__t_01_4.html":[8,0,3,4,22],
 "classdetray_1_1detail_1_1quadratic__equation_3_01scalar__t_01_4.html#a0d1e30b903a8672667f405381102b5cc":[8,0,3,4,22,5],
 "classdetray_1_1detail_1_1quadratic__equation_3_01scalar__t_01_4.html#a15dacdb2b862aa178cbfa028f30feb41":[8,0,3,4,22,3],
 "classdetray_1_1detail_1_1quadratic__equation_3_01scalar__t_01_4.html#a2d4429dfc16d07f2120b0ce676dc4750":[8,0,3,4,22,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX49 =
 "classdetray_1_1geometry_1_1surface.html#a97ff52b78039c55915b584021f8e6fe1":[8,0,3,5,1,20],
 "classdetray_1_1geometry_1_1surface.html#a9c9b80bf0effe964a857b853a022e6d8":[8,0,3,5,1,21],
 "classdetray_1_1geometry_1_1surface.html#aabf9404cfaf79dc66dfffa717871a190":[8,0,3,5,1,27],
-"classdetray_1_1geometry_1_1surface.html#aaff089d77ebe8cf59138a00e2c9e3acc":[8,0,3,5,1,32],
-"classdetray_1_1geometry_1_1surface.html#abaf72fb6f1c46528cb5e4f2084b0e6e2":[8,0,3,5,1,10],
-"classdetray_1_1geometry_1_1surface.html#ac0e5f276de3f59667f46da334b990983":[8,0,3,5,1,28],
-"classdetray_1_1geometry_1_1surface.html#ac1652a7750da9ca908aa54c02706fb33":[8,0,3,5,1,14],
-"classdetray_1_1geometry_1_1surface.html#ac3db36f82d8dcf26021877201bf171c7":[8,0,3,5,1,38],
-"classdetray_1_1geometry_1_1surface.html#acbd299e9f3ced0328a5f7ec4726bd2ef":[8,0,3,5,1,16],
-"classdetray_1_1geometry_1_1surface.html#ad0910815f60758efe3bbe9b7af20b6e7":[8,0,3,5,1,9],
-"classdetray_1_1geometry_1_1surface.html#ad40aa94c48ad8187c05345c1be0de1a6":[8,0,3,5,1,35],
-"classdetray_1_1geometry_1_1surface.html#adbc7e7d8e3f00edc41b950aa972b08c4":[8,0,3,5,1,40]
+"classdetray_1_1geometry_1_1surface.html#aaff089d77ebe8cf59138a00e2c9e3acc":[8,0,3,5,1,32]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX23 =
 {
+"class_acts_1_1_interpolated_b_field_map.html#a30e0d1e2ea26cc20078710917553fc4d":[5,3,1,1,16],
+"class_acts_1_1_interpolated_b_field_map.html#a30e0d1e2ea26cc20078710917553fc4d":[5,11,0,1,16],
+"class_acts_1_1_interpolated_b_field_map.html#a57a52263b5478319e26762019d2c8763":[5,3,1,1,11],
+"class_acts_1_1_interpolated_b_field_map.html#a57a52263b5478319e26762019d2c8763":[5,11,0,1,11],
 "class_acts_1_1_interpolated_b_field_map.html#a5b8fe09e7f4eff3c898920fb64b5824d":[5,3,1,1,14],
 "class_acts_1_1_interpolated_b_field_map.html#a5b8fe09e7f4eff3c898920fb64b5824d":[5,11,0,1,14],
 "class_acts_1_1_interpolated_b_field_map.html#a7391d17d3f399017e9367dd5bea8c412":[5,3,1,1,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX23 =
 "class_acts_1_1_layer_blueprint_node.html#a62d128bba2b0062528e85b73d91c115c":[8,0,0,256,7],
 "class_acts_1_1_layer_blueprint_node.html#a6f2872f4b8ee86ba0509fdf0ba1d7e92":[6,0,0,251,9],
 "class_acts_1_1_layer_blueprint_node.html#a6f2872f4b8ee86ba0509fdf0ba1d7e92":[8,0,0,256,9],
-"class_acts_1_1_layer_blueprint_node.html#a7715af2169372d03891ebe120a25ee63":[6,0,0,251,11],
-"class_acts_1_1_layer_blueprint_node.html#a7715af2169372d03891ebe120a25ee63":[8,0,0,256,11],
-"class_acts_1_1_layer_blueprint_node.html#a9b0af86d40d8ff8a97842951769e8480":[6,0,0,251,12],
-"class_acts_1_1_layer_blueprint_node.html#a9b0af86d40d8ff8a97842951769e8480":[8,0,0,256,12],
-"class_acts_1_1_layer_blueprint_node.html#aa26e5b36fbdf6a74f7367760228b8b4a":[6,0,0,251,10]
+"class_acts_1_1_layer_blueprint_node.html#a7715af2169372d03891ebe120a25ee63":[6,0,0,251,11]
 };

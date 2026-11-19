@@ -185,6 +185,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a2891f4e1034be2ff0824ee5b153b44dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return method for the surface center.  <br /></td></tr>
 <tr class="memitem:a5a93dec09919e2cb30e4234da0fd0663" id="r_a5a93dec09919e2cb30e4234da0fd0663"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Vector2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a93dec09919e2cb30e4234da0fd0663">closestPointOnBoundary</a> (const <a class="el" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Vector2</a> &amp;lposition, const <a class="el" href="group__algebra__types.html#gacf45a96b60fa44322913e6e18323ee95">SquareMatrix2</a> &amp;metric) const</td></tr>
 <tr class="memdesc:a5a93dec09919e2cb30e4234da0fd0663"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the closest point on the boundary of the surface to a given point in local coordinates.  <br /></td></tr>
+<tr class="memitem:a341ac2b5170ddd0a82e4116606a1ac43" id="r_a341ac2b5170ddd0a82e4116606a1ac43"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a341ac2b5170ddd0a82e4116606a1ac43">contains</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="#a2ae67591c6ce6b42568881be16f29ddc">Surface</a> &amp;other, double tolerance=<a class="el" href="namespace_acts.html#a062150b6d58b9acb88af2feaf8d3aa2b">s_onSurfaceTolerance</a>) const</td></tr>
+<tr class="memdesc:a341ac2b5170ddd0a82e4116606a1ac43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check whether another surface lies within this one, i.e.  <br /></td></tr>
 <tr class="memitem:a602e26828afb4e564c2ff06b6f068f73" id="r_a602e26828afb4e564c2ff06b6f068f73"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a602e26828afb4e564c2ff06b6f068f73">distanceToBoundary</a> (const <a class="el" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Vector2</a> &amp;lposition) const</td></tr>
 <tr class="memdesc:a602e26828afb4e564c2ff06b6f068f73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the distance to the boundary of the surface from a given point in local coordinates.  <br /></td></tr>
 <tr class="memitem:a6ce9ed485ef7f19c8c99d28af4d05f13" id="r_a6ce9ed485ef7f19c8c99d28af4d05f13"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_acts.html#ae99f85f3ec433523b8064f5f2daa38b7">FreeToBoundMatrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ce9ed485ef7f19c8c99d28af4d05f13">freeToBoundJacobian</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction) const</td></tr>
@@ -939,6 +941,55 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_swapMaterialAxes</b
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The closest point on the boundary of the surface </dd></dl>
+
+</div>
+</div>
+<a id="a341ac2b5170ddd0a82e4116606a1ac43" name="a341ac2b5170ddd0a82e4116606a1ac43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a341ac2b5170ddd0a82e4116606a1ac43">&#9670;&#160;</a></span>contains()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool Acts::Surface::contains </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a2ae67591c6ce6b42568881be16f29ddc">Surface</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>tolerance</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_acts.html#a062150b6d58b9acb88af2feaf8d3aa2b">s_onSurfaceTolerance</a></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check whether another surface lies within this one, i.e. </p>
+<p>on the same unbounded surface and within the bounds of this surface. The orientation of the other surface, e.g. a flipped normal, does not matter.</p>
+<p>This is implemented for plane surfaces with polygon bounds, disc surfaces with radial bounds and cylinder surfaces. Every other combination, including surfaces of different types, returns false.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gctx</td><td>The current geometry context object, e.g. alignment </td></tr>
+    <tr><td class="paramname">other</td><td>The surface to check </td></tr>
+    <tr><td class="paramname">tolerance</td><td>Absolute tolerance on positions and bounds </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if <code class="param">other</code> lies within this surface </dd></dl>
+
+<p>Reimplemented in <a class="el" href="class_acts_1_1_cylinder_surface.html#add86fb17f278e922fb85ebcd2d07a521">Acts::CylinderSurface</a>, <a class="el" href="class_acts_1_1_disc_surface.html#ae94a11f3ea7f13d179163fe751d5772a">Acts::DiscSurface</a>, and <a class="el" href="class_acts_1_1_plane_surface.html#a99fd58db645ca0b0b05aaac434cb08b7">Acts::PlaneSurface</a>.</p>
 
 </div>
 </div>

@@ -1,5 +1,13 @@
 var NAVTREEINDEX52 =
 {
+"classdetray_1_1io_1_1homogeneous__material__reader.html#a51b2620e383aa0393add986873a0352d":[8,0,3,7,18,4],
+"classdetray_1_1io_1_1homogeneous__material__reader.html#a603bea8937da6626e9df1632ed5a5bf1":[6,0,4,3,17,1],
+"classdetray_1_1io_1_1homogeneous__material__reader.html#a603bea8937da6626e9df1632ed5a5bf1":[8,0,3,7,18,1],
+"classdetray_1_1io_1_1homogeneous__material__reader.html#a8851176ec54c4f00b7d5468fe9542548":[6,0,4,3,17,6],
+"classdetray_1_1io_1_1homogeneous__material__reader.html#a8851176ec54c4f00b7d5468fe9542548":[8,0,3,7,18,6],
+"classdetray_1_1io_1_1homogeneous__material__reader.html#a8bcaa85b3be63a8905b033c39211ebc9":[6,0,4,3,17,0],
+"classdetray_1_1io_1_1homogeneous__material__reader.html#a8bcaa85b3be63a8905b033c39211ebc9":[8,0,3,7,18,0],
+"classdetray_1_1io_1_1homogeneous__material__reader.html#acded839f7d00fd08512424d8f743abdd":[6,0,4,3,17,5],
 "classdetray_1_1io_1_1homogeneous__material__reader.html#acded839f7d00fd08512424d8f743abdd":[8,0,3,7,18,5],
 "classdetray_1_1io_1_1homogeneous__material__reader.html#af42ad6cbe130e19c63090536bb97bfdf":[6,0,4,3,17,2],
 "classdetray_1_1io_1_1homogeneous__material__reader.html#af42ad6cbe130e19c63090536bb97bfdf":[8,0,3,7,18,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX52 =
 "classdetray_1_1mask.html#a9fdf0ec38b3efdc7c6d723bff4aa1428":[8,0,3,128,35],
 "classdetray_1_1mask.html#ab291e78e6168358574fb521faf6191ac":[6,0,4,115,4],
 "classdetray_1_1mask.html#ab291e78e6168358574fb521faf6191ac":[8,0,3,128,4],
-"classdetray_1_1mask.html#ab377a8c5817629e822e9dbbd815d5732":[6,0,4,115,5],
-"classdetray_1_1mask.html#ab377a8c5817629e822e9dbbd815d5732":[8,0,3,128,5],
-"classdetray_1_1mask.html#ab7a6309ba1a509ade064543f1ffc4f9b":[6,0,4,115,11],
-"classdetray_1_1mask.html#ab7a6309ba1a509ade064543f1ffc4f9b":[8,0,3,128,11],
-"classdetray_1_1mask.html#ac13c2994ef994c3d16ca8c4ce82e34c5":[6,0,4,115,16],
-"classdetray_1_1mask.html#ac13c2994ef994c3d16ca8c4ce82e34c5":[8,0,3,128,16],
-"classdetray_1_1mask.html#ac15cab32abd8ea4dd468f546d5fe551d":[6,0,4,115,23],
-"classdetray_1_1mask.html#ac15cab32abd8ea4dd468f546d5fe551d":[8,0,3,128,23],
-"classdetray_1_1mask.html#ac2953c752a3bed351776ac81136960b4":[6,0,4,115,22]
+"classdetray_1_1mask.html#ab377a8c5817629e822e9dbbd815d5732":[6,0,4,115,5]
 };

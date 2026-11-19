@@ -1,5 +1,13 @@
 var NAVTREEINDEX79 =
 {
+"struct_acts_1_1_surface_material_json_converter_1_1_config.html#a26aeafcf731abf92f10e984ba444b629":[5,10,10,12,0,1],
+"struct_acts_1_1_surface_material_json_converter_1_1_config.html#a8c9fb18605d559a249262e2f1c8a865e":[5,10,10,12,0,2],
+"struct_acts_1_1_surface_material_json_converter_1_1_config.html#af055796674d6a4c92a9b30defbd48197":[5,10,10,12,0,0],
+"struct_acts_1_1_surface_reached.html":[6,0,0,403],
+"struct_acts_1_1_surface_reached.html":[8,0,0,408],
+"struct_acts_1_1_surface_reached.html#a815bc2f2b7648926da17d00340a85313":[6,0,0,403,0],
+"struct_acts_1_1_surface_reached.html#a815bc2f2b7648926da17d00340a85313":[8,0,0,408,0],
+"struct_acts_1_1_surface_reached.html#aff385c3a2dd335e2c82e607a6d018e7e":[6,0,0,403,1],
 "struct_acts_1_1_surface_reached.html#aff385c3a2dd335e2c82e607a6d018e7e":[8,0,0,408,1],
 "struct_acts_1_1_surface_selector.html":[6,0,0,404],
 "struct_acts_1_1_surface_selector.html":[8,0,0,409],
@@ -241,13 +249,5 @@ var NAVTREEINDEX79 =
 "struct_acts_1_1_track_selector_1_1_eta_binned_config.html#a653205f1ee47d48d6140f615632336f1":[8,0,0,429,1,10],
 "struct_acts_1_1_track_selector_1_1_eta_binned_config.html#a6970ccc4da1c0fff9569a97f10e4344b":[6,0,0,424,1,5],
 "struct_acts_1_1_track_selector_1_1_eta_binned_config.html#a6970ccc4da1c0fff9569a97f10e4344b":[8,0,0,429,1,5],
-"struct_acts_1_1_track_selector_1_1_eta_binned_config.html#a6b91a767f8cfb034a3d15f1b58598dfb":[6,0,0,424,1,8],
-"struct_acts_1_1_track_selector_1_1_eta_binned_config.html#a6b91a767f8cfb034a3d15f1b58598dfb":[8,0,0,429,1,8],
-"struct_acts_1_1_track_selector_1_1_eta_binned_config.html#aa08ed7378b3b4513213f33e711b01602":[6,0,0,424,1,12],
-"struct_acts_1_1_track_selector_1_1_eta_binned_config.html#aa08ed7378b3b4513213f33e711b01602":[8,0,0,429,1,12],
-"struct_acts_1_1_track_selector_1_1_eta_binned_config.html#ab1f7da00dccd7862921cb7c4e14ddce9":[6,0,0,424,1,11],
-"struct_acts_1_1_track_selector_1_1_eta_binned_config.html#ab1f7da00dccd7862921cb7c4e14ddce9":[8,0,0,429,1,11],
-"struct_acts_1_1_track_selector_1_1_eta_binned_config.html#aca0cd5d9028425c5297287b6a7634a14":[6,0,0,424,1,7],
-"struct_acts_1_1_track_selector_1_1_eta_binned_config.html#aca0cd5d9028425c5297287b6a7634a14":[8,0,0,429,1,7],
-"struct_acts_1_1_track_selector_1_1_eta_binned_config.html#acfdc361c1b04d8d112e653eef1981eb1":[6,0,0,424,1,4]
+"struct_acts_1_1_track_selector_1_1_eta_binned_config.html#a6b91a767f8cfb034a3d15f1b58598dfb":[6,0,0,424,1,8]
 };

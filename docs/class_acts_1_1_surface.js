@@ -18,6 +18,7 @@ var class_acts_1_1_surface =
     [ "boundToFreeJacobian", "class_acts_1_1_surface.html#aa86e26e4537287cce40df221284ff77a", null ],
     [ "center", "class_acts_1_1_surface.html#a2891f4e1034be2ff0824ee5b153b44dd", null ],
     [ "closestPointOnBoundary", "class_acts_1_1_surface.html#a5a93dec09919e2cb30e4234da0fd0663", null ],
+    [ "contains", "class_acts_1_1_surface.html#a341ac2b5170ddd0a82e4116606a1ac43", null ],
     [ "distanceToBoundary", "class_acts_1_1_surface.html#a602e26828afb4e564c2ff06b6f068f73", null ],
     [ "freeToBoundJacobian", "class_acts_1_1_surface.html#a6ce9ed485ef7f19c8c99d28af4d05f13", null ],
     [ "freeToPathDerivative", "class_acts_1_1_surface.html#a610651d5b1eb01ee5340ccfc6f500070", null ],

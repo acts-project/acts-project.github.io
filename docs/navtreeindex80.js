@@ -1,5 +1,13 @@
 var NAVTREEINDEX80 =
 {
+"struct_acts_1_1_track_selector_1_1_eta_binned_config.html#a6b91a767f8cfb034a3d15f1b58598dfb":[8,0,0,429,1,8],
+"struct_acts_1_1_track_selector_1_1_eta_binned_config.html#aa08ed7378b3b4513213f33e711b01602":[6,0,0,424,1,12],
+"struct_acts_1_1_track_selector_1_1_eta_binned_config.html#aa08ed7378b3b4513213f33e711b01602":[8,0,0,429,1,12],
+"struct_acts_1_1_track_selector_1_1_eta_binned_config.html#ab1f7da00dccd7862921cb7c4e14ddce9":[6,0,0,424,1,11],
+"struct_acts_1_1_track_selector_1_1_eta_binned_config.html#ab1f7da00dccd7862921cb7c4e14ddce9":[8,0,0,429,1,11],
+"struct_acts_1_1_track_selector_1_1_eta_binned_config.html#aca0cd5d9028425c5297287b6a7634a14":[6,0,0,424,1,7],
+"struct_acts_1_1_track_selector_1_1_eta_binned_config.html#aca0cd5d9028425c5297287b6a7634a14":[8,0,0,429,1,7],
+"struct_acts_1_1_track_selector_1_1_eta_binned_config.html#acfdc361c1b04d8d112e653eef1981eb1":[6,0,0,424,1,4],
 "struct_acts_1_1_track_selector_1_1_eta_binned_config.html#acfdc361c1b04d8d112e653eef1981eb1":[8,0,0,429,1,4],
 "struct_acts_1_1_track_selector_1_1_eta_binned_config.html#af786c9ea4fab63ee999e1df056729751":[6,0,0,424,1,3],
 "struct_acts_1_1_track_selector_1_1_eta_binned_config.html#af786c9ea4fab63ee999e1df056729751":[8,0,0,429,1,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX80 =
 "struct_acts_1_1_types_1_1get_front_3_01_type_list_3_01_t_00_01_ts_8_8_8_01_4_01_4.html#a5746dac866a994887695b702e6fee4b7":[8,0,0,14,16,0],
 "struct_acts_1_1_types_1_1get_size.html":[8,0,0,14,17],
 "struct_acts_1_1_types_1_1get_size_3_01_type_list_3_01_ts_8_8_8_01_4_01_4.html":[8,0,0,14,18],
-"struct_acts_1_1_types_1_1map.html":[8,0,0,14,19],
-"struct_acts_1_1_types_1_1map_3_01_f_00_01_type_list_3_01_ts_8_8_8_01_4_01_4.html":[8,0,0,14,20],
-"struct_acts_1_1_types_1_1map_3_01_f_00_01_type_list_3_01_ts_8_8_8_01_4_01_4.html#ae68b539788ce3ab48909e6a83bc5ff19":[8,0,0,14,20,0],
-"struct_acts_1_1_value_holder.html":[6,0,0,444],
-"struct_acts_1_1_value_holder.html":[8,0,0,449],
-"struct_acts_1_1_value_holder.html#a0216c3661d818d8a6c28e9557203ac65":[6,0,0,444,2],
-"struct_acts_1_1_value_holder.html#a0216c3661d818d8a6c28e9557203ac65":[8,0,0,449,2],
-"struct_acts_1_1_value_holder.html#a2cc108ec32e5a30d9fcc37aa7d834e96":[6,0,0,444,7],
-"struct_acts_1_1_value_holder.html#a2cc108ec32e5a30d9fcc37aa7d834e96":[8,0,0,449,7]
+"struct_acts_1_1_types_1_1map.html":[8,0,0,14,19]
 };

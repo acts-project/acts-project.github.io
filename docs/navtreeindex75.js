@@ -1,5 +1,13 @@
 var NAVTREEINDEX75 =
 {
+"struct_acts_1_1_material_interaction.html#a803a92b408fcbe89b893e4c545d3dbde":[6,0,0,264,13],
+"struct_acts_1_1_material_interaction.html#a803a92b408fcbe89b893e4c545d3dbde":[8,0,0,269,13],
+"struct_acts_1_1_material_interaction.html#a8d09a54c517896e73412610309d96118":[6,0,0,264,11],
+"struct_acts_1_1_material_interaction.html#a8d09a54c517896e73412610309d96118":[8,0,0,269,11],
+"struct_acts_1_1_material_interaction.html#a94f79f04424b2aff05f112e920c8106a":[6,0,0,264,9],
+"struct_acts_1_1_material_interaction.html#a94f79f04424b2aff05f112e920c8106a":[8,0,0,269,9],
+"struct_acts_1_1_material_interaction.html#a9c7cd07d85f9e821517f5c9b71ad02db":[6,0,0,264,14],
+"struct_acts_1_1_material_interaction.html#a9c7cd07d85f9e821517f5c9b71ad02db":[8,0,0,269,14],
 "struct_acts_1_1_material_interaction.html#aa38bdeabc69420851b9e27a9d3b524dd":[6,0,0,264,10],
 "struct_acts_1_1_material_interaction.html#aa38bdeabc69420851b9e27a9d3b524dd":[8,0,0,269,10],
 "struct_acts_1_1_material_interaction.html#ab1bfe7bf8f23801bc993697fab6fb5b4":[6,0,0,264,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX75 =
 "struct_acts_1_1_navigator_1_1_state.html#a7822de5ed85a8a6d7ad32b420cb9e062":[6,0,0,298,2,33],
 "struct_acts_1_1_navigator_1_1_state.html#a7822de5ed85a8a6d7ad32b420cb9e062":[8,0,0,303,2,33],
 "struct_acts_1_1_navigator_1_1_state.html#a7c71be6d954f886c63cb802c96cb6605":[6,0,0,298,2,4],
-"struct_acts_1_1_navigator_1_1_state.html#a7c71be6d954f886c63cb802c96cb6605":[8,0,0,303,2,4],
-"struct_acts_1_1_navigator_1_1_state.html#a80020ca927928717d2401262a7a26c46":[6,0,0,298,2,11],
-"struct_acts_1_1_navigator_1_1_state.html#a80020ca927928717d2401262a7a26c46":[8,0,0,303,2,11],
-"struct_acts_1_1_navigator_1_1_state.html#a8333f56ce01a4e1edf9cc58fb677983d":[6,0,0,298,2,9],
-"struct_acts_1_1_navigator_1_1_state.html#a8333f56ce01a4e1edf9cc58fb677983d":[8,0,0,303,2,9],
-"struct_acts_1_1_navigator_1_1_state.html#aa48bb4efe5699e2ba7dd04c83b62d483":[6,0,0,298,2,24],
-"struct_acts_1_1_navigator_1_1_state.html#aa48bb4efe5699e2ba7dd04c83b62d483":[8,0,0,303,2,24],
-"struct_acts_1_1_navigator_1_1_state.html#aa5a0e03a0e224d3c3d8cfbb34556ad98":[6,0,0,298,2,2],
-"struct_acts_1_1_navigator_1_1_state.html#aa5a0e03a0e224d3c3d8cfbb34556ad98":[8,0,0,303,2,2]
+"struct_acts_1_1_navigator_1_1_state.html#a7c71be6d954f886c63cb802c96cb6605":[8,0,0,303,2,4]
 };

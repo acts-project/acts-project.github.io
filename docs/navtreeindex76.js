@@ -1,5 +1,13 @@
 var NAVTREEINDEX76 =
 {
+"struct_acts_1_1_navigator_1_1_state.html#a80020ca927928717d2401262a7a26c46":[6,0,0,298,2,11],
+"struct_acts_1_1_navigator_1_1_state.html#a80020ca927928717d2401262a7a26c46":[8,0,0,303,2,11],
+"struct_acts_1_1_navigator_1_1_state.html#a8333f56ce01a4e1edf9cc58fb677983d":[6,0,0,298,2,9],
+"struct_acts_1_1_navigator_1_1_state.html#a8333f56ce01a4e1edf9cc58fb677983d":[8,0,0,303,2,9],
+"struct_acts_1_1_navigator_1_1_state.html#aa48bb4efe5699e2ba7dd04c83b62d483":[6,0,0,298,2,24],
+"struct_acts_1_1_navigator_1_1_state.html#aa48bb4efe5699e2ba7dd04c83b62d483":[8,0,0,303,2,24],
+"struct_acts_1_1_navigator_1_1_state.html#aa5a0e03a0e224d3c3d8cfbb34556ad98":[6,0,0,298,2,2],
+"struct_acts_1_1_navigator_1_1_state.html#aa5a0e03a0e224d3c3d8cfbb34556ad98":[8,0,0,303,2,2],
 "struct_acts_1_1_navigator_1_1_state.html#aa664552fae00e3d87df1121c1e7b3edf":[6,0,0,298,2,13],
 "struct_acts_1_1_navigator_1_1_state.html#aa664552fae00e3d87df1121c1e7b3edf":[8,0,0,303,2,13],
 "struct_acts_1_1_navigator_1_1_state.html#aae9ade56747841b1ab9aad67782b516c":[6,0,0,298,2,30],
@@ -241,13 +249,5 @@ var NAVTREEINDEX76 =
 "struct_acts_1_1_portal_1_1_arguments_1_1_link.html#adf1ebb4898fe0d2a7bac258e19f12b52":[6,0,0,329,0,0,1],
 "struct_acts_1_1_portal_1_1_arguments_1_1_link.html#adf1ebb4898fe0d2a7bac258e19f12b52":[8,0,0,334,0,0,1],
 "struct_acts_1_1_projected_reference_generator.html":[6,0,0,335],
-"struct_acts_1_1_projected_reference_generator.html":[8,0,0,340],
-"struct_acts_1_1_projected_reference_generator.html#a4f823da84889ecf711d1a011661c8ff5":[6,0,0,335,1],
-"struct_acts_1_1_projected_reference_generator.html#a4f823da84889ecf711d1a011661c8ff5":[8,0,0,340,1],
-"struct_acts_1_1_projected_reference_generator.html#a579032a66ff1b8d8d959c123d7439c77":[6,0,0,335,2],
-"struct_acts_1_1_projected_reference_generator.html#a579032a66ff1b8d8d959c123d7439c77":[8,0,0,340,2],
-"struct_acts_1_1_projected_reference_generator.html#a8899f92a52e1b454a2cdc7af31720696":[6,0,0,335,0],
-"struct_acts_1_1_projected_reference_generator.html#a8899f92a52e1b454a2cdc7af31720696":[8,0,0,340,0],
-"struct_acts_1_1_projected_reference_generator.html#ab0b401b716e3ab69bb15e317d2244206":[6,0,0,335,3],
-"struct_acts_1_1_projected_reference_generator.html#ab0b401b716e3ab69bb15e317d2244206":[8,0,0,340,3]
+"struct_acts_1_1_projected_reference_generator.html":[8,0,0,340]
 };

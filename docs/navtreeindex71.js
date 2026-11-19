@@ -1,5 +1,13 @@
 var NAVTREEINDEX71 =
 {
+"struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html#a400b0e1e36ed9e99aef0b2471ee40891":[6,0,0,1,53,7],
+"struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html#a400b0e1e36ed9e99aef0b2471ee40891":[8,0,0,2,53,7],
+"struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html#a5cde13c218bfa1ba9b3201b49a393dd8":[6,0,0,1,53,6],
+"struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html#a5cde13c218bfa1ba9b3201b49a393dd8":[8,0,0,2,53,6],
+"struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html#a7c83a27f0c3cb9bf39c6d50d0d273c20":[6,0,0,1,53,2],
+"struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html#a7c83a27f0c3cb9bf39c6d50d0d273c20":[8,0,0,2,53,2],
+"struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html#a9dd252a163869a2456ba913cea2e74a4":[6,0,0,1,53,0],
+"struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html#a9dd252a163869a2456ba913cea2e74a4":[8,0,0,2,53,0],
 "struct_acts_1_1_experimental_1_1_reference_trajectory_builder_result.html":[6,0,0,1,54],
 "struct_acts_1_1_experimental_1_1_reference_trajectory_builder_result.html":[8,0,0,2,54],
 "struct_acts_1_1_experimental_1_1_reference_trajectory_builder_result.html#a35339bda85a2b21cf1f0627fe356c3e6":[6,0,0,1,54,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX71 =
 "struct_acts_1_1_gaussian_track_density_1_1_config.html#aea02a8ef160c9905ba7af5268b90b727":[6,0,0,155,0,3],
 "struct_acts_1_1_gaussian_track_density_1_1_config.html#aea02a8ef160c9905ba7af5268b90b727":[8,0,0,160,0,3],
 "struct_acts_1_1_gaussian_track_density_1_1_config.html#aedb6628e21b1a8298ca7073bf87e67e2":[6,0,0,155,0,5],
-"struct_acts_1_1_gaussian_track_density_1_1_config.html#aedb6628e21b1a8298ca7073bf87e67e2":[8,0,0,160,0,5],
-"struct_acts_1_1_gaussian_track_density_1_1_config.html#afc4aa0f5b37b633db740dd0a0abbfada":[6,0,0,155,0,0],
-"struct_acts_1_1_gaussian_track_density_1_1_config.html#afc4aa0f5b37b633db740dd0a0abbfada":[8,0,0,160,0,0],
-"struct_acts_1_1_gaussian_track_density_1_1_state.html":[6,0,0,155,1],
-"struct_acts_1_1_gaussian_track_density_1_1_state.html":[8,0,0,160,1],
-"struct_acts_1_1_gaussian_track_density_1_1_state.html#abf158b8317465a81f845749e3cbdcd2a":[6,0,0,155,1,0],
-"struct_acts_1_1_gaussian_track_density_1_1_state.html#abf158b8317465a81f845749e3cbdcd2a":[8,0,0,160,1,0],
-"struct_acts_1_1_gaussian_track_density_1_1_state.html#ad81d8710911ef0d06741e545d32c0792":[6,0,0,155,1,1],
-"struct_acts_1_1_gaussian_track_density_1_1_state.html#ad81d8710911ef0d06741e545d32c0792":[8,0,0,160,1,1]
+"struct_acts_1_1_gaussian_track_density_1_1_config.html#aedb6628e21b1a8298ca7073bf87e67e2":[8,0,0,160,0,5]
 };

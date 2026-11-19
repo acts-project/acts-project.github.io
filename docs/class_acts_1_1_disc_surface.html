@@ -151,6 +151,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a0727d3d26f210fbef9736f9046907f29"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method returns the shared_ptr to the DiscBounds.  <br /></td></tr>
 <tr class="memitem:a734a2510a2303b0268a3c214f8b7f7f0" id="r_a734a2510a2303b0268a3c214f8b7f7f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#aa7db1d65428d10880cd7643f8e6eddb4">BoundToFreeMatrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a734a2510a2303b0268a3c214f8b7f7f0">boundToFreeJacobian</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction) const final</td></tr>
 <tr class="memdesc:a734a2510a2303b0268a3c214f8b7f7f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the jacobian from local to global which the surface knows best, hence the calculation is done here.  <br /></td></tr>
+<tr class="memitem:ae94a11f3ea7f13d179163fe751d5772a" id="r_ae94a11f3ea7f13d179163fe751d5772a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae94a11f3ea7f13d179163fe751d5772a">contains</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const Surface &amp;other, double tolerance=<a class="el" href="namespace_acts.html#a062150b6d58b9acb88af2feaf8d3aa2b">s_onSurfaceTolerance</a>) const override</td></tr>
+<tr class="memdesc:ae94a11f3ea7f13d179163fe751d5772a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check whether another surface lies within this one, i.e.     <br /></td></tr>
 <tr class="memitem:af66e99dfe7d3d38708a0255326cb34bf" id="r_af66e99dfe7d3d38708a0255326cb34bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#ae99f85f3ec433523b8064f5f2daa38b7">FreeToBoundMatrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af66e99dfe7d3d38708a0255326cb34bf">freeToBoundJacobian</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction) const final</td></tr>
 <tr class="memdesc:af66e99dfe7d3d38708a0255326cb34bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the jacobian from global to local which the surface knows best, hence the calculation is done here.  <br /></td></tr>
 <tr class="memitem:a3082370f6db11d7bedddbb5fb642792b" id="r_a3082370f6db11d7bedddbb5fb642792b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Vector2</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3082370f6db11d7bedddbb5fb642792b">globalToLocal</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction, double tolerance=<a class="el" href="namespace_acts.html#a062150b6d58b9acb88af2feaf8d3aa2b">s_onSurfaceTolerance</a>) const final</td></tr>
@@ -781,6 +783,55 @@ hx_{max} \) This is n this case you have DiscTrapezoidBounds. </p>
 <dl class="section return"><dt>Returns</dt><dd>Jacobian from local to global </dd></dl>
 
 <p>Reimplemented from <a class="el" href="class_acts_1_1_surface.html#aa86e26e4537287cce40df221284ff77a">Acts::Surface</a>.</p>
+
+</div>
+</div>
+<a id="ae94a11f3ea7f13d179163fe751d5772a" name="ae94a11f3ea7f13d179163fe751d5772a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae94a11f3ea7f13d179163fe751d5772a">&#9670;&#160;</a></span>contains()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Acts::DiscSurface::contains </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Surface &amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>tolerance</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_acts.html#a062150b6d58b9acb88af2feaf8d3aa2b">s_onSurfaceTolerance</a></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check whether another surface lies within this one, i.e.    </p>
+<p>on the same unbounded surface and within the bounds of this surface. The orientation of the other surface, e.g. a flipped normal, does not matter.</p>
+<p>This is implemented for plane surfaces with polygon bounds, disc surfaces with radial bounds and cylinder surfaces. Every other combination, including surfaces of different types, returns false.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gctx</td><td>The current geometry context object, e.g. alignment </td></tr>
+    <tr><td class="paramname">other</td><td>The surface to check </td></tr>
+    <tr><td class="paramname">tolerance</td><td>Absolute tolerance on positions and bounds </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if <code class="param">other</code> lies within this surface    </dd></dl>
+
+<p>Reimplemented from <a class="el" href="class_acts_1_1_surface.html#a341ac2b5170ddd0a82e4116606a1ac43">Acts::Surface</a>.</p>
 
 </div>
 </div>

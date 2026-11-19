@@ -1,5 +1,13 @@
 var NAVTREEINDEX98 =
 {
+"structdetray_1_1ray__intersector__impl_3_01cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#ac30ab458d43fb5792a66525188749ea2":[8,0,3,168,17],
+"structdetray_1_1ray__intersector__impl_3_01cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#acecb08bcfd653feb529da511adf9e97e":[6,0,4,155,8],
+"structdetray_1_1ray__intersector__impl_3_01cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#acecb08bcfd653feb529da511adf9e97e":[8,0,3,168,8],
+"structdetray_1_1ray__intersector__impl_3_01cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#ad7449ef0156a0f2f509b4f2c457f4d0d":[6,0,4,155,15],
+"structdetray_1_1ray__intersector__impl_3_01cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#ad7449ef0156a0f2f509b4f2c457f4d0d":[8,0,3,168,15],
+"structdetray_1_1ray__intersector__impl_3_01cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#ae77336ee6efd4743f1521eaa3ebe8e59":[6,0,4,155,9],
+"structdetray_1_1ray__intersector__impl_3_01cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#ae77336ee6efd4743f1521eaa3ebe8e59":[8,0,3,168,9],
+"structdetray_1_1ray__intersector__impl_3_01cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#aed4f6c880799616807732b60f10abf35":[6,0,4,155,12],
 "structdetray_1_1ray__intersector__impl_3_01cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#aed4f6c880799616807732b60f10abf35":[8,0,3,168,12],
 "structdetray_1_1ray__intersector__impl_3_01line2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html":[6,0,4,156],
 "structdetray_1_1ray__intersector__impl_3_01line2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html":[8,0,3,169],
@@ -241,13 +249,5 @@ var NAVTREEINDEX98 =
 "structdetray_1_1svgtools_1_1conversion_1_1detail_1_1bin__association__getter.html#a651125b05189068e47ccef7c378328e3":[8,0,3,14,0,0,0,0],
 "structdetray_1_1svgtools_1_1conversion_1_1detail_1_1type__and__edge__getter.html":[8,0,3,14,0,0,1],
 "structdetray_1_1svgtools_1_1conversion_1_1detail_1_1type__and__edge__getter.html#a2a3594625eb4ccacb7500399206d36c7":[8,0,3,14,0,0,1,0],
-"structdetray_1_1svgtools_1_1conversion_1_1material__converter.html":[8,0,3,14,0,1],
-"structdetray_1_1svgtools_1_1conversion_1_1material__converter.html#a4b989ce1c7062153df21c9c76625438d":[8,0,3,14,0,1,0],
-"structdetray_1_1svgtools_1_1conversion_1_1surface__converter.html":[8,0,3,14,0,2],
-"structdetray_1_1svgtools_1_1conversion_1_1surface__converter.html#a8541acc7068ab069361c96689725b81c":[8,0,3,14,0,2,0],
-"structdetray_1_1svgtools_1_1conversion_1_1surface__converter.html#ac32c4e1d9374bc72950207383f155186":[8,0,3,14,0,2,1],
-"structdetray_1_1svgtools_1_1meta_1_1proto_1_1eta__lines.html":[8,0,3,14,1,0,0],
-"structdetray_1_1svgtools_1_1meta_1_1proto_1_1eta__lines.html#a1fd8422fb1274488ddc746b26d437056":[8,0,3,14,1,0,0,2],
-"structdetray_1_1svgtools_1_1meta_1_1proto_1_1eta__lines.html#a4eee2bbaf74000a9bfffdb9e59c7c1f6":[8,0,3,14,1,0,0,7],
-"structdetray_1_1svgtools_1_1meta_1_1proto_1_1eta__lines.html#a69250faeb83c01ef3074d5449644a19e":[8,0,3,14,1,0,0,3]
+"structdetray_1_1svgtools_1_1conversion_1_1material__converter.html":[8,0,3,14,0,1]
 };

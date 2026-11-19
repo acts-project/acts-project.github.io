@@ -7,6 +7,7 @@ var class_acts_1_1_plane_surface =
     [ "assignSurfaceBounds", "class_acts_1_1_plane_surface.html#accd93214edee4399da9919ee299ebd12", null ],
     [ "bounds", "class_acts_1_1_plane_surface.html#a8f261b0849edb201bc51cd25c6e530a6", null ],
     [ "boundsPtr", "class_acts_1_1_plane_surface.html#a0988ea7b55c7869f308db18032bb8758", null ],
+    [ "contains", "class_acts_1_1_plane_surface.html#a99fd58db645ca0b0b05aaac434cb08b7", null ],
     [ "globalToLocal", "class_acts_1_1_plane_surface.html#a3082370f6db11d7bedddbb5fb642792b", null ],
     [ "globalToLocal", "class_acts_1_1_plane_surface.html#a04db333d2f1c2d53aa8266c5152455c0", null ],
     [ "intersect", "class_acts_1_1_plane_surface.html#a56dd3d2a9809920051361629e7ba6c49", null ],

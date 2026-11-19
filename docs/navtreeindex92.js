@@ -1,5 +1,13 @@
 var NAVTREEINDEX92 =
 {
+"structdetray_1_1intersection_1_1config.html#a137067b0828588e1e593c1b23d925b50":[8,0,3,6,0,2],
+"structdetray_1_1intersection_1_1config.html#a2c2807dcdef039cb16d7fae3cffc912e":[8,0,3,6,0,4],
+"structdetray_1_1intersection_1_1config.html#a6dbc980fa881a9273ec04c4df88fd4fd":[8,0,3,6,0,1],
+"structdetray_1_1intersection_1_1config.html#aca2da5f83e016c121eb67720ce1be15f":[8,0,3,6,0,3],
+"structdetray_1_1intersection_1_1config.html#add9a3014af9d4be50705c5df77257be2":[8,0,3,6,0,5],
+"structdetray_1_1intersection_1_1config.html#ade93ef912fe1e3bc68e19ff836eb3b80":[8,0,3,6,0,0],
+"structdetray_1_1intersection__point.html":[6,0,4,99],
+"structdetray_1_1intersection__point.html":[8,0,3,112],
 "structdetray_1_1intersection__point_3_01algebra__t_00_01point__t_00_01_9intersection_1_1contains__pos_01_4.html":[6,0,4,100],
 "structdetray_1_1intersection__point_3_01algebra__t_00_01point__t_00_01_9intersection_1_1contains__pos_01_4.html":[8,0,3,113],
 "structdetray_1_1intersection__point_3_01algebra__t_00_01point__t_00_01_9intersection_1_1contains__pos_01_4.html#a342b24d6b36c4cd3e698c77cc1ed0c8c":[6,0,4,100,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX92 =
 "structdetray_1_1io_1_1detector__payload.html#a401cd3bb99a50ac0f24aafa640d3e513":[8,0,3,7,6,1],
 "structdetray_1_1io_1_1detector__payload.html#a82146fbd3d9fd5d7f0e820cf34806fd0":[6,0,4,3,5,6],
 "structdetray_1_1io_1_1detector__payload.html#a82146fbd3d9fd5d7f0e820cf34806fd0":[8,0,3,7,6,6],
-"structdetray_1_1io_1_1detector__payload.html#a8fadcfec0d8e430975a64b957a979579":[6,0,4,3,5,9],
-"structdetray_1_1io_1_1detector__payload.html#a8fadcfec0d8e430975a64b957a979579":[8,0,3,7,6,9],
-"structdetray_1_1io_1_1detector__payload.html#a998f697b11b347d77ced74f172631163":[6,0,4,3,5,5],
-"structdetray_1_1io_1_1detector__payload.html#a998f697b11b347d77ced74f172631163":[8,0,3,7,6,5],
-"structdetray_1_1io_1_1detector__payload.html#aa2a12a7d316c4224b790b4d1d271aab1":[6,0,4,3,5,0],
-"structdetray_1_1io_1_1detector__payload.html#aa2a12a7d316c4224b790b4d1d271aab1":[8,0,3,7,6,0],
-"structdetray_1_1io_1_1detector__payload.html#aadb1eab3372fb6bf2ea6a76e62c34ddb":[6,0,4,3,5,2],
-"structdetray_1_1io_1_1detector__payload.html#aadb1eab3372fb6bf2ea6a76e62c34ddb":[8,0,3,7,6,2],
-"structdetray_1_1io_1_1detector__payload.html#ab7e3da1be147b34dff4a15935c619b78":[6,0,4,3,5,7]
+"structdetray_1_1io_1_1detector__payload.html#a8fadcfec0d8e430975a64b957a979579":[6,0,4,3,5,9]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX13 =
 {
+"class_acts_1_1_experimental_1_1_composite_space_point_line_fitter.html#afb0b5765005b47f822082f2a462c6890":[6,0,0,1,6,12],
+"class_acts_1_1_experimental_1_1_composite_space_point_line_fitter.html#afb0b5765005b47f822082f2a462c6890":[8,0,0,2,6,12],
+"class_acts_1_1_experimental_1_1_composite_space_point_line_seeder.html":[6,0,0,1,7],
+"class_acts_1_1_experimental_1_1_composite_space_point_line_seeder.html":[8,0,0,2,7],
 "class_acts_1_1_experimental_1_1_composite_space_point_line_seeder.html#a0186dfc2fc2180287d7fc0d3e6c17713":[6,0,0,1,7,17],
 "class_acts_1_1_experimental_1_1_composite_space_point_line_seeder.html#a0186dfc2fc2180287d7fc0d3e6c17713":[8,0,0,2,7,17],
 "class_acts_1_1_experimental_1_1_composite_space_point_line_seeder.html#a178b4720478e7e2f313b338bf146dacf":[6,0,0,1,7,16],
@@ -245,9 +249,5 @@ var NAVTREEINDEX13 =
 "class_acts_1_1_experimental_1_1_frustum_navigation_policy.html#a325dbe70078d3a1bd1b5fae238e59b6b":[6,0,0,1,17,5],
 "class_acts_1_1_experimental_1_1_frustum_navigation_policy.html#a325dbe70078d3a1bd1b5fae238e59b6b":[8,0,0,2,17,5],
 "class_acts_1_1_experimental_1_1_frustum_navigation_policy.html#a4c2cdb7f13f218684aa1556b08bf923f":[6,0,0,1,17,9],
-"class_acts_1_1_experimental_1_1_frustum_navigation_policy.html#a4c2cdb7f13f218684aa1556b08bf923f":[8,0,0,2,17,9],
-"class_acts_1_1_experimental_1_1_frustum_navigation_policy.html#aadada0b65b77bac4612a5d8e34b9efba":[6,0,0,1,17,4],
-"class_acts_1_1_experimental_1_1_frustum_navigation_policy.html#aadada0b65b77bac4612a5d8e34b9efba":[8,0,0,2,17,4],
-"class_acts_1_1_experimental_1_1_frustum_navigation_policy.html#ab6c35fdaa919b915b5274e140dc1ee5d":[6,0,0,1,17,2],
-"class_acts_1_1_experimental_1_1_frustum_navigation_policy.html#ab6c35fdaa919b915b5274e140dc1ee5d":[8,0,0,2,17,2]
+"class_acts_1_1_experimental_1_1_frustum_navigation_policy.html#a4c2cdb7f13f218684aa1556b08bf923f":[8,0,0,2,17,9]
 };

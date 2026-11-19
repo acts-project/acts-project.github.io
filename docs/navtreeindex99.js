@@ -1,5 +1,13 @@
 var NAVTREEINDEX99 =
 {
+"structdetray_1_1svgtools_1_1conversion_1_1material__converter.html#a4b989ce1c7062153df21c9c76625438d":[8,0,3,14,0,1,0],
+"structdetray_1_1svgtools_1_1conversion_1_1surface__converter.html":[8,0,3,14,0,2],
+"structdetray_1_1svgtools_1_1conversion_1_1surface__converter.html#a8541acc7068ab069361c96689725b81c":[8,0,3,14,0,2,0],
+"structdetray_1_1svgtools_1_1conversion_1_1surface__converter.html#ac32c4e1d9374bc72950207383f155186":[8,0,3,14,0,2,1],
+"structdetray_1_1svgtools_1_1meta_1_1proto_1_1eta__lines.html":[8,0,3,14,1,0,0],
+"structdetray_1_1svgtools_1_1meta_1_1proto_1_1eta__lines.html#a1fd8422fb1274488ddc746b26d437056":[8,0,3,14,1,0,0,2],
+"structdetray_1_1svgtools_1_1meta_1_1proto_1_1eta__lines.html#a4eee2bbaf74000a9bfffdb9e59c7c1f6":[8,0,3,14,1,0,0,7],
+"structdetray_1_1svgtools_1_1meta_1_1proto_1_1eta__lines.html#a69250faeb83c01ef3074d5449644a19e":[8,0,3,14,1,0,0,3],
 "structdetray_1_1svgtools_1_1meta_1_1proto_1_1eta__lines.html#a7b3d87733661ad5939d82dce4213fbb0":[8,0,3,14,1,0,0,0],
 "structdetray_1_1svgtools_1_1meta_1_1proto_1_1eta__lines.html#a982349216ac49a09ba33b74252e6dd13":[8,0,3,14,1,0,0,5],
 "structdetray_1_1svgtools_1_1meta_1_1proto_1_1eta__lines.html#abe9c2f7a9408490101c2c6cd0fe0cd86":[8,0,3,14,1,0,0,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX99 =
 "structdetray_1_1telescope__metadata.html#a3ce92d3dfac21940d2a887b3dd548c46":[6,0,4,178,8],
 "structdetray_1_1telescope__metadata.html#a3ce92d3dfac21940d2a887b3dd548c46":[8,0,3,191,8],
 "structdetray_1_1telescope__metadata.html#a4de3d893e0f2ecee07801b39c9ef512c":[6,0,4,178,9],
-"structdetray_1_1telescope__metadata.html#a4de3d893e0f2ecee07801b39c9ef512c":[8,0,3,191,9],
-"structdetray_1_1telescope__metadata.html#a62e449257c904370933edee0b6dca06d":[6,0,4,178,4],
-"structdetray_1_1telescope__metadata.html#a62e449257c904370933edee0b6dca06d":[8,0,3,191,4],
-"structdetray_1_1telescope__metadata.html#a6f6590b86927d5cac849bdec823cbd09":[6,0,4,178,18],
-"structdetray_1_1telescope__metadata.html#a6f6590b86927d5cac849bdec823cbd09":[8,0,3,191,18],
-"structdetray_1_1telescope__metadata.html#a755dd458b28a289adb986b54c80872e9":[6,0,4,178,7],
-"structdetray_1_1telescope__metadata.html#a755dd458b28a289adb986b54c80872e9":[8,0,3,191,7],
-"structdetray_1_1telescope__metadata.html#a7b28411e5f397c7f11d03ef801c5135c":[6,0,4,178,3],
-"structdetray_1_1telescope__metadata.html#a7b28411e5f397c7f11d03ef801c5135c":[8,0,3,191,3]
+"structdetray_1_1telescope__metadata.html#a4de3d893e0f2ecee07801b39c9ef512c":[8,0,3,191,9]
 };

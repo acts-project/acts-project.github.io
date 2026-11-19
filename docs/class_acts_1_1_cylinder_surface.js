@@ -10,6 +10,7 @@ var class_acts_1_1_cylinder_surface =
     [ "assignSurfaceMaterial", "class_acts_1_1_cylinder_surface.html#a44ab00bd7e65ba3d0542675852e42e1f", null ],
     [ "bounds", "class_acts_1_1_cylinder_surface.html#a5f9628e80cfb54bc960ba5d3ce6e7870", null ],
     [ "boundsPtr", "class_acts_1_1_cylinder_surface.html#a178fd5e4cb5842f8607aae4104245d59", null ],
+    [ "contains", "class_acts_1_1_cylinder_surface.html#add86fb17f278e922fb85ebcd2d07a521", null ],
     [ "globalToLocal", "class_acts_1_1_cylinder_surface.html#a3082370f6db11d7bedddbb5fb642792b", null ],
     [ "globalToLocal", "class_acts_1_1_cylinder_surface.html#a380c931f77d165f5b0ae45fd5c8844b7", null ],
     [ "intersect", "class_acts_1_1_cylinder_surface.html#aa8e78f321fa27863bbb84e966253a3bd", null ],

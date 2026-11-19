@@ -1,5 +1,13 @@
 var NAVTREEINDEX87 =
 {
+"structdetray_1_1algebra_1_1storage_1_1matrix.html#a26d7ff22153b4e32621fd1c844dfe781":[8,0,3,1,6,2,11],
+"structdetray_1_1algebra_1_1storage_1_1matrix.html#a4444d01f688cf2fe00690a43e9ffbe9f":[8,0,3,1,6,2,1],
+"structdetray_1_1algebra_1_1storage_1_1matrix.html#a6f334156d541648c567033a6eee6d901":[8,0,3,1,6,2,10],
+"structdetray_1_1algebra_1_1storage_1_1matrix.html#a9c76fa3219ef676b87c30ac68ce442bf":[8,0,3,1,6,2,3],
+"structdetray_1_1algebra_1_1storage_1_1matrix.html#a9e8c9d716b95a7bfbfd81523b93afacc":[8,0,3,1,6,2,4],
+"structdetray_1_1algebra_1_1storage_1_1matrix.html#a9fc5569c465b68423b94d2188cc69a15":[8,0,3,1,6,2,7],
+"structdetray_1_1algebra_1_1storage_1_1matrix.html#aa847179a1ff36b10c311dbc475d31a02":[8,0,3,1,6,2,2],
+"structdetray_1_1algebra_1_1storage_1_1matrix.html#aacb9f17bb51fe6e5e9eae972346b0d85":[8,0,3,1,6,2,12],
 "structdetray_1_1algebra_1_1storage_1_1matrix.html#acb0a052e45d98c64a62ddd4a182aa55f":[8,0,3,1,6,2,9],
 "structdetray_1_1algebra_1_1storage_1_1matrix.html#ae05bce28d96f91721f09b3e5ad621719":[8,0,3,1,6,2,0],
 "structdetray_1_1algebra_1_1storage_1_1matrix.html#af5d5f1f89406be69a33e289e2903714b":[8,0,3,1,6,2,6],
@@ -241,13 +249,5 @@ var NAVTREEINDEX87 =
 "structdetray_1_1base__stepper_1_1state.html#ad71b4382da0d0f59e47c38dba2e7b0bd":[8,0,3,36,0,1],
 "structdetray_1_1base__stepper_1_1state.html#adffd6d32464527823e9b5357e8b9d1df":[6,0,4,23,0,3],
 "structdetray_1_1base__stepper_1_1state.html#adffd6d32464527823e9b5357e8b9d1df":[8,0,3,36,0,3],
-"structdetray_1_1base__stepper_1_1state.html#ae390effd4559f961d2a80da096af8fa0":[6,0,4,23,0,18],
-"structdetray_1_1base__stepper_1_1state.html#ae390effd4559f961d2a80da096af8fa0":[8,0,3,36,0,18],
-"structdetray_1_1base__stepper_1_1state.html#af22cdaca136dd1b008295b514e2c2fb7":[6,0,4,23,0,5],
-"structdetray_1_1base__stepper_1_1state.html#af22cdaca136dd1b008295b514e2c2fb7":[8,0,3,36,0,5],
-"structdetray_1_1base__stepper_1_1state.html#af28f9ed000e8a885dc92e4c10eb1910a":[6,0,4,23,0,19],
-"structdetray_1_1base__stepper_1_1state.html#af28f9ed000e8a885dc92e4c10eb1910a":[8,0,3,36,0,19],
-"structdetray_1_1beryllium.html":[6,0,4,24],
-"structdetray_1_1beryllium.html":[8,0,3,37],
-"structdetray_1_1beryllium.html#af84874154249c7b01896b0d7af99059a":[6,0,4,24,0]
+"structdetray_1_1base__stepper_1_1state.html#ae390effd4559f961d2a80da096af8fa0":[6,0,4,23,0,18]
 };

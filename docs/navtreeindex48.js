@@ -1,5 +1,13 @@
 var NAVTREEINDEX48 =
 {
+"classdetray_1_1composite__actor.html":[6,0,4,38],
+"classdetray_1_1composite__actor.html":[8,0,3,51],
+"classdetray_1_1composite__actor.html#a27c72bb663fb0904e16669bac0f5f262":[6,0,4,38,1],
+"classdetray_1_1composite__actor.html#a27c72bb663fb0904e16669bac0f5f262":[8,0,3,51,1],
+"classdetray_1_1composite__actor.html#a33aca69728cf77d6d68a06750c258450":[6,0,4,38,2],
+"classdetray_1_1composite__actor.html#a33aca69728cf77d6d68a06750c258450":[8,0,3,51,2],
+"classdetray_1_1composite__actor.html#a7ba711104e00b94c664710a38f22a770":[6,0,4,38,6],
+"classdetray_1_1composite__actor.html#a7ba711104e00b94c664710a38f22a770":[8,0,3,51,6],
 "classdetray_1_1composite__actor.html#a82816fcecd46c75c6cc8da65d9c1c75b":[6,0,4,38,4],
 "classdetray_1_1composite__actor.html#a82816fcecd46c75c6cc8da65d9c1c75b":[8,0,3,51,4],
 "classdetray_1_1composite__actor.html#a9c9e2f73eb90911416477a44a0f88b43":[6,0,4,38,5],
@@ -241,13 +249,5 @@ var NAVTREEINDEX48 =
 "classdetray_1_1detail_1_1helix.html#ab751ea73568dc715188d546db00bde0c":[8,0,3,4,15,8],
 "classdetray_1_1detail_1_1helix.html#ab787c01358c3f1e1d764a2692f8d3dff":[8,0,3,4,15,22],
 "classdetray_1_1detail_1_1helix.html#ab897adcf3c7f05524840f0f504f25c95":[8,0,3,4,15,2],
-"classdetray_1_1detail_1_1helix.html#abd4abba4bd721251d01ad6352c6f33c9":[8,0,3,4,15,19],
-"classdetray_1_1detail_1_1helix.html#ac747cf5b2e58412f212eff051e5968c0":[8,0,3,4,15,11],
-"classdetray_1_1detail_1_1helix.html#ac790234ebe6465868d0693a4415bd453":[8,0,3,4,15,6],
-"classdetray_1_1detail_1_1helix.html#acaac3974c9e3168e89160e8df365f346":[8,0,3,4,15,17],
-"classdetray_1_1detail_1_1helix.html#ad5181b889f1094f27dbff766656fcaec":[8,0,3,4,15,5],
-"classdetray_1_1detail_1_1helix.html#ad6b463296fd24d8f49ff1c6ff12e6059":[8,0,3,4,15,18],
-"classdetray_1_1detail_1_1helix.html#ae9434a54e7716748c723da768ea28caf":[8,0,3,4,15,9],
-"classdetray_1_1detail_1_1quadratic__equation.html":[8,0,3,4,21],
-"classdetray_1_1detail_1_1quadratic__equation_3_01scalar__t_01_4.html":[8,0,3,4,22]
+"classdetray_1_1detail_1_1helix.html#abd4abba4bd721251d01ad6352c6f33c9":[8,0,3,4,15,19]
 };

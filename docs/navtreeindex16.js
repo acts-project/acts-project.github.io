@@ -1,5 +1,9 @@
 var NAVTREEINDEX16 =
 {
+"class_acts_1_1_experimental_1_1_ridders_stepper.html#afacc71d9f7b027455a9be1d4fd6492a8":[8,0,0,2,55,34],
+"class_acts_1_1_experimental_1_1_sensor_layer.html":[6,0,0,1,57],
+"class_acts_1_1_experimental_1_1_sensor_layer.html":[8,0,0,2,57],
+"class_acts_1_1_experimental_1_1_sensor_layer.html#a0df6a9415cc04a48aadcc0b8ec4d30f5":[6,0,0,1,57,16],
 "class_acts_1_1_experimental_1_1_sensor_layer.html#a0df6a9415cc04a48aadcc0b8ec4d30f5":[8,0,0,2,57,16],
 "class_acts_1_1_experimental_1_1_sensor_layer.html#a1da65109a755346f9aa5d5820c33a593":[6,0,0,1,57,8],
 "class_acts_1_1_experimental_1_1_sensor_layer.html#a1da65109a755346f9aa5d5820c33a593":[8,0,0,2,57,8],
@@ -245,9 +249,5 @@ var NAVTREEINDEX16 =
 "class_acts_1_1_fixed_subspace_helper.html#a02b784c2dbf0a6f3ae072437d6d7ade7":[8,0,0,151,8],
 "class_acts_1_1_fixed_subspace_helper.html#a11a7b92a6e8d633f5a2bf51dcc11dcfb":[6,0,0,146,5],
 "class_acts_1_1_fixed_subspace_helper.html#a11a7b92a6e8d633f5a2bf51dcc11dcfb":[8,0,0,151,5],
-"class_acts_1_1_fixed_subspace_helper.html#a3940206bb3b932e3e7e369180bc074d8":[6,0,0,146,14],
-"class_acts_1_1_fixed_subspace_helper.html#a3940206bb3b932e3e7e369180bc074d8":[8,0,0,151,14],
-"class_acts_1_1_fixed_subspace_helper.html#a473f988ad735a0fe35897b6c0e7badca":[6,0,0,146,3],
-"class_acts_1_1_fixed_subspace_helper.html#a473f988ad735a0fe35897b6c0e7badca":[8,0,0,151,3],
-"class_acts_1_1_fixed_subspace_helper.html#a545feac78cbf5e4e8d4599e60e095fd6":[6,0,0,146,22]
+"class_acts_1_1_fixed_subspace_helper.html#a3940206bb3b932e3e7e369180bc074d8":[6,0,0,146,14]
 };

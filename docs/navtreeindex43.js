@@ -1,5 +1,13 @@
 var NAVTREEINDEX43 =
 {
+"class_acts_1_1_volume.html#a96961e85bc19fb58d674f3c85cec3d7a":[8,0,0,461,6],
+"class_acts_1_1_volume.html#a9a52594c472982ab84363bdd6810fcba":[6,0,0,456,2],
+"class_acts_1_1_volume.html#a9a52594c472982ab84363bdd6810fcba":[8,0,0,461,2],
+"class_acts_1_1_volume.html#aafaef8d9e7e1f9e207b5ad484e1e5bf3":[6,0,0,456,7],
+"class_acts_1_1_volume.html#aafaef8d9e7e1f9e207b5ad484e1e5bf3":[8,0,0,461,7],
+"class_acts_1_1_volume.html#ac00865a2f60d6be6edd3f1e9858bcfdb":[6,0,0,456,18],
+"class_acts_1_1_volume.html#ac00865a2f60d6be6edd3f1e9858bcfdb":[8,0,0,461,18],
+"class_acts_1_1_volume.html#ac3858c4f1069e71c52fb2ce8f32ee178":[6,0,0,456,24],
 "class_acts_1_1_volume.html#ac3858c4f1069e71c52fb2ce8f32ee178":[8,0,0,461,24],
 "class_acts_1_1_volume.html#ac66d1159bb079d344da6481575691bf6":[6,0,0,456,10],
 "class_acts_1_1_volume.html#ac66d1159bb079d344da6481575691bf6":[8,0,0,461,10],
@@ -241,13 +249,5 @@ var NAVTREEINDEX43 =
 "class_acts_fatras_1_1_landau_distribution.html#a909ad5d31a8796e86c05b6ee1354e5cd":[8,0,1,19,5],
 "class_acts_fatras_1_1_landau_distribution.html#a9f1767c7d4c1e30e4c2bb1201361fb43":[6,0,2,18,12],
 "class_acts_fatras_1_1_landau_distribution.html#a9f1767c7d4c1e30e4c2bb1201361fb43":[8,0,1,19,12],
-"class_acts_fatras_1_1_landau_distribution.html#abbadb97d72f201568dcc6dc5cb067bc9":[6,0,2,18,8],
-"class_acts_fatras_1_1_landau_distribution.html#abbadb97d72f201568dcc6dc5cb067bc9":[8,0,1,19,8],
-"class_acts_fatras_1_1_landau_distribution.html#ac28b2a6fa41c5e83c4c26b8f8d40d458":[6,0,2,18,1],
-"class_acts_fatras_1_1_landau_distribution.html#ac28b2a6fa41c5e83c4c26b8f8d40d458":[8,0,1,19,1],
-"class_acts_fatras_1_1_landau_distribution.html#ae2b832188ae57eca535c23f975eed42c":[6,0,2,18,13],
-"class_acts_fatras_1_1_landau_distribution.html#ae2b832188ae57eca535c23f975eed42c":[8,0,1,19,13],
-"class_acts_fatras_1_1_landau_distribution.html#afcacdfc58c67d6bf26b752ffd4fff620":[6,0,2,18,16],
-"class_acts_fatras_1_1_landau_distribution.html#afcacdfc58c67d6bf26b752ffd4fff620":[8,0,1,19,16],
-"class_acts_fatras_1_1_particle.html":[6,0,2,26]
+"class_acts_fatras_1_1_landau_distribution.html#abbadb97d72f201568dcc6dc5cb067bc9":[6,0,2,18,8]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX85 =
 {
+"struct_acts_plugins_1_1_t_geo_material_converter.html":[5,10,12,11],
+"struct_acts_plugins_1_1_t_geo_material_converter.html#a8be6948a315688e98bfadd68fbcb557a":[5,10,12,11,1],
+"struct_acts_plugins_1_1_t_geo_material_converter_1_1_options.html":[5,10,12,11,0],
+"struct_acts_plugins_1_1_t_geo_material_converter_1_1_options.html#a4f48461c20e7b445cb54542b2abb0b28":[5,10,12,11,0,0],
+"struct_acts_plugins_1_1_t_geo_material_converter_1_1_options.html#af1c6d3cb5ac5348c7e1cfcdd7107f499":[5,10,12,11,0,1],
+"struct_acts_plugins_1_1_t_geo_parser.html":[5,10,12,12],
+"struct_acts_plugins_1_1_t_geo_parser.html#acff30ce1cb6b59373a25a484bf327cf8":[5,10,12,12,4],
+"struct_acts_plugins_1_1_t_geo_parser.html#aee6ea1301fb7908e8fd254723a732585":[5,10,12,12,3],
 "struct_acts_plugins_1_1_t_geo_parser.html#aff6f500b39590fff1dd82f00735bf664":[5,10,12,12,5],
 "struct_acts_plugins_1_1_t_geo_parser_1_1_options.html":[5,10,12,12,0],
 "struct_acts_plugins_1_1_t_geo_parser_1_1_options.html#a066662be63118788efc6389072a07f6b":[5,10,12,12,0,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX85 =
 "structdetray_1_1algebra_1_1eigen_1_1math_1_1transform3.html#a323271c4da263f9a6f9608d0bc817cab":[8,0,3,1,2,0,0,28],
 "structdetray_1_1algebra_1_1eigen_1_1math_1_1transform3.html#a3cd194bdba2163e1e3fa2dca4419da62":[8,0,3,1,2,0,0,14],
 "structdetray_1_1algebra_1_1eigen_1_1math_1_1transform3.html#a3fc6e33fc97c96336813e9055a0ad162":[8,0,3,1,2,0,0,2],
-"structdetray_1_1algebra_1_1eigen_1_1math_1_1transform3.html#a46d353be6d4f094492a3e05ef67cacda":[8,0,3,1,2,0,0,12],
-"structdetray_1_1algebra_1_1eigen_1_1math_1_1transform3.html#a4839d31977da9a2ce671fa23108df02a":[8,0,3,1,2,0,0,16],
-"structdetray_1_1algebra_1_1eigen_1_1math_1_1transform3.html#a49ef5f416de7718e85903672877ce31e":[8,0,3,1,2,0,0,29],
-"structdetray_1_1algebra_1_1eigen_1_1math_1_1transform3.html#a4b9d8a6d56b34dfc7c152e8a9262de6a":[8,0,3,1,2,0,0,33],
-"structdetray_1_1algebra_1_1eigen_1_1math_1_1transform3.html#a4dff7c8289febeea7e53a09b80abff9f":[8,0,3,1,2,0,0,7],
-"structdetray_1_1algebra_1_1eigen_1_1math_1_1transform3.html#a4ed746740271957c28d272fef9d4e887":[8,0,3,1,2,0,0,24],
-"structdetray_1_1algebra_1_1eigen_1_1math_1_1transform3.html#a4f837796f306fb44b22b55f1c4caf59a":[8,0,3,1,2,0,0,23],
-"structdetray_1_1algebra_1_1eigen_1_1math_1_1transform3.html#a571932455e257fd5a78a5780876834fc":[8,0,3,1,2,0,0,8],
-"structdetray_1_1algebra_1_1eigen_1_1math_1_1transform3.html#a5dbea5181bf188363dbc800fd4b7be4b":[8,0,3,1,2,0,0,27]
+"structdetray_1_1algebra_1_1eigen_1_1math_1_1transform3.html#a46d353be6d4f094492a3e05ef67cacda":[8,0,3,1,2,0,0,12]
 };
