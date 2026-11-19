@@ -151,6 +151,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad75705a379f4662bc5a28b328f6529bb" id="r_ad75705a379f4662bc5a28b328f6529bb"><td class="memTemplParams" colspan="2">template&lt;typename smoother_t = MbfSmoother, TrackProxyConcept track_proxy_t&gt; </td></tr>
 <tr class="memitem:ad75705a379f4662bc5a28b328f6529bb template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad75705a379f4662bc5a28b328f6529bb">joinInPlace</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, track_proxy_t &amp;first, typename track_proxy_t::TrackStateProxy sharedState, track_proxy_t &amp;second, const smoother_t &amp;smoother=smoother_t{}) const</td></tr>
 <tr class="memdesc:ad75705a379f4662bc5a28b328f6529bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Join in place: the first tracklet becomes the joined track.  <br /></td></tr>
+<tr class="memitem:aff2412120dfec222821c2a5af695db28" id="r_aff2412120dfec222821c2a5af695db28"><td class="memTemplParams" colspan="2">template&lt;typename visitor_t, typename smoother_t = MbfSmoother, TrackProxyConcept track_proxy_t&gt; <br />
+requires std::invocable&lt;visitor_t&amp;, track_proxy_t&amp;&gt;</td></tr>
+<tr class="memitem:aff2412120dfec222821c2a5af695db28 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff2412120dfec222821c2a5af695db28">joinVisit</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, track_proxy_t &amp;first, typename track_proxy_t::TrackStateProxy sharedState, track_proxy_t &amp;second, visitor_t &amp;&amp;visitor, const smoother_t &amp;smoother=smoother_t{}) const</td></tr>
+<tr class="memdesc:aff2412120dfec222821c2a5af695db28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Join in place, pass the joined track to <code class="param">visitor</code>, and restore the first tracklet.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Join a second tracklet, filtered from a state of a smoothed first tracklet as prior, behind that shared state, and combine their smoothed estimates without a new propagation. </p>
@@ -341,6 +345,74 @@ template&lt;typename smoother_t = MbfSmoother, TrackProxyConcept track_proxy_t&g
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Success or the first error </dd></dl>
+
+</div>
+</div>
+<a id="aff2412120dfec222821c2a5af695db28" name="aff2412120dfec222821c2a5af695db28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff2412120dfec222821c2a5af695db28">&#9670;&#160;</a></span>joinVisit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename visitor_t, typename smoother_t = MbfSmoother, TrackProxyConcept track_proxy_t&gt; <br />
+requires std::invocable&lt;visitor_t&amp;, track_proxy_t&amp;&gt;</div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt; Acts::TrackletJoiner::joinVisit </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">track_proxy_t &amp;</td>          <td class="paramname"><span class="paramname"><em>first</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">typename track_proxy_t::TrackStateProxy</td>          <td class="paramname"><span class="paramname"><em>sharedState</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">track_proxy_t &amp;</td>          <td class="paramname"><span class="paramname"><em>second</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">visitor_t &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>visitor</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const smoother_t &amp;</td>          <td class="paramname"><span class="paramname"><em>smoother</em></span><span class="paramdefsep"> = </span><span class="paramdefval">smoother_t{}</span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Join in place, pass the joined track to <code class="param">visitor</code>, and restore the first tracklet. </p>
+<p>For a visitor that copies the joined track, e.g. into an output container, this replaces <a class="el" href="#a5159669f4f914d9b39692ebabd72728b">joinCopy</a> without its copies.</p>
+<p>The joined track is <code class="param">second</code> with the chain and the track-level data of the joined track, as <a class="el" href="#ad75705a379f4662bc5a28b328f6529bb">joinInPlace</a> gives <code class="param">first</code>. The second tracklet is consumed; copy it first if its states are shared. The first tracklet gets back its smoothed states, its link at the shared state and its stem; other tracklets sharing its states see the join only during the visit.</p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">visitor_t</td><td>A callable taking the joined track proxy </td></tr>
+    <tr><td class="paramname">smoother_t</td><td>The smoother for the second tracklet </td></tr>
+    <tr><td class="paramname">track_proxy_t</td><td>The track proxy type </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gctx</td><td>The geometry context </td></tr>
+    <tr><td class="paramname">first</td><td>The first tracklet </td></tr>
+    <tr><td class="paramname">sharedState</td><td>The state the second tracklet started from </td></tr>
+    <tr><td class="paramname">second</td><td>The second tracklet </td></tr>
+    <tr><td class="paramname">visitor</td><td>Called with the joined track if the join succeeds </td></tr>
+    <tr><td class="paramname">smoother</td><td>The smoother </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Success or the first error; the first tracklet is restored in both cases </dd></dl>
 
 </div>
 </div>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"namespacedetray.html#a2fe4a8fe66a88e44f66329ed0a67a45b":[6,0,4,267],
 "namespacedetray.html#a31a009429e43b4b034595ffd5f6490ac":[6,0,4,252],
 "namespacedetray.html#a3622614888b24c246e000c62d1833da4":[6,0,4,220],
 "namespacedetray.html#a39227e907b1e37b34e3e1180e73ca392":[6,0,4,224],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_config.html#ad6bda7fd1be088f6f2ed50c73d960acf":[6,0,0,15,0,6],
 "struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_config.html#ad6bda7fd1be088f6f2ed50c73d960acf":[8,0,0,20,0,6],
 "struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_config.html#ad8c42ed575063e21943582bb72f6f89a":[6,0,0,15,0,1],
-"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_config.html#ad8c42ed575063e21943582bb72f6f89a":[8,0,0,20,0,1],
-"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_config.html#aee7271fa9069344b35b8802b82963956":[6,0,0,15,0,2]
+"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_config.html#ad8c42ed575063e21943582bb72f6f89a":[8,0,0,20,0,1]
 };

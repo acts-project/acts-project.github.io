@@ -1,5 +1,6 @@
 var NAVTREEINDEX90 =
 {
+"structdetray_1_1cylindrical2_d.html#a9abe41bfd7cb13d40473d66f577c3d6a":[8,0,3,68,5],
 "structdetray_1_1cylindrical2_d.html#aa124657fc29fed5b1e81f5a8b53ac322":[6,0,4,55,4],
 "structdetray_1_1cylindrical2_d.html#aa124657fc29fed5b1e81f5a8b53ac322":[8,0,3,68,4],
 "structdetray_1_1cylindrical2_d.html#ab113e0cbb5eb7f11ebbaa9ee5f828168":[6,0,4,55,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX90 =
 "structdetray_1_1euler__rotation.html":[8,0,3,80],
 "structdetray_1_1euler__rotation.html#a0e1c0824898aa7990b36f2a491eb95e9":[6,0,4,67,0],
 "structdetray_1_1euler__rotation.html#a0e1c0824898aa7990b36f2a491eb95e9":[8,0,3,80,0],
-"structdetray_1_1euler__rotation.html#a2588464c04b59e199e5c5744949e0a13":[6,0,4,67,6],
-"structdetray_1_1euler__rotation.html#a2588464c04b59e199e5c5744949e0a13":[8,0,3,80,6]
+"structdetray_1_1euler__rotation.html#a2588464c04b59e199e5c5744949e0a13":[6,0,4,67,6]
 };

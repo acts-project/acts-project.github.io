@@ -1,5 +1,6 @@
 var NAVTREEINDEX83 =
 {
+"struct_acts_fatras_1_1_no_decay.html#a6132d5e9545ce44ddd2fb0775dbc8476":[6,0,2,24,1],
 "struct_acts_fatras_1_1_no_decay.html#a6132d5e9545ce44ddd2fb0775dbc8476":[8,0,1,25,1],
 "struct_acts_fatras_1_1_no_decay.html#acb299224bf542a881e4398b526b7f175":[6,0,2,24,0],
 "struct_acts_fatras_1_1_no_decay.html#acb299224bf542a881e4398b526b7f175":[8,0,1,25,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX83 =
 "struct_acts_plugins_1_1_e_d_m4hep_util_1_1_measurement_data.html#a4480d35c611447427a86a2aa3602ccb7":[8,0,2,2,0,2],
 "struct_acts_plugins_1_1_e_d_m4hep_util_1_1_measurement_data.html#a70ccb78643053e89aaf08343bd0aa3dc":[8,0,2,2,0,0],
 "struct_acts_plugins_1_1_e_d_m4hep_util_1_1_measurement_data.html#a871ddbb7a9df808892937857ccfd6921":[8,0,2,2,0,3],
-"struct_acts_plugins_1_1_e_d_m4hep_util_1_1_measurement_data.html#ad4da5f8e770ac05c265ceebf36394a74":[8,0,2,2,0,1],
-"struct_acts_plugins_1_1_edge_layer_connector_1_1_config.html":[5,10,6,5,0]
+"struct_acts_plugins_1_1_e_d_m4hep_util_1_1_measurement_data.html#ad4da5f8e770ac05c265ceebf36394a74":[8,0,2,2,0,1]
 };

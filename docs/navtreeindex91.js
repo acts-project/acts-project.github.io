@@ -1,5 +1,6 @@
 var NAVTREEINDEX91 =
 {
+"structdetray_1_1euler__rotation.html#a2588464c04b59e199e5c5744949e0a13":[8,0,3,80,6],
 "structdetray_1_1euler__rotation.html#a55f1027f056699deb1c8ee28af02370d":[6,0,4,67,1],
 "structdetray_1_1euler__rotation.html#a55f1027f056699deb1c8ee28af02370d":[8,0,3,80,1],
 "structdetray_1_1euler__rotation.html#a56cb243feefb1825e17c17e636c63291":[6,0,4,67,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX91 =
 "structdetray_1_1hom__material__config.html#ab4e4e7dec0a404379d3df7ff1bef0a9e":[8,0,3,103,1],
 "structdetray_1_1hom__material__config.html#abf3e4ed5545ae14e88863d529b42dba9":[6,0,4,90,8],
 "structdetray_1_1hom__material__config.html#abf3e4ed5545ae14e88863d529b42dba9":[8,0,3,103,8],
-"structdetray_1_1hom__material__config.html#ac1c4a506d975c249477e32a39c525cff":[6,0,4,90,6],
-"structdetray_1_1hom__material__config.html#ac1c4a506d975c249477e32a39c525cff":[8,0,3,103,6]
+"structdetray_1_1hom__material__config.html#ac1c4a506d975c249477e32a39c525cff":[6,0,4,90,6]
 };

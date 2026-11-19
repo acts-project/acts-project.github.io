@@ -111,6 +111,7 @@ var NAVTREEINDEX41 =
 "class_acts_1_1_tracklet_joiner.html#a9d964248bd03e1d391e6e50752278c6e":[5,13,22,2],
 "class_acts_1_1_tracklet_joiner.html#aa4fdfca906dec1098bb904ed297859af":[5,13,22,1],
 "class_acts_1_1_tracklet_joiner.html#ad75705a379f4662bc5a28b328f6529bb":[5,13,22,5],
+"class_acts_1_1_tracklet_joiner.html#aff2412120dfec222821c2a5af695db28":[5,13,22,6],
 "class_acts_1_1_trapezoid_bounds.html":[6,0,0,433],
 "class_acts_1_1_trapezoid_bounds.html":[8,0,0,438],
 "class_acts_1_1_trapezoid_bounds.html#a00f9ae745e94915419afe09c26633e84":[6,0,0,433,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX41 =
 "class_acts_1_1_triplet_top_candidates_1_1_proxy.html#aae82d96f4f8be092a06fa9a2bbbb173e":[6,0,0,438,0,2],
 "class_acts_1_1_triplet_top_candidates_1_1_proxy.html#aae82d96f4f8be092a06fa9a2bbbb173e":[8,0,0,443,0,2],
 "class_acts_1_1_triplet_top_candidates_1_1_proxy.html#ac818fb33fe7c206bb86caaf36c5e062a":[6,0,0,438,0,0],
-"class_acts_1_1_triplet_top_candidates_1_1_proxy.html#ac818fb33fe7c206bb86caaf36c5e062a":[8,0,0,443,0,0],
-"class_acts_1_1_triplet_top_candidates_1_1_proxy.html#adc623d248f564c10564c5f40150c7e6a":[6,0,0,438,0,1]
+"class_acts_1_1_triplet_top_candidates_1_1_proxy.html#ac818fb33fe7c206bb86caaf36c5e062a":[8,0,0,443,0,0]
 };

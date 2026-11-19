@@ -1,5 +1,6 @@
 var NAVTREEINDEX65 =
 {
+"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_config.html#aee7271fa9069344b35b8802b82963956":[6,0,0,15,0,2],
 "struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_config.html#aee7271fa9069344b35b8802b82963956":[8,0,0,20,0,2],
 "struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_config.html#af405fd66dac948abd0deebc4e1f66494":[6,0,0,15,0,4],
 "struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_config.html#af405fd66dac948abd0deebc4e1f66494":[8,0,0,20,0,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX65 =
 "struct_acts_1_1_axis_spec_options.html#a60bfa8326059970640b0f4dea3cbaca2":[8,0,0,48,3],
 "struct_acts_1_1_axis_spec_options.html#a9a373ab538a6985f329bb5926608f296":[6,0,0,43,2],
 "struct_acts_1_1_axis_spec_options.html#a9a373ab538a6985f329bb5926608f296":[8,0,0,48,2],
-"struct_acts_1_1_axis_spec_options.html#aee7955c52cc72400dbce07348a97493c":[6,0,0,43,1],
-"struct_acts_1_1_axis_spec_options.html#aee7955c52cc72400dbce07348a97493c":[8,0,0,48,1]
+"struct_acts_1_1_axis_spec_options.html#aee7955c52cc72400dbce07348a97493c":[6,0,0,43,1]
 };

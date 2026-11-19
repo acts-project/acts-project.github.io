@@ -1,5 +1,6 @@
 var NAVTREEINDEX76 =
 {
+"struct_acts_1_1_navigator_1_1_config.html":[6,0,0,299,0],
 "struct_acts_1_1_navigator_1_1_config.html":[8,0,0,304,0],
 "struct_acts_1_1_navigator_1_1_config.html#a235518a0a98b09d5db285ba4ca915d33":[6,0,0,299,0,4],
 "struct_acts_1_1_navigator_1_1_config.html#a235518a0a98b09d5db285ba4ca915d33":[8,0,0,304,0,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX76 =
 "struct_acts_1_1_polyhedron_reference_generator.html#a5d6888ad65bbe810ac2d78066f48b9fb":[6,0,0,328,2],
 "struct_acts_1_1_polyhedron_reference_generator.html#a5d6888ad65bbe810ac2d78066f48b9fb":[8,0,0,333,2],
 "struct_acts_1_1_polyhedron_reference_generator.html#a64b5009aa9be7697fa913ba69e497c6e":[6,0,0,328,0],
-"struct_acts_1_1_polyhedron_reference_generator.html#a64b5009aa9be7697fa913ba69e497c6e":[8,0,0,333,0],
-"struct_acts_1_1_polyhedron_reference_generator.html#abe8a40f2272e306b1306155330ed805e":[6,0,0,328,3]
+"struct_acts_1_1_polyhedron_reference_generator.html#a64b5009aa9be7697fa913ba69e497c6e":[8,0,0,333,0]
 };

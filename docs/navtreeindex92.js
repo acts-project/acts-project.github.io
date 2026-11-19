@@ -1,5 +1,6 @@
 var NAVTREEINDEX92 =
 {
+"structdetray_1_1hom__material__config.html#ac1c4a506d975c249477e32a39c525cff":[8,0,3,103,6],
 "structdetray_1_1hom__material__config.html#aca74c7a0679c727a9a251cf066fb48dd":[6,0,4,90,4],
 "structdetray_1_1hom__material__config.html#aca74c7a0679c727a9a251cf066fb48dd":[8,0,3,103,4],
 "structdetray_1_1hom__material__config.html#acc5d92ee23e09173766046a7f1863a78":[6,0,4,90,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX92 =
 "structdetray_1_1io_1_1csv_1_1free__track__parameters.html#a003b5077eb5178b79d9ac8a54d84cc03":[8,0,3,7,0,1,1],
 "structdetray_1_1io_1_1csv_1_1free__track__parameters.html#a6e415fbf51b9b98523dd90781dc94a26":[8,0,3,7,0,1,6],
 "structdetray_1_1io_1_1csv_1_1free__track__parameters.html#a87c60601433c4774091a646a114c5aac":[8,0,3,7,0,1,0],
-"structdetray_1_1io_1_1csv_1_1free__track__parameters.html#a92f6b89f21a4a28f12ff751295413f9a":[8,0,3,7,0,1,4],
-"structdetray_1_1io_1_1csv_1_1free__track__parameters.html#a97635138f53e9498558e63853e699637":[8,0,3,7,0,1,7]
+"structdetray_1_1io_1_1csv_1_1free__track__parameters.html#a92f6b89f21a4a28f12ff751295413f9a":[8,0,3,7,0,1,4]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX85 =
 {
+"struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_config.html#ad4072abd14a019ba658f377dc202308b":[8,0,2,71,0,3],
 "struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_element.html":[6,0,3,66,1],
 "struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_element.html":[8,0,2,71,1],
 "struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_element.html#a22b2ae3845a06b86c7a20e8fd2fd4223":[6,0,3,66,1,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX85 =
 "structdetray_1_1aggregate__inspector.html#a52da11d1e515c80604b5e4a106788d2a":[6,0,4,8,11],
 "structdetray_1_1aggregate__inspector.html#a52da11d1e515c80604b5e4a106788d2a":[8,0,3,21,11],
 "structdetray_1_1aggregate__inspector.html#a6672854ec08412a5f5a1a99249c8a583":[6,0,4,8,5],
-"structdetray_1_1aggregate__inspector.html#a6672854ec08412a5f5a1a99249c8a583":[6,0,4,8,6],
-"structdetray_1_1aggregate__inspector.html#a6672854ec08412a5f5a1a99249c8a583":[8,0,3,21,5]
+"structdetray_1_1aggregate__inspector.html#a6672854ec08412a5f5a1a99249c8a583":[6,0,4,8,6]
 };

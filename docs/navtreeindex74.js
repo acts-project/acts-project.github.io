@@ -1,5 +1,6 @@
 var NAVTREEINDEX74 =
 {
+"struct_acts_1_1_impact_parameters_and_sigma.html#a0055158a8a13eb2908255f83f2fe9a00":[8,0,0,199,4],
 "struct_acts_1_1_impact_parameters_and_sigma.html#a01b2e408696061c166d5135b1df6a9cf":[6,0,0,194,5],
 "struct_acts_1_1_impact_parameters_and_sigma.html#a01b2e408696061c166d5135b1df6a9cf":[8,0,0,199,5],
 "struct_acts_1_1_impact_parameters_and_sigma.html#a3715ab051fc7e9a0b6e4170ebcaa84c2":[6,0,0,194,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX74 =
 "struct_acts_1_1_linear_volume_lookup_1_1_config.html":[6,0,0,255,0],
 "struct_acts_1_1_linear_volume_lookup_1_1_config.html":[8,0,0,260,0],
 "struct_acts_1_1_linear_volume_lookup_1_1_config.html#ac4cdf8b9880a16cf81a6f2edc518964f":[6,0,0,255,0,0],
-"struct_acts_1_1_linear_volume_lookup_1_1_config.html#ac4cdf8b9880a16cf81a6f2edc518964f":[8,0,0,260,0,0],
-"struct_acts_1_1_linearized_track.html":[6,0,0,254]
+"struct_acts_1_1_linear_volume_lookup_1_1_config.html#ac4cdf8b9880a16cf81a6f2edc518964f":[8,0,0,260,0,0]
 };

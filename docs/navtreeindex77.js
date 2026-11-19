@@ -1,5 +1,6 @@
 var NAVTREEINDEX77 =
 {
+"struct_acts_1_1_polyhedron_reference_generator.html#abe8a40f2272e306b1306155330ed805e":[6,0,0,328,3],
 "struct_acts_1_1_polyhedron_reference_generator.html#abe8a40f2272e306b1306155330ed805e":[8,0,0,333,3],
 "struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_poly_data.html":[5,3,2,15,0],
 "struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_poly_data.html":[5,13,21,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX77 =
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html#a9bce331f713646212e8206e693bda6ca":[6,0,0,363,1,0],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html#a9bce331f713646212e8206e693bda6ca":[8,0,0,368,1,0],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html#ab0b5a40b38ed383d09eb743dbfc65604":[6,0,0,363,1,8],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html#ab0b5a40b38ed383d09eb743dbfc65604":[8,0,0,368,1,8],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html#ac1b756c230ba9cfae0494e28dcfda3fa":[6,0,0,363,1,11]
+"struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html#ab0b5a40b38ed383d09eb743dbfc65604":[8,0,0,368,1,8]
 };

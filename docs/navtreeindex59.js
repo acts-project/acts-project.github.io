@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"conceptdetray_1_1concepts_1_1surface__material.html":[6,0,4,1,82],
 "conceptdetray_1_1concepts_1_1surface__material.html":[7,1,0,82],
 "conceptdetray_1_1concepts_1_1transform3_d.html":[6,0,4,1,83],
 "conceptdetray_1_1concepts_1_1transform3_d.html":[7,1,0,83],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "group__edm4hep__plugin.html#gaec2431e6bd278ab0b589b49045b19b58":[5,10,4,15],
 "group__edm4hep__plugin.html#gafd933cfa2a2f01a1747f04bfca3005e7":[5,10,4,19],
 "group__errors.html":[5,4],
-"group__errors.html#ga15d42dcaa6c43d68f6d711f04f9594bd":[5,4,12],
-"group__errors.html#ga1ce88ea0e4490538ca747b2877e17317":[5,4,3]
+"group__errors.html#ga15d42dcaa6c43d68f6d711f04f9594bd":[5,4,12]
 };

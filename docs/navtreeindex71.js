@@ -1,5 +1,6 @@
 var NAVTREEINDEX71 =
 {
+"struct_acts_1_1_experimental_1_1_hough_exploration_options.html#af546732450c3bed80fe69ace73a24f93":[6,0,0,1,44,5],
 "struct_acts_1_1_experimental_1_1_hough_exploration_options.html#af546732450c3bed80fe69ace73a24f93":[8,0,0,2,44,5],
 "struct_acts_1_1_experimental_1_1_multi_layer_navigation_policy_1_1_config.html":[6,0,0,1,47,0],
 "struct_acts_1_1_experimental_1_1_multi_layer_navigation_policy_1_1_config.html":[8,0,0,2,47,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX71 =
 "struct_acts_1_1_gaussian_grid_track_density_1_1_config.html":[6,0,0,153,0],
 "struct_acts_1_1_gaussian_grid_track_density_1_1_config.html":[8,0,0,158,0],
 "struct_acts_1_1_gaussian_grid_track_density_1_1_config.html#a24e5d86ad9d76cb103c173020021667a":[6,0,0,153,0,3],
-"struct_acts_1_1_gaussian_grid_track_density_1_1_config.html#a24e5d86ad9d76cb103c173020021667a":[8,0,0,158,0,3],
-"struct_acts_1_1_gaussian_grid_track_density_1_1_config.html#a269b2461907a4755bd715bbea41c973c":[6,0,0,153,0,0]
+"struct_acts_1_1_gaussian_grid_track_density_1_1_config.html#a24e5d86ad9d76cb103c173020021667a":[8,0,0,158,0,3]
 };
