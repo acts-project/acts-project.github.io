@@ -280,8 +280,8 @@ $(function(){initNavTree('cuboid__portal__generator_8hpp_source.html','',''); })
 <div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>    } <span class="keywordflow">else</span> {</div>
 <div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>      mask_link.set_index(mask_idx);</div>
 <div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>    }</div>
-<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>    masks.template emplace_back&lt;rectangle_id&gt;(empty_context{}, volume_link, h_x,</div>
-<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>                                              h_y);</div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>    masks.template emplace_back&lt;rectangle_id&gt;(empty_context{}, volume_link,</div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>                                              -h_x, -h_y, h_x, h_y);</div>
 <div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span> </div>
 <div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>    <span class="comment">// No rotation, but shift in z for both faces</span></div>
 <div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>    vector3_t shift{<span class="keyword">static_cast&lt;</span>scalar_type<span class="keyword">&gt;</span>(0), <span class="keyword">static_cast&lt;</span>scalar_type<span class="keyword">&gt;</span>(0),</div>
@@ -303,8 +303,8 @@ $(function(){initNavTree('cuboid__portal__generator_8hpp_source.html','',''); })
 <div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>    <span class="comment">// ... x-z plane</span></div>
 <div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>    <span class="comment">//</span></div>
 <div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>    mask_link.shift(1u);</div>
-<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>    masks.template emplace_back&lt;rectangle_id&gt;(empty_context{}, volume_link, h_x,</div>
-<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>                                              h_z);</div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>    masks.template emplace_back&lt;rectangle_id&gt;(empty_context{}, volume_link,</div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>                                              -h_x, -h_z, h_x, h_z);</div>
 <div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span> </div>
 <div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>    <span class="comment">// Rotate by 90deg around x-axis, plus shift in y</span></div>
 <div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>    shift = {<span class="keyword">static_cast&lt;</span>scalar_type<span class="keyword">&gt;</span>(0),</div>
@@ -329,8 +329,8 @@ $(function(){initNavTree('cuboid__portal__generator_8hpp_source.html','',''); })
 <div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>    <span class="comment">// ... y-z plane</span></div>
 <div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>    <span class="comment">//</span></div>
 <div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>    mask_link.shift(1u);</div>
-<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>    masks.template emplace_back&lt;rectangle_id&gt;(empty_context{}, volume_link, h_z,</div>
-<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>                                              h_y);</div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>    masks.template emplace_back&lt;rectangle_id&gt;(empty_context{}, volume_link,</div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>                                              -h_z, -h_y, h_z, h_y);</div>
 <div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span> </div>
 <div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>    <span class="comment">// Rotate by 90deg around y-axis, plus shift in x</span></div>
 <div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>    shift = {detail::is_invalid_value(h_x) ? max_shift : h_x,</div>

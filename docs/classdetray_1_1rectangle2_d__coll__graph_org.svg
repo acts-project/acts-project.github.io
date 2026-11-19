@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title="Geometrical shape of a rectangle2D.">
+<g id="a_Node000001"><a xlink:title="Geometrical shape of an axis&#45;aligned rectangle2D.">
 <polygon fill="#999999" stroke="#666666" points="118,-20.75 6,-20.75 6,0 118,0 118,-20.75"/>
 <text xml:space="preserve" text-anchor="middle" x="62" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">detray::rectangle2D</text>
 </a>

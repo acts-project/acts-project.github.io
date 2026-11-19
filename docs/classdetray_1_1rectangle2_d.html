@@ -126,7 +126,7 @@ $(function(){initNavTree('classdetray_1_1rectangle2_d.html','','classdetray_1_1r
 </div><!--header-->
 <div class="contents">
 
-<p>Geometrical shape of a rectangle2D.  
+<p>Geometrical shape of an axis-aligned rectangle2D.  
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="rectangle2_d_8hpp_source.html">detray/geometry/shapes/rectangle2D.hpp</a>&gt;</code></p>
@@ -138,11 +138,16 @@ Collaboration diagram for detray::rectangle2D:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a971bbf46991c5c407f3be37191bc5792" id="r_a971bbf46991c5c407f3be37191bc5792"><td class="memItemLeft" align="right" valign="top"><a id="a971bbf46991c5c407f3be37191bc5792" name="a971bbf46991c5c407f3be37191bc5792"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a971bbf46991c5c407f3be37191bc5792">boundaries</a> : unsigned int { <b>e_half_x</b> = 0u
-, <b>e_half_y</b> = 1u
-, <b>e_size</b> = 2u
+<tr class="memitem:a971bbf46991c5c407f3be37191bc5792" id="r_a971bbf46991c5c407f3be37191bc5792"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a971bbf46991c5c407f3be37191bc5792">boundaries</a> : unsigned int { <br />
+&#160;&#160;<b>e_min_x</b> = 0u
+, <b>e_min_y</b> = 1u
+, <b>e_max_x</b> = 2u
+, <b>e_max_y</b> = 3u
+, <br />
+&#160;&#160;<b>e_size</b> = 4u
+<br />
  }</td></tr>
-<tr class="memdesc:a971bbf46991c5c407f3be37191bc5792"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indices describing the entries in the shape boundary array. <br /></td></tr>
+<tr class="memdesc:a971bbf46991c5c407f3be37191bc5792"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indices describing the entries in the shape boundary array.  <a href="#a971bbf46991c5c407f3be37191bc5792">More...</a><br /></td></tr>
 <tr class="memitem:a2662e30270e19533cbdea7b9cef36ae6" id="r_a2662e30270e19533cbdea7b9cef36ae6"><td class="memTemplParams" colspan="2"><a id="a2662e30270e19533cbdea7b9cef36ae6" name="a2662e30270e19533cbdea7b9cef36ae6"></a>
 template&lt;concepts::scalar scalar_t&gt; </td></tr>
 <tr class="memitem:a2662e30270e19533cbdea7b9cef36ae6 template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><b>bounds_type</b> = <a class="el" href="namespacedetray.html#a6bf94de620d7a239c612c5f9e8dbc1f3">darray</a>&lt;scalar_t, boundaries::e_size&gt;</td></tr>
@@ -161,8 +166,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6cd05420ccc560bc7fefeec0e8a94df5" id="r_a6cd05420ccc560bc7fefeec0e8a94df5"><td class="memTemplParams" colspan="2">template&lt;concepts::scalar scalar_t&gt; </td></tr>
 <tr class="memitem:a6cd05420ccc560bc7fefeec0e8a94df5 template"><td class="memItemLeft" align="right" valign="top">constexpr scalar_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6cd05420ccc560bc7fefeec0e8a94df5">area</a> (const <a class="el" href="#a2662e30270e19533cbdea7b9cef36ae6">bounds_type</a>&lt; scalar_t &gt; &amp;bounds) const</td></tr>
 <tr class="memdesc:a6cd05420ccc560bc7fefeec0e8a94df5"><td class="mdescLeft">&#160;</td><td class="mdescRight">The area of a the shape.  <br /></td></tr>
-<tr class="memitem:a852030a9709440416d5ca17aad5d07f8" id="r_a852030a9709440416d5ca17aad5d07f8"><td class="memTemplParams" colspan="2">template&lt;concepts::algebra algebra_t&gt; </td></tr>
-<tr class="memitem:a852030a9709440416d5ca17aad5d07f8 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacedetray.html#ac62bdc6004337ad2c4c7d0872cbdfd4a">dpoint3D</a>&lt; algebra_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a852030a9709440416d5ca17aad5d07f8">centroid</a> (const <a class="el" href="#a2662e30270e19533cbdea7b9cef36ae6">bounds_type</a>&lt; <a class="el" href="namespacedetray.html#a09e7b970c323a9fc8814a5f21aeb3f14">dscalar</a>&lt; algebra_t &gt; &gt; &amp;) const</td></tr>
+<tr class="memitem:ab36db4708ef682a5fec141198a4c65f8" id="r_ab36db4708ef682a5fec141198a4c65f8"><td class="memTemplParams" colspan="2">template&lt;concepts::algebra algebra_t&gt; </td></tr>
+<tr class="memitem:ab36db4708ef682a5fec141198a4c65f8 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacedetray.html#ac62bdc6004337ad2c4c7d0872cbdfd4a">dpoint3D</a>&lt; algebra_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab36db4708ef682a5fec141198a4c65f8">centroid</a> (const <a class="el" href="#a2662e30270e19533cbdea7b9cef36ae6">bounds_type</a>&lt; <a class="el" href="namespacedetray.html#a09e7b970c323a9fc8814a5f21aeb3f14">dscalar</a>&lt; algebra_t &gt; &gt; &amp;bounds) const</td></tr>
 <tr class="memitem:a2941b8c9c41bdf8a30a47b4f57cbe89f" id="r_a2941b8c9c41bdf8a30a47b4f57cbe89f"><td class="memTemplParams" colspan="2">template&lt;concepts::scalar scalar_t&gt; </td></tr>
 <tr class="memitem:a2941b8c9c41bdf8a30a47b4f57cbe89f template"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2941b8c9c41bdf8a30a47b4f57cbe89f">check_consistency</a> (const <a class="el" href="#a2662e30270e19533cbdea7b9cef36ae6">bounds_type</a>&lt; scalar_t &gt; &amp;bounds, std::ostream &amp;os) const</td></tr>
 <tr class="memdesc:a2941b8c9c41bdf8a30a47b4f57cbe89f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check consistency of boundary values.  <br /></td></tr>
@@ -198,9 +203,27 @@ static constexpr std::string_view&#160;</td><td class="memItemRight" valign="bot
 <tr class="memdesc:a3257e27f0e6e30f192bf466638bcde87"><td class="mdescLeft">&#160;</td><td class="mdescRight">The name for this shape. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Geometrical shape of a rectangle2D. </p>
-<p>It is defined by half length in local0 coordinates bounds[0] and bounds[1] </p>
-</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<div class="textblock"><p>Geometrical shape of an axis-aligned rectangle2D. </p>
+<p>The rectangle is defined by the absolute positions of its lower left corner (bounds[e_min_x], bounds[e_min_y]) and its upper right corner (bounds[e_max_x], bounds[e_max_y]) in the local cartesian frame of the surface. The rectangle does not have to be centered at the origin of the local frame. Multiple rectangles can therefore share a single surface (and transform). </p>
+</div><a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Member Enumeration Documentation</h2>
+<a id="a971bbf46991c5c407f3be37191bc5792" name="a971bbf46991c5c407f3be37191bc5792"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a971bbf46991c5c407f3be37191bc5792">&#9670;&#160;</a></span>boundaries</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#a971bbf46991c5c407f3be37191bc5792">detray::rectangle2D::boundaries</a> : unsigned int</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Indices describing the entries in the shape boundary array. </p>
+<dl class="section note"><dt>Note</dt><dd>The order is the same as in the ACTS <code>RectangleBounds</code> </dd></dl>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a6cd05420ccc560bc7fefeec0e8a94df5" name="a6cd05420ccc560bc7fefeec0e8a94df5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6cd05420ccc560bc7fefeec0e8a94df5">&#9670;&#160;</a></span>area()</h2>
 
@@ -237,8 +260,8 @@ template&lt;concepts::scalar scalar_t&gt; </div>
 
 </div>
 </div>
-<a id="a852030a9709440416d5ca17aad5d07f8" name="a852030a9709440416d5ca17aad5d07f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a852030a9709440416d5ca17aad5d07f8">&#9670;&#160;</a></span>centroid()</h2>
+<a id="ab36db4708ef682a5fec141198a4c65f8" name="ab36db4708ef682a5fec141198a4c65f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab36db4708ef682a5fec141198a4c65f8">&#9670;&#160;</a></span>centroid()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -248,11 +271,17 @@ template&lt;concepts::algebra algebra_t&gt; </div>
         <tr>
           <td class="memname"><a class="el" href="namespacedetray.html#ac62bdc6004337ad2c4c7d0872cbdfd4a">dpoint3D</a>&lt; algebra_t &gt; detray::rectangle2D::centroid </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#a2662e30270e19533cbdea7b9cef36ae6">bounds_type</a>&lt; <a class="el" href="namespacedetray.html#a09e7b970c323a9fc8814a5f21aeb3f14">dscalar</a>&lt; algebra_t &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#a2662e30270e19533cbdea7b9cef36ae6">bounds_type</a>&lt; <a class="el" href="namespacedetray.html#a09e7b970c323a9fc8814a5f21aeb3f14">dscalar</a>&lt; algebra_t &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>bounds</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bounds</td><td>the boundary values for this shape</td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="section return"><dt>Returns</dt><dd>the shapes centroid in local cartesian coordinates </dd></dl>
 
 </div>
@@ -509,6 +538,7 @@ template&lt;concepts::scalar scalar_t&gt; </div>
 </div><div class="memdoc">
 
 <p>Merge two rectangle shapes. </p>
+<p>The result is the smallest axis aligned rectangle that contains both rectangles.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">bounds</td><td>the boundary values for this shape </td></tr>
@@ -578,7 +608,7 @@ template&lt;concepts::algebra algebra_t&gt; </div>
 <p>Generate vertices in local cartesian frame. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">bounds</td><td>Half-widths of the rectangle. The second argument is unused because a rectangle always has four corners.</td></tr>
+    <tr><td class="paramname">bounds</td><td>Corner positions of the rectangle. The second argument is unused because a rectangle always has four corners.</td></tr>
   </table>
   </dd>
 </dl>

@@ -398,7 +398,7 @@ var namespacedetray =
     ] ],
     [ "surface_id", "namespacedetray.html#a62c1381bb4432dc1f8b62230854a7e06", null ],
     [ "volume_id", "namespacedetray.html#a148fa362c44eaccc67cd663d6b78c62d", null ],
-    [ "build_telescope_detector", "namespacedetray.html#af62d2cae8be4789f0dc01b6ee85eb4e2", null ],
+    [ "build_telescope_detector", "namespacedetray.html#a9956ab9468f4ad430235de9d34d9066a", null ],
     [ "build_toy_detector", "namespacedetray.html#a1242e1f4905b373d8eb861c8096f77cf", null ],
     [ "build_wire_chamber", "namespacedetray.html#a9d9a9a6c1fc3846088b642e5914e76a5", null ],
     [ "charge_conjugation", "namespacedetray.html#a4d296ab689e2b089066b8e84d7b2a195", null ],

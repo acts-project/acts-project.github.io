@@ -326,83 +326,97 @@ $(function(){initNavTree('geometry__reader_8hpp_source.html','',''); });
 <div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; mask_data : sf_data.<a class="code hl_variable" href="structdetray_1_1io_1_1surface__payload.html#ab86516fe26707c25f7b7cfcedbf06501">masks</a>) {</div>
 <div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span>      std::vector&lt;scalar_t&gt;&amp; boundaries = mask_boundaries.emplace_back();</div>
 <div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span>      std::ranges::copy(mask_data.boundaries, std::back_inserter(boundaries));</div>
-<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>    }</div>
-<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span> </div>
-<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>    <span class="comment">// If the concentric cylinder is shifted in z, discard the shift</span></div>
-<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>    <span class="comment">// and put it in the mask boundaries instead. Everything else</span></div>
-<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>    <span class="comment">// will be ignored</span></div>
-<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>    <span class="comment">// @TODO: Remove this for cylinders again once 2 solution intersection</span></div>
-<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>    <span class="comment">// work</span></div>
-<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>    <span class="keyword">auto</span> trf = <a class="code hl_function" href="classdetray_1_1io_1_1geometry__reader.html#ac44125463b0d2188d696d9c42516cb87">from_payload_impl</a>(sf_data.<a class="code hl_variable" href="structdetray_1_1io_1_1surface__payload.html#a5fc9f975079c0c1294ce8718a38e133a">transform</a>);</div>
-<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>    <span class="keywordflow">if</span> (sf_data.<a class="code hl_variable" href="structdetray_1_1io_1_1surface__payload.html#ab86516fe26707c25f7b7cfcedbf06501">masks</a>.front().shape == io_shape_id::portal_cylinder2 ||</div>
-<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>        sf_data.<a class="code hl_variable" href="structdetray_1_1io_1_1surface__payload.html#ab86516fe26707c25f7b7cfcedbf06501">masks</a>.front().shape == io_shape_id::cylinder2) {</div>
-<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>      <span class="keyword">const</span> <span class="keyword">auto</span> z_shift{<span class="keyword">static_cast&lt;</span>scalar_t<span class="keyword">&gt;</span>(trf.translation()[2])};</div>
-<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span> </div>
-<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>      <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; mask_boundary : mask_boundaries) {</div>
-<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>        mask_boundary[concentric_cylinder2D::e_lower_z] += z_shift;</div>
-<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>        mask_boundary[concentric_cylinder2D::e_upper_z] += z_shift;</div>
-<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>      }</div>
-<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span> </div>
-<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>      <span class="comment">// Set the transform to identity afterwards</span></div>
-<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>      trf = <span class="keyword">decltype</span>(trf){};</div>
-<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>    }</div>
-<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span> </div>
-<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>    <span class="keyword">const</span> std::size_t sf_idx{</div>
-<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>        sf_data.<a class="code hl_variable" href="structdetray_1_1io_1_1surface__payload.html#aafbb132cfb5dac5e73f75674fc0834a6">index_in_coll</a>.has_value()</div>
-<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>            ? *(sf_data.<a class="code hl_variable" href="structdetray_1_1io_1_1surface__payload.html#aafbb132cfb5dac5e73f75674fc0834a6">index_in_coll</a>)</div>
-<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>            : detray::detail::invalid_value&lt;std::size_t&gt;()};</div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span> </div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>      <span class="comment">// Legacy format: The rectangle was given by its half lengths and was</span></div>
+<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>      <span class="comment">// centered at the origin of the local frame. Convert to corner positions</span></div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>      <span class="keywordflow">if</span> (mask_data.shape == io_shape_id::rectangle2 &amp;&amp;</div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>          boundaries.size() == 2u) {</div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>        <span class="keyword">const</span> scalar_t half_x{boundaries[0]};</div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>        <span class="keyword">const</span> scalar_t half_y{boundaries[1]};</div>
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span> </div>
+<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>        boundaries.resize(rectangle2D::e_size);</div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>        boundaries[rectangle2D::e_min_x] = -half_x;</div>
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>        boundaries[rectangle2D::e_min_y] = -half_y;</div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>        boundaries[rectangle2D::e_max_x] = half_x;</div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>        boundaries[rectangle2D::e_max_y] = half_y;</div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>      }</div>
+<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>    }</div>
+<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span> </div>
+<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span>    <span class="comment">// If the concentric cylinder is shifted in z, discard the shift</span></div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>    <span class="comment">// and put it in the mask boundaries instead. Everything else</span></div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>    <span class="comment">// will be ignored</span></div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>    <span class="comment">// @TODO: Remove this for cylinders again once 2 solution intersection</span></div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>    <span class="comment">// work</span></div>
+<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>    <span class="keyword">auto</span> trf = <a class="code hl_function" href="classdetray_1_1io_1_1geometry__reader.html#ac44125463b0d2188d696d9c42516cb87">from_payload_impl</a>(sf_data.<a class="code hl_variable" href="structdetray_1_1io_1_1surface__payload.html#a5fc9f975079c0c1294ce8718a38e133a">transform</a>);</div>
+<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>    <span class="keywordflow">if</span> (sf_data.<a class="code hl_variable" href="structdetray_1_1io_1_1surface__payload.html#ab86516fe26707c25f7b7cfcedbf06501">masks</a>.front().shape == io_shape_id::portal_cylinder2 ||</div>
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>        sf_data.<a class="code hl_variable" href="structdetray_1_1io_1_1surface__payload.html#ab86516fe26707c25f7b7cfcedbf06501">masks</a>.front().shape == io_shape_id::cylinder2) {</div>
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>      <span class="keyword">const</span> <span class="keyword">auto</span> z_shift{<span class="keyword">static_cast&lt;</span>scalar_t<span class="keyword">&gt;</span>(trf.translation()[2])};</div>
 <div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span> </div>
-<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>    std::vector&lt;nav_link_t&gt; vol_links{};</div>
-<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>    vol_links.reserve(sf_data.<a class="code hl_variable" href="structdetray_1_1io_1_1surface__payload.html#ab86516fe26707c25f7b7cfcedbf06501">masks</a>.size());</div>
-<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; mask_pl : sf_data.<a class="code hl_variable" href="structdetray_1_1io_1_1surface__payload.html#ab86516fe26707c25f7b7cfcedbf06501">masks</a>) {</div>
-<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>      vol_links.push_back(<span class="keyword">static_cast&lt;</span>nav_link_t<span class="keyword">&gt;</span>(</div>
-<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span>          detail::basic_converter::from_payload(mask_pl.volume_link)));</div>
-<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>    }</div>
-<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span> </div>
-<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>    assert(mask_boundaries.size() == vol_links.size());</div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>      <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; mask_boundary : mask_boundaries) {</div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>        mask_boundary[concentric_cylinder2D::e_lower_z] += z_shift;</div>
+<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>        mask_boundary[concentric_cylinder2D::e_upper_z] += z_shift;</div>
+<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>      }</div>
+<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span> </div>
+<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>      <span class="comment">// Set the transform to identity afterwards</span></div>
+<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>      trf = <span class="keyword">decltype</span>(trf){};</div>
+<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>    }</div>
 <div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span> </div>
-<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>    <span class="keywordflow">return</span> {sf_data.<a class="code hl_variable" href="structdetray_1_1io_1_1surface__payload.html#a328509117346893a54f02e4d6cc88461">type</a>,</div>
-<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>            trf,</div>
-<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>            std::move(vol_links),</div>
-<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>            std::move(mask_boundaries),</div>
-<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>            <span class="keyword">static_cast&lt;</span><a class="code hl_typedef" href="namespacedetray.html#a3622614888b24c246e000c62d1833da4">dindex</a><span class="keyword">&gt;</span>(sf_idx),</div>
-<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>            sf_data.<a class="code hl_variable" href="structdetray_1_1io_1_1surface__payload.html#abe9d20fc86e1c5e503c3acad86c69771">source</a>};</div>
-<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>  }</div>
+<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>    <span class="keyword">const</span> std::size_t sf_idx{</div>
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>        sf_data.<a class="code hl_variable" href="structdetray_1_1io_1_1surface__payload.html#aafbb132cfb5dac5e73f75674fc0834a6">index_in_coll</a>.has_value()</div>
+<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>            ? *(sf_data.<a class="code hl_variable" href="structdetray_1_1io_1_1surface__payload.html#aafbb132cfb5dac5e73f75674fc0834a6">index_in_coll</a>)</div>
+<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>            : detray::detail::invalid_value&lt;std::size_t&gt;()};</div>
+<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span> </div>
+<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>    std::vector&lt;nav_link_t&gt; vol_links{};</div>
+<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>    vol_links.reserve(sf_data.<a class="code hl_variable" href="structdetray_1_1io_1_1surface__payload.html#ab86516fe26707c25f7b7cfcedbf06501">masks</a>.size());</div>
+<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; mask_pl : sf_data.<a class="code hl_variable" href="structdetray_1_1io_1_1surface__payload.html#ab86516fe26707c25f7b7cfcedbf06501">masks</a>) {</div>
+<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>      vol_links.push_back(<span class="keyword">static_cast&lt;</span>nav_link_t<span class="keyword">&gt;</span>(</div>
+<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>          detail::basic_converter::from_payload(mask_pl.volume_link)));</div>
+<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>    }</div>
+<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span> </div>
+<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>    assert(mask_boundaries.size() == vol_links.size());</div>
+<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span> </div>
+<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>    <span class="keywordflow">return</span> {sf_data.<a class="code hl_variable" href="structdetray_1_1io_1_1surface__payload.html#a328509117346893a54f02e4d6cc88461">type</a>,</div>
+<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>            trf,</div>
+<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>            std::move(vol_links),</div>
+<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>            std::move(mask_boundaries),</div>
+<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>            <span class="keyword">static_cast&lt;</span><a class="code hl_typedef" href="namespacedetray.html#a3622614888b24c246e000c62d1833da4">dindex</a><span class="keyword">&gt;</span>(sf_idx),</div>
+<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>            sf_data.<a class="code hl_variable" href="structdetray_1_1io_1_1surface__payload.html#abe9d20fc86e1c5e503c3acad86c69771">source</a>};</div>
+<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>  }</div>
 </div>
-<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span> </div>
-<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>  <span class="keyword">template</span> &lt;<span class="keyword">typename</span> shape_registry_t, std::<span class="keywordtype">size_t</span> I = 0u&gt;</div>
-<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>  <span class="keyword">static</span> std::shared_ptr&lt;surface_factory_interface&lt;detector_t&gt;&gt; init_factory(</div>
-<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>      <span class="keyword">const</span> io_shape_id <a class="code hl_enumeration" href="namespacedetray_1_1io.html#a29c3aa2f4d70436beb633e8e2a84611d">shape_id</a>) {</div>
-<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>    <span class="comment">// Get the next mask shape type</span></div>
-<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>    <span class="keyword">using </span>shape_t = types::at&lt;shape_registry_t, I&gt;;</div>
-<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span> </div>
-<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>    <span class="comment">// Test whether this shape exists in detector</span></div>
-<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>    <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (!std::is_same_v&lt;shape_t, io::detail::unknown_type&gt;) {</div>
-<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>      <span class="comment">// Shape index of surface data found</span></div>
-<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>      <span class="keywordflow">if</span> (<a class="code hl_enumeration" href="namespacedetray_1_1io.html#a29c3aa2f4d70436beb633e8e2a84611d">shape_id</a> == types::id&lt;io::shape_registry, shape_t&gt;) {</div>
-<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>        <span class="keywordflow">return</span> std::make_shared&lt;surface_factory&lt;detector_t, shape_t&gt;&gt;();</div>
-<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>      }</div>
-<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>    }</div>
-<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>    <span class="comment">// Test next shape id</span></div>
-<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>    <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (I &lt; types::size&lt;shape_registry_t&gt; - 1u) {</div>
-<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span>      <span class="keywordflow">return</span> init_factory&lt;shape_registry_t, I + 1&gt;(<a class="code hl_enumeration" href="namespacedetray_1_1io.html#a29c3aa2f4d70436beb633e8e2a84611d">shape_id</a>);</div>
-<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span>    } <span class="keywordflow">else</span> {</div>
-<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>      std::string err_str{</div>
-<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span>          <span class="stringliteral">&quot;Given shape id could not be matched to a mask type: &quot;</span> +</div>
-<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span>          std::to_string(<span class="keyword">static_cast&lt;</span>std::int64_t<span class="keyword">&gt;</span>(<a class="code hl_enumeration" href="namespacedetray_1_1io.html#a29c3aa2f4d70436beb633e8e2a84611d">shape_id</a>))};</div>
-<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span> </div>
-<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span>      DETRAY_FATAL_HOST(err_str);</div>
-<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span>      <span class="keywordflow">throw</span> std::invalid_argument(err_str);</div>
-<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>    }</div>
-<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span> </div>
-<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>    <span class="comment">// Cannot be reached</span></div>
-<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>    <span class="keywordflow">return</span> {<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>  }</div>
-<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span>};</div>
+<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span> </div>
+<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>  <span class="keyword">template</span> &lt;<span class="keyword">typename</span> shape_registry_t, std::<span class="keywordtype">size_t</span> I = 0u&gt;</div>
+<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span>  <span class="keyword">static</span> std::shared_ptr&lt;surface_factory_interface&lt;detector_t&gt;&gt; init_factory(</div>
+<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span>      <span class="keyword">const</span> io_shape_id <a class="code hl_enumeration" href="namespacedetray_1_1io.html#a29c3aa2f4d70436beb633e8e2a84611d">shape_id</a>) {</div>
+<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>    <span class="comment">// Get the next mask shape type</span></div>
+<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span>    <span class="keyword">using </span>shape_t = types::at&lt;shape_registry_t, I&gt;;</div>
+<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span> </div>
+<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span>    <span class="comment">// Test whether this shape exists in detector</span></div>
+<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span>    <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (!std::is_same_v&lt;shape_t, io::detail::unknown_type&gt;) {</div>
+<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span>      <span class="comment">// Shape index of surface data found</span></div>
+<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>      <span class="keywordflow">if</span> (<a class="code hl_enumeration" href="namespacedetray_1_1io.html#a29c3aa2f4d70436beb633e8e2a84611d">shape_id</a> == types::id&lt;io::shape_registry, shape_t&gt;) {</div>
+<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>        <span class="keywordflow">return</span> std::make_shared&lt;surface_factory&lt;detector_t, shape_t&gt;&gt;();</div>
+<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>      }</div>
+<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>    }</div>
+<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>    <span class="comment">// Test next shape id</span></div>
+<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span>    <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (I &lt; types::size&lt;shape_registry_t&gt; - 1u) {</div>
+<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>      <span class="keywordflow">return</span> init_factory&lt;shape_registry_t, I + 1&gt;(<a class="code hl_enumeration" href="namespacedetray_1_1io.html#a29c3aa2f4d70436beb633e8e2a84611d">shape_id</a>);</div>
+<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span>    } <span class="keywordflow">else</span> {</div>
+<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span>      std::string err_str{</div>
+<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span>          <span class="stringliteral">&quot;Given shape id could not be matched to a mask type: &quot;</span> +</div>
+<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span>          std::to_string(<span class="keyword">static_cast&lt;</span>std::int64_t<span class="keyword">&gt;</span>(<a class="code hl_enumeration" href="namespacedetray_1_1io.html#a29c3aa2f4d70436beb633e8e2a84611d">shape_id</a>))};</div>
+<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span> </div>
+<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>      DETRAY_FATAL_HOST(err_str);</div>
+<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span>      <span class="keywordflow">throw</span> std::invalid_argument(err_str);</div>
+<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span>    }</div>
+<div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span> </div>
+<div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span>    <span class="comment">// Cannot be reached</span></div>
+<div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span>    <span class="keywordflow">return</span> {<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span>  }</div>
+<div class="line"><a id="l00309" name="l00309"></a><span class="lineno">  309</span>};</div>
 </div>
-<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span> </div>
-<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span>}  <span class="comment">// namespace detray::io</span></div>
+<div class="line"><a id="l00310" name="l00310"></a><span class="lineno">  310</span> </div>
+<div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span>}  <span class="comment">// namespace detray::io</span></div>
 <div class="ttc" id="aclassdetray_1_1detector__builder_html"><div class="ttname"><a href="classdetray_1_1detector__builder.html">detray::detector_builder</a></div><div class="ttdoc">Provides functionality to build a detray detector volume by volume.</div><div class="ttdef"><b>Definition</b> detector_builder.hpp:40</div></div>
 <div class="ttc" id="aclassdetray_1_1io_1_1geometry__reader_html"><div class="ttname"><a href="classdetray_1_1io_1_1geometry__reader.html">detray::io::geometry_reader</a></div><div class="ttdoc">Tracking geometry reader backend.</div><div class="ttdef"><b>Definition</b> geometry_reader.hpp:51</div></div>
 <div class="ttc" id="aclassdetray_1_1io_1_1geometry__reader_html_a1fcb34ac161598fe92a800df81c0ddd6"><div class="ttname"><a href="classdetray_1_1io_1_1geometry__reader.html#a1fcb34ac161598fe92a800df81c0ddd6">detray::io::geometry_reader::payload_type</a></div><div class="ttdeci">detector_geometry_payload payload_type</div><div class="ttdoc">Payload type that the reader processes.</div><div class="ttdef"><b>Definition</b> geometry_reader.hpp:61</div></div>

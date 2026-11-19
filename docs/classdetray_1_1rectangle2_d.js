@@ -5,7 +5,7 @@ var classdetray_1_1rectangle2_d =
     [ "result_type", "classdetray_1_1rectangle2_d.html#a9faff677160f992fbf26bf2c3aa64ae6", null ],
     [ "boundaries", "classdetray_1_1rectangle2_d.html#a971bbf46991c5c407f3be37191bc5792", null ],
     [ "area", "classdetray_1_1rectangle2_d.html#a6cd05420ccc560bc7fefeec0e8a94df5", null ],
-    [ "centroid", "classdetray_1_1rectangle2_d.html#a852030a9709440416d5ca17aad5d07f8", null ],
+    [ "centroid", "classdetray_1_1rectangle2_d.html#ab36db4708ef682a5fec141198a4c65f8", null ],
     [ "check_boundaries", "classdetray_1_1rectangle2_d.html#ae119b78875e6ac3c3220651f9b9f450a", null ],
     [ "check_boundaries", "classdetray_1_1rectangle2_d.html#a9e9dd27e30d0ac78933d13b5b20ae76b", null ],
     [ "check_consistency", "classdetray_1_1rectangle2_d.html#a2941b8c9c41bdf8a30a47b4f57cbe89f", null ],

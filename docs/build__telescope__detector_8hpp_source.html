@@ -329,116 +329,118 @@ $(function(){initNavTree('build__telescope__detector_8hpp_source.html','',''); }
 <div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span><span class="keyword">template</span> &lt;<a class="code hl_concept" href="conceptdetray_1_1concepts_1_1algebra.html">concepts::algebra</a> algebra_t, <span class="keyword">typename</span> mask_shape_t = <a class="code hl_class" href="classdetray_1_1rectangle2_d.html">rectangle2D</a>,</div>
 <div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>          <span class="keyword">template</span> &lt;<span class="keyword">typename</span>&gt; <span class="keyword">class </span>trajectory_t = <a class="code hl_class" href="classdetray_1_1detail_1_1ray.html">detail::ray</a>&gt;</div>
 <div class="foldopen" id="foldopen00255" data-start="{" data-end="}">
-<div class="line"><a id="l00255" name="l00255"></a><span class="lineno"><a class="line" href="namespacedetray.html#af62d2cae8be4789f0dc01b6ee85eb4e2">  255</a></span><span class="keyword">inline</span> <span class="keyword">auto</span> <a class="code hl_function" href="namespacedetray.html#af62d2cae8be4789f0dc01b6ee85eb4e2">build_telescope_detector</a>(</div>
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno"><a class="line" href="namespacedetray.html#a9956ab9468f4ad430235de9d34d9066a">  255</a></span><span class="keyword">inline</span> <span class="keyword">auto</span> <a class="code hl_function" href="namespacedetray.html#a9956ab9468f4ad430235de9d34d9066a">build_telescope_detector</a>(</div>
 <div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>    vecmem::memory_resource &amp;resource,</div>
 <div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structdetray_1_1tel__det__config.html">tel_det_config&lt;algebra_t, mask_shape_t, trajectory_t&gt;</a> &amp;cfg =</div>
 <div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>        <a class="code hl_struct" href="structdetray_1_1tel__det__config.html">tel_det_config&lt;algebra_t, mask_shape_t, trajectory_t&gt;</a>{</div>
-<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>            20.f * <a class="code hl_struct" href="structdetray_1_1unit.html">unit&lt;dscalar&lt;algebra_t&gt;</a>&gt;::mm,</div>
-<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>            20.f * <a class="code hl_struct" href="structdetray_1_1unit.html">unit&lt;dscalar&lt;algebra_t&gt;</a>&gt;::mm}) {</div>
-<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>  <span class="keyword">using </span>scalar_t = <a class="code hl_typedef" href="namespacedetray.html#a09e7b970c323a9fc8814a5f21aeb3f14">dscalar&lt;algebra_t&gt;</a>;</div>
-<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>  <span class="keyword">using </span>metadata_t = telescope_metadata&lt;algebra_t, mask_shape_t&gt;;</div>
-<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>  <span class="keyword">using </span>builder_t = detector_builder&lt;metadata_t, volume_builder&gt;;</div>
-<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>  <span class="keyword">using </span>detector_t = <span class="keyword">typename</span> builder_t::detector_type;</div>
-<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span> </div>
-<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>  builder_t det_builder;</div>
-<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>  det_builder.set_name(<span class="stringliteral">&quot;telescope_detector&quot;</span>);</div>
-<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span> </div>
-<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>  <span class="comment">// Create an empty cuboid volume</span></div>
-<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>  <span class="keyword">auto</span> v_builder = det_builder.new_volume(volume_id::e_cuboid);</div>
-<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>  v_builder-&gt;set_name(<span class="stringliteral">&quot;telescope_world_0&quot;</span>);</div>
-<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span> </div>
-<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>  <span class="comment">// Identity transform (volume is centered at origin)</span></div>
-<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>  v_builder-&gt;add_volume_placement();</div>
-<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span> </div>
-<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>  <span class="comment">// Add module surfaces to volume</span></div>
-<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>  <span class="keyword">using </span>telescope_factory =</div>
-<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>      telescope_generator&lt;detector_t, mask_shape_t, trajectory_t&lt;algebra_t&gt;&gt;;</div>
-<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>  std::unique_ptr&lt;surface_factory_interface&lt;detector_t&gt;&gt; tel_generator;</div>
-<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span> </div>
-<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>  <span class="keywordflow">if</span> (cfg.positions().empty()) {</div>
-<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span>    <span class="comment">// Automatically position the modules along pilot track</span></div>
-<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span>    tel_generator = std::make_unique&lt;telescope_factory&gt;(</div>
-<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>        cfg.length(), cfg.n_surfaces(), cfg.module_mask().values(),</div>
-<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span>        cfg.pilot_track());</div>
-<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span>  } <span class="keywordflow">else</span> {</div>
-<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span>    <span class="comment">// Put the modules in the requested portions along pilot track</span></div>
-<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span>    tel_generator = std::make_unique&lt;telescope_factory&gt;(</div>
-<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span>        cfg.positions(), cfg.module_mask().values(), cfg.pilot_track());</div>
-<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>  }</div>
-<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span> </div>
-<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>  <span class="comment">// Add homogeneous material description if a valid material was configured</span></div>
-<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>  <a class="code hl_class" href="classdetray_1_1volume__builder__interface.html">volume_builder_interface&lt;detector_t&gt;</a> *vm_builder{v_builder};</div>
-<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>  std::shared_ptr&lt;surface_factory_interface&lt;detector_t&gt;&gt; module_generator;</div>
-<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span> </div>
-<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>  <span class="keywordflow">if</span> (cfg.module_material() != detray::vacuum&lt;scalar_t&gt;{}) {</div>
-<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span>    <span class="comment">// Decorate the builders with homogeneous material</span></div>
-<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span>    vm_builder =</div>
-<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span>        det_builder.template decorate&lt;homogeneous_material_builder&lt;detector_t&gt;&gt;(</div>
-<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span>            v_builder);</div>
-<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span> </div>
-<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>    <span class="keywordflow">if</span> (!vm_builder) {</div>
-<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span>      <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;Surface material decoration failed&quot;</span>);</div>
-<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span>    }</div>
-<div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span> </div>
-<div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span>    <span class="keyword">auto</span> tel_mat_generator =</div>
-<div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span>        std::make_shared&lt;homogeneous_material_generator&lt;detector_t&gt;&gt;(</div>
-<div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span>            std::move(tel_generator), cfg.material_config());</div>
-<div class="line"><a id="l00309" name="l00309"></a><span class="lineno">  309</span> </div>
-<div class="line"><a id="l00310" name="l00310"></a><span class="lineno">  310</span>    module_generator = std::move(tel_mat_generator);</div>
+<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>            -20.f * <a class="code hl_struct" href="structdetray_1_1unit.html">unit&lt;dscalar&lt;algebra_t&gt;</a>&gt;::mm,</div>
+<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>            -20.f * <a class="code hl_struct" href="structdetray_1_1unit.html">unit&lt;dscalar&lt;algebra_t&gt;</a>&gt;::mm,</div>
+<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>            20.f * <a class="code hl_struct" href="structdetray_1_1unit.html">unit&lt;dscalar&lt;algebra_t&gt;</a>&gt;::mm,</div>
+<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>            20.f * <a class="code hl_struct" href="structdetray_1_1unit.html">unit&lt;dscalar&lt;algebra_t&gt;</a>&gt;::mm}) {</div>
+<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>  <span class="keyword">using </span>scalar_t = <a class="code hl_typedef" href="namespacedetray.html#a09e7b970c323a9fc8814a5f21aeb3f14">dscalar&lt;algebra_t&gt;</a>;</div>
+<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>  <span class="keyword">using </span>metadata_t = telescope_metadata&lt;algebra_t, mask_shape_t&gt;;</div>
+<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>  <span class="keyword">using </span>builder_t = detector_builder&lt;metadata_t, volume_builder&gt;;</div>
+<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>  <span class="keyword">using </span>detector_t = <span class="keyword">typename</span> builder_t::detector_type;</div>
+<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span> </div>
+<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>  builder_t det_builder;</div>
+<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>  det_builder.set_name(<span class="stringliteral">&quot;telescope_detector&quot;</span>);</div>
+<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span> </div>
+<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>  <span class="comment">// Create an empty cuboid volume</span></div>
+<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>  <span class="keyword">auto</span> v_builder = det_builder.new_volume(volume_id::e_cuboid);</div>
+<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>  v_builder-&gt;set_name(<span class="stringliteral">&quot;telescope_world_0&quot;</span>);</div>
+<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span> </div>
+<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>  <span class="comment">// Identity transform (volume is centered at origin)</span></div>
+<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>  v_builder-&gt;add_volume_placement();</div>
+<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span> </div>
+<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>  <span class="comment">// Add module surfaces to volume</span></div>
+<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>  <span class="keyword">using </span>telescope_factory =</div>
+<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>      telescope_generator&lt;detector_t, mask_shape_t, trajectory_t&lt;algebra_t&gt;&gt;;</div>
+<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>  std::unique_ptr&lt;surface_factory_interface&lt;detector_t&gt;&gt; tel_generator;</div>
+<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span> </div>
+<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span>  <span class="keywordflow">if</span> (cfg.positions().empty()) {</div>
+<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>    <span class="comment">// Automatically position the modules along pilot track</span></div>
+<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span>    tel_generator = std::make_unique&lt;telescope_factory&gt;(</div>
+<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span>        cfg.length(), cfg.n_surfaces(), cfg.module_mask().values(),</div>
+<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span>        cfg.pilot_track());</div>
+<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span>  } <span class="keywordflow">else</span> {</div>
+<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span>    <span class="comment">// Put the modules in the requested portions along pilot track</span></div>
+<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>    tel_generator = std::make_unique&lt;telescope_factory&gt;(</div>
+<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>        cfg.positions(), cfg.module_mask().values(), cfg.pilot_track());</div>
+<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>  }</div>
+<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span> </div>
+<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>  <span class="comment">// Add homogeneous material description if a valid material was configured</span></div>
+<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span>  <a class="code hl_class" href="classdetray_1_1volume__builder__interface.html">volume_builder_interface&lt;detector_t&gt;</a> *vm_builder{v_builder};</div>
+<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>  std::shared_ptr&lt;surface_factory_interface&lt;detector_t&gt;&gt; module_generator;</div>
+<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span> </div>
+<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span>  <span class="keywordflow">if</span> (cfg.module_material() != detray::vacuum&lt;scalar_t&gt;{}) {</div>
+<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span>    <span class="comment">// Decorate the builders with homogeneous material</span></div>
+<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span>    vm_builder =</div>
+<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span>        det_builder.template decorate&lt;homogeneous_material_builder&lt;detector_t&gt;&gt;(</div>
+<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>            v_builder);</div>
+<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span> </div>
+<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span>    <span class="keywordflow">if</span> (!vm_builder) {</div>
+<div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span>      <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;Surface material decoration failed&quot;</span>);</div>
+<div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span>    }</div>
+<div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span> </div>
+<div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span>    <span class="keyword">auto</span> tel_mat_generator =</div>
+<div class="line"><a id="l00309" name="l00309"></a><span class="lineno">  309</span>        std::make_shared&lt;homogeneous_material_generator&lt;detector_t&gt;&gt;(</div>
+<div class="line"><a id="l00310" name="l00310"></a><span class="lineno">  310</span>            std::move(tel_generator), cfg.material_config());</div>
 <div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span> </div>
-<div class="line"><a id="l00312" name="l00312"></a><span class="lineno">  312</span>  } <span class="keywordflow">else</span> {</div>
-<div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span>    module_generator = std::move(tel_generator);</div>
-<div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span>  }</div>
-<div class="line"><a id="l00315" name="l00315"></a><span class="lineno">  315</span> </div>
-<div class="line"><a id="l00316" name="l00316"></a><span class="lineno">  316</span>  <span class="comment">// Add a bounding box of portals to the cuboid volume</span></div>
-<div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span>  <span class="keyword">auto</span> portal_generator =</div>
-<div class="line"><a id="l00318" name="l00318"></a><span class="lineno">  318</span>      std::make_shared&lt;cuboid_portal_generator&lt;detector_t&gt;&gt;(cfg.envelope());</div>
-<div class="line"><a id="l00319" name="l00319"></a><span class="lineno">  319</span> </div>
-<div class="line"><a id="l00320" name="l00320"></a><span class="lineno">  320</span>  vm_builder-&gt;add_surfaces(module_generator);</div>
-<div class="line"><a id="l00321" name="l00321"></a><span class="lineno">  321</span>  <span class="comment">// (!) The portals must be added after the modules to fit them correctly</span></div>
-<div class="line"><a id="l00322" name="l00322"></a><span class="lineno">  322</span>  vm_builder-&gt;add_surfaces(portal_generator);</div>
-<div class="line"><a id="l00323" name="l00323"></a><span class="lineno">  323</span> </div>
-<div class="line"><a id="l00324" name="l00324"></a><span class="lineno">  324</span>  <span class="comment">// TODO: Add brute force volume searcher</span></div>
+<div class="line"><a id="l00312" name="l00312"></a><span class="lineno">  312</span>    module_generator = std::move(tel_mat_generator);</div>
+<div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span> </div>
+<div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span>  } <span class="keywordflow">else</span> {</div>
+<div class="line"><a id="l00315" name="l00315"></a><span class="lineno">  315</span>    module_generator = std::move(tel_generator);</div>
+<div class="line"><a id="l00316" name="l00316"></a><span class="lineno">  316</span>  }</div>
+<div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span> </div>
+<div class="line"><a id="l00318" name="l00318"></a><span class="lineno">  318</span>  <span class="comment">// Add a bounding box of portals to the cuboid volume</span></div>
+<div class="line"><a id="l00319" name="l00319"></a><span class="lineno">  319</span>  <span class="keyword">auto</span> portal_generator =</div>
+<div class="line"><a id="l00320" name="l00320"></a><span class="lineno">  320</span>      std::make_shared&lt;cuboid_portal_generator&lt;detector_t&gt;&gt;(cfg.envelope());</div>
+<div class="line"><a id="l00321" name="l00321"></a><span class="lineno">  321</span> </div>
+<div class="line"><a id="l00322" name="l00322"></a><span class="lineno">  322</span>  vm_builder-&gt;add_surfaces(module_generator);</div>
+<div class="line"><a id="l00323" name="l00323"></a><span class="lineno">  323</span>  <span class="comment">// (!) The portals must be added after the modules to fit them correctly</span></div>
+<div class="line"><a id="l00324" name="l00324"></a><span class="lineno">  324</span>  vm_builder-&gt;add_surfaces(portal_generator);</div>
 <div class="line"><a id="l00325" name="l00325"></a><span class="lineno">  325</span> </div>
-<div class="line"><a id="l00326" name="l00326"></a><span class="lineno">  326</span>  <span class="comment">// If requested, add homogeneous volume material</span></div>
-<div class="line"><a id="l00327" name="l00327"></a><span class="lineno">  327</span>  <span class="keywordflow">if</span> (cfg.volume_material() != detray::vacuum&lt;scalar_t&gt;{}) {</div>
-<div class="line"><a id="l00328" name="l00328"></a><span class="lineno">  328</span>    <span class="keyword">auto</span> full_v_builder =</div>
-<div class="line"><a id="l00329" name="l00329"></a><span class="lineno">  329</span>        det_builder</div>
-<div class="line"><a id="l00330" name="l00330"></a><span class="lineno">  330</span>            .template decorate&lt;homogeneous_volume_material_builder&lt;detector_t&gt;&gt;(</div>
-<div class="line"><a id="l00331" name="l00331"></a><span class="lineno">  331</span>                vm_builder);</div>
-<div class="line"><a id="l00332" name="l00332"></a><span class="lineno">  332</span> </div>
-<div class="line"><a id="l00333" name="l00333"></a><span class="lineno">  333</span>    <span class="keywordflow">if</span> (full_v_builder) {</div>
-<div class="line"><a id="l00334" name="l00334"></a><span class="lineno">  334</span>      full_v_builder-&gt;set_material(cfg.volume_material());</div>
-<div class="line"><a id="l00335" name="l00335"></a><span class="lineno">  335</span>    } <span class="keywordflow">else</span> {</div>
-<div class="line"><a id="l00336" name="l00336"></a><span class="lineno">  336</span>      <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;Volume material decoration failed&quot;</span>);</div>
-<div class="line"><a id="l00337" name="l00337"></a><span class="lineno">  337</span>    }</div>
-<div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span>  }</div>
-<div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span> </div>
-<div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span>  <span class="comment">// Build and return the detector and fill the name map</span></div>
-<div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span>  <span class="keyword">typename</span> detector_t::name_map <a class="code hl_struct" href="structdetray_1_1name__map.html">name_map</a>{};</div>
-<div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span>  <span class="keyword">auto</span> det = det_builder.build(resource, cfg.builder_options(), <a class="code hl_struct" href="structdetray_1_1name__map.html">name_map</a>);</div>
-<div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span> </div>
-<div class="line"><a id="l00344" name="l00344"></a><span class="lineno">  344</span>  <span class="keywordflow">if</span> (cfg.do_check()) {</div>
-<div class="line"><a id="l00345" name="l00345"></a><span class="lineno">  345</span>    <span class="keyword">const</span> <span class="keywordtype">bool</span> verbose_check{<span class="keyword">false</span>};</div>
-<div class="line"><a id="l00346" name="l00346"></a><span class="lineno">  346</span>    detray::detail::check_consistency(det, verbose_check, <a class="code hl_struct" href="structdetray_1_1name__map.html">name_map</a>);</div>
-<div class="line"><a id="l00347" name="l00347"></a><span class="lineno">  347</span>  }</div>
-<div class="line"><a id="l00348" name="l00348"></a><span class="lineno">  348</span> </div>
-<div class="line"><a id="l00349" name="l00349"></a><span class="lineno">  349</span>  DETRAY_DEBUG_HOST(<span class="stringliteral">&quot;\n&quot;</span> &lt;&lt; detray::utils::print_detector(det, <a class="code hl_struct" href="structdetray_1_1name__map.html">name_map</a>));</div>
+<div class="line"><a id="l00326" name="l00326"></a><span class="lineno">  326</span>  <span class="comment">// TODO: Add brute force volume searcher</span></div>
+<div class="line"><a id="l00327" name="l00327"></a><span class="lineno">  327</span> </div>
+<div class="line"><a id="l00328" name="l00328"></a><span class="lineno">  328</span>  <span class="comment">// If requested, add homogeneous volume material</span></div>
+<div class="line"><a id="l00329" name="l00329"></a><span class="lineno">  329</span>  <span class="keywordflow">if</span> (cfg.volume_material() != detray::vacuum&lt;scalar_t&gt;{}) {</div>
+<div class="line"><a id="l00330" name="l00330"></a><span class="lineno">  330</span>    <span class="keyword">auto</span> full_v_builder =</div>
+<div class="line"><a id="l00331" name="l00331"></a><span class="lineno">  331</span>        det_builder</div>
+<div class="line"><a id="l00332" name="l00332"></a><span class="lineno">  332</span>            .template decorate&lt;homogeneous_volume_material_builder&lt;detector_t&gt;&gt;(</div>
+<div class="line"><a id="l00333" name="l00333"></a><span class="lineno">  333</span>                vm_builder);</div>
+<div class="line"><a id="l00334" name="l00334"></a><span class="lineno">  334</span> </div>
+<div class="line"><a id="l00335" name="l00335"></a><span class="lineno">  335</span>    <span class="keywordflow">if</span> (full_v_builder) {</div>
+<div class="line"><a id="l00336" name="l00336"></a><span class="lineno">  336</span>      full_v_builder-&gt;set_material(cfg.volume_material());</div>
+<div class="line"><a id="l00337" name="l00337"></a><span class="lineno">  337</span>    } <span class="keywordflow">else</span> {</div>
+<div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span>      <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;Volume material decoration failed&quot;</span>);</div>
+<div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span>    }</div>
+<div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span>  }</div>
+<div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span> </div>
+<div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span>  <span class="comment">// Build and return the detector and fill the name map</span></div>
+<div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span>  <span class="keyword">typename</span> detector_t::name_map <a class="code hl_struct" href="structdetray_1_1name__map.html">name_map</a>{};</div>
+<div class="line"><a id="l00344" name="l00344"></a><span class="lineno">  344</span>  <span class="keyword">auto</span> det = det_builder.build(resource, cfg.builder_options(), <a class="code hl_struct" href="structdetray_1_1name__map.html">name_map</a>);</div>
+<div class="line"><a id="l00345" name="l00345"></a><span class="lineno">  345</span> </div>
+<div class="line"><a id="l00346" name="l00346"></a><span class="lineno">  346</span>  <span class="keywordflow">if</span> (cfg.do_check()) {</div>
+<div class="line"><a id="l00347" name="l00347"></a><span class="lineno">  347</span>    <span class="keyword">const</span> <span class="keywordtype">bool</span> verbose_check{<span class="keyword">false</span>};</div>
+<div class="line"><a id="l00348" name="l00348"></a><span class="lineno">  348</span>    detray::detail::check_consistency(det, verbose_check, <a class="code hl_struct" href="structdetray_1_1name__map.html">name_map</a>);</div>
+<div class="line"><a id="l00349" name="l00349"></a><span class="lineno">  349</span>  }</div>
 <div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span> </div>
-<div class="line"><a id="l00351" name="l00351"></a><span class="lineno">  351</span>  <span class="keywordflow">return</span> std::make_pair(std::move(det), std::move(<a class="code hl_struct" href="structdetray_1_1name__map.html">name_map</a>));</div>
-<div class="line"><a id="l00352" name="l00352"></a><span class="lineno">  352</span>}</div>
+<div class="line"><a id="l00351" name="l00351"></a><span class="lineno">  351</span>  DETRAY_DEBUG_HOST(<span class="stringliteral">&quot;\n&quot;</span> &lt;&lt; detray::utils::print_detector(det, <a class="code hl_struct" href="structdetray_1_1name__map.html">name_map</a>));</div>
+<div class="line"><a id="l00352" name="l00352"></a><span class="lineno">  352</span> </div>
+<div class="line"><a id="l00353" name="l00353"></a><span class="lineno">  353</span>  <span class="keywordflow">return</span> std::make_pair(std::move(det), std::move(<a class="code hl_struct" href="structdetray_1_1name__map.html">name_map</a>));</div>
+<div class="line"><a id="l00354" name="l00354"></a><span class="lineno">  354</span>}</div>
 </div>
-<div class="line"><a id="l00353" name="l00353"></a><span class="lineno">  353</span> </div>
-<div class="line"><a id="l00354" name="l00354"></a><span class="lineno">  354</span>}  <span class="comment">// namespace detray</span></div>
+<div class="line"><a id="l00355" name="l00355"></a><span class="lineno">  355</span> </div>
+<div class="line"><a id="l00356" name="l00356"></a><span class="lineno">  356</span>}  <span class="comment">// namespace detray</span></div>
 <div class="ttc" id="aclassdetray_1_1detail_1_1ray_html"><div class="ttname"><a href="classdetray_1_1detail_1_1ray.html">detray::detail::ray</a></div><div class="ttdoc">describes a straight-line trajectory</div><div class="ttdef"><b>Definition</b> ray.hpp:22</div></div>
 <div class="ttc" id="aclassdetray_1_1mask_html"><div class="ttname"><a href="classdetray_1_1mask.html">detray::mask</a></div><div class="ttdoc">Mask a region on a surface and link it to a volume.</div><div class="ttdef"><b>Definition</b> mask.hpp:46</div></div>
-<div class="ttc" id="aclassdetray_1_1rectangle2_d_html"><div class="ttname"><a href="classdetray_1_1rectangle2_d.html">detray::rectangle2D</a></div><div class="ttdoc">Geometrical shape of a rectangle2D.</div><div class="ttdef"><b>Definition</b> rectangle2D.hpp:30</div></div>
+<div class="ttc" id="aclassdetray_1_1rectangle2_d_html"><div class="ttname"><a href="classdetray_1_1rectangle2_d.html">detray::rectangle2D</a></div><div class="ttdoc">Geometrical shape of an axis-aligned rectangle2D.</div><div class="ttdef"><b>Definition</b> rectangle2D.hpp:35</div></div>
 <div class="ttc" id="aclassdetray_1_1volume__builder__interface_html"><div class="ttname"><a href="classdetray_1_1volume__builder__interface.html">detray::volume_builder_interface</a></div><div class="ttdoc">Interface for volume builders (and volume builder decorators).</div><div class="ttdef"><b>Definition</b> volume_builder_interface.hpp:79</div></div>
 <div class="ttc" id="aconceptdetray_1_1concepts_1_1algebra_html"><div class="ttname"><a href="conceptdetray_1_1concepts_1_1algebra.html">detray::concepts::algebra</a></div><div class="ttdoc">Algebra plugin concept.</div><div class="ttdef"><b>Definition</b> concepts.hpp:147</div></div>
 <div class="ttc" id="anamespacedetray_html"><div class="ttname"><a href="namespacedetray.html">detray</a></div><div class="ttdoc">Detray include(s).</div><div class="ttdef"><b>Definition</b> array_operators.hpp:18</div></div>
 <div class="ttc" id="anamespacedetray_html_a09e7b970c323a9fc8814a5f21aeb3f14"><div class="ttname"><a href="namespacedetray.html#a09e7b970c323a9fc8814a5f21aeb3f14">detray::dscalar</a></div><div class="ttdeci">get_scalar_t&lt; A, T &gt; dscalar</div><div class="ttdoc">Scalar type for algebra A and value type T.</div><div class="ttdef"><b>Definition</b> algebra.hpp:64</div></div>
+<div class="ttc" id="anamespacedetray_html_a9956ab9468f4ad430235de9d34d9066a"><div class="ttname"><a href="namespacedetray.html#a9956ab9468f4ad430235de9d34d9066a">detray::build_telescope_detector</a></div><div class="ttdeci">auto build_telescope_detector(vecmem::memory_resource &amp;resource, const tel_det_config&lt; algebra_t, mask_shape_t, trajectory_t &gt; &amp;cfg=tel_det_config&lt; algebra_t, mask_shape_t, trajectory_t &gt;{ -20.f *unit&lt; dscalar&lt; algebra_t &gt; &gt;::mm, -20.f *unit&lt; dscalar&lt; algebra_t &gt; &gt;::mm, 20.f *unit&lt; dscalar&lt; algebra_t &gt; &gt;::mm, 20.f *unit&lt; dscalar&lt; algebra_t &gt; &gt;::mm})</div><div class="ttdoc">Builds a detray geometry that contains only one volume with one type of surfaces.</div><div class="ttdef"><b>Definition</b> build_telescope_detector.hpp:255</div></div>
 <div class="ttc" id="anamespacedetray_html_a9f99bdbe0438372c11144757c0287e1b"><div class="ttname"><a href="namespacedetray.html#a9f99bdbe0438372c11144757c0287e1b">detray::tel_det_config</a></div><div class="ttdeci">tel_det_config(const mask&lt; shape_t, algebra_t &gt; &amp;, const trajectory_t&lt; algebra_t &gt; &amp;) -&gt; tel_det_config&lt; algebra_t, shape_t, trajectory_t &gt;</div><div class="ttdoc">Deduce the type of telescope config.</div></div>
-<div class="ttc" id="anamespacedetray_html_af62d2cae8be4789f0dc01b6ee85eb4e2"><div class="ttname"><a href="namespacedetray.html#af62d2cae8be4789f0dc01b6ee85eb4e2">detray::build_telescope_detector</a></div><div class="ttdeci">auto build_telescope_detector(vecmem::memory_resource &amp;resource, const tel_det_config&lt; algebra_t, mask_shape_t, trajectory_t &gt; &amp;cfg=tel_det_config&lt; algebra_t, mask_shape_t, trajectory_t &gt;{ 20.f *unit&lt; dscalar&lt; algebra_t &gt; &gt;::mm, 20.f *unit&lt; dscalar&lt; algebra_t &gt; &gt;::mm})</div><div class="ttdoc">Builds a detray geometry that contains only one volume with one type of surfaces.</div><div class="ttdef"><b>Definition</b> build_telescope_detector.hpp:255</div></div>
 <div class="ttc" id="astructdetray_1_1hom__material__config_html"><div class="ttname"><a href="structdetray_1_1hom__material__config.html">detray::hom_material_config</a></div><div class="ttdoc">Configuration for the homogeneous material generator.</div><div class="ttdef"><b>Definition</b> homogeneous_material_generator.hpp:33</div></div>
 <div class="ttc" id="astructdetray_1_1material_html"><div class="ttname"><a href="structdetray_1_1material.html">detray::material</a></div><div class="ttdoc">Material composition properties and density data used by interactions.</div><div class="ttdef"><b>Definition</b> material.hpp:28</div></div>
 <div class="ttc" id="astructdetray_1_1name__map_html"><div class="ttname"><a href="structdetray_1_1name__map.html">detray::name_map</a></div><div class="ttdoc">Map volume indices to volume names and vice versa.</div><div class="ttdef"><b>Definition</b> name_map.hpp:23</div></div>
