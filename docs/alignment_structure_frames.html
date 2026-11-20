@@ -130,7 +130,7 @@ Frames for alignable structures</h1>
 <p><span class="tt">ActsAlignment::AlignableStructure</span> groups surfaces and defines which rigid-body degrees of freedom may float. To use the composite Jacobians from <a class="el" href="alignment_composite_jacobians.html">Composite alignment Jacobians</a>, it also needs an explicit frame: an origin for the rotation pivot and an orientation for its local axes.</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md104"></a>
 Frame conventions</h2>
-<p><span class="tt">localToGlobalTransform(gctx)</span> returns the structure-to-global rigid transform. Its translation is the pivot in global coordinates; its rotation maps the structure's local axes to global axes. Structure corrections and surface alignment parameters both use local translations and local rotations, each in their own frame. <span class="tt">Acts::detail::compositeToComponentJacobian</span> maps structure corrections to the member surface's local parameters, including the rotation lever arm. <span class="tt">Acts::detail::localFrameToAlignmentParametersJacobian</span> is identity under this convention.</p>
+<p><span class="tt">localToGlobalTransform(gctx)</span> returns the structure-to-global rigid transform. Its translation is the pivot in global coordinates; its rotation maps the structure's local axes to global axes. Structure corrections and surface alignment parameters both use local translations and local rotations, each in their own frame. <span class="tt">Acts::detail::compositeToComponentJacobian</span> maps structure corrections to the member surface's local parameters, including the rotation lever arm.</p>
 <p>Every frame returned by <span class="tt">localToGlobalTransform(gctx)</span> maps structure-local coordinates to global coordinates, including for child structures. This return convention does not require applications to store or define geometry in global coordinates. An application can express a child relative to its parent and compose the transforms in the child's callable:</p>
 <div class="fragment"><div class="line"><span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#gab6e508c2d10f1fd653dc4f05c26f9151">Acts::Transform3</a> childToGlobal = parentToGlobal * childToParent;</div>
 <div class="ttc" id="agroup__algebra__types_html_gab6e508c2d10f1fd653dc4f05c26f9151"><div class="ttname"><a href="group__algebra__types.html#gab6e508c2d10f1fd653dc4f05c26f9151">Acts::Transform3</a></div><div class="ttdeci">Eigen::Transform&lt; double, 3, Eigen::Isometry &gt; Transform3</div><div class="ttdoc">3D rigid transformation (rotation/reflection plus translation)</div><div class="ttdef"><b>Definition</b> Algebra.hpp:104</div></div>
@@ -174,7 +174,20 @@ Metadata-only structures and Python</h2>
 <div class="line">late_bound = AlignableStructure(id)</div>
 <div class="line">late_bound.setTransform(transform=structure_to_global)</div>
 <div class="line">late_bound.setTransform(transformProvider=frame_provider)</div>
-</div><!-- fragment --><p>Providing a frame does not yet enable numerical structure alignment. The native solver still needs shared parameter indexing, Jacobian accumulation, and rigid updates of the members. The frame API supplies the geometry contract for that integration; hierarchy validation and standalone-module alignment retain their existing behavior. </p>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md107"></a>
+Structure derivatives</h2>
+<p>With a structure frame, <span class="tt">ActsAlignment::detail::alignmentToBoundDerivative</span> differentiates the track's bound parameters with respect to translations along and rotations about the structure's local axes. Use a frame consistent with the member surface in the same <span class="tt">GeometryContext</span>, including when the frame comes from the current iteration of a fit. This example uses the immediate owner from a validated <span class="tt">AlignmentHierarchy</span>:</p>
+<div class="fragment"><div class="line"><span class="keyword">const</span> <span class="keyword">auto</span>* owner = hierarchy.structureFor(surface);</div>
+<div class="line"><span class="keywordflow">if</span> (owner != <span class="keyword">nullptr</span>) {</div>
+<div class="line">  <span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#gab6e508c2d10f1fd653dc4f05c26f9151">Acts::Transform3</a> currentFrame = owner-&gt;localToGlobalTransform(gctx);</div>
+<div class="line">  <span class="keyword">const</span> <span class="keyword">auto</span> derivative = ActsAlignment::detail::alignmentToBoundDerivative(</div>
+<div class="line">      gctx, surface, position, direction, pathDerivative,</div>
+<div class="line">      owner-&gt;alignmentMask(), &amp;currentFrame);</div>
+<div class="line">  <span class="comment">// For measurement minus prediction, the residual derivative is</span></div>
+<div class="line">  <span class="comment">// -H * derivative, where H projects into measurement coordinates.</span></div>
+<div class="line">}</div>
+</div><!-- fragment --><p>The helper multiplies the unmasked surface derivative by <span class="tt">compositeToComponentJacobian(currentFrame, surfaceTransform)</span> and then masks columns in structure coordinates. Masking surface columns before the conversion could discard contributions from those surface axes to an active structure parameter. Without a structure frame, the helper differentiates with respect to local surface translations and rotations and applies the mask in the surface frame.</p>
+<p>This helper does not activate structure solving. The native solver still uses module indexing and calls it without a structure frame. Shared parameter indexing, structure accumulation, and rigid member updates remain follow-up work. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
