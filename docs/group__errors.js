@@ -6,7 +6,8 @@ var group__errors =
       [ "Acts::CombinatorialKalmanFilterError::OutputConversionFailed", "group__errors.html#gga5708898bc604b9dfedc12319218b8c1ba9a1dae01a56ad58a9db7ea93bb3c7a1c", null ],
       [ "Acts::CombinatorialKalmanFilterError::MeasurementSelectionFailed", "group__errors.html#gga5708898bc604b9dfedc12319218b8c1ba2ff410cc0e0ef7f55e8353551458922e", null ],
       [ "Acts::CombinatorialKalmanFilterError::PropagationReachesMaxSteps", "group__errors.html#gga5708898bc604b9dfedc12319218b8c1bacad57a44b12889a25020a697b8b3aa25", null ],
-      [ "Acts::CombinatorialKalmanFilterError::NoMeasurementExpected", "group__errors.html#gga5708898bc604b9dfedc12319218b8c1ba3b19dd219405eef6b47cac8bbc764d82", null ]
+      [ "Acts::CombinatorialKalmanFilterError::NoMeasurementExpected", "group__errors.html#gga5708898bc604b9dfedc12319218b8c1ba3b19dd219405eef6b47cac8bbc764d82", null ],
+      [ "Acts::CombinatorialKalmanFilterError::UnsupportedTrackState", "group__errors.html#gga5708898bc604b9dfedc12319218b8c1ba5a5b1762b41ab060567dcd03d53e961c", null ]
     ] ],
     [ "ActsFatras::DigitizationError", "group__errors.html#gaebbb9744bded7af55e310fecf0f4f0c0", [
       [ "ActsFatras::DigitizationError::SmearingOutOfRange", "group__errors.html#ggaebbb9744bded7af55e310fecf0f4f0c0a7ac6622a5288b4ef6c1bc502f1dc3e21", null ],

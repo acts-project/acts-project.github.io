@@ -1,5 +1,17 @@
 var NAVTREEINDEX98 =
 {
+"structdetray_1_1ray__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01a3ac95ffd4d9d627a47290193328a8b11.html#a8f2fba7b5f95c3d4b8bd326d30c0121b":[8,0,3,167,17],
+"structdetray_1_1ray__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01a3ac95ffd4d9d627a47290193328a8b11.html#a9ff917ba08cf61cdf6ae7fa8cd4e8cb7":[6,0,4,154,18],
+"structdetray_1_1ray__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01a3ac95ffd4d9d627a47290193328a8b11.html#a9ff917ba08cf61cdf6ae7fa8cd4e8cb7":[8,0,3,167,18],
+"structdetray_1_1ray__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01a3ac95ffd4d9d627a47290193328a8b11.html#ab99a9ec860ea04bc23f5f85695d8ecd9":[6,0,4,154,11],
+"structdetray_1_1ray__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01a3ac95ffd4d9d627a47290193328a8b11.html#ab99a9ec860ea04bc23f5f85695d8ecd9":[6,0,4,154,12],
+"structdetray_1_1ray__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01a3ac95ffd4d9d627a47290193328a8b11.html#ab99a9ec860ea04bc23f5f85695d8ecd9":[8,0,3,167,11],
+"structdetray_1_1ray__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01a3ac95ffd4d9d627a47290193328a8b11.html#ab99a9ec860ea04bc23f5f85695d8ecd9":[8,0,3,167,12],
+"structdetray_1_1ray__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01a3ac95ffd4d9d627a47290193328a8b11.html#abd6045fc904de42a559c066297ab2c56":[6,0,4,154,15],
+"structdetray_1_1ray__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01a3ac95ffd4d9d627a47290193328a8b11.html#abd6045fc904de42a559c066297ab2c56":[8,0,3,167,15],
+"structdetray_1_1ray__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01a3ac95ffd4d9d627a47290193328a8b11.html#ac838d14bce74beb77a8d328ccb200052":[6,0,4,154,0],
+"structdetray_1_1ray__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01a3ac95ffd4d9d627a47290193328a8b11.html#ac838d14bce74beb77a8d328ccb200052":[6,0,4,154,1],
+"structdetray_1_1ray__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01a3ac95ffd4d9d627a47290193328a8b11.html#ac838d14bce74beb77a8d328ccb200052":[8,0,3,167,0],
 "structdetray_1_1ray__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01a3ac95ffd4d9d627a47290193328a8b11.html#ac838d14bce74beb77a8d328ccb200052":[8,0,3,167,1],
 "structdetray_1_1ray__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01a3ac95ffd4d9d627a47290193328a8b11.html#acc283c69ebc775d11815f74bfe89d99e":[6,0,4,154,13],
 "structdetray_1_1ray__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01a3ac95ffd4d9d627a47290193328a8b11.html#acc283c69ebc775d11815f74bfe89d99e":[8,0,3,167,13],
@@ -237,17 +249,5 @@ var NAVTREEINDEX98 =
 "structdetray_1_1step__record.html#ac78313057d7a589fdc696834e1186879":[8,0,3,182,8],
 "structdetray_1_1step__record.html#ace22c0f9f6c5a30c2bf8af07cfbff44f":[6,0,4,169,23],
 "structdetray_1_1step__record.html#ace22c0f9f6c5a30c2bf8af07cfbff44f":[8,0,3,182,23],
-"structdetray_1_1step__record.html#ad0a3b10184314f9305ac13d2b75bfa2c":[6,0,4,169,22],
-"structdetray_1_1step__record.html#ad0a3b10184314f9305ac13d2b75bfa2c":[8,0,3,182,22],
-"structdetray_1_1step__record.html#af5787b67bafb46e46e3e1bb070863b43":[6,0,4,169,9],
-"structdetray_1_1step__record.html#af5787b67bafb46e46e3e1bb070863b43":[8,0,3,182,9],
-"structdetray_1_1stepper__default__policy.html":[6,0,4,170],
-"structdetray_1_1stepper__default__policy.html":[8,0,3,183],
-"structdetray_1_1stepper__default__policy.html#a0f8fa44cf3cd432901dbc666f80a5e42":[6,0,4,170,1],
-"structdetray_1_1stepper__default__policy.html#a0f8fa44cf3cd432901dbc666f80a5e42":[8,0,3,183,1],
-"structdetray_1_1stepper__default__policy_1_1state.html":[6,0,4,170,0],
-"structdetray_1_1stepper__default__policy_1_1state.html":[8,0,3,183,0],
-"structdetray_1_1stepper__default__policy_1_1state.html#ac2f40b5ac4614242b5e8cef562319e16":[6,0,4,170,0,0],
-"structdetray_1_1stepper__default__policy_1_1state.html#ac2f40b5ac4614242b5e8cef562319e16":[8,0,3,183,0,0],
-"structdetray_1_1stepper__rk__policy.html":[6,0,4,171]
+"structdetray_1_1step__record.html#ad0a3b10184314f9305ac13d2b75bfa2c":[6,0,4,169,22]
 };

@@ -52,6 +52,7 @@ var NAVTREEINDEX60 =
 "group__errors.html#gga52148d84844c7850d7239a8e76d18514af74ca3848c0c6a51fdff12029826abc2":[5,4,15,1],
 "group__errors.html#gga5708898bc604b9dfedc12319218b8c1ba2ff410cc0e0ef7f55e8353551458922e":[5,4,0,3],
 "group__errors.html#gga5708898bc604b9dfedc12319218b8c1ba3b19dd219405eef6b47cac8bbc764d82":[5,4,0,5],
+"group__errors.html#gga5708898bc604b9dfedc12319218b8c1ba5a5b1762b41ab060567dcd03d53e961c":[5,4,0,6],
 "group__errors.html#gga5708898bc604b9dfedc12319218b8c1ba9a1dae01a56ad58a9db7ea93bb3c7a1c":[5,4,0,2],
 "group__errors.html#gga5708898bc604b9dfedc12319218b8c1bab1699d129532c7c6294a1f26fd4032d9":[5,4,0,0],
 "group__errors.html#gga5708898bc604b9dfedc12319218b8c1bab91834cc99e0c4508dfebaadb2980b7c":[5,4,0,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "group__logging.html#gga9b12dd924a4bd3aed921a33779ece95bae741b1f01e440f80c3ded9911018f796":[5,8,12,3],
 "group__logging.html#gga9b12dd924a4bd3aed921a33779ece95baf76d1782f25ba03a7c455fec1d08d715":[5,8,12,1],
 "group__logging__macros.html":[5,8,0],
-"group__logging__macros.html#ga32cd83ddccb067ada37acc8e24246c89":[5,8,0,8],
-"group__logging__macros.html#ga3f6a1f0c2f92795a233960dc6024e99c":[5,8,0,1]
+"group__logging__macros.html#ga32cd83ddccb067ada37acc8e24246c89":[5,8,0,8]
 };

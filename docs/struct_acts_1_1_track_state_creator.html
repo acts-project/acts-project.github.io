@@ -138,9 +138,11 @@ Collaboration diagram for Acts::TrackStateCreator&lt; source_link_iterator_t, tr
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a93f174efb1d4a97f56aa270cbba494ee" id="r_a93f174efb1d4a97f56aa270cbba494ee"><td class="memItemLeft" align="right" valign="top"><a id="a93f174efb1d4a97f56aa270cbba494ee" name="a93f174efb1d4a97f56aa270cbba494ee"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>BoundState</b> = std::tuple&lt;<a class="el" href="class_acts_1_1_bound_track_parameters.html">BoundTrackParameters</a>, <a class="el" href="namespace_acts.html#aec0a40be468eddaf61a46560269bd97e">BoundMatrix</a>, double&gt;</td></tr>
-<tr class="memdesc:a93f174efb1d4a97f56aa270cbba494ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for bound state tuple containing parameters, jacobian and path length. <br /></td></tr>
+<tr class="memitem:abce1f51ce6fa98daaa32be93ebf68337" id="r_abce1f51ce6fa98daaa32be93ebf68337"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abce1f51ce6fa98daaa32be93ebf68337">Arguments</a></td></tr>
+<tr class="memdesc:abce1f51ce6fa98daaa32be93ebf68337"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for the arguments from the CKF.  <br /></td></tr>
+<tr class="memitem:aeb9b110187fda6a627429a0192c4674f" id="r_aeb9b110187fda6a627429a0192c4674f"><td class="memItemLeft" align="right" valign="top"><a id="aeb9b110187fda6a627429a0192c4674f" name="aeb9b110187fda6a627429a0192c4674f"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>BoundState</b> = <a class="el" href="struct_acts_1_1_ckf_types_1_1_bound_state.html">CkfTypes::BoundState</a></td></tr>
+<tr class="memdesc:aeb9b110187fda6a627429a0192c4674f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for the predicted state on a surface. <br /></td></tr>
 <tr class="memitem:a06f1064552766d083cbd780aa541efed" id="r_a06f1064552766d083cbd780aa541efed"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06f1064552766d083cbd780aa541efed">Calibrator</a></td></tr>
 <tr class="memdesc:a06f1064552766d083cbd780aa541efed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for calibrator delegate to process measurements from source links.  <br /></td></tr>
 <tr class="memitem:afd11f6b9f0515b512161f1591c69a563" id="r_afd11f6b9f0515b512161f1591c69a563"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd11f6b9f0515b512161f1591c69a563">candidate_container_t</a></td></tr>
@@ -162,10 +164,10 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>TrackStateProxy</b> 
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a691aa7eeb4128ab03035bbe53795a061" id="r_a691aa7eeb4128ab03035bbe53795a061"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; CkfTypes::BranchVector&lt; <a class="el" href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">TrackIndexType</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a691aa7eeb4128ab03035bbe53795a061">createSourceLinkTrackStates</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_calibration_context.html">CalibrationContext</a> &amp;calibrationContext, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, const <a class="el" href="#a93f174efb1d4a97f56aa270cbba494ee">BoundState</a> &amp;boundState, const source_link_iterator_t &amp;slBegin, const source_link_iterator_t &amp;slEnd, <a class="el" href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">TrackIndexType</a> prevTip, std::vector&lt; <a class="el" href="#a63507ee21f80b688595f2b10dc5c6d26">TrackStateProxy</a> &gt; &amp;trackStateCandidates, <a class="el" href="#a0dea10bed4f2d60c9e320109cbe6f61f">TrackStateContainerBackend</a> &amp;trajectory, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger) const</td></tr>
+<tr class="memitem:a691aa7eeb4128ab03035bbe53795a061" id="r_a691aa7eeb4128ab03035bbe53795a061"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; CkfTypes::BranchVector&lt; <a class="el" href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">TrackIndexType</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a691aa7eeb4128ab03035bbe53795a061">createSourceLinkTrackStates</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_calibration_context.html">CalibrationContext</a> &amp;calibrationContext, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, const <a class="el" href="#aeb9b110187fda6a627429a0192c4674f">BoundState</a> &amp;boundState, const source_link_iterator_t &amp;slBegin, const source_link_iterator_t &amp;slEnd, <a class="el" href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">TrackIndexType</a> prevTip, std::vector&lt; <a class="el" href="#a63507ee21f80b688595f2b10dc5c6d26">TrackStateProxy</a> &gt; &amp;trackStateCandidates, <a class="el" href="#a0dea10bed4f2d60c9e320109cbe6f61f">TrackStateContainerBackend</a> &amp;trajectory, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger) const</td></tr>
 <tr class="memdesc:a691aa7eeb4128ab03035bbe53795a061"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create track states for selected measurements given by the source links.  <br /></td></tr>
-<tr class="memitem:af2e214eb0fbc233df1f4ff608c8f0530" id="r_af2e214eb0fbc233df1f4ff608c8f0530"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; CkfTypes::BranchVector&lt; <a class="el" href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">TrackIndexType</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2e214eb0fbc233df1f4ff608c8f0530">createTrackStates</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_calibration_context.html">CalibrationContext</a> &amp;calibrationContext, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, const <a class="el" href="#a93f174efb1d4a97f56aa270cbba494ee">BoundState</a> &amp;boundState, <a class="el" href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">TrackIndexType</a> prevTip, std::vector&lt; <a class="el" href="#a63507ee21f80b688595f2b10dc5c6d26">TrackStateProxy</a> &gt; &amp;trackStateCandidates, <a class="el" href="#a0dea10bed4f2d60c9e320109cbe6f61f">TrackStateContainerBackend</a> &amp;trajectory, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger) const</td></tr>
-<tr class="memdesc:af2e214eb0fbc233df1f4ff608c8f0530"><td class="mdescLeft">&#160;</td><td class="mdescRight">extend the trajectory onto the given surface.  <br /></td></tr>
+<tr class="memitem:a1002599240eb50c2fe05037ca4ed8d0b" id="r_a1002599240eb50c2fe05037ca4ed8d0b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; CkfTypes::BranchVector&lt; <a class="el" href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">TrackIndexType</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1002599240eb50c2fe05037ca4ed8d0b">createTrackStates</a> (const <a class="el" href="#abce1f51ce6fa98daaa32be93ebf68337">Arguments</a> &amp;args, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger) const</td></tr>
+<tr class="memdesc:a1002599240eb50c2fe05037ca4ed8d0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">extend the trajectory onto the surface of the predicted state.  <br /></td></tr>
 <tr class="memitem:ab5b18a48b4a94ae3c2551128a863f8a7" id="r_ab5b18a48b4a94ae3c2551128a863f8a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; CkfTypes::BranchVector&lt; <a class="el" href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">TrackIndexType</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5b18a48b4a94ae3c2551128a863f8a7">processSelectedTrackStates</a> (typename std::vector&lt; <a class="el" href="#a63507ee21f80b688595f2b10dc5c6d26">TrackStateProxy</a> &gt;::const_iterator begin, typename std::vector&lt; <a class="el" href="#a63507ee21f80b688595f2b10dc5c6d26">TrackStateProxy</a> &gt;::const_iterator end, <a class="el" href="#a0dea10bed4f2d60c9e320109cbe6f61f">TrackStateContainerBackend</a> &amp;trackStates, bool isOutlier, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger) const</td></tr>
 <tr class="memdesc:ab5b18a48b4a94ae3c2551128a863f8a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create track states for the given trajectory from candidate track states.  <br /></td></tr>
 </table><table class="memberdecls">
@@ -194,6 +196,27 @@ struct Acts::TrackStateCreator&lt; source_link_iterator_t, track_container_t &gt
 <li>Finally add branches to the given trajectory for the selected, temporary track states. The track states of these branches still lack the filtered data which is to be filled by the next stage e.g. the CombinatorialKalmanFilter. All track states, the temporary track states and track states for selected measurements, are created in the given trajectory. The resulting container may become big. Thus, it is advisable to copy selected tracks and their track states to a separate container after each track finding step. </li>
 </ul>
 </div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
+<a id="abce1f51ce6fa98daaa32be93ebf68337" name="abce1f51ce6fa98daaa32be93ebf68337"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abce1f51ce6fa98daaa32be93ebf68337">&#9670;&#160;</a></span>Arguments</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename source_link_iterator_t, typename track_container_t&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="struct_acts_1_1_track_state_creator.html">Acts::TrackStateCreator</a>&lt; source_link_iterator_t, track_container_t &gt;::Arguments</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line"> </div>
+<div class="line">      <a class="code hl_struct" href="struct_acts_1_1_ckf_types_1_1_track_state_creator_arguments.html">CkfTypes::TrackStateCreatorArguments&lt;TrackStateContainerBackend&gt;</a></div>
+<div class="ttc" id="astruct_acts_1_1_ckf_types_1_1_track_state_creator_arguments_html"><div class="ttname"><a href="struct_acts_1_1_ckf_types_1_1_track_state_creator_arguments.html">Acts::CkfTypes::TrackStateCreatorArguments</a></div><div class="ttdoc">The arguments of the track state creation on one surface.</div><div class="ttdef"><b>Definition</b> CombinatorialKalmanFilterExtensions.hpp:60</div></div>
+</div><!-- fragment -->
+<p>Type alias for the arguments from the CKF. </p>
+
+</div>
+</div>
 <a id="a06f1064552766d083cbd780aa541efed" name="a06f1064552766d083cbd780aa541efed"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a06f1064552766d083cbd780aa541efed">&#9670;&#160;</a></span>Calibrator</h2>
 
@@ -255,7 +278,7 @@ template&lt;typename source_link_iterator_t, typename track_container_t&gt; </di
 <div class="ttc" id="aclass_acts_1_1_delegate_html"><div class="ttname"><a href="class_acts_1_1_delegate.html">Acts::Delegate</a></div><div class="ttdef"><b>Definition</b> Delegate.hpp:31</div></div>
 <div class="ttc" id="aclass_acts_1_1_logger_html"><div class="ttname"><a href="class_acts_1_1_logger.html">Acts::Logger</a></div><div class="ttdoc">class for printing debug output</div><div class="ttdef"><b>Definition</b> Logger.hpp:679</div></div>
 <div class="ttc" id="aclass_acts_1_1_result_html"><div class="ttname"><a href="class_acts_1_1_result.html">Acts::Result</a></div><div class="ttdoc">Class which encapsulates either a valid result, or an error.</div><div class="ttdef"><b>Definition</b> Result.hpp:26</div></div>
-<div class="ttc" id="astruct_acts_1_1_track_state_creator_html_afd11f6b9f0515b512161f1591c69a563"><div class="ttname"><a href="#afd11f6b9f0515b512161f1591c69a563">Acts::TrackStateCreator::candidate_container_t</a></div><div class="ttdeci">typename std::vector&lt; typename track_container_t::TrackStateProxy &gt; candidate_container_t</div><div class="ttdoc">Type alias for container of candidate track state proxies.</div><div class="ttdef"><b>Definition</b> TrackStateCreator.hpp:51</div></div>
+<div class="ttc" id="astruct_acts_1_1_track_state_creator_html_afd11f6b9f0515b512161f1591c69a563"><div class="ttname"><a href="#afd11f6b9f0515b512161f1591c69a563">Acts::TrackStateCreator::candidate_container_t</a></div><div class="ttdeci">typename std::vector&lt; typename track_container_t::TrackStateProxy &gt; candidate_container_t</div><div class="ttdoc">Type alias for container of candidate track state proxies.</div><div class="ttdef"><b>Definition</b> TrackStateCreator.hpp:53</div></div>
 </div><!-- fragment -->
 <p>Type alias for delegate to select measurements from track state candidates. </p>
 
@@ -350,7 +373,7 @@ template&lt;typename source_link_iterator_t, typename track_container_t&gt; </di
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="#a93f174efb1d4a97f56aa270cbba494ee">BoundState</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>boundState</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="#aeb9b110187fda6a627429a0192c4674f">BoundState</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>boundState</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -405,8 +428,8 @@ template&lt;typename source_link_iterator_t, typename track_container_t&gt; </di
 
 </div>
 </div>
-<a id="af2e214eb0fbc233df1f4ff608c8f0530" name="af2e214eb0fbc233df1f4ff608c8f0530"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2e214eb0fbc233df1f4ff608c8f0530">&#9670;&#160;</a></span>createTrackStates()</h2>
+<a id="a1002599240eb50c2fe05037ca4ed8d0b" name="a1002599240eb50c2fe05037ca4ed8d0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1002599240eb50c2fe05037ca4ed8d0b">&#9670;&#160;</a></span>createTrackStates()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -416,37 +439,7 @@ template&lt;typename source_link_iterator_t, typename track_container_t&gt; </di
         <tr>
           <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; CkfTypes::BranchVector&lt; <a class="el" href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">TrackIndexType</a> &gt; &gt; <a class="el" href="struct_acts_1_1_track_state_creator.html">Acts::TrackStateCreator</a>&lt; source_link_iterator_t, track_container_t &gt;::createTrackStates </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="class_acts_1_1_calibration_context.html">CalibrationContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>calibrationContext</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>surface</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="#a93f174efb1d4a97f56aa270cbba494ee">BoundState</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>boundState</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">TrackIndexType</a></td>          <td class="paramname"><span class="paramname"><em>prevTip</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="#a63507ee21f80b688595f2b10dc5c6d26">TrackStateProxy</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>trackStateCandidates</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="#a0dea10bed4f2d60c9e320109cbe6f61f">TrackStateContainerBackend</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>trajectory</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="#abce1f51ce6fa98daaa32be93ebf68337">Arguments</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -456,17 +449,11 @@ template&lt;typename source_link_iterator_t, typename track_container_t&gt; </di
       </table>
 </div><div class="memdoc">
 
-<p>extend the trajectory onto the given surface. </p>
+<p>extend the trajectory onto the surface of the predicted state. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">gctx</td><td>The geometry context to be used for this task </td></tr>
-    <tr><td class="paramname">calibrationContext</td><td>The calibration context used to fill the calibrated data </td></tr>
-    <tr><td class="paramname">surface</td><td>The surface onto which the trajectory is extended </td></tr>
-    <tr><td class="paramname">boundState</td><td>the predicted bound state on the given surface </td></tr>
-    <tr><td class="paramname">prevTip</td><td>the tip of the trajectory which is to be extended </td></tr>
-    <tr><td class="paramname">trackStateCandidates</td><td>a temporary buffer which can be used to to keep track of newly created temporary track states. </td></tr>
-    <tr><td class="paramname">trajectory</td><td>the trajectory to be extended. </td></tr>
-    <tr><td class="paramname">logger</td><td>a logger for messages.</td></tr>
+    <tr><td class="paramname">args</td><td>the predicted state, the trajectory to extend, and the contexts </td></tr>
+    <tr><td class="paramname">logger</td><td>a logger for messages</td></tr>
   </table>
   </dd>
 </dl>

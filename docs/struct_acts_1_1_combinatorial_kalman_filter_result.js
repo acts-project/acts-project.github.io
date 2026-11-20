@@ -10,6 +10,5 @@ var struct_acts_1_1_combinatorial_kalman_filter_result =
     [ "pathLengthOffset", "struct_acts_1_1_combinatorial_kalman_filter_result.html#a8f56c400c28364d75fa408b2c237a888", null ],
     [ "pathLimit", "struct_acts_1_1_combinatorial_kalman_filter_result.html#a202c4b7027702dfc2e1d274b9823da6d", null ],
     [ "tracks", "struct_acts_1_1_combinatorial_kalman_filter_result.html#ac873f603dc57e07b43867ce2ef66e203", null ],
-    [ "trackStateCandidates", "struct_acts_1_1_combinatorial_kalman_filter_result.html#a55dca6d2484c5e8af3b48996fdb51a51", null ],
     [ "trackStates", "struct_acts_1_1_combinatorial_kalman_filter_result.html#a28bd3d27b349ab3e0cace0a90eb2d306", null ]
 ];

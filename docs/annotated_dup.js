@@ -16,6 +16,10 @@ var annotated_dup =
         [ "DisjointSets", "class_acts_1_1_ccl_1_1_disjoint_sets.html", "class_acts_1_1_ccl_1_1_disjoint_sets" ],
         [ "TimedConnect", "struct_acts_1_1_ccl_1_1_timed_connect.html", "struct_acts_1_1_ccl_1_1_timed_connect" ]
       ] ],
+      [ "CkfTypes", null, [
+        [ "BoundState", "struct_acts_1_1_ckf_types_1_1_bound_state.html", "struct_acts_1_1_ckf_types_1_1_bound_state" ],
+        [ "TrackStateCreatorArguments", "struct_acts_1_1_ckf_types_1_1_track_state_creator_arguments.html", "struct_acts_1_1_ckf_types_1_1_track_state_creator_arguments" ]
+      ] ],
       [ "Experimental", "namespace_acts_1_1_experimental.html", [
         [ "BarrelEndcapAssembler", "class_acts_1_1_experimental_1_1_barrel_endcap_assembler.html", "class_acts_1_1_experimental_1_1_barrel_endcap_assembler" ],
         [ "Blueprint", "class_acts_1_1_experimental_1_1_blueprint.html", "class_acts_1_1_experimental_1_1_blueprint" ],

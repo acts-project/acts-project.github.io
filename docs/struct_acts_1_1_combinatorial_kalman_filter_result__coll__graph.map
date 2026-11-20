@@ -1,10 +1,7 @@
 <map id="Acts::CombinatorialKalmanFilterResult&lt; track_container_t &gt;" name="Acts::CombinatorialKalmanFilterResult&lt; track_container_t &gt;">
-<area shape="rect" id="Node000001" title="Result container for the combinatorial Kalman filter actor." alt="" coords="98,229,336,274"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,106,197,134"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="122,143,174,203,197,229,192,228,170,207,120,148"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="152,5,280,33"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="186,45,172,59,117,107,113,104,169,55,189,41"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="220,106,446,134"/>
-<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="256,38,281,55,307,80,327,106,321,105,303,84,278,59,256,44"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="322,146,304,178,282,207,253,231,251,226,278,203,300,175,318,149"/>
+<area shape="rect" id="Node000001" title="Result container for the combinatorial Kalman filter actor." alt="" coords="5,229,244,274"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="29,106,220,134"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,148,127,229,122,228,122,151"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="60,5,189,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="126,46,127,106,122,105,123,51"/>
 </map>

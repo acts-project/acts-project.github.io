@@ -1,6 +1,7 @@
 var struct_acts_1_1_track_state_creator =
 [
-    [ "BoundState", "struct_acts_1_1_track_state_creator.html#a93f174efb1d4a97f56aa270cbba494ee", null ],
+    [ "Arguments", "struct_acts_1_1_track_state_creator.html#abce1f51ce6fa98daaa32be93ebf68337", null ],
+    [ "BoundState", "struct_acts_1_1_track_state_creator.html#aeb9b110187fda6a627429a0192c4674f", null ],
     [ "Calibrator", "struct_acts_1_1_track_state_creator.html#a06f1064552766d083cbd780aa541efed", null ],
     [ "candidate_container_t", "struct_acts_1_1_track_state_creator.html#afd11f6b9f0515b512161f1591c69a563", null ],
     [ "MeasurementSelector", "struct_acts_1_1_track_state_creator.html#adb487866bb426554d131c7eb11a916f8", null ],
@@ -10,7 +11,7 @@ var struct_acts_1_1_track_state_creator =
     [ "TrackStateProxy", "struct_acts_1_1_track_state_creator.html#a63507ee21f80b688595f2b10dc5c6d26", null ],
     [ "TrackStatesResult", "struct_acts_1_1_track_state_creator.html#afc1f111d387b28f661ebff969d1d601a", null ],
     [ "createSourceLinkTrackStates", "struct_acts_1_1_track_state_creator.html#a691aa7eeb4128ab03035bbe53795a061", null ],
-    [ "createTrackStates", "struct_acts_1_1_track_state_creator.html#af2e214eb0fbc233df1f4ff608c8f0530", null ],
+    [ "createTrackStates", "struct_acts_1_1_track_state_creator.html#a1002599240eb50c2fe05037ca4ed8d0b", null ],
     [ "processSelectedTrackStates", "struct_acts_1_1_track_state_creator.html#ab5b18a48b4a94ae3c2551128a863f8a7", null ],
     [ "voidMeasurementSelector", "struct_acts_1_1_track_state_creator.html#a2ac9a5fbf7104626c6305ae5bb93c957", null ],
     [ "calibrator", "struct_acts_1_1_track_state_creator.html#a5506b3706f98f03b8abe2012e89bde09", null ],

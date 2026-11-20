@@ -4,7 +4,7 @@ var struct_acts_1_1_combinatorial_kalman_filter_extensions =
     [ "BranchStopperResult", "struct_acts_1_1_combinatorial_kalman_filter_extensions.html#a2eb8860fa48d362f4e14406d01b2bca2", null ],
     [ "ComponentReducer", "struct_acts_1_1_combinatorial_kalman_filter_extensions.html#ad40712b45ff99e35b5fa01a8cfa1b7b2", null ],
     [ "TrackProxy", "struct_acts_1_1_combinatorial_kalman_filter_extensions.html#a96bbe7650e192c2b3794b10ec2fb298e", null ],
-    [ "TrackStateCreator", "struct_acts_1_1_combinatorial_kalman_filter_extensions.html#a1f5b4a361badcf271beb0bdd2e396daa", null ],
+    [ "TrackStateCreator", "struct_acts_1_1_combinatorial_kalman_filter_extensions.html#a19165fafeeb4dd034c0c55854769bf68", null ],
     [ "TrackStateProxy", "struct_acts_1_1_combinatorial_kalman_filter_extensions.html#aa0b8103ac4cc4601eeaedd434a803540", null ],
     [ "traj_t", "struct_acts_1_1_combinatorial_kalman_filter_extensions.html#aa3adaf8796b5d831f9f3f2c573a8e857", null ],
     [ "Updater", "struct_acts_1_1_combinatorial_kalman_filter_extensions.html#abafe3e6de91d870ebc61bdadf9f21eef", null ],

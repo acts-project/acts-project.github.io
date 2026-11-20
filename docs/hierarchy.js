@@ -113,6 +113,8 @@ var hierarchy =
     ] ],
     [ "Acts::Ccl::DisjointSets", "class_acts_1_1_ccl_1_1_disjoint_sets.html", null ],
     [ "Acts::ChargeHypothesis", "class_acts_1_1_charge_hypothesis.html", null ],
+    [ "Acts::CkfTypes::BoundState", "struct_acts_1_1_ckf_types_1_1_bound_state.html", null ],
+    [ "Acts::CkfTypes::TrackStateCreatorArguments&lt; traj_t &gt;", "struct_acts_1_1_ckf_types_1_1_track_state_creator_arguments.html", null ],
     [ "Acts::CloneablePtr&lt; T &gt;", "class_acts_1_1_cloneable_ptr.html", null ],
     [ "Acts::Color", "struct_acts_1_1_color.html", null ],
     [ "Acts::CombinatorialKalmanFilter&lt; propagator_t, track_container_t &gt;", "class_acts_1_1_combinatorial_kalman_filter.html", null ],

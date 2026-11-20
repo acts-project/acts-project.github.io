@@ -17,7 +17,7 @@ var group__track__finding =
       [ "BranchStopperResult", "struct_acts_1_1_combinatorial_kalman_filter_extensions.html#a2eb8860fa48d362f4e14406d01b2bca2", null ],
       [ "ComponentReducer", "struct_acts_1_1_combinatorial_kalman_filter_extensions.html#ad40712b45ff99e35b5fa01a8cfa1b7b2", null ],
       [ "TrackProxy", "struct_acts_1_1_combinatorial_kalman_filter_extensions.html#a96bbe7650e192c2b3794b10ec2fb298e", null ],
-      [ "TrackStateCreator", "struct_acts_1_1_combinatorial_kalman_filter_extensions.html#a1f5b4a361badcf271beb0bdd2e396daa", null ],
+      [ "TrackStateCreator", "struct_acts_1_1_combinatorial_kalman_filter_extensions.html#a19165fafeeb4dd034c0c55854769bf68", null ],
       [ "TrackStateProxy", "struct_acts_1_1_combinatorial_kalman_filter_extensions.html#aa0b8103ac4cc4601eeaedd434a803540", null ],
       [ "traj_t", "struct_acts_1_1_combinatorial_kalman_filter_extensions.html#aa3adaf8796b5d831f9f3f2c573a8e857", null ],
       [ "Updater", "struct_acts_1_1_combinatorial_kalman_filter_extensions.html#abafe3e6de91d870ebc61bdadf9f21eef", null ],
@@ -53,7 +53,6 @@ var group__track__finding =
       [ "pathLengthOffset", "struct_acts_1_1_combinatorial_kalman_filter_result.html#a8f56c400c28364d75fa408b2c237a888", null ],
       [ "pathLimit", "struct_acts_1_1_combinatorial_kalman_filter_result.html#a202c4b7027702dfc2e1d274b9823da6d", null ],
       [ "tracks", "struct_acts_1_1_combinatorial_kalman_filter_result.html#ac873f603dc57e07b43867ce2ef66e203", null ],
-      [ "trackStateCandidates", "struct_acts_1_1_combinatorial_kalman_filter_result.html#a55dca6d2484c5e8af3b48996fdb51a51", null ],
       [ "trackStates", "struct_acts_1_1_combinatorial_kalman_filter_result.html#a28bd3d27b349ab3e0cace0a90eb2d306", null ]
     ] ],
     [ "Acts::CombinatorialKalmanFilterBranchStopperResult", "group__track__finding.html#gaeebbf038ee135dbf867fe05d0f61d09b", null ]

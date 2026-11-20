@@ -729,7 +729,8 @@ var namespace_acts =
       [ "OutputConversionFailed", "group__errors.html#gga5708898bc604b9dfedc12319218b8c1ba9a1dae01a56ad58a9db7ea93bb3c7a1c", null ],
       [ "MeasurementSelectionFailed", "group__errors.html#gga5708898bc604b9dfedc12319218b8c1ba2ff410cc0e0ef7f55e8353551458922e", null ],
       [ "PropagationReachesMaxSteps", "group__errors.html#gga5708898bc604b9dfedc12319218b8c1bacad57a44b12889a25020a697b8b3aa25", null ],
-      [ "NoMeasurementExpected", "group__errors.html#gga5708898bc604b9dfedc12319218b8c1ba3b19dd219405eef6b47cac8bbc764d82", null ]
+      [ "NoMeasurementExpected", "group__errors.html#gga5708898bc604b9dfedc12319218b8c1ba3b19dd219405eef6b47cac8bbc764d82", null ],
+      [ "UnsupportedTrackState", "group__errors.html#gga5708898bc604b9dfedc12319218b8c1ba5a5b1762b41ab060567dcd03d53e961c", null ]
     ] ],
     [ "ComponentMergeMethod", "group__track__fitting.html#ga920082397516a41a551b2a9883131d66", null ],
     [ "CoordinateIndices", "namespace_acts.html#a07a86fac65395a5f95452259e7872ecc", null ],
