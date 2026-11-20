@@ -1,3 +1,19 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$struct_acts_1_1_annealing_utility_1_1_state.html" title="The annealing state Resetting the state is done by just creating a new instance." alt="" coords="5,5,168,50"/>
+<area shape="rect" id="Node000000" href="$class_acts_1_1_any_base_all.html" title="Base class for all instances of AnyBase regarfless of SBO size." alt="" coords="5,256,137,284"/>
+<area shape="rect" id="Node000001" href="$class_acts_1_1_any_base.html" title=" " alt="" coords="190,5,388,50"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="78,241,92,200,114,152,144,103,183,60,204,48,201,53,186,64,148,106,119,155,97,202,83,242"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_any_base.html" title=" " alt="" coords="205,75,373,119"/>
+<area shape="poly" id="edge2_Node000000_Node000002" title=" " alt="" coords="85,242,125,185,152,155,183,129,207,118,203,122,186,134,156,159,129,189,90,244"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_any_base.html" title=" " alt="" coords="185,144,393,189"/>
+<area shape="poly" id="edge3_Node000000_Node000003" title=" " alt="" coords="103,246,141,221,184,199,215,187,211,191,186,203,144,226,107,249"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_any_base.html" title=" " alt="" coords="205,213,373,258"/>
+<area shape="poly" id="edge4_Node000000_Node000004" title=" " alt="" coords="150,255,206,247,202,251,153,260"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_any_base.html" title=" " alt="" coords="205,283,373,327"/>
+<area shape="poly" id="edge5_Node000000_Node000005" title=" " alt="" coords="151,281,207,290,202,293,152,286"/>
+<area shape="rect" id="Node000006" href="$class_acts_1_1_any_base.html" title=" " alt="" coords="201,352,377,397"/>
+<area shape="poly" id="edge6_Node000000_Node000006" title=" " alt="" coords="104,290,144,315,186,337,216,351,211,352,184,342,141,319,105,296"/>
+<area shape="rect" id="Node000007" href="$class_acts_1_1_any_base.html" title=" " alt="" coords="205,420,373,448"/>
+<area shape="poly" id="edge7_Node000000_Node000007" title=" " alt="" coords="88,295,128,353,155,382,186,407,209,420,204,420,183,411,152,386,124,356,87,300"/>
+<area shape="rect" id="Node000008" href="$class_acts_1_1_any_base.html" title="Small opaque type&#45;erased type with configurable small buffer optimization." alt="" coords="201,472,377,517"/>
+<area shape="poly" id="edge8_Node000000_Node000008" title=" " alt="" coords="82,296,99,334,121,377,150,420,186,458,206,472,200,471,183,462,146,424,117,380,95,337,82,302"/>
 </map>

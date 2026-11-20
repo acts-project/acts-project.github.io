@@ -1,5 +1,7 @@
 var NAVTREEINDEX49 =
 {
+"classdetray_1_1detail_1_1helix.html#a70ae30c38041abe12c2ace91a5beff8e":[8,0,3,4,15,15],
+"classdetray_1_1detail_1_1helix.html#a70e0941fdf777cb1cc702d043813b2af":[8,0,3,4,15,4],
 "classdetray_1_1detail_1_1helix.html#a80bf51970f5e2556a0bf44c6f79644ad":[8,0,3,4,15,20],
 "classdetray_1_1detail_1_1helix.html#aac4377c871dd5cc795000621eede5aba":[8,0,3,4,15,0],
 "classdetray_1_1detail_1_1helix.html#aae8ce2259fc91c19ca65ea39c2ed123b":[8,0,3,4,15,14],
@@ -247,7 +249,5 @@ var NAVTREEINDEX49 =
 "classdetray_1_1geometry_1_1surface.html#a6fb06906148ed172a8f5bd6458d99042":[8,0,3,5,1,13],
 "classdetray_1_1geometry_1_1surface.html#a7d4b2c763174bc44ae5e70ea9eb79e3b":[8,0,3,5,1,23],
 "classdetray_1_1geometry_1_1surface.html#a8333ef4c2e3fbfecc2fe2cd9f8d15031":[8,0,3,5,1,8],
-"classdetray_1_1geometry_1_1surface.html#a854c646c0fbcb1ef870e42451d050267":[8,0,3,5,1,5],
-"classdetray_1_1geometry_1_1surface.html#a87a381164502562a657b910a979edf54":[8,0,3,5,1,18],
-"classdetray_1_1geometry_1_1surface.html#a88f89d17e086d42ad45f96065b0d81a1":[8,0,3,5,1,37]
+"classdetray_1_1geometry_1_1surface.html#a854c646c0fbcb1ef870e42451d050267":[8,0,3,5,1,5]
 };

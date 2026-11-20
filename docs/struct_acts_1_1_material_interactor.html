@@ -133,15 +133,15 @@ $(function(){initNavTree('struct_acts_1_1_material_interactor.html','','struct_a
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:afaa5e757a436c15f4ca99a207d027e1f" id="r_afaa5e757a436c15f4ca99a207d027e1f"><td class="memItemLeft" align="right" valign="top"><a id="afaa5e757a436c15f4ca99a207d027e1f" name="afaa5e757a436c15f4ca99a207d027e1f"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>result_type</b> = <a class="el" href="struct_acts_1_1_recorded_material.html">RecordedMaterial</a></td></tr>
-<tr class="memdesc:afaa5e757a436c15f4ca99a207d027e1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for material interaction result. <br /></td></tr>
+<tr class="memitem:ae1abe931d5e0037c3cbb3c45c5817648" id="r_ae1abe931d5e0037c3cbb3c45c5817648"><td class="memItemLeft" align="right" valign="top"><a id="ae1abe931d5e0037c3cbb3c45c5817648" name="ae1abe931d5e0037c3cbb3c45c5817648"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>State</b> = <a class="el" href="struct_acts_1_1_recorded_material.html">RecordedMaterial</a></td></tr>
+<tr class="memdesc:ae1abe931d5e0037c3cbb3c45c5817648"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for the material interaction state. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7ab6623014fb27446646f21615d49e02" id="r_a7ab6623014fb27446646f21615d49e02"><td class="memTemplParams" colspan="2">template&lt;typename propagator_state_t, typename stepper_t, typename navigator_t&gt; </td></tr>
-<tr class="memitem:a7ab6623014fb27446646f21615d49e02 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ab6623014fb27446646f21615d49e02">act</a> (propagator_state_t &amp;state, const stepper_t &amp;stepper, const navigator_t &amp;navigator, <a class="el" href="#afaa5e757a436c15f4ca99a207d027e1f">result_type</a> &amp;result, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger) const</td></tr>
-<tr class="memdesc:a7ab6623014fb27446646f21615d49e02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interaction with detector material for the ActionList of the Propagator.  <br /></td></tr>
+<tr class="memitem:ae271ff25d664f9ca8dc38504943de9cc" id="r_ae271ff25d664f9ca8dc38504943de9cc"><td class="memTemplParams" colspan="2">template&lt;typename propagator_state_t, typename stepper_t, typename navigator_t&gt; </td></tr>
+<tr class="memitem:ae271ff25d664f9ca8dc38504943de9cc template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae271ff25d664f9ca8dc38504943de9cc">act</a> (propagator_state_t &amp;state, const stepper_t &amp;stepper, const navigator_t &amp;navigator, <a class="el" href="#ae1abe931d5e0037c3cbb3c45c5817648">State</a> &amp;actorState, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger) const</td></tr>
+<tr class="memdesc:ae271ff25d664f9ca8dc38504943de9cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interaction with detector material for the ActionList of the Propagator.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -162,8 +162,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>recordInteractions</b
 <div class="textblock"><p>Material interactor propagator action. </p>
 <p>Apply material interactions at a surface and update the track state. </p>
 </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a7ab6623014fb27446646f21615d49e02" name="a7ab6623014fb27446646f21615d49e02"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ab6623014fb27446646f21615d49e02">&#9670;&#160;</a></span>act()</h2>
+<a id="ae271ff25d664f9ca8dc38504943de9cc" name="ae271ff25d664f9ca8dc38504943de9cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae271ff25d664f9ca8dc38504943de9cc">&#9670;&#160;</a></span>act()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -188,7 +188,7 @@ template&lt;typename propagator_state_t, typename stepper_t, typename navigator_
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#afaa5e757a436c15f4ca99a207d027e1f">result_type</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>result</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#ae1abe931d5e0037c3cbb3c45c5817648">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>actorState</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -213,7 +213,7 @@ template&lt;typename propagator_state_t, typename stepper_t, typename navigator_
     <tr><td class="paramname">state</td><td>is the mutable propagator state object </td></tr>
     <tr><td class="paramname">stepper</td><td>The stepper in use </td></tr>
     <tr><td class="paramname">navigator</td><td>The navigator in use </td></tr>
-    <tr><td class="paramname">result</td><td>is the mutable result state object </td></tr>
+    <tr><td class="paramname">actorState</td><td>is the mutable state of the actor </td></tr>
     <tr><td class="paramname">logger</td><td>a logger instance </td></tr>
   </table>
   </dd>

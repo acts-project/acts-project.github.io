@@ -182,7 +182,7 @@ var group__track__fitting =
       [ "measurementHoles", "struct_acts_1_1_kalman_fitter_result.html#a33f1c4c6e0186ec5a3117745ab629dcb", null ],
       [ "measurementStates", "struct_acts_1_1_kalman_fitter_result.html#a05c94fb890be1b65ab5df3b31061f596", null ],
       [ "missedActiveSurfaces", "struct_acts_1_1_kalman_fitter_result.html#addfc9004555a1ca3f71733226a733f5d", null ],
-      [ "pathLimitReached", "struct_acts_1_1_kalman_fitter_result.html#ae61b15f48c6eebe15f4716ad8982bdc1", null ],
+      [ "pathLimit", "struct_acts_1_1_kalman_fitter_result.html#a6ea8af376205d937b4d9e990f078bd5d", null ],
       [ "processedStates", "struct_acts_1_1_kalman_fitter_result.html#ad8c6b639fbbe3549e3ed15fdc27054ee", null ]
     ] ],
     [ "Acts::MbfSmoother", "class_acts_1_1_mbf_smoother.html", [

@@ -71,7 +71,8 @@ var group__errors =
     [ "Acts::PropagatorError", "group__errors.html#gae4af8513760690d2518f3e01355beb88", [
       [ "Acts::PropagatorError::Failure", "group__errors.html#ggae4af8513760690d2518f3e01355beb88ae139a585510a502bbf1841cf589f5086", null ],
       [ "Acts::PropagatorError::StepCountLimitReached", "group__errors.html#ggae4af8513760690d2518f3e01355beb88a1b43b4fba722947169471747934a6740", null ],
-      [ "Acts::PropagatorError::NextTargetLimitReached", "group__errors.html#ggae4af8513760690d2518f3e01355beb88ae26e9cd0f7d932b1121993fe395d2195", null ]
+      [ "Acts::PropagatorError::NextTargetLimitReached", "group__errors.html#ggae4af8513760690d2518f3e01355beb88ae26e9cd0f7d932b1121993fe395d2195", null ],
+      [ "Acts::PropagatorError::TargetNotReached", "group__errors.html#ggae4af8513760690d2518f3e01355beb88ad690e746ae2c665bc590fd6a0a44f778", null ]
     ] ],
     [ "Acts::SpacePointFormationError", "group__errors.html#ga15d42dcaa6c43d68f6d711f04f9594bd", [
       [ "Acts::SpacePointFormationError::ClusterPairDistanceExceeded", "group__errors.html#gga15d42dcaa6c43d68f6d711f04f9594bda59498ee016767b03b39eb220b31f8ef0", null ],

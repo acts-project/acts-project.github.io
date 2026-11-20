@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ACTS: Acts::VolumeConstraintAborter Struct Reference</title>
+<title>ACTS: Acts::ActorHasAbortWithoutState Concept Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -96,7 +96,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(function(){initNavTree('struct_acts_1_1_volume_constraint_aborter.html','','struct_acts_1_1_volume_constraint_aborter-members'); });
+$(function(){initNavTree('concept_acts_1_1_actor_has_abort_without_state.html','',''); });
 </script>
 <div id="container">
 <div id="doc-content">
@@ -122,89 +122,26 @@ $(function(){initNavTree('struct_acts_1_1_volume_constraint_aborter.html','','st
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">Acts::VolumeConstraintAborter Struct Reference</div></div>
+  <div class="headertitle"><div class="title">Acts::ActorHasAbortWithoutState Concept Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p>This is the condition that the end of world has been reached it then triggers a propagation abort.  
- <a href="#details">More...</a></p>
-
-<p><code>#include &lt;<a class="el" href="_standard_aborters_8hpp_source.html">Acts/Propagator/StandardAborters.hpp</a>&gt;</code></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:ac226412b4c63c8c6efc44c9f495a1c09" id="r_ac226412b4c63c8c6efc44c9f495a1c09"><td class="memTemplParams" colspan="2">template&lt;typename propagator_state_t, typename stepper_t, typename navigator_t&gt; </td></tr>
-<tr class="memitem:ac226412b4c63c8c6efc44c9f495a1c09 template"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac226412b4c63c8c6efc44c9f495a1c09">checkAbort</a> (propagator_state_t &amp;state, const stepper_t &amp;, const navigator_t &amp;navigator, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger) const</td></tr>
-<tr class="memdesc:ac226412b4c63c8c6efc44c9f495a1c09"><td class="mdescLeft">&#160;</td><td class="mdescRight">boolean operator for abort condition without using the result  <br /></td></tr>
-</table>
-<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>This is the condition that the end of world has been reached it then triggers a propagation abort. </p>
-</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="ac226412b4c63c8c6efc44c9f495a1c09" name="ac226412b4c63c8c6efc44c9f495a1c09"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac226412b4c63c8c6efc44c9f495a1c09">&#9670;&#160;</a></span>checkAbort()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename propagator_state_t, typename stepper_t, typename navigator_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Acts::VolumeConstraintAborter::checkAbort </td>
-          <td>(</td>
-          <td class="paramtype">propagator_state_t &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const stepper_t &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const navigator_t &amp;</td>          <td class="paramname"><span class="paramname"><em>navigator</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>logger</em></span>&#160;) const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>boolean operator for abort condition without using the result </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">propagator_state_t</td><td>Type of the propagator state </td></tr>
-    <tr><td class="paramname">navigator_t</td><td>Type of the navigator</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">state</td><td>The propagation state object </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">navigator</td><td>The navigator object </td></tr>
-    <tr><td class="paramdir"></td><td class="paramname">logger</td><td>a logger instance </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>True if volume constraints violated and propagation should abort </dd></dl>
-
-</div>
-</div>
-</div><!-- contents -->
+<h2 id="header-conceptdef" class="groupheader">Concept definition</h2>
+<div class="fragment"><div class="line"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> actor_t, <span class="keyword">typename</span> propagator_state_t, <span class="keyword">typename</span> stepper_t, <span class="keyword">typename</span> navigator_t, <span class="keyword">typename</span>... Args&gt;</div>
+<div class="line"><span class="keyword">concept </span><a class="code hl_concept" href="concept_acts_1_1_actor_has_abort_without_state.html">Acts::ActorHasAbortWithoutState</a> =  <span class="keyword">requires</span>(</div>
+<div class="line">    <span class="keyword">const</span> actor_t&amp; a, propagator_state_t&amp; state, <span class="keyword">const</span> stepper_t&amp; stepper,</div>
+<div class="line">    <span class="keyword">const</span> navigator_t&amp; navigator, Args&amp;&amp;... args) {</div>
+<div class="line">  {</div>
+<div class="line">    a.checkAbort(state, stepper, navigator, std::forward&lt;Args&gt;(args)...)</div>
+<div class="line">  } -&gt; std::same_as&lt;bool&gt;;</div>
+<div class="line">}</div>
+<div class="ttc" id="aconcept_acts_1_1_actor_has_abort_without_state_html"><div class="ttname"><a href="concept_acts_1_1_actor_has_abort_without_state.html">Acts::ActorHasAbortWithoutState</a></div><div class="ttdef"><b>Definition</b> ActorConcepts.hpp:102</div></div>
+</div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<div id="page-nav" class="page-nav-panel">
-<div id="page-nav-resize-handle"></div>
-<div id="page-nav-tree">
-<div id="page-nav-contents">
-</div><!-- page-nav-contents -->
-</div><!-- page-nav-tree -->
-</div><!-- page-nav -->
 </div><!-- container -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="namespace_acts.html">Acts</a></li><li class="navelem"><a href="struct_acts_1_1_volume_constraint_aborter.html">VolumeConstraintAborter</a></li>
+    <li class="navelem"><a href="namespace_acts.html">Acts</a></li><li class="navelem"><a href="concept_acts_1_1_actor_has_abort_without_state.html">ActorHasAbortWithoutState</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

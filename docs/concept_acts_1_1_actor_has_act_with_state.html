@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ACTS: Acts::ActorResultTypeExtractor&lt; T &gt; Struct Template Reference</title>
+<title>ACTS: Acts::ActorHasActWithState Concept Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -96,7 +96,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(function(){initNavTree('struct_acts_1_1_actor_result_type_extractor.html','','struct_acts_1_1_actor_result_type_extractor-members'); });
+$(function(){initNavTree('concept_acts_1_1_actor_has_act_with_state.html','',''); });
 </script>
 <div id="container">
 <div id="doc-content">
@@ -122,38 +122,30 @@ $(function(){initNavTree('struct_acts_1_1_actor_result_type_extractor.html','','
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">Acts::ActorResultTypeExtractor&lt; T &gt; Struct Template Reference</div></div>
+  <div class="headertitle"><div class="title">Acts::ActorHasActWithState Concept Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p>Extract the result type of an actor.  
- <a href="#details">More...</a></p>
-
-<p><code>#include &lt;<a class="el" href="_actor_list_8hpp_source.html">Acts/Propagator/ActorList.hpp</a>&gt;</code></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:a211e3decc3d5932beedec0df869c4fef" id="r_a211e3decc3d5932beedec0df869c4fef"><td class="memItemLeft" align="right" valign="top"><a id="a211e3decc3d5932beedec0df869c4fef" name="a211e3decc3d5932beedec0df869c4fef"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>type</b> = typename T::result_type</td></tr>
-<tr class="memdesc:a211e3decc3d5932beedec0df869c4fef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for the result type of an actor. <br /></td></tr>
-</table>
-<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><div class="compoundTemplParams">template&lt;typename T&gt;<br />
-struct Acts::ActorResultTypeExtractor&lt; T &gt;</div><p>Extract the result type of an actor. </p>
-</div></div><!-- contents -->
+<h2 id="header-conceptdef" class="groupheader">Concept definition</h2>
+<div class="fragment"><div class="line"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> actor_t, <span class="keyword">typename</span> propagator_state_t, <span class="keyword">typename</span> stepper_t, <span class="keyword">typename</span> navigator_t, <span class="keyword">typename</span>... Args&gt;</div>
+<div class="line"><span class="keyword">concept </span><a class="code hl_concept" href="concept_acts_1_1_actor_has_act_with_state.html">Acts::ActorHasActWithState</a> = </div>
+<div class="line">    <a class="code hl_concept" href="concept_acts_1_1_actor_has_state.html">ActorHasState&lt;actor_t&gt;</a> &amp;&amp;</div>
+<div class="line">    <span class="keyword">requires</span>(<span class="keyword">const</span> actor_t&amp; a, propagator_state_t&amp; state,</div>
+<div class="line">             <span class="keyword">const</span> stepper_t&amp; stepper, <span class="keyword">const</span> navigator_t&amp; navigator,</div>
+<div class="line">             <span class="keyword">typename</span> actor_t::State&amp; actorState, Args&amp;&amp;... args) {</div>
+<div class="line">      {</div>
+<div class="line">        a.act(state, stepper, navigator, actorState,</div>
+<div class="line">              std::forward&lt;Args&gt;(args)...)</div>
+<div class="line">      } -&gt; std::same_as&lt;Result&lt;void&gt;&gt;;</div>
+<div class="line">    }</div>
+<div class="ttc" id="aconcept_acts_1_1_actor_has_act_with_state_html"><div class="ttname"><a href="concept_acts_1_1_actor_has_act_with_state.html">Acts::ActorHasActWithState</a></div><div class="ttdef"><b>Definition</b> ActorConcepts.hpp:59</div></div>
+<div class="ttc" id="aconcept_acts_1_1_actor_has_state_html"><div class="ttname"><a href="concept_acts_1_1_actor_has_state.html">Acts::ActorHasState</a></div><div class="ttdef"><b>Definition</b> ActorConcepts.hpp:20</div></div>
+</div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<div id="page-nav" class="page-nav-panel">
-<div id="page-nav-resize-handle"></div>
-<div id="page-nav-tree">
-<div id="page-nav-contents">
-</div><!-- page-nav-contents -->
-</div><!-- page-nav-tree -->
-</div><!-- page-nav -->
 </div><!-- container -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="namespace_acts.html">Acts</a></li><li class="navelem"><a href="struct_acts_1_1_actor_result_type_extractor.html">ActorResultTypeExtractor</a></li>
+    <li class="navelem"><a href="namespace_acts.html">Acts</a></li><li class="navelem"><a href="concept_acts_1_1_actor_has_act_with_state.html">ActorHasActWithState</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

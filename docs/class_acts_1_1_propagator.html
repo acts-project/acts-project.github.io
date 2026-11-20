@@ -152,15 +152,16 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>NavigatorOptions</b>
 <tr class="memitem:a66b3f9e2048585969f9ce1831dbb17c5" id="r_a66b3f9e2048585969f9ce1831dbb17c5"><td class="memItemLeft" align="right" valign="top"><a id="a66b3f9e2048585969f9ce1831dbb17c5" name="a66b3f9e2048585969f9ce1831dbb17c5"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>NavigatorState</b> = typename <a class="el" href="struct_acts_1_1_navigator_1_1_state.html">Navigator::State</a></td></tr>
 <tr class="memdesc:a66b3f9e2048585969f9ce1831dbb17c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of the navigator state. <br /></td></tr>
-<tr class="memitem:a1ec8b7354939f29b3d28ec77eb492dff" id="r_a1ec8b7354939f29b3d28ec77eb492dff"><td class="memTemplParams" colspan="2">template&lt;typename actor_list_t = ActorList&lt;&gt;&gt; </td></tr>
-<tr class="memitem:a1ec8b7354939f29b3d28ec77eb492dff template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ec8b7354939f29b3d28ec77eb492dff">Options</a></td></tr>
-<tr class="memdesc:a1ec8b7354939f29b3d28ec77eb492dff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of the propagator options with actor list.  <br /></td></tr>
-<tr class="memitem:a686765024e1405427bc7bf73be8fb8e8" id="r_a686765024e1405427bc7bf73be8fb8e8"><td class="memTemplParams" colspan="2">template&lt;typename propagator_options_t&gt; </td></tr>
-<tr class="memitem:a686765024e1405427bc7bf73be8fb8e8 template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a686765024e1405427bc7bf73be8fb8e8">ResultType</a> = typename result_type_helper&lt;propagator_options_t&gt;<a class="el" href="struct_acts_1_1_remove_pointer.html">::type</a></td></tr>
-<tr class="memdesc:a686765024e1405427bc7bf73be8fb8e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of the propagation result derived from the propagator options.  <br /></td></tr>
-<tr class="memitem:aac0344965463ff99e95818465ad713d2" id="r_aac0344965463ff99e95818465ad713d2"><td class="memTemplParams" colspan="2">template&lt;typename propagator_options_t&gt; </td></tr>
-<tr class="memitem:aac0344965463ff99e95818465ad713d2 template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac0344965463ff99e95818465ad713d2">State</a> = typename state_type_helper&lt;propagator_options_t&gt;<a class="el" href="struct_acts_1_1_remove_pointer.html">::type</a></td></tr>
-<tr class="memdesc:aac0344965463ff99e95818465ad713d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of the propagation state derived from the propagator options.  <br /></td></tr>
+<tr class="memitem:ad28ff53654530b0f76fea6853cee673f" id="r_ad28ff53654530b0f76fea6853cee673f"><td class="memTemplParams" colspan="2"><a id="ad28ff53654530b0f76fea6853cee673f" name="ad28ff53654530b0f76fea6853cee673f"></a>
+template&lt;typename actor_t = DefaultActor&gt; </td></tr>
+<tr class="memitem:ad28ff53654530b0f76fea6853cee673f template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><b>Options</b> = <a class="el" href="struct_acts_1_1_propagator_options.html">PropagatorOptions</a>&lt;<a class="el" href="#af572df7abc46bfbf71a394ed83dc4afa">StepperOptions</a>, <a class="el" href="#ac07d5763fad51e760a9f757690716165">NavigatorOptions</a>, actor_t&gt;</td></tr>
+<tr class="memdesc:ad28ff53654530b0f76fea6853cee673f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of the propagator options with an actor. <br /></td></tr>
+<tr class="memitem:a6eff55af763f63c9a9294cdd30ae8b3a" id="r_a6eff55af763f63c9a9294cdd30ae8b3a"><td class="memItemLeft" align="right" valign="top"><a id="a6eff55af763f63c9a9294cdd30ae8b3a" name="a6eff55af763f63c9a9294cdd30ae8b3a"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>ResultType</b> = <a class="el" href="struct_acts_1_1_propagator_result.html">PropagatorResult</a>&lt;BoundParameters&gt;</td></tr>
+<tr class="memdesc:a6eff55af763f63c9a9294cdd30ae8b3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of the propagation result. <br /></td></tr>
+<tr class="memitem:a67d40bf13ed09419746329a9871cb1b3" id="r_a67d40bf13ed09419746329a9871cb1b3"><td class="memTemplParams" colspan="2">template&lt;typename propagator_options_t&gt; </td></tr>
+<tr class="memitem:a67d40bf13ed09419746329a9871cb1b3 template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67d40bf13ed09419746329a9871cb1b3">State</a></td></tr>
+<tr class="memdesc:a67d40bf13ed09419746329a9871cb1b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of the propagation state derived from the propagator options.  <br /></td></tr>
 <tr class="memitem:a77307ca297a7f0bfb937ced168a43aab" id="r_a77307ca297a7f0bfb937ced168a43aab"><td class="memItemLeft" align="right" valign="top"><a id="a77307ca297a7f0bfb937ced168a43aab" name="a77307ca297a7f0bfb937ced168a43aab"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>Stepper</b> = stepper_t</td></tr>
 <tr class="memdesc:a77307ca297a7f0bfb937ced168a43aab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of the stepper in use. <br /></td></tr>
@@ -175,26 +176,29 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>StepperState</b> = t
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ac67d44d7a2d79692306e6a2cf93123b5" id="r_ac67d44d7a2d79692306e6a2cf93123b5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac67d44d7a2d79692306e6a2cf93123b5">Propagator</a> (<a class="el" href="#a77307ca297a7f0bfb937ced168a43aab">Stepper</a> <a class="el" href="#a9427eba3b3ee9dbc1ac2bd32b60cb682">stepper</a>, <a class="el" href="#a093685d05bccdf473c4c7af3ae5e9cef">Navigator</a> <a class="el" href="#af52efc0021345ba9a4f3e778cd0f222b">navigator</a>=<a class="el" href="#a093685d05bccdf473c4c7af3ae5e9cef">Navigator</a>(), std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &gt; _logger=<a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">getDefaultLogger</a>(&quot;Propagator&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Acts::Logging::INFO</a>))</td></tr>
 <tr class="memdesc:ac67d44d7a2d79692306e6a2cf93123b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from implementation object.  <br /></td></tr>
-<tr class="memitem:abfeb709c848344ca0c8054fb963b2d7c" id="r_abfeb709c848344ca0c8054fb963b2d7c"><td class="memTemplParams" colspan="2">template&lt;typename propagator_state_t, typename target_aborter_t = NoTargetAborter, typename path_aborter_t = PathLimitReached&gt; </td></tr>
-<tr class="memitem:abfeb709c848344ca0c8054fb963b2d7c template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfeb709c848344ca0c8054fb963b2d7c">initialize</a> (propagator_state_t &amp;state, const BoundParameters &amp;start, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *target) const</td></tr>
-<tr class="memdesc:abfeb709c848344ca0c8054fb963b2d7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the propagator state.  <br /></td></tr>
-<tr class="memitem:afebee49d50be2e87f7d81cc834069bf6" id="r_afebee49d50be2e87f7d81cc834069bf6"><td class="memTemplParams" colspan="2">template&lt;typename propagator_state_t, typename propagator_options_t&gt; </td></tr>
-<tr class="memitem:afebee49d50be2e87f7d81cc834069bf6 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#a686765024e1405427bc7bf73be8fb8e8">ResultType</a>&lt; propagator_options_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afebee49d50be2e87f7d81cc834069bf6">makeResult</a> (propagator_state_t state, <a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt; result, const propagator_options_t &amp;options, bool createFinalParameters, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *target=nullptr) const</td></tr>
-<tr class="memdesc:afebee49d50be2e87f7d81cc834069bf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds the propagator result object.  <br /></td></tr>
-<tr class="memitem:a607aa266ebd3792cd5509267a1091857" id="r_a607aa266ebd3792cd5509267a1091857"><td class="memTemplParams" colspan="2">template&lt;typename propagator_options_t, typename target_aborter_t = NoTargetAborter, typename path_aborter_t = PathLimitReached&gt; </td></tr>
-<tr class="memitem:a607aa266ebd3792cd5509267a1091857 template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a607aa266ebd3792cd5509267a1091857">makeState</a> (const propagator_options_t &amp;options) const</td></tr>
-<tr class="memdesc:a607aa266ebd3792cd5509267a1091857"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds the propagator state object.  <br /></td></tr>
+<tr class="memitem:a54bbeffd544aa1baf01170f9c9b3bcc5" id="r_a54bbeffd544aa1baf01170f9c9b3bcc5"><td class="memTemplParams" colspan="2">template&lt;typename propagator_state_t&gt; </td></tr>
+<tr class="memitem:a54bbeffd544aa1baf01170f9c9b3bcc5 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54bbeffd544aa1baf01170f9c9b3bcc5">initialize</a> (propagator_state_t &amp;state, const BoundParameters &amp;start, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *target) const</td></tr>
+<tr class="memdesc:a54bbeffd544aa1baf01170f9c9b3bcc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the propagator state.  <br /></td></tr>
+<tr class="memitem:aa820f7cd3eed38a222d27ba38fcbaa5c" id="r_aa820f7cd3eed38a222d27ba38fcbaa5c"><td class="memTemplParams" colspan="2">template&lt;typename propagator_state_t&gt; </td></tr>
+<tr class="memitem:aa820f7cd3eed38a222d27ba38fcbaa5c template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#a6eff55af763f63c9a9294cdd30ae8b3a">ResultType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa820f7cd3eed38a222d27ba38fcbaa5c">makeResult</a> (propagator_state_t &amp;state, <a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt; result, bool createFinalParameters, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *target=nullptr) const</td></tr>
+<tr class="memdesc:aa820f7cd3eed38a222d27ba38fcbaa5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds the propagator result object.  <br /></td></tr>
+<tr class="memitem:a7df6e26e2bc0ee7e7700f4ce2c6e8b33" id="r_a7df6e26e2bc0ee7e7700f4ce2c6e8b33"><td class="memTemplParams" colspan="2">template&lt;typename propagator_options_t&gt; </td></tr>
+<tr class="memitem:a7df6e26e2bc0ee7e7700f4ce2c6e8b33 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a67d40bf13ed09419746329a9871cb1b3">State</a>&lt; propagator_options_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7df6e26e2bc0ee7e7700f4ce2c6e8b33">makeState</a> (const propagator_options_t &amp;options) const</td></tr>
+<tr class="memdesc:a7df6e26e2bc0ee7e7700f4ce2c6e8b33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds the propagator state object.  <br /></td></tr>
 <tr class="memitem:af52efc0021345ba9a4f3e778cd0f222b" id="r_af52efc0021345ba9a4f3e778cd0f222b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#a093685d05bccdf473c4c7af3ae5e9cef">Navigator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af52efc0021345ba9a4f3e778cd0f222b">navigator</a> () const</td></tr>
 <tr class="memdesc:af52efc0021345ba9a4f3e778cd0f222b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access to the navigator instance.  <br /></td></tr>
-<tr class="memitem:acee6f6ec0dd0a4681344137183f31750" id="r_acee6f6ec0dd0a4681344137183f31750"><td class="memTemplParams" colspan="2">template&lt;typename propagator_options_t, typename path_aborter_t = PathLimitReached&gt; </td></tr>
-<tr class="memitem:acee6f6ec0dd0a4681344137183f31750 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#a686765024e1405427bc7bf73be8fb8e8">ResultType</a>&lt; propagator_options_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acee6f6ec0dd0a4681344137183f31750">propagate</a> (const BoundParameters &amp;start, const propagator_options_t &amp;options, bool createFinalParameters=true) const</td></tr>
-<tr class="memdesc:acee6f6ec0dd0a4681344137183f31750"><td class="mdescLeft">&#160;</td><td class="mdescRight">Propagate track parameters.  <br /></td></tr>
-<tr class="memitem:a221bce821032675eba1e92a9f0b4f46a" id="r_a221bce821032675eba1e92a9f0b4f46a"><td class="memTemplParams" colspan="2">template&lt;typename propagator_options_t, typename target_aborter_t = SurfaceReached, typename path_aborter_t = PathLimitReached&gt; </td></tr>
-<tr class="memitem:a221bce821032675eba1e92a9f0b4f46a template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#a686765024e1405427bc7bf73be8fb8e8">ResultType</a>&lt; propagator_options_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a221bce821032675eba1e92a9f0b4f46a">propagate</a> (const BoundParameters &amp;start, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;target, const propagator_options_t &amp;options) const</td></tr>
-<tr class="memdesc:a221bce821032675eba1e92a9f0b4f46a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Propagate track parameters - User method.  <br /></td></tr>
+<tr class="memitem:a37abd767b7a42aa4e1dd82f3ac296c17" id="r_a37abd767b7a42aa4e1dd82f3ac296c17"><td class="memTemplParams" colspan="2">template&lt;typename propagator_options_t&gt; </td></tr>
+<tr class="memitem:a37abd767b7a42aa4e1dd82f3ac296c17 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#a6eff55af763f63c9a9294cdd30ae8b3a">ResultType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37abd767b7a42aa4e1dd82f3ac296c17">propagate</a> (const BoundParameters &amp;start, const propagator_options_t &amp;options, bool createFinalParameters=true) const</td></tr>
+<tr class="memdesc:a37abd767b7a42aa4e1dd82f3ac296c17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Propagate track parameters.  <br /></td></tr>
+<tr class="memitem:a90e9b1528ca350c3b26a2295ee9c231d" id="r_a90e9b1528ca350c3b26a2295ee9c231d"><td class="memTemplParams" colspan="2">template&lt;typename propagator_options_t&gt; </td></tr>
+<tr class="memitem:a90e9b1528ca350c3b26a2295ee9c231d template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#a6eff55af763f63c9a9294cdd30ae8b3a">ResultType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90e9b1528ca350c3b26a2295ee9c231d">propagate</a> (const BoundParameters &amp;start, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;target, const propagator_options_t &amp;options) const</td></tr>
+<tr class="memdesc:a90e9b1528ca350c3b26a2295ee9c231d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Propagate track parameters to a target surface.  <br /></td></tr>
 <tr class="memitem:a72fa22f3c2b146e2e9b5fe0dfe103c5d" id="r_a72fa22f3c2b146e2e9b5fe0dfe103c5d"><td class="memTemplParams" colspan="2">template&lt;typename propagator_state_t&gt; </td></tr>
 <tr class="memitem:a72fa22f3c2b146e2e9b5fe0dfe103c5d template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72fa22f3c2b146e2e9b5fe0dfe103c5d">propagate</a> (propagator_state_t &amp;state) const</td></tr>
-<tr class="memdesc:a72fa22f3c2b146e2e9b5fe0dfe103c5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Propagate track parameters.  <br /></td></tr>
+<tr class="memdesc:a72fa22f3c2b146e2e9b5fe0dfe103c5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run the propagation on an initialized state.  <br /></td></tr>
+<tr class="memitem:a0aba58397e5ed586307b5e2a9f9c2419" id="r_a0aba58397e5ed586307b5e2a9f9c2419"><td class="memTemplParams" colspan="2">template&lt;typename propagator_state_t&gt; </td></tr>
+<tr class="memitem:a0aba58397e5ed586307b5e2a9f9c2419 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#a6eff55af763f63c9a9294cdd30ae8b3a">ResultType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0aba58397e5ed586307b5e2a9f9c2419">propagate</a> (propagator_state_t &amp;state, const BoundParameters &amp;start, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *target=nullptr, bool createFinalParameters=true) const</td></tr>
+<tr class="memdesc:a0aba58397e5ed586307b5e2a9f9c2419"><td class="mdescLeft">&#160;</td><td class="mdescRight">Propagate track parameters with a propagator state of the caller.  <br /></td></tr>
 <tr class="memitem:a9427eba3b3ee9dbc1ac2bd32b60cb682" id="r_a9427eba3b3ee9dbc1ac2bd32b60cb682"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#a77307ca297a7f0bfb937ced168a43aab">Stepper</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9427eba3b3ee9dbc1ac2bd32b60cb682">stepper</a> () const</td></tr>
 <tr class="memdesc:a9427eba3b3ee9dbc1ac2bd32b60cb682"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access to the stepper instance.  <br /></td></tr>
 </table>
@@ -202,8 +206,8 @@ Public Member Functions</h2></td></tr>
 <div class="textblock"><div class="compoundTemplParams">template&lt;StepperConcept stepper_t, NavigatorConcept navigator_t = VoidNavigator&gt;<br />
 class Acts::Propagator&lt; stepper_t, navigator_t &gt;</div><p>Propagator for particles (optionally in a magnetic field). </p>
 <p>The Propagator works with a state objects given at function call This state object contains the thread local state objects</p><ul>
-<li>Navigator::state_type for object navigation and screen output</li>
-<li>Stepper::state_type state for the actual transport caching (pos,dir,field)</li>
+<li>Navigator::State for object navigation and screen output</li>
+<li>Stepper::State state for the actual transport caching (pos,dir,field)</li>
 </ul>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
@@ -221,71 +225,25 @@ class Acts::Propagator&lt; stepper_t, navigator_t &gt;</div><p>Propagator for pa
 <li>a type mapping for: (initial track parameter type and destination surface type) -&gt; type of internal state object </li>
 </ul>
 </div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a1ec8b7354939f29b3d28ec77eb492dff" name="a1ec8b7354939f29b3d28ec77eb492dff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ec8b7354939f29b3d28ec77eb492dff">&#9670;&#160;</a></span>Options</h2>
+<a id="a67d40bf13ed09419746329a9871cb1b3" name="a67d40bf13ed09419746329a9871cb1b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67d40bf13ed09419746329a9871cb1b3">&#9670;&#160;</a></span>State</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;StepperConcept stepper_t, NavigatorConcept navigator_t = VoidNavigator&gt; </div>
 <div class="memtemplate">
-template&lt;typename actor_list_t = ActorList&lt;&gt;&gt; </div>
+template&lt;typename propagator_options_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_propagator.html">Acts::Propagator</a>&lt; stepper_t, navigator_t &gt;::Options</td>
+          <td class="memname">using <a class="el" href="class_acts_1_1_propagator.html">Acts::Propagator</a>&lt; stepper_t, navigator_t &gt;::State</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
-<div class="line">      <a class="code hl_struct" href="struct_acts_1_1_propagator_options.html">PropagatorOptions&lt;StepperOptions, NavigatorOptions, actor_list_t&gt;</a></div>
-<div class="ttc" id="astruct_acts_1_1_propagator_options_html"><div class="ttname"><a href="struct_acts_1_1_propagator_options.html">Acts::PropagatorOptions</a></div><div class="ttdoc">Options for propagate() call.</div><div class="ttdef"><b>Definition</b> PropagatorOptions.hpp:97</div></div>
+<div class="line">      <a class="code hl_struct" href="struct_acts_1_1_propagator_state.html">PropagatorState&lt;propagator_options_t, StepperState, NavigatorState&gt;</a></div>
+<div class="ttc" id="astruct_acts_1_1_propagator_state_html"><div class="ttname"><a href="struct_acts_1_1_propagator_state.html">Acts::PropagatorState</a></div><div class="ttdoc">private Propagator state for navigation and debugging</div><div class="ttdef"><b>Definition</b> PropagatorState.hpp:36</div></div>
 </div><!-- fragment -->
-<p>Type of the propagator options with actor list. </p>
-
-</div>
-</div>
-<a id="a686765024e1405427bc7bf73be8fb8e8" name="a686765024e1405427bc7bf73be8fb8e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a686765024e1405427bc7bf73be8fb8e8">&#9670;&#160;</a></span>ResultType</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;StepperConcept stepper_t, NavigatorConcept navigator_t = VoidNavigator&gt; </div>
-<div class="memtemplate">
-template&lt;typename propagator_options_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_propagator.html">Acts::Propagator</a>&lt; stepper_t, navigator_t &gt;::ResultType = typename result_type_helper&lt;propagator_options_t&gt;<a class="el" href="struct_acts_1_1_remove_pointer.html">::type</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type of the propagation result derived from the propagator options. </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">propagator_options_t</td><td>Type of the propagator options </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="aac0344965463ff99e95818465ad713d2" name="aac0344965463ff99e95818465ad713d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac0344965463ff99e95818465ad713d2">&#9670;&#160;</a></span>State</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;StepperConcept stepper_t, NavigatorConcept navigator_t = VoidNavigator&gt; </div>
-<div class="memtemplate">
-template&lt;typename propagator_options_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_propagator.html">Acts::Propagator</a>&lt; stepper_t, navigator_t &gt;::State = typename state_type_helper&lt;propagator_options_t&gt;<a class="el" href="struct_acts_1_1_remove_pointer.html">::type</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
 <p>Type of the propagation state derived from the propagator options. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
@@ -344,15 +302,15 @@ template&lt;StepperConcept stepper_t, NavigatorConcept navigator_t = VoidNavigat
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="abfeb709c848344ca0c8054fb963b2d7c" name="abfeb709c848344ca0c8054fb963b2d7c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abfeb709c848344ca0c8054fb963b2d7c">&#9670;&#160;</a></span>initialize()</h2>
+<a id="a54bbeffd544aa1baf01170f9c9b3bcc5" name="a54bbeffd544aa1baf01170f9c9b3bcc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54bbeffd544aa1baf01170f9c9b3bcc5">&#9670;&#160;</a></span>initialize()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;StepperConcept stepper_t, NavigatorConcept navigator_t = VoidNavigator&gt; </div>
 <div class="memtemplate">
-template&lt;typename propagator_state_t, typename target_aborter_t = NoTargetAborter, typename path_aborter_t = PathLimitReached&gt; </div>
+template&lt;typename propagator_state_t&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -381,12 +339,10 @@ template&lt;typename propagator_state_t, typename target_aborter_t = NoTargetAbo
 </div><div class="memdoc">
 
 <p>Initialize the propagator state. </p>
-<p>This function initializes the propagator state for a new propagation. The target surface is passed here so it reaches both the navigator and the target aborter.</p>
+<p>This function initializes the propagator state for a new propagation. The target surface goes to the navigator, which steers to it. The step count, the path length and the statistics start from zero, so a state can be reused. The actor state is left to the caller.</p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">propagator_state_t</td><td>Type of the propagator state object </td></tr>
-    <tr><td class="paramname">target_aborter_t</td><td>The target aborter type the state was built with, or <code>NoTargetAborter</code> if there is none </td></tr>
-    <tr><td class="paramname">path_aborter_t</td><td>The path aborter type to be added</td></tr>
+    <tr><td class="paramname">propagator_state_t</td><td>Type of the propagator state object</td></tr>
   </table>
   </dd>
 </dl>
@@ -402,30 +358,25 @@ template&lt;typename propagator_state_t, typename target_aborter_t = NoTargetAbo
 
 </div>
 </div>
-<a id="afebee49d50be2e87f7d81cc834069bf6" name="afebee49d50be2e87f7d81cc834069bf6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afebee49d50be2e87f7d81cc834069bf6">&#9670;&#160;</a></span>makeResult()</h2>
+<a id="aa820f7cd3eed38a222d27ba38fcbaa5c" name="aa820f7cd3eed38a222d27ba38fcbaa5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa820f7cd3eed38a222d27ba38fcbaa5c">&#9670;&#160;</a></span>makeResult()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;StepperConcept stepper_t, NavigatorConcept navigator_t = VoidNavigator&gt; </div>
 <div class="memtemplate">
-template&lt;typename propagator_state_t, typename propagator_options_t&gt; </div>
+template&lt;typename propagator_state_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#a686765024e1405427bc7bf73be8fb8e8">ResultType</a>&lt; propagator_options_t &gt; &gt; <a class="el" href="class_acts_1_1_propagator.html">Acts::Propagator</a>&lt; stepper_t, navigator_t &gt;::makeResult </td>
+          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#a6eff55af763f63c9a9294cdd30ae8b3a">ResultType</a> &gt; <a class="el" href="class_acts_1_1_propagator.html">Acts::Propagator</a>&lt; stepper_t, navigator_t &gt;::makeResult </td>
           <td>(</td>
-          <td class="paramtype">propagator_state_t</td>          <td class="paramname"><span class="paramname"><em>state</em></span>, </td>
+          <td class="paramtype">propagator_state_t &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt;</td>          <td class="paramname"><span class="paramname"><em>result</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const propagator_options_t &amp;</td>          <td class="paramname"><span class="paramname"><em>options</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -441,21 +392,20 @@ template&lt;typename propagator_state_t, typename propagator_options_t&gt; </div
 </div><div class="memdoc">
 
 <p>Builds the propagator result object. </p>
-<p>This function creates the propagator result object from the propagator state object. The <span class="tt">result</span> is passed to pipe a potential error from the propagation call. The <span class="tt">options</span> are used to determine the type of the result object. The <span class="tt">createFinalParameters</span> flag is used to determine if the result should contain final track parameters.</p>
+<p>This function creates the propagator result object from the propagator state object. The <span class="tt">result</span> is passed to pipe a potential error from the propagation call. The <span class="tt">createFinalParameters</span> flag is used to determine if the result should contain final track parameters.</p>
+<p>The actor state stays in <code class="param">state</code>.</p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">propagator_state_t</td><td>Type of the propagator state object </td></tr>
-    <tr><td class="paramname">propagator_options_t</td><td>Type of the propagator options</td></tr>
+    <tr><td class="paramname">propagator_state_t</td><td>Type of the propagator state object</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">state</td><td>Propagator state object </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">state</td><td>Propagator state object </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">result</td><td>Result of the propagation </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">options</td><td>Propagation options </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">createFinalParameters</td><td>Whether to produce parameters at the end of the propagation </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">target</td><td>Surface to be used for the final parameters, if createFinalParameters is true If nullptr, the current surface of the navigator will be used</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">target</td><td>Surface the propagation must have reached, also used for the final parameters. If nullptr, the final parameters are on the current surface of the navigator, if any.</td></tr>
   </table>
   </dd>
 </dl>
@@ -463,18 +413,18 @@ template&lt;typename propagator_state_t, typename propagator_options_t&gt; </div
 
 </div>
 </div>
-<a id="a607aa266ebd3792cd5509267a1091857" name="a607aa266ebd3792cd5509267a1091857"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a607aa266ebd3792cd5509267a1091857">&#9670;&#160;</a></span>makeState()</h2>
+<a id="a7df6e26e2bc0ee7e7700f4ce2c6e8b33" name="a7df6e26e2bc0ee7e7700f4ce2c6e8b33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7df6e26e2bc0ee7e7700f4ce2c6e8b33">&#9670;&#160;</a></span>makeState()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;StepperConcept stepper_t, NavigatorConcept navigator_t = VoidNavigator&gt; </div>
 <div class="memtemplate">
-template&lt;typename propagator_options_t, typename target_aborter_t = NoTargetAborter, typename path_aborter_t = PathLimitReached&gt; </div>
+template&lt;typename propagator_options_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">auto <a class="el" href="class_acts_1_1_propagator.html">Acts::Propagator</a>&lt; stepper_t, navigator_t &gt;::makeState </td>
+          <td class="memname"><a class="el" href="#a67d40bf13ed09419746329a9871cb1b3">State</a>&lt; propagator_options_t &gt; <a class="el" href="class_acts_1_1_propagator.html">Acts::Propagator</a>&lt; stepper_t, navigator_t &gt;::makeState </td>
           <td>(</td>
           <td class="paramtype">const propagator_options_t &amp;</td>          <td class="paramname"><span class="paramname"><em>options</em></span></td><td>)</td>
           <td> const</td>
@@ -483,12 +433,9 @@ template&lt;typename propagator_options_t, typename target_aborter_t = NoTargetA
 </div><div class="memdoc">
 
 <p>Builds the propagator state object. </p>
-<p>This function creates the propagator state object from the propagation options. Only the aborter types are needed here since they determine the state type; the target surface itself is handed to <code>initialize</code>.</p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">propagator_options_t</td><td>Type of the propagator options </td></tr>
-    <tr><td class="paramname">target_aborter_t</td><td>The target aborter type to be added, or <code>NoTargetAborter</code> if the propagation has no target surface </td></tr>
-    <tr><td class="paramname">path_aborter_t</td><td>The path aborter type to be added</td></tr>
+    <tr><td class="paramname">propagator_options_t</td><td>Type of the propagator options</td></tr>
   </table>
   </dd>
 </dl>
@@ -524,18 +471,18 @@ template&lt;StepperConcept stepper_t, NavigatorConcept navigator_t = VoidNavigat
 
 </div>
 </div>
-<a id="acee6f6ec0dd0a4681344137183f31750" name="acee6f6ec0dd0a4681344137183f31750"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acee6f6ec0dd0a4681344137183f31750">&#9670;&#160;</a></span>propagate() <span class="overload">[1/3]</span></h2>
+<a id="a37abd767b7a42aa4e1dd82f3ac296c17" name="a37abd767b7a42aa4e1dd82f3ac296c17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37abd767b7a42aa4e1dd82f3ac296c17">&#9670;&#160;</a></span>propagate() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;StepperConcept stepper_t, NavigatorConcept navigator_t = VoidNavigator&gt; </div>
 <div class="memtemplate">
-template&lt;typename propagator_options_t, typename path_aborter_t = PathLimitReached&gt; </div>
+template&lt;typename propagator_options_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#a686765024e1405427bc7bf73be8fb8e8">ResultType</a>&lt; propagator_options_t &gt; &gt; <a class="el" href="class_acts_1_1_propagator.html">Acts::Propagator</a>&lt; stepper_t, navigator_t &gt;::propagate </td>
+          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#a6eff55af763f63c9a9294cdd30ae8b3a">ResultType</a> &gt; <a class="el" href="class_acts_1_1_propagator.html">Acts::Propagator</a>&lt; stepper_t, navigator_t &gt;::propagate </td>
           <td>(</td>
           <td class="paramtype">const BoundParameters &amp;</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
         </tr>
@@ -553,11 +500,10 @@ template&lt;typename propagator_options_t, typename path_aborter_t = PathLimitRe
 </div><div class="memdoc">
 
 <p>Propagate track parameters. </p>
-<p>This function performs the propagation of the track parameters using the internal stepper implementation, until at least one abort condition is fulfilled or the maximum number of steps/path length provided in the propagation options is reached.</p>
+<p>This function propagates the track parameters until the actor of the options aborts or the maximum number of steps is reached.</p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">propagator_options_t</td><td>Type of the propagator options </td></tr>
-    <tr><td class="paramname">path_aborter_t</td><td>The path aborter type to be added</td></tr>
+    <tr><td class="paramname">propagator_options_t</td><td>Type of the propagator options</td></tr>
   </table>
   </dd>
 </dl>
@@ -569,22 +515,22 @@ template&lt;typename propagator_options_t, typename path_aborter_t = PathLimitRe
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Propagation result containing the propagation status, final track parameters, and output of actions (if they produce any) </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Propagation result containing the propagation status and the final track parameters </dd></dl>
 
 </div>
 </div>
-<a id="a221bce821032675eba1e92a9f0b4f46a" name="a221bce821032675eba1e92a9f0b4f46a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a221bce821032675eba1e92a9f0b4f46a">&#9670;&#160;</a></span>propagate() <span class="overload">[2/3]</span></h2>
+<a id="a90e9b1528ca350c3b26a2295ee9c231d" name="a90e9b1528ca350c3b26a2295ee9c231d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90e9b1528ca350c3b26a2295ee9c231d">&#9670;&#160;</a></span>propagate() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;StepperConcept stepper_t, NavigatorConcept navigator_t = VoidNavigator&gt; </div>
 <div class="memtemplate">
-template&lt;typename propagator_options_t, typename target_aborter_t = SurfaceReached, typename path_aborter_t = PathLimitReached&gt; </div>
+template&lt;typename propagator_options_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#a686765024e1405427bc7bf73be8fb8e8">ResultType</a>&lt; propagator_options_t &gt; &gt; <a class="el" href="class_acts_1_1_propagator.html">Acts::Propagator</a>&lt; stepper_t, navigator_t &gt;::propagate </td>
+          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#a6eff55af763f63c9a9294cdd30ae8b3a">ResultType</a> &gt; <a class="el" href="class_acts_1_1_propagator.html">Acts::Propagator</a>&lt; stepper_t, navigator_t &gt;::propagate </td>
           <td>(</td>
           <td class="paramtype">const BoundParameters &amp;</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
         </tr>
@@ -601,13 +547,11 @@ template&lt;typename propagator_options_t, typename target_aborter_t = SurfaceRe
       </table>
 </div><div class="memdoc">
 
-<p>Propagate track parameters - User method. </p>
-<p>This function performs the propagation of the track parameters according to the internal implementation object until at least one abort condition is fulfilled, the destination surface is hit or the maximum number of steps/path length as given in the propagation options is reached.</p>
+<p>Propagate track parameters to a target surface. </p>
+<p>This function propagates the track parameters until the actor of the options aborts or the maximum number of steps is reached. The navigator steers to the target surface, and the <code>DefaultActor</code> stops there. An actor of your own must stop there itself.</p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">propagator_options_t</td><td>Type of the propagator options </td></tr>
-    <tr><td class="paramname">target_aborter_t</td><td>The target aborter type to be added </td></tr>
-    <tr><td class="paramname">path_aborter_t</td><td>The path aborter type to be added</td></tr>
+    <tr><td class="paramname">propagator_options_t</td><td>Type of the propagator options</td></tr>
   </table>
   </dd>
 </dl>
@@ -619,12 +563,12 @@ template&lt;typename propagator_options_t, typename target_aborter_t = SurfaceRe
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Propagation result containing the propagation status, final track parameters, and output of actions (if they produce any) </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Propagation result containing the propagation status and the final track parameters </dd></dl>
 
 </div>
 </div>
 <a id="a72fa22f3c2b146e2e9b5fe0dfe103c5d" name="a72fa22f3c2b146e2e9b5fe0dfe103c5d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a72fa22f3c2b146e2e9b5fe0dfe103c5d">&#9670;&#160;</a></span>propagate() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a72fa22f3c2b146e2e9b5fe0dfe103c5d">&#9670;&#160;</a></span>propagate() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -642,9 +586,8 @@ template&lt;typename propagator_state_t&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Propagate track parameters. </p>
-<p>This function performs the propagation of the track parameters according to the internal implementation object until at least one abort condition is fulfilled, the destination surface is hit or the maximum number of steps/path length as given in the propagation options is reached.</p>
-<dl class="section note"><dt>Note</dt><dd>Does not (yet) convert into the return_type of the propagation</dd></dl>
+<p>Run the propagation on an initialized state. </p>
+<p>This function runs the propagation until the actor aborts or the maximum number of steps is reached.</p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">propagator_state_t</td><td>Type of the propagator state with options</td></tr>
@@ -658,6 +601,60 @@ template&lt;typename propagator_state_t&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Propagation result </dd></dl>
+
+</div>
+</div>
+<a id="a0aba58397e5ed586307b5e2a9f9c2419" name="a0aba58397e5ed586307b5e2a9f9c2419"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0aba58397e5ed586307b5e2a9f9c2419">&#9670;&#160;</a></span>propagate() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;StepperConcept stepper_t, NavigatorConcept navigator_t = VoidNavigator&gt; </div>
+<div class="memtemplate">
+template&lt;typename propagator_state_t&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#a6eff55af763f63c9a9294cdd30ae8b3a">ResultType</a> &gt; <a class="el" href="class_acts_1_1_propagator.html">Acts::Propagator</a>&lt; stepper_t, navigator_t &gt;::propagate </td>
+          <td>(</td>
+          <td class="paramtype">propagator_state_t &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const BoundParameters &amp;</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *</td>          <td class="paramname"><span class="paramname"><em>target</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>createFinalParameters</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Propagate track parameters with a propagator state of the caller. </p>
+<p>This function initializes the state, runs the propagation and builds the result. The actor state stays in <code class="param">state</code>, so the caller can read it afterwards in <span class="tt">state.actor</span>.</p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">propagator_state_t</td><td>Type of the propagator state object</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">state</td><td>The propagator state object, from <code>makeState</code> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">start</td><td>Initial track parameters to propagate </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">target</td><td>Surface to propagate to, or nullptr if the propagation has no target surface </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">createFinalParameters</td><td>Whether to produce parameters at the end of the propagation</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Propagation result containing the propagation status and the final track parameters </dd></dl>
 
 </div>
 </div>

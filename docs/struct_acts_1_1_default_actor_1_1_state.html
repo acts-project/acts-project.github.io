@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ACTS: Acts::ActorHasAbortWithResult Concept Reference</title>
+<title>ACTS: Acts::DefaultActor::State Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -96,7 +96,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(function(){initNavTree('concept_acts_1_1_actor_has_abort_with_result.html','',''); });
+$(function(){initNavTree('struct_acts_1_1_default_actor_1_1_state.html','','struct_acts_1_1_default_actor_1_1_state-members'); });
 </script>
 <div id="container">
 <div id="doc-content">
@@ -122,30 +122,37 @@ $(function(){initNavTree('concept_acts_1_1_actor_has_abort_with_result.html','',
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">Acts::ActorHasAbortWithResult Concept Reference</div></div>
+  <div class="headertitle"><div class="title">Acts::DefaultActor::State Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<h2 id="header-conceptdef" class="groupheader">Concept definition</h2>
-<div class="fragment"><div class="line"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> actor_t, <span class="keyword">typename</span> propagator_state_t, <span class="keyword">typename</span> stepper_t, <span class="keyword">typename</span> navigator_t, <span class="keyword">typename</span>... Args&gt;</div>
-<div class="line"><span class="keyword">concept </span><a class="code hl_concept" href="concept_acts_1_1_actor_has_abort_with_result.html">Acts::ActorHasAbortWithResult</a> = </div>
-<div class="line">    <a class="code hl_concept" href="concept_acts_1_1_actor_has_result.html">ActorHasResult&lt;actor_t&gt;</a> &amp;&amp;</div>
-<div class="line">    <span class="keyword">requires</span>(<span class="keyword">const</span> actor_t&amp; a, propagator_state_t&amp; state,</div>
-<div class="line">             <span class="keyword">const</span> stepper_t&amp; stepper, <span class="keyword">const</span> navigator_t&amp; navigator,</div>
-<div class="line">             <span class="keyword">typename</span> actor_t::result_type&amp; result, Args&amp;&amp;... args) {</div>
-<div class="line">      {</div>
-<div class="line">        a.checkAbort(state, stepper, navigator, result,</div>
-<div class="line">                     std::forward&lt;Args&gt;(args)...)</div>
-<div class="line">      } -&gt; std::same_as&lt;bool&gt;;</div>
-<div class="line">    }</div>
-<div class="ttc" id="aconcept_acts_1_1_actor_has_abort_with_result_html"><div class="ttname"><a href="concept_acts_1_1_actor_has_abort_with_result.html">Acts::ActorHasAbortWithResult</a></div><div class="ttdef"><b>Definition</b> ActorConcepts.hpp:92</div></div>
-<div class="ttc" id="aconcept_acts_1_1_actor_has_result_html"><div class="ttname"><a href="concept_acts_1_1_actor_has_result.html">Acts::ActorHasResult</a></div><div class="ttdef"><b>Definition</b> ActorConcepts.hpp:20</div></div>
-</div><!-- fragment --></div><!-- contents -->
+
+<p>State of the actor.  
+ <a href="#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_default_actor_8hpp_source.html">Acts/Propagator/DefaultActor.hpp</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a5cfc3d89418dde23dce67b039798c804" id="r_a5cfc3d89418dde23dce67b039798c804"><td class="memItemLeft" align="right" valign="top"><a id="a5cfc3d89418dde23dce67b039798c804" name="a5cfc3d89418dde23dce67b039798c804"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>pathLimit</b> = std::numeric_limits&lt;double&gt;::max()</td></tr>
+<tr class="memdesc:a5cfc3d89418dde23dce67b039798c804"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signed path limit, set at the start of the propagation. <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>State of the actor. </p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
 </div><!-- container -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="namespace_acts.html">Acts</a></li><li class="navelem"><a href="concept_acts_1_1_actor_has_abort_with_result.html">ActorHasAbortWithResult</a></li>
+    <li class="navelem"><a href="namespace_acts.html">Acts</a></li><li class="navelem"><a href="struct_acts_1_1_default_actor.html">DefaultActor</a></li><li class="navelem"><a href="struct_acts_1_1_default_actor_1_1_state.html">State</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

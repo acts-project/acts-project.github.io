@@ -2,9 +2,8 @@ var hierarchy =
 [
     [ "Acts::AccumulatedMaterialSlab", "class_acts_1_1_accumulated_material_slab.html", null ],
     [ "Acts::AccumulatedSurfaceMaterial", "class_acts_1_1_accumulated_surface_material.html", null ],
-    [ "Acts::ActorHasResultStruct&lt; actor_t &gt;", "struct_acts_1_1_actor_has_result_struct.html", null ],
+    [ "Acts::ActorHasStateStruct&lt; actor_t &gt;", "struct_acts_1_1_actor_has_state_struct.html", null ],
     [ "Acts::ActorList&lt; actors_t &gt;", "struct_acts_1_1_actor_list.html", null ],
-    [ "Acts::ActorResultTypeExtractor&lt; T &gt;", "struct_acts_1_1_actor_result_type_extractor.html", null ],
     [ "Acts::AdaptiveGridDensityVertexFinder::Config", "struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_config.html", null ],
     [ "Acts::AdaptiveGridDensityVertexFinder::State", "struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_state.html", null ],
     [ "Acts::AdaptiveGridTrackDensity", "class_acts_1_1_adaptive_grid_track_density.html", null ],
@@ -36,7 +35,6 @@ var hierarchy =
     ] ],
     [ "Acts::AnyGridConstView&lt; T &gt;", "class_acts_1_1_any_grid_const_view.html", null ],
     [ "Acts::AnyGridView&lt; T &gt;", "class_acts_1_1_any_grid_view.html", null ],
-    [ "Acts::AnySurfaceReached", "struct_acts_1_1_any_surface_reached.html", null ],
     [ "Acts::AnyTrack&lt; read_only &gt;", "class_acts_1_1_any_track.html", null ],
     [ "Acts::AppendOnlyNavigationStream", "class_acts_1_1_append_only_navigation_stream.html", null ],
     [ "Acts::ApproachDescriptor", "class_acts_1_1_approach_descriptor.html", [
@@ -137,6 +135,8 @@ var hierarchy =
     [ "Acts::CylinderVolumeHelper::Config", "struct_acts_1_1_cylinder_volume_helper_1_1_config.html", null ],
     [ "Acts::CylindricalSpacePointGrid::Config", "struct_acts_1_1_cylindrical_space_point_grid_1_1_config.html", null ],
     [ "Acts::DBScan&lt; kDims, scalar_t, kLeafSize &gt;", "class_acts_1_1_d_b_scan.html", null ],
+    [ "Acts::DefaultActor", "struct_acts_1_1_default_actor.html", null ],
+    [ "Acts::DefaultActor::State", "struct_acts_1_1_default_actor_1_1_state.html", null ],
     [ "Acts::Delegate&lt; typename, H, DelegateType &gt;", "class_acts_1_1_delegate.html", null ],
     [ "Acts::Delegate&lt; R(Args...), H, DelegateType::Owning &gt;", "class_acts_1_1_delegate.html", [
       [ "Acts::OwningDelegate< R(Args...), H >", "class_acts_1_1_owning_delegate_3_01_r_07_args_8_8_8_08_00_01_h_01_4.html", null ]
@@ -166,8 +166,8 @@ var hierarchy =
       ] ]
     ] ],
     [ "Acts::detail::PurePropagatorPlainOptions", null, [
-      [ "Acts::PropagatorOptions< StepperOptions, NavigatorOptions, actor_list_t >", "struct_acts_1_1_propagator_options.html", null ],
-      [ "Acts::PropagatorOptions< stepper_options_t, navigator_options_t, actor_list_t >", "struct_acts_1_1_propagator_options.html", null ],
+      [ "Acts::PropagatorOptions< StepperOptions, NavigatorOptions, actor_t >", "struct_acts_1_1_propagator_options.html", null ],
+      [ "Acts::PropagatorOptions< stepper_options_t, navigator_options_t, actor_t >", "struct_acts_1_1_propagator_options.html", null ],
       [ "Acts::PropagatorPlainOptions", "struct_acts_1_1_propagator_plain_options.html", null ]
     ] ],
     [ "Acts::detail::SpacePointGridBase", null, [
@@ -210,7 +210,6 @@ var hierarchy =
     [ "Acts::EigenStepperDenseExtension", "struct_acts_1_1_eigen_stepper_dense_extension.html", null ],
     [ "Acts::ElementFraction", "class_acts_1_1_element_fraction.html", null ],
     [ "Acts::ElementLayerAssembler&lt; BackendT &gt;", "class_acts_1_1_element_layer_assembler.html", null ],
-    [ "Acts::EndOfWorldReached", "struct_acts_1_1_end_of_world_reached.html", null ],
     [ "Acts::EstimateTrackParamCovarianceConfig", "struct_acts_1_1_estimate_track_param_covariance_config.html", null ],
     [ "Acts::EventDataView3D", "struct_acts_1_1_event_data_view3_d.html", null ],
     [ "Acts::Experimental::BarrelEndcapAssembler&lt; BackendT &gt;", "class_acts_1_1_experimental_1_1_barrel_endcap_assembler.html", null ],
@@ -677,7 +676,7 @@ var hierarchy =
     [ "Acts::NavigatorStatistics", "struct_acts_1_1_navigator_statistics.html", null ],
     [ "Acts::NeighborHoodIndices", "class_acts_1_1_neighbor_hood_indices.html", null ],
     [ "Acts::NeighborHoodIndices::iterator", "class_acts_1_1_neighbor_hood_indices_1_1iterator.html", null ],
-    [ "Acts::NoTargetAborter", "struct_acts_1_1_no_target_aborter.html", null ],
+    [ "Acts::NoActorState", "struct_acts_1_1_no_actor_state.html", null ],
     [ "Acts::NullBField::Cache", "struct_acts_1_1_null_b_field_1_1_cache.html", null ],
     [ "Acts::NumericalTrackLinearizer", "class_acts_1_1_numerical_track_linearizer.html", null ],
     [ "Acts::NumericalTrackLinearizer::Config", "struct_acts_1_1_numerical_track_linearizer_1_1_config.html", null ],
@@ -689,7 +688,6 @@ var hierarchy =
     [ "Acts::ParticleData", "struct_acts_1_1_particle_data.html", null ],
     [ "Acts::ParticleHypothesis", "class_acts_1_1_particle_hypothesis.html", null ],
     [ "Acts::PassiveLayerBuilder::Config", "struct_acts_1_1_passive_layer_builder_1_1_config.html", null ],
-    [ "Acts::PathLimitReached", "struct_acts_1_1_path_limit_reached.html", null ],
     [ "Acts::Polyhedron", "struct_acts_1_1_polyhedron.html", null ],
     [ "Acts::PolynomialBetheHeitlerApprox::PolyData", "struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_poly_data.html", null ],
     [ "Acts::PolynomialBetheHeitlerApprox::RangeData", "struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html", null ],
@@ -719,6 +717,8 @@ var hierarchy =
         [ "Acts::SingleTrapezoidPortalShell", "class_acts_1_1_single_trapezoid_portal_shell.html", null ]
       ] ]
     ] ],
+    [ "Acts::PropagatorResult&lt; parameters_t &gt;", "struct_acts_1_1_propagator_result.html", null ],
+    [ "Acts::PropagatorState&lt; propagator_options_t, stepper_state_t, navigator_state_t &gt;", "struct_acts_1_1_propagator_state.html", null ],
     [ "Acts::PropagatorStatistics", "struct_acts_1_1_propagator_statistics.html", null ],
     [ "Acts::ProtoAxis", "class_acts_1_1_proto_axis.html", [
       [ "Acts::DirectedProtoAxis", "struct_acts_1_1_directed_proto_axis.html", null ]
@@ -823,7 +823,6 @@ var hierarchy =
         [ "ActsPlugins::DD4hepDetectorElement", "class_acts_plugins_1_1_d_d4hep_detector_element.html", null ]
       ] ]
     ] ],
-    [ "Acts::SurfaceReached", "struct_acts_1_1_surface_reached.html", null ],
     [ "Acts::SurfaceSelector", "struct_acts_1_1_surface_selector.html", null ],
     [ "Acts::SympyStepper", "class_acts_1_1_sympy_stepper.html", null ],
     [ "Acts::SympyStepper::Config", "struct_acts_1_1_sympy_stepper_1_1_config.html", null ],
@@ -958,7 +957,6 @@ var hierarchy =
       [ "Acts::TrapezoidVolumeBounds", "class_acts_1_1_trapezoid_volume_bounds.html", null ]
     ] ],
     [ "Acts::VolumeConfig", "struct_acts_1_1_volume_config.html", null ],
-    [ "Acts::VolumeConstraintAborter", "struct_acts_1_1_volume_constraint_aborter.html", null ],
     [ "Acts::VolumePlacementBase", "class_acts_1_1_volume_placement_base.html", null ],
     [ "Acts::VolumeStack::ResizeStrategies", "struct_acts_1_1_volume_stack_1_1_resize_strategies.html", null ],
     [ "Acts::WrappingConfig", "struct_acts_1_1_wrapping_config.html", null ],
@@ -1167,12 +1165,6 @@ var hierarchy =
       [ "Acts::CalibrationContext", "class_acts_1_1_calibration_context.html", null ],
       [ "Acts::GeometryContext", "class_acts_1_1_geometry_context.html", null ],
       [ "Acts::MagneticFieldContext", "class_acts_1_1_magnetic_field_context.html", null ]
-    ] ],
-    [ "detail::Extendable", null, [
-      [ "Acts::PropagatorResult< BoundParameters, args... >", "struct_acts_1_1_propagator_result.html", null ],
-      [ "Acts::PropagatorState< propagator_options_t, typename stepper_t::State, typename navigator_t::State, args... >", "struct_acts_1_1_propagator_state.html", null ],
-      [ "Acts::PropagatorResult< parameters_t, result_list >", "struct_acts_1_1_propagator_result.html", null ],
-      [ "Acts::PropagatorState< propagator_options_t, stepper_state_t, navigator_state_t, extension_state_t >", "struct_acts_1_1_propagator_state.html", null ]
     ] ],
     [ "detail::grid_reader", null, [
       [ "detray::io::surface_grid_reader< detector_t, CAP, DIM >", "classdetray_1_1io_1_1surface__grid__reader.html", null ]

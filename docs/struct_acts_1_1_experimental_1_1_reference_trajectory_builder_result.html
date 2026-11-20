@@ -130,11 +130,6 @@ $(function(){initNavTree('struct_acts_1_1_experimental_1_1_reference_trajectory_
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_reference_trajectory_builder_8hpp_source.html">Acts/TrackFitting/ReferenceTrajectoryBuilder.hpp</a>&gt;</code></p>
-<div class="dynheader">
-Collaboration diagram for Acts::Experimental::ReferenceTrajectoryBuilderResult&lt; traj_t &gt;:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="struct_acts_1_1_experimental_1_1_reference_trajectory_builder_result__coll__graph.svg" width="240" height="174"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -144,9 +139,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>finished</b> = false<
 <tr class="memitem:a80ce916971f29d5acfe1ecfa6e77a593" id="r_a80ce916971f29d5acfe1ecfa6e77a593"><td class="memItemLeft" align="right" valign="top"><a id="a80ce916971f29d5acfe1ecfa6e77a593" name="a80ce916971f29d5acfe1ecfa6e77a593"></a>
 std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>lastTrackStateIndex</b> = <a class="el" href="namespace_acts.html#a589e3f01b082df3de46c2a6f5e6ce749">kTrackIndexInvalid</a></td></tr>
 <tr class="memdesc:a80ce916971f29d5acfe1ecfa6e77a593"><td class="mdescLeft">&#160;</td><td class="mdescRight">The index of the last track state added to the trajectory. <br /></td></tr>
-<tr class="memitem:ae7e84851c2fdaa24a529f2d2f6a6060f" id="r_ae7e84851c2fdaa24a529f2d2f6a6060f"><td class="memItemLeft" align="right" valign="top"><a id="ae7e84851c2fdaa24a529f2d2f6a6060f" name="ae7e84851c2fdaa24a529f2d2f6a6060f"></a>
-<a class="el" href="struct_acts_1_1_path_limit_reached.html">PathLimitReached</a>&#160;</td><td class="memItemRight" valign="bottom"><b>pathLimitReached</b></td></tr>
-<tr class="memdesc:ae7e84851c2fdaa24a529f2d2f6a6060f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Path limit aborter. <br /></td></tr>
+<tr class="memitem:ac5e208973fca515f64df5d3305e950be" id="r_ac5e208973fca515f64df5d3305e950be"><td class="memItemLeft" align="right" valign="top"><a id="ac5e208973fca515f64df5d3305e950be" name="ac5e208973fca515f64df5d3305e950be"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>pathLimit</b> = std::numeric_limits&lt;double&gt;::max()</td></tr>
+<tr class="memdesc:ac5e208973fca515f64df5d3305e950be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signed path limit of the loop protection. <br /></td></tr>
 <tr class="memitem:a82050db2c627209552fd5387229a43a7" id="r_a82050db2c627209552fd5387229a43a7"><td class="memItemLeft" align="right" valign="top"><a id="a82050db2c627209552fd5387229a43a7" name="a82050db2c627209552fd5387229a43a7"></a>
 std::optional&lt; <a class="el" href="class_acts_1_1_bound_track_parameters.html">BoundTrackParameters</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>referenceParameters</b></td></tr>
 <tr class="memdesc:a82050db2c627209552fd5387229a43a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The track parameters at the target surface if the target surface is reached. <br /></td></tr>

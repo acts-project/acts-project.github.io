@@ -51,7 +51,7 @@ var group__track__finding =
       [ "collectedTracks", "struct_acts_1_1_combinatorial_kalman_filter_result.html#a18226eea5e75b89fa8e907f67916e4e0", null ],
       [ "finished", "struct_acts_1_1_combinatorial_kalman_filter_result.html#ad2700e631c01f620f6f9a3cc918cbf8e", null ],
       [ "pathLengthOffset", "struct_acts_1_1_combinatorial_kalman_filter_result.html#a8f56c400c28364d75fa408b2c237a888", null ],
-      [ "pathLimitReached", "struct_acts_1_1_combinatorial_kalman_filter_result.html#a00c98956d536de14d80156261a8b990b", null ],
+      [ "pathLimit", "struct_acts_1_1_combinatorial_kalman_filter_result.html#a202c4b7027702dfc2e1d274b9823da6d", null ],
       [ "tracks", "struct_acts_1_1_combinatorial_kalman_filter_result.html#ac873f603dc57e07b43867ce2ef66e203", null ],
       [ "trackStateCandidates", "struct_acts_1_1_combinatorial_kalman_filter_result.html#a55dca6d2484c5e8af3b48996fdb51a51", null ],
       [ "trackStates", "struct_acts_1_1_combinatorial_kalman_filter_result.html#a28bd3d27b349ab3e0cace0a90eb2d306", null ]

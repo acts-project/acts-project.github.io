@@ -137,15 +137,16 @@ $(function(){initNavTree('concept_acts_1_1_actor_has_old_void_interface.html',''
 <div class="line">      } -&gt; std::same_as&lt;void&gt;;</div>
 <div class="line">    } ||</div>
 <div class="line">    </div>
-<div class="line">    (ActorHasResult&lt;actor_t&gt; &amp;&amp;</div>
+<div class="line">    (ActorHasState&lt;actor_t&gt; &amp;&amp;</div>
 <div class="line">     <span class="keyword">requires</span>(<span class="keyword">const</span> actor_t&amp; a, propagator_state_t&amp; state,</div>
 <div class="line">              <span class="keyword">const</span> stepper_t&amp; stepper, <span class="keyword">const</span> navigator_t&amp; navigator,</div>
-<div class="line">              <span class="keyword">typename</span> actor_t::result_type&amp; result, Args&amp;&amp;... args) {</div>
+<div class="line">              <span class="keyword">typename</span> actor_t::State&amp; actorState, Args&amp;&amp;... args) {</div>
 <div class="line">       {</div>
-<div class="line">         a.act(state, stepper, navigator, result, std::forward&lt;Args&gt;(args)...)</div>
+<div class="line">         a.act(state, stepper, navigator, actorState,</div>
+<div class="line">               std::forward&lt;Args&gt;(args)...)</div>
 <div class="line">       } -&gt; std::same_as&lt;void&gt;;</div>
 <div class="line">     })</div>
-<div class="ttc" id="aconcept_acts_1_1_actor_has_old_void_interface_html"><div class="ttname"><a href="concept_acts_1_1_actor_has_old_void_interface.html">Acts::ActorHasOldVoidInterface</a></div><div class="ttdef"><b>Definition</b> ActorConcepts.hpp:53</div></div>
+<div class="ttc" id="aconcept_acts_1_1_actor_has_old_void_interface_html"><div class="ttname"><a href="concept_acts_1_1_actor_has_old_void_interface.html">Acts::ActorHasOldVoidInterface</a></div><div class="ttdef"><b>Definition</b> ActorConcepts.hpp:72</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

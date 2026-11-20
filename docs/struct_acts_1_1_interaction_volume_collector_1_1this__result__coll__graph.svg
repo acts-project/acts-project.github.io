@@ -22,7 +22,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title="Simple result struct that holds the collected volumes.">
+<g id="a_Node000001"><a xlink:title="Simple state struct that holds the collected volumes.">
 <polygon fill="#999999" stroke="#666666" points="175.75,-33.5 0,-33.5 0,0 175.75,0 175.75,-33.5"/>
 <text xml:space="preserve" text-anchor="start" x="8" y="-20" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::InteractionVolumeCollector</text>
 <text xml:space="preserve" text-anchor="middle" x="87.88" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">::this_result</text>

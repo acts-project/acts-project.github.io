@@ -25,7 +25,7 @@
 <polygon fill="white" stroke="#666666" points="384.5,-149.5 187.75,-149.5 187.75,-103.25 384.5,-103.25 384.5,-149.5"/>
 <text xml:space="preserve" text-anchor="start" x="195.75" y="-136" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::PropagatorOptions</text>
 <text xml:space="preserve" text-anchor="start" x="195.75" y="-123.25" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; StepperOptions, NavigatorOptions,</text>
-<text xml:space="preserve" text-anchor="middle" x="286.12" y="-110.5" font-family="Helvetica,sans-Serif" font-size="10.00"> actor_list_t &gt;</text>
+<text xml:space="preserve" text-anchor="middle" x="286.12" y="-110.5" font-family="Helvetica,sans-Serif" font-size="10.00"> actor_t &gt;</text>
 </a>
 </g>
 </g>
@@ -45,7 +45,7 @@
 <polygon fill="white" stroke="#666666" points="369.5,-85.5 202.75,-85.5 202.75,-39.25 369.5,-39.25 369.5,-85.5"/>
 <text xml:space="preserve" text-anchor="start" x="210.75" y="-72" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::PropagatorOptions</text>
 <text xml:space="preserve" text-anchor="start" x="210.75" y="-59.25" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; stepper_options_t, navigator</text>
-<text xml:space="preserve" text-anchor="middle" x="286.12" y="-46.5" font-family="Helvetica,sans-Serif" font-size="10.00">_options_t, actor_list_t &gt;</text>
+<text xml:space="preserve" text-anchor="middle" x="286.12" y="-46.5" font-family="Helvetica,sans-Serif" font-size="10.00">_options_t, actor_t &gt;</text>
 </a>
 </g>
 </g>

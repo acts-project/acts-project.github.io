@@ -139,19 +139,19 @@ Collaboration diagram for Acts::SurfaceCollector&lt; Selector &gt;:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:this_5Fresult" id="r_this_5Fresult"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_surface_collector_1_1this__result.html">this_result</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple result struct to be returned It has all the SurfaceHit objects that are collected (and thus have been selected).  <a href="struct_acts_1_1_surface_collector_1_1this__result.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple state struct of the actor It has all the SurfaceHit objects that are collected (and thus have been selected).  <a href="struct_acts_1_1_surface_collector_1_1this__result.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a5d0714d9cbd6b4bb939e5c7e2ff55e0e" id="r_a5d0714d9cbd6b4bb939e5c7e2ff55e0e"><td class="memItemLeft" align="right" valign="top"><a id="a5d0714d9cbd6b4bb939e5c7e2ff55e0e" name="a5d0714d9cbd6b4bb939e5c7e2ff55e0e"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>result_type</b> = <a class="el" href="struct_acts_1_1_surface_collector_1_1this__result.html">this_result</a></td></tr>
-<tr class="memdesc:a5d0714d9cbd6b4bb939e5c7e2ff55e0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for collector result type. <br /></td></tr>
+<tr class="memitem:abebe1ed3c209988758e6fe66283012b9" id="r_abebe1ed3c209988758e6fe66283012b9"><td class="memItemLeft" align="right" valign="top"><a id="abebe1ed3c209988758e6fe66283012b9" name="abebe1ed3c209988758e6fe66283012b9"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>State</b> = <a class="el" href="struct_acts_1_1_surface_collector_1_1this__result.html">this_result</a></td></tr>
+<tr class="memdesc:abebe1ed3c209988758e6fe66283012b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for the collector state type. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aad81eceff0c9dca30a9394accf70c02b" id="r_aad81eceff0c9dca30a9394accf70c02b"><td class="memTemplParams" colspan="2">template&lt;typename propagator_state_t, typename stepper_t, typename navigator_t&gt; </td></tr>
-<tr class="memitem:aad81eceff0c9dca30a9394accf70c02b template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad81eceff0c9dca30a9394accf70c02b">act</a> (propagator_state_t &amp;state, const stepper_t &amp;stepper, const navigator_t &amp;navigator, <a class="el" href="#a5d0714d9cbd6b4bb939e5c7e2ff55e0e">result_type</a> &amp;result, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger) const</td></tr>
-<tr class="memdesc:aad81eceff0c9dca30a9394accf70c02b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collector action for the ActionList of the Propagator It checks if the propagator state has a current surface, in which case the action is performed:  <br /></td></tr>
+<tr class="memitem:a3a2b4981758fd75a84d33332a88eb92b" id="r_a3a2b4981758fd75a84d33332a88eb92b"><td class="memTemplParams" colspan="2">template&lt;typename propagator_state_t, typename stepper_t, typename navigator_t&gt; </td></tr>
+<tr class="memitem:a3a2b4981758fd75a84d33332a88eb92b template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a2b4981758fd75a84d33332a88eb92b">act</a> (propagator_state_t &amp;state, const stepper_t &amp;stepper, const navigator_t &amp;navigator, <a class="el" href="#abebe1ed3c209988758e6fe66283012b9">State</a> &amp;actorState, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger) const</td></tr>
+<tr class="memdesc:a3a2b4981758fd75a84d33332a88eb92b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collector action for the ActionList of the Propagator It checks if the propagator state has a current surface, in which case the action is performed:  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -164,8 +164,8 @@ Selector&#160;</td><td class="memItemRight" valign="bottom"><b>selector</b></td>
 struct Acts::SurfaceCollector&lt; Selector &gt;</div><p>A Surface Collector struct templated with a Selector type. </p>
 <p>Whenever a surface is passed in the propagation that satisfies the selector, it is recorded for further usage in the flow. </p>
 </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="aad81eceff0c9dca30a9394accf70c02b" name="aad81eceff0c9dca30a9394accf70c02b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad81eceff0c9dca30a9394accf70c02b">&#9670;&#160;</a></span>act()</h2>
+<a id="a3a2b4981758fd75a84d33332a88eb92b" name="a3a2b4981758fd75a84d33332a88eb92b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a2b4981758fd75a84d33332a88eb92b">&#9670;&#160;</a></span>act()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -192,7 +192,7 @@ template&lt;typename propagator_state_t, typename stepper_t, typename navigator_
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#a5d0714d9cbd6b4bb939e5c7e2ff55e0e">result_type</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>result</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#abebe1ed3c209988758e6fe66283012b9">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>actorState</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -219,7 +219,7 @@ template&lt;typename propagator_state_t, typename stepper_t, typename navigator_
     <tr><td class="paramdir">[in,out]</td><td class="paramname">state</td><td>is the mutable stepper state object </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">stepper</td><td>The stepper in use </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">navigator</td><td>The navigator in use </td></tr>
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">result</td><td>is the mutable result object </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">actorState</td><td>is the mutable state of the actor </td></tr>
     <tr><td class="paramdir"></td><td class="paramname">logger</td><td>a logger instance </td></tr>
   </table>
   </dd>
