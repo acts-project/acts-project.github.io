@@ -1,5 +1,7 @@
 var NAVTREEINDEX98 =
 {
+"structdetray_1_1ray__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01a3ac95ffd4d9d627a47290193328a8b11.html#ac838d14bce74beb77a8d328ccb200052":[8,0,3,167,1],
+"structdetray_1_1ray__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01a3ac95ffd4d9d627a47290193328a8b11.html#acc283c69ebc775d11815f74bfe89d99e":[6,0,4,154,13],
 "structdetray_1_1ray__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01a3ac95ffd4d9d627a47290193328a8b11.html#acc283c69ebc775d11815f74bfe89d99e":[8,0,3,167,13],
 "structdetray_1_1ray__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01a3ac95ffd4d9d627a47290193328a8b11.html#aea11e67f86edc0016a0f144e70000f16":[6,0,4,154,8],
 "structdetray_1_1ray__intersector__impl_3_01concentric__cylindrical2_d_3_01algebra__t_01_4_00_01a3ac95ffd4d9d627a47290193328a8b11.html#aea11e67f86edc0016a0f144e70000f16":[8,0,3,167,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX98 =
 "structdetray_1_1stepper__default__policy_1_1state.html":[8,0,3,183,0],
 "structdetray_1_1stepper__default__policy_1_1state.html#ac2f40b5ac4614242b5e8cef562319e16":[6,0,4,170,0,0],
 "structdetray_1_1stepper__default__policy_1_1state.html#ac2f40b5ac4614242b5e8cef562319e16":[8,0,3,183,0,0],
-"structdetray_1_1stepper__rk__policy.html":[6,0,4,171],
-"structdetray_1_1stepper__rk__policy.html":[8,0,3,184],
-"structdetray_1_1stepper__rk__policy.html#a9d4499dbe64b79678e8062a0edec3fd0":[6,0,4,171,1]
+"structdetray_1_1stepper__rk__policy.html":[6,0,4,171]
 };

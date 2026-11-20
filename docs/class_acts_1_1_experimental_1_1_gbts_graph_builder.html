@@ -139,8 +139,8 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a92d51ea74ee97150df513343b17921dd" id="r_a92d51ea74ee97150df513343b17921dd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92d51ea74ee97150df513343b17921dd">GbtsGraphBuilder</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html">Config</a> &amp;<a class="el" href="#af67c0d16d1dc8dcb09ba53a4e8a506c1">config</a>, std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_geometry.html">GbtsGeometry</a> &gt; geometry, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &gt; logger=<a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">Acts::getDefaultLogger</a>(&quot;GbtsGraphBuilder&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Acts::Logging::Level::INFO</a>))</td></tr>
-<tr class="memitem:a1717655e5346ab7c84964e94d9f129ce" id="r_a1717655e5346ab7c84964e94d9f129ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_graph.html">GbtsGraph</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1717655e5346ab7c84964e94d9f129ce">buildTheGraph</a> (const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_roi_descriptor.html">GbtsRoiDescriptor</a> &amp;roi, <a class="el" href="class_acts_1_1_experimental_1_1_gbts_node_storage.html">GbtsNodeStorage</a> &amp;nodeStorage, float bFieldInZ) const</td></tr>
-<tr class="memdesc:a1717655e5346ab7c84964e94d9f129ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build doublet graph from nodes.  <br /></td></tr>
+<tr class="memitem:a0bfdd2dc6051ac313f19fad31d0e7c2f" id="r_a0bfdd2dc6051ac313f19fad31d0e7c2f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_graph.html">GbtsGraph</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bfdd2dc6051ac313f19fad31d0e7c2f">buildTheGraph</a> (const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_roi_descriptor.html">GbtsRoiDescriptor</a> &amp;roi, <a class="el" href="class_acts_1_1_experimental_1_1_gbts_node_storage.html">GbtsNodeStorage</a> &amp;nodeStorage, float bFieldInZ, std::uint32_t minEdgeLevel=0) const</td></tr>
+<tr class="memdesc:a0bfdd2dc6051ac313f19fad31d0e7c2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build doublet graph from nodes.  <br /></td></tr>
 <tr class="memitem:af67c0d16d1dc8dcb09ba53a4e8a506c1" id="r_af67c0d16d1dc8dcb09ba53a4e8a506c1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html">Config</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af67c0d16d1dc8dcb09ba53a4e8a506c1">config</a> () const</td></tr>
 <tr class="memdesc:af67c0d16d1dc8dcb09ba53a4e8a506c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the configuration.  <br /></td></tr>
 </table>
@@ -184,8 +184,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a1717655e5346ab7c84964e94d9f129ce" name="a1717655e5346ab7c84964e94d9f129ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1717655e5346ab7c84964e94d9f129ce">&#9670;&#160;</a></span>buildTheGraph()</h2>
+<a id="a0bfdd2dc6051ac313f19fad31d0e7c2f" name="a0bfdd2dc6051ac313f19fad31d0e7c2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bfdd2dc6051ac313f19fad31d0e7c2f">&#9670;&#160;</a></span>buildTheGraph()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -203,7 +203,12 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>bFieldInZ</em></span>&#160;) const</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>bFieldInZ</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::uint32_t</td>          <td class="paramname"><span class="paramname"><em>minEdgeLevel</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -214,6 +219,7 @@ Public Member Functions</h2></td></tr>
     <tr><td class="paramname">roi</td><td>Region of interest descriptor </td></tr>
     <tr><td class="paramname">nodeStorage</td><td>Data storage containing nodes </td></tr>
     <tr><td class="paramname">bFieldInZ</td><td>Magnetic field in z, in GeV/(e*mm) </td></tr>
+    <tr><td class="paramname">minEdgeLevel</td><td>The level a chain needs to be a seed, for <span class="tt">pruneShortChains</span>; 0 for no pruning </td></tr>
   </table>
   </dd>
 </dl>

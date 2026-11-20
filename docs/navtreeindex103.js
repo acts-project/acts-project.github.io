@@ -1,5 +1,7 @@
 var NAVTREEINDEX103 =
 {
+"structdetray_1_1unit.html#a5940f8d023910cb7f9e56fce6f2e8f87":[8,0,3,203,4],
+"structdetray_1_1unit.html#a69422f1a4c1eee4da2311767586a1631":[6,0,4,190,18],
 "structdetray_1_1unit.html#a69422f1a4c1eee4da2311767586a1631":[8,0,3,203,18],
 "structdetray_1_1unit.html#a6e02e11e83a7a0471732fe06c24eaacd":[6,0,4,190,10],
 "structdetray_1_1unit.html#a6e02e11e83a7a0471732fe06c24eaacd":[8,0,3,203,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX103 =
 "structdetray_1_1wire__chamber__config.html#a0f5951b8977f7beb57b8c21d6264d46b":[6,0,4,204,25],
 "structdetray_1_1wire__chamber__config.html#a0f5951b8977f7beb57b8c21d6264d46b":[8,0,3,217,25],
 "structdetray_1_1wire__chamber__config.html#a1fab3105263827d49346fe4de6a07201":[6,0,4,204,21],
-"structdetray_1_1wire__chamber__config.html#a1fab3105263827d49346fe4de6a07201":[8,0,3,217,21],
-"structdetray_1_1wire__chamber__config.html#a2402711a1995a3d251edf274b79e3e76":[6,0,4,204,24],
-"structdetray_1_1wire__chamber__config.html#a2402711a1995a3d251edf274b79e3e76":[8,0,3,217,24]
+"structdetray_1_1wire__chamber__config.html#a1fab3105263827d49346fe4de6a07201":[8,0,3,217,21]
 };

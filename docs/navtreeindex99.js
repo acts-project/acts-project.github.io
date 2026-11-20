@@ -1,5 +1,7 @@
 var NAVTREEINDEX99 =
 {
+"structdetray_1_1stepper__rk__policy.html":[8,0,3,184],
+"structdetray_1_1stepper__rk__policy.html#a9d4499dbe64b79678e8062a0edec3fd0":[6,0,4,171,1],
 "structdetray_1_1stepper__rk__policy.html#a9d4499dbe64b79678e8062a0edec3fd0":[8,0,3,184,1],
 "structdetray_1_1stepper__rk__policy_1_1state.html":[6,0,4,171,0],
 "structdetray_1_1stepper__rk__policy_1_1state.html":[8,0,3,184,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX99 =
 "structdetray_1_1tel__det__config.html#a80ce8eb3989c8f0007825c8eafeb26f9":[6,0,4,176,1],
 "structdetray_1_1tel__det__config.html#a80ce8eb3989c8f0007825c8eafeb26f9":[8,0,3,189,1],
 "structdetray_1_1tel__det__config.html#a8aa9e4aff1f921b506840b5ad6eaaa2a":[6,0,4,176,36],
-"structdetray_1_1tel__det__config.html#a8aa9e4aff1f921b506840b5ad6eaaa2a":[8,0,3,189,36],
-"structdetray_1_1tel__det__config.html#a8edba6245b32666bcf958747129ae6ab":[6,0,4,176,15],
-"structdetray_1_1tel__det__config.html#a8edba6245b32666bcf958747129ae6ab":[8,0,3,189,15]
+"structdetray_1_1tel__det__config.html#a8aa9e4aff1f921b506840b5ad6eaaa2a":[8,0,3,189,36]
 };

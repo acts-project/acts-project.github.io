@@ -1,5 +1,7 @@
 var NAVTREEINDEX87 =
 {
+"structdetray_1_1algebra_1_1smatrix_1_1storage_1_1block__getter.html":[8,0,3,1,5,1,0],
+"structdetray_1_1algebra_1_1smatrix_1_1storage_1_1block__getter.html#a059d4f660a41eba89ef1fa008cd5df7e":[8,0,3,1,5,1,0,2],
 "structdetray_1_1algebra_1_1smatrix_1_1storage_1_1block__getter.html#a5ab3819aa0e0b5fdc0a5c9650d3b3486":[8,0,3,1,5,1,0,3],
 "structdetray_1_1algebra_1_1smatrix_1_1storage_1_1block__getter.html#a77477cd02f9ac470ba59d7ce65b9625f":[8,0,3,1,5,1,0,0],
 "structdetray_1_1algebra_1_1smatrix_1_1storage_1_1block__getter.html#ae44fbd41e70dd76ce24490aa7186aca2":[8,0,3,1,5,1,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX87 =
 "structdetray_1_1base__stepper_1_1state.html#a7fb3d3637204b81ba68707e1fd4c7511":[6,0,4,23,0,4],
 "structdetray_1_1base__stepper_1_1state.html#a7fb3d3637204b81ba68707e1fd4c7511":[8,0,3,36,0,4],
 "structdetray_1_1base__stepper_1_1state.html#a8554614dfd1f2640e1e406820215a955":[6,0,4,23,0,11],
-"structdetray_1_1base__stepper_1_1state.html#a8554614dfd1f2640e1e406820215a955":[8,0,3,36,0,11],
-"structdetray_1_1base__stepper_1_1state.html#a8fa9e0a3e87001a19085d6d9caef3f38":[6,0,4,23,0,13],
-"structdetray_1_1base__stepper_1_1state.html#a8fa9e0a3e87001a19085d6d9caef3f38":[8,0,3,36,0,13]
+"structdetray_1_1base__stepper_1_1state.html#a8554614dfd1f2640e1e406820215a955":[8,0,3,36,0,11]
 };

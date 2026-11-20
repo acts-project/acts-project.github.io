@@ -1,5 +1,7 @@
 var NAVTREEINDEX74 =
 {
+"struct_acts_1_1_impact_parameters_and_sigma.html#a6d7dee624647a0ff8ff0bb87279a96fe":[8,0,0,197,2],
+"struct_acts_1_1_impact_parameters_and_sigma.html#a8ed9ab5adafbb6ae3810c492399e1751":[6,0,0,192,3],
 "struct_acts_1_1_impact_parameters_and_sigma.html#a8ed9ab5adafbb6ae3810c492399e1751":[8,0,0,197,3],
 "struct_acts_1_1_impact_point_estimator_1_1_config.html":[6,0,0,193,0],
 "struct_acts_1_1_impact_point_estimator_1_1_config.html":[8,0,0,198,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX74 =
 "struct_acts_1_1_linearized_track.html#a0fdf707cfe866bc3fb367154e0cf306c":[6,0,0,252,7],
 "struct_acts_1_1_linearized_track.html#a0fdf707cfe866bc3fb367154e0cf306c":[8,0,0,257,7],
 "struct_acts_1_1_linearized_track.html#a4b6b18f789ae601b6643c87476c48a4a":[6,0,0,252,2],
-"struct_acts_1_1_linearized_track.html#a4b6b18f789ae601b6643c87476c48a4a":[8,0,0,257,2],
-"struct_acts_1_1_linearized_track.html#a5226120509a6c054c7a9e09fae1691ee":[6,0,0,252,8],
-"struct_acts_1_1_linearized_track.html#a5226120509a6c054c7a9e09fae1691ee":[8,0,0,257,8]
+"struct_acts_1_1_linearized_track.html#a4b6b18f789ae601b6643c87476c48a4a":[8,0,0,257,2]
 };

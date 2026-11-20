@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['z_20j_20b_20r_20z_20m_0',['z j B r z M',['../group__magnetic__field.html#autotoc_md182',1,'|| r | i || z | j || |B(r,z)| || M ||'],['../group__root__plugin.html#autotoc_md188',1,'|| r | i || z | j || |B(r,z)| || M ||']]],
-  ['z_20k_20b_20x_20y_20z_20m_1',['z k B x y z M',['../group__magnetic__field.html#autotoc_md183',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||'],['../group__root__plugin.html#autotoc_md189',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||']]],
-  ['z_20m_2',['z M',['../group__magnetic__field.html#autotoc_md182',1,'|| r | i || z | j || |B(r,z)| || M ||'],['../group__root__plugin.html#autotoc_md188',1,'|| r | i || z | j || |B(r,z)| || M ||'],['../group__magnetic__field.html#autotoc_md183',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||'],['../group__root__plugin.html#autotoc_md189',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||']]]
+  ['—_20free_20to_20bound_20at_20the_20target_20surface_0',['\\(J_{fb}\\) — free to bound at the target surface',['../codegen_sympy_jac.html#autotoc_md86',1,'']]],
+  ['—_20the_20transported_20bound_20to_20free_20jacobian_1',['\\(M\\) — the transported bound-to-free Jacobian',['../codegen_sympy_jac.html#autotoc_md85',1,'']]]
 ];
