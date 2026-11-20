@@ -1,5 +1,0 @@
-<map id="detray::actor::parameter_transporter&lt; algebra_t &gt;" name="detray::actor::parameter_transporter&lt; algebra_t &gt;">
-<area shape="rect" id="Node000001" title="Transport the free track parameters at the destination surface and the covariance at the departure su..." alt="" coords="5,81,197,126"/>
-<area shape="rect" id="Node000002" href="$structdetray_1_1base__actor.html" title="Base class actor implementation." alt="" coords="30,5,172,33"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,47,103,81,99,79,99,51"/>
-</map>

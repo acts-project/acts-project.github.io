@@ -1180,11 +1180,13 @@ var hierarchy =
     [ "detray::actor::empty_result", "structdetray_1_1actor_1_1empty__result.html", null ],
     [ "detray::actor::momentum_aborter&lt; scalar_t &gt;::state", "structdetray_1_1actor_1_1momentum__aborter_1_1state.html", null ],
     [ "detray::actor::noise_cfg", "structdetray_1_1actor_1_1noise__cfg.html", null ],
-    [ "detray::actor::parameter_transporter&lt; algebra_t &gt;::get_bound_to_free_dpos_dangle_visitor", "structdetray_1_1actor_1_1parameter__transporter_1_1get__bound__to__free__dpos__dangle__visitor.html", null ],
-    [ "detray::actor::parameter_transporter&lt; algebra_t &gt;::get_bound_to_free_dpos_dloc_visitor", "structdetray_1_1actor_1_1parameter__transporter_1_1get__bound__to__free__dpos__dloc__visitor.html", null ],
-    [ "detray::actor::parameter_transporter&lt; algebra_t &gt;::get_free_to_bound_dloc_dpos_visitor", "structdetray_1_1actor_1_1parameter__transporter_1_1get__free__to__bound__dloc__dpos__visitor.html", null ],
-    [ "detray::actor::parameter_transporter&lt; algebra_t &gt;::select_frame", "structdetray_1_1actor_1_1parameter__transporter_1_1select__frame.html", null ],
-    [ "detray::actor::parameter_updater_state&lt; algebra_t &gt;", "structdetray_1_1actor_1_1parameter__updater__state.html", null ],
+    [ "detray::actor::parameter_transporter_base&lt; algebra_t, state_t &gt;::get_bound_to_free_dpos_dangle_visitor", "structdetray_1_1actor_1_1parameter__transporter__base_1_1get__bound__to__free__dpos__dangle__visitor.html", null ],
+    [ "detray::actor::parameter_transporter_base&lt; algebra_t, state_t &gt;::get_bound_to_free_dpos_dloc_visitor", "structdetray_1_1actor_1_1parameter__transporter__base_1_1get__bound__to__free__dpos__dloc__visitor.html", null ],
+    [ "detray::actor::parameter_transporter_base&lt; algebra_t, state_t &gt;::get_free_to_bound_dloc_dpos_visitor", "structdetray_1_1actor_1_1parameter__transporter__base_1_1get__free__to__bound__dloc__dpos__visitor.html", null ],
+    [ "detray::actor::parameter_transporter_base&lt; algebra_t, state_t &gt;::select_frame", "structdetray_1_1actor_1_1parameter__transporter__base_1_1select__frame.html", null ],
+    [ "detray::actor::parameter_updater_state&lt; algebra_t &gt;", "structdetray_1_1actor_1_1parameter__updater__state.html", [
+      [ "detray::actor::parameter_updater_mbf_state< algebra_t >", "structdetray_1_1actor_1_1parameter__updater__mbf__state.html", null ]
+    ] ],
     [ "detray::actor::pathlimit_aborter&lt; scalar_t &gt;::state", "structdetray_1_1actor_1_1pathlimit__aborter_1_1state.html", null ],
     [ "detray::actor::pointwise_material_interactor&lt; algebra_t &gt;::kernel", "structdetray_1_1actor_1_1pointwise__material__interactor_1_1kernel.html", null ],
     [ "detray::actor::pointwise_material_interactor&lt; algebra_t &gt;::state", "structdetray_1_1actor_1_1pointwise__material__interactor_1_1state.html", null ],
@@ -1249,9 +1251,13 @@ var hierarchy =
     [ "detray::axis_rotation&lt; algebra_t &gt;", "structdetray_1_1axis__rotation.html", null ],
     [ "detray::barrel_generator_config&lt; scalar_t &gt;", "structdetray_1_1barrel__generator__config.html", null ],
     [ "detray::base_actor", "structdetray_1_1base__actor.html", [
+      [ "detray::actor::parameter_setter_base< algebra_t, parameter_updater_state< algebra_t > >", "structdetray_1_1actor_1_1parameter__setter__base.html", null ],
+      [ "detray::actor::parameter_setter_base< algebra_t, parameter_updater_mbf_state< algebra_t > >", "structdetray_1_1actor_1_1parameter__setter__base.html", null ],
+      [ "detray::actor::parameter_transporter_base< algebra_t, parameter_updater_state< algebra_t > >", "structdetray_1_1actor_1_1parameter__transporter__base.html", null ],
+      [ "detray::actor::parameter_transporter_base< algebra_t, parameter_updater_mbf_state< algebra_t > >", "structdetray_1_1actor_1_1parameter__transporter__base.html", null ],
       [ "detray::actor::momentum_aborter< scalar_t >", "structdetray_1_1actor_1_1momentum__aborter.html", null ],
-      [ "detray::actor::parameter_setter< algebra_t >", "structdetray_1_1actor_1_1parameter__setter.html", null ],
-      [ "detray::actor::parameter_transporter< algebra_t >", "structdetray_1_1actor_1_1parameter__transporter.html", null ],
+      [ "detray::actor::parameter_setter_base< algebra_t, state_t >", "structdetray_1_1actor_1_1parameter__setter__base.html", null ],
+      [ "detray::actor::parameter_transporter_base< algebra_t, state_t >", "structdetray_1_1actor_1_1parameter__transporter__base.html", null ],
       [ "detray::actor::pathlimit_aborter< scalar_t >", "structdetray_1_1actor_1_1pathlimit__aborter.html", null ],
       [ "detray::actor::pointwise_material_interactor< algebra_t >", "structdetray_1_1actor_1_1pointwise__material__interactor.html", null ],
       [ "detray::actor::random_scatterer< algebra_t >", "structdetray_1_1actor_1_1random__scatterer.html", null ],
@@ -1815,7 +1821,8 @@ var hierarchy =
       [ "detray::intersector_base< intersector_t >", "structdetray_1_1intersector__base.html", null ]
     ] ],
     [ "principal_actor_t", null, [
-      [ "detray::composite_actor< parameter_transporter< algebra_t >, transporter_observers..., parameter_setter< algebra_t > >", "classdetray_1_1composite__actor.html", null ]
+      [ "detray::composite_actor< parameter_transporter< algebra_t >, transporter_observers..., parameter_setter< algebra_t > >", "classdetray_1_1composite__actor.html", null ],
+      [ "detray::composite_actor< parameter_transporter_mbf< algebra_t >, transporter_observers..., parameter_setter_mbf< algebra_t > >", "classdetray_1_1composite__actor.html", null ]
     ] ],
     [ "registry_t", null, [
       [ "detray::types::mapped_registry< R, S >", "classdetray_1_1types_1_1mapped__registry.html", null ],

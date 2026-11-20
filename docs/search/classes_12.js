@@ -19,7 +19,7 @@ var searchData=
   ['seedproxy_3c_20true_20_3e_16',['SeedProxy&lt; true &gt;',['../class_acts_1_1_seed_proxy.html',1,'Acts']]],
   ['segmentizer_17',['Segmentizer',['../struct_acts_fatras_1_1_segmentizer.html',1,'ActsFatras']]],
   ['segmentseed_18',['SegmentSeed',['../struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_segment_seed.html',1,'Acts::Experimental::CompositeSpacePointLineSeeder']]],
-  ['select_5fframe_19',['select_frame',['../structdetray_1_1actor_1_1parameter__transporter_1_1select__frame.html',1,'detray::actor::parameter_transporter']]],
+  ['select_5fframe_19',['select_frame',['../structdetray_1_1actor_1_1parameter__transporter__base_1_1select__frame.html',1,'detray::actor::parameter_transporter_base']]],
   ['selectednode_20',['SelectedNode',['../struct_acts_plugins_1_1_t_geo_parser_1_1_selected_node.html',1,'ActsPlugins::TGeoParser']]],
   ['selection_21',['Selection',['../struct_acts_fatras_1_1_interaction_list_1_1_selection.html',1,'ActsFatras::InteractionList']]],
   ['sensorlayer_22',['SensorLayer',['../class_acts_1_1_experimental_1_1_sensor_layer.html',1,'Acts::Experimental::SensorLayer&lt; BackendT &gt;'],['../class_acts_1_1_sensor_layer.html',1,'Acts::SensorLayer&lt; BackendT &gt;']]],

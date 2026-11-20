@@ -1,5 +1,8 @@
 var NAVTREEINDEX92 =
 {
+"structdetray_1_1interaction.html#a55e77400498645d8b2b62da965d82655":[6,0,4,97,5],
+"structdetray_1_1interaction.html#a55e77400498645d8b2b62da965d82655":[8,0,3,110,5],
+"structdetray_1_1interaction.html#a77c04bead14c8b36d73bc6a9619a37c2":[6,0,4,97,11],
 "structdetray_1_1interaction.html#a77c04bead14c8b36d73bc6a9619a37c2":[8,0,3,110,11],
 "structdetray_1_1interaction.html#a7edd5953c33653f6199f08f740ae4278":[6,0,4,97,12],
 "structdetray_1_1interaction.html#a7edd5953c33653f6199f08f740ae4278":[8,0,3,110,12],
@@ -246,8 +249,5 @@ var NAVTREEINDEX92 =
 "structdetray_1_1io_1_1csv_1_1intersection2_d.html#ae1debb034d7171771033486299a5c28d":[8,0,3,7,0,2,3],
 "structdetray_1_1io_1_1csv_1_1intersection2_d.html#ae2519eb76290aa569ac963a774ffed53":[8,0,3,7,0,2,15],
 "structdetray_1_1io_1_1csv_1_1intersection2_d.html#aef1f271382be7b73763aecd592f234ea":[8,0,3,7,0,2,7],
-"structdetray_1_1io_1_1csv_1_1intersection2_d.html#afa66443b4a44692dd882fe3f80cc7f98":[8,0,3,7,0,2,4],
-"structdetray_1_1io_1_1detail_1_1write__switch.html":[8,0,3,7,1,0],
-"structdetray_1_1io_1_1detail_1_1write__switch.html#a2218a987cb71279f55d63c53da082634":[8,0,3,7,1,0,1],
-"structdetray_1_1io_1_1detail_1_1write__switch.html#a29adcf9307f3accb451a6db79312a113":[8,0,3,7,1,0,0]
+"structdetray_1_1io_1_1csv_1_1intersection2_d.html#afa66443b4a44692dd882fe3f80cc7f98":[8,0,3,7,0,2,4]
 };
