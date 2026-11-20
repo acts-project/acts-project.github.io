@@ -1,5 +1,7 @@
 var NAVTREEINDEX69 =
 {
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_result.html":[6,0,0,1,6,4],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_result.html":[8,0,0,2,6,4],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_result.html#a7684bd5ac5599da21622cc87d3629950":[6,0,0,1,6,4,0],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_result.html#a7684bd5ac5599da21622cc87d3629950":[8,0,0,2,6,4,0],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_config.html":[6,0,0,1,7,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX69 =
 "struct_acts_1_1_experimental_1_1_gbts_layer_binning.html":[6,0,0,1,24],
 "struct_acts_1_1_experimental_1_1_gbts_layer_binning.html":[8,0,0,2,24],
 "struct_acts_1_1_experimental_1_1_gbts_layer_binning.html#a0b15cc8040d50510fee0f9f310a8bef8":[6,0,0,1,24,1],
-"struct_acts_1_1_experimental_1_1_gbts_layer_binning.html#a0b15cc8040d50510fee0f9f310a8bef8":[8,0,0,2,24,1],
-"struct_acts_1_1_experimental_1_1_gbts_layer_binning.html#a96587318e95cff98cab891f7009e872b":[6,0,0,1,24,3],
-"struct_acts_1_1_experimental_1_1_gbts_layer_binning.html#a96587318e95cff98cab891f7009e872b":[8,0,0,2,24,3]
+"struct_acts_1_1_experimental_1_1_gbts_layer_binning.html#a0b15cc8040d50510fee0f9f310a8bef8":[8,0,0,2,24,1]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX59 =
 {
+"conceptdetray_1_1concepts_1_1surface__accelerator.html":[6,0,4,1,80],
+"conceptdetray_1_1concepts_1_1surface__accelerator.html":[7,1,0,80],
 "conceptdetray_1_1concepts_1_1surface__grid.html":[6,0,4,1,81],
 "conceptdetray_1_1concepts_1_1surface__grid.html":[7,1,0,81],
 "conceptdetray_1_1concepts_1_1surface__material.html":[6,0,4,1,82],
@@ -247,7 +249,5 @@ var NAVTREEINDEX59 =
 "group__edm4hep__plugin.html#gab8dab5aaeeb93375225dff32106f132b":[5,10,4,21],
 "group__edm4hep__plugin.html#gad2217a1e566c6c6e331e614f87ffa7b9":[5,10,4,22],
 "group__edm4hep__plugin.html#gad3ac9d18445b4bd40f9438ffea57bb6c":[5,10,4,20],
-"group__edm4hep__plugin.html#gae9438ea2e8430b90f5ce180c35160ef4":[5,10,4,14],
-"group__edm4hep__plugin.html#gaec2431e6bd278ab0b589b49045b19b58":[5,10,4,15],
-"group__edm4hep__plugin.html#gafd933cfa2a2f01a1747f04bfca3005e7":[5,10,4,19]
+"group__edm4hep__plugin.html#gae9438ea2e8430b90f5ce180c35160ef4":[5,10,4,14]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX66 =
 {
+"struct_acts_1_1_blueprint_options.html#a5d800ff7d1c38110ad91682574f6912d":[6,0,0,57,2],
+"struct_acts_1_1_blueprint_options.html#a5d800ff7d1c38110ad91682574f6912d":[8,0,0,62,2],
 "struct_acts_1_1_blueprint_options.html#aa8c6ba50e33d9c6280ab5bc3ca504180":[6,0,0,57,0],
 "struct_acts_1_1_blueprint_options.html#aa8c6ba50e33d9c6280ab5bc3ca504180":[8,0,0,62,0],
 "struct_acts_1_1_blueprint_options.html#abdceedc93026df25471700e2198c47bc":[6,0,0,57,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX66 =
 "struct_acts_1_1_cuboid_volume_builder_1_1_config.html":[6,0,0,94,0],
 "struct_acts_1_1_cuboid_volume_builder_1_1_config.html":[8,0,0,99,0],
 "struct_acts_1_1_cuboid_volume_builder_1_1_config.html#a00f24e2c87c886297b6fadfd1aa6d08e":[6,0,0,94,0,1],
-"struct_acts_1_1_cuboid_volume_builder_1_1_config.html#a00f24e2c87c886297b6fadfd1aa6d08e":[8,0,0,99,0,1],
-"struct_acts_1_1_cuboid_volume_builder_1_1_config.html#a84bcca381c085fabe341b25b0e857435":[6,0,0,94,0,0],
-"struct_acts_1_1_cuboid_volume_builder_1_1_config.html#a84bcca381c085fabe341b25b0e857435":[8,0,0,99,0,0]
+"struct_acts_1_1_cuboid_volume_builder_1_1_config.html#a00f24e2c87c886297b6fadfd1aa6d08e":[8,0,0,99,0,1]
 };

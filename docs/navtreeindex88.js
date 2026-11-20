@@ -1,5 +1,9 @@
 var NAVTREEINDEX88 =
 {
+"structdetray_1_1base__stepper_1_1state.html#a9af1d89362956d3f37c19219ad09be37":[8,0,3,36,0,2],
+"structdetray_1_1base__stepper_1_1state.html#a9f26e7e3848b9c0ad6a964e3445e1a50":[6,0,4,23,0,23],
+"structdetray_1_1base__stepper_1_1state.html#a9f26e7e3848b9c0ad6a964e3445e1a50":[8,0,3,36,0,23],
+"structdetray_1_1base__stepper_1_1state.html#aaa4db9e63764e2a521a5cbeb68dfb18e":[6,0,4,23,0,14],
 "structdetray_1_1base__stepper_1_1state.html#aaa4db9e63764e2a521a5cbeb68dfb18e":[8,0,3,36,0,14],
 "structdetray_1_1base__stepper_1_1state.html#aafe929947360c3d2772a959410381c25":[6,0,4,23,0,17],
 "structdetray_1_1base__stepper_1_1state.html#aafe929947360c3d2772a959410381c25":[8,0,3,36,0,17],
@@ -245,9 +249,5 @@ var NAVTREEINDEX88 =
 "structdetray_1_1cartesian3_d.html#ac22d0bafd6604d56424e80d4ac6869aa":[8,0,3,47,11],
 "structdetray_1_1cesium__iodide.html":[6,0,4,35],
 "structdetray_1_1cesium__iodide.html":[8,0,3,48],
-"structdetray_1_1cesium__iodide.html#a0f58c72c75417d2a4a346dfbc8a8ec95":[6,0,4,35,0],
-"structdetray_1_1cesium__iodide.html#a0f58c72c75417d2a4a346dfbc8a8ec95":[8,0,3,48,0],
-"structdetray_1_1cesium__iodide__with__ded.html":[6,0,4,36],
-"structdetray_1_1cesium__iodide__with__ded.html":[8,0,3,49],
-"structdetray_1_1cesium__iodide__with__ded.html#ad56f9c4e59ca5574cc12fd5240de5a26":[6,0,4,36,0]
+"structdetray_1_1cesium__iodide.html#a0f58c72c75417d2a4a346dfbc8a8ec95":[6,0,4,35,0]
 };

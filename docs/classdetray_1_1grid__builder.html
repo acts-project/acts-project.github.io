@@ -187,6 +187,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:adb770358c2e884dec02edcc5392d15b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build the empty grid from axis parameters.  <br /></td></tr>
 <tr class="memitem:a00ed3c1c1be4e077a165cfd921a026af" id="r_a00ed3c1c1be4e077a165cfd921a026af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00ed3c1c1be4e077a165cfd921a026af">set_add_passives</a> (bool is_add_passive=false)</td></tr>
 <tr class="memdesc:a00ed3c1c1be4e077a165cfd921a026af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Should the passive surfaces be added to the grid ?  <br /></td></tr>
+<tr class="memitem:a468047d65463362dfb69f73a0562c9fc" id="r_a468047d65463362dfb69f73a0562c9fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a468047d65463362dfb69f73a0562c9fc">set_reference_radius</a> (<a class="el" href="#a408e2eaaa5f73c6ff5138a5b6be99168">scalar_type</a> r)</td></tr>
+<tr class="memdesc:a468047d65463362dfb69f73a0562c9fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the radius of the virtual cylinder a cylinder grid is looked up on, instead of deriving it from the portals of the volume.  <br /></td></tr>
 <tr class="memitem:aa44e762e2d4c9c3799317a314f85824a" id="r_aa44e762e2d4c9c3799317a314f85824a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa44e762e2d4c9c3799317a314f85824a">set_type</a> (link_id_t sf_id)</td></tr>
 <tr class="memdesc:aa44e762e2d4c9c3799317a314f85824a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the surface category this grid should contain (type id in the accelerator link in the volume descriptor).  <br /></td></tr>
 <tr class="memitem:a0fd0988f2001614fd29561b3e5bdaa57" id="r_a0fd0988f2001614fd29561b3e5bdaa57"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fd0988f2001614fd29561b3e5bdaa57">set_type</a> (std::size_t sf_id)</td></tr>
@@ -576,6 +578,33 @@ template&lt;concepts::detector detector_t, concepts::grid grid_t, typename bin_f
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">is_add_passive</td><td>True to include passive surfaces. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a468047d65463362dfb69f73a0562c9fc" name="a468047d65463362dfb69f73a0562c9fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a468047d65463362dfb69f73a0562c9fc">&#9670;&#160;</a></span>set_reference_radius()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;concepts::detector detector_t, concepts::grid grid_t, typename bin_filler_t = fill_by_pos, typename grid_factory_t = grid_factory_type&lt;grid_t&gt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classdetray_1_1grid__builder.html">detray::grid_builder</a>&lt; detector_t, grid_t, bin_filler_t, grid_factory_t &gt;::set_reference_radius </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a408e2eaaa5f73c6ff5138a5b6be99168">scalar_type</a></td>          <td class="paramname"><span class="paramname"><em>r</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the radius of the virtual cylinder a cylinder grid is looked up on, instead of deriving it from the portals of the volume. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">r</td><td>Lookup radius. </td></tr>
   </table>
   </dd>
 </dl>

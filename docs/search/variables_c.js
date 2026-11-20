@@ -72,9 +72,10 @@ var searchData=
   ['log10e_69',['log10e',['../structdetray_1_1constant.html#a118400c376ded304dd614d049243b79d',1,'detray::constant']]],
   ['log2e_70',['log2e',['../structdetray_1_1constant.html#a25301c8a9f31bb3fb160a46188314cfd',1,'detray::constant']]],
   ['logger_71',['logger',['../struct_acts_fatras_1_1_single_particle_simulation.html#a45c6caf690469fbfc41946180d66ca28',1,'ActsFatras::SingleParticleSimulation']]],
-  ['lower_72',['lower',['../structdetray_1_1detail_1_1extent2_d.html#a3ab4ba2f70512c643b5e45f9a7df3a90',1,'detray::detail::extent2D']]],
-  ['lower_5fz_73',['lower_z',['../structdetray_1_1cylinder__portal__generator_1_1boundaries.html#ab053af92500603e0058af107ce361ac5',1,'detray::cylinder_portal_generator::boundaries']]],
-  ['lowerbound_74',['lowerBound',['../struct_acts_1_1_gaussian_track_density_1_1_track_entry.html#aeb77e3c7f438ebdc480b127b578c0d03',1,'Acts::GaussianTrackDensity::TrackEntry']]],
-  ['lu_75',['lu',['../structdetray_1_1algebra_1_1generic_1_1matrix_1_1decomposition_1_1partial__pivot__lud_1_1lud.html#aa9d912a2a83d95a6367851ee41d32d22',1,'detray::algebra::generic::matrix::decomposition::partial_pivot_lud::lud']]],
-  ['luminousregion_76',['luminousRegion',['../struct_acts_1_1_projected_reference_generator.html#a579032a66ff1b8d8d959c123d7439c77',1,'Acts::ProjectedReferenceGenerator']]]
+  ['lookuponlayer_72',['lookupOnLayer',['../struct_acts_plugins_1_1_detray_surface_grid_config.html#ab66f77f81b52d4cad0d7bdc62dae80ee',1,'ActsPlugins::DetraySurfaceGridConfig']]],
+  ['lower_73',['lower',['../structdetray_1_1detail_1_1extent2_d.html#a3ab4ba2f70512c643b5e45f9a7df3a90',1,'detray::detail::extent2D']]],
+  ['lower_5fz_74',['lower_z',['../structdetray_1_1cylinder__portal__generator_1_1boundaries.html#ab053af92500603e0058af107ce361ac5',1,'detray::cylinder_portal_generator::boundaries']]],
+  ['lowerbound_75',['lowerBound',['../struct_acts_1_1_gaussian_track_density_1_1_track_entry.html#aeb77e3c7f438ebdc480b127b578c0d03',1,'Acts::GaussianTrackDensity::TrackEntry']]],
+  ['lu_76',['lu',['../structdetray_1_1algebra_1_1generic_1_1matrix_1_1decomposition_1_1partial__pivot__lud_1_1lud.html#aa9d912a2a83d95a6367851ee41d32d22',1,'detray::algebra::generic::matrix::decomposition::partial_pivot_lud::lud']]],
+  ['luminousregion_77',['luminousRegion',['../struct_acts_1_1_projected_reference_generator.html#a579032a66ff1b8d8d959c123d7439c77',1,'Acts::ProjectedReferenceGenerator']]]
 ];

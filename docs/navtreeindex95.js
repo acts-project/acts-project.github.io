@@ -1,5 +1,11 @@
 var NAVTREEINDEX95 =
 {
+"structdetray_1_1material__validator_1_1material__tracer_1_1state.html#a700a30a7372721fe8f48420112e77dd2":[8,0,3,8,1,0,5],
+"structdetray_1_1material__validator_1_1material__tracer_1_1state.html#a796e6b361e6851bc146b09ae341cc980":[8,0,3,8,1,0,1],
+"structdetray_1_1material__validator_1_1material__tracer_1_1state.html#aaec35d779d56280242bdb8d4a3074ccb":[8,0,3,8,1,0,3],
+"structdetray_1_1material__validator_1_1material__tracer_1_1state.html#ad91c19769d551134d2d057b26cffe078":[8,0,3,8,1,0,4],
+"structdetray_1_1material__validator_1_1track__material.html":[8,0,3,8,2],
+"structdetray_1_1material__validator_1_1track__material.html#a2c1bc5b9738ba19cd4d4ad5debe2d473":[8,0,3,8,2,3],
 "structdetray_1_1material__validator_1_1track__material.html#a4f5003415134a1660bbdf2d363afb91f":[8,0,3,8,2,4],
 "structdetray_1_1material__validator_1_1track__material.html#a87a04c6465fb797384918cab09c13f18":[8,0,3,8,2,2],
 "structdetray_1_1material__validator_1_1track__material.html#a9b2794027e7ac219fbb09bacc43bcf76":[8,0,3,8,2,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX95 =
 "structdetray_1_1propagation__record.html#a8addd1c088117957d4eca75a8d373f4f":[8,0,3,155,29],
 "structdetray_1_1propagation__record.html#a8d89ae0485d894ac23670a6b4fbdc713":[6,0,4,142,7],
 "structdetray_1_1propagation__record.html#a8d89ae0485d894ac23670a6b4fbdc713":[8,0,3,155,7],
-"structdetray_1_1propagation__record.html#a916fe38fbdb8005dffeda685614abbf5":[6,0,4,142,13],
-"structdetray_1_1propagation__record.html#a916fe38fbdb8005dffeda685614abbf5":[8,0,3,155,13],
-"structdetray_1_1propagation__record.html#a93a2eb05208e8b501aa945f46ed8da1e":[6,0,4,142,28],
-"structdetray_1_1propagation__record.html#a93a2eb05208e8b501aa945f46ed8da1e":[8,0,3,155,28],
-"structdetray_1_1propagation__record.html#aa2dd77aee655167a140f617e446d5623":[6,0,4,142,3],
-"structdetray_1_1propagation__record.html#aa2dd77aee655167a140f617e446d5623":[8,0,3,155,3],
-"structdetray_1_1propagation__record.html#aa915b16419180f58eb8e4f7b4f75df65":[6,0,4,142,11]
+"structdetray_1_1propagation__record.html#a916fe38fbdb8005dffeda685614abbf5":[6,0,4,142,13]
 };

@@ -1,5 +1,11 @@
 var NAVTREEINDEX94 =
 {
+"structdetray_1_1io_1_1tagged__header__payload.html#ae9b150f52deffc44efcd35c6b58dcf82":[6,0,4,3,36,2],
+"structdetray_1_1io_1_1tagged__header__payload.html#ae9b150f52deffc44efcd35c6b58dcf82":[8,0,3,7,38,2],
+"structdetray_1_1io_1_1transform__payload.html":[6,0,4,3,37],
+"structdetray_1_1io_1_1transform__payload.html":[8,0,3,7,39],
+"structdetray_1_1io_1_1transform__payload.html#a13fbe60d99d2a8ec2ad0fc95dca87ceb":[6,0,4,3,37,0],
+"structdetray_1_1io_1_1transform__payload.html#a13fbe60d99d2a8ec2ad0fc95dca87ceb":[8,0,3,7,39,0],
 "structdetray_1_1io_1_1transform__payload.html#ac755b06dd420d9ef2c902396695910a6":[6,0,4,3,37,1],
 "structdetray_1_1io_1_1transform__payload.html#ac755b06dd420d9ef2c902396695910a6":[8,0,3,7,39,1],
 "structdetray_1_1io_1_1typed__link__payload.html":[6,0,4,3,38],
@@ -243,11 +249,5 @@ var NAVTREEINDEX94 =
 "structdetray_1_1material__validator_1_1material__tracer.html#ae21ffeda2943505cfc3b38010da796c4":[8,0,3,8,1,4],
 "structdetray_1_1material__validator_1_1material__tracer_1_1state.html":[8,0,3,8,1,0],
 "structdetray_1_1material__validator_1_1material__tracer_1_1state.html#a116cca7512aaa62db7e25e1fce4de8f6":[8,0,3,8,1,0,0],
-"structdetray_1_1material__validator_1_1material__tracer_1_1state.html#a555c92ec8cd53595fdc8cfc677ffb35b":[8,0,3,8,1,0,2],
-"structdetray_1_1material__validator_1_1material__tracer_1_1state.html#a700a30a7372721fe8f48420112e77dd2":[8,0,3,8,1,0,5],
-"structdetray_1_1material__validator_1_1material__tracer_1_1state.html#a796e6b361e6851bc146b09ae341cc980":[8,0,3,8,1,0,1],
-"structdetray_1_1material__validator_1_1material__tracer_1_1state.html#aaec35d779d56280242bdb8d4a3074ccb":[8,0,3,8,1,0,3],
-"structdetray_1_1material__validator_1_1material__tracer_1_1state.html#ad91c19769d551134d2d057b26cffe078":[8,0,3,8,1,0,4],
-"structdetray_1_1material__validator_1_1track__material.html":[8,0,3,8,2],
-"structdetray_1_1material__validator_1_1track__material.html#a2c1bc5b9738ba19cd4d4ad5debe2d473":[8,0,3,8,2,3]
+"structdetray_1_1material__validator_1_1material__tracer_1_1state.html#a555c92ec8cd53595fdc8cfc677ffb35b":[8,0,3,8,1,0,2]
 };

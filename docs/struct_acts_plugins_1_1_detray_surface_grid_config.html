@@ -136,6 +136,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ae24a8099827656216782e329e240aac2" id="r_ae24a8099827656216782e329e240aac2"><td class="memItemLeft" align="right" valign="top"><a id="ae24a8099827656216782e329e240aac2" name="ae24a8099827656216782e329e240aac2"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><b>bField</b> = 2. * <a class="el" href="namespace_acts_1_1_unit_constants.html#ae1a6a8868aedfe9a2fa3c3d6d0fae230">Acts::UnitConstants::T</a></td></tr>
 <tr class="memdesc:ae24a8099827656216782e329e240aac2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solenoid field strength used for the bending. <br /></td></tr>
+<tr class="memitem:ab66f77f81b52d4cad0d7bdc62dae80ee" id="r_ab66f77f81b52d4cad0d7bdc62dae80ee"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab66f77f81b52d4cad0d7bdc62dae80ee">lookupOnLayer</a> = true</td></tr>
+<tr class="memdesc:ab66f77f81b52d4cad0d7bdc62dae80ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Look cylinder grids up on the mean radius of their surfaces instead of the mean radius of the volume portals.  <br /></td></tr>
 <tr class="memitem:a1f777e53c677f07b9a67346aa8487405" id="r_a1f777e53c677f07b9a67346aa8487405"><td class="memItemLeft" align="right" valign="top"><a id="a1f777e53c677f07b9a67346aa8487405" name="a1f777e53c677f07b9a67346aa8487405"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><b>maxSampleSpacing</b> = 0.25</td></tr>
 <tr class="memdesc:a1f777e53c677f07b9a67346aa8487405"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum spacing of the outline samples, in bins. <br /></td></tr>
@@ -158,6 +160,23 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>vertexZHalfRange</b
 <div class="textblock"><p>Parameters of the detray surface grid of a volume. </p>
 <p>Detray looks up a surface grid by intersecting the tangent of the track with a virtual reference surface and reading the bins in a search window around the crossing. A single bin (a [0, 0] window, detray's default) is the cheapest lookup, so the grid is filled for it: that bin lists every surface a track of the configured family can reach from there. </p>
 </div><a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="ab66f77f81b52d4cad0d7bdc62dae80ee" name="ab66f77f81b52d4cad0d7bdc62dae80ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab66f77f81b52d4cad0d7bdc62dae80ee">&#9670;&#160;</a></span>lookupOnLayer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ActsPlugins::DetraySurfaceGridConfig::lookupOnLayer = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Look cylinder grids up on the mean radius of their surfaces instead of the mean radius of the volume portals. </p>
+<p>Straight tracks then cross the lookup surface where they hit a surface, so the vertex spread no longer widens the bins. </p>
+
+</div>
+</div>
 <a id="ae72359c66d8b72c08f68a37d7cc0f76d" name="ae72359c66d8b72c08f68a37d7cc0f76d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae72359c66d8b72c08f68a37d7cc0f76d">&#9670;&#160;</a></span>numberOfBinsFactor</h2>
 

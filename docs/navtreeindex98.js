@@ -1,5 +1,11 @@
 var NAVTREEINDEX98 =
 {
+"structdetray_1_1ray__intersector__impl_3_01cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html":[6,0,4,155],
+"structdetray_1_1ray__intersector__impl_3_01cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html":[8,0,3,168],
+"structdetray_1_1ray__intersector__impl_3_01cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#a0245ac9906ee4544a8af02c73873580c":[6,0,4,155,0],
+"structdetray_1_1ray__intersector__impl_3_01cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#a0245ac9906ee4544a8af02c73873580c":[6,0,4,155,1],
+"structdetray_1_1ray__intersector__impl_3_01cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#a0245ac9906ee4544a8af02c73873580c":[8,0,3,168,0],
+"structdetray_1_1ray__intersector__impl_3_01cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#a0245ac9906ee4544a8af02c73873580c":[8,0,3,168,1],
 "structdetray_1_1ray__intersector__impl_3_01cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#a0d67c6067d8e9eb090ea6be47ddd62c1":[6,0,4,155,14],
 "structdetray_1_1ray__intersector__impl_3_01cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#a0d67c6067d8e9eb090ea6be47ddd62c1":[8,0,3,168,14],
 "structdetray_1_1ray__intersector__impl_3_01cylindrical2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#a1b275e150ce59debeb29e30f299ffb05":[6,0,4,155,5],
@@ -243,11 +249,5 @@ var NAVTREEINDEX98 =
 "structdetray_1_1stepper__rk__policy.html#a9d4499dbe64b79678e8062a0edec3fd0":[6,0,4,171,1],
 "structdetray_1_1stepper__rk__policy.html#a9d4499dbe64b79678e8062a0edec3fd0":[8,0,3,184,1],
 "structdetray_1_1stepper__rk__policy_1_1state.html":[6,0,4,171,0],
-"structdetray_1_1stepper__rk__policy_1_1state.html":[8,0,3,184,0],
-"structdetray_1_1stepper__rk__policy_1_1state.html#a1f00e6efb5c75f02a6580ca3e340b5c1":[6,0,4,171,0,1],
-"structdetray_1_1stepper__rk__policy_1_1state.html#a1f00e6efb5c75f02a6580ca3e340b5c1":[8,0,3,184,0,1],
-"structdetray_1_1stepper__rk__policy_1_1state.html#a9e1cee433aaffbe8b2824d85dd13c08b":[6,0,4,171,0,0],
-"structdetray_1_1stepper__rk__policy_1_1state.html#a9e1cee433aaffbe8b2824d85dd13c08b":[8,0,3,184,0,0],
-"structdetray_1_1stepping_1_1config.html":[8,0,3,13,0],
-"structdetray_1_1stepping_1_1config.html#a2420be8f14f394b3ada42ccd044e8370":[8,0,3,13,0,4]
+"structdetray_1_1stepper__rk__policy_1_1state.html":[8,0,3,184,0]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX68 =
 {
+"struct_acts_1_1_doublet_seed_finder_1_1_derived_config.html#acc439a90f3c31d85ae3452d229cab3c7":[6,0,0,126,1,0],
+"struct_acts_1_1_doublet_seed_finder_1_1_derived_config.html#acc439a90f3c31d85ae3452d229cab3c7":[8,0,0,131,1,0],
 "struct_acts_1_1_doublets_for_middle_sp_1_1_index_and_cot_theta.html":[6,0,0,127,0],
 "struct_acts_1_1_doublets_for_middle_sp_1_1_index_and_cot_theta.html":[8,0,0,132,0],
 "struct_acts_1_1_doublets_for_middle_sp_1_1_index_and_cot_theta.html#a818543cad32fef5c90a07361d4e64bba":[6,0,0,127,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX68 =
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#ad206fd302688c67ca5e15d7f6f4ba47e":[6,0,0,1,6,3,7],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#ad206fd302688c67ca5e15d7f6f4ba47e":[8,0,0,2,6,3,7],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#ad8f4b7939642649a7314ef09c3fa86d9":[6,0,0,1,6,3,8],
-"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#ad8f4b7939642649a7314ef09c3fa86d9":[8,0,0,2,6,3,8],
-"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_result.html":[6,0,0,1,6,4],
-"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_result.html":[8,0,0,2,6,4]
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#ad8f4b7939642649a7314ef09c3fa86d9":[8,0,0,2,6,3,8]
 };

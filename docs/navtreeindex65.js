@@ -1,5 +1,7 @@
 var NAVTREEINDEX65 =
 {
+"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_state.html#a6f6aaec3be2fe16474e4ba0fd9c13ad5":[6,0,0,14,1,1],
+"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_state.html#a6f6aaec3be2fe16474e4ba0fd9c13ad5":[8,0,0,19,1,1],
 "struct_acts_1_1_adaptive_grid_track_density_1_1_config.html":[6,0,0,15,0],
 "struct_acts_1_1_adaptive_grid_track_density_1_1_config.html":[8,0,0,20,0],
 "struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a0277d32f9b1e9cdda28b81bcb9c4a566":[6,0,0,15,0,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX65 =
 "struct_acts_1_1_blueprint_1_1_config.html#a50bb5dab9e7be23af8e926180042fd03":[6,0,0,54,0,1],
 "struct_acts_1_1_blueprint_1_1_config.html#a50bb5dab9e7be23af8e926180042fd03":[8,0,0,59,0,1],
 "struct_acts_1_1_blueprint_options.html":[6,0,0,57],
-"struct_acts_1_1_blueprint_options.html":[8,0,0,62],
-"struct_acts_1_1_blueprint_options.html#a5d800ff7d1c38110ad91682574f6912d":[6,0,0,57,2],
-"struct_acts_1_1_blueprint_options.html#a5d800ff7d1c38110ad91682574f6912d":[8,0,0,62,2]
+"struct_acts_1_1_blueprint_options.html":[8,0,0,62]
 };

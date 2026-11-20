@@ -12,6 +12,7 @@ var classdetray_1_1grid__builder =
     [ "init_grid", "classdetray_1_1grid__builder.html#acde66a3f3f46b541cc72f27c73a992c6", null ],
     [ "init_grid", "classdetray_1_1grid__builder.html#adb770358c2e884dec02edcc5392d15b2", null ],
     [ "set_add_passives", "classdetray_1_1grid__builder.html#a00ed3c1c1be4e077a165cfd921a026af", null ],
+    [ "set_reference_radius", "classdetray_1_1grid__builder.html#a468047d65463362dfb69f73a0562c9fc", null ],
     [ "set_type", "classdetray_1_1grid__builder.html#aa44e762e2d4c9c3799317a314f85824a", null ],
     [ "set_type", "classdetray_1_1grid__builder.html#a0fd0988f2001614fd29561b3e5bdaa57", null ]
 ];

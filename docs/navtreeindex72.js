@@ -1,5 +1,7 @@
 var NAVTREEINDEX72 =
 {
+"struct_acts_1_1_gaussian_grid_track_density_1_1_config.html#ade5166dfb1ea521836b1b27be215a04f":[6,0,0,151,0,4],
+"struct_acts_1_1_gaussian_grid_track_density_1_1_config.html#ade5166dfb1ea521836b1b27be215a04f":[8,0,0,156,0,4],
 "struct_acts_1_1_gaussian_sum_fitter.html":[5,13,13],
 "struct_acts_1_1_gaussian_sum_fitter.html#a24e63a2d63a65587af752fbb208bad53":[5,13,13,2],
 "struct_acts_1_1_gaussian_sum_fitter.html#a3eb80d8a5bba0b463aeff8c4e3bfbcc5":[5,13,13,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX72 =
 "struct_acts_1_1_grid_axis_generators_1_1_var_var.html":[8,0,0,4,5],
 "struct_acts_1_1_grid_axis_generators_1_1_var_var.html#a015a2837a034173f4039c58e8013af32":[6,0,0,2,5,4],
 "struct_acts_1_1_grid_axis_generators_1_1_var_var.html#a015a2837a034173f4039c58e8013af32":[8,0,0,4,5,4],
-"struct_acts_1_1_grid_axis_generators_1_1_var_var.html#a70076e03e7fd9dde97f9cd00d387ea1e":[6,0,0,2,5,2],
-"struct_acts_1_1_grid_axis_generators_1_1_var_var.html#a70076e03e7fd9dde97f9cd00d387ea1e":[8,0,0,4,5,2],
-"struct_acts_1_1_grid_axis_generators_1_1_var_var.html#a75a0722f3b0930b21e486fd91318573f":[6,0,0,2,5,1]
+"struct_acts_1_1_grid_axis_generators_1_1_var_var.html#a70076e03e7fd9dde97f9cd00d387ea1e":[6,0,0,2,5,2]
 };

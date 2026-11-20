@@ -160,6 +160,8 @@ std::vector&lt; <a class="el" href="structdetray_1_1io_1_1axis__payload.html">ax
 <tr class="memitem:a2dc98cd653bfc8f9fd6c1b143c4195f1" id="r_a2dc98cd653bfc8f9fd6c1b143c4195f1"><td class="memItemLeft" align="right" valign="top"><a id="a2dc98cd653bfc8f9fd6c1b143c4195f1" name="a2dc98cd653bfc8f9fd6c1b143c4195f1"></a>
 <a class="el" href="structdetray_1_1io_1_1single__link__payload.html">single_link_payload</a>&#160;</td><td class="memItemRight" valign="bottom"><b>owner_link</b> {}</td></tr>
 <tr class="memdesc:a2dc98cd653bfc8f9fd6c1b143c4195f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Volume-local owner of this grid payload. <br /></td></tr>
+<tr class="memitem:ad1516687b8e182ca549d71eca6d2c4d1" id="r_ad1516687b8e182ca549d71eca6d2c4d1"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="namespacedetray_1_1io.html#a497839db76de34ac60dceb64b177ea0a">io::scalar</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1516687b8e182ca549d71eca6d2c4d1">reference_radius</a> {}</td></tr>
+<tr class="memdesc:ad1516687b8e182ca549d71eca6d2c4d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Radius of the virtual cylinder a cylinder surface grid is looked up on.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename bin_content_t = std::size_t, typename grid_id_t = io::accel_id&gt;<br />
@@ -188,6 +190,25 @@ template&lt;typename bin_content_t = std::size_t, typename grid_id_t = io::accel
 
 <p>Bin contents in serializer-defined order. </p>
 <p>Bin contents arranged in serializer order. </p>
+
+</div>
+</div>
+<a id="ad1516687b8e182ca549d71eca6d2c4d1" name="ad1516687b8e182ca549d71eca6d2c4d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1516687b8e182ca549d71eca6d2c4d1">&#9670;&#160;</a></span>reference_radius</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename bin_content_t = std::size_t, typename grid_id_t = io::accel_id&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt;<a class="el" href="namespacedetray_1_1io.html#a497839db76de34ac60dceb64b177ea0a">io::scalar</a>&gt; <a class="el" href="structdetray_1_1io_1_1grid__payload.html">detray::io::grid_payload</a>&lt; bin_content_t, grid_id_t &gt;::reference_radius {}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Radius of the virtual cylinder a cylinder surface grid is looked up on. </p>
+<p>If unset, the reader derives it from the portals of the volume. </p>
 
 </div>
 </div>

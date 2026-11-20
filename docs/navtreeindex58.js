@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"concept_acts_1_1_ambiguity_network_concept.html":[7,0,12],
+"concept_acts_1_1_axis_concept.html":[6,0,0,471],
 "concept_acts_1_1_axis_concept.html":[7,0,13],
 "concept_acts_1_1_bound_track_parameters_concept.html":[6,0,0,472],
 "concept_acts_1_1_bound_track_parameters_concept.html":[7,0,14],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "conceptdetray_1_1concepts_1_1spatial__grid.html":[6,0,4,1,78],
 "conceptdetray_1_1concepts_1_1spatial__grid.html":[7,1,0,78],
 "conceptdetray_1_1concepts_1_1square__matrix.html":[6,0,4,1,79],
-"conceptdetray_1_1concepts_1_1square__matrix.html":[7,1,0,79],
-"conceptdetray_1_1concepts_1_1surface__accelerator.html":[6,0,4,1,80],
-"conceptdetray_1_1concepts_1_1surface__accelerator.html":[7,1,0,80]
+"conceptdetray_1_1concepts_1_1square__matrix.html":[7,1,0,79]
 };
