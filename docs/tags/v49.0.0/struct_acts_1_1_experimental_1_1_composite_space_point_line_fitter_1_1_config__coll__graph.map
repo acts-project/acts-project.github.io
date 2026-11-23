@@ -1,0 +1,11 @@
+<map id="Acts::Experimental::CompositeSpacePointLineFitter::Config" name="Acts::Experimental::CompositeSpacePointLineFitter::Config">
+<area shape="rect" id="Node000001" title="Fitter configuration object." alt="" coords="86,246,318,308"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,128,189,173"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="126,183,179,245,174,246,124,188"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="36,5,158,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="98,46,100,128,94,128,96,51"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="213,137,405,164"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="291,175,230,248,226,244,286,177"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="245,5,373,33"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="311,47,311,137,307,135,307,51"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="ActsFatras::Cluster&lt; signal_t, kSize &gt;" name="ActsFatras::Cluster&lt; signal_t, kSize &gt;">
+<area shape="rect" id="Node000001" title="A (simulated) cluster with its constituents." alt="" coords="691,47,836,92"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="375,10,532,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="548,41,693,61,688,61,547,46"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="9,16,130,44"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="146,28,375,29,373,34,146,33"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="343,82,564,127"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="579,99,667,91,688,89,693,89,667,96,579,105"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,95,134,122"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="149,105,343,103,342,108,149,110"/>
+</map>

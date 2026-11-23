@@ -1,0 +1,5 @@
+<map id="detray::base_actor::is_comp_actor" name="detray::base_actor::is_comp_actor">
+<area shape="rect" id="Node000001" title="Tag whether this is a composite type." alt="" coords="5,81,147,126"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="17,5,135,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,47,79,81,73,80,74,51"/>
+</map>

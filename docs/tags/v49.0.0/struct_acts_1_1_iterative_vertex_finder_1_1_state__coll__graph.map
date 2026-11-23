@@ -1,0 +1,14 @@
+<map id="Acts::IterativeVertexFinder::State" name="Acts::IterativeVertexFinder::State">
+<area shape="rect" id="Node000001" title="State struct." alt="" coords="117,435,311,480"/>
+<area shape="rect" id="Node000002" href="$struct_acts_1_1_impact_point_estimator_1_1_state.html" title="State struct." alt="" coords="5,318,204,362"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,371,196,434,191,435,134,376"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_any_base.html" title=" " alt="" coords="20,200,189,245"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="105,258,107,318,102,317,104,263"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_any_base_all.html" title="Base class for all instances of AnyBase regarfless of SBO size." alt="" coords="34,5,165,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="101,46,107,200,101,200,99,51"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_any_base.html" title="Small opaque type&#45;erased type with configurable small buffer optimization." alt="" coords="120,82,297,127"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="128,40,183,81,178,83,129,45"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="178,141,126,201,122,198,180,136"/>
+<area shape="rect" id="Node000006" href="$class_acts_1_1_magnetic_field_query.html" title="A field provider paired with its own reusable lookup cache." alt="" coords="228,326,416,354"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="302,364,236,437,232,433,297,366"/>
+</map>

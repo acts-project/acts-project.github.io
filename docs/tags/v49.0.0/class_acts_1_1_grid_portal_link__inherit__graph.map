@@ -1,0 +1,7 @@
+<map id="Acts::GridPortalLink" name="Acts::GridPortalLink">
+<area shape="rect" id="Node000001" title="GridPortalLink implements a subdivided surface where the target volume depends on the position on the..." alt="" coords="9,81,159,109"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_grid_portal_link_t.html" title="Concrete class deriving from GridPortalLink that boxes a concrete grid for lookup." alt="" coords="5,157,163,201"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="86,123,87,157,81,155,82,127"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_portal_link_base.html" title="PortalLinkBase is the abstract base class for all portal links." alt="" coords="7,5,161,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,46,87,81,81,80,83,51"/>
+</map>

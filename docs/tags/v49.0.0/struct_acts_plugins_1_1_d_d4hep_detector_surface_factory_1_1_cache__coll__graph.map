@@ -1,0 +1,16 @@
+<map id="ActsPlugins::DD4hepDetectorSurfaceFactory::Cache" name="ActsPlugins::DD4hepDetectorSurfaceFactory::Cache">
+<area shape="rect" id="Node000001" title="Nested cache that records the conversion status." alt="" coords="770,113,982,158"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="381,5,598,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="613,45,680,59,747,77,831,113,826,113,745,82,679,64,613,50"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,123,134,151"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="97,111,125,91,157,75,212,56,270,43,383,30,378,33,271,48,214,61,159,79,128,96,100,115"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="386,75,592,119"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="148,125,157,124,387,103,384,108,158,129,150,130"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="406,144,572,205"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="111,155,158,171,222,180,288,184,408,182,403,184,288,189,222,186,157,176,111,160"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="419,229,560,274"/>
+<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="92,160,122,190,159,214,225,237,294,249,360,254,421,257,416,257,360,259,293,254,223,242,156,219,119,194,90,165"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="608,106,772,125,767,125,608,111"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="588,164,746,150,772,150,767,150,746,155,588,170"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="575,234,658,216,745,191,828,159,833,158,747,197,659,221,575,240"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="Acts::AdaptiveGridTrackDensity::Config" name="Acts::AdaptiveGridTrackDensity::Config">
+<area shape="rect" id="Node000001" title="The configuration struct." alt="" coords="816,60,1042,105"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="414,18,552,62"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="567,45,818,71,813,72,567,51"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,76,150,103"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="151,69,173,65,301,50,416,43,411,44,301,55,174,71,153,74"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="379,103,587,164"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="113,109,143,124,174,135,226,144,278,148,381,147,376,148,278,153,225,149,173,140,141,129,112,114"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="602,133,695,130,792,119,858,106,864,105,792,125,696,135,603,138"/>
+</map>

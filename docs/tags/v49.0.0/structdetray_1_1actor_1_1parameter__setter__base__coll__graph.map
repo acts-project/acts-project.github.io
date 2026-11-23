@@ -1,0 +1,5 @@
+<map id="detray::actor::parameter_setter_base&lt; algebra_t, state_t &gt;" name="detray::actor::parameter_setter_base&lt; algebra_t, state_t &gt;">
+<area shape="rect" id="Node000001" title="Set the free track parameters in the stepper state, in case observing actors (e.g." alt="" coords="5,81,190,143"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1base__actor.html" title="Base class actor implementation." alt="" coords="27,5,168,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,47,100,81,95,80,96,51"/>
+</map>

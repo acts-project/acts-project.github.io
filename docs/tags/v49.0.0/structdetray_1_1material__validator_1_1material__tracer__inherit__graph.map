@@ -1,0 +1,5 @@
+<map id="detray::material_validator::material_tracer&lt; vector_t &gt;" name="detray::material_validator::material_tracer&lt; vector_t &gt;">
+<area shape="rect" id="Node000001" title="Actor that collects all material encountered by a track during navigation." alt="" coords="5,81,218,126"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1base__actor.html" title="Base class actor implementation." alt="" coords="41,5,182,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,47,114,81,109,79,110,51"/>
+</map>

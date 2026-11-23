@@ -1,0 +1,7 @@
+<map id="Acts::TrackProxy&lt; track_container_t, trajectory_t, holder_t, read_only &gt;" name="Acts::TrackProxy&lt; track_container_t, trajectory_t, holder_t, read_only &gt;">
+<area shape="rect" id="Node000001" title="Proxy class representing a single track." alt="" coords="732,66,914,128"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_track_proxy_common.html" title=" " alt="" coords="460,50,683,145"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="699,95,735,97,729,97,699,100"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_track_proxy_common.html" title="Common CRTP implementation shared by the various track proxy front&#45;ends." alt="" coords="5,66,193,128"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="208,95,460,95,458,100,208,100"/>
+</map>

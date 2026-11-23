@@ -1,0 +1,8 @@
+<map id="detray::types::contains_impl&lt; T, I, mapped_registry&lt; R, S &gt; &gt;" name="detray::types::contains_impl&lt; T, I, mapped_registry&lt; R, S &gt; &gt;">
+<area shape="rect" id="Node000001" title="Search a mapped registry and translate original positions to filtered positions where applicable." alt="" coords="5,222,216,284"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="46,5,164,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,48,112,222,107,222,103,50"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1types_1_1contains__impl.html" title="Does the list contain a particular type?" alt="" coords="127,82,342,127"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="138,39,203,81,198,83,138,44"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="209,138,138,224,134,220,204,140"/>
+</map>

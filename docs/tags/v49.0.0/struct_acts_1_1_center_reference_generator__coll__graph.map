@@ -1,0 +1,5 @@
+<map id="Acts::CenterReferenceGenerator" name="Acts::CenterReferenceGenerator">
+<area shape="rect" id="Node000001" title="A struct to access the center position as a sole reference." alt="" coords="5,81,237,109"/>
+<area shape="rect" id="Node000002" href="$struct_acts_1_1_i_reference_generator.html" title="An interface for reference point generators." alt="" coords="25,5,217,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,47,123,82,119,79,119,51"/>
+</map>

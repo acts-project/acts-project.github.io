@@ -1,0 +1,5 @@
+<map id="ActsPlugins::ITGeoDetectorElementSplitter" name="ActsPlugins::ITGeoDetectorElementSplitter">
+<area shape="rect" id="Node000001" title="ITGeoElementSplitter." alt="" coords="5,5,204,50"/>
+<area shape="rect" id="Node000002" href="$class_acts_plugins_1_1_t_geo_cylinder_disc_splitter.html" title="TGeoCylinderDiscSplitter." alt="" coords="8,98,201,143"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,64,107,99,102,97,103,68"/>
+</map>

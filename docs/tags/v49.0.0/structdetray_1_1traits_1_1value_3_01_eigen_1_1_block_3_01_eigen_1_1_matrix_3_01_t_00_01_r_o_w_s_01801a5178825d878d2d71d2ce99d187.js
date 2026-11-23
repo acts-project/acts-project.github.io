@@ -1,0 +1,4 @@
+var structdetray_1_1traits_1_1value_3_01_eigen_1_1_block_3_01_eigen_1_1_matrix_3_01_t_00_01_r_o_w_s_01801a5178825d878d2d71d2ce99d187 =
+[
+    [ "type", "structdetray_1_1traits_1_1value_3_01_eigen_1_1_block_3_01_eigen_1_1_matrix_3_01_t_00_01_r_o_w_s_01801a5178825d878d2d71d2ce99d187.html#a70b3176d475950b4a890142e727adbd5", null ]
+];

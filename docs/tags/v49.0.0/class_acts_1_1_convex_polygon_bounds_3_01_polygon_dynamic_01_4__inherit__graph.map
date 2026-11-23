@@ -1,0 +1,13 @@
+<map id="Acts::ConvexPolygonBounds&lt; PolygonDynamic &gt;" name="Acts::ConvexPolygonBounds&lt; PolygonDynamic &gt;">
+<area shape="rect" id="Node000001" title="This is the specialization handling a polygon with a dynamic number of points." alt="" coords="21,337,228,382"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_convex_polygon_bounds_base.html" title="base class for convex polygon bounds" alt="" coords="5,159,244,187"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,200,118,271,121,337,116,336,113,271,116,204"/>
+<area shape="poly" id="edge4_Node000001_Node000002" title=" " alt="" coords="133,200,136,271,133,337,128,336,131,271,130,204"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_convex_polygon_bounds.html" title="This is the actual implementation of the bounds." alt="" coords="173,236,420,264"/>
+<area shape="poly" id="edge6_Node000005_Node000002" title=" " alt="" coords="169,191,269,235,264,237,168,196"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_planar_bounds.html" title="common base class for all bounds that are in a local x/y cartesian frame" alt="" coords="51,82,198,110"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="125,123,127,160,122,159,124,128"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_surface_bounds.html" title="Interface for surface bounds." alt="" coords="47,5,202,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="125,46,127,82,122,82,124,51"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="265,272,161,339,158,334,260,273"/>
+</map>

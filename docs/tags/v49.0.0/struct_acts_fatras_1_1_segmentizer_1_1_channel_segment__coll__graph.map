@@ -1,0 +1,10 @@
+<map id="ActsFatras::Segmentizer::ChannelSegment" name="ActsFatras::Segmentizer::ChannelSegment">
+<area shape="rect" id="Node000001" title="Nested struct for representing channel steps." alt="" coords="99,224,277,268"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,106,163,151"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,160,171,223,166,224,112,165"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="127,5,249,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="138,43,120,59,103,82,93,107,88,105,99,80,116,55,141,38"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="186,114,400,142"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="231,38,254,55,276,85,291,115,286,114,272,88,250,59,231,44"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="274,152,209,225,206,221,269,154"/>
+</map>

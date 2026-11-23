@@ -1,0 +1,5 @@
+<map id="detray::tuple&lt; T, Ts... &gt;" name="detray::tuple&lt; T, Ts... &gt;">
+<area shape="rect" id="Node000001" title="Recursive tuple node holding one value and the remaining tuple tail." alt="" coords="5,106,180,134"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1tuple.html" title="Default tuple type." alt="" coords="19,5,166,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,47,95,106,90,105,90,50"/>
+</map>

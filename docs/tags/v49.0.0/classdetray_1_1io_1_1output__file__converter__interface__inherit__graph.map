@@ -1,0 +1,7 @@
+<map id="detray::io::output_file_converter_interface" name="detray::io::output_file_converter_interface">
+<area shape="rect" id="Node000001" title="Abstract base class for detray detector payload file writers." alt="" coords="5,98,188,143"/>
+<area shape="rect" id="Node000003" href="$classdetray_1_1io_1_1json__output__converter.html" title="Class that converts a detector payload to json and writes it to file (single component per file)." alt="" coords="13,191,180,235"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="98,156,99,191,94,190,95,160"/>
+<area shape="rect" id="Node000002" href="$classdetray_1_1io_1_1output__converter__interface.html" title="Abstract base class for detray detector payload output converters." alt="" coords="19,5,174,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,63,99,98,94,97,96,68"/>
+</map>

@@ -1,0 +1,26 @@
+<map id="ActsPlugins::TGeoLayerBuilder::LayerConfig" name="ActsPlugins::TGeoLayerBuilder::LayerConfig">
+<area shape="rect" id="Node000001" title="Helper config structs for volume parsing." alt="" coords="693,173,913,218"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="402,14,488,42"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="503,27,585,39,629,51,670,68,706,91,739,118,787,174,782,173,735,122,703,95,668,73,627,56,584,44,504,32"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="8,5,147,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="161,25,403,26,400,30,163,30"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="352,70,538,98"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="552,94,612,106,670,122,722,145,769,173,763,173,720,150,668,128,610,111,553,99"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="13,154,142,182"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="113,144,173,117,264,96,354,87,350,90,265,102,175,122,116,148"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="344,126,546,154"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="156,159,345,145,341,149,158,164"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="350,182,540,210"/>
+<area shape="poly" id="edge9_Node000008_Node000005" title=" " alt="" coords="145,183,174,187,264,194,352,197,347,200,264,200,173,193,147,188"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="342,249,548,294"/>
+<area shape="poly" id="edge13_Node000011_Node000005" title=" " alt="" coords="99,190,134,223,175,249,215,262,258,271,344,278,339,280,257,276,214,267,173,253,130,227,99,196"/>
+<area shape="rect" id="Node000006" href="$class_acts_plugins_1_1_t_geo_axes.html" title="Type&#45;safe representation of TGeo surface axes." alt="" coords="360,318,530,346"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="544,323,607,312,668,293,700,277,729,256,777,219,782,217,733,261,702,281,670,298,608,318,545,329"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="561,151,669,166,695,173,690,173,669,172,562,156"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="555,193,695,195,690,196,556,198"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="376,369,514,414"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="529,387,599,376,635,365,668,349,707,320,741,284,768,248,787,220,792,217,772,251,745,288,710,324,670,354,636,370,600,381,530,393"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="5,378,150,406"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="165,389,376,389,375,394,165,394"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="563,263,616,256,668,246,712,232,751,219,756,218,714,237,670,251,617,261,564,268"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="detray::brute_force_scan&lt; trajectory_t &gt;" name="detray::brute_force_scan&lt; trajectory_t &gt;">
+<area shape="rect" id="Node000001" title="struct that holds functionality to shoot a parametrized particle trajectory through a detector." alt="" coords="5,62,169,106"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1brute__force__scan.html" title=" " alt="" coords="381,10,531,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="184,70,382,48,379,52,185,75"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1brute__force__scan.html" title=" " alt="" coords="381,96,531,157"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="150,110,193,122,241,129,290,132,383,133,378,133,290,137,241,134,192,127,150,115"/>
+</map>

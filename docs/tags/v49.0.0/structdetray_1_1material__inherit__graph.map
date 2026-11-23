@@ -1,0 +1,67 @@
+<map id="detray::material&lt; scalar_t, R &gt;" name="detray::material&lt; scalar_t, R &gt;">
+<area shape="rect" id="Node000001" title="Material composition properties and density data used by interactions." alt="" coords="5,1011,185,1055"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="76,994,83,987,95,984,106,986,113,992,116,1010,111,1010,109,995,104,991,95,989,86,991,81,996"/>
+<area shape="poly" id="edge29_Node000001_Node000001" title=" " alt="" coords="55,997,55,983,61,970,75,962,95,959,119,964,133,976,135,993,128,1011,122,1009,130,993,128,979,117,968,95,964,77,967,65,974,60,984,61,997"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1air.html" title="Mixtures or Compounds." alt="" coords="434,5,575,50"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="94,995,97,819,112,568,126,438,146,319,172,220,188,181,207,150,229,125,255,103,314,70,376,47,435,35,432,39,378,53,316,75,258,108,233,129,211,153,193,183,177,222,151,320,131,439,117,568,103,819,99,995"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1aluminium.html" title="Predefined aluminium material with tabulated bulk properties." alt="" coords="429,75,580,119"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="94,995,99,831,116,601,130,482,149,374,174,283,190,247,207,219,229,195,254,174,311,141,372,118,430,105,427,109,373,123,314,145,257,178,232,199,211,223,194,250,180,285,155,375,135,483,121,601,105,831,99,995"/>
+<area shape="rect" id="Node000004" href="$structdetray_1_1argon__gas.html" title="Predefined argon gas material with tabulated bulk properties." alt="" coords="430,144,578,189"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="95,995,102,844,120,634,134,527,153,428,177,346,191,314,207,289,229,264,255,243,313,210,373,188,432,174,428,178,375,193,315,215,258,247,232,268,211,292,196,317,182,348,158,430,139,528,125,635,107,844,100,995"/>
+<area shape="rect" id="Node000005" href="$structdetray_1_1argon__liquid.html" title="Predefined argon liquid material with tabulated bulk properties." alt="" coords="429,213,580,258"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="95,995,104,857,124,668,138,572,157,484,179,411,192,382,207,359,229,335,254,314,312,281,372,258,431,244,427,248,374,263,314,286,257,318,232,339,211,363,197,385,184,413,162,485,144,573,129,669,110,857,101,995"/>
+<area shape="rect" id="Node000006" href="$structdetray_1_1beryllium.html" title="Predefined beryllium material with tabulated bulk properties." alt="" coords="433,283,576,327"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="96,995,107,869,128,702,143,617,161,539,182,474,207,429,229,404,256,383,314,350,376,327,434,313,431,317,377,332,317,354,259,387,233,408,211,432,187,476,166,540,148,618,133,702,112,870,101,995"/>
+<area shape="rect" id="Node000007" href="$structdetray_1_1beryllium__tml.html" title="Elements Declaration for ACTS Generic detector." alt="" coords="424,352,585,397"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="97,995,110,883,132,736,147,662,164,595,184,539,207,499,229,476,254,455,310,423,368,400,425,385,422,389,370,405,312,427,257,460,232,480,211,503,189,541,170,596,152,664,138,737,115,884,103,996"/>
+<area shape="rect" id="Node000008" href="$structdetray_1_1carbon__gas.html" title="Predefined carbon gas material with tabulated bulk properties." alt="" coords="432,421,576,466"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="92,995,95,911,109,799,124,739,144,679,171,622,207,570,230,546,256,525,315,491,376,468,434,454,430,458,377,473,317,496,259,529,233,550,211,573,176,624,149,681,129,740,115,800,100,911,98,996"/>
+<area shape="rect" id="Node000009" href="$structdetray_1_1cesium__iodide.html" title="Predefined cesium iodide material with tabulated bulk properties." alt="" coords="422,491,586,535"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="95,995,101,922,118,829,133,779,152,730,176,683,207,641,229,618,254,598,310,565,367,542,424,526,420,530,369,547,312,570,257,602,233,622,211,644,181,686,156,732,138,781,123,830,106,923,100,995"/>
+<area shape="rect" id="Node000010" href="$structdetray_1_1cesium__iodide__with__ded.html" title="Predefined cesium iodide material with density&#45;effect data." alt="" coords="412,560,597,605"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="97,995,107,934,127,859,159,780,181,743,207,710,252,670,304,639,359,616,413,600,409,604,361,621,307,644,255,674,211,713,185,746,164,783,132,861,113,935,103,995"/>
+<area shape="rect" id="Node000011" href="$structdetray_1_1copper.html" title="Predefined copper material with tabulated bulk properties." alt="" coords="420,629,588,674"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="102,995,115,947,136,890,167,831,207,779,255,739,310,708,366,685,421,668,418,672,368,690,313,713,258,744,211,783,171,834,141,892,120,948,107,996"/>
+<area shape="rect" id="Node000012" href="$structdetray_1_1copper__with__ded.html" title="Predefined copper material with density&#45;effect data." alt="" coords="429,699,580,743"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="108,996,146,920,174,880,207,844,259,806,317,776,375,752,430,736,427,740,377,757,319,781,262,811,210,848,178,883,151,923,113,997"/>
+<area shape="rect" id="Node000013" href="$structdetray_1_1gold.html" title="Predefined gold material with tabulated bulk properties." alt="" coords="428,768,580,813"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="118,997,157,949,207,904,261,871,319,844,430,807,426,811,321,849,264,876,210,908,161,953,123,999"/>
+<area shape="rect" id="Node000014" href="$structdetray_1_1helium__gas.html" title="Predefined helium gas material with tabulated bulk properties." alt="" coords="432,837,577,882"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="135,1000,170,976,207,955,265,929,324,907,433,875,429,879,325,913,267,934,210,959,173,980,139,1003"/>
+<area shape="rect" id="Node000015" href="$structdetray_1_1hydrogen__gas.html" title="Predefined hydrogen gas material with tabulated bulk properties." alt="" coords="424,907,585,951"/>
+<area shape="poly" id="edge15_Node000001_Node000015" title=" " alt="" coords="177,1004,208,994,425,943,422,948,209,1000,181,1007"/>
+<area shape="rect" id="Node000016" href="$structdetray_1_1hydrogen__liquid.html" title="Predefined hydrogen liquid material with tabulated bulk properties." alt="" coords="417,976,592,1021"/>
+<area shape="poly" id="edge16_Node000001_Node000016" title=" " alt="" coords="199,1022,418,1004,415,1008,202,1026"/>
+<area shape="rect" id="Node000017" href="$structdetray_1_1iron.html" title="Predefined iron material with tabulated bulk properties." alt="" coords="430,1045,579,1090"/>
+<area shape="poly" id="edge17_Node000001_Node000017" title=" " alt="" coords="199,1039,431,1060,427,1063,201,1044"/>
+<area shape="rect" id="Node000018" href="$structdetray_1_1iron__with__ded.html" title="Predefined iron material with density&#45;effect data." alt="" coords="424,1115,585,1159"/>
+<area shape="poly" id="edge18_Node000001_Node000018" title=" " alt="" coords="197,1058,209,1060,425,1115,421,1119,208,1065,200,1062"/>
+<area shape="rect" id="Node000019" href="$structdetray_1_1isobutane.html" title="Predefined isobutane material with tabulated bulk properties." alt="" coords="432,1184,577,1229"/>
+<area shape="poly" id="edge19_Node000001_Node000019" title=" " alt="" coords="135,1063,172,1087,210,1109,266,1134,325,1156,433,1188,429,1191,323,1161,264,1139,207,1114,169,1092,137,1068"/>
+<area shape="rect" id="Node000020" href="$structdetray_1_1nitrogen__gas.html" title="Predefined nitrogen gas material with tabulated bulk properties." alt="" coords="427,1253,582,1298"/>
+<area shape="poly" id="edge20_Node000001_Node000020" title=" " alt="" coords="115,1066,156,1125,181,1154,210,1179,263,1209,319,1233,376,1250,429,1263,424,1266,374,1255,318,1238,260,1214,207,1183,177,1158,151,1128,116,1071"/>
+<area shape="rect" id="Node000021" href="$structdetray_1_1oxygen__gas.html" title="Predefined oxygen gas material with tabulated bulk properties." alt="" coords="430,1323,578,1367"/>
+<area shape="poly" id="edge21_Node000001_Node000021" title=" " alt="" coords="105,1067,121,1113,142,1164,171,1215,190,1237,210,1258,262,1291,319,1314,377,1329,432,1339,428,1341,376,1334,318,1319,259,1296,207,1262,186,1241,167,1218,137,1166,116,1115,105,1073"/>
+<area shape="rect" id="Node000022" href="$structdetray_1_1oxygen__liquid.html" title="Predefined oxygen liquid material with tabulated bulk properties." alt="" coords="424,1392,585,1437"/>
+<area shape="poly" id="edge22_Node000001_Node000022" title=" " alt="" coords="99,1068,111,1129,129,1201,144,1238,162,1274,184,1307,210,1336,234,1354,259,1369,314,1391,371,1404,426,1412,421,1415,370,1410,313,1396,257,1374,231,1359,207,1340,179,1311,157,1277,139,1240,124,1203,105,1130,99,1073"/>
+<area shape="rect" id="Node000023" href="$structdetray_1_1propane.html" title="Predefined propane material with tabulated bulk properties." alt="" coords="416,1461,593,1506"/>
+<area shape="poly" id="edge23_Node000001_Node000023" title=" " alt="" coords="96,1068,103,1144,118,1236,133,1284,152,1331,178,1375,211,1412,232,1430,256,1444,309,1465,364,1477,417,1484,413,1487,363,1483,307,1471,254,1449,229,1434,207,1416,174,1378,147,1334,128,1286,113,1237,97,1144,96,1074"/>
+<area shape="rect" id="Node000024" href="$structdetray_1_1silicon.html" title="Predefined silicon material with tabulated bulk properties." alt="" coords="421,1531,588,1575"/>
+<area shape="poly" id="edge24_Node000001_Node000024" title=" " alt="" coords="101,1068,117,1169,139,1294,154,1355,171,1411,190,1456,211,1486,233,1504,257,1519,312,1540,368,1550,423,1556,419,1558,367,1556,310,1545,255,1524,230,1508,207,1489,185,1458,166,1413,149,1357,134,1295,111,1170,101,1074"/>
+<area shape="rect" id="Node000025" href="$structdetray_1_1silicon__tml.html" title="Predefined silicon material using TrackML bulk properties." alt="" coords="434,1600,575,1645"/>
+<area shape="poly" id="edge25_Node000001_Node000025" title=" " alt="" coords="99,1068,113,1183,134,1330,148,1403,166,1468,187,1522,211,1558,234,1577,260,1593,319,1613,379,1623,436,1626,431,1629,378,1628,317,1619,258,1598,231,1582,207,1561,182,1524,161,1470,143,1404,129,1330,108,1184,99,1074"/>
+<area shape="rect" id="Node000026" href="$structdetray_1_1silicon__with__ded.html" title="Predefined silicon material with density&#45;effect data." alt="" coords="429,1669,580,1714"/>
+<area shape="poly" id="edge26_Node000001_Node000026" title=" " alt="" coords="98,1068,109,1196,129,1365,143,1449,161,1526,184,1588,197,1612,211,1630,233,1649,259,1664,316,1684,374,1694,431,1697,426,1699,374,1699,314,1690,257,1669,230,1653,207,1634,192,1615,179,1590,156,1527,138,1450,123,1366,104,1197,98,1073"/>
+<area shape="rect" id="Node000027" href="$structdetray_1_1tungsten.html" title="Predefined tungsten material with tabulated bulk properties." alt="" coords="414,1739,595,1783"/>
+<area shape="poly" id="edge27_Node000001_Node000027" title=" " alt="" coords="97,1068,106,1211,124,1400,138,1496,157,1583,181,1653,195,1680,211,1701,231,1718,255,1733,307,1753,361,1763,416,1767,411,1769,361,1768,305,1758,252,1738,228,1723,207,1704,191,1683,176,1655,152,1584,133,1497,119,1401,101,1211,97,1074"/>
+<area shape="rect" id="Node000028" href="$structdetray_1_1vacuum.html" title="Elements Declaration." alt="" coords="416,1808,592,1853"/>
+<area shape="poly" id="edge28_Node000001_Node000028" title=" " alt="" coords="97,1068,104,1224,119,1435,133,1542,153,1639,178,1718,194,1748,211,1771,232,1789,255,1804,308,1824,363,1833,418,1837,413,1839,363,1839,306,1829,253,1809,228,1794,207,1775,189,1751,173,1720,147,1640,128,1542,114,1435,98,1224,96,1074"/>
+<area shape="rect" id="Node000029" title=" " alt="" coords="415,1877,594,1922"/>
+<area shape="poly" id="edge30_Node000001_Node000029" title=" " alt="" coords="99,1068,114,1258,137,1519,152,1648,169,1760,189,1844,200,1872,211,1888,224,1896,243,1902,294,1909,354,1909,417,1908,412,1910,354,1915,294,1914,242,1907,222,1901,207,1892,195,1874,184,1846,164,1761,147,1648,131,1519,108,1258,98,1074"/>
+<area shape="rect" id="Node000030" href="$structdetray_1_1material.html" title=" " alt="" coords="413,1957,596,2018"/>
+<area shape="poly" id="edge31_Node000001_Node000030" title=" " alt="" coords="98,1068,111,1277,133,1569,148,1714,166,1841,187,1936,198,1967,211,1985,232,2000,255,2011,307,2022,361,2021,415,2015,410,2016,361,2027,307,2027,254,2016,229,2005,207,1989,194,1969,182,1937,160,1842,142,1715,127,1569,106,1277,98,1074"/>
+<area shape="rect" id="Node000032" href="$structdetray_1_1material.html" title=" " alt="" coords="415,2043,594,2087"/>
+<area shape="poly" id="edge33_Node000001_Node000032" title=" " alt="" coords="98,1068,110,1289,131,1604,145,1760,164,1897,186,2000,198,2034,211,2054,233,2070,258,2082,285,2090,313,2094,370,2093,421,2088,426,2088,370,2099,312,2099,284,2095,256,2087,230,2075,207,2057,193,2036,180,2001,158,1898,140,1761,125,1604,105,1290,97,1073"/>
+<area shape="rect" id="Node000031" href="$structdetray_1_1mixture.html" title="Compile&#45;time material mixture type." alt="" coords="646,1965,822,2010"/>
+<area shape="poly" id="edge32_Node000030_Node000031" title=" " alt="" coords="611,1985,649,1987,643,1988,611,1990"/>
+</map>

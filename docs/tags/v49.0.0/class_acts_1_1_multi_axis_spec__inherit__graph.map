@@ -1,0 +1,11 @@
+<map id="Acts::MultiAxisSpec" name="Acts::MultiAxisSpec">
+<area shape="rect" id="Node000001" title="Specification of a multi&#45;dimensional binning that builds the axes of a grid." alt="" coords="151,5,300,33"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_multi_axis_spec_x_d.html" title=" " alt="" coords="5,200,212,228"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="177,42,154,60,132,84,118,114,112,146,110,200,105,199,106,145,113,112,128,81,150,56,181,39"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_multi_axis_spec_x_d.html" title=" " alt="" coords="241,200,448,228"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="273,38,301,56,324,81,339,112,346,145,348,201,343,198,341,146,334,114,320,84,298,60,272,43"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_multi_axis_spec_x_d.html" title="Multi&#45;dimensional binning spec of a compile&#45;time dimension." alt="" coords="142,82,310,127"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="227,46,228,83,223,81,224,51"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="193,138,124,202,121,198,188,138"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="250,137,284,174,320,200,315,199,281,178,248,142"/>
+</map>

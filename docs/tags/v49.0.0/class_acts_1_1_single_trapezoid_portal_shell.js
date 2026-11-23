@@ -1,0 +1,10 @@
+var class_acts_1_1_single_trapezoid_portal_shell =
+[
+    [ "SingleTrapezoidPortalShell", "class_acts_1_1_single_trapezoid_portal_shell.html#ab25c783f2dab3b176bc059197f462c81", null ],
+    [ "applyToVolume", "class_acts_1_1_single_trapezoid_portal_shell.html#a98a9ea43768cddc42a74bed2b532952a", null ],
+    [ "isValid", "class_acts_1_1_single_trapezoid_portal_shell.html#a5af2f99b4834d11bf4e484fdf8919b03", null ],
+    [ "label", "class_acts_1_1_single_trapezoid_portal_shell.html#a848bed244ea2506138b7cbd463da0ddc", null ],
+    [ "portal", "class_acts_1_1_single_trapezoid_portal_shell.html#a5808fb256dcdb757f8999477b3644131", null ],
+    [ "setPortal", "class_acts_1_1_single_trapezoid_portal_shell.html#afd263d9466ae6ac6db248145d06b4d2d", null ],
+    [ "size", "class_acts_1_1_single_trapezoid_portal_shell.html#a52cffaf09dcadbc61fba99ef64e4fbea", null ]
+];

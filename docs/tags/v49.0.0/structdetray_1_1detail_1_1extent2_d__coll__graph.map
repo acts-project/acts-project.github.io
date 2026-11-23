@@ -1,0 +1,5 @@
+<map id="detray::detail::extent2D&lt; scalar_t &gt;" name="detray::detail::extent2D&lt; scalar_t &gt;">
+<area shape="rect" id="Node000001" title="Helper type, used to define the r&#45; or z&#45;extent of detector volumes." alt="" coords="5,128,181,173"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="57,5,129,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,47,96,129,90,128,91,50"/>
+</map>

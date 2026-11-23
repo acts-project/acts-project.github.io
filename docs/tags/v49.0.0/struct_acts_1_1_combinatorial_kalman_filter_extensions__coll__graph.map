@@ -1,0 +1,13 @@
+<map id="Acts::CombinatorialKalmanFilterExtensions&lt; track_container_t &gt;" name="Acts::CombinatorialKalmanFilterExtensions&lt; track_container_t &gt;">
+<area shape="rect" id="Node000001" title="Extension struct which holds the delegates to customize the CKF behavior." alt="" coords="929,203,1128,265"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="499,74,726,136"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="729,138,931,203,926,204,728,144"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="5,223,207,267"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="125,208,167,151,196,124,230,104,296,82,366,73,436,73,501,81,496,83,435,79,367,79,297,88,232,109,199,129,171,155,129,211"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="468,186,757,282"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="222,243,444,240,470,242,465,243,444,246,223,248"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="509,306,716,384"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="148,274,188,298,232,317,302,335,374,344,445,348,511,351,505,351,445,354,374,350,301,340,230,322,185,303,147,279"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="772,232,932,234,926,235,772,237"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="731,311,926,261,931,260,732,316"/>
+</map>

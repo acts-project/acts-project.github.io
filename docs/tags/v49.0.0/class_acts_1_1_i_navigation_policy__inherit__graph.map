@@ -1,0 +1,31 @@
+<map id="Acts::INavigationPolicy" name="Acts::INavigationPolicy">
+<area shape="rect" id="Node000001" title="Base class for all navigation policies." alt="" coords="5,435,177,462"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_index_grid_navigation_policy.html" title=" " alt="" coords="691,122,949,167"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,419,113,368,139,303,175,236,198,204,224,176,281,129,332,102,389,86,462,71,519,61,565,57,611,60,668,71,730,92,784,121,779,122,728,97,667,76,610,66,565,62,520,66,463,76,390,91,334,107,284,134,228,180,202,208,180,239,143,305,118,369,102,420"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_index_grid_navigation_policy.html" title=" " alt="" coords="704,11,936,56"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="93,419,103,354,125,270,143,226,164,183,191,143,224,108,277,70,336,41,399,22,464,10,529,4,592,3,706,12,701,15,592,8,529,9,465,15,400,27,338,46,280,74,228,112,196,146,169,186,147,228,131,272,108,355,98,420"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_index_grid_navigation_policy.html" title=" " alt="" coords="704,298,936,343"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="124,424,171,398,225,377,297,365,422,352,706,328,702,331,422,357,297,370,227,382,174,403,128,428"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_index_grid_navigation_policy.html" title=" " alt="" coords="700,203,940,248"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="115,422,163,381,193,361,225,345,289,323,345,312,396,309,444,310,544,311,601,306,667,291,713,273,774,247,770,250,715,278,668,296,602,311,544,317,444,315,396,314,346,318,290,328,227,350,196,365,166,385,119,425"/>
+<area shape="rect" id="Node000006" href="$class_acts_1_1_cylinder_navigation_policy.html" title="Optimized navigation policy for cylindrical volumes that intelligently selects which portals to add a..." alt="" coords="241,391,423,436"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="190,432,243,425,239,429,193,436"/>
+<area shape="rect" id="Node000007" href="$class_acts_1_1_experimental_1_1_frustum_navigation_policy.html" title="A navigation policy that uses frustum&#45;octree intersections to find portals." alt="" coords="236,461,428,505"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="191,460,238,468,233,471,193,465"/>
+<area shape="rect" id="Node000008" href="$class_acts_1_1_index_grid_navigation_policy.html" title="A navigation policy that uses grid based navigation for indexed surfaces Navigate through a multilaye..." alt="" coords="236,190,428,235"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="103,420,141,353,168,316,199,283,236,255,278,233,275,237,239,259,202,286,172,319,146,356,108,422"/>
+<area shape="rect" id="Node000009" href="$class_acts_1_1_multi_layer_navigation_policy.html" title="A navigation policy that uses grid based navigation for indexed surfaces Navigate through a multilaye..." alt="" coords="234,530,431,575"/>
+<area shape="poly" id="edge12_Node000001_Node000009" title=" " alt="" coords="130,467,227,515,259,529,254,530,225,520,130,473"/>
+<area shape="rect" id="Node000010" href="$class_acts_1_1_multi_navigation_policy.html" title="Combined navigation policy that calls all contained other navigation policies." alt="" coords="232,599,432,626"/>
+<area shape="poly" id="edge13_Node000001_Node000010" title=" " alt="" coords="111,472,160,530,192,560,227,585,253,598,248,599,225,589,189,564,156,534,110,478"/>
+<area shape="rect" id="Node000011" href="$class_acts_1_1_surface_array_navigation_policy.html" title="A navigation policy that internally uses the Gen1 SurfaceArray class." alt="" coords="226,650,438,695"/>
+<area shape="poly" id="edge14_Node000001_Node000011" title=" " alt="" coords="105,473,126,511,153,555,187,598,228,636,248,649,243,650,224,640,183,602,149,558,121,514,105,479"/>
+<area shape="rect" id="Node000012" href="$class_acts_1_1_try_all_navigation_policy.html" title="Policy which adds all candidates of the configured type to the stream." alt="" coords="230,719,434,746"/>
+<area shape="poly" id="edge15_Node000001_Node000012" title=" " alt="" coords="99,475,116,527,141,589,178,652,201,680,228,705,247,718,242,718,224,709,197,684,174,655,137,591,111,529,99,480"/>
+<area shape="rect" id="Node000013" href="$class_acts_plugins_1_1_detray_surface_grid_policy.html" title="Navigation policy carrying the DetraySurfaceGridConfig of a volume." alt="" coords="234,770,431,815"/>
+<area shape="poly" id="edge16_Node000001_Node000013" title=" " alt="" coords="97,475,112,536,136,611,153,650,174,688,199,724,228,756,245,770,240,769,224,760,194,728,169,691,148,652,131,612,107,537,96,480"/>
+<area shape="poly" id="edge8_Node000008_Node000002" title=" " alt="" coords="442,187,462,183,693,155,689,158,463,188,445,191"/>
+<area shape="poly" id="edge9_Node000008_Node000003" title=" " alt="" coords="374,179,415,152,461,127,522,103,584,83,705,54,701,57,586,88,523,108,463,132,418,156,377,183"/>
+<area shape="poly" id="edge10_Node000008_Node000004" title=" " alt="" coords="417,237,463,250,587,277,707,301,702,303,586,282,462,255,418,242"/>
+<area shape="poly" id="edge11_Node000008_Node000005" title=" " alt="" coords="442,213,702,221,698,224,444,218"/>
+</map>

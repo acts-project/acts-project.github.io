@@ -1,0 +1,27 @@
+var classdetray_1_1svgtools_1_1illustrator =
+[
+    [ "illustrator", "classdetray_1_1svgtools_1_1illustrator.html#ab51379765d4469e85abdbeebe0f0f078", null ],
+    [ "det_name", "classdetray_1_1svgtools_1_1illustrator.html#a6aa9b881e60f7e055d45fcceedeaea5e", null ],
+    [ "draw_detector", "classdetray_1_1svgtools_1_1illustrator.html#ac3b731a428c5c099da6c381799b1020c", null ],
+    [ "draw_intersections", "classdetray_1_1svgtools_1_1illustrator.html#a04408b9604197330d79be8fc953b31cf", null ],
+    [ "draw_intersections_and_trajectory", "classdetray_1_1svgtools_1_1illustrator.html#a619e14af61ee72db3336ba53cdc80d97", null ],
+    [ "draw_landmark", "classdetray_1_1svgtools_1_1illustrator.html#a4ebd49a2b1e2e36fb4716cc73f545261", null ],
+    [ "draw_surface", "classdetray_1_1svgtools_1_1illustrator.html#ab94e3b2e56e727888e09a646acedf620", null ],
+    [ "draw_surface_material", "classdetray_1_1svgtools_1_1illustrator.html#aff3d574c118f1685b967e5dd5addb678", null ],
+    [ "draw_surface_materials", "classdetray_1_1svgtools_1_1illustrator.html#a5ac37609e407d81315d0bc4d6440f08b", null ],
+    [ "draw_surfaces", "classdetray_1_1svgtools_1_1illustrator.html#a294b07bc31ad8a70c7a1cdf679a868fe", null ],
+    [ "draw_trajectory", "classdetray_1_1svgtools_1_1illustrator.html#ae47be744a6bad55bfe91fdfc2b1ba2a6", null ],
+    [ "draw_trajectory", "classdetray_1_1svgtools_1_1illustrator.html#a5a065cc6294308c21416c40b82c71cc5", null ],
+    [ "draw_volume", "classdetray_1_1svgtools_1_1illustrator.html#ab9e69b331ccecbc528b35d20e0e1aedf", null ],
+    [ "draw_volume", "classdetray_1_1svgtools_1_1illustrator.html#a5737d1af1a03a251b878cc490dadbb27", null ],
+    [ "draw_volumes", "classdetray_1_1svgtools_1_1illustrator.html#a96a45a8c4ca5e2d6da553bb3db0bb48a", null ],
+    [ "hide_eta_lines", "classdetray_1_1svgtools_1_1illustrator.html#ac4731eedcc379ed17ce773299d5b33f9", null ],
+    [ "hide_grids", "classdetray_1_1svgtools_1_1illustrator.html#a5e96a3ab2c48866f051968074c0e592f", null ],
+    [ "hide_material", "classdetray_1_1svgtools_1_1illustrator.html#a705bcfbf3880d231c6bed5b75caf4643", null ],
+    [ "hide_passives", "classdetray_1_1svgtools_1_1illustrator.html#a3da56ea48e9acd2bd75a3082da3915f0", null ],
+    [ "hide_portals", "classdetray_1_1svgtools_1_1illustrator.html#ab99a102dfea98729eecdc51614b10b97", null ],
+    [ "names", "classdetray_1_1svgtools_1_1illustrator.html#acbed5a53fee3e00954e73ec12dfa0655", null ],
+    [ "search_window", "classdetray_1_1svgtools_1_1illustrator.html#acb39a5372db71ae6d90cd6df33963dac", null ],
+    [ "show_info", "classdetray_1_1svgtools_1_1illustrator.html#acc4274fbf0ef18b78dfb1a8088bea67d", null ],
+    [ "style", "classdetray_1_1svgtools_1_1illustrator.html#a0479c3ad00ac5d11481bd63061c59a2a", null ]
+];

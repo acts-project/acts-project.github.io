@@ -1,0 +1,7 @@
+<map id="Acts::SingleCuboidPortalShell" name="Acts::SingleCuboidPortalShell">
+<area shape="rect" id="Node000001" title="This class describes a cuboid shell containing a single volume." alt="" coords="5,157,186,201"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_cuboid_portal_shell.html" title="Base class for cuboid shaped portal shells, e.g." alt="" coords="9,81,182,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,123,98,157,93,155,94,127"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_portal_shell_base.html" title="The portal shell of a volume is the set of portals that describes connections &quot;outside&quot; of the volume..." alt="" coords="16,5,175,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="97,46,98,81,93,80,94,51"/>
+</map>

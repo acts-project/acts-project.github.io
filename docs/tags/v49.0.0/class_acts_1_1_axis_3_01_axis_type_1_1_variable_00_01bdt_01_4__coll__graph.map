@@ -1,0 +1,7 @@
+<map id="Acts::Axis&lt; AxisType::Variable, bdt &gt;" name="Acts::Axis&lt; AxisType::Variable, bdt &gt;">
+<area shape="rect" id="Node000001" title="calculate bin indices for a variable binning" alt="" coords="48,128,206,173"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_i_axis.html" title="Common base class for all Axis instances." alt="" coords="5,5,95,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="67,44,117,127,112,129,64,48"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_axis.html" title="calculate bin indices from a given binning structure" alt="" coords="119,5,293,33"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="193,45,142,130,138,126,188,47"/>
+</map>

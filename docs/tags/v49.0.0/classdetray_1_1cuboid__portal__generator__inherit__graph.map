@@ -1,0 +1,5 @@
+<map id="detray::cuboid_portal_generator&lt; detector_t &gt;" name="detray::cuboid_portal_generator&lt; detector_t &gt;">
+<area shape="rect" id="Node000001" title="Generates a portal box around a volume that already contains surfaces." alt="" coords="5,98,193,143"/>
+<area shape="rect" id="Node000002" href="$classdetray_1_1surface__factory__interface.html" title="How to generate surfaces with their corresponding masks and transforms." alt="" coords="8,5,190,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,64,102,99,96,97,97,68"/>
+</map>

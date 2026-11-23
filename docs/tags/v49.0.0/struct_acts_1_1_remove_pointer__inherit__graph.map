@@ -1,0 +1,7 @@
+<map id="Acts::RemovePointer&lt; T &gt;" name="Acts::RemovePointer&lt; T &gt;">
+<area shape="rect" id="Node000001" title="Introduce the Acts version of the pointer remove type trait because we want to fetch the underlying t..." alt="" coords="5,5,201,33"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="216,13,227,19,202,26,200,21,222,19,216,19"/>
+<area shape="poly" id="edge3_Node000001_Node000001" title=" " alt="" coords="216,7,256,10,273,19,266,26,250,29,202,31,201,26,250,24,264,21,268,20,254,15,217,12"/>
+<area shape="rect" id="Node000002" href="$struct_acts_1_1_remove_pointer.html" title=" " alt="" coords="41,106,165,134"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="105,47,106,106,100,105,101,50"/>
+</map>

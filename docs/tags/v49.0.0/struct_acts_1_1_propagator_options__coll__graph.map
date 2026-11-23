@@ -1,0 +1,7 @@
+<map id="Acts::PropagatorOptions&lt; stepper_options_t, navigator_options_t, actor_t &gt;" name="Acts::PropagatorOptions&lt; stepper_options_t, navigator_options_t, actor_t &gt;">
+<area shape="rect" id="Node000001" title="Options for propagate() call." alt="" coords="93,123,315,185"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,208,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="134,60,183,122,178,123,131,65"/>
+<area shape="rect" id="Node000003" href="$struct_acts_1_1_default_actor.html" title="Actor that stops the propagation where the configuration says." alt="" coords="232,14,371,42"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="284,52,229,125,225,121,279,55"/>
+</map>

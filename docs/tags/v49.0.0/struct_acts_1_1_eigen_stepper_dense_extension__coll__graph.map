@@ -1,0 +1,11 @@
+<map id="Acts::EigenStepperDenseExtension" name="Acts::EigenStepperDenseExtension">
+<area shape="rect" id="Node000001" title="Evaluator of the k_i&#39;s and elements of the transport matrix D of the RKN4 stepping." alt="" coords="153,335,401,363"/>
+<area shape="rect" id="Node000002" href="$struct_acts_1_1_eigen_stepper_default_extension.html" title="Default evaluator of the k_i&#39;s and elements of the transport matrix D of the RKN4 stepping." alt="" coords="5,106,197,151"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,164,108,200,117,239,132,277,156,309,173,323,195,335,189,335,170,327,152,313,127,279,112,240,103,201,101,169"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_material.html" title="Material description for interactions with matter." alt="" coords="221,114,333,142"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="279,157,280,336,274,334,275,159"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="357,114,530,142"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="437,155,404,233,378,275,347,313,311,337,309,332,343,309,374,272,399,230,432,159"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="383,5,504,33"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="445,46,446,115,441,113,442,51"/>
+</map>

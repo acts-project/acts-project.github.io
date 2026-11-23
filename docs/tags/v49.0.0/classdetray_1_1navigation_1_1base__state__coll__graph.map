@@ -1,0 +1,10 @@
+<map id="detray::navigation::base_state&lt; derived_t, detector_t, k_cache_capacity, inspector_t, intersection_t &gt;" name="detray::navigation::base_state&lt; derived_t, detector_t, k_cache_capacity, inspector_t, intersection_t &gt;">
+<area shape="rect" id="Node000001" title="A navigation state object used to cache the information of the current navigation stream." alt="" coords="910,7,1078,103"/>
+<area shape="rect" id="Node000002" href="$classdetray_1_1ranges_1_1view__interface.html" title=" " alt="" coords="652,7,861,103"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="876,53,912,55,907,55,877,58"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1ranges_1_1base__view.html" title="Definition of &#39;view&#39;." alt="" coords="5,16,197,44"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="211,14,302,7,406,3,518,5,629,15,655,22,649,22,628,21,518,10,406,9,302,13,212,20"/>
+<area shape="rect" id="Node000004" href="$classdetray_1_1ranges_1_1view__interface.html" title="Defines a detray &#39;view&#39;." alt="" coords="246,62,441,107"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="180,45,248,62,243,63,180,50"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="457,107,541,114,585,113,628,107,649,104,655,103,629,113,585,118,541,120,456,112"/>
+</map>

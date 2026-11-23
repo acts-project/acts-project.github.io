@@ -1,0 +1,5 @@
+<map id="detray::actor::surface_sequencer&lt; sf_descriptor_t &gt;" name="detray::actor::surface_sequencer&lt; sf_descriptor_t &gt;">
+<area shape="rect" id="Node000001" title="Actor that records sensitive or material&#45;bearing surfaces along a propagation." alt="" coords="5,81,227,126"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1base__actor.html" title="Base class actor implementation." alt="" coords="45,5,187,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,47,118,81,114,79,114,51"/>
+</map>

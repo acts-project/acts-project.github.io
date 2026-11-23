@@ -1,0 +1,19 @@
+<map id="detray::test::configuration&lt; scalar_t &gt;" name="detray::test::configuration&lt; scalar_t &gt;">
+<area shape="rect" id="Node000001" title="Test configuration type." alt="" coords="76,621,264,666"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="74,468,146,495"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,508,109,553,113,575,120,596,140,621,134,621,116,599,108,576,104,553,105,513"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1propagation_1_1config.html" title="Configuration of the propagation." alt="" coords="170,459,318,504"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="238,517,227,558,209,599,192,623,188,619,205,596,222,557,234,521"/>
+<area shape="rect" id="Node000004" href="$structdetray_1_1navigation_1_1config.html" title="Navigation configuration." alt="" coords="67,341,206,386"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="160,395,193,433,220,458,214,459,189,437,160,401"/>
+<area shape="rect" id="Node000005" href="$structdetray_1_1intersection_1_1config.html" title="Intersector configuration." alt="" coords="5,224,153,268"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="96,280,115,316,128,341,122,341,110,319,96,285"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="177,224,341,268"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="231,282,199,319,171,342,167,339,196,315,234,278"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="184,106,334,151"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="260,164,262,224,256,223,258,169"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="198,5,320,33"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="260,46,262,106,256,105,258,51"/>
+<area shape="rect" id="Node000009" href="$structdetray_1_1stepping_1_1config.html" title="Configuration flags and limits consumed by a stepper." alt="" coords="230,350,403,378"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="302,389,260,460,256,457,299,392"/>
+</map>

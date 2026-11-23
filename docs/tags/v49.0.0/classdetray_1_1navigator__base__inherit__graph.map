@@ -1,0 +1,11 @@
+<map id="detray::navigator_base&lt; navigator_impl_t &gt;" name="detray::navigator_base&lt; navigator_impl_t &gt;">
+<area shape="rect" id="Node000001" title="Navigation base class &#45; interface towards the propagator." alt="" coords="5,188,176,233"/>
+<area shape="rect" id="Node000002" href="$classdetray_1_1caching__navigator.html" title="Navigation class which caches a &#39;road&#39; through the detector." alt="" coords="566,5,796,67"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,175,151,135,174,117,198,102,244,82,291,66,388,45,482,34,568,31,564,34,483,39,389,50,292,72,245,87,201,107,177,121,155,139,119,178"/>
+<area shape="rect" id="Node000003" href="$classdetray_1_1navigator.html" title="The geometry navigation class." alt="" coords="601,91,760,152"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="128,177,161,155,199,138,251,124,306,114,415,104,516,104,603,111,598,113,516,109,415,109,306,119,253,129,201,143,164,159,132,180"/>
+<area shape="rect" id="Node000004" href="$classdetray_1_1navigator__base.html" title=" " alt="" coords="504,235,858,365"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="119,243,157,276,178,291,201,302,254,313,329,317,506,314,501,316,329,323,254,318,199,307,175,296,153,281,120,248"/>
+<area shape="rect" id="Node000005" href="$classdetray_1_1navigator__base.html" title=" " alt="" coords="504,412,858,524"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="96,246,108,299,126,358,139,387,156,415,177,440,201,460,235,479,271,494,309,504,348,510,427,514,501,510,506,510,427,519,348,516,308,509,270,499,233,484,198,464,173,443,152,418,135,390,121,360,102,300,95,251"/>
+</map>

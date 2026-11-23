@@ -1,0 +1,7 @@
+<map id="Acts::Types::filter&lt; Pred, Ts &gt;" name="Acts::Types::filter&lt; Pred, Ts &gt;">
+<area shape="rect" id="Node000001" title="Filter a list of types." alt="" coords="83,5,215,50"/>
+<area shape="rect" id="Node000002" href="$struct_acts_1_1_types_1_1filter_3_01_pred_01_4.html" title="Base case for empty type list filter." alt="" coords="5,123,138,168"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="128,62,88,124,84,121,123,64"/>
+<area shape="rect" id="Node000003" href="$struct_acts_1_1_types_1_1filter_3_01_pred_00_01_t_00_01_ts_8_8_8_01_4.html" title="Filter a type list using a predicate." alt="" coords="161,123,294,168"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="180,59,191,73,220,123,215,122,187,75,179,65"/>
+</map>

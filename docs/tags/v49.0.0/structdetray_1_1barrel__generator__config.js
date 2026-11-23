@@ -1,0 +1,25 @@
+var structdetray_1_1barrel__generator__config =
+[
+    [ "binning", "structdetray_1_1barrel__generator__config.html#ad842991cff1225667329848ba6a34401", null ],
+    [ "binning", "structdetray_1_1barrel__generator__config.html#a2389e885b6b2cf63501e124623365784", null ],
+    [ "binning", "structdetray_1_1barrel__generator__config.html#a78a714e7ff3c2a142f9547200a798204", null ],
+    [ "half_length", "structdetray_1_1barrel__generator__config.html#a29e7b76f5aa905e065c6b3e2836daa58", null ],
+    [ "half_length", "structdetray_1_1barrel__generator__config.html#aa928336131588639c835846a335e3313", null ],
+    [ "module_bounds", "structdetray_1_1barrel__generator__config.html#a93eaa343bd5a98e8f8929076164816b5", null ],
+    [ "module_bounds", "structdetray_1_1barrel__generator__config.html#ad7769d851c1d934fa00fa07a65fcf380", null ],
+    [ "radial_stagger", "structdetray_1_1barrel__generator__config.html#a812bfd7634b933067adf1789668a8d2d", null ],
+    [ "radial_stagger", "structdetray_1_1barrel__generator__config.html#ad28243fede14d6b49ca7a455755c7f0c", null ],
+    [ "radius", "structdetray_1_1barrel__generator__config.html#a5a8c53216f4287006bd0ce364544e001", null ],
+    [ "radius", "structdetray_1_1barrel__generator__config.html#a245c19193f84ab43cc3f57f013d80c0b", null ],
+    [ "tilt_phi", "structdetray_1_1barrel__generator__config.html#a825fa3d32843766023bb2a2ba8ba6860", null ],
+    [ "tilt_phi", "structdetray_1_1barrel__generator__config.html#a7677d377f12e2f23b8f0e20250feccb6", null ],
+    [ "z_overlap", "structdetray_1_1barrel__generator__config.html#a76c0647ca30025dba5757dfce8c8ff73", null ],
+    [ "z_overlap", "structdetray_1_1barrel__generator__config.html#ab04c1cadc50947c7f7ea3a14eb334e8e", null ],
+    [ "m_binning", "structdetray_1_1barrel__generator__config.html#ae9b09504b8f2b9bf3cb22595532d1989", null ],
+    [ "m_half_z", "structdetray_1_1barrel__generator__config.html#ad30fa9753c64aa46e3d3c04fbef45faa", null ],
+    [ "m_mask_values", "structdetray_1_1barrel__generator__config.html#aea5a117cf6b790bc0be3e1a80b64fa23", null ],
+    [ "m_radial_stagger", "structdetray_1_1barrel__generator__config.html#a8d84ca3b169344f5a2573bc274eb703e", null ],
+    [ "m_radius", "structdetray_1_1barrel__generator__config.html#a9f75193f29de24b7906b9c3ab38cd5d4", null ],
+    [ "m_tilt_phi", "structdetray_1_1barrel__generator__config.html#ad857c4db35aec854821386980ef1f7f8", null ],
+    [ "m_z_overlap", "structdetray_1_1barrel__generator__config.html#a17bdb2a7de629386a84706b42d379cfd", null ]
+];

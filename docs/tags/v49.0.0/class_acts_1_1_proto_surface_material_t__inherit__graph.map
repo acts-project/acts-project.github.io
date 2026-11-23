@@ -1,0 +1,9 @@
+<map id="Acts::ProtoSurfaceMaterialT&lt; BinningType &gt;" name="Acts::ProtoSurfaceMaterialT&lt; BinningType &gt;">
+<area shape="rect" id="Node000001" title="proxy to SurfaceMaterial hand over BinUtility or other suitable binning description" alt="" coords="219,40,413,85"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_proto_surface_material_t.html" title=" " alt="" coords="609,5,804,50"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="429,50,612,36,606,37,429,55"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_proto_surface_material_t.html" title=" " alt="" coords="609,75,804,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="429,78,438,79,612,94,606,94,437,85,428,84"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_i_surface_material.html" title="Base class of all surface&#45;based material description." alt="" coords="5,48,170,76"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="185,60,221,62,216,63,185,65"/>
+</map>

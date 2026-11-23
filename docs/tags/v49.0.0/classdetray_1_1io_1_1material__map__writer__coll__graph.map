@@ -1,0 +1,9 @@
+<map id="detray::io::material_map_writer&lt; detector_t &gt;" name="detray::io::material_map_writer&lt; detector_t &gt;">
+<area shape="rect" id="Node000001" title="Material maps writer backend." alt="" coords="5,217,204,262"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="15,99,151,144"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,157,103,217,98,216,88,161"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="176,108,300,136"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="214,145,131,219,128,214,209,146"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="155,5,320,50"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="239,64,240,109,235,107,236,68"/>
+</map>

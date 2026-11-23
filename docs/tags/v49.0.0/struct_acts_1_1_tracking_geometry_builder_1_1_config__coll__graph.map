@@ -1,0 +1,17 @@
+<map id="Acts::TrackingGeometryBuilder::Config" name="Acts::TrackingGeometryBuilder::Config">
+<area shape="rect" id="Node000001" title="Nested Configuration for the CylinderVolumeBuilder." alt="" coords="930,266,1152,311"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="491,77,714,207"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="729,175,907,231,990,266,984,266,905,237,728,180"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="19,128,148,156"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="163,139,491,140,489,144,164,145"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="489,230,716,275"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="731,261,932,279,927,280,731,266"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,299,162,326"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="143,292,185,282,344,262,491,255,486,256,344,267,186,287,145,297"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="503,300,702,344"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="177,312,504,318,502,323,177,317"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="486,369,719,414"/>
+<area shape="poly" id="edge8_Node000007_Node000005" title=" " alt="" coords="115,333,149,354,186,369,262,387,341,396,417,399,488,401,483,401,416,404,340,401,261,392,185,375,147,358,115,338"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="717,319,809,315,906,308,927,309,932,308,906,314,810,321,717,324"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="734,380,819,368,905,348,954,330,997,312,1002,311,956,335,907,354,820,373,735,385"/>
+</map>

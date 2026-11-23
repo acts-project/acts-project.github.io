@@ -1,0 +1,7 @@
+<map id="Acts::Types::getBack&lt; typename &gt;" name="Acts::Types::getBack&lt; typename &gt;">
+<area shape="rect" id="Node000001" title="Access the last type." alt="" coords="111,5,267,50"/>
+<area shape="rect" id="Node000002" href="$struct_acts_1_1_types_1_1get_back_3_01_type_list_3_01_t_00_01_ts_8_8_8_01_4_01_4.html" title="Get the last type from a type list." alt="" coords="5,123,181,168"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,58,97,75,90,99,91,124,86,122,85,98,93,73,106,61"/>
+<area shape="rect" id="Node000003" href="$struct_acts_1_1_types_1_1get_back_3_01_type_list_3_4_01_4.html" title="Base case for empty type list." alt="" coords="209,123,364,168"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="243,57,259,72,274,97,283,124,279,122,269,99,255,76,242,62"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="detray::types::contains_impl&lt; T, I, registry&lt; ID, Ts... &gt; &gt;" name="detray::types::contains_impl&lt; T, I, registry&lt; ID, Ts... &gt; &gt;">
+<area shape="rect" id="Node000001" title="Specialization of the type list contains trait." alt="" coords="801,40,970,102"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,44,123,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,39,146,38,316,17,450,4,514,3,583,6,752,26,803,40,798,40,751,31,582,11,514,8,450,10,317,22,147,43,140,44"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1types_1_1contains__impl.html" title=" " alt="" coords="574,40,752,102"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="138,57,574,67,573,72,138,62"/>
+<area shape="rect" id="Node000004" href="$structdetray_1_1types_1_1contains__impl.html" title="Does the list contain a particular type?" alt="" coords="172,103,387,148"/>
+<area shape="poly" id="edge5_Node000004_Node000002" title=" " alt="" coords="125,74,209,102,204,104,125,79"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="767,68,803,71,798,71,767,74"/>
+<area shape="poly" id="edge6_Node000001_Node000004" title=" " alt="" coords="373,150,456,166,551,177,652,177,702,170,751,159,778,148,804,133,848,103,853,101,807,138,781,152,752,164,703,176,653,182,551,183,455,172,373,155"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="403,133,476,132,550,121,605,103,610,102,551,126,476,137,403,139"/>
+</map>

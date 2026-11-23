@@ -1,0 +1,16 @@
+<map id="detray::io::surface_payload" name="detray::io::surface_payload">
+<area shape="rect" id="Node000001" title="A payload for surfaces." alt="" coords="282,364,420,408"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1io_1_1transform__payload.html" title="A payload for an affine transformation in homogeneous coordinates." alt="" coords="185,246,339,291"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="289,301,337,364,332,363,287,306"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,106,167,151"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="126,158,237,245,232,247,125,163"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="117,5,239,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="129,43,114,59,100,82,92,106,87,105,95,80,110,55,132,39"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="191,106,352,151"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="215,39,235,55,252,80,265,106,260,106,248,83,231,59,216,45"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="270,164,266,247,261,245,267,168"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="364,246,523,291"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="422,302,395,341,373,365,371,361,391,338,418,305"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="379,114,508,142"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="445,155,446,247,441,244,442,159"/>
+</map>

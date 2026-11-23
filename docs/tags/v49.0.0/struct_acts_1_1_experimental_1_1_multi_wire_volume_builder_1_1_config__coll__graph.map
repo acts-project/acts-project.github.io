@@ -1,0 +1,20 @@
+<map id="Acts::Experimental::MultiWireVolumeBuilder::Config" name="Acts::Experimental::MultiWireVolumeBuilder::Config">
+<area shape="rect" id="Node000001" title="Configuration Struct." alt="" coords="773,117,960,178"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="441,15,528,43"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="543,29,642,42,697,54,750,71,791,91,828,117,823,116,788,95,748,75,695,59,641,47,544,35"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="14,5,153,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="168,25,442,27,439,31,169,31"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="396,69,573,114"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="588,98,749,118,775,125,770,126,749,124,588,103"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="19,110,148,138"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="162,115,396,96,394,101,163,120"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="400,138,569,166"/>
+<area shape="poly" id="edge9_Node000009_Node000005" title=" " alt="" coords="144,139,186,147,297,155,402,156,397,158,297,160,185,153,145,145"/>
+<area shape="rect" id="Node000006" href="$class_acts_1_1_volume_placement_base.html" title="Interface class to define the transform cache backend for alignable volumes." alt="" coords="381,190,588,218"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="603,196,675,189,749,178,770,176,775,175,749,183,676,194,604,201"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="404,241,565,286"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="580,259,663,248,706,238,748,225,790,203,827,180,832,178,793,208,750,230,708,243,664,253,580,264"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="5,250,162,278"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="177,261,404,261,403,266,177,266"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="584,148,775,148,770,149,585,153"/>
+</map>

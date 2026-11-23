@@ -1,0 +1,10 @@
+<map id="Acts::GridSurfaceMaterial::Indexed" name="Acts::GridSurfaceMaterial::Indexed">
+<area shape="rect" id="Node000001" title="Per&#45;bin indices into a locally owned material vector." alt="" coords="98,224,286,268"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,114,192,142"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,152,177,223,172,224,117,156"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="128,5,256,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="155,44,142,59,121,88,106,115,102,113,116,85,138,55,158,40"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="216,106,357,151"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="227,39,246,55,265,80,279,106,274,105,260,83,242,59,227,45"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="262,162,211,225,208,221,257,164"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="detray::tel_det_config&lt; algebra_t, mask_shape_t, trajectory_t &gt;" name="detray::tel_det_config&lt; algebra_t, mask_shape_t, trajectory_t &gt;">
+<area shape="rect" id="Node000001" title="Configure the toy detector." alt="" coords="754,60,941,121"/>
+<area shape="rect" id="Node000002" href="$classdetray_1_1mask.html" title=" " alt="" coords="408,8,598,53"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="614,41,730,60,756,67,751,67,730,65,613,46"/>
+<area shape="rect" id="Node000003" href="$classdetray_1_1mask.html" title="Mask a region on a surface and link it to a volume." alt="" coords="5,8,174,53"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="189,28,409,28,405,32,189,33"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="417,76,588,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="604,88,756,90,751,91,604,93"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="25,76,154,104"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="169,88,418,88,416,93,169,93"/>
+<area shape="rect" id="Node000006" href="$structdetray_1_1volume__builder__options.html" title="Options for the volume builder classes." alt="" coords="417,128,588,173"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="603,137,730,118,751,116,757,115,730,123,604,143"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="Acts::ILayerBuilder" name="Acts::ILayerBuilder">
+<area shape="rect" id="Node000001" title="Interface class for ILayerBuilders in a typical | EC&#45; | Central | EC+ | detector setup." alt="" coords="5,65,149,93"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_passive_layer_builder.html" title="The PassiveLayerBuilder is able to build cylinder &amp; disc layers with given dimensions and material." alt="" coords="213,5,401,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="139,58,196,42,243,32,238,35,197,47,141,63"/>
+<area shape="rect" id="Node000003" href="$class_acts_plugins_1_1_d_d4hep_layer_builder.html" title="build layers of one cylinder&#45;endcap setup from DD4hep input" alt="" coords="211,57,403,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="163,77,213,78,208,80,164,82"/>
+<area shape="rect" id="Node000004" href="$class_acts_plugins_1_1_t_geo_layer_builder.html" title="This parses the gGeoManager and looks for a defined combination of volume with contained sensitive de..." alt="" coords="197,125,417,153"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="140,95,197,111,244,125,238,125,196,116,139,100"/>
+</map>

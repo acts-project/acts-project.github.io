@@ -1,0 +1,15 @@
+<map id="ActsPlugins::Svg::LayerConverter::Options" name="ActsPlugins::Svg::LayerConverter::Options">
+<area shape="rect" id="Node000001" title="A nested options class for the layer conversion." alt="" coords="754,68,990,113"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="460,16,546,44"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="562,35,730,60,761,67,756,67,730,65,562,40"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="43,5,181,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="196,26,461,28,458,32,197,31"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_geometry_hierarchy_map.html" title=" " alt="" coords="397,72,610,117"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="625,90,756,91,751,92,626,96"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_geometry_hierarchy_map.html" title="Store values mapped into the geometry hierarchy." alt="" coords="5,75,219,119"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="234,94,399,94,394,96,234,99"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="417,155,590,183"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="606,162,667,155,729,143,777,128,820,114,825,113,779,133,731,148,668,160,606,167"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="51,155,173,183"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="188,166,416,166,416,172,188,172"/>
+</map>

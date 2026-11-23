@@ -1,0 +1,7 @@
+<map id="detray::test::detector_scan_config&lt; track_generator_t, algebra_t &gt;" name="detray::test::detector_scan_config&lt; track_generator_t, algebra_t &gt;">
+<area shape="rect" id="Node000001" title="Configuration for a detector scan test." alt="" coords="5,239,228,301"/>
+<area shape="rect" id="Node000002" href="$structdetray_1_1test_1_1configuration.html" title=" " alt="" coords="22,145,211,190"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,204,119,240,114,238,115,208"/>
+<area shape="rect" id="Node000003" href="$structdetray_1_1test_1_1configuration.html" title="Test configuration type." alt="" coords="22,5,211,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="118,63,119,145,114,145,115,68"/>
+</map>

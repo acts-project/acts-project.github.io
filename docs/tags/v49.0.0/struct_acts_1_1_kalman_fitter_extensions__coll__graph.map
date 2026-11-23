@@ -1,0 +1,19 @@
+<map id="Acts::KalmanFitterExtensions&lt; traj_t &gt;" name="Acts::KalmanFitterExtensions&lt; traj_t &gt;">
+<area shape="rect" id="Node000001" title="Extension struct which holds delegates to customise the KF behavior." alt="" coords="1034,251,1246,296"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="579,58,809,103"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="814,104,913,135,963,155,1011,178,1067,213,1115,251,1110,250,1064,218,1009,183,961,160,911,140,814,110"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="5,251,207,296"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="120,236,137,202,161,164,192,129,229,101,271,81,316,67,361,58,408,52,498,51,581,59,576,61,498,56,408,58,362,63,317,73,273,86,232,105,195,132,165,167,142,204,124,238"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="546,132,842,210"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="149,240,187,218,230,200,288,189,367,181,547,173,543,175,367,186,288,194,231,206,190,223,152,244"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="574,234,814,313"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="222,271,575,271,573,276,223,276"/>
+<area shape="rect" id="Node000006" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="602,337,786,381"/>
+<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="209,297,231,301,429,331,604,351,599,352,428,336,230,307,210,302"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="574,409,814,488"/>
+<area shape="poly" id="edge10_Node000007_Node000003" title=" " alt="" coords="123,307,142,342,165,378,196,412,232,438,273,456,316,468,360,476,405,481,494,480,571,474,576,474,494,485,405,486,360,482,315,473,271,461,229,443,192,416,161,381,137,345,122,312"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="857,205,1011,240,1045,251,1040,251,1009,246,857,210"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="829,271,1036,273,1031,274,829,276"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="802,353,903,343,1009,324,1052,310,1090,297,1095,296,1054,315,1011,329,904,348,802,358"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="828,431,919,411,965,396,1009,378,1040,359,1069,338,1115,298,1120,295,1073,342,1043,364,1011,382,967,401,921,416,829,436"/>
+</map>
