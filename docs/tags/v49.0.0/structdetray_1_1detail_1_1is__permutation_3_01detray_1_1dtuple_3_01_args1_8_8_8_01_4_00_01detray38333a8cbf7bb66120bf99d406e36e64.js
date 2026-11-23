@@ -1,7 +1,0 @@
-var structdetray_1_1detail_1_1is__permutation_3_01detray_1_1dtuple_3_01_args1_8_8_8_01_4_00_01detray38333a8cbf7bb66120bf99d406e36e64 =
-[
-    [ "T1", "structdetray_1_1detail_1_1is__permutation_3_01detray_1_1dtuple_3_01_args1_8_8_8_01_4_00_01detray38333a8cbf7bb66120bf99d406e36e64.html#ad54ac85977d15574c2aa869d88570cbd", null ],
-    [ "T2", "structdetray_1_1detail_1_1is__permutation_3_01detray_1_1dtuple_3_01_args1_8_8_8_01_4_00_01detray38333a8cbf7bb66120bf99d406e36e64.html#a1d1453e19e88952f0e68a156fe6057ad", null ],
-    [ "compare", "structdetray_1_1detail_1_1is__permutation_3_01detray_1_1dtuple_3_01_args1_8_8_8_01_4_00_01detray38333a8cbf7bb66120bf99d406e36e64.html#a918db5a1c4a971a26c96f00859bc7812", null ],
-    [ "value", "structdetray_1_1detail_1_1is__permutation_3_01detray_1_1dtuple_3_01_args1_8_8_8_01_4_00_01detray38333a8cbf7bb66120bf99d406e36e64.html#ac52291072c838a8f7b7e88692dab893a", null ]
-];

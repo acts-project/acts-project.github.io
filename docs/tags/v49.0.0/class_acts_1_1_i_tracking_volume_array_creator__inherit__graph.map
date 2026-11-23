@@ -1,5 +1,0 @@
-<map id="Acts::ITrackingVolumeArrayCreator" name="Acts::ITrackingVolumeArrayCreator">
-<area shape="rect" id="Node000001" title="Interface class ITrackingVolumeArrayCreators It inherits from IAlgTool." alt="" coords="5,5,205,50"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_tracking_volume_array_creator.html" title="The TrackingVolumeArrayCreator is a simple Tool that helps to construct binned arrays of TrackingVolu..." alt="" coords="7,98,203,143"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,64,107,99,103,97,103,68"/>
-</map>

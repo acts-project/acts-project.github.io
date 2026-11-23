@@ -1,5 +1,0 @@
-<map id="ActsPlugins::DD4hepFieldAdapter" name="ActsPlugins::DD4hepFieldAdapter">
-<area shape="rect" id="Node000001" title="Adapter for DD4hep magnetic field to Acts magnetic field provider." alt="" coords="13,81,200,126"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_magnetic_field_provider.html" title="Base class for all magnetic field providers." alt="" coords="5,5,208,33"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,47,109,81,104,79,105,51"/>
-</map>

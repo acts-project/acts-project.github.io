@@ -1,7 +1,0 @@
-<map id="ActsPlugins::RootMaterialMapIo::Config" name="ActsPlugins::RootMaterialMapIo::Config">
-<area shape="rect" id="Node000001" title="Configuration for the accessor Contains the tags used for writing and reading, tag names are configur..." alt="" coords="5,423,194,468"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="56,99,143,127"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,142,102,423,97,423,97,143"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="30,5,169,50"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="100,63,102,99,97,99,99,68"/>
-</map>

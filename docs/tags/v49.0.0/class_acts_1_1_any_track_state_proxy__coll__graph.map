@@ -1,7 +1,0 @@
-<map id="Acts::AnyTrackStateProxy&lt; read_only &gt;" name="Acts::AnyTrackStateProxy&lt; read_only &gt;">
-<area shape="rect" id="Node000001" title="Type&#45;erased track state proxy for any trajectory backend." alt="" coords="22,256,210,301"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_track_state_proxy_common.html" title=" " alt="" coords="5,145,227,207"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,221,118,257,114,255,114,225"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_track_state_proxy_common.html" title="Common CRTP implementation shared by track state proxy front&#45;ends." alt="" coords="5,5,227,50"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="117,63,119,146,113,145,115,68"/>
-</map>

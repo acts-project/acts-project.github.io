@@ -1,4 +1,0 @@
-var structdetray_1_1detail_1_1unique__types_3_010u_00_01detray_1_1dtuple_3_01_arg1_00_01_args_8_8_8_01_4_01_4 =
-[
-    [ "type", "structdetray_1_1detail_1_1unique__types_3_010u_00_01detray_1_1dtuple_3_01_arg1_00_01_args_8_8_8_01_4_01_4.html#a3f2fc85586ba5b681fbaaa0ac416d6dd", null ]
-];

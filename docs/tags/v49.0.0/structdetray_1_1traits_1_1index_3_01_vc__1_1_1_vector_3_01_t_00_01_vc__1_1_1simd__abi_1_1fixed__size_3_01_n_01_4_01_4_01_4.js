@@ -1,4 +1,0 @@
-var structdetray_1_1traits_1_1index_3_01_vc__1_1_1_vector_3_01_t_00_01_vc__1_1_1simd__abi_1_1fixed__size_3_01_n_01_4_01_4_01_4 =
-[
-    [ "type", "structdetray_1_1traits_1_1index_3_01_vc__1_1_1_vector_3_01_t_00_01_vc__1_1_1simd__abi_1_1fixed__size_3_01_n_01_4_01_4_01_4.html#a7ccc97b6baf831ebbf6263bd4039a6ee", null ]
-];

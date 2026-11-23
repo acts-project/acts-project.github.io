@@ -1,7 +1,0 @@
-<map id="Acts::Experimental::GbtsBinGroup" name="Acts::Experimental::GbtsBinGroup">
-<area shape="rect" id="Node000001" title="The outer eta bins reachable from one inner eta bin." alt="" coords="38,246,182,291"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,128,215,173"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,187,113,246,107,245,108,191"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="46,5,174,33"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="111,46,113,128,107,128,109,51"/>
-</map>

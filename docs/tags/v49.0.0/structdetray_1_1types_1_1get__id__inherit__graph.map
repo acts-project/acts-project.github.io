@@ -1,7 +1,0 @@
-<map id="detray::types::get_id&lt; typename, typename &gt;" name="detray::types::get_id&lt; typename, typename &gt;">
-<area shape="rect" id="Node000001" title="Traits for the type registry." alt="" coords="5,60,216,105"/>
-<area shape="rect" id="Node000002" href="$structdetray_1_1types_1_1get__id_3_01_t_00_01mapped__registry_3_01_r_00_01_s_01_4_01_4.html" title="Resolve a type to its identifier, accepting either original or filtered types for a mapped registry." alt="" coords="413,9,594,71"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="230,67,414,48,410,51,231,72"/>
-<area shape="rect" id="Node000003" href="$structdetray_1_1types_1_1get__id_3_01_t_00_01registry_3_01_i_d_00_01_ts_8_8_8_01_4_01_4.html" title="Resolve a registered type to its identifier in the original registry." alt="" coords="426,95,580,156"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="191,107,240,118,336,127,428,129,423,130,336,132,239,123,191,113"/>
-</map>

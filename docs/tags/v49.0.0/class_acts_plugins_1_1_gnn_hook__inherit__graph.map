@@ -1,7 +1,0 @@
-<map id="ActsPlugins::GnnHook" name="ActsPlugins::GnnHook">
-<area shape="rect" id="Node000001" title="Hook interface for GNN pipeline callbacks." alt="" coords="158,5,322,33"/>
-<area shape="rect" id="Node000002" href="$class_acts_plugins_1_1_graph_store_hook.html" title="Hook for storing graph data during GNN pipeline execution." alt="" coords="5,81,217,109"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="207,41,135,83,133,78,201,41"/>
-<area shape="rect" id="Node000003" href="$class_acts_plugins_1_1_truth_graph_metrics_hook.html" title="Hook for calculating metrics using truth graph information." alt="" coords="241,81,498,109"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="277,38,349,81,344,81,276,44"/>
-</map>

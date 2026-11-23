@@ -1,5 +1,0 @@
-<map id="detray::traits::index&lt; Eigen::Block&lt; Eigen::Matrix&lt; T, ROWS, COLS, OPT, ROWS, COLS &gt;, bROWS, bCOLS, false &gt; &gt;" name="detray::traits::index&lt; Eigen::Block&lt; Eigen::Matrix&lt; T, ROWS, COLS, OPT, ROWS, COLS &gt;, bROWS, bCOLS, false &gt; &gt;">
-<area shape="rect" id="Node000001" title="Index trait specialization for a fixed Eigen matrix block." alt="" coords="5,173,222,269"/>
-<area shape="rect" id="Node000002" href="$structdetray_1_1traits_1_1index.html" title="Matrix traits." alt="" coords="18,5,209,33"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,47,116,173,111,172,111,50"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="Acts::KDTree&lt; Dims, Type, Scalar, Vector, LeafSize &gt;" name="Acts::KDTree&lt; Dims, Type, Scalar, Vector, LeafSize &gt;">
-<area shape="rect" id="Node000001" title="A general k&#45;d tree with fast range search." alt="" coords="5,64,162,125"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="404,13,578,75"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="177,72,185,71,299,56,406,49,401,50,300,62,186,76,178,77"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="397,113,586,175"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="153,129,186,140,240,149,294,153,399,154,394,154,294,159,239,155,185,145,153,135"/>
-</map>

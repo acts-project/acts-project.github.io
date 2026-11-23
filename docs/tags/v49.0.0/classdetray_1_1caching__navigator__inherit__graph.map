@@ -1,5 +1,0 @@
-<map id="detray::caching_navigator&lt; detector_t, k_cache_capacity, inspector_t, intersection_t &gt;" name="detray::caching_navigator&lt; detector_t, k_cache_capacity, inspector_t, intersection_t &gt;">
-<area shape="rect" id="Node000001" title="Navigation class which caches a &#39;road&#39; through the detector." alt="" coords="5,98,235,160"/>
-<area shape="rect" id="Node000002" href="$classdetray_1_1navigator__base.html" title="Navigation base class &#45; interface towards the propagator." alt="" coords="35,5,205,50"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="122,63,122,99,118,97,118,68"/>
-</map>

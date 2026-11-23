@@ -1,7 +1,0 @@
-<map id="Acts::HoughTransformUtils::PeakFinders::LayerGuidedCombinatoric&lt; identifier_t &gt;::Maximum" name="Acts::HoughTransformUtils::PeakFinders::LayerGuidedCombinatoric&lt; identifier_t &gt;::Maximum">
-<area shape="rect" id="Node000001" title="data class representing the found maxima." alt="" coords="5,224,291,285"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="77,106,219,151"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="150,164,151,224,145,222,146,168"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="57,5,239,33"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="149,46,151,106,145,105,147,51"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="detray::actor::parameter_updater_mbf_state&lt; algebra_t &gt;" name="detray::actor::parameter_updater_mbf_state&lt; algebra_t &gt;">
-<area shape="rect" id="Node000001" title="State of the parameter updater that can additionally accumulate the full Jacobian between two surface..." alt="" coords="5,98,248,143"/>
-<area shape="rect" id="Node000002" href="$structdetray_1_1actor_1_1parameter__updater__state.html" title="State of the parameter updater." alt="" coords="22,5,231,50"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="128,64,129,99,124,97,125,68"/>
-</map>

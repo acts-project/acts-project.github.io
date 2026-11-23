@@ -1,7 +1,0 @@
-<map id="detray::types::cast_impl_idx&lt; I, typename &gt;" name="detray::types::cast_impl_idx&lt; I, typename &gt;">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,60,198,105"/>
-<area shape="rect" id="Node000002" href="$structdetray_1_1types_1_1cast__impl__idx_3_01_i_00_01mapped__registry_3_01_r_00_01_s_01_4_01_4.html" title="Translate an original index to its mapped&#45;registry index." alt="" coords="391,9,555,71"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="213,67,392,48,388,51,214,73"/>
-<area shape="rect" id="Node000003" href="$structdetray_1_1types_1_1cast__impl__idx_3_01_i_00_01registry_3_01_i_d_00_01_ts_8_8_8_01_4_01_4.html" title="Cast an in&#45;range index to the same index for an unfiltered registry." alt="" coords="392,95,554,156"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="175,108,222,119,309,128,394,130,389,131,309,133,221,125,174,113"/>
-</map>

@@ -1,4 +1,0 @@
-var structdetray_1_1traits_1_1element__getter_3_01_eigen_1_1_block_3_01_eigen_1_1_matrix_3_01_t_00_0c33106782c79fcf5e2ecc0dcc0f2fc76 =
-[
-    [ "type", "structdetray_1_1traits_1_1element__getter_3_01_eigen_1_1_block_3_01_eigen_1_1_matrix_3_01_t_00_0c33106782c79fcf5e2ecc0dcc0f2fc76.html#a9d3a5a623b4fb63a9a872ad43a39ffa4", null ]
-];

@@ -1,5 +1,0 @@
-<map id="detray::algebra::generic::matrix::adjoint::cofactor&lt; matrix_t &gt;::adjoint_getter_helper&lt; N &gt;" name="detray::algebra::generic::matrix::adjoint::cofactor&lt; matrix_t &gt;::adjoint_getter_helper&lt; N &gt;">
-<area shape="rect" id="Node000001" title="Adjugate specialization for a one&#45;element matrix." alt="" coords="307,5,512,84"/>
-<area shape="rect" id="Node000002" href="$structdetray_1_1algebra_1_1generic_1_1matrix_1_1adjoint_1_1cofactor_1_1adjoint__getter__helper.html" title="Helper that computes the adjugate for a fixed matrix rank." alt="" coords="5,5,211,84"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="226,42,309,44,303,45,227,47"/>
-</map>

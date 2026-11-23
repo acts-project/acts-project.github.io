@@ -1,5 +1,0 @@
-<map id="Acts::ITripletSeedFilter" name="Acts::ITripletSeedFilter">
-<area shape="rect" id="Node000001" title="Interface for triplet seed filtering." alt="" coords="22,5,189,33"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_broad_triplet_seed_filter.html" title="Triplet seed filter used in the triplet seeding algorithm." alt="" coords="5,81,206,109"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,47,108,82,103,79,104,51"/>
-</map>

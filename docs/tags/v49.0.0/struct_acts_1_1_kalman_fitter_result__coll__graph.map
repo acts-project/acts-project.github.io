@@ -1,7 +1,0 @@
-<map id="Acts::KalmanFitterResult&lt; traj_t &gt;" name="Acts::KalmanFitterResult&lt; traj_t &gt;">
-<area shape="rect" id="Node000001" title="Result payload returned by the Kalman fitter." alt="" coords="5,224,188,268"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="26,106,167,151"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,165,99,224,94,222,95,168"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="32,5,161,33"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="97,46,99,106,94,105,96,51"/>
-</map>

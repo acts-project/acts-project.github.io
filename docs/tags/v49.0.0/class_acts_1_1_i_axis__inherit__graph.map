@@ -1,7 +1,0 @@
-<map id="Acts::IAxis" name="Acts::IAxis">
-<area shape="rect" id="Node000001" title="Common base class for all Axis instances." alt="" coords="130,5,220,33"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_axis_3_01_axis_type_1_1_equidistant_00_01bdt_01_4.html" title="calculate bin indices for an equidistant binning" alt="" coords="5,81,164,126"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="152,43,110,82,107,78,147,45"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_axis_3_01_axis_type_1_1_variable_00_01bdt_01_4.html" title="calculate bin indices for a variable binning" alt="" coords="188,81,346,126"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="202,41,245,80,240,80,201,46"/>
-</map>

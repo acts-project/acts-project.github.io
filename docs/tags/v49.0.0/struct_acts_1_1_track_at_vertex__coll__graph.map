@@ -1,9 +1,0 @@
-<map id="Acts::TrackAtVertex" name="Acts::TrackAtVertex">
-<area shape="rect" id="Node000001" title="Defines a track at vertex object." alt="" coords="224,106,372,134"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_bound_track_parameters.html" title="Track parameters bound to a reference surface for a single track." alt="" coords="5,5,212,33"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="139,39,204,80,261,105,255,106,201,84,137,45"/>
-<area shape="rect" id="Node000003" href="$struct_acts_1_1_input_track.html" title="Type&#45;erased wrapper around an input track pointer." alt="" coords="236,5,360,33"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="300,47,300,107,296,104,296,50"/>
-<area shape="rect" id="Node000004" href="$struct_acts_1_1_linearized_track.html" title="Class for linear expansion of track parameters in vicinity of vertex." alt="" coords="384,5,542,33"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="448,44,431,67,410,84,384,98,357,108,356,103,382,93,407,80,427,63,443,47"/>
-</map>

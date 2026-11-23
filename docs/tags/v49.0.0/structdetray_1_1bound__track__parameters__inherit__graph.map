@@ -1,5 +1,0 @@
-<map id="detray::bound_track_parameters&lt; algebra_t &gt;" name="detray::bound_track_parameters&lt; algebra_t &gt;">
-<area shape="rect" id="Node000001" title="Combine the bound track parameter vector with the covariance and associated surface." alt="" coords="5,98,200,143"/>
-<area shape="rect" id="Node000002" href="$structdetray_1_1bound__parameters__vector.html" title="Six&#45;component parameter vector expressed in a surface&#45;bound coordinate frame." alt="" coords="6,5,199,50"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,64,105,99,100,97,101,68"/>
-</map>

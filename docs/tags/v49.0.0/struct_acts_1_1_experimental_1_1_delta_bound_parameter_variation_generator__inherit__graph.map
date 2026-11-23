@@ -1,5 +1,0 @@
-<map id="Acts::Experimental::DeltaBoundParameterVariationGenerator" name="Acts::Experimental::DeltaBoundParameterVariationGenerator">
-<area shape="rect" id="Node000001" title="Generator for bound parameter variations based on fixed deltas." alt="" coords="20,98,251,160"/>
-<area shape="rect" id="Node000002" href="$struct_acts_1_1_experimental_1_1_bound_parameter_variation_generator.html" title="Base class for generating bound parameter variations." alt="" coords="5,5,266,50"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,63,138,99,133,97,134,68"/>
-</map>

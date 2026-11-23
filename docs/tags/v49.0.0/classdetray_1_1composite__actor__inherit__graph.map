@@ -1,9 +1,0 @@
-<map id="detray::composite_actor&lt; principal_actor_t, observers &gt;" name="detray::composite_actor&lt; principal_actor_t, observers &gt;">
-<area shape="rect" id="Node000001" title="Composition of actors." alt="" coords="196,130,427,174"/>
-<area shape="rect" id="Node000003" href="$classdetray_1_1composite__actor.html" title=" " alt="" coords="695,43,921,139"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="418,123,451,117,577,102,698,95,692,96,577,107,452,123,419,129"/>
-<area shape="rect" id="Node000004" href="$classdetray_1_1composite__actor.html" title=" " alt="" coords="695,166,921,261"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="363,180,406,200,452,215,514,225,577,229,698,228,692,228,577,234,513,230,451,220,404,205,362,185"/>
-<area shape="rect" id="Node000002" href="$structdetray_1_1base__actor.html" title="Base class actor implementation." alt="" coords="5,138,147,166"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="162,149,198,151,193,153,163,155"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="Acts::VertexFitInput" name="Acts::VertexFitInput">
-<area shape="rect" id="Node000001" title="Inputs for fitting a single vertex." alt="" coords="12,224,161,251"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,106,168,151"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,165,89,224,84,223,84,168"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="27,5,146,33"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="87,46,89,106,84,105,86,51"/>
-</map>

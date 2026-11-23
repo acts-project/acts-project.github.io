@@ -1,7 +1,0 @@
-<map id="ActsPlugins::RootMeasurementIo::Config" name="ActsPlugins::RootMeasurementIo::Config">
-<area shape="rect" id="Node000001" title="Configuration struct for measurement I/O." alt="" coords="5,224,230,268"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="47,106,188,151"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,165,120,224,115,222,116,168"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="53,5,182,33"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="119,46,120,106,115,105,116,51"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="Acts::IVisualization3D" name="Acts::IVisualization3D">
-<area shape="rect" id="Node000001" title="Partially abstract base class which provides an interface to visualization helper classes." alt="" coords="238,5,402,33"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_obj_visualization3_d.html" title="This helper produces output in the OBJ format." alt="" coords="5,81,187,109"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="268,40,137,83,135,78,263,37"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_ply_visualization3_d.html" title="Helper to write out PlyVisualization3D visualization format." alt="" coords="211,81,429,109"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="322,47,322,82,318,79,318,51"/>
-<area shape="rect" id="Node000004" href="$class_acts_1_1_visualization_buffer.html" title="This helper produces output for Python visualization." alt="" coords="452,81,633,109"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="375,36,505,80,500,81,374,41"/>
-</map>

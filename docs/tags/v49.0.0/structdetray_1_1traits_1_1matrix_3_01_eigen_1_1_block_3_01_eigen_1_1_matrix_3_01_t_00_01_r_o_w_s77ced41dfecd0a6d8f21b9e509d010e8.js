@@ -1,5 +1,0 @@
-var structdetray_1_1traits_1_1matrix_3_01_eigen_1_1_block_3_01_eigen_1_1_matrix_3_01_t_00_01_r_o_w_s77ced41dfecd0a6d8f21b9e509d010e8 =
-[
-    [ "other_type", "structdetray_1_1traits_1_1matrix_3_01_eigen_1_1_block_3_01_eigen_1_1_matrix_3_01_t_00_01_r_o_w_s77ced41dfecd0a6d8f21b9e509d010e8.html#adfc6322bcd93ebe40267250061e2930d", null ],
-    [ "type", "structdetray_1_1traits_1_1matrix_3_01_eigen_1_1_block_3_01_eigen_1_1_matrix_3_01_t_00_01_r_o_w_s77ced41dfecd0a6d8f21b9e509d010e8.html#a434f04402ca5ad9e224d214e9418f819", null ]
-];

@@ -1,5 +1,0 @@
-<map id="Acts::CkfTypes::BoundState" name="Acts::CkfTypes::BoundState">
-<area shape="rect" id="Node000001" title="The predicted state of the trajectory on a surface." alt="" coords="9,106,208,134"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_bound_track_parameters.html" title="Track parameters bound to a reference surface for a single track." alt="" coords="5,5,212,33"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,47,111,106,106,105,106,50"/>
-</map>

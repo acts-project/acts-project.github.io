@@ -1,7 +1,0 @@
-var structdetray_1_1traits_1_1dimensions_3_01_vc__1_1_1_vector_3_01_t_00_01_vc__1_1_1simd__abi_1_1fixed__size_3_01_n_01_4_01_4_01_4 =
-[
-    [ "index_type", "structdetray_1_1traits_1_1dimensions_3_01_vc__1_1_1_vector_3_01_t_00_01_vc__1_1_1simd__abi_1_1fixed__size_3_01_n_01_4_01_4_01_4.html#a62c3d7f090260dfb88bec84c65260e9e", null ],
-    [ "_columns", "structdetray_1_1traits_1_1dimensions_3_01_vc__1_1_1_vector_3_01_t_00_01_vc__1_1_1simd__abi_1_1fixed__size_3_01_n_01_4_01_4_01_4.html#a3913c1d7845a3283b049c9767597cf94", null ],
-    [ "_dim", "structdetray_1_1traits_1_1dimensions_3_01_vc__1_1_1_vector_3_01_t_00_01_vc__1_1_1simd__abi_1_1fixed__size_3_01_n_01_4_01_4_01_4.html#aa6b4f82851ee006788886a926f049e9b", null ],
-    [ "_rows", "structdetray_1_1traits_1_1dimensions_3_01_vc__1_1_1_vector_3_01_t_00_01_vc__1_1_1simd__abi_1_1fixed__size_3_01_n_01_4_01_4_01_4.html#ae780ed602cc2fea6d918bbadce6a236d", null ]
-];

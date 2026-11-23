@@ -1,7 +1,0 @@
-<map id="detray::detector_traits&lt; T &gt;" name="detray::detector_traits&lt; T &gt;">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,66,209,94"/>
-<area shape="rect" id="Node000002" href="$structdetray_1_1detector__traits_3_01detail_1_1detector_3_01metadata__t_00_01container__t_01_4_01_4.html" title="Unified interface to detector types &#45; from any detector type." alt="" coords="474,10,687,72"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="224,68,475,48,472,52,225,73"/>
-<area shape="rect" id="Node000003" href="$structdetray_1_1detector__traits_3_01metadata__t_01_4.html" title="Unified interface to detector types &#45; from a metadata type." alt="" coords="498,96,663,141"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="208,94,233,97,373,108,500,116,495,117,372,113,232,102,208,99"/>
-</map>

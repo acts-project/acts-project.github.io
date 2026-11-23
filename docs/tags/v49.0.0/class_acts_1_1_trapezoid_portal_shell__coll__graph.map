@@ -1,5 +1,0 @@
-<map id="Acts::TrapezoidPortalShell" name="Acts::TrapezoidPortalShell">
-<area shape="rect" id="Node000001" title="Base class for trapezoid shaped portal shells, e.g." alt="" coords="5,81,195,109"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_portal_shell_base.html" title="The portal shell of a volume is the set of portals that describes connections &quot;outside&quot; of the volume..." alt="" coords="20,5,180,33"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,47,102,82,98,80,98,51"/>
-</map>
