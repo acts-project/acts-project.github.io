@@ -1,5 +1,11 @@
 var NAVTREEINDEX102 =
 {
+"structdetray_1_1types_1_1cast__impl__idx.html":[8,0,3,17,4],
+"structdetray_1_1types_1_1cast__impl__idx_3_01_i_00_01mapped__registry_3_01_r_00_01_s_01_4_01_4.html":[6,0,4,5,5],
+"structdetray_1_1types_1_1cast__impl__idx_3_01_i_00_01mapped__registry_3_01_r_00_01_s_01_4_01_4.html":[8,0,3,17,5],
+"structdetray_1_1types_1_1cast__impl__idx_3_01_i_00_01mapped__registry_3_01_r_00_01_s_01_4_01_4.html#a30712a09a9b5e708664d9401b0cbb9d0":[6,0,4,5,5,0],
+"structdetray_1_1types_1_1cast__impl__idx_3_01_i_00_01mapped__registry_3_01_r_00_01_s_01_4_01_4.html#a30712a09a9b5e708664d9401b0cbb9d0":[8,0,3,17,5,0],
+"structdetray_1_1types_1_1cast__impl__idx_3_01_i_00_01registry_3_01_i_d_00_01_ts_8_8_8_01_4_01_4.html":[6,0,4,5,6],
 "structdetray_1_1types_1_1cast__impl__idx_3_01_i_00_01registry_3_01_i_d_00_01_ts_8_8_8_01_4_01_4.html":[8,0,3,17,6],
 "structdetray_1_1types_1_1cast__impl__idx_3_01_i_00_01registry_3_01_i_d_00_01_ts_8_8_8_01_4_01_4.html#a67fdb3f751225a56db3f1eeb81636adf":[6,0,4,5,6,0],
 "structdetray_1_1types_1_1cast__impl__idx_3_01_i_00_01registry_3_01_i_d_00_01_ts_8_8_8_01_4_01_4.html#a67fdb3f751225a56db3f1eeb81636adf":[8,0,3,17,6,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX102 =
 "structdetray_1_1unit.html#a1187c24e681b69c67535999281611c54":[8,0,3,203,3],
 "structdetray_1_1unit.html#a17563f373175b3823d1002619430134f":[6,0,4,190,30],
 "structdetray_1_1unit.html#a17563f373175b3823d1002619430134f":[8,0,3,203,30],
-"structdetray_1_1unit.html#a196295e71fa241c028cc14aa82f6a892":[6,0,4,190,26],
-"structdetray_1_1unit.html#a196295e71fa241c028cc14aa82f6a892":[8,0,3,203,26],
-"structdetray_1_1unit.html#a1a114a155d2ef604cd30ca6425c76c0e":[6,0,4,190,28],
-"structdetray_1_1unit.html#a1a114a155d2ef604cd30ca6425c76c0e":[8,0,3,203,28],
-"structdetray_1_1unit.html#a1d318b6290bd1ece8589309d8535786b":[6,0,4,190,19],
-"structdetray_1_1unit.html#a1d318b6290bd1ece8589309d8535786b":[8,0,3,203,19],
-"structdetray_1_1unit.html#a221e7dc406462028ea83ff71b6d8e732":[6,0,4,190,23]
+"structdetray_1_1unit.html#a196295e71fa241c028cc14aa82f6a892":[6,0,4,190,26]
 };

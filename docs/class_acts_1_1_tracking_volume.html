@@ -208,6 +208,8 @@ requires (detail::callableWithAnyConst&lt;Callable&gt;())</td></tr>
 TrackingVolume &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const TrackingVolume &amp;)=delete</td></tr>
 <tr class="memitem:aab3d37e02f7c716ac5fb7dfd1b827848" id="r_aab3d37e02f7c716ac5fb7dfd1b827848"><td class="memItemLeft" align="right" valign="top">TrackingVolume &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab3d37e02f7c716ac5fb7dfd1b827848">operator=</a> (TrackingVolume &amp;&amp;) noexcept</td></tr>
 <tr class="memdesc:aab3d37e02f7c716ac5fb7dfd1b827848"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment operator for transferring ownership of tracking volume resources.  <br /></td></tr>
+<tr class="memitem:a8e1672fc7051c7ddbb74f565080c5623" id="r_a8e1672fc7051c7ddbb74f565080c5623"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e1672fc7051c7ddbb74f565080c5623">portalFace</a> (const <a class="el" href="class_acts_1_1_portal.html">Portal</a> &amp;portal) const</td></tr>
+<tr class="memdesc:a8e1672fc7051c7ddbb74f565080c5623"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the face of this volume that a portal lies on, if the portal surface is larger than that face, e.g.  <br /></td></tr>
 <tr class="memitem:ac037bebe33ea14d05a6213dd8f1c9b37" id="r_ac037bebe33ea14d05a6213dd8f1c9b37"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a2cc5ff0c05a60703071143d0cc68e283">MutablePortalRange</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac037bebe33ea14d05a6213dd8f1c9b37">portals</a> ()</td></tr>
 <tr class="memdesc:ac037bebe33ea14d05a6213dd8f1c9b37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return mutable view of the registered portals under this tracking volume.  <br /></td></tr>
 <tr class="memitem:ac7a4fd8eecd975f746148a70bd890bfe" id="r_ac7a4fd8eecd975f746148a70bd890bfe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ae4b24f909cdb2da7c408f37ac8322d74">PortalRange</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7a4fd8eecd975f746148a70bd890bfe">portals</a> () const</td></tr>
@@ -698,6 +700,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Add a portal to this tracking volume. </p>
+<dl class="section note"><dt>Note</dt><dd>This clears the portal faces found when the tracking geometry was built (see <a class="el" href="#a8e1672fc7051c7ddbb74f565080c5623">portalFace</a>), so portal candidates of this volume are intersected against the full portal surfaces afterwards. </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">portal</td><td>The portal to add </td></tr>
@@ -1487,6 +1490,32 @@ requires (detail::callableWithAnyConst&lt;Callable&gt;())</div>
 
 <p>Returns the view on all the placements owned by the tracking volume. </p>
 <dl class="section return"><dt>Returns</dt><dd>The const view on all the placements owned by this volume </dd></dl>
+
+</div>
+</div>
+<a id="a8e1672fc7051c7ddbb74f565080c5623" name="a8e1672fc7051c7ddbb74f565080c5623"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e1672fc7051c7ddbb74f565080c5623">&#9670;&#160;</a></span>portalFace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> * Acts::TrackingVolume::portalFace </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_portal.html">Portal</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>portal</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the face of this volume that a portal lies on, if the portal surface is larger than that face, e.g. </p>
+<p>after merging </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">portal</td><td>The portal of this volume </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the volume-sized face, or nullptr if the portal surface is the face </dd></dl>
 
 </div>
 </div>

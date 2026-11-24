@@ -1,5 +1,11 @@
 var NAVTREEINDEX78 =
 {
+"struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html#ac1b756c230ba9cfae0494e28dcfda3fa":[6,0,0,360,1,11],
+"struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html#ac1b756c230ba9cfae0494e28dcfda3fa":[8,0,0,366,1,11],
+"struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html#adc9988a81f5c4d0ed665e266c9e8abb4":[6,0,0,360,1,12],
+"struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html#adc9988a81f5c4d0ed665e266c9e8abb4":[8,0,0,366,1,12],
+"struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html#aed2cf50a07564819d23ee92bdba8811e":[6,0,0,360,1,10],
+"struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html#aed2cf50a07564819d23ee92bdba8811e":[8,0,0,366,1,10],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html":[6,0,0,360,2],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html":[8,0,0,366,2],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#aa5cfdb699f4b07e36e22747c220f3b37":[6,0,0,360,2,6],
@@ -243,11 +249,5 @@ var NAVTREEINDEX78 =
 "struct_acts_1_1_surface_array_navigation_policy_1_1_config.html#a2eb343bb7f12f2771bef87cc4385fd90":[8,0,0,398,0,5],
 "struct_acts_1_1_surface_array_navigation_policy_1_1_config.html#a379dae30440bdbea56773c340dcae579":[6,0,0,392,0,2],
 "struct_acts_1_1_surface_array_navigation_policy_1_1_config.html#a379dae30440bdbea56773c340dcae579":[8,0,0,398,0,2],
-"struct_acts_1_1_surface_array_navigation_policy_1_1_config.html#a432b6f8195ade87a305b685fc769cf70":[6,0,0,392,0,0],
-"struct_acts_1_1_surface_array_navigation_policy_1_1_config.html#a432b6f8195ade87a305b685fc769cf70":[8,0,0,398,0,0],
-"struct_acts_1_1_surface_array_navigation_policy_1_1_config.html#aaf01fbd829ad147fe2d44702fa5412c9":[6,0,0,392,0,3],
-"struct_acts_1_1_surface_array_navigation_policy_1_1_config.html#aaf01fbd829ad147fe2d44702fa5412c9":[8,0,0,398,0,3],
-"struct_acts_1_1_surface_array_navigation_policy_1_1_config.html#acb463946d56d3ca780ac3ab69d93dcfd":[6,0,0,392,0,1],
-"struct_acts_1_1_surface_array_navigation_policy_1_1_config.html#acb463946d56d3ca780ac3ab69d93dcfd":[8,0,0,398,0,1],
-"struct_acts_1_1_surface_binning_matcher.html":[6,0,0,393]
+"struct_acts_1_1_surface_array_navigation_policy_1_1_config.html#a432b6f8195ade87a305b685fc769cf70":[6,0,0,392,0,0]
 };

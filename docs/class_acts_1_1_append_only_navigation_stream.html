@@ -133,8 +133,8 @@ $(function(){initNavTree('class_acts_1_1_append_only_navigation_stream.html','',
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aaf9420c1510e46a5d0da7d1835bb3669" id="r_aaf9420c1510e46a5d0da7d1835bb3669"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf9420c1510e46a5d0da7d1835bb3669">AppendOnlyNavigationStream</a> (<a class="el" href="class_acts_1_1_navigation_stream.html">NavigationStream</a> &amp;stream)</td></tr>
-<tr class="memdesc:aaf9420c1510e46a5d0da7d1835bb3669"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from navigation stream reference.  <br /></td></tr>
+<tr class="memitem:a0615947611125fd7e7048ae1f97250b1" id="r_a0615947611125fd7e7048ae1f97250b1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0615947611125fd7e7048ae1f97250b1">AppendOnlyNavigationStream</a> (<a class="el" href="class_acts_1_1_navigation_stream.html">NavigationStream</a> &amp;stream, const <a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> *volume=nullptr)</td></tr>
+<tr class="memdesc:a0615947611125fd7e7048ae1f97250b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from navigation stream reference.  <br /></td></tr>
 <tr class="memitem:af33bdf691e41a3575063905134cd947d" id="r_af33bdf691e41a3575063905134cd947d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af33bdf691e41a3575063905134cd947d">addPortalCandidate</a> (const <a class="el" href="class_acts_1_1_portal.html">Portal</a> &amp;portal)</td></tr>
 <tr class="memdesc:af33bdf691e41a3575063905134cd947d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a portal candidate to the stream.  <br /></td></tr>
 <tr class="memitem:aeedc4f9b2bade3d5d37f678c26b3a2c7" id="r_aeedc4f9b2bade3d5d37f678c26b3a2c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeedc4f9b2bade3d5d37f678c26b3a2c7">addSurfaceCandidate</a> (const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, const <a class="el" href="class_acts_1_1_boundary_tolerance.html">BoundaryTolerance</a> &amp;bTolerance)</td></tr>
@@ -143,8 +143,8 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Append-only helper to add candidates to a navigation stream. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aaf9420c1510e46a5d0da7d1835bb3669" name="aaf9420c1510e46a5d0da7d1835bb3669"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf9420c1510e46a5d0da7d1835bb3669">&#9670;&#160;</a></span>AppendOnlyNavigationStream()</h2>
+<a id="a0615947611125fd7e7048ae1f97250b1" name="a0615947611125fd7e7048ae1f97250b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0615947611125fd7e7048ae1f97250b1">&#9670;&#160;</a></span>AppendOnlyNavigationStream()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -155,8 +155,12 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">Acts::AppendOnlyNavigationStream::AppendOnlyNavigationStream </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_acts_1_1_navigation_stream.html">NavigationStream</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>stream</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="class_acts_1_1_navigation_stream.html">NavigationStream</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>stream</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> *</td>          <td class="paramname"><span class="paramname"><em>volume</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -170,6 +174,7 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">stream</td><td>Navigation stream to append to </td></tr>
+    <tr><td class="paramname">volume</td><td>Volume the candidates are resolved in. Portal candidates are clipped to its faces if given. </td></tr>
   </table>
   </dd>
 </dl>

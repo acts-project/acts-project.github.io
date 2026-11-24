@@ -148,6 +148,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:af52588f24e6d53e1229d3e9ee4fd53e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a layer intersection from a 3D intersection, intersection index, and a layer.  <br /></td></tr>
 <tr class="memitem:ae4233a155dc6ab6f3f92255a0c40a773" id="r_ae4233a155dc6ab6f3f92255a0c40a773"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4233a155dc6ab6f3f92255a0c40a773">NavigationTarget</a> (const <a class="el" href="namespace_acts.html#ac5af012605f2c07d2ccec54168574925">Intersection3D</a> &amp;<a class="el" href="#ae41dbf6d7820ba0bad45074ea08dc8c7">intersection</a>, <a class="el" href="namespace_acts.html#af9169827ccc34e24679e5d48aa3cd8a1">IntersectionIndex</a> <a class="el" href="#a1af9ba1cb11d24a5b91bc477399aff5b">intersectionIndex</a>, const <a class="el" href="class_acts_1_1_portal.html">Portal</a> &amp;target, const <a class="el" href="class_acts_1_1_boundary_tolerance.html">BoundaryTolerance</a> &amp;<a class="el" href="#a75517e69deb745bdf33c00e574c171bb">boundaryTolerance</a>) noexcept</td></tr>
 <tr class="memdesc:ae4233a155dc6ab6f3f92255a0c40a773"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a portal intersection from a 3D intersection, intersection index, and a portal.  <br /></td></tr>
+<tr class="memitem:a0bf5bb60aee69b70415aff6d34cd0fe0" id="r_a0bf5bb60aee69b70415aff6d34cd0fe0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bf5bb60aee69b70415aff6d34cd0fe0">NavigationTarget</a> (const <a class="el" href="namespace_acts.html#ac5af012605f2c07d2ccec54168574925">Intersection3D</a> &amp;<a class="el" href="#ae41dbf6d7820ba0bad45074ea08dc8c7">intersection</a>, <a class="el" href="namespace_acts.html#af9169827ccc34e24679e5d48aa3cd8a1">IntersectionIndex</a> <a class="el" href="#a1af9ba1cb11d24a5b91bc477399aff5b">intersectionIndex</a>, const <a class="el" href="class_acts_1_1_portal.html">Portal</a> &amp;target, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;representation, const <a class="el" href="class_acts_1_1_boundary_tolerance.html">BoundaryTolerance</a> &amp;<a class="el" href="#a75517e69deb745bdf33c00e574c171bb">boundaryTolerance</a>) noexcept</td></tr>
+<tr class="memdesc:a0bf5bb60aee69b70415aff6d34cd0fe0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for a portal target that is intersected through a different surface than the portal surface, e.g.  <br /></td></tr>
 <tr class="memitem:a59516c61e5db9014b9337a11481d1489" id="r_a59516c61e5db9014b9337a11481d1489"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59516c61e5db9014b9337a11481d1489">NavigationTarget</a> (const <a class="el" href="namespace_acts.html#ac5af012605f2c07d2ccec54168574925">Intersection3D</a> &amp;<a class="el" href="#ae41dbf6d7820ba0bad45074ea08dc8c7">intersection</a>, <a class="el" href="namespace_acts.html#af9169827ccc34e24679e5d48aa3cd8a1">IntersectionIndex</a> <a class="el" href="#a1af9ba1cb11d24a5b91bc477399aff5b">intersectionIndex</a>, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;target, const <a class="el" href="class_acts_1_1_boundary_tolerance.html">BoundaryTolerance</a> &amp;<a class="el" href="#a75517e69deb745bdf33c00e574c171bb">boundaryTolerance</a>) noexcept</td></tr>
 <tr class="memdesc:a59516c61e5db9014b9337a11481d1489"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a surface intersection from a 3D intersection, intersection index, and a surface.  <br /></td></tr>
 <tr class="memitem:aa5001fbf175564dabd67a7ba8d0ca7b1" id="r_aa5001fbf175564dabd67a7ba8d0ca7b1"><td class="memItemLeft" align="right" valign="top"><a id="aa5001fbf175564dabd67a7ba8d0ca7b1" name="aa5001fbf175564dabd67a7ba8d0ca7b1"></a>
@@ -212,7 +214,7 @@ Static Public Member Functions</h2></td></tr>
 <dl class="section note"><dt>Note</dt><dd>This incorporates <span class="tt">std::optional</span> semantics as the next target might not exist. </dd></dl>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a59516c61e5db9014b9337a11481d1489" name="a59516c61e5db9014b9337a11481d1489"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59516c61e5db9014b9337a11481d1489">&#9670;&#160;</a></span>NavigationTarget() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a59516c61e5db9014b9337a11481d1489">&#9670;&#160;</a></span>NavigationTarget() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -262,7 +264,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="af52588f24e6d53e1229d3e9ee4fd53e3" name="af52588f24e6d53e1229d3e9ee4fd53e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af52588f24e6d53e1229d3e9ee4fd53e3">&#9670;&#160;</a></span>NavigationTarget() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af52588f24e6d53e1229d3e9ee4fd53e3">&#9670;&#160;</a></span>NavigationTarget() <span class="overload">[2/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -318,7 +320,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a862687d1560e0538be86794bf1462c83" name="a862687d1560e0538be86794bf1462c83"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a862687d1560e0538be86794bf1462c83">&#9670;&#160;</a></span>NavigationTarget() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a862687d1560e0538be86794bf1462c83">&#9670;&#160;</a></span>NavigationTarget() <span class="overload">[3/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -368,7 +370,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="ae4233a155dc6ab6f3f92255a0c40a773" name="ae4233a155dc6ab6f3f92255a0c40a773"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae4233a155dc6ab6f3f92255a0c40a773">&#9670;&#160;</a></span>NavigationTarget() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4233a155dc6ab6f3f92255a0c40a773">&#9670;&#160;</a></span>NavigationTarget() <span class="overload">[4/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -410,6 +412,62 @@ Static Public Member Functions</h2></td></tr>
     <tr><td class="paramname">intersection</td><td>is the intersection </td></tr>
     <tr><td class="paramname">intersectionIndex</td><td>is the intersection index </td></tr>
     <tr><td class="paramname">target</td><td>is the intersected target </td></tr>
+    <tr><td class="paramname">boundaryTolerance</td><td>is the boundary tolerance used for this intersection </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a0bf5bb60aee69b70415aff6d34cd0fe0" name="a0bf5bb60aee69b70415aff6d34cd0fe0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bf5bb60aee69b70415aff6d34cd0fe0">&#9670;&#160;</a></span>NavigationTarget() <span class="overload">[5/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Acts::NavigationTarget::NavigationTarget </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespace_acts.html#ac5af012605f2c07d2ccec54168574925">Intersection3D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>intersection</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#af9169827ccc34e24679e5d48aa3cd8a1">IntersectionIndex</a></td>          <td class="paramname"><span class="paramname"><em>intersectionIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_portal.html">Portal</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>target</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>representation</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_boundary_tolerance.html">BoundaryTolerance</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>boundaryTolerance</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor for a portal target that is intersected through a different surface than the portal surface, e.g. </p>
+<p>the portal clipped to a volume face </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">intersection</td><td>is the intersection </td></tr>
+    <tr><td class="paramname">intersectionIndex</td><td>is the intersection index </td></tr>
+    <tr><td class="paramname">target</td><td>is the intersected portal </td></tr>
+    <tr><td class="paramname">representation</td><td>is the surface that is intersected </td></tr>
     <tr><td class="paramname">boundaryTolerance</td><td>is the boundary tolerance used for this intersection </td></tr>
   </table>
   </dd>

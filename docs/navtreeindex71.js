@@ -1,5 +1,11 @@
 var NAVTREEINDEX71 =
 {
+"struct_acts_1_1_experimental_1_1_hough_exploration_options.html#acad657f3de32fc1b23d93ff5e4f5eda6":[6,0,0,1,44,7],
+"struct_acts_1_1_experimental_1_1_hough_exploration_options.html#acad657f3de32fc1b23d93ff5e4f5eda6":[8,0,0,3,44,7],
+"struct_acts_1_1_experimental_1_1_hough_exploration_options.html#acc88a092a6cb6ba26841627d62a31aa2":[6,0,0,1,44,4],
+"struct_acts_1_1_experimental_1_1_hough_exploration_options.html#acc88a092a6cb6ba26841627d62a31aa2":[8,0,0,3,44,4],
+"struct_acts_1_1_experimental_1_1_hough_exploration_options.html#ad73e98021d0aaaabe001ec85df585942":[6,0,0,1,44,6],
+"struct_acts_1_1_experimental_1_1_hough_exploration_options.html#ad73e98021d0aaaabe001ec85df585942":[8,0,0,3,44,6],
 "struct_acts_1_1_experimental_1_1_hough_exploration_options.html#ae57d040669bd8694325ae0a83265cf84":[6,0,0,1,44,2],
 "struct_acts_1_1_experimental_1_1_hough_exploration_options.html#ae57d040669bd8694325ae0a83265cf84":[8,0,0,3,44,2],
 "struct_acts_1_1_experimental_1_1_hough_exploration_options.html#af546732450c3bed80fe69ace73a24f93":[6,0,0,1,44,5],
@@ -243,11 +249,5 @@ var NAVTREEINDEX71 =
 "struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html":[6,0,0,148,0],
 "struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html":[8,0,0,154,0],
 "struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html#a60b6c176cc74de5cff6b9d72e8961ee7":[6,0,0,148,0,0],
-"struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html#a60b6c176cc74de5cff6b9d72e8961ee7":[8,0,0,154,0,0],
-"struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html#accb2728c2e156a5481a4f4893ed8d6ae":[6,0,0,148,0,1],
-"struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html#accb2728c2e156a5481a4f4893ed8d6ae":[8,0,0,154,0,1],
-"struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html#ad3a3e102f812957f4dc5d93773f96a24":[6,0,0,148,0,2],
-"struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html#ad3a3e102f812957f4dc5d93773f96a24":[8,0,0,154,0,2],
-"struct_acts_1_1_gaussian_grid_track_density_1_1_config.html":[6,0,0,151,0],
-"struct_acts_1_1_gaussian_grid_track_density_1_1_config.html":[8,0,0,157,0]
+"struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html#a60b6c176cc74de5cff6b9d72e8961ee7":[8,0,0,154,0,0]
 };

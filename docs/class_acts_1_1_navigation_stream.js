@@ -2,6 +2,7 @@ var class_acts_1_1_navigation_stream =
 [
     [ "QueryPoint", "struct_acts_1_1_navigation_stream_1_1_query_point.html", "struct_acts_1_1_navigation_stream_1_1_query_point" ],
     [ "addPortalCandidate", "class_acts_1_1_navigation_stream.html#a0a90d0c507100b1d5256f7b648de6a7a", null ],
+    [ "addPortalCandidate", "class_acts_1_1_navigation_stream.html#a8d9c984f19ac290af12ab2457569292c", null ],
     [ "addSurfaceCandidate", "class_acts_1_1_navigation_stream.html#a44836ded63611d2cd78f188f0a7e2741", null ],
     [ "addSurfaceCandidates", "class_acts_1_1_navigation_stream.html#aee22f469efd318309c02b45ce0e8f3bb", null ],
     [ "candidates", "class_acts_1_1_navigation_stream.html#adcc94c512977fc7e9d7be843ff63db26", null ],

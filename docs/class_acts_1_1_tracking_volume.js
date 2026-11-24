@@ -41,6 +41,7 @@ var class_acts_1_1_tracking_volume =
     [ "navigationPolicy", "class_acts_1_1_tracking_volume.html#a47aa5b5e01e60e79c57b8253c28515e6", null ],
     [ "operator=", "class_acts_1_1_tracking_volume.html#aab3d37e02f7c716ac5fb7dfd1b827848", null ],
     [ "placements", "class_acts_1_1_tracking_volume.html#aeae542b6fb6166ef949f878c943eba71", null ],
+    [ "portalFace", "class_acts_1_1_tracking_volume.html#a8e1672fc7051c7ddbb74f565080c5623", null ],
     [ "portals", "class_acts_1_1_tracking_volume.html#ac037bebe33ea14d05a6213dd8f1c9b37", null ],
     [ "portals", "class_acts_1_1_tracking_volume.html#ac7a4fd8eecd975f746148a70bd890bfe", null ],
     [ "registerGlueVolumeDescriptor", "class_acts_1_1_tracking_volume.html#a751874016878c5532a7e9eb2f98e653f", null ],

@@ -1,5 +1,11 @@
 var NAVTREEINDEX85 =
 {
+"struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_layer_spec.html":[8,0,2,71,2],
+"struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_layer_spec.html#a1fac7029ecb5f660b0da455ec5f12a79":[6,0,3,66,2,0],
+"struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_layer_spec.html#a1fac7029ecb5f660b0da455ec5f12a79":[8,0,2,71,2,0],
+"struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_layer_spec.html#a9ec215ed0baaf60e7625fb7bfa87b2e0":[6,0,3,66,2,1],
+"struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_layer_spec.html#a9ec215ed0baaf60e7625fb7bfa87b2e0":[8,0,2,71,2,1],
+"struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_layer_spec.html#adea354f09ee743483bc7b90a0c21dddd":[6,0,3,66,2,2],
 "struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_layer_spec.html#adea354f09ee743483bc7b90a0c21dddd":[8,0,2,71,2,2],
 "struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_node_context.html":[6,0,3,66,3],
 "struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_node_context.html":[8,0,2,71,3],
@@ -243,11 +249,5 @@ var NAVTREEINDEX85 =
 "structdetray_1_1aggregate__inspector.html#a6672854ec08412a5f5a1a99249c8a583":[6,0,4,8,6],
 "structdetray_1_1aggregate__inspector.html#a6672854ec08412a5f5a1a99249c8a583":[8,0,3,21,5],
 "structdetray_1_1aggregate__inspector.html#a6672854ec08412a5f5a1a99249c8a583":[8,0,3,21,6],
-"structdetray_1_1aggregate__inspector.html#a7ac80b874ced2b2cf75fd785f37639c6":[6,0,4,8,10],
-"structdetray_1_1aggregate__inspector.html#a7ac80b874ced2b2cf75fd785f37639c6":[8,0,3,21,10],
-"structdetray_1_1aggregate__inspector.html#a971b13556159cec437dbfb6d654ffdea":[6,0,4,8,1],
-"structdetray_1_1aggregate__inspector.html#a971b13556159cec437dbfb6d654ffdea":[8,0,3,21,1],
-"structdetray_1_1aggregate__inspector.html#acc4ec562be1ab0765f9e05a69e4277e1":[6,0,4,8,9],
-"structdetray_1_1aggregate__inspector.html#acc4ec562be1ab0765f9e05a69e4277e1":[8,0,3,21,9],
-"structdetray_1_1aggregate__inspector.html#adeddbaa8941d7495f1ff865ca0621a51":[6,0,4,8,4]
+"structdetray_1_1aggregate__inspector.html#a7ac80b874ced2b2cf75fd785f37639c6":[6,0,4,8,10]
 };

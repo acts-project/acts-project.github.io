@@ -1,5 +1,11 @@
 var NAVTREEINDEX86 =
 {
+"structdetray_1_1aggregate__inspector.html#a7ac80b874ced2b2cf75fd785f37639c6":[8,0,3,21,10],
+"structdetray_1_1aggregate__inspector.html#a971b13556159cec437dbfb6d654ffdea":[6,0,4,8,1],
+"structdetray_1_1aggregate__inspector.html#a971b13556159cec437dbfb6d654ffdea":[8,0,3,21,1],
+"structdetray_1_1aggregate__inspector.html#acc4ec562be1ab0765f9e05a69e4277e1":[6,0,4,8,9],
+"structdetray_1_1aggregate__inspector.html#acc4ec562be1ab0765f9e05a69e4277e1":[8,0,3,21,9],
+"structdetray_1_1aggregate__inspector.html#adeddbaa8941d7495f1ff865ca0621a51":[6,0,4,8,4],
 "structdetray_1_1aggregate__inspector.html#adeddbaa8941d7495f1ff865ca0621a51":[8,0,3,21,4],
 "structdetray_1_1aggregate__inspector.html#ae0e6edd047da96d90b23ffc4d6e63e84":[6,0,4,8,12],
 "structdetray_1_1aggregate__inspector.html#ae0e6edd047da96d90b23ffc4d6e63e84":[8,0,3,21,12],
@@ -243,11 +249,5 @@ var NAVTREEINDEX86 =
 "structdetray_1_1algebra_1_1smatrix_1_1math_1_1transform3.html#a3874dff04051c24b5377fa73b3d7a923":[8,0,3,1,5,0,0,10],
 "structdetray_1_1algebra_1_1smatrix_1_1math_1_1transform3.html#a3b284025b9274a592955b047edbeef78":[8,0,3,1,5,0,0,12],
 "structdetray_1_1algebra_1_1smatrix_1_1math_1_1transform3.html#a52f7a83ae4b76834401f68aca6f02d8c":[8,0,3,1,5,0,0,13],
-"structdetray_1_1algebra_1_1smatrix_1_1math_1_1transform3.html#a5cddcc7f3d73235b9d75f6a782cf81af":[8,0,3,1,5,0,0,7],
-"structdetray_1_1algebra_1_1smatrix_1_1math_1_1transform3.html#a7a59f90de720b9c75a0fade17c81272f":[8,0,3,1,5,0,0,31],
-"structdetray_1_1algebra_1_1smatrix_1_1math_1_1transform3.html#a8cc4235511e22f59855792ad70bad696":[8,0,3,1,5,0,0,18],
-"structdetray_1_1algebra_1_1smatrix_1_1math_1_1transform3.html#a8cd4841831eba8364e3df5b424188e41":[8,0,3,1,5,0,0,23],
-"structdetray_1_1algebra_1_1smatrix_1_1math_1_1transform3.html#a92b03794dda8845ff84224d934135a5a":[8,0,3,1,5,0,0,27],
-"structdetray_1_1algebra_1_1smatrix_1_1math_1_1transform3.html#a9b5a8186f66ce5bb20ae0314725dc5d8":[8,0,3,1,5,0,0,17],
-"structdetray_1_1algebra_1_1smatrix_1_1math_1_1transform3.html#aa3fab18a407b13461c41a845f47271cd":[8,0,3,1,5,0,0,22]
+"structdetray_1_1algebra_1_1smatrix_1_1math_1_1transform3.html#a5cddcc7f3d73235b9d75f6a782cf81af":[8,0,3,1,5,0,0,7]
 };

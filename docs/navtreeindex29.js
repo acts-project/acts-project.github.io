@@ -1,5 +1,9 @@
 var NAVTREEINDEX29 =
 {
+"class_acts_1_1_passive_layer_builder.html":[8,0,0,322],
+"class_acts_1_1_passive_layer_builder.html#a245316e2163e62f9ae1015f2895032e7":[6,0,0,316,3],
+"class_acts_1_1_passive_layer_builder.html#a245316e2163e62f9ae1015f2895032e7":[8,0,0,322,3],
+"class_acts_1_1_passive_layer_builder.html#a2e7518fa11da7fca2649942ce0b28e18":[6,0,0,316,1],
 "class_acts_1_1_passive_layer_builder.html#a2e7518fa11da7fca2649942ce0b28e18":[8,0,0,322,1],
 "class_acts_1_1_passive_layer_builder.html#a43b34c986e340ab48b029fea57e8b035":[6,0,0,316,6],
 "class_acts_1_1_passive_layer_builder.html#a43b34c986e340ab48b029fea57e8b035":[8,0,0,322,6],
@@ -245,9 +249,5 @@ var NAVTREEINDEX29 =
 "class_acts_1_1_polynomial_bethe_heitler_approx.html#a4b99b4b44ba64bc87944dd99fcababf1":[5,13,21,2],
 "class_acts_1_1_polynomial_bethe_heitler_approx.html#a61c93b2170db88791a898a58992db14e":[5,3,2,15,3],
 "class_acts_1_1_polynomial_bethe_heitler_approx.html#a61c93b2170db88791a898a58992db14e":[5,13,21,3],
-"class_acts_1_1_polynomial_bethe_heitler_approx.html#a7cff45c465b632a6eed98b234bdb7d60":[5,3,2,15,5],
-"class_acts_1_1_polynomial_bethe_heitler_approx.html#a7cff45c465b632a6eed98b234bdb7d60":[5,13,21,5],
-"class_acts_1_1_polynomial_bethe_heitler_approx.html#ae267dff7881455ebe2f589601e942a85":[5,3,2,15,6],
-"class_acts_1_1_polynomial_bethe_heitler_approx.html#ae267dff7881455ebe2f589601e942a85":[5,13,21,6],
-"class_acts_1_1_portal.html":[6,0,0,327]
+"class_acts_1_1_polynomial_bethe_heitler_approx.html#a7cff45c465b632a6eed98b234bdb7d60":[5,3,2,15,5]
 };

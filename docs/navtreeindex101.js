@@ -1,5 +1,11 @@
 var NAVTREEINDEX101 =
 {
+"structdetray_1_1toy__det__config.html#a61f259e1d1ca87760607cce6a71523c1":[6,0,4,179,25],
+"structdetray_1_1toy__det__config.html#a61f259e1d1ca87760607cce6a71523c1":[8,0,3,192,25],
+"structdetray_1_1toy__det__config.html#a65f23d56d3ce9b57a08239c455ae0d47":[6,0,4,179,27],
+"structdetray_1_1toy__det__config.html#a65f23d56d3ce9b57a08239c455ae0d47":[8,0,3,192,27],
+"structdetray_1_1toy__det__config.html#a694f0ada53276f11ad0a3bc1c6116488":[6,0,4,179,37],
+"structdetray_1_1toy__det__config.html#a694f0ada53276f11ad0a3bc1c6116488":[8,0,3,192,37],
 "structdetray_1_1toy__det__config.html#a6d5b8b09920e9381fd291d2307f63cc9":[6,0,4,179,48],
 "structdetray_1_1toy__det__config.html#a6d5b8b09920e9381fd291d2307f63cc9":[8,0,3,192,48],
 "structdetray_1_1toy__det__config.html#a7161e9d24584460ec2d732511ca2760a":[6,0,4,179,61],
@@ -243,11 +249,5 @@ var NAVTREEINDEX101 =
 "structdetray_1_1types_1_1cast__impl__id_3_01_i_00_01registry_3_01_i_d_00_01_ts_8_8_8_01_4_01_4.html":[8,0,3,17,3],
 "structdetray_1_1types_1_1cast__impl__id_3_01_i_00_01registry_3_01_i_d_00_01_ts_8_8_8_01_4_01_4.html#a5fac435f4f8b148aeebab40b5bf7e248":[6,0,4,5,3,0],
 "structdetray_1_1types_1_1cast__impl__id_3_01_i_00_01registry_3_01_i_d_00_01_ts_8_8_8_01_4_01_4.html#a5fac435f4f8b148aeebab40b5bf7e248":[8,0,3,17,3,0],
-"structdetray_1_1types_1_1cast__impl__idx.html":[6,0,4,5,4],
-"structdetray_1_1types_1_1cast__impl__idx.html":[8,0,3,17,4],
-"structdetray_1_1types_1_1cast__impl__idx_3_01_i_00_01mapped__registry_3_01_r_00_01_s_01_4_01_4.html":[6,0,4,5,5],
-"structdetray_1_1types_1_1cast__impl__idx_3_01_i_00_01mapped__registry_3_01_r_00_01_s_01_4_01_4.html":[8,0,3,17,5],
-"structdetray_1_1types_1_1cast__impl__idx_3_01_i_00_01mapped__registry_3_01_r_00_01_s_01_4_01_4.html#a30712a09a9b5e708664d9401b0cbb9d0":[6,0,4,5,5,0],
-"structdetray_1_1types_1_1cast__impl__idx_3_01_i_00_01mapped__registry_3_01_r_00_01_s_01_4_01_4.html#a30712a09a9b5e708664d9401b0cbb9d0":[8,0,3,17,5,0],
-"structdetray_1_1types_1_1cast__impl__idx_3_01_i_00_01registry_3_01_i_d_00_01_ts_8_8_8_01_4_01_4.html":[6,0,4,5,6]
+"structdetray_1_1types_1_1cast__impl__idx.html":[6,0,4,5,4]
 };

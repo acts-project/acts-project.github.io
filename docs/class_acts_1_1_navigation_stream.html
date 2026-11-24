@@ -140,6 +140,8 @@ Classes</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a0a90d0c507100b1d5256f7b648de6a7a" id="r_a0a90d0c507100b1d5256f7b648de6a7a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a90d0c507100b1d5256f7b648de6a7a">addPortalCandidate</a> (const <a class="el" href="class_acts_1_1_portal.html">Portal</a> &amp;portal)</td></tr>
 <tr class="memdesc:a0a90d0c507100b1d5256f7b648de6a7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill one portal into the candidate vector.  <br /></td></tr>
+<tr class="memitem:a8d9c984f19ac290af12ab2457569292c" id="r_a8d9c984f19ac290af12ab2457569292c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d9c984f19ac290af12ab2457569292c">addPortalCandidate</a> (const <a class="el" href="class_acts_1_1_portal.html">Portal</a> &amp;portal, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;representation)</td></tr>
+<tr class="memdesc:a8d9c984f19ac290af12ab2457569292c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill one portal into the candidate vector, intersected through a different surface.  <br /></td></tr>
 <tr class="memitem:a44836ded63611d2cd78f188f0a7e2741" id="r_a44836ded63611d2cd78f188f0a7e2741"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44836ded63611d2cd78f188f0a7e2741">addSurfaceCandidate</a> (const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, const <a class="el" href="class_acts_1_1_boundary_tolerance.html">BoundaryTolerance</a> &amp;bTolerance)</td></tr>
 <tr class="memdesc:a44836ded63611d2cd78f188f0a7e2741"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill one surface into the candidate vector.  <br /></td></tr>
 <tr class="memitem:aee22f469efd318309c02b45ce0e8f3bb" id="r_aee22f469efd318309c02b45ce0e8f3bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee22f469efd318309c02b45ce0e8f3bb">addSurfaceCandidates</a> (std::span&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> * &gt; surfaces, const <a class="el" href="class_acts_1_1_boundary_tolerance.html">BoundaryTolerance</a> &amp;bTolerance)</td></tr>
@@ -175,7 +177,7 @@ Public Member Functions</h2></td></tr>
 <p>The current candidates are stored in a vector of candidates, where an index is used to indicate the current active candidate. </p>
 </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a0a90d0c507100b1d5256f7b648de6a7a" name="a0a90d0c507100b1d5256f7b648de6a7a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a90d0c507100b1d5256f7b648de6a7a">&#9670;&#160;</a></span>addPortalCandidate()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a90d0c507100b1d5256f7b648de6a7a">&#9670;&#160;</a></span>addPortalCandidate() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -193,6 +195,36 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">portal</td><td>the portals that are filled in </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8d9c984f19ac290af12ab2457569292c" name="a8d9c984f19ac290af12ab2457569292c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d9c984f19ac290af12ab2457569292c">&#9670;&#160;</a></span>addPortalCandidate() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Acts::NavigationStream::addPortalCandidate </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_portal.html">Portal</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>portal</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>representation</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fill one portal into the candidate vector, intersected through a different surface. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">portal</td><td>the portal that is filled in </td></tr>
+    <tr><td class="paramname">representation</td><td>the surface to intersect instead of the portal surface, e.g. the portal clipped to one volume face </td></tr>
   </table>
   </dd>
 </dl>

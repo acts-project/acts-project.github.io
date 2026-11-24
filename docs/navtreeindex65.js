@@ -1,5 +1,11 @@
 var NAVTREEINDEX65 =
 {
+"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_state.html":[8,0,0,20,1],
+"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_state.html#a072cd655e8dbee68e72b501a548e0253":[6,0,0,14,1,0],
+"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_state.html#a072cd655e8dbee68e72b501a548e0253":[8,0,0,20,1,0],
+"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_state.html#a12b85117619dea9c10f8000a971f932b":[6,0,0,14,1,3],
+"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_state.html#a12b85117619dea9c10f8000a971f932b":[8,0,0,20,1,3],
+"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_state.html#a2f3622cdee3f348416dfebb4e778e120":[6,0,0,14,1,2],
 "struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_state.html#a2f3622cdee3f348416dfebb4e778e120":[8,0,0,20,1,2],
 "struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_state.html#a6f6aaec3be2fe16474e4ba0fd9c13ad5":[6,0,0,14,1,1],
 "struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_state.html#a6f6aaec3be2fe16474e4ba0fd9c13ad5":[8,0,0,20,1,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX65 =
 "struct_acts_1_1_binned_surface_material_accumulator_1_1_state.html#a0eecbe30758e6a22f756ac29aedd524f":[5,3,2,0,3,1,0],
 "struct_acts_1_1_binned_surface_material_accumulator_1_1_state.html#a3860dc4fc67c51f34858e344888f837b":[5,3,2,0,3,1,1],
 "struct_acts_1_1_binned_surface_material_accumulator_1_1_state.html#a91069fd60a6a8c260ddafa1b880fff6f":[5,3,2,0,3,1,2],
-"struct_acts_1_1_blueprint_1_1_config.html":[6,0,0,54,0],
-"struct_acts_1_1_blueprint_1_1_config.html":[8,0,0,60,0],
-"struct_acts_1_1_blueprint_1_1_config.html#a4646b7821aa7f6df65f22f230b244df6":[6,0,0,54,0,0],
-"struct_acts_1_1_blueprint_1_1_config.html#a4646b7821aa7f6df65f22f230b244df6":[8,0,0,60,0,0],
-"struct_acts_1_1_blueprint_1_1_config.html#a50bb5dab9e7be23af8e926180042fd03":[6,0,0,54,0,1],
-"struct_acts_1_1_blueprint_1_1_config.html#a50bb5dab9e7be23af8e926180042fd03":[8,0,0,60,0,1],
-"struct_acts_1_1_blueprint_options.html":[6,0,0,57]
+"struct_acts_1_1_blueprint_1_1_config.html":[6,0,0,54,0]
 };

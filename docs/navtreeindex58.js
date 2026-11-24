@@ -1,5 +1,11 @@
 var NAVTREEINDEX58 =
 {
+"concept_acts_1_1_actor_has_act_without_state.html":[7,0,8],
+"concept_acts_1_1_actor_has_old_void_interface.html":[6,0,0,468],
+"concept_acts_1_1_actor_has_old_void_interface.html":[7,0,10],
+"concept_acts_1_1_actor_has_state.html":[6,0,0,469],
+"concept_acts_1_1_actor_has_state.html":[7,0,11],
+"concept_acts_1_1_ambiguity_network_concept.html":[6,0,0,470],
 "concept_acts_1_1_ambiguity_network_concept.html":[7,0,12],
 "concept_acts_1_1_axis_concept.html":[6,0,0,471],
 "concept_acts_1_1_axis_concept.html":[7,0,13],
@@ -243,11 +249,5 @@ var NAVTREEINDEX58 =
 "conceptdetray_1_1concepts_1_1simd__scalar.html":[6,0,4,1,75],
 "conceptdetray_1_1concepts_1_1simd__scalar.html":[7,1,0,75],
 "conceptdetray_1_1concepts_1_1simd__storage__vector.html":[6,0,4,1,76],
-"conceptdetray_1_1concepts_1_1simd__storage__vector.html":[7,1,0,76],
-"conceptdetray_1_1concepts_1_1soa.html":[6,0,4,1,77],
-"conceptdetray_1_1concepts_1_1soa.html":[7,1,0,77],
-"conceptdetray_1_1concepts_1_1spatial__grid.html":[6,0,4,1,78],
-"conceptdetray_1_1concepts_1_1spatial__grid.html":[7,1,0,78],
-"conceptdetray_1_1concepts_1_1square__matrix.html":[6,0,4,1,79],
-"conceptdetray_1_1concepts_1_1square__matrix.html":[7,1,0,79]
+"conceptdetray_1_1concepts_1_1simd__storage__vector.html":[7,1,0,76]
 };

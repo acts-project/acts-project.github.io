@@ -1,5 +1,11 @@
 var NAVTREEINDEX73 =
 {
+"struct_acts_1_1_grid_axis_generators_1_1_var_eq.html":[8,0,0,5,4],
+"struct_acts_1_1_grid_axis_generators_1_1_var_eq.html#a0dcdbce1b678b407665faf4efc116373":[6,0,0,2,4,1],
+"struct_acts_1_1_grid_axis_generators_1_1_var_eq.html#a0dcdbce1b678b407665faf4efc116373":[8,0,0,5,4,1],
+"struct_acts_1_1_grid_axis_generators_1_1_var_eq.html#a6e347a1954753bbfe0deb81ff7fd2e54":[6,0,0,2,4,2],
+"struct_acts_1_1_grid_axis_generators_1_1_var_eq.html#a6e347a1954753bbfe0deb81ff7fd2e54":[8,0,0,5,4,2],
+"struct_acts_1_1_grid_axis_generators_1_1_var_eq.html#a7d1d3bc997eb2ea342ffc38103f38ebc":[6,0,0,2,4,4],
 "struct_acts_1_1_grid_axis_generators_1_1_var_eq.html#a7d1d3bc997eb2ea342ffc38103f38ebc":[8,0,0,5,4,4],
 "struct_acts_1_1_grid_axis_generators_1_1_var_eq.html#a8f7186f88499126aee3e354c20671555":[6,0,0,2,4,5],
 "struct_acts_1_1_grid_axis_generators_1_1_var_eq.html#a8f7186f88499126aee3e354c20671555":[8,0,0,5,4,5],
@@ -243,11 +249,5 @@ var NAVTREEINDEX73 =
 "struct_acts_1_1_i_navigation_policy_1_1_empty_state.html":[6,0,0,196,0],
 "struct_acts_1_1_i_navigation_policy_1_1_empty_state.html":[8,0,0,202,0],
 "struct_acts_1_1_i_reference_generator.html":[6,0,0,209],
-"struct_acts_1_1_i_reference_generator.html":[8,0,0,215],
-"struct_acts_1_1_i_reference_generator.html#a47965ad0050064bd8d14baec0176d8de":[6,0,0,209,0],
-"struct_acts_1_1_i_reference_generator.html#a47965ad0050064bd8d14baec0176d8de":[8,0,0,215,0],
-"struct_acts_1_1_i_surface_material_accumulator_1_1_track_accumulation.html":[5,3,2,0,6,1],
-"struct_acts_1_1_i_surface_material_accumulator_1_1_track_accumulation.html#a22e9b0e097dfc5aac1255a19ae47de97":[5,3,2,0,6,1,1],
-"struct_acts_1_1_i_surface_material_accumulator_1_1_track_accumulation.html#abdb72d43a094ad5d9653c5c065c02b0f":[5,3,2,0,6,1,0],
-"struct_acts_1_1_impact_parameters_and_sigma.html":[6,0,0,192]
+"struct_acts_1_1_i_reference_generator.html":[8,0,0,215]
 };
