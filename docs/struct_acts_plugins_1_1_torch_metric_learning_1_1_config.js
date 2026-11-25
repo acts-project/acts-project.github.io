@@ -3,6 +3,7 @@ var struct_acts_plugins_1_1_torch_metric_learning_1_1_config =
     [ "device", "struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#aa8eaaf40b2c763310a16774465d125f1", null ],
     [ "embeddingDim", "struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#ad4dc2930b3bbd374c89a74174b9b0d46", null ],
     [ "knnVal", "struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#ae341ca5a5218420ce852e961001222dd", null ],
+    [ "modelDevice", "struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#a37ccaa4be76734cc5bec5825e529f90c", null ],
     [ "modelPath", "struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#aba7188d23a4425717cfcd77d8b128b60", null ],
     [ "phiScale", "struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#aad5017f4e550af46cfc538c2a0de4952", null ],
     [ "rVal", "struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#a784c0c55a0a9f407c565e72b09297998", null ],

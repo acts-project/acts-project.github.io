@@ -135,6 +135,7 @@ $(function(){initNavTree('struct_acts_plugins_1_1_device.html','','struct_acts_p
 Public Types</h2></td></tr>
 <tr class="memitem:a8d6402367687af920630e52d91c4c366" id="r_a8d6402367687af920630e52d91c4c366"><td class="memItemLeft" align="right" valign="top"><a id="a8d6402367687af920630e52d91c4c366" name="a8d6402367687af920630e52d91c4c366"></a>enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d6402367687af920630e52d91c4c366">Type</a> { <b>eCPU</b>
 , <b>eCUDA</b>
+, <b>eMPS</b>
  }</td></tr>
 <tr class="memdesc:a8d6402367687af920630e52d91c4c366"><td class="mdescLeft">&#160;</td><td class="mdescRight">Device type enumeration. <br /></td></tr>
 </table><table class="memberdecls">
@@ -144,6 +145,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a4e675967a57061838705d12784d93f72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if device is configured for CPU execution.  <br /></td></tr>
 <tr class="memitem:a6f4a90fb663d1a054e7217269d41755d" id="r_a6f4a90fb663d1a054e7217269d41755d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f4a90fb663d1a054e7217269d41755d">isCuda</a> () const</td></tr>
 <tr class="memdesc:a6f4a90fb663d1a054e7217269d41755d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if device is configured for CUDA execution.  <br /></td></tr>
+<tr class="memitem:a8e0f329d7082ec66b83d4b49ba530285" id="r_a8e0f329d7082ec66b83d4b49ba530285"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e0f329d7082ec66b83d4b49ba530285">isMps</a> () const</td></tr>
+<tr class="memdesc:a8e0f329d7082ec66b83d4b49ba530285"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if device is configured for MPS execution.  <br /></td></tr>
 <tr class="memitem:ab415c73a916bc8a0eea4a67b4e065064" id="r_ab415c73a916bc8a0eea4a67b4e065064"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab415c73a916bc8a0eea4a67b4e065064">operator==</a> (const <a class="el" href="struct_acts_plugins_1_1_device.html">Device</a> &amp;) const =default</td></tr>
 <tr class="memdesc:ab415c73a916bc8a0eea4a67b4e065064"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare two device descriptors for equality.  <br /></td></tr>
 </table><table class="memberdecls">
@@ -153,6 +156,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:accc360d8927adc93ed85ecbae8680e62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a CPU device descriptor.  <br /></td></tr>
 <tr class="memitem:ae38ca3263b27d84b76c3170a93eb9fc0" id="r_ae38ca3263b27d84b76c3170a93eb9fc0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_acts_plugins_1_1_device.html">Device</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae38ca3263b27d84b76c3170a93eb9fc0">Cuda</a> (std::size_t <a class="el" href="#afe74d25b11d7a9544bf8fe22bfcc7739">index</a>=0)</td></tr>
 <tr class="memdesc:ae38ca3263b27d84b76c3170a93eb9fc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a CUDA device descriptor.  <br /></td></tr>
+<tr class="memitem:af61104415f836fe422522eef1cf0f2ee" id="r_af61104415f836fe422522eef1cf0f2ee"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_acts_plugins_1_1_device.html">Device</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af61104415f836fe422522eef1cf0f2ee">Mps</a> ()</td></tr>
+<tr class="memdesc:af61104415f836fe422522eef1cf0f2ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an MPS (Apple GPU) device descriptor.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -161,10 +166,11 @@ std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>index</b> = 0<
 <tr class="memdesc:afe74d25b11d7a9544bf8fe22bfcc7739"><td class="mdescLeft">&#160;</td><td class="mdescRight">Device index for multi-GPU systems. <br /></td></tr>
 <tr class="memitem:a8fa5c6856600a9ebf8795b67a6940b71" id="r_a8fa5c6856600a9ebf8795b67a6940b71"><td class="memItemLeft" align="right" valign="top"><a id="a8fa5c6856600a9ebf8795b67a6940b71" name="a8fa5c6856600a9ebf8795b67a6940b71"></a>
 <a class="el" href="#a8d6402367687af920630e52d91c4c366">Type</a>&#160;</td><td class="memItemRight" valign="bottom"><b>type</b> = Type::eCPU</td></tr>
-<tr class="memdesc:a8fa5c6856600a9ebf8795b67a6940b71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Device type (CPU or CUDA). <br /></td></tr>
+<tr class="memdesc:a8fa5c6856600a9ebf8795b67a6940b71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Device type (CPU, CUDA or MPS). <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A simple device description struct. </p>
+<dl class="section note"><dt>Note</dt><dd>Tensors can live on CPU and CUDA devices. MPS (Apple's Metal Performance Shaders) describes only where a stage runs its model: the Torch stages can run on it while the pipeline tensors stay on the host, so creating a tensor on an MPS device throws. </dd></dl>
 </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="accc360d8927adc93ed85ecbae8680e62" name="accc360d8927adc93ed85ecbae8680e62"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#accc360d8927adc93ed85ecbae8680e62">&#9670;&#160;</a></span>Cpu()</h2>
@@ -265,6 +271,54 @@ std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>index</b> = 0<
 
 <p>Check if device is configured for CUDA execution. </p>
 <dl class="section return"><dt>Returns</dt><dd>True if device type is CUDA, false otherwise </dd></dl>
+
+</div>
+</div>
+<a id="a8e0f329d7082ec66b83d4b49ba530285" name="a8e0f329d7082ec66b83d4b49ba530285"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e0f329d7082ec66b83d4b49ba530285">&#9670;&#160;</a></span>isMps()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ActsPlugins::Device::isMps </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check if device is configured for MPS execution. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if device type is MPS, false otherwise </dd></dl>
+
+</div>
+</div>
+<a id="af61104415f836fe422522eef1cf0f2ee" name="af61104415f836fe422522eef1cf0f2ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af61104415f836fe422522eef1cf0f2ee">&#9670;&#160;</a></span>Mps()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_acts_plugins_1_1_device.html">Device</a> ActsPlugins::Device::Mps </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create an MPS (Apple GPU) device descriptor. </p>
+<dl class="section return"><dt>Returns</dt><dd>Device object configured for MPS execution </dd></dl>
 
 </div>
 </div>

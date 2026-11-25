@@ -22,6 +22,8 @@ var group__gnn__plugin =
       [ "Cuda", "struct_acts_plugins_1_1_device.html#ae38ca3263b27d84b76c3170a93eb9fc0", null ],
       [ "isCpu", "struct_acts_plugins_1_1_device.html#a4e675967a57061838705d12784d93f72", null ],
       [ "isCuda", "struct_acts_plugins_1_1_device.html#a6f4a90fb663d1a054e7217269d41755d", null ],
+      [ "isMps", "struct_acts_plugins_1_1_device.html#a8e0f329d7082ec66b83d4b49ba530285", null ],
+      [ "Mps", "struct_acts_plugins_1_1_device.html#af61104415f836fe422522eef1cf0f2ee", null ],
       [ "operator==", "struct_acts_plugins_1_1_device.html#ab415c73a916bc8a0eea4a67b4e065064", null ],
       [ "index", "struct_acts_plugins_1_1_device.html#afe74d25b11d7a9544bf8fe22bfcc7739", null ],
       [ "type", "struct_acts_plugins_1_1_device.html#a8fa5c6856600a9ebf8795b67a6940b71", null ]
@@ -137,6 +139,7 @@ var group__gnn__plugin =
       [ "Config", "struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html", [
         [ "cut", "struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#adccb4128138cd1501f72b9f5a1fd1835", null ],
         [ "device", "struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#a5451dcdde489ab1aa40cf7ec156d02f0", null ],
+        [ "modelDevice", "struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#a114898bafa10b3bf933613e461e76ce5", null ],
         [ "modelPath", "struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#a89e72e8d6940944281de3dff5a1d7691", null ],
         [ "nChunks", "struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#a84ec37190a62db43149c818a30cedd9c", null ],
         [ "selectedFeatures", "struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#ab563c4912bb580f369ccd3c24972f480", null ],
@@ -152,6 +155,7 @@ var group__gnn__plugin =
         [ "device", "struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#aa8eaaf40b2c763310a16774465d125f1", null ],
         [ "embeddingDim", "struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#ad4dc2930b3bbd374c89a74174b9b0d46", null ],
         [ "knnVal", "struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#ae341ca5a5218420ce852e961001222dd", null ],
+        [ "modelDevice", "struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#a37ccaa4be76734cc5bec5825e529f90c", null ],
         [ "modelPath", "struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#aba7188d23a4425717cfcd77d8b128b60", null ],
         [ "phiScale", "struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#aad5017f4e550af46cfc538c2a0de4952", null ],
         [ "rVal", "struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#a784c0c55a0a9f407c565e72b09297998", null ],
