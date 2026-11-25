@@ -166,8 +166,8 @@ Graph nodes</h2>
 <td class="markdownTableBodyNone"><span class="tt">GbtsLayerIndex</span>  </td><td class="markdownTableBodyNone">where that layer sits in one <a class="el" href="class_acts_1_1_experimental_1_1_gbts_geometry.html">Acts::Experimental::GbtsGeometry</a>, dense from zero. It indexes the geometry, and it is what a node carries.  </td></tr>
 </table>
 <p><span class="tt">insert</span> takes the <b>index</b>, because it is on the per-space-point path. <a class="el" href="class_acts_1_1_experimental_1_1_gbts_geometry.html#aa1685d6555fe9bfc60004911bd2a310f">Acts::Experimental::GbtsGeometry::layerIndex</a> hands it out. It is the geometry's own numbering and is not derivable from the id.</p>
-<p><span class="tt">insert</span> assigns the node to an eta bin via <span class="tt">GbtsLayer::getEtaBin</span> and buffers it. <span class="tt">finalize</span> then sorts each bin by \(\phi\) and materialises the nodes into a space point container ordered by eta bin and then by \(\phi\), so that every eta bin is <b>one contiguous range of node indices</b>. A node index is therefore all that the rest of the algorithm needs to pass around.</p>
-<p>The per-node data the graph builder reads lives in dynamic columns on that same container. It is packed rather than split into one array per field, because the innermost loop reads all of it together:</p>
+<p><span class="tt">insert</span> assigns the node to an eta bin via <span class="tt">GbtsLayer::getEtaBin</span> and buffers it with the other nodes of its bin. <span class="tt">finalize</span> then sorts each bin by \(\phi\) and lays the nodes out in plain per-node arrays ordered by eta bin and then by \(\phi\), so that every eta bin is <b>one contiguous range of node indices</b>. A node index is therefore all that the rest of the algorithm needs to pass around.</p>
+<p>The per-node data the graph builder reads is one record per node rather than one array per field, because the innermost loop reads all of it together:</p>
 <div class="fragment"><div class="line"><span class="keyword">struct </span>GbtsNodeParams final {</div>
 <div class="line">  <span class="keywordtype">float</span> minTau{-std::numeric_limits&lt;float&gt;::infinity()};</div>
 <div class="line">  <span class="keywordtype">float</span> maxTau{std::numeric_limits&lt;float&gt;::infinity()};</div>
@@ -181,14 +181,16 @@ Graph nodes</h2>
 <div class="line">  std::uint16_t numEdges{};</div>
 <div class="line">  std::uint16_t isConnected{};</div>
 <div class="line">};</div>
-</div><!-- fragment --><p>Each eta bin carries its node range plus the \(\phi\) index used by the sliding window. The \(\phi\) index duplicates entries shifted by \(\pm 2\pi\) near the wrap-around, so the window never has to handle wrapping:</p>
+</div><!-- fragment --><p>Each eta bin carries its node range, its radial and \(z\) extent, and the \(\phi\) index used by the sliding window. The \(\phi\) index duplicates entries shifted by \(\pm 2\pi\) near the wrap-around, so the window never has to handle wrapping:</p>
 <div class="fragment"><div class="line"><span class="keyword">struct </span>GbtsEtaBinInfo final {</div>
 <div class="line">  <a class="code hl_typedef" href="namespace_acts.html#a2ebcbf8d2c4f62969bb21447f1368758">SpacePointIndexRange</a> nodes{0, 0};</div>
 <div class="line"></div>
 <div class="line">  std::vector&lt;std::pair&lt;float, SpacePointIndex&gt;&gt; phiNodes;</div>
-<div class="line"> </div>
-<div class="line">  <span class="keywordtype">float</span> minRadius{};</div>
-<div class="line">  <span class="keywordtype">float</span> maxRadius{};</div>
+<div class="line"></div>
+<div class="line">  <span class="keywordtype">float</span> minRadius{std::numeric_limits&lt;float&gt;::max()};</div>
+<div class="line">  <span class="keywordtype">float</span> maxRadius{std::numeric_limits&lt;float&gt;::lowest()};</div>
+<div class="line">  <span class="keywordtype">float</span> minZ{std::numeric_limits&lt;float&gt;::max()};</div>
+<div class="line">  <span class="keywordtype">float</span> maxZ{std::numeric_limits&lt;float&gt;::lowest()};</div>
 <div class="line">  std::int32_t barrelOrder{-1};</div>
 <div class="line"></div>
 <div class="line">  <a class="code hl_enumeration" href="namespace_acts_1_1_experimental.html#a571d8b9ac35ce16e05d33d11b425e1e9">GbtsLayerType</a> type{};</div>
