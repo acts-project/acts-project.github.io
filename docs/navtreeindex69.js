@@ -1,5 +1,9 @@
 var NAVTREEINDEX69 =
 {
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html#a7e34c49ac7127c0ec751ed0071ac76d7":[6,0,0,1,6,2,2],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html#a7e34c49ac7127c0ec751ed0071ac76d7":[8,0,0,3,6,2,2],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html#a91eb37b3bf4ee46e769451165b9f526f":[6,0,0,1,6,2,0],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html#a91eb37b3bf4ee46e769451165b9f526f":[8,0,0,3,6,2,0],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html#a9e22c69713f59ed04d21503f9c73a123":[6,0,0,1,6,2,1],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html#a9e22c69713f59ed04d21503f9c73a123":[8,0,0,3,6,2,1],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html#ae4b0e30d97a82dcc75e77883fa132643":[6,0,0,1,6,2,7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX69 =
 "struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a6fa2fcf6b5eedf739cf99f29b2cfabf7":[6,0,0,1,23,0,18],
 "struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a6fa2fcf6b5eedf739cf99f29b2cfabf7":[8,0,0,3,23,0,18],
 "struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a75a8ffc9f77a794cdc04497e2c800d5e":[6,0,0,1,23,0,7],
-"struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a75a8ffc9f77a794cdc04497e2c800d5e":[8,0,0,3,23,0,7],
-"struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a78da6b28740994f8aa8e66c1df413d20":[6,0,0,1,23,0,26],
-"struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a78da6b28740994f8aa8e66c1df413d20":[8,0,0,3,23,0,26],
-"struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a7f2ac8426738c36c7c8faeeb71e62038":[6,0,0,1,23,0,2],
-"struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a7f2ac8426738c36c7c8faeeb71e62038":[8,0,0,3,23,0,2]
+"struct_acts_1_1_experimental_1_1_gbts_graph_builder_1_1_config.html#a75a8ffc9f77a794cdc04497e2c800d5e":[8,0,0,3,23,0,7]
 };

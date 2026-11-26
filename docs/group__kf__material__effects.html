@@ -211,11 +211,11 @@ Energy loss</h2>
 Covariance update</h2>
 <p>The three variances computed above are added onto the corresponding <b>diagonal</b> entries of the bound covariance, \(\sigma^2(\phi)\), \(\sigma^2(\theta)\) and \(\sigma^2(q/p)\). The sign is set by the <a class="el" href="namespace_acts.html#ae866cb8853468d56eec07abde7529017">Acts::NoiseUpdateMode</a> &ndash; noise is <em>added</em> during the forward filtering pass. Each variance is floored at zero to protect against numerical underflow. No off-diagonal correlations are created, and the local position and time entries are untouched:</p>
 <div class="fragment"><div class="line"><a class="code hl_typedef" href="namespace_acts.html#aec0a40be468eddaf61a46560269bd97e">BoundMatrix</a> covariance = *stepper.covariance(state.stepping);</div>
-<div class="line">covariance(eBoundPhi, eBoundPhi) = updateVariance(</div>
-<div class="line">    covariance(eBoundPhi, eBoundPhi), effects.variancePhi, noiseUpdateMode);</div>
-<div class="line">covariance(eBoundTheta, eBoundTheta) =</div>
-<div class="line">    updateVariance(covariance(eBoundTheta, eBoundTheta),</div>
-<div class="line">                   effects.varianceTheta, noiseUpdateMode);</div>
+<div class="line">covariance(<a class="code hl_enumvalue" href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7a574e216d347c4be1fc427169731490ef">eBoundDir0</a>, <a class="code hl_enumvalue" href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7a574e216d347c4be1fc427169731490ef">eBoundDir0</a>) = updateVariance(</div>
+<div class="line">    covariance(<a class="code hl_enumvalue" href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7a574e216d347c4be1fc427169731490ef">eBoundDir0</a>, <a class="code hl_enumvalue" href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7a574e216d347c4be1fc427169731490ef">eBoundDir0</a>), effects.variancePhi, noiseUpdateMode);</div>
+<div class="line">covariance(<a class="code hl_enumvalue" href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7af8f340dc1d150e708e0444abe5147d08">eBoundDir1</a>, <a class="code hl_enumvalue" href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7af8f340dc1d150e708e0444abe5147d08">eBoundDir1</a>) =</div>
+<div class="line">    updateVariance(covariance(<a class="code hl_enumvalue" href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7af8f340dc1d150e708e0444abe5147d08">eBoundDir1</a>, <a class="code hl_enumvalue" href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7af8f340dc1d150e708e0444abe5147d08">eBoundDir1</a>), effects.varianceTheta,</div>
+<div class="line">                   noiseUpdateMode);</div>
 <div class="line">covariance(eBoundQOverP, eBoundQOverP) =</div>
 <div class="line">    updateVariance(covariance(eBoundQOverP, eBoundQOverP),</div>
 <div class="line">                   effects.varianceQoverP, noiseUpdateMode);</div>

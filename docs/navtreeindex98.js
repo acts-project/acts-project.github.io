@@ -1,5 +1,9 @@
 var NAVTREEINDEX98 =
 {
+"structdetray_1_1ray__intersector__impl_3_01cartesian2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#a9e24b237f56863f47c91d7ccd0341de5":[8,0,3,166,1],
+"structdetray_1_1ray__intersector__impl_3_01cartesian2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#abe90a2253da0eb321b7dfe2e25da8aac":[6,0,4,153,3],
+"structdetray_1_1ray__intersector__impl_3_01cartesian2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#abe90a2253da0eb321b7dfe2e25da8aac":[6,0,4,153,4],
+"structdetray_1_1ray__intersector__impl_3_01cartesian2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#abe90a2253da0eb321b7dfe2e25da8aac":[8,0,3,166,3],
 "structdetray_1_1ray__intersector__impl_3_01cartesian2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#abe90a2253da0eb321b7dfe2e25da8aac":[8,0,3,166,4],
 "structdetray_1_1ray__intersector__impl_3_01cartesian2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#ad99f8127828506494f54351d022c2726":[6,0,4,153,6],
 "structdetray_1_1ray__intersector__impl_3_01cartesian2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#ad99f8127828506494f54351d022c2726":[8,0,3,166,6],
@@ -245,9 +249,5 @@ var NAVTREEINDEX98 =
 "structdetray_1_1step__record.html#a70eac46c9accb0d33556b1d24bd1bdb3":[8,0,3,182,13],
 "structdetray_1_1step__record.html#a7a6df65ee2f7427f803287bc80a6f16f":[6,0,4,169,5],
 "structdetray_1_1step__record.html#a7a6df65ee2f7427f803287bc80a6f16f":[8,0,3,182,5],
-"structdetray_1_1step__record.html#a7d70df3e2a4d94e8a5a51110baa02d01":[6,0,4,169,20],
-"structdetray_1_1step__record.html#a7d70df3e2a4d94e8a5a51110baa02d01":[8,0,3,182,20],
-"structdetray_1_1step__record.html#a808878b40aa0af78e66578ef890d5a6f":[6,0,4,169,17],
-"structdetray_1_1step__record.html#a808878b40aa0af78e66578ef890d5a6f":[8,0,3,182,17],
-"structdetray_1_1step__record.html#a875b657b752d946f9601ef8edcad154b":[6,0,4,169,19]
+"structdetray_1_1step__record.html#a7d70df3e2a4d94e8a5a51110baa02d01":[6,0,4,169,20]
 };

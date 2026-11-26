@@ -1138,9 +1138,8 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>BoundSubspaceIndices
 <tr class="memitem:aa7db1d65428d10880cd7643f8e6eddb4" id="r_aa7db1d65428d10880cd7643f8e6eddb4"><td class="memItemLeft" align="right" valign="top"><a id="aa7db1d65428d10880cd7643f8e6eddb4" name="aa7db1d65428d10880cd7643f8e6eddb4"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>BoundToFreeMatrix</b> = <a class="el" href="group__algebra__types.html#ga6601cf34fab9264b809ec0bc9364048d">Matrix</a>&lt;eFreeSize, eBoundSize&gt;</td></tr>
 <tr class="memdesc:aa7db1d65428d10880cd7643f8e6eddb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matrix type for mapping from bound to free track parameters. <br /></td></tr>
-<tr class="memitem:a019f0610fe8fe3f7b3692d7ef6a2dded" id="r_a019f0610fe8fe3f7b3692d7ef6a2dded"><td class="memItemLeft" align="right" valign="top"><a id="a019f0610fe8fe3f7b3692d7ef6a2dded" name="a019f0610fe8fe3f7b3692d7ef6a2dded"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>BoundVector</b> = <a class="el" href="group__algebra__types.html#ga5fb69f475a7d72c8214332057c3135d5">Vector</a>&lt;eBoundSize&gt;</td></tr>
-<tr class="memdesc:a019f0610fe8fe3f7b3692d7ef6a2dded"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector type for bound track parameters. <br /></td></tr>
+<tr class="memitem:a019f0610fe8fe3f7b3692d7ef6a2dded" id="r_a019f0610fe8fe3f7b3692d7ef6a2dded"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> = <a class="el" href="group__algebra__types.html#ga5fb69f475a7d72c8214332057c3135d5">Vector</a>&lt;eBoundSize&gt;</td></tr>
+<tr class="memdesc:a019f0610fe8fe3f7b3692d7ef6a2dded"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector type for raw bound track coordinates.  <br /></td></tr>
 <tr class="memitem:gad038e458629a5cedf1f825940ffc5f76" id="r_gad038e458629a5cedf1f825940ffc5f76"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__json__plugin.html#gad038e458629a5cedf1f825940ffc5f76">ConfigPair</a></td></tr>
 <tr class="memdesc:gad038e458629a5cedf1f825940ffc5f76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for a pair of detector configuration and ambiguity resolution configuration.  <br /></td></tr>
 <tr class="memitem:abe4f9e4a5e3fd2a023039cbfec3ef858" id="r_abe4f9e4a5e3fd2a023039cbfec3ef858"><td class="memTemplParams" colspan="2">template&lt;bool C, typename T&gt; </td></tr>
@@ -1529,12 +1528,15 @@ Enumerations</h2></td></tr>
 <tr class="memitem:ad2b38e86cfd40fa19fe61c74e8ca9fc7" id="r_ad2b38e86cfd40fa19fe61c74e8ca9fc7"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2b38e86cfd40fa19fe61c74e8ca9fc7">BoundIndices</a> : unsigned int { <br />
 &#160;&#160;<b>eBoundLoc0</b> = 0
 , <b>eBoundLoc1</b> = 1
-, <b>eBoundPhi</b> = 2
-, <b>eBoundTheta</b> = 3
+, <a class="el" href="#ad2b38e86cfd40fa19fe61c74e8ca9fc7a574e216d347c4be1fc427169731490ef">eBoundDir0</a> = 2
+, <a class="el" href="#ad2b38e86cfd40fa19fe61c74e8ca9fc7af8f340dc1d150e708e0444abe5147d08">eBoundDir1</a> = 3
 , <br />
-&#160;&#160;<b>eBoundQOverP</b> = 4
+&#160;&#160;<a class="el" href="#ad2b38e86cfd40fa19fe61c74e8ca9fc7a66c6483e3948c3bf8284289300e30375">eBoundPhi</a>
+, <a class="el" href="#ad2b38e86cfd40fa19fe61c74e8ca9fc7a9ca150ef5e671d4463771fb250fffdb7">eBoundTheta</a>
+, <b>eBoundQOverP</b> = 4
 , <b>eBoundTime</b> = 5
-, <b>eBoundSize</b>
+, <br />
+&#160;&#160;<b>eBoundSize</b>
 <br />
  }</td></tr>
 <tr class="memdesc:ad2b38e86cfd40fa19fe61c74e8ca9fc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Components of a bound track parameters vector.  <a href="#ad2b38e86cfd40fa19fe61c74e8ca9fc7">More...</a><br /></td></tr>
@@ -2735,6 +2737,23 @@ constexpr <a class="el" href="#aa009e51d59c1a881d343ba0f9fcacbbc">Envelope</a>&#
 <div class="textblock"><p>The main namespace encompassing all ACTS code. </p>
 <dl class="section note"><dt>Note</dt><dd>This file is foreseen for the <span class="tt">Geometry</span> module to replace <span class="tt">Extent</span> </dd></dl>
 </div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
+<a id="a019f0610fe8fe3f7b3692d7ef6a2dded" name="a019f0610fe8fe3f7b3692d7ef6a2dded"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a019f0610fe8fe3f7b3692d7ef6a2dded">&#9670;&#160;</a></span>BoundVector</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">Acts::BoundVector</a> = <a class="el" href="group__algebra__types.html#ga5fb69f475a7d72c8214332057c3135d5">Vector</a>&lt;eBoundSize&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Vector type for raw bound track coordinates. </p>
+<p>Direction slots, covariance rows and columns, and projector indices refer to the stored coordinate basis, not to derived physical observables. The canonical parametrization stores global phi/theta in dir0/dir1. </p>
+
+</div>
+</div>
 <a id="abe4f9e4a5e3fd2a023039cbfec3ef858" name="abe4f9e4a5e3fd2a023039cbfec3ef858"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abe4f9e4a5e3fd2a023039cbfec3ef858">&#9670;&#160;</a></span>const_if_t</h2>
 
@@ -3705,6 +3724,16 @@ template&lt;typename <a class="el" href="#a7fc11ee35d17cdf6bb12607b24ef9e7d">Typ
 
 <p>Components of a bound track parameters vector. </p>
 <p>To be used to access components by named indices instead of just numbers. This must be a regular <span class="tt">enum</span> and not a scoped <span class="tt">enum class</span> to allow implicit conversion to an integer. The enum value are thus visible directly in <span class="tt">namespace Acts</span> and are prefixed to avoid naming collisions. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad2b38e86cfd40fa19fe61c74e8ca9fc7a574e216d347c4be1fc427169731490ef" name="ad2b38e86cfd40fa19fe61c74e8ca9fc7a574e216d347c4be1fc427169731490ef"></a>eBoundDir0&#160;</td><td class="fielddoc"><p>First raw direction coordinate in the bound parametrization. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ad2b38e86cfd40fa19fe61c74e8ca9fc7af8f340dc1d150e708e0444abe5147d08" name="ad2b38e86cfd40fa19fe61c74e8ca9fc7af8f340dc1d150e708e0444abe5147d08"></a>eBoundDir1&#160;</td><td class="fielddoc"><p>Second raw direction coordinate in the bound parametrization. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ad2b38e86cfd40fa19fe61c74e8ca9fc7a66c6483e3948c3bf8284289300e30375" name="ad2b38e86cfd40fa19fe61c74e8ca9fc7a66c6483e3948c3bf8284289300e30375"></a>eBoundPhi&#160;</td><td class="fielddoc"><dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000001">Deprecated</a></b></dt><dd>Use eBoundDir0 for raw direction coordinates. </dd></dl>
+</td></tr>
+<tr><td class="fieldname"><a id="ad2b38e86cfd40fa19fe61c74e8ca9fc7a9ca150ef5e671d4463771fb250fffdb7" name="ad2b38e86cfd40fa19fe61c74e8ca9fc7a9ca150ef5e671d4463771fb250fffdb7"></a>eBoundTheta&#160;</td><td class="fielddoc"><dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000002">Deprecated</a></b></dt><dd>Use eBoundDir1 for raw direction coordinates. </dd></dl>
+</td></tr>
+</table>
 
 </div>
 </div>
@@ -5488,7 +5517,7 @@ template&lt;TrackStateProxyConcept track_state_proxy_t&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>a pair of the unbiased parameters and their covariance </dd></dl>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000088">Deprecated</a></b></dt><dd>Instantiating this template is very expensive in compiler memory (it expands the Eigen expression templates over all measurement dimensions) and it does so in every calling translation unit. Prefer the non-template overload taking a type-erased <code>AnyConstTrackStateProxy</code>, which is compiled once in the Acts core library: </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000090">Deprecated</a></b></dt><dd>Instantiating this template is very expensive in compiler memory (it expands the Eigen expression templates over all measurement dimensions) and it does so in every calling translation unit. Prefer the non-template overload taking a type-erased <code>AnyConstTrackStateProxy</code>, which is compiled once in the Acts core library: </dd></dl>
 <div class="fragment"><div class="line"><a class="code hl_function" href="#afded89f5410ca396ea21fee04cf8d1e2">calculateUnbiasedParametersCovariance</a>(<a class="code hl_typedef" href="#a58d7c5f9e29f5f51ece398952f4a2a6a">Acts::AnyConstTrackStateProxy</a>{state});</div>
 </div><!-- fragment --> 
 </div>
@@ -8596,7 +8625,7 @@ template&lt;typename box_t&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Pointer to the topmost bounding box, containing the entire octree. </dd></dl>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000052">Deprecated</a></b></dt><dd>Use Acts::BoundingBoxHierarchy::makeOctree instead. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000054">Deprecated</a></b></dt><dd>Use Acts::BoundingBoxHierarchy::makeOctree instead. </dd></dl>
 
 </div>
 </div>
@@ -8839,7 +8868,7 @@ template&lt;typename payload_t&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>an IGrid unique ptr and hence transfers ownership </dd></dl>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000076">Deprecated</a></b></dt><dd>Use makeGrid(const IAxis&amp;) instead </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000078">Deprecated</a></b></dt><dd>Use makeGrid(const IAxis&amp;) instead </dd></dl>
 
 </div>
 </div>
@@ -8879,7 +8908,7 @@ template&lt;typename payload_t&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>an IGrid unique ptr and hence transfers ownership </dd></dl>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000077">Deprecated</a></b></dt><dd>Use makeGrid(const IAxis&amp;, const IAxis&amp;) instead </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000079">Deprecated</a></b></dt><dd>Use makeGrid(const IAxis&amp;, const IAxis&amp;) instead </dd></dl>
 
 </div>
 </div>
@@ -9479,7 +9508,7 @@ template&lt;typename T, std::size_t D&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Reference to output stream </dd></dl>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000080">Deprecated</a></b></dt><dd>Use AxisSpec with an AxisDirection instead </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000082">Deprecated</a></b></dt><dd>Use AxisSpec with an AxisDirection instead </dd></dl>
 
 </div>
 </div>
@@ -9511,7 +9540,7 @@ template&lt;typename T, std::size_t D&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Reference to output stream </dd></dl>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000079">Deprecated</a></b></dt><dd>Use AxisSpec instead </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000081">Deprecated</a></b></dt><dd>Use AxisSpec instead </dd></dl>
 
 </div>
 </div>

@@ -722,7 +722,12 @@ var namespace_acts =
     [ "BinningOption", "namespace_acts.html#a3aaee285dd8963f35f05db5e6bf23769", null ],
     [ "BinningType", "namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81", null ],
     [ "BoundarySurfaceFace", "namespace_acts.html#a324b54b2d52fbc9244d94e305d9203d3", null ],
-    [ "BoundIndices", "namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7", null ],
+    [ "BoundIndices", "namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7", [
+      [ "eBoundDir0", "namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7a574e216d347c4be1fc427169731490ef", null ],
+      [ "eBoundDir1", "namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7af8f340dc1d150e708e0444abe5147d08", null ],
+      [ "eBoundPhi", "namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7a66c6483e3948c3bf8284289300e30375", null ],
+      [ "eBoundTheta", "namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7a9ca150ef5e671d4463771fb250fffdb7", null ]
+    ] ],
     [ "CombinatorialKalmanFilterBranchStopperResult", "group__track__finding.html#gaeebbf038ee135dbf867fe05d0f61d09b", null ],
     [ "CombinatorialKalmanFilterError", "group__errors.html#ga5708898bc604b9dfedc12319218b8c1b", [
       [ "UpdateFailed", "group__errors.html#gga5708898bc604b9dfedc12319218b8c1bab1699d129532c7c6294a1f26fd4032d9", null ],

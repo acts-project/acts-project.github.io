@@ -259,18 +259,18 @@ Mixture merging</h2>
 <p>Merging must respect cyclic bound coordinates. Which coordinates are cyclic depends on the surface type, encoded as compile-time angle descriptions (note that on a cylinder the local \(R\phi\) coordinate is cyclic, scaled by the radius):</p>
 <div class="fragment"><div class="line"><span class="keyword">template</span> &lt;Surface::SurfaceType type_t&gt;</div>
 <div class="line"><span class="keyword">struct </span>AngleDescription {</div>
-<div class="line">  <span class="keyword">using </span>Desc = std::tuple&lt;CyclicAngle&lt;eBoundPhi&gt;&gt;;</div>
+<div class="line">  <span class="keyword">using </span>Desc = std::tuple&lt;CyclicAngle&lt;eBoundDir0&gt;&gt;;</div>
 <div class="line">};</div>
 <div class="line"> </div>
 <div class="line"><span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><span class="keyword">struct </span>AngleDescription&lt;Surface::Disc&gt; {</div>
-<div class="line">  <span class="keyword">using </span>Desc = std::tuple&lt;CyclicAngle&lt;eBoundLoc1&gt;, CyclicAngle&lt;eBoundPhi&gt;&gt;;</div>
+<div class="line">  <span class="keyword">using </span>Desc = std::tuple&lt;CyclicAngle&lt;eBoundLoc1&gt;, CyclicAngle&lt;eBoundDir0&gt;&gt;;</div>
 <div class="line">};</div>
 <div class="line"> </div>
 <div class="line"><span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><span class="keyword">struct </span>AngleDescription&lt;Surface::Cylinder&gt; {</div>
 <div class="line">  <span class="keyword">using </span>Desc =</div>
-<div class="line">      std::tuple&lt;CyclicRadiusAngle&lt;eBoundLoc0&gt;, CyclicAngle&lt;eBoundPhi&gt;&gt;;</div>
+<div class="line">      std::tuple&lt;CyclicRadiusAngle&lt;eBoundLoc0&gt;, CyclicAngle&lt;eBoundDir0&gt;&gt;;</div>
 <div class="line">};</div>
 </div><!-- fragment --><p>The mean itself is then formed with complex-phase arithmetic — each cyclic coordinate is mapped onto the unit circle, averaged as a complex number, and converted back with <span class="tt">std::arg</span> — so that angles wrap correctly:</p>
 <div class="fragment"><div class="line"><span class="keyword">using </span>CVec = Eigen::Matrix&lt;std::complex&lt;double&gt;, eBoundSize, 1&gt;;</div>

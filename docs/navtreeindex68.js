@@ -1,5 +1,9 @@
 var NAVTREEINDEX68 =
 {
+"struct_acts_1_1_doublet_seed_finder_1_1_config.html#a8da8a8328cfb8a1fdd236807fe1d9b47":[6,0,0,126,0,14],
+"struct_acts_1_1_doublet_seed_finder_1_1_config.html#a8da8a8328cfb8a1fdd236807fe1d9b47":[8,0,0,132,0,14],
+"struct_acts_1_1_doublet_seed_finder_1_1_config.html#a982c16eae24d48046e7bbd5c6103c3b1":[6,0,0,126,0,2],
+"struct_acts_1_1_doublet_seed_finder_1_1_config.html#a982c16eae24d48046e7bbd5c6103c3b1":[8,0,0,132,0,2],
 "struct_acts_1_1_doublet_seed_finder_1_1_config.html#aabac31554b0fbe0ebcf797ba60277465":[6,0,0,126,0,11],
 "struct_acts_1_1_doublet_seed_finder_1_1_config.html#aabac31554b0fbe0ebcf797ba60277465":[8,0,0,132,0,11],
 "struct_acts_1_1_doublet_seed_finder_1_1_config.html#ac2230731d12247c8e54abf2805cf2075":[6,0,0,126,0,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX68 =
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html#a2716efe7cb3a400719be0994b2e08cff":[6,0,0,1,6,2,5],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html#a2716efe7cb3a400719be0994b2e08cff":[8,0,0,3,6,2,5],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html#a34499ce43d4024a65ba4e8907c934664":[6,0,0,1,6,2,4],
-"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html#a34499ce43d4024a65ba4e8907c934664":[8,0,0,3,6,2,4],
-"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html#a7e34c49ac7127c0ec751ed0071ac76d7":[6,0,0,1,6,2,2],
-"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html#a7e34c49ac7127c0ec751ed0071ac76d7":[8,0,0,3,6,2,2],
-"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html#a91eb37b3bf4ee46e769451165b9f526f":[6,0,0,1,6,2,0],
-"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html#a91eb37b3bf4ee46e769451165b9f526f":[8,0,0,3,6,2,0]
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html#a34499ce43d4024a65ba4e8907c934664":[8,0,0,3,6,2,4]
 };
