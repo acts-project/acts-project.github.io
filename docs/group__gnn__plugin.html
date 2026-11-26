@@ -176,8 +176,8 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gac273131a18e9f7f3e3873054606325b1" id="r_gac273131a18e9f7f3e3873054606325b1"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; std::int64_t &gt;, std::optional&lt; <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; float &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac273131a18e9f7f3e3873054606325b1">ActsPlugins::applyEdgeLimit</a> (const <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; std::int64_t &gt; &amp;edgeIndex, const std::optional&lt; <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; float &gt; &gt; &amp;edgeFeatures, std::size_t maxEdges, std::optional&lt; cudaStream_t &gt; stream)</td></tr>
-<tr class="memdesc:gac273131a18e9f7f3e3873054606325b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply a limit on the number of edges consistently on edgeIndex and edgeFeatures.  <br /></td></tr>
+<tr class="memitem:ga5f6163dd268d20ff4f7873cc63b0c2dc" id="r_ga5f6163dd268d20ff4f7873cc63b0c2dc"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; std::int64_t &gt;, std::optional&lt; <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; float &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5f6163dd268d20ff4f7873cc63b0c2dc">ActsPlugins::applyEdgeLimit</a> (const <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; std::int64_t &gt; &amp;edgeIndex, const std::optional&lt; <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; float &gt; &gt; &amp;edgeFeatures, std::size_t maxEdges, const <a class="el" href="struct_acts_plugins_1_1_execution_context.html">ExecutionContext</a> &amp;execContext)</td></tr>
+<tr class="memdesc:ga5f6163dd268d20ff4f7873cc63b0c2dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply a limit on the number of edges consistently on edgeIndex and edgeFeatures.  <br /></td></tr>
 <tr class="memitem:gaf3feeefb41476c4811bd902744928587" id="r_gaf3feeefb41476c4811bd902744928587"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="concept_acts_1_1_concepts_1_1arithmetic.html">Acts::Concepts::arithmetic</a> T&gt; </td></tr>
 <tr class="memitem:gaf3feeefb41476c4811bd902744928587 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf3feeefb41476c4811bd902744928587">ActsPlugins::gatherCols</a> (const <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; T &gt; &amp;tensor, const std::vector&lt; std::size_t &gt; &amp;indices, const <a class="el" href="struct_acts_plugins_1_1_execution_context.html">ExecutionContext</a> &amp;execContext)</td></tr>
 <tr class="memdesc:gaf3feeefb41476c4811bd902744928587"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gather columns from a 2D row-major tensor by index.  <br /></td></tr>
@@ -188,20 +188,20 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga34c72c5c5e8f59873cdea1777a39f439"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stream operator for Device.  <br /></td></tr>
 <tr class="memitem:gaf5842cdba54d259a8dfdecb8c37a2064" id="r_gaf5842cdba54d259a8dfdecb8c37a2064"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_plugins_1_1_pipeline_tensors.html">PipelineTensors</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf5842cdba54d259a8dfdecb8c37a2064">ActsPlugins::removeUnusedNodes</a> (<a class="el" href="struct_acts_plugins_1_1_pipeline_tensors.html">PipelineTensors</a> &amp;&amp;tensors, std::vector&lt; int &gt; &amp;spacePointIds, const <a class="el" href="struct_acts_plugins_1_1_execution_context.html">ExecutionContext</a> &amp;execCtx)</td></tr>
 <tr class="memdesc:gaf5842cdba54d259a8dfdecb8c37a2064"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove nodes not referenced by any edge, renumbering edges in-place.  <br /></td></tr>
-<tr class="memitem:ga59b230f6910ea0de9bd6a658256abc8f" id="r_ga59b230f6910ea0de9bd6a658256abc8f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga59b230f6910ea0de9bd6a658256abc8f">ActsPlugins::scoreMask</a> (const <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; float &gt; &amp;scores, float cut, std::optional&lt; cudaStream_t &gt; stream={})</td></tr>
-<tr class="memdesc:ga59b230f6910ea0de9bd6a658256abc8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute a boolean mask from a score tensor: mask[i] = (scores[i] &gt; cut).  <br /></td></tr>
+<tr class="memitem:ga29e22e0ecaa50ced7a4e784de60dd048" id="r_ga29e22e0ecaa50ced7a4e784de60dd048"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga29e22e0ecaa50ced7a4e784de60dd048">ActsPlugins::scoreMask</a> (const <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; float &gt; &amp;scores, float cut, const <a class="el" href="struct_acts_plugins_1_1_execution_context.html">ExecutionContext</a> &amp;execContext)</td></tr>
+<tr class="memdesc:ga29e22e0ecaa50ced7a4e784de60dd048"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute a boolean mask from a score tensor: mask[i] = (scores[i] &gt; cut).  <br /></td></tr>
 <tr class="memitem:gaa86f88a42a46ff4f1db4fc79f6624f21" id="r_gaa86f88a42a46ff4f1db4fc79f6624f21"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="concept_acts_1_1_concepts_1_1arithmetic.html">Acts::Concepts::arithmetic</a> T&gt; </td></tr>
 <tr class="memitem:gaa86f88a42a46ff4f1db4fc79f6624f21 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa86f88a42a46ff4f1db4fc79f6624f21">ActsPlugins::selectCols</a> (const <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; T &gt; &amp;tensor, const <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; bool &gt; &amp;mask, const <a class="el" href="struct_acts_plugins_1_1_execution_context.html">ExecutionContext</a> &amp;execContext)</td></tr>
 <tr class="memdesc:gaa86f88a42a46ff4f1db4fc79f6624f21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select columns from a 2D row-major tensor where the mask element is true.  <br /></td></tr>
 <tr class="memitem:ga230230f139b3e4d57ec1e88afa0fb5a6" id="r_ga230230f139b3e4d57ec1e88afa0fb5a6"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="concept_acts_1_1_concepts_1_1arithmetic.html">Acts::Concepts::arithmetic</a> T&gt; </td></tr>
 <tr class="memitem:ga230230f139b3e4d57ec1e88afa0fb5a6 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga230230f139b3e4d57ec1e88afa0fb5a6">ActsPlugins::selectRows</a> (const <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; T &gt; &amp;tensor, const <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; bool &gt; &amp;mask, const <a class="el" href="struct_acts_plugins_1_1_execution_context.html">ExecutionContext</a> &amp;execContext)</td></tr>
 <tr class="memdesc:ga230230f139b3e4d57ec1e88afa0fb5a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select rows from a 2D row-major tensor where the mask element is true.  <br /></td></tr>
-<tr class="memitem:ga7fe8c9abff7445d3681d90bae22065c6" id="r_ga7fe8c9abff7445d3681d90bae22065c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7fe8c9abff7445d3681d90bae22065c6">ActsPlugins::sigmoid</a> (<a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; float &gt; &amp;tensor, std::optional&lt; cudaStream_t &gt; stream={})</td></tr>
-<tr class="memdesc:ga7fe8c9abff7445d3681d90bae22065c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Element-wise sigmoid function for float cpu tensors.  <br /></td></tr>
+<tr class="memitem:ga76717e6c094f95d9909fa40872c117d8" id="r_ga76717e6c094f95d9909fa40872c117d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga76717e6c094f95d9909fa40872c117d8">ActsPlugins::sigmoid</a> (<a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; float &gt; &amp;tensor, const <a class="el" href="struct_acts_plugins_1_1_execution_context.html">ExecutionContext</a> &amp;execContext)</td></tr>
+<tr class="memdesc:ga76717e6c094f95d9909fa40872c117d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Element-wise sigmoid function for float cpu tensors.  <br /></td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
-<a id="gac273131a18e9f7f3e3873054606325b1" name="gac273131a18e9f7f3e3873054606325b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac273131a18e9f7f3e3873054606325b1">&#9670;&#160;</a></span>applyEdgeLimit()</h2>
+<a id="ga5f6163dd268d20ff4f7873cc63b0c2dc" name="ga5f6163dd268d20ff4f7873cc63b0c2dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5f6163dd268d20ff4f7873cc63b0c2dc">&#9670;&#160;</a></span>applyEdgeLimit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -224,7 +224,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::optional&lt; cudaStream_t &gt;</td>          <td class="paramname"><span class="paramname"><em>stream</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="struct_acts_plugins_1_1_execution_context.html">ExecutionContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>execContext</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -235,7 +235,7 @@ Functions</h2></td></tr>
     <tr><td class="paramname">edgeIndex</td><td>The edge index tensor </td></tr>
     <tr><td class="paramname">edgeFeatures</td><td>The edge feature tensor </td></tr>
     <tr><td class="paramname">maxEdges</td><td>The edge limit to apply </td></tr>
-    <tr><td class="paramname">stream</td><td>The stream to use for operation in case of CUDA </td></tr>
+    <tr><td class="paramname">execContext</td><td>Device and stream for output allocation </td></tr>
   </table>
   </dd>
 </dl>
@@ -401,8 +401,8 @@ template&lt;<a class="el" href="concept_acts_1_1_concepts_1_1arithmetic.html">Ac
 
 </div>
 </div>
-<a id="ga59b230f6910ea0de9bd6a658256abc8f" name="ga59b230f6910ea0de9bd6a658256abc8f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga59b230f6910ea0de9bd6a658256abc8f">&#9670;&#160;</a></span>scoreMask()</h2>
+<a id="ga29e22e0ecaa50ced7a4e784de60dd048" name="ga29e22e0ecaa50ced7a4e784de60dd048"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga29e22e0ecaa50ced7a4e784de60dd048">&#9670;&#160;</a></span>scoreMask()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -420,7 +420,7 @@ template&lt;<a class="el" href="concept_acts_1_1_concepts_1_1arithmetic.html">Ac
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::optional&lt; cudaStream_t &gt;</td>          <td class="paramname"><span class="paramname"><em>stream</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="struct_acts_plugins_1_1_execution_context.html">ExecutionContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>execContext</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -430,7 +430,7 @@ template&lt;<a class="el" href="concept_acts_1_1_concepts_1_1arithmetic.html">Ac
   <table class="params">
     <tr><td class="paramname">scores</td><td>The edge score tensor [N, 1] </td></tr>
     <tr><td class="paramname">cut</td><td>The score threshold </td></tr>
-    <tr><td class="paramname">stream</td><td>The stream to use for the operation in case of CUDA </td></tr>
+    <tr><td class="paramname">execContext</td><td>Device and stream for output allocation </td></tr>
   </table>
   </dd>
 </dl>
@@ -516,8 +516,8 @@ template&lt;<a class="el" href="concept_acts_1_1_concepts_1_1arithmetic.html">Ac
 
 </div>
 </div>
-<a id="ga7fe8c9abff7445d3681d90bae22065c6" name="ga7fe8c9abff7445d3681d90bae22065c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7fe8c9abff7445d3681d90bae22065c6">&#9670;&#160;</a></span>sigmoid()</h2>
+<a id="ga76717e6c094f95d9909fa40872c117d8" name="ga76717e6c094f95d9909fa40872c117d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga76717e6c094f95d9909fa40872c117d8">&#9670;&#160;</a></span>sigmoid()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -530,7 +530,7 @@ template&lt;<a class="el" href="concept_acts_1_1_concepts_1_1arithmetic.html">Ac
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::optional&lt; cudaStream_t &gt;</td>          <td class="paramname"><span class="paramname"><em>stream</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="struct_acts_plugins_1_1_execution_context.html">ExecutionContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>execContext</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -539,7 +539,7 @@ template&lt;<a class="el" href="concept_acts_1_1_concepts_1_1arithmetic.html">Ac
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">tensor</td><td>The tensor to apply the sigmoid function to </td></tr>
-    <tr><td class="paramname">stream</td><td>The stream to use for the operation in case of CUDA </td></tr>
+    <tr><td class="paramname">execContext</td><td>Device and stream for the operation </td></tr>
   </table>
   </dd>
 </dl>

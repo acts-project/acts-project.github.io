@@ -1,5 +1,7 @@
 var NAVTREEINDEX92 =
 {
+"structdetray_1_1helix__intersector__impl_3_01polar2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html":[6,0,4,89],
+"structdetray_1_1helix__intersector__impl_3_01polar2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html":[8,0,3,102],
 "structdetray_1_1hom__material__config.html":[6,0,4,90],
 "structdetray_1_1hom__material__config.html":[8,0,3,103],
 "structdetray_1_1hom__material__config.html#a052693971a5c85c7feb962e94e80b68a":[6,0,4,90,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX92 =
 "structdetray_1_1io_1_1common__header__payload.html#a1ae7e89370d2ec2d95275ae090f67478":[8,0,3,7,3,2],
 "structdetray_1_1io_1_1common__header__payload.html#a1ef7d2d3f7642f6ea35182446821c9dc":[6,0,4,3,1,4],
 "structdetray_1_1io_1_1common__header__payload.html#a1ef7d2d3f7642f6ea35182446821c9dc":[8,0,3,7,3,4],
-"structdetray_1_1io_1_1common__header__payload.html#a3a8c00b3f632b0c638fcd9131795ecfb":[6,0,4,3,1,3],
-"structdetray_1_1io_1_1common__header__payload.html#a3a8c00b3f632b0c638fcd9131795ecfb":[8,0,3,7,3,3],
-"structdetray_1_1io_1_1common__header__payload.html#a937bf1e75ff268fdf85f2f8967537232":[6,0,4,3,1,1]
+"structdetray_1_1io_1_1common__header__payload.html#a3a8c00b3f632b0c638fcd9131795ecfb":[6,0,4,3,1,3]
 };

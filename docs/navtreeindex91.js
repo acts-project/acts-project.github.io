@@ -1,5 +1,7 @@
 var NAVTREEINDEX91 =
 {
+"structdetray_1_1endcap__generator__config.html#acb5a2421ce023c5d374e2342e8170dee":[6,0,4,66,19],
+"structdetray_1_1endcap__generator__config.html#acb5a2421ce023c5d374e2342e8170dee":[8,0,3,79,19],
 "structdetray_1_1endcap__generator__config.html#acc9b9c0b221ac75806d9c3b0e3c4d8ec":[6,0,4,66,23],
 "structdetray_1_1endcap__generator__config.html#acc9b9c0b221ac75806d9c3b0e3c4d8ec":[8,0,3,79,23],
 "structdetray_1_1endcap__generator__config.html#ad8c6de8a1465658097f1b9b069945c04":[6,0,4,66,20],
@@ -247,7 +249,5 @@ var NAVTREEINDEX91 =
 "structdetray_1_1helix__intersector__impl_3_01line2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html#acfdf1475581660813df00f6cf52d1662":[6,0,4,88,6],
 "structdetray_1_1helix__intersector__impl_3_01line2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html#acfdf1475581660813df00f6cf52d1662":[8,0,3,101,6],
 "structdetray_1_1helix__intersector__impl_3_01line2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html#afd5c7d75272d87b685558d8aeb19bb0f":[6,0,4,88,5],
-"structdetray_1_1helix__intersector__impl_3_01line2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html#afd5c7d75272d87b685558d8aeb19bb0f":[8,0,3,101,5],
-"structdetray_1_1helix__intersector__impl_3_01polar2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html":[6,0,4,89],
-"structdetray_1_1helix__intersector__impl_3_01polar2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html":[8,0,3,102]
+"structdetray_1_1helix__intersector__impl_3_01line2_d_3_01algebra__t_01_4_00_01algebra__t_01_4.html#afd5c7d75272d87b685558d8aeb19bb0f":[8,0,3,101,5]
 };

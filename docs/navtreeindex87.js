@@ -1,5 +1,7 @@
 var NAVTREEINDEX87 =
 {
+"structdetray_1_1algebra_1_1generic_1_1matrix_1_1inverse_1_1hard__coded.html#afc80d8bf82f3bf249993380963a1d17c":[8,0,3,1,4,1,3,1,5],
+"structdetray_1_1algebra_1_1generic_1_1matrix_1_1inverse_1_1partial__pivot__lud.html":[8,0,3,1,4,1,3,2],
 "structdetray_1_1algebra_1_1generic_1_1matrix_1_1inverse_1_1partial__pivot__lud.html#a45ffe5e3ad7b65ed9fe385ebeb8649d4":[8,0,3,1,4,1,3,2,2],
 "structdetray_1_1algebra_1_1generic_1_1matrix_1_1inverse_1_1partial__pivot__lud.html#a63627eb601edaf87bd3a400014214440":[8,0,3,1,4,1,3,2,0],
 "structdetray_1_1algebra_1_1generic_1_1matrix_1_1inverse_1_1partial__pivot__lud.html#a97f2c63d14476b5b9357b72742527b2a":[8,0,3,1,4,1,3,2,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX87 =
 "structdetray_1_1barrel__generator__config.html#ad28243fede14d6b49ca7a455755c7f0c":[6,0,4,21,8],
 "structdetray_1_1barrel__generator__config.html#ad28243fede14d6b49ca7a455755c7f0c":[8,0,3,34,8],
 "structdetray_1_1barrel__generator__config.html#ad30fa9753c64aa46e3d3c04fbef45faa":[6,0,4,21,16],
-"structdetray_1_1barrel__generator__config.html#ad30fa9753c64aa46e3d3c04fbef45faa":[8,0,3,34,16],
-"structdetray_1_1barrel__generator__config.html#ad7769d851c1d934fa00fa07a65fcf380":[6,0,4,21,6],
-"structdetray_1_1barrel__generator__config.html#ad7769d851c1d934fa00fa07a65fcf380":[8,0,3,34,6]
+"structdetray_1_1barrel__generator__config.html#ad30fa9753c64aa46e3d3c04fbef45faa":[8,0,3,34,16]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX85 =
 {
+"struct_acts_plugins_1_1_svg_1_1_tracking_geometry_projections_1_1_options.html#a2f1ed3fc5e73508c1a6d976dee7e5c0f":[8,0,2,5,6,0,1],
+"struct_acts_plugins_1_1_svg_1_1_tracking_geometry_projections_1_1_options.html#a8fb885e238cc4bb82dc353c50794c5d4":[8,0,2,5,6,0,3],
 "struct_acts_plugins_1_1_svg_1_1_tracking_geometry_projections_1_1_options.html#ade0e9b98e23c7c28fcd18e8258a177a1":[8,0,2,5,6,0,0],
 "struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_config.html":[6,0,3,66,0],
 "struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_config.html":[8,0,2,71,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX85 =
 "structdetray_1_1actor_1_1surface__sequencer_1_1state.html#a0b5c815d22ea68eb85eb67cb4b0b5875":[8,0,3,0,13,0,5],
 "structdetray_1_1actor_1_1surface__sequencer_1_1state.html#a1c7fa3966ed7e7b12da7944d57ec0bb1":[8,0,3,0,13,0,2],
 "structdetray_1_1actor_1_1surface__sequencer_1_1state.html#a2054554d90e558752a0ca7802a159f5f":[8,0,3,0,13,0,0],
-"structdetray_1_1actor_1_1surface__sequencer_1_1state.html#a41482f9c3a151cadb24256428d04f76e":[8,0,3,0,13,0,4],
-"structdetray_1_1actor_1_1surface__sequencer_1_1state.html#a7fd948ef479907583a2a93fbc5cf9cbe":[8,0,3,0,13,0,1],
-"structdetray_1_1actor_1_1surface__sequencer_1_1state.html#a809880a950ef58f75ed09b0568717597":[8,0,3,0,13,0,3]
+"structdetray_1_1actor_1_1surface__sequencer_1_1state.html#a41482f9c3a151cadb24256428d04f76e":[8,0,3,0,13,0,4]
 };

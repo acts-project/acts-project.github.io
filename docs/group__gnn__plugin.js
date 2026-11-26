@@ -55,8 +55,10 @@ var group__gnn__plugin =
       [ "operator()", "class_acts_plugins_1_1_edge_layer_connector.html#a186cdf8ecfae80bd902268be05a05704", null ]
     ] ],
     [ "ActsPlugins::ExecutionContext", "struct_acts_plugins_1_1_execution_context.html", [
+      [ "copy", "struct_acts_plugins_1_1_execution_context.html#ae0943e02b1767fd39e124accedef0cb8", null ],
       [ "device", "struct_acts_plugins_1_1_execution_context.html#a315c096d44dc0c1f3a76d795134fac4b", null ],
-      [ "stream", "struct_acts_plugins_1_1_execution_context.html#a56bc994dcfc774112612e334ecbcf7d5", null ]
+      [ "memoryResource", "struct_acts_plugins_1_1_execution_context.html#a5e695958442536186a62506e4e0615b1", null ],
+      [ "stream", "struct_acts_plugins_1_1_execution_context.html#a0afd54ad6bfdec8174d6cfeecbea4b50", null ]
     ] ],
     [ "ActsPlugins::GnnHook", "class_acts_plugins_1_1_gnn_hook.html", [
       [ "operator()", "class_acts_plugins_1_1_gnn_hook.html#ae27efd5d2785bab1c4c77d9d1d11f4b3", null ]
@@ -173,13 +175,13 @@ var group__gnn__plugin =
       [ "TruthGraphMetricsHook", "class_acts_plugins_1_1_truth_graph_metrics_hook.html#a6bcaaf946f9053c54f8599d1f44268db", null ],
       [ "operator()", "class_acts_plugins_1_1_truth_graph_metrics_hook.html#acc17cc45074e1b6aaed5c06cb7accd5d", null ]
     ] ],
-    [ "ActsPlugins::applyEdgeLimit", "group__gnn__plugin.html#gac273131a18e9f7f3e3873054606325b1", null ],
+    [ "ActsPlugins::applyEdgeLimit", "group__gnn__plugin.html#ga5f6163dd268d20ff4f7873cc63b0c2dc", null ],
     [ "ActsPlugins::gatherCols", "group__gnn__plugin.html#gaf3feeefb41476c4811bd902744928587", null ],
     [ "ActsPlugins::mulPerColumn", "group__gnn__plugin.html#gabffd8c32b525e2fa26e5164d205c1550", null ],
     [ "ActsPlugins::operator<<", "group__gnn__plugin.html#ga34c72c5c5e8f59873cdea1777a39f439", null ],
     [ "ActsPlugins::removeUnusedNodes", "group__gnn__plugin.html#gaf5842cdba54d259a8dfdecb8c37a2064", null ],
-    [ "ActsPlugins::scoreMask", "group__gnn__plugin.html#ga59b230f6910ea0de9bd6a658256abc8f", null ],
+    [ "ActsPlugins::scoreMask", "group__gnn__plugin.html#ga29e22e0ecaa50ced7a4e784de60dd048", null ],
     [ "ActsPlugins::selectCols", "group__gnn__plugin.html#gaa86f88a42a46ff4f1db4fc79f6624f21", null ],
     [ "ActsPlugins::selectRows", "group__gnn__plugin.html#ga230230f139b3e4d57ec1e88afa0fb5a6", null ],
-    [ "ActsPlugins::sigmoid", "group__gnn__plugin.html#ga7fe8c9abff7445d3681d90bae22065c6", null ]
+    [ "ActsPlugins::sigmoid", "group__gnn__plugin.html#ga76717e6c094f95d9909fa40872c117d8", null ]
 ];

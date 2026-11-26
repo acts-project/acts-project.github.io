@@ -138,16 +138,39 @@ Collaboration diagram for ActsPlugins::ExecutionContext:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:ae0943e02b1767fd39e124accedef0cb8" id="r_ae0943e02b1767fd39e124accedef0cb8"><td class="memItemLeft" align="right" valign="top"><a id="ae0943e02b1767fd39e124accedef0cb8" name="ae0943e02b1767fd39e124accedef0cb8"></a>
+const vecmem::copy *&#160;</td><td class="memItemRight" valign="bottom"><b>copy</b> = nullptr</td></tr>
+<tr class="memdesc:ae0943e02b1767fd39e124accedef0cb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">vecmem copy object for the stream <br /></td></tr>
 <tr class="memitem:a315c096d44dc0c1f3a76d795134fac4b" id="r_a315c096d44dc0c1f3a76d795134fac4b"><td class="memItemLeft" align="right" valign="top"><a id="a315c096d44dc0c1f3a76d795134fac4b" name="a315c096d44dc0c1f3a76d795134fac4b"></a>
 <a class="el" href="struct_acts_plugins_1_1_device.html">Device</a>&#160;</td><td class="memItemRight" valign="bottom"><b>device</b> {Device::Type::eCPU}</td></tr>
 <tr class="memdesc:a315c096d44dc0c1f3a76d795134fac4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Target device for execution. <br /></td></tr>
-<tr class="memitem:a56bc994dcfc774112612e334ecbcf7d5" id="r_a56bc994dcfc774112612e334ecbcf7d5"><td class="memItemLeft" align="right" valign="top"><a id="a56bc994dcfc774112612e334ecbcf7d5" name="a56bc994dcfc774112612e334ecbcf7d5"></a>
-std::optional&lt; cudaStream_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>stream</b></td></tr>
-<tr class="memdesc:a56bc994dcfc774112612e334ecbcf7d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">CUDA stream for asynchronous execution. <br /></td></tr>
+<tr class="memitem:a5e695958442536186a62506e4e0615b1" id="r_a5e695958442536186a62506e4e0615b1"><td class="memItemLeft" align="right" valign="top">vecmem::memory_resource *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e695958442536186a62506e4e0615b1">memoryResource</a> = nullptr</td></tr>
+<tr class="memdesc:a5e695958442536186a62506e4e0615b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Device memory resource, required for CUDA.  <br /></td></tr>
+<tr class="memitem:a0afd54ad6bfdec8174d6cfeecbea4b50" id="r_a0afd54ad6bfdec8174d6cfeecbea4b50"><td class="memItemLeft" align="right" valign="top"><a id="a0afd54ad6bfdec8174d6cfeecbea4b50" name="a0afd54ad6bfdec8174d6cfeecbea4b50"></a>
+const vecmem::cuda::stream_wrapper *&#160;</td><td class="memItemRight" valign="bottom"><b>stream</b> = nullptr</td></tr>
+<tr class="memdesc:a0afd54ad6bfdec8174d6cfeecbea4b50"><td class="mdescLeft">&#160;</td><td class="mdescRight">CUDA stream for asynchronous execution, required for CUDA. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Capture the context of the execution. </p>
-</div></div><!-- contents -->
+</div><a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a5e695958442536186a62506e4e0615b1" name="a5e695958442536186a62506e4e0615b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e695958442536186a62506e4e0615b1">&#9670;&#160;</a></span>memoryResource</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">vecmem::memory_resource* ActsPlugins::ExecutionContext::memoryResource = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Device memory resource, required for CUDA. </p>
+<p>Memory is released while work on the stream may still use it, so it must be stream-ordered. </p>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>
