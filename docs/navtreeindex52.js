@@ -1,5 +1,13 @@
 var NAVTREEINDEX52 =
 {
+"classdetray_1_1io_1_1geometry__reader.html#aef61b14ef6f89d56dccb7a95e243d327":[6,0,4,3,10,2],
+"classdetray_1_1io_1_1geometry__reader.html#aef61b14ef6f89d56dccb7a95e243d327":[8,0,3,7,12,2],
+"classdetray_1_1io_1_1geometry__writer.html":[6,0,4,3,11],
+"classdetray_1_1io_1_1geometry__writer.html":[8,0,3,7,13],
+"classdetray_1_1io_1_1geometry__writer.html#a062c044eb278737c5ff43f04d2cc099f":[6,0,4,3,11,5],
+"classdetray_1_1io_1_1geometry__writer.html#a062c044eb278737c5ff43f04d2cc099f":[8,0,3,7,13,5],
+"classdetray_1_1io_1_1geometry__writer.html#a2d2ef4db12c915d3b849028907e25e88":[6,0,4,3,11,6],
+"classdetray_1_1io_1_1geometry__writer.html#a2d2ef4db12c915d3b849028907e25e88":[8,0,3,7,13,6],
 "classdetray_1_1io_1_1geometry__writer.html#a5c449c6d9111df08867158312634f891":[6,0,4,3,11,8],
 "classdetray_1_1io_1_1geometry__writer.html#a5c449c6d9111df08867158312634f891":[8,0,3,7,13,8],
 "classdetray_1_1io_1_1geometry__writer.html#a624a90f0956e301d18447417d809e616":[6,0,4,3,11,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX52 =
 "classdetray_1_1mask.html#a1d90cf35182777198728679057c4e8f8":[6,0,4,115,31],
 "classdetray_1_1mask.html#a1d90cf35182777198728679057c4e8f8":[8,0,3,128,31],
 "classdetray_1_1mask.html#a1f59fc898da156b37e9b72c8ef69979f":[6,0,4,115,28],
-"classdetray_1_1mask.html#a1f59fc898da156b37e9b72c8ef69979f":[8,0,3,128,28],
-"classdetray_1_1mask.html#a281ba0a8a563c3824e6bf3064ca8020e":[6,0,4,115,34],
-"classdetray_1_1mask.html#a281ba0a8a563c3824e6bf3064ca8020e":[8,0,3,128,34],
-"classdetray_1_1mask.html#a283883993198fdee620da8a21a695eb5":[6,0,4,115,18],
-"classdetray_1_1mask.html#a283883993198fdee620da8a21a695eb5":[8,0,3,128,18],
-"classdetray_1_1mask.html#a2b9e06fcca84a6b3e5c40942506e7ee3":[6,0,4,115,20],
-"classdetray_1_1mask.html#a2b9e06fcca84a6b3e5c40942506e7ee3":[8,0,3,128,20],
-"classdetray_1_1mask.html#a3177afd29f8bed5fd9b9d7ff7dc59eb9":[6,0,4,115,25],
-"classdetray_1_1mask.html#a3177afd29f8bed5fd9b9d7ff7dc59eb9":[8,0,3,128,25]
+"classdetray_1_1mask.html#a1f59fc898da156b37e9b72c8ef69979f":[8,0,3,128,28]
 };

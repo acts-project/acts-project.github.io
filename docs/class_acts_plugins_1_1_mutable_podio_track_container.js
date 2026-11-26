@@ -13,6 +13,7 @@ var class_acts_plugins_1_1_mutable_podio_track_container =
     [ "copyDynamicFrom_impl", "class_acts_plugins_1_1_mutable_podio_track_container.html#a5cd1717323d2ffbdf34799797e26dfd9", null ],
     [ "covariance", "class_acts_plugins_1_1_mutable_podio_track_container.html#a814ddafe35b00d84c856b045f1203a63", null ],
     [ "covariance", "class_acts_plugins_1_1_mutable_podio_track_container.html#a8337ec2161fc1767cf6af457503bd9e5", null ],
+    [ "dynamicColumns_impl", "class_acts_plugins_1_1_mutable_podio_track_container.html#affa69fc9518196b6fd6079be08a187e6", null ],
     [ "dynamicKeys_impl", "class_acts_plugins_1_1_mutable_podio_track_container.html#a7679f30e4cf072f602df3129a14646bd", null ],
     [ "ensureDynamicColumns_impl", "class_acts_plugins_1_1_mutable_podio_track_container.html#a6457a44c97fb38e5ffa55920516790e7", null ],
     [ "hasColumn_impl", "class_acts_plugins_1_1_mutable_podio_track_container.html#afe6f8d8c4809911d0e044e2316e3d134", null ],

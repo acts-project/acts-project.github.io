@@ -28,6 +28,7 @@ var class_acts_1_1_track_container =
     [ "container", "class_acts_1_1_track_container.html#adf5a1030d3f8dfd64d7c8b39e861077a", null ],
     [ "covariance", "class_acts_1_1_track_container.html#ad4874e508e524f54728531c104ae87b3", null ],
     [ "covariance", "class_acts_1_1_track_container.html#a9bbea6e91778f6f72344f121fa83baf0", null ],
+    [ "dynamicColumns", "class_acts_1_1_track_container.html#aada4c792a433a1fc5f53294d4181ae01", null ],
     [ "end", "class_acts_1_1_track_container.html#a79de6110f37dc73658a2d2956ba3f1ff", null ],
     [ "end", "class_acts_1_1_track_container.html#a7a9762e4cda452bbc0f1e003f77eed1f", null ],
     [ "ensureDynamicColumns", "class_acts_1_1_track_container.html#a060725fae2df6b7da18021db77b6c928", null ],

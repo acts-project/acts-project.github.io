@@ -22,6 +22,7 @@ var class_acts_1_1_multi_trajectory =
     [ "component", "class_acts_1_1_multi_trajectory.html#a61efd11a9070694acfec77bd245051d7", null ],
     [ "covariance", "class_acts_1_1_multi_trajectory.html#ad227167906f8b8250e599eb5c7813849", null ],
     [ "covariance", "class_acts_1_1_multi_trajectory.html#a1dfe20e2fa5b92e0d883613fe93ac087", null ],
+    [ "dynamicColumns", "class_acts_1_1_multi_trajectory.html#acc0e77ad8e816e8c0338e8a725bd5f04", null ],
     [ "effectiveCalibrated", "class_acts_1_1_multi_trajectory.html#a08aaad4bba4d2f8739cb4e984f95e8f8", null ],
     [ "effectiveCalibrated", "class_acts_1_1_multi_trajectory.html#a77f15c41bcd75a8f51b8fe6927e4f5f0", null ],
     [ "effectiveCalibratedCovariance", "class_acts_1_1_multi_trajectory.html#a259963a25cd22d22cc93526172cc07e9", null ],

@@ -185,6 +185,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clear_impl</b> ()</td
 <tr class="memdesc:a733631732ce69757212395acb6a1aebf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get mutable covariance matrix for a track state.  <br /></td></tr>
 <tr class="memitem:a4b6125db1ed658af1a403a8c0a12d4b0" id="r_a4b6125db1ed658af1a403a8c0a12d4b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_plugins_1_1_podio_track_state_container_base.html#ad1dde03ebd3f8c3ea5c6cf0a1f9da262">ConstCovariance</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b6125db1ed658af1a403a8c0a12d4b0">covariance_impl</a> (IndexType istate) const</td></tr>
 <tr class="memdesc:a4b6125db1ed658af1a403a8c0a12d4b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get const covariance matrix for a track state.  <br /></td></tr>
+<tr class="memitem:acead8f809773287c6e6087dac5336d53" id="r_acead8f809773287c6e6087dac5336d53"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acead8f809773287c6e6087dac5336d53">dynamicColumns_impl</a> () const</td></tr>
 <tr class="memitem:a1e81277c95640877e36f1d4b7bab49d6" id="r_a1e81277c95640877e36f1d4b7bab49d6"><td class="memItemLeft" align="right" valign="top">Acts::detail::DynamicKeyRange&lt; podio_detail::DynamicColumnBase &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e81277c95640877e36f1d4b7bab49d6">dynamicKeys_impl</a> () const</td></tr>
 <tr class="memdesc:a1e81277c95640877e36f1d4b7bab49d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get dynamic column keys.  <br /></td></tr>
 <tr class="memitem:af1a7b4777779c0e2ec3e8cff8b1b4037" id="r_af1a7b4777779c0e2ec3e8cff8b1b4037"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_source_link.html">Acts::SourceLink</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1a7b4777779c0e2ec3e8cff8b1b4037">getUncalibratedSourceLink_impl</a> (IndexType istate) const</td></tr>
@@ -236,6 +237,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clear_impl</b> ()</td
 <tr class="memdesc:a79ef063dd297e889ca7d1b905d985351 inherit pub_methods_class_acts_1_1_multi_trajectory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Range for the track states from <code class="param">istartpoint</code> to the trajectory end, i.e from inside out.  <br /></td></tr>
 <tr class="memitem:a6278df985e401d0faed534080de66d60 inherit pub_methods_class_acts_1_1_multi_trajectory" id="r_a6278df985e401d0faed534080de66d60"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_multi_trajectory.html#a6278df985e401d0faed534080de66d60">addColumn</a> (std::string_view key)</td></tr>
 <tr class="memdesc:a6278df985e401d0faed534080de66d60 inherit pub_methods_class_acts_1_1_multi_trajectory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a column to the <code>MultiTrajectory</code>.  <br /></td></tr>
+<tr class="memitem:acc0e77ad8e816e8c0338e8a725bd5f04 inherit pub_methods_class_acts_1_1_multi_trajectory" id="r_acc0e77ad8e816e8c0338e8a725bd5f04"><td class="memItemLeft" align="right" valign="top">detail::DynamicColumnInfoRange auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_multi_trajectory.html#acc0e77ad8e816e8c0338e8a725bd5f04">dynamicColumns</a> () const</td></tr>
+<tr class="memdesc:acc0e77ad8e816e8c0338e8a725bd5f04 inherit pub_methods_class_acts_1_1_multi_trajectory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterate over dynamic track-state columns in unspecified order.  <br /></td></tr>
 <tr class="memitem:a14db7b1a4a948a88dc61501c60b8cf5e inherit pub_methods_class_acts_1_1_multi_trajectory" id="r_a14db7b1a4a948a88dc61501c60b8cf5e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_multi_trajectory.html#a14db7b1a4a948a88dc61501c60b8cf5e">hasColumn</a> (<a class="el" href="namespace_acts.html#a316aaac27fda3651c80ea8dfba83492a">HashedString</a> key) const</td></tr>
 <tr class="memdesc:a14db7b1a4a948a88dc61501c60b8cf5e inherit pub_methods_class_acts_1_1_multi_trajectory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a column with a key <code class="param">key</code> exists.  <br /></td></tr>
 </table><table class="memberdecls">
@@ -960,6 +963,26 @@ template&lt;template&lt; typename... &gt; class holder_t&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Const covariance matrix </dd></dl>
+
+</div>
+</div>
+<a id="acead8f809773287c6e6087dac5336d53" name="acead8f809773287c6e6087dac5336d53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acead8f809773287c6e6087dac5336d53">&#9670;&#160;</a></span>dynamicColumns_impl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;template&lt; typename... &gt; class holder_t&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto <a class="el" href="class_acts_plugins_1_1_mutable_podio_track_state_container.html">ActsPlugins::MutablePodioTrackStateContainer</a>&lt; holder_t &gt;::dynamicColumns_impl </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>A lazy range of descriptors for the dynamic track-state columns. </dd></dl>
 
 </div>
 </div>

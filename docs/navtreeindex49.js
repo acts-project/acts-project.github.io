@@ -1,5 +1,13 @@
 var NAVTREEINDEX49 =
 {
+"classdetray_1_1detail_1_1detector.html#af5330e8e7acff2dcb7e9e533983fcced":[8,0,3,4,2,10],
+"classdetray_1_1detail_1_1detector.html#af6a35e4dfc4211569fb9567aabb2a2fa":[8,0,3,4,2,30],
+"classdetray_1_1detail_1_1detector.html#afae57259e3ef584a212b7b9ce069e39a":[8,0,3,4,2,32],
+"classdetray_1_1detail_1_1detector.html#afc69e0c80a2508d9e993a91649d96cf2":[8,0,3,4,2,43],
+"classdetray_1_1detail_1_1detector.html#afdfc74714ee9fa9cb289dc2d0d667f0e":[8,0,3,4,2,29],
+"classdetray_1_1detail_1_1helix.html":[8,0,3,4,15],
+"classdetray_1_1detail_1_1helix.html#a01e7504c16cfb8f49b1c038ceca8a907":[8,0,3,4,15,21],
+"classdetray_1_1detail_1_1helix.html#a11dc19d0f3b8990d84e5576642fd0f02":[8,0,3,4,15,12],
 "classdetray_1_1detail_1_1helix.html#a3d4d64ee5ee7a08bc01c423cd0fb621b":[8,0,3,4,15,1],
 "classdetray_1_1detail_1_1helix.html#a4adfd4caa4993dd9d6f9a587314f4674":[8,0,3,4,15,13],
 "classdetray_1_1detail_1_1helix.html#a4cab59fd177e1c2ece160819b2f174fd":[8,0,3,4,15,16],
@@ -241,13 +249,5 @@ var NAVTREEINDEX49 =
 "classdetray_1_1geometry_1_1surface.html#a00c4c1080fee801375effaae348ed201":[8,0,3,5,1,11],
 "classdetray_1_1geometry_1_1surface.html#a0bdd0c346d2c5c068f9828cf2c44c342":[8,0,3,5,1,1],
 "classdetray_1_1geometry_1_1surface.html#a10cdd49095ac34bddc58c1377d70b542":[8,0,3,5,1,39],
-"classdetray_1_1geometry_1_1surface.html#a237edac0e133e6eeaf90852b4ce522c8":[8,0,3,5,1,6],
-"classdetray_1_1geometry_1_1surface.html#a2b0ffdc7dd05284e259473e5bfa4200c":[8,0,3,5,1,33],
-"classdetray_1_1geometry_1_1surface.html#a2d6a52704bd57c78cfe9e7f472c703cd":[8,0,3,5,1,36],
-"classdetray_1_1geometry_1_1surface.html#a37596d563a825993c8169ae6f088ed66":[8,0,3,5,1,29],
-"classdetray_1_1geometry_1_1surface.html#a3d3255821cc0eea6bba0eff104faf58a":[8,0,3,5,1,17],
-"classdetray_1_1geometry_1_1surface.html#a42b68dfe4a64131ee73aa07de4b27989":[8,0,3,5,1,3],
-"classdetray_1_1geometry_1_1surface.html#a51fecea9518567e0419d83bbcf2624f1":[8,0,3,5,1,0],
-"classdetray_1_1geometry_1_1surface.html#a54867c32d28cbefd94c4c03aee2d71f0":[8,0,3,5,1,2],
-"classdetray_1_1geometry_1_1surface.html#a5546fe9025871358e395bedb9b2b5691":[8,0,3,5,1,25]
+"classdetray_1_1geometry_1_1surface.html#a237edac0e133e6eeaf90852b4ce522c8":[8,0,3,5,1,6]
 };

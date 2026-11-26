@@ -193,6 +193,8 @@ requires (!<a class="el" href="#ace27a3f5a1b1b0709ed834528529a9e7">ReadOnly</a>)
 requires (!<a class="el" href="#ace27a3f5a1b1b0709ed834528529a9e7">ReadOnly</a>)</td></tr>
 <tr class="memitem:a6278df985e401d0faed534080de66d60 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6278df985e401d0faed534080de66d60">addColumn</a> (std::string_view key)</td></tr>
 <tr class="memdesc:a6278df985e401d0faed534080de66d60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a column to the <code>MultiTrajectory</code>.  <br /></td></tr>
+<tr class="memitem:acc0e77ad8e816e8c0338e8a725bd5f04" id="r_acc0e77ad8e816e8c0338e8a725bd5f04"><td class="memItemLeft" align="right" valign="top">detail::DynamicColumnInfoRange auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc0e77ad8e816e8c0338e8a725bd5f04">dynamicColumns</a> () const</td></tr>
+<tr class="memdesc:acc0e77ad8e816e8c0338e8a725bd5f04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterate over dynamic track-state columns in unspecified order.  <br /></td></tr>
 <tr class="memitem:a14db7b1a4a948a88dc61501c60b8cf5e" id="r_a14db7b1a4a948a88dc61501c60b8cf5e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14db7b1a4a948a88dc61501c60b8cf5e">hasColumn</a> (<a class="el" href="namespace_acts.html#a316aaac27fda3651c80ea8dfba83492a">HashedString</a> key) const</td></tr>
 <tr class="memdesc:a14db7b1a4a948a88dc61501c60b8cf5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a column with a key <code class="param">key</code> exists.  <br /></td></tr>
 </table><table class="memberdecls">
@@ -1069,6 +1071,28 @@ template&lt;typename derived_t&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Const covariance matrix </dd></dl>
+
+</div>
+</div>
+<a id="acc0e77ad8e816e8c0338e8a725bd5f04" name="acc0e77ad8e816e8c0338e8a725bd5f04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc0e77ad8e816e8c0338e8a725bd5f04">&#9670;&#160;</a></span>dynamicColumns()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename derived_t&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">detail::DynamicColumnInfoRange auto <a class="el" href="class_acts_1_1_multi_trajectory.html">Acts::MultiTrajectory</a>&lt; derived_t &gt;::dynamicColumns </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Iterate over dynamic track-state columns in unspecified order. </p>
+<dl class="section return"><dt>Returns</dt><dd>An input range of DynamicColumnInfo. Keep the backend alive and its column schema unchanged while using the range or its borrowed names. </dd></dl>
 
 </div>
 </div>

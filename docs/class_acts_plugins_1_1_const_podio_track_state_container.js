@@ -9,6 +9,7 @@ var class_acts_plugins_1_1_const_podio_track_state_container =
     [ "calibratedSize_impl", "class_acts_plugins_1_1_const_podio_track_state_container.html#a94b18296d9bcf43ff629b2c77580b57a", null ],
     [ "component_impl", "class_acts_plugins_1_1_const_podio_track_state_container.html#a8f63ab37b0aef39721f734508a6fb61f", null ],
     [ "covariance_impl", "class_acts_plugins_1_1_const_podio_track_state_container.html#aec0c3ec3ac0245c491f621a9a742bffc", null ],
+    [ "dynamicColumns_impl", "class_acts_plugins_1_1_const_podio_track_state_container.html#afbd1387df42ae5cfbdececbd3c2f713a", null ],
     [ "dynamicKeys_impl", "class_acts_plugins_1_1_const_podio_track_state_container.html#a384bd35dd7691fab4730f5f40e87e8e9", null ],
     [ "getUncalibratedSourceLink_impl", "class_acts_plugins_1_1_const_podio_track_state_container.html#a28122a4c113aaa597d1906cd51bf7c37", null ],
     [ "has_impl", "class_acts_plugins_1_1_const_podio_track_state_container.html#a594eda454005b82d84e45fae746d5849", null ],

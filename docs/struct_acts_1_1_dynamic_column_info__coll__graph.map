@@ -1,0 +1,7 @@
+<map id="Acts::DynamicColumnInfo" name="Acts::DynamicColumnInfo">
+<area shape="rect" id="Node000001" title="Description of one dynamic track or track&#45;state column." alt="" coords="5,200,196,228"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="38,99,163,127"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,141,103,200,98,199,98,144"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="18,5,183,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="102,63,103,99,98,98,99,68"/>
+</map>

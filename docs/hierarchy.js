@@ -205,6 +205,7 @@ var hierarchy =
     ] ],
     [ "Acts::DoubletsForMiddleSp::SortStorage", "struct_acts_1_1_doublets_for_middle_sp_1_1_sort_storage.html", null ],
     [ "Acts::DummyVertexFitter&lt; linearizer_t &gt;", "class_acts_1_1_dummy_vertex_fitter.html", null ],
+    [ "Acts::DynamicColumnInfo", "struct_acts_1_1_dynamic_column_info.html", null ],
     [ "Acts::EigenStepper&lt; extension_t &gt;", "class_acts_1_1_eigen_stepper.html", null ],
     [ "Acts::EigenStepper&lt; extension_t &gt;::Config", "struct_acts_1_1_eigen_stepper_1_1_config.html", null ],
     [ "Acts::EigenStepper&lt; extension_t &gt;::State", "struct_acts_1_1_eigen_stepper_1_1_state.html", null ],

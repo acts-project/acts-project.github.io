@@ -211,6 +211,8 @@ requires (!<a class="el" href="#ab32b67162e716863c0c2f548869fa4ad">ReadOnly</a>)
 <tr class="memdesc:a3e0560323cb9b4aba2b177c3c8fcbe07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if this track container has a specific dynamic column.  <br /></td></tr>
 <tr class="memitem:a0183e98858384712e5734d068ffecd95" id="r_a0183e98858384712e5734d068ffecd95"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0183e98858384712e5734d068ffecd95">hasColumn</a> (<a class="el" href="namespace_acts.html#a316aaac27fda3651c80ea8dfba83492a">HashedString</a> key) const</td></tr>
 <tr class="memdesc:a0183e98858384712e5734d068ffecd95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a this track container has a specific dynamic column.  <br /></td></tr>
+<tr class="memitem:aada4c792a433a1fc5f53294d4181ae01" id="r_aada4c792a433a1fc5f53294d4181ae01"><td class="memItemLeft" align="right" valign="top">detail::DynamicColumnInfoRange auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aada4c792a433a1fc5f53294d4181ae01">dynamicColumns</a> () const</td></tr>
+<tr class="memdesc:aada4c792a433a1fc5f53294d4181ae01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterate over dynamic track columns in unspecified order.  <br /></td></tr>
 <tr class="memitem:a060725fae2df6b7da18021db77b6c928" id="r_a060725fae2df6b7da18021db77b6c928"><td class="memTemplParams" colspan="2">template&lt;typename other_track_container_t&gt; <br />
 requires (!<a class="el" href="#ab32b67162e716863c0c2f548869fa4ad">ReadOnly</a>)</td></tr>
 <tr class="memitem:a060725fae2df6b7da18021db77b6c928 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a060725fae2df6b7da18021db77b6c928">ensureDynamicColumns</a> (const other_track_container_t &amp;other)</td></tr>
@@ -304,9 +306,9 @@ template&lt;<a class="el" href="#a45b0ce734d8362c504a5c30a7ba66d36">TrackContain
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">      detail::ContainerIterator&lt;<a class="code hl_function" href="#a07beaefd0db45948f7b83382c6c3a72a">TrackContainer</a>, <a class="code hl_typedef" href="#a9db8b5d5e46bfab8195539053a402341">ConstTrackProxy</a>, <a class="code hl_typedef" href="#ab953d1a3185a9004c6795dbeb25f4a54">IndexType</a>,</div>
 <div class="line">                                <span class="keyword">true</span>&gt;</div>
-<div class="ttc" id="aclass_acts_1_1_track_container_html_a07beaefd0db45948f7b83382c6c3a72a"><div class="ttname"><a href="#a07beaefd0db45948f7b83382c6c3a72a">Acts::TrackContainer::TrackContainer</a></div><div class="ttdeci">TrackContainer(holder_t&lt; track_container_t &gt; container, holder_t&lt; traj_t &gt; traj)</div><div class="ttdoc">Constructor from a track container backend and a track state container backend.</div><div class="ttdef"><b>Definition</b> TrackContainer.hpp:118</div></div>
-<div class="ttc" id="aclass_acts_1_1_track_container_html_a9db8b5d5e46bfab8195539053a402341"><div class="ttname"><a href="#a9db8b5d5e46bfab8195539053a402341">Acts::TrackContainer::ConstTrackProxy</a></div><div class="ttdeci">Acts::TrackProxy&lt; track_container_t, traj_t, holder_t, true &gt; ConstTrackProxy</div><div class="ttdoc">Alias for the const version of a track proxy, with the same backends as this container.</div><div class="ttdef"><b>Definition</b> TrackContainer.hpp:69</div></div>
-<div class="ttc" id="aclass_acts_1_1_track_container_html_ab953d1a3185a9004c6795dbeb25f4a54"><div class="ttname"><a href="#ab953d1a3185a9004c6795dbeb25f4a54">Acts::TrackContainer::IndexType</a></div><div class="ttdeci">TrackIndexType IndexType</div><div class="ttdoc">The index type of the track container, taken from the container backend.</div><div class="ttdef"><b>Definition</b> TrackContainer.hpp:57</div></div>
+<div class="ttc" id="aclass_acts_1_1_track_container_html_a07beaefd0db45948f7b83382c6c3a72a"><div class="ttname"><a href="#a07beaefd0db45948f7b83382c6c3a72a">Acts::TrackContainer::TrackContainer</a></div><div class="ttdeci">TrackContainer(holder_t&lt; track_container_t &gt; container, holder_t&lt; traj_t &gt; traj)</div><div class="ttdoc">Constructor from a track container backend and a track state container backend.</div><div class="ttdef"><b>Definition</b> TrackContainer.hpp:119</div></div>
+<div class="ttc" id="aclass_acts_1_1_track_container_html_a9db8b5d5e46bfab8195539053a402341"><div class="ttname"><a href="#a9db8b5d5e46bfab8195539053a402341">Acts::TrackContainer::ConstTrackProxy</a></div><div class="ttdeci">Acts::TrackProxy&lt; track_container_t, traj_t, holder_t, true &gt; ConstTrackProxy</div><div class="ttdoc">Alias for the const version of a track proxy, with the same backends as this container.</div><div class="ttdef"><b>Definition</b> TrackContainer.hpp:70</div></div>
+<div class="ttc" id="aclass_acts_1_1_track_container_html_ab953d1a3185a9004c6795dbeb25f4a54"><div class="ttname"><a href="#ab953d1a3185a9004c6795dbeb25f4a54">Acts::TrackContainer::IndexType</a></div><div class="ttdeci">TrackIndexType IndexType</div><div class="ttdoc">The index type of the track container, taken from the container backend.</div><div class="ttdef"><b>Definition</b> TrackContainer.hpp:58</div></div>
 </div><!-- fragment -->
 <p>Type alias for const iterator over tracks in container. </p>
 
@@ -348,7 +350,7 @@ template&lt;<a class="el" href="#a45b0ce734d8362c504a5c30a7ba66d36">TrackContain
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">      <span class="keyword">typename</span> <a class="code hl_typedef" href="class_acts_1_1_multi_trajectory.html#aa515e9bdd41bd33a4561e4e28a2f6d7d">MultiTrajectory&lt;traj_t&gt;::ConstTrackStateProxy</a></div>
-<div class="ttc" id="aclass_acts_1_1_multi_trajectory_html_aa515e9bdd41bd33a4561e4e28a2f6d7d"><div class="ttname"><a href="class_acts_1_1_multi_trajectory.html#aa515e9bdd41bd33a4561e4e28a2f6d7d">Acts::MultiTrajectory::ConstTrackStateProxy</a></div><div class="ttdeci">Acts::TrackStateProxy&lt; Derived, MeasurementSizeMax, true &gt; ConstTrackStateProxy</div><div class="ttdoc">Alias for the const version of a track state proxy, with the same backends as this container.</div><div class="ttdef"><b>Definition</b> MultiTrajectory.hpp:164</div></div>
+<div class="ttc" id="aclass_acts_1_1_multi_trajectory_html_aa515e9bdd41bd33a4561e4e28a2f6d7d"><div class="ttname"><a href="class_acts_1_1_multi_trajectory.html#aa515e9bdd41bd33a4561e4e28a2f6d7d">Acts::MultiTrajectory::ConstTrackStateProxy</a></div><div class="ttdeci">Acts::TrackStateProxy&lt; Derived, MeasurementSizeMax, true &gt; ConstTrackStateProxy</div><div class="ttdoc">Alias for the const version of a track state proxy, with the same backends as this container.</div><div class="ttdef"><b>Definition</b> MultiTrajectory.hpp:165</div></div>
 </div><!-- fragment -->
 <p>Type alias for const track state proxy from multi-trajectory. </p>
 
@@ -984,6 +986,28 @@ template&lt;<a class="el" href="#a45b0ce734d8362c504a5c30a7ba66d36">TrackContain
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Const covariance matrix for the track </dd></dl>
+
+</div>
+</div>
+<a id="aada4c792a433a1fc5f53294d4181ae01" name="aada4c792a433a1fc5f53294d4181ae01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aada4c792a433a1fc5f53294d4181ae01">&#9670;&#160;</a></span>dynamicColumns()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="#a45b0ce734d8362c504a5c30a7ba66d36">TrackContainerBackend</a> track_container_t, CommonMultiTrajectoryBackend traj_t, template&lt; typename &gt; class holder_t = RefHolder&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">detail::DynamicColumnInfoRange auto <a class="el" href="class_acts_1_1_track_container.html">Acts::TrackContainer</a>&lt; track_container_t, traj_t, holder_t &gt;::dynamicColumns </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Iterate over dynamic track columns in unspecified order. </p>
+<dl class="section return"><dt>Returns</dt><dd>An input range of DynamicColumnInfo. Keep the backend alive and its column schema unchanged while using the range or its borrowed names. </dd></dl>
 
 </div>
 </div>
@@ -1623,7 +1647,7 @@ template&lt;<a class="el" href="#a45b0ce734d8362c504a5c30a7ba66d36">TrackContain
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">=</div>
 <div class="line">      <a class="code hl_struct" href="struct_acts_1_1_is_read_only_track_container.html">IsReadOnlyTrackContainer&lt;track_container_t&gt;::value</a></div>
-<div class="ttc" id="astruct_acts_1_1_is_read_only_track_container_html"><div class="ttname"><a href="struct_acts_1_1_is_read_only_track_container.html">Acts::IsReadOnlyTrackContainer</a></div><div class="ttdef"><b>Definition</b> TrackContainer.hpp:29</div></div>
+<div class="ttc" id="astruct_acts_1_1_is_read_only_track_container_html"><div class="ttname"><a href="struct_acts_1_1_is_read_only_track_container.html">Acts::IsReadOnlyTrackContainer</a></div><div class="ttdef"><b>Definition</b> TrackContainer.hpp:30</div></div>
 </div><!-- fragment -->
 <p>Indicates if this track container is read-only, or if it can be modified. </p>
 
@@ -1652,7 +1676,7 @@ template&lt;<a class="el" href="#a45b0ce734d8362c504a5c30a7ba66d36">TrackContain
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">=</div>
 <div class="line">      <a class="code hl_struct" href="struct_acts_1_1_is_read_only_multi_trajectory.html">IsReadOnlyMultiTrajectory&lt;traj_t&gt;::value</a></div>
-<div class="ttc" id="astruct_acts_1_1_is_read_only_multi_trajectory_html"><div class="ttname"><a href="struct_acts_1_1_is_read_only_multi_trajectory.html">Acts::IsReadOnlyMultiTrajectory</a></div><div class="ttdef"><b>Definition</b> MultiTrajectory.hpp:130</div></div>
+<div class="ttc" id="astruct_acts_1_1_is_read_only_multi_trajectory_html"><div class="ttname"><a href="struct_acts_1_1_is_read_only_multi_trajectory.html">Acts::IsReadOnlyMultiTrajectory</a></div><div class="ttdef"><b>Definition</b> MultiTrajectory.hpp:131</div></div>
 </div><!-- fragment -->
 <p>Indicates if the track state container is read-only, or if it can be modified. </p>
 

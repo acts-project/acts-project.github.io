@@ -1,5 +1,13 @@
 var NAVTREEINDEX64 =
 {
+"namespacedetray.html#a02e56f75b41d3bac65106c1d7539361e":[6,0,4,298],
+"namespacedetray.html#a038943d215783b0440e655c989e75f49":[6,0,4,283],
+"namespacedetray.html#a087815734f9865720d29baa593927e70":[6,0,4,215],
+"namespacedetray.html#a09e7b970c323a9fc8814a5f21aeb3f14":[6,0,4,230],
+"namespacedetray.html#a0c5c0311f889f3ba670511f831e83dac":[6,0,4,291],
+"namespacedetray.html#a0eaff5b027cc09d73eba1875c3451306":[6,0,4,243],
+"namespacedetray.html#a1242e1f4905b373d8eb861c8096f77cf":[6,0,4,280],
+"namespacedetray.html#a148fa362c44eaccc67cd663d6b78c62d":[6,0,4,278],
 "namespacedetray.html#a18d3284d9cff492a26241551ae8444c5":[6,0,4,299],
 "namespacedetray.html#a18ed1845ba44169fa8d052d353821c01":[6,0,4,221],
 "namespacedetray.html#a1a50c5be67a065f89787333a47f86bef":[6,0,4,245],
@@ -241,13 +249,5 @@ var NAVTREEINDEX64 =
 "struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_config.html#a6949275c388d6517986985614c617d03":[8,0,0,20,0,8],
 "struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_config.html#abbcff7b034827a5ff7a1cbc10cc8a60c":[6,0,0,14,0,5],
 "struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_config.html#abbcff7b034827a5ff7a1cbc10cc8a60c":[8,0,0,20,0,5],
-"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_config.html#ad6bda7fd1be088f6f2ed50c73d960acf":[6,0,0,14,0,6],
-"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_config.html#ad6bda7fd1be088f6f2ed50c73d960acf":[8,0,0,20,0,6],
-"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_config.html#ad8c42ed575063e21943582bb72f6f89a":[6,0,0,14,0,1],
-"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_config.html#ad8c42ed575063e21943582bb72f6f89a":[8,0,0,20,0,1],
-"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_config.html#aee7271fa9069344b35b8802b82963956":[6,0,0,14,0,2],
-"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_config.html#aee7271fa9069344b35b8802b82963956":[8,0,0,20,0,2],
-"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_config.html#af405fd66dac948abd0deebc4e1f66494":[6,0,0,14,0,4],
-"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_config.html#af405fd66dac948abd0deebc4e1f66494":[8,0,0,20,0,4],
-"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_state.html":[6,0,0,14,1]
+"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_config.html#ad6bda7fd1be088f6f2ed50c73d960acf":[6,0,0,14,0,6]
 };

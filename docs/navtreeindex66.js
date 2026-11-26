@@ -1,5 +1,13 @@
 var NAVTREEINDEX66 =
 {
+"struct_acts_1_1_binned_surface_material_accumulator_1_1_config.html":[5,3,2,0,3,0],
+"struct_acts_1_1_binned_surface_material_accumulator_1_1_config.html#a076bdf5eb88751fcac1e8b1069a41982":[5,3,2,0,3,0,1],
+"struct_acts_1_1_binned_surface_material_accumulator_1_1_config.html#ae69930fa2dc55092a18ebb7edbe8a076":[5,3,2,0,3,0,0],
+"struct_acts_1_1_binned_surface_material_accumulator_1_1_state.html":[5,3,2,0,3,1],
+"struct_acts_1_1_binned_surface_material_accumulator_1_1_state.html#a0eecbe30758e6a22f756ac29aedd524f":[5,3,2,0,3,1,0],
+"struct_acts_1_1_binned_surface_material_accumulator_1_1_state.html#a3860dc4fc67c51f34858e344888f837b":[5,3,2,0,3,1,1],
+"struct_acts_1_1_binned_surface_material_accumulator_1_1_state.html#a91069fd60a6a8c260ddafa1b880fff6f":[5,3,2,0,3,1,2],
+"struct_acts_1_1_blueprint_1_1_config.html":[6,0,0,54,0],
 "struct_acts_1_1_blueprint_1_1_config.html":[8,0,0,60,0],
 "struct_acts_1_1_blueprint_1_1_config.html#a4646b7821aa7f6df65f22f230b244df6":[6,0,0,54,0,0],
 "struct_acts_1_1_blueprint_1_1_config.html#a4646b7821aa7f6df65f22f230b244df6":[8,0,0,60,0,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX66 =
 "struct_acts_1_1_combinatorial_kalman_filter_result.html#ab850eaba1be89fd518a10e150a4f5d08":[5,9,1,4,1],
 "struct_acts_1_1_combinatorial_kalman_filter_result.html#ac873f603dc57e07b43867ce2ef66e203":[5,9,1,4,9],
 "struct_acts_1_1_combinatorial_kalman_filter_result.html#ad2700e631c01f620f6f9a3cc918cbf8e":[5,9,1,4,6],
-"struct_acts_1_1_combinatorial_kalman_filter_result.html#aee765c2e0fc9de1426e4c26bdb9d5974":[5,9,1,4,0],
-"struct_acts_1_1_const_ref_holder.html":[6,0,0,83],
-"struct_acts_1_1_const_ref_holder.html":[8,0,0,89],
-"struct_acts_1_1_const_ref_holder.html#a09d489a74747538869ede43dcfeea567":[6,0,0,83,1],
-"struct_acts_1_1_const_ref_holder.html#a09d489a74747538869ede43dcfeea567":[8,0,0,89,1],
-"struct_acts_1_1_const_ref_holder.html#a1a9fe3fc666fb642e0cd366d211a8dc3":[6,0,0,83,3],
-"struct_acts_1_1_const_ref_holder.html#a1a9fe3fc666fb642e0cd366d211a8dc3":[8,0,0,89,3],
-"struct_acts_1_1_const_ref_holder.html#a835704cb5dca05096a16a6b0ccd447ab":[6,0,0,83,5],
-"struct_acts_1_1_const_ref_holder.html#a835704cb5dca05096a16a6b0ccd447ab":[8,0,0,89,5]
+"struct_acts_1_1_combinatorial_kalman_filter_result.html#aee765c2e0fc9de1426e4c26bdb9d5974":[5,9,1,4,0]
 };

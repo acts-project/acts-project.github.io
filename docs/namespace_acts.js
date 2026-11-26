@@ -196,6 +196,7 @@ var namespace_acts =
     [ "DoubletSeedFinder", "class_acts_1_1_doublet_seed_finder.html", "class_acts_1_1_doublet_seed_finder" ],
     [ "DoubletsForMiddleSp", "class_acts_1_1_doublets_for_middle_sp.html", "class_acts_1_1_doublets_for_middle_sp" ],
     [ "DummyVertexFitter", "class_acts_1_1_dummy_vertex_fitter.html", "class_acts_1_1_dummy_vertex_fitter" ],
+    [ "DynamicColumnInfo", "struct_acts_1_1_dynamic_column_info.html", "struct_acts_1_1_dynamic_column_info" ],
     [ "EigenStepper", "class_acts_1_1_eigen_stepper.html", "class_acts_1_1_eigen_stepper" ],
     [ "EigenStepperDefaultExtension", "struct_acts_1_1_eigen_stepper_default_extension.html", "struct_acts_1_1_eigen_stepper_default_extension" ],
     [ "EigenStepperDenseExtension", "struct_acts_1_1_eigen_stepper_dense_extension.html", "struct_acts_1_1_eigen_stepper_dense_extension" ],

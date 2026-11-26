@@ -151,6 +151,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a15307a8639838a72c83f7b7519906a60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get component implementation.  <br /></td></tr>
 <tr class="memitem:a6129b309b8e11952e7181c5922a6e518" id="r_a6129b309b8e11952e7181c5922a6e518"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_plugins_1_1_podio_track_container_base.html#a4c3e6f7a7d0e05319f07085c4c760252">ConstCovariance</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6129b309b8e11952e7181c5922a6e518">covariance</a> (<a class="el" href="class_acts_plugins_1_1_podio_track_container_base.html#ab99b151717b2d87edf4b1893c1fdb4d1">IndexType</a> itrack) const</td></tr>
 <tr class="memdesc:a6129b309b8e11952e7181c5922a6e518"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get track covariance.  <br /></td></tr>
+<tr class="memitem:a904534bd00358bf64b9f2f20fa6f03ba" id="r_a904534bd00358bf64b9f2f20fa6f03ba"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a904534bd00358bf64b9f2f20fa6f03ba">dynamicColumns_impl</a> () const</td></tr>
 <tr class="memitem:ac6f3e7198243122620eef4d8ea275806" id="r_ac6f3e7198243122620eef4d8ea275806"><td class="memItemLeft" align="right" valign="top">Acts::detail::DynamicKeyRange&lt; podio_detail::ConstDynamicColumnBase &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6f3e7198243122620eef4d8ea275806">dynamicKeys_impl</a> () const</td></tr>
 <tr class="memdesc:ac6f3e7198243122620eef4d8ea275806"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get dynamic keys implementation.  <br /></td></tr>
 <tr class="memitem:a2974d671103353c2508bc40e0a7e3280" id="r_a2974d671103353c2508bc40e0a7e3280"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2974d671103353c2508bc40e0a7e3280">hasColumn_impl</a> (<a class="el" href="namespace_acts.html#a316aaac27fda3651c80ea8dfba83492a">Acts::HashedString</a> key) const</td></tr>
@@ -344,6 +345,26 @@ template&lt;template&lt; typename... &gt; class holder_t&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Track covariance matrix </dd></dl>
+
+</div>
+</div>
+<a id="a904534bd00358bf64b9f2f20fa6f03ba" name="a904534bd00358bf64b9f2f20fa6f03ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a904534bd00358bf64b9f2f20fa6f03ba">&#9670;&#160;</a></span>dynamicColumns_impl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;template&lt; typename... &gt; class holder_t&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto <a class="el" href="class_acts_plugins_1_1_const_podio_track_container.html">ActsPlugins::ConstPodioTrackContainer</a>&lt; holder_t &gt;::dynamicColumns_impl </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>A lazy range of descriptors for the dynamic track columns. </dd></dl>
 
 </div>
 </div>

@@ -121,5 +121,6 @@ var searchData=
   ['doubletsformiddlesp_118',['DoubletsForMiddleSp',['../class_acts_1_1_doublets_for_middle_sp.html',1,'Acts']]],
   ['dummyvertexfitter_119',['DummyVertexFitter',['../class_acts_1_1_dummy_vertex_fitter.html',1,'Acts']]],
   ['dwalktrackbuilding_120',['DWalkTrackBuilding',['../class_acts_plugins_1_1_d_walk_track_building.html',1,'ActsPlugins']]],
-  ['dynamic_5farray_121',['dynamic_array',['../classdetray_1_1bins_1_1dynamic__array.html',1,'detray::bins']]]
+  ['dynamic_5farray_121',['dynamic_array',['../classdetray_1_1bins_1_1dynamic__array.html',1,'detray::bins']]],
+  ['dynamiccolumninfo_122',['DynamicColumnInfo',['../struct_acts_1_1_dynamic_column_info.html',1,'Acts']]]
 ];
