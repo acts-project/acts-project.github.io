@@ -25,7 +25,7 @@ var searchData=
   ['abi_22',['The module ABI',['../group__geometry__module__loading.html#autotoc_md2',1,'']]],
   ['abi_20compatibility_23',['ABI compatibility',['../group__geometry__module__loading.html#autotoc_md3',1,'']]],
   ['about_24',['Limitations you should know about',['../material_mapping_howto.html#autotoc_md163',1,'']]],
-  ['acceptance_25',['Machine-learning assisted acceptance',['../group__gbts.html#gbts-ml',1,'']]],
+  ['acceptance_25',['Cluster-width acceptance',['../group__gbts.html#gbts-cluster-width',1,'']]],
   ['accessors_26',['Accessors',['../group__eventdata__tracks.html#edm_track_accessors',1,'']]],
   ['acts_27',['ACTS',['../group__eventdata__tracks.html#autotoc_md30',1,'Backends shipped with ACTS'],['../building_acts.html',1,'Building ACTS'],['../building_acts.html#building-acts',1,'Building ACTS'],['../group__errors.html#autotoc_md20',1,'Error Handling in ACTS']]],
   ['acts_20alignment_20parameter_20convention_28',['ACTS alignment parameter convention',['../alignment_composite_jacobians.html#autotoc_md95',1,'']]],
@@ -78,10 +78,9 @@ var searchData=
   ['as_20a_20mixture_75',['Bethe–Heitler energy loss as a mixture',['../group__gsf.html#gsf-bethe-heitler',1,'']]],
   ['assignment_20keys_76',['assignment keys',['../material_mapping_howto.html#autotoc_md156',1,'Stable surface assignment keys'],['../material_map_json_format.html#autotoc_md173',1,'Stable surface assignment keys']]],
   ['assignments_77',['Document and assignments',['../material_map_json_schema.html#autotoc_md174',1,'']]],
-  ['assisted_20acceptance_78',['Machine-learning assisted acceptance',['../group__gbts.html#gbts-ml',1,'']]],
-  ['assumes_79',['The shape the covariance transport assumes',['../codegen_sympy_jac.html#autotoc_md90',1,'']]],
-  ['at_20the_20target_20surface_80',['\\(J_{fb}\\) — free to bound at the target surface',['../codegen_sympy_jac.html#autotoc_md86',1,'']]],
-  ['atlas_20arrangement_81',['The ATLAS arrangement',['../group__sympy__codegen.html#autotoc_md77',1,'']]],
-  ['available_20histograms_82',['Available histograms',['../group__python__performance__plotting.html#autotoc_md69',1,'']]],
-  ['axes_20and_20storage_83',['Axes and storage',['../material_map_json_schema.html#autotoc_md177',1,'']]]
+  ['assumes_78',['The shape the covariance transport assumes',['../codegen_sympy_jac.html#autotoc_md90',1,'']]],
+  ['at_20the_20target_20surface_79',['\\(J_{fb}\\) — free to bound at the target surface',['../codegen_sympy_jac.html#autotoc_md86',1,'']]],
+  ['atlas_20arrangement_80',['The ATLAS arrangement',['../group__sympy__codegen.html#autotoc_md77',1,'']]],
+  ['available_20histograms_81',['Available histograms',['../group__python__performance__plotting.html#autotoc_md69',1,'']]],
+  ['axes_20and_20storage_82',['Axes and storage',['../material_map_json_schema.html#autotoc_md177',1,'']]]
 ];
