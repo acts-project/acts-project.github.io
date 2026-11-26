@@ -1,5 +1,7 @@
 var NAVTREEINDEX95 =
 {
+"structdetray_1_1material__rod.html#a6af86c144bcec9e81eea3fe02c397695":[8,0,3,136,6],
+"structdetray_1_1material__rod.html#a6af92f8e67f90dda412ef65cb163f302":[6,0,4,123,8],
 "structdetray_1_1material__rod.html#a6af92f8e67f90dda412ef65cb163f302":[8,0,3,136,8],
 "structdetray_1_1material__rod.html#a77787bcacc2ffb4c59e60e84dca07a4e":[6,0,4,123,3],
 "structdetray_1_1material__rod.html#a77787bcacc2ffb4c59e60e84dca07a4e":[8,0,3,136,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX95 =
 "structdetray_1_1polar2_d.html#aacf027d1e6cf103f07e19798abe5a772":[8,0,3,153,11],
 "structdetray_1_1polar2_d.html#ae13812396595c8590882f725e8343b2f":[6,0,4,140,1],
 "structdetray_1_1polar2_d.html#ae13812396595c8590882f725e8343b2f":[8,0,3,153,1],
-"structdetray_1_1polar2_d.html#aff0949b56c10e5a58ba0b8b5ab1145a2":[6,0,4,140,5],
-"structdetray_1_1polar2_d.html#aff0949b56c10e5a58ba0b8b5ab1145a2":[8,0,3,153,5],
-"structdetray_1_1positron.html":[6,0,4,141]
+"structdetray_1_1polar2_d.html#aff0949b56c10e5a58ba0b8b5ab1145a2":[6,0,4,140,5]
 };

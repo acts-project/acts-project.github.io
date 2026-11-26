@@ -1,6 +1,7 @@
 var struct_acts_1_1_iterative_vertex_finder_1_1_config =
 [
-    [ "Config", "struct_acts_1_1_iterative_vertex_finder_1_1_config.html#af806c12e1816b9853adf820518781230", null ],
+    [ "Config", "struct_acts_1_1_iterative_vertex_finder_1_1_config.html#ac112f3d024ca5f8cc7ac7e3ca0a1b2a3", null ],
+    [ "Config", "struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a749be021f060f01ab29b16cff9f4c882", null ],
     [ "createSplitVertices", "struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a6a107e61a7e5badaa03f648003eadf6b", null ],
     [ "cutOffTrackWeight", "struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a2d892ab7ff1cc04e3151fed006fa4ffd", null ],
     [ "cutOffTrackWeightReassign", "struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a6888632012c244a8c48de9f35dcec4a3", null ],
@@ -16,5 +17,5 @@ var struct_acts_1_1_iterative_vertex_finder_1_1_config =
     [ "significanceCutSeeding", "struct_acts_1_1_iterative_vertex_finder_1_1_config.html#ac5a0bdaaa79fb7330d869fc1cb6223b1", null ],
     [ "splitVerticesTrkInvFraction", "struct_acts_1_1_iterative_vertex_finder_1_1_config.html#ad9af2c845a6e72f7b163c81be0047d41", null ],
     [ "trackLinearizer", "struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a48a09e1ed681323cb1e44849eafb6b86", null ],
-    [ "vertexFitter", "struct_acts_1_1_iterative_vertex_finder_1_1_config.html#aeccdf111e152fca06b56cd1c4ddd9b57", null ]
+    [ "vertexFitter", "struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a63144ad3127944565080cd1192ada578", null ]
 ];

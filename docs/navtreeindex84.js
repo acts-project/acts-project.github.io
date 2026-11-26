@@ -1,5 +1,7 @@
 var NAVTREEINDEX84 =
 {
+"struct_acts_plugins_1_1_detray_surface_grid_config.html#afca87f981ab7566faf53ff1078a71ace":[6,0,3,14,4],
+"struct_acts_plugins_1_1_detray_surface_grid_config.html#afca87f981ab7566faf53ff1078a71ace":[8,0,2,19,4],
 "struct_acts_plugins_1_1_device.html":[5,10,6,2],
 "struct_acts_plugins_1_1_device.html#a4e675967a57061838705d12784d93f72":[5,10,6,2,3],
 "struct_acts_plugins_1_1_device.html#a6f4a90fb663d1a054e7217269d41755d":[5,10,6,2,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX84 =
 "struct_acts_plugins_1_1_svg_1_1_surface_converter_1_1_options.html#afd570aef13f92a772d56ea684e99edaf":[5,10,0,7,1],
 "struct_acts_plugins_1_1_svg_1_1_tracking_geometry_converter_1_1_options.html":[5,10,0,8],
 "struct_acts_plugins_1_1_svg_1_1_tracking_geometry_converter_1_1_options.html#aeacc9061e45a28b62ab076884c010434":[5,10,0,8,0],
-"struct_acts_plugins_1_1_svg_1_1_tracking_geometry_converter_1_1_options.html#aff4f2b12cecf7a3006aceb9ac49e4727":[5,10,0,8,1],
-"struct_acts_plugins_1_1_svg_1_1_tracking_geometry_converter_1_1_state.html":[5,10,0,9],
-"struct_acts_plugins_1_1_svg_1_1_tracking_geometry_converter_1_1_state.html#a645d52940fbe91498edd3c6cd81cce23":[5,10,0,9,0]
+"struct_acts_plugins_1_1_svg_1_1_tracking_geometry_converter_1_1_options.html#aff4f2b12cecf7a3006aceb9ac49e4727":[5,10,0,8,1]
 };

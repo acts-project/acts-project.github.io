@@ -1,5 +1,7 @@
 var NAVTREEINDEX97 =
 {
+"structdetray_1_1random__track__generator__config.html#a8c2941226459f6ae333a3a8effccf80a":[6,0,4,147,18],
+"structdetray_1_1random__track__generator__config.html#a8c2941226459f6ae333a3a8effccf80a":[8,0,3,160,18],
 "structdetray_1_1random__track__generator__config.html#a9977817692331abc692b7c1fd826dd79":[6,0,4,147,30],
 "structdetray_1_1random__track__generator__config.html#a9977817692331abc692b7c1fd826dd79":[8,0,3,160,30],
 "structdetray_1_1random__track__generator__config.html#a9ae0744648d94c6a34548f92331b1b42":[6,0,4,147,13],
@@ -247,7 +249,5 @@ var NAVTREEINDEX97 =
 "structdetray_1_1ray__intersector__impl_3_01cartesian2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#a7956ffef5f3edf749e041d156d775862":[8,0,3,166,9],
 "structdetray_1_1ray__intersector__impl_3_01cartesian2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#a98c93859ea8d9791ab7c5ab020c1c362":[6,0,4,153,12],
 "structdetray_1_1ray__intersector__impl_3_01cartesian2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#a98c93859ea8d9791ab7c5ab020c1c362":[8,0,3,166,12],
-"structdetray_1_1ray__intersector__impl_3_01cartesian2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#a9e24b237f56863f47c91d7ccd0341de5":[6,0,4,153,0],
-"structdetray_1_1ray__intersector__impl_3_01cartesian2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#a9e24b237f56863f47c91d7ccd0341de5":[6,0,4,153,1],
-"structdetray_1_1ray__intersector__impl_3_01cartesian2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#a9e24b237f56863f47c91d7ccd0341de5":[8,0,3,166,0]
+"structdetray_1_1ray__intersector__impl_3_01cartesian2_d_3_01algebra__t_01_4_00_01algebra__t_00_01resolve__pos_01_4.html#a9e24b237f56863f47c91d7ccd0341de5":[6,0,4,153,0]
 };

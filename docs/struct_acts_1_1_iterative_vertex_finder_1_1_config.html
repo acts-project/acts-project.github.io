@@ -138,8 +138,10 @@ Collaboration diagram for Acts::IterativeVertexFinder::Config:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af806c12e1816b9853adf820518781230" id="r_af806c12e1816b9853adf820518781230"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af806c12e1816b9853adf820518781230">Config</a> (VertexFitter fitter, std::shared_ptr&lt; <a class="el" href="class_acts_1_1_i_vertex_finder.html">IVertexFinder</a> &gt; sfinder, <a class="el" href="class_acts_1_1_impact_point_estimator.html">ImpactPointEstimator</a> est)</td></tr>
-<tr class="memdesc:af806c12e1816b9853adf820518781230"><td class="mdescLeft">&#160;</td><td class="mdescRight">Config constructor.  <br /></td></tr>
+<tr class="memitem:a749be021f060f01ab29b16cff9f4c882" id="r_a749be021f060f01ab29b16cff9f4c882"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a749be021f060f01ab29b16cff9f4c882">Config</a> (<a class="el" href="class_acts_1_1_full_billoir_vertex_fitter.html">FullBilloirVertexFitter</a> fitter, std::shared_ptr&lt; <a class="el" href="class_acts_1_1_i_vertex_finder.html">IVertexFinder</a> &gt; sfinder, <a class="el" href="class_acts_1_1_impact_point_estimator.html">ImpactPointEstimator</a> est)</td></tr>
+<tr class="memdesc:a749be021f060f01ab29b16cff9f4c882"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct with a Billoir fitter by value.  <br /></td></tr>
+<tr class="memitem:ac112f3d024ca5f8cc7ac7e3ca0a1b2a3" id="r_ac112f3d024ca5f8cc7ac7e3ca0a1b2a3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac112f3d024ca5f8cc7ac7e3ca0a1b2a3">Config</a> (std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_i_vertex_fitter.html">IVertexFitter</a> &gt; fitter, std::shared_ptr&lt; <a class="el" href="class_acts_1_1_i_vertex_finder.html">IVertexFinder</a> &gt; sfinder, <a class="el" href="class_acts_1_1_impact_point_estimator.html">ImpactPointEstimator</a> est)</td></tr>
+<tr class="memdesc:ac112f3d024ca5f8cc7ac7e3ca0a1b2a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Config constructor.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -186,15 +188,15 @@ std::shared_ptr&lt; <a class="el" href="class_acts_1_1_i_vertex_finder.html">IVe
 <tr class="memitem:a48a09e1ed681323cb1e44849eafb6b86" id="r_a48a09e1ed681323cb1e44849eafb6b86"><td class="memItemLeft" align="right" valign="top"><a id="a48a09e1ed681323cb1e44849eafb6b86" name="a48a09e1ed681323cb1e44849eafb6b86"></a>
 <a class="el" href="namespace_acts.html#a3df450b01602da1fffed0a19b56b9f35">TrackLinearizer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>trackLinearizer</b></td></tr>
 <tr class="memdesc:a48a09e1ed681323cb1e44849eafb6b86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Track linearizer using a reusable magnetic field query. <br /></td></tr>
-<tr class="memitem:aeccdf111e152fca06b56cd1c4ddd9b57" id="r_aeccdf111e152fca06b56cd1c4ddd9b57"><td class="memItemLeft" align="right" valign="top"><a id="aeccdf111e152fca06b56cd1c4ddd9b57" name="aeccdf111e152fca06b56cd1c4ddd9b57"></a>
-VertexFitter&#160;</td><td class="memItemRight" valign="bottom"><b>vertexFitter</b></td></tr>
-<tr class="memdesc:aeccdf111e152fca06b56cd1c4ddd9b57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vertex fitter. <br /></td></tr>
+<tr class="memitem:a63144ad3127944565080cd1192ada578" id="r_a63144ad3127944565080cd1192ada578"><td class="memItemLeft" align="right" valign="top"><a id="a63144ad3127944565080cd1192ada578" name="a63144ad3127944565080cd1192ada578"></a>
+std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_i_vertex_fitter.html">IVertexFitter</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>vertexFitter</b></td></tr>
+<tr class="memdesc:a63144ad3127944565080cd1192ada578"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shared ownership of the single-vertex fitter; must not be null. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Configuration struct. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="af806c12e1816b9853adf820518781230" name="af806c12e1816b9853adf820518781230"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af806c12e1816b9853adf820518781230">&#9670;&#160;</a></span>Config()</h2>
+<a id="ac112f3d024ca5f8cc7ac7e3ca0a1b2a3" name="ac112f3d024ca5f8cc7ac7e3ca0a1b2a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac112f3d024ca5f8cc7ac7e3ca0a1b2a3">&#9670;&#160;</a></span>Config() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202,7 +204,7 @@ VertexFitter&#160;</td><td class="memItemRight" valign="bottom"><b>vertexFitter<
         <tr>
           <td class="memname">Acts::IterativeVertexFinder::Config::Config </td>
           <td>(</td>
-          <td class="paramtype">VertexFitter</td>          <td class="paramname"><span class="paramname"><em>fitter</em></span>, </td>
+          <td class="paramtype">std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_i_vertex_fitter.html">IVertexFitter</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>fitter</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -226,6 +228,43 @@ VertexFitter&#160;</td><td class="memItemRight" valign="bottom"><b>vertexFitter<
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a749be021f060f01ab29b16cff9f4c882" name="a749be021f060f01ab29b16cff9f4c882"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a749be021f060f01ab29b16cff9f4c882">&#9670;&#160;</a></span>Config() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Acts::IterativeVertexFinder::Config::Config </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_acts_1_1_full_billoir_vertex_fitter.html">FullBilloirVertexFitter</a></td>          <td class="paramname"><span class="paramname"><em>fitter</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_i_vertex_finder.html">IVertexFinder</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>sfinder</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_acts_1_1_impact_point_estimator.html">ImpactPointEstimator</a></td>          <td class="paramname"><span class="paramname"><em>est</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Construct with a Billoir fitter by value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fitter</td><td>Vertex fitter, moved into shared ownership </td></tr>
+    <tr><td class="paramname">sfinder</td><td>The seed finder </td></tr>
+    <tr><td class="paramname">est</td><td>ImpactPointEstimator </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000095">Deprecated</a></b></dt><dd>Pass a shared_ptr&lt;const IVertexFitter&gt; instead. </dd></dl>
 
 </div>
 </div>

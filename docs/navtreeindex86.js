@@ -1,5 +1,7 @@
 var NAVTREEINDEX86 =
 {
+"structdetray_1_1actor_1_1surface__sequencer.html#a2ddd9d0fdbb4375c6c3e3e06f579a16a":[8,0,3,0,13,1],
+"structdetray_1_1actor_1_1surface__sequencer_1_1state.html":[8,0,3,0,13,0],
 "structdetray_1_1actor_1_1surface__sequencer_1_1state.html#a0b5c815d22ea68eb85eb67cb4b0b5875":[8,0,3,0,13,0,5],
 "structdetray_1_1actor_1_1surface__sequencer_1_1state.html#a1c7fa3966ed7e7b12da7944d57ec0bb1":[8,0,3,0,13,0,2],
 "structdetray_1_1actor_1_1surface__sequencer_1_1state.html#a2054554d90e558752a0ca7802a159f5f":[8,0,3,0,13,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX86 =
 "structdetray_1_1algebra_1_1generic_1_1matrix_1_1inverse_1_1cofactor.html#a970623036e7613f46d64d167cbba63e0":[8,0,3,1,4,1,3,0,4],
 "structdetray_1_1algebra_1_1generic_1_1matrix_1_1inverse_1_1cofactor.html#a9fac06296f596e63743e5c4803bcb216":[8,0,3,1,4,1,3,0,2],
 "structdetray_1_1algebra_1_1generic_1_1matrix_1_1inverse_1_1cofactor.html#aa63d4d6ed2c8479074c693bb8d2aae4d":[8,0,3,1,4,1,3,0,0],
-"structdetray_1_1algebra_1_1generic_1_1matrix_1_1inverse_1_1cofactor.html#ac105c31f502ad655e19e00872dd50784":[8,0,3,1,4,1,3,0,1],
-"structdetray_1_1algebra_1_1generic_1_1matrix_1_1inverse_1_1hard__coded.html":[8,0,3,1,4,1,3,1],
-"structdetray_1_1algebra_1_1generic_1_1matrix_1_1inverse_1_1hard__coded.html#a388b2497f9bfa17d1bb976fe24bb29c5":[8,0,3,1,4,1,3,1,2]
+"structdetray_1_1algebra_1_1generic_1_1matrix_1_1inverse_1_1cofactor.html#ac105c31f502ad655e19e00872dd50784":[8,0,3,1,4,1,3,0,1]
 };

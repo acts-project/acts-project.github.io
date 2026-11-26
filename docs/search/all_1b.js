@@ -161,7 +161,7 @@ var searchData=
   ['vertexfitcandidate_158',['VertexFitCandidate',['../struct_acts_1_1_vertex_fit_candidate.html',1,'Acts::VertexFitCandidate'],['../struct_acts_1_1_vertex_fit_candidate.html#a25045f2fcbcaa54ca773a437e59d0e41',1,'Acts::VertexFitCandidate::VertexFitCandidate()']]],
   ['vertexfitinput_159',['VertexFitInput',['../struct_acts_1_1_vertex_fit_input.html',1,'Acts']]],
   ['vertexfitproblem_160',['VertexFitProblem',['../struct_acts_1_1_vertex_fit_problem.html',1,'Acts']]],
-  ['vertexfitter_161',['vertexFitter',['../struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#aaad39a5f1bb113fcf1cab7ae1a57708c',1,'Acts::AdaptiveMultiVertexFinder::Config::vertexFitter'],['../struct_acts_1_1_iterative_vertex_finder_1_1_config.html#aeccdf111e152fca06b56cd1c4ddd9b57',1,'Acts::IterativeVertexFinder::Config::vertexFitter']]],
+  ['vertexfitter_161',['vertexFitter',['../struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#aaad39a5f1bb113fcf1cab7ae1a57708c',1,'Acts::AdaptiveMultiVertexFinder::Config::vertexFitter'],['../struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a63144ad3127944565080cd1192ada578',1,'Acts::IterativeVertexFinder::Config::vertexFitter']]],
   ['vertexid_162',['vertexId',['../class_acts_fatras_1_1_barcode.html#a72fa866d380039da52dc1baa1fc7808c',1,'ActsFatras::Barcode']]],
   ['vertexinfo_163',['VertexInfo',['../struct_acts_1_1_vertex_info.html',1,'Acts::VertexInfo'],['../struct_acts_1_1_vertex_info.html#a50babdd609142438ac41d7ad7784a415',1,'Acts::VertexInfo::VertexInfo()']]],
   ['vertexing_164',['Vertexing',['../group__vertexing.html',1,'']]],
